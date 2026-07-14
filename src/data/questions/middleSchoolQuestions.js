@@ -13,7 +13,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-13$"
     ],
     "correct_index": 0,
-    "explanation": "$-5+8=3$.",
+    "explanation": "מחברים מספרים מכוונים: $(-5)+(+8)=-5++8=3$.",
     "type": "mcq"
   },
   {
@@ -29,7 +29,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "מחברים מספרים מכוונים: $(+6)+(-6)=6-6=0$."
   },
   {
     "id": "q-q-g7-signed-2",
@@ -44,7 +44,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-11$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "חיסור מספרים מכוונים: $(-6)-(+5)=-6-(5)=-11$."
   },
   {
     "id": "q-q-g7-signed-3",
@@ -59,7 +59,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "מחברים מספרים מכוונים: $(+7)+(-5)=7-5=2$."
   },
   {
     "id": "q-q-g7-signed-4",
@@ -74,7 +74,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "חיסור מספר שלילי שווה לחיבור הנגדי שלו: $(+9)-(-4)=9+4=13$."
   },
   {
     "id": "q-q-g7-signed-5",
@@ -89,7 +89,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "כפל מספרים מכוונים: סימנים זהים נותנים תוצאה חיובית. $5\\times 5=25$."
   },
   {
     "id": "q-q-g7-signed-6",
@@ -104,7 +104,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "כפל מספרים מכוונים: סימנים שונים נותנים תוצאה שלילית. $-2\\times 2=-4$."
   },
   {
     "id": "q-q-g7-signed-7",
@@ -119,7 +119,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-7$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "מחברים מספרים מכוונים: $(+6)+(-8)=6-8=-2$."
   },
   {
     "id": "q-q-g7-signed-8",
@@ -134,7 +134,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-17$"
     ],
     "correct_index": 3,
-    "explanation": "sum."
+    "explanation": "מחברים מספרים מכוונים: $(-9)+(-8)=-9-8=-17$."
   },
   {
     "id": "q-q-g7-signed-9",
@@ -149,7 +149,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-28$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "כפל מספרים מכוונים: סימנים שונים נותנים תוצאה שלילית. $-6\\times 4=-24$."
   },
   {
     "id": "q-q-g7-signed-10",
@@ -164,7 +164,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "חיסור מספר שלילי שווה לחיבור הנגדי שלו: $(+8)-(-5)=8+5=13$."
   },
   {
     "id": "q-q-g7-signed-11",
@@ -179,7 +179,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 1,
-    "explanation": "mul."
+    "explanation": "כפל מספרים מכוונים: סימנים זהים נותנים תוצאה חיובית. $2\\times 8=16$."
   },
   {
     "id": "q-q-g7-signed-12",
@@ -194,7 +194,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 1,
-    "explanation": "sum."
+    "explanation": "מחברים מספרים מכוונים: $(+3)+(+7)=3++7=10$."
   },
   {
     "id": "q-q-g7-signed-13",
@@ -209,7 +209,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "חיסור מספרים מכוונים: $(-1)-(-2)=-1-(-2)=1$."
   },
   {
     "id": "q-q-g7-signed-14",
@@ -224,7 +224,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "חיסור מספר שלילי שווה לחיבור הנגדי שלו: $(+1)-(-5)=1+5=6$."
   },
   {
     "id": "q-q-g7-signed-15",
@@ -239,7 +239,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "חיסור מספר שלילי שווה לחיבור הנגדי שלו: $(+9)-(-1)=9+1=10$."
   },
   {
     "id": "q-q-g7-signed-16",
@@ -254,7 +254,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 3,
-    "explanation": "sum."
+    "explanation": "מחברים מספרים מכוונים: $(-6)+(+2)=-6++2=-4$."
   },
   {
     "id": "q-q-g7-signed-17",
@@ -269,7 +269,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "כפל מספרים מכוונים: סימנים זהים נותנים תוצאה חיובית. $0\\times 6=0$."
   },
   {
     "id": "q-q-g7-signed-18",
@@ -284,7 +284,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "חיסור מספר שלילי שווה לחיבור הנגדי שלו: $(+0)-(-9)=0+9=9$."
   },
   {
     "id": "q-q-g7-signed-19",
@@ -299,7 +299,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 3,
-    "explanation": "sum."
+    "explanation": "מחברים מספרים מכוונים: $(+8)+(-8)=8-8=0$."
   },
   {
     "id": "q-g7-order-1",
@@ -329,7 +329,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$44$"
     ],
     "correct_index": 0,
-    "explanation": "sq."
+    "explanation": "החישוב: $7^{2}=49$."
   },
   {
     "id": "q-q-g7-order-powers-2",
@@ -344,7 +344,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 0,
-    "explanation": "PEMDAS."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $8\\times 3=24$, ואז $1+24=25$."
   },
   {
     "id": "q-q-g7-order-powers-3",
@@ -359,7 +359,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$77$"
     ],
     "correct_index": 1,
-    "explanation": "sq."
+    "explanation": "החישוב: $9^{2}=81$."
   },
   {
     "id": "q-q-g7-order-powers-4",
@@ -374,7 +374,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "PEMDAS."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $4\\times 2=8$, ואז $3+8=11$."
   },
   {
     "id": "q-q-g7-order-powers-5",
@@ -389,7 +389,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 3,
-    "explanation": "PEMDAS."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $5\\times 3=15$, ואז $2+15=17$."
   },
   {
     "id": "q-q-g7-order-powers-6",
@@ -404,7 +404,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$28$"
     ],
     "correct_index": 2,
-    "explanation": "paren."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $6+2=8$, ואז $8\\times 4=32$."
   },
   {
     "id": "q-q-g7-order-powers-7",
@@ -419,7 +419,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 3,
-    "explanation": "paren."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $7+2=9$, ואז $9\\times 2=18$."
   },
   {
     "id": "q-q-g7-order-powers-8",
@@ -434,7 +434,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 0,
-    "explanation": "paren."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $2+5=7$, ואז $7\\times 3=21$."
   },
   {
     "id": "q-q-g7-order-powers-9",
@@ -449,7 +449,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$32$"
     ],
     "correct_index": 1,
-    "explanation": "paren."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $4+2=6$, ואז $6\\times 6=36$."
   },
   {
     "id": "q-q-g7-order-powers-10",
@@ -464,7 +464,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "2^5=32."
+    "explanation": "החישוב: 2^5=32."
   },
   {
     "id": "q-q-g7-order-powers-11",
@@ -479,7 +479,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$505$"
     ],
     "correct_index": 2,
-    "explanation": "cube."
+    "explanation": "החישוב: $8^{3}=512$."
   },
   {
     "id": "q-q-g7-order-powers-12",
@@ -494,7 +494,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$343$"
     ],
     "correct_index": 3,
-    "explanation": "cube."
+    "explanation": "החישוב: $7^{3}=343$."
   },
   {
     "id": "q-q-g7-order-powers-13",
@@ -509,7 +509,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "PEMDAS."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $4\\times 3=12$, ואז $2+12=14$."
   },
   {
     "id": "q-q-g7-order-powers-14",
@@ -524,7 +524,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 0,
-    "explanation": "cube."
+    "explanation": "החישוב: $2^{3}=8$."
   },
   {
     "id": "q-q-g7-order-powers-15",
@@ -539,7 +539,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 1,
-    "explanation": "paren."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $2+4=6$, ואז $6\\times 3=18$."
   },
   {
     "id": "q-q-g7-order-powers-16",
@@ -554,7 +554,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 1,
-    "explanation": "sq."
+    "explanation": "החישוב: $4^{2}=16$."
   },
   {
     "id": "q-q-g7-order-powers-17",
@@ -569,7 +569,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 3,
-    "explanation": "paren."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $1+5=6$, ואז $6\\times 2=12$."
   },
   {
     "id": "q-q-g7-order-powers-18",
@@ -584,7 +584,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 2,
-    "explanation": "PEMDAS."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $5\\times 2=10$, ואז $1+10=11$."
   },
   {
     "id": "q-q-g7-order-powers-19",
@@ -599,7 +599,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "paren."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $4+3=7$, ואז $7\\times 2=14$."
   },
   {
     "id": "q-g7-expr-1",
@@ -613,7 +613,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$16$"
     ],
     "correct_index": 0,
-    "explanation": "$2\\cdot 3+5=11$.",
+    "explanation": "החישוב: $2\\cdot 3+5=11$.",
     "type": "mcq"
   },
   {
@@ -629,7 +629,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7x$"
     ],
     "correct_index": 3,
-    "explanation": "combine."
+    "explanation": "כינוס איברים דומים: $5x+2x=7x$."
   },
   {
     "id": "q-q-g7-algebra-expr-2",
@@ -644,7 +644,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "combine."
+    "explanation": "כינוס איברים דומים: $3x+5x=8x$."
   },
   {
     "id": "q-q-g7-algebra-expr-3",
@@ -659,7 +659,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x$"
     ],
     "correct_index": 2,
-    "explanation": "2x."
+    "explanation": "התשובה הנכונה היא $2x$."
   },
   {
     "id": "q-q-g7-algebra-expr-4",
@@ -674,7 +674,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5x+35$"
     ],
     "correct_index": 3,
-    "explanation": "distrib."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $5(x+7)=5x+35$."
   },
   {
     "id": "q-q-g7-algebra-expr-5",
@@ -689,7 +689,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x+21$"
     ],
     "correct_index": 2,
-    "explanation": "distrib."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $7(x+3)=7x+21$."
   },
   {
     "id": "q-q-g7-algebra-expr-6",
@@ -704,7 +704,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4x+2$"
     ],
     "correct_index": 0,
-    "explanation": "distrib."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $4(x+2)=4x+8$."
   },
   {
     "id": "q-q-g7-algebra-expr-7",
@@ -719,7 +719,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$35$"
     ],
     "correct_index": 2,
-    "explanation": "eval."
+    "explanation": "מציבים $x=7$: $5\\times 7+5=40$."
   },
   {
     "id": "q-q-g7-algebra-expr-8",
@@ -734,7 +734,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$28$"
     ],
     "correct_index": 3,
-    "explanation": "eval."
+    "explanation": "מציבים $x=3$: $7\\times 3+7=28$."
   },
   {
     "id": "q-q-g7-algebra-expr-9",
@@ -749,7 +749,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4x+4$"
     ],
     "correct_index": 0,
-    "explanation": "distrib."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $4(x+4)=4x+16$."
   },
   {
     "id": "q-q-g7-algebra-expr-10",
@@ -764,7 +764,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 3,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $4\\times 2+4=12$."
   },
   {
     "id": "q-q-g7-algebra-expr-11",
@@ -779,7 +779,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8x$"
     ],
     "correct_index": 3,
-    "explanation": "combine."
+    "explanation": "כינוס איברים דומים: $4x+4x=8x$."
   },
   {
     "id": "q-q-g7-algebra-expr-12",
@@ -794,7 +794,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2x$"
     ],
     "correct_index": 2,
-    "explanation": "distrib."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $2(x+8)=2x+16$."
   },
   {
     "id": "q-q-g7-algebra-expr-13",
@@ -809,7 +809,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5x$"
     ],
     "correct_index": 0,
-    "explanation": "distrib."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $5(x+2)=5x+10$."
   },
   {
     "id": "q-q-g7-algebra-expr-14",
@@ -824,7 +824,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 2,
-    "explanation": "combine."
+    "explanation": "כינוס איברים דומים: $4x+2x=6x$."
   },
   {
     "id": "q-q-g7-algebra-expr-15",
@@ -839,7 +839,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3x+27$"
     ],
     "correct_index": 3,
-    "explanation": "distrib."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $3(x+9)=3x+27$."
   },
   {
     "id": "q-q-g7-algebra-expr-16",
@@ -854,7 +854,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 1,
-    "explanation": "eval."
+    "explanation": "מציבים $x=8$: $2\\times 8+2=18$."
   },
   {
     "id": "q-q-g7-algebra-expr-17",
@@ -869,7 +869,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$16x$"
     ],
     "correct_index": 1,
-    "explanation": "combine."
+    "explanation": "כינוס איברים דומים: $2x+8x=10x$."
   },
   {
     "id": "q-q-g7-algebra-expr-18",
@@ -884,7 +884,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8x$"
     ],
     "correct_index": 2,
-    "explanation": "2x."
+    "explanation": "התשובה הנכונה היא $2x$."
   },
   {
     "id": "q-q-g7-algebra-expr-19",
@@ -899,7 +899,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10x^2$"
     ],
     "correct_index": 2,
-    "explanation": "combine."
+    "explanation": "כינוס איברים דומים: $7x+3x=10x$."
   },
   {
     "id": "q-g7-eq-1",
@@ -913,7 +913,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x=7$"
     ],
     "correct_index": 0,
-    "explanation": "$x=12-7=5$.",
+    "explanation": "החישוב: $x=12-7=5$.",
     "type": "mcq"
   },
   {
@@ -929,7 +929,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$4$: $x=12\\div 4=3$."
   },
   {
     "id": "q-q-g7-equations-2",
@@ -944,7 +944,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מעבירים את $2$ אגף עם סימן הפוך: $x=18-2=16$."
   },
   {
     "id": "q-q-g7-equations-3",
@@ -959,7 +959,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$7$: $x=35\\div 7=5$."
   },
   {
     "id": "q-q-g7-equations-4",
@@ -974,7 +974,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 2,
-    "explanation": "linear."
+    "explanation": "מעבירים את $10$ אגף: $10x=70-10=60$. מחלקים ב-$10$: $x=6$."
   },
   {
     "id": "q-q-g7-equations-5",
@@ -989,7 +989,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $11$ אגף: $11x=88-11=77$. מחלקים ב-$11$: $x=7$."
   },
   {
     "id": "q-q-g7-equations-6",
@@ -1004,7 +1004,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $6$ אגף: $6x=24-6=18$. מחלקים ב-$6$: $x=3$."
   },
   {
     "id": "q-q-g7-equations-7",
@@ -1019,7 +1019,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "linear."
+    "explanation": "מעבירים את $4$ אגף: $4x=36-4=32$. מחלקים ב-$4$: $x=8$."
   },
   {
     "id": "q-q-g7-equations-8",
@@ -1034,7 +1034,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$10$: $x=90\\div 10=9$."
   },
   {
     "id": "q-q-g7-equations-9",
@@ -1049,7 +1049,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מעבירים את $9$ אגף עם סימן הפוך: $x=27-9=18$."
   },
   {
     "id": "q-q-g7-equations-10",
@@ -1064,7 +1064,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 3,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$2$: $x=16\\div 2=8$."
   },
   {
     "id": "q-q-g7-equations-11",
@@ -1079,7 +1079,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$11$: $x=66\\div 11=6$."
   },
   {
     "id": "q-q-g7-equations-12",
@@ -1094,7 +1094,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$8$: $x=24\\div 8=3$."
   },
   {
     "id": "q-q-g7-equations-13",
@@ -1109,7 +1109,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $5$ אגף: $5x=35-5=30$. מחלקים ב-$5$: $x=6$."
   },
   {
     "id": "q-q-g7-equations-14",
@@ -1124,7 +1124,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מעבירים את $2$ אגף עם סימן הפוך: $x=16-2=14$."
   },
   {
     "id": "q-q-g7-equations-15",
@@ -1139,7 +1139,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $10$ אגף: $10x=60-10=50$. מחלקים ב-$10$: $x=5$."
   },
   {
     "id": "q-q-g7-equations-16",
@@ -1154,7 +1154,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$52$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מעבירים את $8$ אגף עם סימן הפוך: $x=64-8=56$."
   },
   {
     "id": "q-q-g7-equations-17",
@@ -1169,7 +1169,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$21$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מעבירים את $3$ אגף עם סימן הפוך: $x=24-3=21$."
   },
   {
     "id": "q-q-g7-equations-18",
@@ -1184,7 +1184,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "linear."
+    "explanation": "מעבירים את $11$ אגף: $11x=110-11=99$. מחלקים ב-$11$: $x=9$."
   },
   {
     "id": "q-q-g7-equations-19",
@@ -1199,7 +1199,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מעבירים את $5$ אגף עם סימן הפוך: $x=10-5=5$."
   },
   {
     "id": "q-g7-fn-1",
@@ -1229,7 +1229,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "3."
+    "explanation": "מציבים $x=0$: $f(0)=0+3=3$."
   },
   {
     "id": "q-q-g7-functions-intro-2",
@@ -1244,7 +1244,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 3,
-    "explanation": "lin."
+    "explanation": "מציבים $x=3$: $f(3)=2\\times 3+1=7$."
   },
   {
     "id": "q-q-g7-functions-intro-3",
@@ -1259,7 +1259,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "lin."
+    "explanation": "מציבים $x=2$: $f(2)=2\\times 2+1=5$."
   },
   {
     "id": "q-q-g7-functions-intro-4",
@@ -1274,7 +1274,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 1,
-    "explanation": "sq."
+    "explanation": "מציבים $x=4$: $f(4)=4^{2}=16$."
   },
   {
     "id": "q-q-g7-functions-intro-5",
@@ -1289,7 +1289,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x\\neq 5$"
     ],
     "correct_index": 3,
-    "explanation": "domain."
+    "explanation": "המכנה לא יכול להתאפס: $x-5\\neq 0$, כלומר $x\\neq 5$."
   },
   {
     "id": "q-q-g7-functions-intro-6",
@@ -1304,7 +1304,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 1,
-    "explanation": "lin."
+    "explanation": "מציבים $x=5$: $f(5)=2\\times 5+1=11$."
   },
   {
     "id": "q-q-g7-functions-intro-7",
@@ -1319,7 +1319,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "sq."
+    "explanation": "מציבים $x=3$: $f(3)=3^{2}=9$."
   },
   {
     "id": "q-q-g7-functions-intro-8",
@@ -1334,7 +1334,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 3,
-    "explanation": "sq."
+    "explanation": "מציבים $x=5$: $f(5)=5^{2}=25$."
   },
   {
     "id": "q-q-g7-functions-intro-9",
@@ -1349,7 +1349,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "lin."
+    "explanation": "מציבים $x=4$: $f(4)=2\\times 4+1=9$."
   },
   {
     "id": "q-q-g7-functions-intro-10",
@@ -1364,7 +1364,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x\\neq 0$"
     ],
     "correct_index": 1,
-    "explanation": "domain."
+    "explanation": "המכנה לא יכול להתאפס: $x-4\\neq 0$, כלומר $x\\neq 4$."
   },
   {
     "id": "q-q-g7-functions-intro-11",
@@ -1379,7 +1379,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "sq."
+    "explanation": "מציבים $x=2$: $f(2)=2^{2}=4$."
   },
   {
     "id": "q-q-g7-functions-intro-12",
@@ -1394,7 +1394,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 3,
-    "explanation": "8."
+    "explanation": "מחשבים קודם $g(3)=3+1=4$, ואז $f(4)=2\\times 4=8$."
   },
   {
     "id": "q-q-g7-functions-intro-13",
@@ -1409,7 +1409,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "הכל"
     ],
     "correct_index": 2,
-    "explanation": "domain."
+    "explanation": "המכנה לא יכול להתאפס: $x-3\\neq 0$, כלומר $x\\neq 3$."
   },
   {
     "id": "q-q-g7-functions-intro-14",
@@ -1424,7 +1424,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 3,
-    "explanation": "exp."
+    "explanation": "מציבים $x=2$: $f(2)=3^{2}=9$."
   },
   {
     "id": "q-q-g7-functions-intro-15",
@@ -1439,7 +1439,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "exp."
+    "explanation": "מציבים $x=2$: $f(2)=2^{2}=4$."
   },
   {
     "id": "q-q-g7-functions-intro-16",
@@ -1454,7 +1454,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "exp."
+    "explanation": "מציבים $x=2$: $f(2)=4^{2}=16$."
   },
   {
     "id": "q-q-g7-functions-intro-17",
@@ -1469,7 +1469,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 0,
-    "explanation": "lin."
+    "explanation": "מציבים $x=1$: $f(1)=2\\times 1+1=3$."
   },
   {
     "id": "q-q-g7-functions-intro-18",
@@ -1484,7 +1484,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 0,
-    "explanation": "sq."
+    "explanation": "מציבים $x=1$: $f(1)=1^{2}=1$."
   },
   {
     "id": "q-q-g7-functions-intro-19",
@@ -1499,7 +1499,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>2$"
     ],
     "correct_index": 1,
-    "explanation": "domain."
+    "explanation": "המכנה לא יכול להתאפס: $x-2\\neq 0$, כלומר $x\\neq 2$."
   },
   {
     "id": "q-g7-coord-1",
@@ -1529,7 +1529,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "I"
     ],
     "correct_index": 0,
-    "explanation": "III."
+    "explanation": "התשובה הנכונה היא III."
   },
   {
     "id": "q-q-g7-coordinates-2",
@@ -1544,7 +1544,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "III"
     ],
     "correct_index": 3,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(-,-)$ קובעים את הרביע: זהו רביע III."
   },
   {
     "id": "q-q-g7-coordinates-3",
@@ -1559,7 +1559,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "IV"
     ],
     "correct_index": 3,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(+,-)$ קובעים את הרביע: זהו רביע IV."
   },
   {
     "id": "q-q-g7-coordinates-4",
@@ -1574,7 +1574,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "IV"
     ],
     "correct_index": 2,
-    "explanation": "I."
+    "explanation": "התשובה הנכונה היא I."
   },
   {
     "id": "q-q-g7-coordinates-5",
@@ -1589,7 +1589,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "III"
     ],
     "correct_index": 1,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(+,+)$ קובעים את הרביע: זהו רביע I."
   },
   {
     "id": "q-q-g7-coordinates-6",
@@ -1604,7 +1604,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "4."
+    "explanation": "המרחק בין שתי הנקודות: $\\sqrt{(1-1)^2+(5-1)^2}=4$."
   },
   {
     "id": "q-q-g7-coordinates-7",
@@ -1619,7 +1619,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "II"
     ],
     "correct_index": 0,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(+,-)$ קובעים את הרביע: זהו רביע IV."
   },
   {
     "id": "q-q-g7-coordinates-8",
@@ -1634,7 +1634,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "IV"
     ],
     "correct_index": 3,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(+,-)$ קובעים את הרביע: זהו רביע IV."
   },
   {
     "id": "q-q-g7-coordinates-9",
@@ -1649,7 +1649,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$(0,0)$"
     ],
     "correct_index": 2,
-    "explanation": "mid."
+    "explanation": "התשובה הנכונה היא $(4,4)$."
   },
   {
     "id": "q-q-g7-coordinates-10",
@@ -1664,7 +1664,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "II"
     ],
     "correct_index": 0,
-    "explanation": "IV."
+    "explanation": "התשובה הנכונה היא IV."
   },
   {
     "id": "q-q-g7-coordinates-11",
@@ -1679,7 +1679,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "I"
     ],
     "correct_index": 2,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(-,+)$ קובעים את הרביע: זהו רביע II."
   },
   {
     "id": "q-q-g7-coordinates-12",
@@ -1694,7 +1694,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "IV"
     ],
     "correct_index": 0,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(-,-)$ קובעים את הרביע: זהו רביע III."
   },
   {
     "id": "q-q-g7-coordinates-13",
@@ -1709,7 +1709,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "IV"
     ],
     "correct_index": 1,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(+,+)$ קובעים את הרביע: זהו רביע I."
   },
   {
     "id": "q-q-g7-coordinates-14",
@@ -1724,7 +1724,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "III"
     ],
     "correct_index": 0,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(-,+)$ קובעים את הרביע: זהו רביע II."
   },
   {
     "id": "q-q-g7-coordinates-15",
@@ -1739,7 +1739,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "II"
     ],
     "correct_index": 0,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(+,+)$ קובעים את הרביע: זהו רביע I."
   },
   {
     "id": "q-q-g7-coordinates-16",
@@ -1754,7 +1754,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "I"
     ],
     "correct_index": 0,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(+,-)$ קובעים את הרביע: זהו רביע IV."
   },
   {
     "id": "q-q-g7-coordinates-17",
@@ -1769,7 +1769,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "I"
     ],
     "correct_index": 0,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(+,-)$ קובעים את הרביע: זהו רביע IV."
   },
   {
     "id": "q-q-g7-coordinates-18",
@@ -1784,7 +1784,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "4."
+    "explanation": "המרחק בין שתי הנקודות: $\\sqrt{(6-2)^2+(4-4)^2}=4$."
   },
   {
     "id": "q-q-g7-coordinates-19",
@@ -1799,7 +1799,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "I"
     ],
     "correct_index": 3,
-    "explanation": "q."
+    "explanation": "סימני הקואורדינטות $(+,+)$ קובעים את הרביע: זהו רביע I."
   },
   {
     "id": "q-g7-ang-1",
@@ -1813,7 +1813,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$180^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "$180-40-70=70$.",
+    "explanation": "החישוב: $180-40-70=70$.",
     "type": "mcq"
   },
   {
@@ -1829,7 +1829,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "180"
     ],
     "correct_index": 0,
-    "explanation": "equal."
+    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות מתאימות (נגדיות-פנימיות) שוות זו לזו."
   },
   {
     "id": "q-q-g7-angles-triangles-2",
@@ -1844,7 +1844,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$80^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-30-70=80^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-3",
@@ -1859,7 +1859,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$25^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-25-65=90^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-4",
@@ -1874,7 +1874,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$100^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-50-50=80^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-5",
@@ -1889,7 +1889,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$60^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "90."
+    "explanation": "זווית ישרה (זווית שיוצרת \"פינה\" מושלמת, כמו בפינת ריבוע) שווה $90^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-6",
@@ -1904,7 +1904,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$<90$"
     ],
     "correct_index": 2,
-    "explanation": "obtuse."
+    "explanation": "זווית קהה היא זווית הגדולה מ-$90^\\circ$ (וקטנה מ-$180^\\circ$): $>90^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-7",
@@ -1919,7 +1919,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$165^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-15-75=90^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-8",
@@ -1934,7 +1934,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$90^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "70."
+    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-50-60=70^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-9",
@@ -1949,7 +1949,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$180^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-45-45=90^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-10",
@@ -1964,7 +1964,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$180$"
     ],
     "correct_index": 2,
-    "explanation": "360."
+    "explanation": "סכום כל הזוויות מסביב לנקודה אחת הוא תמיד $360^\\circ$ (סיבוב שלם)."
   },
   {
     "id": "q-q-g7-angles-triangles-11",
@@ -1979,7 +1979,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$80^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-40-60=80^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-12",
@@ -1994,7 +1994,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$60^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "60."
+    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-90-30=60^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-13",
@@ -2009,7 +2009,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$100^\\circ$"
     ],
     "correct_index": 2,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-20-80=80^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-14",
@@ -2024,7 +2024,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$360^\\circ$"
     ],
     "correct_index": 2,
-    "explanation": "180."
+    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-15",
@@ -2039,7 +2039,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "180."
+    "explanation": "שתי זוויות סמוכות שיוצרות יחד קו ישר משלימות ל-$180^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-16",
@@ -2054,7 +2054,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$90$"
     ],
     "correct_index": 0,
-    "explanation": "60."
+    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות זו לזו, וסכומן $180^\\circ$, לכן כל זווית היא $180\\div 3=60^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-17",
@@ -2069,7 +2069,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$145^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-35-55=90^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-18",
@@ -2084,7 +2084,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$<90^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "acute."
+    "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-551",
@@ -2099,7 +2099,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "linear."
+    "explanation": "מעבירים את $7$ אגף: $7x=56-7=49$. מחלקים ב-$7$: $x=7$."
   },
   {
     "id": "q-g7-area-1",
@@ -2113,7 +2113,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 0,
-    "explanation": "$6\\cdot 4=24$.",
+    "explanation": "החישוב: $6\\cdot 4=24$.",
     "type": "mcq"
   },
   {
@@ -2129,7 +2129,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$68$"
     ],
     "correct_index": 0,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 6\\times 6=72$."
   },
   {
     "id": "q-q-g7-area-perimeter-2",
@@ -2144,7 +2144,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$44$"
     ],
     "correct_index": 1,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $7^2=49$."
   },
   {
     "id": "q-q-g7-area-perimeter-3",
@@ -2159,7 +2159,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$163$"
     ],
     "correct_index": 1,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $8\\times 7\\times 3=168$."
   },
   {
     "id": "q-q-g7-area-perimeter-4",
@@ -2174,7 +2174,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$37$"
     ],
     "correct_index": 1,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 11=44$."
   },
   {
     "id": "q-q-g7-area-perimeter-5",
@@ -2189,7 +2189,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $2^2=4$."
   },
   {
     "id": "q-q-g7-area-perimeter-6",
@@ -2204,7 +2204,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$104$"
     ],
     "correct_index": 1,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $6\\times 9\\times 2=108$."
   },
   {
     "id": "q-q-g7-area-perimeter-7",
@@ -2219,7 +2219,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$26$"
     ],
     "correct_index": 2,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $5\\times 6=30$."
   },
   {
     "id": "q-q-g7-area-perimeter-8",
@@ -2234,7 +2234,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(3+3)=12$."
   },
   {
     "id": "q-q-g7-area-perimeter-9",
@@ -2249,7 +2249,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 2,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(3+8)=22$."
   },
   {
     "id": "q-q-g7-area-perimeter-10",
@@ -2264,7 +2264,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 3=12$."
   },
   {
     "id": "q-q-g7-area-perimeter-11",
@@ -2279,7 +2279,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 1,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(6+6)=24$."
   },
   {
     "id": "q-q-g7-area-perimeter-12",
@@ -2294,7 +2294,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$482$"
     ],
     "correct_index": 2,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $9\\times 9\\times 6=486$."
   },
   {
     "id": "q-q-g7-area-perimeter-13",
@@ -2309,7 +2309,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 1,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(7+2)=18$."
   },
   {
     "id": "q-q-g7-area-perimeter-14",
@@ -2324,7 +2324,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$139$"
     ],
     "correct_index": 1,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $9\\times 8\\times 2=144$."
   },
   {
     "id": "q-q-g7-area-perimeter-15",
@@ -2339,7 +2339,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$16$"
     ],
     "correct_index": 3,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(2+6)=16$."
   },
   {
     "id": "q-q-g7-area-perimeter-16",
@@ -2354,7 +2354,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$35$"
     ],
     "correct_index": 2,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 10=40$."
   },
   {
     "id": "q-q-g7-area-perimeter-17",
@@ -2369,7 +2369,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$70$"
     ],
     "correct_index": 3,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 7\\times 5=70$."
   },
   {
     "id": "q-q-g7-area-perimeter-18",
@@ -2384,7 +2384,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$46$"
     ],
     "correct_index": 0,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $10\\times 5=50$."
   },
   {
     "id": "q-q-g7-area-perimeter-19",
@@ -2399,7 +2399,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$392$"
     ],
     "correct_index": 2,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $11\\times 6\\times 6=396$."
   },
   {
     "id": "q-g8-lin-1",
@@ -2429,7 +2429,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 2,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=4\\times 2+2=10$."
   },
   {
     "id": "q-q-g8-linear-fn-2",
@@ -2444,7 +2444,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-8$"
     ],
     "correct_index": 2,
-    "explanation": "intercept."
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=5\\times 0-3=-3$."
   },
   {
     "id": "q-q-g8-linear-fn-3",
@@ -2459,7 +2459,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 1,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=3\\times 2+5=11$."
   },
   {
     "id": "q-q-g8-linear-fn-4",
@@ -2474,7 +2474,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 3,
-    "explanation": "intercept."
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=6\\times 0-1=-1$."
   },
   {
     "id": "q-q-g8-linear-fn-5",
@@ -2489,7 +2489,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=5\\times 2-1=9$."
   },
   {
     "id": "q-q-g8-linear-fn-6",
@@ -2504,7 +2504,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-8$"
     ],
     "correct_index": 1,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=1\\times 2-3=-1$."
   },
   {
     "id": "q-q-g8-linear-fn-7",
@@ -2519,7 +2519,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 3,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=3\\times 2+1=7$."
   },
   {
     "id": "q-q-g8-linear-fn-8",
@@ -2534,7 +2534,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 2,
-    "explanation": "slope."
+    "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=1$."
   },
   {
     "id": "q-q-g8-linear-fn-9",
@@ -2549,7 +2549,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=3\\times 2+0=6$."
   },
   {
     "id": "q-q-g8-linear-fn-10",
@@ -2564,7 +2564,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "slope."
+    "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=5$."
   },
   {
     "id": "q-q-g8-linear-fn-11",
@@ -2579,7 +2579,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-6$"
     ],
     "correct_index": 0,
-    "explanation": "intercept."
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=3\\times 0-2=-2$."
   },
   {
     "id": "q-q-g8-linear-fn-12",
@@ -2594,7 +2594,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "2."
+    "explanation": "התשובה הנכונה היא $2$."
   },
   {
     "id": "q-q-g8-linear-fn-13",
@@ -2609,7 +2609,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 0,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=1\\times 2+0=2$."
   },
   {
     "id": "q-q-g8-linear-fn-14",
@@ -2624,7 +2624,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=5\\times 2+0=10$."
   },
   {
     "id": "q-q-g8-linear-fn-15",
@@ -2639,7 +2639,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=6\\times 2-4=8$."
   },
   {
     "id": "q-q-g8-linear-fn-16",
@@ -2654,7 +2654,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 3,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=6\\times 2+5=17$."
   },
   {
     "id": "q-q-g8-linear-fn-17",
@@ -2669,7 +2669,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "intercept."
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=2\\times 0+2=2$."
   },
   {
     "id": "q-q-g8-linear-fn-18",
@@ -2684,7 +2684,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-8$"
     ],
     "correct_index": 0,
-    "explanation": "intercept."
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=2\\times 0-1=-1$."
   },
   {
     "id": "q-q-g8-linear-fn-19",
@@ -2699,7 +2699,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 2,
-    "explanation": "slope."
+    "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=4$."
   },
   {
     "id": "q-g8-sys-1",
@@ -2729,7 +2729,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 1,
-    "explanation": "y."
+    "explanation": "מחסרים את המשוואה השנייה מהראשונה: $2y=7-1=6$, ולכן $y=3$."
   },
   {
     "id": "q-q-g8-equations-system-2",
@@ -2744,7 +2744,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "y."
+    "explanation": "מחסרים את המשוואה השנייה מהראשונה: $2y=7--3=10$, ולכן $y=5$."
   },
   {
     "id": "q-q-g8-equations-system-3",
@@ -2759,7 +2759,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מחסרים את המשוואה השנייה מהראשונה: $(2-1)x=9-7$, ולכן $x=2$."
   },
   {
     "id": "q-q-g8-equations-system-4",
@@ -2774,7 +2774,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "x."
+    "explanation": "מחברים את שתי המשוואות: $2x=5+3=8$, ולכן $x=4$."
   },
   {
     "id": "q-q-g8-equations-system-5",
@@ -2789,7 +2789,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מחסרים את המשוואה השנייה מהראשונה: $(2-1)x=6-4$, ולכן $x=2$."
   },
   {
     "id": "q-q-g8-equations-system-6",
@@ -2804,7 +2804,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "y."
+    "explanation": "מחסרים את המשוואה השנייה מהראשונה: $2y=9-1=8$, ולכן $y=4$."
   },
   {
     "id": "q-q-g8-equations-system-7",
@@ -2819,7 +2819,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מחסרים את המשוואה השנייה מהראשונה: $(2-1)x=13-8$, ולכן $x=5$."
   },
   {
     "id": "q-q-g8-equations-system-8",
@@ -2834,7 +2834,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מחסרים את המשוואה השנייה מהראשונה: $(2-1)x=6-5$, ולכן $x=1$."
   },
   {
     "id": "q-q-g8-equations-system-9",
@@ -2849,7 +2849,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "x."
+    "explanation": "מחברים את שתי המשוואות: $2x=10+0=10$, ולכן $x=5$."
   },
   {
     "id": "q-q-g8-equations-system-10",
@@ -2864,7 +2864,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "x."
+    "explanation": "מחברים את שתי המשוואות: $2x=6+-2=4$, ולכן $x=2$."
   },
   {
     "id": "q-q-g8-equations-system-11",
@@ -2879,7 +2879,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "x."
+    "explanation": "מחברים את שתי המשוואות: $2x=7+-3=4$, ולכן $x=2$."
   },
   {
     "id": "q-q-g8-equations-system-12",
@@ -2894,7 +2894,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "x."
+    "explanation": "מחברים את שתי המשוואות: $2x=4+0=4$, ולכן $x=2$."
   },
   {
     "id": "q-q-g8-equations-system-13",
@@ -2909,7 +2909,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מחסרים את המשוואה השנייה מהראשונה: $(2-1)x=12-7$, ולכן $x=5$."
   },
   {
     "id": "q-q-g8-equations-system-14",
@@ -2924,7 +2924,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "y."
+    "explanation": "מחסרים את המשוואה השנייה מהראשונה: $2y=6--4=10$, ולכן $y=5$."
   },
   {
     "id": "q-q-g8-equations-system-15",
@@ -2939,7 +2939,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "y."
+    "explanation": "מחסרים את המשוואה השנייה מהראשונה: $2y=10-0=10$, ולכן $y=5$."
   },
   {
     "id": "q-q-g8-equations-system-16",
@@ -2954,7 +2954,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "x."
+    "explanation": "מחברים את שתי המשוואות: $2x=6+4=10$, ולכן $x=5$."
   },
   {
     "id": "q-q-g8-equations-system-17",
@@ -2969,7 +2969,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "x."
+    "explanation": "מחברים את שתי המשוואות: $2x=5+1=6$, ולכן $x=3$."
   },
   {
     "id": "q-q-g8-equations-system-18",
@@ -2984,7 +2984,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 1,
-    "explanation": "y."
+    "explanation": "מחסרים את המשוואה השנייה מהראשונה: $2y=2-0=2$, ולכן $y=1$."
   },
   {
     "id": "q-q-g8-equations-system-19",
@@ -2999,7 +2999,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מחסרים את המשוואה השנייה מהראשונה: $(2-1)x=15-10$, ולכן $x=5$."
   },
   {
     "id": "q-g8-fac-1",
@@ -3029,7 +3029,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x^2+9$"
     ],
     "correct_index": 0,
-    "explanation": "perfect."
+    "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+3)^2=x^2+6x+9$."
   },
   {
     "id": "q-q-g8-factoring-2",
@@ -3044,7 +3044,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x+10$"
     ],
     "correct_index": 1,
-    "explanation": "expand."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $5(x+2)=5x+10$."
   },
   {
     "id": "q-q-g8-factoring-3",
@@ -3059,7 +3059,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x-9$"
     ],
     "correct_index": 0,
-    "explanation": "diff sq."
+    "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-9=(x-3)(x+3)$."
   },
   {
     "id": "q-q-g8-factoring-4",
@@ -3074,7 +3074,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2(8x+1)$"
     ],
     "correct_index": 3,
-    "explanation": "a(bx? no) a(bx/a + 1)."
+    "explanation": "מוציאים גורם משותף $2$ מכל איבר: $16x+2=2(8x+1)$."
   },
   {
     "id": "q-q-g8-factoring-5",
@@ -3089,7 +3089,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x^2+12x$"
     ],
     "correct_index": 1,
-    "explanation": "perfect."
+    "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+6)^2=x^2+12x+36$."
   },
   {
     "id": "q-q-g8-factoring-6",
@@ -3104,7 +3104,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x^2+25$"
     ],
     "correct_index": 1,
-    "explanation": "perfect."
+    "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+5)^2=x^2+10x+25$."
   },
   {
     "id": "q-q-g8-factoring-7",
@@ -3119,7 +3119,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x^2+49$"
     ],
     "correct_index": 1,
-    "explanation": "perfect."
+    "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+7)^2=x^2+14x+49$."
   },
   {
     "id": "q-q-g8-factoring-8",
@@ -3134,7 +3134,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4x+6$"
     ],
     "correct_index": 1,
-    "explanation": "expand."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $4(x+6)=4x+24$."
   },
   {
     "id": "q-q-g8-factoring-9",
@@ -3149,7 +3149,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x+21$"
     ],
     "correct_index": 0,
-    "explanation": "expand."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $3(x+7)=3x+21$."
   },
   {
     "id": "q-q-g8-factoring-10",
@@ -3164,7 +3164,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2(7x+1)$"
     ],
     "correct_index": 3,
-    "explanation": "a(bx? no) a(bx/a + 1)."
+    "explanation": "מוציאים גורם משותף $2$ מכל איבר: $14x+2=2(7x+1)$."
   },
   {
     "id": "q-q-g8-factoring-11",
@@ -3179,7 +3179,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2x+16$"
     ],
     "correct_index": 3,
-    "explanation": "expand."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $2(x+8)=2x+16$."
   },
   {
     "id": "q-q-g8-factoring-12",
@@ -3194,7 +3194,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6x+3$"
     ],
     "correct_index": 0,
-    "explanation": "expand."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $6(x+3)=6x+18$."
   },
   {
     "id": "q-q-g8-factoring-13",
@@ -3209,7 +3209,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5x+2$"
     ],
     "correct_index": 0,
-    "explanation": "a(bx? no) a(bx/a + 1)."
+    "explanation": "מוציאים גורם משותף $5$ מכל איבר: $10x+5=5(2x+1)$."
   },
   {
     "id": "q-q-g8-factoring-14",
@@ -3224,7 +3224,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3(7x+1)$"
     ],
     "correct_index": 3,
-    "explanation": "a(bx? no) a(bx/a + 1)."
+    "explanation": "מוציאים גורם משותף $3$ מכל איבר: $21x+3=3(7x+1)$."
   },
   {
     "id": "q-q-g8-factoring-15",
@@ -3239,7 +3239,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4(6x+1)$"
     ],
     "correct_index": 3,
-    "explanation": "a(bx? no) a(bx/a + 1)."
+    "explanation": "מוציאים גורם משותף $4$ מכל איבר: $24x+4=4(6x+1)$."
   },
   {
     "id": "q-q-g8-factoring-16",
@@ -3254,7 +3254,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x^2+8x+16$"
     ],
     "correct_index": 3,
-    "explanation": "perfect."
+    "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+4)^2=x^2+8x+16$."
   },
   {
     "id": "q-q-g8-factoring-17",
@@ -3269,7 +3269,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x^2-64$"
     ],
     "correct_index": 2,
-    "explanation": "perfect."
+    "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+8)^2=x^2+16x+64$."
   },
   {
     "id": "q-q-g8-factoring-18",
@@ -3284,7 +3284,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x^2+4x$"
     ],
     "correct_index": 1,
-    "explanation": "perfect."
+    "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+2)^2=x^2+4x+4$."
   },
   {
     "id": "q-q-g8-factoring-19",
@@ -3299,7 +3299,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$(x-4)^2$"
     ],
     "correct_index": 2,
-    "explanation": "diff sq."
+    "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-16=(x-4)(x+4)$."
   },
   {
     "id": "q-g8-pct-1",
@@ -3313,7 +3313,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$50$"
     ],
     "correct_index": 0,
-    "explanation": "$0.2\\cdot 150=30$.",
+    "explanation": "החישוב: $0.2\\cdot 150=30$.",
     "type": "mcq"
   },
   {
@@ -3329,7 +3329,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $40\\%=\\frac{40}{100}$. לכן $40\\%$ מ-$50$ הוא $\\frac{40}{100}\\times 50=20$."
   },
   {
     "id": "q-q-g8-percent-2",
@@ -3344,7 +3344,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$75$"
     ],
     "correct_index": 0,
-    "explanation": "60."
+    "explanation": "לאחר הנחה של $25\\%$ נשארים לשלם $75\\%$: $80\\times 0.75=60$."
   },
   {
     "id": "q-q-g8-percent-3",
@@ -3359,7 +3359,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$22$"
     ],
     "correct_index": 1,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $30\\%=\\frac{30}{100}$. לכן $30\\%$ מ-$90$ הוא $\\frac{30}{100}\\times 90=27$."
   },
   {
     "id": "q-q-g8-percent-4",
@@ -3374,7 +3374,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 2,
-    "explanation": "10."
+    "explanation": "$5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
     "id": "q-q-g8-percent-5",
@@ -3389,7 +3389,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 3,
-    "explanation": "20."
+    "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$40$ הוא $\\frac{50}{100}\\times 40=20$."
   },
   {
     "id": "q-q-g8-percent-6",
@@ -3404,7 +3404,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $15\\%=\\frac{15}{100}$. לכן $15\\%$ מ-$80$ הוא $\\frac{15}{100}\\times 80=12$."
   },
   {
     "id": "q-q-g8-percent-7",
@@ -3419,7 +3419,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $8\\%=\\frac{8}{100}$. לכן $8\\%$ מ-$50$ הוא $\\frac{8}{100}\\times 50=4$."
   },
   {
     "id": "q-q-g8-percent-8",
@@ -3434,7 +3434,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$40\\%$"
     ],
     "correct_index": 2,
-    "explanation": "25%."
+    "explanation": "אחוז מחושב כשבר כפול $100$: $\\frac{1}{4}\\times 100=25\\%$."
   },
   {
     "id": "q-q-g8-percent-9",
@@ -3449,7 +3449,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$26$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$60$ הוא $\\frac{50}{100}\\times 60=30$."
   },
   {
     "id": "q-q-g8-percent-10",
@@ -3464,7 +3464,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$30$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $60\\%=\\frac{60}{100}$. לכן $60\\%$ מ-$50$ הוא $\\frac{60}{100}\\times 50=30$."
   },
   {
     "id": "q-q-g8-percent-11",
@@ -3479,7 +3479,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $5\\%=\\frac{5}{100}$. לכן $5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
     "id": "q-q-g8-percent-12",
@@ -3494,7 +3494,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$60$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $75\\%=\\frac{75}{100}$. לכן $75\\%$ מ-$80$ הוא $\\frac{75}{100}\\times 80=60$."
   },
   {
     "id": "q-q-g8-percent-13",
@@ -3509,7 +3509,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 1,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $25\\%=\\frac{25}{100}$. לכן $25\\%$ מ-$40$ הוא $\\frac{25}{100}\\times 40=10$."
   },
   {
     "id": "q-q-g8-percent-14",
@@ -3524,7 +3524,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$20\\%$"
     ],
     "correct_index": 3,
-    "explanation": "20%."
+    "explanation": "אחוז מחושב כחלק חלקי שלם כפול $100$: $\\frac{20}{100}\\times 100=20\\%$."
   },
   {
     "id": "q-q-g8-percent-15",
@@ -3539,7 +3539,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $10\\%=\\frac{10}{100}$. לכן $10\\%$ מ-$80$ הוא $\\frac{10}{100}\\times 80=8$."
   },
   {
     "id": "q-q-g8-percent-16",
@@ -3554,7 +3554,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $12\\%=\\frac{12}{100}$. לכן $12\\%$ מ-$100$ הוא $\\frac{12}{100}\\times 100=12$."
   },
   {
     "id": "q-q-g8-percent-17",
@@ -3569,7 +3569,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$26$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $20\\%=\\frac{20}{100}$. לכן $20\\%$ מ-$150$ הוא $\\frac{20}{100}\\times 150=30$."
   },
   {
     "id": "q-q-g8-percent-551",
@@ -3584,7 +3584,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "linear."
+    "explanation": "מעבירים את $7$ אגף: $7x=63-7=56$. מחלקים ב-$7$: $x=8$."
   },
   {
     "id": "q-q-g8-percent-552",
@@ -3599,7 +3599,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $6$ אגף: $6x=60-6=54$. מחלקים ב-$6$: $x=9$."
   },
   {
     "id": "q-g8-stat-1",
@@ -3613,7 +3613,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 0,
-    "explanation": "$(2+4+6)/3=4$.",
+    "explanation": "החישוב: $(2+4+6)/3=4$.",
     "type": "mcq"
   },
   {
@@ -3629,7 +3629,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 9, 11, 15, 24. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g8-stats-prob-2",
@@ -3644,7 +3644,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 7, 8, 20, 24, 27. החציון הוא הערך האמצעי — $20$."
   },
   {
     "id": "q-q-g8-stats-prob-3",
@@ -3659,7 +3659,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 3,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $90$, ומחלקים במספר המספרים ($5$): $90\\div 5=18$."
   },
   {
     "id": "q-q-g8-stats-prob-4",
@@ -3674,7 +3674,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 3,
-    "explanation": "7."
+    "explanation": "השכיח (המוד) הוא הערך שחוזר הכי הרבה פעמים ברשימה $3,7,7,2$: $7$."
   },
   {
     "id": "q-q-g8-stats-prob-5",
@@ -3689,7 +3689,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 8, 11, 15, 22. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g8-stats-prob-6",
@@ -3704,7 +3704,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 9, 11, 22, 24. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g8-stats-prob-7",
@@ -3719,7 +3719,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 12, 13, 24, 25, 27. החציון הוא הערך האמצעי — $24$."
   },
   {
     "id": "q-q-g8-stats-prob-8",
@@ -3734,7 +3734,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 3,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $60$, ומחלקים במספר המספרים ($5$): $60\\div 5=12$."
   },
   {
     "id": "q-q-g8-stats-prob-9",
@@ -3749,7 +3749,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 6, 11, 28, 29. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g8-stats-prob-10",
@@ -3764,7 +3764,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 8, 10, 16, 27, 29. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g8-stats-prob-11",
@@ -3779,7 +3779,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$16$"
     ],
     "correct_index": 1,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $105$, ומחלקים במספר המספרים ($5$): $105\\div 5=21$."
   },
   {
     "id": "q-q-g8-stats-prob-12",
@@ -3794,7 +3794,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$21$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 6, 21, 24, 25. החציון הוא הערך האמצעי — $21$."
   },
   {
     "id": "q-q-g8-stats-prob-13",
@@ -3809,7 +3809,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 7, 9, 11, 13, 20. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g8-stats-prob-14",
@@ -3824,7 +3824,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$21$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 13, 21, 22, 25. החציון הוא הערך האמצעי — $21$."
   },
   {
     "id": "q-q-g8-stats-prob-15",
@@ -3839,7 +3839,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 5, 9, 20, 21. החציון הוא הערך האמצעי — $9$."
   },
   {
     "id": "q-q-g8-stats-prob-16",
@@ -3854,7 +3854,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 7, 13, 16, 22, 29. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g8-stats-prob-17",
@@ -3869,7 +3869,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 7, 15, 24, 27. החציון הוא הערך האמצעי — $15$."
   },
   {
     "id": "q-q-g8-stats-prob-18",
@@ -3884,7 +3884,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 9, 13, 14, 25, 28. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g8-stats-prob-19",
@@ -3899,7 +3899,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 9, 10, 17, 19, 22. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-g8-cong-1",
@@ -3929,7 +3929,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "HL"
     ],
     "correct_index": 0,
-    "explanation": "ASA."
+    "explanation": "התשובה הנכונה היא זווית-צלע-זווית."
   },
   {
     "id": "q-q-g8-congruence-2",
@@ -3944,7 +3944,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "AAA"
     ],
     "correct_index": 2,
-    "explanation": "crit."
+    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
   },
   {
     "id": "q-q-g8-congruence-3",
@@ -3959,7 +3959,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "SSS"
     ],
     "correct_index": 3,
-    "explanation": "crit."
+    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
   },
   {
     "id": "q-q-g8-congruence-4",
@@ -3974,7 +3974,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "3 צלעות"
     ],
     "correct_index": 3,
-    "explanation": "SSS."
+    "explanation": "התשובה הנכונה היא 3 צלעות."
   },
   {
     "id": "q-q-g8-congruence-5",
@@ -3989,7 +3989,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "AAA"
     ],
     "correct_index": 1,
-    "explanation": "crit."
+    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
   },
   {
     "id": "q-q-g8-congruence-6",
@@ -4004,7 +4004,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "ASA"
     ],
     "correct_index": 2,
-    "explanation": "crit."
+    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
   },
   {
     "id": "q-q-g8-congruence-7",
@@ -4019,7 +4019,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "חופפים (SSS)"
     ],
     "correct_index": 3,
-    "explanation": "SSS."
+    "explanation": "התשובה הנכונה היא חופפים (SSS)."
   },
   {
     "id": "q-q-g8-congruence-8",
@@ -4034,7 +4034,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "SAS"
     ],
     "correct_index": 2,
-    "explanation": "crit."
+    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
   },
   {
     "id": "q-q-g8-congruence-9",
@@ -4049,7 +4049,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "SSS"
     ],
     "correct_index": 3,
-    "explanation": "crit."
+    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
   },
   {
     "id": "q-q-g8-congruence-10",
@@ -4064,7 +4064,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "90"
     ],
     "correct_index": 0,
-    "explanation": "eq."
+    "explanation": "התשובה הנכונה היא שווות."
   },
   {
     "id": "q-q-g8-congruence-11",
@@ -4079,7 +4079,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "SSS"
     ],
     "correct_index": 2,
-    "explanation": "similar not cong."
+    "explanation": "התשובה הנכונה היא לא מספיק (דמיון)."
   },
   {
     "id": "q-q-g8-congruence-12",
@@ -4094,7 +4094,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "SSS"
     ],
     "correct_index": 3,
-    "explanation": "crit."
+    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
   },
   {
     "id": "q-q-g8-congruence-13",
@@ -4109,7 +4109,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "AAA"
     ],
     "correct_index": 1,
-    "explanation": "crit."
+    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
   },
   {
     "id": "q-q-g8-congruence-14",
@@ -4124,7 +4124,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "SSS"
     ],
     "correct_index": 1,
-    "explanation": "SAS."
+    "explanation": "התשובה הנכונה היא צלע-זווית-צלע."
   },
   {
     "id": "q-q-g8-congruence-15",
@@ -4139,7 +4139,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "רק זוויות"
     ],
     "correct_index": 0,
-    "explanation": "cong."
+    "explanation": "התשובה הנכונה היא שוווי צורה וגודל."
   },
   {
     "id": "q-q-g8-congruence-16",
@@ -4154,7 +4154,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "ASA"
     ],
     "correct_index": 3,
-    "explanation": "crit."
+    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
   },
   {
     "id": "q-q-g8-congruence-17",
@@ -4169,7 +4169,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "SSS"
     ],
     "correct_index": 2,
-    "explanation": "crit."
+    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
   },
   {
     "id": "q-q-g8-congruence-18",
@@ -4184,7 +4184,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "SSS"
     ],
     "correct_index": 0,
-    "explanation": "crit."
+    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
   },
   {
     "id": "q-q-g8-congruence-19",
@@ -4199,7 +4199,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "ריבוע"
     ],
     "correct_index": 2,
-    "explanation": "HL."
+    "explanation": "התשובה הנכונה היא משולשים ישרי-זווית."
   },
   {
     "id": "q-g8-sim-1",
@@ -4213,7 +4213,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 0,
-    "explanation": "$5\\cdot 2=10$.",
+    "explanation": "החישוב: $5\\cdot 2=10$.",
     "type": "mcq"
   },
   {
@@ -4229,7 +4229,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 2,
-    "explanation": "scale."
+    "explanation": "ביחס דמיון $k=3$, כופלים את הצלע ביחס: $5\\times 3=15$."
   },
   {
     "id": "q-q-g8-similarity-2",
@@ -4244,7 +4244,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$86$"
     ],
     "correct_index": 2,
-    "explanation": "area."
+    "explanation": "ביחס דמיון $k$, יחס השטחים הוא $k^2$: $10\\times 3^2=90$."
   },
   {
     "id": "q-q-g8-similarity-3",
@@ -4259,7 +4259,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$156$"
     ],
     "correct_index": 0,
-    "explanation": "area."
+    "explanation": "ביחס דמיון $k$, יחס השטחים הוא $k^2$: $10\\times 4^2=160$."
   },
   {
     "id": "q-q-g8-similarity-4",
@@ -4274,7 +4274,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 1,
-    "explanation": "scale."
+    "explanation": "ביחס דמיון $k=4$, כופלים את הצלע ביחס: $5\\times 4=20$."
   },
   {
     "id": "q-q-g8-similarity-5",
@@ -4289,7 +4289,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$33$"
     ],
     "correct_index": 1,
-    "explanation": "area."
+    "explanation": "ביחס דמיון $k$, יחס השטחים הוא $k^2$: $10\\times 2^2=40$."
   },
   {
     "id": "q-q-g8-similarity-6",
@@ -4304,7 +4304,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$245$"
     ],
     "correct_index": 0,
-    "explanation": "area."
+    "explanation": "ביחס דמיון $k$, יחס השטחים הוא $k^2$: $10\\times 5^2=250$."
   },
   {
     "id": "q-q-g8-similarity-7",
@@ -4319,7 +4319,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3:1$"
     ],
     "correct_index": 0,
-    "explanation": "k^2."
+    "explanation": "התשובה הנכונה היא $9:1$."
   },
   {
     "id": "q-q-g8-similarity-8",
@@ -4334,7 +4334,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "דמיון"
     ],
     "correct_index": 3,
-    "explanation": "sim."
+    "explanation": "התשובה הנכונה היא דמיון."
   },
   {
     "id": "q-q-g8-similarity-9",
@@ -4349,7 +4349,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "3."
+    "explanation": "ביחס דמיון $2:1$, הצלע המתאימה היא $6\\times\\frac{1}{2}=3$."
   },
   {
     "id": "q-q-g8-similarity-10",
@@ -4364,7 +4364,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "scale."
+    "explanation": "ביחס דמיון $k=2$, כופלים את הצלע ביחס: $5\\times 2=10$."
   },
   {
     "id": "q-q-g8-similarity-11",
@@ -4379,7 +4379,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "שטח שווה"
     ],
     "correct_index": 1,
-    "explanation": "angles."
+    "explanation": "התשובה הנכונה היא שווות."
   },
   {
     "id": "q-q-g8-similarity-12",
@@ -4394,7 +4394,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$21$"
     ],
     "correct_index": 0,
-    "explanation": "scale."
+    "explanation": "ביחס דמיון $k=5$, כופלים את הצלע ביחס: $5\\times 5=25$."
   },
   {
     "id": "q-q-g8-similarity-13",
@@ -4409,7 +4409,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "k=2"
     ],
     "correct_index": 0,
-    "explanation": "yes."
+    "explanation": "התשובה הנכונה היא כן (k=1.5)."
   },
   {
     "id": "q-q-g8-similarity-751",
@@ -4424,7 +4424,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $2^2=4$."
   },
   {
     "id": "q-q-g8-similarity-752",
@@ -4439,7 +4439,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$21$"
     ],
     "correct_index": 0,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 7=28$."
   },
   {
     "id": "q-q-g8-similarity-753",
@@ -4454,7 +4454,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$16$"
     ],
     "correct_index": 3,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 4=16$."
   },
   {
     "id": "q-q-g8-similarity-754",
@@ -4469,7 +4469,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$51$"
     ],
     "correct_index": 1,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $8\\times 7=56$."
   },
   {
     "id": "q-q-g8-similarity-755",
@@ -4484,7 +4484,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 2,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(5+7)=24$."
   },
   {
     "id": "q-q-g8-similarity-756",
@@ -4499,7 +4499,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$36$"
     ],
     "correct_index": 3,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $6^2=36$."
   },
   {
     "id": "q-g8-py-1",
@@ -4513,7 +4513,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "$\\sqrt{3^{2}+4^{2}}=5$.",
+    "explanation": "החישוב: $\\sqrt{3^{2}+4^{2}}=5$.",
     "type": "mcq"
   },
   {
@@ -4529,7 +4529,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 1,
-    "explanation": "c."
+    "explanation": "לפי משפט פיתגורס: $c=\\sqrt{a^2+b^2}=\\sqrt{8^2+15^2}=17$."
   },
   {
     "id": "q-q-g8-pythagoras-2",
@@ -4544,7 +4544,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$165$"
     ],
     "correct_index": 0,
-    "explanation": "c2."
+    "explanation": "החישוב: $5^{2}+12^{2}=25+144=169$."
   },
   {
     "id": "q-q-g8-pythagoras-3",
@@ -4559,7 +4559,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 2,
-    "explanation": "b."
+    "explanation": "לפי משפט פיתגורס: $b=\\sqrt{c^2-a^2}=\\sqrt{13^2-5^2}=12$."
   },
   {
     "id": "q-q-g8-pythagoras-4",
@@ -4574,7 +4574,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 2,
-    "explanation": "c."
+    "explanation": "לפי משפט פיתגורס: $c=\\sqrt{a^2+b^2}=\\sqrt{9^2+12^2}=15$."
   },
   {
     "id": "q-q-g8-pythagoras-5",
@@ -4589,7 +4589,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$a^2+b^2=c^2$"
     ],
     "correct_index": 3,
-    "explanation": "thm."
+    "explanation": "התשובה הנכונה היא $a^2+b^2=c^2$."
   },
   {
     "id": "q-q-g8-pythagoras-6",
@@ -4604,7 +4604,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 2,
-    "explanation": "b."
+    "explanation": "לפי משפט פיתגורס: $b=\\sqrt{c^2-a^2}=\\sqrt{29^2-20^2}=21$."
   },
   {
     "id": "q-q-g8-pythagoras-7",
@@ -4619,7 +4619,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$96$"
     ],
     "correct_index": 2,
-    "explanation": "c2."
+    "explanation": "החישוב: $6^{2}+8^{2}=36+64=100$."
   },
   {
     "id": "q-q-g8-pythagoras-8",
@@ -4634,7 +4634,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "c."
+    "explanation": "לפי משפט פיתגורס: $c=\\sqrt{a^2+b^2}=\\sqrt{5^2+12^2}=13$."
   },
   {
     "id": "q-q-g8-pythagoras-9",
@@ -4649,7 +4649,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "c."
+    "explanation": "לפי משפט פיתגורס: $c=\\sqrt{a^2+b^2}=\\sqrt{3^2+4^2}=5$."
   },
   {
     "id": "q-q-g8-pythagoras-10",
@@ -4664,7 +4664,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$225$"
     ],
     "correct_index": 3,
-    "explanation": "c2."
+    "explanation": "החישוב: $9^{2}+12^{2}=81+144=225$."
   },
   {
     "id": "q-q-g8-pythagoras-11",
@@ -4679,7 +4679,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 2,
-    "explanation": "b."
+    "explanation": "לפי משפט פיתגורס: $b=\\sqrt{c^2-a^2}=\\sqrt{25^2-7^2}=24$."
   },
   {
     "id": "q-q-g8-pythagoras-12",
@@ -4694,7 +4694,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "b."
+    "explanation": "לפי משפט פיתגורס: $b=\\sqrt{c^2-a^2}=\\sqrt{5^2-3^2}=4$."
   },
   {
     "id": "q-q-g8-pythagoras-13",
@@ -4709,7 +4709,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "לא"
     ],
     "correct_index": 3,
-    "explanation": "no."
+    "explanation": "התשובה הנכונה היא לא."
   },
   {
     "id": "q-q-g8-pythagoras-14",
@@ -4724,7 +4724,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 3,
-    "explanation": "c."
+    "explanation": "לפי משפט פיתגורס: $c=\\sqrt{a^2+b^2}=\\sqrt{7^2+24^2}=25$."
   },
   {
     "id": "q-q-g8-pythagoras-15",
@@ -4739,7 +4739,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$37$"
     ],
     "correct_index": 2,
-    "explanation": "c."
+    "explanation": "לפי משפט פיתגורס: $c=\\sqrt{a^2+b^2}=\\sqrt{9^2+40^2}=41$."
   },
   {
     "id": "q-q-g8-pythagoras-16",
@@ -4754,7 +4754,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 3,
-    "explanation": "b."
+    "explanation": "לפי משפט פיתגורס: $b=\\sqrt{c^2-a^2}=\\sqrt{15^2-9^2}=12$."
   },
   {
     "id": "q-q-g8-pythagoras-17",
@@ -4769,7 +4769,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$40$"
     ],
     "correct_index": 3,
-    "explanation": "b."
+    "explanation": "לפי משפט פיתגורס: $b=\\sqrt{c^2-a^2}=\\sqrt{41^2-9^2}=40$."
   },
   {
     "id": "q-q-g8-pythagoras-18",
@@ -4784,7 +4784,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1676$"
     ],
     "correct_index": 1,
-    "explanation": "c2."
+    "explanation": "החישוב: $9^{2}+40^{2}=81+1600=1681$."
   },
   {
     "id": "q-q-g8-pythagoras-19",
@@ -4799,7 +4799,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$625$"
     ],
     "correct_index": 3,
-    "explanation": "c2."
+    "explanation": "החישוב: $7^{2}+24^{2}=49+576=625$."
   },
   {
     "id": "q-g8-circ-1",
@@ -4813,7 +4813,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$15\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "$2\\pi r=10\\pi$.",
+    "explanation": "החישוב: $2\\pi r=10\\pi$.",
     "type": "mcq"
   },
   {
@@ -4829,7 +4829,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2\\pi$"
     ],
     "correct_index": 1,
-    "explanation": "pi r2."
+    "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 5^2=25\\pi$."
   },
   {
     "id": "q-q-g8-circle-2",
@@ -4844,7 +4844,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$\\pi$"
     ],
     "correct_index": 1,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 9\\times\\pi=18\\pi$."
   },
   {
     "id": "q-q-g8-circle-3",
@@ -4859,7 +4859,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "d."
+    "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 2=4$."
   },
   {
     "id": "q-q-g8-circle-4",
@@ -4874,7 +4874,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$25\\pi$"
     ],
     "correct_index": 2,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 5\\times\\pi=10\\pi$."
   },
   {
     "id": "q-q-g8-circle-5",
@@ -4889,7 +4889,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 8\\times\\pi=16\\pi$."
   },
   {
     "id": "q-q-g8-circle-6",
@@ -4904,7 +4904,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "d."
+    "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 7=14$."
   },
   {
     "id": "q-q-g8-circle-7",
@@ -4919,7 +4919,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 3,
-    "explanation": "d."
+    "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 3=6$."
   },
   {
     "id": "q-q-g8-circle-8",
@@ -4934,7 +4934,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8\\pi$"
     ],
     "correct_index": 2,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 2\\times\\pi=4\\pi$."
   },
   {
     "id": "q-q-g8-circle-9",
@@ -4949,7 +4949,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "pi r2."
+    "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 6^2=36\\pi$."
   },
   {
     "id": "q-q-g8-circle-10",
@@ -4964,7 +4964,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "pi r2."
+    "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 4^2=16\\pi$."
   },
   {
     "id": "q-q-g8-circle-11",
@@ -4979,7 +4979,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "d."
+    "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 5=10$."
   },
   {
     "id": "q-q-g8-circle-12",
@@ -4994,7 +4994,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$\\pi$"
     ],
     "correct_index": 1,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 1\\times\\pi=2\\pi$."
   },
   {
     "id": "q-q-g8-circle-13",
@@ -5009,7 +5009,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 0,
-    "explanation": "d."
+    "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 1=2$."
   },
   {
     "id": "q-q-g8-circle-14",
@@ -5024,7 +5024,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "d."
+    "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 4=8$."
   },
   {
     "id": "q-q-g8-circle-15",
@@ -5039,7 +5039,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "d."
+    "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 6=12$."
   },
   {
     "id": "q-q-g8-circle-16",
@@ -5054,7 +5054,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 1,
-    "explanation": "d."
+    "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 8=16$."
   },
   {
     "id": "q-q-g8-circle-17",
@@ -5069,7 +5069,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2\\pi$"
     ],
     "correct_index": 1,
-    "explanation": "pi r2."
+    "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 10^2=100\\pi$."
   },
   {
     "id": "q-q-g8-circle-18",
@@ -5084,7 +5084,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 10\\times\\pi=20\\pi$."
   },
   {
     "id": "q-q-g8-circle-19",
@@ -5099,7 +5099,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$36\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 6\\times\\pi=12\\pi$."
   },
   {
     "id": "q-g9r-pow-1",
@@ -5113,7 +5113,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2a^{5}$"
     ],
     "correct_index": 0,
-    "explanation": "$a^{m}\\cdot a^{n}=a^{m+n}$.",
+    "explanation": "התשובה הנכונה היא $a^{5}$.",
     "type": "mcq"
   },
   {
@@ -5129,7 +5129,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 2,
-    "explanation": "paren."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $7+2=9$, ואז $9\\times 2=18$."
   },
   {
     "id": "q-q-g9r-powers-2",
@@ -5144,7 +5144,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$57$"
     ],
     "correct_index": 1,
-    "explanation": "cube."
+    "explanation": "החישוב: $4^{3}=64$."
   },
   {
     "id": "q-q-g9r-powers-3",
@@ -5159,7 +5159,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 1,
-    "explanation": "paren."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $3+4=7$, ואז $7\\times 2=14$."
   },
   {
     "id": "q-q-g9r-powers-4",
@@ -5174,7 +5174,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "PEMDAS."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $2\\times 3=6$, ואז $5+6=11$."
   },
   {
     "id": "q-q-g9r-powers-5",
@@ -5189,7 +5189,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$76$"
     ],
     "correct_index": 0,
-    "explanation": "sq."
+    "explanation": "החישוב: $9^{2}=81$."
   },
   {
     "id": "q-q-g9r-powers-6",
@@ -5204,7 +5204,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$211$"
     ],
     "correct_index": 2,
-    "explanation": "cube."
+    "explanation": "החישוב: $6^{3}=216$."
   },
   {
     "id": "q-q-g9r-powers-7",
@@ -5219,7 +5219,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "PEMDAS."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $5\\times 2=10$, ואז $1+10=11$."
   },
   {
     "id": "q-q-g9r-powers-8",
@@ -5234,7 +5234,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$45$"
     ],
     "correct_index": 2,
-    "explanation": "sq."
+    "explanation": "החישוב: $7^{2}=49$."
   },
   {
     "id": "q-q-g9r-powers-9",
@@ -5249,7 +5249,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$64$"
     ],
     "correct_index": 2,
-    "explanation": "2^5=32."
+    "explanation": "החישוב: 2^5=32."
   },
   {
     "id": "q-q-g9r-powers-10",
@@ -5264,7 +5264,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$14$"
     ],
     "correct_index": 1,
-    "explanation": "paren."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $5+2=7$, ואז $7\\times 3=21$."
   },
   {
     "id": "q-q-g9r-powers-11",
@@ -5279,7 +5279,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$59$"
     ],
     "correct_index": 0,
-    "explanation": "sq."
+    "explanation": "החישוב: $8^{2}=64$."
   },
   {
     "id": "q-q-g9r-powers-12",
@@ -5294,7 +5294,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$16$"
     ],
     "correct_index": 2,
-    "explanation": "paren."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $2+3=5$, ואז $5\\times 4=20$."
   },
   {
     "id": "q-q-g9r-powers-13",
@@ -5309,7 +5309,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 2,
-    "explanation": "sq."
+    "explanation": "החישוב: $2^{2}=4$."
   },
   {
     "id": "q-q-g9r-powers-14",
@@ -5324,7 +5324,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "PEMDAS."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $3\\times 4=12$, ואז $2+12=14$."
   },
   {
     "id": "q-q-g9r-powers-15",
@@ -5339,7 +5339,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$508$"
     ],
     "correct_index": 0,
-    "explanation": "cube."
+    "explanation": "החישוב: $8^{3}=512$."
   },
   {
     "id": "q-q-g9r-powers-16",
@@ -5354,7 +5354,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1000$"
     ],
     "correct_index": 3,
-    "explanation": "1000."
+    "explanation": "החישוב: $10^{3}=1000$."
   },
   {
     "id": "q-q-g9r-powers-17",
@@ -5369,7 +5369,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$36$"
     ],
     "correct_index": 3,
-    "explanation": "paren."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $4+2=6$, ואז $6\\times 6=36$."
   },
   {
     "id": "q-q-g9r-powers-18",
@@ -5384,7 +5384,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$722$"
     ],
     "correct_index": 0,
-    "explanation": "cube."
+    "explanation": "החישוב: $9^{3}=729$."
   },
   {
     "id": "q-q-g9r-powers-19",
@@ -5399,7 +5399,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 0,
-    "explanation": "PEMDAS."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $5\\times 3=15$, ואז $2+15=17$."
   },
   {
     "id": "q-g9r-fac-1",
@@ -5429,7 +5429,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2x+14$"
     ],
     "correct_index": 3,
-    "explanation": "expand."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $2(x+7)=2x+14$."
   },
   {
     "id": "q-q-g9r-factor-expand-2",
@@ -5444,7 +5444,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x^2+10x$"
     ],
     "correct_index": 0,
-    "explanation": "perfect."
+    "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+5)^2=x^2+10x+25$."
   },
   {
     "id": "q-q-g9r-factor-expand-3",
@@ -5459,7 +5459,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x(6+3)$"
     ],
     "correct_index": 1,
-    "explanation": "a(bx? no) a(bx/a + 1)."
+    "explanation": "מוציאים גורם משותף $6$ מכל איבר: $18x+6=6(3x+1)$."
   },
   {
     "id": "q-q-g9r-factor-expand-4",
@@ -5474,7 +5474,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x-9$"
     ],
     "correct_index": 1,
-    "explanation": "diff sq."
+    "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-9=(x-3)(x+3)$."
   },
   {
     "id": "q-q-g9r-factor-expand-5",
@@ -5489,7 +5489,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x^2+9$"
     ],
     "correct_index": 0,
-    "explanation": "perfect."
+    "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+3)^2=x^2+6x+9$."
   },
   {
     "id": "q-q-g9r-factor-expand-6",
@@ -5504,7 +5504,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$(x+2)^2$"
     ],
     "correct_index": 1,
-    "explanation": "diff sq."
+    "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-4=(x-2)(x+2)$."
   },
   {
     "id": "q-q-g9r-factor-expand-7",
@@ -5519,7 +5519,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5x$"
     ],
     "correct_index": 0,
-    "explanation": "expand."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $5(x+6)=5x+30$."
   },
   {
     "id": "q-q-g9r-factor-expand-8",
@@ -5534,7 +5534,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x^2+12x$"
     ],
     "correct_index": 0,
-    "explanation": "perfect."
+    "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+6)^2=x^2+12x+36$."
   },
   {
     "id": "q-q-g9r-factor-expand-9",
@@ -5549,7 +5549,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4(6x+1)$"
     ],
     "correct_index": 3,
-    "explanation": "a(bx? no) a(bx/a + 1)."
+    "explanation": "מוציאים גורם משותף $4$ מכל איבר: $24x+4=4(6x+1)$."
   },
   {
     "id": "q-q-g9r-factor-expand-10",
@@ -5564,7 +5564,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2x+3$"
     ],
     "correct_index": 2,
-    "explanation": "expand."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $2(x+3)=2x+6$."
   },
   {
     "id": "q-q-g9r-factor-expand-11",
@@ -5579,7 +5579,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$(x-7)(x+7)$"
     ],
     "correct_index": 3,
-    "explanation": "diff sq."
+    "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-49=(x-7)(x+7)$."
   },
   {
     "id": "q-q-g9r-factor-expand-12",
@@ -5594,7 +5594,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$(x+5)^2$"
     ],
     "correct_index": 0,
-    "explanation": "diff sq."
+    "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-25=(x-5)(x+5)$."
   },
   {
     "id": "q-q-g9r-factor-expand-13",
@@ -5609,7 +5609,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$(x-4)(x+4)$"
     ],
     "correct_index": 3,
-    "explanation": "diff sq."
+    "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-16=(x-4)(x+4)$."
   },
   {
     "id": "q-q-g9r-factor-expand-14",
@@ -5624,7 +5624,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4x+5$"
     ],
     "correct_index": 1,
-    "explanation": "expand."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $4(x+5)=4x+20$."
   },
   {
     "id": "q-q-g9r-factor-expand-15",
@@ -5639,7 +5639,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2x$"
     ],
     "correct_index": 0,
-    "explanation": "expand."
+    "explanation": "פותחים סוגריים לפי חוק הפילוג: $2(x+8)=2x+16$."
   },
   {
     "id": "q-q-g9r-factor-expand-16",
@@ -5654,7 +5654,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x(5+2)$"
     ],
     "correct_index": 2,
-    "explanation": "a(bx? no) a(bx/a + 1)."
+    "explanation": "מוציאים גורם משותף $5$ מכל איבר: $10x+5=5(2x+1)$."
   },
   {
     "id": "q-q-g9r-factor-expand-17",
@@ -5669,7 +5669,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2x+7$"
     ],
     "correct_index": 0,
-    "explanation": "a(bx? no) a(bx/a + 1)."
+    "explanation": "מוציאים גורם משותף $2$ מכל איבר: $14x+2=2(7x+1)$."
   },
   {
     "id": "q-q-g9r-factor-expand-18",
@@ -5684,7 +5684,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5x+6$"
     ],
     "correct_index": 0,
-    "explanation": "a(bx? no) a(bx/a + 1)."
+    "explanation": "מוציאים גורם משותף $5$ מכל איבר: $30x+5=5(6x+1)$."
   },
   {
     "id": "q-q-g9r-factor-expand-19",
@@ -5699,7 +5699,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3(7x+1)$"
     ],
     "correct_index": 3,
-    "explanation": "a(bx? no) a(bx/a + 1)."
+    "explanation": "מוציאים גורם משותף $3$ מכל איבר: $21x+3=3(7x+1)$."
   },
   {
     "id": "q-g9r-eq-1",
@@ -5713,7 +5713,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x=0$"
     ],
     "correct_index": 0,
-    "explanation": "$(x-2)(x-3)=0$.",
+    "explanation": "החישוב: $(x-2)(x-3)=0$.",
     "type": "mcq"
   },
   {
@@ -5729,7 +5729,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $1$ ו-$5$ (מהפירוק לגורמים), וסכומם $1+5=6$."
   },
   {
     "id": "q-q-g9r-quad-eq-2",
@@ -5744,7 +5744,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "prod."
+    "explanation": "השורשים הם $1$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $1\\times 5=5$."
   },
   {
     "id": "q-q-g9r-quad-eq-3",
@@ -5759,7 +5759,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "prod."
+    "explanation": "השורשים הם $1$ ו-$4$ (מהפירוק לגורמים), ומכפלתם $1\\times 4=4$."
   },
   {
     "id": "q-q-g9r-quad-eq-4",
@@ -5774,7 +5774,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "prod."
+    "explanation": "השורשים הם $1$ ו-$2$ (מהפירוק לגורמים), ומכפלתם $1\\times 2=2$."
   },
   {
     "id": "q-q-g9r-quad-eq-5",
@@ -5789,7 +5789,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "prod."
+    "explanation": "השורשים הם $4$ ו-$1$ (מהפירוק לגורמים), ומכפלתם $4\\times 1=4$."
   },
   {
     "id": "q-q-g9r-quad-eq-6",
@@ -5804,7 +5804,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=25$ הוא $x=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g9r-quad-eq-7",
@@ -5819,7 +5819,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 1,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=9$ הוא $x=\\sqrt{9}=3$."
   },
   {
     "id": "q-q-g9r-quad-eq-8",
@@ -5834,7 +5834,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 2,
-    "explanation": "prod."
+    "explanation": "השורשים הם $5$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $5\\times 5=25$."
   },
   {
     "id": "q-q-g9r-quad-eq-9",
@@ -5849,7 +5849,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=1$."
   },
   {
     "id": "q-q-g9r-quad-eq-10",
@@ -5864,7 +5864,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=1$ הוא $x=\\sqrt{1}=1$."
   },
   {
     "id": "q-q-g9r-quad-eq-11",
@@ -5879,7 +5879,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=3$."
   },
   {
     "id": "q-q-g9r-quad-eq-12",
@@ -5894,7 +5894,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "prod."
+    "explanation": "השורשים הם $2$ ו-$3$ (מהפירוק לגורמים), ומכפלתם $2\\times 3=6$."
   },
   {
     "id": "q-q-g9r-quad-eq-13",
@@ -5909,7 +5909,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $1$ ו-$3$ (מהפירוק לגורמים), וסכומם $1+3=4$."
   },
   {
     "id": "q-q-g9r-quad-eq-14",
@@ -5924,7 +5924,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 0,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=2$."
   },
   {
     "id": "q-q-g9r-quad-eq-15",
@@ -5939,7 +5939,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "prod."
+    "explanation": "השורשים הם $5$ ו-$1$ (מהפירוק לגורמים), ומכפלתם $5\\times 1=5$."
   },
   {
     "id": "q-q-g9r-quad-eq-16",
@@ -5954,7 +5954,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $5$ ו-$5$ (מהפירוק לגורמים), וסכומם $5+5=10$."
   },
   {
     "id": "q-q-g9r-quad-eq-17",
@@ -5969,7 +5969,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=2$."
   },
   {
     "id": "q-q-g9r-quad-eq-18",
@@ -5984,7 +5984,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 2,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=16$ הוא $x=\\sqrt{16}=4$."
   },
   {
     "id": "q-q-g9r-quad-eq-19",
@@ -5999,7 +5999,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 2,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=1$."
   },
   {
     "id": "q-g9r-fn-1",
@@ -6013,7 +6013,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$(0,-4)$"
     ],
     "correct_index": 0,
-    "explanation": "$x^{2}-4=0\\Rightarrow x=\\pm 2$.",
+    "explanation": "החישוב: $x^{2}-4=0\\Rightarrow x=\\pm 2$.",
     "type": "mcq"
   },
   {
@@ -6029,7 +6029,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=1$ הוא $x=\\sqrt{1}=1$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-2",
@@ -6044,7 +6044,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=9$ הוא $x=\\sqrt{9}=3$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-3",
@@ -6059,7 +6059,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 2,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=3$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-4",
@@ -6074,7 +6074,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 3,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $3$ ו-$3$ (מהפירוק לגורמים), וסכומם $3+3=6$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-5",
@@ -6089,7 +6089,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=4$ הוא $x=\\sqrt{4}=2$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-6",
@@ -6104,7 +6104,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 2,
-    "explanation": "prod."
+    "explanation": "השורשים הם $4$ ו-$3$ (מהפירוק לגורמים), ומכפלתם $4\\times 3=12$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-7",
@@ -6119,7 +6119,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 0,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=2$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-8",
@@ -6134,7 +6134,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=4$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-9",
@@ -6149,7 +6149,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 1,
-    "explanation": "prod."
+    "explanation": "השורשים הם $4$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $4\\times 5=20$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-10",
@@ -6164,7 +6164,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 3,
-    "explanation": "prod."
+    "explanation": "השורשים הם $5$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $5\\times 5=25$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-11",
@@ -6179,7 +6179,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $4$ ו-$4$ (מהפירוק לגורמים), וסכומם $4+4=8$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-12",
@@ -6194,7 +6194,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $1$ ו-$1$ (מהפירוק לגורמים), וסכומם $1+1=2$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-13",
@@ -6209,7 +6209,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 0,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=4$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-14",
@@ -6224,7 +6224,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $4$ ו-$5$ (מהפירוק לגורמים), וסכומם $4+5=9$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-15",
@@ -6239,7 +6239,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=5$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-16",
@@ -6254,7 +6254,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $3$ ו-$5$ (מהפירוק לגורמים), וסכומם $3+5=8$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-17",
@@ -6269,7 +6269,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=5$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-18",
@@ -6284,7 +6284,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=5$."
   },
   {
     "id": "q-q-g9r-quadratic-fn-19",
@@ -6299,7 +6299,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 1,
-    "explanation": "3."
+    "explanation": "$x^2=9$, ולכן השורש החיובי הוא $x=\\sqrt{9}=3$."
   },
   {
     "id": "q-g9r-ineq-1",
@@ -6313,7 +6313,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>2$"
     ],
     "correct_index": 0,
-    "explanation": "$x>4$.",
+    "explanation": "התשובה הנכונה היא $x>4$.",
     "type": "mcq"
   },
   {
@@ -6329,7 +6329,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>16$"
     ],
     "correct_index": 0,
-    "explanation": "ineq."
+    "explanation": "התשובה הנכונה היא $x>4$."
   },
   {
     "id": "q-q-g9r-inequalities-2",
@@ -6344,7 +6344,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>-6$"
     ],
     "correct_index": 1,
-    "explanation": "flip."
+    "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-6$."
   },
   {
     "id": "q-q-g9r-inequalities-3",
@@ -6359,7 +6359,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x<3$"
     ],
     "correct_index": 2,
-    "explanation": "leq."
+    "explanation": "מחלקים את שני האגפים ב-$8$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
     "id": "q-q-g9r-inequalities-4",
@@ -6374,7 +6374,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x<3$"
     ],
     "correct_index": 2,
-    "explanation": "leq."
+    "explanation": "מחלקים את שני האגפים ב-$6$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
     "id": "q-q-g9r-inequalities-5",
@@ -6389,7 +6389,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>14$"
     ],
     "correct_index": 1,
-    "explanation": "ineq."
+    "explanation": "התשובה הנכונה היא $x>6$."
   },
   {
     "id": "q-q-g9r-inequalities-6",
@@ -6404,7 +6404,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x<3$"
     ],
     "correct_index": 0,
-    "explanation": "leq."
+    "explanation": "מחלקים את שני האגפים ב-$5$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
     "id": "q-q-g9r-inequalities-7",
@@ -6419,7 +6419,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x\\leq 3$"
     ],
     "correct_index": 3,
-    "explanation": "leq."
+    "explanation": "מחלקים את שני האגפים ב-$7$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
     "id": "q-q-g9r-inequalities-8",
@@ -6434,7 +6434,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>7$"
     ],
     "correct_index": 2,
-    "explanation": "flip."
+    "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-7$."
   },
   {
     "id": "q-q-g9r-inequalities-9",
@@ -6449,7 +6449,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>-3$"
     ],
     "correct_index": 2,
-    "explanation": "flip."
+    "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-3$."
   },
   {
     "id": "q-q-g9r-inequalities-10",
@@ -6464,7 +6464,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>15$"
     ],
     "correct_index": 1,
-    "explanation": "ineq."
+    "explanation": "התשובה הנכונה היא $x>5$."
   },
   {
     "id": "q-q-g9r-inequalities-11",
@@ -6479,7 +6479,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x<--9$"
     ],
     "correct_index": 2,
-    "explanation": "flip."
+    "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-9$."
   },
   {
     "id": "q-q-g9r-inequalities-12",
@@ -6494,7 +6494,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x=2$"
     ],
     "correct_index": 1,
-    "explanation": "ineq."
+    "explanation": "התשובה הנכונה היא $x>2$."
   },
   {
     "id": "q-q-g9r-inequalities-13",
@@ -6509,7 +6509,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>5$"
     ],
     "correct_index": 1,
-    "explanation": "flip."
+    "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-5$."
   },
   {
     "id": "q-q-g9r-inequalities-14",
@@ -6524,7 +6524,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>19$"
     ],
     "correct_index": 2,
-    "explanation": "ineq."
+    "explanation": "התשובה הנכונה היא $x>1$."
   },
   {
     "id": "q-q-g9r-inequalities-15",
@@ -6539,7 +6539,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x<--2$"
     ],
     "correct_index": 2,
-    "explanation": "flip."
+    "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-2$."
   },
   {
     "id": "q-q-g9r-inequalities-16",
@@ -6554,7 +6554,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x\\leq 3$"
     ],
     "correct_index": 3,
-    "explanation": "leq."
+    "explanation": "מחלקים את שני האגפים ב-$9$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
     "id": "q-q-g9r-inequalities-17",
@@ -6569,7 +6569,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x\\leq 3$"
     ],
     "correct_index": 3,
-    "explanation": "leq."
+    "explanation": "מחלקים את שני האגפים ב-$2$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
     "id": "q-q-g9r-inequalities-18",
@@ -6584,7 +6584,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x\\leq 3$"
     ],
     "correct_index": 3,
-    "explanation": "leq."
+    "explanation": "מחלקים את שני האגפים ב-$3$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
     "id": "q-q-g9r-inequalities-19",
@@ -6599,7 +6599,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>4$"
     ],
     "correct_index": 1,
-    "explanation": "flip."
+    "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-4$."
   },
   {
     "id": "q-g9r-geo-1",
@@ -6629,7 +6629,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-30-70=80^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-2",
@@ -6644,7 +6644,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$60^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "60."
+    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות זו לזו, וסכומן $180^\\circ$, לכן כל זווית היא $180\\div 3=60^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-3",
@@ -6659,7 +6659,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$100^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-20-80=80^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-4",
@@ -6674,7 +6674,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$120$"
     ],
     "correct_index": 0,
-    "explanation": "60."
+    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-90-30=60^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-5",
@@ -6689,7 +6689,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$180^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-45-45=90^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-6",
@@ -6704,7 +6704,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$90^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "90."
+    "explanation": "זווית ישרה (זווית שיוצרת \"פינה\" מושלמת, כמו בפינת ריבוע) שווה $90^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-7",
@@ -6719,7 +6719,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$90^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-50-50=80^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-8",
@@ -6734,7 +6734,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "=90"
     ],
     "correct_index": 2,
-    "explanation": "acute."
+    "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-9",
@@ -6749,7 +6749,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "180."
+    "explanation": "שתי זוויות סמוכות שיוצרות יחד קו ישר משלימות ל-$180^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-10",
@@ -6764,7 +6764,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$15^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-15-75=90^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-11",
@@ -6779,7 +6779,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$80^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-40-60=80^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-12",
@@ -6794,7 +6794,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$155^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-25-65=90^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-13",
@@ -6809,7 +6809,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$270$"
     ],
     "correct_index": 1,
-    "explanation": "360."
+    "explanation": "סכום כל הזוויות מסביב לנקודה אחת הוא תמיד $360^\\circ$ (סיבוב שלם)."
   },
   {
     "id": "q-q-g9r-geometry-14",
@@ -6824,7 +6824,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$80^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "70."
+    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-50-60=70^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-15",
@@ -6839,7 +6839,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "משלימות"
     ],
     "correct_index": 0,
-    "explanation": "equal."
+    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות מתאימות (נגדיות-פנימיות) שוות זו לזו."
   },
   {
     "id": "q-q-g9r-geometry-16",
@@ -6854,7 +6854,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$>90^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "obtuse."
+    "explanation": "זווית קהה היא זווית הגדולה מ-$90^\\circ$ (וקטנה מ-$180^\\circ$): $>90^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-17",
@@ -6869,7 +6869,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$100^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "180."
+    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-18",
@@ -6884,7 +6884,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$145^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-35-55=90^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-551",
@@ -6899,7 +6899,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$14$"
     ],
     "correct_index": 2,
-    "explanation": "7."
+    "explanation": "התשובה הנכונה היא $7$."
   },
   {
     "id": "q-g9r-prob-1",
@@ -6913,7 +6913,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2/3$"
     ],
     "correct_index": 0,
-    "explanation": "$\\{2,4,6\\}/6=1/2$.",
+    "explanation": "החישוב: $\\{2,4,6\\}/6=1/2$.",
     "type": "mcq"
   },
   {
@@ -6929,7 +6929,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$\\frac{2}{3}$"
     ],
     "correct_index": 0,
-    "explanation": "2/5."
+    "explanation": "התשובה הנכונה היא $\\frac{2}{5}$."
   },
   {
     "id": "q-q-g9r-probability-2",
@@ -6944,7 +6944,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 9, 17, 20, 24. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g9r-probability-3",
@@ -6959,7 +6959,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 6, 8, 27, 28. החציון הוא הערך האמצעי — $8$."
   },
   {
     "id": "q-q-g9r-probability-4",
@@ -6974,7 +6974,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 11, 22, 25, 29. החציון הוא הערך האמצעי — $22$."
   },
   {
     "id": "q-q-g9r-probability-5",
@@ -6989,7 +6989,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 7, 9, 11, 12, 27. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g9r-probability-6",
@@ -7004,7 +7004,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 10, 14, 15, 27. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g9r-probability-7",
@@ -7019,7 +7019,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 0,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $80$, ומחלקים במספר המספרים ($5$): $80\\div 5=16$."
   },
   {
     "id": "q-q-g9r-probability-8",
@@ -7034,7 +7034,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$19$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 10, 24, 27, 28. החציון הוא הערך האמצעי — $24$."
   },
   {
     "id": "q-q-g9r-probability-9",
@@ -7049,7 +7049,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 10, 11, 14, 26. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g9r-probability-10",
@@ -7064,7 +7064,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 13, 19, 22, 24, 27. החציון הוא הערך האמצעי — $22$."
   },
   {
     "id": "q-q-g9r-probability-11",
@@ -7079,7 +7079,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 8, 13, 18, 22, 25. החציון הוא הערך האמצעי — $18$."
   },
   {
     "id": "q-q-g9r-probability-12",
@@ -7094,7 +7094,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 11, 13, 23, 29. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g9r-probability-13",
@@ -7109,7 +7109,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 12, 14, 26, 27. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g9r-probability-14",
@@ -7124,7 +7124,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 10, 17, 20, 28. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g9r-probability-15",
@@ -7139,7 +7139,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 10, 13, 23, 25. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g9r-probability-16",
@@ -7154,7 +7154,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 9, 12, 14, 18, 22. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g9r-probability-17",
@@ -7169,7 +7169,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 7, 10, 16, 24, 27. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g9r-probability-18",
@@ -7184,7 +7184,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 2,
-    "explanation": "10."
+    "explanation": "מחברים את שתי הקבוצות: $4+6=10$."
   },
   {
     "id": "q-q-g9r-probability-19",
@@ -7199,7 +7199,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 3,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $75$, ומחלקים במספר המספרים ($5$): $75\\div 5=15$."
   },
   {
     "id": "q-g9x-lin-1",
@@ -7213,7 +7213,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "$3+2=5$.",
+    "explanation": "החישוב: $3+2=5$.",
     "type": "mcq"
   },
   {
@@ -7229,7 +7229,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 3,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=3\\times 2+1=7$."
   },
   {
     "id": "q-q-g9x-linear-2",
@@ -7244,7 +7244,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 0,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=2\\times 2-5=-1$."
   },
   {
     "id": "q-q-g9x-linear-3",
@@ -7259,7 +7259,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=4\\times 2-1=7$."
   },
   {
     "id": "q-q-g9x-linear-4",
@@ -7274,7 +7274,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 1,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=6\\times 2+5=17$."
   },
   {
     "id": "q-q-g9x-linear-5",
@@ -7289,7 +7289,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 2,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=7\\times 2-3=11$."
   },
   {
     "id": "q-q-g9x-linear-6",
@@ -7304,7 +7304,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "slope."
+    "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=3$."
   },
   {
     "id": "q-q-g9x-linear-7",
@@ -7319,7 +7319,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 3,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=2\\times 2+5=9$."
   },
   {
     "id": "q-q-g9x-linear-8",
@@ -7334,7 +7334,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-7$"
     ],
     "correct_index": 2,
-    "explanation": "intercept."
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=2\\times 0-3=-3$."
   },
   {
     "id": "q-q-g9x-linear-9",
@@ -7349,7 +7349,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "slope."
+    "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=7$."
   },
   {
     "id": "q-q-g9x-linear-10",
@@ -7364,7 +7364,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=5\\times 2+5=15$."
   },
   {
     "id": "q-q-g9x-linear-11",
@@ -7379,7 +7379,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 3,
-    "explanation": "intercept."
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=4\\times 0-2=-2$."
   },
   {
     "id": "q-q-g9x-linear-12",
@@ -7394,7 +7394,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 0,
-    "explanation": "eval."
+    "explanation": "מציבים $x=2$: $f(2)=7\\times 2+2=16$."
   },
   {
     "id": "q-q-g9x-linear-13",
@@ -7409,7 +7409,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "intercept."
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=4\\times 0+5=5$."
   },
   {
     "id": "q-q-g9x-linear-14",
@@ -7424,7 +7424,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "intercept."
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=1\\times 0+4=4$."
   },
   {
     "id": "q-q-g9x-linear-15",
@@ -7439,7 +7439,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-9$"
     ],
     "correct_index": 0,
-    "explanation": "intercept."
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=6\\times 0-4=-4$."
   },
   {
     "id": "q-q-g9x-linear-16",
@@ -7454,7 +7454,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "intercept."
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=7\\times 0+5=5$."
   },
   {
     "id": "q-q-g9x-linear-17",
@@ -7469,7 +7469,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 3,
-    "explanation": "intercept."
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=3\\times 0-4=-4$."
   },
   {
     "id": "q-q-g9x-linear-18",
@@ -7484,7 +7484,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-6$"
     ],
     "correct_index": 2,
-    "explanation": "slope."
+    "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=1$."
   },
   {
     "id": "q-q-g9x-linear-19",
@@ -7499,7 +7499,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 2,
-    "explanation": "slope."
+    "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=2$."
   },
   {
     "id": "q-g9x-quad-1",
@@ -7529,7 +7529,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=9$ הוא $x=\\sqrt{9}=3$."
   },
   {
     "id": "q-q-g9x-quadratic-2",
@@ -7544,7 +7544,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=2$."
   },
   {
     "id": "q-q-g9x-quadratic-3",
@@ -7559,7 +7559,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $3$ ו-$3$ (מהפירוק לגורמים), וסכומם $3+3=6$."
   },
   {
     "id": "q-q-g9x-quadratic-4",
@@ -7574,7 +7574,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=4$ הוא $x=\\sqrt{4}=2$."
   },
   {
     "id": "q-q-g9x-quadratic-5",
@@ -7589,7 +7589,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "prod."
+    "explanation": "השורשים הם $4$ ו-$2$ (מהפירוק לגורמים), ומכפלתם $4\\times 2=8$."
   },
   {
     "id": "q-q-g9x-quadratic-6",
@@ -7604,7 +7604,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 2,
-    "explanation": "prod."
+    "explanation": "השורשים הם $5$ ו-$3$ (מהפירוק לגורמים), ומכפלתם $5\\times 3=15$."
   },
   {
     "id": "q-q-g9x-quadratic-7",
@@ -7619,7 +7619,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $5$ ו-$5$ (מהפירוק לגורמים), וסכומם $5+5=10$."
   },
   {
     "id": "q-q-g9x-quadratic-8",
@@ -7634,7 +7634,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $4$ ו-$3$ (מהפירוק לגורמים), וסכומם $4+3=7$."
   },
   {
     "id": "q-q-g9x-quadratic-9",
@@ -7649,7 +7649,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $1$ ו-$5$ (מהפירוק לגורמים), וסכומם $1+5=6$."
   },
   {
     "id": "q-q-g9x-quadratic-10",
@@ -7664,7 +7664,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=16$ הוא $x=\\sqrt{16}=4$."
   },
   {
     "id": "q-q-g9x-quadratic-11",
@@ -7679,7 +7679,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $4$ ו-$4$ (מהפירוק לגורמים), וסכומם $4+4=8$."
   },
   {
     "id": "q-q-g9x-quadratic-12",
@@ -7694,7 +7694,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "prod."
+    "explanation": "השורשים הם $3$ ו-$1$ (מהפירוק לגורמים), ומכפלתם $3\\times 1=3$."
   },
   {
     "id": "q-q-g9x-quadratic-13",
@@ -7709,7 +7709,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $4$ ו-$5$ (מהפירוק לגורמים), וסכומם $4+5=9$."
   },
   {
     "id": "q-q-g9x-quadratic-14",
@@ -7724,7 +7724,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 1,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=3$."
   },
   {
     "id": "q-q-g9x-quadratic-15",
@@ -7739,7 +7739,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $3$ ו-$5$ (מהפירוק לגורמים), וסכומם $3+5=8$."
   },
   {
     "id": "q-q-g9x-quadratic-16",
@@ -7754,7 +7754,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-6$"
     ],
     "correct_index": 2,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=1$ הוא $x=\\sqrt{1}=1$."
   },
   {
     "id": "q-q-g9x-quadratic-17",
@@ -7769,7 +7769,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 3,
-    "explanation": "prod."
+    "explanation": "השורשים הם $5$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $5\\times 5=25$."
   },
   {
     "id": "q-q-g9x-quadratic-18",
@@ -7784,7 +7784,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=25$ הוא $x=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g9x-quadratic-19",
@@ -7799,7 +7799,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "prod."
+    "explanation": "השורשים הם $2$ ו-$1$ (מהפירוק לגורמים), ומכפלתם $2\\times 1=2$."
   },
   {
     "id": "q-g9x-eq-1",
@@ -7813,7 +7813,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x=15$"
     ],
     "correct_index": 0,
-    "explanation": "$x=4$.",
+    "explanation": "החישוב: $x=4$.",
     "type": "mcq"
   },
   {
@@ -7829,7 +7829,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $10$ אגף: $10x=60-10=50$. מחלקים ב-$10$: $x=5$."
   },
   {
     "id": "q-q-g9x-equations-2",
@@ -7844,7 +7844,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$3$: $x=18\\div 3=6$."
   },
   {
     "id": "q-q-g9x-equations-3",
@@ -7859,7 +7859,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$10$: $x=60\\div 10=6$."
   },
   {
     "id": "q-q-g9x-equations-4",
@@ -7874,7 +7874,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מעבירים את $10$ אגף עם סימן הפוך: $x=20-10=10$."
   },
   {
     "id": "q-q-g9x-equations-5",
@@ -7889,7 +7889,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$2$: $x=12\\div 2=6$."
   },
   {
     "id": "q-q-g9x-equations-6",
@@ -7904,7 +7904,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$11$: $x=55\\div 11=5$."
   },
   {
     "id": "q-q-g9x-equations-7",
@@ -7919,7 +7919,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מעבירים את $5$ אגף עם סימן הפוך: $x=15-5=10$."
   },
   {
     "id": "q-q-g9x-equations-8",
@@ -7934,7 +7934,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $6$ אגף: $6x=36-6=30$. מחלקים ב-$6$: $x=5$."
   },
   {
     "id": "q-q-g9x-equations-9",
@@ -7949,7 +7949,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$6$: $x=30\\div 6=5$."
   },
   {
     "id": "q-q-g9x-equations-10",
@@ -7964,7 +7964,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $5$ אגף: $5x=50-5=45$. מחלקים ב-$5$: $x=9$."
   },
   {
     "id": "q-q-g9x-equations-11",
@@ -7979,7 +7979,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "linear."
+    "explanation": "מעבירים את $10$ אגף: $10x=50-10=40$. מחלקים ב-$10$: $x=4$."
   },
   {
     "id": "q-q-g9x-equations-12",
@@ -7994,7 +7994,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$3$: $x=9\\div 3=3$."
   },
   {
     "id": "q-q-g9x-equations-13",
@@ -8009,7 +8009,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$11$: $x=88\\div 11=8$."
   },
   {
     "id": "q-q-g9x-equations-14",
@@ -8024,7 +8024,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 2,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$9$: $x=54\\div 9=6$."
   },
   {
     "id": "q-q-g9x-equations-15",
@@ -8039,7 +8039,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$8$: $x=56\\div 8=7$."
   },
   {
     "id": "q-q-g9x-equations-16",
@@ -8054,7 +8054,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$38$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מעבירים את $6$ אגף עם סימן הפוך: $x=48-6=42$."
   },
   {
     "id": "q-q-g9x-equations-17",
@@ -8069,7 +8069,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 3,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$11$: $x=77\\div 11=7$."
   },
   {
     "id": "q-q-g9x-equations-18",
@@ -8084,7 +8084,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "linear."
+    "explanation": "מעבירים את $9$ אגף: $9x=81-9=72$. מחלקים ב-$9$: $x=8$."
   },
   {
     "id": "q-q-g9x-equations-19",
@@ -8099,7 +8099,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$3$: $x=6\\div 3=2$."
   },
   {
     "id": "q-g9x-geo-1",
@@ -8113,7 +8113,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 0,
-    "explanation": "$4\\cdot 5=20$.",
+    "explanation": "החישוב: $4\\cdot 5=20$.",
     "type": "mcq"
   },
   {
@@ -8129,7 +8129,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-50-50=80^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-2",
@@ -8144,7 +8144,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "180"
     ],
     "correct_index": 1,
-    "explanation": "equal."
+    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות מתאימות (נגדיות-פנימיות) שוות זו לזו."
   },
   {
     "id": "q-q-g9x-geo-3",
@@ -8159,7 +8159,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$70^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "70."
+    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-50-60=70^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-4",
@@ -8174,7 +8174,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$155^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-25-65=90^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-5",
@@ -8189,7 +8189,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$145^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-35-55=90^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-6",
@@ -8204,7 +8204,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$270$"
     ],
     "correct_index": 0,
-    "explanation": "360."
+    "explanation": "סכום כל הזוויות מסביב לנקודה אחת הוא תמיד $360^\\circ$ (סיבוב שלם)."
   },
   {
     "id": "q-q-g9x-geo-7",
@@ -8219,7 +8219,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$90^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "180."
+    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-8",
@@ -8234,7 +8234,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$180^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "180."
+    "explanation": "שתי זוויות סמוכות שיוצרות יחד קו ישר משלימות ל-$180^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-9",
@@ -8249,7 +8249,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$180^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-45-45=90^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-10",
@@ -8264,7 +8264,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$100^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-30-70=80^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-11",
@@ -8279,7 +8279,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$60^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "60."
+    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-90-30=60^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-12",
@@ -8294,7 +8294,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$180^\\circ$"
     ],
     "correct_index": 2,
-    "explanation": "90."
+    "explanation": "זווית ישרה (זווית שיוצרת \"פינה\" מושלמת, כמו בפינת ריבוע) שווה $90^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-13",
@@ -8309,7 +8309,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$80^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-40-60=80^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-14",
@@ -8324,7 +8324,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "=180"
     ],
     "correct_index": 0,
-    "explanation": "acute."
+    "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-15",
@@ -8339,7 +8339,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$45$"
     ],
     "correct_index": 2,
-    "explanation": "60."
+    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות זו לזו, וסכומן $180^\\circ$, לכן כל זווית היא $180\\div 3=60^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-16",
@@ -8354,7 +8354,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$165^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-15-75=90^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-17",
@@ -8369,7 +8369,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$90^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-20-80=80^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-18",
@@ -8384,7 +8384,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$<90$"
     ],
     "correct_index": 1,
-    "explanation": "obtuse."
+    "explanation": "זווית קהה היא זווית הגדולה מ-$90^\\circ$ (וקטנה מ-$180^\\circ$): $>90^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-551",
@@ -8399,7 +8399,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "linear."
+    "explanation": "מעבירים את $10$ אגף: $10x=50-10=40$. מחלקים ב-$10$: $x=4$."
   },
   {
     "id": "q-g9x-pp-1",
@@ -8413,7 +8413,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$160$"
     ],
     "correct_index": 0,
-    "explanation": "$0.5\\cdot 80=40$.",
+    "explanation": "החישוב: $0.5\\cdot 80=40$.",
     "type": "mcq"
   },
   {
@@ -8429,7 +8429,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $8\\%=\\frac{8}{100}$. לכן $8\\%$ מ-$50$ הוא $\\frac{8}{100}\\times 50=4$."
   },
   {
     "id": "q-q-g9x-percent-prob-2",
@@ -8444,7 +8444,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$30$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $20\\%=\\frac{20}{100}$. לכן $20\\%$ מ-$150$ הוא $\\frac{20}{100}\\times 150=30$."
   },
   {
     "id": "q-q-g9x-percent-prob-3",
@@ -8459,7 +8459,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$3:3$"
     ],
     "correct_index": 2,
-    "explanation": "scale."
+    "explanation": "מכפילים את שני אגפי היחס באותו מספר: $5\\times 3:1\\times 3=15:3$."
   },
   {
     "id": "q-q-g9x-percent-prob-4",
@@ -8474,7 +8474,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "10."
+    "explanation": "$5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
     "id": "q-q-g9x-percent-prob-5",
@@ -8489,7 +8489,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $40\\%=\\frac{40}{100}$. לכן $40\\%$ מ-$50$ הוא $\\frac{40}{100}\\times 50=20$."
   },
   {
     "id": "q-q-g9x-percent-prob-6",
@@ -8504,7 +8504,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "3."
+    "explanation": "היחס $3:5$ מתוך סה\"כ $8$ חלקים: חלק 1 שווה $\\frac{3}{8}\\times 8=3$."
   },
   {
     "id": "q-q-g9x-percent-prob-7",
@@ -8519,7 +8519,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$23$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$60$ הוא $\\frac{50}{100}\\times 60=30$."
   },
   {
     "id": "q-q-g9x-percent-prob-8",
@@ -8534,7 +8534,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1:4$"
     ],
     "correct_index": 1,
-    "explanation": "1:2."
+    "explanation": "התשובה הנכונה היא $1:2$."
   },
   {
     "id": "q-q-g9x-percent-prob-9",
@@ -8549,7 +8549,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$4\\%$"
     ],
     "correct_index": 2,
-    "explanation": "25%."
+    "explanation": "אחוז מחושב כשבר כפול $100$: $\\frac{1}{4}\\times 100=25\\%$."
   },
   {
     "id": "q-q-g9x-percent-prob-10",
@@ -8564,7 +8564,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 1,
-    "explanation": "30."
+    "explanation": "התשובה הנכונה היא $30$."
   },
   {
     "id": "q-q-g9x-percent-prob-11",
@@ -8579,7 +8579,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $25\\%=\\frac{25}{100}$. לכן $25\\%$ מ-$40$ הוא $\\frac{25}{100}\\times 40=10$."
   },
   {
     "id": "q-q-g9x-percent-prob-12",
@@ -8594,7 +8594,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $12\\%=\\frac{12}{100}$. לכן $12\\%$ מ-$100$ הוא $\\frac{12}{100}\\times 100=12$."
   },
   {
     "id": "q-q-g9x-percent-prob-13",
@@ -8609,7 +8609,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$80$"
     ],
     "correct_index": 0,
-    "explanation": "100."
+    "explanation": "אחרי גידול של $20\\%$ הערך הוא $120\\%$ מהמקורי: $120\\div 1.2=100$."
   },
   {
     "id": "q-q-g9x-percent-prob-14",
@@ -8624,7 +8624,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$18:12$"
     ],
     "correct_index": 3,
-    "explanation": "scale."
+    "explanation": "מכפילים את שני אגפי היחס באותו מספר: $3\\times 6:2\\times 6=18:12$."
   },
   {
     "id": "q-q-g9x-percent-prob-15",
@@ -8639,7 +8639,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $5\\%=\\frac{5}{100}$. לכן $5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
     "id": "q-q-g9x-percent-prob-16",
@@ -8654,7 +8654,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 3,
-    "explanation": "1/2."
+    "explanation": "להטלת מטבע הוגן יש שתי תוצאות שוות-סבירות, ולכן ההסתברות היא $\\frac{1}{2}$."
   },
   {
     "id": "q-q-g9x-percent-prob-17",
@@ -8669,7 +8669,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$27$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $30\\%=\\frac{30}{100}$. לכן $30\\%$ מ-$90$ הוא $\\frac{30}{100}\\times 90=27$."
   },
   {
     "id": "q-q-g9x-percent-prob-18",
@@ -8684,7 +8684,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2:12$"
     ],
     "correct_index": 0,
-    "explanation": "scale."
+    "explanation": "מכפילים את שני אגפי היחס באותו מספר: $2\\times 4:3\\times 4=8:12$."
   },
   {
     "id": "q-q-g9x-percent-prob-19",
@@ -8699,7 +8699,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $60\\%=\\frac{60}{100}$. לכן $60\\%$ מ-$50$ הוא $\\frac{60}{100}\\times 50=30$."
   }
 ];
 

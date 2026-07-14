@@ -44,7 +44,7 @@ export const QUESTIONS = [
       "$7$"
     ],
     "correct_index": 2,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $70$, ומחלקים במספר המספרים ($5$): $70\\div 5=14$."
   },
   {
     "id": "q-q-g10-u3-science-society-2",
@@ -59,7 +59,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 8, 17, 23, 28. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g10-u3-science-society-3",
@@ -74,7 +74,7 @@ export const QUESTIONS = [
       "$19$"
     ],
     "correct_index": 2,
-    "explanation": "7."
+    "explanation": "השכיח (המוד) הוא הערך שחוזר הכי הרבה פעמים ברשימה $3,7,7,2$: $7$."
   },
   {
     "id": "q-q-g10-u3-science-society-4",
@@ -89,7 +89,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 11, 13, 17, 19. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g10-u3-science-society-5",
@@ -104,7 +104,7 @@ export const QUESTIONS = [
       "$15$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 5, 20, 26, 27. החציון הוא הערך האמצעי — $20$."
   },
   {
     "id": "q-q-g10-u3-science-society-6",
@@ -119,7 +119,7 @@ export const QUESTIONS = [
       "$16$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 6, 16, 17, 20. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g10-u3-science-society-7",
@@ -134,7 +134,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 2,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $80$, ומחלקים במספר המספרים ($5$): $80\\div 5=16$."
   },
   {
     "id": "q-q-g10-u3-science-society-8",
@@ -149,7 +149,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 11, 17, 24, 29. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g10-u3-science-society-9",
@@ -164,7 +164,7 @@ export const QUESTIONS = [
       "$15$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 4, 19, 24, 29. החציון הוא הערך האמצעי — $19$."
   },
   {
     "id": "q-q-g10-u3-science-society-10",
@@ -179,7 +179,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 12, 14, 18, 26. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g10-u3-science-society-11",
@@ -194,7 +194,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 7, 15, 20, 25. החציון הוא הערך האמצעי — $15$."
   },
   {
     "id": "q-q-g10-u3-science-society-12",
@@ -209,7 +209,7 @@ export const QUESTIONS = [
       "$20$"
     ],
     "correct_index": 3,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $100$, ומחלקים במספר המספרים ($5$): $100\\div 5=20$."
   },
   {
     "id": "q-q-g10-u3-science-society-13",
@@ -224,7 +224,7 @@ export const QUESTIONS = [
       "$23$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 6, 23, 26, 28. החציון הוא הערך האמצעי — $23$."
   },
   {
     "id": "q-q-g10-u3-science-society-14",
@@ -239,7 +239,7 @@ export const QUESTIONS = [
       "$17$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 9, 12, 21, 23, 24. החציון הוא הערך האמצעי — $21$."
   },
   {
     "id": "q-q-g10-u3-science-society-15",
@@ -254,7 +254,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 5, 7, 13, 27. החציון הוא הערך האמצעי — $7$."
   },
   {
     "id": "q-q-g10-u3-science-society-16",
@@ -269,7 +269,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 6, 10, 13, 15. החציון הוא הערך האמצעי — $10$."
   },
   {
     "id": "q-q-g10-u3-science-society-17",
@@ -284,7 +284,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $65$, ומחלקים במספר המספרים ($5$): $65\\div 5=13$."
   },
   {
     "id": "q-q-g10-u3-science-society-18",
@@ -299,7 +299,7 @@ export const QUESTIONS = [
       "$15$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 15, 17, 19, 24, 27. החציון הוא הערך האמצעי — $19$."
   },
   {
     "id": "q-g10-u3-space-1",
@@ -329,7 +329,7 @@ export const QUESTIONS = [
       "$143$"
     ],
     "correct_index": 1,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(5\\cdot 5+5\\cdot 5+5\\cdot 5)=150$."
   },
   {
     "id": "q-q-g10-u3-space-2",
@@ -344,7 +344,7 @@ export const QUESTIONS = [
       "$62$"
     ],
     "correct_index": 3,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(3\\cdot 5+5\\cdot 2+3\\cdot 2)=62$."
   },
   {
     "id": "q-q-g10-u3-space-3",
@@ -359,7 +359,7 @@ export const QUESTIONS = [
       "$27$"
     ],
     "correct_index": 3,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 3\\times 3=27$."
   },
   {
     "id": "q-q-g10-u3-space-4",
@@ -374,7 +374,7 @@ export const QUESTIONS = [
       "$25$"
     ],
     "correct_index": 2,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 5\\times 2=30$."
   },
   {
     "id": "q-q-g10-u3-space-5",
@@ -389,7 +389,7 @@ export const QUESTIONS = [
       "$5\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 1^2\\times 10=10\\pi$."
   },
   {
     "id": "q-q-g10-u3-space-6",
@@ -404,7 +404,7 @@ export const QUESTIONS = [
       "$65$"
     ],
     "correct_index": 1,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(2\\cdot 2+2\\cdot 8+2\\cdot 8)=72$."
   },
   {
     "id": "q-q-g10-u3-space-7",
@@ -419,7 +419,7 @@ export const QUESTIONS = [
       "$48\\pi$"
     ],
     "correct_index": 3,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 4^2\\times 3=48\\pi$."
   },
   {
     "id": "q-q-g10-u3-space-8",
@@ -434,7 +434,7 @@ export const QUESTIONS = [
       "$125$"
     ],
     "correct_index": 3,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $5\\times 5\\times 5=125$."
   },
   {
     "id": "q-q-g10-u3-space-9",
@@ -449,7 +449,7 @@ export const QUESTIONS = [
       "$25$"
     ],
     "correct_index": 1,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $1\\times 5\\times 6=30$."
   },
   {
     "id": "q-q-g10-u3-space-10",
@@ -464,7 +464,7 @@ export const QUESTIONS = [
       "$72$"
     ],
     "correct_index": 1,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(2\\cdot 4+4\\cdot 5+2\\cdot 5)=76$."
   },
   {
     "id": "q-q-g10-u3-space-11",
@@ -479,7 +479,7 @@ export const QUESTIONS = [
       "$78$"
     ],
     "correct_index": 0,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(1\\cdot 5+5\\cdot 6+1\\cdot 6)=82$."
   },
   {
     "id": "q-q-g10-u3-space-12",
@@ -494,7 +494,7 @@ export const QUESTIONS = [
       "$36\\pi$"
     ],
     "correct_index": 3,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 3^2\\times 4=36\\pi$."
   },
   {
     "id": "q-q-g10-u3-space-13",
@@ -509,7 +509,7 @@ export const QUESTIONS = [
       "$10\\pi$"
     ],
     "correct_index": 1,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 2^2\\times 5=20\\pi$."
   },
   {
     "id": "q-q-g10-u3-space-14",
@@ -524,7 +524,7 @@ export const QUESTIONS = [
       "$32$"
     ],
     "correct_index": 3,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 2\\times 8=32$."
   },
   {
     "id": "q-q-g10-u3-space-15",
@@ -539,7 +539,7 @@ export const QUESTIONS = [
       "$a^2$"
     ],
     "correct_index": 1,
-    "explanation": "a3."
+    "explanation": "התשובה הנכונה היא $a^3$."
   },
   {
     "id": "q-q-g10-u3-space-16",
@@ -554,7 +554,7 @@ export const QUESTIONS = [
       "$50$"
     ],
     "correct_index": 2,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(3\\cdot 3+3\\cdot 3+3\\cdot 3)=54$."
   },
   {
     "id": "q-q-g10-u3-space-17",
@@ -569,7 +569,7 @@ export const QUESTIONS = [
       "$48$"
     ],
     "correct_index": 2,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(2\\cdot 3+3\\cdot 4+2\\cdot 4)=52$."
   },
   {
     "id": "q-q-g10-u3-space-18",
@@ -584,7 +584,7 @@ export const QUESTIONS = [
       "$64$"
     ],
     "correct_index": 3,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(4\\cdot 4+4\\cdot 2+4\\cdot 2)=64$."
   },
   {
     "id": "q-q-g10-u3-space-19",
@@ -599,7 +599,7 @@ export const QUESTIONS = [
       "$20\\pi$"
     ],
     "correct_index": 2,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 5^2\\times 2=50\\pi$."
   },
   {
     "id": "q-g10-u3-fin-1",
@@ -629,7 +629,7 @@ export const QUESTIONS = [
       "$23$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$60$ הוא $\\frac{50}{100}\\times 60=30$."
   },
   {
     "id": "q-q-g10-u3-finance-2",
@@ -644,7 +644,7 @@ export const QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $12\\%=\\frac{12}{100}$. לכן $12\\%$ מ-$100$ הוא $\\frac{12}{100}\\times 100=12$."
   },
   {
     "id": "q-q-g10-u3-finance-3",
@@ -659,7 +659,7 @@ export const QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $15\\%=\\frac{15}{100}$. לכן $15\\%$ מ-$80$ הוא $\\frac{15}{100}\\times 80=12$."
   },
   {
     "id": "q-q-g10-u3-finance-4",
@@ -674,7 +674,7 @@ export const QUESTIONS = [
       "$30$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $20\\%=\\frac{20}{100}$. לכן $20\\%$ מ-$150$ הוא $\\frac{20}{100}\\times 150=30$."
   },
   {
     "id": "q-q-g10-u3-finance-5",
@@ -689,7 +689,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $10\\%=\\frac{10}{100}$. לכן $10\\%$ מ-$80$ הוא $\\frac{10}{100}\\times 80=8$."
   },
   {
     "id": "q-q-g10-u3-finance-6",
@@ -704,7 +704,7 @@ export const QUESTIONS = [
       "$13$"
     ],
     "correct_index": 1,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $40\\%=\\frac{40}{100}$. לכן $40\\%$ מ-$50$ הוא $\\frac{40}{100}\\times 50=20$."
   },
   {
     "id": "q-q-g10-u3-finance-7",
@@ -719,7 +719,7 @@ export const QUESTIONS = [
       "$75$"
     ],
     "correct_index": 0,
-    "explanation": "60."
+    "explanation": "לאחר הנחה של $25\\%$ נשארים לשלם $75\\%$: $80\\times 0.75=60$."
   },
   {
     "id": "q-q-g10-u3-finance-8",
@@ -734,7 +734,7 @@ export const QUESTIONS = [
       "$26$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $60\\%=\\frac{60}{100}$. לכן $60\\%$ מ-$50$ הוא $\\frac{60}{100}\\times 50=30$."
   },
   {
     "id": "q-q-g10-u3-finance-9",
@@ -749,7 +749,7 @@ export const QUESTIONS = [
       "$25\\%$"
     ],
     "correct_index": 3,
-    "explanation": "25%."
+    "explanation": "אחוז מחושב כשבר כפול $100$: $\\frac{1}{4}\\times 100=25\\%$."
   },
   {
     "id": "q-q-g10-u3-finance-10",
@@ -764,7 +764,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 2,
-    "explanation": "20."
+    "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$40$ הוא $\\frac{50}{100}\\times 40=20$."
   },
   {
     "id": "q-q-g10-u3-finance-11",
@@ -779,7 +779,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $5\\%=\\frac{5}{100}$. לכן $5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
     "id": "q-q-g10-u3-finance-12",
@@ -794,7 +794,7 @@ export const QUESTIONS = [
       "$20$"
     ],
     "correct_index": 0,
-    "explanation": "10."
+    "explanation": "$5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
     "id": "q-q-g10-u3-finance-13",
@@ -809,7 +809,7 @@ export const QUESTIONS = [
       "$20$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $30\\%=\\frac{30}{100}$. לכן $30\\%$ מ-$90$ הוא $\\frac{30}{100}\\times 90=27$."
   },
   {
     "id": "q-q-g10-u3-finance-14",
@@ -824,7 +824,7 @@ export const QUESTIONS = [
       "$56$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $75\\%=\\frac{75}{100}$. לכן $75\\%$ מ-$80$ הוא $\\frac{75}{100}\\times 80=60$."
   },
   {
     "id": "q-q-g10-u3-finance-15",
@@ -839,7 +839,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $8\\%=\\frac{8}{100}$. לכן $8\\%$ מ-$50$ הוא $\\frac{8}{100}\\times 50=4$."
   },
   {
     "id": "q-q-g10-u3-finance-16",
@@ -854,7 +854,7 @@ export const QUESTIONS = [
       "$2\\%$"
     ],
     "correct_index": 1,
-    "explanation": "20%."
+    "explanation": "אחוז מחושב כחלק חלקי שלם כפול $100$: $\\frac{20}{100}\\times 100=20\\%$."
   },
   {
     "id": "q-q-g10-u3-finance-17",
@@ -869,7 +869,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $25\\%=\\frac{25}{100}$. לכן $25\\%$ מ-$40$ הוא $\\frac{25}{100}\\times 40=10$."
   },
   {
     "id": "q-q-g10-u3-finance-551",
@@ -884,7 +884,7 @@ export const QUESTIONS = [
       "$31$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מעבירים את $7$ אגף עם סימן הפוך: $x=42-7=35$."
   },
   {
     "id": "q-q-g10-u3-finance-552",
@@ -899,7 +899,7 @@ export const QUESTIONS = [
       "$40$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מעבירים את $11$ אגף עם סימן הפוך: $x=55-11=44$."
   },
   {
     "id": "q-g11-u3-sci-1",
@@ -913,7 +913,7 @@ export const QUESTIONS = [
       "$200$"
     ],
     "correct_index": 0,
-    "explanation": "$P(3)=100\\cdot 2^{3}=800$.",
+    "explanation": "החישוב: $P(3)=100\\cdot 2^{3}=800$.",
     "type": "mcq"
   },
   {
@@ -929,7 +929,7 @@ export const QUESTIONS = [
       "$21$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 3, 21, 22, 26. החציון הוא הערך האמצעי — $21$."
   },
   {
     "id": "q-q-g11-u3-science-exp-2",
@@ -944,7 +944,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 11, 13, 16, 18. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g11-u3-science-exp-3",
@@ -959,7 +959,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 8, 10, 24, 28. החציון הוא הערך האמצעי — $10$."
   },
   {
     "id": "q-q-g11-u3-science-exp-4",
@@ -974,7 +974,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 5, 17, 25, 29. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g11-u3-science-exp-5",
@@ -989,7 +989,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 12, 18, 21, 25, 29. החציון הוא הערך האמצעי — $21$."
   },
   {
     "id": "q-q-g11-u3-science-exp-6",
@@ -1004,7 +1004,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $65$, ומחלקים במספר המספרים ($5$): $65\\div 5=13$."
   },
   {
     "id": "q-q-g11-u3-science-exp-7",
@@ -1019,7 +1019,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $50$, ומחלקים במספר המספרים ($5$): $50\\div 5=10$."
   },
   {
     "id": "q-q-g11-u3-science-exp-8",
@@ -1034,7 +1034,7 @@ export const QUESTIONS = [
       "$16$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 8, 11, 23, 24, 25. החציון הוא הערך האמצעי — $23$."
   },
   {
     "id": "q-q-g11-u3-science-exp-9",
@@ -1049,7 +1049,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 6, 7, 22, 24. החציון הוא הערך האמצעי — $7$."
   },
   {
     "id": "q-q-g11-u3-science-exp-10",
@@ -1064,7 +1064,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 13, 16, 17, 25. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g11-u3-science-exp-11",
@@ -1079,7 +1079,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 5, 12, 14, 17. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-q-g11-u3-science-exp-12",
@@ -1094,7 +1094,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 5, 9, 10, 17. החציון הוא הערך האמצעי — $9$."
   },
   {
     "id": "q-q-g11-u3-science-exp-13",
@@ -1109,7 +1109,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 7, 10, 14, 23, 25. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g11-u3-science-exp-14",
@@ -1124,7 +1124,7 @@ export const QUESTIONS = [
       "$19$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 17, 24, 26, 29. החציון הוא הערך האמצעי — $24$."
   },
   {
     "id": "q-q-g11-u3-science-exp-15",
@@ -1139,7 +1139,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 12, 16, 19, 23. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g11-u3-science-exp-16",
@@ -1154,7 +1154,7 @@ export const QUESTIONS = [
       "$7$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 8, 11, 19, 21. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g11-u3-science-exp-17",
@@ -1169,7 +1169,7 @@ export const QUESTIONS = [
       "$7$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 4, 12, 13, 22. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-q-g11-u3-science-exp-18",
@@ -1184,7 +1184,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 10, 11, 26, 29. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g11-u3-science-exp-19",
@@ -1199,7 +1199,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 13, 14, 26, 29. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-g11-u3-space-1",
@@ -1229,7 +1229,7 @@ export const QUESTIONS = [
       "$47$"
     ],
     "correct_index": 1,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(2\\cdot 3+3\\cdot 4+2\\cdot 4)=52$."
   },
   {
     "id": "q-q-g11-u3-space-2",
@@ -1244,7 +1244,7 @@ export const QUESTIONS = [
       "$55$"
     ],
     "correct_index": 2,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(3\\cdot 5+5\\cdot 2+3\\cdot 2)=62$."
   },
   {
     "id": "q-q-g11-u3-space-3",
@@ -1259,7 +1259,7 @@ export const QUESTIONS = [
       "$75$"
     ],
     "correct_index": 0,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(1\\cdot 5+5\\cdot 6+1\\cdot 6)=82$."
   },
   {
     "id": "q-q-g11-u3-space-4",
@@ -1274,7 +1274,7 @@ export const QUESTIONS = [
       "$57$"
     ],
     "correct_index": 0,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(4\\cdot 4+4\\cdot 2+4\\cdot 2)=64$."
   },
   {
     "id": "q-q-g11-u3-space-5",
@@ -1289,7 +1289,7 @@ export const QUESTIONS = [
       "$24\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 3^2\\times 4=36\\pi$."
   },
   {
     "id": "q-q-g11-u3-space-6",
@@ -1304,7 +1304,7 @@ export const QUESTIONS = [
       "$25$"
     ],
     "correct_index": 1,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 2\\times 8=32$."
   },
   {
     "id": "q-q-g11-u3-space-7",
@@ -1319,7 +1319,7 @@ export const QUESTIONS = [
       "$150$"
     ],
     "correct_index": 3,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(5\\cdot 5+5\\cdot 5+5\\cdot 5)=150$."
   },
   {
     "id": "q-q-g11-u3-space-8",
@@ -1334,7 +1334,7 @@ export const QUESTIONS = [
       "$30$"
     ],
     "correct_index": 3,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 5\\times 2=30$."
   },
   {
     "id": "q-q-g11-u3-space-9",
@@ -1349,7 +1349,7 @@ export const QUESTIONS = [
       "$20\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 1^2\\times 10=10\\pi$."
   },
   {
     "id": "q-q-g11-u3-space-10",
@@ -1364,7 +1364,7 @@ export const QUESTIONS = [
       "$50\\pi$"
     ],
     "correct_index": 3,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 5^2\\times 2=50\\pi$."
   },
   {
     "id": "q-q-g11-u3-space-11",
@@ -1379,7 +1379,7 @@ export const QUESTIONS = [
       "$23$"
     ],
     "correct_index": 2,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 3\\times 3=27$."
   },
   {
     "id": "q-q-g11-u3-space-12",
@@ -1394,7 +1394,7 @@ export const QUESTIONS = [
       "$72$"
     ],
     "correct_index": 2,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(2\\cdot 4+4\\cdot 5+2\\cdot 5)=76$."
   },
   {
     "id": "q-q-g11-u3-space-13",
@@ -1409,7 +1409,7 @@ export const QUESTIONS = [
       "$67$"
     ],
     "correct_index": 1,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(2\\cdot 2+2\\cdot 8+2\\cdot 8)=72$."
   },
   {
     "id": "q-q-g11-u3-space-14",
@@ -1424,7 +1424,7 @@ export const QUESTIONS = [
       "$36$"
     ],
     "correct_index": 0,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 4\\times 5=40$."
   },
   {
     "id": "q-q-g11-u3-space-15",
@@ -1439,7 +1439,7 @@ export const QUESTIONS = [
       "$27$"
     ],
     "correct_index": 1,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $4\\times 4\\times 2=32$."
   },
   {
     "id": "q-q-g11-u3-space-16",
@@ -1454,7 +1454,7 @@ export const QUESTIONS = [
       "$48\\pi$"
     ],
     "correct_index": 3,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 4^2\\times 3=48\\pi$."
   },
   {
     "id": "q-q-g11-u3-space-17",
@@ -1469,7 +1469,7 @@ export const QUESTIONS = [
       "$40\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 2^2\\times 5=20\\pi$."
   },
   {
     "id": "q-q-g11-u3-space-18",
@@ -1484,7 +1484,7 @@ export const QUESTIONS = [
       "$20$"
     ],
     "correct_index": 0,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 3\\times 4=24$."
   },
   {
     "id": "q-q-g11-u3-space-19",
@@ -1499,7 +1499,7 @@ export const QUESTIONS = [
       "$6a^2$"
     ],
     "correct_index": 0,
-    "explanation": "a3."
+    "explanation": "התשובה הנכונה היא $a^3$."
   },
   {
     "id": "q-g11-u3-fin-1",
@@ -1513,7 +1513,7 @@ export const QUESTIONS = [
       "$1300$ ש״ח"
     ],
     "correct_index": 0,
-    "explanation": "$1000\\cdot(1.1)^{2}=1210$.",
+    "explanation": "החישוב: $1000\\cdot(1.1)^{2}=1210$.",
     "type": "mcq"
   },
   {
@@ -1529,7 +1529,7 @@ export const QUESTIONS = [
       "$25$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$60$ הוא $\\frac{50}{100}\\times 60=30$."
   },
   {
     "id": "q-q-g11-u3-finance-2",
@@ -1544,7 +1544,7 @@ export const QUESTIONS = [
       "$55$"
     ],
     "correct_index": 0,
-    "explanation": "60."
+    "explanation": "לאחר הנחה של $25\\%$ נשארים לשלם $75\\%$: $80\\times 0.75=60$."
   },
   {
     "id": "q-q-g11-u3-finance-3",
@@ -1559,7 +1559,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $8\\%=\\frac{8}{100}$. לכן $8\\%$ מ-$50$ הוא $\\frac{8}{100}\\times 50=4$."
   },
   {
     "id": "q-q-g11-u3-finance-4",
@@ -1574,7 +1574,7 @@ export const QUESTIONS = [
       "$20$"
     ],
     "correct_index": 3,
-    "explanation": "20."
+    "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$40$ הוא $\\frac{50}{100}\\times 40=20$."
   },
   {
     "id": "q-q-g11-u3-finance-5",
@@ -1589,7 +1589,7 @@ export const QUESTIONS = [
       "$30$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $20\\%=\\frac{20}{100}$. לכן $20\\%$ מ-$150$ הוא $\\frac{20}{100}\\times 150=30$."
   },
   {
     "id": "q-q-g11-u3-finance-6",
@@ -1604,7 +1604,7 @@ export const QUESTIONS = [
       "$30$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $60\\%=\\frac{60}{100}$. לכן $60\\%$ מ-$50$ הוא $\\frac{60}{100}\\times 50=30$."
   },
   {
     "id": "q-q-g11-u3-finance-7",
@@ -1619,7 +1619,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $25\\%=\\frac{25}{100}$. לכן $25\\%$ מ-$40$ הוא $\\frac{25}{100}\\times 40=10$."
   },
   {
     "id": "q-q-g11-u3-finance-8",
@@ -1634,7 +1634,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $12\\%=\\frac{12}{100}$. לכן $12\\%$ מ-$100$ הוא $\\frac{12}{100}\\times 100=12$."
   },
   {
     "id": "q-q-g11-u3-finance-9",
@@ -1649,7 +1649,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $10\\%=\\frac{10}{100}$. לכן $10\\%$ מ-$80$ הוא $\\frac{10}{100}\\times 80=8$."
   },
   {
     "id": "q-q-g11-u3-finance-10",
@@ -1664,7 +1664,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $5\\%=\\frac{5}{100}$. לכן $5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
     "id": "q-q-g11-u3-finance-11",
@@ -1679,7 +1679,7 @@ export const QUESTIONS = [
       "$56$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $75\\%=\\frac{75}{100}$. לכן $75\\%$ מ-$80$ הוא $\\frac{75}{100}\\times 80=60$."
   },
   {
     "id": "q-q-g11-u3-finance-12",
@@ -1694,7 +1694,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $15\\%=\\frac{15}{100}$. לכן $15\\%$ מ-$80$ הוא $\\frac{15}{100}\\times 80=12$."
   },
   {
     "id": "q-q-g11-u3-finance-13",
@@ -1709,7 +1709,7 @@ export const QUESTIONS = [
       "$23$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $30\\%=\\frac{30}{100}$. לכן $30\\%$ מ-$90$ הוא $\\frac{30}{100}\\times 90=27$."
   },
   {
     "id": "q-q-g11-u3-finance-14",
@@ -1724,7 +1724,7 @@ export const QUESTIONS = [
       "$25\\%$"
     ],
     "correct_index": 1,
-    "explanation": "20%."
+    "explanation": "אחוז מחושב כחלק חלקי שלם כפול $100$: $\\frac{20}{100}\\times 100=20\\%$."
   },
   {
     "id": "q-q-g11-u3-finance-15",
@@ -1739,7 +1739,7 @@ export const QUESTIONS = [
       "$15$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $40\\%=\\frac{40}{100}$. לכן $40\\%$ מ-$50$ הוא $\\frac{40}{100}\\times 50=20$."
   },
   {
     "id": "q-q-g11-u3-finance-16",
@@ -1754,7 +1754,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "10."
+    "explanation": "$5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
     "id": "q-q-g11-u3-finance-17",
@@ -1769,7 +1769,7 @@ export const QUESTIONS = [
       "$10\\%$"
     ],
     "correct_index": 1,
-    "explanation": "25%."
+    "explanation": "אחוז מחושב כשבר כפול $100$: $\\frac{1}{4}\\times 100=25\\%$."
   },
   {
     "id": "q-q-g11-u3-finance-551",
@@ -1784,7 +1784,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$9$: $x=72\\div 9=8$."
   },
   {
     "id": "q-q-g11-u3-finance-552",
@@ -1799,7 +1799,7 @@ export const QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 2,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$6$: $x=18\\div 6=3$."
   },
   {
     "id": "q-g12-u3-norm-1",
@@ -1813,7 +1813,7 @@ export const QUESTIONS = [
       "$z=0.5$"
     ],
     "correct_index": 0,
-    "explanation": "$$z=\\frac{x-\\mu}{\\sigma}=\\frac{80-70}{5}=2$$",
+    "explanation": "החישוב: $$z=\\frac{x-\\mu}{\\sigma}=\\frac{80-70}{5}=2$$",
     "type": "mcq"
   },
   {
@@ -1829,7 +1829,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 8, 15, 16, 19, 26. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g12-u3-normal-2",
@@ -1844,7 +1844,7 @@ export const QUESTIONS = [
       "$15$"
     ],
     "correct_index": 0,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $100$, ומחלקים במספר המספרים ($5$): $100\\div 5=20$."
   },
   {
     "id": "q-q-g12-u3-normal-3",
@@ -1859,7 +1859,7 @@ export const QUESTIONS = [
       "$17$"
     ],
     "correct_index": 3,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $85$, ומחלקים במספר המספרים ($5$): $85\\div 5=17$."
   },
   {
     "id": "q-q-g12-u3-normal-4",
@@ -1874,7 +1874,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 16, 21, 22, 24. החציון הוא הערך האמצעי — $21$."
   },
   {
     "id": "q-q-g12-u3-normal-5",
@@ -1889,7 +1889,7 @@ export const QUESTIONS = [
       "$18$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 9, 22, 23, 27, 29. החציון הוא הערך האמצעי — $23$."
   },
   {
     "id": "q-q-g12-u3-normal-6",
@@ -1904,7 +1904,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 9, 12, 14, 17, 29. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g12-u3-normal-7",
@@ -1919,7 +1919,7 @@ export const QUESTIONS = [
       "$22$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 11, 14, 22, 24, 29. החציון הוא הערך האמצעי — $22$."
   },
   {
     "id": "q-q-g12-u3-normal-8",
@@ -1934,7 +1934,7 @@ export const QUESTIONS = [
       "$17$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 4, 17, 21, 26. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g12-u3-normal-9",
@@ -1949,7 +1949,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 12, 16, 21, 25. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g12-u3-normal-10",
@@ -1964,7 +1964,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 8, 9, 14, 17, 19. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g12-u3-normal-11",
@@ -1979,7 +1979,7 @@ export const QUESTIONS = [
       "$13$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 9, 13, 23, 27. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g12-u3-normal-12",
@@ -1994,7 +1994,7 @@ export const QUESTIONS = [
       "$16$"
     ],
     "correct_index": 3,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $80$, ומחלקים במספר המספרים ($5$): $80\\div 5=16$."
   },
   {
     "id": "q-q-g12-u3-normal-13",
@@ -2009,7 +2009,7 @@ export const QUESTIONS = [
       "$20$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 11, 15, 20, 21, 25. החציון הוא הערך האמצעי — $20$."
   },
   {
     "id": "q-q-g12-u3-normal-14",
@@ -2024,7 +2024,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 8, 11, 14, 18. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g12-u3-normal-15",
@@ -2039,7 +2039,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 11, 12, 17, 26, 29. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g12-u3-normal-16",
@@ -2054,7 +2054,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 7, 8, 19, 22. החציון הוא הערך האמצעי — $8$."
   },
   {
     "id": "q-q-g12-u3-normal-17",
@@ -2069,7 +2069,7 @@ export const QUESTIONS = [
       "$16$"
     ],
     "correct_index": 2,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $105$, ומחלקים במספר המספרים ($5$): $105\\div 5=21$."
   },
   {
     "id": "q-q-g12-u3-normal-18",
@@ -2084,7 +2084,7 @@ export const QUESTIONS = [
       "$13$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 9, 13, 14, 27. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g12-u3-normal-19",
@@ -2099,7 +2099,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 6, 12, 17, 27. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-g12-u3-quad-1",
@@ -2129,7 +2129,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $4$ ו-$4$ (מהפירוק לגורמים), וסכומם $4+4=8$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-2",
@@ -2144,7 +2144,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $4$ ו-$3$ (מהפירוק לגורמים), וסכומם $4+3=7$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-3",
@@ -2159,7 +2159,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "prod."
+    "explanation": "השורשים הם $3$ ו-$4$ (מהפירוק לגורמים), ומכפלתם $3\\times 4=12$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-4",
@@ -2174,7 +2174,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "prod."
+    "explanation": "השורשים הם $1$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $1\\times 5=5$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-5",
@@ -2189,7 +2189,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=16$ הוא $x=\\sqrt{16}=4$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-6",
@@ -2204,7 +2204,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "prod."
+    "explanation": "השורשים הם $2$ ו-$4$ (מהפירוק לגורמים), ומכפלתם $2\\times 4=8$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-7",
@@ -2219,7 +2219,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=4$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-8",
@@ -2234,7 +2234,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $2$ ו-$3$ (מהפירוק לגורמים), וסכומם $2+3=5$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-9",
@@ -2249,7 +2249,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=25$ הוא $x=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-10",
@@ -2264,7 +2264,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=3$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-11",
@@ -2279,7 +2279,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "sqrt."
+    "explanation": "הפתרון החיובי של $x^2=9$ הוא $x=\\sqrt{9}=3$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-12",
@@ -2294,7 +2294,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "prod."
+    "explanation": "השורשים הם $3$ ו-$1$ (מהפירוק לגורמים), ומכפלתם $3\\times 1=3$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-13",
@@ -2309,7 +2309,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $3$ ו-$4$ (מהפירוק לגורמים), וסכומם $3+4=7$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-14",
@@ -2324,7 +2324,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "prod."
+    "explanation": "השורשים הם $4$ ו-$2$ (מהפירוק לגורמים), ומכפלתם $4\\times 2=8$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-15",
@@ -2339,7 +2339,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=4$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-16",
@@ -2354,7 +2354,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $1$ ו-$4$ (מהפירוק לגורמים), וסכומם $1+4=5$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-17",
@@ -2369,7 +2369,7 @@ export const QUESTIONS = [
       "$15$"
     ],
     "correct_index": 3,
-    "explanation": "prod."
+    "explanation": "השורשים הם $3$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $3\\times 5=15$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-18",
@@ -2384,7 +2384,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "sum roots."
+    "explanation": "השורשים הם $2$ ו-$2$ (מהפירוק לגורמים), וסכומם $2+2=4$."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-19",
@@ -2399,7 +2399,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 0,
-    "explanation": "vertex x."
+    "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=2$."
   },
   {
     "id": "q-g12-u3-lp-1",
@@ -2429,7 +2429,7 @@ export const QUESTIONS = [
       "כן"
     ],
     "correct_index": 3,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-2",
@@ -2444,7 +2444,7 @@ export const QUESTIONS = [
       "רק מינ"
     ],
     "correct_index": 0,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-3",
@@ -2459,7 +2459,7 @@ export const QUESTIONS = [
       "רק מינ"
     ],
     "correct_index": 2,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-4",
@@ -2474,7 +2474,7 @@ export const QUESTIONS = [
       "רק אם n>10"
     ],
     "correct_index": 2,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-5",
@@ -2489,7 +2489,7 @@ export const QUESTIONS = [
       "מרכז"
     ],
     "correct_index": 0,
-    "explanation": "vertex."
+    "explanation": "בתכנות לינארי הפתרון האופטימלי מתקבל בקודקוד של אזור הפתרונות האפשרי."
   },
   {
     "id": "q-q-g12-u3-linear-programming-6",
@@ -2504,7 +2504,7 @@ export const QUESTIONS = [
       "כן"
     ],
     "correct_index": 3,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-7",
@@ -2519,7 +2519,7 @@ export const QUESTIONS = [
       "רק מינ"
     ],
     "correct_index": 2,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-8",
@@ -2534,7 +2534,7 @@ export const QUESTIONS = [
       "רק אם n>10"
     ],
     "correct_index": 0,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-9",
@@ -2549,7 +2549,7 @@ export const QUESTIONS = [
       "רק מינ"
     ],
     "correct_index": 2,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-10",
@@ -2564,7 +2564,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 2,
-    "explanation": "at (4,0)=12."
+    "explanation": "החישוב: at (4,0)=12."
   },
   {
     "id": "q-q-g12-u3-linear-programming-11",
@@ -2579,7 +2579,7 @@ export const QUESTIONS = [
       "כן"
     ],
     "correct_index": 3,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-12",
@@ -2594,7 +2594,7 @@ export const QUESTIONS = [
       "רק אם n>10"
     ],
     "correct_index": 0,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-13",
@@ -2609,7 +2609,7 @@ export const QUESTIONS = [
       "רק מינ"
     ],
     "correct_index": 0,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-14",
@@ -2624,7 +2624,7 @@ export const QUESTIONS = [
       "לא"
     ],
     "correct_index": 2,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-15",
@@ -2639,7 +2639,7 @@ export const QUESTIONS = [
       "רק מינ"
     ],
     "correct_index": 2,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-16",
@@ -2654,7 +2654,7 @@ export const QUESTIONS = [
       "כן"
     ],
     "correct_index": 3,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-17",
@@ -2669,7 +2669,7 @@ export const QUESTIONS = [
       "רק אם n>10"
     ],
     "correct_index": 1,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-18",
@@ -2684,7 +2684,7 @@ export const QUESTIONS = [
       "רק מינ"
     ],
     "correct_index": 2,
-    "explanation": "yes."
+    "explanation": "בבעיית תכנות לינארי עם תחום פתרונות קמור, הפתרון האופטימלי מתקבל תמיד באחד מקודקודי התחום — לכן יש לבדוק את כל הקודקודים."
   },
   {
     "id": "q-q-g12-u3-linear-programming-19",
@@ -2699,7 +2699,7 @@ export const QUESTIONS = [
       "שטח"
     ],
     "correct_index": 2,
-    "explanation": "nonneg."
+    "explanation": "התשובה הנכונה היא אי-שליליות."
   },
   {
     "id": "q-g12-u3-an-1",
@@ -2713,7 +2713,7 @@ export const QUESTIONS = [
       "$\\dfrac{1}{2}$"
     ],
     "correct_index": 0,
-    "explanation": "$$m=\\frac{10-2}{5-1}=2$$",
+    "explanation": "החישוב: $$m=\\frac{10-2}{5-1}=2$$",
     "type": "mcq"
   },
   {
@@ -2729,7 +2729,7 @@ export const QUESTIONS = [
       "$xy$"
     ],
     "correct_index": 0,
-    "explanation": "dist."
+    "explanation": "נוסחת המרחק בין שתי נקודות $(x_1,y_1)$ ו-$(x_2,y_2)$ היא $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-2",
@@ -2744,7 +2744,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 2,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{1}=1$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-3",
@@ -2759,7 +2759,7 @@ export const QUESTIONS = [
       "$(4,6)$"
     ],
     "correct_index": 2,
-    "explanation": "mid."
+    "explanation": "אמצע קטע הוא ממוצע הקואורדינטות: $\\left(\\dfrac{0+4}{2},\\dfrac{0+6}{2}\\right)=(2,3)$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-4",
@@ -2774,7 +2774,7 @@ export const QUESTIONS = [
       "$(0,1)$"
     ],
     "correct_index": 0,
-    "explanation": "vertex."
+    "explanation": "הפונקציה $y=x^2$ היא הפרבולה הבסיסית ביותר, קודקודה בראשית הצירים: $(0,0)$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-5",
@@ -2789,7 +2789,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{16}=4$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-6",
@@ -2804,7 +2804,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{36}=6$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-7",
@@ -2819,7 +2819,7 @@ export const QUESTIONS = [
       "$y=1$"
     ],
     "correct_index": 1,
-    "explanation": "x=0."
+    "explanation": "שתי הנקודות חולקות את אותו $x=0$, לכן זהו ישר אנכי שמשוואתו $x=0$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-8",
@@ -2834,7 +2834,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 1,
-    "explanation": "2."
+    "explanation": "שיפוע ישר מחושב לפי $m=\\dfrac{y_2-y_1}{x_2-x_1}=\\dfrac{8-2}{4-1}=2$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-9",
@@ -2849,7 +2849,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-10",
@@ -2864,7 +2864,7 @@ export const QUESTIONS = [
       "$25$"
     ],
     "correct_index": 0,
-    "explanation": "5."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-11",
@@ -2879,7 +2879,7 @@ export const QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{4}=2$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-12",
@@ -2894,7 +2894,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "5."
+    "explanation": "לפי נוסחת המרחק: $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}=\\sqrt{3^2+4^2}=5$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-13",
@@ -2909,7 +2909,7 @@ export const QUESTIONS = [
       "$(r,r)$"
     ],
     "correct_index": 2,
-    "explanation": "origin."
+    "explanation": "במשוואת מעגל בצורה $x^2+y^2=r^2$ המרכז נמצא בראשית הצירים: $(0,0)$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-14",
@@ -2924,7 +2924,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{49}=7$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-15",
@@ -2939,7 +2939,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{9}=3$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-551",
@@ -2954,7 +2954,7 @@ export const QUESTIONS = [
       "$7$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $5$ אגף: $5x=40-5=35$. מחלקים ב-$5$: $x=7$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-552",
@@ -2969,7 +2969,7 @@ export const QUESTIONS = [
       "$59$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מעבירים את $11$ אגף עם סימן הפוך: $x=77-11=66$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-553",
@@ -2984,7 +2984,7 @@ export const QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מעבירים את $2$ אגף עם סימן הפוך: $x=16-2=14$."
   },
   {
     "id": "q-q-g12-u3-analytic-geo-554",
@@ -2999,7 +2999,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מעבירים את $7$ אגף עם סימן הפוך: $x=21-7=14$."
   },
   {
     "id": "q-g12-u3-sol-1",
@@ -3013,7 +3013,7 @@ export const QUESTIONS = [
       "$32$"
     ],
     "correct_index": 0,
-    "explanation": "$V=a^{3}=64$.",
+    "explanation": "החישוב: $V=a^{3}=64$.",
     "type": "mcq"
   },
   {
@@ -3029,7 +3029,7 @@ export const QUESTIONS = [
       "$40\\pi$"
     ],
     "correct_index": 1,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 2^2\\times 5=20\\pi$."
   },
   {
     "id": "q-q-g12-u3-solids-2",
@@ -3044,7 +3044,7 @@ export const QUESTIONS = [
       "$30$"
     ],
     "correct_index": 3,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 5\\times 2=30$."
   },
   {
     "id": "q-q-g12-u3-solids-3",
@@ -3059,7 +3059,7 @@ export const QUESTIONS = [
       "$125$"
     ],
     "correct_index": 3,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $5\\times 5\\times 5=125$."
   },
   {
     "id": "q-q-g12-u3-solids-4",
@@ -3074,7 +3074,7 @@ export const QUESTIONS = [
       "$55$"
     ],
     "correct_index": 1,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(3\\cdot 5+5\\cdot 2+3\\cdot 2)=62$."
   },
   {
     "id": "q-q-g12-u3-solids-5",
@@ -3089,7 +3089,7 @@ export const QUESTIONS = [
       "$50$"
     ],
     "correct_index": 0,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(3\\cdot 3+3\\cdot 3+3\\cdot 3)=54$."
   },
   {
     "id": "q-q-g12-u3-solids-6",
@@ -3104,7 +3104,7 @@ export const QUESTIONS = [
       "$32$"
     ],
     "correct_index": 3,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 2\\times 8=32$."
   },
   {
     "id": "q-q-g12-u3-solids-7",
@@ -3119,7 +3119,7 @@ export const QUESTIONS = [
       "$24\\pi$"
     ],
     "correct_index": 1,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 3^2\\times 4=36\\pi$."
   },
   {
     "id": "q-q-g12-u3-solids-8",
@@ -3134,7 +3134,7 @@ export const QUESTIONS = [
       "$\\pi$"
     ],
     "correct_index": 2,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 5^2\\times 2=50\\pi$."
   },
   {
     "id": "q-q-g12-u3-solids-9",
@@ -3149,7 +3149,7 @@ export const QUESTIONS = [
       "$24\\pi$"
     ],
     "correct_index": 2,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 4^2\\times 3=48\\pi$."
   },
   {
     "id": "q-q-g12-u3-solids-10",
@@ -3164,7 +3164,7 @@ export const QUESTIONS = [
       "$143$"
     ],
     "correct_index": 2,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(5\\cdot 5+5\\cdot 5+5\\cdot 5)=150$."
   },
   {
     "id": "q-q-g12-u3-solids-11",
@@ -3179,7 +3179,7 @@ export const QUESTIONS = [
       "$72$"
     ],
     "correct_index": 3,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(2\\cdot 2+2\\cdot 8+2\\cdot 8)=72$."
   },
   {
     "id": "q-q-g12-u3-solids-12",
@@ -3194,7 +3194,7 @@ export const QUESTIONS = [
       "$72$"
     ],
     "correct_index": 0,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(2\\cdot 4+4\\cdot 5+2\\cdot 5)=76$."
   },
   {
     "id": "q-q-g12-u3-solids-13",
@@ -3209,7 +3209,7 @@ export const QUESTIONS = [
       "$5\\pi$"
     ],
     "correct_index": 1,
-    "explanation": "pi r2 h."
+    "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 1^2\\times 10=10\\pi$."
   },
   {
     "id": "q-q-g12-u3-solids-14",
@@ -3224,7 +3224,7 @@ export const QUESTIONS = [
       "$82$"
     ],
     "correct_index": 3,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(1\\cdot 5+5\\cdot 6+1\\cdot 6)=82$."
   },
   {
     "id": "q-q-g12-u3-solids-15",
@@ -3239,7 +3239,7 @@ export const QUESTIONS = [
       "$35$"
     ],
     "correct_index": 0,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 4\\times 5=40$."
   },
   {
     "id": "q-q-g12-u3-solids-16",
@@ -3254,7 +3254,7 @@ export const QUESTIONS = [
       "$52$"
     ],
     "correct_index": 3,
-    "explanation": "SA."
+    "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(2\\cdot 3+3\\cdot 4+2\\cdot 4)=52$."
   },
   {
     "id": "q-q-g12-u3-solids-17",
@@ -3269,7 +3269,7 @@ export const QUESTIONS = [
       "$23$"
     ],
     "correct_index": 0,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 3\\times 3=27$."
   },
   {
     "id": "q-q-g12-u3-solids-18",
@@ -3284,7 +3284,7 @@ export const QUESTIONS = [
       "$23$"
     ],
     "correct_index": 1,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $1\\times 5\\times 6=30$."
   },
   {
     "id": "q-q-g12-u3-solids-19",
@@ -3299,7 +3299,7 @@ export const QUESTIONS = [
       "$19$"
     ],
     "correct_index": 2,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 3\\times 4=24$."
   },
   {
     "id": "q-g10-u4-pre-1",
@@ -3313,7 +3313,7 @@ export const QUESTIONS = [
       "$x=0,4$"
     ],
     "correct_index": 0,
-    "explanation": "$x^{2}-4=0\\Rightarrow x=\\pm 2$.",
+    "explanation": "החישוב: $x^{2}-4=0\\Rightarrow x=\\pm 2$.",
     "type": "mcq"
   },
   {
@@ -3329,7 +3329,7 @@ export const QUESTIONS = [
       "$7$"
     ],
     "correct_index": 2,
-    "explanation": "lin."
+    "explanation": "מציבים $x=5$: $f(5)=2\\times 5+1=11$."
   },
   {
     "id": "q-q-g10-u4-precalculus-2",
@@ -3344,7 +3344,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 3,
-    "explanation": "8."
+    "explanation": "מחשבים קודם $g(3)=3+1=4$, ואז $f(4)=2\\times 4=8$."
   },
   {
     "id": "q-q-g10-u4-precalculus-3",
@@ -3359,7 +3359,7 @@ export const QUESTIONS = [
       "$x\\neq 5$"
     ],
     "correct_index": 3,
-    "explanation": "domain."
+    "explanation": "המכנה לא יכול להתאפס: $x-5\\neq 0$, כלומר $x\\neq 5$."
   },
   {
     "id": "q-q-g10-u4-precalculus-4",
@@ -3374,7 +3374,7 @@ export const QUESTIONS = [
       "$16$"
     ],
     "correct_index": 3,
-    "explanation": "exp."
+    "explanation": "מציבים $x=2$: $f(2)=4^{2}=16$."
   },
   {
     "id": "q-q-g10-u4-precalculus-5",
@@ -3389,7 +3389,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "sq."
+    "explanation": "מציבים $x=3$: $f(3)=3^{2}=9$."
   },
   {
     "id": "q-q-g10-u4-precalculus-6",
@@ -3404,7 +3404,7 @@ export const QUESTIONS = [
       "$20$"
     ],
     "correct_index": 0,
-    "explanation": "sq."
+    "explanation": "מציבים $x=5$: $f(5)=5^{2}=25$."
   },
   {
     "id": "q-q-g10-u4-precalculus-7",
@@ -3419,7 +3419,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "lin."
+    "explanation": "מציבים $x=4$: $f(4)=2\\times 4+1=9$."
   },
   {
     "id": "q-q-g10-u4-precalculus-8",
@@ -3434,7 +3434,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "sq."
+    "explanation": "מציבים $x=1$: $f(1)=1^{2}=1$."
   },
   {
     "id": "q-q-g10-u4-precalculus-9",
@@ -3449,7 +3449,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "sq."
+    "explanation": "מציבים $x=2$: $f(2)=2^{2}=4$."
   },
   {
     "id": "q-q-g10-u4-precalculus-10",
@@ -3464,7 +3464,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "3."
+    "explanation": "מציבים $x=0$: $f(0)=0+3=3$."
   },
   {
     "id": "q-q-g10-u4-precalculus-11",
@@ -3479,7 +3479,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "lin."
+    "explanation": "מציבים $x=2$: $f(2)=2\\times 2+1=5$."
   },
   {
     "id": "q-q-g10-u4-precalculus-12",
@@ -3494,7 +3494,7 @@ export const QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 1,
-    "explanation": "lin."
+    "explanation": "מציבים $x=1$: $f(1)=2\\times 1+1=3$."
   },
   {
     "id": "q-q-g10-u4-precalculus-13",
@@ -3509,7 +3509,7 @@ export const QUESTIONS = [
       "$x\\neq 0$"
     ],
     "correct_index": 0,
-    "explanation": "domain."
+    "explanation": "המכנה לא יכול להתאפס: $x-4\\neq 0$, כלומר $x\\neq 4$."
   },
   {
     "id": "q-q-g10-u4-precalculus-14",
@@ -3524,7 +3524,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 3,
-    "explanation": "exp."
+    "explanation": "מציבים $x=2$: $f(2)=3^{2}=9$."
   },
   {
     "id": "q-q-g10-u4-precalculus-15",
@@ -3539,7 +3539,7 @@ export const QUESTIONS = [
       "$x\\neq 0$"
     ],
     "correct_index": 1,
-    "explanation": "domain."
+    "explanation": "המכנה לא יכול להתאפס: $x-2\\neq 0$, כלומר $x\\neq 2$."
   },
   {
     "id": "q-q-g10-u4-precalculus-16",
@@ -3554,7 +3554,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 0,
-    "explanation": "exp."
+    "explanation": "מציבים $x=2$: $f(2)=2^{2}=4$."
   },
   {
     "id": "q-q-g10-u4-precalculus-17",
@@ -3569,7 +3569,7 @@ export const QUESTIONS = [
       "$-6$"
     ],
     "correct_index": 1,
-    "explanation": "exp."
+    "explanation": "מציבים $x=2$: $f(2)=1^{2}=1$."
   },
   {
     "id": "q-q-g10-u4-precalculus-18",
@@ -3584,7 +3584,7 @@ export const QUESTIONS = [
       "$x>3$"
     ],
     "correct_index": 1,
-    "explanation": "domain."
+    "explanation": "המכנה לא יכול להתאפס: $x-3\\neq 0$, כלומר $x\\neq 3$."
   },
   {
     "id": "q-q-g10-u4-precalculus-19",
@@ -3599,7 +3599,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "lin."
+    "explanation": "מציבים $x=3$: $f(3)=2\\times 3+1=7$."
   },
   {
     "id": "q-g10-u4-poly-1",
@@ -3613,7 +3613,7 @@ export const QUESTIONS = [
       "$3x-3$"
     ],
     "correct_index": 0,
-    "explanation": "$f'(x)=3x^{2}-3$.",
+    "explanation": "החישוב: $f'(x)=3x^{2}-3$.",
     "type": "mcq"
   },
   {
@@ -3629,7 +3629,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 0,
-    "explanation": "pm2."
+    "explanation": "התשובה הנכונה היא $\\pm 2$."
   },
   {
     "id": "q-q-g10-u4-poly-root-2",
@@ -3644,7 +3644,7 @@ export const QUESTIONS = [
       "רק 1"
     ],
     "correct_index": 1,
-    "explanation": "RRT."
+    "explanation": "התשובה הנכונה היא $\\pm1,2,3,6,\\frac12,\\frac32$."
   },
   {
     "id": "q-q-g10-u4-poly-root-3",
@@ -3659,7 +3659,7 @@ export const QUESTIONS = [
       "$-29$"
     ],
     "correct_index": 2,
-    "explanation": "p0."
+    "explanation": "מציבים $x=0$: $p(0)=0^{2}-25=-25$."
   },
   {
     "id": "q-q-g10-u4-poly-root-4",
@@ -3674,7 +3674,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 3,
-    "explanation": "factor thm."
+    "explanation": "התשובה הנכונה היא $0$."
   },
   {
     "id": "q-q-g10-u4-poly-root-5",
@@ -3689,7 +3689,7 @@ export const QUESTIONS = [
       "$-11$"
     ],
     "correct_index": 2,
-    "explanation": "p0."
+    "explanation": "מציבים $x=0$: $p(0)=0^{2}-4=-4$."
   },
   {
     "id": "q-q-g10-u4-poly-root-6",
@@ -3704,7 +3704,7 @@ export const QUESTIONS = [
       "$-9$"
     ],
     "correct_index": 3,
-    "explanation": "p0."
+    "explanation": "מציבים $x=0$: $p(0)=0^{2}-9=-9$."
   },
   {
     "id": "q-q-g10-u4-poly-root-7",
@@ -3719,7 +3719,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "a."
+    "explanation": "הפתרון החיובי הוא $x=4^{1/2}=2$."
   },
   {
     "id": "q-q-g10-u4-poly-root-8",
@@ -3734,7 +3734,7 @@ export const QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 1,
-    "explanation": "a."
+    "explanation": "הפתרון החיובי הוא $x=1^{1/2}=1$."
   },
   {
     "id": "q-q-g10-u4-poly-root-9",
@@ -3749,7 +3749,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "a."
+    "explanation": "הפתרון החיובי הוא $x=25^{1/2}=5$."
   },
   {
     "id": "q-q-g10-u4-poly-root-10",
@@ -3764,7 +3764,7 @@ export const QUESTIONS = [
       "$\\pm i$ רק"
     ],
     "correct_index": 2,
-    "explanation": "none real."
+    "explanation": "התשובה הנכונה היא אין."
   },
   {
     "id": "q-q-g10-u4-poly-root-11",
@@ -3779,7 +3779,7 @@ export const QUESTIONS = [
       "$-20$"
     ],
     "correct_index": 0,
-    "explanation": "p0."
+    "explanation": "מציבים $x=0$: $p(0)=0^{2}-16=-16$."
   },
   {
     "id": "q-q-g10-u4-poly-root-12",
@@ -3794,7 +3794,7 @@ export const QUESTIONS = [
       "$-8$"
     ],
     "correct_index": 2,
-    "explanation": "p0."
+    "explanation": "מציבים $x=0$: $p(0)=0^{2}-1=-1$."
   },
   {
     "id": "q-q-g10-u4-poly-root-13",
@@ -3809,7 +3809,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "a."
+    "explanation": "הפתרון החיובי הוא $x=9^{1/2}=3$."
   },
   {
     "id": "q-q-g10-u4-poly-root-14",
@@ -3824,7 +3824,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 0,
-    "explanation": "a."
+    "explanation": "הפתרון החיובי הוא $x=16^{1/2}=4$."
   },
   {
     "id": "q-q-g10-u4-poly-root-15",
@@ -3839,7 +3839,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "3."
+    "explanation": "סכום המקדמים מתקבל בהצבת $x=1$: $2+1-1=2$."
   },
   {
     "id": "q-q-g10-u4-poly-root-551",
@@ -3854,7 +3854,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$10$: $x=80\\div 10=8$."
   },
   {
     "id": "q-q-g10-u4-poly-root-552",
@@ -3869,7 +3869,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$6$: $x=42\\div 6=7$."
   },
   {
     "id": "q-q-g10-u4-poly-root-553",
@@ -3884,7 +3884,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $4$ אגף: $4x=36-4=32$. מחלקים ב-$4$: $x=8$."
   },
   {
     "id": "q-q-g10-u4-poly-root-554",
@@ -3899,7 +3899,7 @@ export const QUESTIONS = [
       "$83$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מעבירים את $11$ אגף עם סימן הפוך: $x=99-11=88$."
   },
   {
     "id": "q-g10-u4-an-1",
@@ -3913,7 +3913,7 @@ export const QUESTIONS = [
       "$\\sqrt{7}$"
     ],
     "correct_index": 0,
-    "explanation": "$$d=\\sqrt{9+16}=5$$",
+    "explanation": "החישוב: $$d=\\sqrt{9+16}=5$$",
     "type": "mcq"
   },
   {
@@ -3929,7 +3929,7 @@ export const QUESTIONS = [
       "$(1,1)$"
     ],
     "correct_index": 0,
-    "explanation": "vertex."
+    "explanation": "הפונקציה $y=x^2$ היא הפרבולה הבסיסית ביותר, קודקודה בראשית הצירים: $(0,0)$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-2",
@@ -3944,7 +3944,7 @@ export const QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{4}=2$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-3",
@@ -3959,7 +3959,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{9}=3$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-4",
@@ -3974,7 +3974,7 @@ export const QUESTIONS = [
       "$x+y$"
     ],
     "correct_index": 2,
-    "explanation": "dist."
+    "explanation": "נוסחת המרחק בין שתי נקודות $(x_1,y_1)$ ו-$(x_2,y_2)$ היא $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-5",
@@ -3989,7 +3989,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "2."
+    "explanation": "שיפוע ישר מחושב לפי $m=\\dfrac{y_2-y_1}{x_2-x_1}=\\dfrac{8-2}{4-1}=2$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-6",
@@ -4004,7 +4004,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 1,
-    "explanation": "5."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-7",
@@ -4019,7 +4019,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{16}=4$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-8",
@@ -4034,7 +4034,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "5."
+    "explanation": "לפי נוסחת המרחק: $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}=\\sqrt{3^2+4^2}=5$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-9",
@@ -4049,7 +4049,7 @@ export const QUESTIONS = [
       "$(1,1)$"
     ],
     "correct_index": 2,
-    "explanation": "origin."
+    "explanation": "במשוואת מעגל בצורה $x^2+y^2=r^2$ המרכז נמצא בראשית הצירים: $(0,0)$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-10",
@@ -4064,7 +4064,7 @@ export const QUESTIONS = [
       "$-6$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{1}=1$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-11",
@@ -4079,7 +4079,7 @@ export const QUESTIONS = [
       "$(0,0)$"
     ],
     "correct_index": 1,
-    "explanation": "mid."
+    "explanation": "אמצע קטע הוא ממוצע הקואורדינטות: $\\left(\\dfrac{0+4}{2},\\dfrac{0+6}{2}\\right)=(2,3)$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-12",
@@ -4094,7 +4094,7 @@ export const QUESTIONS = [
       "$x=1$"
     ],
     "correct_index": 0,
-    "explanation": "x=0."
+    "explanation": "שתי הנקודות חולקות את אותו $x=0$, לכן זהו ישר אנכי שמשוואתו $x=0$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-13",
@@ -4109,7 +4109,7 @@ export const QUESTIONS = [
       "$7$"
     ],
     "correct_index": 3,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{49}=7$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-14",
@@ -4124,7 +4124,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-15",
@@ -4139,7 +4139,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{36}=6$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-551",
@@ -4154,7 +4154,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $11$ אגף: $11x=55-11=44$. מחלקים ב-$11$: $x=4$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-552",
@@ -4169,7 +4169,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מעבירים את $3$ אגף עם סימן הפוך: $x=15-3=12$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-553",
@@ -4184,7 +4184,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מעבירים את $3$ אגף עם סימן הפוך: $x=12-3=9$."
   },
   {
     "id": "q-q-g10-u4-analytic-geo-554",
@@ -4199,7 +4199,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מעבירים את $9$ אגף עם סימן הפוך: $x=18-9=9$."
   },
   {
     "id": "q-g10-u4-pl-1",
@@ -4229,7 +4229,7 @@ export const QUESTIONS = [
       "$25^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-25-65=90^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-2",
@@ -4244,7 +4244,7 @@ export const QUESTIONS = [
       "$90^\\circ$"
     ],
     "correct_index": 2,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-30-70=80^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-3",
@@ -4259,7 +4259,7 @@ export const QUESTIONS = [
       "$60^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "60."
+    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-90-30=60^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-4",
@@ -4274,7 +4274,7 @@ export const QUESTIONS = [
       "$145^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-35-55=90^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-5",
@@ -4289,7 +4289,7 @@ export const QUESTIONS = [
       "$40^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "70."
+    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-50-60=70^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-6",
@@ -4304,7 +4304,7 @@ export const QUESTIONS = [
       "$100^\\circ$"
     ],
     "correct_index": 2,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-40-60=80^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-7",
@@ -4319,7 +4319,7 @@ export const QUESTIONS = [
       "$60^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "90."
+    "explanation": "זווית ישרה (זווית שיוצרת \"פינה\" מושלמת, כמו בפינת ריבוע) שווה $90^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-8",
@@ -4334,7 +4334,7 @@ export const QUESTIONS = [
       "$120$"
     ],
     "correct_index": 2,
-    "explanation": "60."
+    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות זו לזו, וסכומן $180^\\circ$, לכן כל זווית היא $180\\div 3=60^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-9",
@@ -4349,7 +4349,7 @@ export const QUESTIONS = [
       "$>90^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "obtuse."
+    "explanation": "זווית קהה היא זווית הגדולה מ-$90^\\circ$ (וקטנה מ-$180^\\circ$): $>90^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-10",
@@ -4364,7 +4364,7 @@ export const QUESTIONS = [
       "$80^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-50-50=80^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-11",
@@ -4379,7 +4379,7 @@ export const QUESTIONS = [
       "$165^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-15-75=90^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-12",
@@ -4394,7 +4394,7 @@ export const QUESTIONS = [
       "=180"
     ],
     "correct_index": 0,
-    "explanation": "acute."
+    "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-13",
@@ -4409,7 +4409,7 @@ export const QUESTIONS = [
       "$45^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-45-45=90^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-14",
@@ -4424,7 +4424,7 @@ export const QUESTIONS = [
       "$180^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "180."
+    "explanation": "שתי זוויות סמוכות שיוצרות יחד קו ישר משלימות ל-$180^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-15",
@@ -4439,7 +4439,7 @@ export const QUESTIONS = [
       "$80^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-20-80=80^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-16",
@@ -4454,7 +4454,7 @@ export const QUESTIONS = [
       "שווות"
     ],
     "correct_index": 3,
-    "explanation": "equal."
+    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות מתאימות (נגדיות-פנימיות) שוות זו לזו."
   },
   {
     "id": "q-q-g10-u4-plane-geo-17",
@@ -4469,7 +4469,7 @@ export const QUESTIONS = [
       "$360^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "180."
+    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-18",
@@ -4484,7 +4484,7 @@ export const QUESTIONS = [
       "$360^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "360."
+    "explanation": "סכום כל הזוויות מסביב לנקודה אחת הוא תמיד $360^\\circ$ (סיבוב שלם)."
   },
   {
     "id": "q-q-g10-u4-plane-geo-551",
@@ -4499,7 +4499,7 @@ export const QUESTIONS = [
       "$19$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מעבירים את $4$ אגף עם סימן הפוך: $x=28-4=24$."
   },
   {
     "id": "q-g10-u4-tr-1",
@@ -4529,7 +4529,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\cos 0^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g10-u4-trig-2",
@@ -4544,7 +4544,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "1/2."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 30^\\circ=\\frac{1}{2}$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g10-u4-trig-3",
@@ -4559,7 +4559,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{4}{8}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g10-u4-trig-4",
@@ -4574,7 +4574,7 @@ export const QUESTIONS = [
       "$\\sin 2x$"
     ],
     "correct_index": 1,
-    "explanation": "id."
+    "explanation": "זוהי הזהות הטריגונומטרית הבסיסית: $\\sin^2 x+\\cos^2 x=1$ לכל $x$."
   },
   {
     "id": "q-q-g10-u4-trig-5",
@@ -4589,7 +4589,7 @@ export const QUESTIONS = [
       "1"
     ],
     "correct_index": 1,
-    "explanation": "sqrt3."
+    "explanation": "במשולש 30-60-90 היחס בין הצלעות הוא $1:\\sqrt{3}:2$. מול הזווית $60^\\circ$ הצלע היא $\\sqrt{3}$ כאשר היתר הוא $2$."
   },
   {
     "id": "q-q-g10-u4-trig-6",
@@ -4604,7 +4604,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "1/2."
+    "explanation": "זהו ערך זווית מיוחדת: $\\cos 60^\\circ=\\frac{1}{2}$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g10-u4-trig-7",
@@ -4619,7 +4619,7 @@ export const QUESTIONS = [
       "$\\frac{3}{3}$"
     ],
     "correct_index": 2,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{3}{6}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g10-u4-trig-8",
@@ -4634,7 +4634,7 @@ export const QUESTIONS = [
       "$A/B$"
     ],
     "correct_index": 1,
-    "explanation": "sines."
+    "explanation": "לפי משפט הסינוסים, היחס שווה בין כל צלע לסינוס הזווית שמולה: $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$."
   },
   {
     "id": "q-q-g10-u4-trig-9",
@@ -4649,7 +4649,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{8}{16}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g10-u4-trig-10",
@@ -4664,7 +4664,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 2,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\tan 45^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g10-u4-trig-11",
@@ -4679,7 +4679,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "0."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 0^\\circ=0$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g10-u4-trig-12",
@@ -4694,7 +4694,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 3,
-    "explanation": "0."
+    "explanation": "$\\sin 180^\\circ=0$ (לפי מעגל היחידה)."
   },
   {
     "id": "q-q-g10-u4-trig-13",
@@ -4709,7 +4709,7 @@ export const QUESTIONS = [
       "$\\frac{6}{6}$"
     ],
     "correct_index": 1,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{6}{12}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g10-u4-trig-14",
@@ -4724,7 +4724,7 @@ export const QUESTIONS = [
       "שגוי"
     ],
     "correct_index": 1,
-    "explanation": "true."
+    "explanation": "זוהי הזהות המגדירה את הטנגנס: $\\tan x=\\dfrac{\\sin x}{\\cos x}$ — נכון לכל $x$ שבו $\\cos x\\neq 0$."
   },
   {
     "id": "q-q-g10-u4-trig-15",
@@ -4739,7 +4739,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 90^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g10-u4-trig-16",
@@ -4754,7 +4754,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 3,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{5}{10}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g10-u4-trig-17",
@@ -4769,7 +4769,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "1."
+    "explanation": "במשולש 30-60-90 היחס בין הצלעות הוא $1:\\sqrt{3}:2$. מול הזווית $30^\\circ$ הצלע היא חצי מהיתר: $2\\div 2=1$."
   },
   {
     "id": "q-q-g10-u4-trig-18",
@@ -4784,7 +4784,7 @@ export const QUESTIONS = [
       "$\\cos$"
     ],
     "correct_index": 0,
-    "explanation": "sin."
+    "explanation": "במשולש ישר-זווית, היחס ניצב-נגדי חלקי יתר מוגדר כ-$\\sin$ של הזווית."
   },
   {
     "id": "q-q-g10-u4-trig-19",
@@ -4799,7 +4799,7 @@ export const QUESTIONS = [
       "$\\sin$"
     ],
     "correct_index": 2,
-    "explanation": "cos."
+    "explanation": "במשולש ישר-זווית, היחס ניצב-סמוך חלקי יתר מוגדר כ-$\\cos$ של הזווית."
   },
   {
     "id": "q-g10-u4-st-1",
@@ -4813,7 +4813,7 @@ export const QUESTIONS = [
       "$28$"
     ],
     "correct_index": 0,
-    "explanation": "$\\bar{x}=\\frac{28}{4}=7$.",
+    "explanation": "החישוב: $\\bar{x}=\\frac{28}{4}=7$.",
     "type": "mcq"
   },
   {
@@ -4829,7 +4829,7 @@ export const QUESTIONS = [
       "$19$"
     ],
     "correct_index": 3,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $95$, ומחלקים במספר המספרים ($5$): $95\\div 5=19$."
   },
   {
     "id": "q-q-g10-u4-stats-2",
@@ -4844,7 +4844,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 5, 7, 18, 20. החציון הוא הערך האמצעי — $7$."
   },
   {
     "id": "q-q-g10-u4-stats-3",
@@ -4859,7 +4859,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 4, 14, 22, 27. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g10-u4-stats-4",
@@ -4874,7 +4874,7 @@ export const QUESTIONS = [
       "$19$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 18, 23, 26, 29. החציון הוא הערך האמצעי — $23$."
   },
   {
     "id": "q-q-g10-u4-stats-5",
@@ -4889,7 +4889,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $70$, ומחלקים במספר המספרים ($5$): $70\\div 5=14$."
   },
   {
     "id": "q-q-g10-u4-stats-6",
@@ -4904,7 +4904,7 @@ export const QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 5, 12, 15, 23. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-q-g10-u4-stats-7",
@@ -4919,7 +4919,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 2,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $75$, ומחלקים במספר המספרים ($5$): $75\\div 5=15$."
   },
   {
     "id": "q-q-g10-u4-stats-8",
@@ -4934,7 +4934,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 7, 8, 13, 28. החציון הוא הערך האמצעי — $8$."
   },
   {
     "id": "q-q-g10-u4-stats-9",
@@ -4949,7 +4949,7 @@ export const QUESTIONS = [
       "$16$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 22, 23, 27, 28. החציון הוא הערך האמצעי — $23$."
   },
   {
     "id": "q-q-g10-u4-stats-10",
@@ -4964,7 +4964,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 5, 10, 21, 28. החציון הוא הערך האמצעי — $10$."
   },
   {
     "id": "q-q-g10-u4-stats-11",
@@ -4979,7 +4979,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 4, 10, 25, 27. החציון הוא הערך האמצעי — $10$."
   },
   {
     "id": "q-q-g10-u4-stats-12",
@@ -4994,7 +4994,7 @@ export const QUESTIONS = [
       "$15$"
     ],
     "correct_index": 2,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $100$, ומחלקים במספר המספרים ($5$): $100\\div 5=20$."
   },
   {
     "id": "q-q-g10-u4-stats-13",
@@ -5009,7 +5009,7 @@ export const QUESTIONS = [
       "$17$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 10, 11, 17, 20, 22. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g10-u4-stats-14",
@@ -5024,7 +5024,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 11, 13, 15, 27. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g10-u4-stats-15",
@@ -5039,7 +5039,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 16, 18, 21, 22, 23. החציון הוא הערך האמצעי — $21$."
   },
   {
     "id": "q-q-g10-u4-stats-16",
@@ -5054,7 +5054,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 8, 9, 14, 23. החציון הוא הערך האמצעי — $9$."
   },
   {
     "id": "q-q-g10-u4-stats-17",
@@ -5069,7 +5069,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 7, 9, 11, 21, 29. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g10-u4-stats-18",
@@ -5084,7 +5084,7 @@ export const QUESTIONS = [
       "$23$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 11, 27, 28, 29. החציון הוא הערך האמצעי — $27$."
   },
   {
     "id": "q-q-g10-u4-stats-19",
@@ -5099,7 +5099,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 12, 15, 24, 25. החציון הוא הערך האמצעי — $15$."
   },
   {
     "id": "q-g11-u4-rat-1",
@@ -5113,7 +5113,7 @@ export const QUESTIONS = [
       "$2x$"
     ],
     "correct_index": 0,
-    "explanation": "$f(x)=x+\\frac{1}{x}\\Rightarrow f'(x)=1-\\frac{1}{x^{2}}$.",
+    "explanation": "החישוב: $f(x)=x+\\frac{1}{x}\\Rightarrow f'(x)=1-\\frac{1}{x^{2}}$.",
     "type": "mcq"
   },
   {
@@ -5129,7 +5129,7 @@ export const QUESTIONS = [
       "$30$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $20\\%=\\frac{20}{100}$. לכן $20\\%$ מ-$150$ הוא $\\frac{20}{100}\\times 150=30$."
   },
   {
     "id": "q-q-g11-u4-rational-root-2",
@@ -5144,7 +5144,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "3."
+    "explanation": "היחס $3:5$ מתוך סה\"כ $8$ חלקים: חלק 1 שווה $\\frac{3}{8}\\times 8=3$."
   },
   {
     "id": "q-q-g11-u4-rational-root-3",
@@ -5159,7 +5159,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $8\\%=\\frac{8}{100}$. לכן $8\\%$ מ-$50$ הוא $\\frac{8}{100}\\times 50=4$."
   },
   {
     "id": "q-q-g11-u4-rational-root-4",
@@ -5174,7 +5174,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $12\\%=\\frac{12}{100}$. לכן $12\\%$ מ-$100$ הוא $\\frac{12}{100}\\times 100=12$."
   },
   {
     "id": "q-q-g11-u4-rational-root-5",
@@ -5189,7 +5189,7 @@ export const QUESTIONS = [
       "$25\\%$"
     ],
     "correct_index": 0,
-    "explanation": "20%."
+    "explanation": "אחוז מחושב כחלק חלקי שלם כפול $100$: $\\frac{20}{100}\\times 100=20\\%$."
   },
   {
     "id": "q-q-g11-u4-rational-root-6",
@@ -5204,7 +5204,7 @@ export const QUESTIONS = [
       "$40\\%$"
     ],
     "correct_index": 1,
-    "explanation": "25%."
+    "explanation": "אחוז מחושב כשבר כפול $100$: $\\frac{1}{4}\\times 100=25\\%$."
   },
   {
     "id": "q-q-g11-u4-rational-root-7",
@@ -5219,7 +5219,7 @@ export const QUESTIONS = [
       "$5:3$"
     ],
     "correct_index": 1,
-    "explanation": "scale."
+    "explanation": "מכפילים את שני אגפי היחס באותו מספר: $5\\times 3:1\\times 3=15:3$."
   },
   {
     "id": "q-q-g11-u4-rational-root-8",
@@ -5234,7 +5234,7 @@ export const QUESTIONS = [
       "$60$"
     ],
     "correct_index": 3,
-    "explanation": "60."
+    "explanation": "לאחר הנחה של $25\\%$ נשארים לשלם $75\\%$: $80\\times 0.75=60$."
   },
   {
     "id": "q-q-g11-u4-rational-root-9",
@@ -5249,7 +5249,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $10\\%=\\frac{10}{100}$. לכן $10\\%$ מ-$80$ הוא $\\frac{10}{100}\\times 80=8$."
   },
   {
     "id": "q-q-g11-u4-rational-root-10",
@@ -5264,7 +5264,7 @@ export const QUESTIONS = [
       "$1:4$"
     ],
     "correct_index": 1,
-    "explanation": "1:2."
+    "explanation": "התשובה הנכונה היא $1:2$."
   },
   {
     "id": "q-q-g11-u4-rational-root-11",
@@ -5279,7 +5279,7 @@ export const QUESTIONS = [
       "$80$"
     ],
     "correct_index": 0,
-    "explanation": "100."
+    "explanation": "אחרי גידול של $20\\%$ הערך הוא $120\\%$ מהמקורי: $120\\div 1.2=100$."
   },
   {
     "id": "q-q-g11-u4-rational-root-12",
@@ -5294,7 +5294,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "10."
+    "explanation": "$5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
     "id": "q-q-g11-u4-rational-root-13",
@@ -5309,7 +5309,7 @@ export const QUESTIONS = [
       "$26$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $60\\%=\\frac{60}{100}$. לכן $60\\%$ מ-$50$ הוא $\\frac{60}{100}\\times 50=30$."
   },
   {
     "id": "q-q-g11-u4-rational-root-14",
@@ -5324,7 +5324,7 @@ export const QUESTIONS = [
       "$53$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $75\\%=\\frac{75}{100}$. לכן $75\\%$ מ-$80$ הוא $\\frac{75}{100}\\times 80=60$."
   },
   {
     "id": "q-q-g11-u4-rational-root-15",
@@ -5339,7 +5339,7 @@ export const QUESTIONS = [
       "$6:6$"
     ],
     "correct_index": 1,
-    "explanation": "scale."
+    "explanation": "מכפילים את שני אגפי היחס באותו מספר: $3\\times 6:2\\times 6=18:12$."
   },
   {
     "id": "q-q-g11-u4-rational-root-16",
@@ -5354,7 +5354,7 @@ export const QUESTIONS = [
       "$20$"
     ],
     "correct_index": 3,
-    "explanation": "20."
+    "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$40$ הוא $\\frac{50}{100}\\times 40=20$."
   },
   {
     "id": "q-q-g11-u4-rational-root-17",
@@ -5369,7 +5369,7 @@ export const QUESTIONS = [
       "$1:20$"
     ],
     "correct_index": 1,
-    "explanation": "scale."
+    "explanation": "מכפילים את שני אגפי היחס באותו מספר: $1\\times 5:4\\times 5=5:20$."
   },
   {
     "id": "q-q-g11-u4-rational-root-18",
@@ -5384,7 +5384,7 @@ export const QUESTIONS = [
       "$13$"
     ],
     "correct_index": 2,
-    "explanation": "30."
+    "explanation": "התשובה הנכונה היא $30$."
   },
   {
     "id": "q-q-g11-u4-rational-root-19",
@@ -5399,7 +5399,7 @@ export const QUESTIONS = [
       "$22$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $30\\%=\\frac{30}{100}$. לכן $30\\%$ מ-$90$ הוא $\\frac{30}{100}\\times 90=27$."
   },
   {
     "id": "q-g11-u4-int-1",
@@ -5413,7 +5413,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 0,
-    "explanation": "$\\big[x^{3}\\big]_{0}^{2}=8$.",
+    "explanation": "החישוב: $\\big[x^{3}\\big]_{0}^{2}=8$.",
     "type": "mcq"
   },
   {
@@ -5429,7 +5429,7 @@ export const QUESTIONS = [
       "$2x^{2}$"
     ],
     "correct_index": 2,
-    "explanation": "power int."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 2x^{2}\\,dx=\\frac{2}{3}x^{3}+C$, כלומר המקדם הוא $0.6666666666666666$."
   },
   {
     "id": "q-q-g11-u4-integral-2",
@@ -5444,7 +5444,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "x."
+    "explanation": "האינטגרל של הפונקציה הקבועה $1$ הוא $x$ (בתוספת קבוע האינטגרציה): $\\int 1\\,dx=x+C$."
   },
   {
     "id": "q-q-g11-u4-integral-3",
@@ -5459,7 +5459,7 @@ export const QUESTIONS = [
       "$2x+C$"
     ],
     "correct_index": 0,
-    "explanation": "x3/3."
+    "explanation": "התשובה הנכונה היא $\\frac{x^3}{3}+C$."
   },
   {
     "id": "q-q-g11-u4-integral-4",
@@ -5474,7 +5474,7 @@ export const QUESTIONS = [
       "$3x^3+C$"
     ],
     "correct_index": 2,
-    "explanation": "x3."
+    "explanation": "התשובה הנכונה היא $x^3+C$."
   },
   {
     "id": "q-q-g11-u4-integral-5",
@@ -5489,7 +5489,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "power int."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 5x^{5}\\,dx=\\frac{5}{6}x^{6}+C$, כלומר המקדם הוא $0.8333333333333334$."
   },
   {
     "id": "q-q-g11-u4-integral-6",
@@ -5504,7 +5504,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "1."
+    "explanation": "האינטגרל של $\\cos x$ הוא $\\sin x$: $[\\sin x]_0^{\\pi/2}=\\sin(\\pi/2)-\\sin(0)=1-0=1$."
   },
   {
     "id": "q-q-g11-u4-integral-7",
@@ -5519,7 +5519,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "1."
+    "explanation": "האינטגרל של $2x$ הוא $x^2$: $[x^2]_0^1=1^2-0^2=1$."
   },
   {
     "id": "q-q-g11-u4-integral-8",
@@ -5534,7 +5534,7 @@ export const QUESTIONS = [
       "נקודה"
     ],
     "correct_index": 1,
-    "explanation": "area."
+    "explanation": "אינטגרל מוגדר של פונקציה חיובית בקטע מסוים מייצג את השטח הכלוא בין הגרף לציר $x$ בקטע זה."
   },
   {
     "id": "q-q-g11-u4-integral-9",
@@ -5549,7 +5549,7 @@ export const QUESTIONS = [
       "$3x^{3}$"
     ],
     "correct_index": 2,
-    "explanation": "power int."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 3x^{3}\\,dx=\\frac{3}{4}x^{4}+C$, כלומר המקדם הוא $0.75$."
   },
   {
     "id": "q-q-g11-u4-integral-10",
@@ -5564,7 +5564,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}x^{2}+C$"
     ],
     "correct_index": 3,
-    "explanation": "power int."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 1x^{1}\\,dx=\\frac{1}{2}x^{2}+C$, כלומר המקדם הוא $0.5$."
   },
   {
     "id": "q-q-g11-u4-integral-11",
@@ -5579,7 +5579,7 @@ export const QUESTIONS = [
       "$\\frac{4}{5}x^{5}+C$"
     ],
     "correct_index": 3,
-    "explanation": "power int."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 4x^{4}\\,dx=\\frac{4}{5}x^{5}+C$, כלומר המקדם הוא $0.8$."
   },
   {
     "id": "q-q-g11-u4-integral-12",
@@ -5594,7 +5594,7 @@ export const QUESTIONS = [
       "$2x+C$"
     ],
     "correct_index": 1,
-    "explanation": "x2/2."
+    "explanation": "התשובה הנכונה היא $\\frac{x^2}{2}+C$."
   },
   {
     "id": "q-q-g11-u4-integral-13",
@@ -5609,7 +5609,7 @@ export const QUESTIONS = [
       "$\\frac{6}{7}x^{7}+C$"
     ],
     "correct_index": 3,
-    "explanation": "power int."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 6x^{6}\\,dx=\\frac{6}{7}x^{7}+C$, כלומר המקדם הוא $0.8571428571428571$."
   },
   {
     "id": "q-q-g11-u4-integral-14",
@@ -5624,7 +5624,7 @@ export const QUESTIONS = [
       "$e^x+C$"
     ],
     "correct_index": 3,
-    "explanation": "e^x."
+    "explanation": "האינטגרל של $e^x$ הוא $e^x$ עצמה (בתוספת קבוע): $\\int e^x\\,dx=e^x+C$."
   },
   {
     "id": "q-q-g11-u4-integral-551",
@@ -5639,7 +5639,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "linear."
+    "explanation": "מעבירים את $6$ אגף: $6x=42-6=36$. מחלקים ב-$6$: $x=6$."
   },
   {
     "id": "q-q-g11-u4-integral-552",
@@ -5654,7 +5654,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$9$: $x=54\\div 9=6$."
   },
   {
     "id": "q-q-g11-u4-integral-553",
@@ -5669,7 +5669,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 2,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$2$: $x=8\\div 2=4$."
   },
   {
     "id": "q-q-g11-u4-integral-554",
@@ -5684,7 +5684,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "linear."
+    "explanation": "מעבירים את $11$ אגף: $11x=99-11=88$. מחלקים ב-$11$: $x=8$."
   },
   {
     "id": "q-q-g11-u4-integral-555",
@@ -5699,7 +5699,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $3$ אגף: $3x=27-3=24$. מחלקים ב-$3$: $x=8$."
   },
   {
     "id": "q-g11-u4-circ-1",
@@ -5713,7 +5713,7 @@ export const QUESTIONS = [
       "$x+y=5$"
     ],
     "correct_index": 0,
-    "explanation": "$x^{2}+y^{2}=R^{2}=25$.",
+    "explanation": "החישוב: $x^{2}+y^{2}=R^{2}=25$.",
     "type": "mcq"
   },
   {
@@ -5729,7 +5729,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 2,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{9}=3$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-2",
@@ -5744,7 +5744,7 @@ export const QUESTIONS = [
       "$(r,r)$"
     ],
     "correct_index": 0,
-    "explanation": "origin."
+    "explanation": "במשוואת מעגל בצורה $x^2+y^2=r^2$ המרכז נמצא בראשית הצירים: $(0,0)$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-3",
@@ -5759,7 +5759,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{1}=1$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-4",
@@ -5774,7 +5774,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{49}=7$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-5",
@@ -5789,7 +5789,7 @@ export const QUESTIONS = [
       "$(0,0)$"
     ],
     "correct_index": 1,
-    "explanation": "mid."
+    "explanation": "אמצע קטע הוא ממוצע הקואורדינטות: $\\left(\\dfrac{0+4}{2},\\dfrac{0+6}{2}\\right)=(2,3)$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-6",
@@ -5804,7 +5804,7 @@ export const QUESTIONS = [
       "$|x-y|$"
     ],
     "correct_index": 1,
-    "explanation": "dist."
+    "explanation": "נוסחת המרחק בין שתי נקודות $(x_1,y_1)$ ו-$(x_2,y_2)$ היא $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-7",
@@ -5819,7 +5819,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-8",
@@ -5834,7 +5834,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "5."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-9",
@@ -5849,7 +5849,7 @@ export const QUESTIONS = [
       "$(1,1)$"
     ],
     "correct_index": 1,
-    "explanation": "vertex."
+    "explanation": "הפונקציה $y=x^2$ היא הפרבולה הבסיסית ביותר, קודקודה בראשית הצירים: $(0,0)$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-10",
@@ -5864,7 +5864,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "2."
+    "explanation": "שיפוע ישר מחושב לפי $m=\\dfrac{y_2-y_1}{x_2-x_1}=\\dfrac{8-2}{4-1}=2$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-11",
@@ -5879,7 +5879,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "5."
+    "explanation": "לפי נוסחת המרחק: $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}=\\sqrt{3^2+4^2}=5$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-12",
@@ -5894,7 +5894,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 0,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{4}=2$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-13",
@@ -5909,7 +5909,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{36}=6$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-14",
@@ -5924,7 +5924,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{16}=4$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-15",
@@ -5939,7 +5939,7 @@ export const QUESTIONS = [
       "$x=0$"
     ],
     "correct_index": 3,
-    "explanation": "x=0."
+    "explanation": "שתי הנקודות חולקות את אותו $x=0$, לכן זהו ישר אנכי שמשוואתו $x=0$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-551",
@@ -5954,7 +5954,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "linear."
+    "explanation": "מעבירים את $5$ אגף: $5x=30-5=25$. מחלקים ב-$5$: $x=5$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-552",
@@ -5969,7 +5969,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $11$ אגף: $11x=110-11=99$. מחלקים ב-$11$: $x=9$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-553",
@@ -5984,7 +5984,7 @@ export const QUESTIONS = [
       "$26$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מעבירים את $5$ אגף עם סימן הפוך: $x=35-5=30$."
   },
   {
     "id": "q-q-g11-u4-analytic-circle-554",
@@ -5999,7 +5999,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$4$: $x=36\\div 4=9$."
   },
   {
     "id": "q-g11-u4-pl-1",
@@ -6029,7 +6029,7 @@ export const QUESTIONS = [
       "$13$"
     ],
     "correct_index": 1,
-    "explanation": "d."
+    "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 9=18$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-2",
@@ -6044,7 +6044,7 @@ export const QUESTIONS = [
       "$5\\pi$"
     ],
     "correct_index": 1,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 5\\times\\pi=10\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-3",
@@ -6059,7 +6059,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 0,
-    "explanation": "pi r2."
+    "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 2^2=4\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-4",
@@ -6074,7 +6074,7 @@ export const QUESTIONS = [
       "$6\\pi$"
     ],
     "correct_index": 1,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 6\\times\\pi=12\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-5",
@@ -6089,7 +6089,7 @@ export const QUESTIONS = [
       "$16\\pi$"
     ],
     "correct_index": 3,
-    "explanation": "pi r2."
+    "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 4^2=16\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-6",
@@ -6104,7 +6104,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "d."
+    "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 1=2$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-7",
@@ -6119,7 +6119,7 @@ export const QUESTIONS = [
       "$49\\pi$"
     ],
     "correct_index": 3,
-    "explanation": "pi r2."
+    "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 7^2=49\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-8",
@@ -6134,7 +6134,7 @@ export const QUESTIONS = [
       "$2\\pi$"
     ],
     "correct_index": 2,
-    "explanation": "pi r2."
+    "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 6^2=36\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-9",
@@ -6149,7 +6149,7 @@ export const QUESTIONS = [
       "$81\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 9\\times\\pi=18\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-10",
@@ -6164,7 +6164,7 @@ export const QUESTIONS = [
       "$10\\pi$"
     ],
     "correct_index": 2,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 10\\times\\pi=20\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-11",
@@ -6179,7 +6179,7 @@ export const QUESTIONS = [
       "$2\\pi$"
     ],
     "correct_index": 2,
-    "explanation": "pi r2."
+    "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 5^2=25\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-12",
@@ -6194,7 +6194,7 @@ export const QUESTIONS = [
       "$4\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "pi r2."
+    "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 1^2=1\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-13",
@@ -6209,7 +6209,7 @@ export const QUESTIONS = [
       "מקבילים"
     ],
     "correct_index": 0,
-    "explanation": "eq."
+    "explanation": "התשובה הנכונה היא שווים."
   },
   {
     "id": "q-q-g11-u4-plane-circle-14",
@@ -6224,7 +6224,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 1,
-    "explanation": "d."
+    "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 7=14$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-15",
@@ -6239,7 +6239,7 @@ export const QUESTIONS = [
       "$8\\pi$"
     ],
     "correct_index": 1,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 8\\times\\pi=16\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-16",
@@ -6254,7 +6254,7 @@ export const QUESTIONS = [
       "$2\\pi$"
     ],
     "correct_index": 2,
-    "explanation": "pi r2."
+    "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 9^2=81\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-17",
@@ -6269,7 +6269,7 @@ export const QUESTIONS = [
       "$2\\pi$"
     ],
     "correct_index": 3,
-    "explanation": "2pi r."
+    "explanation": "היקף עיגול הוא $2\\pi r=2\\times 1\\times\\pi=2\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-18",
@@ -6284,7 +6284,7 @@ export const QUESTIONS = [
       "$64$"
     ],
     "correct_index": 1,
-    "explanation": "pi r2."
+    "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 8^2=64\\pi$."
   },
   {
     "id": "q-q-g11-u4-plane-circle-19",
@@ -6299,7 +6299,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 0,
-    "explanation": "d."
+    "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 8=16$."
   },
   {
     "id": "q-g11-u4-sine-1",
@@ -6313,7 +6313,7 @@ export const QUESTIONS = [
       "$\\dfrac{10}{\\sin 45^\\circ}$"
     ],
     "correct_index": 0,
-    "explanation": "$\\dfrac{10}{\\sin 30^\\circ}=20$.",
+    "explanation": "החישוב: $\\dfrac{10}{\\sin 30^\\circ}=20$.",
     "type": "mcq"
   },
   {
@@ -6329,7 +6329,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\cos 0^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u4-trig-sine-2",
@@ -6344,7 +6344,7 @@ export const QUESTIONS = [
       "שגוי"
     ],
     "correct_index": 1,
-    "explanation": "true."
+    "explanation": "זוהי הזהות המגדירה את הטנגנס: $\\tan x=\\dfrac{\\sin x}{\\cos x}$ — נכון לכל $x$ שבו $\\cos x\\neq 0$."
   },
   {
     "id": "q-q-g11-u4-trig-sine-3",
@@ -6359,7 +6359,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{6}{12}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u4-trig-sine-4",
@@ -6374,7 +6374,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 3,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{5}{10}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u4-trig-sine-5",
@@ -6389,7 +6389,7 @@ export const QUESTIONS = [
       "$A/B$"
     ],
     "correct_index": 0,
-    "explanation": "sines."
+    "explanation": "לפי משפט הסינוסים, היחס שווה בין כל צלע לסינוס הזווית שמולה: $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$."
   },
   {
     "id": "q-q-g11-u4-trig-sine-6",
@@ -6404,7 +6404,7 @@ export const QUESTIONS = [
       "$\\tan$"
     ],
     "correct_index": 0,
-    "explanation": "sin."
+    "explanation": "במשולש ישר-זווית, היחס ניצב-נגדי חלקי יתר מוגדר כ-$\\sin$ של הזווית."
   },
   {
     "id": "q-q-g11-u4-trig-sine-7",
@@ -6419,7 +6419,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 3,
-    "explanation": "0."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 0^\\circ=0$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u4-trig-sine-8",
@@ -6434,7 +6434,7 @@ export const QUESTIONS = [
       "$\\frac{3}{3}$"
     ],
     "correct_index": 0,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{3}{6}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u4-trig-sine-9",
@@ -6449,7 +6449,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{10}{20}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u4-trig-sine-10",
@@ -6464,7 +6464,7 @@ export const QUESTIONS = [
       "$\\frac{\\sqrt{3}}{2}$"
     ],
     "correct_index": 2,
-    "explanation": "1/2."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 30^\\circ=\\frac{1}{2}$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u4-trig-sine-11",
@@ -6479,7 +6479,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "id."
+    "explanation": "זוהי הזהות הטריגונומטרית הבסיסית: $\\sin^2 x+\\cos^2 x=1$ לכל $x$."
   },
   {
     "id": "q-q-g11-u4-trig-sine-12",
@@ -6494,7 +6494,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 1,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 90^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u4-trig-sine-13",
@@ -6509,7 +6509,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "1/2."
+    "explanation": "זהו ערך זווית מיוחדת: $\\cos 60^\\circ=\\frac{1}{2}$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u4-trig-sine-14",
@@ -6524,7 +6524,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 1,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\tan 45^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u4-trig-sine-15",
@@ -6539,7 +6539,7 @@ export const QUESTIONS = [
       "3"
     ],
     "correct_index": 0,
-    "explanation": "sqrt3."
+    "explanation": "במשולש 30-60-90 היחס בין הצלעות הוא $1:\\sqrt{3}:2$. מול הזווית $60^\\circ$ הצלע היא $\\sqrt{3}$ כאשר היתר הוא $2$."
   },
   {
     "id": "q-q-g11-u4-trig-sine-16",
@@ -6554,7 +6554,7 @@ export const QUESTIONS = [
       "$\\cos$"
     ],
     "correct_index": 3,
-    "explanation": "cos."
+    "explanation": "במשולש ישר-זווית, היחס ניצב-סמוך חלקי יתר מוגדר כ-$\\cos$ של הזווית."
   },
   {
     "id": "q-q-g11-u4-trig-sine-17",
@@ -6569,7 +6569,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{4}{8}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u4-trig-sine-18",
@@ -6584,7 +6584,7 @@ export const QUESTIONS = [
       "$\\sqrt{3}$"
     ],
     "correct_index": 1,
-    "explanation": "1."
+    "explanation": "במשולש 30-60-90 היחס בין הצלעות הוא $1:\\sqrt{3}:2$. מול הזווית $30^\\circ$ הצלע היא חצי מהיתר: $2\\div 2=1$."
   },
   {
     "id": "q-q-g11-u4-trig-sine-19",
@@ -6599,7 +6599,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 3,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{8}{16}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-g11-u4-reg-1",
@@ -6629,7 +6629,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 7, 12, 21, 28. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-2",
@@ -6644,7 +6644,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 5, 10, 11, 21. החציון הוא הערך האמצעי — $10$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-3",
@@ -6659,7 +6659,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 5, 6, 22, 24. החציון הוא הערך האמצעי — $6$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-4",
@@ -6674,7 +6674,7 @@ export const QUESTIONS = [
       "$22$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 7, 18, 22, 23, 25. החציון הוא הערך האמצעי — $22$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-5",
@@ -6689,7 +6689,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 8, 9, 10, 28. החציון הוא הערך האמצעי — $9$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-6",
@@ -6704,7 +6704,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "10."
+    "explanation": "מחברים את שתי הקבוצות: $4+6=10$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-7",
@@ -6719,7 +6719,7 @@ export const QUESTIONS = [
       "$19$"
     ],
     "correct_index": 3,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $95$, ומחלקים במספר המספרים ($5$): $95\\div 5=19$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-8",
@@ -6734,7 +6734,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 5, 6, 8, 21. החציון הוא הערך האמצעי — $6$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-9",
@@ -6749,7 +6749,7 @@ export const QUESTIONS = [
       "$16$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 7, 21, 22, 23. החציון הוא הערך האמצעי — $21$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-10",
@@ -6764,7 +6764,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 8, 12, 13, 17, 21. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-11",
@@ -6779,7 +6779,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 10, 12, 13, 18, 23. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-12",
@@ -6794,7 +6794,7 @@ export const QUESTIONS = [
       "$16$"
     ],
     "correct_index": 3,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $80$, ומחלקים במספר המספרים ($5$): $80\\div 5=16$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-13",
@@ -6809,7 +6809,7 @@ export const QUESTIONS = [
       "$13$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 9, 18, 22, 24. החציון הוא הערך האמצעי — $18$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-14",
@@ -6824,7 +6824,7 @@ export const QUESTIONS = [
       "$23$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 9, 12, 23, 24, 26. החציון הוא הערך האמצעי — $23$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-15",
@@ -6839,7 +6839,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 9, 10, 11, 20. החציון הוא הערך האמצעי — $10$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-16",
@@ -6854,7 +6854,7 @@ export const QUESTIONS = [
       "$20$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 9, 11, 20, 22, 28. החציון הוא הערך האמצעי — $20$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-17",
@@ -6869,7 +6869,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 10, 14, 18, 19. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-18",
@@ -6884,7 +6884,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 12, 14, 15, 29. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g11-u4-normal-regression-19",
@@ -6899,7 +6899,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 8, 9, 12, 21, 28. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-g12-u4-exp-1",
@@ -6929,7 +6929,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 2,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{2}=2$ (שכן $10^{2}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u4-exp-log-2",
@@ -6944,7 +6944,7 @@ export const QUESTIONS = [
       "$-6$"
     ],
     "correct_index": 0,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{1}=1$ (שכן $10^{1}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u4-exp-log-3",
@@ -6959,7 +6959,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{5}=5$ (שכן $10^{5}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u4-exp-log-4",
@@ -6974,7 +6974,7 @@ export const QUESTIONS = [
       "$na^m$"
     ],
     "correct_index": 2,
-    "explanation": "power."
+    "explanation": "לפי חוק החזקות, חזקה של חזקה כופלת את המעריכים: $(a^m)^n=a^{mn}$."
   },
   {
     "id": "q-q-g12-u4-exp-log-5",
@@ -6989,7 +6989,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "1."
+    "explanation": "לפי הגדרת הלוגריתם הטבעי, $\\ln e=\\log_e e=1$."
   },
   {
     "id": "q-q-g12-u4-exp-log-6",
@@ -7004,7 +7004,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{3}=3$ (שכן $10^{3}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u4-exp-log-7",
@@ -7019,7 +7019,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "5."
+    "explanation": "$e$ ו-$\\ln$ הן פעולות הופכיות: $e^{\\ln 5}=5$."
   },
   {
     "id": "q-q-g12-u4-exp-log-8",
@@ -7034,7 +7034,7 @@ export const QUESTIONS = [
       "$-100$"
     ],
     "correct_index": 1,
-    "explanation": "0.01."
+    "explanation": "חזקה שלילית הופכת את הבסיס: $10^{-2}=\\dfrac{1}{10^2}=\\dfrac{1}{100}=0.01$."
   },
   {
     "id": "q-q-g12-u4-exp-log-9",
@@ -7049,7 +7049,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "2."
+    "explanation": "$100=10^{2}$, ולכן $\\log_{10} 100=2$."
   },
   {
     "id": "q-q-g12-u4-exp-log-10",
@@ -7064,7 +7064,7 @@ export const QUESTIONS = [
       "$\\log a+\\log b$"
     ],
     "correct_index": 3,
-    "explanation": "sum."
+    "explanation": "לפי חוקי הלוגריתמים, לוגריתם של מכפלה שווה לסכום הלוגריתמים: $\\log(ab)=\\log a+\\log b$."
   },
   {
     "id": "q-q-g12-u4-exp-log-11",
@@ -7079,7 +7079,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "3."
+    "explanation": "מחפשים חזקה של $2$ שנותנת $8$: $2^{3}=8$, לכן $x=3$."
   },
   {
     "id": "q-q-g12-u4-exp-log-12",
@@ -7094,7 +7094,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{4}=4$ (שכן $10^{4}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u4-exp-log-13",
@@ -7109,7 +7109,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "8."
+    "explanation": "כל שעה הכמות מוכפלת פי $2$, לכן אחרי $3$ שעות המכפיל הכולל הוא $2^{3}=8$."
   },
   {
     "id": "q-q-g12-u4-exp-log-14",
@@ -7124,7 +7124,7 @@ export const QUESTIONS = [
       "$a^{m+n}$"
     ],
     "correct_index": 3,
-    "explanation": "prod."
+    "explanation": "לפי חוק החזקות, כפל של חזקות עם אותו בסיס מחבר את המעריכים: $a^m\\cdot a^n=a^{m+n}$."
   },
   {
     "id": "q-q-g12-u4-exp-log-15",
@@ -7139,7 +7139,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 1,
-    "explanation": "3."
+    "explanation": "$\\log_2 8$ שואל \"$2$ בחזקת מה נותן $8$?\" — התשובה $3$, כי $2^{3}=8$."
   },
   {
     "id": "q-q-g12-u4-exp-log-551",
@@ -7154,7 +7154,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$10$: $x=50\\div 10=5$."
   },
   {
     "id": "q-q-g12-u4-exp-log-552",
@@ -7169,7 +7169,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מעבירים את $2$ אגף עם סימן הפוך: $x=12-2=10$."
   },
   {
     "id": "q-q-g12-u4-exp-log-553",
@@ -7184,7 +7184,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מעבירים את $2$ אגף עם סימן הפוך: $x=16-2=14$."
   },
   {
     "id": "q-q-g12-u4-exp-log-554",
@@ -7199,7 +7199,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$5$: $x=30\\div 5=6$."
   },
   {
     "id": "q-g12-u4-seq-1",
@@ -7213,7 +7213,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 0,
-    "explanation": "$a_5=3+4\\cdot 4=19$.",
+    "explanation": "החישוב: $a_5=3+4\\cdot 4=19$.",
     "type": "mcq"
   },
   {
@@ -7229,7 +7229,7 @@ export const QUESTIONS = [
       "$18$"
     ],
     "correct_index": 0,
-    "explanation": "24."
+    "explanation": "התשובה הנכונה היא $24$."
   },
   {
     "id": "q-q-g12-u4-sequences-2",
@@ -7244,7 +7244,7 @@ export const QUESTIONS = [
       "$42$"
     ],
     "correct_index": 0,
-    "explanation": "48."
+    "explanation": "התשובה הנכונה היא $48$."
   },
   {
     "id": "q-q-g12-u4-sequences-3",
@@ -7259,7 +7259,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 3,
-    "explanation": "arith."
+    "explanation": "מתחילים מ-$1$ ומוסיפים $2$ בכל קפיצה, ארבע פעמים: $1+4\\times 2=9$."
   },
   {
     "id": "q-q-g12-u4-sequences-4",
@@ -7274,7 +7274,7 @@ export const QUESTIONS = [
       "$13$"
     ],
     "correct_index": 2,
-    "explanation": "arith."
+    "explanation": "מתחילים מ-$1$ ומוסיפים $4$ בכל קפיצה, ארבע פעמים: $1+4\\times 4=17$."
   },
   {
     "id": "q-q-g12-u4-sequences-5",
@@ -7289,7 +7289,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "arith."
+    "explanation": "מתחילים מ-$1$ ומוסיפים $3$ בכל קפיצה, ארבע פעמים: $1+4\\times 3=13$."
   },
   {
     "id": "q-q-g12-u4-sequences-6",
@@ -7304,7 +7304,7 @@ export const QUESTIONS = [
       "מכפלה"
     ],
     "correct_index": 1,
-    "explanation": "d."
+    "explanation": "התשובה הנכונה היא קבוע."
   },
   {
     "id": "q-q-g12-u4-sequences-7",
@@ -7319,7 +7319,7 @@ export const QUESTIONS = [
       "רק גבול"
     ],
     "correct_index": 2,
-    "explanation": "ind."
+    "explanation": "התשובה הנכונה היא n->n+1."
   },
   {
     "id": "q-q-g12-u4-sequences-8",
@@ -7334,7 +7334,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 1,
-    "explanation": "14."
+    "explanation": "התשובה הנכונה היא $14$."
   },
   {
     "id": "q-q-g12-u4-sequences-9",
@@ -7349,7 +7349,7 @@ export const QUESTIONS = [
       "$n!$"
     ],
     "correct_index": 1,
-    "explanation": "gauss."
+    "explanation": "התשובה הנכונה היא $\\frac{n(n+1)}{2}$."
   },
   {
     "id": "q-q-g12-u4-sequences-10",
@@ -7364,7 +7364,7 @@ export const QUESTIONS = [
       "$25$"
     ],
     "correct_index": 3,
-    "explanation": "arith."
+    "explanation": "מתחילים מ-$1$ ומוסיפים $6$ בכל קפיצה, ארבע פעמים: $1+4\\times 6=25$."
   },
   {
     "id": "q-q-g12-u4-sequences-11",
@@ -7379,7 +7379,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "11."
+    "explanation": "התשובה הנכונה היא $11$."
   },
   {
     "id": "q-q-g12-u4-sequences-12",
@@ -7394,7 +7394,7 @@ export const QUESTIONS = [
       "$16$"
     ],
     "correct_index": 1,
-    "explanation": "arith."
+    "explanation": "מתחילים מ-$1$ ומוסיפים $5$ בכל קפיצה, ארבע פעמים: $1+4\\times 5=21$."
   },
   {
     "id": "q-q-g12-u4-sequences-13",
@@ -7409,7 +7409,7 @@ export const QUESTIONS = [
       "$16$"
     ],
     "correct_index": 3,
-    "explanation": "16."
+    "explanation": "התשובה הנכונה היא $16$."
   },
   {
     "id": "q-q-g12-u4-sequences-14",
@@ -7424,7 +7424,7 @@ export const QUESTIONS = [
       "$25$"
     ],
     "correct_index": 2,
-    "explanation": "arith."
+    "explanation": "מתחילים מ-$1$ ומוסיפים $7$ בכל קפיצה, ארבע פעמים: $1+4\\times 7=29$."
   },
   {
     "id": "q-q-g12-u4-sequences-15",
@@ -7439,7 +7439,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "10."
+    "explanation": "התשובה הנכונה היא $10$."
   },
   {
     "id": "q-q-g12-u4-sequences-16",
@@ -7454,7 +7454,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 2,
-    "explanation": "9."
+    "explanation": "התשובה הנכונה היא $9$."
   },
   {
     "id": "q-q-g12-u4-sequences-551",
@@ -7469,7 +7469,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$11$: $x=88\\div 11=8$."
   },
   {
     "id": "q-q-g12-u4-sequences-552",
@@ -7484,7 +7484,7 @@ export const QUESTIONS = [
       "$50$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מעבירים את $10$ אגף עם סימן הפוך: $x=60-10=50$."
   },
   {
     "id": "q-q-g12-u4-sequences-553",
@@ -7499,7 +7499,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$10$: $x=70\\div 10=7$."
   },
   {
     "id": "q-g12-u4-gd-1",
@@ -7513,7 +7513,7 @@ export const QUESTIONS = [
       "$t=e^{k}$"
     ],
     "correct_index": 0,
-    "explanation": "$\\frac{1}{2}=e^{-kt}\\Rightarrow kt=\\ln 2$.",
+    "explanation": "החישוב: $\\frac{1}{2}=e^{-kt}\\Rightarrow kt=\\ln 2$.",
     "type": "mcq"
   },
   {
@@ -7529,7 +7529,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 3,
-    "explanation": "8."
+    "explanation": "כל שעה הכמות מוכפלת פי $2$, לכן אחרי $3$ שעות המכפיל הכולל הוא $2^{3}=8$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-2",
@@ -7544,7 +7544,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "3."
+    "explanation": "מחפשים חזקה של $2$ שנותנת $8$: $2^{3}=8$, לכן $x=3$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-3",
@@ -7559,7 +7559,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "2."
+    "explanation": "$100=10^{2}$, ולכן $\\log_{10} 100=2$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-4",
@@ -7574,7 +7574,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{5}=5$ (שכן $10^{5}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u4-growth-decay-5",
@@ -7589,7 +7589,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{2}=2$ (שכן $10^{2}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u4-growth-decay-6",
@@ -7604,7 +7604,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{1}=1$ (שכן $10^{1}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u4-growth-decay-7",
@@ -7619,7 +7619,7 @@ export const QUESTIONS = [
       "$-100$"
     ],
     "correct_index": 2,
-    "explanation": "0.01."
+    "explanation": "חזקה שלילית הופכת את הבסיס: $10^{-2}=\\dfrac{1}{10^2}=\\dfrac{1}{100}=0.01$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-8",
@@ -7634,7 +7634,7 @@ export const QUESTIONS = [
       "$e$"
     ],
     "correct_index": 0,
-    "explanation": "5."
+    "explanation": "$e$ ו-$\\ln$ הן פעולות הופכיות: $e^{\\ln 5}=5$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-9",
@@ -7649,7 +7649,7 @@ export const QUESTIONS = [
       "$\\log(a+b)$"
     ],
     "correct_index": 1,
-    "explanation": "sum."
+    "explanation": "לפי חוקי הלוגריתמים, לוגריתם של מכפלה שווה לסכום הלוגריתמים: $\\log(ab)=\\log a+\\log b$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-10",
@@ -7664,7 +7664,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{3}=3$ (שכן $10^{3}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u4-growth-decay-11",
@@ -7679,7 +7679,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 2,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{4}=4$ (שכן $10^{4}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u4-growth-decay-12",
@@ -7694,7 +7694,7 @@ export const QUESTIONS = [
       "$na^m$"
     ],
     "correct_index": 0,
-    "explanation": "power."
+    "explanation": "לפי חוק החזקות, חזקה של חזקה כופלת את המעריכים: $(a^m)^n=a^{mn}$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-13",
@@ -7709,7 +7709,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "3."
+    "explanation": "$\\log_2 8$ שואל \"$2$ בחזקת מה נותן $8$?\" — התשובה $3$, כי $2^{3}=8$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-14",
@@ -7724,7 +7724,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "1."
+    "explanation": "לפי הגדרת הלוגריתם הטבעי, $\\ln e=\\log_e e=1$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-15",
@@ -7739,7 +7739,7 @@ export const QUESTIONS = [
       "$ma^n$"
     ],
     "correct_index": 1,
-    "explanation": "prod."
+    "explanation": "לפי חוק החזקות, כפל של חזקות עם אותו בסיס מחבר את המעריכים: $a^m\\cdot a^n=a^{m+n}$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-551",
@@ -7754,7 +7754,7 @@ export const QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 0,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$4$: $x=8\\div 4=2$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-552",
@@ -7769,7 +7769,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מעבירים את $7$ אגף עם סימן הפוך: $x=28-7=21$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-553",
@@ -7784,7 +7784,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $10$ אגף: $10x=30-10=20$. מחלקים ב-$10$: $x=2$."
   },
   {
     "id": "q-q-g12-u4-growth-decay-554",
@@ -7799,7 +7799,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "linear."
+    "explanation": "מעבירים את $6$ אגף: $6x=18-6=12$. מחלקים ב-$6$: $x=2$."
   },
   {
     "id": "q-g12-u4-vec-1",
@@ -7813,7 +7813,7 @@ export const QUESTIONS = [
       "$\\sqrt{7}$"
     ],
     "correct_index": 0,
-    "explanation": "$|\\vec{u}|=\\sqrt{9+16}=5$.",
+    "explanation": "החישוב: $|\\vec{u}|=\\sqrt{9+16}=5$.",
     "type": "mcq"
   },
   {
@@ -7829,7 +7829,7 @@ export const QUESTIONS = [
       "<9,12>"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 9+12,12+9\\rangle=\\langle 21,21\\rangle$."
   },
   {
     "id": "q-q-g12-u4-vectors-2",
@@ -7844,7 +7844,7 @@ export const QUESTIONS = [
       "0"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 6+8,8+6\\rangle=\\langle 14,14\\rangle$."
   },
   {
     "id": "q-q-g12-u4-vectors-3",
@@ -7859,7 +7859,7 @@ export const QUESTIONS = [
       "$-6$"
     ],
     "correct_index": 1,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{1^2+0^2}=1$."
   },
   {
     "id": "q-q-g12-u4-vectors-4",
@@ -7874,7 +7874,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{5^2+12^2}=13$."
   },
   {
     "id": "q-q-g12-u4-vectors-5",
@@ -7889,7 +7889,7 @@ export const QUESTIONS = [
       "<5,5>"
     ],
     "correct_index": 3,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 0+5,5+0\\rangle=\\langle 5,5\\rangle$."
   },
   {
     "id": "q-q-g12-u4-vectors-6",
@@ -7904,7 +7904,7 @@ export const QUESTIONS = [
       "$13$"
     ],
     "correct_index": 0,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{8^2+15^2}=17$."
   },
   {
     "id": "q-q-g12-u4-vectors-7",
@@ -7919,7 +7919,7 @@ export const QUESTIONS = [
       "<1,0>"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 1+0,0+1\\rangle=\\langle 1,1\\rangle$."
   },
   {
     "id": "q-q-g12-u4-vectors-8",
@@ -7934,7 +7934,7 @@ export const QUESTIONS = [
       "$\\langle 6,8\\rangle$"
     ],
     "correct_index": 3,
-    "explanation": "2v."
+    "explanation": "התשובה הנכונה היא $\\langle 6,8\\rangle$."
   },
   {
     "id": "q-q-g12-u4-vectors-9",
@@ -7949,7 +7949,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{3^2+4^2}=5$."
   },
   {
     "id": "q-q-g12-u4-vectors-10",
@@ -7964,7 +7964,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 1,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{9^2+12^2}=15$."
   },
   {
     "id": "q-q-g12-u4-vectors-11",
@@ -7979,7 +7979,7 @@ export const QUESTIONS = [
       "<4,2>"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 2+2,2+2\\rangle=\\langle 4,4\\rangle$."
   },
   {
     "id": "q-q-g12-u4-vectors-12",
@@ -7994,7 +7994,7 @@ export const QUESTIONS = [
       "<12,12>"
     ],
     "correct_index": 1,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 3+4,4+3\\rangle=\\langle 7,7\\rangle$."
   },
   {
     "id": "q-q-g12-u4-vectors-13",
@@ -8009,7 +8009,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{0^2+5^2}=5$."
   },
   {
     "id": "q-q-g12-u4-vectors-14",
@@ -8024,7 +8024,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 1,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{6^2+8^2}=10$."
   },
   {
     "id": "q-q-g12-u4-vectors-15",
@@ -8039,7 +8039,7 @@ export const QUESTIONS = [
       "$\\langle 1,0\\rangle$"
     ],
     "correct_index": 1,
-    "explanation": "0."
+    "explanation": "וקטור האפס הוא הווקטור שכל רכיביו $0$: $\\langle 0,0\\rangle$."
   },
   {
     "id": "q-q-g12-u4-vectors-16",
@@ -8054,7 +8054,7 @@ export const QUESTIONS = [
       "<17,17>"
     ],
     "correct_index": 3,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 5+12,12+5\\rangle=\\langle 17,17\\rangle$."
   },
   {
     "id": "q-q-g12-u4-vectors-17",
@@ -8069,7 +8069,7 @@ export const QUESTIONS = [
       "<8,15>"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 8+15,15+8\\rangle=\\langle 23,23\\rangle$."
   },
   {
     "id": "q-q-g12-u4-vectors-551",
@@ -8084,7 +8084,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $6$ אגף: $6x=42-6=36$. מחלקים ב-$6$: $x=6$."
   },
   {
     "id": "q-q-g12-u4-vectors-552",
@@ -8099,7 +8099,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $10$ אגף: $10x=50-10=40$. מחלקים ב-$10$: $x=4$."
   },
   {
     "id": "q-g12-u4-hyp-1",
@@ -8129,7 +8129,7 @@ export const QUESTIONS = [
       "n=0"
     ],
     "correct_index": 1,
-    "explanation": "reject #8."
+    "explanation": "התשובה הנכונה היא דוחים H0."
   },
   {
     "id": "q-q-g12-u4-hypothesis-2",
@@ -8144,7 +8144,7 @@ export const QUESTIONS = [
       "כל התצפיות"
     ],
     "correct_index": 0,
-    "explanation": "param."
+    "explanation": "התשובה הנכונה היא הפרמטר בהסתברות גבוהה."
   },
   {
     "id": "q-q-g12-u4-hypothesis-3",
@@ -8159,7 +8159,7 @@ export const QUESTIONS = [
       "$\\mu/x$"
     ],
     "correct_index": 1,
-    "explanation": "z."
+    "explanation": "התשובה הנכונה היא $(x-\\mu)/\\sigma$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-4",
@@ -8174,7 +8174,7 @@ export const QUESTIONS = [
       "0"
     ],
     "correct_index": 1,
-    "explanation": "mean."
+    "explanation": "התשובה הנכונה היא אמצע."
   },
   {
     "id": "q-q-g12-u4-hypothesis-5",
@@ -8189,7 +8189,7 @@ export const QUESTIONS = [
       "השערת אפס / אין הבדל"
     ],
     "correct_index": 3,
-    "explanation": "null."
+    "explanation": "התשובה הנכונה היא השערת אפס / אין הבדל."
   },
   {
     "id": "q-q-g12-u4-hypothesis-6",
@@ -8204,7 +8204,7 @@ export const QUESTIONS = [
       "לא קשור"
     ],
     "correct_index": 1,
-    "explanation": "reject."
+    "explanation": "התשובה הנכונה היא דוחים H0."
   },
   {
     "id": "q-q-g12-u4-hypothesis-7",
@@ -8219,7 +8219,7 @@ export const QUESTIONS = [
       "n=0"
     ],
     "correct_index": 1,
-    "explanation": "type1."
+    "explanation": "התשובה הנכונה היא דחיית H0 נכונה."
   },
   {
     "id": "q-q-g12-u4-hypothesis-551",
@@ -8234,7 +8234,7 @@ export const QUESTIONS = [
       "$51$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מעבירים את $11$ אגף עם סימן הפוך: $x=66-11=55$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-552",
@@ -8249,7 +8249,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $2$ אגף: $2x=12-2=10$. מחלקים ב-$2$: $x=5$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-553",
@@ -8264,7 +8264,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$9$: $x=63\\div 9=7$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-554",
@@ -8279,7 +8279,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מעבירים את $8$ אגף עם סימן הפוך: $x=24-8=16$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-555",
@@ -8294,7 +8294,7 @@ export const QUESTIONS = [
       "$32$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מעבירים את $8$ אגף עם סימן הפוך: $x=40-8=32$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-556",
@@ -8309,7 +8309,7 @@ export const QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 2,
-    "explanation": "linear."
+    "explanation": "מעבירים את $5$ אגף: $5x=20-5=15$. מחלקים ב-$5$: $x=3$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-557",
@@ -8324,7 +8324,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$7$: $x=35\\div 7=5$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-558",
@@ -8339,7 +8339,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$8$: $x=56\\div 8=7$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-559",
@@ -8354,7 +8354,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 0,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$2$: $x=18\\div 2=9$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-560",
@@ -8369,7 +8369,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "linear."
+    "explanation": "מעבירים את $4$ אגף: $4x=16-4=12$. מחלקים ב-$4$: $x=3$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-561",
@@ -8384,7 +8384,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $7$ אגף: $7x=56-7=49$. מחלקים ב-$7$: $x=7$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-562",
@@ -8399,7 +8399,7 @@ export const QUESTIONS = [
       "$20$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מעבירים את $8$ אגף עם סימן הפוך: $x=32-8=24$."
   },
   {
     "id": "q-g10-u5-fn-1",
@@ -8429,7 +8429,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "lin."
+    "explanation": "מציבים $x=1$: $f(1)=2\\times 1+1=3$."
   },
   {
     "id": "q-q-g10-u5-functions-2",
@@ -8444,7 +8444,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "exp."
+    "explanation": "מציבים $x=2$: $f(2)=3^{2}=9$."
   },
   {
     "id": "q-q-g10-u5-functions-3",
@@ -8459,7 +8459,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 0,
-    "explanation": "sq."
+    "explanation": "מציבים $x=4$: $f(4)=4^{2}=16$."
   },
   {
     "id": "q-q-g10-u5-functions-4",
@@ -8474,7 +8474,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "3."
+    "explanation": "מציבים $x=0$: $f(0)=0+3=3$."
   },
   {
     "id": "q-q-g10-u5-functions-5",
@@ -8489,7 +8489,7 @@ export const QUESTIONS = [
       "$21$"
     ],
     "correct_index": 1,
-    "explanation": "exp."
+    "explanation": "מציבים $x=2$: $f(2)=5^{2}=25$."
   },
   {
     "id": "q-q-g10-u5-functions-6",
@@ -8504,7 +8504,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "exp."
+    "explanation": "מציבים $x=2$: $f(2)=1^{2}=1$."
   },
   {
     "id": "q-q-g10-u5-functions-7",
@@ -8519,7 +8519,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 3,
-    "explanation": "lin."
+    "explanation": "מציבים $x=5$: $f(5)=2\\times 5+1=11$."
   },
   {
     "id": "q-q-g10-u5-functions-8",
@@ -8534,7 +8534,7 @@ export const QUESTIONS = [
       "$-6$"
     ],
     "correct_index": 0,
-    "explanation": "sq."
+    "explanation": "מציבים $x=1$: $f(1)=1^{2}=1$."
   },
   {
     "id": "q-q-g10-u5-functions-9",
@@ -8549,7 +8549,7 @@ export const QUESTIONS = [
       "$x>5$"
     ],
     "correct_index": 2,
-    "explanation": "domain."
+    "explanation": "המכנה לא יכול להתאפס: $x-5\\neq 0$, כלומר $x\\neq 5$."
   },
   {
     "id": "q-q-g10-u5-functions-10",
@@ -8564,7 +8564,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 0,
-    "explanation": "exp."
+    "explanation": "מציבים $x=2$: $f(2)=4^{2}=16$."
   },
   {
     "id": "q-q-g10-u5-functions-11",
@@ -8579,7 +8579,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "exp."
+    "explanation": "מציבים $x=2$: $f(2)=2^{2}=4$."
   },
   {
     "id": "q-q-g10-u5-functions-12",
@@ -8594,7 +8594,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "lin."
+    "explanation": "מציבים $x=3$: $f(3)=2\\times 3+1=7$."
   },
   {
     "id": "q-q-g10-u5-functions-13",
@@ -8609,7 +8609,7 @@ export const QUESTIONS = [
       "$7$"
     ],
     "correct_index": 0,
-    "explanation": "8."
+    "explanation": "מחשבים קודם $g(3)=3+1=4$, ואז $f(4)=2\\times 4=8$."
   },
   {
     "id": "q-q-g10-u5-functions-14",
@@ -8624,7 +8624,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "lin."
+    "explanation": "מציבים $x=2$: $f(2)=2\\times 2+1=5$."
   },
   {
     "id": "q-q-g10-u5-functions-15",
@@ -8639,7 +8639,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "sq."
+    "explanation": "מציבים $x=3$: $f(3)=3^{2}=9$."
   },
   {
     "id": "q-q-g10-u5-functions-16",
@@ -8654,7 +8654,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 0,
-    "explanation": "lin."
+    "explanation": "מציבים $x=4$: $f(4)=2\\times 4+1=9$."
   },
   {
     "id": "q-q-g10-u5-functions-17",
@@ -8669,7 +8669,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "sq."
+    "explanation": "מציבים $x=2$: $f(2)=2^{2}=4$."
   },
   {
     "id": "q-q-g10-u5-functions-18",
@@ -8684,7 +8684,7 @@ export const QUESTIONS = [
       "$x\\neq 3$"
     ],
     "correct_index": 3,
-    "explanation": "domain."
+    "explanation": "המכנה לא יכול להתאפס: $x-3\\neq 0$, כלומר $x\\neq 3$."
   },
   {
     "id": "q-q-g10-u5-functions-19",
@@ -8699,7 +8699,7 @@ export const QUESTIONS = [
       "$18$"
     ],
     "correct_index": 2,
-    "explanation": "sq."
+    "explanation": "מציבים $x=5$: $f(5)=5^{2}=25$."
   },
   {
     "id": "q-g10-u5-diff-1",
@@ -8713,7 +8713,7 @@ export const QUESTIONS = [
       "$(2,5)$"
     ],
     "correct_index": 0,
-    "explanation": "$x_v=-\\frac{b}{2a}=2$, $f(2)=-3$.",
+    "explanation": "החישוב: $x_v=-\\frac{b}{2a}=2$, $f(2)=-3$.",
     "type": "mcq"
   },
   {
@@ -8729,7 +8729,7 @@ export const QUESTIONS = [
       "$x^{7}$"
     ],
     "correct_index": 0,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{7})'=7x^{6}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-2",
@@ -8744,7 +8744,7 @@ export const QUESTIONS = [
       "$5x^{6}$"
     ],
     "correct_index": 1,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{5})'=5x^{4}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-3",
@@ -8759,7 +8759,7 @@ export const QUESTIONS = [
       "$6x^2$"
     ],
     "correct_index": 3,
-    "explanation": "6x2."
+    "explanation": "התשובה הנכונה היא $6x^2$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-4",
@@ -8774,7 +8774,7 @@ export const QUESTIONS = [
       "$6x^{5}$"
     ],
     "correct_index": 3,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{6})'=6x^{5}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-5",
@@ -8789,7 +8789,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "e^x."
+    "explanation": "הפונקציה $e^x$ היא ייחודית בכך שהיא שווה לנגזרת שלה: $(e^x)'=e^x$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-6",
@@ -8804,7 +8804,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 3,
-    "explanation": "0."
+    "explanation": "הנגזרת של פונקציה קבועה היא תמיד $0$: $(c)'=0$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-7",
@@ -8819,7 +8819,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "1."
+    "explanation": "הנגזרת של $x$ (כלומר $x^1$) היא $1$: $(x)'=1$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-8",
@@ -8834,7 +8834,7 @@ export const QUESTIONS = [
       "$x^{2}$"
     ],
     "correct_index": 0,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{2})'=2x^{1}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-9",
@@ -8849,7 +8849,7 @@ export const QUESTIONS = [
       "אורך"
     ],
     "correct_index": 0,
-    "explanation": "slope."
+    "explanation": "הנגזרת של פונקציה בנקודה מייצגת את קצב השינוי שלה — כלומר את שיפוע המשיק לגרף באותה נקודה."
   },
   {
     "id": "q-q-g10-u5-diff-intro-10",
@@ -8864,7 +8864,7 @@ export const QUESTIONS = [
       "$-\\cos x$"
     ],
     "correct_index": 1,
-    "explanation": "-sin."
+    "explanation": "התשובה הנכונה היא $-\\sin x$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-11",
@@ -8879,7 +8879,7 @@ export const QUESTIONS = [
       "$x^{3}$"
     ],
     "correct_index": 1,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{3})'=3x^{2}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-12",
@@ -8894,7 +8894,7 @@ export const QUESTIONS = [
       "$4x^{5}$"
     ],
     "correct_index": 0,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{4})'=4x^{3}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-13",
@@ -8909,7 +8909,7 @@ export const QUESTIONS = [
       "$-\\cos x$"
     ],
     "correct_index": 2,
-    "explanation": "cos."
+    "explanation": "התשובה הנכונה היא $\\cos x$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-14",
@@ -8924,7 +8924,7 @@ export const QUESTIONS = [
       "$x^{1}$"
     ],
     "correct_index": 2,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{1})'=1x^{0}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-551",
@@ -8939,7 +8939,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $7$ אגף: $7x=56-7=49$. מחלקים ב-$7$: $x=7$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-552",
@@ -8954,7 +8954,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "linear."
+    "explanation": "מעבירים את $6$ אגף: $6x=60-6=54$. מחלקים ב-$6$: $x=9$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-553",
@@ -8969,7 +8969,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "linear."
+    "explanation": "מעבירים את $7$ אגף: $7x=42-7=35$. מחלקים ב-$7$: $x=5$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-554",
@@ -8984,7 +8984,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $9$ אגף: $9x=45-9=36$. מחלקים ב-$9$: $x=4$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-555",
@@ -8999,7 +8999,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "linear."
+    "explanation": "מעבירים את $10$ אגף: $10x=60-10=50$. מחלקים ב-$10$: $x=5$."
   },
   {
     "id": "q-g10-u5-an-1",
@@ -9013,7 +9013,7 @@ export const QUESTIONS = [
       "לא ניתן לדעת"
     ],
     "correct_index": 0,
-    "explanation": "$3^{2}+4^{2}=25$ .",
+    "explanation": "החישוב: $3^{2}+4^{2}=25$ .",
     "type": "mcq"
   },
   {
@@ -9029,7 +9029,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g10-u5-analytic-2",
@@ -9044,7 +9044,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "5."
+    "explanation": "לפי נוסחת המרחק: $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}=\\sqrt{3^2+4^2}=5$."
   },
   {
     "id": "q-q-g10-u5-analytic-3",
@@ -9059,7 +9059,7 @@ export const QUESTIONS = [
       "$(0,1)$"
     ],
     "correct_index": 2,
-    "explanation": "vertex."
+    "explanation": "הפונקציה $y=x^2$ היא הפרבולה הבסיסית ביותר, קודקודה בראשית הצירים: $(0,0)$."
   },
   {
     "id": "q-q-g10-u5-analytic-4",
@@ -9074,7 +9074,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{1}=1$."
   },
   {
     "id": "q-q-g10-u5-analytic-5",
@@ -9089,7 +9089,7 @@ export const QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{9}=3$."
   },
   {
     "id": "q-q-g10-u5-analytic-6",
@@ -9104,7 +9104,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "5."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g10-u5-analytic-7",
@@ -9119,7 +9119,7 @@ export const QUESTIONS = [
       "$(2,3)$"
     ],
     "correct_index": 3,
-    "explanation": "mid."
+    "explanation": "אמצע קטע הוא ממוצע הקואורדינטות: $\\left(\\dfrac{0+4}{2},\\dfrac{0+6}{2}\\right)=(2,3)$."
   },
   {
     "id": "q-q-g10-u5-analytic-8",
@@ -9134,7 +9134,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{36}=6$."
   },
   {
     "id": "q-q-g10-u5-analytic-9",
@@ -9149,7 +9149,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 2,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{16}=4$."
   },
   {
     "id": "q-q-g10-u5-analytic-10",
@@ -9164,7 +9164,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "2."
+    "explanation": "שיפוע ישר מחושב לפי $m=\\dfrac{y_2-y_1}{x_2-x_1}=\\dfrac{8-2}{4-1}=2$."
   },
   {
     "id": "q-q-g10-u5-analytic-11",
@@ -9179,7 +9179,7 @@ export const QUESTIONS = [
       "$x+y$"
     ],
     "correct_index": 0,
-    "explanation": "dist."
+    "explanation": "נוסחת המרחק בין שתי נקודות $(x_1,y_1)$ ו-$(x_2,y_2)$ היא $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$."
   },
   {
     "id": "q-q-g10-u5-analytic-12",
@@ -9194,7 +9194,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{49}=7$."
   },
   {
     "id": "q-q-g10-u5-analytic-13",
@@ -9209,7 +9209,7 @@ export const QUESTIONS = [
       "$(1,1)$"
     ],
     "correct_index": 1,
-    "explanation": "origin."
+    "explanation": "במשוואת מעגל בצורה $x^2+y^2=r^2$ המרכז נמצא בראשית הצירים: $(0,0)$."
   },
   {
     "id": "q-q-g10-u5-analytic-14",
@@ -9224,7 +9224,7 @@ export const QUESTIONS = [
       "$x=0$"
     ],
     "correct_index": 3,
-    "explanation": "x=0."
+    "explanation": "שתי הנקודות חולקות את אותו $x=0$, לכן זהו ישר אנכי שמשוואתו $x=0$."
   },
   {
     "id": "q-q-g10-u5-analytic-15",
@@ -9239,7 +9239,7 @@ export const QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{4}=2$."
   },
   {
     "id": "q-q-g10-u5-analytic-551",
@@ -9254,7 +9254,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$11$: $x=22\\div 11=2$."
   },
   {
     "id": "q-q-g10-u5-analytic-552",
@@ -9269,7 +9269,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$11$: $x=33\\div 11=3$."
   },
   {
     "id": "q-q-g10-u5-analytic-553",
@@ -9284,7 +9284,7 @@ export const QUESTIONS = [
       "$20$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מעבירים את $6$ אגף עם סימן הפוך: $x=30-6=24$."
   },
   {
     "id": "q-q-g10-u5-analytic-554",
@@ -9299,7 +9299,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $4$ אגף: $4x=20-4=16$. מחלקים ב-$4$: $x=4$."
   },
   {
     "id": "q-g10-u5-pl-1",
@@ -9313,7 +9313,7 @@ export const QUESTIONS = [
       "$60^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "$(180-40)/2=70^\\circ$.",
+    "explanation": "החישוב: $(180-40)/2=70^\\circ$.",
     "type": "mcq"
   },
   {
@@ -9329,7 +9329,7 @@ export const QUESTIONS = [
       "$45$"
     ],
     "correct_index": 0,
-    "explanation": "60."
+    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות זו לזו, וסכומן $180^\\circ$, לכן כל זווית היא $180\\div 3=60^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-2",
@@ -9344,7 +9344,7 @@ export const QUESTIONS = [
       "$155^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-25-65=90^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-3",
@@ -9359,7 +9359,7 @@ export const QUESTIONS = [
       "$80^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-50-50=80^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-4",
@@ -9374,7 +9374,7 @@ export const QUESTIONS = [
       "$90^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "180."
+    "explanation": "שתי זוויות סמוכות שיוצרות יחד קו ישר משלימות ל-$180^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-5",
@@ -9389,7 +9389,7 @@ export const QUESTIONS = [
       "$165^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-15-75=90^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-6",
@@ -9404,7 +9404,7 @@ export const QUESTIONS = [
       "90"
     ],
     "correct_index": 2,
-    "explanation": "equal."
+    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות מתאימות (נגדיות-פנימיות) שוות זו לזו."
   },
   {
     "id": "q-q-g10-u5-plane-geo-7",
@@ -9419,7 +9419,7 @@ export const QUESTIONS = [
       "$40^\\circ$"
     ],
     "correct_index": 2,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-40-60=80^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-8",
@@ -9434,7 +9434,7 @@ export const QUESTIONS = [
       "$90^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-30-70=80^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-9",
@@ -9449,7 +9449,7 @@ export const QUESTIONS = [
       "$360^\\circ$"
     ],
     "correct_index": 3,
-    "explanation": "360."
+    "explanation": "סכום כל הזוויות מסביב לנקודה אחת הוא תמיד $360^\\circ$ (סיבוב שלם)."
   },
   {
     "id": "q-q-g10-u5-plane-geo-10",
@@ -9464,7 +9464,7 @@ export const QUESTIONS = [
       "$45^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-45-45=90^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-11",
@@ -9479,7 +9479,7 @@ export const QUESTIONS = [
       "$=90$"
     ],
     "correct_index": 2,
-    "explanation": "obtuse."
+    "explanation": "זווית קהה היא זווית הגדולה מ-$90^\\circ$ (וקטנה מ-$180^\\circ$): $>90^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-12",
@@ -9494,7 +9494,7 @@ export const QUESTIONS = [
       "$90^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "70."
+    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-50-60=70^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-13",
@@ -9509,7 +9509,7 @@ export const QUESTIONS = [
       "$180^\\circ$"
     ],
     "correct_index": 1,
-    "explanation": "90."
+    "explanation": "זווית ישרה (זווית שיוצרת \"פינה\" מושלמת, כמו בפינת ריבוע) שווה $90^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-14",
@@ -9524,7 +9524,7 @@ export const QUESTIONS = [
       "$35^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-35-55=90^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-15",
@@ -9539,7 +9539,7 @@ export const QUESTIONS = [
       "$90^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "180."
+    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-16",
@@ -9554,7 +9554,7 @@ export const QUESTIONS = [
       ">90"
     ],
     "correct_index": 1,
-    "explanation": "acute."
+    "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-17",
@@ -9569,7 +9569,7 @@ export const QUESTIONS = [
       "$90^\\circ$"
     ],
     "correct_index": 2,
-    "explanation": "sum."
+    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-20-80=80^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-18",
@@ -9584,7 +9584,7 @@ export const QUESTIONS = [
       "$70$"
     ],
     "correct_index": 0,
-    "explanation": "60."
+    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-90-30=60^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-551",
@@ -9599,7 +9599,7 @@ export const QUESTIONS = [
       "$84$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מעבירים את $11$ אגף עם סימן הפוך: $x=99-11=88$."
   },
   {
     "id": "q-g10-u5-tr-1",
@@ -9629,7 +9629,7 @@ export const QUESTIONS = [
       "שגוי"
     ],
     "correct_index": 0,
-    "explanation": "true."
+    "explanation": "זוהי הזהות המגדירה את הטנגנס: $\\tan x=\\dfrac{\\sin x}{\\cos x}$ — נכון לכל $x$ שבו $\\cos x\\neq 0$."
   },
   {
     "id": "q-q-g10-u5-trig-2",
@@ -9644,7 +9644,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 3,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{3}{6}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g10-u5-trig-3",
@@ -9659,7 +9659,7 @@ export const QUESTIONS = [
       "$b/\\sin B$"
     ],
     "correct_index": 3,
-    "explanation": "sines."
+    "explanation": "לפי משפט הסינוסים, היחס שווה בין כל צלע לסינוס הזווית שמולה: $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$."
   },
   {
     "id": "q-q-g10-u5-trig-4",
@@ -9674,7 +9674,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{10}{20}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g10-u5-trig-5",
@@ -9689,7 +9689,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 90^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g10-u5-trig-6",
@@ -9704,7 +9704,7 @@ export const QUESTIONS = [
       "$\\frac{5}{5}$"
     ],
     "correct_index": 2,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{5}{10}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g10-u5-trig-7",
@@ -9719,7 +9719,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "1."
+    "explanation": "במשולש 30-60-90 היחס בין הצלעות הוא $1:\\sqrt{3}:2$. מול הזווית $30^\\circ$ הצלע היא חצי מהיתר: $2\\div 2=1$."
   },
   {
     "id": "q-q-g10-u5-trig-8",
@@ -9734,7 +9734,7 @@ export const QUESTIONS = [
       "$\\sin$"
     ],
     "correct_index": 1,
-    "explanation": "cos."
+    "explanation": "במשולש ישר-זווית, היחס ניצב-סמוך חלקי יתר מוגדר כ-$\\cos$ של הזווית."
   },
   {
     "id": "q-q-g10-u5-trig-9",
@@ -9749,7 +9749,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\cos 0^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g10-u5-trig-10",
@@ -9764,7 +9764,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{4}{8}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g10-u5-trig-11",
@@ -9779,7 +9779,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 3,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{6}{12}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g10-u5-trig-12",
@@ -9794,7 +9794,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 3,
-    "explanation": "1/2."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 30^\\circ=\\frac{1}{2}$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g10-u5-trig-13",
@@ -9809,7 +9809,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 3,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{8}{16}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g10-u5-trig-14",
@@ -9824,7 +9824,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "id."
+    "explanation": "זוהי הזהות הטריגונומטרית הבסיסית: $\\sin^2 x+\\cos^2 x=1$ לכל $x$."
   },
   {
     "id": "q-q-g10-u5-trig-15",
@@ -9839,7 +9839,7 @@ export const QUESTIONS = [
       "$\\sin$"
     ],
     "correct_index": 3,
-    "explanation": "sin."
+    "explanation": "במשולש ישר-זווית, היחס ניצב-נגדי חלקי יתר מוגדר כ-$\\sin$ של הזווית."
   },
   {
     "id": "q-q-g10-u5-trig-16",
@@ -9854,7 +9854,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\tan 45^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g10-u5-trig-17",
@@ -9869,7 +9869,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "0."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 0^\\circ=0$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g10-u5-trig-18",
@@ -9884,7 +9884,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "0."
+    "explanation": "$\\sin 180^\\circ=0$ (לפי מעגל היחידה)."
   },
   {
     "id": "q-q-g10-u5-trig-19",
@@ -9899,7 +9899,7 @@ export const QUESTIONS = [
       "1"
     ],
     "correct_index": 1,
-    "explanation": "sqrt3."
+    "explanation": "במשולש 30-60-90 היחס בין הצלעות הוא $1:\\sqrt{3}:2$. מול הזווית $60^\\circ$ הצלע היא $\\sqrt{3}$ כאשר היתר הוא $2$."
   },
   {
     "id": "q-g11-u5-ind-1",
@@ -9913,7 +9913,7 @@ export const QUESTIONS = [
       "$81$"
     ],
     "correct_index": 0,
-    "explanation": "$a_4=2\\cdot 3^{3}=54$.",
+    "explanation": "החישוב: $a_4=2\\cdot 3^{3}=54$.",
     "type": "mcq"
   },
   {
@@ -9944,7 +9944,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 2,
-    "explanation": "arith."
+    "explanation": "מתחילים מ-$1$ ומוסיפים $3$ בכל קפיצה, ארבע פעמים: $1+4\\times 3=13$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-2",
@@ -9959,7 +9959,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 0,
-    "explanation": "9."
+    "explanation": "התשובה הנכונה היא $9$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-3",
@@ -9974,7 +9974,7 @@ export const QUESTIONS = [
       "לא צריך"
     ],
     "correct_index": 0,
-    "explanation": "ind."
+    "explanation": "התשובה הנכונה היא n->n+1."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-4",
@@ -9989,7 +9989,7 @@ export const QUESTIONS = [
       "$18$"
     ],
     "correct_index": 1,
-    "explanation": "24."
+    "explanation": "התשובה הנכונה היא $24$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-5",
@@ -10004,7 +10004,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "arith."
+    "explanation": "מתחילים מ-$1$ ומוסיפים $2$ בכל קפיצה, ארבע פעמים: $1+4\\times 2=9$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-6",
@@ -10019,7 +10019,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "14."
+    "explanation": "התשובה הנכונה היא $14$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-7",
@@ -10034,7 +10034,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "16."
+    "explanation": "התשובה הנכונה היא $16$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-8",
@@ -10049,7 +10049,7 @@ export const QUESTIONS = [
       "$29$"
     ],
     "correct_index": 3,
-    "explanation": "arith."
+    "explanation": "מתחילים מ-$1$ ומוסיפים $7$ בכל קפיצה, ארבע פעמים: $1+4\\times 7=29$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-9",
@@ -10064,7 +10064,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 0,
-    "explanation": "arith."
+    "explanation": "מתחילים מ-$1$ ומוסיפים $4$ בכל קפיצה, ארבע פעמים: $1+4\\times 4=17$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-10",
@@ -10079,7 +10079,7 @@ export const QUESTIONS = [
       "רירוע"
     ],
     "correct_index": 1,
-    "explanation": "d."
+    "explanation": "התשובה הנכונה היא קבוע."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-11",
@@ -10094,7 +10094,7 @@ export const QUESTIONS = [
       "$36$"
     ],
     "correct_index": 1,
-    "explanation": "48."
+    "explanation": "התשובה הנכונה היא $48$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-12",
@@ -10109,7 +10109,7 @@ export const QUESTIONS = [
       "$2n$"
     ],
     "correct_index": 2,
-    "explanation": "gauss."
+    "explanation": "התשובה הנכונה היא $\\frac{n(n+1)}{2}$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-13",
@@ -10124,7 +10124,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 2,
-    "explanation": "11."
+    "explanation": "התשובה הנכונה היא $11$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-14",
@@ -10139,7 +10139,7 @@ export const QUESTIONS = [
       "$21$"
     ],
     "correct_index": 3,
-    "explanation": "arith."
+    "explanation": "מתחילים מ-$1$ ומוסיפים $5$ בכל קפיצה, ארבע פעמים: $1+4\\times 5=21$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-15",
@@ -10154,7 +10154,7 @@ export const QUESTIONS = [
       "$20$"
     ],
     "correct_index": 0,
-    "explanation": "arith."
+    "explanation": "מתחילים מ-$1$ ומוסיפים $6$ בכל קפיצה, ארבע פעמים: $1+4\\times 6=25$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-16",
@@ -10169,7 +10169,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "10."
+    "explanation": "התשובה הנכונה היא $10$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-551",
@@ -10184,7 +10184,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "linear."
+    "explanation": "מעבירים את $6$ אגף: $6x=42-6=36$. מחלקים ב-$6$: $x=6$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-552",
@@ -10199,7 +10199,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $7$ אגף: $7x=63-7=56$. מחלקים ב-$7$: $x=8$."
   },
   {
     "id": "q-g11-u5-diff-1",
@@ -10213,7 +10213,7 @@ export const QUESTIONS = [
       "$2\\sqrt{x}$"
     ],
     "correct_index": 0,
-    "explanation": "$f'(x)=\\frac{1}{2\\sqrt{x}}$.",
+    "explanation": "החישוב: $f'(x)=\\frac{1}{2\\sqrt{x}}$.",
     "type": "mcq"
   },
   {
@@ -10229,7 +10229,7 @@ export const QUESTIONS = [
       "$x^{5}$"
     ],
     "correct_index": 1,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{5})'=5x^{4}$."
   },
   {
     "id": "q-q-g11-u5-differential-2",
@@ -10244,7 +10244,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{1})'=1x^{0}$."
   },
   {
     "id": "q-q-g11-u5-differential-3",
@@ -10259,7 +10259,7 @@ export const QUESTIONS = [
       "$4x^{3}$"
     ],
     "correct_index": 3,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{4})'=4x^{3}$."
   },
   {
     "id": "q-q-g11-u5-differential-4",
@@ -10274,7 +10274,7 @@ export const QUESTIONS = [
       "$2x$"
     ],
     "correct_index": 0,
-    "explanation": "1."
+    "explanation": "הנגזרת של $x$ (כלומר $x^1$) היא $1$: $(x)'=1$."
   },
   {
     "id": "q-q-g11-u5-differential-5",
@@ -10289,7 +10289,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{7})'=7x^{6}$."
   },
   {
     "id": "q-q-g11-u5-differential-6",
@@ -10304,7 +10304,7 @@ export const QUESTIONS = [
       "$-\\sin x$"
     ],
     "correct_index": 2,
-    "explanation": "cos."
+    "explanation": "התשובה הנכונה היא $\\cos x$."
   },
   {
     "id": "q-q-g11-u5-differential-7",
@@ -10319,7 +10319,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{6})'=6x^{5}$."
   },
   {
     "id": "q-q-g11-u5-differential-8",
@@ -10334,7 +10334,7 @@ export const QUESTIONS = [
       "$\\sin x$"
     ],
     "correct_index": 2,
-    "explanation": "-sin."
+    "explanation": "התשובה הנכונה היא $-\\sin x$."
   },
   {
     "id": "q-q-g11-u5-differential-9",
@@ -10349,7 +10349,7 @@ export const QUESTIONS = [
       "$3x^{2}$"
     ],
     "correct_index": 3,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{3})'=3x^{2}$."
   },
   {
     "id": "q-q-g11-u5-differential-10",
@@ -10364,7 +10364,7 @@ export const QUESTIONS = [
       "$e^x$"
     ],
     "correct_index": 3,
-    "explanation": "e^x."
+    "explanation": "הפונקציה $e^x$ היא ייחודית בכך שהיא שווה לנגזרת שלה: $(e^x)'=e^x$."
   },
   {
     "id": "q-q-g11-u5-differential-11",
@@ -10379,7 +10379,7 @@ export const QUESTIONS = [
       "$c$"
     ],
     "correct_index": 0,
-    "explanation": "0."
+    "explanation": "הנגזרת של פונקציה קבועה היא תמיד $0$: $(c)'=0$."
   },
   {
     "id": "q-q-g11-u5-differential-12",
@@ -10394,7 +10394,7 @@ export const QUESTIONS = [
       "אורך"
     ],
     "correct_index": 0,
-    "explanation": "slope."
+    "explanation": "הנגזרת של פונקציה בנקודה מייצגת את קצב השינוי שלה — כלומר את שיפוע המשיק לגרף באותה נקודה."
   },
   {
     "id": "q-q-g11-u5-differential-13",
@@ -10409,7 +10409,7 @@ export const QUESTIONS = [
       "$2x^2$"
     ],
     "correct_index": 1,
-    "explanation": "6x2."
+    "explanation": "התשובה הנכונה היא $6x^2$."
   },
   {
     "id": "q-q-g11-u5-differential-14",
@@ -10424,7 +10424,7 @@ export const QUESTIONS = [
       "$x^{2}$"
     ],
     "correct_index": 0,
-    "explanation": "power."
+    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{2})'=2x^{1}$."
   },
   {
     "id": "q-q-g11-u5-differential-551",
@@ -10439,7 +10439,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $3$ אגף: $3x=27-3=24$. מחלקים ב-$3$: $x=8$."
   },
   {
     "id": "q-q-g11-u5-differential-552",
@@ -10454,7 +10454,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "linear."
+    "explanation": "מעבירים את $5$ אגף: $5x=20-5=15$. מחלקים ב-$5$: $x=3$."
   },
   {
     "id": "q-q-g11-u5-differential-553",
@@ -10469,7 +10469,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "linear."
+    "explanation": "מעבירים את $8$ אגף: $8x=72-8=64$. מחלקים ב-$8$: $x=8$."
   },
   {
     "id": "q-q-g11-u5-differential-554",
@@ -10484,7 +10484,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "linear."
+    "explanation": "מעבירים את $6$ אגף: $6x=24-6=18$. מחלקים ב-$6$: $x=3$."
   },
   {
     "id": "q-q-g11-u5-differential-555",
@@ -10499,7 +10499,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 3,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$10$: $x=90\\div 10=9$."
   },
   {
     "id": "q-g11-u5-int-1",
@@ -10513,7 +10513,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "$F(2)-F(0)=4$.",
+    "explanation": "החישוב: $F(2)-F(0)=4$.",
     "type": "mcq"
   },
   {
@@ -10529,7 +10529,7 @@ export const QUESTIONS = [
       "$\\frac{2}{3}x^{3}+C$"
     ],
     "correct_index": 3,
-    "explanation": "power int."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 2x^{2}\\,dx=\\frac{2}{3}x^{3}+C$, כלומר המקדם הוא $0.6666666666666666$."
   },
   {
     "id": "q-q-g11-u5-integral-2",
@@ -10544,7 +10544,7 @@ export const QUESTIONS = [
       "$x+C$"
     ],
     "correct_index": 0,
-    "explanation": "power int."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 6x^{6}\\,dx=\\frac{6}{7}x^{7}+C$, כלומר המקדם הוא $0.8571428571428571$."
   },
   {
     "id": "q-q-g11-u5-integral-3",
@@ -10559,7 +10559,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "x."
+    "explanation": "האינטגרל של הפונקציה הקבועה $1$ הוא $x$ (בתוספת קבוע האינטגרציה): $\\int 1\\,dx=x+C$."
   },
   {
     "id": "q-q-g11-u5-integral-4",
@@ -10574,7 +10574,7 @@ export const QUESTIONS = [
       "$3x^{3}$"
     ],
     "correct_index": 2,
-    "explanation": "power int."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 3x^{3}\\,dx=\\frac{3}{4}x^{4}+C$, כלומר המקדם הוא $0.75$."
   },
   {
     "id": "q-q-g11-u5-integral-5",
@@ -10589,7 +10589,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "power int."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 1x^{1}\\,dx=\\frac{1}{2}x^{2}+C$, כלומר המקדם הוא $0.5$."
   },
   {
     "id": "q-q-g11-u5-integral-6",
@@ -10604,7 +10604,7 @@ export const QUESTIONS = [
       "נקודה"
     ],
     "correct_index": 1,
-    "explanation": "area."
+    "explanation": "אינטגרל מוגדר של פונקציה חיובית בקטע מסוים מייצג את השטח הכלוא בין הגרף לציר $x$ בקטע זה."
   },
   {
     "id": "q-q-g11-u5-integral-7",
@@ -10619,7 +10619,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "1."
+    "explanation": "האינטגרל של $\\cos x$ הוא $\\sin x$: $[\\sin x]_0^{\\pi/2}=\\sin(\\pi/2)-\\sin(0)=1-0=1$."
   },
   {
     "id": "q-q-g11-u5-integral-8",
@@ -10634,7 +10634,7 @@ export const QUESTIONS = [
       "$2x+C$"
     ],
     "correct_index": 1,
-    "explanation": "x2/2."
+    "explanation": "התשובה הנכונה היא $\\frac{x^2}{2}+C$."
   },
   {
     "id": "q-q-g11-u5-integral-9",
@@ -10649,7 +10649,7 @@ export const QUESTIONS = [
       "$5x^{5}$"
     ],
     "correct_index": 2,
-    "explanation": "power int."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 5x^{5}\\,dx=\\frac{5}{6}x^{6}+C$, כלומר המקדם הוא $0.8333333333333334$."
   },
   {
     "id": "q-q-g11-u5-integral-10",
@@ -10664,7 +10664,7 @@ export const QUESTIONS = [
       "$x+C$"
     ],
     "correct_index": 2,
-    "explanation": "power int."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 4x^{4}\\,dx=\\frac{4}{5}x^{5}+C$, כלומר המקדם הוא $0.8$."
   },
   {
     "id": "q-q-g11-u5-integral-11",
@@ -10679,7 +10679,7 @@ export const QUESTIONS = [
       "$e^{x+1}$"
     ],
     "correct_index": 1,
-    "explanation": "e^x."
+    "explanation": "האינטגרל של $e^x$ הוא $e^x$ עצמה (בתוספת קבוע): $\\int e^x\\,dx=e^x+C$."
   },
   {
     "id": "q-q-g11-u5-integral-12",
@@ -10694,7 +10694,7 @@ export const QUESTIONS = [
       "$6x+C$"
     ],
     "correct_index": 1,
-    "explanation": "x3."
+    "explanation": "התשובה הנכונה היא $x^3+C$."
   },
   {
     "id": "q-q-g11-u5-integral-13",
@@ -10709,7 +10709,7 @@ export const QUESTIONS = [
       "$1/2$"
     ],
     "correct_index": 0,
-    "explanation": "1."
+    "explanation": "האינטגרל של $2x$ הוא $x^2$: $[x^2]_0^1=1^2-0^2=1$."
   },
   {
     "id": "q-q-g11-u5-integral-14",
@@ -10724,7 +10724,7 @@ export const QUESTIONS = [
       "$\\frac{x^2}{2}+C$"
     ],
     "correct_index": 2,
-    "explanation": "x3/3."
+    "explanation": "התשובה הנכונה היא $\\frac{x^3}{3}+C$."
   },
   {
     "id": "q-q-g11-u5-integral-551",
@@ -10739,7 +10739,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "linear."
+    "explanation": "מעבירים את $11$ אגף: $11x=44-11=33$. מחלקים ב-$11$: $x=3$."
   },
   {
     "id": "q-q-g11-u5-integral-552",
@@ -10754,7 +10754,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$6$: $x=48\\div 6=8$."
   },
   {
     "id": "q-q-g11-u5-integral-553",
@@ -10769,7 +10769,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $11$ אגף: $11x=99-11=88$. מחלקים ב-$11$: $x=8$."
   },
   {
     "id": "q-q-g11-u5-integral-554",
@@ -10784,7 +10784,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $7$ אגף: $7x=49-7=42$. מחלקים ב-$7$: $x=6$."
   },
   {
     "id": "q-q-g11-u5-integral-555",
@@ -10799,7 +10799,7 @@ export const QUESTIONS = [
       "$39$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מעבירים את $11$ אגף עם סימן הפוך: $x=55-11=44$."
   },
   {
     "id": "q-g11-u5-trig-1",
@@ -10813,7 +10813,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "$\\sin^{2}\\theta+\\cos^{2}\\theta=1$.",
+    "explanation": "החישוב: $\\sin^{2}\\theta+\\cos^{2}\\theta=1$.",
     "type": "mcq"
   },
   {
@@ -10829,7 +10829,7 @@ export const QUESTIONS = [
       "$\\sin$"
     ],
     "correct_index": 2,
-    "explanation": "cos."
+    "explanation": "במשולש ישר-זווית, היחס ניצב-סמוך חלקי יתר מוגדר כ-$\\cos$ של הזווית."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-2",
@@ -10844,7 +10844,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "1/2."
+    "explanation": "זהו ערך זווית מיוחדת: $\\cos 60^\\circ=\\frac{1}{2}$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-3",
@@ -10859,7 +10859,7 @@ export const QUESTIONS = [
       "$x$"
     ],
     "correct_index": 0,
-    "explanation": "id."
+    "explanation": "זוהי הזהות הטריגונומטרית הבסיסית: $\\sin^2 x+\\cos^2 x=1$ לכל $x$."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-4",
@@ -10874,7 +10874,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 0,
-    "explanation": "0."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 0^\\circ=0$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-5",
@@ -10889,7 +10889,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{4}{8}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-6",
@@ -10904,7 +10904,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 2,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\cos 0^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-7",
@@ -10919,7 +10919,7 @@ export const QUESTIONS = [
       "$\\cos$"
     ],
     "correct_index": 2,
-    "explanation": "sin."
+    "explanation": "במשולש ישר-זווית, היחס ניצב-נגדי חלקי יתר מוגדר כ-$\\sin$ של הזווית."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-8",
@@ -10934,7 +10934,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{5}{10}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-9",
@@ -10949,7 +10949,7 @@ export const QUESTIONS = [
       "$\\frac{10}{10}$"
     ],
     "correct_index": 2,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{10}{20}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-10",
@@ -10964,7 +10964,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{6}{12}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-11",
@@ -10979,7 +10979,7 @@ export const QUESTIONS = [
       "$a/\\sin B$"
     ],
     "correct_index": 1,
-    "explanation": "sines."
+    "explanation": "לפי משפט הסינוסים, היחס שווה בין כל צלע לסינוס הזווית שמולה: $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-12",
@@ -10994,7 +10994,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "1."
+    "explanation": "במשולש 30-60-90 היחס בין הצלעות הוא $1:\\sqrt{3}:2$. מול הזווית $30^\\circ$ הצלע היא חצי מהיתר: $2\\div 2=1$."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-13",
@@ -11009,7 +11009,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 3,
-    "explanation": "1/2."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 30^\\circ=\\frac{1}{2}$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-14",
@@ -11024,7 +11024,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 90^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-15",
@@ -11039,7 +11039,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "0."
+    "explanation": "$\\sin 180^\\circ=0$ (לפי מעגל היחידה)."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-16",
@@ -11054,7 +11054,7 @@ export const QUESTIONS = [
       "רק ל-30"
     ],
     "correct_index": 0,
-    "explanation": "true."
+    "explanation": "זוהי הזהות המגדירה את הטנגנס: $\\tan x=\\dfrac{\\sin x}{\\cos x}$ — נכון לכל $x$ שבו $\\cos x\\neq 0$."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-17",
@@ -11069,7 +11069,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 1,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\tan 45^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-18",
@@ -11084,7 +11084,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{3}{6}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u5-trig-advanced-19",
@@ -11099,7 +11099,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{8}{16}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-g11-u5-trcalc-1",
@@ -11113,7 +11113,7 @@ export const QUESTIONS = [
       "$\\tan x$"
     ],
     "correct_index": 0,
-    "explanation": "$(\\sin x)'=\\cos x$.",
+    "explanation": "התשובה הנכונה היא $\\cos x$.",
     "type": "mcq"
   },
   {
@@ -11129,7 +11129,7 @@ export const QUESTIONS = [
       "נכון"
     ],
     "correct_index": 3,
-    "explanation": "true."
+    "explanation": "זוהי הזהות המגדירה את הטנגנס: $\\tan x=\\dfrac{\\sin x}{\\cos x}$ — נכון לכל $x$ שבו $\\cos x\\neq 0$."
   },
   {
     "id": "q-q-g11-u5-trig-calc-2",
@@ -11144,7 +11144,7 @@ export const QUESTIONS = [
       "$\\sin$"
     ],
     "correct_index": 2,
-    "explanation": "cos."
+    "explanation": "במשולש ישר-זווית, היחס ניצב-סמוך חלקי יתר מוגדר כ-$\\cos$ של הזווית."
   },
   {
     "id": "q-q-g11-u5-trig-calc-3",
@@ -11159,7 +11159,7 @@ export const QUESTIONS = [
       "$A/B$"
     ],
     "correct_index": 1,
-    "explanation": "sines."
+    "explanation": "לפי משפט הסינוסים, היחס שווה בין כל צלע לסינוס הזווית שמולה: $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$."
   },
   {
     "id": "q-q-g11-u5-trig-calc-4",
@@ -11174,7 +11174,7 @@ export const QUESTIONS = [
       "$\\sqrt{3}$"
     ],
     "correct_index": 3,
-    "explanation": "sqrt3."
+    "explanation": "במשולש 30-60-90 היחס בין הצלעות הוא $1:\\sqrt{3}:2$. מול הזווית $60^\\circ$ הצלע היא $\\sqrt{3}$ כאשר היתר הוא $2$."
   },
   {
     "id": "q-q-g11-u5-trig-calc-5",
@@ -11189,7 +11189,7 @@ export const QUESTIONS = [
       "$\\sin 2x$"
     ],
     "correct_index": 1,
-    "explanation": "id."
+    "explanation": "זוהי הזהות הטריגונומטרית הבסיסית: $\\sin^2 x+\\cos^2 x=1$ לכל $x$."
   },
   {
     "id": "q-q-g11-u5-trig-calc-6",
@@ -11204,7 +11204,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 3,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{6}{12}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u5-trig-calc-7",
@@ -11219,7 +11219,7 @@ export const QUESTIONS = [
       "$\\cot$"
     ],
     "correct_index": 1,
-    "explanation": "sin."
+    "explanation": "במשולש ישר-זווית, היחס ניצב-נגדי חלקי יתר מוגדר כ-$\\sin$ של הזווית."
   },
   {
     "id": "q-q-g11-u5-trig-calc-8",
@@ -11234,7 +11234,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 2,
-    "explanation": "0."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 0^\\circ=0$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u5-trig-calc-9",
@@ -11249,7 +11249,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 2,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\cos 0^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u5-trig-calc-10",
@@ -11264,7 +11264,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{3}{6}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u5-trig-calc-11",
@@ -11279,7 +11279,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{4}{8}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u5-trig-calc-12",
@@ -11294,7 +11294,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 0,
-    "explanation": "0."
+    "explanation": "$\\sin 180^\\circ=0$ (לפי מעגל היחידה)."
   },
   {
     "id": "q-q-g11-u5-trig-calc-13",
@@ -11309,7 +11309,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{5}{10}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u5-trig-calc-14",
@@ -11324,7 +11324,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "1/2."
+    "explanation": "זהו ערך זווית מיוחדת: $\\cos 60^\\circ=\\frac{1}{2}$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u5-trig-calc-15",
@@ -11339,7 +11339,7 @@ export const QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 1,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\tan 45^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-q-g11-u5-trig-calc-16",
@@ -11354,7 +11354,7 @@ export const QUESTIONS = [
       "$\\sqrt{3}$"
     ],
     "correct_index": 0,
-    "explanation": "1."
+    "explanation": "במשולש 30-60-90 היחס בין הצלעות הוא $1:\\sqrt{3}:2$. מול הזווית $30^\\circ$ הצלע היא חצי מהיתר: $2\\div 2=1$."
   },
   {
     "id": "q-q-g11-u5-trig-calc-17",
@@ -11369,7 +11369,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{10}{20}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u5-trig-calc-18",
@@ -11384,7 +11384,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "opp/hyp."
+    "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{8}{16}=\\dfrac{1}{2}$."
   },
   {
     "id": "q-q-g11-u5-trig-calc-19",
@@ -11399,7 +11399,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 2,
-    "explanation": "1."
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 90^\\circ=1$ (כדאי לשנן את טבלת הזוויות המיוחדות)."
   },
   {
     "id": "q-g11-u5-prob-1",
@@ -11429,7 +11429,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 12, 15, 17, 20. החציון הוא הערך האמצעי — $15$."
   },
   {
     "id": "q-q-g11-u5-probability-2",
@@ -11444,7 +11444,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 7, 9, 13, 14. החציון הוא הערך האמצעי — $9$."
   },
   {
     "id": "q-q-g11-u5-probability-3",
@@ -11459,7 +11459,7 @@ export const QUESTIONS = [
       "$16$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 7, 14, 16, 23, 29. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g11-u5-probability-4",
@@ -11474,7 +11474,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 6, 9, 17, 28. החציון הוא הערך האמצעי — $9$."
   },
   {
     "id": "q-q-g11-u5-probability-5",
@@ -11489,7 +11489,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "1/6."
+    "explanation": "התשובה הנכונה היא $\\frac{1}{6}$."
   },
   {
     "id": "q-q-g11-u5-probability-6",
@@ -11504,7 +11504,7 @@ export const QUESTIONS = [
       "$15$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 12, 20, 21, 27. החציון הוא הערך האמצעי — $20$."
   },
   {
     "id": "q-q-g11-u5-probability-7",
@@ -11519,7 +11519,7 @@ export const QUESTIONS = [
       "$17$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 14, 17, 20, 22. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g11-u5-probability-8",
@@ -11534,7 +11534,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 1,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $95$, ומחלקים במספר המספרים ($5$): $95\\div 5=19$."
   },
   {
     "id": "q-q-g11-u5-probability-9",
@@ -11549,7 +11549,7 @@ export const QUESTIONS = [
       "$\\frac{1}{6}$"
     ],
     "correct_index": 1,
-    "explanation": "1/36."
+    "explanation": "התשובה הנכונה היא $\\frac{1}{36}$."
   },
   {
     "id": "q-q-g11-u5-probability-10",
@@ -11564,7 +11564,7 @@ export const QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 11, 12, 15, 27. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-q-g11-u5-probability-11",
@@ -11579,7 +11579,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "1/2."
+    "explanation": "להטלת מטבע הוגן יש שתי תוצאות שוות-סבירות (עץ או פלי), ולכן ההסתברות לעץ היא $\\frac{1}{2}$."
   },
   {
     "id": "q-q-g11-u5-probability-12",
@@ -11594,7 +11594,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 1,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $55$, ומחלקים במספר המספרים ($5$): $55\\div 5=11$."
   },
   {
     "id": "q-q-g11-u5-probability-13",
@@ -11609,7 +11609,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 7, 13, 15, 23. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g11-u5-probability-14",
@@ -11624,7 +11624,7 @@ export const QUESTIONS = [
       "$21$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 7, 20, 21, 25, 26. החציון הוא הערך האמצעי — $21$."
   },
   {
     "id": "q-q-g11-u5-probability-15",
@@ -11639,7 +11639,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 15, 17, 22, 24. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g11-u5-probability-16",
@@ -11654,7 +11654,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 1,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $80$, ומחלקים במספר המספרים ($5$): $80\\div 5=16$."
   },
   {
     "id": "q-q-g11-u5-probability-17",
@@ -11669,7 +11669,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 8, 10, 18, 20. החציון הוא הערך האמצעי — $10$."
   },
   {
     "id": "q-q-g11-u5-probability-18",
@@ -11684,7 +11684,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 1,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $45$, ומחלקים במספר המספרים ($5$): $45\\div 5=9$."
   },
   {
     "id": "q-q-g11-u5-probability-19",
@@ -11699,7 +11699,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 9, 14, 17, 18, 21. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-g12-u5-hyp-1",
@@ -11729,7 +11729,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{49}=7$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-2",
@@ -11744,7 +11744,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 2,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{1}=1$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-3",
@@ -11759,7 +11759,7 @@ export const QUESTIONS = [
       "$x=0$"
     ],
     "correct_index": 3,
-    "explanation": "x=0."
+    "explanation": "שתי הנקודות חולקות את אותו $x=0$, לכן זהו ישר אנכי שמשוואתו $x=0$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-4",
@@ -11774,7 +11774,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{36}=6$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-5",
@@ -11789,7 +11789,7 @@ export const QUESTIONS = [
       "$(1,1)$"
     ],
     "correct_index": 1,
-    "explanation": "vertex."
+    "explanation": "הפונקציה $y=x^2$ היא הפרבולה הבסיסית ביותר, קודקודה בראשית הצירים: $(0,0)$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-6",
@@ -11804,7 +11804,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-7",
@@ -11819,7 +11819,7 @@ export const QUESTIONS = [
       "$\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$"
     ],
     "correct_index": 3,
-    "explanation": "dist."
+    "explanation": "נוסחת המרחק בין שתי נקודות $(x_1,y_1)$ ו-$(x_2,y_2)$ היא $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-8",
@@ -11834,7 +11834,7 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{16}=4$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-9",
@@ -11849,7 +11849,7 @@ export const QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{4}=2$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-10",
@@ -11864,7 +11864,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "2."
+    "explanation": "שיפוע ישר מחושב לפי $m=\\dfrac{y_2-y_1}{x_2-x_1}=\\dfrac{8-2}{4-1}=2$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-11",
@@ -11879,7 +11879,7 @@ export const QUESTIONS = [
       "$(1,1)$"
     ],
     "correct_index": 2,
-    "explanation": "mid."
+    "explanation": "אמצע קטע הוא ממוצע הקואורדינטות: $\\left(\\dfrac{0+4}{2},\\dfrac{0+6}{2}\\right)=(2,3)$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-12",
@@ -11894,7 +11894,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "r."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{9}=3$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-13",
@@ -11909,7 +11909,7 @@ export const QUESTIONS = [
       "$(0,0)$"
     ],
     "correct_index": 3,
-    "explanation": "origin."
+    "explanation": "במשוואת מעגל בצורה $x^2+y^2=r^2$ המרכז נמצא בראשית הצירים: $(0,0)$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-14",
@@ -11924,7 +11924,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "5."
+    "explanation": "לפי נוסחת המרחק: $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}=\\sqrt{3^2+4^2}=5$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-15",
@@ -11939,7 +11939,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "5."
+    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-551",
@@ -11954,7 +11954,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "linear."
+    "explanation": "מעבירים את $8$ אגף: $8x=72-8=64$. מחלקים ב-$8$: $x=8$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-552",
@@ -11969,7 +11969,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$4$: $x=32\\div 4=8$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-553",
@@ -11984,7 +11984,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$2$: $x=10\\div 2=5$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-554",
@@ -11999,7 +11999,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מעבירים את $8$ אגף עם סימן הפוך: $x=24-8=16$."
   },
   {
     "id": "q-g12-u5-vec-1",
@@ -12013,7 +12013,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "$1\\cdot 2+2\\cdot 0+2\\cdot 1=4$.",
+    "explanation": "החישוב: $1\\cdot 2+2\\cdot 0+2\\cdot 1=4$.",
     "type": "mcq"
   },
   {
@@ -12029,7 +12029,7 @@ export const QUESTIONS = [
       "<0,0>"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 0+5,5+0\\rangle=\\langle 5,5\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-2",
@@ -12044,7 +12044,7 @@ export const QUESTIONS = [
       "<4,2>"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 2+2,2+2\\rangle=\\langle 4,4\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-3",
@@ -12059,7 +12059,7 @@ export const QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 2,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{1^2+0^2}=1$."
   },
   {
     "id": "q-q-g12-u5-vectors-4",
@@ -12074,7 +12074,7 @@ export const QUESTIONS = [
       "$\\langle 1,0\\rangle$"
     ],
     "correct_index": 1,
-    "explanation": "0."
+    "explanation": "וקטור האפס הוא הווקטור שכל רכיביו $0$: $\\langle 0,0\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-5",
@@ -12089,7 +12089,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{6^2+8^2}=10$."
   },
   {
     "id": "q-q-g12-u5-vectors-6",
@@ -12104,7 +12104,7 @@ export const QUESTIONS = [
       "0"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 3+4,4+3\\rangle=\\langle 7,7\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-7",
@@ -12119,7 +12119,7 @@ export const QUESTIONS = [
       "<21,21>"
     ],
     "correct_index": 3,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 9+12,12+9\\rangle=\\langle 21,21\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-8",
@@ -12134,7 +12134,7 @@ export const QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{0^2+5^2}=5$."
   },
   {
     "id": "q-q-g12-u5-vectors-9",
@@ -12149,7 +12149,7 @@ export const QUESTIONS = [
       "$\\langle 3,8\\rangle$"
     ],
     "correct_index": 0,
-    "explanation": "2v."
+    "explanation": "התשובה הנכונה היא $\\langle 6,8\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-10",
@@ -12164,7 +12164,7 @@ export const QUESTIONS = [
       "<6,8>"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 6+8,8+6\\rangle=\\langle 14,14\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-11",
@@ -12179,7 +12179,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{5^2+12^2}=13$."
   },
   {
     "id": "q-q-g12-u5-vectors-12",
@@ -12194,7 +12194,7 @@ export const QUESTIONS = [
       "<8,15>"
     ],
     "correct_index": 1,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 8+15,15+8\\rangle=\\langle 23,23\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-13",
@@ -12209,7 +12209,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{9^2+12^2}=15$."
   },
   {
     "id": "q-q-g12-u5-vectors-14",
@@ -12224,7 +12224,7 @@ export const QUESTIONS = [
       "<0,0>"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 1+0,0+1\\rangle=\\langle 1,1\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-15",
@@ -12239,7 +12239,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{3^2+4^2}=5$."
   },
   {
     "id": "q-q-g12-u5-vectors-16",
@@ -12254,7 +12254,7 @@ export const QUESTIONS = [
       "$13$"
     ],
     "correct_index": 1,
-    "explanation": "mag."
+    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{8^2+15^2}=17$."
   },
   {
     "id": "q-q-g12-u5-vectors-17",
@@ -12269,7 +12269,7 @@ export const QUESTIONS = [
       "<5,12>"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 5+12,12+5\\rangle=\\langle 17,17\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-551",
@@ -12284,7 +12284,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מעבירים את $4$ אגף עם סימן הפוך: $x=12-4=8$."
   },
   {
     "id": "q-q-g12-u5-vectors-552",
@@ -12299,7 +12299,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$4$: $x=20\\div 4=5$."
   },
   {
     "id": "q-g12-u5-cpx-1",
@@ -12313,7 +12313,7 @@ export const QUESTIONS = [
       "$\\sqrt{7}$"
     ],
     "correct_index": 0,
-    "explanation": "$|a+bi|=\\sqrt{a^{2}+b^{2}}=5$.",
+    "explanation": "החישוב: $|a+bi|=\\sqrt{a^{2}+b^{2}}=5$.",
     "type": "mcq"
   },
   {
@@ -12329,7 +12329,7 @@ export const QUESTIONS = [
       "$|z|$"
     ],
     "correct_index": 2,
-    "explanation": "conj."
+    "explanation": "התשובה הנכונה היא $a-bi$."
   },
   {
     "id": "q-q-g12-u5-complex-2",
@@ -12344,7 +12344,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 0,
-    "explanation": "mod."
+    "explanation": "גודל מספר מרוכב הוא $|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{8^2+15^2}=17$."
   },
   {
     "id": "q-q-g12-u5-complex-3",
@@ -12359,7 +12359,7 @@ export const QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "mod."
+    "explanation": "גודל מספר מרוכב הוא $|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{4^2+3^2}=5$."
   },
   {
     "id": "q-q-g12-u5-complex-4",
@@ -12374,7 +12374,7 @@ export const QUESTIONS = [
       "$1-2i$"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "התשובה הנכונה היא $3-2i$."
   },
   {
     "id": "q-q-g12-u5-complex-5",
@@ -12389,7 +12389,7 @@ export const QUESTIONS = [
       "$1+8i$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מחסרים חלק ממשי מחלק ממשי, וחלק מדומה מחלק מדומה: $(2-1)+(3-(-5))i=1+8i$."
   },
   {
     "id": "q-q-g12-u5-complex-6",
@@ -12404,7 +12404,7 @@ export const QUESTIONS = [
       "$i$"
     ],
     "correct_index": 1,
-    "explanation": "1."
+    "explanation": "לפי חזקות המספר המדומה: $i^2=-1$, $i^4=(i^2)^2=(-1)^2=1$."
   },
   {
     "id": "q-q-g12-u5-complex-7",
@@ -12419,7 +12419,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 1,
-    "explanation": "mod."
+    "explanation": "גודל מספר מרוכב הוא $|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{9^2+12^2}=15$."
   },
   {
     "id": "q-q-g12-u5-complex-8",
@@ -12434,7 +12434,7 @@ export const QUESTIONS = [
       "$17$"
     ],
     "correct_index": 0,
-    "explanation": "13."
+    "explanation": "התשובה הנכונה היא $13$."
   },
   {
     "id": "q-q-g12-u5-complex-9",
@@ -12449,7 +12449,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "mod."
+    "explanation": "גודל מספר מרוכב הוא $|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{6^2+8^2}=10$."
   },
   {
     "id": "q-q-g12-u5-complex-10",
@@ -12464,7 +12464,7 @@ export const QUESTIONS = [
       "$i$"
     ],
     "correct_index": 2,
-    "explanation": "-1."
+    "explanation": "התשובה הנכונה היא $-1$."
   },
   {
     "id": "q-q-g12-u5-complex-11",
@@ -12479,7 +12479,7 @@ export const QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 3,
-    "explanation": "-5."
+    "explanation": "התשובה הנכונה היא $-5$."
   },
   {
     "id": "q-q-g12-u5-complex-12",
@@ -12494,7 +12494,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "1."
+    "explanation": "גודל המספר המרוכב $i=0+1i$ הוא $\\sqrt{0^2+1^2}=1$."
   },
   {
     "id": "q-q-g12-u5-complex-13",
@@ -12509,7 +12509,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "2."
+    "explanation": "התשובה הנכונה היא $2$."
   },
   {
     "id": "q-q-g12-u5-complex-14",
@@ -12524,7 +12524,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "5."
+    "explanation": "גודל מספר מרוכב הוא $|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{3^2+4^2}=5$."
   },
   {
     "id": "q-q-g12-u5-complex-551",
@@ -12539,7 +12539,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$9$: $x=27\\div 9=3$."
   },
   {
     "id": "q-q-g12-u5-complex-552",
@@ -12554,7 +12554,7 @@ export const QUESTIONS = [
       "$35$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מעבירים את $6$ אגף עם סימן הפוך: $x=48-6=42$."
   },
   {
     "id": "q-q-g12-u5-complex-553",
@@ -12569,7 +12569,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מעבירים את $5$ אגף עם סימן הפוך: $x=15-5=10$."
   },
   {
     "id": "q-q-g12-u5-complex-554",
@@ -12584,7 +12584,7 @@ export const QUESTIONS = [
       "$23$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מעבירים את $10$ אגף עם סימן הפוך: $x=40-10=30$."
   },
   {
     "id": "q-q-g12-u5-complex-555",
@@ -12599,7 +12599,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$5$: $x=25\\div 5=5$."
   },
   {
     "id": "q-g12-u5-exp-1",
@@ -12613,7 +12613,7 @@ export const QUESTIONS = [
       "$x$"
     ],
     "correct_index": 0,
-    "explanation": "$(\\ln x)'=\\frac{1}{x}$.",
+    "explanation": "החישוב: $(\\ln x)'=\\frac{1}{x}$.",
     "type": "mcq"
   },
   {
@@ -12629,7 +12629,7 @@ export const QUESTIONS = [
       "$a^{m/n}$"
     ],
     "correct_index": 1,
-    "explanation": "power."
+    "explanation": "לפי חוק החזקות, חזקה של חזקה כופלת את המעריכים: $(a^m)^n=a^{mn}$."
   },
   {
     "id": "q-q-g12-u5-exp-log-2",
@@ -12644,7 +12644,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 2,
-    "explanation": "3."
+    "explanation": "מחפשים חזקה של $2$ שנותנת $8$: $2^{3}=8$, לכן $x=3$."
   },
   {
     "id": "q-q-g12-u5-exp-log-3",
@@ -12659,7 +12659,7 @@ export const QUESTIONS = [
       "$\\frac{\\log a}{\\log b}$"
     ],
     "correct_index": 0,
-    "explanation": "sum."
+    "explanation": "לפי חוקי הלוגריתמים, לוגריתם של מכפלה שווה לסכום הלוגריתמים: $\\log(ab)=\\log a+\\log b$."
   },
   {
     "id": "q-q-g12-u5-exp-log-4",
@@ -12674,7 +12674,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "1."
+    "explanation": "לפי הגדרת הלוגריתם הטבעי, $\\ln e=\\log_e e=1$."
   },
   {
     "id": "q-q-g12-u5-exp-log-5",
@@ -12689,7 +12689,7 @@ export const QUESTIONS = [
       "$100$"
     ],
     "correct_index": 0,
-    "explanation": "2."
+    "explanation": "$100=10^{2}$, ולכן $\\log_{10} 100=2$."
   },
   {
     "id": "q-q-g12-u5-exp-log-6",
@@ -12704,7 +12704,7 @@ export const QUESTIONS = [
       "$-6$"
     ],
     "correct_index": 2,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{1}=1$ (שכן $10^{1}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u5-exp-log-7",
@@ -12719,7 +12719,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{5}=5$ (שכן $10^{5}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u5-exp-log-8",
@@ -12734,7 +12734,7 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "3."
+    "explanation": "$\\log_2 8$ שואל \"$2$ בחזקת מה נותן $8$?\" — התשובה $3$, כי $2^{3}=8$."
   },
   {
     "id": "q-q-g12-u5-exp-log-9",
@@ -12749,7 +12749,7 @@ export const QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "5."
+    "explanation": "$e$ ו-$\\ln$ הן פעולות הופכיות: $e^{\\ln 5}=5$."
   },
   {
     "id": "q-q-g12-u5-exp-log-10",
@@ -12764,7 +12764,7 @@ export const QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{2}=2$ (שכן $10^{2}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u5-exp-log-11",
@@ -12779,7 +12779,7 @@ export const QUESTIONS = [
       "$-100$"
     ],
     "correct_index": 2,
-    "explanation": "0.01."
+    "explanation": "חזקה שלילית הופכת את הבסיס: $10^{-2}=\\dfrac{1}{10^2}=\\dfrac{1}{100}=0.01$."
   },
   {
     "id": "q-q-g12-u5-exp-log-12",
@@ -12794,7 +12794,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{4}=4$ (שכן $10^{4}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u5-exp-log-13",
@@ -12809,7 +12809,7 @@ export const QUESTIONS = [
       "$a^{m-n}$"
     ],
     "correct_index": 1,
-    "explanation": "prod."
+    "explanation": "לפי חוק החזקות, כפל של חזקות עם אותו בסיס מחבר את המעריכים: $a^m\\cdot a^n=a^{m+n}$."
   },
   {
     "id": "q-q-g12-u5-exp-log-14",
@@ -12824,7 +12824,7 @@ export const QUESTIONS = [
       "$9$"
     ],
     "correct_index": 1,
-    "explanation": "8."
+    "explanation": "כל שעה הכמות מוכפלת פי $2$, לכן אחרי $3$ שעות המכפיל הכולל הוא $2^{3}=8$."
   },
   {
     "id": "q-q-g12-u5-exp-log-15",
@@ -12839,7 +12839,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "k."
+    "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{3}=3$ (שכן $10^{3}$ עצמו הוא החזקה)."
   },
   {
     "id": "q-q-g12-u5-exp-log-551",
@@ -12854,7 +12854,7 @@ export const QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$7$: $x=21\\div 7=3$."
   },
   {
     "id": "q-q-g12-u5-exp-log-552",
@@ -12869,7 +12869,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מעבירים את $4$ אגף עם סימן הפוך: $x=8-4=4$."
   },
   {
     "id": "q-q-g12-u5-exp-log-553",
@@ -12884,7 +12884,7 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מעבירים את $4$ אגף עם סימן הפוך: $x=16-4=12$."
   },
   {
     "id": "q-q-g12-u5-exp-log-554",
@@ -12899,7 +12899,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 2,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$10$: $x=40\\div 10=4$."
   }
 ];
 

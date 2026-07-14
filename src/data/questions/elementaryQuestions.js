@@ -13,7 +13,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "$7+5=12$.",
+    "explanation": "החישוב: $7+5=12$.",
     "type": "mcq"
   },
   {
@@ -29,7 +29,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 2,
-    "explanation": "$4+9=13$."
+    "explanation": "החישוב: $4+9=13$."
   },
   {
     "id": "q-q-g1-count-20-2",
@@ -44,7 +44,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "$5+6=11$."
+    "explanation": "החישוב: $5+6=11$."
   },
   {
     "id": "q-q-g1-count-20-3",
@@ -59,7 +59,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 0,
-    "explanation": "$1+1=2$."
+    "explanation": "החישוב: $1+1=2$."
   },
   {
     "id": "q-q-g1-count-20-4",
@@ -74,7 +74,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 2,
-    "explanation": "$6-5=1$."
+    "explanation": "החישוב: $6-5=1$."
   },
   {
     "id": "q-q-g1-count-20-5",
@@ -89,7 +89,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 2,
-    "explanation": "$8-4=4$."
+    "explanation": "החישוב: $8-4=4$."
   },
   {
     "id": "q-q-g1-count-20-6",
@@ -104,7 +104,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "$6-2=4$."
+    "explanation": "החישוב: $6-2=4$."
   },
   {
     "id": "q-q-g1-count-20-7",
@@ -119,7 +119,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "$14-7=7$."
+    "explanation": "החישוב: $14-7=7$."
   },
   {
     "id": "q-q-g1-count-20-8",
@@ -134,7 +134,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 0,
-    "explanation": "$7+13=20$."
+    "explanation": "החישוב: $7+13=20$."
   },
   {
     "id": "q-q-g1-count-20-9",
@@ -149,7 +149,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "$14-9=5$."
+    "explanation": "החישוב: $14-9=5$."
   },
   {
     "id": "q-q-g1-count-20-10",
@@ -164,7 +164,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 1,
-    "explanation": "$13+4=17$."
+    "explanation": "החישוב: $13+4=17$."
   },
   {
     "id": "q-q-g1-count-20-11",
@@ -179,7 +179,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "$7+4=11$."
+    "explanation": "החישוב: $7+4=11$."
   },
   {
     "id": "q-q-g1-count-20-12",
@@ -194,7 +194,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 2,
-    "explanation": "$8+4=12$."
+    "explanation": "החישוב: $8+4=12$."
   },
   {
     "id": "q-q-g1-count-20-13",
@@ -209,7 +209,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "$6-4=2$."
+    "explanation": "החישוב: $6-4=2$."
   },
   {
     "id": "q-q-g1-count-20-14",
@@ -224,7 +224,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 0,
-    "explanation": "$7+12=19$."
+    "explanation": "החישוב: $7+12=19$."
   },
   {
     "id": "q-q-g1-count-20-15",
@@ -239,7 +239,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 1,
-    "explanation": "$10+6=16$."
+    "explanation": "החישוב: $10+6=16$."
   },
   {
     "id": "q-q-g1-count-20-16",
@@ -254,7 +254,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "$13-9=4$."
+    "explanation": "החישוב: $13-9=4$."
   },
   {
     "id": "q-q-g1-count-20-17",
@@ -269,7 +269,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "$1+5=6$."
+    "explanation": "החישוב: $1+5=6$."
   },
   {
     "id": "q-q-g1-count-20-18",
@@ -284,7 +284,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 3,
-    "explanation": "$11+6=17$."
+    "explanation": "החישוב: $11+6=17$."
   },
   {
     "id": "q-q-g1-count-20-19",
@@ -299,7 +299,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "$2+5=7$."
+    "explanation": "החישוב: $2+5=7$."
   },
   {
     "id": "q-g1-n100-1",
@@ -313,7 +313,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$40$"
     ],
     "correct_index": 0,
-    "explanation": "$54>45$.",
+    "explanation": "התשובה הנכונה היא $54$.",
     "type": "mcq"
   },
   {
@@ -329,7 +329,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 3,
-    "explanation": "$8$."
+    "explanation": "ספרת העשרות במספר $86$ היא $8$."
   },
   {
     "id": "q-q-g1-numbers-100-2",
@@ -344,7 +344,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 2,
-    "explanation": "$3$."
+    "explanation": "ספרת העשרות במספר $31$ היא $3$."
   },
   {
     "id": "q-q-g1-numbers-100-3",
@@ -359,7 +359,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "$6$."
+    "explanation": "ספרת העשרות במספר $62$ היא $6$."
   },
   {
     "id": "q-q-g1-numbers-100-4",
@@ -374,7 +374,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "$6$."
+    "explanation": "ספרת היחידות במספר $66$ היא $6$."
   },
   {
     "id": "q-q-g1-numbers-100-5",
@@ -389,7 +389,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "$9$."
+    "explanation": "ספרת היחידות במספר $99$ היא $9$."
   },
   {
     "id": "q-q-g1-numbers-100-6",
@@ -404,7 +404,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "$3$."
+    "explanation": "ספרת העשרות במספר $37$ היא $3$."
   },
   {
     "id": "q-q-g1-numbers-100-7",
@@ -419,7 +419,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$26$"
     ],
     "correct_index": 3,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $26$ גדול מ-$23$."
   },
   {
     "id": "q-q-g1-numbers-100-8",
@@ -434,7 +434,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$90$"
     ],
     "correct_index": 2,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $93$ גדול מ-$90$."
   },
   {
     "id": "q-q-g1-numbers-100-9",
@@ -449,7 +449,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 1,
-    "explanation": "$2$."
+    "explanation": "ספרת העשרות במספר $24$ היא $2$."
   },
   {
     "id": "q-q-g1-numbers-100-10",
@@ -464,7 +464,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 2,
-    "explanation": "$2$."
+    "explanation": "ספרת העשרות במספר $20$ היא $2$."
   },
   {
     "id": "q-q-g1-numbers-100-11",
@@ -479,7 +479,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "$5$."
+    "explanation": "ספרת העשרות במספר $53$ היא $5$."
   },
   {
     "id": "q-q-g1-numbers-100-12",
@@ -494,7 +494,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "$4$."
+    "explanation": "ספרת היחידות במספר $64$ היא $4$."
   },
   {
     "id": "q-q-g1-numbers-100-13",
@@ -509,7 +509,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "$6$."
+    "explanation": "ספרת היחידות במספר $96$ היא $6$."
   },
   {
     "id": "q-q-g1-numbers-100-14",
@@ -524,7 +524,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 3,
-    "explanation": "$6$."
+    "explanation": "ספרת העשרות במספר $68$ היא $6$."
   },
   {
     "id": "q-q-g1-numbers-100-15",
@@ -539,7 +539,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 1,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $12$ גדול מ-$6$."
   },
   {
     "id": "q-q-g1-numbers-100-16",
@@ -554,7 +554,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "$8$."
+    "explanation": "ספרת היחידות במספר $38$ היא $8$."
   },
   {
     "id": "q-q-g1-numbers-100-17",
@@ -569,7 +569,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $35$ גדול מ-$32$."
   },
   {
     "id": "q-q-g1-numbers-100-18",
@@ -584,7 +584,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$92$"
     ],
     "correct_index": 3,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $92$ גדול מ-$86$."
   },
   {
     "id": "q-q-g1-numbers-100-19",
@@ -599,7 +599,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "$3$."
+    "explanation": "ספרת העשרות במספר $30$ היא $3$."
   },
   {
     "id": "q-g1-as-1",
@@ -613,7 +613,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$21$"
     ],
     "correct_index": 0,
-    "explanation": "$15-6=9$.",
+    "explanation": "החישוב: $15-6=9$.",
     "type": "mcq"
   },
   {
@@ -629,7 +629,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "$14-3=11$."
+    "explanation": "החישוב: $14-3=11$."
   },
   {
     "id": "q-q-g1-add-sub-20-2",
@@ -644,7 +644,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 0,
-    "explanation": "$13+6=19$."
+    "explanation": "החישוב: $13+6=19$."
   },
   {
     "id": "q-q-g1-add-sub-20-3",
@@ -659,7 +659,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "$8-6=2$."
+    "explanation": "החישוב: $8-6=2$."
   },
   {
     "id": "q-q-g1-add-sub-20-4",
@@ -674,7 +674,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $18$ ומחסירים את מה שנתנו: $18-7=11$."
   },
   {
     "id": "q-q-g1-add-sub-20-5",
@@ -689,7 +689,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "$7-2=5$."
+    "explanation": "החישוב: $7-2=5$."
   },
   {
     "id": "q-q-g1-add-sub-20-6",
@@ -704,7 +704,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "$9-6=3$."
+    "explanation": "החישוב: $9-6=3$."
   },
   {
     "id": "q-q-g1-add-sub-20-7",
@@ -719,7 +719,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$16$"
     ],
     "correct_index": 3,
-    "explanation": "$7+9=16$."
+    "explanation": "החישוב: $7+9=16$."
   },
   {
     "id": "q-q-g1-add-sub-20-8",
@@ -734,7 +734,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $19$ ומחסירים את מה שנתנו: $19-2=17$."
   },
   {
     "id": "q-q-g1-add-sub-20-9",
@@ -749,7 +749,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $6$ ומחסירים את מה שנתנו: $6-5=1$."
   },
   {
     "id": "q-q-g1-add-sub-20-10",
@@ -764,7 +764,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $12$ ומחסירים את מה שנתנו: $12-2=10$."
   },
   {
     "id": "q-q-g1-add-sub-20-11",
@@ -779,7 +779,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $20$ ומחסירים את מה שנתנו: $20-3=17$."
   },
   {
     "id": "q-q-g1-add-sub-20-12",
@@ -794,7 +794,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $11$ ומחסירים את מה שנתנו: $11-8=3$."
   },
   {
     "id": "q-q-g1-add-sub-20-13",
@@ -809,7 +809,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 3,
-    "explanation": "$11+6=17$."
+    "explanation": "החישוב: $11+6=17$."
   },
   {
     "id": "q-q-g1-add-sub-20-14",
@@ -824,7 +824,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $17$ ומחסירים את מה שנתנו: $17-3=14$."
   },
   {
     "id": "q-q-g1-add-sub-20-15",
@@ -839,7 +839,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$14$"
     ],
     "correct_index": 0,
-    "explanation": "$15+4=19$."
+    "explanation": "החישוב: $15+4=19$."
   },
   {
     "id": "q-q-g1-add-sub-20-16",
@@ -854,7 +854,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "$15-5=10$."
+    "explanation": "החישוב: $15-5=10$."
   },
   {
     "id": "q-q-g1-add-sub-20-17",
@@ -869,7 +869,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 1,
-    "explanation": "$18+1=19$."
+    "explanation": "החישוב: $18+1=19$."
   },
   {
     "id": "q-q-g1-add-sub-20-18",
@@ -884,7 +884,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $20$ ומחסירים את מה שנתנו: $20-2=18$."
   },
   {
     "id": "q-q-g1-add-sub-20-19",
@@ -899,7 +899,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 2,
-    "explanation": "$2+10=12$."
+    "explanation": "החישוב: $2+10=12$."
   },
   {
     "id": "q-g1-sh-1",
@@ -929,7 +929,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "2."
+    "explanation": "לריבוע (וגם למלבן) יש $2$ אלכסונים."
   },
   {
     "id": "q-q-g1-shapes-2",
@@ -944,7 +944,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "5."
+    "explanation": "למחומש יש 5 צלעות."
   },
   {
     "id": "q-q-g1-shapes-3",
@@ -959,7 +959,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "3."
+    "explanation": "למשולש יש 3 קודקודים (נקודות שבהן נפגשות הצלעות)."
   },
   {
     "id": "q-q-g1-shapes-4",
@@ -974,7 +974,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "4."
+    "explanation": "לריבוע יש 4 קודקודים (נקודות שבהן נפגשות הצלעות)."
   },
   {
     "id": "q-q-g1-shapes-5",
@@ -989,7 +989,7 @@ export const ELEMENTARY_QUESTIONS = [
       "מחומש"
     ],
     "correct_index": 2,
-    "explanation": "rect."
+    "explanation": "ריבוע הוא מקרה פרטי של מלבן (עם כל הצלעות שוות), ולכן הוא גם מלבן."
   },
   {
     "id": "q-q-g1-shapes-6",
@@ -1004,7 +1004,7 @@ export const ELEMENTARY_QUESTIONS = [
       "זוגות צלעות שווות"
     ],
     "correct_index": 3,
-    "explanation": "rect."
+    "explanation": "התשובה הנכונה היא זוגות צלעות שווות."
   },
   {
     "id": "q-q-g1-shapes-7",
@@ -1019,7 +1019,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווות ומקבילות"
     ],
     "correct_index": 3,
-    "explanation": "par."
+    "explanation": "התשובה הנכונה היא שווות ומקבילות."
   },
   {
     "id": "q-q-g1-shapes-8",
@@ -1034,7 +1034,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 1,
-    "explanation": "3."
+    "explanation": "למשולש יש 3 צלעות."
   },
   {
     "id": "q-q-g1-shapes-9",
@@ -1049,7 +1049,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "4."
+    "explanation": "בריבוע כל 4 הזוויות הן זוויות ישרות ($90^\\circ$)."
   },
   {
     "id": "q-q-g1-shapes-10",
@@ -1064,7 +1064,7 @@ export const ELEMENTARY_QUESTIONS = [
       "משולש"
     ],
     "correct_index": 3,
-    "explanation": "tri."
+    "explanation": "התשובה הנכונה היא משולש."
   },
   {
     "id": "q-q-g1-shapes-11",
@@ -1079,7 +1079,7 @@ export const ELEMENTARY_QUESTIONS = [
       "מחומש"
     ],
     "correct_index": 2,
-    "explanation": "sq."
+    "explanation": "הצורה בעלת 4 צלעות שוות וכל הזוויות ישרות היא ריבוע."
   },
   {
     "id": "q-q-g1-shapes-12",
@@ -1094,7 +1094,7 @@ export const ELEMENTARY_QUESTIONS = [
       "משושה"
     ],
     "correct_index": 1,
-    "explanation": "pent."
+    "explanation": "התשובה הנכונה היא מחומש."
   },
   {
     "id": "q-q-g1-shapes-13",
@@ -1109,7 +1109,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "4."
+    "explanation": "לריבוע יש 4 צלעות."
   },
   {
     "id": "q-q-g1-shapes-14",
@@ -1124,7 +1124,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 3,
-    "explanation": "6."
+    "explanation": "למשושה יש 6 צלעות."
   },
   {
     "id": "q-q-g1-shapes-15",
@@ -1139,7 +1139,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$360^\\circ$"
     ],
     "correct_index": 2,
-    "explanation": "180."
+    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
   },
   {
     "id": "q-q-g1-shapes-16",
@@ -1154,7 +1154,7 @@ export const ELEMENTARY_QUESTIONS = [
       "ריבוע"
     ],
     "correct_index": 1,
-    "explanation": "circ."
+    "explanation": "עיגול נבנה מקו עקום סגור ולא מצלעות ישרות, ולכן אינו מצולע."
   },
   {
     "id": "q-q-g1-shapes-17",
@@ -1169,7 +1169,7 @@ export const ELEMENTARY_QUESTIONS = [
       "משולש"
     ],
     "correct_index": 1,
-    "explanation": "circ."
+    "explanation": "התשובה הנכונה היא עיגול."
   },
   {
     "id": "q-q-g1-shapes-18",
@@ -1184,7 +1184,7 @@ export const ELEMENTARY_QUESTIONS = [
       "קו"
     ],
     "correct_index": 0,
-    "explanation": "sq."
+    "explanation": "התשובה הנכונה היא ריבוע."
   },
   {
     "id": "q-q-g1-shapes-19",
@@ -1199,7 +1199,7 @@ export const ELEMENTARY_QUESTIONS = [
       "קהה"
     ],
     "correct_index": 0,
-    "explanation": "eq."
+    "explanation": "משולש שכל צלעותיו שוות נקרא משולש שווה-צלעות."
   },
   {
     "id": "q-g1-m-1",
@@ -1213,7 +1213,7 @@ export const ELEMENTARY_QUESTIONS = [
       "לא ניתן לדעת"
     ],
     "correct_index": 0,
-    "explanation": "$5>3$.",
+    "explanation": "התשובה הנכונה היא $5$ קוביות.",
     "type": "mcq"
   },
   {
@@ -1229,7 +1229,7 @@ export const ELEMENTARY_QUESTIONS = [
       "9 ס\"מ"
     ],
     "correct_index": 2,
-    "explanation": "15."
+    "explanation": "התשובה הנכונה היא 15 ס\"מ."
   },
   {
     "id": "q-q-g1-measure-2",
@@ -1244,7 +1244,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2.5$"
     ],
     "correct_index": 1,
-    "explanation": "25."
+    "explanation": "התשובה הנכונה היא $25$."
   },
   {
     "id": "q-q-g1-measure-3",
@@ -1259,7 +1259,7 @@ export const ELEMENTARY_QUESTIONS = [
       "100"
     ],
     "correct_index": 0,
-    "explanation": "15."
+    "explanation": "התשובה הנכונה היא 15 ס\"מ."
   },
   {
     "id": "q-q-g1-measure-4",
@@ -1274,7 +1274,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$500$"
     ],
     "correct_index": 1,
-    "explanation": "50."
+    "explanation": "התשובה הנכונה היא $50$."
   },
   {
     "id": "q-q-g1-measure-5",
@@ -1289,7 +1289,7 @@ export const ELEMENTARY_QUESTIONS = [
       "מעלה"
     ],
     "correct_index": 0,
-    "explanation": "kg."
+    "explanation": "התשובה הנכונה היא ק\"ג."
   },
   {
     "id": "q-q-g1-measure-6",
@@ -1304,7 +1304,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שטח"
     ],
     "correct_index": 1,
-    "explanation": "len."
+    "explanation": "התשובה הנכונה היא אורך."
   },
   {
     "id": "q-q-g1-measure-7",
@@ -1319,7 +1319,7 @@ export const ELEMENTARY_QUESTIONS = [
       "30 ס\"מ"
     ],
     "correct_index": 2,
-    "explanation": "200>30."
+    "explanation": "התשובה הנכונה היא 2 מטר."
   },
   {
     "id": "q-q-g1-measure-8",
@@ -1334,7 +1334,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "0.4."
+    "explanation": "התשובה הנכונה היא $0.4$."
   },
   {
     "id": "q-q-g1-measure-9",
@@ -1349,7 +1349,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$100$"
     ],
     "correct_index": 2,
-    "explanation": "0."
+    "explanation": "בכל מדידת אורך מתחילים לספור מהנקודה $0$."
   },
   {
     "id": "q-q-g1-measure-10",
@@ -1364,7 +1364,7 @@ export const ELEMENTARY_QUESTIONS = [
       "3"
     ],
     "correct_index": 1,
-    "explanation": "10."
+    "explanation": "מחברים את אורכי הקטעים: $7+3=10$ ס\"מ."
   },
   {
     "id": "q-q-g1-measure-11",
@@ -1379,7 +1379,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 2,
-    "explanation": "100>80."
+    "explanation": "התשובה הנכונה היא 1 מ."
   },
   {
     "id": "q-q-g1-measure-12",
@@ -1394,7 +1394,7 @@ export const ELEMENTARY_QUESTIONS = [
       "100 ס\"מ"
     ],
     "correct_index": 2,
-    "explanation": "4."
+    "explanation": "היקף ריבוע הוא $4$ כפול אורך הצלע: $4\\times 1=4$ מ'."
   },
   {
     "id": "q-q-g1-measure-13",
@@ -1409,7 +1409,7 @@ export const ELEMENTARY_QUESTIONS = [
       "2"
     ],
     "correct_index": 1,
-    "explanation": "4."
+    "explanation": "מחסרים בין האורכים: $12-8=4$ ס\"מ."
   },
   {
     "id": "q-q-g1-measure-14",
@@ -1424,7 +1424,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "500."
+    "explanation": "התשובה הנכונה היא $500$."
   },
   {
     "id": "q-q-g1-measure-15",
@@ -1439,7 +1439,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$10000$"
     ],
     "correct_index": 0,
-    "explanation": "1000."
+    "explanation": "התשובה הנכונה היא $1000$."
   },
   {
     "id": "q-q-g1-measure-16",
@@ -1454,7 +1454,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$100$"
     ],
     "correct_index": 2,
-    "explanation": "10."
+    "explanation": "בכל סנטימטר יש $10$ מילימטרים."
   },
   {
     "id": "q-q-g1-measure-17",
@@ -1469,7 +1469,7 @@ export const ELEMENTARY_QUESTIONS = [
       "ס\"מ/מטר"
     ],
     "correct_index": 3,
-    "explanation": "len."
+    "explanation": "התשובה הנכונה היא ס\"מ/מטר."
   },
   {
     "id": "q-q-g1-measure-18",
@@ -1484,7 +1484,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$230$"
     ],
     "correct_index": 3,
-    "explanation": "230."
+    "explanation": "התשובה הנכונה היא $230$."
   },
   {
     "id": "q-q-g1-measure-19",
@@ -1499,7 +1499,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1000$"
     ],
     "correct_index": 2,
-    "explanation": "100."
+    "explanation": "התשובה הנכונה היא $100$."
   },
   {
     "id": "q-g2-n-1",
@@ -1513,7 +1513,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$302$"
     ],
     "correct_index": 0,
-    "explanation": "$300+40+2=342$.",
+    "explanation": "החישוב: $300+40+2=342$.",
     "type": "mcq"
   },
   {
@@ -1529,7 +1529,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 2,
-    "explanation": "$3$."
+    "explanation": "ספרת היחידות במספר $23$ היא $3$."
   },
   {
     "id": "q-q-g2-numbers-1000-2",
@@ -1544,7 +1544,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "$4$."
+    "explanation": "ספרת היחידות במספר $24$ היא $4$."
   },
   {
     "id": "q-q-g2-numbers-1000-3",
@@ -1559,7 +1559,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "$5$."
+    "explanation": "ספרת היחידות במספר $15$ היא $5$."
   },
   {
     "id": "q-q-g2-numbers-1000-4",
@@ -1574,7 +1574,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "$7$."
+    "explanation": "ספרת היחידות במספר $27$ היא $7$."
   },
   {
     "id": "q-q-g2-numbers-1000-5",
@@ -1589,7 +1589,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "$5$."
+    "explanation": "ספרת היחידות במספר $75$ היא $5$."
   },
   {
     "id": "q-q-g2-numbers-1000-6",
@@ -1604,7 +1604,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$30$"
     ],
     "correct_index": 3,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $30$ גדול מ-$27$."
   },
   {
     "id": "q-q-g2-numbers-1000-7",
@@ -1619,7 +1619,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $28$ גדול מ-$22$."
   },
   {
     "id": "q-q-g2-numbers-1000-8",
@@ -1634,7 +1634,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "$6$."
+    "explanation": "ספרת היחידות במספר $66$ היא $6$."
   },
   {
     "id": "q-q-g2-numbers-1000-9",
@@ -1649,7 +1649,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 0,
-    "explanation": "$1$."
+    "explanation": "ספרת העשרות במספר $15$ היא $1$."
   },
   {
     "id": "q-q-g2-numbers-1000-10",
@@ -1664,7 +1664,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "$6$."
+    "explanation": "ספרת היחידות במספר $86$ היא $6$."
   },
   {
     "id": "q-q-g2-numbers-1000-11",
@@ -1679,7 +1679,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "$5$."
+    "explanation": "ספרת העשרות במספר $57$ היא $5$."
   },
   {
     "id": "q-q-g2-numbers-1000-12",
@@ -1694,7 +1694,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "$9$."
+    "explanation": "ספרת העשרות במספר $96$ היא $9$."
   },
   {
     "id": "q-q-g2-numbers-1000-13",
@@ -1709,7 +1709,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "$2$."
+    "explanation": "ספרת העשרות במספר $23$ היא $2$."
   },
   {
     "id": "q-q-g2-numbers-1000-14",
@@ -1724,7 +1724,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 3,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $15$ גדול מ-$9$."
   },
   {
     "id": "q-q-g2-numbers-1000-15",
@@ -1739,7 +1739,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "$6$."
+    "explanation": "ספרת העשרות במספר $65$ היא $6$."
   },
   {
     "id": "q-q-g2-numbers-1000-16",
@@ -1754,7 +1754,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$69$"
     ],
     "correct_index": 3,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $69$ גדול מ-$66$."
   },
   {
     "id": "q-q-g2-numbers-1000-17",
@@ -1769,7 +1769,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "$2$."
+    "explanation": "ספרת העשרות במספר $22$ היא $2$."
   },
   {
     "id": "q-q-g2-numbers-1000-18",
@@ -1784,7 +1784,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "$5$."
+    "explanation": "ספרת העשרות במספר $55$ היא $5$."
   },
   {
     "id": "q-q-g2-numbers-1000-19",
@@ -1799,7 +1799,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$52$"
     ],
     "correct_index": 3,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $52$ גדול מ-$49$."
   },
   {
     "id": "q-g2-as-1",
@@ -1813,7 +1813,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$70$"
     ],
     "correct_index": 0,
-    "explanation": "$48+25=73$.",
+    "explanation": "החישוב: $48+25=73$.",
     "type": "mcq"
   },
   {
@@ -1829,7 +1829,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$38$"
     ],
     "correct_index": 2,
-    "explanation": "$33+12=45$."
+    "explanation": "החישוב: $33+12=45$."
   },
   {
     "id": "q-q-g2-add-sub-100-2",
@@ -1844,7 +1844,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$40$"
     ],
     "correct_index": 1,
-    "explanation": "$89-44=45$."
+    "explanation": "החישוב: $89-44=45$."
   },
   {
     "id": "q-q-g2-add-sub-100-3",
@@ -1859,7 +1859,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$52$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $67$ ומחסירים את מה שנתנו: $67-11=56$."
   },
   {
     "id": "q-q-g2-add-sub-100-4",
@@ -1874,7 +1874,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$70$"
     ],
     "correct_index": 0,
-    "explanation": "$50+25=75$."
+    "explanation": "החישוב: $50+25=75$."
   },
   {
     "id": "q-q-g2-add-sub-100-5",
@@ -1889,7 +1889,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$104$"
     ],
     "correct_index": 0,
-    "explanation": "$82+29=111$."
+    "explanation": "החישוב: $82+29=111$."
   },
   {
     "id": "q-q-g2-add-sub-100-6",
@@ -1904,7 +1904,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$69$"
     ],
     "correct_index": 1,
-    "explanation": "$66+7=73$."
+    "explanation": "החישוב: $66+7=73$."
   },
   {
     "id": "q-q-g2-add-sub-100-7",
@@ -1919,7 +1919,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$42$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $62$ ומחסירים את מה שנתנו: $62-20=42$."
   },
   {
     "id": "q-q-g2-add-sub-100-8",
@@ -1934,7 +1934,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 3,
-    "explanation": "$6+19=25$."
+    "explanation": "החישוב: $6+19=25$."
   },
   {
     "id": "q-q-g2-add-sub-100-9",
@@ -1949,7 +1949,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$41$"
     ],
     "correct_index": 0,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $93$ ומחסירים את מה שנתנו: $93-48=45$."
   },
   {
     "id": "q-q-g2-add-sub-100-10",
@@ -1964,7 +1964,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$58$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $93$ ומחסירים את מה שנתנו: $93-28=65$."
   },
   {
     "id": "q-q-g2-add-sub-100-11",
@@ -1979,7 +1979,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $35$ ומחסירים את מה שנתנו: $35-24=11$."
   },
   {
     "id": "q-q-g2-add-sub-100-12",
@@ -1994,7 +1994,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$35$"
     ],
     "correct_index": 0,
-    "explanation": "$67-28=39$."
+    "explanation": "החישוב: $67-28=39$."
   },
   {
     "id": "q-q-g2-add-sub-100-13",
@@ -2009,7 +2009,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 0,
-    "explanation": "$64-40=24$."
+    "explanation": "החישוב: $64-40=24$."
   },
   {
     "id": "q-q-g2-add-sub-100-14",
@@ -2024,7 +2024,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$65$"
     ],
     "correct_index": 3,
-    "explanation": "$80-15=65$."
+    "explanation": "החישוב: $80-15=65$."
   },
   {
     "id": "q-q-g2-add-sub-100-15",
@@ -2039,7 +2039,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$68$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $99$ ומחסירים את מה שנתנו: $99-31=68$."
   },
   {
     "id": "q-q-g2-add-sub-100-16",
@@ -2054,7 +2054,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $31$ ומחסירים את מה שנתנו: $31-24=7$."
   },
   {
     "id": "q-q-g2-add-sub-100-17",
@@ -2069,7 +2069,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $16$ ומחסירים את מה שנתנו: $16-5=11$."
   },
   {
     "id": "q-q-g2-add-sub-100-18",
@@ -2084,7 +2084,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$66$"
     ],
     "correct_index": 3,
-    "explanation": "$19+47=66$."
+    "explanation": "החישוב: $19+47=66$."
   },
   {
     "id": "q-q-g2-add-sub-100-19",
@@ -2099,7 +2099,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$42$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $61$ ומחסירים את מה שנתנו: $61-19=42$."
   },
   {
     "id": "q-g2-md-1",
@@ -2113,7 +2113,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 0,
-    "explanation": "$4\\times 5=20$.",
+    "explanation": "החישוב: $4\\times 5=20$.",
     "type": "mcq"
   },
   {
@@ -2129,7 +2129,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "div."
+    "explanation": "החישוב: $110\\div 11=10$."
   },
   {
     "id": "q-q-g2-mul-div-intro-2",
@@ -2144,7 +2144,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "החישוב: $2\\times 8=16$."
   },
   {
     "id": "q-q-g2-mul-div-intro-3",
@@ -2159,7 +2159,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$63$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "החישוב: $10\\times 7=70$."
   },
   {
     "id": "q-q-g2-mul-div-intro-4",
@@ -2174,7 +2174,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 1,
-    "explanation": "mul."
+    "explanation": "החישוב: $12\\times 2=24$."
   },
   {
     "id": "q-q-g2-mul-div-intro-5",
@@ -2189,7 +2189,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "div."
+    "explanation": "החישוב: $45\\div 9=5$."
   },
   {
     "id": "q-q-g2-mul-div-intro-6",
@@ -2204,7 +2204,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "div."
+    "explanation": "החישוב: $25\\div 5=5$."
   },
   {
     "id": "q-q-g2-mul-div-intro-7",
@@ -2219,7 +2219,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "החישוב: $6\\times 2=12$."
   },
   {
     "id": "q-q-g2-mul-div-intro-8",
@@ -2234,7 +2234,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "div."
+    "explanation": "החישוב: $63\\div 9=7$."
   },
   {
     "id": "q-q-g2-mul-div-intro-9",
@@ -2249,7 +2249,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 1,
-    "explanation": "mul."
+    "explanation": "החישוב: $4\\times 2=8$."
   },
   {
     "id": "q-q-g2-mul-div-intro-10",
@@ -2264,7 +2264,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 3,
-    "explanation": "div."
+    "explanation": "החישוב: $72\\div 12=6$."
   },
   {
     "id": "q-q-g2-mul-div-intro-11",
@@ -2279,7 +2279,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$21$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "החישוב: $4\\times 7=28$."
   },
   {
     "id": "q-q-g2-mul-div-intro-12",
@@ -2294,7 +2294,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$120$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "החישוב: $12\\times 10=120$."
   },
   {
     "id": "q-q-g2-mul-div-intro-13",
@@ -2309,7 +2309,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "mul."
+    "explanation": "החישוב: $7\\times 2=14$."
   },
   {
     "id": "q-q-g2-mul-div-intro-14",
@@ -2324,7 +2324,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 1,
-    "explanation": "div."
+    "explanation": "החישוב: $6\\div 2=3$."
   },
   {
     "id": "q-q-g2-mul-div-intro-15",
@@ -2339,7 +2339,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$45$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "החישוב: $5\\times 9=45$."
   },
   {
     "id": "q-q-g2-mul-div-intro-16",
@@ -2354,7 +2354,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "mul."
+    "explanation": "החישוב: $4\\times 3=12$."
   },
   {
     "id": "q-q-g2-mul-div-intro-17",
@@ -2369,7 +2369,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "החישוב: $11\\times 2=22$."
   },
   {
     "id": "q-q-g2-mul-div-intro-18",
@@ -2384,7 +2384,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$21$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "החישוב: $7\\times 3=21$."
   },
   {
     "id": "q-q-g2-mul-div-intro-19",
@@ -2399,7 +2399,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "div."
+    "explanation": "החישוב: $15\\div 3=5$."
   },
   {
     "id": "q-g2-fr-1",
@@ -2413,7 +2413,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "$8:2=4$.",
+    "explanation": "החישוב: $8:2=4$.",
     "type": "mcq"
   },
   {
@@ -2429,7 +2429,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{2}{4}$"
     ],
     "correct_index": 0,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{3}{5}$ גדול יותר."
   },
   {
     "id": "q-q-g2-fractions-half-2",
@@ -2444,7 +2444,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{5}{6}$ גדול יותר."
   },
   {
     "id": "q-q-g2-fractions-half-3",
@@ -2459,7 +2459,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "frac."
+    "explanation": "3 מתוך 8 נכתב כשבר $\\frac{3}{8}$."
   },
   {
     "id": "q-q-g2-fractions-half-4",
@@ -2474,7 +2474,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{3}$"
     ],
     "correct_index": 2,
-    "explanation": "frac."
+    "explanation": "3 מתוך 5 נכתב כשבר $\\frac{3}{5}$."
   },
   {
     "id": "q-q-g2-fractions-half-5",
@@ -2489,7 +2489,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{6}$"
     ],
     "correct_index": 1,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{3}{4}$ גדול יותר."
   },
   {
     "id": "q-q-g2-fractions-half-6",
@@ -2504,7 +2504,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{5}$"
     ],
     "correct_index": 3,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{3}{5}$ גדול יותר."
   },
   {
     "id": "q-q-g2-fractions-half-7",
@@ -2519,7 +2519,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{2}{3}$ גדול יותר."
   },
   {
     "id": "q-q-g2-fractions-half-8",
@@ -2534,7 +2534,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 2,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{2}{3}$ גדול יותר."
   },
   {
     "id": "q-q-g2-fractions-half-9",
@@ -2549,7 +2549,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{4}{2}$"
     ],
     "correct_index": 2,
-    "explanation": "frac."
+    "explanation": "2 מתוך 4 נכתב כשבר $\\frac{2}{4}$."
   },
   {
     "id": "q-q-g2-fractions-half-10",
@@ -2564,7 +2564,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{3}{4}$ גדול יותר."
   },
   {
     "id": "q-q-g2-fractions-half-11",
@@ -2579,7 +2579,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 0,
-    "explanation": "frac."
+    "explanation": "2 מתוך 3 נכתב כשבר $\\frac{2}{3}$."
   },
   {
     "id": "q-q-g2-fractions-half-12",
@@ -2594,7 +2594,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 0,
-    "explanation": "3."
+    "explanation": "$\\frac{1}{4}$ מ-$12$ הוא $\\frac{1}{4}\\times 12=3$."
   },
   {
     "id": "q-q-g2-fractions-half-13",
@@ -2609,7 +2609,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{1}$"
     ],
     "correct_index": 2,
-    "explanation": "frac."
+    "explanation": "1 מתוך 3 נכתב כשבר $\\frac{1}{3}$."
   },
   {
     "id": "q-q-g2-fractions-half-14",
@@ -2624,7 +2624,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "frac."
+    "explanation": "1 מתוך 2 נכתב כשבר $\\frac{1}{2}$."
   },
   {
     "id": "q-q-g2-fractions-half-15",
@@ -2639,7 +2639,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{3}$"
     ],
     "correct_index": 0,
-    "explanation": "frac."
+    "explanation": "3 מתוך 4 נכתב כשבר $\\frac{3}{4}$."
   },
   {
     "id": "q-q-g2-fractions-half-16",
@@ -2654,7 +2654,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{1}$"
     ],
     "correct_index": 0,
-    "explanation": "frac."
+    "explanation": "1 מתוך 6 נכתב כשבר $\\frac{1}{6}$."
   },
   {
     "id": "q-q-g2-fractions-half-17",
@@ -2669,7 +2669,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{2}{5}$ גדול יותר."
   },
   {
     "id": "q-q-g2-fractions-half-18",
@@ -2684,7 +2684,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "frac."
+    "explanation": "1 מתוך 4 נכתב כשבר $\\frac{1}{4}$."
   },
   {
     "id": "q-q-g2-fractions-half-19",
@@ -2699,7 +2699,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{2}{5}$"
     ],
     "correct_index": 3,
-    "explanation": "frac."
+    "explanation": "2 מתוך 5 נכתב כשבר $\\frac{2}{5}$."
   },
   {
     "id": "q-g2-sm-1",
@@ -2713,7 +2713,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$20$ ס\\\"מ"
     ],
     "correct_index": 0,
-    "explanation": "$2(5+3)=16$.",
+    "explanation": "החישוב: $2(5+3)=16$.",
     "type": "mcq"
   },
   {
@@ -2729,7 +2729,7 @@ export const ELEMENTARY_QUESTIONS = [
       "משולש"
     ],
     "correct_index": 0,
-    "explanation": "circ."
+    "explanation": "עיגול נבנה מקו עקום סגור ולא מצלעות ישרות, ולכן אינו מצולע."
   },
   {
     "id": "q-q-g2-shapes-measure-2",
@@ -2744,7 +2744,7 @@ export const ELEMENTARY_QUESTIONS = [
       "ריבוע"
     ],
     "correct_index": 3,
-    "explanation": "sq."
+    "explanation": "הצורה בעלת 4 צלעות שוות וכל הזוויות ישרות היא ריבוע."
   },
   {
     "id": "q-q-g2-shapes-measure-3",
@@ -2759,7 +2759,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "3."
+    "explanation": "למשולש יש 3 קודקודים (נקודות שבהן נפגשות הצלעות)."
   },
   {
     "id": "q-q-g2-shapes-measure-4",
@@ -2774,7 +2774,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 3,
-    "explanation": "6."
+    "explanation": "למשושה יש 6 צלעות."
   },
   {
     "id": "q-q-g2-shapes-measure-5",
@@ -2789,7 +2789,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 0,
-    "explanation": "5."
+    "explanation": "למחומש יש 5 צלעות."
   },
   {
     "id": "q-q-g2-shapes-measure-6",
@@ -2804,7 +2804,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "2."
+    "explanation": "לריבוע (וגם למלבן) יש $2$ אלכסונים."
   },
   {
     "id": "q-q-g2-shapes-measure-7",
@@ -2819,7 +2819,7 @@ export const ELEMENTARY_QUESTIONS = [
       "לא קיימות"
     ],
     "correct_index": 2,
-    "explanation": "par."
+    "explanation": "התשובה הנכונה היא שווות ומקבילות."
   },
   {
     "id": "q-q-g2-shapes-measure-8",
@@ -2834,7 +2834,7 @@ export const ELEMENTARY_QUESTIONS = [
       "ריבוע"
     ],
     "correct_index": 1,
-    "explanation": "pent."
+    "explanation": "התשובה הנכונה היא מחומש."
   },
   {
     "id": "q-q-g2-shapes-measure-9",
@@ -2849,7 +2849,7 @@ export const ELEMENTARY_QUESTIONS = [
       "עיגול"
     ],
     "correct_index": 0,
-    "explanation": "sq."
+    "explanation": "התשובה הנכונה היא ריבוע."
   },
   {
     "id": "q-q-g2-shapes-measure-10",
@@ -2864,7 +2864,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "4."
+    "explanation": "למלבן יש 4 צלעות."
   },
   {
     "id": "q-q-g2-shapes-measure-11",
@@ -2879,7 +2879,7 @@ export const ELEMENTARY_QUESTIONS = [
       "משולש"
     ],
     "correct_index": 2,
-    "explanation": "rect."
+    "explanation": "ריבוע הוא מקרה פרטי של מלבן (עם כל הצלעות שוות), ולכן הוא גם מלבן."
   },
   {
     "id": "q-q-g2-shapes-measure-12",
@@ -2894,7 +2894,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$90^\\circ$"
     ],
     "correct_index": 2,
-    "explanation": "180."
+    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
   },
   {
     "id": "q-q-g2-shapes-measure-13",
@@ -2909,7 +2909,7 @@ export const ELEMENTARY_QUESTIONS = [
       "קהה"
     ],
     "correct_index": 1,
-    "explanation": "eq."
+    "explanation": "משולש שכל צלעותיו שוות נקרא משולש שווה-צלעות."
   },
   {
     "id": "q-q-g2-shapes-measure-14",
@@ -2924,7 +2924,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "4."
+    "explanation": "לריבוע יש 4 צלעות."
   },
   {
     "id": "q-q-g2-shapes-measure-15",
@@ -2939,7 +2939,7 @@ export const ELEMENTARY_QUESTIONS = [
       "עיגול"
     ],
     "correct_index": 2,
-    "explanation": "rect."
+    "explanation": "התשובה הנכונה היא זוגות צלעות שווות."
   },
   {
     "id": "q-q-g2-shapes-measure-16",
@@ -2954,7 +2954,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "4."
+    "explanation": "לריבוע יש 4 קודקודים (נקודות שבהן נפגשות הצלעות)."
   },
   {
     "id": "q-q-g2-shapes-measure-17",
@@ -2969,7 +2969,7 @@ export const ELEMENTARY_QUESTIONS = [
       "עיגול"
     ],
     "correct_index": 0,
-    "explanation": "tri."
+    "explanation": "התשובה הנכונה היא משולש."
   },
   {
     "id": "q-q-g2-shapes-measure-18",
@@ -2984,7 +2984,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 0,
-    "explanation": "3."
+    "explanation": "למשולש יש 3 צלעות."
   },
   {
     "id": "q-q-g2-shapes-measure-19",
@@ -2999,7 +2999,7 @@ export const ELEMENTARY_QUESTIONS = [
       "ריבוע"
     ],
     "correct_index": 1,
-    "explanation": "circ."
+    "explanation": "התשובה הנכונה היא עיגול."
   },
   {
     "id": "q-g2-d-1",
@@ -3013,7 +3013,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "$3+5=8$.",
+    "explanation": "החישוב: $3+5=8$.",
     "type": "mcq"
   },
   {
@@ -3029,7 +3029,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$21$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 11, 25, 27, 29. החציון הוא הערך האמצעי — $25$."
   },
   {
     "id": "q-q-g2-data-2",
@@ -3044,7 +3044,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$19$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 14, 16, 19, 25, 26. החציון הוא הערך האמצעי — $19$."
   },
   {
     "id": "q-q-g2-data-3",
@@ -3059,7 +3059,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 7, 17, 18, 19, 27. החציון הוא הערך האמצעי — $18$."
   },
   {
     "id": "q-q-g2-data-4",
@@ -3074,7 +3074,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 8, 10, 17, 26. החציון הוא הערך האמצעי — $10$."
   },
   {
     "id": "q-q-g2-data-5",
@@ -3089,7 +3089,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 8, 12, 15, 22. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-q-g2-data-6",
@@ -3104,7 +3104,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 4, 5, 8, 26. החציון הוא הערך האמצעי — $5$."
   },
   {
     "id": "q-q-g2-data-7",
@@ -3119,7 +3119,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 15, 16, 18, 19, 24. החציון הוא הערך האמצעי — $18$."
   },
   {
     "id": "q-q-g2-data-8",
@@ -3134,7 +3134,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $65$, ומחלקים במספר המספרים ($5$): $65\\div 5=13$."
   },
   {
     "id": "q-q-g2-data-9",
@@ -3149,7 +3149,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$14$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 11, 15, 18, 25, 27. החציון הוא הערך האמצעי — $18$."
   },
   {
     "id": "q-q-g2-data-10",
@@ -3164,7 +3164,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 7, 10, 12, 26. החציון הוא הערך האמצעי — $10$."
   },
   {
     "id": "q-q-g2-data-11",
@@ -3179,7 +3179,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 13, 14, 23, 24, 29. החציון הוא הערך האמצעי — $23$."
   },
   {
     "id": "q-q-g2-data-12",
@@ -3194,7 +3194,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 11, 14, 23, 29. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g2-data-13",
@@ -3209,7 +3209,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 10, 14, 17, 21, 25. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g2-data-14",
@@ -3224,7 +3224,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 9, 12, 15, 26. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-q-g2-data-15",
@@ -3239,7 +3239,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 16, 17, 23, 27. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g2-data-16",
@@ -3254,7 +3254,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 0,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $85$, ומחלקים במספר המספרים ($5$): $85\\div 5=17$."
   },
   {
     "id": "q-q-g2-data-17",
@@ -3269,7 +3269,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$14$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 12, 18, 26, 29. החציון הוא הערך האמצעי — $18$."
   },
   {
     "id": "q-q-g2-data-18",
@@ -3284,7 +3284,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 11, 14, 20, 24, 28. החציון הוא הערך האמצעי — $20$."
   },
   {
     "id": "q-q-g2-data-19",
@@ -3299,7 +3299,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 12, 13, 15, 17, 21. החציון הוא הערך האמצעי — $15$."
   },
   {
     "id": "q-g3-n-1",
@@ -3329,7 +3329,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 0,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $281$ היא $2$."
   },
   {
     "id": "q-q-g3-numbers-10000-2",
@@ -3344,7 +3344,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 0,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $513$ היא $5$."
   },
   {
     "id": "q-q-g3-numbers-10000-3",
@@ -3359,7 +3359,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $507$ היא $5$."
   },
   {
     "id": "q-q-g3-numbers-10000-4",
@@ -3374,7 +3374,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $936$ היא $9$."
   },
   {
     "id": "q-q-g3-numbers-10000-5",
@@ -3389,7 +3389,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$761$"
     ],
     "correct_index": 1,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $767$ גדול מ-$761$."
   },
   {
     "id": "q-q-g3-numbers-10000-6",
@@ -3404,7 +3404,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$358$"
     ],
     "correct_index": 3,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $358$ גדול מ-$352$."
   },
   {
     "id": "q-q-g3-numbers-10000-7",
@@ -3419,7 +3419,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 1,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $324$ גדול מ-$318$."
   },
   {
     "id": "q-q-g3-numbers-10000-8",
@@ -3434,7 +3434,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $367$ גדול מ-$364$."
   },
   {
     "id": "q-q-g3-numbers-10000-9",
@@ -3449,7 +3449,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 1,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $203$ היא $2$."
   },
   {
     "id": "q-q-g3-numbers-10000-10",
@@ -3464,7 +3464,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $450$ גדול מ-$447$."
   },
   {
     "id": "q-q-g3-numbers-10000-11",
@@ -3479,7 +3479,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 3,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $615$ היא $6$."
   },
   {
     "id": "q-q-g3-numbers-10000-12",
@@ -3494,7 +3494,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 0,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $12$ גדול מ-$9$."
   },
   {
     "id": "q-q-g3-numbers-10000-13",
@@ -3509,7 +3509,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $478$ היא $4$."
   },
   {
     "id": "q-q-g3-numbers-10000-14",
@@ -3524,7 +3524,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $281$ גדול מ-$278$."
   },
   {
     "id": "q-q-g3-numbers-10000-15",
@@ -3539,7 +3539,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 3,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $919$ היא $9$."
   },
   {
     "id": "q-q-g3-numbers-10000-16",
@@ -3554,7 +3554,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $899$ גדול מ-$896$."
   },
   {
     "id": "q-q-g3-numbers-10000-17",
@@ -3569,7 +3569,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $617$ היא $6$."
   },
   {
     "id": "q-q-g3-numbers-10000-18",
@@ -3584,7 +3584,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$936$"
     ],
     "correct_index": 1,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $942$ גדול מ-$936$."
   },
   {
     "id": "q-q-g3-numbers-10000-19",
@@ -3599,7 +3599,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "$2$."
+    "explanation": "ספרת היחידות במספר $52$ היא $2$."
   },
   {
     "id": "q-g3-as-1",
@@ -3613,7 +3613,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1{,}950$"
     ],
     "correct_index": 0,
-    "explanation": "$1250+730=1980$.",
+    "explanation": "החישוב: $1250+730=1980$.",
     "type": "mcq"
   },
   {
@@ -3629,7 +3629,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1250$"
     ],
     "correct_index": 3,
-    "explanation": "$5561-4311=1250$."
+    "explanation": "החישוב: $5561-4311=1250$."
   },
   {
     "id": "q-q-g3-add-sub-large-2",
@@ -3644,7 +3644,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4043$"
     ],
     "correct_index": 2,
-    "explanation": "$1701+2347=4048$."
+    "explanation": "החישוב: $1701+2347=4048$."
   },
   {
     "id": "q-q-g3-add-sub-large-3",
@@ -3659,7 +3659,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1229$"
     ],
     "correct_index": 1,
-    "explanation": "$2166-932=1234$."
+    "explanation": "החישוב: $2166-932=1234$."
   },
   {
     "id": "q-q-g3-add-sub-large-4",
@@ -3674,7 +3674,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7086$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $7207$ ומחסירים את מה שנתנו: $7207-114=7093$."
   },
   {
     "id": "q-q-g3-add-sub-large-5",
@@ -3689,7 +3689,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$796$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $4701$ ומחסירים את מה שנתנו: $4701-3905=796$."
   },
   {
     "id": "q-q-g3-add-sub-large-6",
@@ -3704,7 +3704,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4886$"
     ],
     "correct_index": 2,
-    "explanation": "$293+4598=4891$."
+    "explanation": "החישוב: $293+4598=4891$."
   },
   {
     "id": "q-q-g3-add-sub-large-7",
@@ -3719,7 +3719,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8623$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $9751$ ומחסירים את מה שנתנו: $9751-1121=8630$."
   },
   {
     "id": "q-q-g3-add-sub-large-8",
@@ -3734,7 +3734,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$791$"
     ],
     "correct_index": 3,
-    "explanation": "$3084-2293=791$."
+    "explanation": "החישוב: $3084-2293=791$."
   },
   {
     "id": "q-q-g3-add-sub-large-9",
@@ -3749,7 +3749,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4316$"
     ],
     "correct_index": 2,
-    "explanation": "$6124-1801=4323$."
+    "explanation": "החישוב: $6124-1801=4323$."
   },
   {
     "id": "q-q-g3-add-sub-large-10",
@@ -3764,7 +3764,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$10584$"
     ],
     "correct_index": 3,
-    "explanation": "$8133+2451=10584$."
+    "explanation": "החישוב: $8133+2451=10584$."
   },
   {
     "id": "q-q-g3-add-sub-large-11",
@@ -3779,7 +3779,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$12364$"
     ],
     "correct_index": 1,
-    "explanation": "$9454+2917=12371$."
+    "explanation": "החישוב: $9454+2917=12371$."
   },
   {
     "id": "q-q-g3-add-sub-large-12",
@@ -3794,7 +3794,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8726$"
     ],
     "correct_index": 2,
-    "explanation": "$5939+2794=8733$."
+    "explanation": "החישוב: $5939+2794=8733$."
   },
   {
     "id": "q-q-g3-add-sub-large-13",
@@ -3809,7 +3809,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$825$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $2561$ ומחסירים את מה שנתנו: $2561-1736=825$."
   },
   {
     "id": "q-q-g3-add-sub-large-14",
@@ -3824,7 +3824,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$570$"
     ],
     "correct_index": 2,
-    "explanation": "$4538-3964=574$."
+    "explanation": "החישוב: $4538-3964=574$."
   },
   {
     "id": "q-q-g3-add-sub-large-15",
@@ -3839,7 +3839,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3721$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $7599$ ומחסירים את מה שנתנו: $7599-3871=3728$."
   },
   {
     "id": "q-q-g3-add-sub-large-16",
@@ -3854,7 +3854,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7621$"
     ],
     "correct_index": 0,
-    "explanation": "$9258-1630=7628$."
+    "explanation": "החישוב: $9258-1630=7628$."
   },
   {
     "id": "q-q-g3-add-sub-large-17",
@@ -3869,7 +3869,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4602$"
     ],
     "correct_index": 2,
-    "explanation": "$9025-4419=4606$."
+    "explanation": "החישוב: $9025-4419=4606$."
   },
   {
     "id": "q-q-g3-add-sub-large-18",
@@ -3884,7 +3884,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3413$"
     ],
     "correct_index": 3,
-    "explanation": "$6916-3503=3413$."
+    "explanation": "החישוב: $6916-3503=3413$."
   },
   {
     "id": "q-q-g3-add-sub-large-19",
@@ -3899,7 +3899,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1230$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מתחילים עם $2166$ ומחסירים את מה שנתנו: $2166-932=1234$."
   },
   {
     "id": "q-g3-md-1",
@@ -3913,7 +3913,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$48$"
     ],
     "correct_index": 0,
-    "explanation": "$7\\times 8=56$.",
+    "explanation": "החישוב: $7\\times 8=56$.",
     "type": "mcq"
   },
   {
@@ -3929,7 +3929,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "div."
+    "explanation": "החישוב: $36\\div 4=9$."
   },
   {
     "id": "q-q-g3-mul-div-100-2",
@@ -3944,7 +3944,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$40$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "החישוב: $11\\times 4=44$."
   },
   {
     "id": "q-q-g3-mul-div-100-3",
@@ -3959,7 +3959,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$57$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "החישוב: $8\\times 8=64$."
   },
   {
     "id": "q-q-g3-mul-div-100-4",
@@ -3974,7 +3974,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$35$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "החישוב: $7\\times 6=42$."
   },
   {
     "id": "q-q-g3-mul-div-100-5",
@@ -3989,7 +3989,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$31$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "החישוב: $9\\times 4=36$."
   },
   {
     "id": "q-q-g3-mul-div-100-6",
@@ -4004,7 +4004,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "div."
+    "explanation": "החישוב: $10\\div 2=5$."
   },
   {
     "id": "q-q-g3-mul-div-100-7",
@@ -4019,7 +4019,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "div."
+    "explanation": "החישוב: $49\\div 7=7$."
   },
   {
     "id": "q-q-g3-mul-div-100-8",
@@ -4034,7 +4034,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "div."
+    "explanation": "החישוב: $21\\div 3=7$."
   },
   {
     "id": "q-q-g3-mul-div-100-9",
@@ -4049,7 +4049,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$43$"
     ],
     "correct_index": 1,
-    "explanation": "mul."
+    "explanation": "החישוב: $10\\times 5=50$."
   },
   {
     "id": "q-q-g3-mul-div-100-10",
@@ -4064,7 +4064,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "div."
+    "explanation": "החישוב: $36\\div 6=6$."
   },
   {
     "id": "q-q-g3-mul-div-100-11",
@@ -4079,7 +4079,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 3,
-    "explanation": "div."
+    "explanation": "החישוב: $24\\div 6=4$."
   },
   {
     "id": "q-q-g3-mul-div-100-12",
@@ -4094,7 +4094,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "div."
+    "explanation": "החישוב: $50\\div 5=10$."
   },
   {
     "id": "q-q-g3-mul-div-100-13",
@@ -4109,7 +4109,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "div."
+    "explanation": "החישוב: $35\\div 7=5$."
   },
   {
     "id": "q-q-g3-mul-div-100-14",
@@ -4124,7 +4124,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 3,
-    "explanation": "div."
+    "explanation": "החישוב: $54\\div 9=6$."
   },
   {
     "id": "q-q-g3-mul-div-100-15",
@@ -4139,7 +4139,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$35$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "החישוב: $7\\times 5=35$."
   },
   {
     "id": "q-q-g3-mul-div-100-16",
@@ -4154,7 +4154,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-2$"
     ],
     "correct_index": 2,
-    "explanation": "div."
+    "explanation": "החישוב: $18\\div 6=3$."
   },
   {
     "id": "q-q-g3-mul-div-100-17",
@@ -4169,7 +4169,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "div."
+    "explanation": "החישוב: $80\\div 10=8$."
   },
   {
     "id": "q-q-g3-mul-div-100-18",
@@ -4184,7 +4184,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$36$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "החישוב: $12\\times 3=36$."
   },
   {
     "id": "q-q-g3-mul-div-100-19",
@@ -4199,7 +4199,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 2,
-    "explanation": "div."
+    "explanation": "החישוב: $12\\div 3=4$."
   },
   {
     "id": "q-g3-fr-1",
@@ -4229,7 +4229,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{2}{5}$"
     ],
     "correct_index": 3,
-    "explanation": "frac."
+    "explanation": "2 מתוך 5 נכתב כשבר $\\frac{2}{5}$."
   },
   {
     "id": "q-q-g3-fractions-unit-2",
@@ -4244,7 +4244,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 0,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{5}{6}$ גדול יותר."
   },
   {
     "id": "q-q-g3-fractions-unit-3",
@@ -4259,7 +4259,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{6}$"
     ],
     "correct_index": 3,
-    "explanation": "frac."
+    "explanation": "1 מתוך 6 נכתב כשבר $\\frac{1}{6}$."
   },
   {
     "id": "q-q-g3-fractions-unit-4",
@@ -4274,7 +4274,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "frac."
+    "explanation": "3 מתוך 5 נכתב כשבר $\\frac{3}{5}$."
   },
   {
     "id": "q-q-g3-fractions-unit-5",
@@ -4289,7 +4289,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 1,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{3}{5}$ גדול יותר."
   },
   {
     "id": "q-q-g3-fractions-unit-6",
@@ -4304,7 +4304,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{2}{3}$"
     ],
     "correct_index": 3,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{2}{3}$ גדול יותר."
   },
   {
     "id": "q-q-g3-fractions-unit-7",
@@ -4319,7 +4319,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 2,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{1}{4}$ גדול יותר."
   },
   {
     "id": "q-q-g3-fractions-unit-8",
@@ -4334,7 +4334,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 2,
-    "explanation": "5."
+    "explanation": "$\\frac{1}{2}$ מ-$10$ הוא $\\frac{1}{2}\\times 10=5$."
   },
   {
     "id": "q-q-g3-fractions-unit-9",
@@ -4349,7 +4349,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{2}{4}$"
     ],
     "correct_index": 2,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{5}{6}$ גדול יותר."
   },
   {
     "id": "q-q-g3-fractions-unit-10",
@@ -4364,7 +4364,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{3}$"
     ],
     "correct_index": 1,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{3}{5}$ גדול יותר."
   },
   {
     "id": "q-q-g3-fractions-unit-11",
@@ -4379,7 +4379,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{4}$"
     ],
     "correct_index": 3,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{3}{4}$ גדול יותר."
   },
   {
     "id": "q-q-g3-fractions-unit-12",
@@ -4394,7 +4394,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "6."
+    "explanation": "$\\frac{3}{4}$ מ-$8$ הוא $\\frac{3}{4}\\times 8=6$."
   },
   {
     "id": "q-q-g3-fractions-unit-13",
@@ -4409,7 +4409,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{4}$"
     ],
     "correct_index": 3,
-    "explanation": "frac."
+    "explanation": "1 מתוך 4 נכתב כשבר $\\frac{1}{4}$."
   },
   {
     "id": "q-q-g3-fractions-unit-14",
@@ -4424,7 +4424,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "frac."
+    "explanation": "3 מתוך 4 נכתב כשבר $\\frac{3}{4}$."
   },
   {
     "id": "q-q-g3-fractions-unit-15",
@@ -4439,7 +4439,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{2}{3}$"
     ],
     "correct_index": 3,
-    "explanation": "compare."
+    "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{2}{3}$ גדול יותר."
   },
   {
     "id": "q-q-g3-fractions-unit-16",
@@ -4454,7 +4454,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "frac."
+    "explanation": "1 מתוך 2 נכתב כשבר $\\frac{1}{2}$."
   },
   {
     "id": "q-q-g3-fractions-unit-17",
@@ -4469,7 +4469,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{8}$"
     ],
     "correct_index": 3,
-    "explanation": "frac."
+    "explanation": "3 מתוך 8 נכתב כשבר $\\frac{3}{8}$."
   },
   {
     "id": "q-q-g3-fractions-unit-18",
@@ -4484,7 +4484,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{5}{6}$"
     ],
     "correct_index": 3,
-    "explanation": "frac."
+    "explanation": "5 מתוך 6 נכתב כשבר $\\frac{5}{6}$."
   },
   {
     "id": "q-q-g3-fractions-unit-19",
@@ -4499,7 +4499,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 0,
-    "explanation": "frac."
+    "explanation": "2 מתוך 3 נכתב כשבר $\\frac{2}{3}$."
   },
   {
     "id": "q-g3-geo-1",
@@ -4529,7 +4529,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$51$"
     ],
     "correct_index": 1,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $7\\times 8=56$."
   },
   {
     "id": "q-q-g3-geometry-2",
@@ -4544,7 +4544,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $6\\times 2=12$."
   },
   {
     "id": "q-q-g3-geometry-3",
@@ -4559,7 +4559,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$83$"
     ],
     "correct_index": 2,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $10\\times 9=90$."
   },
   {
     "id": "q-q-g3-geometry-4",
@@ -4574,7 +4574,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $2^2=4$."
   },
   {
     "id": "q-q-g3-geometry-5",
@@ -4589,7 +4589,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 0,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 5=20$."
   },
   {
     "id": "q-q-g3-geometry-6",
@@ -4604,7 +4604,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$31$"
     ],
     "correct_index": 0,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 9=36$."
   },
   {
     "id": "q-q-g3-geometry-7",
@@ -4619,7 +4619,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$14$"
     ],
     "correct_index": 1,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $3\\times 6=18$."
   },
   {
     "id": "q-q-g3-geometry-8",
@@ -4634,7 +4634,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$45$"
     ],
     "correct_index": 2,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $7^2=49$."
   },
   {
     "id": "q-q-g3-geometry-9",
@@ -4649,7 +4649,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $3^2=9$."
   },
   {
     "id": "q-q-g3-geometry-10",
@@ -4664,7 +4664,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 1,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(2+2)=8$."
   },
   {
     "id": "q-q-g3-geometry-11",
@@ -4679,7 +4679,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$121$"
     ],
     "correct_index": 3,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $11^2=121$."
   },
   {
     "id": "q-q-g3-geometry-12",
@@ -4694,7 +4694,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$28$"
     ],
     "correct_index": 0,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(11+5)=32$."
   },
   {
     "id": "q-q-g3-geometry-13",
@@ -4709,7 +4709,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$63$"
     ],
     "correct_index": 3,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $7\\times 9=63$."
   },
   {
     "id": "q-q-g3-geometry-14",
@@ -4724,7 +4724,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$21$"
     ],
     "correct_index": 2,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $7\\times 4=28$."
   },
   {
     "id": "q-q-g3-geometry-15",
@@ -4739,7 +4739,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$50$"
     ],
     "correct_index": 3,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $10\\times 5=50$."
   },
   {
     "id": "q-q-g3-geometry-16",
@@ -4754,7 +4754,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$31$"
     ],
     "correct_index": 2,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $5\\times 7=35$."
   },
   {
     "id": "q-q-g3-geometry-17",
@@ -4769,7 +4769,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$45$"
     ],
     "correct_index": 3,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $9\\times 5=45$."
   },
   {
     "id": "q-q-g3-geometry-18",
@@ -4784,7 +4784,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 2,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 3=12$."
   },
   {
     "id": "q-q-g3-geometry-19",
@@ -4799,7 +4799,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$76$"
     ],
     "correct_index": 0,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $9^2=81$."
   },
   {
     "id": "q-g3-ar-1",
@@ -4813,7 +4813,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 0,
-    "explanation": "$6\\cdot 4=24$.",
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $6\\times 4=24$.",
     "type": "mcq"
   },
   {
@@ -4829,7 +4829,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$39$"
     ],
     "correct_index": 0,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $11\\times 4=44$."
   },
   {
     "id": "q-q-g3-area-2",
@@ -4844,7 +4844,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 1,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $3\\times 2=6$."
   },
   {
     "id": "q-q-g3-area-3",
@@ -4859,7 +4859,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 4=16$."
   },
   {
     "id": "q-q-g3-area-4",
@@ -4874,7 +4874,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 0,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $5^2=25$."
   },
   {
     "id": "q-q-g3-area-5",
@@ -4889,7 +4889,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$50$"
     ],
     "correct_index": 0,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $11\\times 5=55$."
   },
   {
     "id": "q-q-g3-area-6",
@@ -4904,7 +4904,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 0,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(3+3)=12$."
   },
   {
     "id": "q-q-g3-area-7",
@@ -4919,7 +4919,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$24$"
     ],
     "correct_index": 0,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(6+8)=28$."
   },
   {
     "id": "q-q-g3-area-8",
@@ -4934,7 +4934,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 2,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $4\\times 4=16$."
   },
   {
     "id": "q-q-g3-area-9",
@@ -4949,7 +4949,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 1,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(3+8)=22$."
   },
   {
     "id": "q-q-g3-area-10",
@@ -4964,7 +4964,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$31$"
     ],
     "correct_index": 1,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $7\\times 5=35$."
   },
   {
     "id": "q-q-g3-area-11",
@@ -4979,7 +4979,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$27$"
     ],
     "correct_index": 1,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 8=32$."
   },
   {
     "id": "q-q-g3-area-12",
@@ -4994,7 +4994,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$58$"
     ],
     "correct_index": 2,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $7\\times 9=63$."
   },
   {
     "id": "q-q-g3-area-13",
@@ -5009,7 +5009,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$34$"
     ],
     "correct_index": 3,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(11+6)=34$."
   },
   {
     "id": "q-q-g3-area-14",
@@ -5024,7 +5024,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 0,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(9+3)=24$."
   },
   {
     "id": "q-q-g3-area-15",
@@ -5039,7 +5039,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$24$"
     ],
     "correct_index": 2,
-    "explanation": "12."
+    "explanation": "התשובה הנכונה היא $12$."
   },
   {
     "id": "q-q-g3-area-16",
@@ -5054,7 +5054,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$16$"
     ],
     "correct_index": 2,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $10\\times 2=20$."
   },
   {
     "id": "q-q-g3-area-17",
@@ -5069,7 +5069,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$30$"
     ],
     "correct_index": 3,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $5\\times 6=30$."
   },
   {
     "id": "q-q-g3-area-18",
@@ -5084,7 +5084,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$40$"
     ],
     "correct_index": 3,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(11+9)=40$."
   },
   {
     "id": "q-q-g3-area-19",
@@ -5099,7 +5099,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 3,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(2+8)=20$."
   },
   {
     "id": "q-g4-ln-1",
@@ -5113,7 +5113,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$80$"
     ],
     "correct_index": 0,
-    "explanation": "$25\\times 4=100$.",
+    "explanation": "החישוב: $25\\times 4=100$.",
     "type": "mcq"
   },
   {
@@ -5129,7 +5129,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$752$"
     ],
     "correct_index": 3,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $752$ גדול מ-$746$."
   },
   {
     "id": "q-q-g4-large-numbers-2",
@@ -5144,7 +5144,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $636$ היא $6$."
   },
   {
     "id": "q-q-g4-large-numbers-3",
@@ -5159,7 +5159,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $4183$ גדול מ-$4180$."
   },
   {
     "id": "q-q-g4-large-numbers-4",
@@ -5168,13 +5168,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $4201$ כמה מאות?",
     "options": [
-      "$42$",
-      "$38$",
-      "$37$",
-      "$35$"
+      "$2$",
+      "$4$",
+      "$0$",
+      "$1$"
     ],
     "correct_index": 0,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $4201$ היא $2$."
   },
   {
     "id": "q-q-g4-large-numbers-5",
@@ -5183,13 +5183,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $2608$ כמה מאות?",
     "options": [
-      "$22$",
-      "$21$",
-      "$19$",
-      "$26$"
+      "$6$",
+      "$2$",
+      "$0$",
+      "$8$"
     ],
-    "correct_index": 3,
-    "explanation": "hundreds."
+    "correct_index": 0,
+    "explanation": "ספרת המאות במספר $2608$ היא $6$."
   },
   {
     "id": "q-q-g4-large-numbers-6",
@@ -5204,7 +5204,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4465$"
     ],
     "correct_index": 3,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $4465$ גדול מ-$4459$."
   },
   {
     "id": "q-q-g4-large-numbers-7",
@@ -5213,13 +5213,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $4192$ כמה מאות?",
     "options": [
-      "$41$",
-      "$37$",
-      "$36$",
-      "$34$"
+      "$1$",
+      "$4$",
+      "$9$",
+      "$2$"
     ],
     "correct_index": 0,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $4192$ היא $1$."
   },
   {
     "id": "q-q-g4-large-numbers-8",
@@ -5234,7 +5234,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2318$"
     ],
     "correct_index": 2,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $2321$ גדול מ-$2318$."
   },
   {
     "id": "q-q-g4-large-numbers-9",
@@ -5243,13 +5243,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $3237$ כמה מאות?",
     "options": [
-      "$27$",
-      "$32$",
-      "$28$",
-      "$25$"
+      "$2$",
+      "$3$",
+      "$7$",
+      "$5$"
     ],
-    "correct_index": 1,
-    "explanation": "hundreds."
+    "correct_index": 0,
+    "explanation": "ספרת המאות במספר $3237$ היא $2$."
   },
   {
     "id": "q-q-g4-large-numbers-10",
@@ -5264,7 +5264,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $726$ היא $7$."
   },
   {
     "id": "q-q-g4-large-numbers-11",
@@ -5279,7 +5279,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $1764$ גדול מ-$1761$."
   },
   {
     "id": "q-q-g4-large-numbers-12",
@@ -5288,13 +5288,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $4440$ כמה מאות?",
     "options": [
-      "$44$",
-      "$39$",
-      "$37$",
-      "$40$"
+      "$4$",
+      "$0$",
+      "$5$",
+      "$3$"
     ],
     "correct_index": 0,
-    "explanation": "hundreds."
+    "explanation": "ספרת המאות במספר $4440$ היא $4$."
   },
   {
     "id": "q-q-g4-large-numbers-13",
@@ -5309,7 +5309,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3835$"
     ],
     "correct_index": 3,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $3835$ גדול מ-$3832$."
   },
   {
     "id": "q-q-g4-large-numbers-14",
@@ -5324,7 +5324,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $2100$ גדול מ-$2097$."
   },
   {
     "id": "q-q-g4-large-numbers-15",
@@ -5333,13 +5333,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $4613$ כמה מאות?",
     "options": [
-      "$41$",
-      "$42$",
-      "$39$",
-      "$46$"
+      "$6$",
+      "$4$",
+      "$1$",
+      "$3$"
     ],
-    "correct_index": 3,
-    "explanation": "hundreds."
+    "correct_index": 0,
+    "explanation": "ספרת המאות במספר $4613$ היא $6$."
   },
   {
     "id": "q-q-g4-large-numbers-16",
@@ -5354,7 +5354,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$225$"
     ],
     "correct_index": 3,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $225$ גדול מ-$219$."
   },
   {
     "id": "q-q-g4-large-numbers-17",
@@ -5369,7 +5369,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4192$"
     ],
     "correct_index": 3,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $4192$ גדול מ-$4186$."
   },
   {
     "id": "q-q-g4-large-numbers-18",
@@ -5384,7 +5384,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $804$ גדול מ-$798$."
   },
   {
     "id": "q-q-g4-large-numbers-19",
@@ -5399,7 +5399,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4440$"
     ],
     "correct_index": 2,
-    "explanation": "max."
+    "explanation": "משווים ספרה-ספרה: $4446$ גדול מ-$4440$."
   },
   {
     "id": "q-g4-fr-1",
@@ -5413,7 +5413,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "$\\frac{1+2}{4}=\\frac{3}{4}$.",
+    "explanation": "החישוב: $\\frac{1+2}{4}=\\frac{3}{4}$.",
     "type": "mcq"
   },
   {
@@ -5429,7 +5429,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{5}$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מחשבים $\\frac{4}{5}-\\frac{3}{5}$. התוצאה: $0.20000000000000007$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-2",
@@ -5444,7 +5444,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{5}{10}$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מחשבים $\\frac{8}{10}-\\frac{5}{10}$. התוצאה: $0.30000000000000004$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-3",
@@ -5459,7 +5459,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{12}{16}$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{7}{8}+\\frac{5}{8}$. התוצאה: $1.5$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-4",
@@ -5474,7 +5474,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{5}$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מחשבים $\\frac{2}{5}-\\frac{1}{5}$. התוצאה: $0.2$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-5",
@@ -5489,7 +5489,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{9}{10}+\\frac{4}{10}$. התוצאה: $1.3$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-6",
@@ -5504,7 +5504,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{2}{10}+\\frac{7}{10}$. התוצאה: $0.8999999999999999$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-7",
@@ -5519,7 +5519,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{4}{1}$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מחשבים $\\frac{4}{8}-\\frac{1}{8}$. התוצאה: $0.375$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-8",
@@ -5534,7 +5534,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{8}{5}$"
     ],
     "correct_index": 3,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{9}{10}+\\frac{7}{10}$. התוצאה: $1.6$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-9",
@@ -5549,7 +5549,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{2}$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מחשבים $\\frac{3}{10}-\\frac{2}{10}$. התוצאה: $0.09999999999999998$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-10",
@@ -5564,7 +5564,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{2}{6}$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מחשבים $\\frac{3}{6}-\\frac{2}{6}$. התוצאה: $0.16666666666666669$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-11",
@@ -5579,7 +5579,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{6}{4}$"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{6}{8}+\\frac{4}{8}$. התוצאה: $1.25$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-12",
@@ -5594,7 +5594,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{10}{20}$"
     ],
     "correct_index": 1,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{3}{10}+\\frac{7}{10}$. התוצאה: $1$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-13",
@@ -5609,7 +5609,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{7}{8}+\\frac{4}{8}$. התוצאה: $1.375$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-14",
@@ -5624,7 +5624,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{17}{10}$"
     ],
     "correct_index": 3,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{8}{10}+\\frac{9}{10}$. התוצאה: $1.7000000000000002$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-15",
@@ -5639,7 +5639,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מחשבים $\\frac{8}{10}-\\frac{7}{10}$. התוצאה: $0.10000000000000009$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-16",
@@ -5654,7 +5654,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{5}{8}+\\frac{5}{8}$. התוצאה: $1.25$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-17",
@@ -5669,7 +5669,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{8}{5}$"
     ],
     "correct_index": 3,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{7}{10}+\\frac{9}{10}$. התוצאה: $1.6$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-18",
@@ -5684,7 +5684,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{1}{2}+\\frac{1}{2}$. התוצאה: $1$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-19",
@@ -5699,7 +5699,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{5}{1}$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{5}{10}+\\frac{1}{10}$. התוצאה: $0.6$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-g4-dec-1",
@@ -5713,7 +5713,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.03$"
     ],
     "correct_index": 0,
-    "explanation": "$0.70>0.35$.",
+    "explanation": "התשובה הנכונה היא $0.7$.",
     "type": "mcq"
   },
   {
@@ -5729,7 +5729,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{2}{5}$"
     ],
     "correct_index": 0,
-    "explanation": "1/4."
+    "explanation": "$0.25=\\frac{25}{100}$, ולאחר צמצום: $\\frac{1}{4}$."
   },
   {
     "id": "q-q-g4-decimals-intro-2",
@@ -5744,7 +5744,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.5$"
     ],
     "correct_index": 3,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $0.5$ גדול מ-$0.2$."
   },
   {
     "id": "q-q-g4-decimals-intro-3",
@@ -5759,7 +5759,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5.25$"
     ],
     "correct_index": 3,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $5.25$ גדול מ-$2.5$."
   },
   {
     "id": "q-q-g4-decimals-intro-4",
@@ -5774,7 +5774,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1.5$"
     ],
     "correct_index": 3,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $1.5$ גדול מ-$0.5$."
   },
   {
     "id": "q-q-g4-decimals-intro-5",
@@ -5789,7 +5789,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{5}$"
     ],
     "correct_index": 1,
-    "explanation": "1/2."
+    "explanation": "$0.5=\\frac{5}{10}$, ולאחר צמצום: $\\frac{1}{2}$."
   },
   {
     "id": "q-q-g4-decimals-intro-6",
@@ -5804,7 +5804,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $2.5$ גדול מ-$0.7$."
   },
   {
     "id": "q-q-g4-decimals-intro-7",
@@ -5819,7 +5819,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$70$"
     ],
     "correct_index": 0,
-    "explanation": "7."
+    "explanation": "הספרה הראשונה אחרי הנקודה העשרונית היא ספרת העשיריות: $7$."
   },
   {
     "id": "q-q-g4-decimals-intro-8",
@@ -5834,7 +5834,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.2$"
     ],
     "correct_index": 1,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $3.6$ גדול מ-$0.2$."
   },
   {
     "id": "q-q-g4-decimals-intro-9",
@@ -5849,7 +5849,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 1,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $4.2$ גדול מ-$1.5$."
   },
   {
     "id": "q-q-g4-decimals-intro-10",
@@ -5864,7 +5864,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1.2$"
     ],
     "correct_index": 3,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $1.2$ גדול מ-$0.35$."
   },
   {
     "id": "q-q-g4-decimals-intro-11",
@@ -5879,7 +5879,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 0,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $4.2$ גדול מ-$0.25$."
   },
   {
     "id": "q-q-g4-decimals-intro-12",
@@ -5894,7 +5894,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.3$"
     ],
     "correct_index": 1,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $5.25$ גדול מ-$0.3$."
   },
   {
     "id": "q-q-g4-decimals-intro-13",
@@ -5909,7 +5909,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.75$"
     ],
     "correct_index": 3,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $0.75$ גדול מ-$0.05$."
   },
   {
     "id": "q-q-g4-decimals-intro-14",
@@ -5924,7 +5924,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1.2$"
     ],
     "correct_index": 1,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $3.6$ גדול מ-$1.2$."
   },
   {
     "id": "q-q-g4-decimals-intro-15",
@@ -5939,7 +5939,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.1$"
     ],
     "correct_index": 0,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $0.35$ גדול מ-$0.1$."
   },
   {
     "id": "q-q-g4-decimals-intro-16",
@@ -5954,7 +5954,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 2,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $0.7$ גדול מ-$0.25$."
   },
   {
     "id": "q-q-g4-decimals-intro-17",
@@ -5969,7 +5969,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 0,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $0.75$ גדול מ-$0.3$."
   },
   {
     "id": "q-q-g4-decimals-intro-18",
@@ -5984,7 +5984,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.05$"
     ],
     "correct_index": 2,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $0.1$ גדול מ-$0.05$."
   },
   {
     "id": "q-q-g4-decimals-intro-551",
@@ -5999,7 +5999,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "x=b/a."
+    "explanation": "מחלקים את שני האגפים ב-$9$: $x=54\\div 9=6$."
   },
   {
     "id": "q-g4-geo-1",
@@ -6013,7 +6013,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 0,
-    "explanation": "$4\\times 6=24$.",
+    "explanation": "החישוב: $4\\times 6=24$.",
     "type": "mcq"
   },
   {
@@ -6029,7 +6029,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 0,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $10\\times 2=20$."
   },
   {
     "id": "q-q-g4-geometry-2",
@@ -6044,7 +6044,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$60$"
     ],
     "correct_index": 0,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $8^2=64$."
   },
   {
     "id": "q-q-g4-geometry-3",
@@ -6059,7 +6059,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 3=12$."
   },
   {
     "id": "q-q-g4-geometry-4",
@@ -6074,7 +6074,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$31$"
     ],
     "correct_index": 2,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(11+7)=36$."
   },
   {
     "id": "q-q-g4-geometry-5",
@@ -6089,7 +6089,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 1,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $5\\times 3=15$."
   },
   {
     "id": "q-q-g4-geometry-6",
@@ -6104,7 +6104,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$36$"
     ],
     "correct_index": 0,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $10\\times 4=40$."
   },
   {
     "id": "q-q-g4-geometry-7",
@@ -6119,7 +6119,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$30$"
     ],
     "correct_index": 0,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $5\\times 7=35$."
   },
   {
     "id": "q-q-g4-geometry-8",
@@ -6134,7 +6134,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 3,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $3^2=9$."
   },
   {
     "id": "q-q-g4-geometry-9",
@@ -6149,7 +6149,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$117$"
     ],
     "correct_index": 0,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $11^2=121$."
   },
   {
     "id": "q-q-g4-geometry-10",
@@ -6164,7 +6164,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$27$"
     ],
     "correct_index": 0,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 8=32$."
   },
   {
     "id": "q-q-g4-geometry-11",
@@ -6179,7 +6179,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 1,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $4^2=16$."
   },
   {
     "id": "q-q-g4-geometry-12",
@@ -6194,7 +6194,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$23$"
     ],
     "correct_index": 0,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $9\\times 3=27$."
   },
   {
     "id": "q-q-g4-geometry-13",
@@ -6209,7 +6209,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 3,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(4+2)=12$."
   },
   {
     "id": "q-q-g4-geometry-14",
@@ -6224,7 +6224,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$31$"
     ],
     "correct_index": 0,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(10+9)=38$."
   },
   {
     "id": "q-q-g4-geometry-15",
@@ -6239,7 +6239,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$67$"
     ],
     "correct_index": 1,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $8\\times 9=72$."
   },
   {
     "id": "q-q-g4-geometry-16",
@@ -6254,7 +6254,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$17$"
     ],
     "correct_index": 2,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 6=24$."
   },
   {
     "id": "q-q-g4-geometry-17",
@@ -6269,7 +6269,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$28$"
     ],
     "correct_index": 0,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(10+6)=32$."
   },
   {
     "id": "q-q-g4-geometry-18",
@@ -6284,7 +6284,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$28$"
     ],
     "correct_index": 2,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $11\\times 3=33$."
   },
   {
     "id": "q-q-g4-geometry-19",
@@ -6299,7 +6299,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$24$"
     ],
     "correct_index": 2,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(5+9)=28$."
   },
   {
     "id": "q-g4-da-1",
@@ -6329,7 +6329,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 10, 12, 19, 21, 24. החציון הוא הערך האמצעי — $19$."
   },
   {
     "id": "q-q-g4-data-2",
@@ -6344,7 +6344,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 4, 7, 11, 27. החציון הוא הערך האמצעי — $7$."
   },
   {
     "id": "q-q-g4-data-3",
@@ -6359,7 +6359,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 5, 6, 13, 14. החציון הוא הערך האמצעי — $6$."
   },
   {
     "id": "q-q-g4-data-4",
@@ -6374,7 +6374,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$16$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 12, 21, 22, 26. החציון הוא הערך האמצעי — $21$."
   },
   {
     "id": "q-q-g4-data-5",
@@ -6389,7 +6389,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 6, 7, 19, 26. החציון הוא הערך האמצעי — $7$."
   },
   {
     "id": "q-q-g4-data-6",
@@ -6404,7 +6404,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 5, 12, 13, 23. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-q-g4-data-7",
@@ -6419,7 +6419,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $60$, ומחלקים במספר המספרים ($5$): $60\\div 5=12$."
   },
   {
     "id": "q-q-g4-data-8",
@@ -6434,7 +6434,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 7, 13, 14, 25. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g4-data-9",
@@ -6449,7 +6449,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 1,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $85$, ומחלקים במספר המספרים ($5$): $85\\div 5=17$."
   },
   {
     "id": "q-q-g4-data-10",
@@ -6464,7 +6464,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$21$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 11, 23, 25, 27, 29. החציון הוא הערך האמצעי — $25$."
   },
   {
     "id": "q-q-g4-data-11",
@@ -6479,7 +6479,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 10, 12, 21, 27. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-q-g4-data-12",
@@ -6494,7 +6494,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 11, 14, 16, 17, 20. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g4-data-13",
@@ -6509,7 +6509,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 2,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $100$, ומחלקים במספר המספרים ($5$): $100\\div 5=20$."
   },
   {
     "id": "q-q-g4-data-14",
@@ -6524,7 +6524,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$14$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 14, 18, 25, 26. החציון הוא הערך האמצעי — $18$."
   },
   {
     "id": "q-q-g4-data-15",
@@ -6539,7 +6539,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 0,
-    "explanation": "10."
+    "explanation": "מחברים את שתי הקבוצות: $4+6=10$."
   },
   {
     "id": "q-q-g4-data-16",
@@ -6554,7 +6554,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$16$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 3, 16, 17, 28. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g4-data-17",
@@ -6569,7 +6569,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 9, 13, 24, 25. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g4-data-18",
@@ -6584,7 +6584,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 10, 11, 13, 23, 27. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g4-data-19",
@@ -6599,7 +6599,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 2,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $55$, ומחלקים במספר המספרים ($5$): $55\\div 5=11$."
   },
   {
     "id": "q-g5-fr-1",
@@ -6629,7 +6629,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{6}{16}$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{2}{8}+\\frac{4}{8}$. התוצאה: $0.75$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-2",
@@ -6644,7 +6644,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{3}{5}+\\frac{1}{5}$. התוצאה: $0.8$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-3",
@@ -6659,7 +6659,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{1}{2}+\\frac{1}{2}$. התוצאה: $1$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-4",
@@ -6674,7 +6674,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{9}{16}$"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{3}{8}+\\frac{6}{8}$. התוצאה: $1.125$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-5",
@@ -6689,7 +6689,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{5}{6}+\\frac{4}{6}$. התוצאה: $1.5$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-6",
@@ -6704,7 +6704,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{5}{3}$"
     ],
     "correct_index": 1,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{5}{6}+\\frac{3}{6}$. התוצאה: $1.3333333333333335$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-7",
@@ -6719,7 +6719,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{5}{7}$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{5}{8}+\\frac{7}{8}$. התוצאה: $1.5$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-8",
@@ -6734,7 +6734,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{11}{20}$"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{4}{10}+\\frac{7}{10}$. התוצאה: $1.1$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-9",
@@ -6749,7 +6749,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "מחשבים $\\frac{4}{6}-\\frac{1}{6}$. התוצאה: $0.5$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-10",
@@ -6764,7 +6764,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{5}$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מחשבים $\\frac{3}{5}-\\frac{1}{5}$. התוצאה: $0.39999999999999997$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-11",
@@ -6779,7 +6779,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$16$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{8}{10}+\\frac{8}{10}$. התוצאה: $1.6$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-12",
@@ -6794,7 +6794,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{4}{20}$"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{1}{10}+\\frac{3}{10}$. התוצאה: $0.4$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-13",
@@ -6809,7 +6809,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{10}{20}$"
     ],
     "correct_index": 1,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{2}{10}+\\frac{8}{10}$. התוצאה: $1$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-14",
@@ -6824,7 +6824,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{2}{10}+\\frac{7}{10}$. התוצאה: $0.8999999999999999$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-15",
@@ -6839,7 +6839,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{13}{20}$"
     ],
     "correct_index": 0,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{9}{10}+\\frac{4}{10}$. התוצאה: $1.3$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-16",
@@ -6854,7 +6854,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{5}$"
     ],
     "correct_index": 3,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{3}{10}+\\frac{3}{10}$. התוצאה: $0.6$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-17",
@@ -6869,7 +6869,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{5}{10}+\\frac{5}{10}$. התוצאה: $1$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-18",
@@ -6884,7 +6884,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "מחשבים $\\frac{7}{8}+\\frac{2}{8}$. התוצאה: $1.125$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g5-fractions-adv-19",
@@ -6899,7 +6899,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{6}{1}$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "מחשבים $\\frac{6}{8}-\\frac{1}{8}$. התוצאה: $0.625$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-g5-dec-1",
@@ -6913,7 +6913,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2.5$"
     ],
     "correct_index": 0,
-    "explanation": "$1.50+0.25=1.75$.",
+    "explanation": "החישוב: $1.50+0.25=1.75$.",
     "type": "mcq"
   },
   {
@@ -6929,7 +6929,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "החישוב: $1.5+0.5=2$."
   },
   {
     "id": "q-q-g5-decimals-ops-2",
@@ -6944,7 +6944,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "החישוב: $1.5-0.5=1$."
   },
   {
     "id": "q-q-g5-decimals-ops-3",
@@ -6959,7 +6959,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-3.5$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "החישוב: $4.0-0.5=3.5$."
   },
   {
     "id": "q-q-g5-decimals-ops-4",
@@ -6974,7 +6974,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.25$"
     ],
     "correct_index": 2,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $0.7$ גדול מ-$0.25$."
   },
   {
     "id": "q-q-g5-decimals-ops-5",
@@ -6989,7 +6989,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2.25$"
     ],
     "correct_index": 3,
-    "explanation": "sub."
+    "explanation": "החישוב: $3.5-1.25=2.25$."
   },
   {
     "id": "q-q-g5-decimals-ops-6",
@@ -7004,7 +7004,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "mul."
+    "explanation": "החישוב: $2.5\\times 0.5=1.25$."
   },
   {
     "id": "q-q-g5-decimals-ops-7",
@@ -7019,7 +7019,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3.5$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "החישוב: $0.7\\times 0.2=0.13999999999999999$."
   },
   {
     "id": "q-q-g5-decimals-ops-8",
@@ -7034,7 +7034,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $5.25$ גדול מ-$2.5$."
   },
   {
     "id": "q-q-g5-decimals-ops-9",
@@ -7049,7 +7049,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 1,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $5.25$ גדול מ-$0.3$."
   },
   {
     "id": "q-q-g5-decimals-ops-10",
@@ -7064,7 +7064,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4.5$"
     ],
     "correct_index": 3,
-    "explanation": "add."
+    "explanation": "החישוב: $4.0+0.5=4.5$."
   },
   {
     "id": "q-q-g5-decimals-ops-11",
@@ -7079,7 +7079,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3.5$"
     ],
     "correct_index": 1,
-    "explanation": "add."
+    "explanation": "החישוב: $2.3+1.1=3.4$."
   },
   {
     "id": "q-q-g5-decimals-ops-12",
@@ -7094,7 +7094,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1.7$"
     ],
     "correct_index": 1,
-    "explanation": "add."
+    "explanation": "החישוב: $1.2+0.4=1.6$."
   },
   {
     "id": "q-q-g5-decimals-ops-13",
@@ -7109,7 +7109,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.5$"
     ],
     "correct_index": 3,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $0.5$ גדול מ-$0.2$."
   },
   {
     "id": "q-q-g5-decimals-ops-14",
@@ -7124,7 +7124,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1.5$"
     ],
     "correct_index": 2,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $4.2$ גדול מ-$1.5$."
   },
   {
     "id": "q-q-g5-decimals-ops-15",
@@ -7139,7 +7139,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1.25$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "החישוב: $2.5-0.5=2$."
   },
   {
     "id": "q-q-g5-decimals-ops-16",
@@ -7154,7 +7154,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "mul."
+    "explanation": "החישוב: $4.0\\times 0.5=2$."
   },
   {
     "id": "q-q-g5-decimals-ops-17",
@@ -7169,7 +7169,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $1.2$ גדול מ-$0.35$."
   },
   {
     "id": "q-q-g5-decimals-ops-18",
@@ -7184,7 +7184,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "1/2."
+    "explanation": "$0.5=\\frac{5}{10}$, ולאחר צמצום: $\\frac{1}{2}$."
   },
   {
     "id": "q-q-g5-decimals-ops-19",
@@ -7199,7 +7199,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 0,
-    "explanation": "7."
+    "explanation": "הספרה הראשונה אחרי הנקודה העשרונית היא ספרת העשיריות: $7$."
   },
   {
     "id": "q-g5-md-1",
@@ -7213,7 +7213,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$24$"
     ],
     "correct_index": 0,
-    "explanation": "$12\\times 12=144$.",
+    "explanation": "החישוב: $12\\times 12=144$.",
     "type": "mcq"
   },
   {
@@ -7229,7 +7229,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "div."
+    "explanation": "החישוב: $105\\div 15=7$."
   },
   {
     "id": "q-q-g5-mul-div-adv-2",
@@ -7244,7 +7244,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "div."
+    "explanation": "החישוב: $6\\div 2=3$."
   },
   {
     "id": "q-q-g5-mul-div-adv-3",
@@ -7259,7 +7259,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$160$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "החישוב: $20\\times 8=160$."
   },
   {
     "id": "q-q-g5-mul-div-adv-4",
@@ -7274,7 +7274,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 3,
-    "explanation": "div."
+    "explanation": "החישוב: $42\\div 6=7$."
   },
   {
     "id": "q-q-g5-mul-div-adv-5",
@@ -7289,7 +7289,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "div."
+    "explanation": "החישוב: $117\\div 13=9$."
   },
   {
     "id": "q-q-g5-mul-div-adv-6",
@@ -7304,7 +7304,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$58$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "החישוב: $7\\times 9=63$."
   },
   {
     "id": "q-q-g5-mul-div-adv-7",
@@ -7319,7 +7319,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "div."
+    "explanation": "החישוב: $20\\div 4=5$."
   },
   {
     "id": "q-q-g5-mul-div-adv-8",
@@ -7334,7 +7334,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$33$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "החישוב: $5\\times 8=40$."
   },
   {
     "id": "q-q-g5-mul-div-adv-9",
@@ -7349,7 +7349,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$56$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "החישוב: $8\\times 7=56$."
   },
   {
     "id": "q-q-g5-mul-div-adv-10",
@@ -7364,7 +7364,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "החישוב: $9\\times 2=18$."
   },
   {
     "id": "q-q-g5-mul-div-adv-11",
@@ -7379,7 +7379,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$27$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "החישוב: $17\\times 2=34$."
   },
   {
     "id": "q-q-g5-mul-div-adv-12",
@@ -7394,7 +7394,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$70$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "החישוב: $11\\times 7=77$."
   },
   {
     "id": "q-q-g5-mul-div-adv-13",
@@ -7409,7 +7409,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$136$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "החישוב: $17\\times 8=136$."
   },
   {
     "id": "q-q-g5-mul-div-adv-14",
@@ -7424,7 +7424,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$71$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "החישוב: $15\\times 5=75$."
   },
   {
     "id": "q-q-g5-mul-div-adv-15",
@@ -7439,7 +7439,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 1,
-    "explanation": "div."
+    "explanation": "החישוב: $16\\div 8=2$."
   },
   {
     "id": "q-q-g5-mul-div-adv-16",
@@ -7454,7 +7454,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 0,
-    "explanation": "div."
+    "explanation": "החישוב: $8\\div 4=2$."
   },
   {
     "id": "q-q-g5-mul-div-adv-17",
@@ -7469,7 +7469,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "div."
+    "explanation": "החישוב: $48\\div 8=6$."
   },
   {
     "id": "q-q-g5-mul-div-adv-18",
@@ -7484,7 +7484,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$166$"
     ],
     "correct_index": 1,
-    "explanation": "mul."
+    "explanation": "החישוב: $17\\times 10=170$."
   },
   {
     "id": "q-q-g5-mul-div-adv-19",
@@ -7499,7 +7499,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$45$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "החישוב: $9\\times 5=45$."
   },
   {
     "id": "q-g5-geo-1",
@@ -7513,7 +7513,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$30$"
     ],
     "correct_index": 0,
-    "explanation": "$3\\cdot 4\\cdot 5=60$.",
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 4\\times 5=60$.",
     "type": "mcq"
   },
   {
@@ -7529,7 +7529,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$127$"
     ],
     "correct_index": 2,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $11\\times 4\\times 3=132$."
   },
   {
     "id": "q-q-g5-geometry-2",
@@ -7544,7 +7544,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 0,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(7+2)=18$."
   },
   {
     "id": "q-q-g5-geometry-3",
@@ -7559,7 +7559,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$28$"
     ],
     "correct_index": 3,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(5+9)=28$."
   },
   {
     "id": "q-q-g5-geometry-4",
@@ -7574,7 +7574,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $2^2=4$."
   },
   {
     "id": "q-q-g5-geometry-5",
@@ -7589,7 +7589,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 3,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(3+7)=20$."
   },
   {
     "id": "q-q-g5-geometry-6",
@@ -7604,7 +7604,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$192$"
     ],
     "correct_index": 2,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $7\\times 7\\times 4=196$."
   },
   {
     "id": "q-q-g5-geometry-7",
@@ -7619,7 +7619,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$22$"
     ],
     "correct_index": 1,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(8+5)=26$."
   },
   {
     "id": "q-q-g5-geometry-8",
@@ -7634,7 +7634,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 1,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $2\\times 6=12$."
   },
   {
     "id": "q-q-g5-geometry-9",
@@ -7649,7 +7649,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 3,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $5^2=25$."
   },
   {
     "id": "q-q-g5-geometry-10",
@@ -7664,7 +7664,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$44$"
     ],
     "correct_index": 1,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $7^2=49$."
   },
   {
     "id": "q-q-g5-geometry-11",
@@ -7679,7 +7679,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$35$"
     ],
     "correct_index": 2,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 10=40$."
   },
   {
     "id": "q-q-g5-geometry-12",
@@ -7694,7 +7694,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$373$"
     ],
     "correct_index": 1,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $7\\times 9\\times 6=378$."
   },
   {
     "id": "q-q-g5-geometry-13",
@@ -7709,7 +7709,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$128$"
     ],
     "correct_index": 1,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $9\\times 3\\times 5=135$."
   },
   {
     "id": "q-q-g5-geometry-14",
@@ -7724,7 +7724,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$59$"
     ],
     "correct_index": 0,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $8^2=64$."
   },
   {
     "id": "q-q-g5-geometry-15",
@@ -7739,7 +7739,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$37$"
     ],
     "correct_index": 2,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 11=44$."
   },
   {
     "id": "q-q-g5-geometry-16",
@@ -7754,7 +7754,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$104$"
     ],
     "correct_index": 0,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 6\\times 6=108$."
   },
   {
     "id": "q-q-g5-geometry-17",
@@ -7769,7 +7769,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 2,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 8=32$."
   },
   {
     "id": "q-q-g5-geometry-18",
@@ -7784,7 +7784,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$28$"
     ],
     "correct_index": 3,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 7=28$."
   },
   {
     "id": "q-q-g5-geometry-19",
@@ -7799,7 +7799,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 2,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 5=20$."
   },
   {
     "id": "q-g5-da-1",
@@ -7813,7 +7813,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$60$"
     ],
     "correct_index": 0,
-    "explanation": "$(10+20+30)/3=20$.",
+    "explanation": "החישוב: $(10+20+30)/3=20$.",
     "type": "mcq"
   },
   {
@@ -7829,7 +7829,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 8, 12, 14, 19. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-q-g5-data-2",
@@ -7844,7 +7844,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 7, 20, 21, 27. החציון הוא הערך האמצעי — $20$."
   },
   {
     "id": "q-q-g5-data-3",
@@ -7859,7 +7859,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 11, 18, 22, 28. החציון הוא הערך האמצעי — $18$."
   },
   {
     "id": "q-q-g5-data-4",
@@ -7874,7 +7874,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $75$, ומחלקים במספר המספרים ($5$): $75\\div 5=15$."
   },
   {
     "id": "q-q-g5-data-5",
@@ -7889,7 +7889,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 7, 14, 22, 25. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g5-data-6",
@@ -7904,7 +7904,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$14$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 9, 21, 24, 28. החציון הוא הערך האמצעי — $21$."
   },
   {
     "id": "q-q-g5-data-7",
@@ -7919,7 +7919,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 13, 14, 24, 26. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g5-data-8",
@@ -7934,7 +7934,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 1,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $110$, ומחלקים במספר המספרים ($5$): $110\\div 5=22$."
   },
   {
     "id": "q-q-g5-data-9",
@@ -7949,7 +7949,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 11, 16, 21, 28. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g5-data-10",
@@ -7964,7 +7964,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 3, 6, 23, 25. החציון הוא הערך האמצעי — $6$."
   },
   {
     "id": "q-q-g5-data-11",
@@ -7979,7 +7979,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 14, 19, 20, 22, 28. החציון הוא הערך האמצעי — $20$."
   },
   {
     "id": "q-q-g5-data-12",
@@ -7994,7 +7994,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 10, 14, 15, 19. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g5-data-13",
@@ -8009,7 +8009,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$14$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 10, 19, 22, 27. החציון הוא הערך האמצעי — $19$."
   },
   {
     "id": "q-q-g5-data-14",
@@ -8024,7 +8024,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 11, 17, 19, 22. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g5-data-15",
@@ -8039,7 +8039,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 10, 14, 27, 28. החציון הוא הערך האמצעי — $14$."
   },
   {
     "id": "q-q-g5-data-16",
@@ -8054,7 +8054,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 10, 18, 27, 28. החציון הוא הערך האמצעי — $18$."
   },
   {
     "id": "q-q-g5-data-17",
@@ -8069,7 +8069,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$18$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 9, 23, 25, 26. החציון הוא הערך האמצעי — $23$."
   },
   {
     "id": "q-q-g5-data-18",
@@ -8084,7 +8084,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 7, 20, 22, 25, 27. החציון הוא הערך האמצעי — $22$."
   },
   {
     "id": "q-q-g5-data-19",
@@ -8099,7 +8099,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 6, 12, 13, 17. החציון הוא הערך האמצעי — $12$."
   },
   {
     "id": "q-g6-rp-1",
@@ -8113,7 +8113,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$16$"
     ],
     "correct_index": 0,
-    "explanation": "$0.25\\times 80=20$.",
+    "explanation": "אחוז הוא חלק מ-$100$: $25\\%=\\frac{25}{100}$. לכן $25\\%$ מ-$80$ הוא $\\frac{25}{100}\\times 80=20$.",
     "type": "mcq"
   },
   {
@@ -8129,7 +8129,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $5\\%=\\frac{5}{100}$. לכן $5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
     "id": "q-q-g6-ratio-percent-2",
@@ -8144,7 +8144,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 1,
-    "explanation": "10."
+    "explanation": "$5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
     "id": "q-q-g6-ratio-percent-3",
@@ -8159,7 +8159,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $40\\%=\\frac{40}{100}$. לכן $40\\%$ מ-$50$ הוא $\\frac{40}{100}\\times 50=20$."
   },
   {
     "id": "q-q-g6-ratio-percent-4",
@@ -8174,7 +8174,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $25\\%=\\frac{25}{100}$. לכן $25\\%$ מ-$40$ הוא $\\frac{25}{100}\\times 40=10$."
   },
   {
     "id": "q-q-g6-ratio-percent-5",
@@ -8189,7 +8189,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$75$"
     ],
     "correct_index": 2,
-    "explanation": "60."
+    "explanation": "לאחר הנחה של $25\\%$ נשארים לשלם $75\\%$: $80\\times 0.75=60$."
   },
   {
     "id": "q-q-g6-ratio-percent-6",
@@ -8204,7 +8204,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$12$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $12\\%=\\frac{12}{100}$. לכן $12\\%$ מ-$100$ הוא $\\frac{12}{100}\\times 100=12$."
   },
   {
     "id": "q-q-g6-ratio-percent-7",
@@ -8219,7 +8219,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 3,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $10\\%=\\frac{10}{100}$. לכן $10\\%$ מ-$80$ הוא $\\frac{10}{100}\\times 80=8$."
   },
   {
     "id": "q-q-g6-ratio-percent-8",
@@ -8234,7 +8234,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$80\\%$"
     ],
     "correct_index": 1,
-    "explanation": "20%."
+    "explanation": "אחוז מחושב כחלק חלקי שלם כפול $100$: $\\frac{20}{100}\\times 100=20\\%$."
   },
   {
     "id": "q-q-g6-ratio-percent-9",
@@ -8249,7 +8249,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$40\\%$"
     ],
     "correct_index": 2,
-    "explanation": "25%."
+    "explanation": "אחוז מחושב כשבר כפול $100$: $\\frac{1}{4}\\times 100=25\\%$."
   },
   {
     "id": "q-q-g6-ratio-percent-10",
@@ -8264,7 +8264,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$20$"
     ],
     "correct_index": 3,
-    "explanation": "20."
+    "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$40$ הוא $\\frac{50}{100}\\times 40=20$."
   },
   {
     "id": "q-q-g6-ratio-percent-11",
@@ -8279,7 +8279,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$23$"
     ],
     "correct_index": 1,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $30\\%=\\frac{30}{100}$. לכן $30\\%$ מ-$90$ הוא $\\frac{30}{100}\\times 90=27$."
   },
   {
     "id": "q-q-g6-ratio-percent-12",
@@ -8294,7 +8294,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $20\\%=\\frac{20}{100}$. לכן $20\\%$ מ-$150$ הוא $\\frac{20}{100}\\times 150=30$."
   },
   {
     "id": "q-q-g6-ratio-percent-13",
@@ -8309,7 +8309,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $8\\%=\\frac{8}{100}$. לכן $8\\%$ מ-$50$ הוא $\\frac{8}{100}\\times 50=4$."
   },
   {
     "id": "q-q-g6-ratio-percent-14",
@@ -8324,7 +8324,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $15\\%=\\frac{15}{100}$. לכן $15\\%$ מ-$80$ הוא $\\frac{15}{100}\\times 80=12$."
   },
   {
     "id": "q-q-g6-ratio-percent-15",
@@ -8339,7 +8339,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $60\\%=\\frac{60}{100}$. לכן $60\\%$ מ-$50$ הוא $\\frac{60}{100}\\times 50=30$."
   },
   {
     "id": "q-q-g6-ratio-percent-16",
@@ -8354,7 +8354,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$26$"
     ],
     "correct_index": 0,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$60$ הוא $\\frac{50}{100}\\times 60=30$."
   },
   {
     "id": "q-q-g6-ratio-percent-17",
@@ -8369,7 +8369,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$56$"
     ],
     "correct_index": 2,
-    "explanation": "pct."
+    "explanation": "אחוז הוא חלק מ-$100$: $75\\%=\\frac{75}{100}$. לכן $75\\%$ מ-$80$ הוא $\\frac{75}{100}\\times 80=60$."
   },
   {
     "id": "q-q-g6-ratio-percent-551",
@@ -8384,7 +8384,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "linear."
+    "explanation": "מעבירים את $5$ אגף: $5x=35-5=30$. מחלקים ב-$5$: $x=6$."
   },
   {
     "id": "q-q-g6-ratio-percent-552",
@@ -8399,7 +8399,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$41$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "מעבירים את $8$ אגף עם סימן הפוך: $x=56-8=48$."
   },
   {
     "id": "q-g6-fr-1",
@@ -8413,7 +8413,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{2}{4}$"
     ],
     "correct_index": 0,
-    "explanation": "$\\frac{2\\cdot 3}{3\\cdot 4}=\\frac{6}{12}=\\frac{1}{2}$.",
+    "explanation": "החישוב: $\\frac{2\\cdot 3}{3\\cdot 4}=\\frac{6}{12}=\\frac{1}{2}$.",
     "type": "mcq"
   },
   {
@@ -8429,7 +8429,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{5}{6}$"
     ],
     "correct_index": 3,
-    "explanation": "div."
+    "explanation": "מחשבים $\\frac{1}{2}\\div\\frac{3}{5}$. התוצאה: $0.8333333333333334$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-2",
@@ -8444,7 +8444,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{4}{5}$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "מחשבים $\\frac{4}{5}\\times\\frac{1}{2}$. התוצאה: $0.4$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-3",
@@ -8459,7 +8459,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{6}$"
     ],
     "correct_index": 2,
-    "explanation": "div."
+    "explanation": "מחשבים $\\frac{1}{2}\\div\\frac{1}{3}$. התוצאה: $1.5$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-4",
@@ -8474,7 +8474,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{3}$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "מחשבים $\\frac{1}{3}\\times\\frac{3}{5}$. התוצאה: $0.19999999999999998$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-5",
@@ -8489,7 +8489,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{6}{20}$"
     ],
     "correct_index": 1,
-    "explanation": "div."
+    "explanation": "מחשבים $\\frac{2}{5}\\div\\frac{3}{4}$. התוצאה: $0.5333333333333333$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-6",
@@ -8504,7 +8504,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "div."
+    "explanation": "מחשבים $\\frac{2}{3}\\div\\frac{3}{4}$. התוצאה: $0.8888888888888888$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-7",
@@ -8519,7 +8519,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{20}$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "מחשבים $\\frac{1}{4}\\times\\frac{2}{5}$. התוצאה: $0.1$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-8",
@@ -8534,7 +8534,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "מחשבים $\\frac{2}{5}\\times\\frac{3}{4}$. התוצאה: $0.30000000000000004$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-9",
@@ -8549,7 +8549,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{5}{8}$"
     ],
     "correct_index": 3,
-    "explanation": "div."
+    "explanation": "מחשבים $\\frac{1}{4}\\div\\frac{2}{5}$. התוצאה: $0.625$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-10",
@@ -8564,7 +8564,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{10}$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "מחשבים $\\frac{1}{2}\\times\\frac{3}{5}$. התוצאה: $0.3$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-11",
@@ -8579,7 +8579,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "div."
+    "explanation": "מחשבים $\\frac{2}{7}\\div\\frac{1}{3}$. התוצאה: $0.8571428571428571$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-12",
@@ -8594,7 +8594,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{15}$"
     ],
     "correct_index": 0,
-    "explanation": "div."
+    "explanation": "מחשבים $\\frac{1}{3}\\div\\frac{3}{5}$. התוצאה: $0.5555555555555556$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-13",
@@ -8609,7 +8609,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{40}$"
     ],
     "correct_index": 1,
-    "explanation": "mul."
+    "explanation": "מחשבים $\\frac{3}{8}\\times\\frac{2}{5}$. התוצאה: $0.15000000000000002$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-14",
@@ -8624,7 +8624,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{2}$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "מחשבים $\\frac{2}{3}\\times\\frac{3}{4}$. התוצאה: $0.5$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-15",
@@ -8639,7 +8639,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{4}$"
     ],
     "correct_index": 3,
-    "explanation": "div."
+    "explanation": "מחשבים $\\frac{1}{6}\\div\\frac{2}{3}$. התוצאה: $0.25$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-16",
@@ -8654,7 +8654,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{10}$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "מחשבים $\\frac{3}{5}\\times\\frac{1}{2}$. התוצאה: $0.3$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-17",
@@ -8669,7 +8669,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{5}{24}$"
     ],
     "correct_index": 1,
-    "explanation": "div."
+    "explanation": "מחשבים $\\frac{5}{6}\\div\\frac{1}{4}$. התוצאה: $3.3333333333333335$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-18",
@@ -8684,7 +8684,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "מחשבים $\\frac{2}{7}\\times\\frac{1}{3}$. התוצאה: $0.09523809523809523$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-19",
@@ -8699,7 +8699,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "מחשבים $\\frac{1}{2}\\times\\frac{1}{3}$. התוצאה: $0.16666666666666666$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-g6-dec-1",
@@ -8713,7 +8713,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.03$"
     ],
     "correct_index": 0,
-    "explanation": "$0.6\\times 0.5=0.30=0.3$.",
+    "explanation": "החישוב: $0.6\\times 0.5=0.3$.",
     "type": "mcq"
   },
   {
@@ -8729,7 +8729,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 1,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $1.5$ גדול מ-$0.5$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-2",
@@ -8744,7 +8744,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2.2$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "החישוב: $5.5\\times 2.5=13.75$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-3",
@@ -8759,7 +8759,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 3,
-    "explanation": "mul."
+    "explanation": "החישוב: $4.0\\times 0.5=2$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-4",
@@ -8774,7 +8774,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-1.2$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "החישוב: $2.3-1.1=1.1999999999999997$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-5",
@@ -8789,7 +8789,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1.2$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "החישוב: $2.3+1.1=3.4$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-6",
@@ -8804,7 +8804,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.75$"
     ],
     "correct_index": 2,
-    "explanation": "add."
+    "explanation": "החישוב: $1.5+0.5=2$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-7",
@@ -8819,7 +8819,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 0,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $3.6$ גדול מ-$0.2$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-8",
@@ -8834,7 +8834,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "החישוב: $2.5-0.5=2$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-9",
@@ -8849,7 +8849,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-4.8$"
     ],
     "correct_index": 2,
-    "explanation": "sub."
+    "explanation": "החישוב: $6.4-1.6=4.800000000000001$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-10",
@@ -8864,7 +8864,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4.75$"
     ],
     "correct_index": 1,
-    "explanation": "sub."
+    "explanation": "החישוב: $3.5-1.25=2.25$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-11",
@@ -8879,7 +8879,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.25$"
     ],
     "correct_index": 2,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $4.2$ גדול מ-$0.25$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-12",
@@ -8894,7 +8894,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3.53$"
     ],
     "correct_index": 2,
-    "explanation": "mul."
+    "explanation": "החישוב: $2.3\\times 1.1=2.53$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-13",
@@ -8909,7 +8909,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1.6$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "החישוב: $1.2\\times 0.4=0.48$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-14",
@@ -8924,7 +8924,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 1,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $1.2$ גדול מ-$0.35$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-15",
@@ -8939,7 +8939,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.25$"
     ],
     "correct_index": 2,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $0.7$ גדול מ-$0.25$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-16",
@@ -8954,7 +8954,7 @@ export const ELEMENTARY_QUESTIONS = [
       "שווים"
     ],
     "correct_index": 1,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $5.25$ גדול מ-$0.3$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-17",
@@ -8969,7 +8969,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2.8$"
     ],
     "correct_index": 0,
-    "explanation": "mul."
+    "explanation": "החישוב: $3.5\\times 1.25=4.375$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-18",
@@ -8984,7 +8984,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $0.35$ גדול מ-$0.1$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-19",
@@ -8999,7 +8999,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.1$"
     ],
     "correct_index": 3,
-    "explanation": "cmp."
+    "explanation": "משווים ספרה-ספרה: $0.1$ גדול מ-$0.05$."
   },
   {
     "id": "q-g6-ns-1",
@@ -9029,7 +9029,7 @@ export const ELEMENTARY_QUESTIONS = [
       "N"
     ],
     "correct_index": 0,
-    "explanation": "R."
+    "explanation": "התשובה הנכונה היא R."
   },
   {
     "id": "q-q-g6-number-sets-2",
@@ -9044,7 +9044,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-3$"
     ],
     "correct_index": 1,
-    "explanation": "0.5."
+    "explanation": "התשובה הנכונה היא $0.5$."
   },
   {
     "id": "q-q-g6-number-sets-3",
@@ -9059,7 +9059,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2+2=5$"
     ],
     "correct_index": 0,
-    "explanation": "true."
+    "explanation": "התשובה הנכונה היא $-4+4=0$."
   },
   {
     "id": "q-q-g6-number-sets-4",
@@ -9074,7 +9074,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\pi$"
     ],
     "correct_index": 2,
-    "explanation": "Q."
+    "explanation": "התשובה הנכונה היא $\\frac{2}{3}$."
   },
   {
     "id": "q-q-g6-number-sets-5",
@@ -9089,7 +9089,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$a+bi$"
     ],
     "correct_index": 3,
-    "explanation": "complex."
+    "explanation": "התשובה הנכונה היא $a+bi$."
   },
   {
     "id": "q-q-g6-number-sets-6",
@@ -9104,7 +9104,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 3,
-    "explanation": "5."
+    "explanation": "התשובה הנכונה היא $5$."
   },
   {
     "id": "q-q-g6-number-sets-7",
@@ -9119,7 +9119,7 @@ export const ELEMENTARY_QUESTIONS = [
       "אירצ."
     ],
     "correct_index": 2,
-    "explanation": "Z in Q."
+    "explanation": "התשובה הנכונה היא רציונלי."
   },
   {
     "id": "q-q-g6-number-sets-8",
@@ -9134,7 +9134,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 3,
-    "explanation": "0."
+    "explanation": "החישוב: $-7+7=0$."
   },
   {
     "id": "q-q-g6-number-sets-9",
@@ -9149,7 +9149,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-4$"
     ],
     "correct_index": 1,
-    "explanation": "irr."
+    "explanation": "התשובה הנכונה היא $\\sqrt{2}$."
   },
   {
     "id": "q-q-g6-number-sets-10",
@@ -9164,7 +9164,7 @@ export const ELEMENTARY_QUESTIONS = [
       "רציונלי"
     ],
     "correct_index": 3,
-    "explanation": "Q."
+    "explanation": "התשובה הנכונה היא רציונלי."
   },
   {
     "id": "q-q-g6-number-sets-11",
@@ -9179,7 +9179,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "-2."
+    "explanation": "התשובה הנכונה היא $-2$."
   },
   {
     "id": "q-q-g6-number-sets-12",
@@ -9194,7 +9194,7 @@ export const ELEMENTARY_QUESTIONS = [
       "N,Z,Q"
     ],
     "correct_index": 3,
-    "explanation": "all."
+    "explanation": "התשובה הנכונה היא N,Z,Q."
   },
   {
     "id": "q-q-g6-number-sets-13",
@@ -9209,7 +9209,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-6$"
     ],
     "correct_index": 2,
-    "explanation": "-2."
+    "explanation": "התשובה הנכונה היא $-2$."
   },
   {
     "id": "q-q-g6-number-sets-14",
@@ -9224,7 +9224,7 @@ export const ELEMENTARY_QUESTIONS = [
       "רק N"
     ],
     "correct_index": 0,
-    "explanation": "Z."
+    "explanation": "$-4/2=-2$, וזהו גם מספר שלם ($\\mathbb{Z}$) וגם מספר רציונלי ($\\mathbb{Q}$)."
   },
   {
     "id": "q-q-g6-number-sets-15",
@@ -9239,7 +9239,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "Z."
+    "explanation": "מספר שלם הוא מספר ללא חלק עשרוני או שברי — כולל גם מספרים שליליים, למשל $-3$."
   },
   {
     "id": "q-q-g6-number-sets-16",
@@ -9254,7 +9254,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 3,
-    "explanation": "3."
+    "explanation": "$\\sqrt{9}=3$ (כי $3^2=9$)."
   },
   {
     "id": "q-q-g6-number-sets-17",
@@ -9269,7 +9269,7 @@ export const ELEMENTARY_QUESTIONS = [
       "רק אירצ."
     ],
     "correct_index": 0,
-    "explanation": "Z."
+    "explanation": "האפס הוא מספר שלם (אך לא מספר טבעי חיובי), ולכן שייך לקבוצת השלמים."
   },
   {
     "id": "q-q-g6-number-sets-18",
@@ -9284,7 +9284,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$0.5$"
     ],
     "correct_index": 0,
-    "explanation": "N."
+    "explanation": "התשובה הנכונה היא $7$."
   },
   {
     "id": "q-q-g6-number-sets-19",
@@ -9299,7 +9299,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\{1,2,3\\ldots\\}$"
     ],
     "correct_index": 2,
-    "explanation": "Z."
+    "explanation": "התשובה הנכונה היא $\\{\\ldots,-1,0,1,\\ldots\\}$."
   },
   {
     "id": "q-g6-geo-1",
@@ -9313,7 +9313,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$21\\pi$"
     ],
     "correct_index": 0,
-    "explanation": "$2\\pi r=14\\pi$.",
+    "explanation": "החישוב: $2\\pi r=14\\pi$.",
     "type": "mcq"
   },
   {
@@ -9329,7 +9329,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$83$"
     ],
     "correct_index": 2,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $11\\times 8=88$."
   },
   {
     "id": "q-q-g6-geometry-2",
@@ -9344,7 +9344,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 0,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 5=20$."
   },
   {
     "id": "q-q-g6-geometry-3",
@@ -9359,7 +9359,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 3,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $5^2=25$."
   },
   {
     "id": "q-q-g6-geometry-4",
@@ -9374,7 +9374,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$161$"
     ],
     "correct_index": 0,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $4\\times 7\\times 6=168$."
   },
   {
     "id": "q-q-g6-geometry-5",
@@ -9389,7 +9389,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$37$"
     ],
     "correct_index": 1,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 11=44$."
   },
   {
     "id": "q-q-g6-geometry-6",
@@ -9404,7 +9404,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$26$"
     ],
     "correct_index": 3,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(10+3)=26$."
   },
   {
     "id": "q-q-g6-geometry-7",
@@ -9419,7 +9419,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$28$"
     ],
     "correct_index": 0,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $4\\times 8=32$."
   },
   {
     "id": "q-q-g6-geometry-8",
@@ -9434,7 +9434,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$121$"
     ],
     "correct_index": 3,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $11^2=121$."
   },
   {
     "id": "q-q-g6-geometry-9",
@@ -9449,7 +9449,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$32$"
     ],
     "correct_index": 0,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $4\\times 9=36$."
   },
   {
     "id": "q-q-g6-geometry-10",
@@ -9464,7 +9464,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$85$"
     ],
     "correct_index": 2,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $10\\times 9=90$."
   },
   {
     "id": "q-q-g6-geometry-11",
@@ -9479,7 +9479,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$29$"
     ],
     "correct_index": 0,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 9=36$."
   },
   {
     "id": "q-q-g6-geometry-12",
@@ -9494,7 +9494,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$445$"
     ],
     "correct_index": 0,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $10\\times 9\\times 5=450$."
   },
   {
     "id": "q-q-g6-geometry-13",
@@ -9509,7 +9509,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$45$"
     ],
     "correct_index": 2,
-    "explanation": "a^2."
+    "explanation": "שטח ריבוע הוא צלע בריבוע: $7^2=49$."
   },
   {
     "id": "q-q-g6-geometry-14",
@@ -9524,7 +9524,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$257$"
     ],
     "correct_index": 0,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $11\\times 8\\times 3=264$."
   },
   {
     "id": "q-q-g6-geometry-15",
@@ -9539,7 +9539,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$225$"
     ],
     "correct_index": 3,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $9\\times 5\\times 5=225$."
   },
   {
     "id": "q-q-g6-geometry-16",
@@ -9554,7 +9554,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 2,
-    "explanation": "S=ab."
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $5\\times 6=30$."
   },
   {
     "id": "q-q-g6-geometry-17",
@@ -9569,7 +9569,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$5$"
     ],
     "correct_index": 0,
-    "explanation": "4a."
+    "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 3=12$."
   },
   {
     "id": "q-q-g6-geometry-18",
@@ -9584,7 +9584,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$22$"
     ],
     "correct_index": 3,
-    "explanation": "P."
+    "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(3+8)=22$."
   },
   {
     "id": "q-q-g6-geometry-19",
@@ -9599,7 +9599,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$41$"
     ],
     "correct_index": 2,
-    "explanation": "V."
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 4\\times 4=48$."
   },
   {
     "id": "q-g6-dp-1",
@@ -9629,7 +9629,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 6, 7, 25, 28. החציון הוא הערך האמצעי — $7$."
   },
   {
     "id": "q-q-g6-data-prob-2",
@@ -9644,7 +9644,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$4$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 10, 11, 17, 24. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g6-data-prob-3",
@@ -9659,7 +9659,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$11$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 13, 16, 17, 19. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g6-data-prob-4",
@@ -9674,7 +9674,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 1,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $75$, ומחלקים במספר המספרים ($5$): $75\\div 5=15$."
   },
   {
     "id": "q-q-g6-data-prob-5",
@@ -9689,7 +9689,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{3}$"
     ],
     "correct_index": 2,
-    "explanation": "1/2."
+    "explanation": "להטלת מטבע הוגן יש שתי תוצאות שוות-סבירות (עץ או פלי), ולכן ההסתברות לעץ היא $\\frac{1}{2}$."
   },
   {
     "id": "q-q-g6-data-prob-6",
@@ -9704,7 +9704,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 4, 10, 22, 27. החציון הוא הערך האמצעי — $10$."
   },
   {
     "id": "q-q-g6-data-prob-7",
@@ -9719,7 +9719,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$25$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 11, 25, 26, 27. החציון הוא הערך האמצעי — $25$."
   },
   {
     "id": "q-q-g6-data-prob-8",
@@ -9734,7 +9734,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 10, 13, 17, 29. החציון הוא הערך האמצעי — $13$."
   },
   {
     "id": "q-q-g6-data-prob-9",
@@ -9749,7 +9749,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$15$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 10, 13, 20, 23, 25. החציון הוא הערך האמצעי — $20$."
   },
   {
     "id": "q-q-g6-data-prob-10",
@@ -9764,7 +9764,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 3, 6, 18, 22. החציון הוא הערך האמצעי — $6$."
   },
   {
     "id": "q-q-g6-data-prob-11",
@@ -9779,7 +9779,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$16$"
     ],
     "correct_index": 3,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 5, 11, 16, 25, 26. החציון הוא הערך האמצעי — $16$."
   },
   {
     "id": "q-q-g6-data-prob-12",
@@ -9794,7 +9794,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 0,
-    "explanation": "mean."
+    "explanation": "סכום המספרים הוא $90$, ומחלקים במספר המספרים ($5$): $90\\div 5=18$."
   },
   {
     "id": "q-q-g6-data-prob-13",
@@ -9809,7 +9809,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$3$"
     ],
     "correct_index": 2,
-    "explanation": "7."
+    "explanation": "השכיח (המוד) הוא הערך שחוזר הכי הרבה פעמים ברשימה $3,7,7,2$: $7$."
   },
   {
     "id": "q-q-g6-data-prob-14",
@@ -9824,7 +9824,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$19$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 6, 15, 23, 26, 29. החציון הוא הערך האמצעי — $23$."
   },
   {
     "id": "q-q-g6-data-prob-15",
@@ -9839,7 +9839,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$13$"
     ],
     "correct_index": 1,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 2, 14, 17, 20, 27. החציון הוא הערך האמצעי — $17$."
   },
   {
     "id": "q-q-g6-data-prob-16",
@@ -9854,7 +9854,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 2,
-    "explanation": "10."
+    "explanation": "מחברים את שתי הקבוצות: $4+6=10$."
   },
   {
     "id": "q-q-g6-data-prob-17",
@@ -9869,7 +9869,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$19$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 12, 20, 23, 24, 29. החציון הוא הערך האמצעי — $23$."
   },
   {
     "id": "q-q-g6-data-prob-18",
@@ -9884,7 +9884,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$7$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 4, 6, 11, 14, 29. החציון הוא הערך האמצעי — $11$."
   },
   {
     "id": "q-q-g6-data-prob-19",
@@ -9899,7 +9899,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$8$"
     ],
     "correct_index": 0,
-    "explanation": "median."
+    "explanation": "ממיינים את המספרים: 3, 5, 13, 15, 20. החציון הוא הערך האמצעי — $13$."
   }
 ];
 

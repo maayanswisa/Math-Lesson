@@ -7,11 +7,13 @@ import DragMatch from './interactive/DragMatch';
 import HintPanel from './HintPanel';
 import Scratchpad from './Scratchpad';
 import SciCalculator from './SciCalculator';
+import StudyMorePopup from './StudyMorePopup';
 import { useGame } from '../../context/GameContext';
 import { fireBigConfetti, fireConfetti } from '../../lib/feedback';
 import { playCorrect, playWrong } from '../../lib/sounds';
 import { MAX_HEARTS, SPEED_RUN_SECONDS } from '../../lib/gameConfig';
 import { getHintsForQuestion } from '../../lib/hints';
+import { shouldShowStudyMorePopup } from '../../lib/promo';
 
 const OPTION_LABELS = ['א', 'ב', 'ג', 'ד'];
 
@@ -113,6 +115,7 @@ export default function QuizCard({
   const [timedOut, setTimedOut] = useState(false);
   const finishedRef = useRef(false);
   const [hintsRevealed, setHintsRevealed] = useState(0);
+  const [showPromo, setShowPromo] = useState(false);
 
   const current = phase === 'bonus' ? BONUS_QUESTION : questions[currentIndex];
   const hints = useMemo(() => getHintsForQuestion(current), [current]);
@@ -132,12 +135,14 @@ export default function QuizCard({
     finishedRef.current = true;
     if (reason === 'timeout') setTimedOut(true);
     const correctCount = finalAnswers.filter((a) => a.isCorrect).length;
+    const wrongCount = finalAnswers.length - correctCount;
     const score = finalAnswers.length === 0 ? 0 : Math.round((correctCount / Math.max(total, 1)) * 100);
     const perfect = correctCount === total && total > 0 && reason !== 'timeout';
     const { xpGained, newBadges } = recordQuizComplete({ score, topicCluster, perfect });
     setSessionXp((x) => x + xpGained);
     setSessionBadges((b) => [...b, ...newBadges]);
     if (perfect || score >= 80) fireBigConfetti();
+    if (shouldShowStudyMorePopup(wrongCount)) setShowPromo(true);
     setPhase('summary');
     onComplete?.({ score, correctCount, total, answers: finalAnswers, timedOut: reason === 'timeout' });
   }
@@ -258,6 +263,7 @@ export default function QuizCard({
     setSessionBadges([]);
     setSecondsLeft(SPEED_RUN_SECONDS);
     setTimedOut(false);
+    setShowPromo(false);
     setStarted(false);
   }
 
@@ -314,6 +320,7 @@ export default function QuizCard({
   if (phase === 'summary' && summary) {
     return (
       <div className="mx-auto w-full max-w-3xl space-y-6" dir="rtl">
+        {showPromo && <StudyMorePopup onClose={() => setShowPromo(false)} />}
         <section className="rounded-2xl bg-white/90 p-8 text-center shadow-sm ring-1 ring-black/5">
           <p className="text-sm font-medium tracking-wide text-[var(--color-teal)]">סיכום המבחן</p>
           {timedOut && (
