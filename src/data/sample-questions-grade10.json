@@ -1,0 +1,50 @@
+[
+  {
+    "id": "q10-quad-001",
+    "topic_id": "grade10-demo",
+    "grade": 10,
+    "topic_title": "מבחן דמו — כיתה י׳",
+    "difficulty": 3,
+    "question_text": "נתונה הפונקציה $f(x) = 2x^2 - 8x + 5$. מהן קואורדינטות קודקוד הפרבולה?",
+    "options": [
+      "$(2, -3)$",
+      "$(-2, 3)$",
+      "$(4, 5)$",
+      "$(2, 5)$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפונקציה מהצורה $f(x) = ax^2 + bx + c$ שיעורי הקודקוד הם:\n\n$$x_v = -\\frac{b}{2a}, \\quad y_v = f(x_v)$$\n\nכאן $a = 2$ ו-$b = -8$, ולכן:\n\n$$x_v = -\\frac{-8}{2 \\cdot 2} = \\frac{8}{4} = 2$$\n\n$$y_v = f(2) = 2(2)^2 - 8(2) + 5 = 8 - 16 + 5 = -3$$\n\nלכן הקודקוד הוא $(2, -3)$."
+  },
+  {
+    "id": "q10-trig-001",
+    "topic_id": "grade10-demo",
+    "grade": 10,
+    "topic_title": "מבחן דמו — כיתה י׳",
+    "difficulty": 4,
+    "question_text": "אם $\\sin \\theta = \\dfrac{3}{5}$ ו-$\\theta$ זווית חדה במשולש ישר-זווית, מהו ערך הביטוי $\\cos \\theta + \\tan \\theta$?",
+    "options": [
+      "$\\dfrac{4}{5} + \\dfrac{3}{4} = \\dfrac{31}{20}$",
+      "$\\dfrac{3}{5} + \\dfrac{4}{3}$",
+      "$1$",
+      "$\\dfrac{7}{5}$"
+    ],
+    "correct_index": 0,
+    "explanation": "במשולש ישר-זווית עם $\\sin \\theta = \\dfrac{opposite}{hypotenuse} = \\dfrac{3}{5}$ נקבל צלע נגדית $3$ ויתר $5$.\n\nלפי משפט פיתגורס:\n\n$$adjacent = \\sqrt{5^2 - 3^2} = \\sqrt{25 - 9} = \\sqrt{16} = 4$$\n\nלכן:\n\n$$\\cos \\theta = \\dfrac{4}{5}, \\quad \\tan \\theta = \\dfrac{3}{4}$$\n\n$$\\cos \\theta + \\tan \\theta = \\dfrac{4}{5} + \\dfrac{3}{4} = \\dfrac{16}{20} + \\dfrac{15}{20} = \\dfrac{31}{20}$$"
+  },
+  {
+    "id": "q10-func-001",
+    "topic_id": "grade10-demo",
+    "grade": 10,
+    "topic_title": "מבחן דמו — כיתה י׳",
+    "difficulty": 4,
+    "question_text": "נתונות הפונקציות $f(x) = \\sqrt{x - 1}$ ו-$g(x) = x^2 + 2$. מהו תחום ההגדרה של ההרכבה $(f \\circ g)(x) = f(g(x))$?",
+    "options": [
+      "$x \\in \\mathbb{R}$ (כל הממשיים)",
+      "$x \\geq 1$",
+      "$x \\leq -1$ או $x \\geq 1$",
+      "אין תחום הגדרה"
+    ],
+    "correct_index": 0,
+    "explanation": "ההרכבה היא:\n\n$$(f \\circ g)(x) = f(g(x)) = f(x^2 + 2) = \\sqrt{(x^2 + 2) - 1} = \\sqrt{x^2 + 1}$$\n\nכדי ש-$\\sqrt{x^2 + 1}$ תהיה מוגדרת בממשיים נדרש:\n\n$$x^2 + 1 \\geq 0$$\n\nאך $x^2 + 1 \\geq 1 > 0$ לכל $x \\in \\mathbb{R}$, ולכן הביטוי מוגדר **לכל המספרים הממשיים**.\n\nדרך כללית יותר: תחום של $f \\circ g$ הוא\n\n$$\\{ x \\in D_g \\mid g(x) \\in D_f \\}$$\n\nכאן $D_g = \\mathbb{R}$ ו-$D_f = [1, \\infty)$. מכיוון ש-$g(x) = x^2 + 2 \\geq 2 \\geq 1$ תמיד, התנאי $g(x) \\in D_f$ מתקיים לכל $x$."
+  }
+]

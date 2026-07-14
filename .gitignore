@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# Env
+.env
+.env.local
+
+# Local curriculum source downloads
+curriculum-pdfs/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Python cache
+__pycache__/
+*.pyc

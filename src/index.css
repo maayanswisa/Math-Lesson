@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+@theme {
+  --font-sans: "Heebo", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Frank Ruhl Libre", Georgia, serif;
+  --color-ink: #1a2b3c;
+  --color-slate: #4a5d73;
+  --color-paper: #f7f4ef;
+  --color-mist: #e8eef4;
+  --color-teal: #0d6e6e;
+  --color-teal-dark: #0a5555;
+  --color-coral: #c45c48;
+  --color-success: #2d7a4f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background:
+    radial-gradient(ellipse 80% 50% at 10% -10%, #d4e8e8 0%, transparent 55%),
+    radial-gradient(ellipse 60% 40% at 100% 0%, #f0e6dc 0%, transparent 50%),
+    var(--color-paper);
+}
+
+/* KaTeX בתוך RTL — שמירה על כיוון LTR לנוסחאות */
+.katex,
+.katex-display {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-8px);
+  }
+  40% {
+    transform: translateX(8px);
+  }
+  60% {
+    transform: translateX(-6px);
+  }
+  80% {
+    transform: translateX(6px);
+  }
+}
+
+.animate-shake {
+  animation: shake 0.45s ease-in-out;
+}
+
+.hint-highlight {
+  animation: hint-pulse 0.6s ease-out;
+}
+
+@keyframes hint-pulse {
+  0% {
+    transform: scale(0.98);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
