@@ -13,20 +13,28 @@ export default function App() {
     <GameProvider>
       <BrowserRouter>
         <div className="min-h-screen">
-          <header className="border-b border-black/5 bg-white/50 backdrop-blur-sm">
+          <header
+            className="bg-white/60 backdrop-blur-sm"
+            style={{
+              borderBottom: '3px solid transparent',
+              borderImage:
+                'linear-gradient(90deg, var(--color-teal), var(--color-sky), var(--color-violet), var(--color-berry), var(--color-sunshine)) 1',
+            }}
+          >
             <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-4 py-4">
               <Link
                 to="/"
-                className="font-[family-name:var(--font-display)] text-xl text-[var(--color-ink)]"
+                className="flex items-center gap-2 font-[family-name:var(--font-display)] text-xl text-[var(--color-ink)]"
               >
+                <span aria-hidden="true">🧮</span>
                 Math Lesson
               </Link>
-              <nav className="flex flex-wrap items-center gap-3 text-sm text-[var(--color-slate)]">
+              <nav className="flex flex-wrap items-center gap-3 text-sm font-medium text-[var(--color-slate)]">
                 <Link to="/custom-test" className="hover:text-[var(--color-teal)]">
                   מבחן מותאם
                 </Link>
-                <Link to="/parent" className="hover:text-[var(--color-teal)]">
-                  הורים / מורים
+                <Link to="/parent" className="hover:text-[var(--color-violet)]">
+                  ההתקדמות שלי
                 </Link>
                 <GameHUD />
               </nav>

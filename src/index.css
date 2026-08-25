@@ -12,6 +12,17 @@
   --color-teal-dark: #0a5555;
   --color-coral: #c45c48;
   --color-success: #2d7a4f;
+  /* פלטת צבעים חיה — לשימוש מתחלף בכרטיסי כיתות/נושאים */
+  --color-violet: #7c4dcc;
+  --color-violet-dark: #5f38a3;
+  --color-sky: #1f8fe0;
+  --color-sky-dark: #1670b3;
+  --color-sunshine: #e2a020;
+  --color-sunshine-dark: #b97e12;
+  --color-berry: #d1487f;
+  --color-berry-dark: #a83564;
+  --color-grass: #3fa15a;
+  --color-grass-dark: #2f7d45;
 }
 
 html {
@@ -24,9 +35,12 @@ body {
   font-family: var(--font-sans);
   color: var(--color-ink);
   background:
-    radial-gradient(ellipse 80% 50% at 10% -10%, #d4e8e8 0%, transparent 55%),
-    radial-gradient(ellipse 60% 40% at 100% 0%, #f0e6dc 0%, transparent 50%),
+    radial-gradient(ellipse 70% 45% at 8% -8%, rgba(13, 110, 110, 0.16) 0%, transparent 55%),
+    radial-gradient(ellipse 55% 40% at 95% 0%, rgba(226, 160, 32, 0.16) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 45% at 50% 105%, rgba(124, 77, 204, 0.12) 0%, transparent 55%),
+    radial-gradient(ellipse 45% 35% at 100% 60%, rgba(209, 72, 127, 0.1) 0%, transparent 50%),
     var(--color-paper);
+  background-attachment: fixed;
 }
 
 /* KaTeX בתוך RTL — שמירה על כיוון LTR לנוסחאות */

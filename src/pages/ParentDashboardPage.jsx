@@ -1,30 +1,13 @@
-import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useGame } from '../context/GameContext';
-import {
-  getAttempts,
-  getLinkedStudentCode,
-  getOrCreateStudentCode,
-  getWeakTopics,
-  getWeeklySummary,
-  linkStudentCode,
-} from '../lib/progressLog';
+import { Link } from 'react-router-dom';
+import { getAttempts, getWeakTopics, getWeeklySummary } from '../lib/progressLog';
+import { accentFor } from '../lib/palette';
 
 export default function ParentDashboardPage() {
-  const { xp, level, streak, badges, badgeDefs } = useGame();
-  const studentCode = useMemo(() => getOrCreateStudentCode(), []);
-  const [linkInput, setLinkInput] = useState(getLinkedStudentCode() || '');
-  const [linkMsg, setLinkMsg] = useState('');
+  const { xp, level, streak } = useGame();
   const attempts = getAttempts();
   const weak = getWeakTopics(5);
   const week = getWeeklySummary();
-
-  function onLink(e) {
-    e.preventDefault();
-    if (linkStudentCode(linkInput)) {
-      setLinkMsg('הקוד נשמר במכשיר זה (בשלב הבא — סנכרון עם חשבון תלמיד)');
-    }
-  }
 
   return (
     <div className="space-y-8" dir="rtl">
@@ -33,53 +16,30 @@ export default function ParentDashboardPage() {
           ← חזרה לבית
         </Link>
         <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl text-[var(--color-ink)]">
-          להורים ומורים
+          ההתקדמות שלי
         </h1>
-        <p className="mt-2 text-[var(--color-slate)]">
-          מעקב אחר התקדמות התרגול במכשיר זה. דוח מייל שבועי יופעל כשיחובר Auth.
-        </p>
       </div>
 
       <section className="grid gap-4 sm:grid-cols-3">
-        <div className="rounded-2xl bg-white/90 p-5 ring-1 ring-black/5">
+        <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-black/5" style={{ borderInlineStart: `5px solid ${accentFor(0).solid}` }}>
           <p className="text-xs text-[var(--color-slate)]">XP</p>
-          <p className="mt-1 text-2xl font-semibold text-[var(--color-teal)]">{xp}</p>
+          <p className="mt-1 text-2xl font-extrabold" style={{ color: accentFor(0).text }}>{xp}</p>
           <p className="text-sm text-[var(--color-ink)]">{level.title}</p>
         </div>
-        <div className="rounded-2xl bg-white/90 p-5 ring-1 ring-black/5">
-          <p className="text-xs text-[var(--color-slate)]">רצף</p>
-          <p className="mt-1 text-2xl font-semibold text-[var(--color-coral)]">{streak}</p>
+        <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-black/5" style={{ borderInlineStart: `5px solid ${accentFor(1).solid}` }}>
+          <p className="text-xs text-[var(--color-slate)]" title="מספר התשובות הנכונות ברצף, בלי טעות באמצע">
+            רצף תשובות נכונות
+          </p>
+          <p className="mt-1 text-2xl font-extrabold" style={{ color: accentFor(1).text }}>{streak}</p>
         </div>
-        <div className="rounded-2xl bg-white/90 p-5 ring-1 ring-black/5">
+        <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-black/5" style={{ borderInlineStart: `5px solid ${accentFor(2).solid}` }}>
           <p className="text-xs text-[var(--color-slate)]">השבוע</p>
-          <p className="mt-1 text-2xl font-semibold text-[var(--color-ink)]">{week.count} מבחנים</p>
+          <p className="mt-1 text-2xl font-extrabold" style={{ color: accentFor(2).text }}>{week.count} מבחנים</p>
           <p className="text-sm text-[var(--color-slate)]">
             ממוצע {week.avgScore}
             {week.improved ? ' · שיפור בשבוע' : ''}
           </p>
         </div>
-      </section>
-
-      <section className="rounded-2xl bg-white/90 p-6 ring-1 ring-black/5">
-        <h2 className="text-lg font-semibold text-[var(--color-ink)]">קוד תלמיד</h2>
-        <p className="mt-2 text-sm text-[var(--color-slate)]">
-          שתפו את הקוד עם הורה/מורה כדי לקשר (מקומי כרגע):
-        </p>
-        <p className="mt-3 font-mono text-xl font-semibold tracking-wider text-[var(--color-teal)]">
-          {studentCode}
-        </p>
-        <form onSubmit={onLink} className="mt-4 flex flex-wrap gap-2">
-          <input
-            value={linkInput}
-            onChange={(e) => setLinkInput(e.target.value)}
-            placeholder="קוד לקישור"
-            className="rounded-xl border border-black/10 bg-white px-3 py-2 text-sm"
-          />
-          <button type="submit" className="rounded-xl bg-[var(--color-teal)] px-4 py-2 text-sm font-semibold text-white">
-            שמירת קישור
-          </button>
-        </form>
-        {linkMsg && <p className="mt-2 text-sm text-[var(--color-success)]">{linkMsg}</p>}
       </section>
 
       <section className="space-y-3">
@@ -119,19 +79,6 @@ export default function ParentDashboardPage() {
           </ul>
         )}
       </section>
-
-      {badges.length > 0 && (
-        <section className="space-y-2">
-          <h2 className="text-lg font-semibold text-[var(--color-ink)]">תגים</h2>
-          <div className="flex flex-wrap gap-2">
-            {badges.map((id) => (
-              <span key={id} className="rounded-lg bg-[var(--color-coral)]/10 px-3 py-1 text-sm text-[var(--color-coral)]">
-                {badgeDefs[id]?.title ?? id}
-              </span>
-            ))}
-          </div>
-        </section>
-      )}
     </div>
   );
 }

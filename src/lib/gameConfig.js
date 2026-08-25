@@ -13,24 +13,6 @@ export const LEVELS = [
   { level: 5, minXp: 700, title: 'גאון המתמטיקה' },
 ];
 
-export const BADGE_DEFS = {
-  hot_streak: {
-    id: 'hot_streak',
-    title: 'חם אש',
-    description: '5 תשובות נכונות ברציפות',
-  },
-  night_owl: {
-    id: 'night_owl',
-    title: 'ינשוף לילה',
-    description: 'תרגול אחרי השעה 20:00',
-  },
-  geo_perfect: {
-    id: 'geo_perfect',
-    title: 'אלוף הנדסה',
-    description: 'סיום נושא גאומטריה בציון 100%',
-  },
-};
-
 export function levelFromXp(xp) {
   let current = LEVELS[0];
   for (const L of LEVELS) {

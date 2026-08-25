@@ -1,6 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import {
-  BADGE_DEFS,
   XP_CORRECT,
   XP_STREAK_BONUS,
   XP_TOPIC_BONUS,
@@ -25,7 +24,6 @@ function loadState() {
 function defaultState() {
   return {
     xp: 0,
-    badges: [],
     muted: false,
     streak: 0,
   };
@@ -48,56 +46,33 @@ export function GameProvider({ children }) {
   const recordAnswer = useCallback(
     (isCorrect) => {
       const nextStreak = isCorrect ? state.streak + 1 : 0;
-      const badges = [...state.badges];
-      const newBadges = [];
       let xpGained = 0;
 
       if (isCorrect) {
         xpGained = XP_CORRECT;
         if (nextStreak > 0 && nextStreak % 3 === 0) xpGained += XP_STREAK_BONUS;
-        if (nextStreak >= 5 && !badges.includes('hot_streak')) {
-          badges.push('hot_streak');
-          newBadges.push(BADGE_DEFS.hot_streak);
-        }
-        const hour = new Date().getHours();
-        if (hour >= 20 && !badges.includes('night_owl')) {
-          badges.push('night_owl');
-          newBadges.push(BADGE_DEFS.night_owl);
-        }
       }
 
       setState((s) => ({
         ...s,
         xp: s.xp + xpGained,
         streak: nextStreak,
-        badges,
       }));
 
-      return { xpGained, newBadges };
+      return { xpGained };
     },
-    [state.streak, state.badges],
+    [state.streak],
   );
 
   const recordQuizComplete = useCallback(
-    ({ topicCluster, perfect }) => {
-      const badges = [...state.badges];
-      const newBadges = [];
+    ({ perfect }) => {
       let xpGained = XP_TOPIC_BONUS;
       if (perfect) xpGained += XP_TOPIC_BONUS;
 
-      const isGeo =
-        typeof topicCluster === 'string' &&
-        (topicCluster.includes('גאומט') || topicCluster.toLowerCase().includes('geo'));
-
-      if (perfect && isGeo && !badges.includes('geo_perfect')) {
-        badges.push('geo_perfect');
-        newBadges.push(BADGE_DEFS.geo_perfect);
-      }
-
-      setState((s) => ({ ...s, xp: s.xp + xpGained, badges }));
-      return { xpGained, newBadges };
+      setState((s) => ({ ...s, xp: s.xp + xpGained }));
+      return { xpGained };
     },
-    [state.badges],
+    [],
   );
 
   const value = useMemo(
@@ -105,8 +80,6 @@ export function GameProvider({ children }) {
       xp: state.xp,
       muted: state.muted,
       streak: state.streak,
-      badges: state.badges,
-      badgeDefs: BADGE_DEFS,
       level,
       levelInfo,
       toggleMute,
@@ -117,7 +90,6 @@ export function GameProvider({ children }) {
       state.xp,
       state.muted,
       state.streak,
-      state.badges,
       level,
       levelInfo,
       toggleMute,

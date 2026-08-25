@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import { GRADE_LABELS, GRADE9_TRACKS, getTopics } from '../data/curriculum';
 import { getAllQuestionsForTopic, TOPIC_QUIZ_SIZE } from '../data/questions';
+import { accentFor } from '../lib/palette';
 
 export default function TopicsPage() {
   const { grade, units, track } = useParams();
@@ -60,37 +61,53 @@ export default function TopicsPage() {
           לא נמצאו נושאים למסלול זה.
         </p>
       ) : (
-        Object.entries(byCluster).map(([cluster, list]) => (
-          <section key={cluster} className="space-y-4">
-            <h2 className="text-lg font-semibold text-[var(--color-ink)]">{cluster}</h2>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {list.map((t) => {
-                const poolSize = getAllQuestionsForTopic(t.id).length;
-                const quizSize = Math.min(TOPIC_QUIZ_SIZE, poolSize);
-                return (
-                  <Link
-                    key={t.id}
-                    to={`/quiz/${t.id}`}
-                    className="block rounded-2xl bg-white/90 p-6 shadow-sm ring-1 ring-black/5 transition hover:ring-[var(--color-teal)]/40"
-                  >
-                    <div className="flex items-start justify-between gap-2">
-                      <h3 className="text-lg font-semibold text-[var(--color-ink)]">{t.title}</h3>
-                      <span className="shrink-0 rounded-md bg-[var(--color-mist)] px-2 py-0.5 text-xs text-[var(--color-slate)]">
-                        {quizSize} מתוך {poolSize}
+        Object.entries(byCluster).map(([cluster, list], clusterIdx) => {
+          const clusterAccent = accentFor(clusterIdx);
+          return (
+            <section key={cluster} className="space-y-4">
+              <h2
+                className="inline-block rounded-full px-4 py-1.5 text-sm font-bold"
+                style={{ backgroundColor: clusterAccent.bg, color: clusterAccent.text }}
+              >
+                {cluster}
+              </h2>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {list.map((t, i) => {
+                  const poolSize = getAllQuestionsForTopic(t.id).length;
+                  const quizSize = Math.min(TOPIC_QUIZ_SIZE, poolSize);
+                  const accent = accentFor(clusterIdx + i);
+                  return (
+                    <Link
+                      key={t.id}
+                      to={`/quiz/${t.id}`}
+                      className="group block overflow-hidden rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/5 transition hover:-translate-y-1 hover:shadow-lg"
+                      style={{ borderInlineStart: `5px solid ${accent.solid}` }}
+                    >
+                      <div className="flex items-start justify-between gap-2">
+                        <h3 className="text-lg font-semibold text-[var(--color-ink)]">{t.title}</h3>
+                        <span
+                          className="shrink-0 rounded-full px-2.5 py-0.5 text-xs font-semibold"
+                          style={{ backgroundColor: accent.bg, color: accent.text }}
+                        >
+                          {quizSize} מתוך {poolSize}
+                        </span>
+                      </div>
+                      <p className="mt-2 text-sm leading-relaxed text-[var(--color-slate)]">
+                        {t.description}
+                      </p>
+                      <span
+                        className="mt-4 inline-flex items-center gap-1 text-sm font-bold transition group-hover:gap-2"
+                        style={{ color: accent.text }}
+                      >
+                        התחל מבחן →
                       </span>
-                    </div>
-                    <p className="mt-2 text-sm leading-relaxed text-[var(--color-slate)]">
-                      {t.description}
-                    </p>
-                    <span className="mt-4 inline-block text-sm font-medium text-[var(--color-teal)]">
-                      התחל מבחן →
-                    </span>
-                  </Link>
-                );
-              })}
-            </div>
-          </section>
-        ))
+                    </Link>
+                  );
+                })}
+              </div>
+            </section>
+          );
+        })
       )}
     </div>
   );

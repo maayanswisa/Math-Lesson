@@ -122,7 +122,6 @@ export default function QuizPage() {
       <QuizCard
         key={`${topicId}-${drawId}`}
         questions={questions}
-        topicCluster={topic?.cluster ?? null}
         topicExplanation={topic?.explanation ?? null}
         topicKeyFormulas={topic?.keyFormulas ?? null}
         grade={grade}

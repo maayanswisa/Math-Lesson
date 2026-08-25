@@ -1,5 +1,4 @@
 const PROGRESS_KEY = 'math-lesson-progress-v1';
-const STUDENT_CODE_KEY = 'math-lesson-student-code';
 
 function loadProgress() {
   try {
@@ -13,15 +12,6 @@ function loadProgress() {
 
 function saveProgress(data) {
   localStorage.setItem(PROGRESS_KEY, JSON.stringify(data));
-}
-
-export function getOrCreateStudentCode() {
-  let code = localStorage.getItem(STUDENT_CODE_KEY);
-  if (!code) {
-    code = `ML-${Math.random().toString(36).slice(2, 6).toUpperCase()}${Date.now().toString(36).slice(-3).toUpperCase()}`;
-    localStorage.setItem(STUDENT_CODE_KEY, code);
-  }
-  return code;
 }
 
 export function logQuizAttempt({
@@ -71,6 +61,7 @@ export function getWeakTopics(limit = 5) {
       ...t,
       avg: Math.round(t.scores.reduce((s, x) => s + x, 0) / t.scores.length),
     }))
+    .filter((t) => t.avg < 85)
     .sort((a, b) => a.avg - b.avg)
     .slice(0, limit);
 }
@@ -95,17 +86,4 @@ export function getWeeklySummary() {
     best,
     improved: avgNew >= avgOld,
   };
-}
-
-const PARENT_LINK_KEY = 'math-lesson-parent-link';
-
-export function linkStudentCode(code) {
-  const normalized = String(code || '').trim().toUpperCase();
-  if (!normalized) return false;
-  localStorage.setItem(PARENT_LINK_KEY, normalized);
-  return true;
-}
-
-export function getLinkedStudentCode() {
-  return localStorage.getItem(PARENT_LINK_KEY);
 }

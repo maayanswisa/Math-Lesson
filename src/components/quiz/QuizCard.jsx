@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, motion, Reorder, useDragControls } from 'framer-motion';
 import MathRenderer from '../ui/MathRenderer';
 import FractionPizza from './interactive/FractionPizza';
 import NumberLine from './interactive/NumberLine';
@@ -16,6 +16,42 @@ import { getHintsForQuestion } from '../../lib/hints';
 import { shouldShowStudyMorePopup } from '../../lib/promo';
 
 const OPTION_LABELS = ['א', 'ב', 'ג', 'ד'];
+const TOOL_ORDER_KEY = 'math-lesson-tool-order-v1';
+
+function loadToolOrder() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(TOOL_ORDER_KEY));
+    if (Array.isArray(saved) && saved.length === 2 && saved.includes('scratchpad') && saved.includes('calculator')) {
+      return saved;
+    }
+  } catch {
+    // ignore malformed storage
+  }
+  return ['scratchpad', 'calculator'];
+}
+
+/** Panel wrapped for mobile drag-to-reorder — drag only starts from the handle, not the tool itself. */
+function ReorderablePanel({ value, label, children }) {
+  const controls = useDragControls();
+  return (
+    <Reorder.Item
+      as="div"
+      value={value}
+      dragListener={false}
+      dragControls={controls}
+      className="rounded-2xl bg-white shadow-sm ring-1 ring-black/10"
+    >
+      <div
+        onPointerDown={(e) => controls.start(e)}
+        className="flex touch-none cursor-grab items-center justify-center gap-1.5 rounded-t-2xl border-b border-black/5 py-2 text-xs font-medium text-[var(--color-slate)] active:cursor-grabbing"
+      >
+        <span aria-hidden="true">⠿</span>
+        גררו לסידור מחדש · {label}
+      </div>
+      <div className="p-1">{children}</div>
+    </Reorder.Item>
+  );
+}
 
 function McqOptions({ options = [], selectedIndex, onSelect, disabled }) {
   return (
@@ -81,7 +117,6 @@ function QuestionBody({ question, mcqIndex, onMcqSelect, onInteractiveReady, loc
 
 export default function QuizCard({
   questions = [],
-  topicCluster = null,
   topicExplanation = null,
   topicKeyFormulas = null,
   grade = null,
@@ -102,12 +137,16 @@ export default function QuizCard({
   const [feedback, setFeedback] = useState(null);
   const [shake, setShake] = useState(false);
   const [sessionXp, setSessionXp] = useState(0);
-  const [sessionBadges, setSessionBadges] = useState([]);
   const [secondsLeft, setSecondsLeft] = useState(SPEED_RUN_SECONDS);
   const [timedOut, setTimedOut] = useState(false);
   const finishedRef = useRef(false);
   const [hintsRevealed, setHintsRevealed] = useState(0);
   const [showPromo, setShowPromo] = useState(false);
+  const [toolOrder, setToolOrder] = useState(loadToolOrder);
+
+  useEffect(() => {
+    localStorage.setItem(TOOL_ORDER_KEY, JSON.stringify(toolOrder));
+  }, [toolOrder]);
 
   const showCalculator = grade != null && Number(grade) >= 7;
   const current = questions[currentIndex];
@@ -131,9 +170,8 @@ export default function QuizCard({
     const wrongCount = finalAnswers.length - correctCount;
     const score = finalAnswers.length === 0 ? 0 : Math.round((correctCount / Math.max(total, 1)) * 100);
     const perfect = correctCount === total && total > 0 && reason !== 'timeout';
-    const { xpGained, newBadges } = recordQuizComplete({ score, topicCluster, perfect });
+    const { xpGained } = recordQuizComplete({ score, perfect });
     setSessionXp((x) => x + xpGained);
-    setSessionBadges((b) => [...b, ...newBadges]);
     if (perfect || score >= 80) fireBigConfetti();
     if (shouldShowStudyMorePopup(wrongCount)) setShowPromo(true);
     setPhase('summary');
@@ -178,9 +216,8 @@ export default function QuizCard({
     if (!canSubmit() || !current) return;
     const { isCorrect, selected } = evaluateCurrent();
 
-    const { xpGained, newBadges } = recordAnswer(isCorrect);
+    const { xpGained } = recordAnswer(isCorrect);
     setSessionXp((x) => x + xpGained);
-    setSessionBadges((b) => [...b, ...newBadges]);
 
     const entry = {
       questionId: current.id,
@@ -199,7 +236,7 @@ export default function QuizCard({
       setTimeout(() => setShake(false), 500);
     }
 
-    setFeedback({ isCorrect, explanation: current.explanation, xpGained, newBadges });
+    setFeedback({ isCorrect, explanation: current.explanation, xpGained });
     setPhase('feedback');
   }
 
@@ -228,7 +265,6 @@ export default function QuizCard({
     setPhase('quiz');
     setFeedback(null);
     setSessionXp(0);
-    setSessionBadges([]);
     setSecondsLeft(SPEED_RUN_SECONDS);
     setTimedOut(false);
     setShowPromo(false);
@@ -303,15 +339,6 @@ export default function QuizCard({
             {timedOut ? ' (עד שנגמר הזמן)' : ''}
           </p>
           <p className="mt-2 text-lg font-semibold text-[var(--color-teal)]">+{sessionXp} XP במשימה זו</p>
-          {sessionBadges.length > 0 && (
-            <div className="mt-4 flex flex-wrap justify-center gap-2">
-              {sessionBadges.map((b) => (
-                <span key={b.id} className="rounded-lg bg-[var(--color-coral)]/10 px-3 py-1 text-sm font-medium text-[var(--color-coral)]">
-                  תג חדש: {b.title}
-                </span>
-              ))}
-            </div>
-          )}
           <div className="mx-auto mt-6 h-3 w-full max-w-md overflow-hidden rounded-full bg-[var(--color-mist)]">
             <div className="h-full rounded-full bg-[var(--color-teal)] transition-all duration-700" style={{ width: `${summary.score}%` }} />
           </div>
@@ -397,13 +424,6 @@ export default function QuizCard({
                   {feedback?.isCorrect ? 'נכון!' : 'לא בדיוק'}
                   {feedback?.xpGained ? ` | +${feedback.xpGained} XP` : ''}
                 </p>
-                {feedback?.newBadges?.length > 0 && (
-                  <div className="flex flex-wrap gap-2">
-                    {feedback.newBadges.map((b) => (
-                      <span key={b.id} className="rounded-lg bg-[var(--color-coral)]/10 px-2 py-1 text-sm">תג: {b.title}</span>
-                    ))}
-                  </div>
-                )}
                 <MathRenderer className="text-[var(--color-slate)]">{feedback?.explanation}</MathRenderer>
                 <button type="button" onClick={goNext} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
                   {currentIndex >= total - 1 ? 'לסיכום' : 'השאלה הבאה'}
@@ -429,16 +449,36 @@ export default function QuizCard({
       </div>
 
       {(phase === 'quiz' || phase === 'feedback') && (
-        <div
-          className={`mt-4 grid gap-3 lg:mt-0 lg:flex lg:w-72 lg:shrink-0 lg:flex-col lg:sticky lg:top-4 ${
-            showCalculator ? 'grid-cols-2' : 'grid-cols-1'
-          }`}
-        >
-          <div className="lg:min-h-0 lg:flex-1">
-            <Scratchpad />
+        <>
+          {/* מובייל: כלים בעמודה אחת, ברוחב מלא; אם יש מחשבון — אפשר לגרור ולסדר מחדש */}
+          <div className="mt-4 lg:hidden">
+            {showCalculator ? (
+              <Reorder.Group axis="y" values={toolOrder} onReorder={setToolOrder} as="div" className="space-y-3">
+                {toolOrder.map((key) =>
+                  key === 'scratchpad' ? (
+                    <ReorderablePanel key="scratchpad" value="scratchpad" label="לוח טיוטה">
+                      <Scratchpad />
+                    </ReorderablePanel>
+                  ) : (
+                    <ReorderablePanel key="calculator" value="calculator" label="מחשבון">
+                      <SciCalculator />
+                    </ReorderablePanel>
+                  ),
+                )}
+              </Reorder.Group>
+            ) : (
+              <Scratchpad />
+            )}
           </div>
-          {showCalculator && <SciCalculator />}
-        </div>
+
+          {/* מסך רחב: הכלים בסרגל צד קבוע, ליד השאלה */}
+          <div className="hidden gap-3 lg:sticky lg:top-4 lg:flex lg:w-72 lg:shrink-0 lg:flex-col">
+            <div className="lg:min-h-0 lg:flex-1">
+              <Scratchpad />
+            </div>
+            {showCalculator && <SciCalculator />}
+          </div>
+        </>
       )}
     </div>
   );

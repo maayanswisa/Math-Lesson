@@ -6,6 +6,7 @@ import {
   getTopics,
   isElementary,
 } from '../data/curriculum';
+import { accentFor } from '../lib/palette';
 
 export default function UnitsPage() {
   const { grade } = useParams();
@@ -33,15 +34,17 @@ export default function UnitsPage() {
           </p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
-          {GRADE9_TRACKS.map((t) => {
+          {GRADE9_TRACKS.map((t, i) => {
             const count = getTopics(9, { track: t.id }).length;
+            const accent = accentFor(i);
             return (
               <Link
                 key={t.id}
                 to={`/grade/9/track/${t.id}`}
-                className="block rounded-2xl bg-white/90 p-6 shadow-sm ring-1 ring-black/5 transition hover:ring-[var(--color-teal)]/40"
+                className="block rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/5 transition hover:-translate-y-1 hover:shadow-lg"
+                style={{ borderInlineStart: `5px solid ${accent.solid}` }}
               >
-                <p className="text-sm font-medium text-[var(--color-teal)]">{count} נושאים</p>
+                <p className="text-sm font-bold" style={{ color: accent.text }}>{count} נושאים</p>
                 <h2 className="mt-2 text-xl font-semibold text-[var(--color-ink)]">{t.title}</h2>
                 <p className="mt-2 text-sm leading-relaxed text-[var(--color-slate)]">{t.blurb}</p>
               </Link>
@@ -68,15 +71,17 @@ export default function UnitsPage() {
       </div>
 
       <div className="grid gap-4 sm:grid-cols-3">
-        {UNIT_OPTIONS.map((u) => {
+        {UNIT_OPTIONS.map((u, i) => {
           const count = getTopics(gradeNum, { units: u.units }).length;
+          const accent = accentFor(i);
           return (
             <Link
               key={u.units}
               to={`/grade/${gradeNum}/units/${u.units}`}
-              className="block rounded-2xl bg-white/90 p-6 shadow-sm ring-1 ring-black/5 transition hover:ring-[var(--color-teal)]/40"
+              className="block rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/5 transition hover:-translate-y-1 hover:shadow-lg"
+              style={{ borderInlineStart: `5px solid ${accent.solid}` }}
             >
-              <p className="text-sm font-medium text-[var(--color-teal)]">
+              <p className="text-sm font-bold" style={{ color: accent.text }}>
                 {count} נושאים
               </p>
               <h2 className="mt-2 text-xl font-semibold text-[var(--color-ink)]">
