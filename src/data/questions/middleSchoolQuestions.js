@@ -8700,6 +8700,1881 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     ],
     "correct_index": 2,
     "explanation": "אחוז הוא חלק מ-$100$: $60\\%=\\frac{60}{100}$. לכן $60\\%$ מ-$50$ הוא $\\frac{60}{100}\\times 50=30$."
+  },
+  {
+    "id": "q-g7-square-roots-1",
+    "topic_id": "g7-square-roots",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{25}$?",
+    "options": ["$5$", "$12.5$", "$50$", "$625$"],
+    "correct_index": 0,
+    "explanation": "$5^2=25$, ולכן $\\sqrt{25}=5$."
+  },
+  {
+    "id": "q-g7-square-roots-2",
+    "topic_id": "g7-square-roots",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{81}$?",
+    "options": ["$9$", "$40.5$", "$8$", "$6561$"],
+    "correct_index": 0,
+    "explanation": "$9^2=81$, ולכן $\\sqrt{81}=9$."
+  },
+  {
+    "id": "q-g7-square-roots-3",
+    "topic_id": "g7-square-roots",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{144}$?",
+    "options": ["$12$", "$72$", "$14$", "$11$"],
+    "correct_index": 0,
+    "explanation": "$12^2=144$, ולכן $\\sqrt{144}=12$."
+  },
+  {
+    "id": "q-g7-square-roots-4",
+    "topic_id": "g7-square-roots",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{10{,}000}$?",
+    "options": ["$100$", "$1{,}000$", "$50$", "$10$"],
+    "correct_index": 0,
+    "explanation": "$100^2=10{,}000$, ולכן $\\sqrt{10{,}000}=100$."
+  },
+  {
+    "id": "q-g7-square-roots-5",
+    "topic_id": "g7-square-roots",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{1{,}000{,}000}$?",
+    "options": ["$1{,}000$", "$100{,}000$", "$10{,}000$", "$100$"],
+    "correct_index": 0,
+    "explanation": "$1{,}000^2=1{,}000{,}000$, ולכן $\\sqrt{1{,}000{,}000}=1{,}000$."
+  },
+  {
+    "id": "q-g7-square-roots-6",
+    "topic_id": "g7-square-roots",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לאיזה מספר יש שני שורשים ריבועיים, $7$ ו-$-7$?",
+    "options": ["$49$", "$14$", "$-49$", "$7$"],
+    "correct_index": 0,
+    "explanation": "$7^2=49$ וגם $(-7)^2=49$, ולכן ל-$49$ יש שני שורשים ריבועיים: $7$ ו-$-7$."
+  },
+  {
+    "id": "q-g7-square-roots-7",
+    "topic_id": "g7-square-roots",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהם שני השורשים הריבועיים של $36$?",
+    "options": ["$6$ ו-$-6$", "$18$ ו-$-18$", "$6$ בלבד", "$36$ ו-$1$"],
+    "correct_index": 0,
+    "explanation": "$6^2=36$ וגם $(-6)^2=36$, ולכן שני השורשים הם $6$ ו-$-6$."
+  },
+  {
+    "id": "q-g7-square-roots-8",
+    "topic_id": "g7-square-roots",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{9}+\\sqrt{16}$?",
+    "options": ["$7$", "$5$", "$25$", "$\\sqrt{25}$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{9}=3$ ו-$\\sqrt{16}=4$. הסכום: $3+4=7$."
+  },
+  {
+    "id": "q-g7-square-roots-9",
+    "topic_id": "g7-square-roots",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{100-36}$?",
+    "options": ["$8$", "$64$", "$10$", "$4$"],
+    "correct_index": 0,
+    "explanation": "קודם מחסרים בתוך השורש: $100-36=64$, ואז $\\sqrt{64}=8$."
+  },
+  {
+    "id": "q-g7-square-roots-10",
+    "topic_id": "g7-square-roots",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שטח ריבוע הוא $121$ סמ\"ר. מה אורך צלעו?",
+    "options": ["$11$ ס\"מ", "$60.5$ ס\"מ", "$30.25$ ס\"מ", "$121$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "אורך הצלע הוא השורש הריבועי של השטח: $\\sqrt{121}=11$."
+  },
+  {
+    "id": "q-g7-square-roots-11",
+    "topic_id": "g7-square-roots",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נפח קובייה הוא $27$ סמ\"ק. מה אורך מקצועה?",
+    "options": ["$3$ ס\"מ", "$9$ ס\"מ", "$13.5$ ס\"מ", "$27$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "מחפשים מספר שכפול פעמיים בעצמו נותן $27$: $3\\times 3\\times 3=27$, ולכן המקצוע הוא $3$."
+  },
+  {
+    "id": "q-g7-square-roots-12",
+    "topic_id": "g7-square-roots",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{\\frac{9}{25}}$?",
+    "options": ["$\\frac{3}{5}$", "$\\frac{9}{25}$", "$\\frac{4.5}{12.5}$", "$\\frac{3}{25}$"],
+    "correct_index": 0,
+    "explanation": "$\\left(\\frac{3}{5}\\right)^2=\\frac{9}{25}$, ולכן $\\sqrt{\\frac{9}{25}}=\\frac{3}{5}$."
+  },
+  {
+    "id": "q-g7-square-roots-13",
+    "topic_id": "g7-square-roots",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים הוא שורש ריבועי שלם (טבעי)?",
+    "options": ["$\\sqrt{64}$", "$\\sqrt{50}$", "$\\sqrt{90}$", "$\\sqrt{120}$"],
+    "correct_index": 0,
+    "explanation": "$64=8^2$, ולכן $\\sqrt{64}=8$ — מספר טבעי. $50,90,120$ אינם מספרים ריבועיים שלמים."
+  },
+  {
+    "id": "q-g7-square-roots-14",
+    "topic_id": "g7-square-roots",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{4}\\times\\sqrt{9}$?",
+    "options": ["$6$", "$36$", "$13$", "$\\sqrt{13}$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{4}=2$ ו-$\\sqrt{9}=3$. המכפלה: $2\\times 3=6$."
+  },
+  {
+    "id": "q-g7-square-roots-15",
+    "topic_id": "g7-square-roots",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $2\\times\\sqrt{49}$?",
+    "options": ["$14$", "$98$", "$7$", "$9.8$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{49}=7$, ולכן $2\\times 7=14$."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-1",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני ישרים שנחתכים בזווית ישרה נקראים:",
+    "options": ["ניצבים", "מקבילים", "חופפים", "זהים"],
+    "correct_index": 0,
+    "explanation": "ישרים הנחתכים בזווית של $90°$ נקראים ניצבים."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-2",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני ישרים באותו מישור שאינם נחתכים לעולם נקראים:",
+    "options": ["מקבילים", "ניצבים", "נחתכים", "זהים"],
+    "correct_index": 0,
+    "explanation": "ישרים באותו מישור שאינם נפגשים אף פעם נקראים מקבילים."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-3",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "המרחק של נקודה מישר הוא:",
+    "options": ["אורך הקטע הניצב מהנקודה לישר", "אורך כל קטע כלשהו מהנקודה לישר", "אורך הישר עצמו", "תמיד אפס"],
+    "correct_index": 0,
+    "explanation": "מרחק נקודה מישר מוגדר כאורך הקטע הניצב לישר, שהוא הקצר ביותר מבין כל הקטעים האפשריים."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-4",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במלבן, הצלעות הנגדיות הן:",
+    "options": ["שוות ומקבילות", "שוות אך לא מקבילות", "מקבילות אך לא שוות", "לא שוות ולא מקבילות"],
+    "correct_index": 0,
+    "explanation": "אחת התכונות המרכזיות של מלבן: כל זוג צלעות נגדיות שוה באורכו ומקביל."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-5",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה זוויות ישרות יש במלבן?",
+    "options": ["$4$", "$2$", "$3$", "$1$"],
+    "correct_index": 0,
+    "explanation": "מלבן מוגדר כמרובע עם ארבע זוויות ישרות."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-6",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה נכון לגבי אלכסוני מלבן?",
+    "options": ["הם שווים באורכם", "הם תמיד ניצבים זה לזה", "אחד מהם תמיד ארוך מהשני", "הם מקבילים זה לזה"],
+    "correct_index": 0,
+    "explanation": "בכל מלבן, שני האלכסונים שווים באורכם."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-7",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לתיבה יש:",
+    "options": ["$6$ פאות מלבניות, $8$ קודקודים, $12$ מקצועות", "$4$ פאות, $4$ קודקודים, $6$ מקצועות", "$6$ פאות, $6$ קודקודים, $8$ מקצועות", "$8$ פאות, $6$ קודקודים, $12$ מקצועות"],
+    "correct_index": 0,
+    "explanation": "תיבה מוגבלת בשש פאות מלבניות, ויש לה $8$ קודקודים ו-$12$ מקצועות."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-8",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קובייה היא תיבה מיוחדת שבה:",
+    "options": ["כל הפאות ריבועים חופפים", "רק שתי פאות שוות", "אין לה פאות מלבניות", "יש לה $4$ פאות בלבד"],
+    "correct_index": 0,
+    "explanation": "קובייה היא תיבה שכל שש פאותיה הן ריבועים חופפים (מקרה פרטי של מלבן)."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-9",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה שטח הפנים של תיבה שאורכה $6$ ס\"מ, רוחבה $4$ ס\"מ וגובהה $3$ ס\"מ?",
+    "options": ["$108$ סמ\"ר", "$72$ סמ\"ר", "$54$ סמ\"ר", "$216$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$2\\times(6\\times 4+6\\times 3+4\\times 3)=2\\times(24+18+12)=2\\times 54=108$."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-10",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בתיבה, כמה זוגות פאות מקבילות יש?",
+    "options": ["$3$", "$2$", "$6$", "$4$"],
+    "correct_index": 0,
+    "explanation": "בתיבה יש $6$ פאות המסודרות בשלושה זוגות מקבילים (עליונה-תחתונה, קדמית-אחורית, ימנית-שמאלית)."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-11",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "הקטע $AB$ ניצב לישר $l$ בנקודה $A$ (כש-$B$ על הישר). קיימת נקודה נוספת $C$ על $l$, השונה מ-$B$. מה ניתן לומר על הקטע $AC$ בהשוואה ל-$AB$?",
+    "options": ["$AC$ ארוך יותר מ-$AB$", "$AC$ קצר יותר מ-$AB$", "$AC$ שווה תמיד ל-$AB$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "הקטע הניצב ($AB$) הוא תמיד הקצר ביותר מבין כל הקטעים המחברים את הנקודה לישר — לכן כל קטע אחר, כמו $AC$, יהיה ארוך ממנו."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-12",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בתיבה, כמה מקצועות נפגשים בכל קודקוד?",
+    "options": ["$3$", "$2$", "$4$", "$6$"],
+    "correct_index": 0,
+    "explanation": "בכל קודקוד של תיבה נפגשים בדיוק $3$ מקצועות (אחד מכל אחד משלושת הכיוונים: אורך, רוחב וגובה)."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-13",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני קטעים המקבילים לאותו קטע שלישי:",
+    "options": ["מקבילים זה לזה", "בהכרח ניצבים זה לזה", "בהכרח נחתכים", "אין קשר ביניהם"],
+    "correct_index": 0,
+    "explanation": "אם שני קטעים מקבילים לאותו קטע, הם בהכרח מקבילים זה לזה."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-14",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה שטח הפנים של קובייה שמקצועה $5$ ס\"מ?",
+    "options": ["$150$ סמ\"ר", "$125$ סמ\"ר", "$25$ סמ\"ר", "$100$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "לקובייה $6$ פאות ריבועיות זהות, כל אחת בשטח $5\\times 5=25$: $6\\times 25=150$."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-15",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בתיבה שאינה קובייה, אורכי המקצועות מתחלקים לשלושה סוגים (אורך, רוחב, גובה). כמה מקצועות יש מכל סוג?",
+    "options": ["$4$ מקצועות מכל סוג", "$3$ מקצועות מכל סוג", "$2$ מקצועות מכל סוג", "$6$ מקצועות מכל סוג"],
+    "correct_index": 0,
+    "explanation": "מתוך $12$ המקצועות של התיבה, הם מתחלקים לשלוש קבוצות שוות של $4$ מקצועות מקבילים באותו אורך."
+  },
+  {
+    "id": "q-g7-area-perimeter-prism-1",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מנסרה משולשת ישרה שבסיסה משולש ישר-זווית עם ניצבים $3$ ו-$4$ ס\"מ, וגובה המנסרה $10$ ס\"מ. מה נפח המנסרה?",
+    "options": ["$60$ סמ\"ק", "$120$ סמ\"ק", "$70$ סמ\"ק", "$35$ סמ\"ק"],
+    "correct_index": 0,
+    "explanation": "שטח הבסיס: $\\frac{3\\times 4}{2}=6$. הנפח: $6\\times 10=60$."
+  },
+  {
+    "id": "q-g7-area-perimeter-prism-2",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מנסרה משולשת ששטח בסיסה $12$ סמ\"ר וגובהה $7$ ס\"מ. מה נפחה?",
+    "options": ["$84$ סמ\"ק", "$19$ סמ\"ק", "$42$ סמ\"ק", "$168$ סמ\"ק"],
+    "correct_index": 0,
+    "explanation": "נפח מנסרה $=$ שטח הבסיס $\\times$ גובה $=12\\times 7=84$."
+  },
+  {
+    "id": "q-g7-area-perimeter-prism-3",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה בסיסים יש למנסרה משולשת?",
+    "options": ["$2$", "$1$", "$3$", "$5$"],
+    "correct_index": 0,
+    "explanation": "למנסרה משולשת ישרה יש שני משולשים חופפים המשמשים כבסיסי המנסרה."
+  },
+  {
+    "id": "q-g7-area-perimeter-prism-4",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה פאות צדדיות (מלבניות) יש למנסרה משולשת?",
+    "options": ["$3$", "$2$", "$4$", "$5$"],
+    "correct_index": 0,
+    "explanation": "בין שני בסיסי המנסרה המשולשת יש $3$ פאות צדדיות מלבניות."
+  },
+  {
+    "id": "q-g7-area-perimeter-prism-5",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נפח מנסרה משולשת הוא $150$ סמ\"ק, ושטח בסיסה $15$ סמ\"ר. מה גובה המנסרה?",
+    "options": ["$10$ ס\"מ", "$15$ ס\"מ", "$135$ ס\"מ", "$2{,}250$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "גובה $=$ נפח $\\div$ שטח הבסיס $=150\\div 15=10$."
+  },
+  {
+    "id": "q-g7-area-perimeter-prism-6",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מנסרה משולשת שבסיסה משולש שווה-צלעות שצלעו $6$ ס\"מ, וגובה המנסרה $8$ ס\"מ. מה שטח שלוש הפאות הצדדיות (המלבניות) יחד?",
+    "options": ["$144$ סמ\"ר", "$48$ סמ\"ר", "$96$ סמ\"ר", "$24$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "כל פאה צדדית היא מלבן בגודל $6\\times 8=48$ סמ\"ר. שלוש פאות: $48\\times 3=144$."
+  },
+  {
+    "id": "q-g7-area-perimeter-prism-7",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "אם מכפילים את כל המקצועות של מנסרה משולשת פי $2$, איך משתנה נפחה?",
+    "options": ["גדל פי $8$", "גדל פי $2$", "גדל פי $4$", "גדל פי $6$"],
+    "correct_index": 0,
+    "explanation": "כאשר כל הממדים מוכפלים פי $2$, הנפח (מכפלה של שלושה ממדים) גדל פי $2^3=8$."
+  },
+  {
+    "id": "q-g7-area-perimeter-prism-8",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פריסה (רשת) של מנסרה משולשת מורכבת מ:",
+    "options": ["$2$ משולשים ו-$3$ מלבנים", "$3$ משולשים ו-$2$ מלבנים", "$5$ משולשים", "$6$ מלבנים"],
+    "correct_index": 0,
+    "explanation": "מנסרה משולשת בנויה משני בסיסים משולשים ושלוש פאות צדדיות מלבניות — סך הכול $2$ משולשים ו-$3$ מלבנים בפריסה."
+  },
+  {
+    "id": "q-g8-ratio-1",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "היחס בין מספר הבנים למספר הבנות בכיתה הוא $4:3$. אם יש $12$ בנים, כמה בנות יש?",
+    "options": ["$9$", "$16$", "$8$", "$15$"],
+    "correct_index": 0,
+    "explanation": "$12\\div 4=3$ (ערך של חלק אחד ביחס), ולכן מספר הבנות: $3\\times 3=9$."
+  },
+  {
+    "id": "q-g8-ratio-2",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "צמצמו את היחס $18:24$ לצורה הפשוטה ביותר.",
+    "options": ["$3:4$", "$6:8$", "$9:12$", "$2:3$"],
+    "correct_index": 0,
+    "explanation": "מחלקים את שני האגפים במחלק המשותף הגדול ביותר, $6$: $18\\div 6:24\\div 6=3:4$."
+  },
+  {
+    "id": "q-g8-ratio-3",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "היחס בין אורכי שני קטעים הוא $5:2$. אם הקטע הקצר הוא $8$ ס\"מ, מה אורך הקטע הארוך?",
+    "options": ["$20$", "$16$", "$10$", "$3.2$"],
+    "correct_index": 0,
+    "explanation": "כל \"חלק\" ביחס שווה ל-$8\\div 2=4$ ס\"מ. הקטע הארוך: $5\\times 4=20$ ס\"מ."
+  },
+  {
+    "id": "q-g8-ratio-4",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חלקו $60$ סוכריות ביחס $2:3$ בין שני ילדים. כמה סוכריות יקבל כל ילד?",
+    "options": ["$24$ ו-$36$", "$20$ ו-$40$", "$30$ ו-$30$", "$25$ ו-$35$"],
+    "correct_index": 0,
+    "explanation": "סך החלקים: $2+3=5$. כל חלק שווה ל-$60\\div 5=12$. הילדים מקבלים $2\\times 12=24$ ו-$3\\times 12=36$."
+  },
+  {
+    "id": "q-g8-ratio-5",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פרופורציה היא:",
+    "options": ["שוויון בין שני יחסים", "הפרש בין שני יחסים", "מכפלה של יחס במספר", "סכום של שני יחסים"],
+    "correct_index": 0,
+    "explanation": "פרופורציה מוגדרת כשוויון בין שני יחסים, למשל $\\frac{a}{b}=\\frac{c}{d}$."
+  },
+  {
+    "id": "q-g8-ratio-6",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה הפרופורציה $\\frac{a}{b}=\\frac{c}{d}$, כש-$a=6$, $b=4$, $c=9$. מהו $d$?",
+    "options": ["$6$", "$5.4$", "$8$", "$4.5$"],
+    "correct_index": 0,
+    "explanation": "כפל בהצלבה: $a\\times d=b\\times c$, כלומר $6d=4\\times 9=36$, ולכן $d=6$."
+  },
+  {
+    "id": "q-g8-ratio-7",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במפה, קנה המידה הוא $1:50{,}000$. המרחק במפה בין שני יישובים הוא $4$ ס\"מ. מה המרחק במציאות?",
+    "options": ["$2$ ק\"מ", "$0.2$ ק\"מ", "$20$ ק\"מ", "$200$ ק\"מ"],
+    "correct_index": 0,
+    "explanation": "$4\\times 50{,}000=200{,}000$ ס\"מ $=2{,}000$ מ' $=2$ ק\"מ."
+  },
+  {
+    "id": "q-g8-ratio-8",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "קנה המידה של שרטוט הוא $1:200$. אורכו האמיתי של קיר הוא $8$ מ'. מה אורכו בשרטוט?",
+    "options": ["$4$ ס\"מ", "$40$ ס\"מ", "$1.6$ ס\"מ", "$16$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$8$ מ' $=800$ ס\"מ. $800\\div 200=4$ ס\"מ בשרטוט."
+  },
+  {
+    "id": "q-g8-ratio-9",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בכיתה יש $28$ תלמידים. היחס בין בנים לבנות הוא $3:4$. כמה בנות יש?",
+    "options": ["$16$", "$12$", "$14$", "$21$"],
+    "correct_index": 0,
+    "explanation": "סך החלקים: $3+4=7$. כל חלק שווה ל-$28\\div 7=4$. מספר הבנות: $4\\times 4=16$."
+  },
+  {
+    "id": "q-g8-ratio-10",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "היחס בין אורכי הניצבים של משולש ישר-זווית הוא $3:5$. מאריכים כל ניצב פי $2$. מה היחס החדש?",
+    "options": ["$3:5$ (לא משתנה)", "$6:10$ (משתנה)", "$1.5:2.5$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "כשמכפילים את שני אגפי היחס באותו מספר, היחס עצמו אינו משתנה — $6:10$ מצומצם בחזרה ל-$3:5$."
+  },
+  {
+    "id": "q-g8-ratio-11",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "היחס בין שני מספרים הוא $2:5$, וסכומם הוא $63$. מהם שני המספרים?",
+    "options": ["$18$ ו-$45$", "$21$ ו-$42$", "$14$ ו-$49$", "$20$ ו-$43$"],
+    "correct_index": 0,
+    "explanation": "סך החלקים: $2+5=7$. כל חלק שווה ל-$63\\div 7=9$. המספרים: $2\\times 9=18$ ו-$5\\times 9=45$."
+  },
+  {
+    "id": "q-g8-ratio-12",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהירות מבטאת יחס בין:",
+    "options": ["מרחק לזמן", "זמן למרחק", "מהירות לזמן", "מרחק למרחק"],
+    "correct_index": 0,
+    "explanation": "מהירות מוגדרת כיחס בין המרחק שעברו לזמן שלקח לעבור אותו."
+  },
+  {
+    "id": "q-g8-ratio-13",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "קנה המידה של דגם הוא $1:20$. אורך הדגם הוא $15$ ס\"מ. מה האורך האמיתי?",
+    "options": ["$3$ מ'", "$0.75$ מ'", "$30$ מ'", "$300$ מ'"],
+    "correct_index": 0,
+    "explanation": "$15\\times 20=300$ ס\"מ $=3$ מ'."
+  },
+  {
+    "id": "q-g8-ratio-14",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "היחס בין רוחב מלבן לאורכו הוא $2:3$. אם היקף המלבן הוא $50$ ס\"מ, מה אורך המלבן?",
+    "options": ["$15$ ס\"מ", "$10$ ס\"מ", "$20$ ס\"מ", "$25$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "אם הרוחב $2x$ והאורך $3x$, אז ההיקף $2(2x+3x)=10x=50$, ולכן $x=5$ והאורך $3\\times 5=15$."
+  },
+  {
+    "id": "q-g8-ratio-15",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם היחס בין א' ל-ב' הוא $3:4$, מהו היחס בין ב' ל-א'?",
+    "options": ["$4:3$", "$3:4$", "$1:1$", "$7:1$"],
+    "correct_index": 0,
+    "explanation": "יחס הפוך: אם א' ל-ב' הוא $3:4$, אז ב' ל-א' הוא $4:3$."
+  },
+  {
+    "id": "q-g8-irrational-1",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים הוא מספר רציונלי?",
+    "options": ["$\\frac{3}{4}$", "$\\sqrt{2}$", "$\\pi$", "$\\sqrt{7}$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{3}{4}$ ניתן לכתיבה כמנה של שני מספרים שלמים — הוא רציונלי. השאר אי-רציונליים."
+  },
+  {
+    "id": "q-g8-irrational-2",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים הוא מספר אי-רציונלי?",
+    "options": ["$\\sqrt{5}$", "$\\frac{1}{3}$", "$0.75$", "$4$"],
+    "correct_index": 0,
+    "explanation": "$5$ אינו ריבוע שלם, ולכן $\\sqrt{5}$ אינו ניתן לכתיבה כמנה של שני שלמים — הוא אי-רציונלי."
+  },
+  {
+    "id": "q-g8-irrational-3",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מספר רציונלי הוא מספר שאפשר לכתוב כ:",
+    "options": ["מנה של שני מספרים שלמים", "שורש ריבועי בלבד", "מספר עשרוני אינסופי ולא מחזורי", "מספר שלילי בלבד"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של מספר רציונלי."
+  },
+  {
+    "id": "q-g8-irrational-4",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בין אילו שני מספרים שלמים נמצא $\\sqrt{20}$?",
+    "options": ["$4$ ו-$5$", "$3$ ו-$4$", "$5$ ו-$6$", "$2$ ו-$3$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{16}=4$ ו-$\\sqrt{25}=5$, ומכיוון ש-$16<20<25$, נובע ש-$4<\\sqrt{20}<5$."
+  },
+  {
+    "id": "q-g8-irrational-5",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אמדו את $\\sqrt{50}$ למספר השלם הקרוב ביותר.",
+    "options": ["$7$", "$8$", "$6$", "$25$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{49}=7$ ו-$\\sqrt{50}$ קרוב מאוד ל-$7$ (בערך $7.07$)."
+  },
+  {
+    "id": "q-g8-irrational-6",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בין אילו שני מספרים שלמים נמצא $\\sqrt{95}$?",
+    "options": ["$9$ ו-$10$", "$8$ ו-$9$", "$10$ ו-$11$", "$7$ ו-$8$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{81}=9$ ו-$\\sqrt{100}=10$, ומכיוון ש-$81<95<100$, נובע ש-$9<\\sqrt{95}<10$."
+  },
+  {
+    "id": "q-g8-irrational-7",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "האם $\\sqrt{16}$ הוא מספר רציונלי?",
+    "options": ["כן, כי $\\sqrt{16}=4$", "לא, כי הוא שורש ריבועי", "רק חלקית", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$16$ הוא ריבוע שלם ($4^2=16$), ולכן $\\sqrt{16}=4$ — מספר שלם, וכל מספר שלם הוא רציונלי."
+  },
+  {
+    "id": "q-g8-irrational-8",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "הייצוג העשרוני של מספר רציונלי הוא:",
+    "options": ["סופי או מחזורי", "תמיד סופי בלבד", "תמיד אינסופי ולא מחזורי", "תמיד מספר שלם"],
+    "correct_index": 0,
+    "explanation": "מספרים רציונליים מיוצגים כשבר עשרוני סופי (כמו $0.75$) או מחזורי (כמו $0.333...$)."
+  },
+  {
+    "id": "q-g8-irrational-9",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזו מהטענות הבאות נכונה?",
+    "options": ["כל מספר שלם הוא גם רציונלי", "כל מספר רציונלי הוא שלם", "אין מספרים אי-רציונליים", "$\\pi$ הוא מספר רציונלי"],
+    "correct_index": 0,
+    "explanation": "כל מספר שלם $n$ ניתן לכתיבה כ-$\\frac{n}{1}$, ולכן הוא רציונלי. ההפך אינו נכון (למשל $\\frac{1}{2}$ רציונלי אך לא שלם)."
+  },
+  {
+    "id": "q-g8-irrational-10",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "אמדו את $\\sqrt{130}$ למספר השלם הקרוב ביותר.",
+    "options": ["$11$", "$12$", "$10$", "$36$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{121}=11$ ו-$\\sqrt{144}=12$. מכיוון ש-$130$ קרוב יותר ל-$121$, $\\sqrt{130}\\approx 11.4$, קרוב יותר ל-$11$."
+  },
+  {
+    "id": "q-g8-inequality-1",
+    "topic_id": "g8-linear-fn",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו את האי-שוויון: $x+3>7$",
+    "options": ["$x>4$", "$x<4$", "$x>10$", "$x<10$"],
+    "correct_index": 0,
+    "explanation": "מחסרים $3$ משני האגפים: $x>7-3=4$."
+  },
+  {
+    "id": "q-g8-inequality-2",
+    "topic_id": "g8-linear-fn",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו את האי-שוויון: $2x\\leq 10$",
+    "options": ["$x\\leq 5$", "$x\\geq 5$", "$x\\leq 20$", "$x\\leq 8$"],
+    "correct_index": 0,
+    "explanation": "מחלקים ב-$2$ (מספר חיובי, כיוון האי-שוויון נשמר): $x\\leq 5$."
+  },
+  {
+    "id": "q-g8-inequality-3",
+    "topic_id": "g8-linear-fn",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פתרו את האי-שוויון: $x-5<0$",
+    "options": ["$x<5$", "$x>5$", "$x<-5$", "$x=5$"],
+    "correct_index": 0,
+    "explanation": "מוסיפים $5$ לשני האגפים: $x<5$."
+  },
+  {
+    "id": "q-g8-inequality-4",
+    "topic_id": "g8-linear-fn",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פתרו את האי-שוויון: $-2x>8$",
+    "options": ["$x<-4$", "$x>-4$", "$x<4$", "$x>4$"],
+    "correct_index": 0,
+    "explanation": "מחלקים ב-$-2$ — כשמחלקים אי-שוויון במספר שלילי, הכיוון מתהפך: $x<\\frac{8}{-2}=-4$."
+  },
+  {
+    "id": "q-g8-inequality-5",
+    "topic_id": "g8-linear-fn",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו את האי-שוויון: $3x+1\\geq 10$",
+    "options": ["$x\\geq 3$", "$x\\leq 3$", "$x\\geq 9$", "$x\\geq 11$"],
+    "correct_index": 0,
+    "explanation": "$3x\\geq 9$, ולכן $x\\geq 3$."
+  },
+  {
+    "id": "q-g8-inequality-6",
+    "topic_id": "g8-linear-fn",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים מקיים את האי-שוויון $x<5$?",
+    "options": ["$4$", "$5$", "$6$", "$10$"],
+    "correct_index": 0,
+    "explanation": "$4$ הוא הערך היחיד בין האפשרויות שקטן ממש מ-$5$."
+  },
+  {
+    "id": "q-g8-inequality-7",
+    "topic_id": "g8-linear-fn",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו את האי-שוויון: $\\frac{x}{2}<6$",
+    "options": ["$x<12$", "$x>12$", "$x<3$", "$x<6$"],
+    "correct_index": 0,
+    "explanation": "מכפילים ב-$2$: $x<12$."
+  },
+  {
+    "id": "q-g8-inequality-8",
+    "topic_id": "g8-linear-fn",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם $x>3$, מה אפשר לומר בוודאות על $2x$?",
+    "options": ["$2x>6$", "$2x<6$", "$2x=6$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "הכפלת אי-שוויון במספר חיובי ($2$) שומרת על הכיוון: $2x>2\\times 3=6$."
+  },
+  {
+    "id": "q-g8-absval-1",
+    "topic_id": "g8-equations-system",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $|-7|$?",
+    "options": ["$7$", "$-7$", "$0$", "$14$"],
+    "correct_index": 0,
+    "explanation": "הערך המוחלט של מספר הוא המרחק שלו מ-$0$, תמיד אי-שלילי: $|-7|=7$."
+  },
+  {
+    "id": "q-g8-absval-2",
+    "topic_id": "g8-equations-system",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $|5|+|-3|$?",
+    "options": ["$8$", "$2$", "$-8$", "$15$"],
+    "correct_index": 0,
+    "explanation": "$|5|=5$ ו-$|-3|=3$. הסכום: $5+3=8$."
+  },
+  {
+    "id": "q-g8-absval-3",
+    "topic_id": "g8-equations-system",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $|x|=6$",
+    "options": ["$x=6$ או $x=-6$", "$x=6$ בלבד", "$x=-6$ בלבד", "אין פתרון"],
+    "correct_index": 0,
+    "explanation": "שני מספרים במרחק $6$ מ-$0$: $6$ ו-$-6$."
+  },
+  {
+    "id": "q-g8-absval-4",
+    "topic_id": "g8-equations-system",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $|-4|\\times|-2|$?",
+    "options": ["$8$", "$-8$", "$6$", "$-6$"],
+    "correct_index": 0,
+    "explanation": "$|-4|=4$ ו-$|-2|=2$. המכפלה: $4\\times 2=8$."
+  },
+  {
+    "id": "q-g8-absval-5",
+    "topic_id": "g8-equations-system",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פתרו: $|x-2|=5$",
+    "options": ["$x=7$ או $x=-3$", "$x=7$ בלבד", "$x=3$ או $x=-7$", "$x=5$ בלבד"],
+    "correct_index": 0,
+    "explanation": "$x-2=5$ נותן $x=7$, או $x-2=-5$ נותן $x=-3$."
+  },
+  {
+    "id": "q-g8-absval-6",
+    "topic_id": "g8-equations-system",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $|3-8|$?",
+    "options": ["$5$", "$-5$", "$11$", "$0$"],
+    "correct_index": 0,
+    "explanation": "$3-8=-5$, ו-$|-5|=5$."
+  },
+  {
+    "id": "q-g8-cylinder-1",
+    "topic_id": "g8-pythagoras",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו נפח גליל שרדיוס בסיסו $3$ ס\"מ וגובהו $10$ ס\"מ? (קחו $\\pi\\approx 3.14$)",
+    "options": ["$282.6$", "$94.2$", "$188.4$", "$28.26$"],
+    "correct_index": 0,
+    "explanation": "נפח גליל $=\\pi\\times r^2\\times h=3.14\\times 9\\times 10=282.6$."
+  },
+  {
+    "id": "q-g8-cylinder-2",
+    "topic_id": "g8-pythagoras",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה שטח הבסיס של גליל שרדיוסו $5$ ס\"מ? (קחו $\\pi\\approx 3.14$)",
+    "options": ["$78.5$", "$31.4$", "$15.7$", "$157$"],
+    "correct_index": 0,
+    "explanation": "שטח בסיס $=\\pi\\times r^2=3.14\\times 25=78.5$."
+  },
+  {
+    "id": "q-g8-cylinder-3",
+    "topic_id": "g8-pythagoras",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה בסיסים עגולים יש לגליל?",
+    "options": ["$2$", "$1$", "$3$", "$0$"],
+    "correct_index": 0,
+    "explanation": "לגליל יש שני בסיסים עגולים חופפים ומקבילים."
+  },
+  {
+    "id": "q-g8-cylinder-4",
+    "topic_id": "g8-pythagoras",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי צורת הפאה הצדדית (\"העטיפה\") של גליל, כשפורסים אותו?",
+    "options": ["מלבן", "משולש", "עיגול", "ריבוע"],
+    "correct_index": 0,
+    "explanation": "כשפורסים את העטיפה הצדדית של גליל, מתקבל מלבן."
+  },
+  {
+    "id": "q-g8-cylinder-5",
+    "topic_id": "g8-pythagoras",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "גליל שגובהו $12$ ס\"מ ורדיוס בסיסו $4$ ס\"מ. מה נפחו? (קחו $\\pi\\approx 3.14$)",
+    "options": ["$602.88$", "$150.72$", "$301.44$", "$50.24$"],
+    "correct_index": 0,
+    "explanation": "נפח $=\\pi\\times r^2\\times h=3.14\\times 16\\times 12=602.88$."
+  },
+  {
+    "id": "q-g8-cylinder-6",
+    "topic_id": "g8-pythagoras",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נפח גליל הוא $157$ סמ\"ק, ורדיוס בסיסו $5$ ס\"מ. מה גובהו? (קחו $\\pi\\approx 3.14$)",
+    "options": ["$2$", "$5$", "$10$", "$1$"],
+    "correct_index": 0,
+    "explanation": "שטח הבסיס: $3.14\\times 25=78.5$. הגובה: $157\\div 78.5=2$."
+  },
+  {
+    "id": "q-g8-cylinder-7",
+    "topic_id": "g8-pythagoras",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה היקף בסיס גליל שרדיוסו $7$ ס\"מ? (קחו $\\pi\\approx\\frac{22}{7}$)",
+    "options": ["$44$", "$22$", "$88$", "$14$"],
+    "correct_index": 0,
+    "explanation": "היקף $=2\\times\\pi\\times r=2\\times\\frac{22}{7}\\times 7=44$."
+  },
+  {
+    "id": "q-g8-cylinder-8",
+    "topic_id": "g8-pythagoras",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אורך הפאה הצדדית (העטיפה) של גליל, אחרי פריסה, שווה ל:",
+    "options": ["היקף הבסיס", "רדיוס הבסיס", "קוטר הבסיס", "גובה הגליל בלבד"],
+    "correct_index": 0,
+    "explanation": "כשפורסים את הגליל, אורך המלבן (העטיפה) שווה להיקף הבסיס העגול."
+  },
+  {
+    "id": "q-g9r-kite-isosceles-1",
+    "topic_id": "g9r-kite-isosceles",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "דלתון שאלכסוניו $6$ ס\"מ ו-$10$ ס\"מ. מה שטחו?",
+    "options": ["$30$", "$60$", "$16$", "$8$"],
+    "correct_index": 0,
+    "explanation": "שטח דלתון $=\\dfrac{6\\times 10}{2}=30$."
+  },
+  {
+    "id": "q-g9r-kite-isosceles-2",
+    "topic_id": "g9r-kite-isosceles",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "דלתון שאלכסוניו $8$ ס\"מ ו-$14$ ס\"מ. מה שטחו?",
+    "options": ["$56$", "$112$", "$22$", "$11$"],
+    "correct_index": 0,
+    "explanation": "שטח דלתון $=\\dfrac{8\\times 14}{2}=56$."
+  },
+  {
+    "id": "q-g9r-kite-isosceles-3",
+    "topic_id": "g9r-kite-isosceles",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש שווה-שוקיים כל אחת מזוויות הבסיס שווה ל-$70°$. מה גודל זווית הראש?",
+    "options": ["$40°$", "$70°$", "$110°$", "$55°$"],
+    "correct_index": 0,
+    "explanation": "סכום זוויות המשולש $=180°$, ולכן זווית הראש $=180-70-70=40°$."
+  },
+  {
+    "id": "q-g9r-kite-isosceles-4",
+    "topic_id": "g9r-kite-isosceles",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש שווה-שוקיים זווית הראש שווה ל-$50°$. מה גודל כל אחת מזוויות הבסיס?",
+    "options": ["$65°$", "$50°$", "$130°$", "$90°$"],
+    "correct_index": 0,
+    "explanation": "זוויות הבסיס שוות זו לזו: $(180-50)\\div 2=65°$."
+  },
+  {
+    "id": "q-g9r-kite-isosceles-5",
+    "topic_id": "g9r-kite-isosceles",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזו טענה נכונה לגבי האלכסון הראשי בדלתון?",
+    "options": [
+      "הוא ציר סימטריה של הדלתון וחוצה את זוויות הראש",
+      "שני האלכסונים בדלתון שווים תמיד",
+      "כל זוויות הדלתון שוות זו לזו",
+      "כל צלעות הדלתון שוות זו לזו"
+    ],
+    "correct_index": 0,
+    "explanation": "האלכסון הראשי מחבר את קודקודי הראש, הוא ציר סימטריה, חוצה את זוויות הראש וניצב לאלכסון המשני."
+  },
+  {
+    "id": "q-g9r-kite-isosceles-6",
+    "topic_id": "g9r-kite-isosceles",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש שתיים מזוויותיו הן $55°$ ו-$70°$. האם המשולש שווה-שוקיים?",
+    "options": [
+      "כן, כי הזווית השלישית היא $55°$ ויש שתי זוויות שוות",
+      "לא, כי אין בו צלעות שוות",
+      "כן, כי הוא משולש ישר-זווית",
+      "אי אפשר לדעת בלי אורכי הצלעות"
+    ],
+    "correct_index": 0,
+    "explanation": "הזווית השלישית $=180-55-70=55°$, ולכן יש שתי זוויות שוות ($55°$ פעמיים) — המשולש שווה-שוקיים."
+  },
+  {
+    "id": "q-g9r-kite-isosceles-7",
+    "topic_id": "g9r-kite-isosceles",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש שווה-שוקיים הבסיס $12$ ס\"מ והשוקיים $10$ ס\"מ כל אחת. מה אורך הגובה לבסיס?",
+    "options": ["$8$", "$6$", "$9$", "$7$"],
+    "correct_index": 0,
+    "explanation": "הגובה לבסיס חוצה אותו: $\\sqrt{10^2-6^2}=\\sqrt{64}=8$."
+  },
+  {
+    "id": "q-g9r-kite-isosceles-8",
+    "topic_id": "g9r-kite-isosceles",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בדלתון האלכסון הראשי $16$ ס\"מ והאלכסון המשני $12$ ס\"מ. מה שטח הדלתון?",
+    "options": ["$96$", "$192$", "$48$", "$28$"],
+    "correct_index": 0,
+    "explanation": "שטח דלתון $=\\dfrac{16\\times 12}{2}=96$."
+  },
+  {
+    "id": "q-g9r-kite-isosceles-9",
+    "topic_id": "g9r-kite-isosceles",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזו מהטענות הבאות אינה נכונה בהכרח לגבי כל דלתון?",
+    "options": [
+      "האלכסונים שווים זה לזה באורכם",
+      "יש בו שני זוגות של צלעות סמוכות שוות",
+      "האלכסון הראשי מאונך לאלכסון המשני",
+      "האלכסון הראשי חוצה את זוויות הראש"
+    ],
+    "correct_index": 0,
+    "explanation": "אין דרישה ששני האלכסונים בדלתון יהיו שווים באורכם — זו אינה תכונה כללית של דלתון."
+  },
+  {
+    "id": "q-g9r-kite-isosceles-10",
+    "topic_id": "g9r-kite-isosceles",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במשולש שווה-שוקיים זווית הבסיס שווה ל-$x$ וזווית הראש שווה ל-$2x$. מה ערך $x$?",
+    "options": ["$45°$", "$60°$", "$30°$", "$36°$"],
+    "correct_index": 0,
+    "explanation": "$x+x+2x=180 \\Rightarrow 4x=180 \\Rightarrow x=45°$."
+  },
+  {
+    "id": "q-g9r-constructions-1",
+    "topic_id": "g9r-constructions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "באילו כלים משתמשים בבנייה גאומטרית קלאסית?",
+    "options": [
+      "סרגל (ללא שנתות) ומחוגה בלבד",
+      "סרגל עם סנטימטרים ומד זווית",
+      "מחשבון גרפי בלבד",
+      "כל כלי מדידה זמין"
+    ],
+    "correct_index": 0,
+    "explanation": "בגאומטריה קלאסית מותר להשתמש רק בסרגל ללא סימוני מדידה ובמחוגה."
+  },
+  {
+    "id": "q-g9r-constructions-2",
+    "topic_id": "g9r-constructions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בבניית חוצה זווית בעזרת מחוגה, הישר הנבנה עובר דרך קודקוד הזווית וגם דרך:",
+    "options": [
+      "נקודת החיתוך של שתי קשתות שוות רדיוס שנבנו מנקודות על שוקי הזווית",
+      "אמצע אחת משוקי הזווית בלבד",
+      "נקודה אקראית בתוך הזווית",
+      "קצה השוק הארוך יותר"
+    ],
+    "correct_index": 0,
+    "explanation": "חוצה הזווית הוא קבוצת הנקודות השוות מרחק משני שוקי הזווית, ולכן עובר דרך נקודת החיתוך של שתי הקשתות השוות."
+  },
+  {
+    "id": "q-g9r-constructions-3",
+    "topic_id": "g9r-constructions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האנך האמצעי לקטע $AB$ הוא קבוצת כל הנקודות ש:",
+    "options": [
+      "מרוחקות במרחק שווה מ-$A$ ומ-$B$",
+      "נמצאות בדיוק על הקטע $AB$",
+      "מרוחקות פי שניים מ-$A$ יותר מאשר מ-$B$",
+      "יוצרות זווית של $45°$ עם הקטע"
+    ],
+    "correct_index": 0,
+    "explanation": "האנך האמצעי מוגדר כמקום הנקודות השוות מרחק משני קצות הקטע."
+  },
+  {
+    "id": "q-g9r-constructions-4",
+    "topic_id": "g9r-constructions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונות שלוש צלעות באורך $3,4,5$ ס\"מ. האם ניתן לבנות מהן משולש?",
+    "options": [
+      "כן, כי סכום כל שתי צלעות גדול מהצלע השלישית",
+      "לא, כי $3+4=7$ גדול מדי",
+      "לא, כי הצלעות אינן שוות זו לזו",
+      "אי אפשר לדעת בלי לדעת את הזוויות"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי אי-שוויון המשולש: $3+4>5$, $3+5>4$, $4+5>3$ — כל התנאים מתקיימים."
+  },
+  {
+    "id": "q-g9r-constructions-5",
+    "topic_id": "g9r-constructions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונות שלוש צלעות באורך $2,3,7$ ס\"מ. האם ניתן לבנות מהן משולש?",
+    "options": [
+      "לא, כי $2+3=5$ קטן מ-$7$",
+      "כן, ניתן תמיד לבנות משולש משלוש צלעות",
+      "כן, כי $7$ גדולה מספיק",
+      "אי אפשר לדעת בלי לדעת את הזוויות"
+    ],
+    "correct_index": 0,
+    "explanation": "אי-שוויון המשולש אינו מתקיים: $2+3<7$, ולכן לא ניתן לבנות משולש כזה."
+  },
+  {
+    "id": "q-g9r-constructions-6",
+    "topic_id": "g9r-constructions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בהינתן שתי צלעות של משולש והזווית הכלואה ביניהן, לפי איזה משפט חפיפה הבנייה יחידה?",
+    "options": ["צ.ז.צ", "ז.צ.ז", "צ.צ.צ", "אין בנייה יחידה במקרה זה"],
+    "correct_index": 0,
+    "explanation": "נתוני צלע-זווית-צלע (כאשר הזווית כלואה בין הצלעות) קובעים משולש יחיד עד כדי חפיפה."
+  },
+  {
+    "id": "q-g9r-constructions-7",
+    "topic_id": "g9r-constructions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונות רק שלוש הזוויות של משולש (סכומן $180°$), בלי שום אורך צלע. האם הבנייה יחידה?",
+    "options": [
+      "לא, קיימים אינסוף משולשים דומים בגדלים שונים",
+      "כן, המשולש יחיד",
+      "כן, אבל רק אם כל הזוויות שוות",
+      "כן, אבל רק אם המשולש ישר-זווית"
+    ],
+    "correct_index": 0,
+    "explanation": "שלוש זוויות בלבד קובעות את צורת המשולש (דמיון) אך לא את גודלו — יש אינסוף משולשים דומים המקיימים זאת."
+  },
+  {
+    "id": "q-g9r-constructions-8",
+    "topic_id": "g9r-constructions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונות שתי צלעות במשולש וזווית שאינה כלואה ביניהן (צ.צ.ז). מה ידוע על יחידות הבנייה?",
+    "options": [
+      "לרוב אינה יחידה — עלולים להתקבל שני משולשים שונים",
+      "תמיד יחידה, בדיוק כמו צ.ז.צ",
+      "לעולם אין פתרון במקרה כזה",
+      "יחידה רק אם הזווית הנתונה שווה ל-$90°$"
+    ],
+    "correct_index": 0,
+    "explanation": "נתוני צלע-צלע-זווית (הזווית אינה כלואה) הם המקרה הדו-משמעי הידוע — לעיתים מתקבלים שני משולשים אפשריים שונים."
+  },
+  {
+    "id": "q-g9r-constructions-9",
+    "topic_id": "g9r-constructions",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונים זווית-צלע-זווית (ז.צ.ז) של משולש. האם הבנייה יחידה?",
+    "options": [
+      "כן, יחידה עד כדי חפיפה",
+      "לא, קיימות אינסוף אפשרויות",
+      "יחידה רק אם הצלע היא הבסיס",
+      "לא ניתן לבנות משולש מנתונים אלה"
+    ],
+    "correct_index": 0,
+    "explanation": "נתוני זווית-צלע-זווית קובעים משולש יחיד עד כדי חפיפה, בדיוק כמו צ.ז.צ."
+  },
+  {
+    "id": "q-g9r-constructions-10",
+    "topic_id": "g9r-constructions",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה אנכים ניתן להעביר מנקודה הנמצאת מחוץ לישר, אל אותו ישר?",
+    "options": ["אנך אחד ויחיד", "שני אנכים בדיוק", "אינסוף אנכים", "תלוי במרחק הנקודה מהישר"],
+    "correct_index": 0,
+    "explanation": "מנקודה שאינה על ישר נתון אפשר להעביר אנך אחד ויחיד לאותו ישר."
+  },
+  {
+    "id": "q-g9r-parallel-trapezoid-1",
+    "topic_id": "g9r-parallel-trapezoid",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "טרפז שבסיסיו $8$ ס\"מ ו-$12$ ס\"מ וגובהו $5$ ס\"מ. מה שטחו?",
+    "options": ["$50$", "$100$", "$20$", "$25$"],
+    "correct_index": 0,
+    "explanation": "שטח טרפז $=\\dfrac{8+12}{2}\\times 5=50$."
+  },
+  {
+    "id": "q-g9r-parallel-trapezoid-2",
+    "topic_id": "g9r-parallel-trapezoid",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "טרפז שבסיסיו $6$ ס\"מ ו-$10$ ס\"מ וגובהו $4$ ס\"מ. מה שטחו?",
+    "options": ["$32$", "$64$", "$16$", "$8$"],
+    "correct_index": 0,
+    "explanation": "שטח טרפז $=\\dfrac{6+10}{2}\\times 4=32$."
+  },
+  {
+    "id": "q-g9r-parallel-trapezoid-3",
+    "topic_id": "g9r-parallel-trapezoid",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני ישרים מקבילים נחתכים על ידי ישר שלישי (חותך). מה ניתן לומר על זוויות מתחלפות בין המקבילים?",
+    "options": ["הן שוות זו לזו", "הן משלימות ל-$90°$", "הן משלימות ל-$180°$", "אין קשר קבוע ביניהן"],
+    "correct_index": 0,
+    "explanation": "משפט הזוויות המתחלפות: כאשר שני ישרים מקבילים, זוויות מתחלפות ביניהם שוות."
+  },
+  {
+    "id": "q-g9r-parallel-trapezoid-4",
+    "topic_id": "g9r-parallel-trapezoid",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה ניתן לומר על זוג זוויות חד-צדדיות (מאותו צד החותך) בין שני ישרים מקבילים?",
+    "options": ["הן משלימות ל-$180°$", "הן שוות זו לזו", "הן משלימות ל-$90°$", "הן תמיד ישרות"],
+    "correct_index": 0,
+    "explanation": "זוויות חד-צדדיות פנימיות בין שני ישרים מקבילים משלימות זו את זו ל-$180°$."
+  },
+  {
+    "id": "q-g9r-parallel-trapezoid-5",
+    "topic_id": "g9r-parallel-trapezoid",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בטרפז שבסיסיו $9$ ס\"מ ו-$15$ ס\"מ, מה אורך קטע האמצעים?",
+    "options": ["$12$", "$24$", "$6$", "$10$"],
+    "correct_index": 0,
+    "explanation": "קטע האמצעים בטרפז שווה למחצית סכום הבסיסים: $\\dfrac{9+15}{2}=12$."
+  },
+  {
+    "id": "q-g9r-parallel-trapezoid-6",
+    "topic_id": "g9r-parallel-trapezoid",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בטרפז שווה-שוקיים, זווית בסיס אחת שווה ל-$65°$. מה גודל זווית הבסיס הסמוכה לה (על אותו בסיס)?",
+    "options": ["$65°$", "$115°$", "$25°$", "$90°$"],
+    "correct_index": 0,
+    "explanation": "בטרפז שווה-שוקיים זוויות הבסיס (על אותו בסיס) שוות זו לזו."
+  },
+  {
+    "id": "q-g9r-parallel-trapezoid-7",
+    "topic_id": "g9r-parallel-trapezoid",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה נכון לגבי האלכסונים בטרפז שווה-שוקיים?",
+    "options": ["הם שווים זה לזה", "הם ניצבים זה לזה", "הם חוצים זה את זה", "הם מקבילים זה לזה"],
+    "correct_index": 0,
+    "explanation": "בטרפז שווה-שוקיים האלכסונים שווים באורכם."
+  },
+  {
+    "id": "q-g9r-parallel-trapezoid-8",
+    "topic_id": "g9r-parallel-trapezoid",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שני ישרים נחתכים על ידי חותך ויוצרים זוג זוויות מתחלפות השוות זו לזו ($72°$ כל אחת). האם הישרים מקבילים?",
+    "options": [
+      "כן, כי זוויות מתחלפות שוות מבטיחות מקבילות",
+      "לא, כי הזוויות אינן ישרות",
+      "אי אפשר לדעת בלי מידע נוסף",
+      "רק אם הזוויות שוות בדיוק ל-$90°$"
+    ],
+    "correct_index": 0,
+    "explanation": "משפט ההפוך: אם זוויות מתחלפות שוות, הישרים מקבילים."
+  },
+  {
+    "id": "q-g9r-parallel-trapezoid-9",
+    "topic_id": "g9r-parallel-trapezoid",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בטרפז $ABCD$ כאשר $AB\\parallel CD$, זווית $A=110°$. מה גודל זווית $D$ (זוויות חד-צדדיות על השוק $AD$)?",
+    "options": ["$70°$", "$110°$", "$90°$", "$55°$"],
+    "correct_index": 0,
+    "explanation": "זוויות חד-צדדיות משלימות ל-$180°$: $180-110=70°$."
+  },
+  {
+    "id": "q-g9r-parallel-trapezoid-10",
+    "topic_id": "g9r-parallel-trapezoid",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "קטע האמצעים בטרפז אורכו $11$ ס\"מ, ובסיס אחד שווה ל-$8$ ס\"מ. מה אורך הבסיס השני?",
+    "options": ["$14$", "$13$", "$15$", "$12$"],
+    "correct_index": 0,
+    "explanation": "קטע האמצעים $=\\dfrac{b_1+b_2}{2}$, ולכן $b_2=2\\times 11-8=14$."
+  },
+  {
+    "id": "q-g9r-parallelogram-proofs-1",
+    "topic_id": "g9r-parallelogram-proofs",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במקבילית צלע אחת שווה ל-$7$ ס\"מ. מה אורך הצלע הנגדית לה?",
+    "options": ["$7$", "$14$", "$3.5$", "$10$"],
+    "correct_index": 0,
+    "explanation": "במקבילית צלעות נגדיות שוות זו לזו."
+  },
+  {
+    "id": "q-g9r-parallelogram-proofs-2",
+    "topic_id": "g9r-parallelogram-proofs",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במקבילית זווית אחת שווה ל-$65°$. מה גודל הזווית הנגדית לה?",
+    "options": ["$65°$", "$115°$", "$180°$", "$25°$"],
+    "correct_index": 0,
+    "explanation": "במקבילית זוויות נגדיות שוות זו לזו."
+  },
+  {
+    "id": "q-g9r-parallelogram-proofs-3",
+    "topic_id": "g9r-parallelogram-proofs",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במקבילית זווית אחת שווה ל-$70°$. מה גודל הזווית הסמוכה לה?",
+    "options": ["$110°$", "$70°$", "$90°$", "$180°$"],
+    "correct_index": 0,
+    "explanation": "זוויות סמוכות במקבילית משלימות זו את זו ל-$180°$: $180-70=110°$."
+  },
+  {
+    "id": "q-g9r-parallelogram-proofs-4",
+    "topic_id": "g9r-parallelogram-proofs",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה נכון לגבי האלכסונים במקבילית?",
+    "options": [
+      "הם חוצים זה את זה",
+      "הם שווים זה לזה בהכרח",
+      "הם ניצבים זה לזה בהכרח",
+      "הם אינם נחתכים כלל"
+    ],
+    "correct_index": 0,
+    "explanation": "תכונה יסודית של מקבילית: האלכסונים חוצים זה את זה."
+  },
+  {
+    "id": "q-g9r-parallelogram-proofs-5",
+    "topic_id": "g9r-parallelogram-proofs",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו קטע האמצעים במשולש ביחס לצלע השלישית?",
+    "options": [
+      "מחצית אורכה, ומקביל לה",
+      "שווה לה באורכו",
+      "כפול ממנה באורכו",
+      "מאונך אליה"
+    ],
+    "correct_index": 0,
+    "explanation": "קטע האמצעים במשולש (המחבר את אמצעי שתי צלעות) מקביל לצלע השלישית ושווה למחצית אורכה."
+  },
+  {
+    "id": "q-g9r-parallelogram-proofs-6",
+    "topic_id": "g9r-parallelogram-proofs",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה תנאי מבטיח שמרובע מסוים הוא מקבילית?",
+    "options": [
+      "יש בו זוג צלעות נגדיות השוות ומקבילות זו לזו",
+      "יש בו אלכסון אחד הארוך מהשני",
+      "כל הזוויות שלו שוות ל-$90°$",
+      "יש בו שתי צלעות סמוכות שוות"
+    ],
+    "correct_index": 0,
+    "explanation": "זהו אחד ממשפטי הזיהוי של מקבילית: זוג צלעות נגדיות שוות ומקבילות."
+  },
+  {
+    "id": "q-g9r-parallelogram-proofs-7",
+    "topic_id": "g9r-parallelogram-proofs",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במקבילית $ABCD$ האלכסונים נחתכים בנקודה $O$. אם $AO=5$ ס\"מ, מה אורך $OC$?",
+    "options": ["$5$", "$10$", "$2.5$", "$7.5$"],
+    "correct_index": 0,
+    "explanation": "האלכסונים במקבילית חוצים זה את זה, ולכן $OC=AO=5$."
+  },
+  {
+    "id": "q-g9r-parallelogram-proofs-8",
+    "topic_id": "g9r-parallelogram-proofs",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במרובע מסוים האלכסונים חוצים זה את זה. מה ניתן להסיק?",
+    "options": [
+      "המרובע הוא מקבילית",
+      "המרובע הוא בהכרח מלבן",
+      "המרובע הוא בהכרח מעוין",
+      "אי אפשר להסיק דבר"
+    ],
+    "correct_index": 0,
+    "explanation": "זהו משפט הזיהוי: מרובע שאלכסוניו חוצים זה את זה הוא מקבילית."
+  },
+  {
+    "id": "q-g9r-parallelogram-proofs-9",
+    "topic_id": "g9r-parallelogram-proofs",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במרובע מסוים יש זוג צלעות נגדיות שוות, אך אינן ידועות כמקבילות. האם המרובע הוא בהכרח מקבילית?",
+    "options": [
+      "לא בהכרח — נתון זה לבדו אינו מספיק",
+      "כן, זהו תנאי מספיק בכל מקרה",
+      "כן, אבל רק אם המרובע קמור",
+      "לא ניתן לקבוע דבר על המרובע כלל"
+    ],
+    "correct_index": 0,
+    "explanation": "צלעות נגדיות שוות בלבד (בלי שהן גם מקבילות) אינן מבטיחות מקבילית — למשל ייתכן טרפז שווה-שוקיים."
+  },
+  {
+    "id": "q-g9r-parallelogram-proofs-10",
+    "topic_id": "g9r-parallelogram-proofs",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במשולש מחברים את אמצעי שלוש הצלעות ומקבלים משולש פנימי חדש. מהו היחס בין שטח המשולש הפנימי לשטח המשולש המקורי?",
+    "options": ["$1:4$", "$1:2$", "$1:3$", "$2:3$"],
+    "correct_index": 0,
+    "explanation": "כל צלע במשולש הפנימי היא מחצית מהצלע המקבילה לה במקורי, ולכן יחס השטחים הוא $1:4$."
+  },
+  {
+    "id": "q-g9r-rectangle-proofs-1",
+    "topic_id": "g9r-rectangle-proofs",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במלבן צלעותיו $6$ ס\"מ ו-$8$ ס\"מ. מה אורך האלכסון?",
+    "options": ["$10$", "$14$", "$7$", "$12$"],
+    "correct_index": 0,
+    "explanation": "לפי משפט פיתגורס: $\\sqrt{6^2+8^2}=\\sqrt{100}=10$."
+  },
+  {
+    "id": "q-g9r-rectangle-proofs-2",
+    "topic_id": "g9r-rectangle-proofs",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במלבן אלכסון אחד שווה ל-$13$ ס\"מ. מה אורך האלכסון השני?",
+    "options": ["$13$", "$6.5$", "$26$", "$10$"],
+    "correct_index": 0,
+    "explanation": "במלבן שני האלכסונים שווים זה לזה."
+  },
+  {
+    "id": "q-g9r-rectangle-proofs-3",
+    "topic_id": "g9r-rectangle-proofs",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מלבן הוא מקבילית ש:",
+    "options": [
+      "יש בה זווית ישרה אחת (ולכן כל זוויותיה ישרות)",
+      "האלכסונים בה ניצבים זה לזה",
+      "כל צלעותיה שוות זו לזו",
+      "אין בה אף זווית ישרה"
+    ],
+    "correct_index": 0,
+    "explanation": "במקבילית זווית ישרה אחת גוררת שכל הזוויות ישרות — זהו מלבן."
+  },
+  {
+    "id": "q-g9r-rectangle-proofs-4",
+    "topic_id": "g9r-rectangle-proofs",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה תנאי הופך מקבילית למלבן?",
+    "options": [
+      "האלכסונים שווים זה לזה",
+      "האלכסונים ניצבים זה לזה",
+      "האלכסונים חוצים זוויות",
+      "כל הצלעות שוות זו לזו"
+    ],
+    "correct_index": 0,
+    "explanation": "מקבילית שבה האלכסונים שווים היא בהכרח מלבן."
+  },
+  {
+    "id": "q-g9r-rectangle-proofs-5",
+    "topic_id": "g9r-rectangle-proofs",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית, התיכון היוצא מקודקוד הזווית הישרה אל היתר שווה ל:",
+    "options": ["מחצית אורך היתר", "רבע אורך היתר", "כפול אורך היתר", "אורך הניצב הקצר"],
+    "correct_index": 0,
+    "explanation": "משפט חשוב: במשולש ישר-זווית, התיכון ליתר שווה למחצית היתר."
+  },
+  {
+    "id": "q-g9r-rectangle-proofs-6",
+    "topic_id": "g9r-rectangle-proofs",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית היתר שווה ל-$20$ ס\"מ. מה אורך התיכון ליתר?",
+    "options": ["$10$", "$20$", "$5$", "$15$"],
+    "correct_index": 0,
+    "explanation": "התיכון ליתר שווה למחציתו: $20\\div 2=10$."
+  },
+  {
+    "id": "q-g9r-rectangle-proofs-7",
+    "topic_id": "g9r-rectangle-proofs",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מלבן ששטחו $48$ סמ\"ר ואורך אחת מצלעותיו $6$ ס\"מ. מה אורך האלכסון?",
+    "options": ["$10$", "$14$", "$8$", "$12$"],
+    "correct_index": 0,
+    "explanation": "הצלע השנייה: $48\\div 6=8$. האלכסון: $\\sqrt{6^2+8^2}=10$."
+  },
+  {
+    "id": "q-g9r-rectangle-proofs-8",
+    "topic_id": "g9r-rectangle-proofs",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזו מהטענות הבאות נכונה לגבי כל מלבן?",
+    "options": [
+      "האלכסונים שווים באורכם",
+      "האלכסונים ניצבים זה לזה תמיד",
+      "כל צלעותיו שוות זו לזו תמיד",
+      "האלכסונים אינם חוצים זה את זה"
+    ],
+    "correct_index": 0,
+    "explanation": "תכונה כללית של מלבן: האלכסונים שווים באורכם (בנוסף לתכונות המקבילית)."
+  },
+  {
+    "id": "q-g9r-rectangle-proofs-9",
+    "topic_id": "g9r-rectangle-proofs",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזו מהטענות הבאות אינה נכונה בהכרח לגבי כל מלבן?",
+    "options": [
+      "האלכסונים ניצבים זה לזה",
+      "האלכסונים שווים באורכם",
+      "האלכסונים חוצים זה את זה",
+      "כל זוויותיו ישרות"
+    ],
+    "correct_index": 0,
+    "explanation": "האלכסונים ניצבים רק במקרה הפרטי שהמלבן הוא ריבוע — זו אינה תכונה כללית של כל מלבן."
+  },
+  {
+    "id": "q-g9r-rectangle-proofs-10",
+    "topic_id": "g9r-rectangle-proofs",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במרובע יש זווית ישרה אחת בלבד, ואין מידע נוסף עליו. האם הוא בהכרח מלבן?",
+    "options": [
+      "לא, זווית ישרה אחת בלבד אינה מספיקה",
+      "כן, זה תמיד מספיק כדי לקבוע מלבן",
+      "כן, אבל רק אם המרובע קמור",
+      "לא ייתכן מרובע עם זווית ישרה אחת בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "כדי לקבוע מלבן צריך גם שהמרובע יהיה מקבילית (או שכל ארבע הזוויות ישרות) — זווית ישרה אחת בלבד אינה מספיקה."
+  },
+  {
+    "id": "q-g9r-proof-by-contradiction-1",
+    "topic_id": "g9r-proof-by-contradiction",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו השלב הראשון בהוכחה בדרך השלילה?",
+    "options": [
+      "הנחת ההפך ממה שרוצים להוכיח",
+      "הוכחת הטענה ישירות מהנתונים",
+      "שרטוט הצורה בלבד",
+      "בדיקת מספר דוגמאות מספריות"
+    ],
+    "correct_index": 0,
+    "explanation": "בהוכחה בדרך השלילה מניחים תחילה את ההפך מהמסקנה הרצויה."
+  },
+  {
+    "id": "q-g9r-proof-by-contradiction-2",
+    "topic_id": "g9r-proof-by-contradiction",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הוכחה בדרך השלילה מסתיימת בהצלחה כאשר:",
+    "options": [
+      "מגיעים לסתירה עם נתון או עובדה ידועה",
+      "מגיעים למסקנה זהה להנחה",
+      "מבצעים חישוב מספרי בלבד",
+      "משרטטים את הצורה מחדש"
+    ],
+    "correct_index": 0,
+    "explanation": "כאשר ההנחה ההפוכה מובילה לסתירה, היא נשללת ונשארת המסקנה המקורית כנכונה."
+  },
+  {
+    "id": "q-g9r-proof-by-contradiction-3",
+    "topic_id": "g9r-proof-by-contradiction",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מדוע הוכחה בדרך השלילה מסתמכת על חלוקה לשתי אפשרויות בלבד?",
+    "options": [
+      "כי הטענה וההיפוך שלה ממצים יחד את כל האפשרויות הקיימות",
+      "כי תמיד יש בדיוק שתי צורות אפשריות בגאומטריה",
+      "כי אי אפשר לבדוק יותר משתי אפשרויות",
+      "כי כך קובעים לפי מוסכמה בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "טענה מסוימת וההיפוך שלה הן שתי אפשרויות שממצות את כל המקרים — אין אפשרות שלישית."
+  },
+  {
+    "id": "q-g9r-proof-by-contradiction-4",
+    "topic_id": "g9r-proof-by-contradiction",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "רוצים להוכיח \"מנקודה מחוץ לישר אפשר להעביר אנך יחיד לישר\". מה מניחים בפתיחת ההוכחה בדרך השלילה?",
+    "options": [
+      "שאפשר להעביר שני אנכים שונים מאותה נקודה לאותו ישר",
+      "שאי אפשר להעביר אף אנך מהנקודה לישר",
+      "שהנקודה נמצאת על הישר עצמו",
+      "שהישר אינו ישר אלא עקום"
+    ],
+    "correct_index": 0,
+    "explanation": "מניחים את ההפך מהטענה הרצויה: קיום שני אנכים שונים, ומראים שזה מוביל לסתירה."
+  },
+  {
+    "id": "q-g9r-proof-by-contradiction-5",
+    "topic_id": "g9r-proof-by-contradiction",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם ההנחה ההפוכה בהוכחה בדרך השלילה אינה מובילה לסתירה, מה ניתן להסיק?",
+    "options": [
+      "ההוכחה לא הושלמה — יש לחפש דרך אחרת",
+      "הטענה המקורית שגויה בהכרח",
+      "הטענה המקורית נכונה בהכרח",
+      "אין צורך בהוכחה נוספת"
+    ],
+    "correct_index": 0,
+    "explanation": "אם לא הגענו לסתירה, ההוכחה פשוט לא הושלמה — אי אפשר להסיק דבר על נכונות הטענה."
+  },
+  {
+    "id": "q-g9r-proof-by-contradiction-6",
+    "topic_id": "g9r-proof-by-contradiction",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמשפטים הבאים אופייני שיוכח בדרך השלילה?",
+    "options": [
+      "\"מנקודה מחוץ לישר עובר ישר מקביל יחיד לישר הנתון\"",
+      "\"שטח מלבן שווה למכפלת צלעותיו\"",
+      "\"סכום זוויות משולש שווה ל-$180°$\"",
+      "\"היקף מעגל שווה ל-$2\\pi r$\""
+    ],
+    "correct_index": 0,
+    "explanation": "משפטי יחידות (כמו יחידות המקביל או האנך) הם דוגמה קלאסית להוכחות בדרך השלילה."
+  },
+  {
+    "id": "q-g9r-proof-by-contradiction-7",
+    "topic_id": "g9r-proof-by-contradiction",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "רוצים להוכיח: \"אם משולש אינו שווה-שוקיים, אז זוויות הבסיס שלו אינן שוות\". מה מניחים בהוכחה בדרך השלילה?",
+    "options": [
+      "שהמשולש אינו שווה-שוקיים, אך זוויות הבסיס שלו כן שוות",
+      "שהמשולש שווה-שוקיים וגם זוויות הבסיס שוות",
+      "שלמשולש אין בכלל זוויות בסיס",
+      "שהמשולש הוא ישר-זווית"
+    ],
+    "correct_index": 0,
+    "explanation": "מניחים את ההפך מהמסקנה (זוויות הבסיס כן שוות) יחד עם הנתון, ומגיעים לסתירה עם משפט המשולש שווה-השוקיים."
+  },
+  {
+    "id": "q-g9r-proof-by-contradiction-8",
+    "topic_id": "g9r-proof-by-contradiction",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה ההבדל בין משפט לבין המשפט ההפוך שלו?",
+    "options": [
+      "במשפט ההפוך מתחלפים ביניהם הנתון והמסקנה",
+      "המשפט ההפוך תמיד שגוי",
+      "המשפט ההפוך זהה למקורי אך מנוסח אחרת",
+      "אין הבדל של ממש בין השניים"
+    ],
+    "correct_index": 0,
+    "explanation": "במשפט ההפוך הנתון והמסקנה של המשפט המקורי מתחלפים ביניהם, ונכונותו דורשת הוכחה נפרדת."
+  },
+  {
+    "id": "q-g9r-proof-by-contradiction-9",
+    "topic_id": "g9r-proof-by-contradiction",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה ממחישה הדוגמה \"כל ריבוע הוא מלבן, אך לא כל מלבן הוא ריבוע\"?",
+    "options": [
+      "שמשפט יכול להיות נכון בעוד שהמשפט ההפוך שלו שגוי",
+      "שריבוע ומלבן הם בדיוק אותה צורה",
+      "שמלבן הוא תמיד ריבוע",
+      "שאין קשר בין ריבוע למלבן"
+    ],
+    "correct_index": 0,
+    "explanation": "זו דוגמה מוכרת לכך שנכונות טענה אינה מבטיחה את נכונות ההיפוך שלה."
+  },
+  {
+    "id": "q-g9r-proof-by-contradiction-10",
+    "topic_id": "g9r-proof-by-contradiction",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כדי להפריך טענה מהצורה \"לכל צורה X מתקיימת התכונה P\", מספיק:",
+    "options": [
+      "למצוא דוגמה נגדית אחת שבה P אינה מתקיימת",
+      "להוכיח שהתכונה P נכונה ברוב המקרים",
+      "לבדוק אינסוף דוגמאות שבהן P מתקיימת",
+      "להראות שהטענה הפוכה שגויה"
+    ],
+    "correct_index": 0,
+    "explanation": "דוגמה נגדית אחת מספיקה כדי להפריך טענה כללית מהצורה \"לכל...\"."
+  },
+  {
+    "id": "q-g9r-rhombus-square-1",
+    "topic_id": "g9r-rhombus-square",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מעוין שאלכסוניו $6$ ס\"מ ו-$8$ ס\"מ. מה שטחו?",
+    "options": ["$24$", "$48$", "$14$", "$7$"],
+    "correct_index": 0,
+    "explanation": "שטח מעוין $=\\dfrac{6\\times 8}{2}=24$."
+  },
+  {
+    "id": "q-g9r-rhombus-square-2",
+    "topic_id": "g9r-rhombus-square",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מעוין שאלכסוניו $10$ ס\"מ ו-$12$ ס\"מ. מה שטחו?",
+    "options": ["$60$", "$120$", "$22$", "$11$"],
+    "correct_index": 0,
+    "explanation": "שטח מעוין $=\\dfrac{10\\times 12}{2}=60$."
+  },
+  {
+    "id": "q-g9r-rhombus-square-3",
+    "topic_id": "g9r-rhombus-square",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה נכון לגבי צלעות המעוין?",
+    "options": ["כל הצלעות שוות זו לזו", "רק שני זוגות צלעות סמוכות שוות", "אין צלעות שוות במעוין", "רק צלע אחת ידועה"],
+    "correct_index": 0,
+    "explanation": "מעוין מוגדר כמרובע שכל ארבע צלעותיו שוות."
+  },
+  {
+    "id": "q-g9r-rhombus-square-4",
+    "topic_id": "g9r-rhombus-square",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה נכון לגבי האלכסונים במעוין?",
+    "options": [
+      "הם ניצבים זה לזה וחוצים זה את זה",
+      "הם שווים זה לזה תמיד",
+      "הם מקבילים זה לזה",
+      "הם אינם נחתכים"
+    ],
+    "correct_index": 0,
+    "explanation": "במעוין, בנוסף לתכונות המקבילית (חוצים זה את זה), האלכסונים גם ניצבים זה לזה."
+  },
+  {
+    "id": "q-g9r-rhombus-square-5",
+    "topic_id": "g9r-rhombus-square",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ריבוע הוא מרובע ש:",
+    "options": [
+      "הוא גם מלבן וגם מעוין בו-זמנית",
+      "הוא מלבן בלבד, ולא מעוין",
+      "הוא מעוין בלבד, ולא מלבן",
+      "אינו מקבילית כלל"
+    ],
+    "correct_index": 0,
+    "explanation": "ריבוע מקיים גם את תכונות המלבן (זוויות ישרות) וגם את תכונות המעוין (צלעות שוות)."
+  },
+  {
+    "id": "q-g9r-rhombus-square-6",
+    "topic_id": "g9r-rhombus-square",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מעוין שצלעו $5$ ס\"מ, ואחד מאלכסוניו $8$ ס\"מ. מה אורך האלכסון השני?",
+    "options": ["$6$", "$7$", "$8$", "$3$"],
+    "correct_index": 0,
+    "explanation": "מחצית האלכסון הראשון $=4$. לפי פיתגורס: מחצית האלכסון השני $=\\sqrt{5^2-4^2}=3$, ולכן האלכסון השני $=6$."
+  },
+  {
+    "id": "q-g9r-rhombus-square-7",
+    "topic_id": "g9r-rhombus-square",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מקבילית שבה האלכסונים ניצבים זה לזה היא בהכרח:",
+    "options": ["מעוין", "מלבן", "ריבוע", "טרפז"],
+    "correct_index": 0,
+    "explanation": "מקבילית עם אלכסונים ניצבים מקיימת את משפט הזיהוי של מעוין."
+  },
+  {
+    "id": "q-g9r-rhombus-square-8",
+    "topic_id": "g9r-rhombus-square",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מלבן שבו האלכסונים ניצבים זה לזה הוא בהכרח:",
+    "options": ["ריבוע", "מעוין בלבד (ולא מלבן)", "טרפז", "דלתון"],
+    "correct_index": 0,
+    "explanation": "מלבן (אלכסונים שווים) שבו האלכסונים גם ניצבים מקיים את שתי התכונות יחד — הוא ריבוע."
+  },
+  {
+    "id": "q-g9r-rhombus-square-9",
+    "topic_id": "g9r-rhombus-square",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזו מהטענות הבאות נכונה?",
+    "options": [
+      "כל ריבוע הוא מעוין, אך לא כל מעוין הוא ריבוע",
+      "כל מעוין הוא ריבוע",
+      "אין קשר בין ריבוע למעוין",
+      "כל מלבן הוא מעוין"
+    ],
+    "correct_index": 0,
+    "explanation": "ריבוע הוא מקרה פרטי של מעוין (עם זוויות ישרות בנוסף), אך לא כל מעוין מקיים זוויות ישרות."
+  },
+  {
+    "id": "q-g9r-rhombus-square-10",
+    "topic_id": "g9r-rhombus-square",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בריבוע שצלעו $a$, מה אורך האלכסון לפי משפט פיתגורס?",
+    "options": ["$a\\sqrt{2}$", "$2a$", "$a\\sqrt{3}$", "$\\dfrac{a}{\\sqrt{2}}$"],
+    "correct_index": 0,
+    "explanation": "האלכסון הוא יתר משולש ישר-זווית ששני ניצביו $a$: $\\sqrt{a^2+a^2}=a\\sqrt{2}$."
+  },
+  {
+    "id": "q-g9r-powers-roots-1",
+    "topic_id": "g9r-powers",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $5^0$?",
+    "options": ["$1$", "$0$", "$5$", "$-1$"],
+    "correct_index": 0,
+    "explanation": "כל בסיס שונה מאפס בחזקת $0$ שווה ל-$1$."
+  },
+  {
+    "id": "q-g9r-powers-roots-2",
+    "topic_id": "g9r-powers",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $2^{-3}$?",
+    "options": ["$\\dfrac{1}{8}$", "$-8$", "$8$", "$-\\dfrac{1}{8}$"],
+    "correct_index": 0,
+    "explanation": "$a^{-n}=\\dfrac{1}{a^n}$, ולכן $2^{-3}=\\dfrac{1}{2^3}=\\dfrac{1}{8}$."
+  },
+  {
+    "id": "q-g9r-powers-roots-3",
+    "topic_id": "g9r-powers",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{144}$?",
+    "options": ["$12$", "$72$", "$24$", "$14$"],
+    "correct_index": 0,
+    "explanation": "$12^2=144$."
+  },
+  {
+    "id": "q-g9r-powers-roots-4",
+    "topic_id": "g9r-powers",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פשטו את $\\sqrt{50}$",
+    "options": ["$5\\sqrt{2}$", "$25\\sqrt{2}$", "$10\\sqrt{5}$", "$2\\sqrt{5}$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{50}=\\sqrt{25\\cdot 2}=\\sqrt{25}\\cdot\\sqrt{2}=5\\sqrt{2}$."
+  },
+  {
+    "id": "q-g9r-powers-roots-5",
+    "topic_id": "g9r-powers",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כתבו את $x^{-4}$ באמצעות מעריך חיובי",
+    "options": ["$\\dfrac{1}{x^4}$", "$-x^4$", "$x^4$", "$-\\dfrac{1}{x^4}$"],
+    "correct_index": 0,
+    "explanation": "$x^{-4}=\\dfrac{1}{x^4}$."
+  },
+  {
+    "id": "q-g9r-powers-roots-6",
+    "topic_id": "g9r-powers",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כתבו בכתיב מדעי את המספר $45{,}000$",
+    "options": ["$4.5\\times 10^4$", "$45\\times 10^3$", "$4.5\\times 10^3$", "$0.45\\times 10^5$"],
+    "correct_index": 0,
+    "explanation": "בכתיב מדעי הבסיס חייב להיות בין $1$ ל-$10$: $45{,}000=4.5\\times 10^4$."
+  },
+  {
+    "id": "q-g9r-powers-roots-7",
+    "topic_id": "g9r-powers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $\\dfrac{10^{7}}{10^{3}}$?",
+    "options": ["$10^4$", "$10^{10}$", "$10^{2.33}$", "$10^{21}$"],
+    "correct_index": 0,
+    "explanation": "בחילוק חזקות בעלות אותו בסיס מחסרים מעריכים: $10^{7-3}=10^4$."
+  },
+  {
+    "id": "q-g9r-powers-roots-8",
+    "topic_id": "g9r-powers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{18}\\cdot\\sqrt{2}$?",
+    "options": ["$6$", "$36$", "$6\\sqrt{2}$", "$3\\sqrt{2}$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{18}\\cdot\\sqrt{2}=\\sqrt{18\\cdot 2}=\\sqrt{36}=6$."
+  },
+  {
+    "id": "q-g9r-powers-roots-9",
+    "topic_id": "g9r-powers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מי גדול יותר: $2^{10}$ או $10^{2}$?",
+    "options": ["$2^{10}$", "$10^{2}$", "הם שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$2^{10}=1024$ ואילו $10^2=100$, ולכן $2^{10}$ גדול יותר."
+  },
+  {
+    "id": "q-g9r-powers-roots-10",
+    "topic_id": "g9r-powers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פשטו: $(2x^3)^2$",
+    "options": ["$4x^6$", "$2x^6$", "$4x^5$", "$2x^5$"],
+    "correct_index": 0,
+    "explanation": "$(2x^3)^2=2^2\\cdot(x^3)^2=4x^6$."
+  },
+  {
+    "id": "q-g9r-powers-roots-11",
+    "topic_id": "g9r-powers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פשטו את $\\sqrt{75}$",
+    "options": ["$5\\sqrt{3}$", "$25\\sqrt{3}$", "$15\\sqrt{5}$", "$3\\sqrt{5}$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{75}=\\sqrt{25\\cdot 3}=5\\sqrt{3}$."
+  },
+  {
+    "id": "q-g9r-powers-roots-12",
+    "topic_id": "g9r-powers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כתבו בכתיב מדעי את המספר $0.00032$",
+    "options": ["$3.2\\times 10^{-4}$", "$3.2\\times 10^{4}$", "$32\\times 10^{-5}$", "$0.32\\times 10^{-3}$"],
+    "correct_index": 0,
+    "explanation": "מזיזים את הנקודה $4$ מקומות ימינה כדי לקבל בסיס בין $1$ ל-$10$, ולכן המעריך שלילי: $3.2\\times 10^{-4}$."
+  },
+  {
+    "id": "q-g9r-powers-roots-13",
+    "topic_id": "g9r-powers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פשטו: $\\dfrac{x^{-2}}{x^{3}}$",
+    "options": ["$\\dfrac{1}{x^5}$", "$x^5$", "$\\dfrac{1}{x}$", "$x$"],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{x^{-2}}{x^{3}}=x^{-2-3}=x^{-5}=\\dfrac{1}{x^5}$."
+  },
+  {
+    "id": "q-g9r-powers-roots-14",
+    "topic_id": "g9r-powers",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פשטו: $\\sqrt{8}+\\sqrt{18}$",
+    "options": ["$5\\sqrt{2}$", "$\\sqrt{26}$", "$26$", "$10\\sqrt{2}$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{8}=2\\sqrt{2}$ ו-$\\sqrt{18}=3\\sqrt{2}$, ולכן הסכום $=2\\sqrt{2}+3\\sqrt{2}=5\\sqrt{2}$."
+  },
+  {
+    "id": "q-g9r-powers-roots-15",
+    "topic_id": "g9r-powers",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "אוכלוסיית חיידקים מתחילה מ-$500$ חיידקים ומוכפלת כל שעה. כמה חיידקים יהיו לאחר $4$ שעות?",
+    "options": ["$8000$", "$2000$", "$4000$", "$16000$"],
+    "correct_index": 0,
+    "explanation": "לאחר $4$ שעות: $500\\times 2^4=500\\times 16=8000$."
   }
 ];
 

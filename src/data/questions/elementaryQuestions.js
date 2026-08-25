@@ -9900,6 +9900,2976 @@ export const ELEMENTARY_QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "ממיינים את המספרים: 3, 5, 13, 15, 20. החציון הוא הערך האמצעי — $13$."
+  },
+  {
+    "id": "q-g5-numbers-million-1",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה הספרה שנמצאת במקום עשרות האלפים במספר $3{,}458{,}921$?",
+    "options": ["$5$", "$4$", "$8$", "$9$"],
+    "correct_index": 0,
+    "explanation": "פירוק המספר: מיליונים־$3$, מאות אלפים־$4$, עשרות אלפים־$5$, אלפים־$8$, מאות־$9$, עשרות־$2$, יחידות־$1$."
+  },
+  {
+    "id": "q-g5-numbers-million-2",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מספר מתאים לתיאור \"שני מיליון שלוש מאות אלף וארבעים ואחת\"?",
+    "options": ["$2{,}300{,}041$", "$2{,}340{,}041$", "$2{,}300{,}410$", "$2{,}030{,}041$"],
+    "correct_index": 0,
+    "explanation": "$2$ מיליון $+300{,}000+41=2{,}300{,}041$."
+  },
+  {
+    "id": "q-g5-numbers-million-3",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים גדול יותר: $4{,}502{,}300$ או $4{,}520{,}030$?",
+    "options": ["$4{,}520{,}030$", "$4{,}502{,}300$", "שני המספרים שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "משווים ספרה אחר ספרה: שתי הספרות הראשונות זהות ($4{,}5$), ובמקום עשרות האלפים יש $2$ מול $0$ — לכן $4{,}520{,}030$ גדול יותר."
+  },
+  {
+    "id": "q-g5-numbers-million-4",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה המספר העוקב (הבא) של $999{,}999$?",
+    "options": ["$1{,}000{,}000$", "$999{,}998$", "$1{,}000{,}999$", "$9{,}999{,}999$"],
+    "correct_index": 0,
+    "explanation": "המספר הבא אחרי $999{,}999$ הוא $1{,}000{,}000$."
+  },
+  {
+    "id": "q-g5-numbers-million-5",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה המספר הקודם ל-$5{,}000{,}000$?",
+    "options": ["$4{,}999{,}999$", "$5{,}000{,}001$", "$4{,}999{,}000$", "$4{,}900{,}999$"],
+    "correct_index": 0,
+    "explanation": "המספר שלפני $5{,}000{,}000$ הוא $4{,}999{,}999$."
+  },
+  {
+    "id": "q-g5-numbers-million-6",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מי הקטן ביותר מבין $812{,}400$, $812{,}040$ ו-$821{,}004$?",
+    "options": ["$812{,}040$", "$812{,}400$", "$821{,}004$", "כולם שווים"],
+    "correct_index": 0,
+    "explanation": "בשני המספרים הראשונים ספרת עשרות האלפים והאלפים זהה ($812$), ובמקום המאות יש $0$ מול $4$ — לכן $812{,}040$ קטן יותר; $821{,}004$ גדול משניהם."
+  },
+  {
+    "id": "q-g5-numbers-million-7",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה אלפים יש במספר $47{,}000$?",
+    "options": ["$47$", "$470$", "$4{,}700$", "$4.7$"],
+    "correct_index": 0,
+    "explanation": "$47{,}000=47\\times 1{,}000$, כלומר $47$ אלפים."
+  },
+  {
+    "id": "q-g5-numbers-million-8",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בנו את המספר הגדול ביותר בעל $4$ ספרות שונות זו מזו, מתוך הספרות $3,0,7,5$.",
+    "options": ["$7{,}530$", "$7{,}503$", "$5{,}730$", "$3{,}750$"],
+    "correct_index": 0,
+    "explanation": "כדי לקבל את המספר הגדול ביותר מסדרים את הספרות מהגדולה לקטנה: $7,5,3,0$ — כלומר $7{,}530$."
+  },
+  {
+    "id": "q-g5-numbers-million-9",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה הערך של הספרה $6$ במספר $1{,}634{,}289$?",
+    "options": ["$600{,}000$", "$60{,}000$", "$6{,}000$", "$6$"],
+    "correct_index": 0,
+    "explanation": "הספרה $6$ נמצאת במקום מאות האלפים, ולכן ערכה $600{,}000$."
+  },
+  {
+    "id": "q-g5-numbers-million-10",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מי הגדול מבין $999{,}000$, $1{,}000{,}000$, $998{,}999$ ו-$999{,}999$?",
+    "options": ["$1{,}000{,}000$", "$999{,}999$", "$999{,}000$", "$998{,}999$"],
+    "correct_index": 0,
+    "explanation": "$1{,}000{,}000$ הוא היחיד מבין הארבעה בעל $7$ ספרות, ולכן הוא הגדול ביותר."
+  },
+  {
+    "id": "q-g5-numbers-million-11",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "השלימו: $2{,}750{,}000=2{,}000{,}000+700{,}000+\\_\\_\\_\\_$",
+    "options": ["$50{,}000$", "$5{,}000$", "$500{,}000$", "$75{,}000$"],
+    "correct_index": 0,
+    "explanation": "$2{,}750{,}000-2{,}700{,}000=50{,}000$."
+  },
+  {
+    "id": "q-g5-numbers-million-12",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה עשרות אלפים יש במספר $360{,}000$?",
+    "options": ["$36$", "$3.6$", "$360$", "$3{,}600$"],
+    "correct_index": 0,
+    "explanation": "$360{,}000\\div 10{,}000=36$."
+  },
+  {
+    "id": "q-g5-numbers-million-13",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מספר מתאים לתיאור \"מיליון מאתיים וחמישה אלפים\"?",
+    "options": ["$1{,}205{,}000$", "$1{,}250{,}000$", "$1{,}025{,}000$", "$1{,}000{,}205$"],
+    "correct_index": 0,
+    "explanation": "$1{,}000{,}000+205{,}000=1{,}205{,}000$."
+  },
+  {
+    "id": "q-g5-numbers-million-14",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה גדול יותר: $6$ מיליון או $5{,}999{,}999$?",
+    "options": ["$6$ מיליון", "$5{,}999{,}999$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$6$ מיליון שווה ל-$6{,}000{,}000$, וזה גדול ב-$1$ מ-$5{,}999{,}999$."
+  },
+  {
+    "id": "q-g5-numbers-million-15",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השלימו את הסדרה: $100{,}000$, $200{,}000$, $300{,}000$, $\\_\\_\\_\\_$",
+    "options": ["$400{,}000$", "$310{,}000$", "$350{,}000$", "$500{,}000$"],
+    "correct_index": 0,
+    "explanation": "הסדרה עולה בקפיצות של $100{,}000$, ולכן האיבר הבא הוא $400{,}000$."
+  },
+  {
+    "id": "q-g5-primes-1",
+    "topic_id": "g5-primes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים הוא מספר ראשוני?",
+    "options": ["$17$", "$9$", "$15$", "$21$"],
+    "correct_index": 0,
+    "explanation": "$9=3\\times 3$, $15=3\\times 5$, $21=3\\times 7$ — כולם פריקים. $17$ מתחלק רק ב-$1$ ובעצמו, ולכן הוא ראשוני."
+  },
+  {
+    "id": "q-g5-primes-2",
+    "topic_id": "g5-primes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים הוא מספר פריק?",
+    "options": ["$27$", "$13$", "$19$", "$23$"],
+    "correct_index": 0,
+    "explanation": "$27=3\\times 3\\times 3$ — פריק. $13,19,23$ הם מספרים ראשוניים."
+  },
+  {
+    "id": "q-g5-primes-3",
+    "topic_id": "g5-primes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו הפירוק לגורמים ראשוניים של $24$?",
+    "options": ["$2\\times 2\\times 2\\times 3$", "$2\\times 3\\times 4$", "$2\\times 2\\times 6$", "$3\\times 8$"],
+    "correct_index": 0,
+    "explanation": "$24=2\\times 2\\times 2\\times 3$ — כל הגורמים ראשוניים. באפשרויות האחרות מופיעים $4$, $6$ או $8$ שאינם ראשוניים."
+  },
+  {
+    "id": "q-g5-primes-4",
+    "topic_id": "g5-primes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה מחלקים (גורמים) יש למספר $12$?",
+    "options": ["$6$", "$4$", "$5$", "$7$"],
+    "correct_index": 0,
+    "explanation": "המחלקים של $12$ הם $1,2,3,4,6,12$ — סך הכול $6$ מחלקים."
+  },
+  {
+    "id": "q-g5-primes-5",
+    "topic_id": "g5-primes",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם המספר $1$ הוא ראשוני, פריק, או אף אחד מהם?",
+    "options": ["אף אחד מהם", "ראשוני", "פריק", "גם ראשוני וגם פריק"],
+    "correct_index": 0,
+    "explanation": "$1$ אינו נחשב ראשוני (יש לו מחלק אחד בלבד) ואינו פריק — הוא אינו שייך לאף אחת מהקבוצות."
+  },
+  {
+    "id": "q-g5-primes-6",
+    "topic_id": "g5-primes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו הגורם המשותף הגדול ביותר של $18$ ו-$24$?",
+    "options": ["$6$", "$2$", "$3$", "$9$"],
+    "correct_index": 0,
+    "explanation": "המחלקים המשותפים של $18$ ו-$24$ הם $1,2,3,6$ — הגדול שבהם הוא $6$."
+  },
+  {
+    "id": "q-g5-primes-7",
+    "topic_id": "g5-primes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהם הגורמים הראשוניים של $30$?",
+    "options": ["$2,3,5$", "$2,3,6$", "$3,5,10$", "$2,5,6$"],
+    "correct_index": 0,
+    "explanation": "$30=2\\times 3\\times 5$ — כל הגורמים במכפלה זו ראשוניים."
+  },
+  {
+    "id": "q-g5-primes-8",
+    "topic_id": "g5-primes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה מספרים ראשוניים יש הקטנים מ-$20$?",
+    "options": ["$8$", "$6$", "$7$", "$9$"],
+    "correct_index": 0,
+    "explanation": "המספרים הראשוניים הקטנים מ-$20$ הם $2,3,5,7,11,13,17,19$ — סך הכול $8$."
+  },
+  {
+    "id": "q-g5-primes-9",
+    "topic_id": "g5-primes",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו המספר הראשוני הקטן ביותר?",
+    "options": ["$2$", "$0$", "$1$", "$3$"],
+    "correct_index": 0,
+    "explanation": "$2$ הוא המספר הראשוני הקטן ביותר, וגם הראשוני הזוגי היחיד."
+  },
+  {
+    "id": "q-g5-primes-10",
+    "topic_id": "g5-primes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזו מהטענות הבאות מוכיחה שהמספר $207$ אינו מספר ראשוני?",
+    "options": ["$207=9\\times 23$", "$207$ הוא מספר תלת-ספרתי", "$207\\div 1=207$", "$207$ הוא מספר אי-זוגי"],
+    "correct_index": 0,
+    "explanation": "פירוק $207$ למכפלה של שני גורמים גדולים מ-$1$ ($9\\times 23$) מוכיח שיש לו מחלקים נוספים מלבד $1$ ועצמו — לכן הוא פריק."
+  },
+  {
+    "id": "q-g5-primes-11",
+    "topic_id": "g5-primes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהזוגות הבאים מכיל שני מספרים ראשוניים?",
+    "options": ["$11,13$", "$4,6$", "$9,15$", "$8,10$"],
+    "correct_index": 0,
+    "explanation": "$11$ ו-$13$ מתחלקים רק ב-$1$ ובעצמם. בכל שאר הזוגות לפחות מספר אחד פריק."
+  },
+  {
+    "id": "q-g5-primes-12",
+    "topic_id": "g5-primes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פרקו את $18$ לגורמים ראשוניים.",
+    "options": ["$2\\times 3\\times 3$", "$2\\times 9$", "$3\\times 6$", "$3\\times 3\\times 3$"],
+    "correct_index": 0,
+    "explanation": "$18=2\\times 3\\times 3$ — כל הגורמים ראשוניים. באפשרויות האחרות מופיעים $9$ ו-$6$ (לא ראשוניים) או שהמכפלה אינה שווה ל-$18$."
+  },
+  {
+    "id": "q-g5-primes-13",
+    "topic_id": "g5-primes",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מספר שיש לו בדיוק שני מחלקים — $1$ ועצמו — נקרא מספר:",
+    "options": ["ראשוני", "פריק", "זוגי", "שלם"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של מספר ראשוני."
+  },
+  {
+    "id": "q-g5-primes-14",
+    "topic_id": "g5-primes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים מתחלק ב-$3$?",
+    "options": ["$63$", "$47$", "$88$", "$101$"],
+    "correct_index": 0,
+    "explanation": "לפי סימן ההתחלקות ב-$3$: סוכמים את הספרות. $6+3=9$ מתחלק ב-$3$, ולכן $63$ מתחלק ב-$3$."
+  },
+  {
+    "id": "q-g5-primes-15",
+    "topic_id": "g5-primes",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים מתחלק ב-$5$?",
+    "options": ["$55$", "$42$", "$63$", "$81$"],
+    "correct_index": 0,
+    "explanation": "מספר מתחלק ב-$5$ אם ספרת היחידות שלו היא $0$ או $5$. $55$ מסתיים ב-$5$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-1",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "השבר $\\frac{3}{4}$ מייצג גם את תרגיל החילוק:",
+    "options": ["$3\\div 4$", "$4\\div 3$", "$3\\times 4$", "$3+4$"],
+    "correct_index": 0,
+    "explanation": "שבר מייצג תמיד מנה: המונה מחולק במכנה, כלומר $\\frac{3}{4}=3\\div 4$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-2",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$5\\div 8$ שווה לשבר:",
+    "options": ["$\\frac{5}{8}$", "$\\frac{8}{5}$", "$\\frac{5}{3}$", "$\\frac{3}{8}$"],
+    "correct_index": 0,
+    "explanation": "בתרגיל חילוק $a\\div b$, המחולק ($a$) הופך למונה והמחלק ($b$) למכנה: $5\\div 8=\\frac{5}{8}$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-3",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$\\frac{2}{5}$ מ-$20$ שווה ל:",
+    "options": ["$8$", "$10$", "$4$", "$12$"],
+    "correct_index": 0,
+    "explanation": "$20\\div 5=4$ (שווה לחלק אחד מתוך $5$), ואז $4\\times 2=8$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-4",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם $\\frac{1}{4}$ ממספר שווה ל-$9$, מהו המספר?",
+    "options": ["$36$", "$13$", "$45$", "$5$"],
+    "correct_index": 0,
+    "explanation": "אם רבע מהמספר הוא $9$, השלם הוא $9\\times 4=36$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-5",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הפכו את $2\\frac{3}{4}$ לשבר מדומה (לא-פשוט).",
+    "options": ["$\\frac{11}{4}$", "$\\frac{9}{4}$", "$\\frac{11}{3}$", "$\\frac{8}{4}$"],
+    "correct_index": 0,
+    "explanation": "$2\\times 4+3=11$, ולכן $2\\frac{3}{4}=\\frac{11}{4}$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-6",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הפכו את $\\frac{11}{4}$ למספר מעורב.",
+    "options": ["$2\\frac{3}{4}$", "$3\\frac{1}{4}$", "$2\\frac{1}{4}$", "$1\\frac{3}{4}$"],
+    "correct_index": 0,
+    "explanation": "$11\\div 4=2$ ונשארית $3$, ולכן $\\frac{11}{4}=2\\frac{3}{4}$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-7",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בין אילו שני מספרים שלמים נמצא השבר $\\frac{7}{3}$?",
+    "options": ["$2$ ו-$3$", "$1$ ו-$2$", "$3$ ו-$4$", "$0$ ו-$1$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{7}{3}=2\\frac{1}{3}$, כלומר נמצא בין $2$ ל-$3$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-8",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מתוך $40$ תלמידים, $\\frac{3}{5}$ הלכו לטיול. כמה תלמידים הלכו לטיול?",
+    "options": ["$24$", "$15$", "$30$", "$20$"],
+    "correct_index": 0,
+    "explanation": "$40\\div 5=8$, ואז $8\\times 3=24$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-9",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה שבר גדול יותר: $\\frac{3}{4}$ או $\\frac{5}{8}$?",
+    "options": ["$\\frac{3}{4}$", "$\\frac{5}{8}$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מרחיבים ל-$8$: $\\frac{3}{4}=\\frac{6}{8}$, וזה גדול מ-$\\frac{5}{8}$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-10",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מחלקים $12$ עוגות שווה בשווה בין $5$ ילדים. איזה שבר מהעוגות מקבל כל ילד?",
+    "options": ["$\\frac{12}{5}$", "$\\frac{5}{12}$", "$\\frac{12}{12}$", "$\\frac{1}{5}$"],
+    "correct_index": 0,
+    "explanation": "חילוק $12$ עוגות בין $5$ ילדים שווה למנה $12\\div 5=\\frac{12}{5}$ עוגות לכל ילד."
+  },
+  {
+    "id": "q-g5-fractions-meaning-11",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מתכון דורש $\\frac{2}{3}$ כוס סוכר למנה אחת. כמה כוסות סוכר צריך ל-$3$ מנות?",
+    "options": ["$2$", "$1\\frac{1}{3}$", "$\\frac{2}{9}$", "$3$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{2}{3}\\times 3=2$ כוסות."
+  },
+  {
+    "id": "q-g5-fractions-meaning-12",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הפכו את $\\frac{7}{2}$ למספר מעורב.",
+    "options": ["$3\\frac{1}{2}$", "$2\\frac{1}{2}$", "$3\\frac{1}{3}$", "$4\\frac{1}{2}$"],
+    "correct_index": 0,
+    "explanation": "$7\\div 2=3$ ונשארית $1$, ולכן $\\frac{7}{2}=3\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-13",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה שבר מייצג את הנקודה הנמצאת בדיוק באמצע בין $0$ ל-$1$ על ישר המספרים?",
+    "options": ["$\\frac{1}{2}$", "$\\frac{1}{4}$", "$\\frac{1}{3}$", "$\\frac{2}{3}$"],
+    "correct_index": 0,
+    "explanation": "האמצע בין $0$ ל-$1$ הוא $\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-14",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מגרש מרובע חולק ל-$6$ חלקים שווים; $4$ חלקים נצבעו. איזה שבר מהמגרש נצבע?",
+    "options": ["$\\frac{4}{6}$", "$\\frac{6}{4}$", "$\\frac{2}{6}$", "$\\frac{4}{2}$"],
+    "correct_index": 0,
+    "explanation": "נצבעו $4$ חלקים מתוך $6$ חלקים שווים, כלומר $\\frac{4}{6}$ מהמגרש."
+  },
+  {
+    "id": "q-g5-fractions-meaning-15",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה משפט נכון לגבי השבר $\\frac{9}{9}$?",
+    "options": ["$\\frac{9}{9}=1$", "$\\frac{9}{9}=9$", "$\\frac{9}{9}=0$", "$\\frac{9}{9}$ אינו שבר תקין"],
+    "correct_index": 0,
+    "explanation": "כאשר המונה שווה למכנה, השבר מייצג שלם אחד: $\\frac{9}{9}=1$."
+  },
+  {
+    "id": "q-g5-decimals-intro-1",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כתבו את $\\frac{3}{10}$ כשבר עשרוני.",
+    "options": ["$0.3$", "$0.03$", "$3.0$", "$0.13$"],
+    "correct_index": 0,
+    "explanation": "עשירית אחת נכתבת כ-$0.1$, ולכן $\\frac{3}{10}=0.3$."
+  },
+  {
+    "id": "q-g5-decimals-intro-2",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כתבו את $0.75$ כשבר פשוט מצומצם.",
+    "options": ["$\\frac{3}{4}$", "$\\frac{75}{10}$", "$\\frac{7}{5}$", "$\\frac{3}{5}$"],
+    "correct_index": 0,
+    "explanation": "$0.75=\\frac{75}{100}$, ולאחר צמצום ב-$25$ מתקבל $\\frac{3}{4}$."
+  },
+  {
+    "id": "q-g5-decimals-intro-3",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $2.5\\times 10$?",
+    "options": ["$25$", "$2.5$", "$250$", "$0.25$"],
+    "correct_index": 0,
+    "explanation": "בכפל ב-$10$ כל ספרה זזה מקום אחד שמאלה: $2.5\\times 10=25$."
+  },
+  {
+    "id": "q-g5-decimals-intro-4",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $3.47\\times 100$?",
+    "options": ["$347$", "$34.7$", "$3{,}470$", "$0.347$"],
+    "correct_index": 0,
+    "explanation": "בכפל ב-$100$ כל ספרה זזה שני מקומות שמאלה: $3.47\\times 100=347$."
+  },
+  {
+    "id": "q-g5-decimals-intro-5",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $0.6\\times 1{,}000$?",
+    "options": ["$600$", "$60$", "$6{,}000$", "$6$"],
+    "correct_index": 0,
+    "explanation": "בכפל ב-$1{,}000$ כל ספרה זזה שלושה מקומות שמאלה: $0.6\\times 1{,}000=600$."
+  },
+  {
+    "id": "q-g5-decimals-intro-6",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי ספרת המאיות במספר $4.256$?",
+    "options": ["$5$", "$2$", "$6$", "$4$"],
+    "correct_index": 0,
+    "explanation": "אחרי הנקודה העשרונית: עשיריות־$2$, מאיות־$5$, אלפיות־$6$."
+  },
+  {
+    "id": "q-g5-decimals-intro-7",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: $0.5$ או $0.45$?",
+    "options": ["$0.5$", "$0.45$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$0.5=0.50$, ו-$0.50>0.45$ כי בספרת העשיריות $5>4$."
+  },
+  {
+    "id": "q-g5-decimals-intro-8",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$1$ מ' ו-$37$ ס\"מ שווים לכמה מטרים?",
+    "options": ["$1.37$", "$1.037$", "$13.7$", "$1.73$"],
+    "correct_index": 0,
+    "explanation": "כל ס\"מ הוא מאית של מטר, ולכן $37$ ס\"מ$=0.37$ מ', וסך הכול $1.37$ מ'."
+  },
+  {
+    "id": "q-g5-decimals-intro-9",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$250$ ס\"מ שווים לכמה מטרים?",
+    "options": ["$2.5$", "$25$", "$0.25$", "$250$"],
+    "correct_index": 0,
+    "explanation": "$100$ ס\"מ הם מטר אחד, ולכן $250$ ס\"מ$=2.5$ מ'."
+  },
+  {
+    "id": "q-g5-decimals-intro-10",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מי הקטן ביותר מבין $0.4$, $0.25$ ו-$0.3$?",
+    "options": ["$0.25$", "$0.3$", "$0.4$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "משווים ספרת העשיריות: $0.25$ (עשיריות $2$) קטן מ-$0.3$ ומ-$0.4$."
+  },
+  {
+    "id": "q-g5-decimals-intro-11",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים שווה ל-$0.5$?",
+    "options": ["$0.50$", "$0.05$", "$0.055$", "$5.0$"],
+    "correct_index": 0,
+    "explanation": "הוספת אפס אחרי הספרות העשרוניות אינה משנה את הערך: $0.5=0.50$."
+  },
+  {
+    "id": "q-g5-decimals-intro-12",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כתבו במספרים: \"שלוש שלמים וארבע עשיריות\".",
+    "options": ["$3.4$", "$3.04$", "$34$", "$3.004$"],
+    "correct_index": 0,
+    "explanation": "$3$ שלמים ועוד $4$ עשיריות הם $3.4$."
+  },
+  {
+    "id": "q-g5-decimals-intro-13",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $4.2\\div 10$?",
+    "options": ["$0.42$", "$42$", "$0.042$", "$4.02$"],
+    "correct_index": 0,
+    "explanation": "בחילוק ב-$10$ כל ספרה זזה מקום אחד ימינה: $4.2\\div 10=0.42$."
+  },
+  {
+    "id": "q-g5-decimals-intro-14",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: $2.09$ או $2.9$?",
+    "options": ["$2.9$", "$2.09$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "בספרת העשיריות: $2.9$ (עשיריות $9$) גדול מ-$2.09$ (עשיריות $0$)."
+  },
+  {
+    "id": "q-g5-decimals-intro-15",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$3$ ק\"מ ו-$200$ מ' שווים לכמה ק\"מ?",
+    "options": ["$3.2$", "$3.02$", "$3.002$", "$32$"],
+    "correct_index": 0,
+    "explanation": "$1{,}000$ מ' הם ק\"מ אחד, ולכן $200$ מ'$=0.2$ ק\"מ, וסך הכול $3.2$ ק\"מ."
+  },
+  {
+    "id": "q-g5-geometry-triangle-1",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש שבסיסו $8$ ס\"מ וגובהו לבסיס $5$ ס\"מ. מה שטחו?",
+    "options": ["$20$ סמ\"ר", "$40$ סמ\"ר", "$13$ סמ\"ר", "$10$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "שטח משולש $=\\frac{\\text{בסיס}\\times\\text{גובה}}{2}=\\frac{8\\times 5}{2}=20$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-2",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש שבסיסו $10$ ס\"מ וגובהו $6$ ס\"מ. מה שטחו?",
+    "options": ["$30$ סמ\"ר", "$60$ סמ\"ר", "$16$ סמ\"ר", "$20$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$\\frac{10\\times 6}{2}=30$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-3",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה היקף משולש שצלעותיו $5$, $7$ ו-$9$ ס\"מ?",
+    "options": ["$21$ ס\"מ", "$20$ ס\"מ", "$22$ ס\"מ", "$18$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "היקף הוא סכום אורכי הצלעות: $5+7+9=21$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-4",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "משולש שווה-צלעות שאורך צלעו $6$ ס\"מ. מה היקפו?",
+    "options": ["$18$ ס\"מ", "$12$ ס\"מ", "$24$ ס\"מ", "$36$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "בשווה-צלעות שלוש הצלעות שוות: $6\\times 3=18$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-5",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש ישר-זווית שאורכי הניצבים בו $3$ ס\"מ ו-$4$ ס\"מ. מה שטחו?",
+    "options": ["$6$ סמ\"ר", "$12$ סמ\"ר", "$7$ סמ\"ר", "$3.5$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "בישר-זווית הניצבים משמשים בסיס וגובה: $\\frac{3\\times 4}{2}=6$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-6",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שטח משולש הוא $24$ סמ\"ר, ובסיסו $8$ ס\"מ. מה גובהו?",
+    "options": ["$6$ ס\"מ", "$3$ ס\"מ", "$48$ ס\"מ", "$16$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$24=\\frac{8\\times h}{2}$, כלומר $8\\times h=48$, ולכן $h=6$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-7",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש שווה-שוקיים שצלעותיו $7$, $7$ ו-$10$ ס\"מ. מה היקפו?",
+    "options": ["$24$ ס\"מ", "$17$ ס\"מ", "$27$ ס\"מ", "$21$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$7+7+10=24$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-8",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שטח משולש הוא $15$ סמ\"ר, וגובהו $5$ ס\"מ. מה אורך הבסיס?",
+    "options": ["$6$ ס\"מ", "$3$ ס\"מ", "$75$ ס\"מ", "$10$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$15=\\frac{b\\times 5}{2}$, כלומר $b\\times 5=30$, ולכן $b=6$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-9",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "משולש שכל זוויותיו קטנות מ-$90°$ נקרא משולש:",
+    "options": ["חד-זוויות", "קהה-זווית", "ישר-זווית", "שווה-צלעות"],
+    "correct_index": 0,
+    "explanation": "משולש שכל זוויותיו חדות (קטנות מ-$90°$) נקרא חד-זוויות."
+  },
+  {
+    "id": "q-g5-geometry-triangle-10",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "משולש שיש בו זווית הגדולה מ-$90°$ נקרא משולש:",
+    "options": ["קהה-זווית", "חד-זוויות", "ישר-זווית", "שווה-שוקיים"],
+    "correct_index": 0,
+    "explanation": "זווית הגדולה מ-$90°$ נקראת זווית קהה, ולכן המשולש נקרא קהה-זווית."
+  },
+  {
+    "id": "q-g5-geometry-triangle-11",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "משולש שיש בו זווית השווה בדיוק ל-$90°$ נקרא משולש:",
+    "options": ["ישר-זווית", "חד-זוויות", "קהה-זווית", "שווה-צלעות"],
+    "correct_index": 0,
+    "explanation": "זווית של בדיוק $90°$ נקראת זווית ישרה, ולכן המשולש נקרא ישר-זווית."
+  },
+  {
+    "id": "q-g5-geometry-triangle-12",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני משולשים ישרי-זווית חופפים, שניצביהם $3$ ס\"מ ו-$4$ ס\"מ, מוצמדים ליצירת מלבן. מה שטח המלבן שנוצר?",
+    "options": ["$12$ סמ\"ר", "$6$ סמ\"ר", "$24$ סמ\"ר", "$7$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "המלבן שנוצר הוא בגודל $3\\times 4$, ושטחו $12$ סמ\"ר (פי $2$ משטח משולש אחד, $6$ סמ\"ר)."
+  },
+  {
+    "id": "q-g5-geometry-triangle-13",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שטח משולש הוא תמיד מחצית משטח המלבן הנבנה סביבו (על אותו בסיס וגובה). אם שטח המלבן הוא $40$ סמ\"ר, מה שטח המשולש?",
+    "options": ["$20$ סמ\"ר", "$80$ סמ\"ר", "$10$ סמ\"ר", "$40$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$40\\div 2=20$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-14",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה היקף משולש שצלעותיו $4.5$, $3.2$ ו-$6.3$ ס\"מ?",
+    "options": ["$14$ ס\"מ", "$13$ ס\"מ", "$14.5$ ס\"מ", "$12.8$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$4.5+3.2+6.3=14$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-15",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש שווה-שוקיים שהיקפו $23$ ס\"מ, ואורך הבסיס $7$ ס\"מ. מה אורך כל אחת מהשוקיים השוות?",
+    "options": ["$8$ ס\"מ", "$16$ ס\"מ", "$7$ ס\"מ", "$9$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "שתי השוקיים שוות: $23-7=16$, ולכל שוק $16\\div 2=8$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-1",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מקבילית שבסיסה $9$ ס\"מ וגובהה $4$ ס\"מ. מה שטחה?",
+    "options": ["$36$ סמ\"ר", "$26$ סמ\"ר", "$13$ סמ\"ר", "$18$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "שטח מקבילית $=$ בסיס $\\times$ גובה $=9\\times 4=36$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-2",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מקבילית שבסיסה $12$ ס\"מ וגובהה $5$ ס\"מ. מה שטחה?",
+    "options": ["$60$ סמ\"ר", "$17$ סמ\"ר", "$34$ סמ\"ר", "$120$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$12\\times 5=60$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-3",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שטח מקבילית הוא $48$ סמ\"ר, ובסיסה $8$ ס\"מ. מה גובהה?",
+    "options": ["$6$ ס\"מ", "$40$ ס\"מ", "$56$ ס\"מ", "$3$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$48\\div 8=6$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-4",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שטח מקבילית הוא $54$ סמ\"ר, וגובהה $6$ ס\"מ. מה אורך הבסיס?",
+    "options": ["$9$ ס\"מ", "$48$ ס\"מ", "$60$ ס\"מ", "$4.5$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$54\\div 6=9$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-5",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מקבילית שבסיסה $15$ ס\"מ וגובהה $4$ ס\"מ. מה שטחה?",
+    "options": ["$60$ סמ\"ר", "$19$ סמ\"ר", "$30$ סמ\"ר", "$75$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$15\\times 4=60$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-6",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "למקבילית יש בסיס $5$ ס\"מ וגובה $4$ ס\"מ (שטח $20$ סמ\"ר). אם הגובה גדל ל-$8$ ס\"מ, והבסיס נשאר אותו הדבר, מה השטח החדש?",
+    "options": ["$40$ סמ\"ר", "$20$ סמ\"ר", "$60$ סמ\"ר", "$13$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$5\\times 8=40$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-7",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לשתי מקביליות יש אותו בסיס ($10$ ס\"מ), אך לאחת גובה $3$ ס\"מ ולשנייה גובה $6$ ס\"מ. פי כמה גדול שטח המקבילית השנייה משטח הראשונה?",
+    "options": ["$2$", "$3$", "$0.5$", "$6$"],
+    "correct_index": 0,
+    "explanation": "שטח ראשונה $=30$ סמ\"ר, שטח שנייה $=60$ סמ\"ר; $60\\div 30=2$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-8",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה פאות יש לפירמידה משולשת (טטרהדרון)?",
+    "options": ["$4$", "$3$", "$5$", "$6$"],
+    "correct_index": 0,
+    "explanation": "לפירמידה משולשת יש בסיס משולש ועוד $3$ פאות צדדיות משולשות — סך הכול $4$ פאות."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-9",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה קודקודים יש לפירמידה משולשת?",
+    "options": ["$4$", "$3$", "$5$", "$6$"],
+    "correct_index": 0,
+    "explanation": "$3$ קודקודי הבסיס ועוד קודקוד הראש — סך הכול $4$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-10",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה מקצועות (צלעות) יש לפירמידה משולשת?",
+    "options": ["$6$", "$4$", "$8$", "$9$"],
+    "correct_index": 0,
+    "explanation": "$3$ מקצועות בבסיס ועוד $3$ מקצועות עולים לראש — סך הכול $6$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-11",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה פאות יש לפירמידה מרובעת (בסיסה מרובע)?",
+    "options": ["$5$", "$4$", "$6$", "$8$"],
+    "correct_index": 0,
+    "explanation": "בסיס מרובע אחד ועוד $4$ פאות צדדיות משולשות — סך הכול $5$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-12",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה מקצועות יש לפירמידה מרובעת?",
+    "options": ["$8$", "$5$", "$6$", "$12$"],
+    "correct_index": 0,
+    "explanation": "$4$ מקצועות בבסיס ועוד $4$ מקצועות עולים לראש — סך הכול $8$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-13",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה פאות יש למנסרה משולשת?",
+    "options": ["$5$", "$4$", "$6$", "$3$"],
+    "correct_index": 0,
+    "explanation": "$2$ בסיסים משולשים ועוד $3$ פאות צדדיות מלבניות — סך הכול $5$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-14",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה קודקודים יש למנסרה משולשת?",
+    "options": ["$6$", "$4$", "$5$", "$8$"],
+    "correct_index": 0,
+    "explanation": "$3$ קודקודים בכל בסיס, ושני בסיסים — סך הכול $6$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-15",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה מקצועות יש למנסרה מרובעת (תיבה)?",
+    "options": ["$12$", "$8$", "$6$", "$10$"],
+    "correct_index": 0,
+    "explanation": "$4$ מקצועות בכל בסיס ($8$ סה\"כ) ועוד $4$ מקצועות מאונכים המחברים בין הבסיסים — סך הכול $12$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-add-1",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $384{,}257+219{,}648$?",
+    "options": ["$603{,}905$", "$593{,}905$", "$604{,}905$", "$603{,}895$"],
+    "correct_index": 0,
+    "explanation": "מחברים במאונך עמודה-עמודה עם העברה: $384{,}257+219{,}648=603{,}905$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-add-2",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $47{,}382+8{,}956$?",
+    "options": ["$56{,}338$", "$55{,}338$", "$56{,}438$", "$46{,}338$"],
+    "correct_index": 0,
+    "explanation": "$47{,}382+8{,}956=56{,}338$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-add-3",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $625{,}400+186{,}750$?",
+    "options": ["$812{,}150$", "$811{,}150$", "$802{,}150$", "$812{,}250$"],
+    "correct_index": 0,
+    "explanation": "$625{,}400+186{,}750=812{,}150$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-add-4",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בישוב גרים $128{,}450$ תושבים. עברו לגור בו עוד $6{,}780$ תושבים. כמה תושבים יש כעת?",
+    "options": ["$135{,}230$", "$134{,}230$", "$135{,}130$", "$136{,}230$"],
+    "correct_index": 0,
+    "explanation": "$128{,}450+6{,}780=135{,}230$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-add-5",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $56{,}789+34{,}567$?",
+    "options": ["$91{,}356$", "$90{,}356$", "$91{,}456$", "$81{,}356$"],
+    "correct_index": 0,
+    "explanation": "$56{,}789+34{,}567=91{,}356$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-sub-1",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $500{,}000-186{,}437$?",
+    "options": ["$313{,}563$", "$314{,}563$", "$313{,}463$", "$323{,}563$"],
+    "correct_index": 0,
+    "explanation": "$500{,}000-186{,}437=313{,}563$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-sub-2",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $723{,}450-458{,}900$?",
+    "options": ["$264{,}550$", "$265{,}550$", "$264{,}450$", "$274{,}550$"],
+    "correct_index": 0,
+    "explanation": "$723{,}450-458{,}900=264{,}550$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-sub-3",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מגרש חניה יכול להכיל $4{,}500$ מכוניות. חונות בו כרגע $3{,}875$ מכוניות. כמה מקומות פנויים נשארו?",
+    "options": ["$625$", "$725$", "$615$", "$525$"],
+    "correct_index": 0,
+    "explanation": "$4{,}500-3{,}875=625$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-sub-4",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $1{,}000{,}000-378{,}245$?",
+    "options": ["$621{,}755$", "$622{,}755$", "$621{,}655$", "$631{,}755$"],
+    "correct_index": 0,
+    "explanation": "$1{,}000{,}000-378{,}245=621{,}755$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-sub-5",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $92{,}003-47{,}856$?",
+    "options": ["$44{,}147$", "$45{,}147$", "$44{,}247$", "$34{,}147$"],
+    "correct_index": 0,
+    "explanation": "$92{,}003-47{,}856=44{,}147$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-mul-1",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $245\\times 36$?",
+    "options": ["$8{,}820$", "$8{,}720$", "$7{,}820$", "$8{,}920$"],
+    "correct_index": 0,
+    "explanation": "$245\\times 36=245\\times 30+245\\times 6=7{,}350+1{,}470=8{,}820$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-mul-2",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $1{,}208\\times 24$?",
+    "options": ["$28{,}992$", "$27{,}992$", "$28{,}892$", "$29{,}992$"],
+    "correct_index": 0,
+    "explanation": "$1{,}208\\times 24=1{,}208\\times 20+1{,}208\\times 4=24{,}160+4{,}832=28{,}992$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-mul-3",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $3{,}450\\times 12$?",
+    "options": ["$41{,}400$", "$40{,}400$", "$41{,}300$", "$41{,}500$"],
+    "correct_index": 0,
+    "explanation": "$3{,}450\\times 12=3{,}450\\times 10+3{,}450\\times 2=34{,}500+6{,}900=41{,}400$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-mul-4",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בכל קופסה יש $144$ עפרונות. יש $27$ קופסאות. כמה עפרונות יש בסך הכול?",
+    "options": ["$3{,}888$", "$3{,}788$", "$3{,}868$", "$3{,}968$"],
+    "correct_index": 0,
+    "explanation": "$144\\times 27=144\\times 30-144\\times 3=4{,}320-432=3{,}888$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-mul-5",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $506\\times 48$?",
+    "options": ["$24{,}288$", "$23{,}288$", "$24{,}188$", "$25{,}288$"],
+    "correct_index": 0,
+    "explanation": "$506\\times 48=506\\times 50-506\\times 2=25{,}300-1{,}012=24{,}288$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-div-1",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בחילוק $758\\div 6$ — מהי המנה ומהי השארית?",
+    "options": ["מנה $126$, שארית $2$", "מנה $125$, שארית $8$", "מנה $126$, שארית $0$", "מנה $127$, שארית $4$"],
+    "correct_index": 0,
+    "explanation": "$6\\times 126=756$, ונשארית $758-756=2$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-div-2",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בחילוק $4{,}328\\div 25$ — מהי המנה ומהי השארית?",
+    "options": ["מנה $173$, שארית $3$", "מנה $172$, שארית $28$", "מנה $173$, שארית $0$", "מנה $174$, שארית $22$"],
+    "correct_index": 0,
+    "explanation": "$25\\times 173=4{,}325$, ונשארית $4{,}328-4{,}325=3$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-div-3",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "יש $950$ תפוחים שיש לארוז בשקיות של $12$ תפוחים כל אחת. כמה שקיות מלאות אפשר להכין?",
+    "options": ["$79$", "$78$", "$80$", "$77$"],
+    "correct_index": 0,
+    "explanation": "$12\\times 79=948$, כלומר אפשר להכין $79$ שקיות מלאות (וישארו $2$ תפוחים)."
+  },
+  {
+    "id": "q-g5-mul-div-adv-div-4",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בחילוק $12{,}350\\div 15$ — מהי המנה ומהי השארית?",
+    "options": ["מנה $823$, שארית $5$", "מנה $822$, שארית $20$", "מנה $823$, שארית $0$", "מנה $824$, שארית $10$"],
+    "correct_index": 0,
+    "explanation": "$15\\times 823=12{,}345$, ונשארית $12{,}350-12{,}345=5$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-div-5",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בחילוק $6{,}789\\div 8$ — מהי המנה ומהי השארית?",
+    "options": ["מנה $848$, שארית $5$", "מנה $847$, שארית $13$", "מנה $848$, שארית $0$", "מנה $849$, שארית $3$"],
+    "correct_index": 0,
+    "explanation": "$8\\times 848=6{,}784$, ונשארית $6{,}789-6{,}784=5$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-round-1",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "עגלו את $47{,}382$ לאלפים הקרובים.",
+    "options": ["$47{,}000$", "$48{,}000$", "$47{,}400$", "$47{,}500$"],
+    "correct_index": 0,
+    "explanation": "ספרת המאות היא $3$ (קטנה מ-$5$), ולכן מעגלים למטה: $47{,}000$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-round-2",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "עגלו את $156{,}789$ למאות האלפים הקרובות.",
+    "options": ["$200{,}000$", "$100{,}000$", "$150{,}000$", "$160{,}000$"],
+    "correct_index": 0,
+    "explanation": "ספרת עשרות האלפים היא $5$ (גדולה או שווה ל-$5$), ולכן מעגלים למעלה: $200{,}000$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-round-3",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "עגלו את $824{,}500$ לעשרות האלפים הקרובות.",
+    "options": ["$820{,}000$", "$830{,}000$", "$825{,}000$", "$800{,}000$"],
+    "correct_index": 0,
+    "explanation": "ספרת האלפים היא $4$ (קטנה מ-$5$), ולכן מעגלים למטה: $820{,}000$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-round-4",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "עגלו את $999{,}600$ לאלפים הקרובים.",
+    "options": ["$1{,}000{,}000$", "$999{,}000$", "$1{,}000{,}600$", "$990{,}000$"],
+    "correct_index": 0,
+    "explanation": "ספרת המאות היא $6$ (גדולה או שווה ל-$5$), ולכן מעגלים למעלה — וזה \"גולש\" גם לספרות שמשמאל: $1{,}000{,}000$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-round-5",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "עגלו את $63{,}500$ לאלפים הקרובים.",
+    "options": ["$64{,}000$", "$63{,}000$", "$65{,}000$", "$63{,}500$"],
+    "correct_index": 0,
+    "explanation": "ספרת המאות היא $5$, ולכן מעגלים למעלה: $64{,}000$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-est-1",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אמדו בלי לחשב במדויק: למה הכי קרובה התוצאה של $4{,}987+2{,}013$?",
+    "options": ["$7{,}000$", "$6{,}000$", "$8{,}000$", "$5{,}000$"],
+    "correct_index": 0,
+    "explanation": "$4{,}987$ קרוב ל-$5{,}000$ ו-$2{,}013$ קרוב ל-$2{,}000$, ולכן הסכום קרוב ל-$7{,}000$ (הסכום המדויק הוא בדיוק $7{,}000$)."
+  },
+  {
+    "id": "q-g5-mul-div-adv-est-2",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אמדו: למה הכי קרובה התוצאה של $6{,}102\\times 4$?",
+    "options": ["$24{,}000$", "$18{,}000$", "$30{,}000$", "$12{,}000$"],
+    "correct_index": 0,
+    "explanation": "$6{,}102$ קרוב ל-$6{,}000$, ו-$6{,}000\\times 4=24{,}000$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-est-3",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תבנית ביצים מכילה $30$ ביצים. כדי לסדר בתבניות $2{,}000$ ביצים, נצטרך יותר מ-$70$ תבניות או פחות מ-$70$ תבניות?",
+    "options": ["פחות מ-$70$ תבניות", "יותר מ-$70$ תבניות", "בדיוק $70$ תבניות", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$70\\times 30=2{,}100$, וזה כבר יותר מ-$2{,}000$ — כלומר נצטרך פחות מ-$70$ תבניות (בפועל $67$)."
+  },
+  {
+    "id": "q-g5-mul-div-adv-multi-1",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $(120+80)\\times 5-100$?",
+    "options": ["$900$", "$1{,}000$", "$800$", "$500$"],
+    "correct_index": 0,
+    "explanation": "קודם הסוגריים: $120+80=200$. אז $200\\times 5=1{,}000$, ולבסוף $1{,}000-100=900$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-multi-2",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $500-(45\\times 6)+120$?",
+    "options": ["$350$", "$230$", "$470$", "$620$"],
+    "correct_index": 0,
+    "explanation": "קודם הסוגריים: $45\\times 6=270$. אז $500-270+120=350$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-multi-3",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו $1{,}000\\div (25-15)\\times 3$?",
+    "options": ["$300$", "$100$", "$30$", "$3{,}000$"],
+    "correct_index": 0,
+    "explanation": "קודם הסוגריים: $25-15=10$. אז $1{,}000\\div 10=100$, ולבסוף $100\\times 3=300$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-multi-4",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "קניתי $3$ חולצות ב-$45$ ש\"ח כל אחת ו-$2$ מכנסיים ב-$89$ ש\"ח כל אחד. כמה שילמתי בסך הכול?",
+    "options": ["$313$ ש\"ח", "$303$ ש\"ח", "$223$ ש\"ח", "$268$ ש\"ח"],
+    "correct_index": 0,
+    "explanation": "$3\\times 45=135$ ו-$2\\times 89=178$. סך הכול: $135+178=313$ ש\"ח."
+  },
+  {
+    "id": "q-g5-mul-div-adv-multi-5",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהי התוצאה הנכונה של $15{,}252+36{,}700+1{,}308$?",
+    "options": ["$53{,}260$", "$49{,}260$", "$52{,}260$", "$53{,}160$"],
+    "correct_index": 0,
+    "explanation": "$15{,}252+36{,}700=51{,}952$, ואז $51{,}952+1{,}308=53{,}260$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-multi-6",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "האם $4{,}000-2{,}397$ שווה ל-$3{,}999-2{,}396$?",
+    "options": ["כן, שתי התוצאות שוות", "לא, השמאלית גדולה יותר", "לא, הימנית גדולה יותר", "אי אפשר לדעת בלי לחשב"],
+    "correct_index": 0,
+    "explanation": "שתי התוצאות שוות ל-$1{,}603$: הקטנת המחסר והמחוסר באותו מספר לא משנה את ההפרש."
+  },
+  {
+    "id": "q-g5-numbers-million-hard-1",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בנו את המספר הקטן ביותר בעל $6$ ספרות שונות זו מזו, מתוך הספרות $0,1,2,3,4,5$, שהוא כפולה של $5$.",
+    "options": ["$102{,}345$", "$123{,}450$", "$102{,}354$", "$120{,}345$"],
+    "correct_index": 0,
+    "explanation": "כדי לקבל את המספר הקטן ביותר, שמים את הספרה הקטנה ביותר האפשרית בכל מקום משמאל לימין (בלי ספרת $0$ בהתחלה), ומשאירים את $5$ לסוף כדי לקיים כפולה של $5$: $102{,}345$."
+  },
+  {
+    "id": "q-g5-numbers-million-hard-2",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מה ההפרש בין המספר הגדול ביותר לקטן ביותר שאפשר לבנות מהספרות $3,0,7,2,9$ (כל ספרה פעם אחת)?",
+    "options": ["$76{,}941$", "$76{,}951$", "$77{,}941$", "$76{,}841$"],
+    "correct_index": 0,
+    "explanation": "הגדול ביותר: $97{,}320$. הקטן ביותר (בלי $0$ בהתחלה): $20{,}379$. ההפרש: $97{,}320-20{,}379=76{,}941$."
+  },
+  {
+    "id": "q-g5-numbers-million-hard-3",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "סדרו מהגדול לקטן: $2{,}450{,}000$; $2{,}045{,}000$; $2{,}504{,}000$; $2{,}450{,}500$ — מי השני בגודלו?",
+    "options": ["$2{,}450{,}500$", "$2{,}504{,}000$", "$2{,}450{,}000$", "$2{,}045{,}000$"],
+    "correct_index": 0,
+    "explanation": "הסדר מהגדול לקטן: $2{,}504{,}000$, $2{,}450{,}500$, $2{,}450{,}000$, $2{,}045{,}000$ — השני בגודלו הוא $2{,}450{,}500$."
+  },
+  {
+    "id": "q-g5-numbers-million-hard-4",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה המספר החסר? $3{,}600{,}000=3{,}000{,}000+500{,}000+90{,}000+\\_\\_\\_\\_$",
+    "options": ["$10{,}000$", "$100{,}000$", "$1{,}000$", "$90{,}000$"],
+    "correct_index": 0,
+    "explanation": "$3{,}000{,}000+500{,}000+90{,}000=3{,}590{,}000$, ולכן חסר $3{,}600{,}000-3{,}590{,}000=10{,}000$."
+  },
+  {
+    "id": "q-g5-numbers-million-hard-5",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה פעמים המספר $100{,}000$ נכנס (מתחלק) במספר $4{,}500{,}000$?",
+    "options": ["$45$", "$4.5$", "$450$", "$4{,}500$"],
+    "correct_index": 0,
+    "explanation": "$4{,}500{,}000\\div 100{,}000=45$."
+  },
+  {
+    "id": "q-g5-numbers-million-hard-6",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מספר $X$ קטן פי $100$ מהמספר $5{,}300{,}000$. מהו $X$?",
+    "options": ["$53{,}000$", "$530{,}000$", "$5{,}300$", "$530$"],
+    "correct_index": 0,
+    "explanation": "$5{,}300{,}000\\div 100=53{,}000$."
+  },
+  {
+    "id": "q-g5-numbers-million-hard-7",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים גדול מ-$2{,}000{,}000$ אך קטן מ-$2{,}100{,}000$?",
+    "options": ["$2{,}050{,}000$", "$1{,}999{,}999$", "$2{,}150{,}000$", "$2{,}100{,}001$"],
+    "correct_index": 0,
+    "explanation": "$2{,}050{,}000$ נמצא בין $2{,}000{,}000$ ל-$2{,}100{,}000$. שאר האפשרויות קטנות מ-$2{,}000{,}000$ או גדולות מ-$2{,}100{,}000$."
+  },
+  {
+    "id": "q-g5-numbers-million-hard-8",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "המספר $A$ גדול מהמספר $B$ ב-$375{,}000$. אם $B=1{,}625{,}000$, מהו $A$?",
+    "options": ["$2{,}000{,}000$", "$1{,}250{,}000$", "$2{,}375{,}000$", "$1{,}975{,}000$"],
+    "correct_index": 0,
+    "explanation": "$A=B+375{,}000=1{,}625{,}000+375{,}000=2{,}000{,}000$."
+  },
+  {
+    "id": "q-g5-primes-hard-1",
+    "topic_id": "g5-primes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו הפירוק לגורמים ראשוניים של $60$?",
+    "options": ["$2\\times 2\\times 3\\times 5$", "$2\\times 3\\times 10$", "$4\\times 3\\times 5$", "$2\\times 2\\times 15$"],
+    "correct_index": 0,
+    "explanation": "$60=2\\times 2\\times 3\\times 5$ — כל הגורמים ראשוניים. באפשרויות האחרות מופיעים $10$, $4$ או $15$ שאינם ראשוניים."
+  },
+  {
+    "id": "q-g5-primes-hard-2",
+    "topic_id": "g5-primes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו המספר הראשוני הגדול ביותר הקטן מ-$50$?",
+    "options": ["$47$", "$49$", "$45$", "$48$"],
+    "correct_index": 0,
+    "explanation": "$49=7\\times 7$ פריק, $45$ ו-$48$ פריקים. $47$ אינו מתחלק באף מספר מ-$2$ עד $6$, ולכן הוא ראשוני."
+  },
+  {
+    "id": "q-g5-primes-hard-3",
+    "topic_id": "g5-primes",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "איזו מהטענות הבאות מוכיחה שהמספר $91$ אינו מספר ראשוני?",
+    "options": ["$91=7\\times 13$", "$91$ הוא מספר אי-זוגי", "$91$ הוא מספר דו-ספרתי", "$91\\div 1=91$"],
+    "correct_index": 0,
+    "explanation": "פירוק $91$ למכפלה של שני גורמים גדולים מ-$1$ ($7\\times 13$) מוכיח שיש לו מחלקים נוספים מלבד $1$ ועצמו — לכן הוא פריק."
+  },
+  {
+    "id": "q-g5-primes-hard-4",
+    "topic_id": "g5-primes",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו הגורם המשותף הגדול ביותר של $36$ ו-$48$?",
+    "options": ["$12$", "$6$", "$24$", "$4$"],
+    "correct_index": 0,
+    "explanation": "מחלקי $36$: $1,2,3,4,6,9,12,18,36$. מחלקי $48$: $1,2,3,4,6,8,12,16,24,48$. הגדול המשותף: $12$."
+  },
+  {
+    "id": "q-g5-primes-hard-5",
+    "topic_id": "g5-primes",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהי הכפולה המשותפת הקטנה ביותר של $4$ ו-$6$?",
+    "options": ["$12$", "$24$", "$10$", "$6$"],
+    "correct_index": 0,
+    "explanation": "כפולות של $4$: $4,8,12,...$. כפולות של $6$: $6,12,...$. הכפולה המשותפת הקטנה ביותר: $12$."
+  },
+  {
+    "id": "q-g5-primes-hard-6",
+    "topic_id": "g5-primes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פרקו את $100$ לגורמים ראשוניים.",
+    "options": ["$2\\times 2\\times 5\\times 5$", "$2\\times 50$", "$4\\times 25$", "$10\\times 10$"],
+    "correct_index": 0,
+    "explanation": "$100=2\\times 2\\times 5\\times 5$ — כל הגורמים ראשוניים. באפשרויות האחרות מופיעים $50$, $4$, $25$ או $10$ שאינם ראשוניים."
+  },
+  {
+    "id": "q-g5-primes-hard-7",
+    "topic_id": "g5-primes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה גורמים ראשוניים שונים יש למספר $30$?",
+    "options": ["$3$", "$2$", "$4$", "$5$"],
+    "correct_index": 0,
+    "explanation": "$30=2\\times 3\\times 5$ — שלושה גורמים ראשוניים שונים."
+  },
+  {
+    "id": "q-g5-primes-hard-8",
+    "topic_id": "g5-primes",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים הוא מספר פריק שיש לו בדיוק שלושה מחלקים?",
+    "options": ["$9$", "$8$", "$12$", "$15$"],
+    "correct_index": 0,
+    "explanation": "מחלקי $9$ הם $1,3,9$ — בדיוק שלושה. ל-$8$ יש $4$ מחלקים, ל-$12$ יש $6$, ול-$15$ יש $4$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-hard-1",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "יעל אכלה $\\frac{3}{8}$ מהעוגה, ודן אכל $\\frac{1}{4}$ מהעוגה. מי אכל יותר?",
+    "options": ["יעל", "דן", "אכלו כמות שווה", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{4}=\\frac{2}{8}$, וזה קטן מ-$\\frac{3}{8}$ — לכן יעל אכלה יותר."
+  },
+  {
+    "id": "q-g5-fractions-meaning-hard-2",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מכולת מכרה $120$ ק\"ג תפוחים. $\\frac{2}{3}$ מהכמות נמכרו בבוקר. כמה ק\"ג נמכרו בבוקר?",
+    "options": ["$80$", "$60$", "$90$", "$40$"],
+    "correct_index": 0,
+    "explanation": "$120\\div 3=40$, ואז $40\\times 2=80$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-hard-3",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "אם $\\frac{3}{5}$ ממספר שווה ל-$36$, מהו המספר?",
+    "options": ["$60$", "$12$", "$48$", "$100$"],
+    "correct_index": 0,
+    "explanation": "אם $\\frac{3}{5}$ מהמספר הוא $36$, אז $\\frac{1}{5}$ הוא $12$, והשלם הוא $12\\times 5=60$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-hard-4",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "הפכו את $6\\frac{5}{9}$ לשבר מדומה.",
+    "options": ["$\\frac{59}{9}$", "$\\frac{54}{9}$", "$\\frac{64}{9}$", "$\\frac{45}{9}$"],
+    "correct_index": 0,
+    "explanation": "$6\\times 9+5=59$, ולכן $6\\frac{5}{9}=\\frac{59}{9}$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-hard-5",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "איזה מבין השברים הבאים הוא הגדול ביותר: $\\frac{5}{6}$, $\\frac{7}{8}$, $\\frac{3}{4}$?",
+    "options": ["$\\frac{7}{8}$", "$\\frac{5}{6}$", "$\\frac{3}{4}$", "כולם שווים"],
+    "correct_index": 0,
+    "explanation": "במכנה משותף $24$: $\\frac{5}{6}=\\frac{20}{24}$, $\\frac{7}{8}=\\frac{21}{24}$, $\\frac{3}{4}=\\frac{18}{24}$ — הגדול ביותר הוא $\\frac{7}{8}$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-hard-6",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בכיתה יש $32$ תלמידים. $\\frac{3}{8}$ מהם בנות. כמה בנים יש בכיתה?",
+    "options": ["$20$", "$12$", "$24$", "$16$"],
+    "correct_index": 0,
+    "explanation": "מספר הבנות: $32\\div 8\\times 3=12$. מספר הבנים: $32-12=20$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-hard-7",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שבר $X$ נמצא בדיוק באמצע בין $\\frac{1}{4}$ ל-$\\frac{3}{4}$ על ישר המספרים. מהו $X$?",
+    "options": ["$\\frac{1}{2}$", "$\\frac{1}{4}$", "$\\frac{3}{8}$", "$\\frac{5}{8}$"],
+    "correct_index": 0,
+    "explanation": "האמצע בין $\\frac{1}{4}$ ל-$\\frac{3}{4}$ הוא $\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-hard-8",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "רועי רץ $\\frac{2}{5}$ מהמסלול ואז עוד $\\frac{1}{4}$ מהמסלול. איזה חלק מהמסלול הוא עדיין צריך לרוץ?",
+    "options": ["$\\frac{7}{20}$", "$\\frac{13}{20}$", "$\\frac{3}{20}$", "$\\frac{1}{20}$"],
+    "correct_index": 0,
+    "explanation": "רץ בסך הכול $\\frac{2}{5}+\\frac{1}{4}=\\frac{8}{20}+\\frac{5}{20}=\\frac{13}{20}$, ולכן נשאר $\\frac{20}{20}-\\frac{13}{20}=\\frac{7}{20}$."
+  },
+  {
+    "id": "q-g5-fractions-adv-hard-1",
+    "topic_id": "g5-fractions-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חשבו: $\\frac{1}{4}+\\frac{1}{6}$",
+    "options": ["$\\frac{5}{12}$", "$\\frac{1}{5}$", "$\\frac{7}{12}$", "$\\frac{1}{2}$"],
+    "correct_index": 0,
+    "explanation": "מכנה משותף $12$: $\\frac{1}{4}=\\frac{3}{12}$, $\\frac{1}{6}=\\frac{2}{12}$. הסכום: $\\frac{5}{12}$."
+  },
+  {
+    "id": "q-g5-fractions-adv-hard-2",
+    "topic_id": "g5-fractions-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבו: $\\frac{5}{6}-\\frac{3}{8}$",
+    "options": ["$\\frac{11}{24}$", "$\\frac{13}{24}$", "$\\frac{7}{24}$", "$\\frac{1}{2}$"],
+    "correct_index": 0,
+    "explanation": "מכנה משותף $24$: $\\frac{5}{6}=\\frac{20}{24}$, $\\frac{3}{8}=\\frac{9}{24}$. ההפרש: $\\frac{11}{24}$."
+  },
+  {
+    "id": "q-g5-fractions-adv-hard-3",
+    "topic_id": "g5-fractions-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבו: $2\\frac{1}{3}+1\\frac{5}{6}$",
+    "options": ["$4\\frac{1}{6}$", "$3\\frac{1}{6}$", "$4\\frac{5}{6}$", "$3\\frac{5}{6}$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{3}+\\frac{5}{6}=\\frac{2}{6}+\\frac{5}{6}=\\frac{7}{6}=1\\frac{1}{6}$. עם השלמים: $2+1+1\\frac{1}{6}=4\\frac{1}{6}$."
+  },
+  {
+    "id": "q-g5-fractions-adv-hard-4",
+    "topic_id": "g5-fractions-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבו: $3\\frac{1}{2}-1\\frac{3}{4}$",
+    "options": ["$1\\frac{3}{4}$", "$2\\frac{1}{4}$", "$1\\frac{1}{4}$", "$2\\frac{3}{4}$"],
+    "correct_index": 0,
+    "explanation": "$3\\frac{1}{2}=\\frac{14}{4}$, $1\\frac{3}{4}=\\frac{7}{4}$. ההפרש: $\\frac{7}{4}=1\\frac{3}{4}$."
+  },
+  {
+    "id": "q-g5-fractions-adv-hard-5",
+    "topic_id": "g5-fractions-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "השלימו: $\\frac{2}{3}+\\_\\_\\_=\\frac{11}{12}$",
+    "options": ["$\\frac{1}{4}$", "$\\frac{9}{12}$", "$\\frac{1}{3}$", "$\\frac{5}{12}$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{11}{12}-\\frac{2}{3}=\\frac{11}{12}-\\frac{8}{12}=\\frac{3}{12}=\\frac{1}{4}$."
+  },
+  {
+    "id": "q-g5-fractions-adv-hard-6",
+    "topic_id": "g5-fractions-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חשבו: $\\frac{3}{9}+\\frac{2}{9}$",
+    "options": ["$\\frac{5}{9}$", "$\\frac{5}{18}$", "$\\frac{1}{9}$", "$\\frac{5}{81}$"],
+    "correct_index": 0,
+    "explanation": "מכנה זהה: $\\frac{3}{9}+\\frac{2}{9}=\\frac{5}{9}$ (כבר מצומצם, כי אין מחלק משותף ל-$5$ ול-$9$)."
+  },
+  {
+    "id": "q-g5-fractions-adv-hard-7",
+    "topic_id": "g5-fractions-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "תופרת השתמשה ב-$\\frac{3}{4}$ מטר בד לחולצה וב-$\\frac{2}{3}$ מטר בד למכנס. כמה בד השתמשה בסך הכול?",
+    "options": ["$1\\frac{5}{12}$", "$1\\frac{1}{12}$", "$1\\frac{2}{3}$", "$\\frac{5}{7}$"],
+    "correct_index": 0,
+    "explanation": "מכנה משותף $12$: $\\frac{3}{4}=\\frac{9}{12}$, $\\frac{2}{3}=\\frac{8}{12}$. הסכום: $\\frac{17}{12}=1\\frac{5}{12}$."
+  },
+  {
+    "id": "q-g5-fractions-adv-hard-8",
+    "topic_id": "g5-fractions-adv",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בקבוק מכיל $\\frac{7}{8}$ ליטר מים. שתו ממנו $\\frac{3}{8}$ ליטר, ואז עוד $\\frac{1}{4}$ ליטר. כמה מים נשארו בבקבוק?",
+    "options": ["$\\frac{1}{4}$", "$\\frac{3}{8}$", "$\\frac{5}{8}$", "$\\frac{1}{2}$"],
+    "correct_index": 0,
+    "explanation": "שתו בסך הכול $\\frac{3}{8}+\\frac{1}{4}=\\frac{3}{8}+\\frac{2}{8}=\\frac{5}{8}$. נשאר: $\\frac{7}{8}-\\frac{5}{8}=\\frac{2}{8}=\\frac{1}{4}$."
+  },
+  {
+    "id": "q-g5-decimals-intro-hard-1",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כתבו את $\\frac{7}{25}$ כשבר עשרוני.",
+    "options": ["$0.28$", "$0.7$", "$0.725$", "$2.8$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{7}{25}=\\frac{28}{100}=0.28$ (הרחבה פי $4$)."
+  },
+  {
+    "id": "q-g5-decimals-intro-hard-2",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $0.045\\times 1{,}000$?",
+    "options": ["$45$", "$4.5$", "$450$", "$0.45$"],
+    "correct_index": 0,
+    "explanation": "בכפל ב-$1{,}000$ הנקודה זזה ימינה $3$ מקומות: $0.045\\times 1{,}000=45$."
+  },
+  {
+    "id": "q-g5-decimals-intro-hard-3",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $3.6\\div 100$?",
+    "options": ["$0.036$", "$0.36$", "$36$", "$0.0036$"],
+    "correct_index": 0,
+    "explanation": "בחילוק ב-$100$ הנקודה זזה שמאלה $2$ מקומות: $3.6\\div 100=0.036$."
+  },
+  {
+    "id": "q-g5-decimals-intro-hard-4",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: $0.099$ או $0.1$?",
+    "options": ["$0.1$", "$0.099$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$0.1=0.100$, וזה גדול מ-$0.099$ (במקום המאיות: $0>...$ למעשה במקום העשיריות $1>0$)."
+  },
+  {
+    "id": "q-g5-decimals-intro-hard-5",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "סדרו את המספרים $1.05$, $1.5$, $1.005$, $1.055$ מהקטן לגדול. איזה מספר נמצא במקום השני (מהקטן)?",
+    "options": ["$1.05$", "$1.005$", "$1.055$", "$1.5$"],
+    "correct_index": 0,
+    "explanation": "הסדר מהקטן לגדול: $1.005$, $1.05$, $1.055$, $1.5$ — במקום השני נמצא $1.05$."
+  },
+  {
+    "id": "q-g5-decimals-intro-hard-6",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה מטרים הם $3$ ק\"מ ו-$450$ מ'?",
+    "options": ["$3{,}450$", "$3{,}045$", "$3.45$", "$345$"],
+    "correct_index": 0,
+    "explanation": "$3$ ק\"מ$=3{,}000$ מ', ועוד $450$ מ' — סך הכול $3{,}450$ מ'."
+  },
+  {
+    "id": "q-g5-decimals-intro-hard-7",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "עגלו את $2.4567$ לספרת המאיות.",
+    "options": ["$2.46$", "$2.45$", "$2.5$", "$2.457$"],
+    "correct_index": 0,
+    "explanation": "הספרה שאחרי המאיות היא $6$ (גדולה או שווה ל-$5$), ולכן מעגלים למעלה: $2.46$."
+  },
+  {
+    "id": "q-g5-decimals-intro-hard-8",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "השלימו: $4.75=4+0.7+\\_\\_\\_$",
+    "options": ["$0.05$", "$0.5$", "$0.005$", "$0.75$"],
+    "correct_index": 0,
+    "explanation": "$4.75-4.7=0.05$."
+  },
+  {
+    "id": "q-g5-decimals-ops-hard-1",
+    "topic_id": "g5-decimals-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חשבו: $12.75+8.6$",
+    "options": ["$21.35$", "$20.35$", "$21.45$", "$20.45$"],
+    "correct_index": 0,
+    "explanation": "$12.75+8.60=21.35$."
+  },
+  {
+    "id": "q-g5-decimals-ops-hard-2",
+    "topic_id": "g5-decimals-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חשבו: $30-12.45$",
+    "options": ["$17.55$", "$18.55$", "$17.45$", "$16.55$"],
+    "correct_index": 0,
+    "explanation": "$30.00-12.45=17.55$."
+  },
+  {
+    "id": "q-g5-decimals-ops-hard-3",
+    "topic_id": "g5-decimals-ops",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבו: $5.125+3.875$",
+    "options": ["$9$", "$8.9$", "$9.1$", "$8.875$"],
+    "correct_index": 0,
+    "explanation": "$5.125+3.875=9.000=9$."
+  },
+  {
+    "id": "q-g5-decimals-ops-hard-4",
+    "topic_id": "g5-decimals-ops",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבו: $7.03-2.658$",
+    "options": ["$4.372$", "$4.472$", "$4.362$", "$3.372$"],
+    "correct_index": 0,
+    "explanation": "$7.030-2.658=4.372$."
+  },
+  {
+    "id": "q-g5-decimals-ops-hard-5",
+    "topic_id": "g5-decimals-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אמדו: למה הכי קרובה התוצאה של $19.8+5.3$?",
+    "options": ["$25$", "$20$", "$30$", "$15$"],
+    "correct_index": 0,
+    "explanation": "$19.8$ קרוב ל-$20$ ו-$5.3$ קרוב ל-$5$, ולכן הסכום קרוב ל-$25$ (הסכום המדויק: $25.1$)."
+  },
+  {
+    "id": "q-g5-decimals-ops-hard-6",
+    "topic_id": "g5-decimals-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה האומדן של הסכום $3.6+2.4$, על ידי עיגול כל מספר למספר השלם הקרוב לפני החיבור?",
+    "options": ["$6$", "$5$", "$7$", "$8$"],
+    "correct_index": 0,
+    "explanation": "$3.6$ מתעגל ל-$4$ ו-$2.4$ מתעגל ל-$2$, ולכן האומדן הוא $4+2=6$."
+  },
+  {
+    "id": "q-g5-decimals-ops-hard-7",
+    "topic_id": "g5-decimals-ops",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבו: $100-45.5-12.25$",
+    "options": ["$42.25$", "$41.25$", "$43.25$", "$42.75$"],
+    "correct_index": 0,
+    "explanation": "$100-45.5=54.5$, ואז $54.5-12.25=42.25$."
+  },
+  {
+    "id": "q-g5-decimals-ops-hard-8",
+    "topic_id": "g5-decimals-ops",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בכרטיס אשראי נטען יש $50$ ש\"ח. קניתי מוצר ב-$18.65$ ש\"ח ומוצר נוסף ב-$9.8$ ש\"ח. כמה נשאר בכרטיס?",
+    "options": ["$21.55$", "$22.55$", "$20.55$", "$21.45$"],
+    "correct_index": 0,
+    "explanation": "$50-18.65-9.8=50-28.45=21.55$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-hard-1",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שטח משולש הוא $54$ סמ\"ר, וגובהו $9$ ס\"מ. מה אורך הבסיס?",
+    "options": ["$12$ ס\"מ", "$6$ ס\"מ", "$24$ ס\"מ", "$4.5$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$54=\\frac{b\\times 9}{2}$, כלומר $b\\times 9=108$, ולכן $b=12$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-hard-2",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש שווה-צלעות שהיקפו $57$ ס\"מ. מה אורך כל צלע?",
+    "options": ["$19$ ס\"מ", "$17$ ס\"מ", "$28.5$ ס\"מ", "$38$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "בשווה-צלעות שלוש הצלעות שוות: $57\\div 3=19$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-hard-3",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "משולש שווה-שוקיים שהיקפו $34$ ס\"מ, ואורך כל שוק $12$ ס\"מ. מה אורך הבסיס?",
+    "options": ["$10$ ס\"מ", "$22$ ס\"מ", "$17$ ס\"מ", "$5$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "שתי השוקיים ביחד: $12\\times 2=24$. הבסיס: $34-24=10$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-hard-4",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "משולש שבסיסו $14$ ס\"מ וגובהו חצי מהבסיס. מה שטח המשולש?",
+    "options": ["$49$ סמ\"ר", "$98$ סמ\"ר", "$24.5$ סמ\"ר", "$21$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "הגובה הוא $14\\div 2=7$. השטח: $\\frac{14\\times 7}{2}=49$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-hard-5",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני משולשים חופפים, שלכל אחד שטח $18$ סמ\"ר, מוצמדים ליצירת מקבילית. מה שטח המקבילית?",
+    "options": ["$36$ סמ\"ר", "$18$ סמ\"ר", "$9$ סמ\"ר", "$54$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "שני משולשים חופפים יוצרים מקבילית ששטחה כפול משטח משולש אחד: $18\\times 2=36$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-hard-6",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "משולש שגובהו $10$ ס\"מ ושטחו $65$ סמ\"ר. מה אורך הבסיס?",
+    "options": ["$13$ ס\"מ", "$6.5$ ס\"מ", "$26$ ס\"מ", "$3.25$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$65=\\frac{b\\times 10}{2}=5b$, ולכן $b=13$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-hard-7",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לפניכם שלושה משולשים שונים בצורתם (חד-זוויות, קהה-זווית וישר-זווית), אך לכולם אותו בסיס ($8$ ס\"מ) ואותו גובה ($8$ ס\"מ). מה משותף לשטחיהם?",
+    "options": ["כל השטחים שווים ($32$ סמ\"ר)", "החד-זוויות תמיד הגדול ביותר", "הישר-זווית תמיד הגדול ביותר", "אי אפשר לדעת בלי לחשב כל אחד"],
+    "correct_index": 0,
+    "explanation": "שטח משולש תלוי רק בבסיס ובגובה ($\\frac{\\text{בסיס}\\times\\text{גובה}}{2}$), לא בסוג הזווית. לכולם: $\\frac{8\\times 8}{2}=32$."
+  },
+  {
+    "id": "q-g5-geometry-triangle-hard-8",
+    "topic_id": "g5-geometry-triangle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שטחו של משולש שווה לשטחו של מלבן שאורכו $9$ ס\"מ ורוחבו $4$ ס\"מ. גובה המשולש הוא $6$ ס\"מ. מה אורך הבסיס של המשולש?",
+    "options": ["$12$ ס\"מ", "$6$ ס\"מ", "$18$ ס\"מ", "$24$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "שטח המלבן: $9\\times 4=36$. אם $36=\\frac{b\\times 6}{2}=3b$, אז $b=12$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-hard-1",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שטח מקבילית הוא $72$ סמ\"ר, ובסיסה $9$ ס\"מ. מה גובהה?",
+    "options": ["$8$ ס\"מ", "$6$ ס\"מ", "$12$ ס\"מ", "$4$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$72\\div 9=8$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-hard-2",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מקבילית ומשולש בעלי אותו בסיס ואותו גובה. שטח המשולש הוא $20$ סמ\"ר. מה שטח המקבילית?",
+    "options": ["$40$ סמ\"ר", "$20$ סמ\"ר", "$10$ סמ\"ר", "$60$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "כשיש אותו בסיס ואותו גובה, שטח המקבילית תמיד כפול משטח המשולש: $20\\times 2=40$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-hard-3",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לגוף יש $5$ פאות, $5$ קודקודים ו-$8$ מקצועות. איזה גוף זה?",
+    "options": ["פירמידה מרובעת", "מנסרה משולשת", "מנסרה מרובעת", "פירמידה משולשת"],
+    "correct_index": 0,
+    "explanation": "לפירמידה מרובעת יש בסיס מרובע (עם $4$ קודקודים) ועוד קודקוד אחד למעלה — $5$ קודקודים, $4$ פאות צדדיות ועוד הבסיס — $5$ פאות, ו-$8$ מקצועות."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-hard-4",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מקבילית שבסיסה $x$ ס\"מ וגובהה $2x$ ס\"מ. אם $x=7$, מה שטח המקבילית?",
+    "options": ["$98$ סמ\"ר", "$49$ סמ\"ר", "$21$ סמ\"ר", "$196$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "הבסיס $7$ והגובה $14$: $7\\times 14=98$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-hard-5",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה מקצועות יש למנסרה משולשת?",
+    "options": ["$9$", "$6$", "$12$", "$5$"],
+    "correct_index": 0,
+    "explanation": "$3$ מקצועות בכל בסיס משולש ($6$ סה\"כ) ועוד $3$ מקצועות שמחברים בין הבסיסים — סך הכול $9$."
+  },
+  {
+    "id": "q-g5-geometry-parallelogram-solids-hard-6",
+    "topic_id": "g5-geometry-parallelogram-solids",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מלבן א' שבסיסו $10$ ס\"מ וגובהו $6$ ס\"מ, ומקבילית ב' (לא-מלבנית) עם אותו בסיס ואותו גובה. מה הקשר בין שטחיהם?",
+    "options": ["השטחים שווים ($60$ סמ\"ר)", "שטח א' גדול יותר", "שטח ב' גדול יותר", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "שטח מקבילית (וגם מלבן, שהוא מקרה פרטי של מקבילית) תלוי רק בבסיס ובגובה: $10\\times 6=60$ בשני המקרים."
+  },
+  {
+    "id": "q-g5-geometry-hard-1",
+    "topic_id": "g5-geometry",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נפח תיבה שאורכה $8$ ס\"מ, רוחבה $5$ ס\"מ וגובהה $4$ ס\"מ. מה נפחה?",
+    "options": ["$160$ סמ\"ק", "$120$ סמ\"ק", "$100$ סמ\"ק", "$320$ סמ\"ק"],
+    "correct_index": 0,
+    "explanation": "$8\\times 5\\times 4=160$."
+  },
+  {
+    "id": "q-g5-geometry-hard-2",
+    "topic_id": "g5-geometry",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נפח תיבה הוא $210$ סמ\"ק. אורכה $7$ ס\"מ ורוחבה $6$ ס\"מ. מה גובהה?",
+    "options": ["$5$ ס\"מ", "$10$ ס\"מ", "$3$ ס\"מ", "$6$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$210\\div(7\\times 6)=210\\div 42=5$."
+  },
+  {
+    "id": "q-g5-geometry-hard-3",
+    "topic_id": "g5-geometry",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מה שטח הפנים של תיבה שאורכה $4$ ס\"מ, רוחבה $3$ ס\"מ וגובהה $2$ ס\"מ?",
+    "options": ["$52$ סמ\"ר", "$26$ סמ\"ר", "$48$ סמ\"ר", "$104$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$2\\times(4\\times 3+4\\times 2+3\\times 2)=2\\times(12+8+6)=2\\times 26=52$."
+  },
+  {
+    "id": "q-g5-geometry-hard-4",
+    "topic_id": "g5-geometry",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "היקף מלבן הוא $34$ ס\"מ, ואורכו $11$ ס\"מ. מה רוחבו?",
+    "options": ["$6$ ס\"מ", "$12$ ס\"מ", "$23$ ס\"מ", "$8.5$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$34=2\\times(11+w)$, כלומר $11+w=17$, ולכן $w=6$."
+  },
+  {
+    "id": "q-g5-geometry-hard-5",
+    "topic_id": "g5-geometry",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מיכל בצורת תיבה שאורכו $10$ ס\"מ, רוחבו $10$ ס\"מ וגובהו $20$ ס\"מ. כמה ליטרים מים הוא מכיל, אם $1$ ליטר $=1{,}000$ סמ\"ק?",
+    "options": ["$2$ ליטר", "$20$ ליטר", "$200$ ליטר", "$0.2$ ליטר"],
+    "correct_index": 0,
+    "explanation": "הנפח: $10\\times 10\\times 20=2{,}000$ סמ\"ק, וזה $2{,}000\\div 1{,}000=2$ ליטר."
+  },
+  {
+    "id": "q-g5-geometry-hard-6",
+    "topic_id": "g5-geometry",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שטח מלבן הוא $96$ סמ\"ר ורוחבו $8$ ס\"מ. מה היקפו?",
+    "options": ["$40$ ס\"מ", "$20$ ס\"מ", "$24$ ס\"מ", "$48$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "האורך: $96\\div 8=12$. ההיקף: $2\\times(12+8)=40$."
+  },
+  {
+    "id": "q-g5-data-hard-1",
+    "topic_id": "g5-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תלמיד קיבל בשלושה מבחנים את הציונים $85$, $90$, $95$. מה הציון הממוצע?",
+    "options": ["$90$", "$92$", "$88$", "$270$"],
+    "correct_index": 0,
+    "explanation": "$85+90+95=270$, ו-$270\\div 3=90$."
+  },
+  {
+    "id": "q-g5-data-hard-2",
+    "topic_id": "g5-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תוצאות של $5$ קופצים לגובה (בס\"מ): $140,145,150,145,145$. מה השכיח?",
+    "options": ["$145$", "$140$", "$150$", "$146.67$"],
+    "correct_index": 0,
+    "explanation": "$145$ מופיע $3$ פעמים — יותר מכל ערך אחר — ולכן הוא השכיח."
+  },
+  {
+    "id": "q-g5-data-hard-3",
+    "topic_id": "g5-data",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "ממוצע של $4$ מספרים הוא $18$. שלושה מהמספרים הם $15$, $20$, $22$. מה המספר הרביעי?",
+    "options": ["$15$", "$25$", "$12$", "$20$"],
+    "correct_index": 0,
+    "explanation": "סכום $4$ המספרים: $4\\times 18=72$. סכום השלושה הידועים: $15+20+22=57$. המספר הרביעי: $72-57=15$."
+  },
+  {
+    "id": "q-g5-data-hard-4",
+    "topic_id": "g5-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בכיתה $30$ תלמידים. $12$ מהם קיבלו ציון מעל $90$, $10$ קיבלו בין $70$ ל-$90$, והשאר קיבלו מתחת ל-$70$. כמה תלמידים קיבלו מתחת ל-$70$?",
+    "options": ["$8$", "$10$", "$18$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$30-12-10=8$."
+  },
+  {
+    "id": "q-g5-data-hard-5",
+    "topic_id": "g5-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עמודות מוצג מספר הספרים שקראו תלמידים בקיץ: דנה־$4$, יואב־$7$, מאיה־$3$, עידו־$6$. מה ממוצע מספר הספרים שקראו?",
+    "options": ["$5$", "$6$", "$4.5$", "$5.5$"],
+    "correct_index": 0,
+    "explanation": "$4+7+3+6=20$, ו-$20\\div 4=5$."
+  },
+  {
+    "id": "q-g5-data-hard-6",
+    "topic_id": "g5-data",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במשאל בין $50$ תלמידים: $20$ בחרו כדורגל, $15$ בחרו כדורסל, והשאר בחרו שחייה. איזה שבר מהתלמידים בחרו בשחייה?",
+    "options": ["$\\frac{3}{10}$", "$\\frac{1}{5}$", "$\\frac{2}{5}$", "$\\frac{7}{10}$"],
+    "correct_index": 0,
+    "explanation": "בחרו בשחייה $50-20-15=15$ תלמידים, כלומר $\\frac{15}{50}=\\frac{3}{10}$ מהתלמידים."
+  },
+  {
+    "id": "q-g5-data-hard-7",
+    "topic_id": "g5-data",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בטבלה מוצג מספר המכוניות שנמכרו בכל רבעון: רבעון $1$–$120$, רבעון $2$–$95$, רבעון $3$–$140$, רבעון $4$–$105$. מה ההפרש בין הרבעון עם הכי הרבה מכירות לרבעון עם הכי מעט?",
+    "options": ["$45$", "$25$", "$20$", "$50$"],
+    "correct_index": 0,
+    "explanation": "הכי הרבה: רבעון $3$ עם $140$. הכי מעט: רבעון $2$ עם $95$. ההפרש: $140-95=45$."
+  },
+  {
+    "id": "q-g5-data-hard-8",
+    "topic_id": "g5-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בכיתה נמדד גובה של $6$ תלמידים (בס\"מ): $140,142,138,145,140,141$. מה הטווח (ההפרש בין הגבוה לנמוך)?",
+    "options": ["$7$", "$5$", "$145$", "$138$"],
+    "correct_index": 0,
+    "explanation": "הגבוה ביותר $145$, הנמוך ביותר $138$. הטווח: $145-138=7$."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-1",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $3+4\\times 2$?",
+    "options": ["$11$", "$14$", "$10$", "$7$"],
+    "correct_index": 0,
+    "explanation": "מבצעים קודם כפל: $4\\times 2=8$, ואז חיבור: $3+8=11$."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-2",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $(3+4)\\times 2$?",
+    "options": ["$14$", "$11$", "$10$", "$9$"],
+    "correct_index": 0,
+    "explanation": "קודם הסוגריים: $3+4=7$, ואז $7\\times 2=14$."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-3",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $20-6\\div 2$?",
+    "options": ["$17$", "$7$", "$14$", "$10$"],
+    "correct_index": 0,
+    "explanation": "מבצעים קודם חילוק: $6\\div 2=3$, ואז $20-3=17$."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-4",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $(20-6)\\div 2$?",
+    "options": ["$7$", "$17$", "$14$", "$3.5$"],
+    "correct_index": 0,
+    "explanation": "קודם הסוגריים: $20-6=14$, ואז $14\\div 2=7$."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-5",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $5\\times 3+4\\times 2$?",
+    "options": ["$23$", "$70$", "$46$", "$19$"],
+    "correct_index": 0,
+    "explanation": "מבצעים כפל לפני חיבור: $5\\times 3=15$, $4\\times 2=8$, ואז $15+8=23$."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-6",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $100\\div(5\\times 2)-5$?",
+    "options": ["$5$", "$15$", "$45$", "$95$"],
+    "correct_index": 0,
+    "explanation": "קודם הסוגריים: $5\\times 2=10$. אז $100\\div 10=10$, ולבסוף $10-5=5$."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-7",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $(8+2)\\times(6-3)$?",
+    "options": ["$30$", "$20$", "$50$", "$17$"],
+    "correct_index": 0,
+    "explanation": "$8+2=10$, $6-3=3$, ואז $10\\times 3=30$."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-8",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים מתחלק גם ב-$3$ וגם ב-$4$?",
+    "options": ["$36$", "$28$", "$27$", "$50$"],
+    "correct_index": 0,
+    "explanation": "$36\\div 3=12$ ו-$36\\div 4=9$ — שניהם ללא שארית. $28$ לא מתחלק ב-$3$, $27$ לא מתחלק ב-$4$, ו-$50$ לא מתחלק באף אחד מהם."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-9",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מספר זוגי שאם מעגלים אותו לעשרות מקבלים $80$. איזה מהמספרים הבאים יכול להיות המספר?",
+    "options": ["$78$", "$73$", "$85$", "$90$"],
+    "correct_index": 0,
+    "explanation": "$78$ זוגי, ומתעגל ל-$80$ (הספרה $8$ גדולה או שווה ל-$5$). $73$ מתעגל ל-$70$, $85$ אי-זוגי, ו-$90$ כבר מעוגל לעצמו."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-10",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים הוא מספר ראשוני שסכום ספרותיו הוא $4$?",
+    "options": ["$13$", "$22$", "$40$", "$12$"],
+    "correct_index": 0,
+    "explanation": "$1+3=4$ ו-$13$ מתחלק רק ב-$1$ ובעצמו — ראשוני. $22$ ו-$40$ פריקים, ול-$12$ סכום הספרות הוא $3$."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-11",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתון $4{,}312\\div 7=616$. כמה שווה $43{,}120\\div 7$?",
+    "options": ["$6{,}160$", "$616$", "$61{,}600$", "$6{,}170$"],
+    "correct_index": 0,
+    "explanation": "$43{,}120$ גדול פי $10$ מ-$4{,}312$, ולכן גם המנה גדולה פי $10$: $616\\times 10=6{,}160$."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-12",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נתון $4{,}312\\div 7=616$. כמה שווה $4{,}312\\div 14$?",
+    "options": ["$308$", "$1{,}232$", "$616$", "$154$"],
+    "correct_index": 0,
+    "explanation": "$14$ גדול פי $2$ מ-$7$, ולכן המנה קטנה פי $2$: $616\\div 2=308$."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-13",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בלי לחשב במדויק: לאיזה מספר הכי קרובה התוצאה של $52\\times 34$?",
+    "options": ["$1{,}800$", "$1{,}200$", "$2{,}400$", "$900$"],
+    "correct_index": 0,
+    "explanation": "$52$ קרוב ל-$50$, $34$ קרוב ל-$35$, ו-$50\\times 35=1{,}750$ — קרוב ל-$1{,}800$ (התוצאה המדויקת: $1{,}768$)."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-14",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "רק תרגיל אחד מהבאים נכון. איזה?",
+    "options": ["$3{,}024\\div 6=504$", "$3{,}432\\div 8=363$", "$3{,}520\\div 4=905$", "$3{,}024\\div 6=604$"],
+    "correct_index": 0,
+    "explanation": "$6\\times 504=3{,}024$ — נכון. בפועל $3{,}432\\div 8=429$ ו-$3{,}520\\div 4=880$, כך שהתרגילים האחרים שגויים."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-15",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חבילת אריחים עולה $234$ ש\"ח. דנה ורעות קנו כל אחת $12$ חבילות, אך האריחים של רעות יקרים ב-$5$ ש\"ח לחבילה. כמה שילמה רעות בסך הכול?",
+    "options": ["$2{,}868$ ש\"ח", "$2{,}813$ ש\"ח", "$2{,}748$ ש\"ח", "$2{,}928$ ש\"ח"],
+    "correct_index": 0,
+    "explanation": "מחיר חבילה אצל רעות: $234+5=239$ ש\"ח. סך הכול: $239\\times 12=2{,}868$ ש\"ח."
+  },
+  {
+    "id": "q-g6-composite-shapes-1",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "צורה מורכבת ממלבן בגודל $8\\times 5$ ומעליו משולש שבסיסו $8$ וגובהו $3$. מה שטח הצורה כולה?",
+    "options": ["$52$", "$48$", "$64$", "$44$"],
+    "correct_index": 0,
+    "explanation": "שטח המלבן: $8\\times 5=40$. שטח המשולש: $\\frac{8\\times 3}{2}=12$. סך הכול: $40+12=52$."
+  },
+  {
+    "id": "q-g6-composite-shapes-2",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "צורת \"L\" מורכבת משני מלבנים: אחד בגודל $10\\times 4$ והשני בגודל $6\\times 3$. מה שטח הצורה?",
+    "options": ["$58$", "$40$", "$64$", "$52$"],
+    "correct_index": 0,
+    "explanation": "$10\\times 4=40$ ועוד $6\\times 3=18$. סך הכול: $40+18=58$."
+  },
+  {
+    "id": "q-g6-composite-shapes-3",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "ממלבן בגודל $12\\times 8$ נחתך מלבן קטן בגודל $4\\times 3$ מאחת הפינות. מה שטח הצורה שנשארה?",
+    "options": ["$84$", "$92$", "$88$", "$80$"],
+    "correct_index": 0,
+    "explanation": "שטח המלבן הגדול: $12\\times 8=96$. שטח שהוחסר: $4\\times 3=12$. הנשאר: $96-12=84$."
+  },
+  {
+    "id": "q-g6-composite-shapes-4",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "צורה מורכבת ממקבילית שבסיסה $9$ וגובהה $5$, ולידה משולש שבסיסו $6$ וגובהו $4$. מה שטח הצורה הכוללת?",
+    "options": ["$57$", "$51$", "$63$", "$45$"],
+    "correct_index": 0,
+    "explanation": "שטח המקבילית: $9\\times 5=45$. שטח המשולש: $\\frac{6\\times 4}{2}=12$. סך הכול: $45+12=57$."
+  },
+  {
+    "id": "q-g6-composite-shapes-5",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מלבן בגודל $10\\times 6$ (היקפו $32$). חותכים ממנו פינה מלבנית בגודל $4\\times 2$, ונוצרת צורת \"L\". מה היקף צורת ה-\"L\"?",
+    "options": ["$32$", "$24$", "$40$", "$28$"],
+    "correct_index": 0,
+    "explanation": "כשחותכים פינה מלבנית מצורה, ההיקף נשאר זהה — החלק שהוחסר משתי צלעות מתחלף בשתי צלעות פנימיות חדשות באותו אורך כולל. ההיקף נשאר $32$."
+  },
+  {
+    "id": "q-g6-composite-shapes-6",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מחומש משוכלל שאורך צלעו $3$ ס\"מ. על כל אחת מ-$5$ צלעותיו בנו משולש שווה-צלעות (עם אותו אורך צלע), פונה כלפי חוץ. מה ההיקף של הצורה שהתקבלה?",
+    "options": ["$30$", "$15$", "$45$", "$18$"],
+    "correct_index": 0,
+    "explanation": "כל צלע של המחומש הופכת לפנימית, ובמקומה שתי צלעות חדשות של המשולש (כל אחת $3$ ס\"מ) מצטרפות להיקף: $5\\times 2\\times 3=30$."
+  },
+  {
+    "id": "q-g6-composite-shapes-7",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מלבן שאורכו $10$ ס\"מ ורוחבו $6$ ס\"מ. מגדילים כל צלע פי $2$. מה שטח המלבן החדש?",
+    "options": ["$240$", "$120$", "$180$", "$360$"],
+    "correct_index": 0,
+    "explanation": "המידות החדשות: $20\\times 12$. השטח: $20\\times 12=240$ (פי $4$ מהשטח המקורי, כי שני הצלעות הוכפלו)."
+  },
+  {
+    "id": "q-g6-composite-shapes-8",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אותו מלבן ($10\\times 6$) שהוגדל פי $2$ בכל צלע. מה ההיקף החדש?",
+    "options": ["$64$", "$32$", "$128$", "$96$"],
+    "correct_index": 0,
+    "explanation": "ההיקף המקורי $32$ מוכפל פי $2$ (ההיקף גדל באותו יחס כמו הצלעות): $32\\times 2=64$."
+  },
+  {
+    "id": "q-g6-composite-shapes-9",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מלבן ששטחו $16$ יחידות שטח והיקפו $20$ יחידות אורך. מהם אורכי צלעותיו?",
+    "options": ["$8$ ו-$2$", "$4$ ו-$4$", "$16$ ו-$1$", "$6$ ו-$4$"],
+    "correct_index": 0,
+    "explanation": "מחפשים שני מספרים שסכומם $10$ (חצי מההיקף) ומכפלתם $16$: $8+2=10$ ו-$8\\times 2=16$."
+  },
+  {
+    "id": "q-g6-composite-shapes-10",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מלבן ששטחו $16$ יחידות שטח והיקפו $34$ יחידות אורך. מהם אורכי צלעותיו?",
+    "options": ["$16$ ו-$1$", "$8$ ו-$2$", "$4$ ו-$4$", "$17$ ו-$1$"],
+    "correct_index": 0,
+    "explanation": "מחפשים שני מספרים שסכומם $17$ (חצי מההיקף) ומכפלתם $16$: $16+1=17$ ו-$16\\times 1=16$."
+  },
+  {
+    "id": "q-g6-composite-shapes-11",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "צורה מורכבת מריבוע בגודל $6\\times 6$ ומשולש ישר-זווית שניצביו $6$ ו-$8$, המחובר לאחת מצלעות הריבוע. מה שטח הצורה הכוללת?",
+    "options": ["$60$", "$54$", "$66$", "$48$"],
+    "correct_index": 0,
+    "explanation": "שטח הריבוע: $6\\times 6=36$. שטח המשולש: $\\frac{6\\times 8}{2}=24$. סך הכול: $36+24=60$."
+  },
+  {
+    "id": "q-g6-composite-shapes-12",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מצולע בצורת T מורכב ממלבן עליון $12\\times 3$ וממלבן תחתון (הרגל) $4\\times 6$. מה השטח הכולל?",
+    "options": ["$60$", "$72$", "$48$", "$54$"],
+    "correct_index": 0,
+    "explanation": "$12\\times 3=36$ ועוד $4\\times 6=24$. סך הכול: $36+24=60$."
+  },
+  {
+    "id": "q-g6-composite-shapes-13",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "גינה מלבנית שאורכה $15$ מ' ורוחבה $10$ מ'. בתוכה בריכה מלבנית בגודל $4\\times 3$ מ'. מה שטח הדשא (הגינה בלי הבריכה)?",
+    "options": ["$138$", "$142$", "$146$", "$135$"],
+    "correct_index": 0,
+    "explanation": "שטח הגינה: $15\\times 10=150$. שטח הבריכה: $4\\times 3=12$. שטח הדשא: $150-12=138$."
+  },
+  {
+    "id": "q-g6-composite-shapes-14",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מעוין נוצר מהצמדת שני משולשים שווי-צלעות (צלע $5$ ס\"מ) לאורך צלע משותפת. מה היקף המעוין?",
+    "options": ["$20$", "$15$", "$25$", "$10$"],
+    "correct_index": 0,
+    "explanation": "למעוין $4$ צלעות חיצוניות, כל אחת באורך $5$ ס\"מ (הצלע המשותפת הופכת לאלכסון פנימי): $4\\times 5=20$."
+  },
+  {
+    "id": "q-g6-composite-shapes-15",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מצולע מורכב ממלבן $7\\times 4$ ומחצי-עיגול שקוטרו $4$, המונח על אחת הצלעות הקצרות. קחו $\\pi\\approx 3.14$. מה שטח הצורה (בקירוב)?",
+    "options": ["$34.28$", "$40.56$", "$28$", "$31.14$"],
+    "correct_index": 0,
+    "explanation": "שטח המלבן: $7\\times 4=28$. שטח חצי-העיגול (רדיוס $2$): $\\frac{3.14\\times 2^2}{2}=6.28$. סך הכול: $28+6.28=34.28$."
+  },
+  {
+    "id": "q-g6-circle-1",
+    "topic_id": "g6-circle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "רדיוס מעגל הוא $7$ ס\"מ. מה קוטרו?",
+    "options": ["$14$", "$7$", "$21$", "$3.5$"],
+    "correct_index": 0,
+    "explanation": "קוטר $=2\\times$ רדיוס $=2\\times 7=14$."
+  },
+  {
+    "id": "q-g6-circle-2",
+    "topic_id": "g6-circle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "קוטר מעגל הוא $18$ ס\"מ. מה רדיוסו?",
+    "options": ["$9$", "$18$", "$36$", "$4.5$"],
+    "correct_index": 0,
+    "explanation": "רדיוס $=$ קוטר $\\div 2=18\\div 2=9$."
+  },
+  {
+    "id": "q-g6-circle-3",
+    "topic_id": "g6-circle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה היקף מעגל שרדיוסו $5$ ס\"מ? (קחו $\\pi\\approx 3.14$)",
+    "options": ["$31.4$", "$15.7$", "$62.8$", "$78.5$"],
+    "correct_index": 0,
+    "explanation": "היקף $=2\\times\\pi\\times$ רדיוס $=2\\times 3.14\\times 5=31.4$."
+  },
+  {
+    "id": "q-g6-circle-4",
+    "topic_id": "g6-circle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה שטח עיגול שרדיוסו $4$ ס\"מ? (קחו $\\pi\\approx 3.14$)",
+    "options": ["$50.24$", "$25.12$", "$12.56$", "$100.48$"],
+    "correct_index": 0,
+    "explanation": "שטח $=\\pi\\times$ רדיוס$^2=3.14\\times 16=50.24$."
+  },
+  {
+    "id": "q-g6-circle-5",
+    "topic_id": "g6-circle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה היקף מעגל שקוטרו $10$ ס\"מ? (קחו $\\pi\\approx 3.14$)",
+    "options": ["$31.4$", "$15.7$", "$62.8$", "$314$"],
+    "correct_index": 0,
+    "explanation": "היקף $=\\pi\\times$ קוטר $=3.14\\times 10=31.4$."
+  },
+  {
+    "id": "q-g6-circle-6",
+    "topic_id": "g6-circle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "היקף מעגל הוא $62.8$ ס\"מ. מה רדיוסו? (קחו $\\pi\\approx 3.14$)",
+    "options": ["$10$", "$20$", "$5$", "$31.4$"],
+    "correct_index": 0,
+    "explanation": "רדיוס $=\\dfrac{\\text{היקף}}{2\\times\\pi}=\\dfrac{62.8}{6.28}=10$."
+  },
+  {
+    "id": "q-g6-circle-7",
+    "topic_id": "g6-circle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו המיתר הארוך ביותר האפשרי במעגל שרדיוסו $6$ ס\"מ?",
+    "options": ["$12$", "$6$", "$18$", "$3$"],
+    "correct_index": 0,
+    "explanation": "המיתר הארוך ביותר במעגל הוא הקוטר: $2\\times 6=12$."
+  },
+  {
+    "id": "q-g6-circle-8",
+    "topic_id": "g6-circle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזו מהטענות הבאות נכונה?",
+    "options": ["קוטר המעגל מורכב משני רדיוסים", "הרדיוס ארוך מהקוטר", "כל המיתרים במעגל שווים באורכם", "קשת היא קטע ישר בתוך המעגל"],
+    "correct_index": 0,
+    "explanation": "הקוטר עובר דרך המרכז ומורכב משני רדיוסים. הרדיוס תמיד קצר מהקוטר, לא כל המיתרים שווים (רק הקטרים), וקשת היא חלק מהיקף המעגל (עקומה, לא קטע ישר)."
+  },
+  {
+    "id": "q-g6-circle-9",
+    "topic_id": "g6-circle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה שטח עיגול שקוטרו $20$ ס\"מ? (קחו $\\pi\\approx 3.14$)",
+    "options": ["$314$", "$157$", "$628$", "$31.4$"],
+    "correct_index": 0,
+    "explanation": "הרדיוס הוא $10$. השטח: $3.14\\times 10^2=314$."
+  },
+  {
+    "id": "q-g6-circle-10",
+    "topic_id": "g6-circle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "גלגל אופניים שקוטרו $70$ ס\"מ מתגלגל סיבוב שלם אחד. איזה מרחק (בקירוב) הוא עבר? (קחו $\\pi\\approx 3.14$)",
+    "options": ["$219.8$", "$109.9$", "$439.6$", "$109$"],
+    "correct_index": 0,
+    "explanation": "המרחק שווה להיקף הגלגל: $3.14\\times 70=219.8$ ס\"מ."
+  },
+  {
+    "id": "q-g6-circle-11",
+    "topic_id": "g6-circle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שטח עיגול הוא $78.5$ סמ\"ר. מה רדיוסו? (קחו $\\pi\\approx 3.14$)",
+    "options": ["$5$", "$25$", "$10$", "$7.85$"],
+    "correct_index": 0,
+    "explanation": "רדיוס$^2=78.5\\div 3.14=25$, ולכן רדיוס $=5$."
+  },
+  {
+    "id": "q-g6-circle-12",
+    "topic_id": "g6-circle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מגרש עגול שרדיוסו $14$ מ'. בערך כמה מ' גדר צריך כדי להקיף אותו במלואו? (קחו $\\pi\\approx\\frac{22}{7}$)",
+    "options": ["$88$", "$44$", "$176$", "$308$"],
+    "correct_index": 0,
+    "explanation": "היקף $=2\\times\\frac{22}{7}\\times 14=2\\times 44=88$ מ'."
+  },
+  {
+    "id": "q-g6-circle-13",
+    "topic_id": "g6-circle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בתרשים מעגל שמרכזו $O$: נקודה $A$ ונקודה $B$ נמצאות על ההיקף, והקטע $AB$ עובר דרך $O$. איך נקרא הקטע $AB$?",
+    "options": ["קוטר", "רדיוס", "מיתר שאינו קוטר", "קשת"],
+    "correct_index": 0,
+    "explanation": "מיתר שעובר דרך מרכז המעגל נקרא קוטר."
+  },
+  {
+    "id": "q-g6-circle-14",
+    "topic_id": "g6-circle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חלק ממעגל התחום בין שני רדיוסים ובין הקשת שביניהם נקרא:",
+    "options": ["גזרה", "מיתר", "קוטר", "קשת"],
+    "correct_index": 0,
+    "explanation": "החלק הזה (בדומה לפרוסת פיצה) נקרא גזרה."
+  },
+  {
+    "id": "q-g6-circle-15",
+    "topic_id": "g6-circle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לעיגול הראשון רדיוס $3$ ס\"מ, ולעיגול השני רדיוס $6$ ס\"מ (כפול מהראשון). פי כמה גדול שטח העיגול השני משטח הראשון?",
+    "options": ["$4$", "$2$", "$8$", "$6$"],
+    "correct_index": 0,
+    "explanation": "שטח העיגול תלוי בריבוע הרדיוס. כשהרדיוס גדל פי $2$, השטח גדל פי $2^2=4$."
+  },
+  {
+    "id": "q-g6-average-1",
+    "topic_id": "g6-average",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה ממוצע המספרים $4$, $8$, $12$?",
+    "options": ["$8$", "$6$", "$12$", "$24$"],
+    "correct_index": 0,
+    "explanation": "$4+8+12=24$, ו-$24\\div 3=8$."
+  },
+  {
+    "id": "q-g6-average-2",
+    "topic_id": "g6-average",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה ממוצע המספרים $10$, $15$, $20$, $25$?",
+    "options": ["$17.5$", "$18$", "$17$", "$70$"],
+    "correct_index": 0,
+    "explanation": "$10+15+20+25=70$, ו-$70\\div 4=17.5$."
+  },
+  {
+    "id": "q-g6-average-3",
+    "topic_id": "g6-average",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ממוצע של $5$ מספרים הוא $12$. מה סכום המספרים?",
+    "options": ["$60$", "$17$", "$2.4$", "$120$"],
+    "correct_index": 0,
+    "explanation": "סכום $=$ ממוצע $\\times$ מספר הנתונים $=12\\times 5=60$."
+  },
+  {
+    "id": "q-g6-average-4",
+    "topic_id": "g6-average",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "ממוצע של $4$ מספרים הוא $9$. שלושה מהם הם $6$, $8$, $10$. מה המספר הרביעי?",
+    "options": ["$12$", "$18$", "$9$", "$24$"],
+    "correct_index": 0,
+    "explanation": "סכום $4$ המספרים: $9\\times 4=36$. סכום השלושה: $6+8+10=24$. הרביעי: $36-24=12$."
+  },
+  {
+    "id": "q-g6-average-5",
+    "topic_id": "g6-average",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ממוצע ציוני מבחן של $20$ תלמידים הוא $78$. מה סכום כל הציונים?",
+    "options": ["$1{,}560$", "$98$", "$780$", "$15{,}600$"],
+    "correct_index": 0,
+    "explanation": "$78\\times 20=1{,}560$."
+  },
+  {
+    "id": "q-g6-average-6",
+    "topic_id": "g6-average",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משקל $4$ קלמנטינות: $80$, $85$, $90$, $85$ גרם. מה המשקל הממוצע?",
+    "options": ["$85$", "$80$", "$90$", "$340$"],
+    "correct_index": 0,
+    "explanation": "$80+85+90+85=340$, ו-$340\\div 4=85$."
+  },
+  {
+    "id": "q-g6-average-7",
+    "topic_id": "g6-average",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם הממוצע יכול להיות גדול מהערך הגדול ביותר בקבוצה?",
+    "options": ["לא, אף פעם", "כן, תמיד", "רק אם יש מספר זוגי של נתונים", "רק אם כל הנתונים שווים"],
+    "correct_index": 0,
+    "explanation": "הממוצע תמיד נמצא בין הערך הקטן ביותר לגדול ביותר בקבוצה — הוא לעולם לא יכול לחרוג מהם."
+  },
+  {
+    "id": "q-g6-average-8",
+    "topic_id": "g6-average",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לקבוצה של $4$ מספרים שממוצעם $10$ הוסיפו מספר חמישי, $0$. מה הממוצע החדש?",
+    "options": ["$8$", "$10$", "$4$", "$50$"],
+    "correct_index": 0,
+    "explanation": "סכום $4$ המספרים: $10\\times 4=40$. עם ה-$0$ הנוסף: עדיין $40$, אך מספר הנתונים עלה ל-$5$: $40\\div 5=8$."
+  },
+  {
+    "id": "q-g6-average-9",
+    "topic_id": "g6-average",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "ממוצע של $3$ מספרים הוא $15$. הוסיפו מספר רביעי ששווה בדיוק לממוצע ($15$). מה הממוצע החדש?",
+    "options": ["$15$", "$20$", "$11.25$", "$60$"],
+    "correct_index": 0,
+    "explanation": "הוספת ערך השווה לממוצע הקיים לא משנה את הממוצע: $\\frac{45+15}{4}=\\frac{60}{4}=15$."
+  },
+  {
+    "id": "q-g6-average-10",
+    "topic_id": "g6-average",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "תלמיד קיבל ציונים $70$, $80$, $90$ בשלושה מבחנים. איזה ציון עליו לקבל במבחן הרביעי כדי שהממוצע הכולל יהיה $85$?",
+    "options": ["$100$", "$90$", "$95$", "$340$"],
+    "correct_index": 0,
+    "explanation": "סכום נדרש: $85\\times 4=340$. סכום שלושת הציונים: $240$. הציון הרביעי: $340-240=100$."
+  },
+  {
+    "id": "q-g6-average-11",
+    "topic_id": "g6-average",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "משקל ממוצע של $6$ תלמידים הוא $40$ ק\"ג. תלמיד נוסף במשקל $54$ ק\"ג הצטרף לקבוצה. מה המשקל הממוצע החדש?",
+    "options": ["$42$", "$47$", "$40$", "$294$"],
+    "correct_index": 0,
+    "explanation": "סכום המשקלים המקורי: $40\\times 6=240$. עם התלמיד הנוסף: $240+54=294$, ומספר התלמידים $7$: $294\\div 7=42$."
+  },
+  {
+    "id": "q-g6-average-12",
+    "topic_id": "g6-average",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בדיאגרמה מוצג מספר המשתתפים ב-$5$ סיורים: $12$, $15$, $18$, $20$, $10$. מה מספר המשתתפים הממוצע לסיור?",
+    "options": ["$15$", "$18$", "$14$", "$75$"],
+    "correct_index": 0,
+    "explanation": "$12+15+18+20+10=75$, ו-$75\\div 5=15$."
+  },
+  {
+    "id": "q-g6-average-13",
+    "topic_id": "g6-average",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם הממוצע חייב להיות מספר שלם, גם כשכל הנתונים הם מספרים שלמים?",
+    "options": ["לא, הממוצע יכול להיות שבר", "כן, תמיד", "רק אם יש מספר אי-זוגי של נתונים", "רק אם כל הנתונים שווים"],
+    "correct_index": 0,
+    "explanation": "לדוגמה, ממוצע של $1,2$ הוא $1.5$ — לא מספר שלם, למרות ששני הנתונים שלמים."
+  },
+  {
+    "id": "q-g6-average-14",
+    "topic_id": "g6-average",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חמישה מספרים שממוצעם $20$. אילו מהקבוצות הבאות יכולה להתאים?",
+    "options": ["$18,19,20,21,22$", "$18,19,20,21,20$", "$10,20,30,40,50$", "$20,20,20,20,25$"],
+    "correct_index": 0,
+    "explanation": "$18+19+20+21+22=100$, ו-$100\\div 5=20$. בשאר האפשרויות הממוצע שונה מ-$20$."
+  },
+  {
+    "id": "q-g6-average-15",
+    "topic_id": "g6-average",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "ממוצע של $2$ מספרים הוא $25$. אחד המספרים גדול מהשני ב-$10$. מהם שני המספרים?",
+    "options": ["$20$ ו-$30$", "$15$ ו-$25$", "$25$ ו-$35$", "$22$ ו-$28$"],
+    "correct_index": 0,
+    "explanation": "אם המספר הקטן הוא $x$, אז $\\frac{x+(x+10)}{2}=25$, כלומר $x+5=25$, ולכן $x=20$ והמספר השני $30$."
+  },
+  {
+    "id": "q-g6-decimals-mul-div-gap-1",
+    "topic_id": "g6-decimals-mul-div",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $8.4\\div 4$?",
+    "options": ["$2.1$", "$21$", "$0.21$", "$4.2$"],
+    "correct_index": 0,
+    "explanation": "$8.4\\div 4=2.1$."
+  },
+  {
+    "id": "q-g6-decimals-mul-div-gap-2",
+    "topic_id": "g6-decimals-mul-div",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $6\\div 0.5$?",
+    "options": ["$12$", "$3$", "$1.2$", "$30$"],
+    "correct_index": 0,
+    "explanation": "חילוק ב-$0.5$ שקול לכפל ב-$2$: $6\\times 2=12$."
+  },
+  {
+    "id": "q-g6-decimals-mul-div-gap-3",
+    "topic_id": "g6-decimals-mul-div",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $0.32\\div 4$?",
+    "options": ["$0.08$", "$0.8$", "$8$", "$0.008$"],
+    "correct_index": 0,
+    "explanation": "$0.32\\div 4=0.08$."
+  },
+  {
+    "id": "q-g6-decimals-mul-div-gap-4",
+    "topic_id": "g6-decimals-mul-div",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו $100\\div 0.25$?",
+    "options": ["$400$", "$25$", "$40$", "$4$"],
+    "correct_index": 0,
+    "explanation": "$0.25=\\frac{1}{4}$, וחילוק ברבע שקול לכפל ב-$4$: $100\\times 4=400$."
+  },
+  {
+    "id": "q-g6-decimals-mul-div-gap-5",
+    "topic_id": "g6-decimals-mul-div",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $2.4\\div 0.4$?",
+    "options": ["$6$", "$0.6$", "$60$", "$0.06$"],
+    "correct_index": 0,
+    "explanation": "מכפילים את שני האגפים פי $10$ ומקבלים תרגיל שקול: $2.4\\div 0.4=24\\div 4=6$."
+  },
+  {
+    "id": "q-g6-decimals-mul-div-gap-6",
+    "topic_id": "g6-decimals-mul-div",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $7.5\\div 0.5$?",
+    "options": ["$15$", "$1.5$", "$3.75$", "$150$"],
+    "correct_index": 0,
+    "explanation": "חילוק ב-$0.5$ שקול לכפל ב-$2$: $7.5\\times 2=15$."
+  },
+  {
+    "id": "q-g6-decimals-mul-div-gap-7",
+    "topic_id": "g6-decimals-mul-div",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $0.04\\times 12$?",
+    "options": ["$0.48$", "$4.8$", "$0.048$", "$48$"],
+    "correct_index": 0,
+    "explanation": "$0.04\\times 12=0.48$."
+  },
+  {
+    "id": "q-g6-decimals-mul-div-gap-8",
+    "topic_id": "g6-decimals-mul-div",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $0.2\\times 30$?",
+    "options": ["$6$", "$0.6$", "$60$", "$600$"],
+    "correct_index": 0,
+    "explanation": "$0.2\\times 30=6$."
+  },
+  {
+    "id": "q-g6-decimals-mul-div-gap-9",
+    "topic_id": "g6-decimals-mul-div",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו $9.6\\div 0.8$?",
+    "options": ["$12$", "$1.2$", "$120$", "$0.12$"],
+    "correct_index": 0,
+    "explanation": "מכפילים את שני האגפים פי $10$: $9.6\\div 0.8=96\\div 8=12$."
+  },
+  {
+    "id": "q-g6-decimals-mul-div-gap-10",
+    "topic_id": "g6-decimals-mul-div",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $12.5\\times 0.4$?",
+    "options": ["$5$", "$50$", "$0.5$", "$16.9$"],
+    "correct_index": 0,
+    "explanation": "$12.5\\times 0.4=5$."
+  },
+  {
+    "id": "q-g6-fractions-mul-div-gap-1",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבו: $1\\frac{1}{2}\\times 2\\frac{1}{3}$",
+    "options": ["$3\\frac{1}{2}$", "$2\\frac{5}{6}$", "$3\\frac{1}{6}$", "$4$"],
+    "correct_index": 0,
+    "explanation": "הופכים לשברים מדומים: $\\frac{3}{2}\\times\\frac{7}{3}=\\frac{21}{6}=3\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g6-fractions-mul-div-gap-2",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבו: $2\\frac{1}{4}\\div 1\\frac{1}{2}$",
+    "options": ["$1\\frac{1}{2}$", "$3\\frac{3}{8}$", "$1\\frac{1}{4}$", "$3$"],
+    "correct_index": 0,
+    "explanation": "הופכים לשברים מדומים: $\\frac{9}{4}\\div\\frac{3}{2}=\\frac{9}{4}\\times\\frac{2}{3}=\\frac{18}{12}=1\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g6-fractions-mul-div-gap-3",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מתכון דורש $2\\frac{1}{2}$ כוסות קמח למנה אחת. כמה כוסות קמח צריך ל-$3$ מנות?",
+    "options": ["$7\\frac{1}{2}$", "$6\\frac{1}{2}$", "$5$", "$8$"],
+    "correct_index": 0,
+    "explanation": "$2\\frac{1}{2}\\times 3=\\frac{5}{2}\\times 3=\\frac{15}{2}=7\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g6-fractions-mul-div-gap-4",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה שטח מלבן שאורכו $\\frac{3}{4}$ מ' ורוחבו $\\frac{2}{5}$ מ'?",
+    "options": ["$\\frac{3}{10}$", "$\\frac{5}{9}$", "$\\frac{2}{3}$", "$\\frac{1}{2}$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{3}{4}\\times\\frac{2}{5}=\\frac{6}{20}=\\frac{3}{10}$ מ\"ר."
+  },
+  {
+    "id": "q-g6-fractions-mul-div-gap-5",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה פעמים $\\frac{1}{4}$ נכנס במספר $3$?",
+    "options": ["$12$", "$0.75$", "$3.25$", "$4$"],
+    "correct_index": 0,
+    "explanation": "$3\\div\\frac{1}{4}=3\\times 4=12$."
+  },
+  {
+    "id": "q-g6-fractions-mul-div-gap-6",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בקבוק מכיל $1\\frac{1}{2}$ ליטר מים. שופכים ממנו למילוי כוסות של $\\frac{1}{4}$ ליטר כל אחת. כמה כוסות אפשר למלא?",
+    "options": ["$6$", "$4$", "$3$", "$8$"],
+    "correct_index": 0,
+    "explanation": "$1\\frac{1}{2}\\div\\frac{1}{4}=\\frac{3}{2}\\times 4=6$."
+  },
+  {
+    "id": "q-g6-fractions-mul-div-gap-7",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חשבו: $3\\div\\frac{3}{4}$",
+    "options": ["$4$", "$2.25$", "$0.75$", "$9$"],
+    "correct_index": 0,
+    "explanation": "$3\\div\\frac{3}{4}=3\\times\\frac{4}{3}=4$."
+  },
+  {
+    "id": "q-g6-fractions-mul-div-gap-8",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבו: $\\frac{5}{6}\\times 2\\frac{2}{5}$",
+    "options": ["$2$", "$1$", "$3$", "$2.4$"],
+    "correct_index": 0,
+    "explanation": "הופכים לשבר מדומה: $2\\frac{2}{5}=\\frac{12}{5}$. אז $\\frac{5}{6}\\times\\frac{12}{5}=\\frac{60}{30}=2$."
+  },
+  {
+    "id": "q-g6-ratio-percent-gap-1",
+    "topic_id": "g6-ratio-percent",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "$80\\%$ ממספר מסוים הם $120$. מהו המספר?",
+    "options": ["$150$", "$96$", "$200$", "$144$"],
+    "correct_index": 0,
+    "explanation": "אם $80\\%$ שווים ל-$120$, אז $1\\%$ שווה ל-$1.5$, והשלם ($100\\%$) הוא $1.5\\times 100=150$."
+  },
+  {
+    "id": "q-g6-ratio-percent-gap-2",
+    "topic_id": "g6-ratio-percent",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$25\\%$ ממספר הם $30$. מהו המספר?",
+    "options": ["$120$", "$7.5$", "$750$", "$105$"],
+    "correct_index": 0,
+    "explanation": "$25\\%$ הם רבע. אם רבע מהמספר הוא $30$, השלם הוא $30\\times 4=120$."
+  },
+  {
+    "id": "q-g6-ratio-percent-gap-3",
+    "topic_id": "g6-ratio-percent",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$60\\%$ ממספר הם $90$. מהו המספר?",
+    "options": ["$150$", "$54$", "$540$", "$144$"],
+    "correct_index": 0,
+    "explanation": "אם $60\\%$ שווים ל-$90$, אז $1\\%$ שווה ל-$1.5$, והשלם הוא $1.5\\times 100=150$."
+  },
+  {
+    "id": "q-g6-ratio-percent-gap-4",
+    "topic_id": "g6-ratio-percent",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מוצר עלה $40$ ש\"ח, והתייקר ב-$20\\%$. מה המחיר החדש?",
+    "options": ["$48$", "$60$", "$44$", "$32$"],
+    "correct_index": 0,
+    "explanation": "$20\\%$ מ-$40$ הם $8$. המחיר החדש: $40+8=48$."
+  },
+  {
+    "id": "q-g6-ratio-percent-gap-5",
+    "topic_id": "g6-ratio-percent",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מחיר מוצר עלה מ-$50$ ש\"ח ל-$65$ ש\"ח. באיזה אחוז התייקר המוצר?",
+    "options": ["$30\\%$", "$15\\%$", "$23\\%$", "$50\\%$"],
+    "correct_index": 0,
+    "explanation": "ההתייקרות: $65-50=15$ ש\"ח. באחוזים מהמחיר המקורי: $\\frac{15}{50}\\times 100=30\\%$."
+  },
+  {
+    "id": "q-g6-ratio-percent-gap-6",
+    "topic_id": "g6-ratio-percent",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בעל חנות קנה סחורה ב-$200$ ש\"ח, ומכר אותה ברווח של $25\\%$. במה מכר את הסחורה?",
+    "options": ["$250$", "$225$", "$300$", "$150$"],
+    "correct_index": 0,
+    "explanation": "$25\\%$ מ-$200$ הם $50$. מחיר המכירה: $200+50=250$."
+  },
+  {
+    "id": "q-g6-ratio-percent-gap-7",
+    "topic_id": "g6-ratio-percent",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$10\\%$ ממחיר מוצר הם $8$ ש\"ח. מה מחיר המוצר המלא?",
+    "options": ["$80$", "$18$", "$800$", "$88$"],
+    "correct_index": 0,
+    "explanation": "אם $10\\%$ שווים ל-$8$, אז $100\\%$ (השלם) שווה ל-$8\\times 10=80$."
+  },
+  {
+    "id": "q-g6-ratio-percent-gap-8",
+    "topic_id": "g6-ratio-percent",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "יובל קנתה דובדבנים מזן א' במחיר מסוים לק\"ג. שירה קנתה דובדבנים מזן ב' במחיר זול ב-$20\\%$ לק\"ג. שתיהן שילמו סכום זהה עבור הקנייה. מי קנתה משקל גדול יותר?",
+    "options": ["שירה", "יובל", "שתיהן קנו אותו משקל", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "כשמשלמים אותו סכום במחיר זול יותר לק\"ג, מקבלים כמות גדולה יותר — לכן שירה קנתה משקל גדול יותר."
+  },
+  {
+    "id": "q-g6-geometry-surface-1",
+    "topic_id": "g6-geometry",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה שטח הפנים של תיבה שאורכה $5$ ס\"מ, רוחבה $4$ ס\"מ וגובהה $3$ ס\"מ?",
+    "options": ["$94$", "$47$", "$60$", "$120$"],
+    "correct_index": 0,
+    "explanation": "$2\\times(5\\times 4+5\\times 3+4\\times 3)=2\\times(20+15+12)=2\\times 47=94$."
+  },
+  {
+    "id": "q-g6-geometry-surface-2",
+    "topic_id": "g6-geometry",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה שטח הפנים של קובייה שאורך מקצועה $6$ ס\"מ?",
+    "options": ["$216$", "$36$", "$144$", "$108$"],
+    "correct_index": 0,
+    "explanation": "לקובייה $6$ פאות ריבועיות זהות, כל אחת בשטח $6\\times 6=36$: $6\\times 36=216$."
+  },
+  {
+    "id": "q-g6-geometry-surface-3",
+    "topic_id": "g6-geometry",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שטח הפנים של תיבה הוא $52$ סמ\"ר. אורכה $4$ ס\"מ ורוחבה $3$ ס\"מ. מה גובהה?",
+    "options": ["$2$", "$4$", "$6$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$52=2\\times(4\\times 3+4h+3h)=24+14h$, כלומר $14h=28$, ולכן $h=2$."
+  },
+  {
+    "id": "q-g6-geometry-surface-4",
+    "topic_id": "g6-geometry",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תיבה שאורכה $10$ ס\"מ, רוחבה $6$ ס\"מ וגובהה $5$ ס\"מ. מה שטח הפנים שלה?",
+    "options": ["$280$", "$140$", "$220$", "$300$"],
+    "correct_index": 0,
+    "explanation": "$2\\times(10\\times 6+10\\times 5+6\\times 5)=2\\times(60+50+30)=2\\times 140=280$."
+  },
+  {
+    "id": "q-g6-geometry-surface-5",
+    "topic_id": "g6-geometry",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לתיבה (שאינה קובייה) יש $6$ פאות מלבניות. כמה מהן חייבות להיות ריבועים?",
+    "options": ["אף אחת (לא חייבת להיות אף פאה ריבועית)", "כולן", "בדיוק $2$", "בדיוק $4$"],
+    "correct_index": 0,
+    "explanation": "בתיבה כללית כל הפאות הן מלבנים, אך אין חובה שאף אחת מהן תהיה ריבוע — זה קורה רק אם שניים מתוך שלושת הממדים שווים."
+  },
+  {
+    "id": "q-g6-geometry-surface-6",
+    "topic_id": "g6-geometry",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "קופסת מתנה בצורת תיבה שאורכה $8$ ס\"מ, רוחבה $5$ ס\"מ וגובהה $4$ ס\"מ. כמה נייר עטיפה (בערך, בלי חפיפות) צריך כדי לעטוף את כל הקופסה?",
+    "options": ["$184$ סמ\"ר", "$160$ סמ\"ר", "$200$ סמ\"ר", "$92$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "שטח הפנים: $2\\times(8\\times 5+8\\times 4+5\\times 4)=2\\times(40+32+20)=2\\times 92=184$."
+  },
+  {
+    "id": "q-g6-data-prob-read-1",
+    "topic_id": "g6-data-prob",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בטבלה מוצג מספר הספרים שקראו תלמידים בחודש: יעל־$5$, נועה־$3$, איתי־$7$, רון־$5$. כמה תלמידים קראו בדיוק $5$ ספרים?",
+    "options": ["$2$", "$1$", "$3$", "$4$"],
+    "correct_index": 0,
+    "explanation": "יעל ורון קראו כל אחד $5$ ספרים — סך הכול $2$ תלמידים."
+  },
+  {
+    "id": "q-g6-data-prob-read-2",
+    "topic_id": "g6-data-prob",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בטבלת שכיחויות של ציוני מבחן: הציון $60$ הופיע $2$ פעמים, $70$ הופיע $5$ פעמים, $80$ הופיע $8$ פעמים, $90$ הופיע $4$ פעמים, ו-$100$ הופיע פעם אחת. כמה תלמידים ניגשו למבחן בסך הכול?",
+    "options": ["$20$", "$25$", "$18$", "$16$"],
+    "correct_index": 0,
+    "explanation": "$2+5+8+4+1=20$."
+  },
+  {
+    "id": "q-g6-data-prob-read-3",
+    "topic_id": "g6-data-prob",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "באותה טבלת שכיחויות ($60$ פעמיים, $70$ חמש פעמים, $80$ שמונה פעמים, $90$ ארבע פעמים, $100$ פעם אחת), מהו הציון השכיח?",
+    "options": ["$80$", "$100$", "$60$", "$90$"],
+    "correct_index": 0,
+    "explanation": "הציון $80$ הופיע הכי הרבה פעמים ($8$) — הוא השכיח."
+  },
+  {
+    "id": "q-g6-data-prob-read-4",
+    "topic_id": "g6-data-prob",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בטבלה מוצג מספר הכרטיסים שנמכרו בכל יום בשבוע: יום א'־$40$, יום ב'־$35$, יום ג'־$50$, יום ד'־$45$, יום ה'־$60$. באיזה יום נמכרו הכי הרבה כרטיסים?",
+    "options": ["יום ה'", "יום ג'", "יום א'", "יום ד'"],
+    "correct_index": 0,
+    "explanation": "ביום ה' נמכרו $60$ כרטיסים — יותר מכל יום אחר בטבלה."
+  },
+  {
+    "id": "q-g6-data-prob-read-5",
+    "topic_id": "g6-data-prob",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מאותה טבלת מכירות ($40,35,50,45,60$ כרטיסים בחמשת הימים), מה סך כל הכרטיסים שנמכרו במהלך השבוע?",
+    "options": ["$230$", "$220$", "$240$", "$210$"],
+    "correct_index": 0,
+    "explanation": "$40+35+50+45+60=230$."
   }
 ];
 

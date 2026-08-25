@@ -123,6 +123,8 @@ export default function QuizPage() {
         key={`${topicId}-${drawId}`}
         questions={questions}
         topicCluster={topic?.cluster ?? null}
+        topicExplanation={topic?.explanation ?? null}
+        topicKeyFormulas={topic?.keyFormulas ?? null}
         grade={grade}
         onComplete={handleComplete}
         onRetry={isCustom ? undefined : handleRetry}

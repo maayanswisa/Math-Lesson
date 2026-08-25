@@ -3,7 +3,6 @@
 export const XP_CORRECT = 10;
 export const XP_TOPIC_BONUS = 25;
 export const XP_STREAK_BONUS = 5;
-export const MAX_HEARTS = 3;
 export const SPEED_RUN_SECONDS = 60;
 
 export const LEVELS = [

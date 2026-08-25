@@ -63,6 +63,59 @@ body {
   animation: hint-pulse 0.6s ease-out;
 }
 
+/* הסבר נושא — Markdown מעוצב לפני תחילת התרגול */
+.math-content p {
+  margin: 0 0 0.85em;
+}
+
+.math-content p:last-child {
+  margin-bottom: 0;
+}
+
+.math-content ul,
+.math-content ol {
+  margin: 0 0 0.85em;
+  padding-inline-start: 1.4em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+
+.math-content li {
+  margin: 0;
+}
+
+.math-content strong {
+  color: var(--color-teal-dark);
+  font-weight: 700;
+}
+
+.math-content .hl-teal {
+  color: var(--color-teal-dark);
+  font-weight: 700;
+}
+
+.math-content .hl-coral {
+  color: var(--color-coral);
+  font-weight: 700;
+}
+
+.math-content .hl-success {
+  color: var(--color-success);
+  font-weight: 700;
+}
+
+.math-content .diagram-box {
+  display: flex;
+  justify-content: center;
+  margin: 0.6em 0 1em;
+}
+
+.math-content .diagram-box svg {
+  max-width: 100%;
+  height: auto;
+}
+
 @keyframes hint-pulse {
   0% {
     transform: scale(0.98);

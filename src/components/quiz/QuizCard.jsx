@@ -11,7 +11,7 @@ import StudyMorePopup from './StudyMorePopup';
 import { useGame } from '../../context/GameContext';
 import { fireBigConfetti, fireConfetti } from '../../lib/feedback';
 import { playCorrect, playWrong } from '../../lib/sounds';
-import { MAX_HEARTS, SPEED_RUN_SECONDS } from '../../lib/gameConfig';
+import { SPEED_RUN_SECONDS } from '../../lib/gameConfig';
 import { getHintsForQuestion } from '../../lib/hints';
 import { shouldShowStudyMorePopup } from '../../lib/promo';
 
@@ -79,18 +79,11 @@ function QuestionBody({ question, mcqIndex, onMcqSelect, onInteractiveReady, loc
   return <McqOptions options={question.options} selectedIndex={mcqIndex} onSelect={onMcqSelect} disabled={locked} />;
 }
 
-const BONUS_QUESTION = {
-  id: 'bonus-easy',
-  type: 'mcq',
-  question_text: 'שאלת בונוס: כמה זה $2+2$?',
-  options: ['$4$', '$3$', '$5$', '$22$'],
-  correct_index: 0,
-  explanation: '$2+2=4$ — לב חזר!',
-};
-
 export default function QuizCard({
   questions = [],
   topicCluster = null,
+  topicExplanation = null,
+  topicKeyFormulas = null,
   grade = null,
   onComplete,
   /** Parent redraws questions (topic bank); omit for custom quizzes. */
@@ -105,7 +98,6 @@ export default function QuizCard({
   const [interactiveAnswer, setInteractiveAnswer] = useState(null);
   const [answers, setAnswers] = useState([]);
   const answersRef = useRef([]);
-  const [hearts, setHearts] = useState(MAX_HEARTS);
   const [phase, setPhase] = useState('quiz');
   const [feedback, setFeedback] = useState(null);
   const [shake, setShake] = useState(false);
@@ -117,7 +109,8 @@ export default function QuizCard({
   const [hintsRevealed, setHintsRevealed] = useState(0);
   const [showPromo, setShowPromo] = useState(false);
 
-  const current = phase === 'bonus' ? BONUS_QUESTION : questions[currentIndex];
+  const showCalculator = grade != null && Number(grade) >= 7;
+  const current = questions[currentIndex];
   const hints = useMemo(() => getHintsForQuestion(current), [current]);
   const onInteractiveReady = useCallback((ans) => setInteractiveAnswer(ans), []);
 
@@ -149,7 +142,7 @@ export default function QuizCard({
 
   useEffect(() => {
     if (!started || mode !== 'speed') return undefined;
-    if (phase === 'summary' || phase === 'outOfHearts') return undefined;
+    if (phase === 'summary') return undefined;
     if (finishedRef.current) return undefined;
     if (secondsLeft > 0) {
       const t = setTimeout(() => setSecondsLeft((s) => Math.max(0, s - 1)), 1000);
@@ -185,23 +178,6 @@ export default function QuizCard({
     if (!canSubmit() || !current) return;
     const { isCorrect, selected } = evaluateCurrent();
 
-    if (phase === 'bonus') {
-      if (isCorrect) {
-        playCorrect(muted);
-        fireConfetti();
-        setHearts((h) => Math.min(MAX_HEARTS, h + 1));
-        setPhase('quiz');
-        setMcqIndex(null);
-        setFeedback(null);
-      } else {
-        playWrong(muted);
-        setShake(true);
-        setTimeout(() => setShake(false), 500);
-        setPhase('outOfHearts');
-      }
-      return;
-    }
-
     const { xpGained, newBadges } = recordAnswer(isCorrect);
     setSessionXp((x) => x + xpGained);
     setSessionBadges((b) => [...b, ...newBadges]);
@@ -221,13 +197,6 @@ export default function QuizCard({
       playWrong(muted);
       setShake(true);
       setTimeout(() => setShake(false), 500);
-      const nextHearts = hearts - 1;
-      setHearts(nextHearts);
-      if (nextHearts <= 0) {
-        setFeedback({ isCorrect: false, explanation: current.explanation, xpGained: 0, newBadges: [] });
-        setPhase('outOfHearts');
-        return;
-      }
     }
 
     setFeedback({ isCorrect, explanation: current.explanation, xpGained, newBadges });
@@ -256,7 +225,6 @@ export default function QuizCard({
     setMcqIndex(null);
     setInteractiveAnswer(null);
     setAnswersBoth([]);
-    setHearts(MAX_HEARTS);
     setPhase('quiz');
     setFeedback(null);
     setSessionXp(0);
@@ -285,32 +253,33 @@ export default function QuizCard({
 
   if (!started) {
     return (
-      <div className="mx-auto max-w-lg space-y-4 rounded-2xl bg-white/90 p-8 text-center shadow-sm ring-1 ring-black/5" dir="rtl">
-        <h2 className="font-[family-name:var(--font-display)] text-2xl text-[var(--color-ink)]">מוכנים להתחיל?</h2>
-        <p className="text-[var(--color-slate)]">יש לכם {MAX_HEARTS} לבבות. כל טעות מורידה לב. תשובות נכונות מעניקות XP!</p>
+      <div className="mx-auto max-w-lg space-y-5 rounded-2xl bg-white/90 p-8 text-center shadow-sm ring-1 ring-black/5" dir="rtl">
+        {(topicExplanation || (topicKeyFormulas && topicKeyFormulas.length > 0)) && (
+          <div className="space-y-4 text-right">
+            {topicExplanation && (
+              <MathRenderer className="text-[var(--color-slate)]">{topicExplanation}</MathRenderer>
+            )}
+            {topicKeyFormulas && topicKeyFormulas.length > 0 && (
+              <div className="rounded-xl bg-[var(--color-paper)] p-4 ring-1 ring-black/5">
+                <p className="mb-2 text-sm font-semibold text-[var(--color-teal)]">נוסחאות וטיפים לזכור</p>
+                <ul className="space-y-1.5 text-sm text-[var(--color-ink)]">
+                  {topicKeyFormulas.map((item, idx) => (
+                    <li key={idx} className="flex items-start gap-2">
+                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-teal)]" />
+                      <MathRenderer className="min-w-0 flex-1">{item}</MathRenderer>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
         <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
           <button type="button" onClick={() => start('normal')} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
             משימה רגילה
           </button>
           <button type="button" onClick={() => start('speed')} className="rounded-xl bg-white px-6 py-3 text-sm font-semibold text-[var(--color-ink)] ring-1 ring-black/10 hover:ring-[var(--color-teal)]/40">
             Speed Run — {SPEED_RUN_SECONDS} שניות
-          </button>
-        </div>
-      </div>
-    );
-  }
-
-  if (phase === 'outOfHearts') {
-    return (
-      <div className="mx-auto max-w-lg space-y-4 rounded-2xl bg-white/90 p-8 text-center shadow-sm ring-1 ring-black/5" dir="rtl">
-        <h2 className="font-[family-name:var(--font-display)] text-2xl text-[var(--color-coral)]">נגמרו הלבבות</h2>
-        <p className="text-[var(--color-slate)]">פתרו שאלת בונוס קלה כדי להחזיר לב אחד, או סיימו את המשימה.</p>
-        <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
-          <button type="button" onClick={() => { setMcqIndex(null); setPhase('bonus'); }} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white">
-            שאלת בונוס (+ לב)
-          </button>
-          <button type="button" onClick={() => finishQuiz(answersRef.current)} className="rounded-xl bg-white px-6 py-3 text-sm font-semibold ring-1 ring-black/10">
-            סיום המשימה
           </button>
         </div>
       </div>
@@ -395,78 +364,80 @@ export default function QuizCard({
   }
 
   return (
-    <div className="mx-auto w-full max-w-2xl" dir="rtl">
-      <div className="mb-4 flex flex-wrap items-center justify-between gap-3 text-sm text-[var(--color-slate)]">
-        <span>
-          {phase === 'bonus' ? 'שאלת בונוס' : `שאלה ${Math.min(currentIndex + 1, total)} מתוך ${total}`}
-        </span>
-        <div className="flex items-center gap-3">
-          {mode === 'speed' && (
-            <span className={`rounded-md px-2 py-0.5 font-semibold ${secondsLeft <= 0 ? 'bg-[var(--color-coral)] text-white' : 'bg-[var(--color-coral)]/10 text-[var(--color-coral)]'}`}>
-              {secondsLeft <= 0 ? 'הזמן הסתיים' : `${secondsLeft}s`}
-            </span>
-          )}
-          <span className="tracking-widest text-[var(--color-coral)]" aria-label={`${hearts} לבבות`}>
-            {'♥'.repeat(hearts)}
-            <span className="opacity-30">{'♥'.repeat(Math.max(0, MAX_HEARTS - hearts))}</span>
+    <div className="mx-auto w-full max-w-2xl lg:max-w-none lg:flex lg:items-stretch lg:gap-6" dir="rtl">
+      <div className="min-w-0 lg:flex-1">
+        <div className="mb-4 flex flex-wrap items-center justify-between gap-3 text-sm text-[var(--color-slate)]">
+          <span>
+            {`שאלה ${Math.min(currentIndex + 1, total)} מתוך ${total}`}
           </span>
+          <div className="flex items-center gap-3">
+            {mode === 'speed' && (
+              <span className={`rounded-md px-2 py-0.5 font-semibold ${secondsLeft <= 0 ? 'bg-[var(--color-coral)] text-white' : 'bg-[var(--color-coral)]/10 text-[var(--color-coral)]'}`}>
+                {secondsLeft <= 0 ? 'הזמן הסתיים' : `${secondsLeft}s`}
+              </span>
+            )}
+          </div>
         </div>
-      </div>
-      <div className="mb-6 h-2.5 overflow-hidden rounded-full bg-[var(--color-mist)]">
-        <div className="h-full rounded-full bg-[var(--color-teal)] transition-all duration-500 ease-out" style={{ width: `${(answers.length / total) * 100}%` }} role="progressbar" aria-valuenow={answers.length} aria-valuemin={0} aria-valuemax={total} />
-      </div>
-      <AnimatePresence mode="wait">
-        <motion.article
-          key={phase === 'bonus' ? 'bonus' : `${current?.id}-${phase === 'feedback' ? 'fb' : 'q'}`}
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -8 }}
-          transition={{ duration: 0.25 }}
-          className={`rounded-2xl bg-white/90 p-6 shadow-sm ring-1 ring-black/5 sm:p-8 ${shake ? 'animate-shake' : ''}`}
-        >
-          <MathRenderer className="text-lg text-[var(--color-ink)] sm:text-xl">{current.question_text}</MathRenderer>
-          {phase === 'feedback' ? (
-            <div className="mt-6 space-y-4">
-              <p className={`text-lg font-semibold ${feedback?.isCorrect ? 'text-[var(--color-success)]' : 'text-[var(--color-coral)]'}`}>
-                {feedback?.isCorrect ? 'נכון!' : 'לא בדיוק'}
-                {feedback?.xpGained ? ` | +${feedback.xpGained} XP` : ''}
-              </p>
-              {feedback?.newBadges?.length > 0 && (
-                <div className="flex flex-wrap gap-2">
-                  {feedback.newBadges.map((b) => (
-                    <span key={b.id} className="rounded-lg bg-[var(--color-coral)]/10 px-2 py-1 text-sm">תג: {b.title}</span>
-                  ))}
-                </div>
-              )}
-              <MathRenderer className="text-[var(--color-slate)]">{feedback?.explanation}</MathRenderer>
-              <button type="button" onClick={goNext} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
-                {currentIndex >= total - 1 ? 'לסיכום' : 'השאלה הבאה'}
-              </button>
-            </div>
-          ) : (
-            <>
-              <QuestionBody question={current} mcqIndex={mcqIndex} onMcqSelect={setMcqIndex} onInteractiveReady={onInteractiveReady} locked={false} />
-              {phase !== 'bonus' && (
+        <div className="mb-6 h-2.5 overflow-hidden rounded-full bg-[var(--color-mist)]">
+          <div className="h-full rounded-full bg-[var(--color-teal)] transition-all duration-500 ease-out" style={{ width: `${(answers.length / total) * 100}%` }} role="progressbar" aria-valuenow={answers.length} aria-valuemin={0} aria-valuemax={total} />
+        </div>
+        <AnimatePresence mode="wait">
+          <motion.article
+            key={`${current?.id}-${phase === 'feedback' ? 'fb' : 'q'}`}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.25 }}
+            className={`rounded-2xl bg-white/90 p-6 shadow-sm ring-1 ring-black/5 sm:p-8 ${shake ? 'animate-shake' : ''}`}
+          >
+            <MathRenderer className="text-lg text-[var(--color-ink)] sm:text-xl">{current.question_text}</MathRenderer>
+            {phase === 'feedback' ? (
+              <div className="mt-6 space-y-4">
+                <p className={`text-lg font-semibold ${feedback?.isCorrect ? 'text-[var(--color-success)]' : 'text-[var(--color-coral)]'}`}>
+                  {feedback?.isCorrect ? 'נכון!' : 'לא בדיוק'}
+                  {feedback?.xpGained ? ` | +${feedback.xpGained} XP` : ''}
+                </p>
+                {feedback?.newBadges?.length > 0 && (
+                  <div className="flex flex-wrap gap-2">
+                    {feedback.newBadges.map((b) => (
+                      <span key={b.id} className="rounded-lg bg-[var(--color-coral)]/10 px-2 py-1 text-sm">תג: {b.title}</span>
+                    ))}
+                  </div>
+                )}
+                <MathRenderer className="text-[var(--color-slate)]">{feedback?.explanation}</MathRenderer>
+                <button type="button" onClick={goNext} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
+                  {currentIndex >= total - 1 ? 'לסיכום' : 'השאלה הבאה'}
+                </button>
+              </div>
+            ) : (
+              <>
+                <QuestionBody question={current} mcqIndex={mcqIndex} onMcqSelect={setMcqIndex} onInteractiveReady={onInteractiveReady} locked={false} />
                 <HintPanel
                   hints={hints}
                   revealed={hintsRevealed}
                   onReveal={() => setHintsRevealed((n) => Math.min(hints.length, n + 1))}
                 />
-              )}
-              <div className="mt-8 flex justify-start">
-                <button type="button" disabled={!canSubmit() || (mode === 'speed' && secondsLeft <= 0)} onClick={submitAnswer} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white transition enabled:hover:bg-[var(--color-teal-dark)] disabled:cursor-not-allowed disabled:opacity-40">
-                  {phase === 'bonus' ? 'אישור בונוס' : 'בדקו תשובה'}
-                </button>
-              </div>
-            </>
-          )}
-        </motion.article>
-      </AnimatePresence>
+                <div className="mt-8 flex justify-start">
+                  <button type="button" disabled={!canSubmit() || (mode === 'speed' && secondsLeft <= 0)} onClick={submitAnswer} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white transition enabled:hover:bg-[var(--color-teal-dark)] disabled:cursor-not-allowed disabled:opacity-40">
+                    בדקו תשובה
+                  </button>
+                </div>
+              </>
+            )}
+          </motion.article>
+        </AnimatePresence>
+      </div>
 
       {(phase === 'quiz' || phase === 'feedback') && (
-        <div className="mt-4 grid gap-3 lg:grid-cols-2">
-          <Scratchpad />
-          <SciCalculator />
+        <div
+          className={`mt-4 grid gap-3 lg:mt-0 lg:flex lg:w-72 lg:shrink-0 lg:flex-col lg:sticky lg:top-4 ${
+            showCalculator ? 'grid-cols-2' : 'grid-cols-1'
+          }`}
+        >
+          <div className="lg:min-h-0 lg:flex-1">
+            <Scratchpad />
+          </div>
+          {showCalculator && <SciCalculator />}
         </div>
       )}
     </div>
