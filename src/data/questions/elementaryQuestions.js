@@ -12870,6 +12870,3906 @@ export const ELEMENTARY_QUESTIONS = [
     "options": ["$230$", "$220$", "$240$", "$210$"],
     "correct_index": 0,
     "explanation": "$40+35+50+45+60=230$."
+  },
+  {
+    "id": "q-g1-cnt100-1",
+    "topic_id": "g1-counting-100",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה המספר שבא אחרי 47?",
+    "options": ["48", "46", "57", "37"],
+    "correct_index": 0,
+    "explanation": "אחרי 47 בא 48."
+  },
+  {
+    "id": "q-g1-cnt100-2",
+    "topic_id": "g1-counting-100",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר בא לפני 30?",
+    "options": ["29", "31", "20", "28"],
+    "correct_index": 0,
+    "explanation": "לפני 30 בא 29."
+  },
+  {
+    "id": "q-g1-cnt100-3",
+    "topic_id": "g1-counting-100",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "ספירה בדילוגים של 2: 2, 4, 6, ___",
+    "options": ["8", "7", "10", "9"],
+    "correct_index": 0,
+    "explanation": "בכל פעם מוסיפים 2: אחרי 6 בא 8."
+  },
+  {
+    "id": "q-g1-cnt100-4",
+    "topic_id": "g1-counting-100",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "ספירה בדילוגים של 5: 5, 10, 15, ___",
+    "options": ["20", "16", "25", "18"],
+    "correct_index": 0,
+    "explanation": "בכל פעם מוסיפים 5: אחרי 15 בא 20."
+  },
+  {
+    "id": "q-g1-cnt100-5",
+    "topic_id": "g1-counting-100",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ספירה בדילוגים של 10: 10, 20, 30, ___",
+    "options": ["40", "31", "35", "50"],
+    "correct_index": 0,
+    "explanation": "בכל פעם מוסיפים 10: אחרי 30 בא 40."
+  },
+  {
+    "id": "q-g1-cnt100-6",
+    "topic_id": "g1-counting-100",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מספר בא אחרי 99?",
+    "options": ["100", "90", "101", "98"],
+    "correct_index": 0,
+    "explanation": "אחרי 99 בא 100."
+  },
+  {
+    "id": "q-g1-cnt100-7",
+    "topic_id": "g1-counting-100",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ספירה אחורה מ-20 בדילוגים של 2: 20, 18, 16, ___",
+    "options": ["14", "15", "12", "17"],
+    "correct_index": 0,
+    "explanation": "בכל פעם מורידים 2: אחרי 16 בא 14."
+  },
+  {
+    "id": "q-g1-cnt100-8",
+    "topic_id": "g1-counting-100",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים הוא \"מספר סודר\" (מספר מקום)?",
+    "options": ["שלישי", "5 תפוחים", "10 ילדים", "2 כלבים"],
+    "correct_index": 0,
+    "explanation": "\"שלישי\" מציין מקום בסדר, ולכן הוא מספר סודר."
+  },
+  {
+    "id": "q-g1-cnt100-9",
+    "topic_id": "g1-counting-100",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "יש 15 עפרונות. אספו אותם בקבוצות של 5. כמה קבוצות יהיו?",
+    "options": ["3", "5", "2", "4"],
+    "correct_index": 0,
+    "explanation": "15 מחולק לקבוצות של 5: 5+5+5=15, כלומר 3 קבוצות."
+  },
+  {
+    "id": "q-g1-cnt100-10",
+    "topic_id": "g1-counting-100",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ספירה קדימה: 85, 86, 87, ___",
+    "options": ["88", "89", "90", "97"],
+    "correct_index": 0,
+    "explanation": "אחרי 87 בא 88."
+  },
+  {
+    "id": "q-g1-cnt100-11",
+    "topic_id": "g1-counting-100",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה המספר שבא אחרי 60?",
+    "options": ["61", "70", "59", "50"],
+    "correct_index": 0,
+    "explanation": "אחרי 60 בא 61."
+  },
+  {
+    "id": "q-g1-cnt100-12",
+    "topic_id": "g1-counting-100",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בספירה בדילוגים של 5: 5, 10, 15, ___, 25 — מה חסר?",
+    "options": ["20", "18", "22", "16"],
+    "correct_index": 0,
+    "explanation": "בין 15 ל-25 בדילוגים של 5 נמצא 20."
+  },
+  {
+    "id": "q-g1-numext-1",
+    "topic_id": "g1-numbers-100",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במספר 34, כמה עשרות יש?",
+    "options": ["3", "4", "34", "7"],
+    "correct_index": 0,
+    "explanation": "במספר 34 יש 3 עשרות ו-4 יחידות."
+  },
+  {
+    "id": "q-g1-numext-2",
+    "topic_id": "g1-numbers-100",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במספר 52, כמה יחידות יש?",
+    "options": ["2", "5", "52", "7"],
+    "correct_index": 0,
+    "explanation": "במספר 52 יש 5 עשרות ו-2 יחידות."
+  },
+  {
+    "id": "q-g1-numext-3",
+    "topic_id": "g1-numbers-100",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מספר שווה ל-6 עשרות ו-3 יחידות?",
+    "options": ["63", "36", "9", "60"],
+    "correct_index": 0,
+    "explanation": "6 עשרות (60) ועוד 3 יחידות = 63."
+  },
+  {
+    "id": "q-g1-numext-4",
+    "topic_id": "g1-numbers-100",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מספר מייצג \"אין כלום\"?",
+    "options": ["0", "1", "10", "100"],
+    "correct_index": 0,
+    "explanation": "המספר 0 מייצג שאין אף פריט."
+  },
+  {
+    "id": "q-g1-numext-5",
+    "topic_id": "g1-numbers-100",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מספר שווה ל-4 עשרות ו-5 יחידות?",
+    "options": ["45", "54", "9", "40"],
+    "correct_index": 0,
+    "explanation": "4 עשרות (40) ועוד 5 יחידות = 45."
+  },
+  {
+    "id": "q-g1-ord-1",
+    "topic_id": "g1-number-order",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: 23 או 45?",
+    "options": ["45", "23", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "45 גדול מ-23."
+  },
+  {
+    "id": "q-g1-ord-2",
+    "topic_id": "g1-number-order",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר קטן יותר: 67 או 76?",
+    "options": ["67", "76", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "67 קטן מ-76."
+  },
+  {
+    "id": "q-g1-ord-3",
+    "topic_id": "g1-number-order",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר בא אחרי 19?",
+    "options": ["20", "18", "21", "10"],
+    "correct_index": 0,
+    "explanation": "אחרי 19 בא 20."
+  },
+  {
+    "id": "q-g1-ord-4",
+    "topic_id": "g1-number-order",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר בא לפני 50?",
+    "options": ["49", "51", "40", "48"],
+    "correct_index": 0,
+    "explanation": "לפני 50 בא 49."
+  },
+  {
+    "id": "q-g1-ord-5",
+    "topic_id": "g1-number-order",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מספר נמצא בין 40 ל-42?",
+    "options": ["41", "43", "39", "45"],
+    "correct_index": 0,
+    "explanation": "בין 40 ל-42 נמצא 41."
+  },
+  {
+    "id": "q-g1-ord-6",
+    "topic_id": "g1-number-order",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לאיזה מספר יש יותר עשרות: 38 או 52?",
+    "options": ["52", "38", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "ל-52 יש 5 עשרות, ל-38 יש רק 3 עשרות."
+  },
+  {
+    "id": "q-g1-ord-7",
+    "topic_id": "g1-number-order",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מי הכי קטן מבין 15, 51, 5?",
+    "options": ["5", "15", "51", "כולם שווים"],
+    "correct_index": 0,
+    "explanation": "5 הוא המספר הקטן ביותר מבין השלושה."
+  },
+  {
+    "id": "q-g1-ord-8",
+    "topic_id": "g1-number-order",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מי הכי גדול מבין 29, 92, 9?",
+    "options": ["92", "29", "9", "כולם שווים"],
+    "correct_index": 0,
+    "explanation": "92 הוא המספר הגדול ביותר מבין השלושה."
+  },
+  {
+    "id": "q-g1-ord-9",
+    "topic_id": "g1-number-order",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מי קרוב יותר ל-50: 48 או 41?",
+    "options": ["48", "41", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "48 מרוחק 2 מ-50, ו-41 מרוחק 9 — לכן 48 קרוב יותר."
+  },
+  {
+    "id": "q-g1-ord-10",
+    "topic_id": "g1-number-order",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: 72 או 78?",
+    "options": ["78", "72", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "לשניהם יש 7 עשרות, אבל ל-78 יש יותר יחידות (8 לעומת 2)."
+  },
+  {
+    "id": "q-g1-ord-11",
+    "topic_id": "g1-number-order",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מספר נמצא בין 60 ל-70, והוא בא מיד אחרי 64?",
+    "options": ["65", "63", "74", "66"],
+    "correct_index": 0,
+    "explanation": "אחרי 64 בא 65, וזה נמצא בין 60 ל-70."
+  },
+  {
+    "id": "q-g1-ord-12",
+    "topic_id": "g1-number-order",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מי גדול יותר: המספר שיש בו 5 עשרות ו-9 יחידות, או המספר שיש בו 6 עשרות ו-0 יחידות?",
+    "options": ["6 עשרות ו-0 יחידות (60)", "5 עשרות ו-9 יחידות (59)", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "60 גדול מ-59, כי יש לו יותר עשרות."
+  },
+  {
+    "id": "q-g1-nline-1",
+    "topic_id": "g1-number-line",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בישר המספרים, החץ מצביע ימינה. לאיזה כיוון המספרים גדלים?",
+    "options": ["ימינה", "שמאלה", "למעלה", "למטה"],
+    "correct_index": 0,
+    "explanation": "החץ מראה את הכיוון שבו המספרים גדלים."
+  },
+  {
+    "id": "q-g1-nline-2",
+    "topic_id": "g1-number-line",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר נמצא בין 3 ל-5 על ישר המספרים?",
+    "options": ["4", "6", "2", "1"],
+    "correct_index": 0,
+    "explanation": "בין 3 ל-5 נמצא 4."
+  },
+  {
+    "id": "q-g1-nline-3",
+    "topic_id": "g1-number-line",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בישר מספרים מ-0 עד 10, האם 7 קרוב יותר ל-0 או ל-10?",
+    "options": ["ל-10", "ל-0", "באמצע בדיוק", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "7 קרוב יותר ל-10 (מרחק 3) מאשר ל-0 (מרחק 7)."
+  },
+  {
+    "id": "q-g1-nline-4",
+    "topic_id": "g1-number-line",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "המספרים בישר המספרים נכתבים:",
+    "options": ["מתחת לשנתות", "בין השנתות", "מעל השנתות", "בתוך העיגולים"],
+    "correct_index": 0,
+    "explanation": "יש להקפיד לכתוב את המספרים מתחת לשנתות, ולא במרווחים שביניהן."
+  },
+  {
+    "id": "q-g1-nline-5",
+    "topic_id": "g1-number-line",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בישר המספרים, מה נמצא יותר שמאלה: 2 או 8?",
+    "options": ["2", "8", "שניהם באותו מקום", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "2 קטן מ-8, ולכן הוא נמצא יותר שמאלה."
+  },
+  {
+    "id": "q-g1-nline-6",
+    "topic_id": "g1-number-line",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בישר מספרים שמסומנים בו רק 0 ו-20, איפה בערך נמצא המספר 10?",
+    "options": ["בערך באמצע", "קרוב מאוד ל-0", "קרוב מאוד ל-20", "מחוץ לישר"],
+    "correct_index": 0,
+    "explanation": "10 הוא בדיוק חצי הדרך בין 0 ל-20."
+  },
+  {
+    "id": "q-g1-nline-7",
+    "topic_id": "g1-number-line",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם החץ בישר המספרים מצביע שמאלה, לאיזה כיוון המספרים גדלים?",
+    "options": ["שמאלה", "ימינה", "למעלה", "לא ניתן לדעת"],
+    "correct_index": 0,
+    "explanation": "כיוון החץ הוא תמיד כיוון הגדילה של המספרים."
+  },
+  {
+    "id": "q-g1-nline-8",
+    "topic_id": "g1-number-line",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מספר נמצא בדיוק באמצע בין 10 ל-20?",
+    "options": ["15", "14", "16", "12"],
+    "correct_index": 0,
+    "explanation": "15 נמצא בדיוק באמצע בין 10 ל-20."
+  },
+  {
+    "id": "q-g1-nline-9",
+    "topic_id": "g1-number-line",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בישר מספרים עם שנתות כל 2 (0,2,4,6...), איזה מספר יופיע אחרי 6?",
+    "options": ["8", "7", "10", "9"],
+    "correct_index": 0,
+    "explanation": "השנתות עולות ב-2 בכל פעם: אחרי 6 בא 8."
+  },
+  {
+    "id": "q-g1-nline-10",
+    "topic_id": "g1-number-line",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "האם המספר 0 חייב תמיד להיות בקצה השמאלי של ישר המספרים?",
+    "options": ["לא, יש מקום גם למה שלפניו", "כן, תמיד", "רק אם הישר קצר", "רק בכיתה א׳"],
+    "correct_index": 0,
+    "explanation": "אין להציב את ה-0 ממש בקצה, כדי לא ליצור רושם שגוי שאין מספרים קטנים ממנו."
+  },
+  {
+    "id": "q-g1-seq-1",
+    "topic_id": "g1-sequences",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה הבא בסדרה: 2, 4, 6, ___",
+    "options": ["8", "7", "10", "9"],
+    "correct_index": 0,
+    "explanation": "ההפרש בסדרה הוא 2: אחרי 6 בא 8."
+  },
+  {
+    "id": "q-g1-seq-2",
+    "topic_id": "g1-sequences",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה הבא בסדרה: 5, 10, 15, ___",
+    "options": ["20", "16", "25", "18"],
+    "correct_index": 0,
+    "explanation": "ההפרש בסדרה הוא 5: אחרי 15 בא 20."
+  },
+  {
+    "id": "q-g1-seq-3",
+    "topic_id": "g1-sequences",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה הבא בסדרה: 10, 20, 30, ___",
+    "options": ["40", "31", "50", "35"],
+    "correct_index": 0,
+    "explanation": "ההפרש בסדרה הוא 10: אחרי 30 בא 40."
+  },
+  {
+    "id": "q-g1-seq-4",
+    "topic_id": "g1-sequences",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בסדרת הצורות: עיגול, משולש, עיגול, משולש, ___ — מה הצורה הבאה?",
+    "options": ["עיגול", "משולש", "ריבוע", "מלבן"],
+    "correct_index": 0,
+    "explanation": "החוקיות היא עיגול-משולש חוזרת, ולכן אחרי משולש בא שוב עיגול."
+  },
+  {
+    "id": "q-g1-seq-5",
+    "topic_id": "g1-sequences",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה חסר בסדרה: 3, 6, ___, 12",
+    "options": ["9", "8", "10", "7"],
+    "correct_index": 0,
+    "explanation": "ההפרש הוא 3 בכל פעם: אחרי 6 בא 9."
+  },
+  {
+    "id": "q-g1-seq-6",
+    "topic_id": "g1-sequences",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה ההפרש הקבוע בסדרה 4, 8, 12, 16?",
+    "options": ["4", "8", "2", "12"],
+    "correct_index": 0,
+    "explanation": "כל מספר גדול ב-4 מהקודם לו."
+  },
+  {
+    "id": "q-g1-seq-7",
+    "topic_id": "g1-sequences",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה הבא בסדרה היורדת: 20, 18, 16, ___",
+    "options": ["14", "15", "12", "17"],
+    "correct_index": 0,
+    "explanation": "כל מספר קטן ב-2 מהקודם לו: אחרי 16 בא 14."
+  },
+  {
+    "id": "q-g1-seq-8",
+    "topic_id": "g1-sequences",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בסדרה 1, 3, 5, 7, ___ — מה הבא?",
+    "options": ["9", "8", "10", "11"],
+    "correct_index": 0,
+    "explanation": "בכל פעם מוסיפים 2: אחרי 7 בא 9."
+  },
+  {
+    "id": "q-g1-seq-9",
+    "topic_id": "g1-sequences",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה חסר בסדרה: ___, 10, 15, 20",
+    "options": ["5", "0", "8", "12"],
+    "correct_index": 0,
+    "explanation": "ההפרש הוא 5 בכל פעם: לפני 10 היה 5."
+  },
+  {
+    "id": "q-g1-seq-10",
+    "topic_id": "g1-sequences",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בסדרת הצורות: ריבוע, ריבוע, עיגול, ריבוע, ריבוע, עיגול, ___ — מה הצורה הבאה?",
+    "options": ["ריבוע", "עיגול", "משולש", "מלבן"],
+    "correct_index": 0,
+    "explanation": "היחידה החוזרת היא \"ריבוע, ריבוע, עיגול\", ולכן אחרי עיגול מתחילה שוב עם ריבוע."
+  },
+  {
+    "id": "q-g1-seq-11",
+    "topic_id": "g1-sequences",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה הבא בסדרה: 90, 80, 70, ___",
+    "options": ["60", "65", "75", "50"],
+    "correct_index": 0,
+    "explanation": "כל מספר קטן ב-10 מהקודם לו: אחרי 70 בא 60."
+  },
+  {
+    "id": "q-g1-seq-12",
+    "topic_id": "g1-sequences",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו האיבר החמישי בסדרה: 3, 6, 9, 12, ___?",
+    "options": ["15", "14", "16", "18"],
+    "correct_index": 0,
+    "explanation": "ההפרש הוא 3 בכל פעם: אחרי 12 בא 15."
+  },
+  {
+    "id": "q-g1-addtens-1",
+    "topic_id": "g1-add-sub-tens",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם 2+3=5, כמה זה 20+30?",
+    "options": ["50", "23", "5", "60"],
+    "correct_index": 0,
+    "explanation": "מוסיפים אפס לכל מספר ולתוצאה: 20+30=50."
+  },
+  {
+    "id": "q-g1-addtens-2",
+    "topic_id": "g1-add-sub-tens",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם 4+5=9, כמה זה 40+50?",
+    "options": ["90", "45", "9", "100"],
+    "correct_index": 0,
+    "explanation": "מוסיפים אפס לכל מספר ולתוצאה: 40+50=90."
+  },
+  {
+    "id": "q-g1-addtens-3",
+    "topic_id": "g1-add-sub-tens",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם 8-3=5, כמה זה 80-30?",
+    "options": ["50", "83", "5", "60"],
+    "correct_index": 0,
+    "explanation": "מוסיפים אפס לכל מספר ולתוצאה: 80-30=50."
+  },
+  {
+    "id": "q-g1-addtens-4",
+    "topic_id": "g1-add-sub-tens",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם 6+2=8, כמה זה 60+20?",
+    "options": ["80", "62", "8", "90"],
+    "correct_index": 0,
+    "explanation": "מוסיפים אפס לכל מספר ולתוצאה: 60+20=80."
+  },
+  {
+    "id": "q-g1-addtens-5",
+    "topic_id": "g1-add-sub-tens",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם 9-4=5, כמה זה 90-40?",
+    "options": ["50", "94", "5", "60"],
+    "correct_index": 0,
+    "explanation": "מוסיפים אפס לכל מספר ולתוצאה: 90-40=50."
+  },
+  {
+    "id": "q-g1-addtens-6",
+    "topic_id": "g1-add-sub-tens",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה זה 30+40?",
+    "options": ["70", "34", "50", "80"],
+    "correct_index": 0,
+    "explanation": "3+4=7, ולכן 30+40=70."
+  },
+  {
+    "id": "q-g1-addtens-7",
+    "topic_id": "g1-add-sub-tens",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה זה 70-20?",
+    "options": ["50", "90", "40", "60"],
+    "correct_index": 0,
+    "explanation": "7-2=5, ולכן 70-20=50."
+  },
+  {
+    "id": "q-g1-addtens-8",
+    "topic_id": "g1-add-sub-tens",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "יש 5 עשרות ועוד 3 עשרות. כמה עשרות יש ביחד? ומה המספר?",
+    "options": ["8 עשרות, כלומר 80", "8 עשרות, כלומר 8", "3 עשרות, כלומר 30", "5 עשרות, כלומר 50"],
+    "correct_index": 0,
+    "explanation": "5+3=8 עשרות, כלומר המספר 80."
+  },
+  {
+    "id": "q-g1-addtens-9",
+    "topic_id": "g1-add-sub-tens",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה זה 100-30?",
+    "options": ["70", "80", "60", "130"],
+    "correct_index": 0,
+    "explanation": "10-3=7 עשרות, ולכן 100-30=70."
+  },
+  {
+    "id": "q-g1-addtens-10",
+    "topic_id": "g1-add-sub-tens",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לדנה יש 3 מטבעות של 10 שקלים, ולתום יש 4 מטבעות של 10 שקלים. כמה שקלים יש להם ביחד?",
+    "options": ["70", "34", "12", "7"],
+    "correct_index": 0,
+    "explanation": "3 מטבעות של 10 הם 30 שקלים, 4 מטבעות של 10 הם 40 שקלים: 30+40=70."
+  },
+  {
+    "id": "q-g1-map-1",
+    "topic_id": "g1-position-maps",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מפה פשוטה מראה בעיקר:",
+    "options": ["איפה מקומות נמצאים", "כמה זמן לוקח להגיע", "מזג האוויר", "מחירים בחנויות"],
+    "correct_index": 0,
+    "explanation": "מפה מראה את המיקום של מקומות שונים ואת היחס ביניהם."
+  },
+  {
+    "id": "q-g1-map-2",
+    "topic_id": "g1-position-maps",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הבית שלי קרוב לגן ורחוק מבית הספר. לאן אגיע מהר יותר ברגל?",
+    "options": ["לגן", "לבית הספר", "לשניהם באותו זמן", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מקום קרוב יותר לוקח פחות זמן להגיע אליו ברגל."
+  },
+  {
+    "id": "q-g1-map-3",
+    "topic_id": "g1-position-maps",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "קו מקווקו בין שני מקומות במפה בדרך כלל מראה:",
+    "options": ["דרך או מסלול", "מחיר", "צבע", "שם המקום"],
+    "correct_index": 0,
+    "explanation": "קו במפה מייצג בדרך כלל את הדרך המחברת בין שני מקומות."
+  },
+  {
+    "id": "q-g1-map-4",
+    "topic_id": "g1-position-maps",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם מפה פשוטה חייבת להיות מדויקת כמו מדידה בסרגל?",
+    "options": ["לא", "כן, תמיד", "רק מפות של רחובות", "רק מפות גדולות"],
+    "correct_index": 0,
+    "explanation": "מפה סכמתית פשוטה רק צריכה להראות מיקום יחסי, לא מדידה מדויקת."
+  },
+  {
+    "id": "q-g1-map-5",
+    "topic_id": "g1-position-maps",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ילד קרוב יותר לפארק מאשר לבריכה. איזה משפט נכון?",
+    "options": ["הפארק קרוב יותר אליו", "הבריכה קרובה יותר אליו", "שניהם באותו מרחק", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "אם הוא קרוב יותר לפארק, סימן שהפארק המקום הקרוב יותר."
+  },
+  {
+    "id": "q-g1-map-6",
+    "topic_id": "g1-position-maps",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה חשוב לצייר במפה כדי שיבינו אותה?",
+    "options": ["סמלים למקומות מוכרים", "מספרים גדולים בלבד", "רק צבעים", "רק אותיות"],
+    "correct_index": 0,
+    "explanation": "סמלים פשוטים עוזרים לזהות כל מקום במפה."
+  },
+  {
+    "id": "q-g1-map-7",
+    "topic_id": "g1-position-maps",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהבאים דומה למפה?",
+    "options": ["ציור שמראה איפה כל חדר בבית", "רשימת קניות", "לוח כפל", "שעון קיר"],
+    "correct_index": 0,
+    "explanation": "ציור שמראה מיקום של חדרים הוא סוג של מפה."
+  },
+  {
+    "id": "q-g1-map-8",
+    "topic_id": "g1-position-maps",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה עושים ראשון כשיוצרים מפה פשוטה?",
+    "options": ["בוחרים אילו מקומות חשוב לסמן", "צובעים אותה בצבעים יפים", "מודדים הכל בסרגל", "כותבים כותרת גדולה"],
+    "correct_index": 0,
+    "explanation": "השלב הראשון הוא להחליט אילו מקומות מוכרים לכלול במפה."
+  },
+  {
+    "id": "q-g1-map-9",
+    "topic_id": "g1-position-maps",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם שני סמלים קרובים זה לזה על המפה, מה זה אומר על המקומות עצמם?",
+    "options": ["הם קרובים גם במציאות", "הם רחוקים במציאות", "אין קשר בין המפה למציאות", "הם באותו מקום בדיוק"],
+    "correct_index": 0,
+    "explanation": "מפה מנסה לשמור על יחסי מרחק דומים למציאות, גם אם לא במדידה מדויקת."
+  },
+  {
+    "id": "q-g1-map-10",
+    "topic_id": "g1-position-maps",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בדרך מהבית לבית הספר עוברים ליד הפארק. איפה נמצא הפארק?",
+    "options": ["בין הבית לבית הספר", "רחוק משניהם", "בתוך בית הספר", "לא ניתן לדעת"],
+    "correct_index": 0,
+    "explanation": "אם עוברים ליד הפארק בדרך מהבית לבית הספר, סימן שהוא נמצא איפשהו בין שני המקומות."
+  },
+  {
+    "id": "q-g1-measext-1",
+    "topic_id": "g1-measure",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזו תכונה שייכת למשקל?",
+    "options": ["כבד / קל", "מהיר / איטי", "ארוך / קצר", "עבה / דק"],
+    "correct_index": 0,
+    "explanation": "כבד וקל מתארים משקל."
+  },
+  {
+    "id": "q-g1-measext-2",
+    "topic_id": "g1-measure",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזו תכונה שייכת למהירות?",
+    "options": ["מהיר / איטי", "כבד / קל", "גבוה / נמוך", "עבה / דק"],
+    "correct_index": 0,
+    "explanation": "מהיר ואיטי מתארים מהירות."
+  },
+  {
+    "id": "q-g1-measext-3",
+    "topic_id": "g1-measure",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה זה \"מתווך\" במדידה?",
+    "options": ["חפץ שלישי שעוזר להשוות שני חפצים שאי אפשר להצמיד", "סוג של סרגל מיוחד", "מספר גדול מאוד", "צבע של חפץ"],
+    "correct_index": 0,
+    "explanation": "מתווך הוא חפץ (כמו חבל) שמשתמשים בו כדי למדוד שני חפצים בנפרד ולהשוות ביניהם."
+  },
+  {
+    "id": "q-g1-measext-4",
+    "topic_id": "g1-measure",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "השתמשו בחבל כמתווך. חפץ א' ארוך מהחבל, וחפץ ב' קצר מהחבל. מי ארוך יותר?",
+    "options": ["חפץ א'", "חפץ ב'", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "אם א' ארוך מהמתווך וב' קצר ממנו, אז א' בהכרח ארוך יותר מ-ב'."
+  },
+  {
+    "id": "q-g1-measext-5",
+    "topic_id": "g1-measure",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני שולחנות נמצאים בשני חדרים שונים. איך נדע מי ארוך יותר בלי להזיז אותם?",
+    "options": ["למדוד את שניהם בעזרת אותו מתווך", "לנחש", "אי אפשר לדעת בכלל", "לשאול מישהו אחר"],
+    "correct_index": 0,
+    "explanation": "משתמשים בחפץ מתווך (כמו חבל) כדי למדוד כל שולחן בנפרד ואז להשוות."
+  },
+  {
+    "id": "q-g1-cm-1",
+    "topic_id": "g1-measure-cm",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איך קוראים ליחידת המידה המוסכמת לאורך?",
+    "options": ["סנטימטר", "קילוגרם", "ליטר", "שעה"],
+    "correct_index": 0,
+    "explanation": "סנטימטר (ס\"מ) היא יחידת המידה המוסכמת לאורך."
+  },
+  {
+    "id": "q-g1-cm-2",
+    "topic_id": "g1-measure-cm",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "באיזה כלי מודדים אורך במדויק?",
+    "options": ["סרגל", "שעון", "משקל", "כוס מדידה"],
+    "correct_index": 0,
+    "explanation": "סרגל הוא הכלי למדידת אורך."
+  },
+  {
+    "id": "q-g1-cm-3",
+    "topic_id": "g1-measure-cm",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איפה שמים את הסרגל כשמתחילים למדוד חפץ?",
+    "options": ["בנקודת ה-0", "בנקודה 5", "בסוף הסרגל", "לא משנה איפה"],
+    "correct_index": 0,
+    "explanation": "מתחילים למדוד מנקודת ה-0 של הסרגל."
+  },
+  {
+    "id": "q-g1-cm-4",
+    "topic_id": "g1-measure-cm",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כשמודדים בסרגל, מה סופרים כדי לדעת את האורך?",
+    "options": ["את המרווחים בין השנתות", "את מספר השנתות עצמן", "את מספר הצבעים בסרגל", "את מספר הספרות"],
+    "correct_index": 0,
+    "explanation": "סופרים את המרווחים שבין השנתות, לא את השנתות עצמן."
+  },
+  {
+    "id": "q-g1-cm-5",
+    "topic_id": "g1-measure-cm",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם מזיזים עיפרון למקום אחר על השולחן, האם האורך שלו משתנה?",
+    "options": ["לא", "כן, הוא גדל", "כן, הוא קטן", "תלוי איפה מזיזים אותו"],
+    "correct_index": 0,
+    "explanation": "האורך של חפץ נשמר גם אם מזיזים אותו — זה נקרא שימור אורך."
+  },
+  {
+    "id": "q-g1-cm-6",
+    "topic_id": "g1-measure-cm",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהכלים הבאים אינו מודד אורך?",
+    "options": ["שעון", "סרגל", "סרט מדידה", "משורה"],
+    "correct_index": 0,
+    "explanation": "שעון מודד זמן, לא אורך."
+  },
+  {
+    "id": "q-g1-cm-7",
+    "topic_id": "g1-measure-cm",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קטע נמדד בסרגל החל מ-0, וקצהו השני על הסימון 7. מה אורך הקטע?",
+    "options": ["7 ס\"מ", "0 ס\"מ", "8 ס\"מ", "70 ס\"מ"],
+    "correct_index": 0,
+    "explanation": "אם המדידה החלה ב-0 והקטע מסתיים ב-7, אורכו 7 ס\"מ."
+  },
+  {
+    "id": "q-g1-cm-8",
+    "topic_id": "g1-measure-cm",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "רוצים לצייר קו באורך 4 ס\"מ. מה עושים ראשון?",
+    "options": ["מסמנים נקודה ב-0 בסרגל", "מוחקים את הסרגל", "מודדים 40 ס\"מ", "מציירים בלי סרגל"],
+    "correct_index": 0,
+    "explanation": "מתחילים מנקודת ה-0 ומסמנים עוד נקודה ב-4, ומחברים אותן."
+  },
+  {
+    "id": "q-g1-cm-9",
+    "topic_id": "g1-measure-cm",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "עיפרון נמדד בסרגל בין הסימונים 2 ו-9 (לא התחיל מ-0). מה אורך העיפרון?",
+    "options": ["7 ס\"מ", "9 ס\"מ", "2 ס\"מ", "11 ס\"מ"],
+    "correct_index": 0,
+    "explanation": "האורך הוא ההפרש בין שתי נקודות הקצה: $9-2=7$ ס\"מ."
+  },
+  {
+    "id": "q-g1-cm-10",
+    "topic_id": "g1-measure-cm",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "קו אחד נמדד מ-0 עד 6, וקו שני נמדד מ-3 עד 9. איזה קו ארוך יותר?",
+    "options": ["שני הקווים שווים באורכם", "הקו הראשון ארוך יותר", "הקו השני ארוך יותר", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "אורך הקו הראשון: $6-0=6$. אורך הקו השני: $9-3=6$. שניהם שווים."
+  },
+  {
+    "id": "q-g1-clock-1",
+    "topic_id": "g1-clock",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה מחוגים יש לשעון מחוגים רגיל?",
+    "options": ["2", "1", "3", "4"],
+    "correct_index": 0,
+    "explanation": "לשעון מחוגים יש מחוג קצר ומחוג ארוך."
+  },
+  {
+    "id": "q-g1-clock-2",
+    "topic_id": "g1-clock",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מחוג מראה את השעה?",
+    "options": ["המחוג הקצר", "המחוג הארוך", "שניהם יחד", "אף אחד"],
+    "correct_index": 0,
+    "explanation": "המחוג הקצר מראה את השעה."
+  },
+  {
+    "id": "q-g1-clock-3",
+    "topic_id": "g1-clock",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מחוג מראה את הדקות?",
+    "options": ["המחוג הארוך", "המחוג הקצר", "שניהם יחד", "אף אחד"],
+    "correct_index": 0,
+    "explanation": "המחוג הארוך מראה את הדקות."
+  },
+  {
+    "id": "q-g1-clock-4",
+    "topic_id": "g1-clock",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "המחוג הארוך מצביע על 12, והמחוג הקצר מצביע על 5. מה השעה?",
+    "options": ["5:00", "12:00", "5:12", "12:05"],
+    "correct_index": 0,
+    "explanation": "כשהמחוג הארוך על 12, קוראים שעה עגולה לפי המחוג הקצר: 5:00."
+  },
+  {
+    "id": "q-g1-clock-5",
+    "topic_id": "g1-clock",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "המחוג הארוך על 12, והמחוג הקצר על 8. מה השעה?",
+    "options": ["8:00", "12:00", "8:12", "12:08"],
+    "correct_index": 0,
+    "explanation": "השעה העגולה היא 8:00."
+  },
+  {
+    "id": "q-g1-clock-6",
+    "topic_id": "g1-clock",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אימון כדורגל מתחיל בשעה 2:00 ונמשך שעה אחת. מתי הוא מסתיים?",
+    "options": ["3:00", "1:00", "2:30", "4:00"],
+    "correct_index": 0,
+    "explanation": "2+1=3, כלומר האימון מסתיים בשעה 3:00."
+  },
+  {
+    "id": "q-g1-clock-7",
+    "topic_id": "g1-clock",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שיעור מתחיל בשעה 9:00 ונמשך 2 שעות. מתי הוא מסתיים?",
+    "options": ["11:00", "10:00", "12:00", "7:00"],
+    "correct_index": 0,
+    "explanation": "9+2=11, כלומר השיעור מסתיים בשעה 11:00."
+  },
+  {
+    "id": "q-g1-clock-8",
+    "topic_id": "g1-clock",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מתי רואים \"שעה עגולה\" בשעון מחוגים?",
+    "options": ["כשהמחוג הארוך מצביע בדיוק על 12", "כשהמחוג הקצר מצביע על 12", "כששני המחוגים חופפים", "אף פעם"],
+    "correct_index": 0,
+    "explanation": "שעה עגולה נראית כשהמחוג הארוך (הדקות) על 12 בדיוק."
+  },
+  {
+    "id": "q-g1-clock-9",
+    "topic_id": "g1-clock",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "סרט התחיל בשעה 4:00 והסתיים בשעה 6:00. כמה שעות נמשך הסרט?",
+    "options": ["2", "1", "3", "6"],
+    "correct_index": 0,
+    "explanation": "6-4=2, כלומר הסרט נמשך 2 שעות."
+  },
+  {
+    "id": "q-g1-clock-10",
+    "topic_id": "g1-clock",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "ארוחת ערב התחילה בשעה 7:00 ונמשכה שעה אחת. אחר כך שיחקו משחק שנמשך עוד שעה. מתי הסתיים המשחק?",
+    "options": ["9:00", "8:00", "10:00", "7:00"],
+    "correct_index": 0,
+    "explanation": "הארוחה הסתיימה ב-8:00 (7+1), והמשחק הסתיים ב-9:00 (8+1)."
+  },
+  {
+    "id": "q-g1-data-1",
+    "topic_id": "g1-data",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עמודות, עמודה גבוהה יותר מראה:",
+    "options": ["כמות גדולה יותר", "כמות קטנה יותר", "צבע שונה", "שם אחר"],
+    "correct_index": 0,
+    "explanation": "עמודה גבוהה יותר מייצגת כמות גדולה יותר."
+  },
+  {
+    "id": "q-g1-data-2",
+    "topic_id": "g1-data",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בפיקטוגרם, כל תמונה בדרך כלל מייצגת:",
+    "options": ["פריט אחד", "10 פריטים תמיד", "שום דבר", "צבע"],
+    "correct_index": 0,
+    "explanation": "בדרך כלל כל תמונה בפיקטוגרם מייצגת פריט אחד (אלא אם כתוב אחרת במקרא)."
+  },
+  {
+    "id": "q-g1-data-3",
+    "topic_id": "g1-data",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בדיאגרמה: תפוח=4, בננה=6, ענבים=2. איזה פרי הכי אהוב?",
+    "options": ["בננה", "תפוח", "ענבים", "כולם שווים"],
+    "correct_index": 0,
+    "explanation": "לבננה יש את המספר הגדול ביותר (6), ולכן היא הכי אהובה."
+  },
+  {
+    "id": "q-g1-data-4",
+    "topic_id": "g1-data",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "באותה דיאגרמה (תפוח=4, בננה=6, ענבים=2), מה הכי פחות אהוב?",
+    "options": ["ענבים", "תפוח", "בננה", "כולם שווים"],
+    "correct_index": 0,
+    "explanation": "לענבים יש את המספר הקטן ביותר (2)."
+  },
+  {
+    "id": "q-g1-data-5",
+    "topic_id": "g1-data",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "באותה דיאגרמה (4, 6, 2), כמה ילדים ענו בסך הכול?",
+    "options": ["12", "10", "6", "14"],
+    "correct_index": 0,
+    "explanation": "4+6+2=12."
+  },
+  {
+    "id": "q-g1-data-6",
+    "topic_id": "g1-data",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזו שאלה אפשר לענות עליה בעזרת דיאגרמת עמודות?",
+    "options": ["מה הכי פופולרי בכיתה", "מה הצבע האהוב על המורה", "כמה זמן לוקח לבשל", "איפה גר כל ילד"],
+    "correct_index": 0,
+    "explanation": "דיאגרמת עמודות מראה איזו תשובה הכי נפוצה, ולכן מה הכי פופולרי."
+  },
+  {
+    "id": "q-g1-data-7",
+    "topic_id": "g1-data",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה עושים ראשון כדי לבנות דיאגרמת עמודות?",
+    "options": ["אוספים מידע", "צובעים את הדיאגרמה", "בוחרים שמות לעמודות בלבד", "מוחקים נתונים"],
+    "correct_index": 0,
+    "explanation": "לפני שבונים דיאגרמה, צריך לאסוף את המידע (למשל לשאול את כל הכיתה)."
+  },
+  {
+    "id": "q-g1-data-8",
+    "topic_id": "g1-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שתי עמודות בדיאגרמה גבוהות באותה מידה. מה זה אומר?",
+    "options": ["יש להן אותה כמות", "אחת מהן טעות", "אי אפשר לדעת כלום", "הן חייבות להיות באותו צבע"],
+    "correct_index": 0,
+    "explanation": "עמודות שוות גובה מייצגות כמויות שוות."
+  },
+  {
+    "id": "q-g1-data-9",
+    "topic_id": "g1-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בפיקטוגרם, ליד תמונה אחת כתוב \"= 2 ילדים\". יש 3 תמונות. כמה ילדים זה?",
+    "options": ["6", "3", "5", "2"],
+    "correct_index": 0,
+    "explanation": "כל תמונה שווה 2 ילדים: $3\\times2=6$."
+  },
+  {
+    "id": "q-g1-data-10",
+    "topic_id": "g1-data",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "עמודה א' גבוהה מעמודה ב'. עמודה ב' גבוהה מעמודה ג'. איזו עמודה הכי נמוכה?",
+    "options": ["עמודה ג'", "עמודה א'", "עמודה ב'", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "לפי הסדר: א' הכי גבוהה, אחריה ב', ואז ג' — כלומר ג' הכי נמוכה."
+  },
+  {
+    "id": "q-g2-numext-1",
+    "topic_id": "g2-numbers-1000",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה סימן מציין \"גדול מ-\"?",
+    "options": [">", "<", "=", "+"],
+    "correct_index": 0,
+    "explanation": "הסימן > אומר \"גדול מ-\"."
+  },
+  {
+    "id": "q-g2-numext-2",
+    "topic_id": "g2-numbers-1000",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה סימן מציין \"קטן מ-\"?",
+    "options": ["<", ">", "=", "-"],
+    "correct_index": 0,
+    "explanation": "הסימן < אומר \"קטן מ-\"."
+  },
+  {
+    "id": "q-g2-numext-3",
+    "topic_id": "g2-numbers-1000",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה סימן משלים נכון: 245 ___ 198?",
+    "options": [">", "<", "=", "אף אחד"],
+    "correct_index": 0,
+    "explanation": "245 גדול מ-198, ולכן הסימן המתאים הוא >."
+  },
+  {
+    "id": "q-g2-numext-4",
+    "topic_id": "g2-numbers-1000",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לאיזה מספר יש יותר ספרות: 45 או 245?",
+    "options": ["245", "45", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "ל-245 יש 3 ספרות, ל-45 יש רק 2."
+  },
+  {
+    "id": "q-g2-numext-5",
+    "topic_id": "g2-numbers-1000",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "המספר 56 שווה ל-5 עשרות ו-6 יחידות. באיזו דרך נוספת אפשר לפרק את 56?",
+    "options": ["4 עשרות ו-16 יחידות", "6 עשרות ו-5 יחידות", "5 מאות ו-6 יחידות", "56 עשרות"],
+    "correct_index": 0,
+    "explanation": "4 עשרות (40) ועוד 16 יחידות שווים גם הם ל-56."
+  },
+  {
+    "id": "q-g2-addext-1",
+    "topic_id": "g2-add-sub-100",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ליואב 86 שקלים ולתומר 94 שקלים. בכמה יותר כסף יש לתומר?",
+    "options": ["8", "10", "180", "6"],
+    "correct_index": 0,
+    "explanation": "94-86=8."
+  },
+  {
+    "id": "q-g2-addext-2",
+    "topic_id": "g2-add-sub-100",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לדנה 45 סוכריות ולרון 30 סוכריות. בכמה פחות סוכריות יש לרון?",
+    "options": ["15", "75", "10", "5"],
+    "correct_index": 0,
+    "explanation": "45-30=15."
+  },
+  {
+    "id": "q-g2-addext-3",
+    "topic_id": "g2-add-sub-100",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה זה 15+8+22?",
+    "options": ["45", "35", "40", "44"],
+    "correct_index": 0,
+    "explanation": "15+8+22=45."
+  },
+  {
+    "id": "q-g2-addext-4",
+    "topic_id": "g2-add-sub-100",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "השלימו: 25+___=38",
+    "options": ["13", "63", "12", "14"],
+    "correct_index": 0,
+    "explanation": "38-25=13."
+  },
+  {
+    "id": "q-g2-addext-5",
+    "topic_id": "g2-add-sub-100",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מספר יכול להשלים נכון: ___-63<100-63?",
+    "options": ["90", "100", "105", "63"],
+    "correct_index": 0,
+    "explanation": "צריך מספר קטן מ-100, כדי שההפרש שלו פחות 63 יהיה קטן מ-100-63. 90 מתאים."
+  },
+  {
+    "id": "q-g2-cnt1000-1",
+    "topic_id": "g2-counting-1000",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה המספר שבא אחרי 247?",
+    "options": ["248", "257", "246", "347"],
+    "correct_index": 0,
+    "explanation": "אחרי 247 בא 248."
+  },
+  {
+    "id": "q-g2-cnt1000-2",
+    "topic_id": "g2-counting-1000",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר בא לפני 300?",
+    "options": ["299", "301", "290", "200"],
+    "correct_index": 0,
+    "explanation": "לפני 300 בא 299."
+  },
+  {
+    "id": "q-g2-cnt1000-3",
+    "topic_id": "g2-counting-1000",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ספירה בדילוגים של 10: 130, 140, 150, ___",
+    "options": ["160", "155", "170", "140"],
+    "correct_index": 0,
+    "explanation": "אחרי 150 בא 160."
+  },
+  {
+    "id": "q-g2-cnt1000-4",
+    "topic_id": "g2-counting-1000",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ספירה בדילוגים של 100: 200, 300, 400, ___",
+    "options": ["500", "410", "450", "600"],
+    "correct_index": 0,
+    "explanation": "אחרי 400 בא 500."
+  },
+  {
+    "id": "q-g2-cnt1000-5",
+    "topic_id": "g2-counting-1000",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ספירה אחורה בדילוגים של 20: 140, 120, 100, ___",
+    "options": ["80", "90", "60", "110"],
+    "correct_index": 0,
+    "explanation": "אחרי 100 בא 80 (ירידה של 20)."
+  },
+  {
+    "id": "q-g2-cnt1000-6",
+    "topic_id": "g2-counting-1000",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ספירה בדילוגים של 50: 50, 100, 150, ___",
+    "options": ["200", "175", "160", "250"],
+    "correct_index": 0,
+    "explanation": "אחרי 150 בא 200."
+  },
+  {
+    "id": "q-g2-cnt1000-7",
+    "topic_id": "g2-counting-1000",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ספירה בדילוגים של 10 מ-23: 23, 33, 43, ___",
+    "options": ["53", "44", "50", "63"],
+    "correct_index": 0,
+    "explanation": "אחרי 43 בא 53."
+  },
+  {
+    "id": "q-g2-cnt1000-8",
+    "topic_id": "g2-counting-1000",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מספר בא אחרי 999?",
+    "options": ["1000", "990", "1001", "900"],
+    "correct_index": 0,
+    "explanation": "אחרי 999 בא 1000."
+  },
+  {
+    "id": "q-g2-cnt1000-9",
+    "topic_id": "g2-counting-1000",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מתחילים לספור מ-0 בדילוגים של 10. כמה דילוגים יהיו עד המספר 100?",
+    "options": ["10", "9", "100", "11"],
+    "correct_index": 0,
+    "explanation": "0,10,20,...,100 — יש 10 דילוגים עד 100."
+  },
+  {
+    "id": "q-g2-cnt1000-10",
+    "topic_id": "g2-counting-1000",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "עומר סופר אחורה מ-140 בדילוגים של 20. לאיזה מספר יגיע אחרי 3 דילוגים?",
+    "options": ["80", "60", "100", "40"],
+    "correct_index": 0,
+    "explanation": "140,120,100,80 — אחרי 3 דילוגים מגיעים ל-80."
+  },
+  {
+    "id": "q-g2-cnt1000-11",
+    "topic_id": "g2-counting-1000",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "עומר סופר אחורה מ-140 בדילוגים של 20 (140,120,100,80,60,40,20,0). האם הוא יגיע בדיוק למספר 50?",
+    "options": ["לא", "כן", "רק אם יתחיל אחרת", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "הרשימה 140,120,100,80,60,40,20,0 לא כוללת את 50."
+  },
+  {
+    "id": "q-g2-cnt1000-12",
+    "topic_id": "g2-counting-1000",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כמה דילוגים של 20 יהיו מ-140 עד 0?",
+    "options": ["7", "6", "20", "140"],
+    "correct_index": 0,
+    "explanation": "140÷20=7 דילוגים."
+  },
+  {
+    "id": "q-g2-eo-1",
+    "topic_id": "g2-even-odd",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם המספר 8 זוגי?",
+    "options": ["כן", "לא", "אי אפשר לדעת", "רק לפעמים"],
+    "correct_index": 0,
+    "explanation": "8=4+4, ולכן הוא זוגי."
+  },
+  {
+    "id": "q-g2-eo-2",
+    "topic_id": "g2-even-odd",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם המספר 7 זוגי?",
+    "options": ["לא", "כן", "אי אפשר לדעת", "רק לפעמים"],
+    "correct_index": 0,
+    "explanation": "7 אי-זוגי — לא ניתן להציגו כסכום של שני מספרים שווים."
+  },
+  {
+    "id": "q-g2-eo-3",
+    "topic_id": "g2-even-odd",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם המספר 0 זוגי?",
+    "options": ["כן", "לא", "0 אינו מספר", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "0=0+0, ולכן 0 הוא מספר זוגי."
+  },
+  {
+    "id": "q-g2-eo-4",
+    "topic_id": "g2-even-odd",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מספר מסתיים בספרה 6. האם הוא זוגי?",
+    "options": ["כן", "לא", "תלוי במספר", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "ספרת יחידות 6 מציינת מספר זוגי."
+  },
+  {
+    "id": "q-g2-eo-5",
+    "topic_id": "g2-even-odd",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מספר מסתיים בספרה 3. האם הוא זוגי?",
+    "options": ["לא", "כן", "תלוי במספר", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "ספרת יחידות 3 מציינת מספר אי-זוגי."
+  },
+  {
+    "id": "q-g2-eo-6",
+    "topic_id": "g2-even-odd",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם המספר 346 זוגי?",
+    "options": ["כן", "לא", "אי אפשר לדעת", "רק אם מחלקים ב-3"],
+    "correct_index": 0,
+    "explanation": "346 מסתיים ב-6, ולכן הוא זוגי."
+  },
+  {
+    "id": "q-g2-eo-7",
+    "topic_id": "g2-even-odd",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם המספר 781 זוגי?",
+    "options": ["לא", "כן", "אי אפשר לדעת", "רק אם מחלקים ב-7"],
+    "correct_index": 0,
+    "explanation": "781 מסתיים ב-1, ולכן הוא אי-זוגי."
+  },
+  {
+    "id": "q-g2-eo-8",
+    "topic_id": "g2-even-odd",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים זוגי: 123 או 124?",
+    "options": ["124", "123", "שניהם", "אף אחד"],
+    "correct_index": 0,
+    "explanation": "124 מסתיים ב-4 (זוגי), 123 מסתיים ב-3 (אי-זוגי)."
+  },
+  {
+    "id": "q-g2-eo-9",
+    "topic_id": "g2-even-odd",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "4+6=10. האם סכום של שני מספרים זוגיים תמיד זוגי?",
+    "options": ["כן", "לא", "רק לפעמים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "סכום של שני מספרים זוגיים הוא תמיד זוגי, כמו בדוגמה 4+6=10."
+  },
+  {
+    "id": "q-g2-eo-10",
+    "topic_id": "g2-even-odd",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו המספר הזוגי הגדול ביותר שקטן מ-50?",
+    "options": ["48", "49", "50", "46"],
+    "correct_index": 0,
+    "explanation": "49 אי-זוגי, ולכן המספר הזוגי הגדול ביותר הקטן מ-50 הוא 48."
+  },
+  {
+    "id": "q-g2-seq-1",
+    "topic_id": "g2-sequences",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה חסר בסדרה: 15, 20, ___, 30",
+    "options": ["25", "24", "26", "22"],
+    "correct_index": 0,
+    "explanation": "ההפרש הוא 5: אחרי 20 בא 25."
+  },
+  {
+    "id": "q-g2-seq-2",
+    "topic_id": "g2-sequences",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה חסר בסדרה: 24, 20, ___, 12, 8",
+    "options": ["16", "18", "14", "17"],
+    "correct_index": 0,
+    "explanation": "ההפרש הוא -4: אחרי 20 בא 16."
+  },
+  {
+    "id": "q-g2-seq-3",
+    "topic_id": "g2-sequences",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה הבא בסדרה: 247, 257, 267, ___",
+    "options": ["277", "270", "367", "257"],
+    "correct_index": 0,
+    "explanation": "ההפרש הוא 10: אחרי 267 בא 277."
+  },
+  {
+    "id": "q-g2-seq-4",
+    "topic_id": "g2-sequences",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה הבא בסדרה: 247, 347, 447, ___",
+    "options": ["547", "457", "477", "448"],
+    "correct_index": 0,
+    "explanation": "ההפרש הוא 100: אחרי 447 בא 547."
+  },
+  {
+    "id": "q-g2-seq-5",
+    "topic_id": "g2-sequences",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מצאו את הטעות בסדרה: 12, 16, 22, 24, 28",
+    "options": ["22", "16", "24", "28"],
+    "correct_index": 0,
+    "explanation": "ההפרש הקבוע הוא 4, ולכן אחרי 16 היה צריך לבוא 20 ולא 22."
+  },
+  {
+    "id": "q-g2-seq-6",
+    "topic_id": "g2-sequences",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה ההפרש הקבוע בסדרה 130, 140, 150, 160?",
+    "options": ["10", "1", "100", "20"],
+    "correct_index": 0,
+    "explanation": "כל מספר גדול ב-10 מהקודם לו."
+  },
+  {
+    "id": "q-g2-seq-7",
+    "topic_id": "g2-sequences",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה הבא בסדרה היורדת: 500, 400, 300, ___",
+    "options": ["200", "250", "100", "350"],
+    "correct_index": 0,
+    "explanation": "ההפרש הוא -100: אחרי 300 בא 200."
+  },
+  {
+    "id": "q-g2-seq-8",
+    "topic_id": "g2-sequences",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה חסר בסדרה העולה ב-1: 28, ___, 30",
+    "options": ["29", "29.5", "27", "31"],
+    "correct_index": 0,
+    "explanation": "בין 28 ל-30 (בהפרש 1) נמצא 29."
+  },
+  {
+    "id": "q-g2-seq-9",
+    "topic_id": "g2-sequences",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה הבא בסדרה: 8, 18, 28, ___",
+    "options": ["38", "30", "36", "48"],
+    "correct_index": 0,
+    "explanation": "ההפרש הוא 10: אחרי 28 בא 38."
+  },
+  {
+    "id": "q-g2-seq-10",
+    "topic_id": "g2-sequences",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה הבא בסדרה: 900, 800, 700, ___",
+    "options": ["600", "650", "500", "750"],
+    "correct_index": 0,
+    "explanation": "ההפרש הוא -100: אחרי 700 בא 600."
+  },
+  {
+    "id": "q-g2-seq-11",
+    "topic_id": "g2-sequences",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בסדרה 15, 25, 35, 45, ___ — מהו האיבר החמישי?",
+    "options": ["55", "50", "60", "45"],
+    "correct_index": 0,
+    "explanation": "ההפרש הוא 10: אחרי 45 בא 55."
+  },
+  {
+    "id": "q-g2-seq-12",
+    "topic_id": "g2-sequences",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מצאו את הטעות בסדרה: 30, 40, 53, 60, 70",
+    "options": ["53", "40", "60", "70"],
+    "correct_index": 0,
+    "explanation": "ההפרש הקבוע הוא 10, ולכן אחרי 40 היה צריך לבוא 50 ולא 53."
+  },
+  {
+    "id": "q-g2-addprop-1",
+    "topic_id": "g2-add-sub-properties",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם 35+48=83, כמה זה 83-48?",
+    "options": ["35", "48", "83", "13"],
+    "correct_index": 0,
+    "explanation": "חיבור וחיסור פעולות הפוכות: 83-48=35."
+  },
+  {
+    "id": "q-g2-addprop-2",
+    "topic_id": "g2-add-sub-properties",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה זה 57+0?",
+    "options": ["57", "0", "58", "570"],
+    "correct_index": 0,
+    "explanation": "הוספת 0 לא משנה את המספר."
+  },
+  {
+    "id": "q-g2-addprop-3",
+    "topic_id": "g2-add-sub-properties",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה זה 63-63?",
+    "options": ["0", "63", "1", "126"],
+    "correct_index": 0,
+    "explanation": "ההפרש בין שני מספרים שווים הוא תמיד 0."
+  },
+  {
+    "id": "q-g2-addprop-4",
+    "topic_id": "g2-add-sub-properties",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם 34+18 שווה ל-18+34?",
+    "options": ["כן", "לא", "רק לפעמים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "לפי חוק החילוף, אפשר לחבר בכל סדר ולקבל אותה תוצאה."
+  },
+  {
+    "id": "q-g2-addprop-5",
+    "topic_id": "g2-add-sub-properties",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה סכום גדול יותר: 57+11 או 57+4?",
+    "options": ["57+11", "57+4", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מוסיפים יותר ל-57, ולכן 57+11 גדול יותר."
+  },
+  {
+    "id": "q-g2-addprop-6",
+    "topic_id": "g2-add-sub-properties",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם (15+5)+22 שווה ל-15+(5+22)?",
+    "options": ["כן", "לא", "רק לפעמים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "לפי חוק הקיבוץ, אפשר לקבץ מחוברים בדרכים שונות ולקבל אותה תוצאה."
+  },
+  {
+    "id": "q-g2-addprop-7",
+    "topic_id": "g2-add-sub-properties",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם 40+25=65, כמה זה 65-25?",
+    "options": ["40", "25", "65", "15"],
+    "correct_index": 0,
+    "explanation": "חיבור וחיסור פעולות הפוכות: 65-25=40."
+  },
+  {
+    "id": "q-g2-addprop-8",
+    "topic_id": "g2-add-sub-properties",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה הפרש גדול יותר: 42-13 או 42-15?",
+    "options": ["42-13", "42-15", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מורידים פחות מ-42, ולכן נשאר יותר: 42-13 גדול יותר."
+  },
+  {
+    "id": "q-g2-addprop-9",
+    "topic_id": "g2-add-sub-properties",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה סימן משלים נכון: 45+3 ___ 45-3?",
+    "options": [">", "<", "=", "אף אחד"],
+    "correct_index": 0,
+    "explanation": "45+3=48, 45-3=42, ו-48 גדול מ-42."
+  },
+  {
+    "id": "q-g2-addprop-10",
+    "topic_id": "g2-add-sub-properties",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה זוג משלים נכון: 20+___=36+___?",
+    "options": ["20+20=36+4", "20+10=36+5", "20+0=36+10", "20+16=36+16"],
+    "correct_index": 0,
+    "explanation": "20+20=40 וגם 36+4=40 — שני האגפים שווים."
+  },
+  {
+    "id": "q-g2-mulprop-1",
+    "topic_id": "g2-mul-div-properties",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה זה 7×1?",
+    "options": ["7", "0", "8", "1"],
+    "correct_index": 0,
+    "explanation": "כפל ב-1 לא משנה את המספר."
+  },
+  {
+    "id": "q-g2-mulprop-2",
+    "topic_id": "g2-mul-div-properties",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה זה 7×0?",
+    "options": ["0", "7", "1", "70"],
+    "correct_index": 0,
+    "explanation": "כפל ב-0 נותן תמיד 0."
+  },
+  {
+    "id": "q-g2-mulprop-3",
+    "topic_id": "g2-mul-div-properties",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה זה 7:1?",
+    "options": ["7", "0", "1", "8"],
+    "correct_index": 0,
+    "explanation": "חלוקה ב-1 לא משנה את המספר."
+  },
+  {
+    "id": "q-g2-mulprop-4",
+    "topic_id": "g2-mul-div-properties",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם אפשר לחלק מספר ב-0?",
+    "options": ["לא", "כן", "רק ב-0 עצמו", "רק במספרים זוגיים"],
+    "correct_index": 0,
+    "explanation": "חלוקה ב-0 אינה מוגדרת."
+  },
+  {
+    "id": "q-g2-mulprop-5",
+    "topic_id": "g2-mul-div-properties",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם 3×4 שווה ל-4×3?",
+    "options": ["כן", "לא", "רק לפעמים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "לפי חוק החילוף בכפל, אפשר לכפול בכל סדר ולקבל אותה תוצאה."
+  },
+  {
+    "id": "q-g2-mulprop-6",
+    "topic_id": "g2-mul-div-properties",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה זה 5×6, וגם 6×5?",
+    "options": ["30", "11", "25", "35"],
+    "correct_index": 0,
+    "explanation": "5×6=6×5=30."
+  },
+  {
+    "id": "q-g2-mulprop-7",
+    "topic_id": "g2-mul-div-properties",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה זה 3×2×2?",
+    "options": ["12", "7", "9", "14"],
+    "correct_index": 0,
+    "explanation": "3×2×2=3×4=12 (או (3×2)×2=6×2=12)."
+  },
+  {
+    "id": "q-g2-mulprop-8",
+    "topic_id": "g2-mul-div-properties",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה זה (3×2)×2?",
+    "options": ["12", "7", "10", "8"],
+    "correct_index": 0,
+    "explanation": "(3×2)×2=6×2=12."
+  },
+  {
+    "id": "q-g2-mulprop-9",
+    "topic_id": "g2-mul-div-properties",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה משפט נכון?",
+    "options": ["8×0=0", "8×0=8", "8×0=1", "8×0=80"],
+    "correct_index": 0,
+    "explanation": "כל מספר כפול 0 נותן 0."
+  },
+  {
+    "id": "q-g2-mulprop-10",
+    "topic_id": "g2-mul-div-properties",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "החוק שאומר ש-a×b=b×a נקרא:",
+    "options": ["חוק החילוף", "חוק הקיבוץ", "חוק האפס", "חוק ההפרש"],
+    "correct_index": 0,
+    "explanation": "חוק החילוף אומר שאפשר לכפול בכל סדר."
+  },
+  {
+    "id": "q-g2-tri-1",
+    "topic_id": "g2-triangles",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משולש עם כל הצלעות שוות נקרא:",
+    "options": ["שווה-צלעות", "שווה-שוקיים", "ישר-זווית", "כללי"],
+    "correct_index": 0,
+    "explanation": "משולש שכל צלעותיו שוות נקרא שווה-צלעות."
+  },
+  {
+    "id": "q-g2-tri-2",
+    "topic_id": "g2-triangles",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משולש עם שתי צלעות שוות נקרא:",
+    "options": ["שווה-שוקיים", "שווה-צלעות", "ישר-זווית", "כללי"],
+    "correct_index": 0,
+    "explanation": "משולש עם שתי צלעות שוות נקרא שווה-שוקיים."
+  },
+  {
+    "id": "q-g2-tri-3",
+    "topic_id": "g2-triangles",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "משולש שכל צלעותיו שונות אורך נקרא:",
+    "options": ["כללי (שונה-צלעות)", "שווה-צלעות", "שווה-שוקיים", "ריבועי"],
+    "correct_index": 0,
+    "explanation": "כשכל הצלעות שונות, המשולש נקרא כללי או שונה-צלעות."
+  },
+  {
+    "id": "q-g2-tri-4",
+    "topic_id": "g2-triangles",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איך אפשר לבדוק אם שתי צלעות במשולש שוות אורך?",
+    "options": ["מודדים בסרגל או מקפלים ומדביקים", "מסתכלים בלבד", "בודקים את הצבע", "סופרים קודקודים"],
+    "correct_index": 0,
+    "explanation": "מדידה בסרגל, או קיפול והדבקה, מאפשרים להשוות אורכי צלעות בוודאות."
+  },
+  {
+    "id": "q-g2-tri-5",
+    "topic_id": "g2-triangles",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "גוזרים מלבן לאורך האלכסון. כמה משולשים מתקבלים?",
+    "options": ["2", "1", "3", "4"],
+    "correct_index": 0,
+    "explanation": "גזירה לאורך האלכסון מפרידה את המלבן לשני משולשים."
+  },
+  {
+    "id": "q-g2-tri-6",
+    "topic_id": "g2-triangles",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "למלבן יש 4 קודקודים. לכל אחד מהמשולשים שנוצרים מגזירתו יש:",
+    "options": ["3 קודקודים", "4 קודקודים", "2 קודקודים", "5 קודקודים"],
+    "correct_index": 0,
+    "explanation": "לכל משולש יש תמיד 3 קודקודים, גם אם הוא נוצר מגזירת מלבן."
+  },
+  {
+    "id": "q-g2-tri-7",
+    "topic_id": "g2-triangles",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם מספר הצלעות נשמר כשגוזרים מלבן (4 צלעות) לשני משולשים?",
+    "options": ["לא", "כן", "רק לפעמים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "למלבן 4 צלעות, אך לכל משולש שנוצר יש 3 — מספר הצלעות אינו נשמר."
+  },
+  {
+    "id": "q-g2-tri-8",
+    "topic_id": "g2-triangles",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לאיזה סוג משולש יש בוודאות ציר סימטריה?",
+    "options": ["שווה-צלעות", "כללי (שונה-צלעות)", "כל משולש", "אף אחד"],
+    "correct_index": 0,
+    "explanation": "משולש שווה-צלעות אפשר לקפל לשני חצאים זהים בכמה דרכים."
+  },
+  {
+    "id": "q-g2-tri-9",
+    "topic_id": "g2-triangles",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "טרפז שווה-שוקיים אפשר לפרק לריבוע (או מקבילית) ולכמה משולשים?",
+    "options": ["2", "1", "3", "4"],
+    "correct_index": 0,
+    "explanation": "פירוק טרפז שווה-שוקיים נותן ריבוע/מקבילית ושני משולשים ישרי-זווית ושווי-שוקיים."
+  },
+  {
+    "id": "q-g2-tri-10",
+    "topic_id": "g2-triangles",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מה נשמר כאשר גוזרים מלבן לשני משולשים?",
+    "options": ["השטח הכולל", "מספר הקודקודים", "מספר הצלעות", "שום דבר לא נשמר"],
+    "correct_index": 0,
+    "explanation": "השטח הכולל של שני המשולשים שווה לשטח המלבן המקורי, גם אם מספר הצלעות והקודקודים משתנה."
+  },
+  {
+    "id": "q-g2-ra-1",
+    "topic_id": "g2-right-angle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "זווית ישרה שווה בדיוק ל:",
+    "options": ["90°", "45°", "180°", "60°"],
+    "correct_index": 0,
+    "explanation": "זווית ישרה היא בדיוק 90°."
+  },
+  {
+    "id": "q-g2-ra-2",
+    "topic_id": "g2-right-angle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה זוויות ישרות יש לריבוע?",
+    "options": ["4", "2", "3", "1"],
+    "correct_index": 0,
+    "explanation": "לריבוע יש 4 זוויות ישרות, בכל הקודקודים."
+  },
+  {
+    "id": "q-g2-ra-3",
+    "topic_id": "g2-right-angle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה זוויות ישרות יש למלבן?",
+    "options": ["4", "2", "3", "0"],
+    "correct_index": 0,
+    "explanation": "למלבן, כמו לריבוע, יש 4 זוויות ישרות."
+  },
+  {
+    "id": "q-g2-ra-4",
+    "topic_id": "g2-right-angle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פינה של דף נייר רגיל היא בדרך כלל:",
+    "options": ["זווית ישרה", "זווית קהה", "זווית חדה", "לא זווית בכלל"],
+    "correct_index": 0,
+    "explanation": "דף נייר מלבני, ולכן פינותיו הן זוויות ישרות."
+  },
+  {
+    "id": "q-g2-ra-5",
+    "topic_id": "g2-right-angle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איך אפשר לזהות זווית ישרה בלי מד-זווית?",
+    "options": ["משווים לפינת דף או פתקית", "מודדים באורך", "סופרים צלעות", "בודקים את הצבע"],
+    "correct_index": 0,
+    "explanation": "השוואה ישירה לחפץ שידוע שיש בו זווית ישרה היא הדרך הפשוטה לזהותה."
+  },
+  {
+    "id": "q-g2-ra-6",
+    "topic_id": "g2-right-angle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם למשולש שווה-צלעות יש בהכרח זווית ישרה?",
+    "options": ["לא בהכרח", "כן, תמיד", "יש לו 2 זוויות ישרות", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "במשולש שווה-צלעות כל הזוויות שוות זו לזו, ואינן חייבות להיות ישרות."
+  },
+  {
+    "id": "q-g2-ra-7",
+    "topic_id": "g2-right-angle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פנייה \"בזווית ישרה\" במסלול היא פנייה של:",
+    "options": ["90°", "45°", "180°", "30°"],
+    "correct_index": 0,
+    "explanation": "פנייה בזווית ישרה היא פנייה חדה של 90°."
+  },
+  {
+    "id": "q-g2-ra-8",
+    "topic_id": "g2-right-angle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לאיזו צורה יש בוודאות זוויות ישרות: ריבוע או משולש שווה-צלעות?",
+    "options": ["ריבוע", "משולש שווה-צלעות", "לשתיהן", "לאף אחת"],
+    "correct_index": 0,
+    "explanation": "לריבוע יש תמיד 4 זוויות ישרות; במשולש שווה-צלעות הזוויות אינן ישרות."
+  },
+  {
+    "id": "q-g2-ra-9",
+    "topic_id": "g2-right-angle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה זוויות ישרות יש למשולש ישר-זווית?",
+    "options": ["1", "2", "3", "0"],
+    "correct_index": 0,
+    "explanation": "משולש ישר-זווית מכיל בדיוק זווית ישרה אחת."
+  },
+  {
+    "id": "q-g2-ra-10",
+    "topic_id": "g2-right-angle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מלבן שאורכו 8 ורוחבו 3 — כמה זוויות ישרות יש לו?",
+    "options": ["4", "2", "8", "3"],
+    "correct_index": 0,
+    "explanation": "לכל מלבן, ללא קשר לגודלו, יש 4 זוויות ישרות."
+  },
+  {
+    "id": "q-g2-len-1",
+    "topic_id": "g2-length-measure",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה סנטימטרים יש במטר אחד?",
+    "options": ["100", "10", "1000", "50"],
+    "correct_index": 0,
+    "explanation": "100 ס\"מ שווים למטר אחד."
+  },
+  {
+    "id": "q-g2-len-2",
+    "topic_id": "g2-length-measure",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לחפצים קטנים (כמו עיפרון) משתמשים ביחידת מידה:",
+    "options": ["סנטימטר", "מטר", "קילומטר", "ליטר"],
+    "correct_index": 0,
+    "explanation": "סנטימטר מתאים למדידת חפצים קטנים."
+  },
+  {
+    "id": "q-g2-len-3",
+    "topic_id": "g2-length-measure",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "למרחקים גדולים (כמו אורך הכיתה) משתמשים ביחידת מידה:",
+    "options": ["מטר", "סנטימטר", "גרם", "שנייה"],
+    "correct_index": 0,
+    "explanation": "מטר מתאים למדידת מרחקים גדולים יותר."
+  },
+  {
+    "id": "q-g2-len-4",
+    "topic_id": "g2-length-measure",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איך מסרטטים קטע באורך 6 ס\"מ בעזרת סרגל?",
+    "options": ["מסמנים מ-0 עד 6", "מסמנים מ-6 עד 12", "מודדים 60 ס\"מ", "לא צריך סרגל"],
+    "correct_index": 0,
+    "explanation": "מתחילים מנקודת ה-0 ומסמנים עוד נקודה ב-6, ומחברים בקו ישר."
+  },
+  {
+    "id": "q-g2-len-5",
+    "topic_id": "g2-length-measure",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "קטע לא מסתיים בדיוק על שנתה בסרגל. איזה ביטוי מתאים לתאר את אורכו?",
+    "options": ["\"קצת יותר מ-\"", "מספר מדויק בלבד", "אי אפשר למדוד בכלל", "0 ס\"מ"],
+    "correct_index": 0,
+    "explanation": "כשאין התאמה מדויקת, משתמשים בביטויי השוואה כמו \"בערך\" או \"קצת יותר מ-\"."
+  },
+  {
+    "id": "q-g2-len-6",
+    "topic_id": "g2-length-measure",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "2 מטר שווים לכמה סנטימטרים?",
+    "options": ["200", "20", "2", "20000"],
+    "correct_index": 0,
+    "explanation": "כל מטר שווה 100 ס\"מ, ולכן 2 מטר = 200 ס\"מ."
+  },
+  {
+    "id": "q-g2-len-7",
+    "topic_id": "g2-length-measure",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "עיפרון שאורכו 15 ס\"מ — זה יותר או פחות ממטר?",
+    "options": ["פחות", "יותר", "בדיוק מטר", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מטר שווה 100 ס\"מ, ו-15 ס\"מ הרבה פחות מזה."
+  },
+  {
+    "id": "q-g2-len-8",
+    "topic_id": "g2-length-measure",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בתיאור \"העיפרון באורך 12\" חסר משהו חשוב. מה זה?",
+    "options": ["יחידת המידה", "המספר עצמו", "שם העיפרון", "הצבע"],
+    "correct_index": 0,
+    "explanation": "חייבים לציין את יחידת המידה (ס\"מ? מטר?) ליד המספר."
+  },
+  {
+    "id": "q-g2-len-9",
+    "topic_id": "g2-length-measure",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "את חצר בית הספר נכון למדוד ב:",
+    "options": ["מטרים", "סנטימטרים בלבד", "שניות", "קילוגרמים"],
+    "correct_index": 0,
+    "explanation": "מרחק גדול כמו חצר בית ספר נמדד בנוחות במטרים."
+  },
+  {
+    "id": "q-g2-len-10",
+    "topic_id": "g2-length-measure",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "350 ס\"מ שווים לכמה מטר וכמה ס\"מ?",
+    "options": ["3 מטר ו-50 ס\"מ", "35 מטר", "3 מטר ו-5 ס\"מ", "350 מטר"],
+    "correct_index": 0,
+    "explanation": "300 ס\"מ = 3 מטר, ונשארו עוד 50 ס\"מ."
+  },
+  {
+    "id": "q-g2-bl-1",
+    "topic_id": "g2-broken-lines",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "קו שבור מורכב מ:",
+    "options": ["כמה קטעים ישרים מחוברים", "קו עגול אחד", "נקודה אחת", "משולש בלבד"],
+    "correct_index": 0,
+    "explanation": "קו שבור בנוי מכמה קטעים ישרים המחוברים בקצוותיהם."
+  },
+  {
+    "id": "q-g2-bl-2",
+    "topic_id": "g2-broken-lines",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איך מוצאים את אורך הקו השבור כולו?",
+    "options": ["מחברים את אורכי כל הקטעים", "מודדים רק את הקטע הראשון", "כופלים את מספר הקטעים ב-2", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "אורך קו שבור הוא סכום אורכי כל הקטעים המרכיבים אותו."
+  },
+  {
+    "id": "q-g2-bl-3",
+    "topic_id": "g2-broken-lines",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "קו שבור מורכב מקטעים באורך 3, 5 ו-4. מה האורך הכולל?",
+    "options": ["12", "8", "15", "9"],
+    "correct_index": 0,
+    "explanation": "3+5+4=12."
+  },
+  {
+    "id": "q-g2-bl-4",
+    "topic_id": "g2-broken-lines",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "קו שבור מורכב מקטעים באורך 2, 6, 3 ו-4. מה האורך הכולל?",
+    "options": ["15", "12", "20", "10"],
+    "correct_index": 0,
+    "explanation": "2+6+3+4=15."
+  },
+  {
+    "id": "q-g2-bl-5",
+    "topic_id": "g2-broken-lines",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "קו שבור שהקצה האחרון שלו חוזר לנקודת ההתחלה נקרא:",
+    "options": ["קו שבור סגור", "קו ישר", "קו עגול", "קו פתוח בלבד"],
+    "correct_index": 0,
+    "explanation": "קו שסוגר חזרה לנקודת ההתחלה נקרא קו שבור סגור."
+  },
+  {
+    "id": "q-g2-bl-6",
+    "topic_id": "g2-broken-lines",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קו שבור סגור מתאר למעשה:",
+    "options": ["את הצלעות של מצולע", "רק קטע אחד", "עיגול", "נקודה בודדת"],
+    "correct_index": 0,
+    "explanation": "קו שבור סגור הוא בדיוק הגבול (הצלעות) של מצולע."
+  },
+  {
+    "id": "q-g2-bl-7",
+    "topic_id": "g2-broken-lines",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קו שבור בנוי מ-5 קטעים שווים, כל אחד באורך 4 ס\"מ. מה האורך הכולל?",
+    "options": ["20", "9", "45", "16"],
+    "correct_index": 0,
+    "explanation": "5×4=20."
+  },
+  {
+    "id": "q-g2-bl-8",
+    "topic_id": "g2-broken-lines",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "קו שבור שאורכו הכולל 20 ס\"מ, מורכב מ-4 קטעים שווים. מה אורך כל קטע?",
+    "options": ["5", "4", "16", "80"],
+    "correct_index": 0,
+    "explanation": "20÷4=5 ס\"מ לכל קטע."
+  },
+  {
+    "id": "q-g2-bl-9",
+    "topic_id": "g2-broken-lines",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "קו שבור מורכב מקטעים 7, 3, 8 ו-2. מה האורך הכולל?",
+    "options": ["20", "18", "22", "16"],
+    "correct_index": 0,
+    "explanation": "7+3+8+2=20."
+  },
+  {
+    "id": "q-g2-bl-10",
+    "topic_id": "g2-broken-lines",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "קו שבור סגור מתאר משולש שצלעותיו 5, 6 ו-7. מה ההיקף של המשולש?",
+    "options": ["18", "17", "19", "16"],
+    "correct_index": 0,
+    "explanation": "5+6+7=18."
+  },
+  {
+    "id": "q-g2-per-1",
+    "topic_id": "g2-perimeter",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "היקף של מצולע הוא:",
+    "options": ["סכום כל הצלעות", "כמה משבצות בפנים", "מספר הקודקודים", "מספר הצלעות"],
+    "correct_index": 0,
+    "explanation": "היקף מוגדר כסכום כל אורכי הצלעות."
+  },
+  {
+    "id": "q-g2-per-2",
+    "topic_id": "g2-perimeter",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מלבן עם צלעות 6, 3, 6, 3. מה ההיקף?",
+    "options": ["18", "9", "36", "12"],
+    "correct_index": 0,
+    "explanation": "6+3+6+3=18."
+  },
+  {
+    "id": "q-g2-per-3",
+    "topic_id": "g2-perimeter",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ריבוע בצלע 5. מה ההיקף?",
+    "options": ["20", "25", "10", "5"],
+    "correct_index": 0,
+    "explanation": "5×4=20."
+  },
+  {
+    "id": "q-g2-per-4",
+    "topic_id": "g2-perimeter",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ריבוע בצלע 7. מה ההיקף?",
+    "options": ["28", "49", "14", "21"],
+    "correct_index": 0,
+    "explanation": "7×4=28."
+  },
+  {
+    "id": "q-g2-per-5",
+    "topic_id": "g2-perimeter",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "משולש שווה-צלעות בצלע 4. מה ההיקף?",
+    "options": ["12", "8", "16", "4"],
+    "correct_index": 0,
+    "explanation": "4×3=12 (שלוש צלעות שוות)."
+  },
+  {
+    "id": "q-g2-per-6",
+    "topic_id": "g2-perimeter",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מלבן באורך 10 וברוחב 4. מה ההיקף?",
+    "options": ["28", "14", "40", "24"],
+    "correct_index": 0,
+    "explanation": "10+4+10+4=28."
+  },
+  {
+    "id": "q-g2-per-7",
+    "topic_id": "g2-perimeter",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איך מחשבים היקף של מצולע משוכלל (כל הצלעות שוות)?",
+    "options": ["אורך צלע × מספר צלעות", "אורך צלע + מספר צלעות", "אורך צלע בלבד", "מספר צלעות בלבד"],
+    "correct_index": 0,
+    "explanation": "במצולע משוכלל, ההיקף שווה לאורך צלע כפול מספר הצלעות."
+  },
+  {
+    "id": "q-g2-per-8",
+    "topic_id": "g2-perimeter",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מחומש משוכלל בצלע 6. מה ההיקף?",
+    "options": ["30", "25", "36", "11"],
+    "correct_index": 0,
+    "explanation": "6×5=30 (חמש צלעות שוות)."
+  },
+  {
+    "id": "q-g2-per-9",
+    "topic_id": "g2-perimeter",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מלבן שהיקפו 20 ואורכו 7. מה רוחבו?",
+    "options": ["3", "6", "13", "10"],
+    "correct_index": 0,
+    "explanation": "20=2×(7+רוחב), ולכן 10=7+רוחב, ורוחב=3."
+  },
+  {
+    "id": "q-g2-per-10",
+    "topic_id": "g2-perimeter",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "ריבוע שהיקפו 24. מה אורך כל צלע?",
+    "options": ["6", "12", "4", "8"],
+    "correct_index": 0,
+    "explanation": "24÷4=6."
+  },
+  {
+    "id": "q-g2-sol-1",
+    "topic_id": "g2-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה פאות יש לקובייה?",
+    "options": ["6", "8", "12", "4"],
+    "correct_index": 0,
+    "explanation": "לקובייה יש 6 פאות מרובעות."
+  },
+  {
+    "id": "q-g2-sol-2",
+    "topic_id": "g2-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה קודקודים יש לקובייה?",
+    "options": ["8", "6", "12", "4"],
+    "correct_index": 0,
+    "explanation": "לקובייה יש 8 קודקודים."
+  },
+  {
+    "id": "q-g2-sol-3",
+    "topic_id": "g2-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה קודקודים חדים יש לכדור?",
+    "options": ["אין", "1", "2", "8"],
+    "correct_index": 0,
+    "explanation": "לכדור אין קודקודים חדים כלל."
+  },
+  {
+    "id": "q-g2-sol-4",
+    "topic_id": "g2-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה פאות יש לתיבה?",
+    "options": ["6", "4", "8", "10"],
+    "correct_index": 0,
+    "explanation": "לתיבה, כמו לקובייה, יש 6 פאות."
+  },
+  {
+    "id": "q-g2-sol-5",
+    "topic_id": "g2-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פאה בגוף תלת-ממדי היא:",
+    "options": ["משטח שטוח", "נקודה", "קו", "צבע"],
+    "correct_index": 0,
+    "explanation": "פאה היא המשטח השטוח החיצוני של הגוף."
+  },
+  {
+    "id": "q-g2-sol-6",
+    "topic_id": "g2-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מקצוע בגוף תלת-ממדי הוא:",
+    "options": ["קו שבו נפגשות שתי פאות", "נקודת מפגש של כמה קווים", "משטח שטוח", "פינה בודדת"],
+    "correct_index": 0,
+    "explanation": "מקצוע הוא הקו המשותף לשתי פאות סמוכות."
+  },
+  {
+    "id": "q-g2-sol-7",
+    "topic_id": "g2-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה מקצועות יש לקובייה?",
+    "options": ["12", "6", "8", "10"],
+    "correct_index": 0,
+    "explanation": "לקובייה יש 12 מקצועות."
+  },
+  {
+    "id": "q-g2-sol-8",
+    "topic_id": "g2-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם לגליל יש פאות עגולות?",
+    "options": ["כן, שני בסיסים עגולים", "לא, אין לו פאות בכלל", "יש לו פאה עגולה אחת בלבד", "יש לו 6 פאות עגולות"],
+    "correct_index": 0,
+    "explanation": "לגליל שני בסיסים עגולים ומעטפת מעוגלת."
+  },
+  {
+    "id": "q-g2-sol-9",
+    "topic_id": "g2-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפירמידה עם בסיס ריבוע, כמה פאות יש בסך הכול?",
+    "options": ["5", "4", "6", "8"],
+    "correct_index": 0,
+    "explanation": "בסיס ריבוע אחד + 4 פאות צדדיות משולשות = 5 פאות."
+  },
+  {
+    "id": "q-g2-sol-10",
+    "topic_id": "g2-solids",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "איזה גוף אין לו פאות שטוחות בכלל?",
+    "options": ["כדור", "קובייה", "תיבה", "מנסרה"],
+    "correct_index": 0,
+    "explanation": "כדור מורכב כולו ממשטח מעוגל, בלי אף פאה שטוחה."
+  },
+  {
+    "id": "q-g2-vol-1",
+    "topic_id": "g2-volume-compare",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נפח מתאר:",
+    "options": ["כמה מקום גוף תופס", "כמה כבד הגוף", "כמה ארוך הגוף", "כמה צלעות יש לגוף"],
+    "correct_index": 0,
+    "explanation": "נפח מתאר את כמות המקום שהגוף תופס, או כמה נכנס בתוכו."
+  },
+  {
+    "id": "q-g2-vol-2",
+    "topic_id": "g2-volume-compare",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "השוואה ישירה של נפחים אפשרית כאשר:",
+    "options": ["אפשר להכניס גוף אחד לתוך השני", "הגופים באותו צבע", "הגופים באותו משקל", "לעולם אי אפשר"],
+    "correct_index": 0,
+    "explanation": "אם אפשר להכניס גוף אחד לשני, רואים ישירות מי גדול יותר."
+  },
+  {
+    "id": "q-g2-vol-3",
+    "topic_id": "g2-volume-compare",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה זה \"מתווך\" בהשוואת נפחים?",
+    "options": ["חומר כמו מים או חול שעוזר להשוות", "כלי מדידה מיוחד עם מספרים", "גוף שלישי גדול מהשניים", "צבע מיוחד"],
+    "correct_index": 0,
+    "explanation": "מתווך הוא חומר (מים, חול) שממלאים בו כל כלי ומשווים כמויות."
+  },
+  {
+    "id": "q-g2-vol-4",
+    "topic_id": "g2-volume-compare",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איך יודעים איזה כלי גדול יותר בעזרת מים?",
+    "options": ["הכלי שמחזיק יותר מים גדול יותר", "הכלי הכבד יותר גדול יותר", "הכלי הצבעוני יותר גדול יותר", "אי אפשר לדעת בעזרת מים"],
+    "correct_index": 0,
+    "explanation": "אם ממלאים מים בכלי, הכלי שמכיל יותר מים הוא בעל הנפח הגדול יותר."
+  },
+  {
+    "id": "q-g2-vol-5",
+    "topic_id": "g2-volume-compare",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כלי א' מכיל 5 כוסות מים, כלי ב' מכיל 8 כוסות. מי גדול יותר?",
+    "options": ["כלי ב'", "כלי א'", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "כלי ב' מכיל יותר מים, ולכן נפחו גדול יותר."
+  },
+  {
+    "id": "q-g2-vol-6",
+    "topic_id": "g2-volume-compare",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קופסה אחת נכנסת בשלמותה בתוך קופסה אחרת. מי גדולה יותר?",
+    "options": ["הקופסה החיצונית", "הקופסה הפנימית", "שוות בגודלן", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "אם קופסה אחת נכנסת בתוך השנייה, החיצונית היא בעלת הנפח הגדול יותר."
+  },
+  {
+    "id": "q-g2-vol-7",
+    "topic_id": "g2-volume-compare",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שתי קופסאות בצורות שונות לגמרי — איך משווים את הנפח שלהן?",
+    "options": ["משתמשים במתווך כמו חול או מים", "בודקים רק את הגובה", "בודקים רק את הצבע", "אי אפשר להשוות בכלל"],
+    "correct_index": 0,
+    "explanation": "כשההשוואה הישירה קשה, ממלאים בחומר מתווך ומשווים כמויות."
+  },
+  {
+    "id": "q-g2-vol-8",
+    "topic_id": "g2-volume-compare",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם כלי א' מלא יותר חול מכלי ב' (באמצעות אותו מתווך), מה נכון?",
+    "options": ["לכלי א' יש נפח גדול יותר", "לכלי ב' יש נפח גדול יותר", "לשניהם אותו נפח", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "כמות חול גדולה יותר בכלי מעידה על נפח גדול יותר."
+  },
+  {
+    "id": "q-g2-vol-9",
+    "topic_id": "g2-volume-compare",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שני כלים שונים בצורתם מכילים בדיוק את אותה כמות מים. מה ניתן לומר עליהם?",
+    "options": ["יש להם אותו נפח", "הם באותה צורה", "הם באותו משקל", "הם עשויים מאותו חומר"],
+    "correct_index": 0,
+    "explanation": "אם הם מכילים אותה כמות בדיוק, נפחם שווה — גם אם צורתם שונה."
+  },
+  {
+    "id": "q-g2-vol-10",
+    "topic_id": "g2-volume-compare",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מה נכון להגיד על השוואת נפחים בכיתה ב'?",
+    "options": ["אפשר להשוות נפחים גם בלי לדעת נוסחה", "חובה לדעת נוסחת נפח כדי להשוות", "אי אפשר להשוות נפחים בשום דרך", "משווים נפחים רק לפי משקל"],
+    "correct_index": 0,
+    "explanation": "השוואה ישירה או באמצעות מתווך אינה דורשת נוסחה כלל."
+  },
+  {
+    "id": "q-g2-cube-1",
+    "topic_id": "g2-cube-building",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "תיבה עם שכבה של 5 קוביות ו-2 שכבות. כמה קוביות בסך הכול?",
+    "options": ["10", "7", "5", "25"],
+    "correct_index": 0,
+    "explanation": "5×2=10."
+  },
+  {
+    "id": "q-g2-cube-2",
+    "topic_id": "g2-cube-building",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "תיבה עם שכבה של 3 קוביות ו-3 שכבות. כמה קוביות בסך הכול?",
+    "options": ["9", "6", "3", "12"],
+    "correct_index": 0,
+    "explanation": "3×3=9."
+  },
+  {
+    "id": "q-g2-cube-3",
+    "topic_id": "g2-cube-building",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "תיבה עם שכבה של 6 קוביות ו-4 שכבות. כמה קוביות בסך הכול?",
+    "options": ["24", "10", "20", "18"],
+    "correct_index": 0,
+    "explanation": "6×4=24."
+  },
+  {
+    "id": "q-g2-cube-4",
+    "topic_id": "g2-cube-building",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שכבה מסודרת ב-2 שורות של 3 קוביות כל אחת. כמה קוביות בשכבה?",
+    "options": ["6", "5", "2", "3"],
+    "correct_index": 0,
+    "explanation": "2×3=6."
+  },
+  {
+    "id": "q-g2-cube-5",
+    "topic_id": "g2-cube-building",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "תיבה עם שכבה של 4 קוביות ו-5 שכבות. כמה קוביות בסך הכול?",
+    "options": ["20", "9", "24", "16"],
+    "correct_index": 0,
+    "explanation": "4×5=20."
+  },
+  {
+    "id": "q-g2-cube-6",
+    "topic_id": "g2-cube-building",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בתיבה יש 30 קוביות בסך הכול, ב-5 שכבות. כמה קוביות בכל שכבה?",
+    "options": ["6", "5", "25", "35"],
+    "correct_index": 0,
+    "explanation": "30÷5=6."
+  },
+  {
+    "id": "q-g2-cube-7",
+    "topic_id": "g2-cube-building",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בתיבה יש 24 קוביות, ובכל שכבה 8 קוביות. כמה שכבות יש?",
+    "options": ["3", "4", "2", "16"],
+    "correct_index": 0,
+    "explanation": "24÷8=3."
+  },
+  {
+    "id": "q-g2-cube-8",
+    "topic_id": "g2-cube-building",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שכבה מסודרת ב-3 שורות של 4 קוביות, ויש 2 שכבות. כמה קוביות בסך הכול?",
+    "options": ["24", "12", "20", "14"],
+    "correct_index": 0,
+    "explanation": "שכבה אחת: 3×4=12. סה\"כ: 12×2=24."
+  },
+  {
+    "id": "q-g2-cube-9",
+    "topic_id": "g2-cube-building",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה הדרך הנוחה לחשב מספר קוביות בתיבה, בלי לספור כל קובייה בנפרד?",
+    "options": ["כופלים קוביות בשכבה במספר שכבות", "מחברים את כל הצלעות", "מודדים בסרגל", "משתמשים בנוסחת שטח"],
+    "correct_index": 0,
+    "explanation": "כפל מספר הקוביות בשכבה במספר השכבות נותן את הסכום הכולל."
+  },
+  {
+    "id": "q-g2-cube-10",
+    "topic_id": "g2-cube-building",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שכבה מסודרת ב-5 שורות של 2 קוביות, ויש 3 שכבות. כמה קוביות בסך הכול?",
+    "options": ["30", "10", "15", "6"],
+    "correct_index": 0,
+    "explanation": "שכבה אחת: 5×2=10. סה\"כ: 10×3=30."
+  },
+  {
+    "id": "q-g2-clock-1",
+    "topic_id": "g2-clock",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "המחוג הארוך מצביע על 6. כמה זמן עבר מהשעה העגולה?",
+    "options": ["חצי שעה", "רבע שעה", "שעה שלמה", "עשר דקות"],
+    "correct_index": 0,
+    "explanation": "כשהמחוג הארוך על 6, עברה בדיוק חצי מעגל — חצי שעה."
+  },
+  {
+    "id": "q-g2-clock-2",
+    "topic_id": "g2-clock",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איך כותבים \"שלוש וחצי\" בשעון דיגיטלי?",
+    "options": ["3:30", "3:03", "30:3", "3:60"],
+    "correct_index": 0,
+    "explanation": "שלוש וחצי נכתבת 3:30."
+  },
+  {
+    "id": "q-g2-clock-3",
+    "topic_id": "g2-clock",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "המחוג הקצר בין 5 ל-6, והמחוג הארוך על 6. מה השעה?",
+    "options": ["5:30", "6:30", "5:06", "6:05"],
+    "correct_index": 0,
+    "explanation": "המחוג הקצר בין 5 ל-6 והארוך על 6 מציינים 5:30."
+  },
+  {
+    "id": "q-g2-clock-4",
+    "topic_id": "g2-clock",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שעון דיגיטלי מראה 7:30. איך אומרים את זה במילים?",
+    "options": ["שבע וחצי", "שמונה וחצי", "שלוש וחצי", "שבע ורבע"],
+    "correct_index": 0,
+    "explanation": "7:30 זו השעה \"שבע וחצי\"."
+  },
+  {
+    "id": "q-g2-clock-5",
+    "topic_id": "g2-clock",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פעילות מתחילה ב-9:00 ונמשכת חצי שעה. מתי היא מסתיימת?",
+    "options": ["9:30", "9:15", "10:00", "8:30"],
+    "correct_index": 0,
+    "explanation": "9:00 ועוד חצי שעה שווה ל-9:30."
+  },
+  {
+    "id": "q-g2-clock-6",
+    "topic_id": "g2-clock",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פעילות מתחילה ב-10:00 ונמשכת שעתיים. מתי היא מסתיימת?",
+    "options": ["12:00", "11:00", "10:02", "2:00"],
+    "correct_index": 0,
+    "explanation": "10+2=12, כלומר הפעילות מסתיימת ב-12:00."
+  },
+  {
+    "id": "q-g2-clock-7",
+    "topic_id": "g2-clock",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פעילות מתחילה ב-11:00 ונמשכת 3 שעות (חוצה את השעה 12:00). מתי היא מסתיימת?",
+    "options": ["2:00", "3:00", "12:00", "1:00"],
+    "correct_index": 0,
+    "explanation": "11:00 ועוד 3 שעות: 12:00, 1:00, 2:00 — מסתיימת ב-2:00."
+  },
+  {
+    "id": "q-g2-clock-8",
+    "topic_id": "g2-clock",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהשעה 10 בבוקר עד השעה 4 אחר הצוהריים, כמה שעות עברו?",
+    "options": ["6", "4", "10", "14"],
+    "correct_index": 0,
+    "explanation": "מ-10 עד 12 הן שעתיים, ומ-12 עד 4 הן עוד 4 שעות — סה\"כ 6."
+  },
+  {
+    "id": "q-g2-clock-9",
+    "topic_id": "g2-clock",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פעילות מתחילה ב-11:30 ונמשכת שעה. מתי היא מסתיימת?",
+    "options": ["12:30", "12:00", "1:30", "11:00"],
+    "correct_index": 0,
+    "explanation": "11:30 ועוד שעה שווה ל-12:30."
+  },
+  {
+    "id": "q-g2-clock-10",
+    "topic_id": "g2-clock",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "סרט מתחיל ב-11:00 בבוקר ומסתיים ב-1:00 אחר הצוהריים. כמה שעות נמשך הסרט?",
+    "options": ["2", "1", "3", "12"],
+    "correct_index": 0,
+    "explanation": "מ-11:00 עד 12:00 שעה אחת, ומ-12:00 עד 1:00 עוד שעה — סה\"כ 2 שעות."
+  },
+  {
+    "id": "q-g3-cnt-1",
+    "topic_id": "g3-counting-10000",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה המספר הבא בספירה בקפיצות של $10$: $120,130,140,\\_\\_$?",
+    "options": ["$150$", "$160$", "$145$", "$135$"],
+    "correct_index": 0,
+    "explanation": "קפיצה של $10$: $140+10=150$."
+  },
+  {
+    "id": "q-g3-cnt-2",
+    "topic_id": "g3-counting-10000",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה המספר הבא: $300,400,500,\\_\\_$ (קפיצות של $100$)?",
+    "options": ["$600$", "$550$", "$700$", "$650$"],
+    "correct_index": 0,
+    "explanation": "קפיצה של $100$: $500+100=600$."
+  },
+  {
+    "id": "q-g3-cnt-3",
+    "topic_id": "g3-counting-10000",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "סופרים בקפיצות של $50$ החל מ-$50$: $50,100,150,\\_\\_$?",
+    "options": ["$200$", "$250$", "$180$", "$220$"],
+    "correct_index": 0,
+    "explanation": "קפיצה של $50$: $150+50=200$."
+  },
+  {
+    "id": "q-g3-cnt-4",
+    "topic_id": "g3-counting-10000",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "סופרים בקפיצות של $200$: $200,400,600,\\_\\_$?",
+    "options": ["$800$", "$700$", "$900$", "$1{,}000$"],
+    "correct_index": 0,
+    "explanation": "קפיצה של $200$: $600+200=800$."
+  },
+  {
+    "id": "q-g3-cnt-5",
+    "topic_id": "g3-counting-10000",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "סופרים בקפיצות של $25$: $25,50,75,\\_\\_$?",
+    "options": ["$100$", "$90$", "$110$", "$125$"],
+    "correct_index": 0,
+    "explanation": "קפיצה של $25$: $75+25=100$."
+  },
+  {
+    "id": "q-g3-cnt-6",
+    "topic_id": "g3-counting-10000",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "סופרים בקפיצות של $10$ החל מ-$138$: $138,148,158,\\_\\_$?",
+    "options": ["$168$", "$178$", "$148$", "$160$"],
+    "correct_index": 0,
+    "explanation": "ספרת היחידות ($8$) נשארת קבועה: $158+10=168$."
+  },
+  {
+    "id": "q-g3-cnt-7",
+    "topic_id": "g3-counting-10000",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "סופרים בקפיצות של $10$ החל מ-$247$: מה יבוא אחרי $267$?",
+    "options": ["$277$", "$270$", "$278$", "$257$"],
+    "correct_index": 0,
+    "explanation": "$267+10=277$, ספרת היחידות ($7$) נשארת קבועה."
+  },
+  {
+    "id": "q-g3-cnt-8",
+    "topic_id": "g3-counting-10000",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "סופרים לאחור בקפיצות של $50$: $500,450,400,\\_\\_$?",
+    "options": ["$350$", "$300$", "$375$", "$325$"],
+    "correct_index": 0,
+    "explanation": "$400-50=350$."
+  },
+  {
+    "id": "q-g3-cnt-9",
+    "topic_id": "g3-counting-10000",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "סופרים בקפיצות של $500$ החל מ-$500$: $500,1{,}000,1{,}500,\\_\\_$?",
+    "options": ["$2{,}000$", "$2{,}500$", "$1{,}800$", "$1{,}900$"],
+    "correct_index": 0,
+    "explanation": "$1{,}500+500=2{,}000$."
+  },
+  {
+    "id": "q-g3-cnt-10",
+    "topic_id": "g3-counting-10000",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בסדרת ספירה בקפיצות של $20$ החל מ-$14$: $14,34,54,\\_\\_$?",
+    "options": ["$74$", "$64$", "$84$", "$70$"],
+    "correct_index": 0,
+    "explanation": "$54+20=74$."
+  },
+  {
+    "id": "q-g3-cnt-11",
+    "topic_id": "g3-counting-10000",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "סופרים בקפיצות של $200$ לאחור החל מ-$1{,}000$: $1{,}000,800,600,\\_\\_$?",
+    "options": ["$400$", "$500$", "$300$", "$450$"],
+    "correct_index": 0,
+    "explanation": "$600-200=400$."
+  },
+  {
+    "id": "q-g3-gem-1",
+    "topic_id": "g3-gematria",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה הערך המספרי של האות א'?",
+    "options": ["$1$", "$10$", "$0$", "$2$"],
+    "correct_index": 0,
+    "explanation": "א' היא האות הראשונה, ערכה $1$."
+  },
+  {
+    "id": "q-g3-gem-2",
+    "topic_id": "g3-gematria",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה הערך המספרי של האות י'?",
+    "options": ["$10$", "$9$", "$1$", "$20$"],
+    "correct_index": 0,
+    "explanation": "האותיות א'-י' מייצגות $1$ עד $10$."
+  },
+  {
+    "id": "q-g3-gem-3",
+    "topic_id": "g3-gematria",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה הערך המספרי של האות כ'?",
+    "options": ["$20$", "$11$", "$2$", "$30$"],
+    "correct_index": 0,
+    "explanation": "האותיות כ'-צ' מייצגות עשרות: כ'$=20$."
+  },
+  {
+    "id": "q-g3-gem-4",
+    "topic_id": "g3-gematria",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה הערך המספרי של האות ק'?",
+    "options": ["$100$", "$19$", "$10$", "$200$"],
+    "correct_index": 0,
+    "explanation": "האותיות ק'-ת' מייצגות מאות: ק'$=100$."
+  },
+  {
+    "id": "q-g3-gem-5",
+    "topic_id": "g3-gematria",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הגימטריה של המילה \"אב\" (א$=1$, ב$=2$)?",
+    "options": ["$3$", "$12$", "$21$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$1+2=3$."
+  },
+  {
+    "id": "q-g3-gem-6",
+    "topic_id": "g3-gematria",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הגימטריה של המילה \"טוב\" (ט$=9$, ו$=6$, ב$=2$)?",
+    "options": ["$17$", "$71$", "$20$", "$15$"],
+    "correct_index": 0,
+    "explanation": "$9+6+2=17$."
+  },
+  {
+    "id": "q-g3-gem-7",
+    "topic_id": "g3-gematria",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הגימטריה של המילה \"חי\" (ח$=8$, י$=10$)?",
+    "options": ["$18$", "$80$", "$810$", "$28$"],
+    "correct_index": 0,
+    "explanation": "$8+10=18$."
+  },
+  {
+    "id": "q-g3-gem-8",
+    "topic_id": "g3-gematria",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזו מהמילים \"בג\" ו-\"גב\" (ב$=2$, ג$=3$) יש לה גימטריה גדולה יותר?",
+    "options": ["שתיהן שוות ($5$)", "\"בג\" גדולה יותר", "\"גב\" גדולה יותר", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "בגימטריה סדר האותיות לא משנה — $2+3=5$ בשני המקרים."
+  },
+  {
+    "id": "q-g3-gem-9",
+    "topic_id": "g3-gematria",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי הגימטריה של המילה \"שלום\" (ש$=300$, ל$=30$, ו$=6$, ם$=40$)?",
+    "options": ["$376$", "$370$", "$336$", "$406$"],
+    "correct_index": 0,
+    "explanation": "$300+30+6+40=376$."
+  },
+  {
+    "id": "q-g3-gem-10",
+    "topic_id": "g3-gematria",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במערכת הגימטריה, בשונה מהמבנה העשרוני של המספרים —",
+    "options": ["אין משמעות למקום האות במילה", "כל אות שווה תמיד $1$", "אין אותיות שמייצגות מעל $10$", "סדר האותיות קובע את הכול"],
+    "correct_index": 0,
+    "explanation": "בגימטריה סופרים רק את סכום הערכים, בלי קשר למקום האות במילה."
+  },
+  {
+    "id": "q-g3-gem-11",
+    "topic_id": "g3-gematria",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מילה בת שתי אותיות שהגימטריה שלה היא $23$. איזה זוג ערכי אותיות מתאים?",
+    "options": ["$20+3$", "$10+10$", "$100+(-77)$", "$1+22$"],
+    "correct_index": 0,
+    "explanation": "כ'$=20$ וג'$=3$: $20+3=23$. שאר האפשרויות אינן ערכי אותיות תקינים או לא מסתכמות ל-$23$."
+  },
+  {
+    "id": "q-g3-seq-1",
+    "topic_id": "g3-sequences",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה המספר הבא בסדרה: $5,15,25,35,\\_\\_$?",
+    "options": ["$45$", "$40$", "$50$", "$55$"],
+    "correct_index": 0,
+    "explanation": "קפיצה קבועה של $10$."
+  },
+  {
+    "id": "q-g3-seq-2",
+    "topic_id": "g3-sequences",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה המספר הבא: $100,200,300,\\_\\_$?",
+    "options": ["$400$", "$350$", "$500$", "$450$"],
+    "correct_index": 0,
+    "explanation": "קפיצה קבועה של $100$."
+  },
+  {
+    "id": "q-g3-seq-3",
+    "topic_id": "g3-sequences",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה המספר הבא בסדרה היורדת: $900,800,700,\\_\\_$?",
+    "options": ["$600$", "$650$", "$500$", "$750$"],
+    "correct_index": 0,
+    "explanation": "קפיצה יורדת קבועה של $100$."
+  },
+  {
+    "id": "q-g3-seq-4",
+    "topic_id": "g3-sequences",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה המספר הבא: $50,200,350,\\_\\_$ (קפיצה של $150$)?",
+    "options": ["$500$", "$450$", "$400$", "$550$"],
+    "correct_index": 0,
+    "explanation": "$350+150=500$."
+  },
+  {
+    "id": "q-g3-seq-5",
+    "topic_id": "g3-sequences",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה המספר הבא בסדרה: $2{,}000,3{,}000,4{,}000,\\_\\_$?",
+    "options": ["$5{,}000$", "$4{,}500$", "$6{,}000$", "$5{,}500$"],
+    "correct_index": 0,
+    "explanation": "קפיצה קבועה של $1{,}000$."
+  },
+  {
+    "id": "q-g3-seq-6",
+    "topic_id": "g3-sequences",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בסדרה המעורבת $1,3,2,4,3,5,\\_\\_,\\_\\_$ מה שני האיברים הבאים?",
+    "options": ["$4,6$", "$5,7$", "$4,5$", "$3,4$"],
+    "correct_index": 0,
+    "explanation": "המקומות האי-זוגיים $1,2,3,\\_$ עולים ב-$1$ (הבא: $4$), המקומות הזוגיים $3,4,5,\\_$ עולים ב-$1$ (הבא: $6$)."
+  },
+  {
+    "id": "q-g3-seq-7",
+    "topic_id": "g3-sequences",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בסדרה $10,20,31,40,50$ יש טעות. מה המספר הנכון במקום $31$?",
+    "options": ["$30$", "$32$", "$29$", "$35$"],
+    "correct_index": 0,
+    "explanation": "הקפיצה בסדרה היא $10$, ולכן אחרי $20$ צריך לבוא $30$."
+  },
+  {
+    "id": "q-g3-seq-8",
+    "topic_id": "g3-sequences",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בסדרה $7,14,21,28,\\_\\_$ מה האיבר הבא?",
+    "options": ["$35$", "$32$", "$30$", "$42$"],
+    "correct_index": 0,
+    "explanation": "קפיצה קבועה של $7$: $28+7=35$."
+  },
+  {
+    "id": "q-g3-seq-9",
+    "topic_id": "g3-sequences",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בסדרה המעורבת $2,10,4,12,6,14,\\_\\_,\\_\\_$ מה שני האיברים הבאים?",
+    "options": ["$8,16$", "$10,18$", "$8,18$", "$6,16$"],
+    "correct_index": 0,
+    "explanation": "תת-הסדרה הראשונה $2,4,6,\\_$ עולה ב-$2$ (הבא: $8$), תת-הסדרה השנייה $10,12,14,\\_$ עולה ב-$2$ (הבא: $16$)."
+  },
+  {
+    "id": "q-g3-seq-10",
+    "topic_id": "g3-sequences",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בסדרה $1{,}000,900,800,\\_\\_,600$ מה חסר?",
+    "options": ["$700$", "$750$", "$650$", "$800$"],
+    "correct_index": 0,
+    "explanation": "קפיצה יורדת קבועה של $100$: $800-100=700$."
+  },
+  {
+    "id": "q-g3-seq-11",
+    "topic_id": "g3-sequences",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בסדרה $3,9,2,8,1,7,\\_\\_,\\_\\_$ מה שני האיברים הבאים?",
+    "options": ["$0,6$", "$1,6$", "$0,5$", "$2,6$"],
+    "correct_index": 0,
+    "explanation": "תת-הסדרה הראשונה $3,2,1,\\_$ יורדת ב-$1$ (הבא: $0$), תת-הסדרה השנייה $9,8,7,\\_$ יורדת ב-$1$ (הבא: $6$)."
+  },
+  {
+    "id": "q-g3-div-1",
+    "topic_id": "g3-divisibility",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם $348$ מתחלק ב-$2$?",
+    "options": ["כן, כי היחידות היא $8$ (זוגית)", "לא", "רק ב-$5$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "ספרת היחידות $8$ זוגית, לכן המספר מתחלק ב-$2$."
+  },
+  {
+    "id": "q-g3-div-2",
+    "topic_id": "g3-divisibility",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם $735$ מתחלק ב-$5$?",
+    "options": ["כן, כי היחידות היא $5$", "לא", "רק ב-$10$", "רק ב-$2$"],
+    "correct_index": 0,
+    "explanation": "ספרת היחידות $5$, לכן המספר מתחלק ב-$5$."
+  },
+  {
+    "id": "q-g3-div-3",
+    "topic_id": "g3-divisibility",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם $920$ מתחלק ב-$10$?",
+    "options": ["כן, כי היחידות היא $0$", "לא", "רק ב-$5$", "רק ב-$2$"],
+    "correct_index": 0,
+    "explanation": "ספרת היחידות $0$, לכן המספר מתחלק ב-$10$."
+  },
+  {
+    "id": "q-g3-div-4",
+    "topic_id": "g3-divisibility",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים מתחלק ב-$2$?",
+    "options": ["$246$", "$247$", "$253$", "$361$"],
+    "correct_index": 0,
+    "explanation": "ספרת היחידות $6$ זוגית."
+  },
+  {
+    "id": "q-g3-div-5",
+    "topic_id": "g3-divisibility",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים מתחלק ב-$5$?",
+    "options": ["$615$", "$616$", "$617$", "$618$"],
+    "correct_index": 0,
+    "explanation": "ספרת היחידות $5$."
+  },
+  {
+    "id": "q-g3-div-6",
+    "topic_id": "g3-divisibility",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים מתחלק גם ב-$2$ וגם ב-$5$ (ולכן גם ב-$10$)?",
+    "options": ["$430$", "$435$", "$432$", "$431$"],
+    "correct_index": 0,
+    "explanation": "ספרת היחידות $0$ — מתחלק ב-$2$, ב-$5$ וב-$10$."
+  },
+  {
+    "id": "q-g3-div-7",
+    "topic_id": "g3-divisibility",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מספר שספרת היחידות שלו היא $4$ — מתחלק ב:",
+    "options": ["$2$ בלבד", "$5$ בלבד", "$10$ בלבד", "גם $2$ וגם $5$"],
+    "correct_index": 0,
+    "explanation": "$4$ זוגית אך אינה $0$ או $5$, לכן מתחלק רק ב-$2$."
+  },
+  {
+    "id": "q-g3-div-8",
+    "topic_id": "g3-divisibility",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מדוע כל מספר שמסתיים ב-$0$ מתחלק גם ב-$2$ וגם ב-$5$?",
+    "options": ["כי כל עשרת שלמה מתחלקת בשניהם", "כי $0$ הוא מספר זוגי בלבד", "זה לא נכון", "כי $0$ גדול מ-$5$"],
+    "correct_index": 0,
+    "explanation": "כל עשרת שלמה ($10,20,30\\ldots$) מתחלקת בדיוק ב-$2$, ב-$5$ וב-$10$."
+  },
+  {
+    "id": "q-g3-div-9",
+    "topic_id": "g3-divisibility",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים אינו מתחלק לא ב-$2$ ולא ב-$5$?",
+    "options": ["$347$", "$340$", "$345$", "$342$"],
+    "correct_index": 0,
+    "explanation": "ספרת היחידות $7$ אינה זוגית ואינה $0$ או $5$."
+  },
+  {
+    "id": "q-g3-div-10",
+    "topic_id": "g3-divisibility",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מספר בן $4$ ספרות מסתיים ב-$6$. הוא מתחלק ב:",
+    "options": ["$2$ בלבד", "$5$ בלבד", "$10$", "גם $2$ וגם $5$"],
+    "correct_index": 0,
+    "explanation": "$6$ זוגית אך אינה $0$ או $5$."
+  },
+  {
+    "id": "q-g3-div-11",
+    "topic_id": "g3-divisibility",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כמה מבין המספרים $121,122,123,124,125$ מתחלקים ב-$2$ או ב-$5$?",
+    "options": ["$3$", "$2$", "$4$", "$5$"],
+    "correct_index": 0,
+    "explanation": "$122,124$ מתחלקים ב-$2$, ו-$125$ מתחלק ב-$5$ — סה\"כ $3$."
+  },
+  {
+    "id": "q-g3-rem-1",
+    "topic_id": "g3-division-remainder",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$13:4=$",
+    "options": ["$3$ שארית $1$", "$3$ שארית $0$", "$4$ שארית $1$", "$2$ שארית $3$"],
+    "correct_index": 0,
+    "explanation": "$4\\times3=12$, ונשאר $1$."
+  },
+  {
+    "id": "q-g3-rem-2",
+    "topic_id": "g3-division-remainder",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$17:5=$",
+    "options": ["$3$ שארית $2$", "$3$ שארית $0$", "$4$ שארית $1$", "$2$ שארית $3$"],
+    "correct_index": 0,
+    "explanation": "$5\\times3=15$, ונשאר $2$."
+  },
+  {
+    "id": "q-g3-rem-3",
+    "topic_id": "g3-division-remainder",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$22:6=$",
+    "options": ["$3$ שארית $4$", "$4$ שארית $2$", "$3$ שארית $3$", "$2$ שארית $4$"],
+    "correct_index": 0,
+    "explanation": "$6\\times3=18$, ונשאר $4$."
+  },
+  {
+    "id": "q-g3-rem-4",
+    "topic_id": "g3-division-remainder",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בודקים את $13:4=3$ שארית $1$ באמצעות: $3\\times4+1=$",
+    "options": ["$13$", "$12$", "$14$", "$17$"],
+    "correct_index": 0,
+    "explanation": "$3\\times4+1=12+1=13$, תואם למספר המקורי."
+  },
+  {
+    "id": "q-g3-rem-5",
+    "topic_id": "g3-division-remainder",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם $19:5=3$ שארית $4$, איך בודקים שזה נכון?",
+    "options": ["$3\\times5+4=19$", "$3+5+4=19$", "$3\\times5-4=19$", "$5\\times4+3=19$"],
+    "correct_index": 0,
+    "explanation": "מנה $\\times$ מחלק $+$ שארית $=$ המספר המקורי."
+  },
+  {
+    "id": "q-g3-rem-6",
+    "topic_id": "g3-division-remainder",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "יש $22$ עוגיות, אורזים $5$ בשקית. כמה שקיות מלאות אפשר למלא, וכמה עוגיות יישארו?",
+    "options": ["$4$ שקיות, $2$ עוגיות", "$5$ שקיות, $0$ עוגיות", "$4$ שקיות, $3$ עוגיות", "$3$ שקיות, $7$ עוגיות"],
+    "correct_index": 0,
+    "explanation": "$22:5=4$ שארית $2$."
+  },
+  {
+    "id": "q-g3-rem-7",
+    "topic_id": "g3-division-remainder",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם $13:4$ ו-$17:7$ נותנים אותה תוצאה?",
+    "options": ["לא, הן שונות לגמרי", "כן, שתיהן שוות ל-$3$ שארית $3$", "כן, שתיהן שוות ל-$3$ שארית $1$", "כן, תמיד כשיש שארית"],
+    "correct_index": 0,
+    "explanation": "$13:4=3$ שארית $1$, ואילו $17:7=2$ שארית $3$ — תרגילים שונים לגמרי."
+  },
+  {
+    "id": "q-g3-rem-8",
+    "topic_id": "g3-division-remainder",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "יש $35$ תלמידים, כל קבוצה מכילה $8$ תלמידים. כמה קבוצות מלאות יש, וכמה תלמידים נשארים בלי קבוצה?",
+    "options": ["$4$ קבוצות, $3$ נשארים", "$5$ קבוצות, $0$ נשארים", "$4$ קבוצות, $4$ נשארים", "$3$ קבוצות, $11$ נשארים"],
+    "correct_index": 0,
+    "explanation": "$35:8=4$ שארית $3$."
+  },
+  {
+    "id": "q-g3-rem-9",
+    "topic_id": "g3-division-remainder",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "יש $35$ תלמידים ורוצים לחלק אותם לקבוצות של עד $8$, כך שכולם ישתתפו. כמה קבוצות צריך בסך הכול (כולל קבוצה חלקית)?",
+    "options": ["$5$", "$4$", "$6$", "$3$"],
+    "correct_index": 0,
+    "explanation": "$4$ קבוצות מלאות ($32$ תלמידים) ועוד קבוצה חלקית ל-$3$ הנותרים — סה\"כ $5$ קבוצות."
+  },
+  {
+    "id": "q-g3-rem-10",
+    "topic_id": "g3-division-remainder",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "אם $x:6=7$ שארית $2$, מהו $x$?",
+    "options": ["$44$", "$42$", "$45$", "$40$"],
+    "correct_index": 0,
+    "explanation": "$7\\times6+2=42+2=44$."
+  },
+  {
+    "id": "q-g3-rem-11",
+    "topic_id": "g3-division-remainder",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מספר מתחלק ב-$9$ ונותן מנה $4$ ושארית $5$. מהו המספר?",
+    "options": ["$41$", "$40$", "$45$", "$36$"],
+    "correct_index": 0,
+    "explanation": "$4\\times9+5=36+5=41$."
+  },
+  {
+    "id": "q-g3-dist-1",
+    "topic_id": "g3-distributive-law",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לפי סדר הפעולות, מה מחשבים קודם בביטוי $2\\times(3+4)$?",
+    "options": ["מה שבסוגריים: $3+4$", "הכפל: $2\\times3$", "הכפל: $2\\times4$", "זה לא משנה"],
+    "correct_index": 0,
+    "explanation": "תמיד מחשבים קודם את מה שבתוך הסוגריים."
+  },
+  {
+    "id": "q-g3-dist-2",
+    "topic_id": "g3-distributive-law",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$2\\times(3+4)=$",
+    "options": ["$14$", "$10$", "$9$", "$24$"],
+    "correct_index": 0,
+    "explanation": "$3+4=7$, ואז $2\\times7=14$."
+  },
+  {
+    "id": "q-g3-dist-3",
+    "topic_id": "g3-distributive-law",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפי חוק הפילוג, $5\\times(6+2)=$",
+    "options": ["$(5\\times6)+(5\\times2)$", "$5+6+2$", "$(5\\times6)-(5\\times2)$", "$5\\times6\\times2$"],
+    "correct_index": 0,
+    "explanation": "חוק הפילוג: $a\\times(b+c)=(a\\times b)+(a\\times c)$."
+  },
+  {
+    "id": "q-g3-dist-4",
+    "topic_id": "g3-distributive-law",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$23\\times9=(20\\times9)+(3\\times9)=180+27=$",
+    "options": ["$207$", "$203$", "$210$", "$197$"],
+    "correct_index": 0,
+    "explanation": "$180+27=207$."
+  },
+  {
+    "id": "q-g3-dist-5",
+    "topic_id": "g3-distributive-law",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חשבו לפי חוק הפילוג: $4\\times(10+5)=$",
+    "options": ["$60$", "$45$", "$50$", "$55$"],
+    "correct_index": 0,
+    "explanation": "$(4\\times10)+(4\\times5)=40+20=60$."
+  },
+  {
+    "id": "q-g3-dist-6",
+    "topic_id": "g3-distributive-law",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$3\\times29=(3\\times30)-(3\\times1)=90-3=$",
+    "options": ["$87$", "$90$", "$93$", "$83$"],
+    "correct_index": 0,
+    "explanation": "$90-3=87$."
+  },
+  {
+    "id": "q-g3-dist-7",
+    "topic_id": "g3-distributive-law",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו הביטוי השקול ל-$7\\times(20+3)$?",
+    "options": ["$(7\\times20)+(7\\times3)$", "$7+20+3$", "$(7\\times20)-(7\\times3)$", "$7\\times20\\times3$"],
+    "correct_index": 0,
+    "explanation": "חוק הפילוג הופך כפל בסכום לסכום של שני כפלים."
+  },
+  {
+    "id": "q-g3-dist-8",
+    "topic_id": "g3-distributive-law",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חשבו בעזרת חוק הפילוג: $6\\times49=6\\times(50-1)=$",
+    "options": ["$294$", "$300$", "$295$", "$290$"],
+    "correct_index": 0,
+    "explanation": "$(6\\times50)-(6\\times1)=300-6=294$."
+  },
+  {
+    "id": "q-g3-dist-9",
+    "topic_id": "g3-distributive-law",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו סדר הפעולות הנכון בביטוי $12-2\\times3$?",
+    "options": ["קודם הכפל: $12-(2\\times3)=6$", "קודם החיסור: $(12-2)\\times3=30$", "משמאל לימין: $(12-2)\\times3$", "זה לא משנה, שתי התשובות נכונות"],
+    "correct_index": 0,
+    "explanation": "כפל וחילוק מחושבים לפני חיבור וחיסור, גם בלי סוגריים."
+  },
+  {
+    "id": "q-g3-dist-10",
+    "topic_id": "g3-distributive-law",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבו: $2\\times(15+3\\times2)$",
+    "options": ["$42$", "$40$", "$36$", "$44$"],
+    "correct_index": 0,
+    "explanation": "בתוך הסוגריים מחשבים קודם $3\\times2=6$: $15+6=21$, ואז $2\\times21=42$."
+  },
+  {
+    "id": "q-g3-dist-11",
+    "topic_id": "g3-distributive-law",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מלבן שאורכו $9$ מחולק לשני חלקים: $6$ ו-$3$, ורוחבו $8$. השטח הכולל שווה ל:",
+    "options": ["$(6\\times8)+(3\\times8)=72$", "$6+3+8=17$", "$(6\\times8)-(3\\times8)=24$", "$6\\times3\\times8=144$"],
+    "correct_index": 0,
+    "explanation": "חוק הפילוג: $9\\times8=(6\\times8)+(3\\times8)=48+24=72$."
+  },
+  {
+    "id": "q-g3-mdbig-1",
+    "topic_id": "g3-mul-div-10000",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$20\\times300=$",
+    "options": ["$6{,}000$", "$600$", "$60{,}000$", "$2{,}300$"],
+    "correct_index": 0,
+    "explanation": "$2\\times3=6$, ומוסיפים את שלושת האפסים: $6{,}000$."
+  },
+  {
+    "id": "q-g3-mdbig-2",
+    "topic_id": "g3-mul-div-10000",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$2{,}400:10=$",
+    "options": ["$240$", "$24$", "$2{,}400$", "$2{,}440$"],
+    "correct_index": 0,
+    "explanation": "מחלקים ב-$10$ על ידי הסרת אפס אחד."
+  },
+  {
+    "id": "q-g3-mdbig-3",
+    "topic_id": "g3-mul-div-10000",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$8{,}000:8=$",
+    "options": ["$1{,}000$", "$100$", "$10{,}000$", "$800$"],
+    "correct_index": 0,
+    "explanation": "$8:8=1$, ומשאירים את שלושת האפסים: $1{,}000$."
+  },
+  {
+    "id": "q-g3-mdbig-4",
+    "topic_id": "g3-mul-div-10000",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם $8{,}700:\\square=87$, מהו $\\square$?",
+    "options": ["$100$", "$10$", "$1{,}000$", "$87$"],
+    "correct_index": 0,
+    "explanation": "$8{,}700:100=87$."
+  },
+  {
+    "id": "q-g3-mdbig-5",
+    "topic_id": "g3-mul-div-10000",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$40\\times200=$",
+    "options": ["$8{,}000$", "$800$", "$80{,}000$", "$6{,}000$"],
+    "correct_index": 0,
+    "explanation": "$4\\times2=8$, ומוסיפים את שלושת האפסים: $8{,}000$."
+  },
+  {
+    "id": "q-g3-mdbig-6",
+    "topic_id": "g3-mul-div-10000",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$6{,}000:2=$",
+    "options": ["$3{,}000$", "$300$", "$30{,}000$", "$3{,}600$"],
+    "correct_index": 0,
+    "explanation": "מחלקים את הספרה המובילה ($6:2=3$) ומשאירים את האפסים."
+  },
+  {
+    "id": "q-g3-mdbig-7",
+    "topic_id": "g3-mul-div-10000",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$9{,}000:3=$",
+    "options": ["$3{,}000$", "$300$", "$30{,}000$", "$6{,}000$"],
+    "correct_index": 0,
+    "explanation": "$9:3=3$, ומשאירים את שלושת האפסים."
+  },
+  {
+    "id": "q-g3-mdbig-8",
+    "topic_id": "g3-mul-div-10000",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$84:4=(80:4)+(4:4)=20+1=$",
+    "options": ["$21$", "$20$", "$24$", "$22$"],
+    "correct_index": 0,
+    "explanation": "$20+1=21$."
+  },
+  {
+    "id": "q-g3-mdbig-9",
+    "topic_id": "g3-mul-div-10000",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$96:4=(80:4)+(16:4)=20+4=$",
+    "options": ["$24$", "$20$", "$26$", "$25$"],
+    "correct_index": 0,
+    "explanation": "$20+4=24$."
+  },
+  {
+    "id": "q-g3-mdbig-10",
+    "topic_id": "g3-mul-div-10000",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$50\\times400=$",
+    "options": ["$20{,}000$", "$2{,}000$", "$200{,}000$", "$9{,}000$"],
+    "correct_index": 0,
+    "explanation": "$5\\times4=20$, ומוסיפים את שלושת האפסים: $20{,}000$."
+  },
+  {
+    "id": "q-g3-mdbig-11",
+    "topic_id": "g3-mul-div-10000",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "$72:6$ מחושב על ידי פירוק $72=60+12$. מהי התוצאה?",
+    "options": ["$12$", "$11$", "$13$", "$10$"],
+    "correct_index": 0,
+    "explanation": "$60:6=10$, $12:6=2$, סה\"כ $10+2=12$."
+  },
+  {
+    "id": "q-g3-net-1",
+    "topic_id": "g3-box-net",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה נקראת הצורה השטוחה שמתקפלת לגוף תלת-ממדי?",
+    "options": ["פריסה", "היקף", "שטח", "קודקוד"],
+    "correct_index": 0,
+    "explanation": "פריסה היא צורה שטוחה שמקפלים אותה לגוף סגור."
+  },
+  {
+    "id": "q-g3-net-2",
+    "topic_id": "g3-box-net",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לקובייה יש כמה פאות?",
+    "options": ["$6$", "$4$", "$8$", "$12$"],
+    "correct_index": 0,
+    "explanation": "לקובייה יש $6$ פאות ריבועיות זהות."
+  },
+  {
+    "id": "q-g3-net-3",
+    "topic_id": "g3-box-net",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אילו צורות מרכיבות פריסה של קובייה?",
+    "options": ["$6$ ריבועים זהים", "$6$ מלבנים שונים", "$4$ משולשים", "$3$ מלבנים בלבד"],
+    "correct_index": 0,
+    "explanation": "כל שש הפאות של קובייה הן ריבועים זהים."
+  },
+  {
+    "id": "q-g3-net-4",
+    "topic_id": "g3-box-net",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כדי לבנות תיבה (קופסה) מ-$6$ מלבנים, כמה זוגות של מלבנים זהים צריך?",
+    "options": ["$3$", "$6$", "$2$", "$1$"],
+    "correct_index": 0,
+    "explanation": "צריך $3$ זוגות: תחתית-עליון, צדדים, חזית-גב."
+  },
+  {
+    "id": "q-g3-net-5",
+    "topic_id": "g3-box-net",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם בקיפול פריסה נוצרים חורים בין הפאות, הפריסה:",
+    "options": ["אינה תקינה", "תקינה", "זה לא משנה", "זה תלוי בצבע"],
+    "correct_index": 0,
+    "explanation": "פריסה תקינה חייבת להתקפל בלי חורים או חפיפות."
+  },
+  {
+    "id": "q-g3-net-6",
+    "topic_id": "g3-box-net",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם לאותה קובייה יכולות להתאים כמה פריסות שונות?",
+    "options": ["כן", "לא, רק אחת", "רק אם הקובייה גדולה", "רק אם היא צבועה"],
+    "correct_index": 0,
+    "explanation": "לקובייה יש כמה צורות \"צלב\" שונות שכולן מתקפלות לקובייה תקינה."
+  },
+  {
+    "id": "q-g3-net-7",
+    "topic_id": "g3-box-net",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קובייה היא מקרה פרטי של:",
+    "options": ["תיבה (קופסה)", "גליל", "מנסרה משולשת", "מעגל"],
+    "correct_index": 0,
+    "explanation": "קובייה היא תיבה שבה כל שש הפאות ריבועים זהים."
+  },
+  {
+    "id": "q-g3-net-8",
+    "topic_id": "g3-box-net",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בפריסת תיבה, איזה זוג פאות תמיד יהיה זהה?",
+    "options": ["תחתית ועליון (וכן שאר הזוגות המנוגדים)", "כל שש הפאות שונות", "רק פאה אחת קיימת", "אין קשר בין הפאות"],
+    "correct_index": 0,
+    "explanation": "בכל תיבה יש שלושה זוגות של פאות מנוגדות זהות."
+  },
+  {
+    "id": "q-g3-net-9",
+    "topic_id": "g3-box-net",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פריסה של תיבה מורכבת מ-$6$ מלבנים. אם שניים הם $4\\times3$ ושניים הם $4\\times2$, כמה מלבנים בגודל $3\\times2$ צריכים להיות?",
+    "options": ["$2$", "$1$", "$3$", "$4$"],
+    "correct_index": 0,
+    "explanation": "בתיבה יש $3$ זוגות פאות זהות — הזוג השלישי חייב להיות $2$ מלבנים בגודל $3\\times2$."
+  },
+  {
+    "id": "q-g3-net-10",
+    "topic_id": "g3-box-net",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כאשר בונים תיבה, איזה תנאי הכרחי לגבי המלבנים שנבחרים?",
+    "options": ["שלושה זוגות זהים המתאימים זה לזה בצלעות", "כל המלבנים חייבים להיות זהים", "חייבים בדיוק $4$ מלבנים", "אין שום תנאי"],
+    "correct_index": 0,
+    "explanation": "רק שלושה זוגות מלבנים זהים ומתאימים יוצרים תיבה סגורה."
+  },
+  {
+    "id": "q-g3-net-11",
+    "topic_id": "g3-box-net",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פריסה בצורת \"צלב\" עם $6$ ריבועים זהים מתקפלת ל:",
+    "options": ["קובייה", "תיבה מלבנית (לא קובייה)", "גליל", "פירמידה"],
+    "correct_index": 0,
+    "explanation": "$6$ ריבועים זהים בצורת צלב הם פריסה קלאסית של קובייה."
+  },
+  {
+    "id": "q-g3-clk-1",
+    "topic_id": "g3-clock-minutes",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כל מרווח בין שני מספרים עוקבים על השעון שווה ל:",
+    "options": ["$5$ דקות", "$1$ דקה", "$10$ דקות", "$15$ דקות"],
+    "correct_index": 0,
+    "explanation": "השעון מחולק ל-$12$ מרווחים של $5$ דקות כל אחד ($12\\times5=60$)."
+  },
+  {
+    "id": "q-g3-clk-2",
+    "topic_id": "g3-clock-minutes",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "המחוג הארוך מצביע על ה-$6$. כמה דקות עברו מהשעה העגולה?",
+    "options": ["$30$", "$6$", "$15$", "$45$"],
+    "correct_index": 0,
+    "explanation": "$6\\times5=30$ דקות."
+  },
+  {
+    "id": "q-g3-clk-3",
+    "topic_id": "g3-clock-minutes",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "המחוג הארוך מצביע על ה-$7$. כמה דקות עברו?",
+    "options": ["$35$", "$7$", "$42$", "$28$"],
+    "correct_index": 0,
+    "explanation": "$7\\times5=35$ דקות."
+  },
+  {
+    "id": "q-g3-clk-4",
+    "topic_id": "g3-clock-minutes",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כיצד כותבים בשעון דיגיטלי את השעה \"שלוש ו-$35$ דקות\"?",
+    "options": ["$3{:}35$", "$35{:}3$", "$3.35$ בלילה", "$3{:}05$"],
+    "correct_index": 0,
+    "explanation": "שעון דיגיטלי מציג שעה:דקות."
+  },
+  {
+    "id": "q-g3-clk-5",
+    "topic_id": "g3-clock-minutes",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי השעה $15{:}00$ במונחי בוקר/אחר-הצוהריים?",
+    "options": ["$3$ אחר הצוהריים", "$3$ בבוקר", "$5$ אחר הצוהריים", "$1$ אחר הצוהריים"],
+    "correct_index": 0,
+    "explanation": "$15-12=3$."
+  },
+  {
+    "id": "q-g3-clk-6",
+    "topic_id": "g3-clock-minutes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי השעה $20{:}00$ במונחי שעון $12$-שעתי?",
+    "options": ["$8$ בערב", "$8$ בבוקר", "$10$ בערב", "$2$ בלילה"],
+    "correct_index": 0,
+    "explanation": "$20-12=8$."
+  },
+  {
+    "id": "q-g3-clk-7",
+    "topic_id": "g3-clock-minutes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פעילות מתחילה ב-$9{:}20$ ומסתיימת ב-$10{:}05$. כמה זמן נמשכה?",
+    "options": ["$45$ דקות", "$35$ דקות", "$55$ דקות", "$40$ דקות"],
+    "correct_index": 0,
+    "explanation": "מ-$9{:}20$ עד $10{:}00$ עברו $40$ דקות, ועוד $5$ דקות עד $10{:}05$ — סה\"כ $45$."
+  },
+  {
+    "id": "q-g3-clk-8",
+    "topic_id": "g3-clock-minutes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "המחוג הארוך מצביע על ה-$10$. כמה דקות עברו?",
+    "options": ["$50$", "$10$", "$40$", "$45$"],
+    "correct_index": 0,
+    "explanation": "$10\\times5=50$ דקות."
+  },
+  {
+    "id": "q-g3-clk-9",
+    "topic_id": "g3-clock-minutes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שיעור מתחיל ב-$13{:}45$ ונמשך $50$ דקות. באיזו שעה הוא מסתיים?",
+    "options": ["$14{:}35$", "$14{:}45$", "$13{:}95$", "$15{:}35$"],
+    "correct_index": 0,
+    "explanation": "מ-$13{:}45$ עד $14{:}00$ עוברות $15$ דקות, ונשארות עוד $35$ דקות: $14{:}35$."
+  },
+  {
+    "id": "q-g3-clk-10",
+    "topic_id": "g3-clock-minutes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "רכבת יוצאת ב-$23{:}00$ (שעון $24$ שעות). מהי השעה בשעון $12$-שעתי?",
+    "options": ["$11$ בלילה", "$11$ בבוקר", "$1$ בלילה", "$9$ בערב"],
+    "correct_index": 0,
+    "explanation": "$23-12=11$."
+  },
+  {
+    "id": "q-g3-clk-11",
+    "topic_id": "g3-clock-minutes",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "סרט מתחיל ב-$21{:}40$ ונמשך שעה ו-$35$ דקות. באיזו שעה (שעון $24$) הוא מסתיים?",
+    "options": ["$23{:}15$", "$22{:}75$", "$23{:}05$", "$22{:}15$"],
+    "correct_index": 0,
+    "explanation": "$21{:}40$ ועוד שעה $=22{:}40$, ועוד $35$ דקות $=23{:}15$."
+  },
+  {
+    "id": "q-g3-data-1",
+    "topic_id": "g3-data",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כדי לאסוף מידע על ידי שאלת אנשים משתמשים ב:",
+    "options": ["שאלון", "תצפית", "פיקטוגרם", "מקרא"],
+    "correct_index": 0,
+    "explanation": "שאלון הוא כלי לאיסוף מידע על ידי שאלת אנשים."
+  },
+  {
+    "id": "q-g3-data-2",
+    "topic_id": "g3-data",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עמודות כפולה משווים:",
+    "options": ["שתי קבוצות נתונים באותו גרף", "רק קבוצה אחת", "שלוש קבוצות תמיד", "אין השוואה כלל"],
+    "correct_index": 0,
+    "explanation": "דיאגרמת עמודות כפולה מציגה שתי קבוצות נתונים זו לצד זו."
+  },
+  {
+    "id": "q-g3-data-3",
+    "topic_id": "g3-data",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה תפקיד המקרא (לג'נדה) בגרף עמודות כפול?",
+    "options": ["להסביר איזה צבע מייצג איזו קבוצה", "לקשט את הגרף", "לספור את הסך הכול", "לשנות את הצירים"],
+    "correct_index": 0,
+    "explanation": "המקרא מסביר מה מסמל כל צבע בגרף."
+  },
+  {
+    "id": "q-g3-data-4",
+    "topic_id": "g3-data",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אילו שלוש דרכים אפשר להציג את אותו מידע?",
+    "options": ["טבלה, דיאגרמת עמודות ופיקטוגרם", "רק טבלה", "רק גרף עוגה", "רק מספרים בודדים"],
+    "correct_index": 0,
+    "explanation": "אותו מידע אפשר להציג במספר ייצוגים שקולים."
+  },
+  {
+    "id": "q-g3-data-5",
+    "topic_id": "g3-data",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בכיתה, $12$ בנים ו-$8$ בנות בחרו בצבע כחול כצבע האהוב. בכמה יותר בנים מבנות בחרו בכחול?",
+    "options": ["$4$", "$20$", "$3$", "$5$"],
+    "correct_index": 0,
+    "explanation": "$12-8=4$."
+  },
+  {
+    "id": "q-g3-data-6",
+    "topic_id": "g3-data",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מדוע חשוב להוסיף מקרא לגרף עמודות כפול?",
+    "options": ["בלי מקרא לא נדע איזו עמודה שייכת לאיזו קבוצה", "המקרא הוא רק קישוט", "המקרא מחליף את הצירים", "אין צורך במקרא לעולם"],
+    "correct_index": 0,
+    "explanation": "בלי מקרא אי אפשר לדעת מה מסמל כל צבע."
+  },
+  {
+    "id": "q-g3-data-7",
+    "topic_id": "g3-data",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בגרף עמודות כפול: קבוצה א' ענתה $15$ ו-$10$ בשתי קטגוריות; קבוצה ב' ענתה $9$ ו-$14$ באותן קטגוריות. מה סך כל התשובות בקטגוריה הראשונה (א'+ב')?",
+    "options": ["$24$", "$25$", "$23$", "$26$"],
+    "correct_index": 0,
+    "explanation": "$15+9=24$."
+  },
+  {
+    "id": "q-g3-data-8",
+    "topic_id": "g3-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בסקר על חיות מחמד: $18$ ילדים בחרו כלב, $12$ בחרו חתול, $6$ בחרו דג. כמה ילדים ענו בסך הכול על הסקר?",
+    "options": ["$36$", "$30$", "$24$", "$18$"],
+    "correct_index": 0,
+    "explanation": "$18+12+6=36$."
+  },
+  {
+    "id": "q-g3-data-9",
+    "topic_id": "g3-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מאותו סקר (שאלה קודמת: $18$ כלב, $12$ חתול, $6$ דג), בכמה יותר ילדים בחרו בכלב מאשר בדג?",
+    "options": ["$12$", "$18$", "$6$", "$10$"],
+    "correct_index": 0,
+    "explanation": "$18-6=12$."
+  },
+  {
+    "id": "q-g3-data-10",
+    "topic_id": "g3-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אילו שני ייצוגים מציגים בדיוק את אותו מידע, רק בצורה שונה?",
+    "options": ["טבלה ודיאגרמת עמודות של אותם נתונים", "טבלה של כיתה א' ודיאגרמה של כיתה ב'", "שני גרפים על נושאים שונים", "אין שני ייצוגים כאלה"],
+    "correct_index": 0,
+    "explanation": "מעבר בין ייצוגים (טבלה, עמודות, פיקטוגרם) לא משנה את המידע עצמו."
+  },
+  {
+    "id": "q-g3-data-11",
+    "topic_id": "g3-data",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בגרף עמודות כפול המשווה בנים ובנות בשלוש קטגוריות (ספורט, אמנות, מדע): בנים - $10,6,14$; בנות - $8,12,9$. באיזו קטגוריה ההפרש בין בנים לבנות הוא הגדול ביותר?",
+    "options": ["אמנות (הפרש $6$)", "ספורט (הפרש $2$)", "מדע (הפרש $5$)", "אין הפרש בכלל"],
+    "correct_index": 0,
+    "explanation": "ספורט: $|10-8|=2$; אמנות: $|6-12|=6$; מדע: $|14-9|=5$. ההפרש הגדול ביותר הוא באמנות."
+  },
+  {
+    "id": "q-g3-asx-1",
+    "topic_id": "g3-add-sub-large",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מצאו את הערך החסר: $\\square+200=300+148$",
+    "options": ["$248$", "$252$", "$448$", "$148$"],
+    "correct_index": 0,
+    "explanation": "$300+148=448$, ולכן $\\square=448-200=248$."
+  },
+  {
+    "id": "q-g3-asx-2",
+    "topic_id": "g3-add-sub-large",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אמדו את התוצאה של $398+512$ על ידי עיגול המספרים למאות הקרובות",
+    "options": ["$\\approx900$", "$\\approx800$", "$\\approx1{,}000$", "$\\approx950$"],
+    "correct_index": 0,
+    "explanation": "$398\\approx400$, $512\\approx500$: $400+500=900$."
+  },
+  {
+    "id": "q-g3-asx-3",
+    "topic_id": "g3-add-sub-large",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפי עקרון ההזזה, $358+493$ שווה בדיוק לתרגיל:",
+    "options": ["$351+500$", "$350+490$", "$360+490$", "$358+500$"],
+    "correct_index": 0,
+    "explanation": "מזיזים $7$ מהאיבר הראשון לשני: $358-7=351$, $493+7=500$."
+  },
+  {
+    "id": "q-g3-asx-4",
+    "topic_id": "g3-add-sub-large",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מצאו $\\square$: $2{,}000+\\square=3{,}000+1{,}700$",
+    "options": ["$2{,}700$", "$2{,}300$", "$4{,}700$", "$1{,}000$"],
+    "correct_index": 0,
+    "explanation": "$3{,}000+1{,}700=4{,}700$, ולכן $\\square=4{,}700-2{,}000=2{,}700$."
+  },
+  {
+    "id": "q-g3-asx-5",
+    "topic_id": "g3-add-sub-large",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה תרגיל שווה בדיוק ל-$647-289$?",
+    "options": ["$650-292$", "$650-286$", "$640-289$", "$650-289$"],
+    "correct_index": 0,
+    "explanation": "מזיזים $3$ בשני האיברים: $647+3=650$, $289+3=292$ — ההפרש נשמר."
+  },
+  {
+    "id": "q-g3-mdx-1",
+    "topic_id": "g3-mul-div-100",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$8\\times1=$",
+    "options": ["$8$", "$0$", "$1$", "$9$"],
+    "correct_index": 0,
+    "explanation": "כל מספר כפול $1$ נשאר אותו מספר."
+  },
+  {
+    "id": "q-g3-mdx-2",
+    "topic_id": "g3-mul-div-100",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$8\\times0=$",
+    "options": ["$0$", "$8$", "$1$", "$80$"],
+    "correct_index": 0,
+    "explanation": "כל מספר כפול $0$ שווה $0$."
+  },
+  {
+    "id": "q-g3-mdx-3",
+    "topic_id": "g3-mul-div-100",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$9:1=$",
+    "options": ["$9$", "$1$", "$0$", "$10$"],
+    "correct_index": 0,
+    "explanation": "כל מספר מחולק ב-$1$ נשאר אותו מספר."
+  },
+  {
+    "id": "q-g3-mdx-4",
+    "topic_id": "g3-mul-div-100",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם $7\\times8=56$, כמה שווה $56:8$?",
+    "options": ["$7$", "$8$", "$6$", "$9$"],
+    "correct_index": 0,
+    "explanation": "כפל וחילוק הם פעולות הפוכות."
+  },
+  {
+    "id": "q-g3-mdx-5",
+    "topic_id": "g3-mul-div-100",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם $9\\times6=54$, איזה מהתרגילים הבאים גם נכון?",
+    "options": ["$54:6=9$", "$54:9=5$", "$54:6=6$", "$54:9=9$"],
+    "correct_index": 0,
+    "explanation": "כפל וחילוק הפוכים: $9\\times6=54 \\Leftrightarrow 54:6=9$."
+  },
+  {
+    "id": "q-g3-geox-1",
+    "topic_id": "g3-geometry",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זווית של $180°$ נקראת:",
+    "options": ["זווית שטוחה", "זווית ישרה", "זווית חדה", "זווית קהה"],
+    "correct_index": 0,
+    "explanation": "זווית שטוחה שווה בדיוק לקו ישר, $180°$."
+  },
+  {
+    "id": "q-g3-geox-2",
+    "topic_id": "g3-geometry",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה קובע את גודל הזווית?",
+    "options": ["מידת ה\"פתיחה\" בין הקווים", "אורך הקווים המצוירים", "הצבע של הזווית", "מיקום הזווית בדף"],
+    "correct_index": 0,
+    "explanation": "גודל הזווית תלוי רק בפתיחה בין הקווים, לא באורכם."
+  },
+  {
+    "id": "q-g3-geox-3",
+    "topic_id": "g3-geometry",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש שיש בו זווית אחת של $90°$ נקרא:",
+    "options": ["משולש ישר-זווית", "משולש חד-זוויות", "משולש קהה-זווית", "משולש שטוח"],
+    "correct_index": 0,
+    "explanation": "משולש ישר-זווית מכיל זווית ישרה אחת."
+  },
+  {
+    "id": "q-g3-geox-4",
+    "topic_id": "g3-geometry",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש שכל זוויותיו קטנות מ-$90°$ נקרא:",
+    "options": ["משולש חד-זוויות", "משולש ישר-זווית", "משולש קהה-זווית", "משולש שווה-צלעות בלבד"],
+    "correct_index": 0,
+    "explanation": "כל הזוויות חדות — לכן חד-זוויות."
+  },
+  {
+    "id": "q-g3-geox-5",
+    "topic_id": "g3-geometry",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש הוא גם \"ישר-זווית\" וגם \"שווה-שוקיים\". מה זה אומר?",
+    "options": ["יש בו זווית $90°$ ושתי צלעות שוות", "יש בו שלוש זוויות שוות", "כל צלעותיו שוות", "אין לו זוויות ישרות"],
+    "correct_index": 0,
+    "explanation": "סיווג כפול משלב את התכונה של הזוויות (ישר-זווית) עם התכונה של הצלעות (שווה-שוקיים)."
+  },
+  {
+    "id": "q-g3-arx-1",
+    "topic_id": "g3-area",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אפשר להשוות שטחים של שתי צורות על ידי:",
+    "options": ["הנחה ישירה אחת על השנייה", "מדידת ההיקף בלבד", "ספירת הצלעות", "צביעה בצבע זהה"],
+    "correct_index": 0,
+    "explanation": "השוואה ישירה מאפשרת לדעת איזו צורה גדולה יותר בלי למדוד."
+  },
+  {
+    "id": "q-g3-arx-2",
+    "topic_id": "g3-area",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם גוזרים צורה ומרכיבים אותה מחדש בסידור אחר, השטח:",
+    "options": ["נשאר אותו הדבר", "גדל תמיד", "קטן תמיד", "משתנה לפי הצבע"],
+    "correct_index": 0,
+    "explanation": "עיקרון הפירוק וההרכבה מחדש: השטח הכולל לא משתנה."
+  },
+  {
+    "id": "q-g3-arx-3",
+    "topic_id": "g3-area",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שתי צורות בעלות אותו שטח חייבות להיות בעלות:",
+    "options": ["לא בהכרח אותו היקף", "בהכרח אותו היקף", "אותה צורה בדיוק", "אותו מספר צלעות"],
+    "correct_index": 0,
+    "explanation": "שטח שווה לא אומר היקף שווה — אלו שתי תכונות נפרדות."
+  },
+  {
+    "id": "q-g3-arx-4",
+    "topic_id": "g3-area",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפני שימוש בסמ\"ר, אפשר למדוד שטח ביחידות:",
+    "options": ["לא רשמיות, כמו כרטיסים או כפות ידיים", "רק בקילומטרים", "רק במטרים", "אי אפשר למדוד בלי סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "אפשר למדוד שטח גם ביחידות לא-סטנדרטיות."
+  },
+  {
+    "id": "q-g3-arx-5",
+    "topic_id": "g3-area",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לשטחים גדולים (כמו שטח כיתה) משתמשים ביחידה:",
+    "options": ["מ\"ר (מטר רבוע)", "סמ\"ר בלבד", "ק\"מ בלבד", "ליטר"],
+    "correct_index": 0,
+    "explanation": "מ\"ר הוא היחידה הסטנדרטית לשטחים גדולים יותר מסמ\"ר."
   }
 ];
 
