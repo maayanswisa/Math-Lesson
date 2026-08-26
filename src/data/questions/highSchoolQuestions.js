@@ -20690,6 +20690,1706 @@ export const QUESTIONS = [
     "options": ["$16$", "$25$", "$9$", "$2$"],
     "correct_index": 0,
     "explanation": "$(\\vec u+\\vec v)\\cdot(\\vec u-\\vec v)=|\\vec u|^2-|\\vec v|^2=25-9=16$."
+  },
+  {
+    "id": "q-g12-u5-vint-1",
+    "topic_id": "g12-u5-vectors-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה מייחד וקטור ממספר סקלרי?",
+    "options": ["לווקטור יש גם גודל וגם כיוון", "לווקטור יש רק גודל", "וקטור הוא תמיד חיובי", "וקטור הוא תמיד מספר שלם"],
+    "correct_index": 0,
+    "explanation": "וקטור מייצג גודל וכיוון יחד, בעוד סקלר הוא מספר בלבד."
+  },
+  {
+    "id": "q-g12-u5-vint-2",
+    "topic_id": "g12-u5-vectors-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\overrightarrow{AA}$?",
+    "options": ["וקטור האפס", "וקטור יחידה", "וקטור נגדי", "אינו מוגדר"],
+    "correct_index": 0,
+    "explanation": "וקטור שראשו וזנבו זהים הוא וקטור האפס."
+  },
+  {
+    "id": "q-g12-u5-vint-3",
+    "topic_id": "g12-u5-vectors-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו הוקטור הנגדי ל-$\\overrightarrow{AB}$?",
+    "options": ["$\\overrightarrow{BA}$", "$\\overrightarrow{AB}$", "$2\\overrightarrow{AB}$", "$\\vec0$"],
+    "correct_index": 0,
+    "explanation": "$\\overrightarrow{BA}=-\\overrightarrow{AB}$."
+  },
+  {
+    "id": "q-g12-u5-vint-4",
+    "topic_id": "g12-u5-vectors-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "החוק $\\vec u+\\vec v=\\vec v+\\vec u$ נקרא:",
+    "options": ["חוק החילוף", "חוק הקיבוץ", "חוק הפילוג", "חוק הזהות"],
+    "correct_index": 0,
+    "explanation": "זהו חוק החילוף של החיבור הווקטורי."
+  },
+  {
+    "id": "q-g12-u5-vint-5",
+    "topic_id": "g12-u5-vectors-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בכלל המשולש לחיבור וקטורים, כיצד ממקמים את הוקטורים?",
+    "options": ["שמים את זנב $\\vec v$ בראש $\\vec u$", "שמים את שני הוקטורים באותה נקודת התחלה בלבד", "הופכים את כיוון $\\vec v$", "מכפילים את שניהם ב-$-1$"],
+    "correct_index": 0,
+    "explanation": "בכלל המשולש משרשרים: זנב $\\vec v$ מונח על ראש $\\vec u$, והסכום הוא הוקטור מזנב $\\vec u$ לראש $\\vec v$."
+  },
+  {
+    "id": "q-g12-u5-vint-6",
+    "topic_id": "g12-u5-vectors-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם $t=-2$, מה קורה לכיוון ולגודל של $\\vec u$ בכפל $t\\cdot\\vec u$?",
+    "options": ["הכיוון הופך, והאורך מוכפל פי $2$", "הכיוון נשאר, האורך מוכפל פי $2$", "הכיוון הופך, האורך נשאר", "אין שינוי"],
+    "correct_index": 0,
+    "explanation": "סקלר שלילי הופך את הכיוון, וערכו המוחלט קובע את יחס שינוי האורך."
+  },
+  {
+    "id": "q-g12-u5-vint-7",
+    "topic_id": "g12-u5-vectors-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם $\\vec u+\\vec v=\\vec0$, מה ניתן להסיק?",
+    "options": ["$\\vec v=-\\vec u$ (וקטורים נגדיים)", "$\\vec u=\\vec v$", "$\\vec u=\\vec0$ וגם $\\vec v=\\vec0$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "לפי קיום איבר נגדי, אם הסכום הוא וקטור האפס, הוקטורים הם נגדיים זה לזה."
+  },
+  {
+    "id": "q-g12-u5-vint-8",
+    "topic_id": "g12-u5-vectors-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $(\\vec u+\\vec v)+\\vec w$ לפי חוק הקיבוץ?",
+    "options": ["$\\vec u+(\\vec v+\\vec w)$", "$\\vec u+\\vec v-\\vec w$", "$(\\vec u+\\vec w)+\\vec v$ בלבד", "לא ניתן לפשט"],
+    "correct_index": 0,
+    "explanation": "חוק הקיבוץ מאפשר לשנות את סדר הביצוע של החיבורים."
+  },
+  {
+    "id": "q-g12-u5-vint-9",
+    "topic_id": "g12-u5-vectors-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שלושה כוחות פועלים על גוף שנמצא בשיווי משקל. מהו סכום שלושת וקטורי הכוח?",
+    "options": ["וקטור האפס", "וקטור בכיוון אחד הכוחות", "תלוי בגודל הכוחות", "תמיד וקטור באורך מקסימלי"],
+    "correct_index": 0,
+    "explanation": "שיווי משקל פירושו שסכום כל הכוחות (וקטורית) הוא אפס."
+  },
+  {
+    "id": "q-g12-u5-vint-10",
+    "topic_id": "g12-u5-vectors-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפי חוק הפילוג, $(s+t)\\vec u$ שווה ל:",
+    "options": ["$s\\vec u+t\\vec u$", "$st\\cdot\\vec u$", "$s\\vec u\\cdot t\\vec u$", "$\\vec u+\\vec u$"],
+    "correct_index": 0,
+    "explanation": "חוק הפילוג של כפל בסקלרים: $(s+t)\\vec u=s\\vec u+t\\vec u$."
+  },
+  {
+    "id": "q-g12-u5-vld-1",
+    "topic_id": "g12-u5-vectors-linear-dependence",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "ביטוי מהצורה $\\alpha\\vec u+\\beta\\vec v$ נקרא:",
+    "options": ["צירוף לינארי", "מכפלה סקלרית", "וקטור יחידה", "וקטור נגדי"],
+    "correct_index": 0,
+    "explanation": "זוהי הגדרת הצירוף הלינארי."
+  },
+  {
+    "id": "q-g12-u5-vld-2",
+    "topic_id": "g12-u5-vectors-linear-dependence",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם $\\vec w=3\\vec u$, האם $\\vec w$ תלוי לינארית ב-$\\{\\vec u\\}$?",
+    "options": ["כן", "לא", "רק אם $\\vec u=\\vec0$", "לא ניתן לדעת"],
+    "correct_index": 0,
+    "explanation": "$\\vec w$ ניתן לביטוי כצירוף לינארי (כפולה) של $\\vec u$, ולכן הוא תלוי בו."
+  },
+  {
+    "id": "q-g12-u5-vld-3",
+    "topic_id": "g12-u5-vectors-linear-dependence",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה וקטורים בלתי-תלויים לינארית נדרשים כדי לפרוש את המישור (הדו-ממדי)?",
+    "options": ["$2$", "$1$", "$3$", "$4$"],
+    "correct_index": 0,
+    "explanation": "כל וקטור במישור ניתן להצגה יחידה כצירוף לינארי של שני וקטורים בלתי-תלויים במישור."
+  },
+  {
+    "id": "q-g12-u5-vld-4",
+    "topic_id": "g12-u5-vectors-linear-dependence",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה וקטורים בלתי-תלויים לינארית נדרשים כדי לפרוש את המרחב התלת-ממדי?",
+    "options": ["$3$", "$2$", "$4$", "$1$"],
+    "correct_index": 0,
+    "explanation": "כל וקטור במרחב ניתן להצגה יחידה כצירוף לינארי של שלושה וקטורים בלתי-תלויים."
+  },
+  {
+    "id": "q-g12-u5-vld-5",
+    "topic_id": "g12-u5-vectors-linear-dependence",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם ייתכנו שלושה וקטורים במישור שהם קבוצה בלתי-תלויה לינארית?",
+    "options": ["לא, לעולם לא — הם תמיד תלויים", "כן, תמיד", "רק אם הם ניצבים זה לזה", "רק אם אורכם שווה"],
+    "correct_index": 0,
+    "explanation": "המישור הוא דו-ממדי, ולכן כל שלושה וקטורים בו חייבים להיות תלויים לינארית."
+  },
+  {
+    "id": "q-g12-u5-vld-6",
+    "topic_id": "g12-u5-vectors-linear-dependence",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם ייתכנו ארבעה וקטורים במרחב שהם קבוצה בלתי-תלויה לינארית?",
+    "options": ["לא, לעולם לא", "כן, תמיד", "רק אם כולם שווי אורך", "רק אם הם מצטלבים"],
+    "correct_index": 0,
+    "explanation": "המרחב תלת-ממדי, ולכן כל ארבעה וקטורים בו חייבים להיות תלויים לינארית."
+  },
+  {
+    "id": "q-g12-u5-vld-7",
+    "topic_id": "g12-u5-vectors-linear-dependence",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בהינתן שלוש נקודות $A,B,C$ שאינן על ישר אחד, וקטור הוא צירוף לינארי של $\\overrightarrow{AB}$ ו-$\\overrightarrow{AC}$ אם ורק אם הוא:",
+    "options": ["וקטור במישור $ABC$ או במישור מקביל לו", "וקטור על הישר $AB$ בלבד", "וקטור האפס", "וקטור ניצב למישור $ABC$"],
+    "correct_index": 0,
+    "explanation": "זהו המשפט המקשר בין צירוף לינארי של שני וקטורים לבין השייכות למישור המוגדר על ידם."
+  },
+  {
+    "id": "q-g12-u5-vld-8",
+    "topic_id": "g12-u5-vectors-linear-dependence",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$\\vec u,\\vec v$ בלתי-תלויים לינארית, ומתקיים $\\alpha\\vec u+\\beta\\vec v=\\gamma\\vec u+\\delta\\vec v$. מה ניתן להסיק?",
+    "options": ["$\\alpha=\\gamma$ וגם $\\beta=\\delta$", "$\\alpha=\\beta$", "$\\gamma=\\delta$", "אין מספיק מידע"],
+    "correct_index": 0,
+    "explanation": "מיחידות ההצגה כצירוף לינארי, המקדמים חייבים להיות שווים בהתאמה."
+  },
+  {
+    "id": "q-g12-u5-vld-9",
+    "topic_id": "g12-u5-vectors-linear-dependence",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לכל שתי נקודות שונות $A,B$ ולכל סקלר $t\\neq0$, הוקטור $t\\cdot\\overrightarrow{AB}$ נמצא:",
+    "options": ["על הישר $AB$ או על ישר מקביל לו", "רק על הישר $AB$ עצמו", "במישור הניצב ל-$AB$", "בשום מקום מוגדר"],
+    "correct_index": 0,
+    "explanation": "זהו המשפט המקשר כפל בסקלר לבין שייכות לישר או ישר מקביל."
+  },
+  {
+    "id": "q-g12-u5-vld-10",
+    "topic_id": "g12-u5-vectors-linear-dependence",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$, $M$ אמצע הצלע $BC$. מבטאים $\\overrightarrow{AM}=\\alpha\\overrightarrow{AB}+\\beta\\overrightarrow{AC}$. מהם $\\alpha,\\beta$?",
+    "options": ["$\\alpha=\\beta=\\dfrac12$", "$\\alpha=1,\\beta=1$", "$\\alpha=\\dfrac13,\\beta=\\dfrac23$", "$\\alpha=2,\\beta=2$"],
+    "correct_index": 0,
+    "explanation": "וקטור לאמצע קטע הוא הממוצע של הווקטורים לשתי הקצוות: $\\overrightarrow{AM}=\\dfrac12\\overrightarrow{AB}+\\dfrac12\\overrightarrow{AC}$."
+  },
+  {
+    "id": "q-g12-u5-vdp-1",
+    "topic_id": "g12-u5-vectors-dot-product",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי התוצאה של מכפלה סקלרית בין שני וקטורים?",
+    "options": ["מספר (סקלר)", "וקטור", "זווית", "מטריצה"],
+    "correct_index": 0,
+    "explanation": "המכפלה הסקלרית מניבה תמיד מספר."
+  },
+  {
+    "id": "q-g12-u5-vdp-2",
+    "topic_id": "g12-u5-vectors-dot-product",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $\\vec u\\cdot\\vec v=0$ (שניהם שונים מאפס), מה ניתן להסיק?",
+    "options": ["הוקטורים ניצבים", "הוקטורים קולינאריים", "הוקטורים שווים", "אין מספיק מידע"],
+    "correct_index": 0,
+    "explanation": "מכפלה סקלרית אפס בין וקטורים שאינם אפס משמעה ניצבות."
+  },
+  {
+    "id": "q-g12-u5-vdp-3",
+    "topic_id": "g12-u5-vectors-dot-product",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$\\vec u\\cdot\\vec v=|\\vec u||\\vec v|\\cos\\alpha$. אם $\\alpha=90°$, מהו $\\vec u\\cdot\\vec v$?",
+    "options": ["$0$", "$|\\vec u||\\vec v|$", "$1$", "תלוי באורכים"],
+    "correct_index": 0,
+    "explanation": "$\\cos90°=0$, ולכן המכפלה הסקלרית מתאפסת."
+  },
+  {
+    "id": "q-g12-u5-vdp-4",
+    "topic_id": "g12-u5-vectors-dot-product",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$|\\vec u|=3$, $|\\vec v|=4$, הזווית ביניהם $60°$. מהו $\\vec u\\cdot\\vec v$?",
+    "options": ["$6$", "$12$", "$7$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$\\vec u\\cdot\\vec v=3\\cdot4\\cdot\\cos60°=12\\cdot0.5=6$."
+  },
+  {
+    "id": "q-g12-u5-vdp-5",
+    "topic_id": "g12-u5-vectors-dot-product",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו התנאי המספיק להוכיח שישר מאונך למישור, בעזרת וקטורים?",
+    "options": ["הישר מאונך לשני ישרים לא-מקבילים במישור", "הישר מאונך לישר אחד בלבד במישור", "הישר מקביל למישור", "הישר עובר דרך מרכז המישור"],
+    "correct_index": 0,
+    "explanation": "ניצבות לשני ישרים לא-מקבילים (בלתי-תלויים) במישור מבטיחה ניצבות לכל המישור."
+  },
+  {
+    "id": "q-g12-u5-vdp-6",
+    "topic_id": "g12-u5-vectors-dot-product",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משפט שלושת הניצבים קושר בין ניצבות לישר במישור לבין:",
+    "options": ["ההיטל של המשופע על אותו מישור", "אורך המשופע בלבד", "זווית הפתיחה של המישור", "מרכז המישור"],
+    "correct_index": 0,
+    "explanation": "ישר במישור ניצב למשופע אם ורק אם הוא ניצב להיטל המשופע על המישור."
+  },
+  {
+    "id": "q-g12-u5-vdp-7",
+    "topic_id": "g12-u5-vectors-dot-product",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$\\vec u=(1,2,2)$, $\\vec v=(2,-1,2)$. מהו $\\vec u\\cdot\\vec v$?",
+    "options": ["$4$", "$8$", "$0$", "$-4$"],
+    "correct_index": 0,
+    "explanation": "$1\\cdot2+2\\cdot(-1)+2\\cdot2=2-2+4=4$."
+  },
+  {
+    "id": "q-g12-u5-vdp-8",
+    "topic_id": "g12-u5-vectors-dot-product",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כיצד מחשבים $|\\vec v|$ באמצעות מכפלה סקלרית?",
+    "options": ["$|\\vec v|=\\sqrt{\\vec v\\cdot\\vec v}$", "$|\\vec v|=\\vec v\\cdot\\vec v$", "$|\\vec v|=\\dfrac{\\vec v\\cdot\\vec v}{2}$", "$|\\vec v|=(\\vec v\\cdot\\vec v)^2$"],
+    "correct_index": 0,
+    "explanation": "מכפלת וקטור בעצמו נותנת $|\\vec v|^2$, ולכן שורש התוצאה נותן את האורך."
+  },
+  {
+    "id": "q-g12-u5-vdp-9",
+    "topic_id": "g12-u5-vectors-dot-product",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$\\vec u$ מאונך גם ל-$\\vec v$ וגם ל-$\\vec w$, כאשר $\\vec v,\\vec w$ בלתי-תלויים ונמצאים במישור $P$. מה ניתן להסיק על $\\vec u$?",
+    "options": ["$\\vec u$ מאונך לכל המישור $P$", "$\\vec u$ נמצא במישור $P$", "$\\vec u$ קולינארי ל-$\\vec v$", "אין מספיק מידע"],
+    "correct_index": 0,
+    "explanation": "ניצבות לשני וקטורים בלתי-תלויים במישור מבטיחה ניצבות לכל המישור."
+  },
+  {
+    "id": "q-g12-u5-vdp-10",
+    "topic_id": "g12-u5-vectors-dot-product",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נתון $|\\vec u|=5,|\\vec v|=3$. חשבו $(\\vec u+\\vec v)\\cdot(\\vec u-\\vec v)$.",
+    "options": ["$16$", "$25$", "$9$", "$64$"],
+    "correct_index": 0,
+    "explanation": "$(\\vec u+\\vec v)\\cdot(\\vec u-\\vec v)=|\\vec u|^2-|\\vec v|^2=25-9=16$."
+  },
+  {
+    "id": "q-g12-u5-valg-1",
+    "topic_id": "g12-u5-vectors-algebraic",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "וקטור שזנבו בראשית הצירים מפורש כ:",
+    "options": ["נקודה במרחב", "ישר במרחב", "מישור במרחב", "זווית"],
+    "correct_index": 0,
+    "explanation": "כאשר זנב הוקטור בראשית, ראשו מייצג ישירות נקודה במרחב."
+  },
+  {
+    "id": "q-g12-u5-valg-2",
+    "topic_id": "g12-u5-vectors-algebraic",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נתונות $A(1,2,3)$ ו-$B(4,6,8)$. מהו $\\overrightarrow{AB}$?",
+    "options": ["$(3,4,5)$", "$(5,8,11)$", "$(4,6,8)$", "$(-3,-4,-5)$"],
+    "correct_index": 0,
+    "explanation": "$\\overrightarrow{AB}=(4-1,6-2,8-3)=(3,4,5)$."
+  },
+  {
+    "id": "q-g12-u5-valg-3",
+    "topic_id": "g12-u5-vectors-algebraic",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ישר במרחב עובר דרך $P_0(1,2,3)$ בכיוון $(2,0,-1)$. מהי הנקודה על הישר עבור $t=1$?",
+    "options": ["$(3,2,2)$", "$(1,2,3)$", "$(2,0,-1)$", "$(3,2,4)$"],
+    "correct_index": 0,
+    "explanation": "$(x,y,z)=(1,2,3)+1\\cdot(2,0,-1)=(3,2,2)$."
+  },
+  {
+    "id": "q-g12-u5-valg-4",
+    "topic_id": "g12-u5-vectors-algebraic",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הנקודה המחלקת קטע ביחס $1:1$ נקראת:",
+    "options": ["אמצע הקטע", "רבע הקטע", "קצה הקטע", "מוקד הקטע"],
+    "correct_index": 0,
+    "explanation": "חלוקה ביחס שווה ($1:1$) נותנת בדיוק את אמצע הקטע."
+  },
+  {
+    "id": "q-g12-u5-valg-5",
+    "topic_id": "g12-u5-vectors-algebraic",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מצאו את הנקודה המחלקת את הקטע $A(0,0,0)$ ל-$B(10,0,0)$ ביחס $3:2$ (מ-$A$).",
+    "options": ["$(6,0,0)$", "$(5,0,0)$", "$(4,0,0)$", "$(8,0,0)$"],
+    "correct_index": 0,
+    "explanation": "$P=\\dfrac{n\\cdot A+m\\cdot B}{m+n}=\\dfrac{2\\cdot0+3\\cdot10}{5}=6$, כלומר $(6,0,0)$."
+  },
+  {
+    "id": "q-g12-u5-valg-6",
+    "topic_id": "g12-u5-vectors-algebraic",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשוואת מישור $Ax+By+Cz+D=0$, הוקטור $(A,B,C)$ מייצג:",
+    "options": ["וקטור הניצב למישור", "וקטור בתוך המישור", "נקודה על המישור", "וקטור מקביל למישור"],
+    "correct_index": 0,
+    "explanation": "מקדמי המשתנים במשוואת מישור מהווים תמיד וקטור נורמל (ניצב) למישור."
+  },
+  {
+    "id": "q-g12-u5-valg-7",
+    "topic_id": "g12-u5-vectors-algebraic",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שני ישרים במרחב שאינם נחתכים ואינם מקבילים נקראים:",
+    "options": ["ישרים מצטלבים", "ישרים מתלכדים", "ישרים ניצבים", "ישרים חופפים"],
+    "correct_index": 0,
+    "explanation": "מצב זה, האפשרי רק במרחב, נקרא ישרים מצטלבים (Skew)."
+  },
+  {
+    "id": "q-g12-u5-valg-8",
+    "topic_id": "g12-u5-vectors-algebraic",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נוסחת המרחק מנקודה למישור מתבססת בעיקרה על:",
+    "options": ["וקטור הנורמל של המישור", "וקטור כיוון של ישר כלשהו", "מכפלת שני וקטורים במישור", "שיפוע המישור"],
+    "correct_index": 0,
+    "explanation": "מטילים את הווקטור מהנקודה למישור על כיוון וקטור הנורמל שלו."
+  },
+  {
+    "id": "q-g12-u5-valg-9",
+    "topic_id": "g12-u5-vectors-algebraic",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני מישורים עם וקטורי נורמל פרופורציוניים, ואין להם נקודה משותפת, הם:",
+    "options": ["מישורים מקבילים", "מישורים נחתכים", "אותו מישור", "מישורים ניצבים"],
+    "correct_index": 0,
+    "explanation": "נורמלים פרופורציוניים ואין חיתוך — סימן למישורים מקבילים ושונים."
+  },
+  {
+    "id": "q-g12-u5-valg-10",
+    "topic_id": "g12-u5-vectors-algebraic",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "עבור אילו ערכי $k$ המישור $2x+ky+z-5=0$ מקביל למישור $4x+6y+2z+1=0$?",
+    "options": ["$k=3$", "$k=2$", "$k=6$", "$k=1$"],
+    "correct_index": 0,
+    "explanation": "וקטורי הנורמל חייבים להיות פרופורציוניים: $\\dfrac24=\\dfrac{k}{6}=\\dfrac12\\Rightarrow k=3$."
+  },
+  {
+    "id": "q-g12-u5-vapp-1",
+    "topic_id": "g12-u5-vectors",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת הנפח של גליל ישר?",
+    "options": ["$V=\\pi r^2h$", "$V=2\\pi rh$", "$V=\\dfrac43\\pi r^3$", "$V=\\pi rh$"],
+    "correct_index": 0,
+    "explanation": "נפח גליל שווה לשטח הבסיס כפול הגובה."
+  },
+  {
+    "id": "q-g12-u5-vapp-2",
+    "topic_id": "g12-u5-vectors",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "חרוט ברדיוס $3$ וגובה $4$. מהו אורך המקצוע (הגובה המשופע)?",
+    "options": ["$5$", "$7$", "$\\sqrt7$", "$25$"],
+    "correct_index": 0,
+    "explanation": "$\\ell=\\sqrt{r^2+h^2}=\\sqrt{9+16}=5$."
+  },
+  {
+    "id": "q-g12-u5-vapp-3",
+    "topic_id": "g12-u5-vectors",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פירמידה ישרה עם שטח בסיס $12$ וגובה $6$. מהו נפחה?",
+    "options": ["$24$", "$72$", "$36$", "$18$"],
+    "correct_index": 0,
+    "explanation": "$V=\\dfrac13\\cdot12\\cdot6=24$."
+  },
+  {
+    "id": "q-g12-u5-vapp-4",
+    "topic_id": "g12-u5-vectors",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו שטח הפנים של כדור ברדיוס $5$?",
+    "options": ["$100\\pi$", "$25\\pi$", "$\\dfrac{500}{3}\\pi$", "$50\\pi$"],
+    "correct_index": 0,
+    "explanation": "$S=4\\pi r^2=4\\pi\\cdot25=100\\pi$."
+  },
+  {
+    "id": "q-g12-u5-vapp-5",
+    "topic_id": "g12-u5-vectors",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי למצוא את גובהו של גוף שאינו ישר, שיטה וקטורית נפוצה היא:",
+    "options": ["להוכיח שהמכפלה הסקלרית של הגובה עם שני וקטורים בלתי-תלויים בבסיס שווה לאפס", "למדוד את הגובה ישירות בסרגל", "להניח שהגובה שווה לאחד המקצועות", "לחשב רק את שטח הבסיס"],
+    "correct_index": 0,
+    "explanation": "ניצבות לשני וקטורים בלתי-תלויים בבסיס (מכפלה סקלרית אפס) מוכיחה שהקטע הוא הגובה."
+  },
+  {
+    "id": "q-g12-u5-vapp-6",
+    "topic_id": "g12-u5-vectors",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "זווית בין ישר למישור נמדדת ביחס ל:",
+    "options": ["ההיטל של הישר על המישור", "ציר $z$ תמיד", "וקטור כלשהו במרחב", "אחת מפאות המישור בלבד"],
+    "correct_index": 0,
+    "explanation": "הזווית בין ישר למישור מוגדרת כזווית בין הישר להיטלו על המישור."
+  },
+  {
+    "id": "q-g12-u5-vapp-7",
+    "topic_id": "g12-u5-vectors",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "גליל ברדיוס $2$ וגובה $10$. מהו שטח המעטפת?",
+    "options": ["$40\\pi$", "$20\\pi$", "$4\\pi$", "$80\\pi$"],
+    "correct_index": 0,
+    "explanation": "שטח מעטפת גליל: $2\\pi rh=2\\pi\\cdot2\\cdot10=40\\pi$."
+  },
+  {
+    "id": "q-g12-u5-vapp-8",
+    "topic_id": "g12-u5-vectors",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חרוט ברדיוס $3$ וגובה $9$. מהו נפחו?",
+    "options": ["$27\\pi$", "$81\\pi$", "$9\\pi$", "$3\\pi$"],
+    "correct_index": 0,
+    "explanation": "$V=\\dfrac13\\pi r^2h=\\dfrac13\\pi\\cdot9\\cdot9=27\\pi$."
+  },
+  {
+    "id": "q-g12-u5-vapp-9",
+    "topic_id": "g12-u5-vectors",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "גוף מורכב מחצי-כדור ברדיוס $3$ המונח על גליל מאותו רדיוס בגובה $5$. מהו נפח הגוף הכולל?",
+    "options": ["$63\\pi$", "$45\\pi$", "$18\\pi$", "$54\\pi$"],
+    "correct_index": 0,
+    "explanation": "$V_{cyl}=\\pi\\cdot9\\cdot5=45\\pi$. $V_{hemisphere}=\\dfrac12\\cdot\\dfrac43\\pi\\cdot27=18\\pi$. סה\"כ $45\\pi+18\\pi=63\\pi$."
+  },
+  {
+    "id": "q-g12-u5-vapp-10",
+    "topic_id": "g12-u5-vectors",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו אורך אלכסון הגוף (אלכסון ראשי) של קובייה שאורך צלעה $4$?",
+    "options": ["$4\\sqrt3$", "$4\\sqrt2$", "$8$", "$16$"],
+    "correct_index": 0,
+    "explanation": "אלכסון הגוף של קובייה בצלע $a$: $a\\sqrt3=4\\sqrt3$."
+  },
+  {
+    "id": "q-g12-u5-apl-1",
+    "topic_id": "g12-u5-analytic-points-lines",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הנקודה המחלקת קטע ביחס $1:1$ נקראת:",
+    "options": ["אמצע הקטע", "רבע הקטע", "מוקד הקטע", "קצה הקטע"],
+    "correct_index": 0,
+    "explanation": "חלוקה ביחס שווה נותנת את אמצע הקטע."
+  },
+  {
+    "id": "q-g12-u5-apl-2",
+    "topic_id": "g12-u5-analytic-points-lines",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת המרחק מנקודה $(x_0,y_0)$ לישר $ax+by+c=0$?",
+    "options": ["$\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}$", "$ax_0+by_0+c$", "$\\sqrt{a^2+b^2}$", "$\\dfrac{a^2+b^2}{ax_0+by_0+c}$"],
+    "correct_index": 0,
+    "explanation": "זוהי נוסחת המרחק הסטנדרטית מנקודה לישר."
+  },
+  {
+    "id": "q-g12-u5-apl-3",
+    "topic_id": "g12-u5-analytic-points-lines",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מצאו את הנקודה המחלקת את הקטע $A(0,0)$ ל-$B(10,5)$ ביחס $2:3$ (מ-$A$).",
+    "options": ["$(4,2)$", "$(6,3)$", "$(5,2.5)$", "$(2,1)$"],
+    "correct_index": 0,
+    "explanation": "$P=\\left(\\dfrac{3\\cdot0+2\\cdot10}{5},\\dfrac{3\\cdot0+2\\cdot5}{5}\\right)=(4,2)$."
+  },
+  {
+    "id": "q-g12-u5-apl-4",
+    "topic_id": "g12-u5-analytic-points-lines",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו המרחק מהנקודה $(0,0)$ לישר $3x+4y-10=0$?",
+    "options": ["$2$", "$10$", "$5$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$d=\\dfrac{|3\\cdot0+4\\cdot0-10|}{\\sqrt{9+16}}=\\dfrac{10}{5}=2$."
+  },
+  {
+    "id": "q-g12-u5-apl-5",
+    "topic_id": "g12-u5-analytic-points-lines",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האנך האמצעי לקטע הוא המקום הגאומטרי של כל הנקודות:",
+    "options": ["השוות-מרחק משני קצות הקטע", "הנמצאות על הקטע", "המרוחקות אורך הקטע מקצה אחד", "הנמצאות בזווית ישרה לקטע בלבד"],
+    "correct_index": 0,
+    "explanation": "זוהי הגדרת האנך האמצעי כמקום גאומטרי."
+  },
+  {
+    "id": "q-g12-u5-apl-6",
+    "topic_id": "g12-u5-analytic-points-lines",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חוצה זווית הוא המקום הגאומטרי של כל הנקודות:",
+    "options": ["השוות-מרחק משתי קרני הזווית", "הנמצאות בתוך הזווית", "המרוחקות אותו מרחק מקודקוד הזווית", "הנמצאות מחוץ לזווית"],
+    "correct_index": 0,
+    "explanation": "זוהי הגדרת חוצה הזווית כמקום גאומטרי."
+  },
+  {
+    "id": "q-g12-u5-apl-7",
+    "topic_id": "g12-u5-analytic-points-lines",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שני ישרים עם אותו שיפוע ואותה נקודת חיתוך עם ציר $y$ הם:",
+    "options": ["מתלכדים (אותו ישר)", "מקבילים בלבד", "נחתכים בנקודה אחת", "ניצבים"],
+    "correct_index": 0,
+    "explanation": "שיפוע זהה וגם $n$ זהה פירושם שזהו בדיוק אותו ישר."
+  },
+  {
+    "id": "q-g12-u5-apl-8",
+    "topic_id": "g12-u5-analytic-points-lines",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כדי להוכיח שצורה מסוימת היא מקום גאומטרי של תנאי נתון, יש להוכיח:",
+    "options": ["שני כיוונים: נקודה על הצורה מקיימת את התנאי, וגם ההיפך", "רק שנקודה אחת על הצורה מקיימת את התנאי", "רק שהתנאי גורר את הצורה", "אין צורך בהוכחה, מספיקה דוגמה"],
+    "correct_index": 0,
+    "explanation": "הוכחת מקום גאומטרי דורשת הוכחת שני הכיוונים ההדדיים."
+  },
+  {
+    "id": "q-g12-u5-apl-9",
+    "topic_id": "g12-u5-analytic-points-lines",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו המרחק בין הישרים המקבילים $y=2x+3$ ו-$y=2x-7$?",
+    "options": ["$2\\sqrt5$", "$10$", "$5$", "$\\sqrt5$"],
+    "correct_index": 0,
+    "explanation": "נקודה $(0,3)$ על הישר הראשון; מרחקה מהישר $2x-y-7=0$: $\\dfrac{|0-3-7|}{\\sqrt5}=\\dfrac{10}{\\sqrt5}=2\\sqrt5$."
+  },
+  {
+    "id": "q-g12-u5-apl-10",
+    "topic_id": "g12-u5-analytic-points-lines",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נתונים קודקודים $A,B$ קבועים של משולש, ושטח המשולש נתון וקבוע. מהו המקום הגאומטרי של הקודקוד השלישי $C$?",
+    "options": ["שני ישרים מקבילים לישר $AB$", "מעגל סביב אמצע $AB$", "ישר יחיד המקביל ל-$AB$", "פרבולה"],
+    "correct_index": 0,
+    "explanation": "שטח קבוע עם בסיס $AB$ קבוע דורש גובה קבוע מ-$AB$ — כלומר שני ישרים מקבילים ל-$AB$ במרחק המתאים."
+  },
+  {
+    "id": "q-g12-u5-acir-1",
+    "topic_id": "g12-u5-analytic-circle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי משוואת המעגל הקנוני?",
+    "options": ["$x^2+y^2=R^2$", "$x^2-y^2=R^2$", "$x+y=R$", "$xy=R^2$"],
+    "correct_index": 0,
+    "explanation": "המעגל הקנוני ממורכז בראשית, ומשוואתו $x^2+y^2=R^2$."
+  },
+  {
+    "id": "q-g12-u5-acir-2",
+    "topic_id": "g12-u5-analytic-circle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מעגל שמשוואתו $(x-2)^2+(y+3)^2=16$ — מהו רדיוסו?",
+    "options": ["$4$", "$16$", "$8$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$R^2=16\\Rightarrow R=4$."
+  },
+  {
+    "id": "q-g12-u5-acir-3",
+    "topic_id": "g12-u5-analytic-circle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השלימו לריבוע: $x^2+y^2-4x+6y-3=0$. מהו מרכז המעגל?",
+    "options": ["$(2,-3)$", "$(-2,3)$", "$(4,-6)$", "$(2,3)$"],
+    "correct_index": 0,
+    "explanation": "$(x-2)^2+(y+3)^2=3+4+9=16$, ולכן המרכז $(2,-3)$."
+  },
+  {
+    "id": "q-g12-u5-acir-4",
+    "topic_id": "g12-u5-analytic-circle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מעגל $x^2+y^2=25$, נקודה עליו $(3,4)$. מהו שיפוע הרדיוס לאותה נקודה?",
+    "options": ["$\\dfrac43$", "$\\dfrac34$", "$-\\dfrac43$", "$4$"],
+    "correct_index": 0,
+    "explanation": "שיפוע הקטע מהראשית ל-$(3,4)$: $\\dfrac{4-0}{3-0}=\\dfrac43$."
+  },
+  {
+    "id": "q-g12-u5-acir-5",
+    "topic_id": "g12-u5-analytic-circle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "עבור המעגל $x^2+y^2=25$ ונקודה $(3,4)$ עליו, מהו שיפוע המשיק?",
+    "options": ["$-\\dfrac34$", "$\\dfrac43$", "$\\dfrac34$", "$-\\dfrac43$"],
+    "correct_index": 0,
+    "explanation": "שיפוע הרדיוס הוא $\\dfrac43$; המשיק ניצב לרדיוס, ולכן שיפועו $-\\dfrac34$."
+  },
+  {
+    "id": "q-g12-u5-acir-6",
+    "topic_id": "g12-u5-analytic-circle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מעגל שמרכזו $(0,0)$ ורדיוסו $5$, וישר $x=6$. מהו המצב ההדדי?",
+    "options": ["אין חיתוך (הישר מרוחק מדי)", "משיק", "חותך בשתי נקודות", "עובר דרך המרכז"],
+    "correct_index": 0,
+    "explanation": "מרחק המרכז מהישר הוא $6>5=R$, ולכן אין חיתוך."
+  },
+  {
+    "id": "q-g12-u5-acir-7",
+    "topic_id": "g12-u5-analytic-circle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם המשוואה $x^2+y^2+2x+2y+3=0$ מייצגת מעגל?",
+    "options": ["לא — לאחר השלמה לריבוע מתקבל אגף שלילי", "כן, ברדיוס $3$", "כן, ברדיוס $1$", "כן, ברדיוס $\\sqrt3$"],
+    "correct_index": 0,
+    "explanation": "$(x+1)^2+(y+1)^2=-3+1+1=-1<0$ — אין מעגל."
+  },
+  {
+    "id": "q-g12-u5-acir-8",
+    "topic_id": "g12-u5-analytic-circle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני מעגלים: המרחק בין מרכזיהם $10$, רדיוסיהם $6$ ו-$4$. מהו המצב ההדדי?",
+    "options": ["משיקים חיצונית", "נחתכים בשתי נקודות", "משיקים פנימית", "נפרדים לגמרי"],
+    "correct_index": 0,
+    "explanation": "$d=R_1+R_2=10$, ולכן המעגלים משיקים חיצונית."
+  },
+  {
+    "id": "q-g12-u5-acir-9",
+    "topic_id": "g12-u5-analytic-circle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי משוואת המשיק למעגל $x^2+y^2=25$ בנקודה $(3,4)$?",
+    "options": ["$3x+4y=25$", "$4x+3y=25$", "$3x-4y=25$", "$x+y=25$"],
+    "correct_index": 0,
+    "explanation": "המשיק בנקודה $(x_0,y_0)$ על המעגל $x^2+y^2=R^2$ הוא $x_0x+y_0y=R^2$: $3x+4y=25$."
+  },
+  {
+    "id": "q-g12-u5-acir-10",
+    "topic_id": "g12-u5-analytic-circle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כאשר מחסרים את משוואות שני מעגלים נחתכים, מתקבלת משוואה קווית המייצגת את:",
+    "options": ["המיתר המשותף לשני המעגלים", "מרכז המעגל הראשון", "אנך אמצעי בין המרכזים בלבד", "רדיוס אחד המעגלים"],
+    "correct_index": 0,
+    "explanation": "חיסור שתי משוואות המעגלים מבטל את האיברים הריבועיים, ומשאיר את משוואת המיתר המשותף."
+  },
+  {
+    "id": "q-g12-u5-apar-1",
+    "topic_id": "g12-u5-analytic-parabola",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי המשוואה הקנונית של הפרבולה?",
+    "options": ["$y^2=2px$", "$x^2+y^2=R^2$", "$\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$", "$y=x^2$"],
+    "correct_index": 0,
+    "explanation": "זוהי המשוואה הקנונית הנלמדת עבור פרבולה עם ציר סימטריה $x$."
+  },
+  {
+    "id": "q-g12-u5-apar-2",
+    "topic_id": "g12-u5-analytic-parabola",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו המוקד של הפרבולה $y^2=2px$?",
+    "options": ["$\\left(\\dfrac p2,0\\right)$", "$(0,p)$", "$(p,0)$", "$\\left(0,\\dfrac p2\\right)$"],
+    "correct_index": 0,
+    "explanation": "המוקד של הפרבולה הקנונית נמצא ב-$\\left(\\dfrac p2,0\\right)$."
+  },
+  {
+    "id": "q-g12-u5-apar-3",
+    "topic_id": "g12-u5-analytic-parabola",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו המדריך של הפרבולה $y^2=2px$?",
+    "options": ["$x=-\\dfrac p2$", "$x=\\dfrac p2$", "$y=-\\dfrac p2$", "$x=0$"],
+    "correct_index": 0,
+    "explanation": "המדריך הוא הישר $x=-\\dfrac p2$."
+  },
+  {
+    "id": "q-g12-u5-apar-4",
+    "topic_id": "g12-u5-analytic-parabola",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפרבולה $y^2=8x$, מהו $p$?",
+    "options": ["$4$", "$8$", "$2$", "$16$"],
+    "correct_index": 0,
+    "explanation": "$2p=8\\Rightarrow p=4$."
+  },
+  {
+    "id": "q-g12-u5-apar-5",
+    "topic_id": "g12-u5-analytic-parabola",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "הפרבולה מוגדרת כמקום גאומטרי של נקודות שמרחקן שווה בין:",
+    "options": ["המוקד לבין המדריך", "שני מוקדים", "שתי נקודות קבועות בלבד", "מרכז לבין רדיוס"],
+    "correct_index": 0,
+    "explanation": "זוהי הגדרת הפרבולה: מרחק שווה מהמוקד ומהמדריך."
+  },
+  {
+    "id": "q-g12-u5-apar-6",
+    "topic_id": "g12-u5-analytic-parabola",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו ציר הסימטריה של הפרבולה $y^2=2px$?",
+    "options": ["ציר $x$", "ציר $y$", "הישר $y=x$", "אין לה ציר סימטריה"],
+    "correct_index": 0,
+    "explanation": "מכיוון ש-$(x,y)$ פתרון אם ורק אם $(x,-y)$ פתרון, ציר $x$ הוא ציר הסימטריה."
+  },
+  {
+    "id": "q-g12-u5-apar-7",
+    "topic_id": "g12-u5-analytic-parabola",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו המוקד של הפרבולה $y^2=12x$?",
+    "options": ["$(3,0)$", "$(6,0)$", "$(12,0)$", "$(0,3)$"],
+    "correct_index": 0,
+    "explanation": "$2p=12\\Rightarrow p=6$, המוקד: $\\left(\\dfrac p2,0\\right)=(3,0)$."
+  },
+  {
+    "id": "q-g12-u5-apar-8",
+    "topic_id": "g12-u5-analytic-parabola",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "הישר $y=x$ חותך את הפרבולה $y^2=4x$. כמה נקודות חיתוך יש?",
+    "options": ["$2$", "$1$", "$0$", "$3$"],
+    "correct_index": 0,
+    "explanation": "מציבים $x^2=4x\\Rightarrow x^2-4x=0\\Rightarrow x=0$ או $x=4$ — שתי נקודות."
+  },
+  {
+    "id": "q-g12-u5-apar-9",
+    "topic_id": "g12-u5-analytic-parabola",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "ישר המשיק לפרבולה חותך אותה ב:",
+    "options": ["נקודה אחת בדיוק", "שתי נקודות", "אינסוף נקודות", "אף נקודה"],
+    "correct_index": 0,
+    "explanation": "משיק, לפי הגדרתו, חותך את העקומה בנקודה יחידה."
+  },
+  {
+    "id": "q-g12-u5-apar-10",
+    "topic_id": "g12-u5-analytic-parabola",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בפרבולה $y^2=8x$, נקודה עליה עם $x=2$. מהו מרחקה מהמוקד?",
+    "options": ["$4$", "$2$", "$8$", "$6$"],
+    "correct_index": 0,
+    "explanation": "$p=4$, המדריך $x=-2$. מרחק הנקודה מהמדריך: $2-(-2)=4$ — ולפי ההגדרה זהו גם מרחקה מהמוקד."
+  },
+  {
+    "id": "q-g12-u5-aell-1",
+    "topic_id": "g12-u5-analytic-ellipse",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי המשוואה הקנונית של האליפסה?",
+    "options": ["$\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$", "$x^2+y^2=R^2$", "$y^2=2px$", "$\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$"],
+    "correct_index": 0,
+    "explanation": "זוהי המשוואה הקנונית של האליפסה עם מוקדים על ציר $x$."
+  },
+  {
+    "id": "q-g12-u5-aell-2",
+    "topic_id": "g12-u5-analytic-ellipse",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "סכום המרחקים משתי המוקדים לכל נקודה על האליפסה שווה ל:",
+    "options": ["$2a$", "$a$", "$2b$", "$c$"],
+    "correct_index": 0,
+    "explanation": "זהו הגודל הקבוע שמגדיר את האליפסה."
+  },
+  {
+    "id": "q-g12-u5-aell-3",
+    "topic_id": "g12-u5-analytic-ellipse",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "באליפסה $\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$, מהם $a$ ו-$b$?",
+    "options": ["$a=5,\\ b=3$", "$a=25,\\ b=9$", "$a=3,\\ b=5$", "$a=9,\\ b=25$"],
+    "correct_index": 0,
+    "explanation": "$a^2=25\\Rightarrow a=5$, $b^2=9\\Rightarrow b=3$."
+  },
+  {
+    "id": "q-g12-u5-aell-4",
+    "topic_id": "g12-u5-analytic-ellipse",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו הקשר בין $a,b,c$ באליפסה?",
+    "options": ["$c^2=a^2-b^2$", "$c^2=a^2+b^2$", "$c=a+b$", "$c^2=b^2-a^2$"],
+    "correct_index": 0,
+    "explanation": "באליפסה $c^2=a^2-b^2$ (בהנחה $a>b$)."
+  },
+  {
+    "id": "q-g12-u5-aell-5",
+    "topic_id": "g12-u5-analytic-ellipse",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "עבור $\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$, מהו $c$?",
+    "options": ["$4$", "$16$", "$34$", "$\\sqrt{34}$"],
+    "correct_index": 0,
+    "explanation": "$c^2=25-9=16\\Rightarrow c=4$."
+  },
+  {
+    "id": "q-g12-u5-aell-6",
+    "topic_id": "g12-u5-analytic-ellipse",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "עבור אותה אליפסה, מהם שיעורי המוקדים?",
+    "options": ["$(\\pm4,0)$", "$(0,\\pm4)$", "$(\\pm5,0)$", "$(\\pm3,0)$"],
+    "correct_index": 0,
+    "explanation": "כיוון שהמוקדים על ציר $x$ ו-$c=4$, שיעוריהם $(\\pm4,0)$."
+  },
+  {
+    "id": "q-g12-u5-aell-7",
+    "topic_id": "g12-u5-analytic-ellipse",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האליפסה סימטרית ביחס ל:",
+    "options": ["שני הצירים ולראשית", "ציר $x$ בלבד", "ציר $y$ בלבד", "אינה סימטרית"],
+    "correct_index": 0,
+    "explanation": "מהמשוואה עולה שהיא סימטרית ביחס לשני הצירים ולראשית."
+  },
+  {
+    "id": "q-g12-u5-aell-8",
+    "topic_id": "g12-u5-analytic-ellipse",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "עבור $\\dfrac{x^2}{16}+\\dfrac{y^2}{4}=1$, מהו סכום המרחקים מכל נקודה על האליפסה לשני המוקדים?",
+    "options": ["$8$", "$4$", "$16$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$a=4$, וסכום המרחקים הוא $2a=8$."
+  },
+  {
+    "id": "q-g12-u5-aell-9",
+    "topic_id": "g12-u5-analytic-ellipse",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה קורה לאליפסה כאשר $a=b$?",
+    "options": ["היא הופכת למעגל", "היא הופכת להיפרבולה", "היא הופכת לפרבולה", "היא נעלמת"],
+    "correct_index": 0,
+    "explanation": "כאשר $a=b$, $c=0$ ושני המוקדים מתלכדים במרכז — זהו בדיוק מעגל."
+  },
+  {
+    "id": "q-g12-u5-aell-10",
+    "topic_id": "g12-u5-analytic-ellipse",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מסלול כדור הארץ סביב השמש: המרחק המינימלי $147.1$ מיליון ק\"מ, המרחק המקסימלי $152.1$ מיליון ק\"מ. מהו אורך חצי הציר הארוך $a$ (בקירוב)?",
+    "options": ["$149.6$ מיליון ק\"מ", "$152.1$ מיליון ק\"מ", "$147.1$ מיליון ק\"מ", "$299.2$ מיליון ק\"מ"],
+    "correct_index": 0,
+    "explanation": "$2a=$ המרחק המינימלי + המקסימלי $=147.1+152.1=299.2$, ולכן $a=149.6$ מיליון ק\"מ."
+  },
+  {
+    "id": "q-g12-u5-ahyp-1",
+    "topic_id": "g12-u5-analytic-hyperbola",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי המשוואה הקנונית של ההיפרבולה?",
+    "options": ["$\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$", "$\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$", "$x^2+y^2=R^2$", "$y^2=2px$"],
+    "correct_index": 0,
+    "explanation": "זוהי המשוואה הקנונית של ההיפרבולה עם מוקדים על ציר $x$."
+  },
+  {
+    "id": "q-g12-u5-ahyp-2",
+    "topic_id": "g12-u5-analytic-hyperbola",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו הקשר בין $a,b,c$ בהיפרבולה?",
+    "options": ["$c^2=a^2+b^2$", "$c^2=a^2-b^2$", "$c=a-b$", "$c^2=b^2-a^2$"],
+    "correct_index": 0,
+    "explanation": "בהיפרבולה $c^2=a^2+b^2$."
+  },
+  {
+    "id": "q-g12-u5-ahyp-3",
+    "topic_id": "g12-u5-analytic-hyperbola",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהן האסימפטוטות של $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$?",
+    "options": ["$y=\\pm\\dfrac ba x$", "$y=\\pm\\dfrac ab x$", "$x=\\pm a$", "$y=\\pm b$"],
+    "correct_index": 0,
+    "explanation": "האסימפטוטות של ההיפרבולה הקנונית הן $y=\\pm\\dfrac ba x$."
+  },
+  {
+    "id": "q-g12-u5-ahyp-4",
+    "topic_id": "g12-u5-analytic-hyperbola",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "עבור $\\dfrac{x^2}{9}-\\dfrac{y^2}{16}=1$, מהם $a,b$?",
+    "options": ["$a=3,\\ b=4$", "$a=9,\\ b=16$", "$a=4,\\ b=3$", "$a=16,\\ b=9$"],
+    "correct_index": 0,
+    "explanation": "$a^2=9\\Rightarrow a=3$, $b^2=16\\Rightarrow b=4$."
+  },
+  {
+    "id": "q-g12-u5-ahyp-5",
+    "topic_id": "g12-u5-analytic-hyperbola",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "עבור אותה היפרבולה, מהו $c$?",
+    "options": ["$5$", "$25$", "$7$", "$\\sqrt7$"],
+    "correct_index": 0,
+    "explanation": "$c^2=9+16=25\\Rightarrow c=5$."
+  },
+  {
+    "id": "q-g12-u5-ahyp-6",
+    "topic_id": "g12-u5-analytic-hyperbola",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ההיפרבולה מוגדרת כמקום גאומטרי שבו:",
+    "options": ["הפרש המרחקים משני מוקדים קבוע (בערך מוחלט)", "סכום המרחקים משני מוקדים קבוע", "מרחק קבוע ממוקד יחיד", "מרחק שווה ממוקד ומדריך"],
+    "correct_index": 0,
+    "explanation": "זוהי הגדרת ההיפרבולה, בניגוד לאליפסה (סכום) ולמעגל (מוקד יחיד)."
+  },
+  {
+    "id": "q-g12-u5-ahyp-7",
+    "topic_id": "g12-u5-analytic-hyperbola",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשוואה הכללית $Ax^2+By^2+Cx+Dy+E=0$, אם $A$ ו-$B$ בעלי סימנים מנוגדים, העקומה היא:",
+    "options": ["היפרבולה", "אליפסה", "מעגל", "פרבולה"],
+    "correct_index": 0,
+    "explanation": "סימנים מנוגדים למקדמי $x^2$ ו-$y^2$ מאפיינים היפרבולה."
+  },
+  {
+    "id": "q-g12-u5-ahyp-8",
+    "topic_id": "g12-u5-analytic-hyperbola",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במשוואה הכללית, אם $A=B\\neq0$, העקומה היא:",
+    "options": ["מעגל", "אליפסה בלבד", "היפרבולה", "פרבולה"],
+    "correct_index": 0,
+    "explanation": "מקדמים שווים ל-$x^2$ ו-$y^2$ מאפיינים מעגל."
+  },
+  {
+    "id": "q-g12-u5-ahyp-9",
+    "topic_id": "g12-u5-analytic-hyperbola",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהן האסימפטוטות של $\\dfrac{x^2}{9}-\\dfrac{y^2}{16}=1$?",
+    "options": ["$y=\\pm\\dfrac43x$", "$y=\\pm\\dfrac34x$", "$y=\\pm\\dfrac{9}{16}x$", "$y=\\pm12x$"],
+    "correct_index": 0,
+    "explanation": "$y=\\pm\\dfrac ba x=\\pm\\dfrac43x$."
+  },
+  {
+    "id": "q-g12-u5-ahyp-10",
+    "topic_id": "g12-u5-analytic-hyperbola",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "עבור $\\dfrac{x^2}{9}-\\dfrac{y^2}{16}=1$, מהו הפרש המרחקים (בערך מוחלט) מכל נקודה על ההיפרבולה לשני המוקדים?",
+    "options": ["$6$", "$8$", "$3$", "$10$"],
+    "correct_index": 0,
+    "explanation": "$a=3$, וההפרש הקבוע הוא $2a=6$."
+  },
+  {
+    "id": "q-g12-u5-elprec-1",
+    "topic_id": "g12-u5-explog-precalc",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$\\log_a(xy)$ שווה ל:",
+    "options": ["$\\log_a x+\\log_a y$", "$\\log_a x\\cdot\\log_a y$", "$\\log_a x-\\log_a y$", "$\\log_a(x+y)$"],
+    "correct_index": 0,
+    "explanation": "חוק הלוגריתם של מכפלה."
+  },
+  {
+    "id": "q-g12-u5-elprec-2",
+    "topic_id": "g12-u5-explog-precalc",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$a^{p/q}$ (כאשר $\\frac pq$ שבר מצומצם עם מכנה חיובי) שווה ל:",
+    "options": ["$\\sqrt[q]{a^p}$", "$\\sqrt[p]{a^q}$", "$a^p\\cdot a^q$", "$\\dfrac{a^p}{a^q}$"],
+    "correct_index": 0,
+    "explanation": "הגדרת חזקה עם מעריך רציונלי."
+  },
+  {
+    "id": "q-g12-u5-elprec-3",
+    "topic_id": "g12-u5-explog-precalc",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\log_2 32$?",
+    "options": ["$5$", "$16$", "$4$", "$32$"],
+    "correct_index": 0,
+    "explanation": "$2^5=32$."
+  },
+  {
+    "id": "q-g12-u5-elprec-4",
+    "topic_id": "g12-u5-explog-precalc",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נוסחת מעבר בסיס עבור $\\log_a x$:",
+    "options": ["$\\dfrac{\\log_b x}{\\log_b a}$", "$\\log_b x\\cdot\\log_b a$", "$\\log_b x-\\log_b a$", "$\\dfrac{\\log_b a}{\\log_b x}$"],
+    "correct_index": 0,
+    "explanation": "זוהי נוסחת מעבר הבסיס."
+  },
+  {
+    "id": "q-g12-u5-elprec-5",
+    "topic_id": "g12-u5-explog-precalc",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו: $2^x=\\dfrac18$.",
+    "options": ["$x=-3$", "$x=3$", "$x=-8$", "$x=8$"],
+    "correct_index": 0,
+    "explanation": "$\\dfrac18=2^{-3}$, ולכן $x=-3$."
+  },
+  {
+    "id": "q-g12-u5-elprec-6",
+    "topic_id": "g12-u5-explog-precalc",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$\\log_a(x^k)$ שווה ל:",
+    "options": ["$k\\log_a x$", "$(\\log_a x)^k$", "$\\log_a x+k$", "$k+\\log_a x$"],
+    "correct_index": 0,
+    "explanation": "חוק הלוגריתם של חזקה."
+  },
+  {
+    "id": "q-g12-u5-elprec-7",
+    "topic_id": "g12-u5-explog-precalc",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו: $\\log_3(x+2)=2$.",
+    "options": ["$x=7$", "$x=9$", "$x=6$", "$x=1$"],
+    "correct_index": 0,
+    "explanation": "$x+2=3^2=9\\Rightarrow x=7$."
+  },
+  {
+    "id": "q-g12-u5-elprec-8",
+    "topic_id": "g12-u5-explog-precalc",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $\\log_2 x=3$.",
+    "options": ["$x=8$", "$x=6$", "$x=9$", "$x=3$"],
+    "correct_index": 0,
+    "explanation": "$x=2^3=8$."
+  },
+  {
+    "id": "q-g12-u5-elprec-9",
+    "topic_id": "g12-u5-explog-precalc",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו את אי-השוויון $\\log_{0.5}x\\ge\\log_{0.5}4$ (עבור $x>0$).",
+    "options": ["$0<x\\le4$", "$x\\ge4$", "$x\\le4$", "$x\\ge0.5$"],
+    "correct_index": 0,
+    "explanation": "הבסיס $0.5<1$ (פונקציה יורדת), ולכן הופכים כיוון: $x\\le4$, בשילוב עם תחום ההגדרה $x>0$."
+  },
+  {
+    "id": "q-g12-u5-elprec-10",
+    "topic_id": "g12-u5-explog-precalc",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פתרו: $2^{2x}-5\\cdot2^x+4=0$. מהו סכום כל הפתרונות?",
+    "options": ["$2$", "$4$", "$5$", "$0$"],
+    "correct_index": 0,
+    "explanation": "$t=2^x$: $t^2-5t+4=0\\Rightarrow t=1$ או $t=4\\Rightarrow x=0$ או $x=2$. סכום: $2$."
+  },
+  {
+    "id": "q-g12-u5-gd-1",
+    "topic_id": "g12-u5-explog-growth-decay",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנוסחה הכללית למודל גדילה/דעיכה מעריכית?",
+    "options": ["$N(t)=N(0)\\cdot q^t$", "$N(t)=N(0)+qt$", "$N(t)=N(0)\\cdot t^q$", "$N(t)=q^{N(0)}$"],
+    "correct_index": 0,
+    "explanation": "זהו המודל הבסיסי לגדילה/דעיכה מעריכית."
+  },
+  {
+    "id": "q-g12-u5-gd-2",
+    "topic_id": "g12-u5-explog-growth-decay",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $e^x$?",
+    "options": ["$e^x$", "$xe^{x-1}$", "$1$", "$e$"],
+    "correct_index": 0,
+    "explanation": "$e^x$ שווה לנגזרת של עצמה."
+  },
+  {
+    "id": "q-g12-u5-gd-3",
+    "topic_id": "g12-u5-explog-growth-decay",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $\\ln x$?",
+    "options": ["$\\dfrac1x$", "$x$", "$\\ln x$", "$e^x$"],
+    "correct_index": 0,
+    "explanation": "$(\\ln x)'=\\dfrac1x$."
+  },
+  {
+    "id": "q-g12-u5-gd-4",
+    "topic_id": "g12-u5-explog-growth-decay",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$f(x)=a^x$ עם $0<a<1$ היא:",
+    "options": ["יורדת", "עולה", "קבועה", "לא מוגדרת"],
+    "correct_index": 0,
+    "explanation": "בסיס בין $0$ ל-$1$ נותן פונקציה מעריכית יורדת."
+  },
+  {
+    "id": "q-g12-u5-gd-5",
+    "topic_id": "g12-u5-explog-growth-decay",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פונקציה מעריכית מתאימה, בנקודות בדידות, לאיזה סוג סדרה?",
+    "options": ["סדרה הנדסית", "סדרה חשבונית", "סדרה מעורבת", "אף אחת מהן"],
+    "correct_index": 0,
+    "explanation": "כמו שפונקציה לינארית מתאימה לסדרה חשבונית, פונקציה מעריכית מתאימה לסדרה הנדסית."
+  },
+  {
+    "id": "q-g12-u5-gd-6",
+    "topic_id": "g12-u5-explog-growth-decay",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "הפונקציה הלוגריתמית היא הפונקציה ההפוכה ל:",
+    "options": ["הפונקציה המעריכית", "הפונקציה הריבועית", "הפונקציה הלינארית", "הפונקציה הטריגונומטרית"],
+    "correct_index": 0,
+    "explanation": "$\\log_a x$ ו-$a^x$ הן פונקציות הפוכות זו לזו."
+  },
+  {
+    "id": "q-g12-u5-gd-7",
+    "topic_id": "g12-u5-explog-growth-decay",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי נוסחת זמן מחצית החיים?",
+    "options": ["$N(t)=N(0)\\left(\\tfrac12\\right)^{t/T}$", "$N(t)=N(0)\\cdot\\tfrac{t}{2T}$", "$N(t)=\\tfrac{N(0)}{2t}$", "$N(t)=N(0)-\\tfrac{t}{T}$"],
+    "correct_index": 0,
+    "explanation": "$T$ הוא הזמן שבו הכמות יורדת בדיוק לחצי."
+  },
+  {
+    "id": "q-g12-u5-gd-8",
+    "topic_id": "g12-u5-explog-growth-decay",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "הגרפים של $f(x)=a^x$ ו-$g(x)=\\log_a x$ סימטריים ביחס ל:",
+    "options": ["הישר $y=x$", "ציר $x$", "ציר $y$", "הראשית"],
+    "correct_index": 0,
+    "explanation": "גרפים של פונקציות הפוכות תמיד סימטריים ביחס לישר $y=x$."
+  },
+  {
+    "id": "q-g12-u5-gd-9",
+    "topic_id": "g12-u5-explog-growth-decay",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=a^x$ (בסיס כללי $a$)?",
+    "options": ["$a^x\\ln a$", "$xa^{x-1}$", "$a^x$", "$\\ln a$"],
+    "correct_index": 0,
+    "explanation": "$(a^x)'=a^x\\ln a$."
+  },
+  {
+    "id": "q-g12-u5-gd-10",
+    "topic_id": "g12-u5-explog-growth-decay",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "אוכלוסייה מכפילה עצמה כל $3$ שעות, $N(0)=50$. מהו $N(9)$?",
+    "options": ["$400$", "$450$", "$150$", "$350$"],
+    "correct_index": 0,
+    "explanation": "$9$ שעות = $3$ הכפלות: $N(9)=50\\cdot2^3=400$."
+  },
+  {
+    "id": "q-g12-u5-inv-1",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=x\\cdot e^x$?",
+    "options": ["$e^x(x+1)$", "$e^x$", "$xe^x$", "$e^x(x-1)$"],
+    "correct_index": 0,
+    "explanation": "כלל המכפלה: $f'(x)=e^x+xe^x=e^x(x+1)$."
+  },
+  {
+    "id": "q-g12-u5-inv-2",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי נקודת הקיצון של $f(x)=x\\cdot e^x$?",
+    "options": ["$x=-1$", "$x=0$", "$x=1$", "$x=e$"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=e^x(x+1)=0\\Rightarrow x=-1$ (כי $e^x\\neq0$)."
+  },
+  {
+    "id": "q-g12-u5-inv-3",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו תחום ההגדרה של $f(x)=\\ln(x^2-4)$?",
+    "options": ["$x<-2$ או $x>2$", "$-2<x<2$", "כל הממשיים", "$x\\neq\\pm2$"],
+    "correct_index": 0,
+    "explanation": "נדרש $x^2-4>0\\Rightarrow x<-2$ או $x>2$."
+  },
+  {
+    "id": "q-g12-u5-inv-4",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם $f(x)=e^x$ זוגית, אי-זוגית, או אף אחת?",
+    "options": ["אף אחת", "זוגית", "אי-זוגית", "גם זוגית וגם אי-זוגית"],
+    "correct_index": 0,
+    "explanation": "$f(-x)=e^{-x}\\neq f(x)$ וגם $\\neq-f(x)$, ולכן אינה זוגית ואינה אי-זוגית."
+  },
+  {
+    "id": "q-g12-u5-inv-5",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם $f$ עולה בתחום מסוים, מה ניתן לומר על גרף הנגזרת $f'$ שם?",
+    "options": ["הגרף נמצא מעל ציר $x$ (חיובי)", "הגרף נמצא מתחת לציר $x$", "הגרף חותך את ציר $x$", "אין מספיק מידע"],
+    "correct_index": 0,
+    "explanation": "עלייה של $f$ פירושה $f'>0$, כלומר גרף הנגזרת מעל ציר $x$."
+  },
+  {
+    "id": "q-g12-u5-inv-6",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נגזרת שנייה חיובית בתחום מסוים משמעה שהפונקציה שם:",
+    "options": ["קעורה כלפי מעלה (קמורה כלפי מטה)", "קעורה כלפי מטה", "יורדת", "לא רציפה"],
+    "correct_index": 0,
+    "explanation": "$f''>0$ מציינת קעירות כלפי מעלה."
+  },
+  {
+    "id": "q-g12-u5-inv-7",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי האסימפטוטה האנכית של $f(x)=\\ln(x-3)$?",
+    "options": ["$x=3$", "$x=0$", "$y=3$", "$x=-3$"],
+    "correct_index": 0,
+    "explanation": "תחום ההגדרה $x>3$, והפונקציה שואפת ל-$-\\infty$ כאשר $x\\to3^+$."
+  },
+  {
+    "id": "q-g12-u5-inv-8",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "האם $f(x)=e^{-x^2}$ זוגית או אי-זוגית?",
+    "options": ["זוגית", "אי-זוגית", "אף אחת", "לא ניתן לקבוע"],
+    "correct_index": 0,
+    "explanation": "$f(-x)=e^{-(-x)^2}=e^{-x^2}=f(x)$ — זוגית."
+  },
+  {
+    "id": "q-g12-u5-inv-9",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=x^2e^x$?",
+    "options": ["$e^x(x^2+2x)$", "$e^x\\cdot2x$", "$e^x\\cdot x^2$", "$e^x(x^2-2x)$"],
+    "correct_index": 0,
+    "explanation": "כלל המכפלה: $f'(x)=2xe^x+x^2e^x=e^x(x^2+2x)$."
+  },
+  {
+    "id": "q-g12-u5-inv-10",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהי האסימפטוטה האופקית של $f(x)=5+3e^{-x}$ כאשר $x\\to\\infty$?",
+    "options": ["$y=5$", "$y=3$", "$y=8$", "$y=0$"],
+    "correct_index": 0,
+    "explanation": "כאשר $x\\to\\infty$, $e^{-x}\\to0$, ולכן $f(x)\\to5$."
+  },
+  {
+    "id": "q-g12-u5-elint-1",
+    "topic_id": "g12-u5-explog-integral",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\int e^x\\,dx$?",
+    "options": ["$e^x+C$", "$xe^{x-1}+C$", "$e^x\\cdot x+C$", "$\\dfrac{e^x}{x}+C$"],
+    "correct_index": 0,
+    "explanation": "האינטגרל המיידי של $e^x$."
+  },
+  {
+    "id": "q-g12-u5-elint-2",
+    "topic_id": "g12-u5-explog-integral",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\int\\dfrac1x\\,dx$?",
+    "options": ["$\\ln|x|+C$", "$\\dfrac{1}{x^2}+C$", "$x\\ln x+C$", "$\\dfrac{x^2}{2}+C$"],
+    "correct_index": 0,
+    "explanation": "האינטגרל המיידי של $\\dfrac1x$."
+  },
+  {
+    "id": "q-g12-u5-elint-3",
+    "topic_id": "g12-u5-explog-integral",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\int e^{2x}\\,dx$?",
+    "options": ["$\\dfrac12e^{2x}+C$", "$2e^{2x}+C$", "$e^{2x}+C$", "$e^x+C$"],
+    "correct_index": 0,
+    "explanation": "$\\int e^{ax}dx=\\dfrac1ae^{ax}+C$."
+  },
+  {
+    "id": "q-g12-u5-elint-4",
+    "topic_id": "g12-u5-explog-integral",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "חשבו: $\\displaystyle\\int_0^1 e^x\\,dx$.",
+    "options": ["$e-1$", "$e$", "$1$", "$e+1$"],
+    "correct_index": 0,
+    "explanation": "$[e^x]_0^1=e^1-e^0=e-1$."
+  },
+  {
+    "id": "q-g12-u5-elint-5",
+    "topic_id": "g12-u5-explog-integral",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חשבו: $\\displaystyle\\int_1^e\\dfrac1x\\,dx$.",
+    "options": ["$1$", "$e$", "$e-1$", "$0$"],
+    "correct_index": 0,
+    "explanation": "$[\\ln x]_1^e=\\ln e-\\ln1=1-0=1$."
+  },
+  {
+    "id": "q-g12-u5-elint-6",
+    "topic_id": "g12-u5-explog-integral",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו השטח הכלוא בין $f(x)=e^x$ לציר $x$ בתחום $[0,1]$?",
+    "options": ["$e-1$", "$e$", "$1$", "$e+1$"],
+    "correct_index": 0,
+    "explanation": "השטח שווה לאינטגרל המסוים: $\\int_0^1 e^xdx=e-1$."
+  },
+  {
+    "id": "q-g12-u5-elint-7",
+    "topic_id": "g12-u5-explog-integral",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $\\int a^x\\,dx$ (עבור $a>0,a\\neq1$)?",
+    "options": ["$\\dfrac{a^x}{\\ln a}+C$", "$a^x\\ln a+C$", "$\\dfrac{a^{x+1}}{x+1}+C$", "$a^x+C$"],
+    "correct_index": 0,
+    "explanation": "האינטגרל המיידי של פונקציה מעריכית בבסיס כללי."
+  },
+  {
+    "id": "q-g12-u5-elint-8",
+    "topic_id": "g12-u5-explog-integral",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פונקציה קדומה $F(x)$ של $f(x)=e^{3x}$ מקיימת $F(0)=2$. מהי $F(x)$?",
+    "options": ["$\\dfrac13e^{3x}+\\dfrac53$", "$\\dfrac13e^{3x}+2$", "$e^{3x}+2$", "$3e^{3x}+2$"],
+    "correct_index": 0,
+    "explanation": "$F(x)=\\dfrac13e^{3x}+C$; $F(0)=\\dfrac13+C=2\\Rightarrow C=\\dfrac53$."
+  },
+  {
+    "id": "q-g12-u5-elint-9",
+    "topic_id": "g12-u5-explog-integral",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו השטח בין $f(x)=e^x$ ל-$g(x)=1$ בתחום $[0,1]$ (כאשר $f\\ge g$ שם)?",
+    "options": ["$e-2$", "$e-1$", "$e$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$\\int_0^1(e^x-1)dx=(e-1)-(1-0)=e-2$."
+  },
+  {
+    "id": "q-g12-u5-elint-10",
+    "topic_id": "g12-u5-explog-integral",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו $\\int 2x\\cdot e^{x^2}\\,dx$?",
+    "options": ["$e^{x^2}+C$", "$x^2e^{x^2}+C$", "$2e^{x^2}+C$", "$e^{2x}+C$"],
+    "correct_index": 0,
+    "explanation": "הנגזרת הפנימית של $x^2$ היא $2x$ — בדיוק הביטוי הכפול, ולכן הקדומה היא $e^{x^2}+C$."
+  },
+  {
+    "id": "q-g12-u5-cb-1",
+    "topic_id": "g12-u5-complex-basics",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $i^2$?",
+    "options": ["$-1$", "$1$", "$i$", "$0$"],
+    "correct_index": 0,
+    "explanation": "זוהי ההגדרה הבסיסית של המספר המרוכב $i$."
+  },
+  {
+    "id": "q-g12-u5-cb-2",
+    "topic_id": "g12-u5-complex-basics",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו הצמוד של $3+4i$?",
+    "options": ["$3-4i$", "$-3+4i$", "$-3-4i$", "$4+3i$"],
+    "correct_index": 0,
+    "explanation": "הצמוד מתקבל על ידי החלפת סימן החלק המדומה."
+  },
+  {
+    "id": "q-g12-u5-cb-3",
+    "topic_id": "g12-u5-complex-basics",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $|3+4i|$?",
+    "options": ["$5$", "$7$", "$25$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$|3+4i|=\\sqrt{9+16}=5$."
+  },
+  {
+    "id": "q-g12-u5-cb-4",
+    "topic_id": "g12-u5-complex-basics",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "חשבו: $(2+3i)+(1-i)$.",
+    "options": ["$3+2i$", "$1+4i$", "$3+4i$", "$2+2i$"],
+    "correct_index": 0,
+    "explanation": "מחברים חלקים ממשיים ומדומים בנפרד: $(2+1)+(3-1)i=3+2i$."
+  },
+  {
+    "id": "q-g12-u5-cb-5",
+    "topic_id": "g12-u5-complex-basics",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חשבו: $(1+i)(1-i)$.",
+    "options": ["$2$", "$0$", "$2i$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$(1+i)(1-i)=1-i^2=1-(-1)=2$."
+  },
+  {
+    "id": "q-g12-u5-cb-6",
+    "topic_id": "g12-u5-complex-basics",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$z\\cdot\\bar z$ שווה תמיד ל:",
+    "options": ["$|z|^2$", "$|z|$", "$0$", "$2\\,\\text{Re}(z)$"],
+    "correct_index": 0,
+    "explanation": "מכפלת מספר מרוכב בצמודו נותנת תמיד את ריבוע הערך המוחלט."
+  },
+  {
+    "id": "q-g12-u5-cb-7",
+    "topic_id": "g12-u5-complex-basics",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם קיים יחס סדר ($>$) בין מספרים מרוכבים כלליים?",
+    "options": ["לא", "כן, תמיד", "רק בין מספרים ממשיים חיוביים", "רק בין מספרים מדומים טהורים"],
+    "correct_index": 0,
+    "explanation": "במספרים מרוכבים אין מוגדר יחס סדר."
+  },
+  {
+    "id": "q-g12-u5-cb-8",
+    "topic_id": "g12-u5-complex-basics",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חשבו: $\\dfrac{2+i}{1-i}$.",
+    "options": ["$\\dfrac{1+3i}{2}$", "$\\dfrac{1-3i}{2}$", "$1+3i$", "$2+i$"],
+    "correct_index": 0,
+    "explanation": "מכפילים בצמוד המכנה: $\\dfrac{(2+i)(1+i)}{(1-i)(1+i)}=\\dfrac{2+2i+i-1}{2}=\\dfrac{1+3i}{2}$."
+  },
+  {
+    "id": "q-g12-u5-cb-9",
+    "topic_id": "g12-u5-complex-basics",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "סכום של מספר מרוכב $z$ והצמוד שלו $\\bar z$ הוא תמיד:",
+    "options": ["מספר ממשי", "מספר מדומה טהור", "אפס", "שווה ל-$|z|$"],
+    "correct_index": 0,
+    "explanation": "$z+\\bar z=(a+bi)+(a-bi)=2a$ — ממשי תמיד."
+  },
+  {
+    "id": "q-g12-u5-cb-10",
+    "topic_id": "g12-u5-complex-basics",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו המרחק בין הנקודות $z_1=1+2i$ ו-$z_2=4+6i$ במישור גאוס?",
+    "options": ["$5$", "$7$", "$3$", "$25$"],
+    "correct_index": 0,
+    "explanation": "$|z_1-z_2|=|-3-4i|=\\sqrt{9+16}=5$."
+  },
+  {
+    "id": "q-g12-u5-cp-1",
+    "topic_id": "g12-u5-complex-polar",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי ההצגה הקוטבית של מספר מרוכב $z$?",
+    "options": ["$z=r(\\cos\\theta+i\\sin\\theta)$", "$z=r+\\theta i$", "$z=r\\theta$", "$z=re^{i}$ בלבד"],
+    "correct_index": 0,
+    "explanation": "זוהי ההצגה הקוטבית הסטנדרטית."
+  },
+  {
+    "id": "q-g12-u5-cp-2",
+    "topic_id": "g12-u5-complex-polar",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו משפט דה-מואבר?",
+    "options": ["$z^n=r^n(\\cos n\\theta+i\\sin n\\theta)$", "$z^n=nr(\\cos\\theta+i\\sin\\theta)$", "$z^n=r^n\\theta^n$", "$z^n=nr^n\\theta$"],
+    "correct_index": 0,
+    "explanation": "זהו ניסוח משפט דה-מואבר."
+  },
+  {
+    "id": "q-g12-u5-cp-3",
+    "topic_id": "g12-u5-complex-polar",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "המודולוס של מכפלת $z_1\\cdot z_2$ שווה ל:",
+    "options": ["$r_1\\cdot r_2$", "$r_1+r_2$", "$r_1-r_2$", "$\\dfrac{r_1}{r_2}$"],
+    "correct_index": 0,
+    "explanation": "בכפל מרוכבים בהצגה קוטבית, הרדיוסים מוכפלים."
+  },
+  {
+    "id": "q-g12-u5-cp-4",
+    "topic_id": "g12-u5-complex-polar",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הארגומנט (זווית) של מכפלת $z_1\\cdot z_2$ שווה ל:",
+    "options": ["$\\theta_1+\\theta_2$", "$\\theta_1\\cdot\\theta_2$", "$\\theta_1-\\theta_2$", "$\\dfrac{\\theta_1}{\\theta_2}$"],
+    "correct_index": 0,
+    "explanation": "בכפל מרוכבים, הזוויות מצטברות (מתחברות)."
+  },
+  {
+    "id": "q-g12-u5-cp-5",
+    "topic_id": "g12-u5-complex-polar",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו את המשוואה $x^2+4=0$ (מעל המספרים המרוכבים).",
+    "options": ["$x=\\pm2i$", "$x=\\pm2$", "$x=\\pm4i$", "$x=\\pm4$"],
+    "correct_index": 0,
+    "explanation": "$x^2=-4\\Rightarrow x=\\pm\\sqrt{-4}=\\pm2i$."
+  },
+  {
+    "id": "q-g12-u5-cp-6",
+    "topic_id": "g12-u5-complex-polar",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה שורשים מסדר $n$ יש למספר מרוכב (השונה מאפס)?",
+    "options": ["בדיוק $n$", "$1$ בלבד", "$2n$", "תלוי במספר"],
+    "correct_index": 0,
+    "explanation": "לכל מספר מרוכב שונה מאפס יש בדיוק $n$ שורשים מסדר $n$."
+  },
+  {
+    "id": "q-g12-u5-cp-7",
+    "topic_id": "g12-u5-complex-polar",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שורשי היחידה מסדר $n$, כאשר מציירים אותם במישור גאוס, יוצרים:",
+    "options": ["קודקודי מצולע משוכלל בעל $n$ צלעות", "קו ישר", "מעגל שלם ללא נקודות מובחנות", "ריבוע תמיד"],
+    "correct_index": 0,
+    "explanation": "השורשים מפוזרים שווה-זווית על מעגל היחידה, ויוצרים מצולע משוכלל."
+  },
+  {
+    "id": "q-g12-u5-cp-8",
+    "topic_id": "g12-u5-complex-polar",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$z=2(\\cos60°+i\\sin60°)$. מהו $z^2$?",
+    "options": ["$4(\\cos120°+i\\sin120°)$", "$4(\\cos60°+i\\sin60°)$", "$2(\\cos120°+i\\sin120°)$", "$4(\\cos30°+i\\sin30°)$"],
+    "correct_index": 0,
+    "explanation": "לפי דה-מואבר: $r^2=4$, זווית $2\\times60°=120°$."
+  },
+  {
+    "id": "q-g12-u5-cp-9",
+    "topic_id": "g12-u5-complex-polar",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $x^2-2x+5=0$ (מעל המרוכבים).",
+    "options": ["$x=1\\pm2i$", "$x=2\\pm i$", "$x=1\\pm i$", "$x=-1\\pm2i$"],
+    "correct_index": 0,
+    "explanation": "$\\Delta=4-20=-16$. $x=\\dfrac{2\\pm\\sqrt{-16}}{2}=\\dfrac{2\\pm4i}{2}=1\\pm2i$."
+  },
+  {
+    "id": "q-g12-u5-cp-10",
+    "topic_id": "g12-u5-complex-polar",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "$z=\\cos45°+i\\sin45°$. מהו $z^4$?",
+    "options": ["$-1$", "$1$", "$i$", "$-i$"],
+    "correct_index": 0,
+    "explanation": "לפי דה-מואבר: זווית $4\\times45°=180°$, $z^4=\\cos180°+i\\sin180°=-1$."
+  },
+  {
+    "id": "q-g12-u5-cloc-1",
+    "topic_id": "g12-u5-complex",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "המשוואה $|z-3|=2$ מייצגת:",
+    "options": ["מעגל שמרכזו $3$ ורדיוסו $2$", "ישר", "אליפסה", "נקודה בודדת"],
+    "correct_index": 0,
+    "explanation": "$|z-a|=R$ מייצגת מעגל שמרכזו $a$ ורדיוסו $R$."
+  },
+  {
+    "id": "q-g12-u5-cloc-2",
+    "topic_id": "g12-u5-complex",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "המשוואה $|z-1|=|z-5|$ מייצגת:",
+    "options": ["אנך אמצעי לקטע בין $1$ ל-$5$", "מעגל שמרכזו $1$", "מעגל שמרכזו $5$", "היפרבולה"],
+    "correct_index": 0,
+    "explanation": "שוויון מרחקים משתי נקודות קבועות נותן את האנך האמצעי."
+  },
+  {
+    "id": "q-g12-u5-cloc-3",
+    "topic_id": "g12-u5-complex",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כפל $z$ ב-$-1$ מייצג גאומטרית:",
+    "options": ["סיבוב ב-$180°$ סביב הראשית", "הזזה", "מתיחה", "שיקוף ביחס לציר $x$"],
+    "correct_index": 0,
+    "explanation": "כפל ב-$-1$ שקול לסיבוב ב-$180°$ סביב הראשית."
+  },
+  {
+    "id": "q-g12-u5-cloc-4",
+    "topic_id": "g12-u5-complex",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כפל $z$ בקבוע ממשי חיובי $k$ מייצג גאומטרית:",
+    "options": ["מתיחה/כיווץ מהראשית", "הזזה", "סיבוב", "שיקוף"],
+    "correct_index": 0,
+    "explanation": "כפל בקבוע ממשי חיובי משנה את הגודל בלבד, ללא שינוי כיוון."
+  },
+  {
+    "id": "q-g12-u5-cloc-5",
+    "topic_id": "g12-u5-complex",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חיבור $z+t$ (עבור $t$ מרוכב קבוע) מייצג גאומטרית:",
+    "options": ["הזזה (טרנסלציה)", "סיבוב", "מתיחה", "שיקוף"],
+    "correct_index": 0,
+    "explanation": "חיבור קבוע לכל נקודה שקול להזזה של הצורה כולה."
+  },
+  {
+    "id": "q-g12-u5-cloc-6",
+    "topic_id": "g12-u5-complex",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "המשוואה $|z-2i|=3$ מייצגת מעגל שמרכזו:",
+    "options": ["$(0,2)$", "$(2,0)$", "$(0,3)$", "$(3,0)$"],
+    "correct_index": 0,
+    "explanation": "$2i$ מתאים לנקודה $(0,2)$ במישור גאוס."
+  },
+  {
+    "id": "q-g12-u5-cloc-7",
+    "topic_id": "g12-u5-complex",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כפל $z$ ב-$(\\cos\\theta+i\\sin\\theta)$ מייצג גאומטרית:",
+    "options": ["סיבוב בזווית $\\theta$ סביב הראשית", "הזזה במרחק $\\theta$", "מתיחה פי $\\theta$", "שיקוף"],
+    "correct_index": 0,
+    "explanation": "כפל במספר על מעגל היחידה מסובב את הנקודה בזווית $\\theta$, ללא שינוי גודל."
+  },
+  {
+    "id": "q-g12-u5-cloc-8",
+    "topic_id": "g12-u5-complex",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "המשוואה $|z+1|=2|z-2|$ (יחס מרחקים שאינו $1$) מייצגת:",
+    "options": ["מעגל אפולוניוס", "ישר", "אליפסה", "פרבולה"],
+    "correct_index": 0,
+    "explanation": "יחס קבוע (השונה מ-$1$) בין מרחקים לשתי נקודות קבועות מגדיר מעגל אפולוניוס."
+  },
+  {
+    "id": "q-g12-u5-cloc-9",
+    "topic_id": "g12-u5-complex",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אי-שוויון המשולש למספרים מרוכבים קובע:",
+    "options": ["$|z_1+z_2|\\le|z_1|+|z_2|$", "$|z_1+z_2|\\ge|z_1|+|z_2|$", "$|z_1+z_2|=|z_1|+|z_2|$ תמיד", "$|z_1|+|z_2|=0$"],
+    "correct_index": 0,
+    "explanation": "זהו ניסוח אי-שוויון המשולש עבור מספרים מרוכבים."
+  },
+  {
+    "id": "q-g12-u5-cloc-10",
+    "topic_id": "g12-u5-complex",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהי משוואת האנך האמצעי $|z-a|=|z-b|$ עבור $a=1+i$, $b=5+i$?",
+    "options": ["$x=3$", "$y=3$", "$x=1$", "$x+y=3$"],
+    "correct_index": 0,
+    "explanation": "הנקודות $(1,1)$ ו-$(5,1)$ — האנך האמצעי הוא הישר האנכי באמצע ביניהן: $x=3$."
   }
 ];
 
