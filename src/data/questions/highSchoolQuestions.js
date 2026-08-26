@@ -22390,6 +22390,166 @@ export const QUESTIONS = [
     "options": ["$x=3$", "$y=3$", "$x=1$", "$x+y=3$"],
     "correct_index": 0,
     "explanation": "הנקודות $(1,1)$ ו-$(5,1)$ — האנך האמצעי הוא הישר האנכי באמצע ביניהן: $x=3$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-1",
+    "topic_id": "g12-u5-analytic-parabola",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פרבולה שמשוואתה $y^2=32x$. מעבירים לפרבולה משיק בנקודה $A$ שנמצאת עליה, ושיפוע המשיק הוא $\\dfrac12$. מהם שיעורי הנקודה $A$?",
+    "options": ["$(32,32)$", "$(16,32)$", "$(32,16)$", "$(64,32)$"],
+    "correct_index": 0,
+    "explanation": "$2p=32$. שיפוע המשיק בנקודה $(x_0,y_0)$ על הפרבולה הוא $\\dfrac{p}{y_0}=\\dfrac12\\Rightarrow y_0=2p=32$. הצבה במשוואה: $32^2=32x_0\\Rightarrow x_0=32$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-2",
+    "topic_id": "g12-u5-analytic-circle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מעגל שרדיוסו $5$ ומרכזו בראשית הצירים. מנקודה $B$ על המעגל מעבירים משיק, ועל המשיק מסמנים נקודה $P$ כך ש-$BP=12$. מהו מרחק $P$ מהמרכז?",
+    "options": ["$13$", "$17$", "$7$", "$144$"],
+    "correct_index": 0,
+    "explanation": "הרדיוס $OB$ ניצב למשיק בנקודת ההשקה, ולכן במשולש הישר-זווית $OBP$: $OP=\\sqrt{OB^2+BP^2}=\\sqrt{25+144}=\\sqrt{169}=13$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-3",
+    "topic_id": "g12-u5-vectors-linear-dependence",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בתיבה $ABCDA'B'C'D'$ מסמנים $\\vec u=\\overrightarrow{AD}$, $\\vec v=\\overrightarrow{AB}$, $\\vec w=\\overrightarrow{AA'}$. הנקודה $E$ היא אמצע המקצוע $BB'$. הביעו את $\\overrightarrow{EA}$ באמצעות $\\vec u,\\vec v,\\vec w$.",
+    "options": ["$-\\vec v-\\dfrac12\\vec w$", "$-\\vec u-\\dfrac12\\vec w$", "$\\vec v+\\dfrac12\\vec w$", "$-\\vec v-\\vec w$"],
+    "correct_index": 0,
+    "explanation": "ביחס ל-$A$ כראשית: $B=\\vec v$, $E=\\vec v+\\dfrac12\\vec w$ (אמצע $BB'$). לכן $\\overrightarrow{EA}=A-E=-\\vec v-\\dfrac12\\vec w$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-4",
+    "topic_id": "g12-u5-vectors-linear-dependence",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בפירמידה $SABCD$ שבסיסה $ABCD$ ריבוע, מסמנים $\\vec u=\\overrightarrow{AD}$, $\\vec v=\\overrightarrow{AB}$, $\\vec w=\\overrightarrow{AS}$. הנקודה $N$ מקיימת $\\overrightarrow{SN}=k\\cdot\\overrightarrow{SC}$. הביעו את $\\overrightarrow{SN}$ באמצעות $\\vec u,\\vec v,\\vec w$ ו-$k$.",
+    "options": ["$k(\\vec u+\\vec v-\\vec w)$", "$k(\\vec u+\\vec v+\\vec w)$", "$k(\\vec u-\\vec v-\\vec w)$", "$k(\\vec v-\\vec u-\\vec w)$"],
+    "correct_index": 0,
+    "explanation": "ביחס ל-$A$: $C=\\vec u+\\vec v$, $S=\\vec w$, ולכן $\\overrightarrow{SC}=C-S=\\vec u+\\vec v-\\vec w$. מכאן $\\overrightarrow{SN}=k\\overrightarrow{SC}=k(\\vec u+\\vec v-\\vec w)$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-5",
+    "topic_id": "g12-u5-vectors-algebraic",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פירמידה $SABCD$ שבסיסה $ABCD$ ריבוע בצלע $8$, וממקמים אותה במערכת צירים כך ש-$A(0,0,0)$, $D$ על החלק החיובי של ציר $x$, $B$ על החלק החיובי של ציר $y$. המקצוע $AS$ הוא גובה הפירמידה ואורכו שווה לאורך צלע הריבוע. מהם שיעורי $S$?",
+    "options": ["$(0,0,8)$", "$(8,0,0)$", "$(0,8,0)$", "$(8,8,0)$"],
+    "correct_index": 0,
+    "explanation": "$AS$ הוא הגובה — מאונך לבסיס $ABCD$ (הנמצא במישור $xy$), ולכן נמצא על ציר $z$. אורכו $8$, ולכן $S=(0,0,8)$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-6",
+    "topic_id": "g12-u5-complex-polar",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו את המשוואה $z^3=-8$ (מעל המספרים המרוכבים). מהו הפתרון הממשי?",
+    "options": ["$-2$", "$2$", "$-8$", "$8$"],
+    "correct_index": 0,
+    "explanation": "$-8=8(\\cos180°+i\\sin180°)$. השורש עם זווית $\\dfrac{180°}{3}=60°$ נותן פתרון מרוכב, אך הזווית $\\dfrac{180°+360°}{3}=180°$ נותנת $2(\\cos180°+i\\sin180°)=-2$ — הפתרון הממשי."
+  },
+  {
+    "id": "q-g12-u5-bagrut-7",
+    "topic_id": "g12-u5-complex",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "הנקודות $A,B,C,D$ במישור גאוס מייצגות בהתאמה את המספרים $6i,\\ 8,\\ -6i,\\ -8$, והן קודקודי מרובע קמור $ABCD$ (לפי סדר זה). מהו שטח המרובע?",
+    "options": ["$96$", "$48$", "$84$", "$112$"],
+    "correct_index": 0,
+    "explanation": "האלכסונים $AC$ (לאורך הציר המדומה, אורך $12$) ו-$BD$ (לאורך הציר הממשי, אורך $16$) ניצבים זה לזה. שטח מרובע עם אלכסונים ניצבים: $\\dfrac12\\cdot12\\cdot16=96$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-8",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^n(5-\\ln x)$, מוגדרת עבור $x>0$. עבור אילו $x$ מתקיים $f(x)=0$ (מלבד אפשרי ב-$x=0$)?",
+    "options": ["$x=e^5$", "$x=5$", "$x=\\ln5$", "$x=e^{-5}$"],
+    "correct_index": 0,
+    "explanation": "$f(x)=0$ כאשר $5-\\ln x=0$ (בהנחה $x^n\\neq0$), כלומר $\\ln x=5\\Rightarrow x=e^5$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-9",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בפונקציה $f(x)=x^n(5-\\ln x)$ ($x>0$), שיפוע המשיק לגרף בנקודה $x=1$ הוא $4$. מהו $n$?",
+    "options": ["$1$", "$2$", "$4$", "$0.6$"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=x^{n-1}\\big[n(5-\\ln x)-1\\big]$. בנקודה $x=1$ (כאשר $\\ln1=0$): $f'(1)=5n-1=4\\Rightarrow n=1$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-10",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "עבור $f(x)=x(5-\\ln x)$ ($x>0$), מהי נקודת הקיצון וסוגה?",
+    "options": ["$(e^4,e^4)$ מקסימום", "$(e^4,e^4)$ מינימום", "$(e^5,0)$ מקסימום", "$(e^4,4e^4)$ מקסימום"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=4-\\ln x=0\\Rightarrow x=e^4$. הנגזרת חיובית לפני $e^4$ ושלילית אחריו — מקסימום. $f(e^4)=e^4(5-4)=e^4$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-11",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו תחום ההגדרה של $f(x)=3e^x-x+5\\ln(6-e^x)$?",
+    "options": ["$x<\\ln6$", "$x>\\ln6$", "$x<6$", "כל $x$"],
+    "correct_index": 0,
+    "explanation": "נדרש $6-e^x>0\\Rightarrow e^x<6\\Rightarrow x<\\ln6$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-12",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=3e^x-x+5\\ln(6-e^x)$ יש אסימפטוטה מאונכת לציר $x$ ב:",
+    "options": ["$x=\\ln6$", "$x=6$", "$x=0$", "אין אסימפטוטה כזו"],
+    "correct_index": 0,
+    "explanation": "בקצה תחום ההגדרה, $x=\\ln6$, הביטוי $\\ln(6-e^x)$ שואף ל-$-\\infty$, ולכן זו אסימפטוטה אנכית."
+  },
+  {
+    "id": "q-g12-u5-bagrut-13",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{1}{e^x-2}+\\dfrac{3}{e^x-7}+a$. אילו ערכי $x$ אינם בתחום ההגדרה?",
+    "options": ["$x=\\ln2$ וגם $x=\\ln7$", "$x=2$ וגם $x=7$", "$x=\\ln2$ בלבד", "אין ערכים כאלה"],
+    "correct_index": 0,
+    "explanation": "המכנים מתאפסים כאשר $e^x=2$ (כלומר $x=\\ln2$) וכאשר $e^x=7$ (כלומר $x=\\ln7$)."
+  },
+  {
+    "id": "q-g12-u5-bagrut-14",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "עבור $f(x)=\\dfrac{1}{e^x-2}+\\dfrac{3}{e^x-7}+a$, ידוע כי $y=3$ היא אסימפטוטה אופקית של הפונקציה. מהו $a$?",
+    "options": ["$3$", "$0$", "$1$", "$-3$"],
+    "correct_index": 0,
+    "explanation": "כאשר $x\\to\\infty$, שני השברים שואפים ל-$0$, ולכן $f(x)\\to a$ — כלומר $a=3$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-15",
+    "topic_id": "g12-u5-exp-log",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=10\\ln(x^2+9)-2x$, מוגדרת לכל $x$. מהם שיעורי ה-$x$ של נקודות הקיצון?",
+    "options": ["$x=1$ וגם $x=9$", "$x=-1$ וגם $x=9$", "$x=1$ בלבד", "$x=3$ וגם $x=-3$"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=\\dfrac{20x}{x^2+9}-2=0\\Rightarrow20x=2x^2+18\\Rightarrow x^2-10x+9=0\\Rightarrow(x-1)(x-9)=0$."
+  },
+  {
+    "id": "q-g12-u5-bagrut-16",
+    "topic_id": "g12-u5-explog-integral",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "השטח הכלוא בין גרף $g(x)=e^{-x}$, ציר $x$, והישרים $x=1$ ו-$x=a$ (כאשר $a>1$) שווה ל-$e^{-1}-e^{-3}$. מצאו את $a$.",
+    "options": ["$3$", "$2$", "$4$", "$1.5$"],
+    "correct_index": 0,
+    "explanation": "$\\int_1^a e^{-x}dx=e^{-1}-e^{-a}$. השוואה ל-$e^{-1}-e^{-3}$ נותנת $e^{-a}=e^{-3}\\Rightarrow a=3$."
   }
 ];
 
