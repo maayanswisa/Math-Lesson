@@ -6003,7 +6003,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g4-geo-1",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "question_text": "היקף ריבוע עם צלע $6$:",
     "options": [
@@ -6018,7 +6018,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-1",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "שטח מלבן $10\\times 2$:",
@@ -6033,7 +6033,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-2",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "שטח ריבוע צלע $8$:",
@@ -6048,7 +6048,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-3",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "היקף ריבוע צלע $3$:",
@@ -6063,7 +6063,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-4",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "היקף מלבן $11\\times 7$:",
@@ -6078,7 +6078,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-5",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "שטח מלבן $5\\times 3$:",
@@ -6093,7 +6093,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-6",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "שטח מלבן $10\\times 4$:",
@@ -6108,7 +6108,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-7",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "שטח מלבן $5\\times 7$:",
@@ -6123,7 +6123,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-8",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "שטח ריבוע צלע $3$:",
@@ -6138,7 +6138,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-9",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "שטח ריבוע צלע $11$:",
@@ -6153,7 +6153,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-10",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "היקף ריבוע צלע $8$:",
@@ -6168,7 +6168,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-11",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "שטח ריבוע צלע $4$:",
@@ -6183,7 +6183,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-12",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "שטח מלבן $9\\times 3$:",
@@ -6198,7 +6198,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-13",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "היקף מלבן $4\\times 2$:",
@@ -6213,7 +6213,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-14",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "היקף מלבן $10\\times 9$:",
@@ -6228,7 +6228,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-15",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "שטח מלבן $8\\times 9$:",
@@ -6243,7 +6243,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-16",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "היקף ריבוע צלע $6$:",
@@ -6258,7 +6258,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-17",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "היקף מלבן $10\\times 6$:",
@@ -6273,7 +6273,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-18",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "שטח מלבן $11\\times 3$:",
@@ -6288,7 +6288,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-geometry-19",
-    "topic_id": "g4-geometry",
+    "topic_id": "g4-quadrilaterals",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "היקף מלבן $5\\times 9$:",
@@ -6303,7 +6303,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g4-da-1",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 2,
     "question_text": "בגרף עמודות: א=$2$, ב=$5$, ג=$3$. מי הכי גבוה?",
     "options": [
@@ -6318,7 +6318,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-1",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $10$, $12$, $19$, $21$, $24$?",
@@ -6333,7 +6333,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-2",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $2$, $4$, $7$, $11$, $27$?",
@@ -6348,7 +6348,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-3",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $4$, $5$, $6$, $13$, $14$?",
@@ -6363,7 +6363,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-4",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $2$, $12$, $21$, $22$, $26$?",
@@ -6378,7 +6378,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-5",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $3$, $6$, $7$, $19$, $26$?",
@@ -6393,7 +6393,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-6",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $3$, $5$, $12$, $13$, $23$?",
@@ -6408,7 +6408,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-7",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "ממוצע $2$, $3$, $10$, $22$, $23$?",
@@ -6423,7 +6423,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-8",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $5$, $7$, $13$, $14$, $25$?",
@@ -6438,7 +6438,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-9",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "ממוצע $2$, $14$, $18$, $25$, $26$?",
@@ -6453,7 +6453,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-10",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $11$, $23$, $25$, $27$, $29$?",
@@ -6468,7 +6468,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-11",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $6$, $10$, $12$, $21$, $27$?",
@@ -6483,7 +6483,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-12",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $11$, $14$, $16$, $17$, $20$?",
@@ -6498,7 +6498,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-13",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "ממוצע $8$, $20$, $23$, $24$, $25$?",
@@ -6513,7 +6513,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-14",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $2$, $14$, $18$, $25$, $26$?",
@@ -6528,7 +6528,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-15",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 1,
     "type": "mcq",
     "question_text": "אדומים 4, בנות 6. סה\"כ?",
@@ -6543,7 +6543,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-16",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $2$, $3$, $16$, $17$, $28$?",
@@ -6558,7 +6558,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-17",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $5$, $9$, $13$, $24$, $25$?",
@@ -6573,7 +6573,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-18",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $10$, $11$, $13$, $23$, $27$?",
@@ -6588,7 +6588,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g4-data-19",
-    "topic_id": "g4-data",
+    "topic_id": "g4-median-average",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "ממוצע $4$, $5$, $9$, $12$, $25$?",
@@ -16770,6 +16770,1856 @@ export const ELEMENTARY_QUESTIONS = [
     "options": ["מ\"ר (מטר רבוע)", "סמ\"ר בלבד", "ק\"מ בלבד", "ליטר"],
     "correct_index": 0,
     "explanation": "מ\"ר הוא היחידה הסטנדרטית לשטחים גדולים יותר מסמ\"ר."
+  },
+  {
+    "id": "q-g4-round-1",
+    "topic_id": "g4-rounding-estimation",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "עגלו את $647{,}328$ לאלפים הקרובים.",
+    "options": ["$647{,}000$", "$648{,}000$", "$650{,}000$", "$647{,}300$"],
+    "correct_index": 0,
+    "explanation": "ספרת המאות היא $3$, קטנה מ-$5$, לכן מעגלים למטה."
+  },
+  {
+    "id": "q-g4-round-2",
+    "topic_id": "g4-rounding-estimation",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "עגלו את $52{,}600$ לעשרות אלפים הקרובות.",
+    "options": ["$50{,}000$", "$60{,}000$", "$52{,}000$", "$53{,}000$"],
+    "correct_index": 0,
+    "explanation": "ספרת האלפים היא $2$, קטנה מ-$5$, לכן מעגלים למטה."
+  },
+  {
+    "id": "q-g4-round-3",
+    "topic_id": "g4-rounding-estimation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "עגלו את $384{,}900$ למאות אלפים הקרובות.",
+    "options": ["$400{,}000$", "$300{,}000$", "$380{,}000$", "$390{,}000$"],
+    "correct_index": 0,
+    "explanation": "ספרת עשרות האלפים היא $8$, גדולה מ-$5$, לכן מעגלים למעלה."
+  },
+  {
+    "id": "q-g4-round-4",
+    "topic_id": "g4-rounding-estimation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "עגלו את $215{,}499$ לאלפים הקרובים.",
+    "options": ["$215{,}000$", "$216{,}000$", "$215{,}500$", "$220{,}000$"],
+    "correct_index": 0,
+    "explanation": "ספרת המאות היא $4$, קטנה מ-$5$, לכן מעגלים למטה."
+  },
+  {
+    "id": "q-g4-round-5",
+    "topic_id": "g4-rounding-estimation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "עגלו את $73{,}200$ לעשרות אלפים הקרובות.",
+    "options": ["$70{,}000$", "$80{,}000$", "$73{,}000$", "$75{,}000$"],
+    "correct_index": 0,
+    "explanation": "ספרת האלפים היא $3$, קטנה מ-$5$, לכן מעגלים למטה."
+  },
+  {
+    "id": "q-g4-round-6",
+    "topic_id": "g4-rounding-estimation",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אמדו את $398{,}512+512{,}047$ על ידי עיגול למאות אלפים הקרובות.",
+    "options": ["$\\approx900{,}000$", "$\\approx800{,}000$", "$\\approx1{,}000{,}000$", "$\\approx950{,}000$"],
+    "correct_index": 0,
+    "explanation": "$398{,}512\\approx400{,}000$ ו-$512{,}047\\approx500{,}000$: $400{,}000+500{,}000=900{,}000$."
+  },
+  {
+    "id": "q-g4-round-7",
+    "topic_id": "g4-rounding-estimation",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אמדו את $612{,}300-198{,}700$ על ידי עיגול למאות אלפים הקרובות.",
+    "options": ["$\\approx400{,}000$", "$\\approx500{,}000$", "$\\approx300{,}000$", "$\\approx600{,}000$"],
+    "correct_index": 0,
+    "explanation": "$612{,}300\\approx600{,}000$ ו-$198{,}700\\approx200{,}000$: $600{,}000-200{,}000=400{,}000$."
+  },
+  {
+    "id": "q-g4-round-8",
+    "topic_id": "g4-rounding-estimation",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים, לאחר עיגול לאלפים הקרובים, נותן $50{,}000$?",
+    "options": ["$49{,}600$", "$49{,}400$", "$50{,}600$", "$50{,}999$"],
+    "correct_index": 0,
+    "explanation": "ספרת המאות של $49{,}600$ היא $6$, ומעגלים למעלה ל-$50{,}000$."
+  },
+  {
+    "id": "q-g4-round-9",
+    "topic_id": "g4-rounding-estimation",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מספר מעוגל לעשרות אלפים הקרובות נתן $120{,}000$. איזה מהמספרים הבאים יכול להיות המספר המקורי?",
+    "options": ["$116{,}200$", "$114{,}900$", "$125{,}100$", "$110{,}000$"],
+    "correct_index": 0,
+    "explanation": "ספרת האלפים של $116{,}200$ היא $6$, ומעגלים למעלה ל-$120{,}000$."
+  },
+  {
+    "id": "q-g4-round-10",
+    "topic_id": "g4-rounding-estimation",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מעגלים את $999{,}600$ לאלפים הקרובים. מהי התוצאה?",
+    "options": ["$1{,}000{,}000$", "$999{,}000$", "$990{,}000$", "$1{,}000{,}600$"],
+    "correct_index": 0,
+    "explanation": "ספרת המאות היא $6$, ומעגלים למעלה, מה שגורם לגלישה: $999{,}600\\to1{,}000{,}000$."
+  },
+  {
+    "id": "q-g4-addsub-1",
+    "topic_id": "g4-add-sub-million",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לפי חוק החילוף, $324{,}000+178{,}000=$",
+    "options": ["$178{,}000+324{,}000$", "$324{,}000-178{,}000$", "$178{,}000\\times324{,}000$", "אף אחד מהם"],
+    "correct_index": 0,
+    "explanation": "חוק החילוף: $a+b=b+a$."
+  },
+  {
+    "id": "q-g4-addsub-2",
+    "topic_id": "g4-add-sub-million",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפי חוק הקיבוץ, $(200+300)+400=$",
+    "options": ["$200+(300+400)$", "$200\\times(300+400)$", "$(200+300)\\times400$", "$200-(300+400)$"],
+    "correct_index": 0,
+    "explanation": "חוק הקיבוץ: אפשר לקבץ מחוברים בסדר אחר בלי לשנות את הסכום."
+  },
+  {
+    "id": "q-g4-addsub-3",
+    "topic_id": "g4-add-sub-million",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השלימו: $3{,}215+\\square=6{,}216$",
+    "options": ["$3{,}001$", "$3{,}215$", "$9{,}431$", "$2{,}999$"],
+    "correct_index": 0,
+    "explanation": "$\\square=6{,}216-3{,}215=3{,}001$."
+  },
+  {
+    "id": "q-g4-addsub-4",
+    "topic_id": "g4-add-sub-million",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השלימו: $\\square-4{,}000=2{,}357$",
+    "options": ["$6{,}357$", "$1{,}643$", "$6{,}000$", "$2{,}357$"],
+    "correct_index": 0,
+    "explanation": "$\\square=2{,}357+4{,}000=6{,}357$."
+  },
+  {
+    "id": "q-g4-addsub-5",
+    "topic_id": "g4-add-sub-million",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפי עקרון ההזזה, $3{,}625+1{,}297$ שווה בדיוק ל:",
+    "options": ["$3{,}622+1{,}300$", "$3{,}625+1{,}300$", "$3{,}600+1{,}297$", "$3{,}622+1{,}297$"],
+    "correct_index": 0,
+    "explanation": "הורדנו $3$ מהאיבר הראשון והוספנו $3$ לשני: הסכום נשמר."
+  },
+  {
+    "id": "q-g4-addsub-6",
+    "topic_id": "g4-add-sub-million",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפי עקרון ההזזה, $4{,}000-2{,}397$ שווה בדיוק ל:",
+    "options": ["$3{,}999-2{,}396$", "$3{,}999-2{,}397$", "$4{,}001-2{,}397$", "$4{,}000-2{,}396$"],
+    "correct_index": 0,
+    "explanation": "הקטנת המחוסר והמחסר באותה כמות ($1$) שומרת על ההפרש."
+  },
+  {
+    "id": "q-g4-addsub-7",
+    "topic_id": "g4-add-sub-million",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "השלימו סימן היחס המתאים: $20{,}753-2{,}753$ ___ $20{,}753-3{,}753$",
+    "options": ["$>$", "$<$", "$=$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מחסרים פחות בצד שמאל, ולכן ההפרש שם גדול יותר."
+  },
+  {
+    "id": "q-g4-addsub-8",
+    "topic_id": "g4-add-sub-million",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מצאו מספר מתאים: $998{,}000+\\square>999{,}090$",
+    "options": ["$1{,}100$", "$1{,}000$", "$1{,}090$", "$1{,}089$"],
+    "correct_index": 0,
+    "explanation": "$998{,}000+1{,}100=999{,}100>999{,}090$."
+  },
+  {
+    "id": "q-g4-addsub-9",
+    "topic_id": "g4-add-sub-million",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מצאו את המספר השלם הגדול ביותר המתאים: $500{,}000-\\square>390{,}000$",
+    "options": ["$109{,}999$", "$110{,}000$", "$110{,}001$", "$100{,}000$"],
+    "correct_index": 0,
+    "explanation": "$\\square<110{,}000$, ולכן המספר השלם הגדול ביותר המתאים הוא $109{,}999$."
+  },
+  {
+    "id": "q-g4-addsub-10",
+    "topic_id": "g4-add-sub-million",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מתוך $80{,}000,\\ 50{,}000,\\ 20{,}000,\\ 10{,}000$ — איזו התאמה נכונה למשוואה $\\square+\\square=\\square-\\square$?",
+    "options": ["$20{,}000+10{,}000=80{,}000-50{,}000$", "$80{,}000+50{,}000=20{,}000-10{,}000$", "$10{,}000+20{,}000=50{,}000+80{,}000$", "$50{,}000-20{,}000=80{,}000+10{,}000$"],
+    "correct_index": 0,
+    "explanation": "$20{,}000+10{,}000=30{,}000$ וגם $80{,}000-50{,}000=30{,}000$."
+  },
+  {
+    "id": "q-g4-mul-1",
+    "topic_id": "g4-mul-basics",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$4{,}000\\times 3=$",
+    "options": ["$12{,}000$", "$1{,}200$", "$120{,}000$", "$7{,}000$"],
+    "correct_index": 0,
+    "explanation": "$4\\times3=12$, ומוסיפים את שלושת האפסים."
+  },
+  {
+    "id": "q-g4-mul-2",
+    "topic_id": "g4-mul-basics",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפי חוק הפילוג, $25\\times36=25\\times4\\times9=100\\times9=$",
+    "options": ["$900$", "$800$", "$1{,}000$", "$625$"],
+    "correct_index": 0,
+    "explanation": "$100\\times9=900$."
+  },
+  {
+    "id": "q-g4-mul-3",
+    "topic_id": "g4-mul-basics",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפי חוק הפילוג, $32\\times19=32\\times20-32\\times1=640-32=$",
+    "options": ["$608$", "$612$", "$600$", "$672$"],
+    "correct_index": 0,
+    "explanation": "$640-32=608$."
+  },
+  {
+    "id": "q-g4-mul-4",
+    "topic_id": "g4-mul-basics",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם אחד הגורמים במכפלה הוא $0$, המכפלה:",
+    "options": ["שווה $0$", "שווה לגורם האחר", "גדולה מ-$0$ תמיד", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "כל מספר כפול $0$ שווה $0$."
+  },
+  {
+    "id": "q-g4-mul-5",
+    "topic_id": "g4-mul-basics",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם אחד הגורמים במכפלה הוא $1$, המכפלה:",
+    "options": ["שווה לגורם האחר", "שווה $1$ תמיד", "שווה $0$", "גדולה פי $2$ מהגורם האחר"],
+    "correct_index": 0,
+    "explanation": "כל מספר כפול $1$ נשאר אותו מספר."
+  },
+  {
+    "id": "q-g4-mul-6",
+    "topic_id": "g4-mul-basics",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון $18\\times24$. איזה תרגיל נותן את אותה מכפלה?",
+    "options": ["$36\\times12$", "$36\\times24$", "$9\\times12$", "$18\\times48$"],
+    "correct_index": 0,
+    "explanation": "הכפלנו את $18$ פי $2$ (ל-$36$) והקטנו את $24$ פי $2$ (ל-$12$) — המכפלה נשמרת."
+  },
+  {
+    "id": "q-g4-mul-7",
+    "topic_id": "g4-mul-basics",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "המכפלה של איזה תרגיל גדולה פי $2$ ממכפלת $18\\times24$?",
+    "options": ["$18\\times48$", "$9\\times24$", "$18\\times12$", "$36\\times12$"],
+    "correct_index": 0,
+    "explanation": "הכפלת גורם אחד פי $2$ מכפילה את המכפלה כולה פי $2$."
+  },
+  {
+    "id": "q-g4-mul-8",
+    "topic_id": "g4-mul-basics",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "המכפלה של איזה תרגיל קטנה פי $2$ ממכפלת $12\\times9$?",
+    "options": ["$6\\times9$", "$24\\times9$", "$12\\times18$", "$12\\times9$"],
+    "correct_index": 0,
+    "explanation": "הקטנת גורם אחד פי $2$ מקטינה את המכפלה כולה פי $2$."
+  },
+  {
+    "id": "q-g4-mul-9",
+    "topic_id": "g4-mul-basics",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה תרגיל נותן מכפלה הקרובה ביותר ל-$6{,}000$?",
+    "options": ["$2{,}000\\times3$", "$500\\times5$", "$700\\times7$", "$100\\times50$"],
+    "correct_index": 0,
+    "explanation": "$2{,}000\\times3=6{,}000$ בדיוק."
+  },
+  {
+    "id": "q-g4-mul-10",
+    "topic_id": "g4-mul-basics",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בחרו שני מספרים מתוך $72,68,6,699,601$ שמכפלתם היא בערך $42{,}000$.",
+    "options": ["$68\\times601$", "$72\\times601$", "$6\\times699$", "$68\\times699$"],
+    "correct_index": 0,
+    "explanation": "$68\\times601=40{,}868$, הקרוב ביותר ל-$42{,}000$ מבין האפשרויות."
+  },
+  {
+    "id": "q-g4-divnr-1",
+    "topic_id": "g4-div-no-remainder",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$6{,}000:2=$",
+    "options": ["$3{,}000$", "$300$", "$30{,}000$", "$3{,}600$"],
+    "correct_index": 0,
+    "explanation": "$6:2=3$, ומשאירים את שלושת האפסים."
+  },
+  {
+    "id": "q-g4-divnr-2",
+    "topic_id": "g4-div-no-remainder",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפי חוק הפילוג, $1{,}536:3=(1{,}500+30+6):3=500+10+2=$",
+    "options": ["$512$", "$502$", "$520$", "$500$"],
+    "correct_index": 0,
+    "explanation": "$500+10+2=512$."
+  },
+  {
+    "id": "q-g4-divnr-3",
+    "topic_id": "g4-div-no-remainder",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$9{,}000:3=$",
+    "options": ["$3{,}000$", "$300$", "$30{,}000$", "$6{,}000$"],
+    "correct_index": 0,
+    "explanation": "$9:3=3$, ומשאירים את שלושת האפסים."
+  },
+  {
+    "id": "q-g4-divnr-4",
+    "topic_id": "g4-div-no-remainder",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כל מספר מחולק ב-$1$:",
+    "options": ["נשאר אותו מספר", "שווה $0$", "שווה $1$", "גדול פי $2$"],
+    "correct_index": 0,
+    "explanation": "חילוק ב-$1$ אינו משנה את המספר."
+  },
+  {
+    "id": "q-g4-divnr-5",
+    "topic_id": "g4-div-no-remainder",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מדוע אסור לחלק ב-$0$?",
+    "options": ["אין מספר שכפול $0$ נותן תוצאה שאינה $0$", "כי $0$ הוא מספר קטן", "כי אין טעם בכך", "כי זה תמיד נותן $1$"],
+    "correct_index": 0,
+    "explanation": "אם $a:0=b$ אז $b\\times0$ צריך להיות $a$, אבל כל מספר כפול $0$ הוא $0$."
+  },
+  {
+    "id": "q-g4-divnr-6",
+    "topic_id": "g4-div-no-remainder",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$8{,}000:\\square=20$. מהו $\\square$?",
+    "options": ["$400$", "$40{,}000$", "$160{,}000$", "$4{,}000$"],
+    "correct_index": 0,
+    "explanation": "$8{,}000:400=20$."
+  },
+  {
+    "id": "q-g4-divnr-7",
+    "topic_id": "g4-div-no-remainder",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה משפט חילוק נותן מנה של $300$?",
+    "options": ["$3{,}000:10$", "$300:100$", "$30:100$", "$3{,}000:100$"],
+    "correct_index": 0,
+    "explanation": "$3{,}000:10=300$."
+  },
+  {
+    "id": "q-g4-divnr-8",
+    "topic_id": "g4-div-no-remainder",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי המשמעות של \"חילוק להכלה\"?",
+    "options": ["בודקים כמה פעמים מספר נכנס בתוך מספר אחר", "מחלקים כמות לחלקים שווים", "מחברים מספרים שוב ושוב", "מוצאים את השארית"],
+    "correct_index": 0,
+    "explanation": "חילוק להכלה בודק כמה פעמים המחלק \"נכנס\" במחולק."
+  },
+  {
+    "id": "q-g4-divnr-9",
+    "topic_id": "g4-div-no-remainder",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי המשמעות של \"חילוק לחלקים\"?",
+    "options": ["מחלקים כמות לחלקים שווים", "בודקים כמה פעמים מספר נכנס במספר אחר", "מכפילים מספר בעצמו", "מוצאים סימן התחלקות"],
+    "correct_index": 0,
+    "explanation": "חילוק לחלקים מחלק כמות נתונה למספר חלקים שווים."
+  },
+  {
+    "id": "q-g4-divnr-10",
+    "topic_id": "g4-div-no-remainder",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "$84{,}000:4=(80{,}000:4)+(4{,}000:4)=20{,}000+1{,}000=$",
+    "options": ["$21{,}000$", "$20{,}000$", "$24{,}000$", "$22{,}000$"],
+    "correct_index": 0,
+    "explanation": "$20{,}000+1{,}000=21{,}000$."
+  },
+  {
+    "id": "q-g4-divr-1",
+    "topic_id": "g4-div-remainder",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$307:50=$",
+    "options": ["$6$ שארית $7$", "$6$ שארית $0$", "$7$ שארית $6$", "$6$ שארית $50$"],
+    "correct_index": 0,
+    "explanation": "$50\\times6=300$, ונשאר $7$."
+  },
+  {
+    "id": "q-g4-divr-2",
+    "topic_id": "g4-div-remainder",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בדיקה: מנה $\\times$ מחלק $+$ שארית $=$",
+    "options": ["המחולק המקורי", "המחלק", "השארית בלבד", "אפס תמיד"],
+    "correct_index": 0,
+    "explanation": "זו נוסחת הבדיקה הבסיסית של חילוק עם שארית."
+  },
+  {
+    "id": "q-g4-divr-3",
+    "topic_id": "g4-div-remainder",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$307$ תלמידים חוזרים באוטובוסים בני $50$ מקומות. כמה אוטובוסים צריך להזמין כדי שכולם ייסעו?",
+    "options": ["$7$", "$6$", "$8$", "$307$"],
+    "correct_index": 0,
+    "explanation": "$307:50=6$ שארית $7$, כך שצריך אוטובוס נוסף לשארית — סה\"כ $7$."
+  },
+  {
+    "id": "q-g4-divr-4",
+    "topic_id": "g4-div-remainder",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "באותה שאלה (307 תלמידים, אוטובוסים בני 50, 7 אוטובוסים), כמה מקומות ריקים יישארו?",
+    "options": ["$43$", "$7$", "$50$", "$0$"],
+    "correct_index": 0,
+    "explanation": "$7\\times50=350$ מקומות, $350-307=43$ ריקים."
+  },
+  {
+    "id": "q-g4-divr-5",
+    "topic_id": "g4-div-remainder",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "למורה היו $23$ עפרונות, וחילקה שווה בשווה ל-$4$ תלמידים. מה מספר העפרונות הגדול ביותר שכל תלמיד יכול לקבל?",
+    "options": ["$5$", "$6$", "$4$", "$23$"],
+    "correct_index": 0,
+    "explanation": "$23:4=5$ שארית $3$."
+  },
+  {
+    "id": "q-g4-divr-6",
+    "topic_id": "g4-div-remainder",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "באותה שאלה (23 עפרונות, 4 תלמידים), האם יישארו למורה עפרונות?",
+    "options": ["כן, $3$ עפרונות", "לא, יתחלקו בדיוק", "כן, $5$ עפרונות", "כן, $4$ עפרונות"],
+    "correct_index": 0,
+    "explanation": "השארית היא $3$."
+  },
+  {
+    "id": "q-g4-divr-7",
+    "topic_id": "g4-div-remainder",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון $81:5=16$ שארית $1$. בכמה צריך להגדיל את המחולק כדי לקבל מנה בלי שארית (הכי קרוב)?",
+    "options": ["$4$ (כדי לקבל $85$)", "$1$", "$2$", "$0$"],
+    "correct_index": 0,
+    "explanation": "$85:5=17$ בדיוק, ולכן צריך להוסיף $4$."
+  },
+  {
+    "id": "q-g4-divr-8",
+    "topic_id": "g4-div-remainder",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כשמחלקים $317$ ב-$10$, השארית היא $7$. איזה מהמספרים הבאים ייתן גם הוא שארית $7$ בחילוק ב-$10$?",
+    "options": ["$427$", "$420$", "$425$", "$430$"],
+    "correct_index": 0,
+    "explanation": "ספרת היחידות של $427$ היא $7$, בדיוק כמו השארית."
+  },
+  {
+    "id": "q-g4-divr-9",
+    "topic_id": "g4-div-remainder",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה המשותף לכל המספרים שנותנים שארית $7$ בחילוק ב-$10$?",
+    "options": ["ספרת היחידות שלהם היא $7$", "הם זוגיים", "הם מתחלקים ב-$7$", "סכום ספרותיהם הוא $7$"],
+    "correct_index": 0,
+    "explanation": "שארית החילוק ב-$10$ שווה תמיד לספרת היחידות."
+  },
+  {
+    "id": "q-g4-divr-10",
+    "topic_id": "g4-div-remainder",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מלאי בית ספר: $650$ עפרונות מתחלקים בין $9$ כיתות בשווה. כמה עפרונות יישארו במחסן?",
+    "options": ["$2$", "$0$", "$7$", "$5$"],
+    "correct_index": 0,
+    "explanation": "$650:9=72$ שארית $2$."
+  },
+  {
+    "id": "q-g4-div369-1",
+    "topic_id": "g4-divisibility-369",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם $246$ מתחלק ב-$3$?",
+    "options": ["כן, כי $2+4+6=12$ מתחלק ב-$3$", "לא", "רק ב-$9$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "סכום הספרות $12$ מתחלק ב-$3$."
+  },
+  {
+    "id": "q-g4-div369-2",
+    "topic_id": "g4-divisibility-369",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם $1{,}827$ מתחלק ב-$9$?",
+    "options": ["כן, כי $1+8+2+7=18$ מתחלק ב-$9$", "לא", "רק ב-$3$", "רק ב-$6$"],
+    "correct_index": 0,
+    "explanation": "סכום הספרות $18$ מתחלק ב-$9$."
+  },
+  {
+    "id": "q-g4-div369-3",
+    "topic_id": "g4-divisibility-369",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו סכום הספרות של $531$?",
+    "options": ["$9$", "$5$", "$3$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$5+3+1=9$."
+  },
+  {
+    "id": "q-g4-div369-4",
+    "topic_id": "g4-divisibility-369",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם $531$ מתחלק ב-$3$?",
+    "options": ["כן, כי סכום הספרות ($9$) מתחלק ב-$3$", "לא", "רק ב-$9$", "רק ב-$2$"],
+    "correct_index": 0,
+    "explanation": "סכום הספרות $9$ מתחלק ב-$3$."
+  },
+  {
+    "id": "q-g4-div369-5",
+    "topic_id": "g4-divisibility-369",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם $531$ מתחלק ב-$6$?",
+    "options": ["לא, כי הוא אינו זוגי", "כן", "רק ב-$2$", "רק ב-$9$"],
+    "correct_index": 0,
+    "explanation": "מתחלק ב-$6$ דורש התחלקות גם ב-$2$; $531$ אי-זוגי."
+  },
+  {
+    "id": "q-g4-div369-6",
+    "topic_id": "g4-divisibility-369",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים מתחלק ב-$9$?",
+    "options": ["$3{,}618$", "$3{,}617$", "$3{,}619$", "$3{,}620$"],
+    "correct_index": 0,
+    "explanation": "$3+6+1+8=18$, מתחלק ב-$9$."
+  },
+  {
+    "id": "q-g4-div369-7",
+    "topic_id": "g4-divisibility-369",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים מתחלק ב-$6$?",
+    "options": ["$924$", "$923$", "$925$", "$927$"],
+    "correct_index": 0,
+    "explanation": "$924$ זוגי, וסכום ספרותיו ($15$) מתחלק ב-$3$."
+  },
+  {
+    "id": "q-g4-div369-8",
+    "topic_id": "g4-divisibility-369",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מספר שסכום ספרותיו הוא $21$ מתחלק ב:",
+    "options": ["$3$ (אך לא בהכרח ב-$9$)", "$9$ תמיד", "$2$ תמיד", "$6$ תמיד"],
+    "correct_index": 0,
+    "explanation": "$21$ מתחלק ב-$3$ אך לא ב-$9$."
+  },
+  {
+    "id": "q-g4-div369-9",
+    "topic_id": "g4-divisibility-369",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כשמחלקים $47$ ב-$3$, מה השארית (לפי סכום הספרות)?",
+    "options": ["$2$", "$0$", "$1$", "$3$"],
+    "correct_index": 0,
+    "explanation": "$4+7=11$, ו-$11:3=3$ שארית $2$."
+  },
+  {
+    "id": "q-g4-div369-10",
+    "topic_id": "g4-divisibility-369",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים אינו מתחלק לא ב-$3$ ולא ב-$9$?",
+    "options": ["$100$", "$102$", "$108$", "$117$"],
+    "correct_index": 0,
+    "explanation": "סכום הספרות של $100$ הוא $1$, שאינו מתחלק ב-$3$."
+  },
+  {
+    "id": "q-g4-ooo-1",
+    "topic_id": "g4-order-of-operations",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$12-2\\times3=$",
+    "options": ["$6$", "$30$", "$10$", "$4$"],
+    "correct_index": 0,
+    "explanation": "כפל קודם: $2\\times3=6$, ואז $12-6=6$."
+  },
+  {
+    "id": "q-g4-ooo-2",
+    "topic_id": "g4-order-of-operations",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$(12-2)\\times3=$",
+    "options": ["$30$", "$6$", "$10$", "$36$"],
+    "correct_index": 0,
+    "explanation": "סוגריים קודם: $12-2=10$, ואז $10\\times3=30$."
+  },
+  {
+    "id": "q-g4-ooo-3",
+    "topic_id": "g4-order-of-operations",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$20+4\\times5=$",
+    "options": ["$40$", "$120$", "$24$", "$45$"],
+    "correct_index": 0,
+    "explanation": "$4\\times5=20$, ואז $20+20=40$."
+  },
+  {
+    "id": "q-g4-ooo-4",
+    "topic_id": "g4-order-of-operations",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$(20+4)\\times5=$",
+    "options": ["$120$", "$40$", "$24$", "$100$"],
+    "correct_index": 0,
+    "explanation": "$20+4=24$, ואז $24\\times5=120$."
+  },
+  {
+    "id": "q-g4-ooo-5",
+    "topic_id": "g4-order-of-operations",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$100+20\\times50$ לעומת $(100+20)\\times50$ — מה נכון?",
+    "options": ["הראשון קטן משמעותית מהשני", "הם שווים", "הראשון גדול מהשני", "אי אפשר לדעת בלי לחשב"],
+    "correct_index": 0,
+    "explanation": "$100+20\\times50=1{,}100$, ואילו $(100+20)\\times50=6{,}000$."
+  },
+  {
+    "id": "q-g4-ooo-6",
+    "topic_id": "g4-order-of-operations",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$18:3+2\\times4=$",
+    "options": ["$14$", "$28$", "$10$", "$40$"],
+    "correct_index": 0,
+    "explanation": "$18:3=6$ ו-$2\\times4=8$: $6+8=14$."
+  },
+  {
+    "id": "q-g4-ooo-7",
+    "topic_id": "g4-order-of-operations",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$(18:3+2)\\times4=$",
+    "options": ["$32$", "$14$", "$40$", "$24$"],
+    "correct_index": 0,
+    "explanation": "$18:3=6$, $6+2=8$, $8\\times4=32$."
+  },
+  {
+    "id": "q-g4-ooo-8",
+    "topic_id": "g4-order-of-operations",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בתרגיל ללא סוגריים שיש בו רק חיבור וחיסור, פותרים:",
+    "options": ["לפי סדר הכתיבה, משמאל לימין", "תמיד את החיסור קודם", "תמיד את החיבור קודם", "אי אפשר לפתור"],
+    "correct_index": 0,
+    "explanation": "פעולות מאותה \"רמה\" נפתרות משמאל לימין."
+  },
+  {
+    "id": "q-g4-ooo-9",
+    "topic_id": "g4-order-of-operations",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$5+3\\times(8-2\\times3)=$",
+    "options": ["$11$", "$21$", "$14$", "$41$"],
+    "correct_index": 0,
+    "explanation": "בתוך הסוגריים: $2\\times3=6$, $8-6=2$; ואז $3\\times2=6$; $5+6=11$."
+  },
+  {
+    "id": "q-g4-ooo-10",
+    "topic_id": "g4-order-of-operations",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בלי לחשב, סמנו: $20\\times300$ לעומת $20\\times3\\times100$",
+    "options": ["שווים", "הראשון גדול יותר", "השני גדול יותר", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$300=3\\times100$, ולכן שני התרגילים שקולים."
+  },
+  {
+    "id": "q-g4-frint-1",
+    "topic_id": "g4-fractions-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מהשברים הבאים הוא שבר יחידה?",
+    "options": ["$\\frac{1}{5}$", "$\\frac{2}{5}$", "$\\frac{5}{5}$", "$\\frac{5}{2}$"],
+    "correct_index": 0,
+    "explanation": "שבר יחידה הוא שבר שהמונה שלו $1$."
+  },
+  {
+    "id": "q-g4-frint-2",
+    "topic_id": "g4-fractions-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו המונה בשבר $\\frac{3}{7}$?",
+    "options": ["$3$", "$7$", "$10$", "$4$"],
+    "correct_index": 0,
+    "explanation": "המונה הוא המספר שמעל קו השבר."
+  },
+  {
+    "id": "q-g4-frint-3",
+    "topic_id": "g4-fractions-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו המכנה בשבר $\\frac{3}{7}$?",
+    "options": ["$7$", "$3$", "$10$", "$4$"],
+    "correct_index": 0,
+    "explanation": "המכנה הוא המספר שמתחת לקו השבר."
+  },
+  {
+    "id": "q-g4-frint-4",
+    "topic_id": "g4-fractions-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השבר $\\frac{5}{5}$ שווה ל:",
+    "options": ["$1$", "$5$", "$0$", "$\\frac{1}{5}$"],
+    "correct_index": 0,
+    "explanation": "כאשר המונה שווה למכנה, השבר שווה ל-$1$."
+  },
+  {
+    "id": "q-g4-frint-5",
+    "topic_id": "g4-fractions-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השבר $\\frac{0}{4}$ שווה ל:",
+    "options": ["$0$", "$4$", "$1$", "$\\frac{1}{4}$"],
+    "correct_index": 0,
+    "explanation": "מונה $0$ אומר שלא נלקח אף חלק."
+  },
+  {
+    "id": "q-g4-frint-6",
+    "topic_id": "g4-fractions-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השבר $\\frac{7}{5}$:",
+    "options": ["גדול מ-$1$", "קטן מ-$1$", "שווה $1$", "שווה $0$"],
+    "correct_index": 0,
+    "explanation": "מונה גדול מהמכנה — השבר גדול מ-$1$."
+  },
+  {
+    "id": "q-g4-frint-7",
+    "topic_id": "g4-fractions-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהשברים הבאים גדול מ-$1$?",
+    "options": ["$\\frac{9}{4}$", "$\\frac{3}{4}$", "$\\frac{4}{4}$", "$\\frac{1}{4}$"],
+    "correct_index": 0,
+    "explanation": "$9>4$, ולכן $\\frac{9}{4}>1$."
+  },
+  {
+    "id": "q-g4-frint-8",
+    "topic_id": "g4-fractions-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהשברים הבאים שווה בדיוק ל-$1$?",
+    "options": ["$\\frac{6}{6}$", "$\\frac{6}{5}$", "$\\frac{5}{6}$", "$\\frac{0}{6}$"],
+    "correct_index": 0,
+    "explanation": "מונה שווה למכנה."
+  },
+  {
+    "id": "q-g4-frint-9",
+    "topic_id": "g4-fractions-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מלבן מחולק ל-$5$ חלקים שווים, ו-$3$ חלקים צבועים. איזה שבר מייצג את החלק הצבוע?",
+    "options": ["$\\frac{3}{5}$", "$\\frac{5}{3}$", "$\\frac{2}{5}$", "$\\frac{3}{2}$"],
+    "correct_index": 0,
+    "explanation": "$3$ מתוך $5$ חלקים צבועים."
+  },
+  {
+    "id": "q-g4-frint-10",
+    "topic_id": "g4-fractions-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מהשברים הבאים אינו שבר יחידה?",
+    "options": ["$\\frac{2}{5}$", "$\\frac{1}{5}$", "$\\frac{1}{3}$", "$\\frac{1}{8}$"],
+    "correct_index": 0,
+    "explanation": "המונה $2$, ולא $1$."
+  },
+  {
+    "id": "q-g4-frmean-1",
+    "topic_id": "g4-fractions-meaning",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי המשמעות של $\\frac{1}{5}$ מ-$15$ כדורים?",
+    "options": ["מחלקים ל-$5$ חלקים שווים ובוחרים חלק אחד", "מכפילים $15$ ב-$5$", "מחלקים ל-$15$ חלקים", "מוסיפים $5$ כדורים"],
+    "correct_index": 0,
+    "explanation": "שבר כחלק מכמות: מחלקים למכנה חלקים ובוחרים כמונה."
+  },
+  {
+    "id": "q-g4-frmean-2",
+    "topic_id": "g4-fractions-meaning",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$\\frac{1}{5}$ מ-$15$ שווה ל:",
+    "options": ["$3$", "$5$", "$15$", "$75$"],
+    "correct_index": 0,
+    "explanation": "$15:5=3$."
+  },
+  {
+    "id": "q-g4-frmean-3",
+    "topic_id": "g4-fractions-meaning",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$\\frac{1}{4}$ מ-$20$ שווה ל:",
+    "options": ["$5$", "$4$", "$20$", "$80$"],
+    "correct_index": 0,
+    "explanation": "$20:4=5$."
+  },
+  {
+    "id": "q-g4-frmean-4",
+    "topic_id": "g4-fractions-meaning",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$\\frac{3}{4}$ מ-$20$ שווה ל:",
+    "options": ["$15$", "$5$", "$60$", "$16$"],
+    "correct_index": 0,
+    "explanation": "$20:4=5$, ו-$5\\times3=15$."
+  },
+  {
+    "id": "q-g4-frmean-5",
+    "topic_id": "g4-fractions-meaning",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם חצי מ-$10$ תפוחים שווה לחצי מ-$20$ תפוחים?",
+    "options": ["לא, חצי מ-$10$ הוא $5$ וחצי מ-$20$ הוא $10$", "כן, שניהם שווים ל-$1$", "כן, שניהם שווים ל-$5$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "אותו שבר מכמויות שונות נותן כמויות חלקיות שונות."
+  },
+  {
+    "id": "q-g4-frmean-6",
+    "topic_id": "g4-fractions-meaning",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שלושה ילדים חילקו חבילת גבינה ואכלו את כולה, כל אחד חלק שווה. מהו החלק של כל ילד?",
+    "options": ["$\\frac{1}{3}$", "$\\frac{1}{2}$", "$\\frac{3}{1}$", "$\\frac{1}{4}$"],
+    "correct_index": 0,
+    "explanation": "מחלקים שלם שווה ל-$3$ ילדים: כל אחד מקבל $\\frac{1}{3}$."
+  },
+  {
+    "id": "q-g4-frmean-7",
+    "topic_id": "g4-fractions-meaning",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בדוגמה \"חצי מקבוצה של $8$ כדורים\", מהו השלם?",
+    "options": ["קבוצת ה-$8$ כדורים", "כדור אחד", "$4$ כדורים", "החצי עצמו"],
+    "correct_index": 0,
+    "explanation": "השלם הוא הכמות המלאה שממנה לוקחים חלק."
+  },
+  {
+    "id": "q-g4-frmean-8",
+    "topic_id": "g4-fractions-meaning",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$\\frac{2}{3}$ מ-$18$ עפרונות שווה ל:",
+    "options": ["$12$", "$9$", "$6$", "$36$"],
+    "correct_index": 0,
+    "explanation": "$18:3=6$, ו-$6\\times2=12$."
+  },
+  {
+    "id": "q-g4-frmean-9",
+    "topic_id": "g4-fractions-meaning",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "יואב אכל חצי חבילת גבינה, ועידו ותומר אכלו את שאר החבילה שווה בשווה. מה החלק שכל אחד מעידו ותומר אכל?",
+    "options": ["$\\frac{1}{4}$", "$\\frac{1}{2}$", "$\\frac{1}{3}$", "$\\frac{2}{4}$"],
+    "correct_index": 0,
+    "explanation": "נשאר חצי, שמתחלק שווה בשווה בין $2$ ילדים: כל אחד מקבל $\\frac{1}{4}$ מהחבילה."
+  },
+  {
+    "id": "q-g4-frmean-10",
+    "topic_id": "g4-fractions-meaning",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$\\frac{5}{6}$ מ-$24$ ילדים שווה ל:",
+    "options": ["$20$", "$18$", "$4$", "$30$"],
+    "correct_index": 0,
+    "explanation": "$24:6=4$, ו-$4\\times5=20$."
+  },
+  {
+    "id": "q-g4-frcmp-1",
+    "topic_id": "g4-fractions-compare-numberline",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה שבר יחידה גדול יותר: $\\frac{1}{4}$ או $\\frac{1}{8}$?",
+    "options": ["$\\frac{1}{4}$", "$\\frac{1}{8}$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מכנה קטן יותר — כל חלק גדול יותר."
+  },
+  {
+    "id": "q-g4-frcmp-2",
+    "topic_id": "g4-fractions-compare-numberline",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השלימו: $\\frac{1}{8}$ ___ $\\frac{1}{4}$",
+    "options": ["$<$", "$>$", "$=$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מכנה גדול יותר ⟸ חלק קטן יותר."
+  },
+  {
+    "id": "q-g4-frcmp-3",
+    "topic_id": "g4-fractions-compare-numberline",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "היכן ממוקם $\\frac{1}{3}$ על ישר המספרים בין $0$ ל-$1$?",
+    "options": ["בשליש המרחק מ-$0$", "בדיוק באמצע", "קרוב ל-$1$", "בשלוש נקודות שונות"],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{3}$ ממוקם שליש מהדרך מ-$0$ ל-$1$."
+  },
+  {
+    "id": "q-g4-frcmp-4",
+    "topic_id": "g4-fractions-compare-numberline",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה שבר קרוב יותר ל-$\\frac{1}{2}$: $\\frac{2}{5}$ או $\\frac{1}{5}$?",
+    "options": ["$\\frac{2}{5}$", "$\\frac{1}{5}$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$\\frac{2}{5}$ קרוב יותר ל-$\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g4-frcmp-5",
+    "topic_id": "g4-fractions-compare-numberline",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי להשוות $\\frac{3}{4}$ ו-$\\frac{7}{8}$ בשיטת ההשלמה לשלם, כמה חסר לכל אחד?",
+    "options": ["ל-$\\frac{3}{4}$ חסר $\\frac{1}{4}$, ול-$\\frac{7}{8}$ חסר $\\frac{1}{8}$", "לשניהם חסר אותו הדבר", "ל-$\\frac{3}{4}$ חסר יותר מ-$\\frac{7}{8}$", "אין דרך להשוות כך"],
+    "correct_index": 0,
+    "explanation": "משלימים כל שבר לשלם אחד ובודקים כמה חסר."
+  },
+  {
+    "id": "q-g4-frcmp-6",
+    "topic_id": "g4-fractions-compare-numberline",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפי השלמה לשלם, איזה מהשברים גדול יותר: $\\frac{3}{4}$ או $\\frac{7}{8}$?",
+    "options": ["$\\frac{7}{8}$ (כי חסר לו פחות כדי להשלים לשלם)", "$\\frac{3}{4}$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "ל-$\\frac{7}{8}$ חסר רק $\\frac{1}{8}$, פחות מכפי שחסר ל-$\\frac{3}{4}$."
+  },
+  {
+    "id": "q-g4-frcmp-7",
+    "topic_id": "g4-fractions-compare-numberline",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה שבר גדול מ-$\\frac{1}{2}$?",
+    "options": ["$\\frac{3}{5}$", "$\\frac{2}{5}$", "$\\frac{1}{5}$", "$\\frac{2}{6}$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{3}{5}$ גדול מחצי, כי $3$ גדול מחצי מ-$5$."
+  },
+  {
+    "id": "q-g4-frcmp-8",
+    "topic_id": "g4-fractions-compare-numberline",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "סדרו מהקטן לגדול: $\\frac{1}{2},\\frac{1}{6},\\frac{1}{3}$",
+    "options": ["$\\frac{1}{6}<\\frac{1}{3}<\\frac{1}{2}$", "$\\frac{1}{2}<\\frac{1}{3}<\\frac{1}{6}$", "$\\frac{1}{3}<\\frac{1}{6}<\\frac{1}{2}$", "כולם שווים"],
+    "correct_index": 0,
+    "explanation": "ככל שהמכנה גדול יותר, השבר קטן יותר."
+  },
+  {
+    "id": "q-g4-frcmp-9",
+    "topic_id": "g4-fractions-compare-numberline",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בהשוואה לחצי: $\\frac{5}{9}$ הוא:",
+    "options": ["גדול מ-$\\frac{1}{2}$", "קטן מ-$\\frac{1}{2}$", "שווה ל-$\\frac{1}{2}$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "חצי מ-$9$ הוא $4.5$, ו-$5>4.5$."
+  },
+  {
+    "id": "q-g4-frcmp-10",
+    "topic_id": "g4-fractions-compare-numberline",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "איזה שבר קרוב יותר ל-$1$: $\\frac{9}{10}$ או $\\frac{5}{6}$?",
+    "options": ["$\\frac{9}{10}$ (חסר לו רק $\\frac{1}{10}$)", "$\\frac{5}{6}$ (חסר לו רק $\\frac{1}{6}$)", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{10}<\\frac{1}{6}$, ולכן ל-$\\frac{9}{10}$ חסר פחות."
+  },
+  {
+    "id": "q-g4-parperp-1",
+    "topic_id": "g4-parallel-perpendicular",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "ישרים מקבילים הם ישרים ש:",
+    "options": ["לעולם לא נפגשים", "תמיד נפגשים בזווית ישרה", "נפגשים בנקודה אחת בלבד", "חופפים תמיד"],
+    "correct_index": 0,
+    "explanation": "מקבילים לא נפגשים לעולם ואין להם נקודה משותפת."
+  },
+  {
+    "id": "q-g4-parperp-2",
+    "topic_id": "g4-parallel-perpendicular",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "ישרים מאונכים יוצרים ביניהם זווית של:",
+    "options": ["$90°$", "$45°$", "$180°$", "$0°$"],
+    "correct_index": 0,
+    "explanation": "מאונכים נחתכים ויוצרים זווית ישרה."
+  },
+  {
+    "id": "q-g4-parperp-3",
+    "topic_id": "g4-parallel-perpendicular",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה אנכים אפשר להעביר מנקודה מסוימת מחוץ לישר נתון, לאותו ישר?",
+    "options": ["רק אחד", "שניים", "אינסוף", "אף אחד"],
+    "correct_index": 0,
+    "explanation": "מכל נקודה מחוץ לישר יש רק אנך אחד לישר זה."
+  },
+  {
+    "id": "q-g4-parperp-4",
+    "topic_id": "g4-parallel-perpendicular",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה ישרים מקבילים לישר נתון אפשר להעביר דרך נקודה מסוימת מחוץ לו?",
+    "options": ["רק אחד", "שניים", "אינסוף", "אף אחד"],
+    "correct_index": 0,
+    "explanation": "דרך כל נקודה מחוץ לישר אפשר להעביר ישר מקביל אחד בלבד."
+  },
+  {
+    "id": "q-g4-parperp-5",
+    "topic_id": "g4-parallel-perpendicular",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במלבן, כמה זוגות של צלעות מקבילות יש?",
+    "options": ["$2$", "$1$", "$4$", "$0$"],
+    "correct_index": 0,
+    "explanation": "במלבן יש שני זוגות צלעות נגדיות מקבילות."
+  },
+  {
+    "id": "q-g4-parperp-6",
+    "topic_id": "g4-parallel-perpendicular",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במלבן, כל שתי צלעות סמוכות הן:",
+    "options": ["מאונכות זו לזו", "מקבילות זו לזו", "חופפות זו לזו", "אינן קשורות זו לזו"],
+    "correct_index": 0,
+    "explanation": "בכל פינה של מלבן נוצרת זווית ישרה."
+  },
+  {
+    "id": "q-g4-parperp-7",
+    "topic_id": "g4-parallel-perpendicular",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "המרחק בין שני ישרים מקבילים:",
+    "options": ["קבוע לאורך כל הישר", "גדל ככל שמתרחקים", "קטן ככל שמתרחקים", "משתנה באקראי"],
+    "correct_index": 0,
+    "explanation": "זו התכונה המגדירה ישרים מקבילים."
+  },
+  {
+    "id": "q-g4-parperp-8",
+    "topic_id": "g4-parallel-perpendicular",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם שני ישרים נחתכים אך לא יוצרים זווית ישרה, הם:",
+    "options": ["לא מאונכים ולא מקבילים", "מאונכים", "מקבילים", "גם מאונכים וגם מקבילים"],
+    "correct_index": 0,
+    "explanation": "ישרים נחתכים אינם מקבילים, וללא זווית ישרה גם אינם מאונכים."
+  },
+  {
+    "id": "q-g4-parperp-9",
+    "topic_id": "g4-parallel-perpendicular",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בטרפז שיש בו רק זוג אחד של צלעות מקבילות, כמה זוגות צלעות מקבילות יש בסך הכול?",
+    "options": ["$1$", "$2$", "$0$", "$4$"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של טרפז."
+  },
+  {
+    "id": "q-g4-parperp-10",
+    "topic_id": "g4-parallel-perpendicular",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מהמשפטים הבאים נכון?",
+    "options": ["אם שני ישרים מאונכים לאותו ישר שלישי, הם מקבילים זה לזה", "שני ישרים מאונכים תמיד חופפים", "ישרים מקבילים תמיד נחתכים בסוף", "אין קשר בין מאונכות למקבילות"],
+    "correct_index": 0,
+    "explanation": "זהו עיקרון גאומטרי בסיסי הקושר מאונכות ומקבילות."
+  },
+  {
+    "id": "q-g4-diag-1",
+    "topic_id": "g4-diagonals",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה אלכסונים יש במשולש?",
+    "options": ["$0$", "$1$", "$2$", "$3$"],
+    "correct_index": 0,
+    "explanation": "בכל משולש כל הקודקודים סמוכים זה לזה — אין אלכסונים."
+  },
+  {
+    "id": "q-g4-diag-2",
+    "topic_id": "g4-diagonals",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה אלכסונים יש במרובע?",
+    "options": ["$2$", "$1$", "$0$", "$4$"],
+    "correct_index": 0,
+    "explanation": "במרובע יש בדיוק $2$ אלכסונים."
+  },
+  {
+    "id": "q-g4-diag-3",
+    "topic_id": "g4-diagonals",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה אלכסונים יש במחומש?",
+    "options": ["$5$", "$2$", "$9$", "$3$"],
+    "correct_index": 0,
+    "explanation": "במחומש (5 צלעות) יש $5$ אלכסונים."
+  },
+  {
+    "id": "q-g4-diag-4",
+    "topic_id": "g4-diagonals",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה אלכסונים יש במשושה?",
+    "options": ["$9$", "$5$", "$6$", "$12$"],
+    "correct_index": 0,
+    "explanation": "במשושה (6 צלעות) יש $9$ אלכסונים."
+  },
+  {
+    "id": "q-g4-diag-5",
+    "topic_id": "g4-diagonals",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אלכסון מחבר:",
+    "options": ["שני קודקודים שאינם סמוכים", "שתי צלעות סמוכות", "שני קודקודים סמוכים", "מרכז הצורה לקודקוד"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של אלכסון."
+  },
+  {
+    "id": "q-g4-diag-6",
+    "topic_id": "g4-diagonals",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במצולע קמור, האלכסונים נמצאים:",
+    "options": ["בתוך המצולע", "תמיד מחוץ למצולע", "חלקם בפנים וחלקם בחוץ תמיד", "על הצלעות"],
+    "correct_index": 0,
+    "explanation": "במצולע קמור כל האלכסונים נמצאים בתוכו."
+  },
+  {
+    "id": "q-g4-diag-7",
+    "topic_id": "g4-diagonals",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במרובע לא קמור מסוים, אחד האלכסונים עשוי להיות:",
+    "options": ["מחוץ למצולע (כולו או בחלקו)", "תמיד בתוך המצולע", "שווה לצלע", "לא קיים כלל"],
+    "correct_index": 0,
+    "explanation": "במצולעים לא קמורים חלק מהאלכסונים יכולים לצאת החוצה."
+  },
+  {
+    "id": "q-g4-diag-8",
+    "topic_id": "g4-diagonals",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה אלכסונים יוצאים מקודקוד אחד של מחומש?",
+    "options": ["$2$", "$1$", "$5$", "$3$"],
+    "correct_index": 0,
+    "explanation": "מכל קודקוד יוצאים אלכסונים לכל הקודקודים חוץ מעצמו ומשני שכניו: $5-3=2$."
+  },
+  {
+    "id": "q-g4-diag-9",
+    "topic_id": "g4-diagonals",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה אלכסונים יוצאים מקודקוד אחד של משושה?",
+    "options": ["$3$", "$2$", "$4$", "$6$"],
+    "correct_index": 0,
+    "explanation": "$6-3=3$."
+  },
+  {
+    "id": "q-g4-diag-10",
+    "topic_id": "g4-diagonals",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "באיזה מרובע האלכסון יכול לשמש גם כציר סימטריה קווית?",
+    "options": ["מעוין", "טרפז כללי", "מקבילית כללית (לא ריבוע)", "אף אחד מהם"],
+    "correct_index": 0,
+    "explanation": "באלכסון של מעוין יש סימטריה קווית."
+  },
+  {
+    "id": "q-g4-quadx-1",
+    "topic_id": "g4-quadrilaterals",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "באיזה מרובע כל הצלעות שוות וכל הזוויות ישרות?",
+    "options": ["ריבוע", "מלבן", "מעוין", "טרפז"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של ריבוע."
+  },
+  {
+    "id": "q-g4-quadx-2",
+    "topic_id": "g4-quadrilaterals",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "באיזה מרובע צלעות נגדיות שוות ומקבילות וכל הזוויות ישרות, אך לא כל הצלעות בהכרח שוות?",
+    "options": ["מלבן", "ריבוע", "מעוין", "טרפז"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של מלבן."
+  },
+  {
+    "id": "q-g4-quadx-3",
+    "topic_id": "g4-quadrilaterals",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "באיזה מרובע כל הצלעות שוות אך הזוויות אינן בהכרח ישרות?",
+    "options": ["מעוין", "ריבוע", "מלבן", "טרפז"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של מעוין."
+  },
+  {
+    "id": "q-g4-quadx-4",
+    "topic_id": "g4-quadrilaterals",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה מייחד טרפז משאר המרובעים שנלמדו?",
+    "options": ["רק זוג אחד של צלעות מקבילות", "כל הצלעות שוות", "כל הזוויות ישרות", "אין לו אלכסונים"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של טרפז."
+  },
+  {
+    "id": "q-g4-quadx-5",
+    "topic_id": "g4-quadrilaterals",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "באיזה מרובע האלכסונים תמיד שווים זה לזה?",
+    "options": ["מלבן (וריבוע כמקרה פרטי)", "מעוין", "טרפז", "מקבילית כללית"],
+    "correct_index": 0,
+    "explanation": "במלבן (ובריבוע) האלכסונים שווים."
+  },
+  {
+    "id": "q-g4-len-1",
+    "topic_id": "g4-length-units",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$1$ ק\"מ שווה ל:",
+    "options": ["$1{,}000$ מ'", "$100$ מ'", "$10$ מ'", "$10{,}000$ מ'"],
+    "correct_index": 0,
+    "explanation": "$1$ ק\"מ $=1{,}000$ מטר."
+  },
+  {
+    "id": "q-g4-len-2",
+    "topic_id": "g4-length-units",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$1$ מ' שווה ל:",
+    "options": ["$100$ ס\"מ", "$10$ ס\"מ", "$1{,}000$ ס\"מ", "$1$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$1$ מטר $=100$ ס\"מ."
+  },
+  {
+    "id": "q-g4-len-3",
+    "topic_id": "g4-length-units",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$1$ ס\"מ שווה ל:",
+    "options": ["$10$ מ\"מ", "$100$ מ\"מ", "$1$ מ\"מ", "$1{,}000$ מ\"מ"],
+    "correct_index": 0,
+    "explanation": "$1$ ס\"מ $=10$ מ\"מ."
+  },
+  {
+    "id": "q-g4-len-4",
+    "topic_id": "g4-length-units",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$3$ מ' שווים ל:",
+    "options": ["$300$ ס\"מ", "$30$ ס\"מ", "$3{,}000$ ס\"מ", "$3$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$3\\times100=300$."
+  },
+  {
+    "id": "q-g4-len-5",
+    "topic_id": "g4-length-units",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$5{,}000$ מ' שווים ל:",
+    "options": ["$5$ ק\"מ", "$50$ ק\"מ", "$500$ ק\"מ", "$0.5$ ק\"מ"],
+    "correct_index": 0,
+    "explanation": "$5{,}000:1{,}000=5$."
+  },
+  {
+    "id": "q-g4-len-6",
+    "topic_id": "g4-length-units",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$2$ דצ\"מ שווים ל:",
+    "options": ["$20$ ס\"מ", "$2$ ס\"מ", "$200$ ס\"מ", "$0.2$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$1$ דצ\"מ $=10$ ס\"מ, ולכן $2\\times10=20$."
+  },
+  {
+    "id": "q-g4-len-7",
+    "topic_id": "g4-length-units",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזו מהאפשרויות הבאות היא אומדן סביר לגובה דלת כניסה לכיתה?",
+    "options": ["$200$ ס\"מ", "$2$ ק\"מ", "$20$ מ'", "$2$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$200$ ס\"מ הם $2$ מטר, אומדן סביר לגובה דלת."
+  },
+  {
+    "id": "q-g4-len-8",
+    "topic_id": "g4-length-units",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזו מהאפשרויות הבאות היא אומדן סביר לאורך עיפרון?",
+    "options": ["$15$ ס\"מ", "$15$ מ'", "$15$ ק\"מ", "$15$ מ\"מ"],
+    "correct_index": 0,
+    "explanation": "עיפרון רגיל אורכו בסביבות $15$ ס\"מ."
+  },
+  {
+    "id": "q-g4-len-9",
+    "topic_id": "g4-length-units",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מעבר ישיר מק\"מ למ\"מ:",
+    "options": ["אינו נלמד בכיתה ד' (עוברים רק ליחידות קרובות)", "הוא פשוט מאוד", "תמיד נעשה ישירות", "לא קיים בכלל"],
+    "correct_index": 0,
+    "explanation": "בכיתה ד' עוברים רק בין יחידות סמוכות."
+  },
+  {
+    "id": "q-g4-len-10",
+    "topic_id": "g4-length-units",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה מ\"מ יש ב-$4$ ס\"מ?",
+    "options": ["$40$", "$4$", "$400$", "$0.4$"],
+    "correct_index": 0,
+    "explanation": "$4\\times10=40$."
+  },
+  {
+    "id": "q-g4-boxsa-1",
+    "topic_id": "g4-boxes-surface-area",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לתיבה יש:",
+    "options": ["$6$ פאות מלבניות", "$4$ פאות", "$8$ פאות", "$5$ פאות"],
+    "correct_index": 0,
+    "explanation": "לתיבה יש בדיוק $6$ פאות."
+  },
+  {
+    "id": "q-g4-boxsa-2",
+    "topic_id": "g4-boxes-surface-area",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "קובייה היא תיבה שבה:",
+    "options": ["כל הפאות ריבועים זהים", "יש רק $3$ פאות", "אין פאות מלבניות", "כל הפאות משולשים"],
+    "correct_index": 0,
+    "explanation": "קובייה היא מקרה פרטי של תיבה."
+  },
+  {
+    "id": "q-g4-boxsa-3",
+    "topic_id": "g4-boxes-surface-area",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "המושג \"מקצוע\" בתיבה מתאר:",
+    "options": ["קו המפגש בין שתי פאות", "נקודת מפגש של שלושה מקצועות", "המשטח השטוח", "נפח התיבה"],
+    "correct_index": 0,
+    "explanation": "מקצוע הוא הקו שבו נפגשות שתי פאות."
+  },
+  {
+    "id": "q-g4-boxsa-4",
+    "topic_id": "g4-boxes-surface-area",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "המושג \"קודקוד\" בתיבה מתאר:",
+    "options": ["נקודת מפגש", "קו מפגש בין פאות", "משטח שטוח", "זווית פנימית בלבד"],
+    "correct_index": 0,
+    "explanation": "קודקוד הוא נקודת המפגש של מספר מקצועות."
+  },
+  {
+    "id": "q-g4-boxsa-5",
+    "topic_id": "g4-boxes-surface-area",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה זוגות פאות זהות יש בתיבה?",
+    "options": ["$3$", "$6$", "$2$", "$1$"],
+    "correct_index": 0,
+    "explanation": "בתיבה יש $3$ זוגות פאות זהות (מנוגדות)."
+  },
+  {
+    "id": "q-g4-boxsa-6",
+    "topic_id": "g4-boxes-surface-area",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בתיבה שאורכה $5$, רוחבה $3$ וגובהה $2$, מה שטח זוג הפאות $5\\times3$ (שתי הפאות יחד)?",
+    "options": ["$30$", "$15$", "$10$", "$60$"],
+    "correct_index": 0,
+    "explanation": "$2\\times(5\\times3)=30$."
+  },
+  {
+    "id": "q-g4-boxsa-7",
+    "topic_id": "g4-boxes-surface-area",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "באותה תיבה ($5\\times3\\times2$), מה שטח זוג הפאות $3\\times2$ (שתי הפאות יחד)?",
+    "options": ["$12$", "$6$", "$8$", "$24$"],
+    "correct_index": 0,
+    "explanation": "$2\\times(3\\times2)=12$."
+  },
+  {
+    "id": "q-g4-boxsa-8",
+    "topic_id": "g4-boxes-surface-area",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו שטח הפנים הכולל של תיבה שאורכה $5$, רוחבה $3$ וגובהה $2$?",
+    "options": ["$62$", "$30$", "$60$", "$31$"],
+    "correct_index": 0,
+    "explanation": "$30+20+12=62$."
+  },
+  {
+    "id": "q-g4-boxsa-9",
+    "topic_id": "g4-boxes-surface-area",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו שטח הפנים של קובייה שצלעה $4$?",
+    "options": ["$96$", "$64$", "$16$", "$24$"],
+    "correct_index": 0,
+    "explanation": "$6\\times4^2=6\\times16=96$."
+  },
+  {
+    "id": "q-g4-boxsa-10",
+    "topic_id": "g4-boxes-surface-area",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תיבה שאורכה $6$, רוחבה $4$ וגובהה $3$. מה שטח הפנים שלה?",
+    "options": ["$108$", "$72$", "$36$", "$96$"],
+    "correct_index": 0,
+    "explanation": "$2\\times(6\\times4)+2\\times(6\\times3)+2\\times(4\\times3)=48+36+24=108$."
+  },
+  {
+    "id": "q-g4-time-1",
+    "topic_id": "g4-time-measurement",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה חודשים יש בשנה בלוח השנה הלועזי?",
+    "options": ["$12$", "$10$", "$13$", "$52$"],
+    "correct_index": 0,
+    "explanation": "בלוח השנה הלועזי יש $12$ חודשים."
+  },
+  {
+    "id": "q-g4-time-2",
+    "topic_id": "g4-time-measurement",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה ימים יש בשבוע?",
+    "options": ["$7$", "$5$", "$10$", "$30$"],
+    "correct_index": 0,
+    "explanation": "בשבוע יש $7$ ימים."
+  },
+  {
+    "id": "q-g4-time-3",
+    "topic_id": "g4-time-measurement",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$3$ שבועות שווים ל:",
+    "options": ["$21$ ימים", "$14$ ימים", "$30$ ימים", "$3$ ימים"],
+    "correct_index": 0,
+    "explanation": "$3\\times7=21$."
+  },
+  {
+    "id": "q-g4-time-4",
+    "topic_id": "g4-time-measurement",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$3$ שבועות ו-$4$ ימים שווים בסך הכול ל:",
+    "options": ["$25$ ימים", "$21$ ימים", "$28$ ימים", "$24$ ימים"],
+    "correct_index": 0,
+    "explanation": "$3\\times7+4=25$."
+  },
+  {
+    "id": "q-g4-time-5",
+    "topic_id": "g4-time-measurement",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$25$ ימים שווים ל:",
+    "options": ["$3$ שבועות ו-$4$ ימים", "$4$ שבועות ו-$3$ ימים", "$2$ שבועות ו-$11$ ימים", "$3$ שבועות בדיוק"],
+    "correct_index": 0,
+    "explanation": "$25:7=3$ שארית $4$."
+  },
+  {
+    "id": "q-g4-time-6",
+    "topic_id": "g4-time-measurement",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לוח השנה העברי מבוסס בעיקר על:",
+    "options": ["מחזור הירח", "מחזור השמש בלבד", "מספר קבוע של ימים בחודש", "מחזור כוכבי הלכת"],
+    "correct_index": 0,
+    "explanation": "לוח השנה העברי הוא לוח ירחי (עם עיבור)."
+  },
+  {
+    "id": "q-g4-time-7",
+    "topic_id": "g4-time-measurement",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$40$ ימים שווים ל:",
+    "options": ["$5$ שבועות ו-$5$ ימים", "$5$ שבועות בדיוק", "$4$ שבועות ו-$12$ ימים", "$6$ שבועות"],
+    "correct_index": 0,
+    "explanation": "$40:7=5$ שארית $5$."
+  },
+  {
+    "id": "q-g4-time-8",
+    "topic_id": "g4-time-measurement",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פעילות נמשכת $2$ שבועות ו-$3$ ימים. כמה ימים זה בסך הכול?",
+    "options": ["$17$", "$14$", "$21$", "$23$"],
+    "correct_index": 0,
+    "explanation": "$2\\times7+3=17$."
+  },
+  {
+    "id": "q-g4-time-9",
+    "topic_id": "g4-time-measurement",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה שבועות מלאים יש ב-$50$ ימים?",
+    "options": ["$7$", "$8$", "$6$", "$5$"],
+    "correct_index": 0,
+    "explanation": "$50:7=7$ שארית $1$."
+  },
+  {
+    "id": "q-g4-time-10",
+    "topic_id": "g4-time-measurement",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה ההבדל העיקרי בין לוח השנה הלועזי ללוח השנה העברי?",
+    "options": ["הלועזי מבוסס על השמש, העברי משלב את הירח (עם עיבור)", "אין הבדל כלל", "בעברי יש תמיד $365$ ימים", "בלועזי יש חודש עיבור"],
+    "correct_index": 0,
+    "explanation": "זהו ההבדל המרכזי בין שני הלוחות."
+  },
+  {
+    "id": "q-g4-tbar-1",
+    "topic_id": "g4-data-tables-bars",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בטבלה, כדי למצוא ערך מסוים:",
+    "options": ["מאתרים את השורה והעמודה המתאימות", "מסתכלים רק בעמודה הראשונה", "סופרים את כל השורות", "מסתכלים רק בכותרת"],
+    "correct_index": 0,
+    "explanation": "הערך נמצא במפגש שורה-עמודה."
+  },
+  {
+    "id": "q-g4-tbar-2",
+    "topic_id": "g4-data-tables-bars",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עמודות, עמודה גבוהה יותר מייצגת:",
+    "options": ["כמות גדולה יותר", "כמות קטנה יותר", "אותה כמות תמיד", "אין קשר לכמות"],
+    "correct_index": 0,
+    "explanation": "גובה העמודה משקף את הכמות."
+  },
+  {
+    "id": "q-g4-tbar-3",
+    "topic_id": "g4-data-tables-bars",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "דיאגרמת עמודות כפולה משמשת כדי:",
+    "options": ["להשוות שתי קבוצות נתונים באותו גרף", "להציג רק קבוצה אחת", "להראות רק ממוצע", "לחשב שטח"],
+    "correct_index": 0,
+    "explanation": "עמודות כפולות מציגות שתי קבוצות זו לצד זו."
+  },
+  {
+    "id": "q-g4-tbar-4",
+    "topic_id": "g4-data-tables-bars",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם הציר האנכי של דיאגרמת עמודות לא מתחיל ב-$0$, זה עלול:",
+    "options": ["לגרום להבדלים להיראות גדולים או קטנים מכפי שהם באמת", "לא לשנות דבר", "לגרום לגרף להיות מדויק יותר", "להוסיף נתונים חסרים"],
+    "correct_index": 0,
+    "explanation": "זו הטיה נפוצה בהצגת נתונים."
+  },
+  {
+    "id": "q-g4-tbar-5",
+    "topic_id": "g4-data-tables-bars",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עמודות כפולה המשווה בין שתי כיתות בקטגוריית \"בנים\", מה ניתן לדעת?",
+    "options": ["את מספר הבנים בכל כיתה בנפרד", "רק את הסך הכול משתי הכיתות", "רק אם יש יותר בנות או בנים", "שום דבר בלי לחשב"],
+    "correct_index": 0,
+    "explanation": "כל עמודה מייצגת נתון נפרד לכל קבוצה."
+  },
+  {
+    "id": "q-g4-tbar-6",
+    "topic_id": "g4-data-tables-bars",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בטבלה עם $3$ שורות ו-$4$ עמודות (לא כולל כותרות), כמה תאי נתונים יש?",
+    "options": ["$12$", "$7$", "$3$", "$4$"],
+    "correct_index": 0,
+    "explanation": "$3\\times4=12$."
+  },
+  {
+    "id": "q-g4-tbar-7",
+    "topic_id": "g4-data-tables-bars",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי לאסוף נתונים רלוונטיים לכיתה, אפשר להשתמש ב:",
+    "options": ["שאלון או תצפית", "ניחוש בלבד", "חישוב אקראי", "המצאה"],
+    "correct_index": 0,
+    "explanation": "שאלון ותצפית הן שיטות איסוף נתונים מהימנות."
+  },
+  {
+    "id": "q-g4-tbar-8",
+    "topic_id": "g4-data-tables-bars",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עמודות המציגה מכירות בחמישה ימים, איך יודעים באיזה יום נמכר הכי הרבה?",
+    "options": ["מחפשים את העמודה הגבוהה ביותר", "מחפשים את העמודה הנמוכה ביותר", "סופרים את כל העמודות", "מסתכלים בציר האופקי בלבד"],
+    "correct_index": 0,
+    "explanation": "העמודה הגבוהה ביותר מייצגת את הכמות הגדולה ביותר."
+  },
+  {
+    "id": "q-g4-tbar-9",
+    "topic_id": "g4-data-tables-bars",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בטבלה המציגה מכירות בשלושה חודשים, כדי למצוא את הסך הכול, יש:",
+    "options": ["לחבר את כל הערכים בטבלה", "לקחת רק את הערך הגבוה ביותר", "לחלק בשלושה", "להתעלם מהחודש האמצעי"],
+    "correct_index": 0,
+    "explanation": "הסך הכול הוא סכום כל הערכים."
+  },
+  {
+    "id": "q-g4-tbar-10",
+    "topic_id": "g4-data-tables-bars",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מדוע כדאי לבדוק אם הציר האנכי בדיאגרמת עמודות מתחיל ב-$0$?",
+    "options": ["כדי לא להיטעות לגבי גודל ההבדלים בין העמודות", "כי זה חוק שאסור לשבור", "כדי שהגרף ייראה יפה יותר", "זה לא משנה בכלל"],
+    "correct_index": 0,
+    "explanation": "ציר שלא מתחיל ב-$0$ עלול להטעות לגבי גודל ההבדלים."
+  },
+  {
+    "id": "q-g4-pictpie-1",
+    "topic_id": "g4-data-pictograph-pie",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בפיקטוגרם שבו סמל אחד מייצג $10$ בקבוקים, אם רואים $3$ סמלים, כמה בקבוקים יש?",
+    "options": ["$30$", "$3$", "$13$", "$10$"],
+    "correct_index": 0,
+    "explanation": "$3\\times10=30$."
+  },
+  {
+    "id": "q-g4-pictpie-2",
+    "topic_id": "g4-data-pictograph-pie",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפיקטוגרם, אם רואים $2$ סמלים וחצי סמל (כל סמל $=10$), כמה יש בסך הכול?",
+    "options": ["$25$", "$20$", "$21$", "$30$"],
+    "correct_index": 0,
+    "explanation": "$2\\times10+5=25$."
+  },
+  {
+    "id": "q-g4-pictpie-3",
+    "topic_id": "g4-data-pictograph-pie",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "דיאגרמת עוגה מציגה מידע על:",
+    "options": ["חלוקת השלם לחלקים", "שכיחויות ערכים שונים לאורך זמן", "מספר מוחלט בלבד ללא הקשר", "אין לה שימוש מיוחד"],
+    "correct_index": 0,
+    "explanation": "עוגה מציגה כיצד השלם מתחלק לקטגוריות."
+  },
+  {
+    "id": "q-g4-pictpie-4",
+    "topic_id": "g4-data-pictograph-pie",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עוגה, ככל שה\"פרוסה\" גדולה יותר:",
+    "options": ["החלק שהיא מייצגת גדול יותר", "החלק שהיא מייצגת קטן יותר", "אין קשר לגודל החלק", "היא תמיד שווה לחצי"],
+    "correct_index": 0,
+    "explanation": "גודל הפרוסה משקף את גודל החלק היחסי."
+  },
+  {
+    "id": "q-g4-pictpie-5",
+    "topic_id": "g4-data-pictograph-pie",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עוגה, $60$ תלמידים הצביעו \"בעד\" וזה מהווה חצי מהעוגה. כמה תלמידים השתתפו בסך הכול?",
+    "options": ["$120$", "$60$", "$30$", "$90$"],
+    "correct_index": 0,
+    "explanation": "אם $60$ הם חצי, הסך הכול הוא $120$."
+  },
+  {
+    "id": "q-g4-pictpie-6",
+    "topic_id": "g4-data-pictograph-pie",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי לדעת כמות מדויקת מתוך דיאגרמת עוגה, צריך לדעת גם:",
+    "options": ["את סך כל הנתונים", "רק את הצבעים", "רק את מספר הפרוסות", "דבר נוסף אינו נדרש"],
+    "correct_index": 0,
+    "explanation": "עוגה מציגה יחס בלבד, ולכן צריך גם את הסך הכול."
+  },
+  {
+    "id": "q-g4-pictpie-7",
+    "topic_id": "g4-data-pictograph-pie",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "דיאגרמת עוגה מראה שנטע קיבלה רבע מהקולות מתוך $80$ קולות בסך הכול. כמה קולות קיבלה נטע?",
+    "options": ["$20$", "$40$", "$4$", "$60$"],
+    "correct_index": 0,
+    "explanation": "$80:4=20$."
+  },
+  {
+    "id": "q-g4-pictpie-8",
+    "topic_id": "g4-data-pictograph-pie",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "ההבדל העיקרי בין דיאגרמת עוגה לדיאגרמת עמודות הוא:",
+    "options": ["עוגה מציגה חלוקת שלם, עמודות מציגות שכיחויות", "אין הבדל בכלל", "עמודות תמיד מדויקות יותר", "עוגה משמשת רק למספרים שליליים"],
+    "correct_index": 0,
+    "explanation": "אלו שני סוגי מידע שונים לגמרי."
+  },
+  {
+    "id": "q-g4-pictpie-9",
+    "topic_id": "g4-data-pictograph-pie",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בפיקטוגרם שבו סמל אחד מייצג $5$ ילדים, כמה סמלים נדרשים כדי להציג $23$ ילדים?",
+    "options": ["$4$ סמלים ו-$\\frac{3}{5}$ מסמל נוסף", "$5$ סמלים שלמים", "$23$ סמלים", "$4$ סמלים שלמים בלבד"],
+    "correct_index": 0,
+    "explanation": "$23:5=4$ שארית $3$, ולכן צריך גם חלק סמל נוסף."
+  },
+  {
+    "id": "q-g4-pictpie-10",
+    "topic_id": "g4-data-pictograph-pie",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עוגה, קטגוריה אחת תופסת רבע מהעוגה ומייצגת $45$ תלמידים. כמה תלמידים בסך הכול?",
+    "options": ["$180$", "$90$", "$135$", "$45$"],
+    "correct_index": 0,
+    "explanation": "$45\\times4=180$."
+  },
+  {
+    "id": "q-g4-lnx-1",
+    "topic_id": "g4-large-numbers",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כיצד כותבים במילים את המספר $324{,}500$?",
+    "options": ["שלוש מאות עשרים וארבעה אלף וחמש מאות", "שלושים ושניים אלף וארבע מאות וחמישים", "שלוש מאות עשרים וארבעה", "שלושת אלפים מאתיים וחמישים"],
+    "correct_index": 0,
+    "explanation": "מפרקים לקבוצת האלפים (324) ולקבוצת היחידות (500)."
+  },
+  {
+    "id": "q-g4-lnx-2",
+    "topic_id": "g4-large-numbers",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השלימו את סימן היחס המתאים: $752{,}300$ ___ $752{,}299$",
+    "options": ["$>$", "$<$", "$=$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "משווים ספרה-ספרה: $752{,}300$ גדול יותר."
+  },
+  {
+    "id": "q-g4-lnx-3",
+    "topic_id": "g4-large-numbers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מספר נכתב נכון בקבוצות של 3 ספרות המופרדות בפסיק: $1250000$?",
+    "options": ["$1{,}250{,}000$", "$12{,}500{,}00$", "$1{,}25{,}0000$", "$125{,}0000$"],
+    "correct_index": 0,
+    "explanation": "מפרידים בפסיק כל 3 ספרות החל מהיחידות."
+  },
+  {
+    "id": "q-g4-lnx-4",
+    "topic_id": "g4-large-numbers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה גדול יותר: $99{,}999$ או $100{,}000$?",
+    "options": ["$100{,}000$, כי יש לו יותר ספרות", "$99{,}999$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מספר עם יותר ספרות תמיד גדול יותר (בהנחה שאין אפסים מובילים)."
+  },
+  {
+    "id": "q-g4-lnx-5",
+    "topic_id": "g4-large-numbers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "האם קיים מספר שהוא הגדול ביותר מכולם?",
+    "options": ["לא, תמיד אפשר להוסיף עוד $1$", "כן, זה מיליון", "כן, זה טריליון", "כן, כל מספר בן $7$ ספרות"],
+    "correct_index": 0,
+    "explanation": "לכל מספר אפשר להוסיף $1$ ולקבל מספר גדול יותר."
+  },
+  {
+    "id": "q-g4-frx-1",
+    "topic_id": "g4-fractions-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חשבו: $\\frac{1}{2}+\\frac{1}{4}$",
+    "options": ["$\\frac{3}{4}$", "$\\frac{2}{6}$", "$\\frac{1}{6}$", "$\\frac{2}{4}$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{2}=\\frac{2}{4}$, ו-$\\frac{2}{4}+\\frac{1}{4}=\\frac{3}{4}$."
+  },
+  {
+    "id": "q-g4-frx-2",
+    "topic_id": "g4-fractions-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חשבו: $\\frac{1}{3}+\\frac{1}{6}$",
+    "options": ["$\\frac{1}{2}$", "$\\frac{2}{9}$", "$\\frac{1}{9}$", "$\\frac{2}{6}$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{3}=\\frac{2}{6}$, ו-$\\frac{2}{6}+\\frac{1}{6}=\\frac{3}{6}=\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g4-frx-3",
+    "topic_id": "g4-fractions-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי המשמעות של $3\\times\\frac{2}{5}$ כחיבור חוזר?",
+    "options": ["$\\frac{2}{5}+\\frac{2}{5}+\\frac{2}{5}$", "$\\frac{2}{5}\\times\\frac{2}{5}\\times\\frac{2}{5}$", "$\\frac{2}{5}+3$", "$\\frac{6}{15}$"],
+    "correct_index": 0,
+    "explanation": "כפל שלם בשבר הוא חיבור חוזר של השבר."
+  },
+  {
+    "id": "q-g4-frx-4",
+    "topic_id": "g4-fractions-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $1>\\frac{\\square}{5}+\\frac{1}{5}$. איזה ערך של $\\square$ אינו מתאים?",
+    "options": ["$4$", "$0$", "$1$", "$2$"],
+    "correct_index": 0,
+    "explanation": "אם $\\square=4$: $\\frac{4}{5}+\\frac{1}{5}=1$, וזה לא קטן מ-$1$ ממש."
+  },
+  {
+    "id": "q-g4-frx-5",
+    "topic_id": "g4-fractions-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חשבו: $\\frac{2}{3}+\\frac{1}{6}$",
+    "options": ["$\\frac{5}{6}$", "$\\frac{3}{9}$", "$\\frac{1}{2}$", "$\\frac{3}{6}$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{2}{3}=\\frac{4}{6}$, ו-$\\frac{4}{6}+\\frac{1}{6}=\\frac{5}{6}$."
   }
 ];
 
