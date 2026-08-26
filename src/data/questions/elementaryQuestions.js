@@ -19460,6 +19460,276 @@ export const ELEMENTARY_QUESTIONS = [
     "options": ["כמה פריסות תקינות שונות", "רק פריסה אחת בלבד", "אף פריסה", "פריסה זהה לכל הגופים"],
     "correct_index": 0,
     "explanation": "לרוב הגופים יש כמה פריסות תקינות אפשריות."
+  },
+  {
+    "id": "q-g6-dataread-1",
+    "topic_id": "g6-data-reading",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה ייצוג נתונים הכי מדויק לקריאת ערך ספציפי?",
+    "options": ["טבלה", "דיאגרמת עוגה", "פיקטוגרם", "אין הבדל"],
+    "correct_index": 0,
+    "explanation": "טבלה מציגה ערכים מדויקים ללא צורך בהערכה."
+  },
+  {
+    "id": "q-g6-dataread-2",
+    "topic_id": "g6-data-reading",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה ייצוג הכי מתאים להשוואה מהירה בין קטגוריות?",
+    "options": ["דיאגרמת עמודות", "טבלה בלבד", "משפט מילולי", "אין דרך להשוות"],
+    "correct_index": 0,
+    "explanation": "גובה העמודות מאפשר השוואה חזותית מהירה."
+  },
+  {
+    "id": "q-g6-dataread-3",
+    "topic_id": "g6-data-reading",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "דיאגרמת עוגה מציגה בעיקר:",
+    "options": ["חלוקה יחסית של שלם", "שכיחות מוחלטת בלבד", "ערכים שליליים", "זמן בלבד"],
+    "correct_index": 0,
+    "explanation": "כל פרוסה מייצגת חלק יחסי מהשלם."
+  },
+  {
+    "id": "q-g6-dataread-4",
+    "topic_id": "g6-data-reading",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפיקטוגרם, אם סמל אחד מייצג $20$ ורואים $3$ סמלים וחצי, כמה זה?",
+    "options": ["$70$", "$60$", "$65$", "$80$"],
+    "correct_index": 0,
+    "explanation": "$3\\times20+10=70$."
+  },
+  {
+    "id": "q-g6-dataread-5",
+    "topic_id": "g6-data-reading",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בטבלה: כיתה א'-$25$, כיתה ב'-$30$, כיתה ג'-$28$. איזו כיתה הכי גדולה?",
+    "options": ["כיתה ב'", "כיתה א'", "כיתה ג'", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$30$ הוא הערך הגבוה ביותר בטבלה."
+  },
+  {
+    "id": "q-g6-dataread-6",
+    "topic_id": "g6-data-reading",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אותו מידע מוצג בטבלה ובדיאגרמת עמודות. איזה מהם ישתנה?",
+    "options": ["שום דבר, המידע זהה בשתי הצורות", "הסכום הכולל", "מספר הקטגוריות", "הערכים עצמם"],
+    "correct_index": 0,
+    "explanation": "מעבר בין ייצוגים לא משנה את המידע עצמו."
+  },
+  {
+    "id": "q-g6-dataread-7",
+    "topic_id": "g6-data-reading",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "דיאגרמת עוגה מראה שקטגוריה אחת תופסת רבע מהעוגה מתוך $200$ משתתפים בסך הכול. כמה משתתפים בקטגוריה זו?",
+    "options": ["$50$", "$25$", "$100$", "$4$"],
+    "correct_index": 0,
+    "explanation": "$200:4=50$."
+  },
+  {
+    "id": "q-g6-dataread-8",
+    "topic_id": "g6-data-reading",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו החיסרון העיקרי של פיקטוגרם לעומת טבלה?",
+    "options": ["פחות מדויק, במיוחד עם חצאי סמלים", "הוא תמיד שגוי", "אי אפשר להבין אותו כלל", "הוא תמיד מדויק יותר מטבלה"],
+    "correct_index": 0,
+    "explanation": "פיקטוגרם מבוסס על הערכה חזותית, לכן פחות מדויק."
+  },
+  {
+    "id": "q-g6-dataread-9",
+    "topic_id": "g6-data-reading",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בטבלה חלקית: אדום-$?$, כחול-$15$, ירוק-$10$, סה\"כ-$40$. כמה אדום?",
+    "options": ["$15$", "$10$", "$25$", "$40$"],
+    "correct_index": 0,
+    "explanation": "$40-15-10=15$."
+  },
+  {
+    "id": "q-g6-dataread-10",
+    "topic_id": "g6-data-reading",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם דיאגרמת עמודות ודיאגרמת עוגה מציגות את אותם נתונים, מה משותף להן?",
+    "options": ["אותו מידע בדיוק, בייצוגים שונים", "אותו ציר אופקי", "אותה צורה", "שום דבר לא משותף"],
+    "correct_index": 0,
+    "explanation": "שני הייצוגים מציגים את אותו מידע בצורה שונה."
+  },
+  {
+    "id": "q-g6-dataread-11",
+    "topic_id": "g6-data-reading",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כדי להשלים נתון חסר בטבלה על סמך דיאגרמת עמודות, יש:",
+    "options": ["לקרוא את הגובה המתאים בדיאגרמה ולהעתיק לטבלה", "לנחש", "להשאיר ריק", "לחשב ממוצע בלבד"],
+    "correct_index": 0,
+    "explanation": "הייצוגים מציגים אותו מידע, ולכן אפשר להשלים אחד מהשני."
+  },
+  {
+    "id": "q-g6-dataread-12",
+    "topic_id": "g6-data-reading",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עוגה, שתי קטגוריות יחד תופסות $70\\%$ מהעוגה מתוך $300$ אנשים. כמה אנשים בשתי הקטגוריות יחד?",
+    "options": ["$210$", "$70$", "$300$", "$100$"],
+    "correct_index": 0,
+    "explanation": "$300\\times0.7=210$."
+  },
+  {
+    "id": "q-g6-nnox-1",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו ההבדל העיקרי בין השיטה העשרונית לשיטה הרומית?",
+    "options": ["בעשרונית ערך הספרה תלוי במיקומה, ברומית לא", "ברומית יש $10$ סמלים, בעשרונית אין", "אין הבדל בכלל", "בעשרונית אין ערך למיקום"],
+    "correct_index": 0,
+    "explanation": "השיטה העשרונית מבוססת על ערך-מקום, השיטה הרומית לא."
+  },
+  {
+    "id": "q-g6-nnox-2",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בגימטריה (שיטת הא\"ב העברית), ערך האות:",
+    "options": ["קבוע, ולא תלוי במיקומה במילה", "תלוי במיקומה כמו בעשרונית", "תמיד אפס", "משתנה בכל שימוש"],
+    "correct_index": 0,
+    "explanation": "בגימטריה כל אות שווה ערך קבוע, בלי תלות במיקום."
+  },
+  {
+    "id": "q-g6-nnox-3",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה סמלים משמשים לייצוג כל מספר בשיטה העשרונית?",
+    "options": ["$10$", "$26$", "$1$", "אינסוף"],
+    "correct_index": 0,
+    "explanation": "הספרות $0$ עד $9$."
+  },
+  {
+    "id": "q-g6-nnox-4",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לכל מספר טבעי יש:",
+    "options": ["מספר עוקב (גדול ב-$1$)", "רק מספר קודם", "גם עוקב וגם קודם תמיד", "לא עוקב ולא קודם"],
+    "correct_index": 0,
+    "explanation": "לכל מספר טבעי יש עוקב; ל-$0$ בלבד אין קודם."
+  },
+  {
+    "id": "q-g6-nnox-5",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מספר שהוא גם זוגי וגם ראשוני:",
+    "options": ["$2$ (המספר הראשוני הזוגי היחיד)", "כל מספר זוגי", "אין מספר כזה", "$4$"],
+    "correct_index": 0,
+    "explanation": "$2$ הוא המספר הראשוני הזוגי היחיד."
+  },
+  {
+    "id": "q-g6-frx-1",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה קורה כשכופלים מספר בשבר קטן מ-$1$?",
+    "options": ["התוצאה קטנה מהמספר המקורי", "התוצאה תמיד גדולה יותר", "התוצאה נשארת זהה", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "כפל בשבר קטן מ-$1$ מקטין את התוצאה."
+  },
+  {
+    "id": "q-g6-frx-2",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה קורה כשמחלקים מספר בשבר קטן מ-$1$?",
+    "options": ["התוצאה גדולה מהמספר המקורי", "התוצאה תמיד קטנה יותר", "התוצאה נשארת זהה", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "חילוק בשבר קטן מ-$1$ מגדיל את התוצאה."
+  },
+  {
+    "id": "q-g6-frx-3",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם $\\frac{3}{4}$ מכמות מסוימת שווים $30$, מה השלם?",
+    "options": ["$40$", "$30$", "$22.5$", "$10$"],
+    "correct_index": 0,
+    "explanation": "$30:3=10$, ו-$10\\times4=40$."
+  },
+  {
+    "id": "q-g6-frx-4",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם השלם הוא $40$ ורוצים למצוא $\\frac{3}{4}$ ממנו, מה עושים?",
+    "options": ["כופלים $40$ ב-$\\frac{3}{4}$", "מחלקים $40$ ב-$\\frac{3}{4}$", "מחסרים $\\frac{3}{4}$ מ-$40$", "אין דרך לחשב"],
+    "correct_index": 0,
+    "explanation": "מציאת חלק מכמות נעשית על ידי כפל בשבר."
+  },
+  {
+    "id": "q-g6-frx-5",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$12$ הם איזה חלק מ-$40$?",
+    "options": ["$\\frac{3}{10}$", "$\\frac{10}{3}$", "$\\frac{1}{3}$", "$\\frac{2}{5}$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{12}{40}=\\frac{3}{10}$."
+  },
+  {
+    "id": "q-g6-geox-1",
+    "topic_id": "g6-geometry",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מנסרה ששטח הבסיס שלה $20$ סמ\"ר וגובהה $5$ ס\"מ. מה נפחה?",
+    "options": ["$100$ סמ\"ק", "$25$ סמ\"ק", "$15$ סמ\"ק", "$4$ סמ\"ק"],
+    "correct_index": 0,
+    "explanation": "$20\\times5=100$."
+  },
+  {
+    "id": "q-g6-geox-2",
+    "topic_id": "g6-geometry",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מנסרה ששטח הבסיס שלה $12$ סמ\"ר וגובהה $8$ ס\"מ. מה נפחה?",
+    "options": ["$96$ סמ\"ק", "$20$ סמ\"ק", "$4$ סמ\"ק", "$1.5$ סמ\"ק"],
+    "correct_index": 0,
+    "explanation": "$12\\times8=96$."
+  },
+  {
+    "id": "q-g6-geox-3",
+    "topic_id": "g6-geometry",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "תיבה שנבנתה מקוביות של $1$ סמ\"ק: יש בה $4$ שכבות של $15$ קוביות כל אחת. מה הנפח?",
+    "options": ["$60$ סמ\"ק", "$15$ סמ\"ק", "$19$ סמ\"ק", "$4$ סמ\"ק"],
+    "correct_index": 0,
+    "explanation": "$4\\times15=60$."
+  },
+  {
+    "id": "q-g6-geox-4",
+    "topic_id": "g6-geometry",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו הכלל הכללי לנפח מנסרה (כולל תיבה כמקרה פרטי)?",
+    "options": ["שטח הבסיס כפול הגובה", "היקף הבסיס כפול הגובה", "אורך כפול רוחב בלבד", "סכום כל הפאות"],
+    "correct_index": 0,
+    "explanation": "נפח מנסרה כללי שווה תמיד לשטח הבסיס כפול הגובה."
+  },
+  {
+    "id": "q-g6-geox-5",
+    "topic_id": "g6-geometry",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מנסרה משולשת ששטח בסיסה (המשולש) הוא $6$ סמ\"ר וגובה המנסרה $10$ ס\"מ. מה נפחה?",
+    "options": ["$60$ סמ\"ק", "$16$ סמ\"ק", "$30$ סמ\"ק", "$600$ סמ\"ק"],
+    "correct_index": 0,
+    "explanation": "$6\\times10=60$."
   }
 ];
 
