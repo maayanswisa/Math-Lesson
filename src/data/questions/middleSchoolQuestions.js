@@ -10575,6 +10575,1506 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "options": ["$8000$", "$2000$", "$4000$", "$16000$"],
     "correct_index": 0,
     "explanation": "לאחר $4$ שעות: $500\\times 2^4=500\\times 16=8000$."
+  },
+  {
+    "id": "q-g7-neg-1",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו הנגדי של $7$?",
+    "options": ["$-7$", "$7$", "$0$", "$\\frac{1}{7}$"],
+    "correct_index": 0,
+    "explanation": "הנגדי של מספר הוא אותו מספר בסימן הפוך."
+  },
+  {
+    "id": "q-g7-neg-2",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $|-9|$?",
+    "options": ["$9$", "$-9$", "$0$", "$18$"],
+    "correct_index": 0,
+    "explanation": "ערך מוחלט הוא המרחק מ-$0$, תמיד חיובי."
+  },
+  {
+    "id": "q-g7-neg-3",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: $-3$ או $-8$?",
+    "options": ["$-3$", "$-8$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$-3$ קרוב יותר ל-$0$ מאשר $-8$, ולכן גדול יותר."
+  },
+  {
+    "id": "q-g7-neg-4",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו סכום שני מספרים נגדיים כלשהם?",
+    "options": ["$0$", "תמיד חיובי", "תמיד שלילי", "תלוי במספרים"],
+    "correct_index": 0,
+    "explanation": "מספרים נגדיים מסתכמים תמיד ל-$0$."
+  },
+  {
+    "id": "q-g7-neg-5",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $|4|+|-4|$?",
+    "options": ["$8$", "$0$", "$4$", "$-8$"],
+    "correct_index": 0,
+    "explanation": "$4+4=8$."
+  },
+  {
+    "id": "q-g7-neg-6",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו הנגדי של $-12$?",
+    "options": ["$12$", "$-12$", "$0$", "$\\frac{1}{12}$"],
+    "correct_index": 0,
+    "explanation": "הנגדי של $-12$ הוא $12$."
+  },
+  {
+    "id": "q-g7-neg-7",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אילו שני מספרים על ציר המספרים נמצאים במרחק שווה מ-$0$ אך בכיוונים מנוגדים?",
+    "options": ["מספרים נגדיים", "מספרים שווים", "מספרים ראשוניים", "מספרים עוקבים"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של מספרים נגדיים."
+  },
+  {
+    "id": "q-g7-neg-8",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "סדרו מהקטן לגדול: $-5, 2, -1, 0$",
+    "options": ["$-5,-1,0,2$", "$2,0,-1,-5$", "$-1,-5,0,2$", "$0,-1,-5,2$"],
+    "correct_index": 0,
+    "explanation": "ככל שמתרחקים ימינה על הציר, המספר גדול יותר."
+  },
+  {
+    "id": "q-g7-neg-9",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $|-6|-|-2|$?",
+    "options": ["$4$", "$8$", "$-4$", "$-8$"],
+    "correct_index": 0,
+    "explanation": "$6-2=4$."
+  },
+  {
+    "id": "q-g7-neg-10",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם $x=-5$, מהו $|x|$?",
+    "options": ["$5$", "$-5$", "$0$", "$25$"],
+    "correct_index": 0,
+    "explanation": "$|-5|=5$."
+  },
+  {
+    "id": "q-g7-signedmd-1",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $(-3)\\times(-4)$?",
+    "options": ["$12$", "$-12$", "$7$", "$-7$"],
+    "correct_index": 0,
+    "explanation": "סימנים זהים נותנים תוצאה חיובית."
+  },
+  {
+    "id": "q-g7-signedmd-2",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $(-6)\\times2$?",
+    "options": ["$-12$", "$12$", "$-4$", "$4$"],
+    "correct_index": 0,
+    "explanation": "סימנים שונים נותנים תוצאה שלילית."
+  },
+  {
+    "id": "q-g7-signedmd-3",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $(-20):(-4)$?",
+    "options": ["$5$", "$-5$", "$16$", "$-16$"],
+    "correct_index": 0,
+    "explanation": "סימנים זהים בחילוק נותנים תוצאה חיובית."
+  },
+  {
+    "id": "q-g7-signedmd-4",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $15:(-3)$?",
+    "options": ["$-5$", "$5$", "$-45$", "$45$"],
+    "correct_index": 0,
+    "explanation": "סימנים שונים נותנים תוצאה שלילית."
+  },
+  {
+    "id": "q-g7-signedmd-5",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו סימן התוצאה של $(-2)\\times(-3)\\times(-1)$?",
+    "options": ["שלילי ($3$ מינוסים — אי-זוגי)", "חיובי", "אפס", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מספר אי-זוגי של מינוסים נותן תוצאה שלילית."
+  },
+  {
+    "id": "q-g7-signedmd-6",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו סימן התוצאה של $(-2)\\times(-3)\\times(-1)\\times(-1)$?",
+    "options": ["חיובי ($4$ מינוסים — זוגי)", "שלילי", "אפס", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מספר זוגי של מינוסים נותן תוצאה חיובית."
+  },
+  {
+    "id": "q-g7-signedmd-7",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $(-8)\\times(-1)$?",
+    "options": ["$8$", "$-8$", "$1$", "$-1$"],
+    "correct_index": 0,
+    "explanation": "סימנים זהים נותנים תוצאה חיובית."
+  },
+  {
+    "id": "q-g7-signedmd-8",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $(-36):6$?",
+    "options": ["$-6$", "$6$", "$-30$", "$30$"],
+    "correct_index": 0,
+    "explanation": "סימנים שונים נותנים תוצאה שלילית."
+  },
+  {
+    "id": "q-g7-signedmd-9",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $(-4)\\times5\\times(-2)$?",
+    "options": ["$40$", "$-40$", "$20$", "$-20$"],
+    "correct_index": 0,
+    "explanation": "שני מינוסים (זוגי) — תוצאה חיובית: $4\\times5\\times2=40$."
+  },
+  {
+    "id": "q-g7-signedmd-10",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $(-100):(-4):5$?",
+    "options": ["$5$", "$-5$", "$20$", "$-20$"],
+    "correct_index": 0,
+    "explanation": "$(-100):(-4)=25$, ו-$25:5=5$."
+  },
+  {
+    "id": "q-g7-angbasic-1",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "זווית של $90°$ נקראת:",
+    "options": ["זווית ישרה", "זווית חדה", "זווית קהה", "זווית שטוחה"],
+    "correct_index": 0,
+    "explanation": "זווית ישרה שווה בדיוק $90°$."
+  },
+  {
+    "id": "q-g7-angbasic-2",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "זווית של $180°$ נקראת:",
+    "options": ["זווית שטוחה", "זווית ישרה", "זווית חדה", "זווית קהה"],
+    "correct_index": 0,
+    "explanation": "זווית שטוחה שווה בדיוק $180°$."
+  },
+  {
+    "id": "q-g7-angbasic-3",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זווית של $40°$ היא:",
+    "options": ["חדה", "ישרה", "קהה", "שטוחה"],
+    "correct_index": 0,
+    "explanation": "קטנה מ-$90°$, לכן חדה."
+  },
+  {
+    "id": "q-g7-angbasic-4",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זווית של $120°$ היא:",
+    "options": ["קהה", "חדה", "ישרה", "שטוחה"],
+    "correct_index": 0,
+    "explanation": "בין $90°$ ל-$180°$, לכן קהה."
+  },
+  {
+    "id": "q-g7-angbasic-5",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה קובע את גודל הזווית?",
+    "options": ["מידת הפתיחה בין הקרניים", "אורך הקרניים המצוירות", "הצבע של הזווית", "מיקום הזווית בדף"],
+    "correct_index": 0,
+    "explanation": "גודל הזווית תלוי רק בפתיחה בין הקרניים."
+  },
+  {
+    "id": "q-g7-angbasic-6",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "באיזה כלי מודדים זווית במדויק?",
+    "options": ["מד-זווית", "סרגל", "מחוגה", "משולש בלבד"],
+    "correct_index": 0,
+    "explanation": "מד-זווית הוא הכלי המיועד למדידת זוויות."
+  },
+  {
+    "id": "q-g7-angbasic-7",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "זווית של $95°$ קרובה יותר לאיזו זווית מוכרת?",
+    "options": ["$90°$", "$180°$", "$45°$", "$0°$"],
+    "correct_index": 0,
+    "explanation": "$95°$ קרוב מאוד ל-$90°$."
+  },
+  {
+    "id": "q-g7-angbasic-8",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אומדן חזותי (בלי מדידה) של זווית מתבסס על:",
+    "options": ["השוואה לזוויות מוכרות כמו $90°$ ו-$180°$", "ניחוש אקראי", "מדידת אורך הקרניים", "צבע הזווית"],
+    "correct_index": 0,
+    "explanation": "משווים את הזווית הנתונה לזוויות ידועות."
+  },
+  {
+    "id": "q-g7-angbasic-9",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזו זווית גדולה יותר: זווית קהה או זווית חדה?",
+    "options": ["זווית קהה תמיד גדולה מזווית חדה", "זווית חדה תמיד גדולה יותר", "תלוי בגודל הספציפי", "אי אפשר להשוות"],
+    "correct_index": 0,
+    "explanation": "קהה $>90°$, חדה $<90°$, אז קהה תמיד גדולה יותר."
+  },
+  {
+    "id": "q-g7-angbasic-10",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כדי להשוות שתי זוויות מצוירות עם קרניים באורכים שונים, יש:",
+    "options": ["להתעלם מאורך הקרניים ולהשוות רק את הפתיחה", "למדוד את אורך הקרניים", "להשוות רק לפי מראה כללי", "אי אפשר להשוות זוויות עם קרניים שונות"],
+    "correct_index": 0,
+    "explanation": "אורך הקרניים לא משפיע על גודל הזווית."
+  },
+  {
+    "id": "q-g7-angrel-1",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "חוצה זווית מחלק אותה ל:",
+    "options": ["שתי זוויות שוות", "שלוש זוויות שוות", "שתי זוויות שונות תמיד", "זווית אחת גדולה יותר"],
+    "correct_index": 0,
+    "explanation": "חוצה זווית יוצר שתי זוויות שוות."
+  },
+  {
+    "id": "q-g7-angrel-2",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "זוויות צמודות (על אותו ישר) מסתכמות ל:",
+    "options": ["$180°$", "$90°$", "$360°$", "$45°$"],
+    "correct_index": 0,
+    "explanation": "זוויות צמודות משלימות זו את זו ל-$180°$."
+  },
+  {
+    "id": "q-g7-angrel-3",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זוויות קודקודיות (זו מול זו) הן:",
+    "options": ["שוות זו לזו", "משלימות ל-$90°$", "משלימות ל-$180°$", "תמיד ישרות"],
+    "correct_index": 0,
+    "explanation": "זוויות קודקודיות שוות תמיד."
+  },
+  {
+    "id": "q-g7-angrel-4",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זווית $\\alpha=70°$ צמודה לזווית $\\beta$. מהי $\\beta$?",
+    "options": ["$110°$", "$70°$", "$180°$", "$20°$"],
+    "correct_index": 0,
+    "explanation": "$180°-70°=110°$."
+  },
+  {
+    "id": "q-g7-angrel-5",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זווית $130°$ נחצית על ידי חוצה זווית. מה גודל כל אחת מהזוויות החדשות?",
+    "options": ["$65°$", "$130°$", "$260°$", "$70°$"],
+    "correct_index": 0,
+    "explanation": "$130°:2=65°$."
+  },
+  {
+    "id": "q-g7-angrel-6",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שני ישרים נחתכים ויוצרים זווית אחת של $50°$. מה גודל הזווית הקודקודית לה?",
+    "options": ["$50°$", "$130°$", "$180°$", "$100°$"],
+    "correct_index": 0,
+    "explanation": "זוויות קודקודיות שוות זו לזו."
+  },
+  {
+    "id": "q-g7-angrel-7",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "באותם שני ישרים, מה גודל הזווית הצמודה לזווית ה-$50°$?",
+    "options": ["$130°$", "$50°$", "$180°$", "$90°$"],
+    "correct_index": 0,
+    "explanation": "$180°-50°=130°$."
+  },
+  {
+    "id": "q-g7-angrel-8",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "זווית מחולקת על ידי קרן פנימית לשתי זוויות $35°$ ו-$25°$. מה גודל הזווית המקורית?",
+    "options": ["$60°$", "$10°$", "$70°$", "$50°$"],
+    "correct_index": 0,
+    "explanation": "$35°+25°=60°$."
+  },
+  {
+    "id": "q-g7-angrel-9",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם חוצה זווית יוצר שתי זוויות של $42°$ כל אחת, מה גודל הזווית המקורית?",
+    "options": ["$84°$", "$42°$", "$21°$", "$168°$"],
+    "correct_index": 0,
+    "explanation": "$42°\\times2=84°$."
+  },
+  {
+    "id": "q-g7-angrel-10",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "ארבע הזוויות שנוצרות מחיתוך שני ישרים מסתכמות תמיד ל:",
+    "options": ["$360°$", "$180°$", "$90°$", "$270°$"],
+    "correct_index": 0,
+    "explanation": "סביב נקודת החיתוך תמיד יש $360°$."
+  },
+  {
+    "id": "q-g7-trans-1",
+    "topic_id": "g7-transformations",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שתי צורות באותו גודל ובאותה צורה בדיוק נקראות:",
+    "options": ["חופפות", "דומות", "שוות שטח", "מקבילות"],
+    "correct_index": 0,
+    "explanation": "חפיפה פירושה זהות מלאה בגודל ובצורה."
+  },
+  {
+    "id": "q-g7-trans-2",
+    "topic_id": "g7-transformations",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הזזה משנה את:",
+    "options": ["המיקום בלבד, לא הגודל או הצורה", "הגודל", "הצורה", "הזוויות"],
+    "correct_index": 0,
+    "explanation": "הזזה מזיזה צורה בלי לשנות אותה."
+  },
+  {
+    "id": "q-g7-trans-3",
+    "topic_id": "g7-transformations",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שיקוף הוא טרנספורמציה של:",
+    "options": ["\"היפוך\" כמו במראה, ביחס לישר", "סיבוב סביב נקודה", "הגדלה", "הקטנה"],
+    "correct_index": 0,
+    "explanation": "שיקוף הופך את הצורה כמו במראה."
+  },
+  {
+    "id": "q-g7-trans-4",
+    "topic_id": "g7-transformations",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "סיבוב מזיז צורה על ידי:",
+    "options": ["סיבובה סביב נקודה קבועה בזווית מסוימת", "הזזתה בקו ישר", "היפוכה במראה", "הגדלתה"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של סיבוב."
+  },
+  {
+    "id": "q-g7-trans-5",
+    "topic_id": "g7-transformations",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אחרי הזזה, שיקוף או סיבוב, הצורה החדשה:",
+    "options": ["חופפת לצורה המקורית", "גדולה יותר מהמקורית", "קטנה יותר מהמקורית", "שונה בצורתה"],
+    "correct_index": 0,
+    "explanation": "טרנספורמציות אלו שומרות על גודל וצורה."
+  },
+  {
+    "id": "q-g7-trans-6",
+    "topic_id": "g7-transformations",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה משותף לשלוש הטרנספורמציות: הזזה, שיקוף וסיבוב?",
+    "options": ["אף אחת לא משנה את הגודל או הצורה", "כולן מגדילות את הצורה", "כולן הופכות את הצורה למראה", "כולן מסובבות ב-$90°$"],
+    "correct_index": 0,
+    "explanation": "כולן שומרות על חפיפה לצורה המקורית."
+  },
+  {
+    "id": "q-g7-trans-7",
+    "topic_id": "g7-transformations",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי לבדוק אם שתי צורות חופפות, בודקים:",
+    "options": ["שכל הצלעות והזוויות המתאימות שוות", "רק שהצבע זהה", "רק שהשטח דומה", "רק את ההיקף"],
+    "correct_index": 0,
+    "explanation": "חפיפה דורשת שוויון מלא של צלעות וזוויות מתאימות."
+  },
+  {
+    "id": "q-g7-trans-8",
+    "topic_id": "g7-transformations",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזו טרנספורמציה \"הופכת\" צורה כמו במראה?",
+    "options": ["שיקוף", "הזזה", "סיבוב", "הגדלה"],
+    "correct_index": 0,
+    "explanation": "שיקוף יוצר תמונת מראה של הצורה."
+  },
+  {
+    "id": "q-g7-trans-9",
+    "topic_id": "g7-transformations",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם מסובבים משולש ב-$360°$ סביב קודקוד שלו, הצורה הסופית:",
+    "options": ["חוזרת בדיוק למקומה המקורי", "הופכת גדולה יותר", "הופכת קטנה יותר", "נעלמת"],
+    "correct_index": 0,
+    "explanation": "סיבוב מלא של $360°$ מחזיר לאותו מקום."
+  },
+  {
+    "id": "q-g7-trans-10",
+    "topic_id": "g7-transformations",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש הוזז ואז שוקף. האם התוצאה הסופית חופפת למשולש המקורי?",
+    "options": ["כן, כל טרנספורמציה שומרת על חפיפה", "לא, שיקוף משנה את הגודל", "לא, הזזה כפולה משנה את הצורה", "רק אם הוזז לאותו מקום"],
+    "correct_index": 0,
+    "explanation": "כל שרשרת של טרנספורמציות שומרת על חפיפה."
+  },
+  {
+    "id": "q-g7-solids-1",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה פאות יש לתיבה?",
+    "options": ["$6$", "$4$", "$8$", "$12$"],
+    "correct_index": 0,
+    "explanation": "לתיבה יש בדיוק $6$ פאות."
+  },
+  {
+    "id": "q-g7-solids-2",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה קודקודים יש לתיבה?",
+    "options": ["$8$", "$6$", "$12$", "$4$"],
+    "correct_index": 0,
+    "explanation": "לתיבה יש $8$ קודקודים."
+  },
+  {
+    "id": "q-g7-solids-3",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה מקצועות יש לתיבה?",
+    "options": ["$12$", "$6$", "$8$", "$10$"],
+    "correct_index": 0,
+    "explanation": "לתיבה יש $12$ מקצועות."
+  },
+  {
+    "id": "q-g7-solids-4",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "קובייה שאורך מקצועה $4$ ס\"מ. מה נפחה?",
+    "options": ["$64$ סמ\"ק", "$16$ סמ\"ק", "$48$ סמ\"ק", "$12$ סמ\"ק"],
+    "correct_index": 0,
+    "explanation": "$4^3=64$."
+  },
+  {
+    "id": "q-g7-solids-5",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "קובייה שאורך מקצועה $3$ ס\"מ. מה שטח פניה?",
+    "options": ["$54$ סמ\"ר", "$9$ סמ\"ר", "$27$ סמ\"ר", "$18$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$6\\times3^2=6\\times9=54$."
+  },
+  {
+    "id": "q-g7-solids-6",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "תיבה שמידותיה $5,4,3$ ס\"מ. מה נפחה?",
+    "options": ["$60$ סמ\"ק", "$12$ סמ\"ק", "$47$ סמ\"ק", "$120$ סמ\"ק"],
+    "correct_index": 0,
+    "explanation": "$5\\times4\\times3=60$."
+  },
+  {
+    "id": "q-g7-solids-7",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "תיבה שמידותיה $5,4,3$ ס\"מ. מה שטח פניה?",
+    "options": ["$94$ סמ\"ר", "$60$ סמ\"ר", "$47$ סמ\"ר", "$120$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$2\\times(5\\times4+5\\times3+4\\times3)=2\\times47=94$."
+  },
+  {
+    "id": "q-g7-solids-8",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קובייה היא מקרה פרטי של:",
+    "options": ["תיבה", "מנסרה משולשת", "פירמידה", "גליל"],
+    "correct_index": 0,
+    "explanation": "קובייה היא תיבה שכל מקצועותיה שווים."
+  },
+  {
+    "id": "q-g7-solids-9",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נפח קובייה הוא $27$ סמ\"ק. מה אורך המקצוע?",
+    "options": ["$3$ ס\"מ", "$9$ ס\"מ", "$27$ ס\"מ", "$4.5$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$3^3=27$."
+  },
+  {
+    "id": "q-g7-solids-10",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בתיבה יש כמה זוגות פאות זהות?",
+    "options": ["$3$", "$6$", "$2$", "$1$"],
+    "correct_index": 0,
+    "explanation": "יש $3$ זוגות פאות מקבילות וזהות."
+  },
+  {
+    "id": "q-g7-pyth-1",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משפט פיתגורס עוסק במשולש:",
+    "options": ["ישר-זווית", "שווה-צלעות", "שווה-שוקיים", "קהה-זווית"],
+    "correct_index": 0,
+    "explanation": "המשפט תקף רק במשולש ישר-זווית."
+  },
+  {
+    "id": "q-g7-pyth-2",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "היתר הוא:",
+    "options": ["הצלע שמול הזווית הישרה, הארוכה ביותר", "כל צלע במשולש", "הצלע הקצרה ביותר", "גובה המשולש"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של יתר."
+  },
+  {
+    "id": "q-g7-pyth-3",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית, הניצבים הם $3$ ו-$4$. מהו היתר?",
+    "options": ["$5$", "$7$", "$25$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{3^2+4^2}=\\sqrt{25}=5$."
+  },
+  {
+    "id": "q-g7-pyth-4",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית, הניצבים הם $6$ ו-$8$. מהו היתר?",
+    "options": ["$10$", "$14$", "$48$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{36+64}=\\sqrt{100}=10$."
+  },
+  {
+    "id": "q-g7-pyth-5",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית, היתר הוא $13$ וניצב אחד הוא $5$. מהו הניצב השני?",
+    "options": ["$12$", "$18$", "$8$", "$169$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{169-25}=\\sqrt{144}=12$."
+  },
+  {
+    "id": "q-g7-pyth-6",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו המרחק בין הנקודות $(0,0)$ ו-$(3,4)$ במערכת צירים?",
+    "options": ["$5$", "$7$", "$12$", "$25$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{3^2+4^2}=5$."
+  },
+  {
+    "id": "q-g7-pyth-7",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו אורך אלכסון מלבן שאורכיו $6$ ו-$8$?",
+    "options": ["$10$", "$14$", "$48$", "$100$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{36+64}=10$."
+  },
+  {
+    "id": "q-g7-pyth-8",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו המרחק בין הנקודות $(1,1)$ ו-$(4,5)$?",
+    "options": ["$5$", "$7$", "$4$", "$25$"],
+    "correct_index": 0,
+    "explanation": "הפרשים $3$ ו-$4$: $\\sqrt{9+16}=5$."
+  },
+  {
+    "id": "q-g7-pyth-9",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש עם צלעות $6,8,10$. האם זהו משולש ישר-זווית?",
+    "options": ["כן, כי $6^2+8^2=10^2$", "לא", "אי אפשר לדעת", "רק אם הזוויות שוות"],
+    "correct_index": 0,
+    "explanation": "$36+64=100$, מקיים את משפט פיתגורס."
+  },
+  {
+    "id": "q-g7-pyth-10",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מסלול הליכה: קודם $9$ ק\"מ צפונה, ואז $12$ ק\"מ מזרחה. מה המרחק הישיר מנקודת ההתחלה?",
+    "options": ["$15$ ק\"מ", "$21$ ק\"מ", "$108$ ק\"מ", "$3$ ק\"מ"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{81+144}=\\sqrt{225}=15$."
+  },
+  {
+    "id": "q-g7-prism-1",
+    "topic_id": "g7-prism",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה בסיסים יש למנסרה משולשת?",
+    "options": ["$2$", "$1$", "$3$", "$5$"],
+    "correct_index": 0,
+    "explanation": "יש שני בסיסים משולשים חופפים."
+  },
+  {
+    "id": "q-g7-prism-2",
+    "topic_id": "g7-prism",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "צורת הבסיסים במנסרה משולשת:",
+    "options": ["משולשים חופפים", "מלבנים", "ריבועים", "עיגולים"],
+    "correct_index": 0,
+    "explanation": "הבסיסים הם שני משולשים זהים."
+  },
+  {
+    "id": "q-g7-prism-3",
+    "topic_id": "g7-prism",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה פאות צדדיות יש למנסרה משולשת?",
+    "options": ["$3$", "$2$", "$5$", "$4$"],
+    "correct_index": 0,
+    "explanation": "יש $3$ פאות צדדיות מלבניות."
+  },
+  {
+    "id": "q-g7-prism-4",
+    "topic_id": "g7-prism",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "צורת הפאות הצדדיות במנסרה משולשת:",
+    "options": ["מלבנים", "משולשים", "ריבועים", "טרפזים"],
+    "correct_index": 0,
+    "explanation": "הפאות הצדדיות מחברות בין הבסיסים ולכן מלבניות."
+  },
+  {
+    "id": "q-g7-prism-5",
+    "topic_id": "g7-prism",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מנסרה משולשת ששטח בסיסה $10$ סמ\"ר וגובהה $6$ ס\"מ. מה נפחה?",
+    "options": ["$60$ סמ\"ק", "$16$ סמ\"ק", "$30$ סמ\"ק", "$600$ סמ\"ק"],
+    "correct_index": 0,
+    "explanation": "$10\\times6=60$."
+  },
+  {
+    "id": "q-g7-prism-6",
+    "topic_id": "g7-prism",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מנסרה משולשת ששטח בסיסה $12$ סמ\"ר וגובהה $5$ ס\"מ. מה נפחה?",
+    "options": ["$60$ סמ\"ק", "$17$ סמ\"ק", "$120$ סמ\"ק", "$30$ סמ\"ק"],
+    "correct_index": 0,
+    "explanation": "$12\\times5=60$."
+  },
+  {
+    "id": "q-g7-prism-7",
+    "topic_id": "g7-prism",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו שטח הפנים הכולל של מנסרה משולשת?",
+    "options": ["סכום שטחי $5$ הפאות ($2$ משולשים $+3$ מלבנים)", "רק שטח הבסיסים", "רק שטח הפאות הצדדיות", "היקף כפול גובה"],
+    "correct_index": 0,
+    "explanation": "שטח הפנים הוא סכום כל $5$ הפאות."
+  },
+  {
+    "id": "q-g7-prism-8",
+    "topic_id": "g7-prism",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נפח מנסרה (כללי) מחושב לפי:",
+    "options": ["שטח הבסיס כפול הגובה", "היקף הבסיס כפול הגובה", "אורך כפול רוחב", "שטח הבסיס בלבד"],
+    "correct_index": 0,
+    "explanation": "זהו הכלל הכללי לנפח מנסרה."
+  },
+  {
+    "id": "q-g7-prism-9",
+    "topic_id": "g7-prism",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מנסרה משולשת עם נפח $84$ סמ\"ק וגובה $7$ ס\"מ. מה שטח הבסיס?",
+    "options": ["$12$ סמ\"ר", "$91$ סמ\"ר", "$77$ סמ\"ר", "$588$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$84:7=12$."
+  },
+  {
+    "id": "q-g7-prism-10",
+    "topic_id": "g7-prism",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו ההבדל העיקרי בין תיבה למנסרה משולשת?",
+    "options": ["בתיבה כל הפאות מלבניות; במנסרה משולשת הבסיסים הם משולשים", "אין הבדל", "למנסרה יש יותר קודקודים", "לתיבה אין נפח"],
+    "correct_index": 0,
+    "explanation": "ההבדל המרכזי הוא צורת הבסיסים."
+  },
+  {
+    "id": "q-g7-combdist-1",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $3x+5x$?",
+    "options": ["$8x$", "$15x$", "$8x^2$", "$3x^5$"],
+    "correct_index": 0,
+    "explanation": "מכנסים איברים דומים: $3+5=8$."
+  },
+  {
+    "id": "q-g7-combdist-2",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם $3x$ ו-$3x^2$ הם איברים דומים?",
+    "options": ["לא, החזקות שונות", "כן", "כן, רק אם $x=1$", "תמיד"],
+    "correct_index": 0,
+    "explanation": "איברים דומים חייבים להיות באותה חזקה בדיוק."
+  },
+  {
+    "id": "q-g7-combdist-3",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $-(2x-3)$?",
+    "options": ["$-2x+3$", "$-2x-3$", "$2x-3$", "$2x+3$"],
+    "correct_index": 0,
+    "explanation": "מינוס לפני סוגריים הופך את כל הסימנים בפנים."
+  },
+  {
+    "id": "q-g7-combdist-4",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $3(x+4)$ לפי חוק הפילוג?",
+    "options": ["$3x+12$", "$3x+4$", "$x+12$", "$3x+7$"],
+    "correct_index": 0,
+    "explanation": "$3\\times x+3\\times4=3x+12$."
+  },
+  {
+    "id": "q-g7-combdist-5",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $5(2x-1)$?",
+    "options": ["$10x-5$", "$10x-1$", "$2x-5$", "$7x-5$"],
+    "correct_index": 0,
+    "explanation": "$5\\times2x-5\\times1=10x-5$."
+  },
+  {
+    "id": "q-g7-combdist-6",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פשטו: $2(x+3)+4x$",
+    "options": ["$6x+6$", "$6x+3$", "$2x+7$", "$8x+3$"],
+    "correct_index": 0,
+    "explanation": "$2x+6+4x=6x+6$."
+  },
+  {
+    "id": "q-g7-combdist-7",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פשטו: $7x-2x+5$",
+    "options": ["$5x+5$", "$5x$", "$9x+5$", "$7x+3$"],
+    "correct_index": 0,
+    "explanation": "$7x-2x=5x$, ועוד $5$."
+  },
+  {
+    "id": "q-g7-combdist-8",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פשטו: $-3(x-2)+x$",
+    "options": ["$-2x+6$", "$-2x-6$", "$-4x+6$", "$4x+6$"],
+    "correct_index": 0,
+    "explanation": "$-3x+6+x=-2x+6$."
+  },
+  {
+    "id": "q-g7-combdist-9",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פשטו: $4(x+1)-2(x-3)$",
+    "options": ["$2x+10$", "$2x-2$", "$6x-2$", "$2x+4$"],
+    "correct_index": 0,
+    "explanation": "$4x+4-2x+6=2x+10$."
+  },
+  {
+    "id": "q-g7-combdist-10",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פשטו: $2x+3(x-1)-x$",
+    "options": ["$4x-3$", "$4x+3$", "$2x-3$", "$6x-3$"],
+    "correct_index": 0,
+    "explanation": "$2x+3x-3-x=4x-3$."
+  },
+  {
+    "id": "q-g7-identity-1",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שני ביטויים הנקראים \"זהים\" הם ביטויים ש:",
+    "options": ["שווים לכל ערך של המשתנה", "שווים רק לערך אחד", "תמיד שונים", "אין קשר ביניהם"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של זהות אלגברית."
+  },
+  {
+    "id": "q-g7-identity-2",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם $2(x+3)$ ו-$2x+6$ זהים?",
+    "options": ["כן", "לא", "רק אם $x=0$", "רק אם $x=1$"],
+    "correct_index": 0,
+    "explanation": "פתיחת הסוגריים נותנת בדיוק $2x+6$."
+  },
+  {
+    "id": "q-g7-identity-3",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם $3(x+2)$ ו-$3x+2$ זהים?",
+    "options": ["לא", "כן", "רק לפעמים", "תמיד"],
+    "correct_index": 0,
+    "explanation": "$3(x+2)=3x+6\\neq3x+2$."
+  },
+  {
+    "id": "q-g7-identity-4",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כדי לבדוק אם שני ביטויים זהים, אפשר:",
+    "options": ["לפשט את שניהם ולהשוות", "להציב ערך אחד בלבד", "לנחש", "לבדוק רק את הסימנים"],
+    "correct_index": 0,
+    "explanation": "פישוט מלא הוא הדרך הבטוחה לבדוק זהות."
+  },
+  {
+    "id": "q-g7-identity-5",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם $4x+8$ ו-$4(x+2)$ זהים?",
+    "options": ["כן", "לא", "רק אם $x$ שלילי", "רק אם $x=2$"],
+    "correct_index": 0,
+    "explanation": "$4(x+2)=4x+8$."
+  },
+  {
+    "id": "q-g7-identity-6",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מדוע הצבת ערך אחד בלבד אינה מספיקה כדי להוכיח זהות?",
+    "options": ["כי ייתכן ששני ביטויים שווים רק במקרה עבור אותו ערך", "כי זה תמיד מספיק", "כי משתנים לא ניתנים להצבה", "כי אין צורך לבדוק זהות"],
+    "correct_index": 0,
+    "explanation": "שוויון בערך אחד יכול להיות מקרי בלבד."
+  },
+  {
+    "id": "q-g7-identity-7",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם $x+x+x$ ו-$3x$ זהים?",
+    "options": ["כן", "לא", "רק אם $x=3$", "רק אם $x=1$"],
+    "correct_index": 0,
+    "explanation": "$x+x+x=3x$ לכל $x$."
+  },
+  {
+    "id": "q-g7-identity-8",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "האם $2x-3(x-1)$ ו-$-x+3$ זהים?",
+    "options": ["כן", "לא", "רק אם $x=0$", "רק אם $x=3$"],
+    "correct_index": 0,
+    "explanation": "$2x-3x+3=-x+3$, זהים."
+  },
+  {
+    "id": "q-g7-identity-9",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "האם $5(x+1)-5$ ו-$5x$ זהים?",
+    "options": ["כן", "לא", "רק אם $x=1$", "רק אם $x=5$"],
+    "correct_index": 0,
+    "explanation": "$5x+5-5=5x$."
+  },
+  {
+    "id": "q-g7-identity-10",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מצאו ערך $x$ שעבורו $2x+1$ ו-$x+4$ שווים (שימו לב — זה לא הופך אותם לזהים):",
+    "options": ["$x=3$", "$x=1$", "$x=0$", "אין ערך כזה"],
+    "correct_index": 0,
+    "explanation": "$2x+1=x+4 \\Rightarrow x=3$ — שוויון חד-פעמי, לא זהות."
+  },
+  {
+    "id": "q-g7-eqapp-1",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בשאלה מילולית, השלב הראשון בבניית משוואה הוא:",
+    "options": ["להגדיר מה המשתנה מייצג", "לפתור מיד", "לנחש תשובה", "לצייר גרף"],
+    "correct_index": 0,
+    "explanation": "הגדרת המשתנה היא תמיד הצעד הראשון."
+  },
+  {
+    "id": "q-g7-eqapp-2",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "סכום שני מספרים עוקבים הוא $25$. מה המספר הקטן? (הגדירו $x$ כמספר הקטן)",
+    "options": ["$12$", "$13$", "$11$", "$25$"],
+    "correct_index": 0,
+    "explanation": "$x+(x+1)=25 \\Rightarrow 2x=24 \\Rightarrow x=12$."
+  },
+  {
+    "id": "q-g7-eqapp-3",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "גיל דנה גדול פי $3$ מגיל אחיה, וסכום גיליהם $24$. מה גיל האח?",
+    "options": ["$6$", "$18$", "$8$", "$12$"],
+    "correct_index": 0,
+    "explanation": "$x+3x=24 \\Rightarrow x=6$."
+  },
+  {
+    "id": "q-g7-eqapp-4",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מחיר חולצה ומכנסיים יחד הוא $150$ ש\"ח. המכנסיים יקרים ב-$30$ ש\"ח מהחולצה. מה מחיר החולצה?",
+    "options": ["$60$", "$90$", "$75$", "$120$"],
+    "correct_index": 0,
+    "explanation": "$x+(x+30)=150 \\Rightarrow x=60$."
+  },
+  {
+    "id": "q-g7-eqapp-5",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מלבן שהיקפו $30$ ס\"מ, ואורכו גדול פי $2$ מרוחבו. מה הרוחב?",
+    "options": ["$5$ ס\"מ", "$10$ ס\"מ", "$15$ ס\"מ", "$7.5$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$2(x+2x)=30 \\Rightarrow 6x=30 \\Rightarrow x=5$."
+  },
+  {
+    "id": "q-g7-eqapp-6",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מכונית נוסעת במהירות $80$ קמ\"ש. כמה זמן ייקח לה לנסוע $240$ ק\"מ?",
+    "options": ["$3$ שעות", "$2$ שעות", "$4$ שעות", "$160$ שעות"],
+    "correct_index": 0,
+    "explanation": "$240:80=3$."
+  },
+  {
+    "id": "q-g7-eqapp-7",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לתומר יש $5$ ש\"ח יותר מלרון. יחד יש להם $35$ ש\"ח. כמה יש לרון?",
+    "options": ["$15$", "$20$", "$10$", "$25$"],
+    "correct_index": 0,
+    "explanation": "$x+(x+5)=35 \\Rightarrow x=15$."
+  },
+  {
+    "id": "q-g7-eqapp-8",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שלושה מספרים עוקבים שסכומם $33$. מה המספר האמצעי?",
+    "options": ["$11$", "$10$", "$12$", "$33$"],
+    "correct_index": 0,
+    "explanation": "$(x-1)+x+(x+1)=33 \\Rightarrow 3x=33 \\Rightarrow x=11$."
+  },
+  {
+    "id": "q-g7-eqapp-9",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהירות הליכה $5$ קמ\"ש. אחרי כמה זמן (בשעות) ייעבור הולך $12.5$ ק\"מ?",
+    "options": ["$2.5$", "$2$", "$3$", "$5$"],
+    "correct_index": 0,
+    "explanation": "$12.5:5=2.5$."
+  },
+  {
+    "id": "q-g7-eqapp-10",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שני רוכבי אופניים יוצאים זה לקראת זה ממרחק $60$ ק\"מ, במהירויות $15$ ו-$25$ קמ\"ש. אחרי כמה זמן ייפגשו?",
+    "options": ["$1.5$ שעות", "$2$ שעות", "$1$ שעה", "$4$ שעות"],
+    "correct_index": 0,
+    "explanation": "$60:(15+25)=1.5$."
+  },
+  {
+    "id": "q-g7-graph-1",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "ברביע הראשון, סימני הקואורדינטות הם:",
+    "options": ["$x>0$ וגם $y>0$", "$x<0$ וגם $y<0$", "$x>0$ וגם $y<0$", "$x<0$ וגם $y>0$"],
+    "correct_index": 0,
+    "explanation": "ברביע I שני הערכים חיוביים."
+  },
+  {
+    "id": "q-g7-graph-2",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בנקודה $(3,5)$, מהו ערך $x$?",
+    "options": ["$3$", "$5$", "$8$", "$15$"],
+    "correct_index": 0,
+    "explanation": "הקואורדינטה הראשונה היא $x$."
+  },
+  {
+    "id": "q-g7-graph-3",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בנקודה $(3,5)$, מהו ערך $y$?",
+    "options": ["$5$", "$3$", "$8$", "$15$"],
+    "correct_index": 0,
+    "explanation": "הקואורדינטה השנייה היא $y$."
+  },
+  {
+    "id": "q-g7-graph-4",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם הנקודה $(2,7)$ נמצאת ברביע הראשון?",
+    "options": ["כן, שני הערכים חיוביים", "לא", "רק $x$ חיובי", "רק $y$ חיובי"],
+    "correct_index": 0,
+    "explanation": "$2>0$ וגם $7>0$."
+  },
+  {
+    "id": "q-g7-graph-5",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מתוך טבלת ערכים $x=1,y=3$ ו-$x=2,y=6$, מהי הנקודה המתאימה לשורה השנייה?",
+    "options": ["$(2,6)$", "$(6,2)$", "$(1,3)$", "$(3,1)$"],
+    "correct_index": 0,
+    "explanation": "קודם $x$ ואז $y$: $(2,6)$."
+  },
+  {
+    "id": "q-g7-graph-6",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בגרף המתאר מרחק לאורך זמן, ציר $x$ בדרך כלל מייצג:",
+    "options": ["זמן", "מרחק", "מהירות", "אין כלל קבוע"],
+    "correct_index": 0,
+    "explanation": "בדרך כלל הזמן הוא המשתנה הבלתי-תלוי, על ציר $x$."
+  },
+  {
+    "id": "q-g7-graph-7",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי למצוא $y$ עבור $x=4$ בגרף, יש:",
+    "options": ["לעלות אנכית מ-$x=4$ עד הגרף, ואז לקרוא אופקית את $y$", "לקרוא ישירות מציר $y$", "לנחש", "לחשב ממוצע"],
+    "correct_index": 0,
+    "explanation": "זו הדרך הנכונה לקרוא ערך מגרף."
+  },
+  {
+    "id": "q-g7-graph-8",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "טבלה וגרף המציגים את אותו מידע:",
+    "options": ["הם שני ייצוגים שקולים של אותו קשר", "תמיד סותרים זה את זה", "אינם קשורים", "חייבים להיות זהים בצורה"],
+    "correct_index": 0,
+    "explanation": "טבלה וגרף הם שני ייצוגים של אותה פונקציה."
+  },
+  {
+    "id": "q-g7-graph-9",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נקודה $(0,5)$ נמצאת:",
+    "options": ["על ציר $y$ (לא ברביע כלשהו)", "ברביע הראשון", "ברביע השני", "ברביע הרביעי"],
+    "correct_index": 0,
+    "explanation": "כאשר $x=0$ הנקודה נמצאת על ציר $y$."
+  },
+  {
+    "id": "q-g7-graph-10",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם כל נקודות הגרף מקיימות $y=2x$, מהי הנקודה עבור $x=5$?",
+    "options": ["$(5,10)$", "$(10,5)$", "$(5,5)$", "$(2,5)$"],
+    "correct_index": 0,
+    "explanation": "$y=2\\times5=10$."
+  },
+  {
+    "id": "q-g7-datafreq-1",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "טבלת שכיחויות מציגה:",
+    "options": ["כמה פעמים כל ערך מופיע בנתונים", "רק את הערך המקסימלי", "רק ממוצע", "זמן בלבד"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של טבלת שכיחויות."
+  },
+  {
+    "id": "q-g7-datafreq-2",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזו שיטת איסוף מידע מבוססת על שאלות לאנשים?",
+    "options": ["שאלון", "תצפית", "מדידה", "ניחוש"],
+    "correct_index": 0,
+    "explanation": "שאלון אוסף מידע ישירות מהנשאלים."
+  },
+  {
+    "id": "q-g7-datafreq-3",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בטבלה: אדום-$6$, כחול-$9$, ירוק-$5$. מהי השכיחות הגבוהה ביותר?",
+    "options": ["$9$ (כחול)", "$6$ (אדום)", "$5$ (ירוק)", "$20$"],
+    "correct_index": 0,
+    "explanation": "$9$ הוא הערך הגבוה ביותר."
+  },
+  {
+    "id": "q-g7-datafreq-4",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה משתתפים בסך הכול בסקר עם שכיחויות $6,9,5$?",
+    "options": ["$20$", "$9$", "$15$", "$11$"],
+    "correct_index": 0,
+    "explanation": "$6+9+5=20$."
+  },
+  {
+    "id": "q-g7-datafreq-5",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה ייצוג הכי מתאים להשוואה בין קטגוריות?",
+    "options": ["דיאגרמת עמודות", "דיאגרמת עוגה בלבד", "טבלה בלבד", "פיקטוגרם בלבד"],
+    "correct_index": 0,
+    "explanation": "גובה העמודות מאפשר השוואה חזותית מהירה."
+  },
+  {
+    "id": "q-g7-datafreq-6",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מדוע ציר שלא מתחיל ב-$0$ עלול להטעות?",
+    "options": ["הוא מגזים בגודל ההבדלים בין העמודות", "הוא תמיד מדויק יותר", "הוא לא משפיע כלל", "הוא רק משנה צבעים"],
+    "correct_index": 0,
+    "explanation": "ציר חתוך גורם להבדלים להיראות גדולים מכפי שהם."
+  },
+  {
+    "id": "q-g7-datafreq-7",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "דיאגרמת עוגה מציגה בעיקר:",
+    "options": ["חלוקה יחסית של שלם", "שכיחות מוחלטת", "זמן", "מהירות"],
+    "correct_index": 0,
+    "explanation": "כל פרוסה מייצגת חלק יחסי מהשלם."
+  },
+  {
+    "id": "q-g7-datafreq-8",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו החיסרון של פיקטוגרם?",
+    "options": ["פחות מדויק, בעיקר עם חצאי סמלים", "תמיד שגוי", "אי אפשר לקרוא אותו", "מדויק מדי"],
+    "correct_index": 0,
+    "explanation": "פיקטוגרם מבוסס על הערכה חזותית."
+  },
+  {
+    "id": "q-g7-datafreq-9",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בטבלה חסר נתון: אדום-$?$, כחול-$12$, ירוק-$8$, סה\"כ-$30$. כמה אדום?",
+    "options": ["$10$", "$12$", "$8$", "$30$"],
+    "correct_index": 0,
+    "explanation": "$30-12-8=10$."
+  },
+  {
+    "id": "q-g7-datafreq-10",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מדוע חשוב לבדוק את מקור הנתונים לפני הסקת מסקנות?",
+    "options": ["כי מקור לא אמין עלול לתת נתונים מוטים", "זה אף פעם לא משנה", "נתונים תמיד אמינים", "רק הגודל חשוב"],
+    "correct_index": 0,
+    "explanation": "מקור לא אמין עלול להטעות את המסקנות."
+  },
+  {
+    "id": "q-g7-relfreq-1",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שכיחות יחסית מחושבת על ידי:",
+    "options": ["חלוקת שכיחות הערך בסך כל הנתונים", "הכפלת שכיחות הערך בסך הנתונים", "חיסור שכיחויות", "ממוצע השכיחויות"],
+    "correct_index": 0,
+    "explanation": "זו נוסחת השכיחות היחסית."
+  },
+  {
+    "id": "q-g7-relfreq-2",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם שכיחות ערך היא $5$ מתוך $20$ נתונים, מהי השכיחות היחסית?",
+    "options": ["$0.25$", "$5$", "$20$", "$4$"],
+    "correct_index": 0,
+    "explanation": "$5:20=0.25$."
+  },
+  {
+    "id": "q-g7-relfreq-3",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שכיחות יחסית $0.3$ שווה לכמה אחוזים?",
+    "options": ["$30\\%$", "$3\\%$", "$0.3\\%$", "$300\\%$"],
+    "correct_index": 0,
+    "explanation": "$0.3=30\\%$."
+  },
+  {
+    "id": "q-g7-relfreq-4",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "סכום כל השכיחויות היחסיות בקבוצת נתונים הוא תמיד:",
+    "options": ["$1$ (או $100\\%$)", "$0$", "תלוי בנתונים", "$10$"],
+    "correct_index": 0,
+    "explanation": "יחד כל השכיחויות היחסיות מהוות את כל הנתונים."
+  },
+  {
+    "id": "q-g7-relfreq-5",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם $12$ מתוך $40$ תלמידים בחרו בפעילות מסוימת, מהי השכיחות היחסית כשבר מצומצם?",
+    "options": ["$\\frac{3}{10}$", "$\\frac{12}{40}$", "$\\frac{1}{3}$", "$\\frac{4}{10}$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{12}{40}=\\frac{3}{10}$."
+  },
+  {
+    "id": "q-g7-relfreq-6",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שכיחות יחסית של קטגוריה א' היא $40\\%$ מתוך $50$ נתונים. מה השכיחות (המספר) של קטגוריה א'?",
+    "options": ["$20$", "$40$", "$50$", "$10$"],
+    "correct_index": 0,
+    "explanation": "$50\\times0.4=20$."
+  },
+  {
+    "id": "q-g7-relfreq-7",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בקבוצת נתונים עם $3$ קטגוריות, שכיחויות יחסיות של שתיים הן $0.3$ ו-$0.45$. מה שכיחות הקטגוריה השלישית?",
+    "options": ["$0.25$", "$0.75$", "$0.15$", "$0.55$"],
+    "correct_index": 0,
+    "explanation": "$1-0.3-0.45=0.25$."
+  },
+  {
+    "id": "q-g7-relfreq-8",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שכיחות יחסית מבוטאת:",
+    "options": ["כשבר, שבר עשרוני או אחוז — כולם שקולים", "רק כמספר שלם", "רק כאחוז", "רק כשבר"],
+    "correct_index": 0,
+    "explanation": "כל הביטויים האלה מתארים את אותו יחס."
+  },
+  {
+    "id": "q-g7-relfreq-9",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם שכיחות יחסית של תוצאה מסוימת היא $\\frac{1}{4}$ מתוך $80$ ניסויים, מה השכיחות (המספר) שלה?",
+    "options": ["$20$", "$4$", "$80$", "$40$"],
+    "correct_index": 0,
+    "explanation": "$80:4=20$."
+  },
+  {
+    "id": "q-g7-relfreq-10",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מדוע שכיחות יחסית שימושית יותר משכיחות מוחלטת בהשוואה בין קבוצות בגדלים שונים?",
+    "options": ["היא מנרמלת לפי גודל הקבוצה, כך ההשוואה הוגנת", "היא תמיד גדולה יותר", "היא לא תלויה בנתונים", "אין הבדל ביניהן"],
+    "correct_index": 0,
+    "explanation": "שכיחות יחסית מאפשרת השוואה הוגנת בין קבוצות שונות בגודלן."
+  },
+  {
+    "id": "q-g7-prob-1",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הסתברות תמיד נמצאת בין:",
+    "options": ["$0$ ל-$1$", "$-1$ ל-$1$", "$1$ ל-$100$", "$0$ ל-$10$"],
+    "correct_index": 0,
+    "explanation": "הסתברות מבוטאת תמיד כמספר בין $0$ ל-$1$."
+  },
+  {
+    "id": "q-g7-prob-2",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הסתברות $0$ פירושה שהמאורע:",
+    "options": ["בלתי אפשרי", "ודאי", "סביר מאוד", "נדיר אך אפשרי"],
+    "correct_index": 0,
+    "explanation": "הסתברות $0$ אומרת שהמאורע לא יכול לקרות."
+  },
+  {
+    "id": "q-g7-prob-3",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם הטלנו מטבע $50$ פעמים וקיבלנו \"עץ\" $27$ פעמים, מהי השכיחות היחסית של \"עץ\"?",
+    "options": ["$0.54$", "$0.27$", "$27$", "$0.5$"],
+    "correct_index": 0,
+    "explanation": "$27:50=0.54$."
+  },
+  {
+    "id": "q-g7-prob-4",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ככל שחוזרים על ניסוי יותר פעמים, השכיחות היחסית הנצפית:",
+    "options": ["מתקרבת יותר להסתברות האמיתית", "מתרחקת מההסתברות האמיתית", "נשארת קבועה תמיד", "הופכת ל-$1$"],
+    "correct_index": 0,
+    "explanation": "יותר ניסויים נותנים הערכה מדויקת יותר."
+  },
+  {
+    "id": "q-g7-prob-5",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הסתברות $1$ פירושה שהמאורע:",
+    "options": ["ודאי שיקרה", "בלתי אפשרי", "נדיר", "לא ניתן לחיזוי"],
+    "correct_index": 0,
+    "explanation": "הסתברות $1$ אומרת שהמאורע יקרה בוודאות."
+  },
+  {
+    "id": "q-g7-prob-6",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בקובייה רגילה, מה ההסתברות המוערכת לקבל \"$6$\" (על סמך שכיחות יחסית תיאורטית)?",
+    "options": ["$\\frac{1}{6}$", "$\\frac{1}{2}$", "$1$", "$6$"],
+    "correct_index": 0,
+    "explanation": "יש $6$ תוצאות אפשריות שוות-סבירות."
+  },
+  {
+    "id": "q-g7-prob-7",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם בניסוי חוזר קיבלנו תוצאה מסוימת ב-$80$ מתוך $200$ פעמים, מהי ההסתברות המוערכת שלה?",
+    "options": ["$0.4$", "$0.8$", "$80$", "$0.2$"],
+    "correct_index": 0,
+    "explanation": "$80:200=0.4$."
+  },
+  {
+    "id": "q-g7-prob-8",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מדוע כדאי לחזור על ניסוי הסתברותי הרבה פעמים לפני שמעריכים הסתברות?",
+    "options": ["כדי שהשכיחות היחסית תהיה אמינה יותר", "זה לא משנה כלל", "כדי לקבל תמיד $100\\%$", "כדי לקבל תמיד $0\\%$"],
+    "correct_index": 0,
+    "explanation": "יותר חזרות נותנות אומדן אמין יותר."
+  },
+  {
+    "id": "q-g7-prob-9",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בכיס יש כדורים אדומים וכחולים. בהוצאה חוזרת (עם החזרה) של $100$ כדורים, יצאו $65$ אדומים. מהי ההסתברות המוערכת לכדור אדום?",
+    "options": ["$0.65$", "$0.35$", "$65$", "$100$"],
+    "correct_index": 0,
+    "explanation": "$65:100=0.65$."
+  },
+  {
+    "id": "q-g7-prob-10",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם הסתברות מאורע מסוים היא $0.2$, מה ההסתברות שהוא לא יקרה?",
+    "options": ["$0.8$", "$0.2$", "$1.2$", "$0$"],
+    "correct_index": 0,
+    "explanation": "$1-0.2=0.8$."
   }
 ];
 
