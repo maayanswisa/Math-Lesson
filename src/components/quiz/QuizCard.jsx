@@ -89,6 +89,62 @@ function McqOptions({ options = [], selectedIndex, onSelect, disabled }) {
   );
 }
 
+function ExplanationButton({ onClick }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className="mb-3 inline-flex w-fit items-center gap-1.5 rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-[var(--color-teal)] ring-1 ring-[var(--color-teal)]/30 transition hover:bg-[var(--color-teal)]/5"
+    >
+      <span aria-hidden="true">📘</span> צפייה בהסבר
+    </button>
+  );
+}
+
+function ExplanationModal({ explanation, keyFormulas, onClose }) {
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4"
+      role="dialog"
+      aria-modal="true"
+      onClick={onClose}
+    >
+      <motion.div
+        initial={{ opacity: 0, scale: 0.96, y: 8 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{ duration: 0.18 }}
+        onClick={(e) => e.stopPropagation()}
+        className="relative max-h-[85vh] w-full max-w-lg overflow-y-auto rounded-2xl bg-white p-6 shadow-xl"
+        dir="rtl"
+      >
+        <button
+          type="button"
+          onClick={onClose}
+          aria-label="סגירה"
+          className="absolute left-4 top-4 flex h-8 w-8 items-center justify-center rounded-full text-lg text-[var(--color-slate)] transition hover:bg-[var(--color-paper)]"
+        >
+          ✕
+        </button>
+        <h3 className="mb-4 pl-8 text-lg font-semibold text-[var(--color-ink)]">הסבר הנושא</h3>
+        {explanation && <MathRenderer className="text-[var(--color-slate)]">{explanation}</MathRenderer>}
+        {keyFormulas && keyFormulas.length > 0 && (
+          <div className="mt-4 rounded-xl bg-[var(--color-paper)] p-4 ring-1 ring-black/5">
+            <p className="mb-2 text-sm font-semibold text-[var(--color-teal)]">נוסחאות וטיפים לזכור</p>
+            <ul className="space-y-1.5 text-sm text-[var(--color-ink)]">
+              {keyFormulas.map((item, idx) => (
+                <li key={idx} className="flex items-start gap-2">
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-teal)]" />
+                  <MathRenderer className="min-w-0 flex-1">{item}</MathRenderer>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </motion.div>
+    </div>
+  );
+}
+
 function QuestionBody({ question, mcqIndex, onMcqSelect, onInteractiveReady, locked }) {
   const type = question.type || 'mcq';
   if (type === 'fractionPizza') {
@@ -142,7 +198,9 @@ export default function QuizCard({
   const finishedRef = useRef(false);
   const [hintsRevealed, setHintsRevealed] = useState(0);
   const [showPromo, setShowPromo] = useState(false);
+  const [showExplanation, setShowExplanation] = useState(false);
   const [toolOrder, setToolOrder] = useState(loadToolOrder);
+  const hasTopicExplanation = Boolean(topicExplanation) || Boolean(topicKeyFormulas && topicKeyFormulas.length > 0);
 
   useEffect(() => {
     localStorage.setItem(TOOL_ORDER_KEY, JSON.stringify(toolOrder));
@@ -451,7 +509,8 @@ export default function QuizCard({
       {(phase === 'quiz' || phase === 'feedback') && (
         <>
           {/* מובייל: כלים בעמודה אחת, ברוחב מלא; אם יש מחשבון — אפשר לגרור ולסדר מחדש */}
-          <div className="mt-4 lg:hidden">
+          <div className="mt-4 flex flex-col lg:hidden">
+            {hasTopicExplanation && <ExplanationButton onClick={() => setShowExplanation(true)} />}
             {showCalculator ? (
               <Reorder.Group axis="y" values={toolOrder} onReorder={setToolOrder} as="div" className="space-y-3">
                 {toolOrder.map((key) =>
@@ -473,12 +532,21 @@ export default function QuizCard({
 
           {/* מסך רחב: הכלים בסרגל צד קבוע, ליד השאלה */}
           <div className="hidden gap-3 lg:sticky lg:top-4 lg:flex lg:w-72 lg:shrink-0 lg:flex-col">
+            {hasTopicExplanation && <ExplanationButton onClick={() => setShowExplanation(true)} />}
             <div className="lg:min-h-0 lg:flex-1">
               <Scratchpad />
             </div>
             {showCalculator && <SciCalculator />}
           </div>
         </>
+      )}
+
+      {showExplanation && (
+        <ExplanationModal
+          explanation={topicExplanation}
+          keyFormulas={topicKeyFormulas}
+          onClose={() => setShowExplanation(false)}
+        />
       )}
     </div>
   );

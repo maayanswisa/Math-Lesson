@@ -30,7 +30,7 @@ export default function UnitsPage() {
             כיתה {label} — בחרו רמה
           </h1>
           <p className="mt-2 text-[var(--color-slate)]">
-            לפי תוכנית משרד החינוך: רמה רגילה או רמה מצומצמת
+            לפי תוכנית משרד החינוך: תלמידים שמיועדים ל-4/5 יח״ל או תלמידים שמיועדים ל-3 יח״ל
           </p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">

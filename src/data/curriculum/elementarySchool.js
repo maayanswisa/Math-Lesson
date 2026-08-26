@@ -137,7 +137,7 @@ export const ELEMENTARY_TOPICS = [
     "track": null,
     "cluster": "מספרים ופעולות",
     "title": "שברים — חצי ורבע",
-    "description": "הכרת השברים $\\frac{1}{2}$ ו-$\\frac{1}{4}$ כחלק מהשלם",
+    "description": "הכרת השברים חצי ורבע כחלק מהשלם",
     "sortOrder": 4,
     "explanation": "כשמחלקים שלם ל-<span class='hl-teal'>2 חלקים שווים</span>, כל חלק נקרא <span class='hl-teal'>חצי</span> וכותבים $\\frac{1}{2}$. כשמחלקים ל-<span class='hl-teal'>4 חלקים שווים</span>, כל חלק נקרא <span class='hl-teal'>רבע</span> וכותבים $\\frac{1}{4}$.\n\n<div class='diagram-box'>\n<svg viewBox='0 0 260 130' xmlns='http://www.w3.org/2000/svg'>\n<circle cx='65' cy='60' r='50' fill='none' stroke='#0d6e6e' stroke-width='3'/>\n<line x1='65' y1='10' x2='65' y2='110' stroke='#0d6e6e' stroke-width='3'/>\n<path d='M 65 60 L 65 10 A 50 50 0 0 1 65 110 Z' fill='#0d6e6e' opacity='0.25'/>\n<text x='65' y='118' text-anchor='middle' font-size='13' fill='#1a2b3c'>חצי — 1/2</text>\n<circle cx='195' cy='60' r='50' fill='none' stroke='#c45c48' stroke-width='3'/>\n<line x1='145' y1='60' x2='245' y2='60' stroke='#c45c48' stroke-width='3'/>\n<line x1='195' y1='10' x2='195' y2='110' stroke='#c45c48' stroke-width='3'/>\n<path d='M 195 60 L 195 10 A 50 50 0 0 1 245 60 Z' fill='#c45c48' opacity='0.25'/>\n<text x='195' y='118' text-anchor='middle' font-size='13' fill='#1a2b3c'>רבע — 1/4</text>\n</svg>\n</div>\n\nבשבר $\\frac{1}{2}$, המספר התחתון ($2$) אומר לכמה חלקים שווים חילקנו את השלם, והמספר העליון ($1$) אומר כמה חלקים כאלה לקחנו.",
     "keyFormulas": [
@@ -233,7 +233,7 @@ export const ELEMENTARY_TOPICS = [
     "track": null,
     "cluster": "מספרים ופעולות",
     "title": "שברי יחידה",
-    "description": "הכרת $\\frac{1}{2},\\frac{1}{3},\\frac{1}{4},\\frac{1}{5},\\frac{1}{6},\\frac{1}{8},\\frac{1}{10}$ וסדר ביניהם",
+    "description": "הכרת שברי היחידה (חצי, שליש, רבע, חמישית, שישית, שמינית, עשירית) וסדר ביניהם",
     "sortOrder": 4,
     "explanation": "<span class='hl-teal'>שבר יחידה</span> הוא שבר שהמספר העליון שלו הוא $1$, כמו $\\frac{1}{2},\\frac{1}{3},\\frac{1}{4}$ וכן הלאה. הוא מייצג חלק אחד מתוך חלוקה שווה של השלם.\n\n<div class='diagram-box'>\n<svg viewBox='0 0 260 110' xmlns='http://www.w3.org/2000/svg'>\n<rect x='10' y='10' width='240' height='24' fill='none' stroke='#0d6e6e' stroke-width='2'/>\n<line x1='130' y1='10' x2='130' y2='34' stroke='#0d6e6e' stroke-width='2'/>\n<rect x='130' y='10' width='120' height='24' fill='#0d6e6e' opacity='0.3'/>\n<text x='250' y='27' text-anchor='end' font-size='11' fill='#1a2b3c' dx='-4'>1/2</text>\n<rect x='10' y='44' width='240' height='24' fill='none' stroke='#0d6e6e' stroke-width='2'/>\n<line x1='70' y1='44' x2='70' y2='68' stroke='#0d6e6e' stroke-width='2'/>\n<rect x='10' y='44' width='60' height='24' fill='#0d6e6e' opacity='0.3'/>\n<text x='16' y='61' font-size='11' fill='#1a2b3c'>1/4</text>\n<rect x='10' y='78' width='240' height='24' fill='none' stroke='#0d6e6e' stroke-width='2'/>\n<line x1='40' y1='78' x2='40' y2='102' stroke='#0d6e6e' stroke-width='2'/>\n<rect x='10' y='78' width='30' height='24' fill='#0d6e6e' opacity='0.3'/>\n<text x='16' y='95' font-size='11' fill='#1a2b3c'>1/8</text>\n</svg>\n</div>\n\n<span class='hl-coral'>ככל שהמספר התחתון (המכנה) גדול יותר, כל חלק קטן יותר</span> — כי מחלקים את אותו שלם ליותר חלקים. לכן $\\frac{1}{8}<\\frac{1}{4}<\\frac{1}{2}$.",
     "keyFormulas": [

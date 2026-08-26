@@ -37,7 +37,7 @@ export default function HomePage() {
           </span>
         </h1>
         <p className="mt-4 text-lg leading-relaxed text-[var(--color-slate)]">
-          בחרו כיתה, צרו מבחן מותאם אישית, ותתקדמו צעד-צעד — עם תרגילים, הסברים ושרטוטים לכל נושא.
+          בחרו כיתה, ותנו לעצמכם רגע של הצלחה: שאלות בקצב שלכם, הסברים שמבהירים כל נושא, ותחושה נהדרת עם כל תשובה נכונה.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link

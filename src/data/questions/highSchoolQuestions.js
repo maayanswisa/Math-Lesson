@@ -15280,6 +15280,996 @@ export const QUESTIONS = [
     "options": ["טנגנס הופכי (arctan) של יחס הניצבים", "סינוס הופכי של היתר", "קוסינוס של הניצב", "אין דרך לחשב זווית מניצבים בלבד"],
     "correct_index": 0,
     "explanation": "כאשר ידועים שני הניצבים, מחשבים את הטנגנס (מול חלקי ליד) ואז את הזווית באמצעות טנגנס הופכי (arctan) במחשבון."
+  },
+  {
+    "id": "q-g10-u4-triangle-lines-1",
+    "topic_id": "g10-u4-triangle-lines",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מרכז הכובד של משולש מחלק כל תיכון, מהקודקוד, ביחס של:",
+    "options": ["$2{:}1$", "$1{:}2$", "$1{:}1$", "$3{:}1$"],
+    "correct_index": 0,
+    "explanation": "מרכז הכובד (נקודת מפגש התיכונים) מחלק כל תיכון ביחס $2{:}1$, כאשר החלק הגדול צמוד לקודקוד."
+  },
+  {
+    "id": "q-g10-u4-triangle-lines-2",
+    "topic_id": "g10-u4-triangle-lines",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית שאורך היתר שלו הוא $20$, מהו אורך התיכון ליתר?",
+    "options": ["$10$", "$20$", "$5$", "$15$"],
+    "correct_index": 0,
+    "explanation": "התיכון ליתר במשולש ישר-זווית שווה תמיד למחצית היתר: $\\dfrac{20}{2}=10$."
+  },
+  {
+    "id": "q-g10-u4-triangle-lines-3",
+    "topic_id": "g10-u4-triangle-lines",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$: $AB=6$, $AC=9$, $BC=10$. חוצה הזווית מקודקוד $A$ פוגע ב-$BC$ בנקודה $D$. מהו אורך $BD$?",
+    "options": ["$4$", "$6$", "$5$", "$3$"],
+    "correct_index": 0,
+    "explanation": "לפי משפט חוצה הזווית: $\\dfrac{BD}{DC}=\\dfrac{AB}{AC}=\\dfrac{6}{9}=\\dfrac{2}{3}$. מתוך $BD+DC=10$ מקבלים $BD=10\\times\\dfrac{2}{5}=4$."
+  },
+  {
+    "id": "q-g10-u4-triangle-lines-4",
+    "topic_id": "g10-u4-triangle-lines",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$ נתון קטע $AD$ ($D$ על $BC$), כך ש-$\\dfrac{BD}{DC}=\\dfrac{AB}{AC}$. מה ניתן להסיק על $AD$?",
+    "options": ["$AD$ הוא חוצה הזווית $A$", "$AD$ הוא תיכון", "$AD$ הוא גובה", "אי אפשר להסיק דבר"],
+    "correct_index": 0,
+    "explanation": "זהו משפט חוצה הזווית ההפוך: קטע מקודקוד המחלק את הצלע שמול ביחס הצלעות הסמוכות הוא בהכרח חוצה הזווית."
+  },
+  {
+    "id": "q-g10-u4-triangle-lines-5",
+    "topic_id": "g10-u4-triangle-lines",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אנך אמצעי לקטע הוא המקום הגאומטרי של:",
+    "options": ["נקודות השוות מרחק משני קצות הקטע", "נקודות השוות מרחק מאמצע הקטע", "נקודות הנמצאות על הקטע", "נקודות מחוץ למשולש בלבד"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של אנך אמצעי: כל נקודה עליו מרוחקת באותה מידה משני קצות הקטע."
+  },
+  {
+    "id": "q-g10-u4-triangle-lines-6",
+    "topic_id": "g10-u4-triangle-lines",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מרכז המעגל החוסם משולש הוא נקודת המפגש של:",
+    "options": ["האנכים האמצעיים", "התיכונים", "הגבהים", "חוצי הזוויות"],
+    "correct_index": 0,
+    "explanation": "כל נקודה על אנך אמצעי שווה מרחק לשני קצות הצלע, ולכן מפגש שלושת האנכים האמצעיים שווה מרחק לשלושת הקודקודים - זהו מרכז המעגל החוסם."
+  },
+  {
+    "id": "q-g10-u4-triangle-lines-7",
+    "topic_id": "g10-u4-triangle-lines",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מרכז המעגל החסום במשולש הוא נקודת המפגש של:",
+    "options": ["חוצי הזוויות", "האנכים האמצעיים", "התיכונים", "הגבהים"],
+    "correct_index": 0,
+    "explanation": "כל נקודה על חוצה זווית שווה מרחק לשתי צלעות הזווית, ולכן מפגש שלושת חוצי הזוויות שווה מרחק לשלוש הצלעות - זהו מרכז המעגל החסום."
+  },
+  {
+    "id": "q-g10-u4-triangle-lines-8",
+    "topic_id": "g10-u4-triangle-lines",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "גובה במשולש מוגדר כ:",
+    "options": ["האנך מקודקוד לצלע שמולו (או להמשכה)", "הקטע מקודקוד לאמצע הצלע שמולו", "הקטע המחלק זווית לשני חלקים שווים", "הצלע הארוכה ביותר במשולש"],
+    "correct_index": 0,
+    "explanation": "גובה הוא הקטע היוצא מקודקוד ומאונך לצלע שמולו (או להארכתה)."
+  },
+  {
+    "id": "q-g10-u4-triangle-lines-9",
+    "topic_id": "g10-u4-triangle-lines",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "באיזה סוג משולש נקודת מפגש הגבהים (האורתוצנטר) נמצאת מחוץ למשולש?",
+    "options": ["משולש קהה-זווית", "משולש חד-זווית", "משולש ישר-זווית", "בכל סוגי המשולשים"],
+    "correct_index": 0,
+    "explanation": "במשולש חד-זווית האורתוצנטר בפנים, במשולש ישר-זווית הוא בדיוק בקודקוד הזווית הישרה, ורק במשולש קהה-זווית הוא יוצא מחוץ למשולש."
+  },
+  {
+    "id": "q-g10-u4-triangle-lines-10",
+    "topic_id": "g10-u4-triangle-lines",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "תיכון במשולש מחלק אותו לשני משולשים ה:",
+    "options": ["שווים בשטחם", "חופפים תמיד", "דומים תמיד", "ישרי-זווית תמיד"],
+    "correct_index": 0,
+    "explanation": "מכיוון שלשני המשולשים יש אותו גובה (מהקודקוד המשותף) ובסיסים שווים (חצאי הצלע), שטחיהם שווים - אך הם לא בהכרח חופפים."
+  },
+  {
+    "id": "q-g10-u4-triangle-lines-11",
+    "topic_id": "g10-u4-triangle-lines",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$, התיכון מ-$A$ פוגע ב-$BC$ בנקודה $M$. מרכז הכובד $G$ נמצא על $AM$ כך ש-$AG=8$. מהו אורך $GM$?",
+    "options": ["$4$", "$8$", "$2$", "$6$"],
+    "correct_index": 0,
+    "explanation": "היחס $AG{:}GM=2{:}1$, ולכן $GM=\\dfrac{AG}{2}=4$."
+  },
+  {
+    "id": "q-g10-u4-similarity-1",
+    "topic_id": "g10-u4-similarity",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אילו משפטי דמיון קיימים למשולשים?",
+    "options": ["ז.ז, צ.צ.צ, צ.ז.צ", "ז.ז.ז בלבד", "צ.צ בלבד", "אין משפטי דמיון, רק חפיפה"],
+    "correct_index": 0,
+    "explanation": "שלושת המשפטים הקובעים דמיון משולשים הם זווית-זווית, צלע-צלע-צלע (ביחס קבוע) וצלע-זווית-צלע (ביחס קבוע)."
+  },
+  {
+    "id": "q-g10-u4-similarity-2",
+    "topic_id": "g10-u4-similarity",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני משולשים דומים ביחס דמיון $3$. היקף המשולש הקטן הוא $12$. מהו היקף המשולש הגדול?",
+    "options": ["$36$", "$4$", "$15$", "$9$"],
+    "correct_index": 0,
+    "explanation": "יחס ההיקפים שווה ליחס הדמיון: $12\\times 3=36$."
+  },
+  {
+    "id": "q-g10-u4-similarity-3",
+    "topic_id": "g10-u4-similarity",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני משולשים דומים ביחס דמיון $2$. שטח המשולש הקטן הוא $5$. מהו שטח המשולש הגדול?",
+    "options": ["$20$", "$10$", "$7$", "$25$"],
+    "correct_index": 0,
+    "explanation": "יחס השטחים שווה לריבוע יחס הדמיון: $5\\times 2^2=5\\times4=20$."
+  },
+  {
+    "id": "q-g10-u4-similarity-4",
+    "topic_id": "g10-u4-similarity",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "יחס השטחים של שני משולשים דומים הוא $9$. מהו יחס הדמיון (יחס הצלעות) ביניהם?",
+    "options": ["$3$", "$9$", "$81$", "$4.5$"],
+    "correct_index": 0,
+    "explanation": "יחס השטחים הוא ריבוע יחס הדמיון, ולכן יחס הדמיון הוא $\\sqrt{9}=3$."
+  },
+  {
+    "id": "q-g10-u4-similarity-5",
+    "topic_id": "g10-u4-similarity",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש אחד יש זוויות $50°$ ו-$60°$. במשולש שני יש זוויות $50°$ ו-$55°$. האם המשולשים דומים?",
+    "options": ["לא, כי הזווית השלישית שונה ($70°$ לעומת $75°$)", "כן, לפי משפט ז.ז", "כן, כי יש להם זווית משותפת", "אי אפשר לדעת בלי הצלעות"],
+    "correct_index": 0,
+    "explanation": "במשולש הראשון הזווית השלישית $180-50-60=70°$, ובשני $180-50-55=75°$ - זוויות שונות, אז אין דמיון."
+  },
+  {
+    "id": "q-g10-u4-similarity-6",
+    "topic_id": "g10-u4-similarity",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$: $AB=4$, $AC=6$, זווית $A=40°$. במשולש $DEF$: $DE=6$, $DF=9$, זווית $D=40°$. האם המשולשים דומים?",
+    "options": ["כן, לפי משפט צ.ז.צ (היחס $4{:}6=6{:}9=2{:}3$)", "לא, כי הצלעות אינן שוות", "כן, לפי משפט צ.צ.צ", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "היחסים $\\dfrac{4}{6}=\\dfrac{2}{3}$ ו-$\\dfrac{6}{9}=\\dfrac{2}{3}$ שווים, והזווית הכלואה ביניהם שווה - זהו משפט צ.ז.צ."
+  },
+  {
+    "id": "q-g10-u4-similarity-7",
+    "topic_id": "g10-u4-similarity",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני משולשים דומים ביחס דמיון $5$. אורך תיכון מסוים במשולש הקטן הוא $3$ ס\"מ. מהו אורך התיכון המתאים במשולש הגדול?",
+    "options": ["$15$", "$8$", "$3$", "$25$"],
+    "correct_index": 0,
+    "explanation": "יחס הקווים המיוחדים (כולל תיכונים) שווה ליחס הדמיון: $3\\times5=15$."
+  },
+  {
+    "id": "q-g10-u4-similarity-8",
+    "topic_id": "g10-u4-similarity",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "יחס ההיקפים של שני משולשים דומים שווה ל:",
+    "options": ["יחס הדמיון", "ריבוע יחס הדמיון", "שורש יחס הדמיון", "כפול יחס הדמיון"],
+    "correct_index": 0,
+    "explanation": "כל צלע במשולש הגדול גדולה פי יחס הדמיון, ולכן גם ההיקף (סכום הצלעות) גדול פי אותו יחס."
+  },
+  {
+    "id": "q-g10-u4-similarity-9",
+    "topic_id": "g10-u4-similarity",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "יחס השטחים של שני משולשים דומים שווה ל:",
+    "options": ["ריבוע יחס הדמיון", "יחס הדמיון", "שורש יחס הדמיון", "מחצית יחס הדמיון"],
+    "correct_index": 0,
+    "explanation": "שטח תלוי במכפלת שני אורכים, ולכן כשכל אורך גדל פי $k$, השטח גדל פי $k^2$."
+  },
+  {
+    "id": "q-g10-u4-similarity-10",
+    "topic_id": "g10-u4-similarity",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "עמוד שגובהו $2$ מ' מטיל צל באורך $3$ מ'. באותו רגע מגדל סמוך מטיל צל באורך $45$ מ'. בהנחה שמשולשי עמוד-צל ומגדל-צל דומים, מה גובה המגדל?",
+    "options": ["$30$ מ'", "$67.5$ מ'", "$22.5$ מ'", "$90$ מ'"],
+    "correct_index": 0,
+    "explanation": "לפי יחס הדמיון: $\\dfrac{2}{3}=\\dfrac{h}{45}\\Rightarrow h=\\dfrac{2\\times45}{3}=30$."
+  },
+  {
+    "id": "q-g10-u4-similarity-11",
+    "topic_id": "g10-u4-similarity",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שני משולשים דומים ביחס דמיון $k$. מה יחס הגבהים המתאימים שלהם?",
+    "options": ["$k$", "$k^2$", "$2k$", "$\\sqrt{k}$"],
+    "correct_index": 0,
+    "explanation": "כמו כל קו מיוחד במשולש (גובה, תיכון, חוצה זווית), יחס הגבהים המתאימים שווה ליחס הדמיון עצמו, $k$."
+  },
+  {
+    "id": "q-g10-u4-algebra-technique-1",
+    "topic_id": "g10-u4-algebra-technique",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פרקו לגורמים: $x^2-9$",
+    "options": ["$(x-3)(x+3)$", "$(x-9)(x+1)$", "$(x-3)^2$", "$x(x-9)$"],
+    "correct_index": 0,
+    "explanation": "לפי נוסחת הפרש ריבועים: $a^2-b^2=(a-b)(a+b)$, עם $a=x,\\ b=3$."
+  },
+  {
+    "id": "q-g10-u4-algebra-technique-2",
+    "topic_id": "g10-u4-algebra-technique",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פרקו לגורמים: $x^2+5x+6$",
+    "options": ["$(x+2)(x+3)$", "$(x+1)(x+6)$", "$(x-2)(x-3)$", "$(x+6)(x-1)$"],
+    "correct_index": 0,
+    "explanation": "מחפשים שני מספרים שסכומם $5$ ומכפלתם $6$: אלה $2$ ו-$3$."
+  },
+  {
+    "id": "q-g10-u4-algebra-technique-3",
+    "topic_id": "g10-u4-algebra-technique",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פרקו לגורמים: $3x^2+6x$",
+    "options": ["$3x(x+2)$", "$3x(x+3)$", "$x(3x+2)$", "$3(x^2+6x)$"],
+    "correct_index": 0,
+    "explanation": "מוציאים גורם משותף $3x$: $3x^2+6x=3x(x+2)$."
+  },
+  {
+    "id": "q-g10-u4-algebra-technique-4",
+    "topic_id": "g10-u4-algebra-technique",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהם פתרונות המשוואה $x^2-5x+6=0$?",
+    "options": ["$x=2$ או $x=3$", "$x=-2$ או $x=-3$", "$x=1$ או $x=6$", "$x=5$ בלבד"],
+    "correct_index": 0,
+    "explanation": "מפרקים לגורמים: $(x-2)(x-3)=0$, ולכן $x=2$ או $x=3$."
+  },
+  {
+    "id": "q-g10-u4-algebra-technique-5",
+    "topic_id": "g10-u4-algebra-technique",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו את אי-השוויון $x^2-4>0$",
+    "options": ["$x<-2$ או $x>2$", "$-2<x<2$", "$x>2$ בלבד", "$x<-2$ בלבד"],
+    "correct_index": 0,
+    "explanation": "$x^2-4=(x-2)(x+2)$ חיובי כאשר שני הגורמים באותו סימן, כלומר מחוץ לתחום השורשים $-2,2$."
+  },
+  {
+    "id": "q-g10-u4-algebra-technique-6",
+    "topic_id": "g10-u4-algebra-technique",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פשטו: $\\sqrt{50}$",
+    "options": ["$5\\sqrt2$", "$25\\sqrt2$", "$2\\sqrt{25}$", "$10\\sqrt5$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{50}=\\sqrt{25\\times2}=\\sqrt{25}\\cdot\\sqrt2=5\\sqrt2$."
+  },
+  {
+    "id": "q-g10-u4-algebra-technique-7",
+    "topic_id": "g10-u4-algebra-technique",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "חשבו: $\\sqrt8\\cdot\\sqrt2$",
+    "options": ["$4$", "$16$", "$\\sqrt{10}$", "$2\\sqrt{10}$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt8\\cdot\\sqrt2=\\sqrt{16}=4$."
+  },
+  {
+    "id": "q-g10-u4-algebra-technique-8",
+    "topic_id": "g10-u4-algebra-technique",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו את המשוואה $\\sqrt{x+3}=x-3$ (שימו לב לבדוק פתרונות זרים).",
+    "options": ["$x=6$ בלבד", "$x=1$ או $x=6$", "$x=1$ בלבד", "אין פתרון"],
+    "correct_index": 0,
+    "explanation": "מעלים בריבוע: $x+3=x^2-6x+9\\Rightarrow x^2-7x+6=0\\Rightarrow x=1$ או $x=6$. בהצבה: $x=1$ נותן $\\sqrt4=2$ לעומת $1-3=-2$ - זר. $x=6$ נותן $\\sqrt9=3=6-3$ - תקף."
+  },
+  {
+    "id": "q-g10-u4-algebra-technique-9",
+    "topic_id": "g10-u4-algebra-technique",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה פתרונות ממשיים יש למשוואה $x^4-5x^2+4=0$?",
+    "options": ["$4$", "$2$", "$1$", "$0$"],
+    "correct_index": 0,
+    "explanation": "בהצבה $t=x^2$: $t^2-5t+4=0\\Rightarrow t=1$ או $t=4$, כלומר $x=\\pm1,\\pm2$ - ארבעה פתרונות."
+  },
+  {
+    "id": "q-g10-u4-algebra-technique-10",
+    "topic_id": "g10-u4-algebra-technique",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מערכת של משוואה לינארית ומשוואה ריבועית יכולה להיות בעלת לכל היותר כמה פתרונות?",
+    "options": ["$2$", "$1$", "$3$", "אינסוף"],
+    "correct_index": 0,
+    "explanation": "גרפית, ישר יכול לחתוך פרבולה לכל היותר בשתי נקודות."
+  },
+  {
+    "id": "q-g10-u4-algebra-technique-11",
+    "topic_id": "g10-u4-algebra-technique",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה המשמעות הגרפית של אי-השוויון $f(x)>g(x)$?",
+    "options": ["תחום ה-$x$ שבו גרף $f$ נמצא מעל גרף $g$", "נקודות החיתוך של הגרפים", "התחום שבו שני הגרפים שווים", "השיפוע של $f$ גדול משיפוע $g$"],
+    "correct_index": 0,
+    "explanation": "$f(x)>g(x)$ מתקיים בדיוק בתחומי ה-$x$ שבהם הגרף של $f$ גבוה יותר מהגרף של $g$."
+  },
+  {
+    "id": "q-g10-u4-derivative-poly-1",
+    "topic_id": "g10-u4-derivative-poly",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=x^5$?",
+    "options": ["$5x^4$", "$x^4$", "$5x^5$", "$4x^4$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל החזקה: $(x^k)'=k\\cdot x^{k-1}$, כלומר $(x^5)'=5x^4$."
+  },
+  {
+    "id": "q-g10-u4-derivative-poly-2",
+    "topic_id": "g10-u4-derivative-poly",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של הפונקציה הקבועה $f(x)=7$?",
+    "options": ["$0$", "$7$", "$1$", "$x$"],
+    "correct_index": 0,
+    "explanation": "הנגזרת של פונקציה קבועה היא תמיד $0$, כי קצב השינוי שלה אפס."
+  },
+  {
+    "id": "q-g10-u4-derivative-poly-3",
+    "topic_id": "g10-u4-derivative-poly",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=3x^2+4x$?",
+    "options": ["$6x+4$", "$3x+4$", "$6x^2+4x$", "$x^2+4$"],
+    "correct_index": 0,
+    "explanation": "גוזרים כל איבר בנפרד: $(3x^2)'=6x$, $(4x)'=4$."
+  },
+  {
+    "id": "q-g10-u4-derivative-poly-4",
+    "topic_id": "g10-u4-derivative-poly",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "המשמעות הגאומטרית של $f'(x_0)$ היא:",
+    "options": ["שיפוע המשיק לגרף בנקודה $x_0$", "גובה הגרף בנקודה $x_0$", "השטח מתחת לגרף עד $x_0$", "אורך המשיק"],
+    "correct_index": 0,
+    "explanation": "הנגזרת בנקודה שווה בדיוק לשיפוע קו המשיק לגרף הפונקציה באותה נקודה."
+  },
+  {
+    "id": "q-g10-u4-derivative-poly-5",
+    "topic_id": "g10-u4-derivative-poly",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון $f(x)=x^2$, $g(x)=x+1$. מהי הנגזרת של $f(x)\\cdot g(x)$?",
+    "options": ["$3x^2+2x$", "$2x^2+2x$", "$x^2+2x+1$", "$2x+1$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל המכפלה: $[fg]'=f'g+fg'=2x(x+1)+x^2\\cdot1=2x^2+2x+x^2=3x^2+2x$."
+  },
+  {
+    "id": "q-g10-u4-derivative-poly-6",
+    "topic_id": "g10-u4-derivative-poly",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^2$. מהי משוואת המשיק לגרף בנקודה $x_0=2$?",
+    "options": ["$y=4x-4$", "$y=4x+4$", "$y=2x$", "$y=x^2$"],
+    "correct_index": 0,
+    "explanation": "$f(2)=4$, $f'(x)=2x\\Rightarrow f'(2)=4$. משוואת המשיק: $y-4=4(x-2)\\Rightarrow y=4x-4$."
+  },
+  {
+    "id": "q-g10-u4-derivative-poly-7",
+    "topic_id": "g10-u4-derivative-poly",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=(x+1)^3$?",
+    "options": ["$3(x+1)^2$", "$3x^2$", "$(x+1)^2$", "$3(x+1)^3$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל השרשרת: $[(x+1)^3]'=3(x+1)^2\\cdot(x+1)'=3(x+1)^2\\cdot1=3(x+1)^2$."
+  },
+  {
+    "id": "q-g10-u4-derivative-poly-8",
+    "topic_id": "g10-u4-derivative-poly",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=(2x+3)^4$?",
+    "options": ["$8(2x+3)^3$", "$4(2x+3)^3$", "$8(2x+3)^4$", "$2(2x+3)^3$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל השרשרת: $4(2x+3)^3\\cdot(2x+3)'=4(2x+3)^3\\cdot2=8(2x+3)^3$."
+  },
+  {
+    "id": "q-g10-u4-derivative-poly-9",
+    "topic_id": "g10-u4-derivative-poly",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=5x^3$?",
+    "options": ["$15x^2$", "$5x^2$", "$15x^3$", "$3x^2$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל הכפל בקבוע: $(5x^3)'=5\\cdot(x^3)'=5\\cdot3x^2=15x^2$."
+  },
+  {
+    "id": "q-g10-u4-derivative-poly-10",
+    "topic_id": "g10-u4-derivative-poly",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^2-4x+3$. באיזו נקודה שיפוע המשיק לגרף שווה לאפס?",
+    "options": ["$x=2$", "$x=0$", "$x=4$", "$x=-2$"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=2x-4$. פותרים $2x-4=0\\Rightarrow x=2$."
+  },
+  {
+    "id": "q-g10-u4-derivative-poly-11",
+    "topic_id": "g10-u4-derivative-poly",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתון $f'(x)=3x^2$ ו-$g'(x)=2x$. מהי הנגזרת של $f(x)-g(x)$?",
+    "options": ["$3x^2-2x$", "$3x^2+2x$", "$x^2$", "$6x^3$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל ההפרש: $[f-g]'=f'-g'=3x^2-2x$."
+  },
+  {
+    "id": "q-g10-u4-poly-investigation-1",
+    "topic_id": "g10-u4-poly-investigation",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו תחום ההגדרה של פונקציה פולינומיאלית?",
+    "options": ["כל הממשיים", "$x\\ge0$", "$x\\ne0$", "תלוי בפונקציה הספציפית"],
+    "correct_index": 0,
+    "explanation": "לפולינום אין מכנה או שורש, ולכן הוא מוגדר לכל $x$ ממשי."
+  },
+  {
+    "id": "q-g10-u4-poly-investigation-2",
+    "topic_id": "g10-u4-poly-investigation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^2-3$. האם הפונקציה זוגית, אי-זוגית או אף אחת?",
+    "options": ["זוגית", "אי-זוגית", "גם זוגית וגם אי-זוגית", "אף אחת"],
+    "correct_index": 0,
+    "explanation": "$f(-x)=(-x)^2-3=x^2-3=f(x)$, ולכן הפונקציה זוגית."
+  },
+  {
+    "id": "q-g10-u4-poly-investigation-3",
+    "topic_id": "g10-u4-poly-investigation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^3-x$. האם הפונקציה זוגית, אי-זוגית או אף אחת?",
+    "options": ["אי-זוגית", "זוגית", "גם זוגית וגם אי-זוגית", "אף אחת"],
+    "correct_index": 0,
+    "explanation": "$f(-x)=-x^3+x=-(x^3-x)=-f(x)$, ולכן הפונקציה אי-זוגית."
+  },
+  {
+    "id": "q-g10-u4-poly-investigation-4",
+    "topic_id": "g10-u4-poly-investigation",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^2-4x+3$. באילו תחומים הפונקציה עולה?",
+    "options": ["$x>2$", "$x<2$", "לכל $x$", "$x>4$"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=2x-4>0\\Leftrightarrow x>2$."
+  },
+  {
+    "id": "q-g10-u4-poly-investigation-5",
+    "topic_id": "g10-u4-poly-investigation",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בפונקציה $f(x)=x^2-4x+3$, מהי נקודת הקיצון ומהו סוגה?",
+    "options": ["$x=2$, מינימום", "$x=2$, מקסימום", "$x=-2$, מינימום", "$x=4$, מקסימום"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=2x-4=0\\Rightarrow x=2$. הנגזרת עוברת משלילית לחיובית, ולכן זו נקודת מינימום."
+  },
+  {
+    "id": "q-g10-u4-poly-investigation-6",
+    "topic_id": "g10-u4-poly-investigation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^2-4$. מהן נקודות החיתוך של הגרף עם ציר $x$?",
+    "options": ["$x=2,\\ x=-2$", "$x=4,\\ x=-4$", "$x=0$ בלבד", "אין חיתוך"],
+    "correct_index": 0,
+    "explanation": "פותרים $x^2-4=0\\Rightarrow x^2=4\\Rightarrow x=\\pm2$."
+  },
+  {
+    "id": "q-g10-u4-poly-investigation-7",
+    "topic_id": "g10-u4-poly-investigation",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=x^3-3x$ יש נקודות קיצון ב-:",
+    "options": ["$x=1$ (מינימום) ו-$x=-1$ (מקסימום)", "$x=1$ (מקסימום) ו-$x=-1$ (מינימום)", "$x=0$ בלבד", "אין לפונקציה נקודות קיצון"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=3x^2-3=0\\Rightarrow x=\\pm1$. בדיקת סימן מראה ש-$x=-1$ מקסימום מקומי ($f(-1)=2$) ו-$x=1$ מינימום מקומי ($f(1)=-2$)."
+  },
+  {
+    "id": "q-g10-u4-poly-investigation-8",
+    "topic_id": "g10-u4-poly-investigation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם בתחום מסוים גרף הנגזרת $f'$ נמצא מעל ציר $x$ (חיובי), מה ניתן לומר על $f$ באותו תחום?",
+    "options": ["$f$ עולה", "$f$ יורדת", "$f$ קבועה", "$f$ בעלת קיצון"],
+    "correct_index": 0,
+    "explanation": "$f'(x)>0$ בתחום פירושו ש-$f$ עולה שם."
+  },
+  {
+    "id": "q-g10-u4-poly-investigation-9",
+    "topic_id": "g10-u4-poly-investigation",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו ההבדל בין קיצון מקומי לקיצון מוחלט?",
+    "options": ["קיצון מוחלט הוא הערך הגדול/קטן ביותר בכל התחום; קיצון מקומי רק בסביבתו", "אין הבדל, זה אותו דבר", "קיצון מקומי תמיד גדול מקיצון מוחלט", "קיצון מוחלט קיים רק לפונקציות ריבועיות"],
+    "correct_index": 0,
+    "explanation": "קיצון מקומי משווה רק לנקודות קרובות, בעוד קיצון מוחלט הוא הגדול/קטן ביותר בכל תחום ההגדרה."
+  },
+  {
+    "id": "q-g10-u4-poly-investigation-10",
+    "topic_id": "g10-u4-poly-investigation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה בודקים כדי לקבוע את תחומי החיוביות והשליליות של $f$?",
+    "options": ["היכן $f(x)>0$ והיכן $f(x)<0$", "היכן $f'(x)>0$", "היכן $f''(x)>0$", "רק את נקודות הקיצון"],
+    "correct_index": 0,
+    "explanation": "חיוביות/שליליות של פונקציה נקבעת לפי סימן $f(x)$ עצמה, ולא לפי הנגזרת."
+  },
+  {
+    "id": "q-g10-u4-poly-investigation-11",
+    "topic_id": "g10-u4-poly-investigation",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בפונקציה $f(x)=x^2+bx+c$, ידוע שהפונקציה זוגית. מה ניתן להסיק על $b$?",
+    "options": ["$b=0$", "$b=c$", "$b=1$", "אין מגבלה על $b$"],
+    "correct_index": 0,
+    "explanation": "זוגיות דורשת $f(-x)=f(x)$: $x^2-bx+c=x^2+bx+c\\Rightarrow -bx=bx$ לכל $x$, ולכן $b=0$."
+  },
+  {
+    "id": "q-g10-u4-root-function-1",
+    "topic_id": "g10-u4-root-function",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו תחום ההגדרה של $f(x)=\\sqrt{x-3}$?",
+    "options": ["$x\\ge3$", "$x>3$", "$x\\le3$", "כל הממשיים"],
+    "correct_index": 0,
+    "explanation": "יש לדרוש $x-3\\ge0$, כלומר $x\\ge3$."
+  },
+  {
+    "id": "q-g10-u4-root-function-2",
+    "topic_id": "g10-u4-root-function",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו תחום ההגדרה של $f(x)=\\sqrt{9-x^2}$?",
+    "options": ["$-3\\le x\\le3$", "$x\\ge3$ או $x\\le-3$", "$x\\ge0$", "כל הממשיים"],
+    "correct_index": 0,
+    "explanation": "יש לדרוש $9-x^2\\ge0\\Leftrightarrow x^2\\le9\\Leftrightarrow -3\\le x\\le3$."
+  },
+  {
+    "id": "q-g10-u4-root-function-3",
+    "topic_id": "g10-u4-root-function",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\sqrt{x}$?",
+    "options": ["$\\dfrac{1}{2\\sqrt{x}}$", "$\\dfrac{1}{2}\\sqrt{x}$", "$2\\sqrt{x}$", "$\\sqrt{x}$"],
+    "correct_index": 0,
+    "explanation": "לפי הנוסחה $\\left(\\sqrt{g(x)}\\right)'=\\dfrac{g'(x)}{2\\sqrt{g(x)}}$ עם $g(x)=x$: $\\dfrac{1}{2\\sqrt{x}}$."
+  },
+  {
+    "id": "q-g10-u4-root-function-4",
+    "topic_id": "g10-u4-root-function",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\sqrt{x^2+1}$?",
+    "options": ["$\\dfrac{x}{\\sqrt{x^2+1}}$", "$\\dfrac{2x}{\\sqrt{x^2+1}}$", "$\\dfrac{1}{2\\sqrt{x^2+1}}$", "$2x\\sqrt{x^2+1}$"],
+    "correct_index": 0,
+    "explanation": "$g(x)=x^2+1,\\ g'(x)=2x$. הנגזרת: $\\dfrac{2x}{2\\sqrt{x^2+1}}=\\dfrac{x}{\\sqrt{x^2+1}}$."
+  },
+  {
+    "id": "q-g10-u4-root-function-5",
+    "topic_id": "g10-u4-root-function",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\sqrt{4-x^2}$?",
+    "options": ["$\\dfrac{-x}{\\sqrt{4-x^2}}$", "$\\dfrac{x}{\\sqrt{4-x^2}}$", "$\\dfrac{-2x}{\\sqrt{4-x^2}}$", "$\\dfrac{2}{\\sqrt{4-x^2}}$"],
+    "correct_index": 0,
+    "explanation": "$g(x)=4-x^2,\\ g'(x)=-2x$. הנגזרת: $\\dfrac{-2x}{2\\sqrt{4-x^2}}=\\dfrac{-x}{\\sqrt{4-x^2}}$."
+  },
+  {
+    "id": "q-g10-u4-root-function-6",
+    "topic_id": "g10-u4-root-function",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=\\sqrt{4-x^2}$ (תחום $-2\\le x\\le2$), מהי נקודת המקסימום?",
+    "options": ["$x=0$ (עם $f(0)=2$)", "$x=2$", "$x=-2$", "אין לפונקציה מקסימום"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=\\dfrac{-x}{\\sqrt{4-x^2}}=0\\Rightarrow x=0$, ושם $f(0)=\\sqrt4=2$ - הערך הגדול ביותר בתחום."
+  },
+  {
+    "id": "q-g10-u4-root-function-7",
+    "topic_id": "g10-u4-root-function",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "באותה פונקציה $f(x)=\\sqrt{4-x^2}$ (תחום $-2\\le x\\le2$), מהי נקודת המינימום המוחלט?",
+    "options": ["$x=\\pm2$ (עם $f=0$) - קיצון בקצה התחום", "$x=0$", "$x=1$", "אין מינימום"],
+    "correct_index": 0,
+    "explanation": "בקצוות התחום $f(\\pm2)=0$, וזהו הערך הקטן ביותר האפשרי - קיצון המתקבל בקצה תחום ההגדרה."
+  },
+  {
+    "id": "q-g10-u4-root-function-8",
+    "topic_id": "g10-u4-root-function",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כאשר בונים פונקציה מהצורה $f(x)=\\sqrt{g(x)}$, מהי הדרישה על $g(x)$ כדי ש-$f$ תהיה מוגדרת?",
+    "options": ["$g(x)\\ge0$", "$g(x)>0$ בלבד", "$g(x)\\ne0$", "אין דרישה, $f$ תמיד מוגדרת"],
+    "correct_index": 0,
+    "explanation": "שורש ריבועי מוגדר (בממשיים) רק עבור ביטוי שאינו שלילי."
+  },
+  {
+    "id": "q-g10-u4-root-function-9",
+    "topic_id": "g10-u4-root-function",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=x\\sqrt{x}$?",
+    "options": ["$\\dfrac{3}{2}\\sqrt{x}$", "$\\sqrt{x}$", "$\\dfrac{1}{2}\\sqrt{x}$", "$2\\sqrt{x}$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל המכפלה עם $h(x)=x,\\ g(x)=x$: $1\\cdot\\sqrt{x}+x\\cdot\\dfrac{1}{2\\sqrt{x}}=\\sqrt{x}+\\dfrac{\\sqrt{x}}{2}=\\dfrac{3}{2}\\sqrt{x}$."
+  },
+  {
+    "id": "q-g10-u4-root-function-10",
+    "topic_id": "g10-u4-root-function",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\sqrt{x}$. מהו שיפוע המשיק לגרף בנקודה $x=4$?",
+    "options": ["$\\dfrac{1}{4}$", "$4$", "$\\dfrac{1}{2}$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=\\dfrac{1}{2\\sqrt{x}}\\Rightarrow f'(4)=\\dfrac{1}{2\\times2}=\\dfrac{1}{4}$."
+  },
+  {
+    "id": "q-g10-u4-extremum-problems-1",
+    "topic_id": "g10-u4-extremum-problems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "סכום שני מספרים הוא $20$. מה המכפלה המקסימלית האפשרית שלהם?",
+    "options": ["$100$", "$200$", "$400$", "$40$"],
+    "correct_index": 0,
+    "explanation": "המכפלה $x(20-x)=20x-x^2$ - פרבולה הפוכה, מקסימלית בקודקוד $x=10$: $10\\times10=100$."
+  },
+  {
+    "id": "q-g10-u4-extremum-problems-2",
+    "topic_id": "g10-u4-extremum-problems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בבעיה הקודמת (סכום $20$, מכפלה מקסימלית), מהם שני המספרים?",
+    "options": ["$10$ ו-$10$", "$5$ ו-$15$", "$0$ ו-$20$", "$8$ ו-$12$"],
+    "correct_index": 0,
+    "explanation": "המכפלה המקסימלית מתקבלת כש-$x=10$ (קודקוד הפרבולה), ואז המספר השני גם $20-10=10$."
+  },
+  {
+    "id": "q-g10-u4-extremum-problems-3",
+    "topic_id": "g10-u4-extremum-problems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "היקף מלבן הוא $40$ ס\"מ. מהו השטח המקסימלי האפשרי?",
+    "options": ["$100$ סמ\"ר", "$400$ סמ\"ר", "$200$ סמ\"ר", "$40$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$x+y=20$, שטח $x(20-x)$ - מקסימלי ב-$x=10$: שטח $=10\\times10=100$."
+  },
+  {
+    "id": "q-g10-u4-extremum-problems-4",
+    "topic_id": "g10-u4-extremum-problems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "באיזו צורה מתקבל השטח המקסימלי במלבן בעל היקף נתון?",
+    "options": ["ריבוע", "מלבן ארוך וצר", "משולש", "תלוי בהיקף"],
+    "correct_index": 0,
+    "explanation": "מבין כל המלבנים בעלי היקף נתון, לריבוע (כשכל הצלעות שוות) יש את השטח הגדול ביותר."
+  },
+  {
+    "id": "q-g10-u4-extremum-problems-5",
+    "topic_id": "g10-u4-extremum-problems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מפעל מייצר פריט בעלות $20$ ₪ ומוכר אותו ב-$40$ ₪, ומוכר $100$ יחידות ביום. כל הפחתה של $1$ ₪ במחיר מגדילה את הכמות הנמכרת ב-$10$ יחידות ביום. באיזו הפחתת מחיר ($x$) הרווח היומי מקסימלי?",
+    "options": ["$x=5$ ₪", "$x=10$ ₪", "$x=0$ ₪", "$x=20$ ₪"],
+    "correct_index": 0,
+    "explanation": "רווח $(x)=(20-x)(100+10x)=2000+100x-10x^2$. נגזרת: $100-20x=0\\Rightarrow x=5$."
+  },
+  {
+    "id": "q-g10-u4-extremum-problems-6",
+    "topic_id": "g10-u4-extremum-problems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בבעיית המפעל (סעיף קודם), מהו הרווח היומי המקסימלי?",
+    "options": ["$2250$ ₪", "$2000$ ₪", "$2500$ ₪", "$1800$ ₪"],
+    "correct_index": 0,
+    "explanation": "מציבים $x=5$: רווח $=2000+100\\times5-10\\times25=2000+500-250=2250$."
+  },
+  {
+    "id": "q-g10-u4-extremum-problems-7",
+    "topic_id": "g10-u4-extremum-problems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מדוע בבעיית קיצון בתחום סגור יש לבדוק גם את קצוות התחום?",
+    "options": ["כי ייתכן שהקיצון המוחלט מתקבל בקצה התחום ולא רק היכן ש-$f'=0$", "כי הנגזרת לא מוגדרת בתחום סגור", "זה לא נחוץ, מספיק לבדוק היכן $f'=0$", "כי בתחום סגור אין קיצון"],
+    "correct_index": 0,
+    "explanation": "בתחום סגור, הערך המקסימלי או המינימלי עלול להתקבל בקצה התחום ולא בנקודה שבה הנגזרת מתאפסת."
+  },
+  {
+    "id": "q-g10-u4-extremum-problems-8",
+    "topic_id": "g10-u4-extremum-problems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מכפלת שני מספרים חיוביים היא $36$. מהו הסכום המינימלי האפשרי שלהם?",
+    "options": ["$12$", "$36$", "$18$", "$6$"],
+    "correct_index": 0,
+    "explanation": "$S(x)=x+\\dfrac{36}{x}$. $S'(x)=1-\\dfrac{36}{x^2}=0\\Rightarrow x=6$, ואז $S=6+6=12$."
+  },
+  {
+    "id": "q-g10-u4-extremum-problems-9",
+    "topic_id": "g10-u4-extremum-problems",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לפי הקשר בין רווח, הכנסה ועלות, איך מבטאים את הרווח?",
+    "options": ["רווח $=$ הכנסה $-$ עלות", "רווח $=$ הכנסה $+$ עלות", "רווח $=$ הכנסה $\\times$ עלות", "רווח $=$ עלות $-$ הכנסה"],
+    "correct_index": 0,
+    "explanation": "הרווח מוגדר כהפרש בין ההכנסה הכוללת לעלות הכוללת."
+  },
+  {
+    "id": "q-g10-u4-extremum-problems-10",
+    "topic_id": "g10-u4-extremum-problems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חקלאי בעל $100$ מ' גדר רוצה לגדר שטח מלבני הצמוד לקיר (הקיר משמש כצלע אחת, ללא צורך בגדר שם). מהו השטח המקסימלי שניתן לגדר?",
+    "options": ["$1250$ מ\"ר", "$2500$ מ\"ר", "$625$ מ\"ר", "$1000$ מ\"ר"],
+    "correct_index": 0,
+    "explanation": "$2x+y=100\\Rightarrow y=100-2x$. שטח $=x(100-2x)=100x-2x^2$, מקסימלי ב-$x=25$: שטח $=25\\times50=1250$."
+  },
+  {
+    "id": "q-g10-u4-stats-descriptive-1",
+    "topic_id": "g10-u4-stats-descriptive",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "המשתנה \"מספר הנפשות במשפחה\" הוא משתנה:",
+    "options": ["כמותי בדיד", "כמותי רציף", "איכותי", "לא ניתן לסיווג"],
+    "correct_index": 0,
+    "explanation": "מספר נפשות הוא ערך מספרי שמקבל רק ערכים שלמים בודדים - כמותי בדיד."
+  },
+  {
+    "id": "q-g10-u4-stats-descriptive-2",
+    "topic_id": "g10-u4-stats-descriptive",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "המשתנה \"צבע עיניים\" הוא משתנה:",
+    "options": ["איכותי", "כמותי בדיד", "כמותי רציף", "משתנה מספרי"],
+    "correct_index": 0,
+    "explanation": "צבע עיניים אינו מספר אלא קטגוריה - זהו משתנה איכותי (שמי)."
+  },
+  {
+    "id": "q-g10-u4-stats-descriptive-3",
+    "topic_id": "g10-u4-stats-descriptive",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "המשתנה \"טמפרטורה\" הוא משתנה:",
+    "options": ["כמותי רציף", "כמותי בדיד", "איכותי", "לא ניתן לסיווג"],
+    "correct_index": 0,
+    "explanation": "טמפרטורה יכולה לקבל כל ערך בתחום נתון (כולל שברים) - כמותי רציף."
+  },
+  {
+    "id": "q-g10-u4-stats-descriptive-4",
+    "topic_id": "g10-u4-stats-descriptive",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה ממדדי המרכז ניתן לחשב גם עבור משתנה איכותי?",
+    "options": ["השכיח", "הממוצע", "החציון", "אף אחד מהם"],
+    "correct_index": 0,
+    "explanation": "השכיח (הערך השכיח ביותר) הוא המדד היחיד מבין מדדי המרכז שמתאים גם למשתנה איכותי."
+  },
+  {
+    "id": "q-g10-u4-stats-descriptive-5",
+    "topic_id": "g10-u4-stats-descriptive",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו החיסרון המרכזי של הממוצע כמדד מרכז?",
+    "options": ["הוא מושפע מערכים קיצוניים", "אי אפשר לחשבו", "הוא תמיד שווה לחציון", "אין לו יחידות"],
+    "correct_index": 0,
+    "explanation": "ערך קיצוני אחד יכול למשוך את הממוצע חזק לכיוונו, ולכן לפעמים הוא אינו מייצג נאמנה את רוב הנתונים."
+  },
+  {
+    "id": "q-g10-u4-stats-descriptive-6",
+    "topic_id": "g10-u4-stats-descriptive",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו היתרון המרכזי של החציון לעומת הממוצע?",
+    "options": ["אינו מושפע מערכים קיצוניים", "קל יותר לחישוב תמיד", "יש לו יחידות שונות מהממוצע", "מתאים למשתנה איכותי"],
+    "correct_index": 0,
+    "explanation": "החציון מתייחס למיקום הנתונים ולא לערכם המדויק, ולכן ערכים קיצוניים לא משפיעים עליו."
+  },
+  {
+    "id": "q-g10-u4-stats-descriptive-7",
+    "topic_id": "g10-u4-stats-descriptive",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מוסיפים $5$ לכל הערכים בקבוצת נתונים. מה קורה לממוצע, לחציון ולשכיח?",
+    "options": ["כולם גדלים ב-$5$", "כולם נשארים ללא שינוי", "רק הממוצע גדל ב-$5$", "כולם גדלים פי $5$"],
+    "correct_index": 0,
+    "explanation": "הוספת קבוע לכל הערכים מזיזה את כל מדדי המרכז באותו קבוע בדיוק."
+  },
+  {
+    "id": "q-g10-u4-stats-descriptive-8",
+    "topic_id": "g10-u4-stats-descriptive",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מוסיפים $5$ לכל הערכים בקבוצת נתונים. מה קורה לטווח ולסטיית התקן?",
+    "options": ["נשארים ללא שינוי", "גדלים ב-$5$", "גדלים פי $5$", "קטנים ב-$5$"],
+    "correct_index": 0,
+    "explanation": "הוספת קבוע לא משנה את המרחקים בין הנתונים לבין עצמם, ולכן מדדי הפיזור אינם משתנים."
+  },
+  {
+    "id": "q-g10-u4-stats-descriptive-9",
+    "topic_id": "g10-u4-stats-descriptive",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מכפילים את כל הערכים בקבוצת נתונים ב-$3$. מה קורה לסטיית התקן?",
+    "options": ["גדלה פי $3$", "נשארת ללא שינוי", "גדלה פי $9$", "קטנה פי $3$"],
+    "correct_index": 0,
+    "explanation": "הכפלת כל הנתונים בקבוע $c$ מכפילה גם את סטיית התקן (וגם את הטווח) פי $|c|$."
+  },
+  {
+    "id": "q-g10-u4-stats-descriptive-10",
+    "topic_id": "g10-u4-stats-descriptive",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה ייצוג גרפי מתאים ביותר למשתנה כמותי רציף המאורגן בקבוצות?",
+    "options": ["היסטוגרמה", "דיאגרמת עיגול", "דיאגרמת מקלות", "טבלת שכיחויות בלבד, ללא ייצוג גרפי"],
+    "correct_index": 0,
+    "explanation": "היסטוגרמה מציגה קבוצות רציפות (תחומי ערכים) כעמודות צמודות, בהתאם למשתנה כמותי רציף."
+  },
+  {
+    "id": "q-g10-u4-stats-descriptive-11",
+    "topic_id": "g10-u4-stats-descriptive",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "דיאגרמת עיגול מתאימה בעיקר לייצוג:",
+    "options": ["החלק היחסי של כל קטגוריה מתוך השלם", "שינוי לאורך זמן", "משתנה רציף לא מקובץ", "השוואה בין ערכים קיצוניים בלבד"],
+    "correct_index": 0,
+    "explanation": "דיאגרמת עיגול ממחישה כיצד השלם ($100\\%$) מתחלק בין הקטגוריות השונות."
+  },
+  {
+    "id": "q-g10-u4-stats-descriptive-12",
+    "topic_id": "g10-u4-stats-descriptive",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תלמיד קיבל ציון $80$ במבחן שמשקלו $2$, וציון $90$ במבחן שמשקלו $1$. מהו הממוצע המשוקלל שלו (מעוגל)?",
+    "options": ["$83.3$", "$85$", "$90$", "$80$"],
+    "correct_index": 0,
+    "explanation": "ממוצע משוקלל $=\\dfrac{80\\times2+90\\times1}{2+1}=\\dfrac{250}{3}\\approx83.3$."
+  },
+  {
+    "id": "q-g10-u4-probability-1",
+    "topic_id": "g10-u4-probability",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מטילים קובייה הוגנת. מה ההסתברות לקבל מספר זוגי?",
+    "options": ["$\\dfrac{1}{2}$", "$\\dfrac{1}{3}$", "$\\dfrac{1}{6}$", "$1$"],
+    "correct_index": 0,
+    "explanation": "יש $3$ תוצאות זוגיות מתוך $6$: $\\dfrac{3}{6}=\\dfrac{1}{2}$."
+  },
+  {
+    "id": "q-g10-u4-probability-2",
+    "topic_id": "g10-u4-probability",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נתון $P(A)=0.3$. מהי $P(\\bar A)$ (המאורע המשלים)?",
+    "options": ["$0.7$", "$0.3$", "$1.3$", "$0$"],
+    "correct_index": 0,
+    "explanation": "$P(\\bar A)=1-P(A)=1-0.3=0.7$."
+  },
+  {
+    "id": "q-g10-u4-probability-3",
+    "topic_id": "g10-u4-probability",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מאורעות זרים $A,B$ עם $P(A)=0.2$, $P(B)=0.5$. מהי $P(A\\cup B)$?",
+    "options": ["$0.7$", "$0.1$", "$1$", "$0.3$"],
+    "correct_index": 0,
+    "explanation": "עבור מאורעות זרים: $P(A\\cup B)=P(A)+P(B)=0.2+0.5=0.7$."
+  },
+  {
+    "id": "q-g10-u4-probability-4",
+    "topic_id": "g10-u4-probability",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון $P(A)=0.5$, $P(B)=0.4$, $P(A\\cap B)=0.2$. מהי $P(A\\cup B)$?",
+    "options": ["$0.7$", "$0.9$", "$0.5$", "$1.1$"],
+    "correct_index": 0,
+    "explanation": "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=0.5+0.4-0.2=0.7$."
+  },
+  {
+    "id": "q-g10-u4-probability-5",
+    "topic_id": "g10-u4-probability",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון $P(A\\cap B)=0.15$, $P(B)=0.3$. מהי $P(A/B)$?",
+    "options": ["$0.5$", "$0.15$", "$0.045$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$P(A/B)=\\dfrac{P(A\\cap B)}{P(B)}=\\dfrac{0.15}{0.3}=0.5$."
+  },
+  {
+    "id": "q-g10-u4-probability-6",
+    "topic_id": "g10-u4-probability",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתון $P(A)=0.4$, $P(B)=0.25$, $P(A\\cap B)=0.1$. האם $A$ ו-$B$ בלתי תלויים?",
+    "options": ["כן, כי $0.4\\times0.25=0.1$", "לא, כי $P(A\\cap B)\\ne0$", "אי אפשר לדעת", "לא, כי הם זרים"],
+    "correct_index": 0,
+    "explanation": "מתקיים $P(A)\\cdot P(B)=P(A\\cap B)$, ולכן לפי ההגדרה המאורעות בלתי תלויים."
+  },
+  {
+    "id": "q-g10-u4-probability-7",
+    "topic_id": "g10-u4-probability",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מרחב המדגם הוא:",
+    "options": ["אוסף כל התוצאות האפשריות של הניסוי", "ההסתברות של מאורע וודאי", "מאורע בלתי אפשרי", "רק התוצאות הרצויות"],
+    "correct_index": 0,
+    "explanation": "מרחב המדגם ($U$) כולל את כל התוצאות האפשריות, ולא רק את הרצויות."
+  },
+  {
+    "id": "q-g10-u4-probability-8",
+    "topic_id": "g10-u4-probability",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בקופסה יש $3$ כדורים אדומים ו-$4$ ירוקים. מוציאים $2$ כדורים בזה אחר זה בלי החזרה. מה ההסתברות ששניהם אדומים?",
+    "options": ["$\\dfrac{1}{7}$", "$\\dfrac{3}{7}$", "$\\dfrac{6}{7}$", "$\\dfrac{9}{49}$"],
+    "correct_index": 0,
+    "explanation": "$P=\\dfrac{3}{7}\\times\\dfrac{2}{6}=\\dfrac{6}{42}=\\dfrac{1}{7}$."
+  },
+  {
+    "id": "q-g10-u4-probability-9",
+    "topic_id": "g10-u4-probability",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "באותה קופסה ($3$ אדומים, $4$ ירוקים), מוציאים כדור, מחזירים אותו, ומוציאים שוב באקראי. מה ההסתברות ששני הכדורים אדומים?",
+    "options": ["$\\dfrac{9}{49}$", "$\\dfrac{1}{7}$", "$\\dfrac{6}{49}$", "$\\dfrac{3}{7}$"],
+    "correct_index": 0,
+    "explanation": "עם החזרה ההוצאות בלתי תלויות: $P=\\dfrac{3}{7}\\times\\dfrac{3}{7}=\\dfrac{9}{49}$."
+  },
+  {
+    "id": "q-g10-u4-probability-10",
+    "topic_id": "g10-u4-probability",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בבית ספר $60\\%$ מהתלמידים הם בנים. $20\\%$ מהבנים אוהבים ספורט, ו-$30\\%$ מהבנות אוהבות ספורט. מה ההסתברות שתלמיד אקראי אוהב ספורט?",
+    "options": ["$0.24$", "$0.5$", "$0.2$", "$0.3$"],
+    "correct_index": 0,
+    "explanation": "לפי נוסחת ההסתברות השלמה: $P=0.2\\times0.6+0.3\\times0.4=0.12+0.12=0.24$."
+  },
+  {
+    "id": "q-g10-u4-probability-11",
+    "topic_id": "g10-u4-probability",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מאורעות זרים (חיתוכם ריק) שלכל אחד מהם הסתברות חיובית - האם הם יכולים להיות בלתי תלויים?",
+    "options": ["לא - מאורעות זרים עם הסתברות חיובית תמיד תלויים", "כן, תמיד", "רק אם ההסתברויות שוות", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "אם $A\\cap B=\\emptyset$ אז $P(A\\cap B)=0$, אבל $P(A)\\cdot P(B)>0$ - כלומר $P(A\\cap B)\\ne P(A)\\cdot P(B)$, ולכן הם תלויים."
+  },
+  {
+    "id": "q-g10-u4-probability-12",
+    "topic_id": "g10-u4-probability",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "ההסתברות של מאורע וודאי היא:",
+    "options": ["$1$", "$0$", "$0.5$", "תלוי במאורע"],
+    "correct_index": 0,
+    "explanation": "מאורע וודאי הוא כל מרחב המדגם, ולכן הסתברותו תמיד $1$."
   }
 ];
 

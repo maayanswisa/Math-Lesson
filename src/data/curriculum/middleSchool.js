@@ -172,7 +172,7 @@ export const MIDDLE_SCHOOL_TOPICS = [
     "track": null,
     "cluster": "אלגברה",
     "title": "פונקציה קווית ואי-שוויונות",
-    "description": "שיפוע, חיתוך עם הצירים, ייצוגים של $y=mx+b$, ופתרון אי-שוויונות",
+    "description": "שיפוע, חיתוך עם הצירים, ייצוג הפונקציה הקווית, ופתרון אי-שוויונות",
     "sortOrder": 1,
     "explanation": "<span class='hl-teal'>פונקציה קווית</span> נראית כמו $y=mx+b$, והגרף שלה תמיד קו ישר.\n\n<div class='diagram-box'>\n<svg viewBox='0 0 220 160' xmlns='http://www.w3.org/2000/svg'>\n<line x1='10' y1='140' x2='210' y2='140' stroke='#1a2b3c' stroke-width='2'/>\n<line x1='40' y1='10' x2='40' y2='150' stroke='#1a2b3c' stroke-width='2'/>\n<line x1='40' y1='120' x2='190' y2='30' stroke='#0d6e6e' stroke-width='2.5'/>\n<circle cx='40' cy='120' r='4' fill='#c45c48'/>\n<text x='48' y='115' font-size='11' fill='#c45c48'>b (חיתוך עם y)</text>\n<text x='150' y='25' font-size='11' fill='#1a2b3c'>y=mx+b</text>\n</svg>\n</div>\n\n<span class='hl-teal'>$m$ (השיפוע)</span> אומר כמה $y$ עולה או יורד כאשר $x$ גדל ב-$1$ — שיפוע חיובי אומר גרף עולה, שיפוע שלילי אומר גרף יורד. <span class='hl-teal'>$b$</span> הוא הנקודה שבה הגרף חותך את ציר $y$.\n\nכשפותרים <span class='hl-coral'>אי-שוויון</span> (כמו $2x+1<7$), פותרים בדיוק כמו משוואה, אבל יש כלל מיוחד: <span class='hl-coral'>אם כופלים או מחלקים משני הצדדים במספר שלילי, הופכים את כיוון האי-שוויון</span>.",
     "keyFormulas": [
@@ -575,7 +575,7 @@ export const MIDDLE_SCHOOL_TOPICS = [
     "track": "reduced",
     "cluster": "פונקציות",
     "title": "פונקציה קווית",
-    "description": "גרף, שיפוע ויישומים מציאותיים (רמה מצומצמת)",
+    "description": "גרף, שיפוע ויישומים מציאותיים (מיועד ל-3 יח״ל)",
     "sortOrder": 1,
     "explanation": "פונקציה קווית נכתבת כ-$y=mx+b$, והגרף שלה הוא תמיד <span class='hl-teal'>קו ישר</span>.\n\n<span class='hl-teal'>$m$ (השיפוע)</span> קובע את התלילות והכיוון של הקו: שיפוע חיובי — הקו עולה, שיפוע שלילי — הקו יורד. <span class='hl-teal'>$b$</span> הוא הנקודה שבה הקו חותך את ציר $y$ (כאשר $x=0$).\n\nבמצבים מציאותיים (כמו מחיר לפי כמות, או מרחק לפי זמן), $m$ הוא לרוב \"קצב השינוי\" ו-$b$ הוא \"נקודת ההתחלה\".",
     "keyFormulas": [
@@ -653,13 +653,13 @@ export const MIDDLE_SCHOOL_TOPICS = [
 export const GRADE9_TRACKS = [
   {
     "id": "regular",
-    "title": "רמה רגילה",
+    "title": "תלמידים שמיועדים ל-4/5 יח״ל",
     "blurb": "אלגברה, פונקציה ריבועית, גאומטריה והסתברות"
   },
   {
     "id": "reduced",
-    "title": "רמה מצומצמת",
-    "blurb": "פונקציה קווית וריבועית בסיסית — לקראת 3 יח\\\"ל"
+    "title": "תלמידים שמיועדים ל-3 יח״ל",
+    "blurb": "פונקציה קווית וריבועית בסיסית"
   }
 ];
 
