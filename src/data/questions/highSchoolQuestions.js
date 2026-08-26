@@ -17480,6 +17480,3216 @@ export const QUESTIONS = [
     "options": ["$8$", "$10$", "$6.25$", "$4$"],
     "correct_index": 0,
     "explanation": "$\\dfrac{a}{\\sin A}=\\dfrac{5}{0.5}=10$, ולכן $b=10\\times\\sin B=10\\times0.8=8$."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-1",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{1}{g(x)}$ כאשר $g(3)=0$. מה ניתן לומר על תחום ההגדרה של $f$?",
+    "options": ["אינו כולל את $x=3$", "כולל את כל הממשיים", "כולל רק $x=3$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "כאשר $g(x)=0$, השבר $\\dfrac{1}{g(x)}$ אינו מוגדר, ולכן $x=3$ אינו בתחום ההגדרה."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-2",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=\\dfrac{1}{g(x)}$ אין:",
+    "options": ["נקודות חיתוך עם ציר $x$", "תחום הגדרה", "אסימפטוטות", "נקודות קיצון"],
+    "correct_index": 0,
+    "explanation": "שבר עם מונה $1$ לעולם אינו מתאפס, ולכן לפונקציה כזו אין נקודות חיתוך עם ציר $x$."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-3",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם $g(x)>0$ בתחום מסוים, מה ניתן לומר על $f(x)=\\dfrac{1}{g(x)}$ באותו תחום?",
+    "options": ["$f(x)>0$ גם כן", "$f(x)<0$", "$f(x)=0$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "חלוקה של $1$ (חיובי) במספר חיובי נותנת תמיד תוצאה חיובית."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-4",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בתחום שבו $g$ עולה (וחיובית), מה קורה ל-$f(x)=\\dfrac{1}{g(x)}$?",
+    "options": ["$f$ יורדת", "$f$ עולה", "$f$ קבועה", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "כאשר המכנה גדל, השבר קטן - ולכן $f$ יורדת בדיוק היכן ש-$g$ עולה."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-5",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=\\dfrac{1}{g(x)}$ יש אסימפטוטה מאונכת לציר $x$ בכל נקודה ש:",
+    "options": ["$g(x)=0$", "$g(x)=1$", "$g'(x)=0$", "$g(x)>0$"],
+    "correct_index": 0,
+    "explanation": "בכל אפס של המכנה $g$, הפונקציה $f$ אינה מוגדרת ויש אסימפטוטה מאונכת."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-6",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{1}{x^2-4}$. מהן האסימפטוטות המאונכות לציר $x$?",
+    "options": ["$x=2,\\ x=-2$", "$x=4,\\ x=-4$", "$x=0$", "אין אסימפטוטות"],
+    "correct_index": 0,
+    "explanation": "פותרים $x^2-4=0\\Rightarrow x=\\pm2$ - אלה אפסי המכנה, שם האסימפטוטות."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-7",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{1}{x^2+1}$. מהי האסימפטוטה האופקית כאשר $x\\to\\pm\\infty$?",
+    "options": ["$y=0$", "$y=1$", "$x=0$", "אין אסימפטוטה אופקית"],
+    "correct_index": 0,
+    "explanation": "כאשר $x\\to\\pm\\infty$, $x^2+1\\to\\infty$, ולכן $\\dfrac{1}{x^2+1}\\to0$."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-8",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הפונקציה $y=-f(x)$ מתקבלת מ-$y=f(x)$ על ידי שיקוף ביחס ל:",
+    "options": ["ציר $x$", "ציר $y$", "הישר $y=x$", "הראשית"],
+    "correct_index": 0,
+    "explanation": "הפיכת סימן ערכי הפונקציה משקפת את הגרף ביחס לציר $x$."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-9",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $g(x)=(x-1)^2$. מה ניתן לומר על $f(x)=\\dfrac{1}{g(x)}$?",
+    "options": ["$f(x)>0$ בכל תחום ההגדרה, עם אסימפטוטה ב-$x=1$", "$f(x)<0$ בכל מקום", "$f$ מוגדרת לכל $x$", "יש ל-$f$ נקודת חיתוך עם ציר $x$"],
+    "correct_index": 0,
+    "explanation": "$g(x)=(x-1)^2\\ge0$ תמיד (וחיובי פרט ל-$x=1$), ולכן $f$ חיובית בכל תחום הגדרתה, עם אסימפטוטה ב-$x=1$ שם $g$ מתאפסת."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-10",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הפונקציה $y=f(x-3)$ מתקבלת מ-$y=f(x)$ על ידי:",
+    "options": ["הזזה אופקית $3$ יחידות ימינה", "הזזה אנכית $3$ יחידות למעלה", "שיקוף ביחס לציר $y$", "מתיחה פי $3$"],
+    "correct_index": 0,
+    "explanation": "החלפת $x$ ב-$x-3$ מזיזה את הגרף $3$ יחידות ימינה."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-1",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נפח תיבה שאורכה $a$, רוחבה $b$, וגובהה $c$, הוא:",
+    "options": ["$a\\cdot b\\cdot c$", "$2(ab+ac+bc)$", "$2c(a+b)$", "$a+b+c$"],
+    "correct_index": 0,
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים שלה."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-2",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שטח הפנים הכולל של תיבה שאורכה $a$, רוחבה $b$, וגובהה $c$, הוא:",
+    "options": ["$2(ab+ac+bc)$", "$abc$", "$2c(a+b)$", "$ab+ac+bc$"],
+    "correct_index": 0,
+    "explanation": "לתיבה $6$ פאות המתחלקות לשלושה זוגות שווים: $ab$, $ac$, $bc$, כל אחד פעמיים."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-3",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שטח המעטפת של תיבה (ללא תחתית ותקרה) שאורך בסיסה $a$, רוחב בסיסה $b$, וגובהה $c$, הוא:",
+    "options": ["$2c(a+b)$", "$2(ab+ac+bc)$", "$abc$", "$ab$"],
+    "correct_index": 0,
+    "explanation": "שטח המעטפת כולל רק את $4$ פאות הצד: שני זוגות בגודל $ac$ ו-$bc$, סה\"כ $2ac+2bc=2c(a+b)$."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-4",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תיבה פתוחה (ללא מכסה) בעלת בסיס ריבועי בצלע $x$ ונפח $32$ סמ\"ק. מהו $x$ שעבורו שטח הפנים (כולל הבסיס, ללא המכסה) מינימלי?",
+    "options": ["$4$", "$2$", "$8$", "$16$"],
+    "correct_index": 0,
+    "explanation": "$V=x^2h=32\\Rightarrow h=\\dfrac{32}{x^2}$. שטח $S(x)=x^2+4xh=x^2+\\dfrac{128}{x}$. $S'(x)=2x-\\dfrac{128}{x^2}=0\\Rightarrow x^3=64\\Rightarrow x=4$."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-5",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מדוע בבעיית קיצון בתחום סגור יש לבדוק גם את קצוות התחום?",
+    "options": ["כי הקיצון המוחלט עשוי להתקבל שם", "כי הנגזרת אינה מוגדרת שם", "זה לא נחוץ", "כי אין קיצון בתחום סגור"],
+    "correct_index": 0,
+    "explanation": "בתחום סגור הערך המקסימלי/מינימלי עלול להתקבל בקצה התחום ולא רק בנקודה שבה הנגזרת מתאפסת."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-6",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תיבה פתוחה (ללא מכסה) עם בסיס ריבועי, עשויה מחומר ששטחו הכולל $108$ סמ\"ר. מהו $x$ (צלע הבסיס) שעבורו הנפח מקסימלי?",
+    "options": ["$6$", "$3$", "$12$", "$9$"],
+    "correct_index": 0,
+    "explanation": "$x^2+4xh=108\\Rightarrow h=\\dfrac{108-x^2}{4x}$. $V(x)=x^2h=\\dfrac{108x-x^3}{4}$. $V'(x)=\\dfrac{108-3x^2}{4}=0\\Rightarrow x^2=36\\Rightarrow x=6$."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-7",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בעיות קיצון בגאומטריה מרחבית עוסקות, בין היתר, ב:",
+    "options": ["נפח, שטח פנים ושטח מעטפת של תיבה", "רק בהיקף מצולעים", "רק בזוויות במעגל", "רק בפונקציות טריגונומטריות"],
+    "correct_index": 0,
+    "explanation": "החידוש בכיתה י\"א הוא הרחבת בעיות הקיצון לגאומטריה מרחבית, בעיקר תיבה."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-8",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לפי הקשר הבסיסי, רווח מוגדר כ:",
+    "options": ["הכנסה פחות עלות", "הכנסה כפול עלות", "עלות פחות הכנסה", "הכנסה חלקי עלות"],
+    "correct_index": 0,
+    "explanation": "רווח הוא ההפרש בין ההכנסה הכוללת לעלות הכוללת."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-9",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בבעיית התיבה הפתוחה (עם $x^2+4xh=108$), מהו תחום ההגדרה ההגיוני של $x$?",
+    "options": ["$0<x<\\sqrt{108}$", "$x>0$ בלבד", "$0<x<108$", "כל הממשיים"],
+    "correct_index": 0,
+    "explanation": "צריך $x>0$ וגם $h=\\dfrac{108-x^2}{4x}>0$, כלומר $x^2<108$."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-10",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מדוע חשוב להבחין בין קיצון פנימי לקיצון בקצה תחום ההגדרה?",
+    "options": ["כי שניהם עשויים להיות הקיצון המוחלט המבוקש בבעיה", "רק קיצון פנימי חשוב", "רק קיצון בקצה חשוב", "אין הבדל ביניהם"],
+    "correct_index": 0,
+    "explanation": "הקיצון המוחלט של הבעיה עשוי להיות בכל אחד מהסוגים, ולכן יש לבדוק את שניהם."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-1",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי האסימפטוטה האנכית של $f(x)=\\dfrac{3}{x+2}$?",
+    "options": ["$x=-2$", "$x=2$", "$y=-2$", "$y=3$"],
+    "correct_index": 0,
+    "explanation": "המכנה מתאפס ב-$x=-2$, ולכן שם האסימפטוטה המאונכת."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-2",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\dfrac{x^2}{x+1}$?",
+    "options": ["$\\dfrac{x^2+2x}{(x+1)^2}$", "$\\dfrac{2x}{(x+1)^2}$", "$2x$", "$\\dfrac{x^2-2x}{(x+1)^2}$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל המנה: $\\dfrac{2x(x+1)-x^2\\times1}{(x+1)^2}=\\dfrac{2x^2+2x-x^2}{(x+1)^2}=\\dfrac{x^2+2x}{(x+1)^2}$."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-3",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי $\\int x^3\\,dx$?",
+    "options": ["$\\dfrac{x^4}{4}+C$", "$3x^2+C$", "$\\dfrac{x^4}{4}$", "$4x^3+C$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל האינטגרציה: $\\int x^n\\,dx=\\dfrac{x^{n+1}}{n+1}+C$, עם $n=3$."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-4",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון $F'(x)=2x$ ו-$F(1)=5$. מהי $F(x)$?",
+    "options": ["$x^2+4$", "$x^2+5$", "$2x+3$", "$x^2$"],
+    "correct_index": 0,
+    "explanation": "פונקציה קדומה כללית: $F(x)=x^2+C$. מהצבת $F(1)=5$: $1+C=5\\Rightarrow C=4$."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-5",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חשבו: $\\int_0^2 2x\\,dx$",
+    "options": ["$4$", "$2$", "$8$", "$0$"],
+    "correct_index": 0,
+    "explanation": "$\\int_0^2 2x\\,dx=\\left[x^2\\right]_0^2=4-0=4$."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-6",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נפח תיבה עם אורך $5$, רוחב $4$, גובה $3$ הוא:",
+    "options": ["$60$", "$47$", "$12$", "$24$"],
+    "correct_index": 0,
+    "explanation": "$5\\times4\\times3=60$."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-7",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם גרף הפונקציה נמצא מתחת לציר $x$ בקטע מסוים, כיצד מחשבים את השטח (החיובי) שם?",
+    "options": ["לוקחים את הערך המוחלט של האינטגרל בקטע זה", "האינטגרל עצמו, גם אם שלילי", "השטח תמיד אפס", "לא ניתן לחשב שטח כזה"],
+    "correct_index": 0,
+    "explanation": "האינטגרל של פונקציה שלילית יוצא שלילי, אך שטח הוא תמיד גודל חיובי - לכן לוקחים ערך מוחלט."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-8",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{x}{x^2+1}$. האם היא זוגית או אי-זוגית?",
+    "options": ["אי-זוגית", "זוגית", "גם וגם", "אף אחת"],
+    "correct_index": 0,
+    "explanation": "$f(-x)=\\dfrac{-x}{x^2+1}=-f(x)$, ולכן הפונקציה אי-זוגית."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-9",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בתחום שבו $f$ יורדת, מה ניתן לומר על $f'$ שם?",
+    "options": ["$f'(x)<0$", "$f'(x)>0$", "$f'(x)=0$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "פונקציה יורדת גוררת נגזרת שלילית."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-10",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פונקציה מוגדרת בתחום הסגור $[1,5]$. נמצא ש-$f'(x)=0$ רק ב-$x=3$. כדי למצוא את הקיצון המוחלט, אילו נקודות יש לבדוק?",
+    "options": ["$x=1,\\ x=3,\\ x=5$", "$x=3$ בלבד", "$x=1,\\ x=5$ בלבד", "אין צורך לבדוק דבר"],
+    "correct_index": 0,
+    "explanation": "בתחום סגור בודקים גם את הנקודה החשודה ($x=3$) וגם את שני קצוות התחום."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-11",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{1}{x}$. מהי משוואת המשיק לגרף בנקודה $x=1$?",
+    "options": ["$y=-x+2$", "$y=x$", "$y=-x$", "$y=x+1$"],
+    "correct_index": 0,
+    "explanation": "$f(1)=1$, $f'(x)=-\\dfrac{1}{x^2}\\Rightarrow f'(1)=-1$. משוואת המשיק: $y-1=-1(x-1)\\Rightarrow y=-x+2$."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-12",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו את אי-השוויון $\\dfrac{x-2}{x+1}>0$",
+    "options": ["$x<-1$ או $x>2$", "$-1<x<2$", "$x>2$ בלבד", "$x<-1$ בלבד"],
+    "correct_index": 0,
+    "explanation": "השבר חיובי כאשר המונה והמכנה באותו סימן - כלומר מחוץ לתחום שבין השורשים $-1$ ו-$2$."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-1",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "המשיק למעגל בנקודת ההשקה:",
+    "options": ["מאונך לרדיוס באותה נקודה", "מקביל לרדיוס", "עובר במרכז המעגל", "חותך את המעגל בשתי נקודות"],
+    "correct_index": 0,
+    "explanation": "משפט יסוד: המשיק למעגל מאונך לרדיוס בנקודת ההשקה."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-2",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני משיקים למעגל היוצאים מאותה נקודה חיצונית:",
+    "options": ["שווים באורכם", "מאונכים תמיד", "מקבילים תמיד", "שונים תמיד באורכם"],
+    "correct_index": 0,
+    "explanation": "משפט יסוד: שני משיקים היוצאים מאותה נקודה חיצונית שווים באורכם."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-3",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "הקטע המחבר נקודה חיצונית (שממנה יוצאים שני משיקים) עם מרכז המעגל:",
+    "options": ["חוצה את הזווית בין שני המשיקים", "מאונך לאחד המשיקים בלבד", "אינו קשור לזווית בין המשיקים", "מקביל לאחד המשיקים"],
+    "correct_index": 0,
+    "explanation": "מסימטריה (חפיפת המשולשים משני צידי הקטע), הקטע ממרכז המעגל לנקודה החיצונית חוצה את הזווית בין המשיקים."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-4",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם שני משיקים למעגל מקבילים זה לזה, הקטע המחבר את נקודות ההשקה:",
+    "options": ["הוא קוטר במעגל", "הוא מיתר קצר", "עובר מחוץ למעגל", "אינו מיתר כלל"],
+    "correct_index": 0,
+    "explanation": "משיקים מקבילים נוגעים במעגל בשתי נקודות קצה קוטר - הקטע ביניהן עובר דרך המרכז."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-5",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם לכל משולש ניתן לחסום מעגל (מעגל העובר דרך שלושת קודקודיו)?",
+    "options": ["כן, לכל משולש", "רק למשולש ישר-זווית", "רק למשולש שווה-צלעות", "לא, רק לחלק מהמשולשים"],
+    "correct_index": 0,
+    "explanation": "שלושת האנכים האמצעיים לצלעות כל משולש נפגשים תמיד בנקודה אחת - מרכז המעגל החוסם."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-6",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם לכל משולש ניתן לחסום בתוכו מעגל המשיק לשלוש צלעותיו?",
+    "options": ["כן, לכל משולש", "רק למשולש ישר-זווית", "רק למשולש שווה-שוקיים", "לא, רק לחלק מהמשולשים"],
+    "correct_index": 0,
+    "explanation": "שלושת חוצי הזוויות של כל משולש נפגשים תמיד בנקודה אחת - מרכז המעגל החסום."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-7",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מרובע $ABCD$ חסום במעגל. זווית $A=95°$. מהי זווית $C$?",
+    "options": ["$85°$", "$95°$", "$180°$", "$265°$"],
+    "correct_index": 0,
+    "explanation": "במרובע חסום במעגל סכום זוויות נגדיות $=180°$: $180°-95°=85°$."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-8",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה סוג טרפז ניתן תמיד לחסום במעגל?",
+    "options": ["טרפז שווה-שוקיים", "כל טרפז", "רק טרפז ישר-זווית", "אף טרפז לא ניתן לחסום"],
+    "correct_index": 0,
+    "explanation": "בטרפז שווה-שוקיים זוויות הבסיס שוות, ומכאן שסכום זוג זוויות נגדיות הוא $180°$ - ולכן ניתן תמיד לחוסמו במעגל."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-9",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו היקף מעגל שרדיוסו $7$?",
+    "options": ["$14\\pi$", "$7\\pi$", "$49\\pi$", "$28\\pi$"],
+    "correct_index": 0,
+    "explanation": "היקף מעגל $=2\\pi R=2\\pi\\times7=14\\pi$."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-10",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו שטח עיגול שרדיוסו $5$?",
+    "options": ["$25\\pi$", "$10\\pi$", "$5\\pi$", "$50\\pi$"],
+    "correct_index": 0,
+    "explanation": "שטח עיגול $=\\pi R^2=\\pi\\times25=25\\pi$."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-11",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מרכז המעגל החוסם משולש הוא נקודת המפגש של:",
+    "options": ["האנכים האמצעיים לצלעות", "חוצי הזוויות", "התיכונים", "הגבהים"],
+    "correct_index": 0,
+    "explanation": "האנכים האמצעיים שווי מרחק לשני קצות כל צלע, ולכן מפגשם שווה מרחק לשלושת הקודקודים - מרכז המעגל החוסם."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-1",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו רדיוס המעגל $x^2+y^2=36$?",
+    "options": ["$6$", "$36$", "$18$", "$3$"],
+    "correct_index": 0,
+    "explanation": "לפי הצורה הקנונית $x^2+y^2=R^2$: $R^2=36\\Rightarrow R=6$."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-2",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו מרכז המעגל $(x-3)^2+(y+2)^2=25$?",
+    "options": ["$(3,-2)$", "$(-3,2)$", "$(3,2)$", "$(-3,-2)$"],
+    "correct_index": 0,
+    "explanation": "לפי הצורה $(x-a)^2+(y-b)^2=R^2$: כאן $a=3$, $b=-2$."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-3",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מעגל שרדיוסו $5$, ומרחק מרכזו מישר נתון הוא $3$. מה המצב ההדדי בין הישר למעגל?",
+    "options": ["הישר חותך את המעגל בשתי נקודות", "הישר משיק למעגל", "הישר אינו חותך את המעגל", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מכיוון ש-$d=3<R=5$, הישר חותך את המעגל בשתי נקודות."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-4",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מעגל שרדיוסו $4$, ומרחק מרכזו מישר נתון הוא $4$. מה המצב ההדדי?",
+    "options": ["הישר משיק למעגל", "הישר חותך בשתי נקודות", "הישר אינו נוגע במעגל", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מכיוון ש-$d=R=4$, הישר משיק למעגל - נוגע בו בנקודה אחת בלבד."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-5",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש $a=8$, זווית $A=30°$. מהו רדיוס המעגל החוסם?",
+    "options": ["$8$", "$16$", "$4$", "$32$"],
+    "correct_index": 0,
+    "explanation": "$2R=\\dfrac{a}{\\sin A}=\\dfrac{8}{0.5}=16\\Rightarrow R=8$."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-6",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מקבילית שצלעותיה $6$ ו-$9$, והזווית ביניהן $30°$. מהו שטחה?",
+    "options": ["$27$", "$54$", "$13.5$", "$67.5$"],
+    "correct_index": 0,
+    "explanation": "$S=ab\\sin\\theta=6\\times9\\times\\sin30°=54\\times0.5=27$."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-7",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זווית היקפית הנשענת על קוטר שווה ל:",
+    "options": ["$90°$", "$180°$", "$45°$", "תלוי בגודל המעגל"],
+    "correct_index": 0,
+    "explanation": "זווית היקפית הנשענת על קוטר היא מחצית הזווית המרכזית ($180°$), כלומר $90°$."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-8",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "המשיק למעגל מאונך ל:",
+    "options": ["הרדיוס בנקודת ההשקה", "הקוטר תמיד", "המיתר הקרוב ביותר", "מרכז המעגל"],
+    "correct_index": 0,
+    "explanation": "משפט יסוד: המשיק מאונך לרדיוס בנקודת ההשקה."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-9",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מרובע חסום במעגל, זווית $B=110°$. מהי זווית $D$?",
+    "options": ["$70°$", "$110°$", "$180°$", "$250°$"],
+    "correct_index": 0,
+    "explanation": "סכום זוויות נגדיות $=180°$: $180°-110°=70°$."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-10",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מעגל שמרכזו $(3,5)$ משיק לציר $x$. מהו רדיוסו?",
+    "options": ["$5$", "$3$", "$8$", "$\\sqrt{34}$"],
+    "correct_index": 0,
+    "explanation": "מרחק המרכז מציר $x$ שווה לשיעור ה-$y$ שלו: $5$. עבור מעגל המשיק לציר, המרחק הזה שווה לרדיוס."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-11",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתון מעגל $x^2+y^2=25$ ונקודה $(3,4)$ עליו. מהו שיפוע המשיק למעגל בנקודה זו?",
+    "options": ["$-\\dfrac{3}{4}$", "$\\dfrac{4}{3}$", "$\\dfrac{3}{4}$", "$-\\dfrac{4}{3}$"],
+    "correct_index": 0,
+    "explanation": "שיפוע הרדיוס לנקודה $(3,4)$ הוא $\\dfrac{4}{3}$. המשיק מאונך לרדיוס, ולכן שיפועו $-\\dfrac{3}{4}$."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-12",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שטח עיגול שרדיוסו $r$ מחושב לפי:",
+    "options": ["$\\pi r^2$", "$2\\pi r$", "$\\pi r$", "$2r$"],
+    "correct_index": 0,
+    "explanation": "נוסחת שטח עיגול היא $\\pi r^2$."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-1",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "ציון תקן $z$ מחושב לפי:",
+    "options": ["$z=\\dfrac{x-\\bar{x}}{\\sigma}$", "$z=\\dfrac{\\bar{x}-x}{\\sigma}$", "$z=x-\\bar{x}$", "$z=\\dfrac{x}{\\sigma}$"],
+    "correct_index": 0,
+    "explanation": "ציון תקן מודד כמה סטיות תקן הנתון $x$ מרוחק מהממוצע: $z=\\dfrac{x-\\bar{x}}{\\sigma}$."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-2",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ממוצע $70$, סטיית תקן $5$. מהו ציון התקן של הערך $80$?",
+    "options": ["$2$", "$10$", "$1.5$", "$0.5$"],
+    "correct_index": 0,
+    "explanation": "$z=\\dfrac{80-70}{5}=\\dfrac{10}{5}=2$."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-3",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ממוצע $60$, סטיית תקן $8$. מהו ציון התקן של הערך $52$?",
+    "options": ["$-1$", "$1$", "$-8$", "$0.5$"],
+    "correct_index": 0,
+    "explanation": "$z=\\dfrac{52-60}{8}=\\dfrac{-8}{8}=-1$."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-4",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ממוצע ציוני התקן של כל קבוצת נתונים הוא תמיד:",
+    "options": ["$0$", "$1$", "תלוי בנתונים", "שווה לממוצע המקורי"],
+    "correct_index": 0,
+    "explanation": "זו תכונת יסוד של ציוני תקן: ממוצעם תמיד $0$."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-5",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "סטיית התקן של ציוני התקן היא תמיד:",
+    "options": ["$1$", "$0$", "תלוי בנתונים", "שווה לסטיית התקן המקורית"],
+    "correct_index": 0,
+    "explanation": "זו תכונת יסוד של ציוני תקן: סטיית התקן שלהם תמיד $1$."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-6",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם ניתן לחשב ציון תקן רק עבור נתונים המתפלגים נורמלית?",
+    "options": ["לא, ניתן לחשבו עבור כל קבוצת נתונים", "כן, רק בהתפלגות נורמלית", "רק אם יש יותר מ-$100$ נתונים", "לעולם לא ניתן"],
+    "correct_index": 0,
+    "explanation": "ציון תקן הוא מדד סטטיסטי כללי שניתן לחשבו בכל קבוצת נתונים מספריים, ללא קשר לסוג ההתפלגות."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-7",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "עקומת ההתפלגות הנורמלית סימטרית ביחס ל:",
+    "options": ["הממוצע", "החציון בלבד", "השכיח בלבד", "הרדיוס"],
+    "correct_index": 0,
+    "explanation": "עקומת ההתפלגות הנורמלית סימטרית ביחס לממוצע (שבהתפלגות נורמלית שווה גם לחציון ולשכיח)."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-8",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בהתפלגות נורמלית, הממוצע, החציון והשכיח:",
+    "options": ["מתלכדים (שווים זה לזה)", "תמיד שונים זה מזה", "החציון תמיד הגדול ביותר", "אין קשר ביניהם"],
+    "correct_index": 0,
+    "explanation": "זו אחת התכונות הבולטות של ההתפלגות הנורמלית - שלושת מדדי המרכז מתלכדים."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-9",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ציון תקן חיובי משמעו שהערך:",
+    "options": ["מעל הממוצע", "מתחת לממוצע", "שווה לממוצע", "שלילי בהכרח"],
+    "correct_index": 0,
+    "explanation": "ציון תקן חיובי מציין שהנתון גדול מהממוצע."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-10",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "תלמיד א' קיבל ציון תקן $1.5$ במבחן א', ותלמיד ב' קיבל ציון תקן $1.2$ במבחן ב'. מי הצליח יותר ביחס לשאר הנבחנים במבחנו?",
+    "options": ["תלמיד א'", "תלמיד ב'", "שניהם שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "ציון תקן גבוה יותר מציין מיקום יחסי גבוה יותר ביחס לשאר הנבחנים, ללא תלות ביחידות המקוריות."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-11",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מדוע ציון תקן מאפשר להשוות נתונים מאוכלוסיות שונות (גם ביחידות שונות)?",
+    "options": ["כי הוא גודל ללא יחידות", "כי הוא תמיד חיובי", "כי הוא שווה לממוצע", "כי הוא תמיד שלם"],
+    "correct_index": 0,
+    "explanation": "היות שציון התקן חסר יחידות, אפשר להשוות בעזרתו נתונים שנמדדו במידות שונות."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-1",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מקדם המתאם הלינארי $r$ נמצא תמיד בתחום:",
+    "options": ["$-1\\le r\\le1$", "$0\\le r\\le1$", "$-\\infty<r<\\infty$", "$0\\le r\\le100$"],
+    "correct_index": 0,
+    "explanation": "זו תכונת יסוד של מקדם המתאם - הוא תמיד בין $-1$ ל-$1$."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-2",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם מקדם המתאם $r=1$, מה ניתן להסיק?",
+    "options": ["קשר לינארי חיובי מושלם - כל הנקודות על ישר אחד עולה", "אין קשר בין המשתנים", "קשר לינארי שלילי מושלם", "קשר לא-לינארי בלבד"],
+    "correct_index": 0,
+    "explanation": "$r=1$ מציין קשר לינארי חיובי מושלם - כל נקודות דיאגרמת הפיזור נמצאות בדיוק על ישר עולה."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-3",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם מקדם המתאם $r=0$, מה ניתן להסיק?",
+    "options": ["אין קשר לינארי בין המשתנים (אך ייתכן קשר לא-לינארי)", "אין שום קשר אפשרי בין המשתנים", "קשר לינארי מושלם", "המשתנים זהים"],
+    "correct_index": 0,
+    "explanation": "$r=0$ שולל רק קשר לינארי - יתכן שקיים קשר מסוג אחר (למשל ריבועי) בין המשתנים."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-4",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מקדם המתאם $r$ אינו משתנה כאשר:",
+    "options": ["מוסיפים קבוע לנתונים או משנים את יחידות המדידה", "מחליפים בין שני המשתנים", "רק כאשר מכפילים בקבוע שלילי", "בשום מקרה הוא לא משתנה"],
+    "correct_index": 0,
+    "explanation": "מקדם המתאם הוא גודל ללא יחידות, ולכן אינו מושפע מהוספת קבוע או משינוי יחידות המדידה."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-5",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מציאת מתאם (קורלציה) בין שני משתנים:",
+    "options": ["אינה מוכיחה בהכרח קשר סיבתי ביניהם", "תמיד מוכיחה קשר סיבתי", "אומרת שאחד גורם לשני", "פוסלת קשר סיבתי"],
+    "correct_index": 0,
+    "explanation": "קשר סטטיסטי (מתאם) אינו שקול לקשר סיבתי - ייתכן ששני המשתנים מושפעים מגורם שלישי משותף."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-6",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קו הרגרסיה עובר תמיד דרך הנקודה:",
+    "options": ["נקודת הממוצעים $(\\bar{x},\\bar{y})$", "הראשית $(0,0)$", "הנקודה עם ה-$x$ המקסימלי", "אין נקודה קבועה שהוא עובר דרכה"],
+    "correct_index": 0,
+    "explanation": "תכונה מרכזית של קו הרגרסיה: הוא תמיד עובר דרך נקודת הממוצעים של שני המשתנים."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-7",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון $r=0.6$, $S_x=4$, $S_y=10$. מהו שיפוע קו הרגרסיה?",
+    "options": ["$1.5$", "$0.24$", "$0.6$", "$4.17$"],
+    "correct_index": 0,
+    "explanation": "$b=r\\cdot\\dfrac{S_y}{S_x}=0.6\\times\\dfrac{10}{4}=1.5$."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-8",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בדיאגרמת פיזור, אם ככל ש-$x$ גדל $y$ נוטה לקטון, מדובר בקשר:",
+    "options": ["שלילי", "חיובי", "מושלם", "אין קשר"],
+    "correct_index": 0,
+    "explanation": "כאשר גידול במשתנה אחד מלווה בירידה בשני, זהו קשר שלילי."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-9",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מתי יש משמעות מעשית לניבוי באמצעות קו הרגרסיה?",
+    "options": ["רק כאשר קיים קשר סטטיסטי לינארי בין המשתנים", "תמיד, בכל מצב", "רק כאשר $r=0$", "רק כאשר אין קשר בין המשתנים"],
+    "correct_index": 0,
+    "explanation": "ניבוי בעזרת קו הרגרסיה הגיוני רק כאשר קיים קשר סטטיסטי לינארי משמעותי בין המשתנים."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-10",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מקדם מתאם $r=0.85$ מעיד על קשר לינארי:",
+    "options": ["חזק", "חלש", "בינוני", "אין קשר כלל"],
+    "correct_index": 0,
+    "explanation": "ערך $|r|$ קרוב ל-$1$ (כמו $0.85$) מעיד על קשר לינארי חזק."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-11",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מקדם המתאם בין $x$ ל-$y$ לעומת בין $y$ ל-$x$:",
+    "options": ["זהה - מקדם המתאם סימטרי", "תמיד הפוך בסימנו", "אין קשר ביניהם", "תלוי איזה משתנה תלוי ואיזה בלתי תלוי"],
+    "correct_index": 0,
+    "explanation": "מקדם המתאם הוא גודל סימטרי - אינו תלוי בבחירה איזה משתנה \"תלוי\" ואיזה \"בלתי תלוי\"."
+  },
+  {
+    "id": "q-g11-u5-arithmetic-seq-1",
+    "topic_id": "g11-u5-arithmetic-seq",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נתונה סדרה חשבונית עם $a_1=3$ ו-$d=4$. מהו $a_5$?",
+    "options": ["$19$", "$15$", "$23$", "$7$"],
+    "correct_index": 0,
+    "explanation": "$a_5=a_1+4d=3+4\\times4=19$."
+  },
+  {
+    "id": "q-g11-u5-arithmetic-seq-2",
+    "topic_id": "g11-u5-arithmetic-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונה סדרה חשבונית עם $a_1=10$ ו-$d=-2$. מהו $a_{10}$?",
+    "options": ["$-8$", "$-10$", "$8$", "$-18$"],
+    "correct_index": 0,
+    "explanation": "$a_{10}=a_1+9d=10+9\\times(-2)=10-18=-8$."
+  },
+  {
+    "id": "q-g11-u5-arithmetic-seq-3",
+    "topic_id": "g11-u5-arithmetic-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בסדרה חשבונית $a_3=7$ ו-$a_7=19$. מהו ההפרש הסדרתי $d$?",
+    "options": ["$3$", "$4$", "$12$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$a_7=a_3+4d\\Rightarrow19=7+4d\\Rightarrow d=3$."
+  },
+  {
+    "id": "q-g11-u5-arithmetic-seq-4",
+    "topic_id": "g11-u5-arithmetic-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונה סדרה חשבונית $a_1=2$, $d=3$. מהו סכום $10$ האיברים הראשונים?",
+    "options": ["$155$", "$140$", "$310$", "$29$"],
+    "correct_index": 0,
+    "explanation": "$S_{10}=\\dfrac{10\\left[2\\times2+9\\times3\\right]}{2}=\\dfrac{10\\times31}{2}=155$."
+  },
+  {
+    "id": "q-g11-u5-arithmetic-seq-5",
+    "topic_id": "g11-u5-arithmetic-seq",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "תכונה ייחודית של סדרה חשבונית היא שכל איבר בה:",
+    "options": ["הוא הממוצע החשבוני של שני שכניו", "גדול פי $2$ מהאיבר הקודם", "שווה לסכום כל הקודמים", "הוא תמיד חיובי"],
+    "correct_index": 0,
+    "explanation": "מכיוון שההפרש בין איברים עוקבים קבוע, כל איבר נמצא בדיוק באמצע בין שכניו - ולכן הוא ממוצעם החשבוני."
+  },
+  {
+    "id": "q-g11-u5-arithmetic-seq-6",
+    "topic_id": "g11-u5-arithmetic-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הנקודות $(n,a_n)$ של סדרה חשבונית נמצאות תמיד על:",
+    "options": ["ישר", "פרבולה", "מעגל", "היפרבולה"],
+    "correct_index": 0,
+    "explanation": "$a_n=a_1+(n-1)d$ הוא ביטוי לינארי ב-$n$, ולכן הנקודות נמצאות על ישר."
+  },
+  {
+    "id": "q-g11-u5-arithmetic-seq-7",
+    "topic_id": "g11-u5-arithmetic-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הנקודות $(n,S_n)$ - כאשר $S_n$ סכום $n$ האיברים הראשונים של סדרה חשבונית - נמצאות על:",
+    "options": ["פרבולה", "ישר", "מעגל", "קו ישר אנכי"],
+    "correct_index": 0,
+    "explanation": "$S_n$ הוא ביטוי ריבועי ב-$n$, ולכן הנקודות נמצאות על פרבולה."
+  },
+  {
+    "id": "q-g11-u5-arithmetic-seq-8",
+    "topic_id": "g11-u5-arithmetic-seq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי להוכיח שסדרה נתונה *אינה* חשבונית, מספיק:",
+    "options": ["למצוא שני זוגות איברים עוקבים עם הפרשים שונים", "לבדוק את כל האיברים בסדרה", "להוכיח באינדוקציה", "לחשב את הסכום שלה"],
+    "correct_index": 0,
+    "explanation": "דוגמה נגדית אחת (שני הפרשים שונים) מספיקה כדי להפריך שהסדרה חשבונית."
+  },
+  {
+    "id": "q-g11-u5-arithmetic-seq-9",
+    "topic_id": "g11-u5-arithmetic-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונה סדרה חשבונית $a_n$. אם מגדירים $b_n=a_n+5$, האם $b_n$ גם היא סדרה חשבונית?",
+    "options": ["כן, עם אותו הפרש $d$", "לא, אף פעם", "כן, אבל עם הפרש שונה", "רק אם $d=0$"],
+    "correct_index": 0,
+    "explanation": "הוספת קבוע לכל איברי הסדרה אינה משנה את ההפרש בין איברים עוקבים."
+  },
+  {
+    "id": "q-g11-u5-arithmetic-seq-10",
+    "topic_id": "g11-u5-arithmetic-seq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו סכום המספרים הזוגיים מ-$2$ עד $100$?",
+    "options": ["$2550$", "$2500$", "$5050$", "$5100$"],
+    "correct_index": 0,
+    "explanation": "סדרה חשבונית עם $a_1=2$, $d=2$, $n=50$ (האיבר האחרון $100$): $S_{50}=\\dfrac{50(2+100)}{2}=50\\times51=2550$."
+  },
+  {
+    "id": "q-g11-u5-arithmetic-seq-11",
+    "topic_id": "g11-u5-arithmetic-seq",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "באולם קולנוע, בכל שורה יש $5$ מושבים יותר מבשורה הקודמת. בשורה הראשונה יש $20$ מושבים. כמה שורות יש אם הקיבולת הכוללת היא $1{,}125$?",
+    "options": ["$18$", "$20$", "$15$", "$25$"],
+    "correct_index": 0,
+    "explanation": "$S_n=\\dfrac{n(35+5n)}{2}=1125\\Rightarrow n^2+7n-450=0\\Rightarrow n=\\dfrac{-7+\\sqrt{1849}}{2}=\\dfrac{-7+43}{2}=18$."
+  },
+  {
+    "id": "q-g11-u5-geometric-seq-1",
+    "topic_id": "g11-u5-geometric-seq",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נתונה סדרה הנדסית $a_1=2$, $q=3$. מהו $a_4$?",
+    "options": ["$54$", "$24$", "$18$", "$162$"],
+    "correct_index": 0,
+    "explanation": "$a_4=a_1\\cdot q^3=2\\times27=54$."
+  },
+  {
+    "id": "q-g11-u5-geometric-seq-2",
+    "topic_id": "g11-u5-geometric-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונה סדרה הנדסית $a_1=100$, $q=0.5$. מהו $a_5$?",
+    "options": ["$6.25$", "$12.5$", "$3.125$", "$25$"],
+    "correct_index": 0,
+    "explanation": "$a_5=100\\times0.5^4=100\\times0.0625=6.25$."
+  },
+  {
+    "id": "q-g11-u5-geometric-seq-3",
+    "topic_id": "g11-u5-geometric-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בסדרה הנדסית $a_3=12$ ו-$a_4=24$. מהי המנה הסדרתית $q$?",
+    "options": ["$2$", "$0.5$", "$12$", "$3$"],
+    "correct_index": 0,
+    "explanation": "$q=\\dfrac{a_4}{a_3}=\\dfrac{24}{12}=2$."
+  },
+  {
+    "id": "q-g11-u5-geometric-seq-4",
+    "topic_id": "g11-u5-geometric-seq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה סדרה הנדסית $a_1=3$, $q=2$. מהו סכום $5$ האיברים הראשונים?",
+    "options": ["$93$", "$96$", "$48$", "$31$"],
+    "correct_index": 0,
+    "explanation": "$S_5=\\dfrac{3(2^5-1)}{2-1}=3\\times31=93$."
+  },
+  {
+    "id": "q-g11-u5-geometric-seq-5",
+    "topic_id": "g11-u5-geometric-seq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה סדרה הנדסית אינסופית $a_1=8$, $q=0.5$. מהו סכום כל איברי הסדרה?",
+    "options": ["$16$", "$8$", "$4$", "$\\infty$"],
+    "correct_index": 0,
+    "explanation": "$S=\\dfrac{a_1}{1-q}=\\dfrac{8}{0.5}=16$."
+  },
+  {
+    "id": "q-g11-u5-geometric-seq-6",
+    "topic_id": "g11-u5-geometric-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "סכום אינסופי של סדרה הנדסית קיים (מתכנס) רק כאשר:",
+    "options": ["$|q|<1$", "$q>0$", "$a_1>0$", "תמיד קיים סכום אינסופי"],
+    "correct_index": 0,
+    "explanation": "רק כאשר $|q|<1$ האיברים שואפים לאפס, וסדרת הסכומים החלקיים מתכנסת."
+  },
+  {
+    "id": "q-g11-u5-geometric-seq-7",
+    "topic_id": "g11-u5-geometric-seq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "המספר $0.333\\ldots$ הוא סכום סדרה הנדסית אינסופית עם $a_1=0.3$ ו-$q=0.1$. מהו הסכום (כשבר)?",
+    "options": ["$\\dfrac{1}{3}$", "$\\dfrac{1}{10}$", "$\\dfrac{3}{10}$", "$\\dfrac{1}{9}$"],
+    "correct_index": 0,
+    "explanation": "$S=\\dfrac{0.3}{1-0.1}=\\dfrac{0.3}{0.9}=\\dfrac{1}{3}$."
+  },
+  {
+    "id": "q-g11-u5-geometric-seq-8",
+    "topic_id": "g11-u5-geometric-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בטווח הארוך, סדרה הנדסית עולה (עם $q>1$) בהשוואה לסדרה חשבונית עולה:",
+    "options": ["הרבה יותר מהר", "תמיד לאט יותר", "באותו קצב בדיוק", "תלוי רק בערך $a_1$"],
+    "correct_index": 0,
+    "explanation": "גידול הנדסי (מכפלה חוזרת) מהיר בהרבה מגידול חשבוני (תוספת קבועה) ככל שמתקדמים בסדרה."
+  },
+  {
+    "id": "q-g11-u5-geometric-seq-9",
+    "topic_id": "g11-u5-geometric-seq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי להוכיח שסדרה נתונה *אינה* הנדסית, מספיק:",
+    "options": ["למצוא שתי מנות בין איברים עוקבים שאינן שוות", "לבדוק את כל האיברים", "להוכיח באינדוקציה", "לחשב את הסכום שלה"],
+    "correct_index": 0,
+    "explanation": "דוגמה נגדית אחת (שתי מנות שונות) מספיקה כדי להפריך שהסדרה הנדסית."
+  },
+  {
+    "id": "q-g11-u5-geometric-seq-10",
+    "topic_id": "g11-u5-geometric-seq",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "הפקדה של $1000$ ₪ בריבית שנתית של $5\\%$. מהו הסכום בקירוב לאחר $3$ שנים?",
+    "options": ["$\\approx1157.6$ ₪", "$\\approx1150$ ₪", "$\\approx1200$ ₪", "$\\approx1050$ ₪"],
+    "correct_index": 0,
+    "explanation": "$1000\\times1.05^3\\approx1000\\times1.157625\\approx1157.6$."
+  },
+  {
+    "id": "q-g11-u5-geometric-seq-11",
+    "topic_id": "g11-u5-geometric-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו כלל הנסיגה המתאים לסדרה הנדסית עם מנה $q$?",
+    "options": ["$a_{n+1}=a_n\\cdot q$", "$a_{n+1}=a_n+q$", "$a_{n+1}=q\\cdot n$", "$a_{n+1}=a_n^{\\,q}$"],
+    "correct_index": 0,
+    "explanation": "בסדרה הנדסית כל איבר מתקבל מהקודם על ידי הכפלה במנה $q$."
+  },
+  {
+    "id": "q-g11-u5-induction-1",
+    "topic_id": "g11-u5-induction",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בהוכחה באינדוקציה, השלב שבו מוכיחים שהטענה נכונה עבור $n=1$ נקרא:",
+    "options": ["שלב הבסיס", "שלב הצעד", "שלב ההסקה", "שלב ההנחה"],
+    "correct_index": 0,
+    "explanation": "שלב הבסיס הוא הבדיקה של המקרה הפרטני הראשון, בדרך כלל $n=1$."
+  },
+  {
+    "id": "q-g11-u5-induction-2",
+    "topic_id": "g11-u5-induction",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "השלב שבו מניחים נכונות עבור $n=k$ ומוכיחים עבור $n=k+1$ נקרא:",
+    "options": ["שלב הצעד", "שלב הבסיס", "שלב הסיכום", "שלב ההשערה"],
+    "correct_index": 0,
+    "explanation": "שלב הצעד הוא לב ההוכחה - מעבר מהנחה על $k$ להוכחה עבור $k+1$."
+  },
+  {
+    "id": "q-g11-u5-induction-3",
+    "topic_id": "g11-u5-induction",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם הוכחנו רק את שלב הבסיס אך לא את שלב הצעד, מה ניתן להסיק?",
+    "options": ["לא הוכחנו את הטענה לכל $n$", "הטענה נכונה לכל $n$", "הטענה שגויה בהכרח", "אין צורך בשלב הצעד"],
+    "correct_index": 0,
+    "explanation": "שני השלבים נחוצים יחד; בלי שלב הצעד אין הוכחה שלמה לכל $n$ טבעי."
+  },
+  {
+    "id": "q-g11-u5-induction-4",
+    "topic_id": "g11-u5-induction",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה טענה שנכונה עבור $n=1$ בלבד, אך שלב הצעד אינו ניתן להוכחה. מה ניתן להסיק?",
+    "options": ["הטענה אינה מוכחת לכל $n$ טבעי", "הטענה מוכחת לכל $n$", "מספיק שלב הבסיס לבד", "יש להוכיח רק את שלב הצעד"],
+    "correct_index": 0,
+    "explanation": "בלי הוכחת שלב הצעד, אין ערובה שהטענה נכונה מעבר למקרה שנבדק."
+  },
+  {
+    "id": "q-g11-u5-induction-5",
+    "topic_id": "g11-u5-induction",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הוכחה באינדוקציה מתאימה בעיקר להוכחת טענות:",
+    "options": ["שיש בהן משתנה שהוא מספר טבעי", "על מספרים ממשיים כלליים", "רק על מספרים שליליים", "רק על שברים"],
+    "correct_index": 0,
+    "explanation": "אינדוקציה מיועדת לטענות \"לכל מספר טבעי $n$\"."
+  },
+  {
+    "id": "q-g11-u5-induction-6",
+    "topic_id": "g11-u5-induction",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בשלב הצעד, ההנחה \"הטענה נכונה עבור $k$\" היא:",
+    "options": ["הנחה זמנית לצורך ההוכחה, לא זהה לטענה הכללית שמוכיחים", "בדיוק אותה טענה שמוכיחים", "הוכחה מלאה בפני עצמה", "מיותרת לגמרי"],
+    "correct_index": 0,
+    "explanation": "ההנחה בשלב הצעד היא כלי עבודה זמני (\"אם...\"), שונה מהטענה הכללית שמוכיחים לכל $n$."
+  },
+  {
+    "id": "q-g11-u5-induction-7",
+    "topic_id": "g11-u5-induction",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם צריך לדעת שהטענה נכונה עבור $k$ כלשהו כדי להוכיח את שלב הצעד?",
+    "options": ["לא, שלב הצעד הוא הוכחה מהצורה \"אם...אז\", גם בלי לדעת אם ההנחה מתקיימת", "כן, חובה לבדוק זאת קודם", "רק במקרים מסוימים", "זה תלוי בסוג הטענה"],
+    "correct_index": 0,
+    "explanation": "שלב הצעד מוכיח גרירה לוגית, ולכן תקף גם אם לא ידוע אם ההנחה עצמה נכונה."
+  },
+  {
+    "id": "q-g11-u5-induction-8",
+    "topic_id": "g11-u5-induction",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "הוכחה באינדוקציה משמשת, בין היתר, כדי להוכיח:",
+    "options": ["שקילות בין הגדרת סדרה לפי מקום להגדרתה לפי נוסחת נסיגה", "שסדרה היא בהכרח הנדסית", "שכל סדרה מתכנסת", "שאין סדרות אינסופיות"],
+    "correct_index": 0,
+    "explanation": "אינדוקציה משמשת להוכיח שקילות בין הגדרות שונות של סדרות, ונוסחאות סכום."
+  },
+  {
+    "id": "q-g11-u5-induction-9",
+    "topic_id": "g11-u5-induction",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "עקרון האינדוקציה דומה לאנלוגיית שורת הדומינו: אם הדומינו הראשונה נופלת וכל דומינו מפילה את הבאה, מה קורה?",
+    "options": ["כל השורה תיפול", "רק הדומינו הראשונה תיפול", "אף דומינו לא תיפול", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "בדיוק כמו בהוכחה באינדוקציה: בסיס + צעד מבטיחים שהטענה \"תיפול\" לכל $n$."
+  },
+  {
+    "id": "q-g11-u5-induction-10",
+    "topic_id": "g11-u5-induction",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "רוצים להוכיח באינדוקציה שהביטוי $n^3-n$ מתחלק ב-$6$ לכל $n$ טבעי. מהי בדיקת שלב הבסיס ($n=1$)?",
+    "options": ["$1^3-1=0$, ו-$0$ מתחלק ב-$6$", "$1^3-1=1$", "אין צורך לבדוק את $n=1$", "$1^3-1=6$"],
+    "correct_index": 0,
+    "explanation": "מציבים $n=1$: $1^3-1=0$, וכל מספר (כולל $0$) מתחלק ב-$6$ אם התוצאה $0$."
+  },
+  {
+    "id": "q-g11-u5-second-derivative-1",
+    "topic_id": "g11-u5-second-derivative",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $f''(x)>0$ בתחום מסוים, הפונקציה שם:",
+    "options": ["קעורה כלפי מעלה", "קעורה כלפי מטה", "קבועה", "אינה רציפה"],
+    "correct_index": 0,
+    "explanation": "נגזרת שנייה חיובית משמעה שהנגזרת הראשונה עולה - קעירות כלפי מעלה."
+  },
+  {
+    "id": "q-g11-u5-second-derivative-2",
+    "topic_id": "g11-u5-second-derivative",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $f''(x)<0$ בתחום מסוים, הפונקציה שם:",
+    "options": ["קעורה כלפי מטה", "קעורה כלפי מעלה", "עולה בהכרח", "יורדת בהכרח"],
+    "correct_index": 0,
+    "explanation": "נגזרת שנייה שלילית משמעה שהנגזרת הראשונה יורדת - קעירות כלפי מטה."
+  },
+  {
+    "id": "q-g11-u5-second-derivative-3",
+    "topic_id": "g11-u5-second-derivative",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נקודות החשודות להיות נקודות פיתול הן נקודות בהן:",
+    "options": ["$f''(x)=0$ או $f''$ אינה מוגדרת", "$f'(x)=0$ בלבד", "$f(x)=0$", "הפונקציה חותכת את ציר $x$"],
+    "correct_index": 0,
+    "explanation": "אלה הנקודות החשודות; יש לוודא בפועל שהקעירות אכן משתנה שם."
+  },
+  {
+    "id": "q-g11-u5-second-derivative-4",
+    "topic_id": "g11-u5-second-derivative",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^2-4x+3$. ב-$x=2$, $f'(2)=0$. באמצעות הנגזרת השנייה, קבעו את סוג הקיצון.",
+    "options": ["מינימום (כי $f''(x)=2>0$)", "מקסימום", "נקודת פיתול", "אי אפשר לקבוע"],
+    "correct_index": 0,
+    "explanation": "$f''(x)=2>0$ בכל מקום, ולכן ב-$x=2$ (שם $f'=0$) יש מינימום."
+  },
+  {
+    "id": "q-g11-u5-second-derivative-5",
+    "topic_id": "g11-u5-second-derivative",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם $f'(x_0)=0$ וגם $f''(x_0)=0$, מה ניתן להסיק על סוג הקיצון ב-$x_0$?",
+    "options": ["לא ניתן להסיק דבר ממבחן הנגזרת השנייה", "בוודאות מינימום", "בוודאות מקסימום", "בוודאות נקודת פיתול"],
+    "correct_index": 0,
+    "explanation": "כאשר $f''(x_0)=0$, מבחן הנגזרת השנייה אינו קובע - יש להשתמש בכלי אחר (כמו טבלת סימנים)."
+  },
+  {
+    "id": "q-g11-u5-second-derivative-6",
+    "topic_id": "g11-u5-second-derivative",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם $s(t)$ מתארת מיקום גוף, מה מתארת $s''(t)$?",
+    "options": ["תאוצה", "מהירות", "מרחק כולל", "זמן"],
+    "correct_index": 0,
+    "explanation": "$s'(t)$ היא המהירות, ו-$s''(t)$ (הנגזרת של המהירות) היא התאוצה."
+  },
+  {
+    "id": "q-g11-u5-second-derivative-7",
+    "topic_id": "g11-u5-second-derivative",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^3$. מהי נקודת הפיתול שלה?",
+    "options": ["$x=0$", "$x=1$", "$x=-1$", "אין לה נקודת פיתול"],
+    "correct_index": 0,
+    "explanation": "$f''(x)=6x=0\\Rightarrow x=0$, והקעירות אכן משתנה שם (מ-$\\cap$ ל-$\\cup$)."
+  },
+  {
+    "id": "q-g11-u5-second-derivative-8",
+    "topic_id": "g11-u5-second-derivative",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפונקציה $f(x)=x^3$, נקודת הפיתול ב-$x=0$ מסוג:",
+    "options": ["אופקית (כי $f'(0)=0$ גם כן)", "משופעת", "אנכית", "אין לה סוג מוגדר"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=3x^2\\Rightarrow f'(0)=0$, ולכן המשיק בנקודת הפיתול מקביל לציר $x$ - פיתול \"אופקי\"."
+  },
+  {
+    "id": "q-g11-u5-second-derivative-9",
+    "topic_id": "g11-u5-second-derivative",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ברוב המקרים, בנקודת פיתול הנגזרת הראשונה:",
+    "options": ["אינה מתאפסת (\"פיתול משופע\")", "תמיד מתאפסת", "אינה מוגדרת", "שווה לאפס תמיד"],
+    "correct_index": 0,
+    "explanation": "המקרה השכיח הוא שהמשיק בנקודת הפיתול אינו מקביל לצירים, כלומר $f'\\ne0$ שם."
+  },
+  {
+    "id": "q-g11-u5-second-derivative-10",
+    "topic_id": "g11-u5-second-derivative",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הנגזרת השנייה $f''(x)$ מוגדרת כ:",
+    "options": ["הנגזרת של הנגזרת הראשונה - קצב השינוי של קצב השינוי", "הנגזרת של הפונקציה המקורית", "ריבוע הנגזרת הראשונה", "האינטגרל של הפונקציה"],
+    "correct_index": 0,
+    "explanation": "הנגזרת השנייה היא הנגזרת שנייה ברציפות - נגזרת של הנגזרת הראשונה."
+  },
+  {
+    "id": "q-g11-u5-second-derivative-11",
+    "topic_id": "g11-u5-second-derivative",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^4$. ב-$x=0$, $f''(0)=0$. האם $x=0$ היא נקודת פיתול?",
+    "options": ["לא - הקעירות אינה משתנה שם (הפונקציה קעורה כלפי מעלה משני הצדדים)", "כן, תמיד כאשר $f''=0$", "כן, כי $f'(0)=0$ גם", "אי אפשר לדעת בלי חישוב נוסף"],
+    "correct_index": 0,
+    "explanation": "$f''(x)=12x^2\\ge0$ תמיד, כך שהקעירות תמיד כלפי מעלה משני צדי $x=0$ - אין שינוי קעירות, ולכן אין כאן נקודת פיתול למרות ש-$f''(0)=0$."
+  },
+  {
+    "id": "q-g11-u5-root-functions-adv-1",
+    "topic_id": "g11-u5-root-functions-adv",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפונקציה $f(x)=\\sqrt{g(x)}$, מהי הדרישה על תחום ההגדרה?",
+    "options": ["$g(x)\\ge0$", "$g(x)\\ne0$ בלבד", "$g(x)>1$", "אין דרישה מיוחדת"],
+    "correct_index": 0,
+    "explanation": "שורש ריבועי מוגדר (בממשיים) רק עבור ביטוי שאינו שלילי."
+  },
+  {
+    "id": "q-g11-u5-root-functions-adv-2",
+    "topic_id": "g11-u5-root-functions-adv",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{x^2}$ עבור $x=-5$?",
+    "options": ["$5$", "$-5$", "$25$", "לא מוגדר"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{x^2}=|x|$, ולכן $\\sqrt{(-5)^2}=|-5|=5$."
+  },
+  {
+    "id": "q-g11-u5-root-functions-adv-3",
+    "topic_id": "g11-u5-root-functions-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\sqrt{9-x^2}$ (תחום $-3\\le x\\le3$). מהי נקודת המינימום המוחלט?",
+    "options": ["$x=\\pm3$ (קיצון בקצה תחום ההגדרה, $f=0$)", "$x=0$", "$x=1$", "אין מינימום"],
+    "correct_index": 0,
+    "explanation": "בקצוות התחום $f(\\pm3)=0$ - הערך הקטן ביותר האפשרי, המתקבל כקיצון בקצה תחום ההגדרה."
+  },
+  {
+    "id": "q-g11-u5-root-functions-adv-4",
+    "topic_id": "g11-u5-root-functions-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{x}{\\sqrt{x^2+1}}$. מהי האסימפטוטה האופקית כאשר $x\\to+\\infty$?",
+    "options": ["$y=1$", "$y=-1$", "$y=0$", "אין אסימפטוטה"],
+    "correct_index": 0,
+    "explanation": "כאשר $x\\to+\\infty$, $\\dfrac{x}{\\sqrt{x^2+1}}\\to1$."
+  },
+  {
+    "id": "q-g11-u5-root-functions-adv-5",
+    "topic_id": "g11-u5-root-functions-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "באותה פונקציה $f(x)=\\dfrac{x}{\\sqrt{x^2+1}}$, מהי האסימפטוטה האופקית כאשר $x\\to-\\infty$?",
+    "options": ["$y=-1$", "$y=1$", "$y=0$", "אין אסימפטוטה"],
+    "correct_index": 0,
+    "explanation": "כאשר $x\\to-\\infty$, $\\dfrac{x}{\\sqrt{x^2+1}}\\to-1$ - אסימפטוטה שונה מזו ב-$+\\infty$."
+  },
+  {
+    "id": "q-g11-u5-root-functions-adv-6",
+    "topic_id": "g11-u5-root-functions-adv",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפתרון משוואה אי-רציונלית, לאחר העלאת שני האגפים בריבוע, יש:",
+    "options": ["לבדוק את כל הפתרונות בהצבה במשוואה המקורית", "לקבל את כל הפתרונות כתקפים אוטומטית", "להתעלם מהפתרונות השליליים תמיד", "לפתור שוב את המשוואה המקורית מההתחלה"],
+    "correct_index": 0,
+    "explanation": "העלאה בריבוע עלולה ליצור פתרונות זרים, ולכן חובה לבדוק כל פתרון בהצבה חזרה."
+  },
+  {
+    "id": "q-g11-u5-root-functions-adv-7",
+    "topic_id": "g11-u5-root-functions-adv",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו את המשוואה $\\sqrt{x+2}=x$ (שימו לב לבדוק פתרונות זרים).",
+    "options": ["$x=2$ בלבד", "$x=-1$ או $x=2$", "$x=-1$ בלבד", "אין פתרון"],
+    "correct_index": 0,
+    "explanation": "מעלים בריבוע: $x+2=x^2\\Rightarrow x^2-x-2=0\\Rightarrow x=2$ או $x=-1$. הצבה: $x=-1$ נותן $\\sqrt1=1\\ne-1$ - זר. $x=2$: $\\sqrt4=2=2$ - תקף."
+  },
+  {
+    "id": "q-g11-u5-root-functions-adv-8",
+    "topic_id": "g11-u5-root-functions-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{\\sqrt{x-3}}{x-5}$. מהו תחום ההגדרה?",
+    "options": ["$x\\ge3$ וגם $x\\ne5$", "$x\\ge3$ בלבד", "$x\\ne5$ בלבד", "$x>5$ בלבד"],
+    "correct_index": 0,
+    "explanation": "צריך גם $x-3\\ge0$ (עבור השורש) וגם $x-5\\ne0$ (עבור המכנה)."
+  },
+  {
+    "id": "q-g11-u5-root-functions-adv-9",
+    "topic_id": "g11-u5-root-functions-adv",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה ההבדל העקרוני בין תחום ההגדרה של פונקציה עם שורש לבין פונקציה רציונלית?",
+    "options": ["בפונקציית שורש עלול תחום שלם (לא רק נקודות בודדות) להיות מחוץ לתחום ההגדרה", "אין שום הבדל", "פונקציה רציונלית תמיד מוגדרת לכל הממשיים", "פונקציית שורש תמיד מוגדרת לכל הממשיים"],
+    "correct_index": 0,
+    "explanation": "פונקציה רציונלית מוציאה רק נקודות בודדות (אפסי המכנה), בעוד פונקציית שורש עשויה להוציא תחום שלם."
+  },
+  {
+    "id": "q-g11-u5-root-functions-adv-10",
+    "topic_id": "g11-u5-root-functions-adv",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הזהות הנכונה?",
+    "options": ["$\\sqrt{x^2}=|x|$", "$\\sqrt{x^2}=x$", "$\\sqrt{x^2}=-x$", "$\\sqrt{x^2}=x^2$"],
+    "correct_index": 0,
+    "explanation": "השורש הריבועי תמיד אי-שלילי, ולכן $\\sqrt{x^2}=|x|$."
+  },
+  {
+    "id": "q-g11-u5-integral-volumes-1",
+    "topic_id": "g11-u5-integral-volumes",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם גרף הפונקציה שלילי בקטע מסוים, כיצד מוצאים את השטח (החיובי) שם?",
+    "options": ["לוקחים ערך מוחלט של האינטגרל בקטע זה", "האינטגרל עצמו, גם אם יוצא שלילי", "השטח תמיד אפס", "לא ניתן לחשב"],
+    "correct_index": 0,
+    "explanation": "אינטגרל של פונקציה שלילית יוצא שלילי, אך שטח הוא גודל חיובי - לוקחים ערך מוחלט."
+  },
+  {
+    "id": "q-g11-u5-integral-volumes-2",
+    "topic_id": "g11-u5-integral-volumes",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שטח בין שני גרפים $f$ ו-$g$ (כאשר $f$ מעל $g$) בקטע $[a,b]$ מחושב לפי:",
+    "options": ["$\\int_a^b[f(x)-g(x)]\\,dx$", "$\\int_a^b[f(x)+g(x)]\\,dx$", "$\\int_a^b f(x)\\,dx$ בלבד", "$f(b)-g(a)$"],
+    "correct_index": 0,
+    "explanation": "שטח האזור בין הגרפים הוא האינטגרל של ההפרש בין הפונקציה העליונה לתחתונה."
+  },
+  {
+    "id": "q-g11-u5-integral-volumes-3",
+    "topic_id": "g11-u5-integral-volumes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מסובבים את הגרף $f(x)=x$ בתחום $[0,3]$ סביב ציר $x$. מהו נפח הגוף המתקבל?",
+    "options": ["$9\\pi$", "$3\\pi$", "$27\\pi$", "$\\pi$"],
+    "correct_index": 0,
+    "explanation": "$V=\\int_0^3\\pi x^2\\,dx=\\pi\\left[\\dfrac{x^3}{3}\\right]_0^3=\\pi\\times9=9\\pi$ (זהו למעשה חרוט)."
+  },
+  {
+    "id": "q-g11-u5-integral-volumes-4",
+    "topic_id": "g11-u5-integral-volumes",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הערך הממוצע של פונקציה $f$ בקטע $[a,b]$ מחושב לפי:",
+    "options": ["$\\dfrac{1}{b-a}\\int_a^b f(x)\\,dx$", "$\\int_a^b f(x)\\,dx$", "$\\dfrac{f(a)+f(b)}{2}$", "$(b-a)\\int_a^b f(x)\\,dx$"],
+    "correct_index": 0,
+    "explanation": "הערך הממוצע הוא ההצטברות מחולקת באורך הקטע."
+  },
+  {
+    "id": "q-g11-u5-integral-volumes-5",
+    "topic_id": "g11-u5-integral-volumes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו הערך הממוצע של $f(x)=2x$ בקטע $[0,4]$?",
+    "options": ["$4$", "$16$", "$8$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$\\int_0^4 2x\\,dx=\\left[x^2\\right]_0^4=16$. ערך ממוצע: $\\dfrac{16}{4-0}=4$."
+  },
+  {
+    "id": "q-g11-u5-integral-volumes-6",
+    "topic_id": "g11-u5-integral-volumes",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נפח גוף סיבוב סביב ציר $x$ מחושב כהצטברות של:",
+    "options": ["שטחי החתך (מעגלים) לאורך הציר", "היקפי החתך", "רק אורך הגוף", "שטח הפונקציה עצמה בלבד"],
+    "correct_index": 0,
+    "explanation": "כל \"פרוסה\" דקה של גוף הסיבוב היא גליל בעל שטח חתך $\\pi[f(x)]^2$, והנפח הוא הצטברות שטחים אלה."
+  },
+  {
+    "id": "q-g11-u5-integral-volumes-7",
+    "topic_id": "g11-u5-integral-volumes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון $f'(x)=3x^2$ ו-$f(2)=10$. מהי $f(x)$?",
+    "options": ["$x^3+2$", "$x^3+10$", "$3x^3+4$", "$x^3$"],
+    "correct_index": 0,
+    "explanation": "פונקציה קדומה כללית: $f(x)=x^3+C$. מהצבת $f(2)=10$: $8+C=10\\Rightarrow C=2$."
+  },
+  {
+    "id": "q-g11-u5-integral-volumes-8",
+    "topic_id": "g11-u5-integral-volumes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חשבו את השטח בין הפרבולה $f(x)=4-x^2$ לציר $x$ (בין נקודות החיתוך שלה עם הציר).",
+    "options": ["$\\dfrac{32}{3}$", "$16$", "$8$", "$\\dfrac{16}{3}$"],
+    "correct_index": 0,
+    "explanation": "נקודות החיתוך: $x=\\pm2$. $\\int_{-2}^{2}(4-x^2)\\,dx=\\left[4x-\\dfrac{x^3}{3}\\right]_{-2}^{2}=\\dfrac{16}{3}-\\left(-\\dfrac{16}{3}\\right)=\\dfrac{32}{3}$."
+  },
+  {
+    "id": "q-g11-u5-integral-volumes-9",
+    "topic_id": "g11-u5-integral-volumes",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אחד השימושים של חשבון האינטגרלי הוא:",
+    "options": ["הוכחת נוסחאות נפח כמו גליל, חרוט, כדור ופירמידה", "הוכחת משפט פיתגורס בלבד", "פתרון משוואות ריבועיות", "חישוב שטח מלבן בלבד"],
+    "correct_index": 0,
+    "explanation": "רעיון ההצטברות מאפשר לפתח ולהוכיח את נוסחאות הנפח של גופים מוכרים."
+  },
+  {
+    "id": "q-g11-u5-integral-volumes-10",
+    "topic_id": "g11-u5-integral-volumes",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה המשמעות של \"ערך ממוצע\" של פונקציה בקטע?",
+    "options": ["הערך הקבוע שההצטברות שלו על הקטע זהה להצטברות הפונקציה הנתונה", "הערך המקסימלי של הפונקציה בקטע", "הערך המינימלי של הפונקציה בקטע", "תמיד אפס"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה: פונקציה קבועה שווה-הצטברות לפונקציה הנתונה על אותו קטע."
+  },
+  {
+    "id": "q-g11-u5-trig-identities-1",
+    "topic_id": "g11-u5-trig-identities",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "באמצעות זהות הסכום, חשבו $\\sin(30°+60°)$.",
+    "options": ["$1$", "$0.5$", "$\\dfrac{\\sqrt3}{2}$", "$0$"],
+    "correct_index": 0,
+    "explanation": "$\\sin30°\\cos60°+\\cos30°\\sin60°=0.5\\times0.5+\\dfrac{\\sqrt3}{2}\\times\\dfrac{\\sqrt3}{2}=0.25+0.75=1$ (וגם ישירות: $\\sin90°=1$)."
+  },
+  {
+    "id": "q-g11-u5-trig-identities-2",
+    "topic_id": "g11-u5-trig-identities",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתון $\\sin\\alpha=0.6$, $\\cos\\alpha=0.8$. מהו $\\sin2\\alpha$?",
+    "options": ["$0.96$", "$1.2$", "$0.48$", "$0.64$"],
+    "correct_index": 0,
+    "explanation": "$\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha=2\\times0.6\\times0.8=0.96$."
+  },
+  {
+    "id": "q-g11-u5-trig-identities-3",
+    "topic_id": "g11-u5-trig-identities",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון $\\cos\\alpha=0.8$. מהו $\\cos2\\alpha$ (לפי $\\cos2\\alpha=2\\cos^2\\alpha-1$)?",
+    "options": ["$0.28$", "$0.6$", "$1.6$", "$0.64$"],
+    "correct_index": 0,
+    "explanation": "$\\cos2\\alpha=2\\times0.8^2-1=2\\times0.64-1=0.28$."
+  },
+  {
+    "id": "q-g11-u5-trig-identities-4",
+    "topic_id": "g11-u5-trig-identities",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה מבין ארבע זהויות הסכום/הפרש (סינוס וקוסינוס) יש להוכיח ישירות, לפי התוכנית?",
+    "options": ["אחת בלבד - השאר נובעות ממנה", "את כולן בנפרד", "אף אחת, כולן אקסיומות", "שתיים"],
+    "correct_index": 0,
+    "explanation": "מספיק להוכיח זהות אחת (של סכום או הפרש), ואת השאר להסיק ממנה באמצעות תכונות סימטריה ואלגברה."
+  },
+  {
+    "id": "q-g11-u5-trig-identities-5",
+    "topic_id": "g11-u5-trig-identities",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי המטרה העיקרית של לימוד הזהויות הטריגונומטריות בכיתה זו?",
+    "options": ["בניית תשתית תיאורטית להוכחת הנגזרת של פונקציית הסינוס ולפישוט פונקציות", "שיפור מהירות החישוב במחשבון", "החלפת הגאומטריה הסינתטית לגמרי", "רק לפתרון תחרויות מתמטיקה"],
+    "correct_index": 0,
+    "explanation": "הזהויות נלמדות בעיקר כתשתית לנושאים הבאים - נגזרת הסינוס וחקירת פונקציות."
+  },
+  {
+    "id": "q-g11-u5-trig-identities-6",
+    "topic_id": "g11-u5-trig-identities",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי זהות ההפרש לקוסינוס?",
+    "options": ["$\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B$", "$\\cos(A-B)=\\cos A\\cos B-\\sin A\\sin B$", "$\\cos(A-B)=\\sin A\\cos B+\\cos A\\sin B$", "$\\cos(A-B)=\\cos A+\\cos B$"],
+    "correct_index": 0,
+    "explanation": "זוהי הזהות הבסיסית שממנה נגזרות שאר הזהויות של סכום/הפרש זוויות."
+  },
+  {
+    "id": "q-g11-u5-trig-identities-7",
+    "topic_id": "g11-u5-trig-identities",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בפרק זה, יישומי הטריגונומטריה בגופים מרחביים (כדור, גליל, חרוט וכו') נעשים:",
+    "options": ["ללא שימוש במשפטי גאומטריה מרחבית פורמליים (שיילמדו בכיתה י\"ב)", "תוך שימוש מלא במשפטי גאומטריה מרחבית מתקדמים", "רק באמצעות אינטגרלים", "רק באמצעות וקטורים"],
+    "correct_index": 0,
+    "explanation": "זהו סבב ראשון של היכרות עם הגופים המרחביים, ללא הישענות על משפטי גאומטריה מרחבית שנלמדים רק בכיתה י\"ב."
+  },
+  {
+    "id": "q-g11-u5-trig-identities-8",
+    "topic_id": "g11-u5-trig-identities",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לצד חישובי גדלים, הזהויות והמשפטים הטריגונומטריים משמשים גם:",
+    "options": ["להוכחת משפטים וטענות בגאומטריה", "רק לחישוב אינטגרלים", "רק בפיזיקה", "אין להם שימוש נוסף"],
+    "correct_index": 0,
+    "explanation": "כלים טריגונומטריים משמשים גם ככלי עזר להוכחת טענות גאומטריות."
+  },
+  {
+    "id": "q-g11-u5-trig-identities-9",
+    "topic_id": "g11-u5-trig-identities",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתון $\\sin\\alpha=\\dfrac12$, $\\cos\\alpha=\\dfrac{\\sqrt3}{2}$. מהו $\\sin2\\alpha$?",
+    "options": ["$\\dfrac{\\sqrt3}{2}$", "$\\dfrac12$", "$1$", "$\\sqrt3$"],
+    "correct_index": 0,
+    "explanation": "$\\sin2\\alpha=2\\times\\dfrac12\\times\\dfrac{\\sqrt3}{2}=\\dfrac{\\sqrt3}{2}$."
+  },
+  {
+    "id": "q-g11-u5-trig-identities-10",
+    "topic_id": "g11-u5-trig-identities",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון $\\sin\\alpha=0.6$. מהו $\\cos2\\alpha$ (לפי $\\cos2\\alpha=1-2\\sin^2\\alpha$)?",
+    "options": ["$0.28$", "$0.4$", "$0.64$", "$-0.28$"],
+    "correct_index": 0,
+    "explanation": "$\\cos2\\alpha=1-2\\times0.6^2=1-0.72=0.28$."
+  },
+  {
+    "id": "q-g11-u5-trig-review-1",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הזהות הנכונה?",
+    "options": ["$\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$", "$\\sin(A+B)=\\sin A+\\sin B$", "$\\sin(A+B)=\\sin A\\cos B-\\cos A\\sin B$", "$\\sin(A+B)=\\cos A\\cos B$"],
+    "correct_index": 0,
+    "explanation": "זוהי זהות הסכום לסינוס."
+  },
+  {
+    "id": "q-g11-u5-trig-review-2",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=3\\sin(2x)+1$. מהו המחזור שלה?",
+    "options": ["$\\pi$", "$2\\pi$", "$3$", "$\\dfrac{\\pi}{2}$"],
+    "correct_index": 0,
+    "explanation": "מחזור $=\\dfrac{2\\pi}{|B|}=\\dfrac{2\\pi}{2}=\\pi$."
+  },
+  {
+    "id": "q-g11-u5-trig-review-3",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "באותה פונקציה $f(x)=3\\sin(2x)+1$, מהי המשרעת?",
+    "options": ["$3$", "$1$", "$2$", "$4$"],
+    "correct_index": 0,
+    "explanation": "המשרעת היא $|A|=3$."
+  },
+  {
+    "id": "q-g11-u5-trig-review-4",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו הטווח (תחום הערכים) של $f(x)=3\\sin(2x)+1$?",
+    "options": ["$[-2,4]$", "$[-3,3]$", "$[-1,1]$", "$[0,4]$"],
+    "correct_index": 0,
+    "explanation": "הטווח הוא $[D-|A|,D+|A|]=[1-3,1+3]=[-2,4]$."
+  },
+  {
+    "id": "q-g11-u5-trig-review-5",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\sin x$?",
+    "options": ["$\\cos x$", "$-\\sin x$", "$-\\cos x$", "$\\tan x$"],
+    "correct_index": 0,
+    "explanation": "נגזרת בסיסית: $(\\sin x)'=\\cos x$."
+  },
+  {
+    "id": "q-g11-u5-trig-review-6",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\cos x$?",
+    "options": ["$-\\sin x$", "$\\sin x$", "$\\cos x$", "$-\\cos x$"],
+    "correct_index": 0,
+    "explanation": "נגזרת בסיסית: $(\\cos x)'=-\\sin x$."
+  },
+  {
+    "id": "q-g11-u5-trig-review-7",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $\\displaystyle\\lim_{x\\to0}\\dfrac{\\sin x}{x}$?",
+    "options": ["$1$", "$0$", "$\\infty$", "אינו קיים"],
+    "correct_index": 0,
+    "explanation": "זהו גבול היסוד המשמש להוכחת נגזרת הסינוס, ושווה $1$ (ברדיאנים)."
+  },
+  {
+    "id": "q-g11-u5-trig-review-8",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מדוע יש להשתמש ברדיאנים (לא במעלות) בעת הוכחת נגזרות הפונקציות הטריגונומטריות?",
+    "options": ["כי הגבול $\\lim_{x\\to0}\\frac{\\sin x}{x}=1$ תקף רק ברדיאנים", "זו רק מוסכמה שרירותית", "כי מעלות אינן מספרים ממשיים", "אין שום סיבה מיוחדת"],
+    "correct_index": 0,
+    "explanation": "הגבול המרכזי בהוכחת הנגזרות תקף רק כשהזווית נמדדת ברדיאנים."
+  },
+  {
+    "id": "q-g11-u5-trig-review-9",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי $\\int \\sin x\\,dx$?",
+    "options": ["$-\\cos x+C$", "$\\cos x+C$", "$-\\sin x+C$", "$\\sin x+C$"],
+    "correct_index": 0,
+    "explanation": "נגזרת של $-\\cos x$ היא $\\sin x$, ולכן $\\int\\sin x\\,dx=-\\cos x+C$."
+  },
+  {
+    "id": "q-g11-u5-trig-review-10",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$\\sin2\\alpha$ שווה ל:",
+    "options": ["$2\\sin\\alpha\\cos\\alpha$", "$\\sin\\alpha+\\cos\\alpha$", "$2\\sin\\alpha$", "$\\sin^2\\alpha$"],
+    "correct_index": 0,
+    "explanation": "זהות הזווית הכפולה לסינוס."
+  },
+  {
+    "id": "q-g11-u5-trig-review-11",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו הערך המקסימלי האפשרי של $f(x)=5+3\\sin x$?",
+    "options": ["$8$", "$5$", "$3$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$\\sin x$ מקסימלי כשהוא שווה $1$, ואז $f=5+3\\times1=8$ - בלי צורך בגזירה."
+  },
+  {
+    "id": "q-g11-u5-probability-tree-1",
+    "topic_id": "g11-u5-probability-tree",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בעץ הסתברויות, כדי לחשב את ההסתברות של מסלול שלם:",
+    "options": ["מכפילים את ההסתברויות לאורך הענפים במסלול", "מחברים את ההסתברויות לאורך הענפים", "לוקחים רק את הערך האחרון בענף", "מחסרים בין הענפים"],
+    "correct_index": 0,
+    "explanation": "חוק המכפלה: הסתברות מסלול היא מכפלת ההסתברויות (המותנות) לאורך הענפים."
+  },
+  {
+    "id": "q-g11-u5-probability-tree-2",
+    "topic_id": "g11-u5-probability-tree",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\dbinom{5}{2}$?",
+    "options": ["$10$", "$20$", "$5$", "$25$"],
+    "correct_index": 0,
+    "explanation": "$\\dbinom{5}{2}=\\dfrac{5!}{2!\\times3!}=\\dfrac{120}{12}=10$."
+  },
+  {
+    "id": "q-g11-u5-probability-tree-3",
+    "topic_id": "g11-u5-probability-tree",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\dbinom{4}{0}$?",
+    "options": ["$1$", "$0$", "$4$", "אינו מוגדר"],
+    "correct_index": 0,
+    "explanation": "יש דרך אחת בלבד לבחור $0$ פריטים מתוך $4$ - לא לבחור כלום."
+  },
+  {
+    "id": "q-g11-u5-probability-tree-4",
+    "topic_id": "g11-u5-probability-tree",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מטילים מטבע הוגן $4$ פעמים. מה ההסתברות לקבל בדיוק $2$ \"עץ\"?",
+    "options": ["$0.375$", "$0.5$", "$0.25$", "$0.0625$"],
+    "correct_index": 0,
+    "explanation": "$\\dbinom{4}{2}\\times0.5^2\\times0.5^2=6\\times0.0625=0.375$."
+  },
+  {
+    "id": "q-g11-u5-probability-tree-5",
+    "topic_id": "g11-u5-probability-tree",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בניסוי בעל $3$ ניסיונות בלתי-תלויים, הסתברות הצלחה בכל אחד $0.6$. מה ההסתברות שכולם יצליחו (3 מתוך 3)?",
+    "options": ["$0.216$", "$0.6$", "$0.8$", "$1.8$"],
+    "correct_index": 0,
+    "explanation": "$0.6^3=0.216$."
+  },
+  {
+    "id": "q-g11-u5-probability-tree-6",
+    "topic_id": "g11-u5-probability-tree",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "עץ הסתברויות לניסוי דו-שלבי כולל:",
+    "options": ["שתי \"רמות\" של ענפים, אחת לכל שלב", "רמה אחת בלבד", "שלוש רמות תמיד", "אין לו מבנה קבוע"],
+    "correct_index": 0,
+    "explanation": "כל שלב בניסוי מיוצג ברמת ענפים נוספת בעץ."
+  },
+  {
+    "id": "q-g11-u5-probability-tree-7",
+    "topic_id": "g11-u5-probability-tree",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי לחשב הסתברות ל\"בדיוק $k$ הצלחות מתוך $n$ ניסיונות\", יש צורך לספור:",
+    "options": ["כמה מסלולים שונים בעץ מתאימים לבדיוק $k$ הצלחות - זהו $\\dbinom{n}{k}$", "רק מסלול אחד תמיד", "את כל התוצאות האפשריות בלבד", "אין צורך בספירה כלל"],
+    "correct_index": 0,
+    "explanation": "מספר המסלולים עם בדיוק $k$ הצלחות מתוך $n$ שלבים הוא בדיוק מקדם הבינום $\\binom{n}{k}$."
+  },
+  {
+    "id": "q-g11-u5-probability-tree-8",
+    "topic_id": "g11-u5-probability-tree",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בניסוי עם $n$ ניסיונות בת\"ת, הסתברות הצלחה $p$ בכל אחד. מהי ההסתברות של כל מסלול ספציפי אחד בעץ עם בדיוק $k$ הצלחות?",
+    "options": ["$p^k(1-p)^{n-k}$", "$p^k$", "$\\dbinom{n}{k}$", "$(1-p)^{n-k}$"],
+    "correct_index": 0,
+    "explanation": "כל מסלול ספציפי עם $k$ הצלחות ו-$n-k$ כשלונות (בת\"ת) מקבל הסתברות $p^k(1-p)^{n-k}$."
+  },
+  {
+    "id": "q-g11-u5-probability-tree-9",
+    "topic_id": "g11-u5-probability-tree",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בניסוי עם $5$ ניסיונות בת\"ת, הסתברות הצלחה $0.3$ בכל אחד. מה ההסתברות לבדיוק הצלחה אחת (מעוגל לשתי ספרות)?",
+    "options": ["$\\approx0.36$", "$\\approx0.3$", "$\\approx0.5$", "$\\approx0.03$"],
+    "correct_index": 0,
+    "explanation": "$\\dbinom{5}{1}\\times0.3^1\\times0.7^4=5\\times0.3\\times0.2401\\approx0.36$."
+  },
+  {
+    "id": "q-g11-u5-probability-tree-10",
+    "topic_id": "g11-u5-probability-tree",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משולש פסקל קשור למקדמי:",
+    "options": ["הבינום", "הסינוס", "האינטגרל", "ההסתברות המותנית בלבד"],
+    "correct_index": 0,
+    "explanation": "כל שורה במשולש פסקל מכילה את מקדמי הבינום $\\binom{n}{k}$ עבור אותו $n$."
+  },
+  {
+    "id": "q-g12-u3-normal-new-1",
+    "topic_id": "g12-u3-normal",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו הפרמטר שמייצג את מרכז ההתפלגות הנורמלית (נקודת השיא של הפעמון)?",
+    "options": ["הממוצע $\\mu$", "סטיית התקן $\\sigma$", "השונות", "ציון התקן $z$"],
+    "correct_index": 0,
+    "explanation": "הממוצע $\\mu$ הוא מרכז ההתפלגות וגם ציר הסימטריה של עקומת הפעמון."
+  },
+  {
+    "id": "q-g12-u3-normal-new-2",
+    "topic_id": "g12-u3-normal",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפי כלל 68-95-99.7, כמה אחוז בקירוב מהנתונים נמצאים בטווח $[\\mu-2\\sigma,\\ \\mu+2\\sigma]$?",
+    "options": ["$68\\%$", "$95\\%$", "$99.7\\%$", "$50\\%$"],
+    "correct_index": 1,
+    "explanation": "טווח של שתי סטיות תקן סביב הממוצע מכיל כ-$95\\%$ מהנתונים."
+  },
+  {
+    "id": "q-g12-u3-normal-new-3",
+    "topic_id": "g12-u3-normal",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בהתפלגות נורמלית עם סטיית תקן קטנה מאוד, צורת הגרף תהיה:",
+    "options": ["פעמון צר וגבוה", "פעמון רחב ושטוח", "קו ישר", "פרבולה פונה כלפי מטה"],
+    "correct_index": 0,
+    "explanation": "ככל שסטיית התקן קטנה יותר, הנתונים קרובים יותר לממוצע — הגרף צר וגבוה."
+  },
+  {
+    "id": "q-g12-u3-normal-new-4",
+    "topic_id": "g12-u3-normal",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ציון תקן מוגדר כ-$z=\\dfrac{x-\\mu}{\\sigma}$. אם $x=\\mu$, מהו $z$?",
+    "options": ["$0$", "$1$", "$\\sigma$", "לא ניתן לדעת"],
+    "correct_index": 0,
+    "explanation": "כאשר $x=\\mu$ המונה מתאפס, ולכן $z=0$."
+  },
+  {
+    "id": "q-g12-u3-normal-new-5",
+    "topic_id": "g12-u3-normal",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "גובה תלמידים מתפלג נורמלית עם $\\mu=170$ ס\"מ ו-$\\sigma=8$ ס\"מ. באיזה טווח נמצאים כ-$68\\%$ מהתלמידים?",
+    "options": ["$[162,178]$", "$[154,186]$", "$[166,174]$", "$[170,178]$"],
+    "correct_index": 0,
+    "explanation": "הטווח של סטיית תקן אחת: $[\\mu-\\sigma,\\mu+\\sigma]=[162,178]$."
+  },
+  {
+    "id": "q-g12-u3-normal-new-6",
+    "topic_id": "g12-u3-normal",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משקלי חבילות מתפלגים נורמלית עם $\\mu=60$ ק\"ג, $\\sigma=5$ ק\"ג. מהו ציון התקן של חבילה השוקלת $70$ ק\"ג?",
+    "options": ["$z=2$", "$z=1$", "$z=10$", "$z=0.5$"],
+    "correct_index": 0,
+    "explanation": "$z=\\dfrac{70-60}{5}=\\dfrac{10}{5}=2$."
+  },
+  {
+    "id": "q-g12-u3-normal-new-7",
+    "topic_id": "g12-u3-normal",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "ציוני מבחן מתפלגים נורמלית עם $\\mu=75$, $\\sigma=10$. כמה אחוז מהנבחנים קיבלו ציון בין $65$ ל-$85$?",
+    "options": ["$68\\%$", "$95\\%$", "$34\\%$", "$50\\%$"],
+    "correct_index": 0,
+    "explanation": "$65=\\mu-\\sigma$ ו-$85=\\mu+\\sigma$, לכן זהו טווח סטיית תקן אחת — כ-$68\\%$."
+  },
+  {
+    "id": "q-g12-u3-normal-new-8",
+    "topic_id": "g12-u3-normal",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "באוכלוסייה של $2000$ איש עם $\\mu=50$, $\\sigma=10$, כמה בקירוב נמצאים בטווח $[40,60]$?",
+    "options": ["$1360$", "$1900$", "$1000$", "$680$"],
+    "correct_index": 0,
+    "explanation": "$[40,60]$ הוא טווח סטיית תקן אחת ($68\\%$). $0.68\\times2000=1360$."
+  },
+  {
+    "id": "q-g12-u3-normal-new-9",
+    "topic_id": "g12-u3-normal",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תלמיד א' קיבל ציון תקן $z=1.5$ במבחן אחד, ותלמיד ב' קיבל $z=1$ במבחן אחר. מי הצליח יחסית טוב יותר בהשוואה לקבוצתו?",
+    "options": ["תלמיד א'", "תלמיד ב'", "שניהם שווים", "אי אפשר להשוות בין מבחנים שונים"],
+    "correct_index": 0,
+    "explanation": "ציון תקן גבוה יותר מבטא הישג טוב יותר יחסית לממוצע ולפיזור של אותה קבוצה, ולכן ניתן להשוות — תלמיד א' עם $z=1.5$ הצליח יותר."
+  },
+  {
+    "id": "q-g12-u3-normal-new-10",
+    "topic_id": "g12-u3-normal",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "אוכלוסייה מתפלגת נורמלית עם $\\mu=100$, $\\sigma=15$. מהו האחוז המשוער הנמצא מעל $130$?",
+    "options": ["$2.5\\%$", "$5\\%$", "$16\\%$", "$1\\%$"],
+    "correct_index": 0,
+    "explanation": "$130=\\mu+2\\sigma$. מעל $\\mu+2\\sigma$ נמצאים $\\dfrac{100\\%-95\\%}{2}=2.5\\%$ מהנתונים (החצי העליון מחוץ לטווח $95\\%$)."
+  },
+  {
+    "id": "q-g12-u3-qm-new-1",
+    "topic_id": "g12-u3-quadratic-model",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בפונקציה $f(x)=ax^2+bx+c$, מה קובע אם לפרבולה יש מקסימום או מינימום?",
+    "options": ["סימן המקדם $a$", "סימן המקדם $b$", "ערך המקדם $c$", "מספר השורשים"],
+    "correct_index": 0,
+    "explanation": "אם $a>0$ יש מינימום (פרבולה פונה למעלה), ואם $a<0$ יש מקסימום (פונה למטה)."
+  },
+  {
+    "id": "q-g12-u3-qm-new-2",
+    "topic_id": "g12-u3-quadratic-model",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $f(x)=x^2-6x+5$?",
+    "options": ["$3$", "$6$", "$-3$", "$5$"],
+    "correct_index": 0,
+    "explanation": "$x_v=-\\dfrac{b}{2a}=-\\dfrac{-6}{2}=3$."
+  },
+  {
+    "id": "q-g12-u3-qm-new-3",
+    "topic_id": "g12-u3-quadratic-model",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $f(0)$ עבור $f(x)=2x^2-3x+7$?",
+    "options": ["$7$", "$2$", "$-3$", "$0$"],
+    "correct_index": 0,
+    "explanation": "המקדם $c=7$ הוא בדיוק ערך הפונקציה כאשר $x=0$."
+  },
+  {
+    "id": "q-g12-u3-qm-new-4",
+    "topic_id": "g12-u3-quadratic-model",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו סכום שורשי המשוואה $x^2-5x+6=0$?",
+    "options": ["$5$", "$6$", "$-5$", "$1$"],
+    "correct_index": 0,
+    "explanation": "השורשים הם $2$ ו-$3$ (מהפירוק $(x-2)(x-3)=0$), וסכומם $5$."
+  },
+  {
+    "id": "q-g12-u3-qm-new-5",
+    "topic_id": "g12-u3-quadratic-model",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "גוף נזרק כלפי מעלה לפי $h(t)=-5t^2+30t$ ($h$ במטרים, $t$ בשניות). באיזו שנייה מגיע הגוף לגובה המרבי?",
+    "options": ["$t=3$", "$t=6$", "$t=5$", "$t=30$"],
+    "correct_index": 0,
+    "explanation": "$t_v=-\\dfrac{b}{2a}=-\\dfrac{30}{2\\cdot(-5)}=3$."
+  },
+  {
+    "id": "q-g12-u3-qm-new-6",
+    "topic_id": "g12-u3-quadratic-model",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו את המשוואה $\\dfrac{4}{x}+x=5$ (כאשר $x\\neq0$). מהם הפתרונות?",
+    "options": ["$x=1$ או $x=4$", "$x=2$ בלבד", "$x=-1$ או $x=-4$", "$x=5$ בלבד"],
+    "correct_index": 0,
+    "explanation": "מכפילים ב-$x$: $4+x^2=5x \\Rightarrow x^2-5x+4=0 \\Rightarrow (x-1)(x-4)=0$. שני הפתרונות תקינים כי $x\\neq0$."
+  },
+  {
+    "id": "q-g12-u3-qm-new-7",
+    "topic_id": "g12-u3-quadratic-model",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "רווח חברה נתון ע\"י $P(x)=-2x^2+40x-150$, כאשר $x$ הוא מחיר היחידה. באיזה מחיר הרווח מרבי?",
+    "options": ["$x=10$", "$x=20$", "$x=40$", "$x=15$"],
+    "correct_index": 0,
+    "explanation": "$x_v=-\\dfrac{40}{2\\cdot(-2)}=10$."
+  },
+  {
+    "id": "q-g12-u3-qm-new-8",
+    "topic_id": "g12-u3-quadratic-model",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בבעיית זריקה $h(t)=-5t^2+20t+2$, מהו הגובה ההתחלתי של הגוף (כאשר $t=0$)?",
+    "options": ["$2$ מ׳", "$20$ מ׳", "$5$ מ׳", "$0$ מ׳"],
+    "correct_index": 0,
+    "explanation": "הגובה ההתחלתי הוא $h(0)=c=2$ מטרים."
+  },
+  {
+    "id": "q-g12-u3-qm-new-9",
+    "topic_id": "g12-u3-quadratic-model",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בפונקציה ריבועית עם $a<0$, תחומי העלייה והירידה של הפונקציה הם:",
+    "options": ["עולה עד הקודקוד, ואז יורדת", "יורדת עד הקודקוד, ואז עולה", "עולה תמיד", "יורדת תמיד"],
+    "correct_index": 0,
+    "explanation": "כאשר $a<0$ הפרבולה פונה כלפי מטה — הפונקציה עולה עד קודקוד המקסימום, ואז יורדת."
+  },
+  {
+    "id": "q-g12-u3-qm-new-10",
+    "topic_id": "g12-u3-quadratic-model",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "היקף מלבן קבוע ושווה ל-$40$. אם אורך צלע אחת הוא $x$, אז השטח הוא $S(x)=x(20-x)$. עבור איזה $x$ השטח מרבי?",
+    "options": ["$x=10$", "$x=20$", "$x=5$", "$x=15$"],
+    "correct_index": 0,
+    "explanation": "$S(x)=-x^2+20x$, קודקוד ב-$x_v=-\\dfrac{20}{2\\cdot(-1)}=10$ (מלבן שהופך לריבוע נותן שטח מרבי)."
+  },
+  {
+    "id": "q-g12-u3-lp-new-1",
+    "topic_id": "g12-u3-linear-programming",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אילו מהבאים הם אילוצי אי-שליליות טיפוסיים בתכנון לינארי?",
+    "options": ["$x\\ge0,\\ y\\ge0$", "$x\\le0,\\ y\\le0$", "$x=0,\\ y=0$", "$x\\ge y$"],
+    "correct_index": 0,
+    "explanation": "מכיוון שהמשתנים מייצגים בדרך כלל כמויות, הם אינם יכולים להיות שליליים."
+  },
+  {
+    "id": "q-g12-u3-lp-new-2",
+    "topic_id": "g12-u3-linear-programming",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בבעיית תכנון לינארי סטנדרטית, תחום הפתרונות (החיתוך של כל האילוצים) הוא בדרך כלל:",
+    "options": ["מצולע קמור", "מעגל", "פרבולה", "היפרבולה"],
+    "correct_index": 0,
+    "explanation": "חיתוך של תחומים המוגדרים ע\"י אי-שוויונות לינאריים יוצר מצולע קמור (או תחום לא חסום בעל צלעות ישרות)."
+  },
+  {
+    "id": "q-g12-u3-lp-new-3",
+    "topic_id": "g12-u3-linear-programming",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפי המשפט היסודי של תכנון לינארי, היכן מתקבל הערך הקיצוני (מקסימום/מינימום) של פונקציית מטרה לינארית?",
+    "options": ["באחד הקודקודים של תחום הפתרונות", "במרכז תחום הפתרונות", "בכל נקודה בתחום", "רק על ציר ה-$x$"],
+    "correct_index": 0,
+    "explanation": "פונקציה לינארית מקבלת את ערכיה הקיצוניים בתחום קמור וחסום תמיד באחד הקודקודים."
+  },
+  {
+    "id": "q-g12-u3-lp-new-4",
+    "topic_id": "g12-u3-linear-programming",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "תחום הפתרונות הוא מצולע עם קודקודים $(0,0),(4,0),(0,6),(2,4)$. מהו הערך המרבי של $z=3x+2y$?",
+    "options": ["$14$", "$12$", "$8$", "$18$"],
+    "correct_index": 0,
+    "explanation": "מציבים בכל קודקוד: $(0,0)\\to0$, $(4,0)\\to12$, $(0,6)\\to12$, $(2,4)\\to6+8=14$. המקסימום הוא $14$."
+  },
+  {
+    "id": "q-g12-u3-lp-new-5",
+    "topic_id": "g12-u3-linear-programming",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה מהביטויים הבאים אינו אילוץ לינארי חוקי בתכנון לינארי?",
+    "options": ["$xy\\le10$", "$2x+3y\\le10$", "$x-y\\ge-4$", "$5x\\le20$"],
+    "correct_index": 0,
+    "explanation": "$xy\\le10$ אינו לינארי (יש בו מכפלה של שני משתנים) — אילוץ לינארי חייב להיות מהצורה $ax+by\\le c$."
+  },
+  {
+    "id": "q-g12-u3-lp-new-6",
+    "topic_id": "g12-u3-linear-programming",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "תחום הפתרונות של בעיה אינו חסום (פתוח), ופונקציית המטרה $z$ ממשיכה לגדול ככל שמתרחקים לאורך התחום. מה ניתן להסיק?",
+    "options": ["אין מקסימום לפונקציית המטרה", "המקסימום הוא $0$", "המינימום לא קיים בהכרח", "התחום אינו חוקי"],
+    "correct_index": 0,
+    "explanation": "כאשר $z$ יכול לגדול ללא גבול בתוך תחום לא חסום, אין ערך מקסימלי סופי."
+  },
+  {
+    "id": "q-g12-u3-lp-new-7",
+    "topic_id": "g12-u3-linear-programming",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תחום הפתרונות הוא מלבן עם קודקודים $(1,1),(5,1),(5,4),(1,4)$. מהו הערך המזערי של $z=x+y$?",
+    "options": ["$2$", "$9$", "$5$", "$6$"],
+    "correct_index": 0,
+    "explanation": "בודקים את כל הקודקודים: $(1,1)\\to2$, $(5,1)\\to6$, $(5,4)\\to9$, $(1,4)\\to5$. המינימום הוא $2$."
+  },
+  {
+    "id": "q-g12-u3-lp-new-8",
+    "topic_id": "g12-u3-linear-programming",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונים האילוצים $x+y\\le10$ ו-$x-y\\le2$ (עם $x,y\\ge0$). מהי נקודת החיתוך של שני הישרים $x+y=10$ ו-$x-y=2$?",
+    "options": ["$(6,4)$", "$(4,6)$", "$(2,8)$", "$(8,2)$"],
+    "correct_index": 0,
+    "explanation": "חיבור המשוואות: $2x=12\\Rightarrow x=6$, ואז $y=10-6=4$."
+  },
+  {
+    "id": "q-g12-u3-lp-new-9",
+    "topic_id": "g12-u3-linear-programming",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "באילוץ עם פרמטר $kx+y\\le10$ (כאשר $x>0$ קבוע וידוע), ככל ש-$k$ גדל, הגבול העליון המותר על $y$:",
+    "options": ["קטן", "גדל", "נשאר קבוע", "לא ניתן לדעת"],
+    "correct_index": 0,
+    "explanation": "$y\\le10-kx$ — כאשר $k$ גדל (ו-$x>0$ קבוע), הביטוי $10-kx$ קטן, ולכן הגבול על $y$ יורד."
+  },
+  {
+    "id": "q-g12-u3-lp-new-10",
+    "topic_id": "g12-u3-linear-programming",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "תחום הפתרונות הוא מצולע עם קודקודים $(0,0),(6,0),(4,3),(0,5)$. מהו הערך המרבי של $z=2x+5y$?",
+    "options": ["$25$", "$23$", "$12$", "$20$"],
+    "correct_index": 0,
+    "explanation": "מציבים בכל קודקוד: $(0,0)\\to0$, $(6,0)\\to12$, $(4,3)\\to8+15=23$, $(0,5)\\to25$. המקסימום הוא $25$, בנקודה $(0,5)$."
+  },
+  {
+    "id": "q-g12-u3-ag-new-1",
+    "topic_id": "g12-u3-analytic-geo",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו שיפוע הישר העובר דרך הנקודות $(0,0)$ ו-$(2,4)$?",
+    "options": ["$2$", "$4$", "$0.5$", "$-2$"],
+    "correct_index": 0,
+    "explanation": "$m=\\dfrac{4-0}{2-0}=2$."
+  },
+  {
+    "id": "q-g12-u3-ag-new-2",
+    "topic_id": "g12-u3-analytic-geo",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו אמצע הקטע בין $(2,3)$ ל-$(6,7)$?",
+    "options": ["$(4,5)$", "$(8,10)$", "$(2,4)$", "$(4,4)$"],
+    "correct_index": 0,
+    "explanation": "$M=\\left(\\dfrac{2+6}{2},\\dfrac{3+7}{2}\\right)=(4,5)$."
+  },
+  {
+    "id": "q-g12-u3-ag-new-3",
+    "topic_id": "g12-u3-analytic-geo",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו המרחק בין הנקודות $(0,0)$ ו-$(3,4)$?",
+    "options": ["$5$", "$7$", "$12$", "$3.5$"],
+    "correct_index": 0,
+    "explanation": "$d=\\sqrt{3^2+4^2}=\\sqrt{25}=5$."
+  },
+  {
+    "id": "q-g12-u3-ag-new-4",
+    "topic_id": "g12-u3-analytic-geo",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "הישרים $y=2x+1$ ו-$y=2x-5$ הם:",
+    "options": ["מקבילים", "ניצבים", "חופפים", "לא ניתן לדעת"],
+    "correct_index": 0,
+    "explanation": "לשני הישרים אותו שיפוע ($m=2$) ו-$n$ שונה, ולכן הם מקבילים."
+  },
+  {
+    "id": "q-g12-u3-ag-new-5",
+    "topic_id": "g12-u3-analytic-geo",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ישר $a$ בעל שיפוע $3$. מהו שיפוע הישר $b$ הניצב לו?",
+    "options": ["$-\\dfrac{1}{3}$", "$3$", "$-3$", "$\\dfrac{1}{3}$"],
+    "correct_index": 0,
+    "explanation": "בישרים ניצבים $m_1\\cdot m_2=-1$, לכן $m_2=-\\dfrac{1}{3}$."
+  },
+  {
+    "id": "q-g12-u3-ag-new-6",
+    "topic_id": "g12-u3-analytic-geo",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי משוואת הישר העובר דרך הנקודה $(1,2)$ עם שיפוע $3$?",
+    "options": ["$y=3x-1$", "$y=3x+1$", "$y=3x+2$", "$y=x+2$"],
+    "correct_index": 0,
+    "explanation": "$y-2=3(x-1)\\Rightarrow y=3x-3+2=3x-1$."
+  },
+  {
+    "id": "q-g12-u3-ag-new-7",
+    "topic_id": "g12-u3-analytic-geo",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש בעל קודקודים $A(0,0),\\ B(4,0),\\ C(0,3)$. מהו שטח המשולש?",
+    "options": ["$6$", "$12$", "$7$", "$3.5$"],
+    "correct_index": 0,
+    "explanation": "$AB$ ו-$AC$ ניצבים (על הצירים), אורכיהם $4$ ו-$3$. שטח $=\\dfrac{1}{2}\\cdot4\\cdot3=6$."
+  },
+  {
+    "id": "q-g12-u3-ag-new-8",
+    "topic_id": "g12-u3-analytic-geo",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש בעל קודקודים $A(0,0),\\ B(4,0),\\ C(4,3)$. בדקו אם קיימת זווית ישרה בקודקוד $B$.",
+    "options": ["כן, שיפוע $AB=0$ ושיפוע $BC$ אנכי — הם ניצבים", "לא, המשולש שווה-צלעות", "כן, אבל בקודקוד $A$", "אי אפשר לקבוע"],
+    "correct_index": 0,
+    "explanation": "$AB$ אופקי (שיפוע $0$), $BC$ אנכי (קו $x=4$) — קו אופקי וקו אנכי תמיד ניצבים, לכן יש זווית ישרה ב-$B$."
+  },
+  {
+    "id": "q-g12-u3-ag-new-9",
+    "topic_id": "g12-u3-analytic-geo",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מצאו את נקודת החיתוך של הישרים $y=x+1$ ו-$y=-x+5$.",
+    "options": ["$(2,3)$", "$(3,2)$", "$(1,2)$", "$(4,1)$"],
+    "correct_index": 0,
+    "explanation": "$x+1=-x+5\\Rightarrow2x=4\\Rightarrow x=2,\\ y=3$."
+  },
+  {
+    "id": "q-g12-u3-ag-new-10",
+    "topic_id": "g12-u3-analytic-geo",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מרובע עם קודקודים $A(0,0),\\ B(4,0),\\ C(4,3),\\ D(0,3)$. איזה סוג מרובע זהו?",
+    "options": ["מלבן", "מעוין", "טרפז", "מקבילית כללית (לא מלבן)"],
+    "correct_index": 0,
+    "explanation": "$AB\\parallel DC$ (שני קווים אופקיים) ו-$AD\\parallel BC$ (שני קווים אנכיים), וכל הזוויות ביניהם ישרות — זהו מלבן."
+  },
+  {
+    "id": "q-g12-u3-sol-new-1",
+    "topic_id": "g12-u3-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת הנפח של גליל ברדיוס $r$ וגובה $h$?",
+    "options": ["$V=\\pi r^2h$", "$V=2\\pi rh$", "$V=\\dfrac{4}{3}\\pi r^3$", "$V=\\pi rh$"],
+    "correct_index": 0,
+    "explanation": "נפח גליל שווה לשטח הבסיס (מעגל, $\\pi r^2$) כפול הגובה."
+  },
+  {
+    "id": "q-g12-u3-sol-new-2",
+    "topic_id": "g12-u3-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת נפח הכדור ברדיוס $r$?",
+    "options": ["$V=\\dfrac{4}{3}\\pi r^3$", "$V=4\\pi r^2$", "$V=\\pi r^3$", "$V=\\dfrac{1}{3}\\pi r^3$"],
+    "correct_index": 0,
+    "explanation": "נוסחת נפח הכדור היא $V=\\dfrac{4}{3}\\pi r^3$."
+  },
+  {
+    "id": "q-g12-u3-sol-new-3",
+    "topic_id": "g12-u3-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "גליל ברדיוס $3$ וגובה $10$. מהו נפחו?",
+    "options": ["$90\\pi$", "$30\\pi$", "$60\\pi$", "$9\\pi$"],
+    "correct_index": 0,
+    "explanation": "$V=\\pi\\cdot3^2\\cdot10=90\\pi$."
+  },
+  {
+    "id": "q-g12-u3-sol-new-4",
+    "topic_id": "g12-u3-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פירמידה בעלת שטח בסיס $12$ וגובה $9$. מהו נפחה?",
+    "options": ["$36$", "$108$", "$54$", "$12$"],
+    "correct_index": 0,
+    "explanation": "$V=\\dfrac{1}{3}\\cdot12\\cdot9=36$."
+  },
+  {
+    "id": "q-g12-u3-sol-new-5",
+    "topic_id": "g12-u3-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חרוט ברדיוס $3$ וגובה $4$. מהו אורך המקצוע $\\ell$?",
+    "options": ["$5$", "$7$", "$\\sqrt{7}$", "$25$"],
+    "correct_index": 0,
+    "explanation": "$\\ell=\\sqrt{r^2+h^2}=\\sqrt{9+16}=\\sqrt{25}=5$."
+  },
+  {
+    "id": "q-g12-u3-sol-new-6",
+    "topic_id": "g12-u3-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "עבור אותו חרוט ($r=3$, $\\ell=5$), מהו שטח המעטפת?",
+    "options": ["$15\\pi$", "$9\\pi$", "$20\\pi$", "$25\\pi$"],
+    "correct_index": 0,
+    "explanation": "שטח מעטפת החרוט: $\\pi r\\ell=\\pi\\cdot3\\cdot5=15\\pi$."
+  },
+  {
+    "id": "q-g12-u3-sol-new-7",
+    "topic_id": "g12-u3-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו שטח הפנים של כדור ברדיוס $6$?",
+    "options": ["$144\\pi$", "$36\\pi$", "$288\\pi$", "$72\\pi$"],
+    "correct_index": 0,
+    "explanation": "$S=4\\pi r^2=4\\pi\\cdot36=144\\pi$."
+  },
+  {
+    "id": "q-g12-u3-sol-new-8",
+    "topic_id": "g12-u3-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "גליל ברדיוס $2$ וגובה $5$. מהו שטח הפנים הכולל שלו?",
+    "options": ["$28\\pi$", "$20\\pi$", "$8\\pi$", "$24\\pi$"],
+    "correct_index": 0,
+    "explanation": "$S=2\\pi r^2+2\\pi rh=2\\pi\\cdot4+2\\pi\\cdot2\\cdot5=8\\pi+20\\pi=28\\pi$."
+  },
+  {
+    "id": "q-g12-u3-sol-new-9",
+    "topic_id": "g12-u3-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "גוף מורכב מגליל (רדיוס $2$, גובה $5$) שעליו חרוט מאותו רדיוס (גובה $3$). מהו נפח הגוף הכולל?",
+    "options": ["$24\\pi$", "$20\\pi$", "$4\\pi$", "$32\\pi$"],
+    "correct_index": 0,
+    "explanation": "$V_{cyl}=\\pi\\cdot4\\cdot5=20\\pi$, $V_{cone}=\\dfrac{1}{3}\\pi\\cdot4\\cdot3=4\\pi$. הסכום: $20\\pi+4\\pi=24\\pi$."
+  },
+  {
+    "id": "q-g12-u3-sol-new-10",
+    "topic_id": "g12-u3-solids",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מיכל בצורת גליל ברדיוס $4$ מ' מלא מים עד גובה $3$ מ'. כמה מ\"ק מים במיכל (לפי $\\pi\\approx3.14$)?",
+    "options": ["$\\approx150.72$", "$\\approx37.68$", "$\\approx200.96$", "$\\approx48$"],
+    "correct_index": 0,
+    "explanation": "$V=\\pi r^2h=\\pi\\cdot16\\cdot3=48\\pi\\approx48\\times3.14\\approx150.72$."
+  },
+  {
+    "id": "q-g12-u3-sv-1",
+    "topic_id": "g12-u3-spatial-vision",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בכמה מבטים בסיסיים משתמשים בדרך כלל כדי לתאר מבנה תלת-ממדי בצורה חד-משמעית?",
+    "options": ["שלושה: חזית, צד, מלמעלה", "שניים בלבד", "אחד — מלמעלה בלבד", "ארבעה"],
+    "correct_index": 0,
+    "explanation": "המבטים הבסיסיים הם מבט מהחזית, מבט מהצד, ומבט מלמעלה."
+  },
+  {
+    "id": "q-g12-u3-sv-2",
+    "topic_id": "g12-u3-spatial-vision",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מבט מלמעלה על מבנה קוביות מראה בעיקר את:",
+    "options": ["\"טביעת הרגל\" (הבסיס) של המבנה על הרצפה", "הגובה המקסימלי של המבנה", "מספר הקוביות הכולל", "הצבע של הקוביות"],
+    "correct_index": 0,
+    "explanation": "מבט מלמעלה מראה אילו עמודות קוביות קיימות ואיפה, אך לא את הגובה שלהן."
+  },
+  {
+    "id": "q-g12-u3-sv-3",
+    "topic_id": "g12-u3-spatial-vision",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מבנה בנוי משורה אחת של $4$ קוביות זו לצד זו, כולן בגובה $1$. איך ייראה מבט מהחזית?",
+    "options": ["מלבן ברוחב $4$ וגובה $1$", "ריבוע יחיד", "מלבן ברוחב $1$ וגובה $4$", "עיגול"],
+    "correct_index": 0,
+    "explanation": "מבט מהחזית של שורת קוביות בגובה אחיד הוא מלבן שרוחבו כמספר הקוביות וגובהו $1$."
+  },
+  {
+    "id": "q-g12-u3-sv-4",
+    "topic_id": "g12-u3-spatial-vision",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מפת גבהים של מבנה נתונה כרשת $2\\times2$ עם הערכים $1,2,2,3$ (מספר קוביות בכל עמודה). כמה קוביות סה\"כ במבנה?",
+    "options": ["$8$", "$4$", "$6$", "$12$"],
+    "correct_index": 0,
+    "explanation": "סכום הערכים ברשת: $1+2+2+3=8$."
+  },
+  {
+    "id": "q-g12-u3-sv-5",
+    "topic_id": "g12-u3-spatial-vision",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מכמה ריבועים מורכבת פרישה (net) סטנדרטית של קובייה?",
+    "options": ["$6$", "$4$", "$8$", "$12$"],
+    "correct_index": 0,
+    "explanation": "לקובייה שש פאות מרובעות, ולכן הפרישה שלה מורכבת מ-$6$ ריבועים מחוברים."
+  },
+  {
+    "id": "q-g12-u3-sv-6",
+    "topic_id": "g12-u3-spatial-vision",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מפת גבהים $3\\times1$ עם הערכים $2,1,3$ (מספר קוביות בכל עמודה). כמה קוביות סה\"כ?",
+    "options": ["$6$", "$5$", "$3$", "$9$"],
+    "correct_index": 0,
+    "explanation": "$2+1+3=6$."
+  },
+  {
+    "id": "q-g12-u3-sv-7",
+    "topic_id": "g12-u3-spatial-vision",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונים שלושת המבטים של מבנה קוביות. מדוע לעיתים קיים יותר ממבנה תלת-ממדי אחד המתאים לאותם שלושה מבטים?",
+    "options": ["כי המבטים אינם מראים \"חורים\" פנימיים או שילובי גבהים נסתרים באמצע המבנה", "כי אין קשר בין המבטים למבנה", "כי תמיד קיים מבנה יחיד בלבד", "כי המבטים תמיד סותרים זה את זה"],
+    "correct_index": 0,
+    "explanation": "שלושה מבטים חיצוניים אינם תמיד קובעים באופן יחיד את הפנים או השילוב המדויק של גבהים בכל עמודה — לכן יכולים להתאים להם כמה מבנים שונים."
+  },
+  {
+    "id": "q-g12-u3-sv-8",
+    "topic_id": "g12-u3-spatial-vision",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מבט מהחזית של מבנה הוא מלבן $3\\times2$ (רוחב $3$, גובה $2$) ללא \"מדרגות\" נראות. מה ניתן להסיק?",
+    "options": ["בכל אחד משלושת הטורים הנראים מהחזית יש קוביות בגובה $2$ לפחות", "יש בסך הכול $6$ קוביות במבנה", "כל טור בגובה שונה", "אין מספיק מידע כלל"],
+    "correct_index": 0,
+    "explanation": "מלבן אחיד ללא מדרגות במבט החזית מראה שגובה כל טור הנראה מלפנים הוא לפחות $2$."
+  },
+  {
+    "id": "q-g12-u3-sv-9",
+    "topic_id": "g12-u3-spatial-vision",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בשאלת \"בנו את המבנה בעל מספר הקוביות המינימלי המתאים לשלושת המבטים הנתונים\" — מהי האסטרטגיה הנכונה?",
+    "options": ["להניח בכל עמודה רק את מספר הקוביות המינימלי הנדרש כדי לספק את שני המבטים (חזית וצד) יחד", "להניח קוביה אחת בכל עמודה תמיד", "למלא את כל העמודות עד לגובה המרבי בכל המבנים", "להתעלם ממבט הצד"],
+    "correct_index": 0,
+    "explanation": "כדי למזער את מספר הקוביות, בכל עמודה משתמשים בגובה הקטן ביותר שעדיין מקיים גם את מבט החזית וגם את מבט הצד באותה עמודה."
+  },
+  {
+    "id": "q-g12-u3-sv-10",
+    "topic_id": "g12-u3-spatial-vision",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פרישה (net) של גליל מורכבת מ:",
+    "options": ["שני מעגלים (בסיסים) ומלבן אחד (המעטפת המתפרשת)", "שני מלבנים בלבד", "מעגל אחד ומשולש אחד", "שלושה מעגלים"],
+    "correct_index": 0,
+    "explanation": "כאשר פותחים גליל, המעטפת המעוגלת נפתחת למלבן, ולבסיסיו יש שני מעגלים חופפים."
+  },
+  {
+    "id": "q-g12-u3-sv-11",
+    "topic_id": "g12-u3-spatial-vision",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מבנה שבו מבט מהחזית הוא מלבן $2\\times3$ (רוחב $2$, גובה $3$) ומבט מהצד הוא מלבן $1\\times3$ (עומק $1$, גובה $3$). מהו מספר הקוביות המרבי האפשרי במבנה?",
+    "options": ["$6$", "$3$", "$9$", "$2$"],
+    "correct_index": 0,
+    "explanation": "עומק המבנה הוא $1$ (ממבט הצד), ורוחבו $2$ וגובהו $3$ (ממבט החזית). המספר המרבי: $2\\times1\\times3=6$, אם כל התאים מלאים."
+  },
+  {
+    "id": "q-g12-u3-sv-12",
+    "topic_id": "g12-u3-spatial-vision",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פרישה של פירמידה בעלת בסיס ריבועי מורכבת מ:",
+    "options": ["ריבוע אחד (הבסיס) וארבעה משולשים (פאות הצד)", "חמישה ריבועים", "שני ריבועים וארבעה משולשים", "ריבוע אחד ומשולש אחד"],
+    "correct_index": 0,
+    "explanation": "לפירמידה עם בסיס ריבוע יש בסיס מרובע אחד וארבע פאות צד משולשות, ולכן פרישתה מורכבת מריבוע אחד וארבעה משולשים."
+  },
+  {
+    "id": "q-g12-u4-precalc-1",
+    "topic_id": "g12-u4-exp-log-precalc",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו תחום ההגדרה של הפונקציה $g(x)=\\log_a x$ (כאשר $a>0,\\ a\\neq1$)?",
+    "options": ["$x>0$", "כל הממשיים", "$x\\neq0$", "$x\\ge0$"],
+    "correct_index": 0,
+    "explanation": "הלוגריתם מוגדר רק עבור מספרים חיוביים, ולכן תחום ההגדרה הוא $x>0$."
+  },
+  {
+    "id": "q-g12-u4-precalc-2",
+    "topic_id": "g12-u4-exp-log-precalc",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הפונקציה $f(x)=a^x$ עם $a>1$ היא:",
+    "options": ["עולה", "יורדת", "קבועה", "לא מוגדרת"],
+    "correct_index": 0,
+    "explanation": "כאשר הבסיס $a$ גדול מ-$1$, הפונקציה המעריכית עולה."
+  },
+  {
+    "id": "q-g12-u4-precalc-3",
+    "topic_id": "g12-u4-exp-log-precalc",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי האסימפטוטה האופקית של $f(x)=3^x$?",
+    "options": ["$y=0$", "$x=0$", "$y=1$", "אין אסימפטוטה"],
+    "correct_index": 0,
+    "explanation": "כל פונקציה מהצורה $a^x$ מתקרבת לציר $y=0$ אך לא נוגעת בו."
+  },
+  {
+    "id": "q-g12-u4-precalc-4",
+    "topic_id": "g12-u4-exp-log-precalc",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\log_2 8$?",
+    "options": ["$3$", "$4$", "$8$", "$16$"],
+    "correct_index": 0,
+    "explanation": "$2^3=8$, ולכן $\\log_2 8=3$."
+  },
+  {
+    "id": "q-g12-u4-precalc-5",
+    "topic_id": "g12-u4-exp-log-precalc",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פתרו את המשוואה $2^x=16$.",
+    "options": ["$x=4$", "$x=8$", "$x=2$", "$x=16$"],
+    "correct_index": 0,
+    "explanation": "$16=2^4$, ומכיוון שהבסיסים שווים, $x=4$."
+  },
+  {
+    "id": "q-g12-u4-precalc-6",
+    "topic_id": "g12-u4-exp-log-precalc",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפי חוקי הלוגריתמים, $\\log_a(xy)$ שווה ל:",
+    "options": ["$\\log_a x+\\log_a y$", "$\\log_a x\\cdot\\log_a y$", "$\\log_a x-\\log_a y$", "$\\log_a(x+y)$"],
+    "correct_index": 0,
+    "explanation": "חוק הלוגריתם של מכפלה: $\\log_a(xy)=\\log_a x+\\log_a y$."
+  },
+  {
+    "id": "q-g12-u4-precalc-7",
+    "topic_id": "g12-u4-exp-log-precalc",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו את המשוואה $3^{x+1}=3^{2x-1}$.",
+    "options": ["$x=2$", "$x=0$", "$x=1$", "$x=-2$"],
+    "correct_index": 0,
+    "explanation": "מכיוון שהבסיסים שווים, משווים מעריכים: $x+1=2x-1\\Rightarrow x=2$."
+  },
+  {
+    "id": "q-g12-u4-precalc-8",
+    "topic_id": "g12-u4-exp-log-precalc",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי האסימפטוטה האנכית של $f(x)=\\log_3(x-2)$?",
+    "options": ["$x=2$", "$x=0$", "$x=3$", "$y=2$"],
+    "correct_index": 0,
+    "explanation": "האסימפטוטה של $\\log_3 x$ היא $x=0$; ההזזה האופקית ב-$2$ יחידות מזיזה אותה ל-$x=2$."
+  },
+  {
+    "id": "q-g12-u4-precalc-9",
+    "topic_id": "g12-u4-exp-log-precalc",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו את אי-השוויון $\\left(\\dfrac{1}{2}\\right)^x\\le\\left(\\dfrac{1}{2}\\right)^3$.",
+    "options": ["$x\\ge3$", "$x\\le3$", "$x=3$", "$x\\ge-3$"],
+    "correct_index": 0,
+    "explanation": "הבסיס $\\dfrac12$ קטן מ-$1$ (פונקציה יורדת), ולכן בהשוואת המעריכים הופכים את כיוון האי-שוויון: $x\\ge3$."
+  },
+  {
+    "id": "q-g12-u4-precalc-10",
+    "topic_id": "g12-u4-exp-log-precalc",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזו נקודה נמצאת תמיד על גרף הפונקציה $g(x)=\\log_a x$, לכל $a$ תקין?",
+    "options": ["$(1,0)$", "$(0,1)$", "$(0,0)$", "$(a,1)$"],
+    "correct_index": 0,
+    "explanation": "$\\log_a 1=0$ לכל בסיס $a$ תקין, ולכן הנקודה $(1,0)$ נמצאת תמיד על הגרף."
+  },
+  {
+    "id": "q-g12-u4-precalc-11",
+    "topic_id": "g12-u4-exp-log-precalc",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פתרו: $2^{2x}-5\\cdot2^x+4=0$. מהו סכום כל הפתרונות $x$?",
+    "options": ["$2$", "$4$", "$5$", "$0$"],
+    "correct_index": 0,
+    "explanation": "מציבים $t=2^x$: $t^2-5t+4=0\\Rightarrow(t-1)(t-4)=0$. $t=1\\Rightarrow x=0$; $t=4\\Rightarrow x=2$. סכום הפתרונות: $0+2=2$."
+  },
+  {
+    "id": "q-g12-u4-precalc-12",
+    "topic_id": "g12-u4-exp-log-precalc",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "הזיזו את $f(x)=2^x$ ב-$3$ יחידות ימינה וב-$1$ יחידה למעלה. מהי האסימפטוטה של הפונקציה החדשה?",
+    "options": ["$y=1$", "$y=0$", "$x=3$", "$y=3$"],
+    "correct_index": 0,
+    "explanation": "הפונקציה החדשה היא $2^{x-3}+1$. הזזה אופקית אינה משפיעה על האסימפטוטה האופקית, אך הזזה אנכית ב-$1$ כלפי מעלה מזיזה אותה ל-$y=1$."
+  },
+  {
+    "id": "q-g12-u4-growth-new-1",
+    "topic_id": "g12-u4-growth-decay",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמות הגדלה ב-$5\\%$ בכל שלב מקיימת מודל $N(t)=N(0)\\cdot q^t$ עם $q=$?",
+    "options": ["$1.05$", "$0.05$", "$1.5$", "$0.95$"],
+    "correct_index": 0,
+    "explanation": "גדילה של $5\\%$ מתורגמת ל-$q=1+\\dfrac{5}{100}=1.05$."
+  },
+  {
+    "id": "q-g12-u4-growth-new-2",
+    "topic_id": "g12-u4-growth-decay",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמות דועכת ב-$20\\%$ בכל שלב. מהו $q$?",
+    "options": ["$0.8$", "$0.2$", "$1.2$", "$1.8$"],
+    "correct_index": 0,
+    "explanation": "דעיכה של $20\\%$ מתורגמת ל-$q=1-\\dfrac{20}{100}=0.8$."
+  },
+  {
+    "id": "q-g12-u4-growth-new-3",
+    "topic_id": "g12-u4-growth-decay",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$N(0)=1000$, $q=1.1$. מהו $N(2)$?",
+    "options": ["$1210$", "$1200$", "$1100$", "$1000$"],
+    "correct_index": 0,
+    "explanation": "$N(2)=1000\\cdot1.1^2=1000\\cdot1.21=1210$."
+  },
+  {
+    "id": "q-g12-u4-growth-new-4",
+    "topic_id": "g12-u4-growth-decay",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חומר דועך לפי זמן מחצית חיים $T=3$ שנים, $N(0)=80$. מהו $N(6)$?",
+    "options": ["$20$", "$40$", "$10$", "$60$"],
+    "correct_index": 0,
+    "explanation": "$6$ שנים הן שני זמני מחצית חיים: $N(6)=80\\cdot\\left(\\dfrac12\\right)^2=80\\cdot\\dfrac14=20$."
+  },
+  {
+    "id": "q-g12-u4-growth-new-5",
+    "topic_id": "g12-u4-growth-decay",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אוכלוסיית חיידקים משלשת את עצמה בכל שעה, $N(0)=100$. מהו $N(2)$?",
+    "options": ["$900$", "$300$", "$600$", "$1000$"],
+    "correct_index": 0,
+    "explanation": "$N(2)=100\\cdot3^2=900$."
+  },
+  {
+    "id": "q-g12-u4-growth-new-6",
+    "topic_id": "g12-u4-growth-decay",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אוכלוסייה גדלה מ-$1000$ ל-$1210$ תוך שנתיים, בקצב קבוע. מהו אחוז הגידול השנתי?",
+    "options": ["$10\\%$", "$21\\%$", "$5\\%$", "$11\\%$"],
+    "correct_index": 0,
+    "explanation": "$q^2=\\dfrac{1210}{1000}=1.21\\Rightarrow q=1.1$, כלומר גידול של $10\\%$ בשנה."
+  },
+  {
+    "id": "q-g12-u4-growth-new-7",
+    "topic_id": "g12-u4-growth-decay",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$500$ גרם של חומר דועך ב-$10\\%$ בכל שעה. כמה גרם נשארו לאחר $2$ שעות?",
+    "options": ["$405$", "$400$", "$450$", "$480$"],
+    "correct_index": 0,
+    "explanation": "$500\\cdot0.9^2=500\\cdot0.81=405$."
+  },
+  {
+    "id": "q-g12-u4-growth-new-8",
+    "topic_id": "g12-u4-growth-decay",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "זמן מחצית החיים של חומר הוא $4$ שנים. כעבור כמה שנים תישאר בדיוק רבע מהכמות ההתחלתית?",
+    "options": ["$8$", "$4$", "$16$", "$2$"],
+    "correct_index": 0,
+    "explanation": "רבע מהכמות מתקבל אחרי שני זמני מחצית חיים: $2\\times4=8$ שנים."
+  },
+  {
+    "id": "q-g12-u4-explog-new-1",
+    "topic_id": "g12-u4-exp-log",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=e^x$?",
+    "options": ["$e^x$", "$xe^{x-1}$", "$1$", "$e$"],
+    "correct_index": 0,
+    "explanation": "$e^x$ היא הפונקציה היחידה (עד כפל בקבוע) השווה לנגזרת של עצמה."
+  },
+  {
+    "id": "q-g12-u4-explog-new-2",
+    "topic_id": "g12-u4-exp-log",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\ln x$?",
+    "options": ["$\\dfrac1x$", "$x$", "$\\ln x$", "$e^x$"],
+    "correct_index": 0,
+    "explanation": "$(\\ln x)'=\\dfrac1x$."
+  },
+  {
+    "id": "q-g12-u4-explog-new-3",
+    "topic_id": "g12-u4-exp-log",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=e^{3x}$?",
+    "options": ["$3e^{3x}$", "$e^{3x}$", "$3e^{x}$", "$e^{3}$"],
+    "correct_index": 0,
+    "explanation": "$(e^{f(x)})'=f'(x)e^{f(x)}$, כאשר $f(x)=3x$ ו-$f'(x)=3$."
+  },
+  {
+    "id": "q-g12-u4-explog-new-4",
+    "topic_id": "g12-u4-exp-log",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\ln(5x)$?",
+    "options": ["$\\dfrac1x$", "$\\dfrac5x$", "$5$", "$\\dfrac{1}{5x}$"],
+    "correct_index": 0,
+    "explanation": "$(\\ln f(x))'=\\dfrac{f'(x)}{f(x)}=\\dfrac{5}{5x}=\\dfrac1x$."
+  },
+  {
+    "id": "q-g12-u4-explog-new-5",
+    "topic_id": "g12-u4-exp-log",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=x\\cdot e^x$?",
+    "options": ["$e^x(x+1)$", "$e^x$", "$xe^x$", "$e^x(x-1)$"],
+    "correct_index": 0,
+    "explanation": "כלל המכפלה: $f'(x)=1\\cdot e^x+x\\cdot e^x=e^x(x+1)$."
+  },
+  {
+    "id": "q-g12-u4-explog-new-6",
+    "topic_id": "g12-u4-exp-log",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי נקודת הקיצון של $f(x)=x\\cdot e^x$?",
+    "options": ["$x=-1$", "$x=0$", "$x=1$", "$x=e$"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=e^x(x+1)=0$. מכיוון ש-$e^x\\neq0$ תמיד, מקבלים $x=-1$."
+  },
+  {
+    "id": "q-g12-u4-explog-new-7",
+    "topic_id": "g12-u4-exp-log",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי הפונקציה הקדומה של $f(x)=e^{2x}$?",
+    "options": ["$\\dfrac12 e^{2x}+C$", "$2e^{2x}+C$", "$e^{2x}+C$", "$e^{x}+C$"],
+    "correct_index": 0,
+    "explanation": "$\\int e^{2x}dx=\\dfrac12 e^{2x}+C$."
+  },
+  {
+    "id": "q-g12-u4-explog-new-8",
+    "topic_id": "g12-u4-exp-log",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חשבו: $\\displaystyle\\int_{1}^{e}\\dfrac1x\\,dx$.",
+    "options": ["$1$", "$e$", "$e-1$", "$0$"],
+    "correct_index": 0,
+    "explanation": "$\\int\\dfrac1x dx=\\ln|x|$. $\\ln(e)-\\ln(1)=1-0=1$."
+  },
+  {
+    "id": "q-g12-u4-arith-1",
+    "topic_id": "g12-u4-arithmetic-seq",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בסדרה חשבונית $a_1=3$, $d=2$. מהו $a_5$?",
+    "options": ["$11$", "$10$", "$13$", "$9$"],
+    "correct_index": 0,
+    "explanation": "$a_5=a_1+4d=3+4\\cdot2=11$."
+  },
+  {
+    "id": "q-g12-u4-arith-2",
+    "topic_id": "g12-u4-arithmetic-seq",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "סדרה מוגדרת ע\"י כלל הנסיגה $a_{n+1}=a_n+4$, $a_1=1$. מהו $a_2$?",
+    "options": ["$5$", "$4$", "$1$", "$8$"],
+    "correct_index": 0,
+    "explanation": "$a_2=a_1+4=1+4=5$."
+  },
+  {
+    "id": "q-g12-u4-arith-3",
+    "topic_id": "g12-u4-arithmetic-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "חשבו את סכום $10$ האיברים הראשונים בסדרה $2,5,8,11,\\ldots$",
+    "options": ["$155$", "$145$", "$110$", "$165$"],
+    "correct_index": 0,
+    "explanation": "$a_1=2,d=3,a_{10}=2+9\\cdot3=29$. $S_{10}=\\dfrac{10}{2}(2+29)=155$."
+  },
+  {
+    "id": "q-g12-u4-arith-4",
+    "topic_id": "g12-u4-arithmetic-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו הממוצע החשבוני של $4$ ו-$10$ (כלומר, האיבר האמצעי בסדרה חשבונית בין שני מספרים אלה)?",
+    "options": ["$7$", "$6$", "$14$", "$5$"],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{4+10}{2}=7$."
+  },
+  {
+    "id": "q-g12-u4-arith-5",
+    "topic_id": "g12-u4-arithmetic-seq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בסדרה חשבונית $a_1=5$, $a_{10}=32$. מהו ההפרש $d$?",
+    "options": ["$3$", "$2.7$", "$27$", "$3.7$"],
+    "correct_index": 0,
+    "explanation": "$a_{10}=a_1+9d\\Rightarrow32=5+9d\\Rightarrow d=3$."
+  },
+  {
+    "id": "q-g12-u4-arith-6",
+    "topic_id": "g12-u4-arithmetic-seq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם הסדרה $1,4,9,16,\\ldots$ (ריבועי המספרים הטבעיים) היא סדרה חשבונית?",
+    "options": ["לא, ההפרשים בין איברים עוקבים אינם קבועים", "כן, ההפרש קבוע ושווה ל-$3$", "כן, ההפרש קבוע ושווה ל-$5$", "לא ניתן לקבוע"],
+    "correct_index": 0,
+    "explanation": "ההפרשים הם $3,5,7,\\ldots$ — אינם קבועים, ולכן זו אינה סדרה חשבונית."
+  },
+  {
+    "id": "q-g12-u4-arith-7",
+    "topic_id": "g12-u4-arithmetic-seq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון $S_n=3n^2+2n$ (סכום $n$ האיברים הראשונים בסדרה חשבונית). מהו $a_1$?",
+    "options": ["$5$", "$3$", "$2$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$a_1=S_1=3\\cdot1^2+2\\cdot1=5$."
+  },
+  {
+    "id": "q-g12-u4-arith-8",
+    "topic_id": "g12-u4-arithmetic-seq",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתון $S_n=3n^2+2n$. מהו $a_5$?",
+    "options": ["$29$", "$85$", "$56$", "$17$"],
+    "correct_index": 0,
+    "explanation": "$S_5=85,\\ S_4=56$. $a_5=S_5-S_4=85-56=29$."
+  },
+  {
+    "id": "q-g12-u4-arith-9",
+    "topic_id": "g12-u4-arithmetic-seq",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בסדרה חשבונית $a_1=-10$, $d=3$. באיזה מקום $n$ מתקבל $a_n=50$?",
+    "options": ["$n=21$", "$n=20$", "$n=18$", "$n=22$"],
+    "correct_index": 0,
+    "explanation": "$-10+3(n-1)=50\\Rightarrow3(n-1)=60\\Rightarrow n=21$."
+  },
+  {
+    "id": "q-g12-u4-arith-10",
+    "topic_id": "g12-u4-arithmetic-seq",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בסדרה חשבונית עם הפרש $d=5$ בוחרים את תת-הסדרה של האיברים במקומות האי-זוגיים ($a_1,a_3,a_5,\\ldots$). מהו ההפרש של תת-הסדרה החדשה?",
+    "options": ["$10$", "$5$", "$2.5$", "$15$"],
+    "correct_index": 0,
+    "explanation": "כל דילוג על איבר אחד מכפיל את ההפרש: תת-הסדרה של האיברים האי-זוגיים היא חשבונית עם הפרש $2d=10$."
+  },
+  {
+    "id": "q-g12-u4-geo-1",
+    "topic_id": "g12-u4-geometric-seq",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בסדרה הנדסית $a_1=2$, $q=3$. מהו $a_4$?",
+    "options": ["$54$", "$24$", "$18$", "$162$"],
+    "correct_index": 0,
+    "explanation": "$a_4=a_1\\cdot q^3=2\\cdot27=54$."
+  },
+  {
+    "id": "q-g12-u4-geo-2",
+    "topic_id": "g12-u4-geometric-seq",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "סדרה מוגדרת ע\"י $a_{n+1}=2a_n$, $a_1=3$. מהו $a_2$?",
+    "options": ["$6$", "$5$", "$9$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$a_2=2\\cdot3=6$."
+  },
+  {
+    "id": "q-g12-u4-geo-3",
+    "topic_id": "g12-u4-geometric-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו הממוצע ההנדסי של $4$ ו-$16$?",
+    "options": ["$8$", "$10$", "$64$", "$20$"],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{4\\cdot16}=\\sqrt{64}=8$."
+  },
+  {
+    "id": "q-g12-u4-geo-4",
+    "topic_id": "g12-u4-geometric-seq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "חשבו את סכום $4$ האיברים הראשונים בסדרה $1,2,4,8,\\ldots$",
+    "options": ["$15$", "$16$", "$14$", "$8$"],
+    "correct_index": 0,
+    "explanation": "$S_4=1\\cdot\\dfrac{2^4-1}{2-1}=15$."
+  },
+  {
+    "id": "q-g12-u4-geo-5",
+    "topic_id": "g12-u4-geometric-seq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בסדרה הנדסית $a_1=5$, $a_4=40$. מהי המנה $q$?",
+    "options": ["$2$", "$8$", "$3$", "$4$"],
+    "correct_index": 0,
+    "explanation": "$a_4=a_1q^3\\Rightarrow40=5q^3\\Rightarrow q^3=8\\Rightarrow q=2$."
+  },
+  {
+    "id": "q-g12-u4-geo-6",
+    "topic_id": "g12-u4-geometric-seq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו סכום הסדרה ההנדסית האינסופית $8,4,2,1,\\ldots$?",
+    "options": ["$16$", "$15$", "$12$", "$\\infty$"],
+    "correct_index": 0,
+    "explanation": "$a_1=8,\\ q=0.5$. $S=\\dfrac{8}{1-0.5}=16$."
+  },
+  {
+    "id": "q-g12-u4-geo-7",
+    "topic_id": "g12-u4-geometric-seq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם הסדרה $3,-6,12,-24,\\ldots$ היא סדרה הנדסית?",
+    "options": ["כן, המנה קבועה ושווה ל-$-2$", "לא, המנה אינה קבועה", "כן, המנה קבועה ושווה ל-$2$", "לא, זו סדרה חשבונית"],
+    "correct_index": 0,
+    "explanation": "היחס בין כל שני איברים עוקבים קבוע ושווה ל-$-2$, ולכן זו סדרה הנדסית."
+  },
+  {
+    "id": "q-g12-u4-geo-8",
+    "topic_id": "g12-u4-geometric-seq",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתון $S_n=2^n-1$ (סכום $n$ איברים ראשונים בסדרה הנדסית). מהו $a_2$?",
+    "options": ["$2$", "$3$", "$1$", "$4$"],
+    "correct_index": 0,
+    "explanation": "$S_1=1,\\ S_2=3$. $a_2=S_2-S_1=3-1=2$."
+  },
+  {
+    "id": "q-g12-u4-geo-9",
+    "topic_id": "g12-u4-geometric-seq",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בסדרה הנדסית אינסופית מתכנסת, $a_1=5$ וסכום הסדרה $S=20$. מהי המנה $q$?",
+    "options": ["$0.75$", "$0.25$", "$4$", "$0.5$"],
+    "correct_index": 0,
+    "explanation": "$20=\\dfrac{5}{1-q}\\Rightarrow1-q=0.25\\Rightarrow q=0.75$."
+  },
+  {
+    "id": "q-g12-u4-geo-10",
+    "topic_id": "g12-u4-geometric-seq",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בסדרה הנדסית אינסופית מתכנסת, $a_1=6$ וסכום הסדרה $S=8$. מהי המנה $q$?",
+    "options": ["$0.25$", "$0.75$", "$1.33$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$8=\\dfrac{6}{1-q}\\Rightarrow1-q=0.75\\Rightarrow q=0.25$."
+  },
+  {
+    "id": "q-g12-u4-lps-1",
+    "topic_id": "g12-u4-lines-planes-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שני ישרים במרחב שאינם נחתכים ואינם מקבילים נקראים:",
+    "options": ["ישרים מצטלבים", "ישרים מאונכים", "ישרים חופפים", "ישרים זהים"],
+    "correct_index": 0,
+    "explanation": "מצב זה, האפשרי רק במרחב (לא במישור), נקרא ישרים מצטלבים."
+  },
+  {
+    "id": "q-g12-u4-lps-2",
+    "topic_id": "g12-u4-lines-planes-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה נקודות שאינן על ישר אחד נדרשות כדי לקבוע מישור יחיד?",
+    "options": ["$3$", "$2$", "$4$", "$1$"],
+    "correct_index": 0,
+    "explanation": "שלוש נקודות שאינן על ישר אחד קובעות מישור יחיד."
+  },
+  {
+    "id": "q-g12-u4-lps-3",
+    "topic_id": "g12-u4-lines-planes-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני ישרים נחתכים קובעים:",
+    "options": ["מישור יחיד", "שני מישורים", "אף מישור", "ישר נוסף"],
+    "correct_index": 0,
+    "explanation": "שני ישרים נחתכים קובעים תמיד מישור יחיד."
+  },
+  {
+    "id": "q-g12-u4-lps-4",
+    "topic_id": "g12-u4-lines-planes-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ישר ומישור שאין להם אף נקודה משותפת הם:",
+    "options": ["מקבילים", "נחתכים", "מצטלבים", "מאונכים"],
+    "correct_index": 0,
+    "explanation": "כאשר אין נקודות משותפות, הישר והמישור מקבילים."
+  },
+  {
+    "id": "q-g12-u4-lps-5",
+    "topic_id": "g12-u4-lines-planes-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו התנאי המספיק להוכיח שישר מאונך למישור?",
+    "options": ["הישר מאונך לשני ישרים נחתכים במישור", "הישר מאונך לישר אחד במישור", "הישר מקביל למישור", "הישר נמצא במישור"],
+    "correct_index": 0,
+    "explanation": "אם ישר מאונך לשני ישרים נחתכים (לא מקבילים) השייכים למישור, הוא מאונך לכל המישור."
+  },
+  {
+    "id": "q-g12-u4-lps-6",
+    "topic_id": "g12-u4-lines-planes-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בפירמידה ישרה, רגל הגובה (תחתית הגובה) נמצאת:",
+    "options": ["במרכז המעגל החוסם את הבסיס", "בקודקוד הבסיס", "באמצע אחד המקצועות", "מחוץ לבסיס תמיד"],
+    "correct_index": 0,
+    "explanation": "בפירמידה ישרה כל המקצועות הצדדיים שווים, ולכן רגל הגובה שווה-מרחק מכל קודקודי הבסיס — כלומר במרכז המעגל החוסם אותו."
+  },
+  {
+    "id": "q-g12-u4-lps-7",
+    "topic_id": "g12-u4-lines-planes-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מנסרה שבסיסיה הם מקביליות נקראת:",
+    "options": ["מקבילון", "תיבה", "פירמידה", "קובייה"],
+    "correct_index": 0,
+    "explanation": "מנסרה שבסיסה מקבילית נקראת מקבילון."
+  },
+  {
+    "id": "q-g12-u4-lps-8",
+    "topic_id": "g12-u4-lines-planes-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שני מישורים שאין להם אף נקודה משותפת הם:",
+    "options": ["מקבילים", "נחתכים", "מצטלבים", "מאונכים תמיד"],
+    "correct_index": 0,
+    "explanation": "מישורים ללא נקודות משותפות הם מישורים מקבילים."
+  },
+  {
+    "id": "q-g12-u4-lps-9",
+    "topic_id": "g12-u4-lines-planes-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כאשר שני מישורים נחתכים, מה נוצר?",
+    "options": ["ישר חיתוך", "נקודת חיתוך בודדת", "מישור שלישי", "שום דבר"],
+    "correct_index": 0,
+    "explanation": "החיתוך של שני מישורים שאינם מקבילים הוא תמיד ישר."
+  },
+  {
+    "id": "q-g12-u4-lps-10",
+    "topic_id": "g12-u4-lines-planes-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה מגדיר מנסרה \"ישרה\"?",
+    "options": ["המקצועות הצדדיים מאונכים למישור הבסיס", "הבסיסים הם משולשים", "יש לה בדיוק שישה מקצועות", "כל הפאות שוות"],
+    "correct_index": 0,
+    "explanation": "במנסרה ישרה המקצועות הצדדיים מאונכים לבסיס; מקרים פרטיים: תיבה וקובייה."
+  },
+  {
+    "id": "q-g12-u4-vgeo-1",
+    "topic_id": "g12-u4-vectors-geo",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לאיזה וקטור אורך $0$ ואין כיוון מוגדר?",
+    "options": ["וקטור האפס", "וקטור היחידה", "וקטור נגדי", "וקטור קולינארי"],
+    "correct_index": 0,
+    "explanation": "וקטור האפס $\\vec0$ הוא הוקטור היחיד שאורכו $0$."
+  },
+  {
+    "id": "q-g12-u4-vgeo-2",
+    "topic_id": "g12-u4-vectors-geo",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו הוקטור הנגדי ל-$\\overrightarrow{AB}$?",
+    "options": ["$\\overrightarrow{BA}$", "$\\overrightarrow{AB}$ עצמו", "וקטור האפס", "וקטור מקביל בכיוון זהה"],
+    "correct_index": 0,
+    "explanation": "$\\overrightarrow{BA}=-\\overrightarrow{AB}$ — אותו אורך, כיוון הפוך."
+  },
+  {
+    "id": "q-g12-u4-vgeo-3",
+    "topic_id": "g12-u4-vectors-geo",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו התנאי ההכרחי והמספיק לקולינאריות של $\\vec u,\\vec v$ (שונים מאפס)?",
+    "options": ["קיים $k$ כך ש-$\\vec u=k\\vec v$", "$|\\vec u|=|\\vec v|$", "$\\vec u+\\vec v=\\vec0$", "$\\vec u\\cdot\\vec v=0$"],
+    "correct_index": 0,
+    "explanation": "וקטורים קולינאריים אם ורק אם אחד הוא כפולה סקלרית של השני."
+  },
+  {
+    "id": "q-g12-u4-vgeo-4",
+    "topic_id": "g12-u4-vectors-geo",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפי חוק הקיבוץ של כפל בסקלרים, $k(m\\vec v)$ שווה ל:",
+    "options": ["$(km)\\vec v$", "$k+m\\vec v$", "$km+\\vec v$", "$k\\vec v+m\\vec v$"],
+    "correct_index": 0,
+    "explanation": "חוק הקיבוץ: $k\\cdot(m\\cdot\\vec v)=(k\\cdot m)\\cdot\\vec v$."
+  },
+  {
+    "id": "q-g12-u4-vgeo-5",
+    "topic_id": "g12-u4-vectors-geo",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ביטוי מהצורה $\\alpha\\vec u+\\beta\\vec v$ נקרא:",
+    "options": ["צירוף לינארי של $\\vec u$ ו-$\\vec v$", "מכפלה סקלרית", "וקטור קולינארי", "וקטור יחידה"],
+    "correct_index": 0,
+    "explanation": "זהו בדיוק ההגדרה של צירוף לינארי."
+  },
+  {
+    "id": "q-g12-u4-vgeo-6",
+    "topic_id": "g12-u4-vectors-geo",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם $\\vec u=2\\vec v$ (ו-$\\vec v\\neq\\vec0$), האם $\\vec u$ ו-$\\vec v$ קולינאריים?",
+    "options": ["כן", "לא", "רק אם שווים באורכם", "לא ניתן לדעת"],
+    "correct_index": 0,
+    "explanation": "לפי התנאי ההכרחי והמספיק, $\\vec u=k\\vec v$ (כאן $k=2$) פירושו שהם קולינאריים."
+  },
+  {
+    "id": "q-g12-u4-vgeo-7",
+    "topic_id": "g12-u4-vectors-geo",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה וקטורים שאינם נמצאים באותו מישור נדרשים כדי לבטא כל וקטור במרחב באופן יחיד כצירוף לינארי שלהם?",
+    "options": ["$3$", "$2$", "$1$", "$4$"],
+    "correct_index": 0,
+    "explanation": "כל וקטור במרחב ניתן להצגה יחידה כצירוף לינארי של שלושה וקטורים שאינם באותו מישור."
+  },
+  {
+    "id": "q-g12-u4-vgeo-8",
+    "topic_id": "g12-u4-vectors-geo",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$, הנקודה $F$ היא אמצע הצלע $BC$. הביעו את $\\overrightarrow{AF}$ באמצעות $\\overrightarrow{AB}$ ו-$\\overrightarrow{AC}$.",
+    "options": ["$\\dfrac12(\\overrightarrow{AB}+\\overrightarrow{AC})$", "$\\overrightarrow{AB}+\\overrightarrow{AC}$", "$\\overrightarrow{AB}-\\overrightarrow{AC}$", "$\\dfrac12(\\overrightarrow{AB}-\\overrightarrow{AC})$"],
+    "correct_index": 0,
+    "explanation": "וקטור לאמצע קטע הוא הממוצע של הווקטורים לשתי הקצוות: $\\overrightarrow{AF}=\\dfrac12(\\overrightarrow{AB}+\\overrightarrow{AC})$."
+  },
+  {
+    "id": "q-g12-u4-vgeo-9",
+    "topic_id": "g12-u4-vectors-geo",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CA}$?",
+    "options": ["$\\vec0$", "$\\overrightarrow{AC}$", "$2\\overrightarrow{AB}$", "לא ניתן לדעת"],
+    "correct_index": 0,
+    "explanation": "מסלול סגור (משולש) שחוזר לנקודת ההתחלה תמיד מסתכם בוקטור האפס."
+  },
+  {
+    "id": "q-g12-u4-vgeo-10",
+    "topic_id": "g12-u4-vectors-geo",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "$\\vec u,\\vec v$ אינם קולינאריים, ומתקיים $\\alpha\\vec u+\\beta\\vec v=\\vec0$. מה ניתן להסיק?",
+    "options": ["$\\alpha=0$ וגם $\\beta=0$", "$\\alpha=\\beta$", "$\\alpha=-\\beta$", "אין מספיק מידע"],
+    "correct_index": 0,
+    "explanation": "מכיוון שהצגת הוקטור $\\vec0$ כצירוף לינארי של שני וקטורים לא-קולינאריים היא יחידה, חייב להתקיים $\\alpha=\\beta=0$."
+  },
+  {
+    "id": "q-g12-u4-valg-1",
+    "topic_id": "g12-u4-vectors-algebraic",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הנקודה $(3,0,0)$ נמצאת על:",
+    "options": ["ציר $x$", "ציר $y$", "ציר $z$", "מישור $yz$"],
+    "correct_index": 0,
+    "explanation": "כאשר $y=0$ וגם $z=0$, הנקודה נמצאת על ציר $x$."
+  },
+  {
+    "id": "q-g12-u4-valg-2",
+    "topic_id": "g12-u4-vectors-algebraic",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הנקודה $(2,5,0)$ נמצאת במישור:",
+    "options": ["$xy$", "$xz$", "$yz$", "אף אחד מהם"],
+    "correct_index": 0,
+    "explanation": "כאשר $z=0$, הנקודה נמצאת במישור $xy$."
+  },
+  {
+    "id": "q-g12-u4-valg-3",
+    "topic_id": "g12-u4-vectors-algebraic",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונות $A(1,2,3)$ ו-$B(4,6,8)$. מהו $\\overrightarrow{AB}$?",
+    "options": ["$(3,4,5)$", "$(5,8,11)$", "$(4,6,8)$", "$(-3,-4,-5)$"],
+    "correct_index": 0,
+    "explanation": "$\\overrightarrow{AB}=(4-1,6-2,8-3)=(3,4,5)$."
+  },
+  {
+    "id": "q-g12-u4-valg-4",
+    "topic_id": "g12-u4-vectors-algebraic",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו אורך הוקטור $(3,4,0)$?",
+    "options": ["$5$", "$7$", "$25$", "$3.5$"],
+    "correct_index": 0,
+    "explanation": "$|\\vec v|=\\sqrt{3^2+4^2+0^2}=\\sqrt{25}=5$."
+  },
+  {
+    "id": "q-g12-u4-valg-5",
+    "topic_id": "g12-u4-vectors-algebraic",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו אורך הוקטור $(1,2,2)$?",
+    "options": ["$3$", "$5$", "$9$", "$\\sqrt5$"],
+    "correct_index": 0,
+    "explanation": "$|\\vec v|=\\sqrt{1+4+4}=\\sqrt9=3$."
+  },
+  {
+    "id": "q-g12-u4-valg-6",
+    "topic_id": "g12-u4-vectors-algebraic",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם הוקטורים $(2,4,6)$ ו-$(1,2,3)$ קולינאריים?",
+    "options": ["כן, היחס בין הרכיבים קבוע ושווה ל-$2$", "לא, הרכיבים שונים", "כן, אבל רק בשני רכיבים", "לא ניתן לקבוע"],
+    "correct_index": 0,
+    "explanation": "$\\dfrac21=\\dfrac42=\\dfrac63=2$ — יחס קבוע, ולכן קולינאריים."
+  },
+  {
+    "id": "q-g12-u4-valg-7",
+    "topic_id": "g12-u4-vectors-algebraic",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$\\vec u=(1,-1,2)$, $\\vec v=(2,-2,4)$. האם הם קולינאריים?",
+    "options": ["כן", "לא", "רק אם מאונכים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$\\vec v=2\\vec u$ — כל רכיב פי $2$, ולכן קולינאריים."
+  },
+  {
+    "id": "q-g12-u4-valg-8",
+    "topic_id": "g12-u4-vectors-algebraic",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חשבו: $(1,2,3)+(4,-1,0)$.",
+    "options": ["$(5,1,3)$", "$(5,3,3)$", "$(4,-2,0)$", "$(3,-1,-3)$"],
+    "correct_index": 0,
+    "explanation": "חיבור רכיב-רכיב: $(1+4,\\ 2+(-1),\\ 3+0)=(5,1,3)$."
+  },
+  {
+    "id": "q-g12-u4-valg-9",
+    "topic_id": "g12-u4-vectors-algebraic",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מצאו $k$ כך שהוקטור $(k,4,6)$ יהיה קולינארי עם $(1,2,3)$.",
+    "options": ["$k=2$", "$k=1$", "$k=3$", "$k=4$"],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{4}{2}=\\dfrac{6}{3}=2$, ולכן גם $\\dfrac{k}{1}$ צריך להיות $2$: $k=2$."
+  },
+  {
+    "id": "q-g12-u4-valg-10",
+    "topic_id": "g12-u4-vectors-algebraic",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נתונות $A(1,1,1)$ ו-$B(3,3,3)$. מהו אורך $\\overrightarrow{AB}$?",
+    "options": ["$2\\sqrt3$", "$2\\sqrt2$", "$6$", "$3\\sqrt2$"],
+    "correct_index": 0,
+    "explanation": "$\\overrightarrow{AB}=(2,2,2)$, $|\\overrightarrow{AB}|=\\sqrt{4+4+4}=\\sqrt{12}=2\\sqrt3$."
+  },
+  {
+    "id": "q-g12-u4-dot-1",
+    "topic_id": "g12-u4-dot-product",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "התוצאה של מכפלה סקלרית בין שני וקטורים היא:",
+    "options": ["מספר (סקלר)", "וקטור", "מטריצה", "זווית"],
+    "correct_index": 0,
+    "explanation": "המכפלה הסקלרית מחזירה תמיד מספר, לא וקטור."
+  },
+  {
+    "id": "q-g12-u4-dot-2",
+    "topic_id": "g12-u4-dot-product",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $\\vec u\\cdot\\vec v=0$ ושני הוקטורים שונים מאפס, מה ניתן להסיק?",
+    "options": ["הוקטורים ניצבים", "הוקטורים קולינאריים", "הוקטורים שווים", "הוקטורים נגדיים"],
+    "correct_index": 0,
+    "explanation": "מכפלה סקלרית אפס (בין וקטורים שאינם אפס) פירושה שהם ניצבים."
+  },
+  {
+    "id": "q-g12-u4-dot-3",
+    "topic_id": "g12-u4-dot-product",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$|\\vec u|=3$, $|\\vec v|=4$, הזווית ביניהם $90°$. מהו $\\vec u\\cdot\\vec v$?",
+    "options": ["$0$", "$12$", "$7$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$\\vec u\\cdot\\vec v=3\\cdot4\\cdot\\cos90°=3\\cdot4\\cdot0=0$."
+  },
+  {
+    "id": "q-g12-u4-dot-4",
+    "topic_id": "g12-u4-dot-product",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$|\\vec u|=2$, $|\\vec v|=5$, הזווית ביניהם $60°$. מהו $\\vec u\\cdot\\vec v$?",
+    "options": ["$5$", "$10$", "$7$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$\\vec u\\cdot\\vec v=2\\cdot5\\cdot\\cos60°=10\\cdot0.5=5$."
+  },
+  {
+    "id": "q-g12-u4-dot-5",
+    "topic_id": "g12-u4-dot-product",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$\\vec u=(1,2,2)$, $\\vec v=(2,-1,2)$. מהו $\\vec u\\cdot\\vec v$?",
+    "options": ["$4$", "$8$", "$0$", "$-4$"],
+    "correct_index": 0,
+    "explanation": "$1\\cdot2+2\\cdot(-1)+2\\cdot2=2-2+4=4$."
+  },
+  {
+    "id": "q-g12-u4-dot-6",
+    "topic_id": "g12-u4-dot-product",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חשבו את $|\\vec v|$ עבור $\\vec v=(1,2,2)$ באמצעות מכפלה סקלרית עצמית.",
+    "options": ["$3$", "$5$", "$9$", "$\\sqrt5$"],
+    "correct_index": 0,
+    "explanation": "$|\\vec v|=\\sqrt{\\vec v\\cdot\\vec v}=\\sqrt{1+4+4}=\\sqrt9=3$."
+  },
+  {
+    "id": "q-g12-u4-dot-7",
+    "topic_id": "g12-u4-dot-product",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $\\cos(180°-60°)$?",
+    "options": ["$-0.5$", "$0.5$", "$-1$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$\\cos(180°-\\alpha)=-\\cos\\alpha$, ולכן $\\cos(120°)=-\\cos(60°)=-0.5$."
+  },
+  {
+    "id": "q-g12-u4-dot-8",
+    "topic_id": "g12-u4-dot-product",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "$\\vec u=(1,0,1)$, $\\vec v=(0,1,1)$. האם הם ניצבים?",
+    "options": ["לא, כי $\\vec u\\cdot\\vec v=1\\neq0$", "כן, כי שניהם באורך $\\sqrt2$", "כן, כי $\\vec u\\cdot\\vec v=0$", "לא ניתן לדעת"],
+    "correct_index": 0,
+    "explanation": "$\\vec u\\cdot\\vec v=1\\cdot0+0\\cdot1+1\\cdot1=1\\neq0$, ולכן אינם ניצבים."
+  },
+  {
+    "id": "q-g12-u4-dot-9",
+    "topic_id": "g12-u4-dot-product",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מצאו $k$ כך ש-$\\vec u=(k,2,1)$ מאונך ל-$\\vec v=(1,-1,3)$.",
+    "options": ["$k=-1$", "$k=1$", "$k=0$", "$k=-2$"],
+    "correct_index": 0,
+    "explanation": "$\\vec u\\cdot\\vec v=k-2+3=k+1=0\\Rightarrow k=-1$."
+  },
+  {
+    "id": "q-g12-u4-dot-10",
+    "topic_id": "g12-u4-dot-product",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נתון $|\\vec u|=5$, $|\\vec v|=3$. חשבו $(\\vec u+\\vec v)\\cdot(\\vec u-\\vec v)$.",
+    "options": ["$16$", "$25$", "$9$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$(\\vec u+\\vec v)\\cdot(\\vec u-\\vec v)=|\\vec u|^2-|\\vec v|^2=25-9=16$."
   }
 ];
 
