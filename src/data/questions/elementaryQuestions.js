@@ -6603,7 +6603,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-fr-1",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-reduce-expand",
     "difficulty": 3,
     "question_text": "צמצמו: $\\frac{6}{8}$",
     "options": [
@@ -6618,7 +6618,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-1",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{2}{8}+\\frac{4}{8}$.",
@@ -6633,7 +6633,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-2",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{3}{5}+\\frac{1}{5}$.",
@@ -6648,7 +6648,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-3",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{1}{2}+\\frac{1}{2}$.",
@@ -6663,7 +6663,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-4",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{3}{8}+\\frac{6}{8}$.",
@@ -6678,7 +6678,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-5",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{5}{6}+\\frac{4}{6}$.",
@@ -6693,7 +6693,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-6",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{5}{6}+\\frac{3}{6}$.",
@@ -6708,7 +6708,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-7",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{5}{8}+\\frac{7}{8}$.",
@@ -6723,7 +6723,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-8",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{4}{10}+\\frac{7}{10}$.",
@@ -6738,7 +6738,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-9",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{4}{6}-\\frac{1}{6}$.",
@@ -6753,7 +6753,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-10",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{3}{5}-\\frac{1}{5}$.",
@@ -6768,7 +6768,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-11",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{8}{10}+\\frac{8}{10}$.",
@@ -6783,7 +6783,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-12",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{1}{10}+\\frac{3}{10}$.",
@@ -6798,7 +6798,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-13",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{2}{10}+\\frac{8}{10}$.",
@@ -6813,7 +6813,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-14",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{2}{10}+\\frac{7}{10}$.",
@@ -6828,7 +6828,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-15",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{9}{10}+\\frac{4}{10}$.",
@@ -6843,7 +6843,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-16",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{3}{10}+\\frac{3}{10}$.",
@@ -6858,7 +6858,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-17",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{5}{10}+\\frac{5}{10}$.",
@@ -6873,7 +6873,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-18",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{7}{8}+\\frac{2}{8}$.",
@@ -6888,7 +6888,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-fractions-adv-19",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{6}{8}-\\frac{1}{8}$.",
@@ -7803,7 +7803,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-da-1",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 2,
     "question_text": "הממוצע של $10,20,30$:",
     "options": [
@@ -7818,7 +7818,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-1",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $6$, $8$, $12$, $14$, $19$?",
@@ -7833,7 +7833,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-2",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $2$, $7$, $20$, $21$, $27$?",
@@ -7848,7 +7848,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-3",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $2$, $11$, $18$, $22$, $28$?",
@@ -7863,7 +7863,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-4",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "ממוצע $2$, $10$, $15$, $20$, $28$?",
@@ -7878,7 +7878,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-5",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $6$, $7$, $14$, $22$, $25$?",
@@ -7893,7 +7893,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-6",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $5$, $9$, $21$, $24$, $28$?",
@@ -7908,7 +7908,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-7",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $6$, $13$, $14$, $24$, $26$?",
@@ -7923,7 +7923,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-8",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "ממוצע $5$, $22$, $26$, $28$, $29$?",
@@ -7938,7 +7938,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-9",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $5$, $11$, $16$, $21$, $28$?",
@@ -7953,7 +7953,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-10",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $2$, $3$, $6$, $23$, $25$?",
@@ -7968,7 +7968,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-11",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $14$, $19$, $20$, $22$, $28$?",
@@ -7983,7 +7983,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-12",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $6$, $10$, $14$, $15$, $19$?",
@@ -7998,7 +7998,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-13",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $4$, $10$, $19$, $22$, $27$?",
@@ -8013,7 +8013,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-14",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $3$, $11$, $17$, $19$, $22$?",
@@ -8028,7 +8028,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-15",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $2$, $10$, $14$, $27$, $28$?",
@@ -8043,7 +8043,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-16",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $2$, $10$, $18$, $27$, $28$?",
@@ -8058,7 +8058,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-17",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $2$, $9$, $23$, $25$, $26$?",
@@ -8073,7 +8073,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-18",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $7$, $20$, $22$, $25$, $27$?",
@@ -8088,7 +8088,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-q-g5-data-19",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "חציון של $4$, $6$, $12$, $13$, $17$?",
@@ -10503,7 +10503,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-1",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "משולש שבסיסו $8$ ס\"מ וגובהו לבסיס $5$ ס\"מ. מה שטחו?",
@@ -10513,7 +10513,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-2",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "משולש שבסיסו $10$ ס\"מ וגובהו $6$ ס\"מ. מה שטחו?",
@@ -10523,7 +10523,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-3",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "מה היקף משולש שצלעותיו $5$, $7$ ו-$9$ ס\"מ?",
@@ -10533,7 +10533,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-4",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "משולש שווה-צלעות שאורך צלעו $6$ ס\"מ. מה היקפו?",
@@ -10543,7 +10543,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-5",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "משולש ישר-זווית שאורכי הניצבים בו $3$ ס\"מ ו-$4$ ס\"מ. מה שטחו?",
@@ -10553,7 +10553,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-6",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "שטח משולש הוא $24$ סמ\"ר, ובסיסו $8$ ס\"מ. מה גובהו?",
@@ -10563,7 +10563,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-7",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "משולש שווה-שוקיים שצלעותיו $7$, $7$ ו-$10$ ס\"מ. מה היקפו?",
@@ -10573,7 +10573,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-8",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "שטח משולש הוא $15$ סמ\"ר, וגובהו $5$ ס\"מ. מה אורך הבסיס?",
@@ -10583,7 +10583,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-9",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "משולש שכל זוויותיו קטנות מ-$90°$ נקרא משולש:",
@@ -10593,7 +10593,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-10",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "משולש שיש בו זווית הגדולה מ-$90°$ נקרא משולש:",
@@ -10603,7 +10603,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-11",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "משולש שיש בו זווית השווה בדיוק ל-$90°$ נקרא משולש:",
@@ -10613,7 +10613,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-12",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "שני משולשים ישרי-זווית חופפים, שניצביהם $3$ ס\"מ ו-$4$ ס\"מ, מוצמדים ליצירת מלבן. מה שטח המלבן שנוצר?",
@@ -10623,7 +10623,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-13",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "שטח משולש הוא תמיד מחצית משטח המלבן הנבנה סביבו (על אותו בסיס וגובה). אם שטח המלבן הוא $40$ סמ\"ר, מה שטח המשולש?",
@@ -10633,7 +10633,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-14",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "מה היקף משולש שצלעותיו $4.5$, $3.2$ ו-$6.3$ ס\"מ?",
@@ -10643,7 +10643,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-15",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "משולש שווה-שוקיים שהיקפו $23$ ס\"מ, ואורך הבסיס $7$ ס\"מ. מה אורך כל אחת מהשוקיים השוות?",
@@ -10653,7 +10653,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-1",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-parallelogram-area",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "מקבילית שבסיסה $9$ ס\"מ וגובהה $4$ ס\"מ. מה שטחה?",
@@ -10663,7 +10663,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-2",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-parallelogram-area",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "מקבילית שבסיסה $12$ ס\"מ וגובהה $5$ ס\"מ. מה שטחה?",
@@ -10673,7 +10673,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-3",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-parallelogram-area",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "שטח מקבילית הוא $48$ סמ\"ר, ובסיסה $8$ ס\"מ. מה גובהה?",
@@ -10683,7 +10683,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-4",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-parallelogram-area",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "שטח מקבילית הוא $54$ סמ\"ר, וגובהה $6$ ס\"מ. מה אורך הבסיס?",
@@ -10693,7 +10693,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-5",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-parallelogram-area",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "מקבילית שבסיסה $15$ ס\"מ וגובהה $4$ ס\"מ. מה שטחה?",
@@ -10703,7 +10703,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-6",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-parallelogram-area",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "למקבילית יש בסיס $5$ ס\"מ וגובה $4$ ס\"מ (שטח $20$ סמ\"ר). אם הגובה גדל ל-$8$ ס\"מ, והבסיס נשאר אותו הדבר, מה השטח החדש?",
@@ -10713,7 +10713,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-7",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-parallelogram-area",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "לשתי מקביליות יש אותו בסיס ($10$ ס\"מ), אך לאחת גובה $3$ ס\"מ ולשנייה גובה $6$ ס\"מ. פי כמה גדול שטח המקבילית השנייה משטח הראשונה?",
@@ -10723,7 +10723,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-8",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-solids",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "כמה פאות יש לפירמידה משולשת (טטרהדרון)?",
@@ -10733,7 +10733,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-9",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-solids",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "כמה קודקודים יש לפירמידה משולשת?",
@@ -10743,7 +10743,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-10",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-solids",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "כמה מקצועות (צלעות) יש לפירמידה משולשת?",
@@ -10753,7 +10753,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-11",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-solids",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "כמה פאות יש לפירמידה מרובעת (בסיסה מרובע)?",
@@ -10763,7 +10763,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-12",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-solids",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "כמה מקצועות יש לפירמידה מרובעת?",
@@ -10773,7 +10773,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-13",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-solids",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "כמה פאות יש למנסרה משולשת?",
@@ -10783,7 +10783,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-14",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-solids",
     "difficulty": 2,
     "type": "mcq",
     "question_text": "כמה קודקודים יש למנסרה משולשת?",
@@ -10793,7 +10793,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-15",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-solids",
     "difficulty": 3,
     "type": "mcq",
     "question_text": "כמה מקצועות יש למנסרה מרובעת (תיבה)?",
@@ -11383,7 +11383,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-fractions-adv-hard-1",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{1}{4}+\\frac{1}{6}$",
@@ -11393,7 +11393,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-fractions-adv-hard-2",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{5}{6}-\\frac{3}{8}$",
@@ -11403,7 +11403,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-fractions-adv-hard-3",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "חשבו: $2\\frac{1}{3}+1\\frac{5}{6}$",
@@ -11413,7 +11413,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-fractions-adv-hard-4",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "חשבו: $3\\frac{1}{2}-1\\frac{3}{4}$",
@@ -11423,7 +11423,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-fractions-adv-hard-5",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "השלימו: $\\frac{2}{3}+\\_\\_\\_=\\frac{11}{12}$",
@@ -11433,7 +11433,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-fractions-adv-hard-6",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "חשבו: $\\frac{3}{9}+\\frac{2}{9}$",
@@ -11443,7 +11443,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-fractions-adv-hard-7",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "תופרת השתמשה ב-$\\frac{3}{4}$ מטר בד לחולצה וב-$\\frac{2}{3}$ מטר בד למכנס. כמה בד השתמשה בסך הכול?",
@@ -11453,7 +11453,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-fractions-adv-hard-8",
-    "topic_id": "g5-fractions-adv",
+    "topic_id": "g5-fractions-add-sub",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "בקבוק מכיל $\\frac{7}{8}$ ליטר מים. שתו ממנו $\\frac{3}{8}$ ליטר, ואז עוד $\\frac{1}{4}$ ליטר. כמה מים נשארו בבקבוק?",
@@ -11623,7 +11623,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-hard-1",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "שטח משולש הוא $54$ סמ\"ר, וגובהו $9$ ס\"מ. מה אורך הבסיס?",
@@ -11633,7 +11633,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-hard-2",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "משולש שווה-צלעות שהיקפו $57$ ס\"מ. מה אורך כל צלע?",
@@ -11643,7 +11643,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-hard-3",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "משולש שווה-שוקיים שהיקפו $34$ ס\"מ, ואורך כל שוק $12$ ס\"מ. מה אורך הבסיס?",
@@ -11653,7 +11653,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-hard-4",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "משולש שבסיסו $14$ ס\"מ וגובהו חצי מהבסיס. מה שטח המשולש?",
@@ -11663,7 +11663,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-hard-5",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "שני משולשים חופפים, שלכל אחד שטח $18$ סמ\"ר, מוצמדים ליצירת מקבילית. מה שטח המקבילית?",
@@ -11673,7 +11673,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-hard-6",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "משולש שגובהו $10$ ס\"מ ושטחו $65$ סמ\"ר. מה אורך הבסיס?",
@@ -11683,7 +11683,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-hard-7",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "לפניכם שלושה משולשים שונים בצורתם (חד-זוויות, קהה-זווית וישר-זווית), אך לכולם אותו בסיס ($8$ ס\"מ) ואותו גובה ($8$ ס\"מ). מה משותף לשטחיהם?",
@@ -11693,7 +11693,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-triangle-hard-8",
-    "topic_id": "g5-geometry-triangle",
+    "topic_id": "g5-triangle-area",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "שטחו של משולש שווה לשטחו של מלבן שאורכו $9$ ס\"מ ורוחבו $4$ ס\"מ. גובה המשולש הוא $6$ ס\"מ. מה אורך הבסיס של המשולש?",
@@ -11703,7 +11703,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-hard-1",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-parallelogram-area",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "שטח מקבילית הוא $72$ סמ\"ר, ובסיסה $9$ ס\"מ. מה גובהה?",
@@ -11713,7 +11713,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-hard-2",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-parallelogram-area",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "מקבילית ומשולש בעלי אותו בסיס ואותו גובה. שטח המשולש הוא $20$ סמ\"ר. מה שטח המקבילית?",
@@ -11723,7 +11723,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-hard-3",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-solids",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "לגוף יש $5$ פאות, $5$ קודקודים ו-$8$ מקצועות. איזה גוף זה?",
@@ -11733,7 +11733,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-hard-4",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-parallelogram-area",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "מקבילית שבסיסה $x$ ס\"מ וגובהה $2x$ ס\"מ. אם $x=7$, מה שטח המקבילית?",
@@ -11743,7 +11743,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-hard-5",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-solids",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "כמה מקצועות יש למנסרה משולשת?",
@@ -11753,7 +11753,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-geometry-parallelogram-solids-hard-6",
-    "topic_id": "g5-geometry-parallelogram-solids",
+    "topic_id": "g5-parallelogram-area",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "מלבן א' שבסיסו $10$ ס\"מ וגובהו $6$ ס\"מ, ומקבילית ב' (לא-מלבנית) עם אותו בסיס ואותו גובה. מה הקשר בין שטחיהם?",
@@ -11823,7 +11823,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-data-hard-1",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "תלמיד קיבל בשלושה מבחנים את הציונים $85$, $90$, $95$. מה הציון הממוצע?",
@@ -11833,7 +11833,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-data-hard-2",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "תוצאות של $5$ קופצים לגובה (בס\"מ): $140,145,150,145,145$. מה השכיח?",
@@ -11843,7 +11843,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-data-hard-3",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "ממוצע של $4$ מספרים הוא $18$. שלושה מהמספרים הם $15$, $20$, $22$. מה המספר הרביעי?",
@@ -11853,7 +11853,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-data-hard-4",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "בכיתה $30$ תלמידים. $12$ מהם קיבלו ציון מעל $90$, $10$ קיבלו בין $70$ ל-$90$, והשאר קיבלו מתחת ל-$70$. כמה תלמידים קיבלו מתחת ל-$70$?",
@@ -11863,7 +11863,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-data-hard-5",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "בדיאגרמת עמודות מוצג מספר הספרים שקראו תלמידים בקיץ: דנה־$4$, יואב־$7$, מאיה־$3$, עידו־$6$. מה ממוצע מספר הספרים שקראו?",
@@ -11873,7 +11873,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-data-hard-6",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "במשאל בין $50$ תלמידים: $20$ בחרו כדורגל, $15$ בחרו כדורסל, והשאר בחרו שחייה. איזה שבר מהתלמידים בחרו בשחייה?",
@@ -11883,7 +11883,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-data-hard-7",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 5,
     "type": "mcq",
     "question_text": "בטבלה מוצג מספר המכוניות שנמכרו בכל רבעון: רבעון $1$–$120$, רבעון $2$–$95$, רבעון $3$–$140$, רבעון $4$–$105$. מה ההפרש בין הרבעון עם הכי הרבה מכירות לרבעון עם הכי מעט?",
@@ -11893,7 +11893,7 @@ export const ELEMENTARY_QUESTIONS = [
   },
   {
     "id": "q-g5-data-hard-8",
-    "topic_id": "g5-data",
+    "topic_id": "g5-median-average",
     "difficulty": 4,
     "type": "mcq",
     "question_text": "בכיתה נמדד גובה של $6$ תלמידים (בס\"מ): $140,142,138,145,140,141$. מה הטווח (ההפרש בין הגבוה לנמוך)?",
@@ -18620,6 +18620,846 @@ export const ELEMENTARY_QUESTIONS = [
     "options": ["$\\frac{5}{6}$", "$\\frac{3}{9}$", "$\\frac{1}{2}$", "$\\frac{3}{6}$"],
     "correct_index": 0,
     "explanation": "$\\frac{2}{3}=\\frac{4}{6}$, ו-$\\frac{4}{6}+\\frac{1}{6}=\\frac{5}{6}$."
+  },
+  {
+    "id": "q-g5-frmodel-1",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אילו משפטים נכונים לגבי ייצוג שברים?",
+    "options": ["אפשר לייצג את אותו שבר במודל עוגה, מודל מלבני או רצועת שברים", "כל שבר אפשר לייצג רק במודל עוגה", "מודל מלבני מתאים רק לשברי יחידה", "רצועת שברים משמשת רק למספרים שלמים"],
+    "correct_index": 0,
+    "explanation": "אותו שבר אפשר לייצג בכמה מודלים חזותיים שונים."
+  },
+  {
+    "id": "q-g5-frmodel-2",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "באיזה מודל משתמשים כשמחלקים עיגול לחלקים שווים?",
+    "options": ["מודל עוגה", "מודל מלבני", "רצועת שברים", "ישר מספרים בלבד"],
+    "correct_index": 0,
+    "explanation": "עיגול מחולק לחלקים הוא מודל \"עוגה\"."
+  },
+  {
+    "id": "q-g5-frmodel-3",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "היכן ממוקם השבר $\\frac{7}{4}$ על ישר המספרים?",
+    "options": ["בין $1$ ל-$2$", "בין $0$ ל-$1$", "בין $2$ ל-$3$", "בדיוק על $2$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{7}{4}=1.75$, נמצא בין $1$ ל-$2$."
+  },
+  {
+    "id": "q-g5-frmodel-4",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "היכן ממוקם השבר $\\frac{9}{2}$ על ישר המספרים?",
+    "options": ["בין $4$ ל-$5$", "בין $3$ ל-$4$", "בין $2$ ל-$3$", "בדיוק על $5$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{9}{2}=4.5$, נמצא בין $4$ ל-$5$."
+  },
+  {
+    "id": "q-g5-frmodel-5",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השבר $\\frac{11}{3}$ קרוב יותר ל:",
+    "options": ["$4$", "$3$", "$2$", "$5$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{11}{3}\\approx3.67$, קרוב יותר ל-$4$."
+  },
+  {
+    "id": "q-g5-frmodel-6",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה שבר ממוקם בדיוק על הנקודה $2$ על ישר המספרים?",
+    "options": ["$\\frac{8}{4}$", "$\\frac{7}{4}$", "$\\frac{9}{4}$", "$\\frac{6}{4}$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{8}{4}=2$."
+  },
+  {
+    "id": "q-g5-frmodel-7",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה משותף לכל השברים שגדולים מ-$1$ על ישר המספרים?",
+    "options": ["המונה שלהם גדול מהמכנה", "הם תמיד קטנים מ-$2$", "הם תמיד שברי יחידה", "אין להם ייצוג על הישר"],
+    "correct_index": 0,
+    "explanation": "שבר גדול מ-$1$ הוא בדיוק שבר שהמונה שלו גדול מהמכנה."
+  },
+  {
+    "id": "q-g5-frmodel-8",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בין השברים $\\frac{1}{2}$ ו-$\\frac{2}{3}$ על ישר המספרים, איזה שבר יכול להיות ביניהם?",
+    "options": ["$\\frac{3}{5}$", "$\\frac{1}{4}$", "$\\frac{3}{4}$", "$1$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{2}=0.5$, $\\frac{2}{3}\\approx0.67$, ו-$\\frac{3}{5}=0.6$ נמצא ביניהם."
+  },
+  {
+    "id": "q-g5-frmodel-9",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה שברים אפשר למצוא בין $\\frac{1}{3}$ ל-$\\frac{1}{2}$ על ישר המספרים?",
+    "options": ["אינסוף", "אף אחד", "בדיוק אחד", "בדיוק שניים"],
+    "correct_index": 0,
+    "explanation": "בין כל שני שברים שונים יש תמיד אינסוף שברים נוספים."
+  },
+  {
+    "id": "q-g5-frmodel-10",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "השבר $2\\frac{1}{3}$ ממוקם על ישר המספרים:",
+    "options": ["בין $2$ ל-$3$, קרוב יותר ל-$2$", "בין $1$ ל-$2$", "בדיוק על $2$", "בין $3$ ל-$4$"],
+    "correct_index": 0,
+    "explanation": "$2\\frac{1}{3}\\approx2.33$."
+  },
+  {
+    "id": "q-g5-frcmp-1",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "השוו לפי מכנה משותף: $\\frac{2}{3}$ מול $\\frac{3}{5}$.",
+    "options": ["$\\frac{2}{3}>\\frac{3}{5}$", "$\\frac{2}{3}<\\frac{3}{5}$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$\\frac{10}{15}>\\frac{9}{15}$."
+  },
+  {
+    "id": "q-g5-frcmp-2",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "השוו לפי חצי: $\\frac{3}{5}$ מול $\\frac{2}{5}$.",
+    "options": ["$\\frac{3}{5}>\\frac{2}{5}$ (כי $\\frac{3}{5}>\\frac{1}{2}$ ו-$\\frac{2}{5}<\\frac{1}{2}$)", "שווים", "$\\frac{2}{5}>\\frac{3}{5}$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "השוואה לחצי מראה מיד ש-$\\frac{3}{5}$ גדול יותר."
+  },
+  {
+    "id": "q-g5-frcmp-3",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השוו לפי השלמה לשלם: $\\frac{7}{8}$ מול $\\frac{5}{6}$.",
+    "options": ["$\\frac{7}{8}>\\frac{5}{6}$ (חסר לו רק $\\frac{1}{8}$)", "$\\frac{5}{6}>\\frac{7}{8}$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "ל-$\\frac{7}{8}$ חסר $\\frac{1}{8}$ ול-$\\frac{5}{6}$ חסר $\\frac{1}{6}$; $\\frac{1}{8}<\\frac{1}{6}$."
+  },
+  {
+    "id": "q-g5-frcmp-4",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השוו במונים שווים: $\\frac{3}{7}$ מול $\\frac{3}{10}$.",
+    "options": ["$\\frac{3}{7}>\\frac{3}{10}$", "$\\frac{3}{10}>\\frac{3}{7}$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מונים שווים: מכנה קטן יותר נותן שבר גדול יותר."
+  },
+  {
+    "id": "q-g5-frcmp-5",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה נכון לגבי $\\frac{4}{9}$ ו-$\\frac{1}{2}$?",
+    "options": ["$\\frac{4}{9}<\\frac{1}{2}$", "$\\frac{4}{9}>\\frac{1}{2}$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "חצי מ-$9$ הוא $4.5$, ו-$4<4.5$."
+  },
+  {
+    "id": "q-g5-frcmp-6",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "השוו: $\\frac{5}{6}$ מול $\\frac{7}{9}$ (רמז: השלמה לשלם).",
+    "options": ["$\\frac{5}{6}>\\frac{7}{9}$", "$\\frac{7}{9}>\\frac{5}{6}$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "חסר ל-$\\frac{5}{6}$: $\\frac{1}{6}\\approx0.167$; חסר ל-$\\frac{7}{9}$: $\\frac{2}{9}\\approx0.222$. פחות חסר ל-$\\frac{5}{6}$."
+  },
+  {
+    "id": "q-g5-frcmp-7",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הדרך היעילה ביותר להשוות $\\frac{2}{9}$ ו-$\\frac{2}{11}$?",
+    "options": ["השוואה במונים שווים — מכנה קטן יותר גדול יותר", "מכנה משותף בהכרח", "השלמה לשלם", "אי אפשר להשוות"],
+    "correct_index": 0,
+    "explanation": "כשהמונים שווים, פשוט משווים את המכנים."
+  },
+  {
+    "id": "q-g5-frcmp-8",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "סדרו מהקטן לגדול: $\\frac{3}{4},\\frac{1}{4},\\frac{1}{2}$",
+    "options": ["$\\frac{1}{4}<\\frac{1}{2}<\\frac{3}{4}$", "$\\frac{3}{4}<\\frac{1}{2}<\\frac{1}{4}$", "$\\frac{1}{2}<\\frac{1}{4}<\\frac{3}{4}$", "כולם שווים"],
+    "correct_index": 0,
+    "explanation": "מכנים שווים: משווים לפי המונים."
+  },
+  {
+    "id": "q-g5-frcmp-9",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה שבר גדול יותר: $\\frac{5}{12}$ או $\\frac{7}{12}$?",
+    "options": ["$\\frac{7}{12}$", "$\\frac{5}{12}$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "מכנים שווים: מונה גדול יותר גדול יותר."
+  },
+  {
+    "id": "q-g5-frcmp-10",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "השוו: $\\frac{9}{10}$ מול $\\frac{11}{12}$.",
+    "options": ["$\\frac{11}{12}>\\frac{9}{10}$ (חסר לו רק $\\frac{1}{12}$)", "$\\frac{9}{10}>\\frac{11}{12}$", "שווים", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{12}<\\frac{1}{10}$."
+  },
+  {
+    "id": "q-g5-frmul-1",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי המשמעות של $4\\times\\frac{2}{5}$ כחיבור חוזר?",
+    "options": ["$\\frac{2}{5}+\\frac{2}{5}+\\frac{2}{5}+\\frac{2}{5}$", "$\\frac{2}{5}\\times\\frac{2}{5}\\times\\frac{2}{5}\\times\\frac{2}{5}$", "$\\frac{2}{5}+4$", "$\\frac{8}{20}$"],
+    "correct_index": 0,
+    "explanation": "כפל שלם בשבר הוא חיבור חוזר של אותו שבר."
+  },
+  {
+    "id": "q-g5-frmul-2",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$4\\times\\frac{2}{5}=$",
+    "options": ["$\\frac{8}{5}$", "$\\frac{2}{20}$", "$\\frac{6}{5}$", "$8$"],
+    "correct_index": 0,
+    "explanation": "$4\\times\\frac{2}{5}=\\frac{4\\times2}{5}=\\frac{8}{5}$."
+  },
+  {
+    "id": "q-g5-frmul-3",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$3\\times\\frac{1}{4}=$",
+    "options": ["$\\frac{3}{4}$", "$\\frac{1}{12}$", "$\\frac{4}{3}$", "$3$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{3\\times1}{4}=\\frac{3}{4}$."
+  },
+  {
+    "id": "q-g5-frmul-4",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$5\\times\\frac{2}{3}=$",
+    "options": ["$\\frac{10}{3}$", "$\\frac{2}{15}$", "$\\frac{7}{3}$", "$10$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{5\\times2}{3}=\\frac{10}{3}$."
+  },
+  {
+    "id": "q-g5-frmul-5",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$2\\times\\frac{5}{6}=$",
+    "options": ["$\\frac{10}{6}$", "$\\frac{5}{12}$", "$\\frac{7}{6}$", "$10$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{2\\times5}{6}=\\frac{10}{6}$."
+  },
+  {
+    "id": "q-g5-frmul-6",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי לכפול שלם במספר מעורב, קודם:",
+    "options": ["הופכים את המספר המעורב לשבר מדומה", "הופכים את השלם לשבר", "מתעלמים מהשלם של המספר המעורב", "מחלקים את השלם ב-$2$"],
+    "correct_index": 0,
+    "explanation": "אחרי ההפיכה לשבר מדומה, מכפילים כרגיל."
+  },
+  {
+    "id": "q-g5-frmul-7",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$3\\times2\\frac{1}{4}=$",
+    "options": ["$6\\frac{3}{4}$", "$6\\frac{1}{4}$", "$5\\frac{3}{4}$", "$2\\frac{3}{4}$"],
+    "correct_index": 0,
+    "explanation": "$2\\frac{1}{4}=\\frac{9}{4}$, $3\\times\\frac{9}{4}=\\frac{27}{4}=6\\frac{3}{4}$."
+  },
+  {
+    "id": "q-g5-frmul-8",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$4\\times1\\frac{1}{2}=$",
+    "options": ["$6$", "$5\\frac{1}{2}$", "$4\\frac{1}{2}$", "$5$"],
+    "correct_index": 0,
+    "explanation": "$1\\frac{1}{2}=\\frac{3}{2}$, $4\\times\\frac{3}{2}=6$."
+  },
+  {
+    "id": "q-g5-frmul-9",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "התוצאה של $3\\times\\frac{4}{3}$ ביחס למספר $3$ היא:",
+    "options": ["גדולה מ-$3$ (כי $\\frac{4}{3}>1$)", "קטנה מ-$3$", "שווה בדיוק ל-$3$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$3\\times\\frac{4}{3}=4>3$."
+  },
+  {
+    "id": "q-g5-frmul-10",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "התוצאה של $5\\times\\frac{2}{7}$ ביחס למספר $5$ היא:",
+    "options": ["קטנה מ-$5$ (כי $\\frac{2}{7}<1$)", "גדולה מ-$5$", "שווה בדיוק ל-$5$", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "כפל בשבר קטן מ-$1$ מקטין את התוצאה."
+  },
+  {
+    "id": "q-g5-frre-1",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "צמצמו לחלוטין: $\\frac{8}{12}$",
+    "options": ["$\\frac{2}{3}$", "$\\frac{4}{6}$", "$\\frac{8}{12}$", "$\\frac{1}{3}$"],
+    "correct_index": 0,
+    "explanation": "מחלקים מונה ומכנה ב-$4$: $\\frac{2}{3}$."
+  },
+  {
+    "id": "q-g5-frre-2",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הרחיבו את $\\frac{2}{3}$ למכנה $9$.",
+    "options": ["$\\frac{6}{9}$", "$\\frac{2}{9}$", "$\\frac{4}{9}$", "$\\frac{3}{9}$"],
+    "correct_index": 0,
+    "explanation": "מכפילים מונה ומכנה ב-$3$: $\\frac{6}{9}$."
+  },
+  {
+    "id": "q-g5-frre-3",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "צמצמו: $\\frac{10}{15}$",
+    "options": ["$\\frac{2}{3}$", "$\\frac{5}{15}$", "$\\frac{1}{3}$", "$\\frac{10}{5}$"],
+    "correct_index": 0,
+    "explanation": "מחלקים מונה ומכנה ב-$5$: $\\frac{2}{3}$."
+  },
+  {
+    "id": "q-g5-frre-4",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הרחיבו את $\\frac{3}{4}$ למכנה $16$.",
+    "options": ["$\\frac{12}{16}$", "$\\frac{3}{16}$", "$\\frac{9}{16}$", "$\\frac{4}{16}$"],
+    "correct_index": 0,
+    "explanation": "מכפילים מונה ומכנה ב-$4$: $\\frac{12}{16}$."
+  },
+  {
+    "id": "q-g5-frre-5",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו המכנה המשותף הקטן ביותר של $3$ ו-$4$?",
+    "options": ["$12$", "$7$", "$1$", "$24$"],
+    "correct_index": 0,
+    "explanation": "$12$ הוא המספר הקטן ביותר שגם $3$ וגם $4$ נכנסים בו."
+  },
+  {
+    "id": "q-g5-frre-6",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "צמצמו לחלוטין: $\\frac{18}{24}$",
+    "options": ["$\\frac{3}{4}$", "$\\frac{9}{12}$", "$\\frac{6}{8}$", "$\\frac{2}{3}$"],
+    "correct_index": 0,
+    "explanation": "המחלק המשותף הגדול ביותר הוא $6$: $\\frac{3}{4}$."
+  },
+  {
+    "id": "q-g5-frre-7",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו המכנה המשותף הקטן ביותר של $6$ ו-$8$?",
+    "options": ["$24$", "$48$", "$14$", "$2$"],
+    "correct_index": 0,
+    "explanation": "$24$ הוא המספר הקטן ביותר שגם $6$ וגם $8$ נכנסים בו."
+  },
+  {
+    "id": "q-g5-frre-8",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה שבר מדומה שקול ל-$\\frac{7}{4}$?",
+    "options": ["$\\frac{14}{8}$", "$\\frac{7}{8}$", "$\\frac{4}{7}$", "$\\frac{21}{8}$"],
+    "correct_index": 0,
+    "explanation": "$\\frac{7}{4}=\\frac{7\\times2}{4\\times2}=\\frac{14}{8}$."
+  },
+  {
+    "id": "q-g5-frre-9",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פירוק לגורמים עוזר למצוא מכנה משותף. פרקו את $12$ לגורמים ראשוניים:",
+    "options": ["$2\\times2\\times3$", "$2\\times6$", "$3\\times4$", "$1\\times12$"],
+    "correct_index": 0,
+    "explanation": "פירוק מלא לגורמים ראשוניים בלבד."
+  },
+  {
+    "id": "q-g5-frre-10",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $\\frac{7}{4}$ כמספר מעורב?",
+    "options": ["$1\\frac{3}{4}$", "$1\\frac{4}{7}$", "$2\\frac{1}{4}$", "$1\\frac{1}{4}$"],
+    "correct_index": 0,
+    "explanation": "$7:4=1$ שארית $3$."
+  },
+  {
+    "id": "q-g5-triheight-1",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הגובה במשולש הוא:",
+    "options": ["קטע מאונך מקודקוד לצלע שמולו", "קטע המחבר שני קודקודים", "אחת הצלעות תמיד", "קו אלכסוני כלשהו"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של גובה במשולש."
+  },
+  {
+    "id": "q-g5-triheight-2",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במשולש חד-זוויות, הגובה מכל קודקוד נופל:",
+    "options": ["בתוך המשולש", "תמיד מחוץ למשולש", "על קודקוד אחר", "אף פעם לא קיים"],
+    "correct_index": 0,
+    "explanation": "בחד-זוויות כל הגבהים נמצאים בתוך המשולש."
+  },
+  {
+    "id": "q-g5-triheight-3",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית, אילו צלעות משמשות כגבהים?",
+    "options": ["שני הניצבים", "היתר בלבד", "כל שלוש הצלעות", "אף צלע"],
+    "correct_index": 0,
+    "explanation": "שני הניצבים מאונכים זה לזה, ולכן משמשים גם כגבהים."
+  },
+  {
+    "id": "q-g5-triheight-4",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש קהה-זווית, חלק מהגבהים:",
+    "options": ["נופלים מחוץ למשולש, על המשך הבסיס", "תמיד בתוך המשולש", "שווים לצלעות", "אינם קיימים"],
+    "correct_index": 0,
+    "explanation": "בקהה-זווית לפחות גובה אחד נופל מחוץ למשולש."
+  },
+  {
+    "id": "q-g5-triheight-5",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה גבהים אפשריים יש לכל משולש?",
+    "options": ["$3$", "$1$", "$2$", "$0$"],
+    "correct_index": 0,
+    "explanation": "לכל אחת משלוש הצלעות יש גובה מתאים."
+  },
+  {
+    "id": "q-g5-triheight-6",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש עם זווית של $110°$ הוא:",
+    "options": ["קהה-זווית", "חד-זוויות", "ישר-זווית", "לא ניתן לקבוע"],
+    "correct_index": 0,
+    "explanation": "יש בו זווית גדולה מ-$90°$."
+  },
+  {
+    "id": "q-g5-triheight-7",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש עם זוויות $50°,60°,70°$ הוא:",
+    "options": ["חד-זוויות", "קהה-זווית", "ישר-זווית", "לא ניתן לקבוע"],
+    "correct_index": 0,
+    "explanation": "כל הזוויות קטנות מ-$90°$."
+  },
+  {
+    "id": "q-g5-triheight-8",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי לסרטט גובה במשולש, משתמשים ב:",
+    "options": ["סרגל משולש (כדי להציב זווית ישרה)", "סרגל רגיל בלבד", "מחוגה בלבד", "לא צריך כלים מיוחדים"],
+    "correct_index": 0,
+    "explanation": "סרגל משולש מסייע ליצור זווית ישרה מדויקת."
+  },
+  {
+    "id": "q-g5-triheight-9",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית שהזווית הישרה בו נמצאת בין הצלעות $3$ ו-$4$, מהו הגובה ביחס לבסיס $3$?",
+    "options": ["$4$ (הניצב השני)", "$3$", "$5$", "לא ניתן לדעת"],
+    "correct_index": 0,
+    "explanation": "הניצב השני מאונך לבסיס שנבחר."
+  },
+  {
+    "id": "q-g5-triheight-10",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בסרטוט משולש קהה-זווית, הגובה לצלע הקצרה ביותר לרוב:",
+    "options": ["נופל מחוץ למשולש", "נופל תמיד בתוכו", "שווה לצלע עצמה", "אינו קיים"],
+    "correct_index": 0,
+    "explanation": "בקהה-זווית גבהים מסוימים נופלים מחוץ למשולש."
+  },
+  {
+    "id": "q-g5-parheight-1",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הגובה במקבילית הוא:",
+    "options": ["המרחק המאונך בין שני הבסיסים המקבילים", "אחת הצלעות המשופעות", "אלכסון המקבילית", "היקף המקבילית"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של גובה מקבילית."
+  },
+  {
+    "id": "q-g5-parheight-2",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה גבהים אפשריים יש למקבילית?",
+    "options": ["$2$", "$1$", "$4$", "$0$"],
+    "correct_index": 0,
+    "explanation": "יש גובה אחד לכל זוג צלעות (בסיסים)."
+  },
+  {
+    "id": "q-g5-parheight-3",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הגובה במקבילית מאונך ל:",
+    "options": ["הבסיס שנבחר", "לכל צלע", "לאלכסון בלבד", "לצלע המשופעת בלבד"],
+    "correct_index": 0,
+    "explanation": "הגובה תמיד מאונך לבסיס שביחס אליו הוא נמדד."
+  },
+  {
+    "id": "q-g5-parheight-4",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם מקבילית מוצגת עם צלע משופעת (לא אופקית), הגובה:",
+    "options": ["עדיין אפשר לזהות ולסרטט אותו נכון", "לא ניתן לזהות", "תמיד שווה לצלע", "לא קיים"],
+    "correct_index": 0,
+    "explanation": "הגובה תמיד מוגדר ביחס לבסיס, בכל מנח."
+  },
+  {
+    "id": "q-g5-parheight-5",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מקבילית עם צלעות $10$ ו-$6$. כמה זוגות בסיס-גובה שונים אפשר להשתמש בהם לחישוב שטח?",
+    "options": ["$2$", "$1$", "$4$", "$0$"],
+    "correct_index": 0,
+    "explanation": "יש שני זוגות צלעות, ולכן שני זוגות בסיס-גובה."
+  },
+  {
+    "id": "q-g5-parheight-6",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קטע המחבר קודקוד לצלע נגדית ומאונך לה נקרא:",
+    "options": ["גובה", "אלכסון", "בסיס", "היקף"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של גובה."
+  },
+  {
+    "id": "q-g5-parheight-7",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בציור של מקבילית, איך מזהים איזה קטע הוא הגובה ולא צלע?",
+    "options": ["הוא יוצר זווית ישרה עם הבסיס", "הוא הקטע הארוך ביותר", "הוא תמיד מקווקו", "הוא תמיד אופקי"],
+    "correct_index": 0,
+    "explanation": "הגובה מסומן בזווית ישרה מול הבסיס."
+  },
+  {
+    "id": "q-g5-parheight-8",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מקבילית עם בסיס $8$ ס\"מ, וגובה לבסיס זה $5$ ס\"מ. הצלע המשופעת יכולה להיות:",
+    "options": ["גדולה מ-$5$ ס\"מ", "בהכרח שווה ל-$5$ ס\"מ", "בהכרח קטנה מ-$5$ ס\"מ", "בהכרח שווה לבסיס"],
+    "correct_index": 0,
+    "explanation": "הצלע המשופעת היא היתר במשולש שהגובה יוצר, ולכן ארוכה מהגובה."
+  },
+  {
+    "id": "q-g5-parheight-9",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם מותחים גובה במקבילית והוא נופל מחוץ לצורה (על המשך הבסיס), זה:",
+    "options": ["אפשרי, בדומה למשולש קהה-זווית", "אף פעם לא קורה במקבילית", "אומר שהצורה אינה מקבילית", "טעות בסרטוט תמיד"],
+    "correct_index": 0,
+    "explanation": "במקביליות \"משופעות\" מאוד, הגובה יכול ליפול מחוץ לצורה."
+  },
+  {
+    "id": "q-g5-parheight-10",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במלבן (מקרה פרטי של מקבילית), הגובה שווה ל:",
+    "options": ["אחת הצלעות (כי הזוויות ישרות)", "תמיד אפס", "האלכסון", "היקף חלקי"],
+    "correct_index": 0,
+    "explanation": "במלבן הצלעות כבר מאונכות זו לזו."
+  },
+  {
+    "id": "q-g5-datafreq-1",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "טבלת שכיחויות מראה:",
+    "options": ["כמה פעמים כל ערך מופיע בנתונים", "רק את הערך הגבוה ביותר", "רק את הממוצע", "רק את מספר הנתונים"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של טבלת שכיחויות."
+  },
+  {
+    "id": "q-g5-datafreq-2",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "השכיח הוא:",
+    "options": ["הערך עם השכיחות הגבוהה ביותר", "הערך האמצעי", "סכום כל הערכים", "הערך הקטן ביותר"],
+    "correct_index": 0,
+    "explanation": "השכיח הוא הערך שמופיע הכי הרבה פעמים."
+  },
+  {
+    "id": "q-g5-datafreq-3",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בטבלת שכיחויות: אדום-$5$, כחול-$8$, ירוק-$3$. מהו השכיח?",
+    "options": ["כחול", "אדום", "ירוק", "אי אפשר לדעת"],
+    "correct_index": 0,
+    "explanation": "$8$ הוא השכיחות הגבוהה ביותר."
+  },
+  {
+    "id": "q-g5-datafreq-4",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה תלמידים השתתפו בסקר, לפי הטבלה: אדום-$5$, כחול-$8$, ירוק-$3$?",
+    "options": ["$16$", "$8$", "$5$", "$3$"],
+    "correct_index": 0,
+    "explanation": "$5+8+3=16$."
+  },
+  {
+    "id": "q-g5-datafreq-5",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אילו דרכים אפשר להציג את אותם נתונים?",
+    "options": ["טבלה, דיאגרמת עמודות, דיאגרמת עוגה או פיקטוגרם", "רק טבלה", "רק דיאגרמת עוגה", "אי אפשר להציג בכמה דרכים"],
+    "correct_index": 0,
+    "explanation": "לאותם נתונים יש כמה ייצוגים אפשריים."
+  },
+  {
+    "id": "q-g5-datafreq-6",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפיקטוגרם, אם סמל אחד מייצג $5$ ילדים ורואים $4$ סמלים, כמה ילדים יש?",
+    "options": ["$20$", "$4$", "$9$", "$5$"],
+    "correct_index": 0,
+    "explanation": "$4\\times5=20$."
+  },
+  {
+    "id": "q-g5-datafreq-7",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בפיקטוגרם, אם סמל אחד מייצג $10$ וסופרים $3$ סמלים וחצי, כמה זה?",
+    "options": ["$35$", "$30$", "$31$", "$40$"],
+    "correct_index": 0,
+    "explanation": "$3\\times10+5=35$."
+  },
+  {
+    "id": "q-g5-datafreq-8",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזו דיאגרמה הכי מתאימה להצגת חלוקה יחסית של שלם?",
+    "options": ["דיאגרמת עוגה", "דיאגרמת עמודות", "טבלה", "פיקטוגרם"],
+    "correct_index": 0,
+    "explanation": "עוגה מציגה חלוקה יחסית של שלם."
+  },
+  {
+    "id": "q-g5-datafreq-9",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בקבוצת נתונים: $3,5,5,5,7,8$. מהו השכיח?",
+    "options": ["$5$", "$3$", "$7$", "$8$"],
+    "correct_index": 0,
+    "explanation": "$5$ מופיע הכי הרבה פעמים (שלוש פעמים)."
+  },
+  {
+    "id": "q-g5-datafreq-10",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בקבוצת נתונים: $2,2,4,4,6$. האם יש שכיח יחיד?",
+    "options": ["לא, יש שני ערכים בעלי שכיחות מרבית שווה ($2$ ו-$4$)", "כן, השכיח הוא $2$ בלבד", "כן, השכיח הוא $6$", "אין שכיח בכלל"],
+    "correct_index": 0,
+    "explanation": "$2$ ו-$4$ מופיעים שתי פעמים כל אחד."
+  },
+  {
+    "id": "q-g5-datafreq-11",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בטבלה שמראה מכירות בחמישה ימים, כדי למצוא את סך הכול המכירות:",
+    "options": ["מחברים את כל הערכים בטבלה", "לוקחים רק את הערך הגבוה", "מחלקים ב-$5$", "לוקחים את השכיח"],
+    "correct_index": 0,
+    "explanation": "הסך הכול הוא סכום כל הערכים."
+  },
+  {
+    "id": "q-g5-datafreq-12",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עוגה שבה קטגוריה אחת תופסת שליש מהעוגה ומייצגת $40$ תלמידים, כמה תלמידים בסך הכול?",
+    "options": ["$120$", "$80$", "$40$", "$60$"],
+    "correct_index": 0,
+    "explanation": "$40\\times3=120$."
+  },
+  {
+    "id": "q-g5-parareax-1",
+    "topic_id": "g5-parallelogram-area",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שטח מקבילית עם בסיס $7$ ס\"מ וגובה $3$ ס\"מ:",
+    "options": ["$21$ סמ\"ר", "$10$ סמ\"ר", "$14$ סמ\"ר", "$24$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$7\\times3=21$."
+  },
+  {
+    "id": "q-g5-parareax-2",
+    "topic_id": "g5-parallelogram-area",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם חותכים משולש מקצה מקבילית ומזיזים אותו לצד השני, מתקבל:",
+    "options": ["מלבן באותו שטח", "מלבן בשטח כפול", "משולש חדש", "מקבילית גדולה יותר"],
+    "correct_index": 0,
+    "explanation": "פירוק והרכבה מחדש לא משנים את השטח."
+  },
+  {
+    "id": "q-g5-parareax-3",
+    "topic_id": "g5-parallelogram-area",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שטח משולש הוא מחצית משטח:",
+    "options": ["המקבילית שנוצרת משני עותקים חופפים שלו", "הריבוע התוחם אותו", "המעגל התוחם אותו", "ההיקף שלו"],
+    "correct_index": 0,
+    "explanation": "שני משולשים חופפים יוצרים מקבילית בשטח כפול."
+  },
+  {
+    "id": "q-g5-parareax-4",
+    "topic_id": "g5-parallelogram-area",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מקבילית שבסיסה $6$ ס\"מ ושטחה $30$ סמ\"ר. מהו גובהה?",
+    "options": ["$5$ ס\"מ", "$6$ ס\"מ", "$36$ ס\"מ", "$24$ ס\"מ"],
+    "correct_index": 0,
+    "explanation": "$30:6=5$."
+  },
+  {
+    "id": "q-g5-parareax-5",
+    "topic_id": "g5-parallelogram-area",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במקבילית יש שני זוגות בסיס-גובה: ($10,4$) ו-($8,x$). אם השטח זהה, מהו $x$?",
+    "options": ["$5$", "$4$", "$8$", "$10$"],
+    "correct_index": 0,
+    "explanation": "$10\\times4=40$, ו-$8\\times x=40 \\Rightarrow x=5$."
+  },
+  {
+    "id": "q-g5-parareax-6",
+    "topic_id": "g5-parallelogram-area",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שטח מקבילית גדל פי $3$ כאשר מכפילים את הגובה שלה פי $3$ (הבסיס קבוע). האם זה נכון?",
+    "options": ["כן", "לא", "רק אם הבסיס גדול מהגובה", "רק במקביליות מיוחדות"],
+    "correct_index": 0,
+    "explanation": "שטח $=$ בסיס $\\times$ גובה, אז הכפלת הגובה פי $3$ מכפילה את השטח פי $3$."
+  },
+  {
+    "id": "q-g5-solidsx-1",
+    "topic_id": "g5-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה בסיסים יש לפירמידה?",
+    "options": ["$1$", "$2$", "$3$", "$0$"],
+    "correct_index": 0,
+    "explanation": "לפירמידה יש בסיס אחד בלבד."
+  },
+  {
+    "id": "q-g5-solidsx-2",
+    "topic_id": "g5-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה בסיסים יש למנסרה?",
+    "options": ["$2$", "$1$", "$3$", "$0$"],
+    "correct_index": 0,
+    "explanation": "למנסרה יש שני בסיסים זהים ומקבילים."
+  },
+  {
+    "id": "q-g5-solidsx-3",
+    "topic_id": "g5-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פאות צדדיות של פירמידה הן תמיד:",
+    "options": ["משולשים", "מלבנים", "מרובעים כלשהם", "עיגולים"],
+    "correct_index": 0,
+    "explanation": "הפאות הצדדיות נפגשות כולן בפסגה, ולכן הן משולשים."
+  },
+  {
+    "id": "q-g5-solidsx-4",
+    "topic_id": "g5-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פאות צדדיות של מנסרה ישרה הן תמיד:",
+    "options": ["מלבנים", "משולשים", "עיגולים", "מחומשים"],
+    "correct_index": 0,
+    "explanation": "הפאות הצדדיות מחברות בין שני הבסיסים המקבילים."
+  },
+  {
+    "id": "q-g5-solidsx-5",
+    "topic_id": "g5-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פריסה של גוף היא צורה שכאשר מקפלים אותה:",
+    "options": ["מתקבל הגוף התלת-ממדי", "היא נשארת שטוחה", "היא הופכת לעיגול", "אין לה שימוש"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של פריסה."
+  },
+  {
+    "id": "q-g5-solidsx-6",
+    "topic_id": "g5-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לגוף מסוים יכולות להתאים:",
+    "options": ["כמה פריסות תקינות שונות", "רק פריסה אחת בלבד", "אף פריסה", "פריסה זהה לכל הגופים"],
+    "correct_index": 0,
+    "explanation": "לרוב הגופים יש כמה פריסות תקינות אפשריות."
   }
 ];
 
