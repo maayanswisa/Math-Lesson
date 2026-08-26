@@ -16270,6 +16270,1216 @@ export const QUESTIONS = [
     "options": ["$1$", "$0$", "$0.5$", "תלוי במאורע"],
     "correct_index": 0,
     "explanation": "מאורע וודאי הוא כל מרחב המדגם, ולכן הסתברותו תמיד $1$."
+  },
+  {
+    "id": "q-g10-u5-power-functions-1",
+    "topic_id": "g10-u5-power-functions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^4$. האם הפונקציה זוגית או אי-זוגית?",
+    "options": ["זוגית", "אי-זוגית", "גם וגם", "אף אחת"],
+    "correct_index": 0,
+    "explanation": "$f(-x)=(-x)^4=x^4=f(x)$, ולכן הפונקציה זוגית (כי $4$ זוגי)."
+  },
+  {
+    "id": "q-g10-u5-power-functions-2",
+    "topic_id": "g10-u5-power-functions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^5$. האם הפונקציה זוגית או אי-זוגית?",
+    "options": ["אי-זוגית", "זוגית", "גם וגם", "אף אחת"],
+    "correct_index": 0,
+    "explanation": "$f(-x)=(-x)^5=-x^5=-f(x)$, ולכן הפונקציה אי-זוגית (כי $5$ אי-זוגי)."
+  },
+  {
+    "id": "q-g10-u5-power-functions-3",
+    "topic_id": "g10-u5-power-functions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לאיזו מהפונקציות הבאות מובטח שיש שורש ממשי, בלי לחשב?",
+    "options": ["$f(x)=x^7-3x+1$", "$f(x)=x^4+1$", "$f(x)=x^2+4$", "אף אחת מהן מובטחת"],
+    "correct_index": 0,
+    "explanation": "פולינום ממעלה אי-זוגית ($7$) מובטח שיש לו לפחות שורש ממשי אחד."
+  },
+  {
+    "id": "q-g10-u5-power-functions-4",
+    "topic_id": "g10-u5-power-functions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לאיזו מהפונקציות הבאות אין אף שורש ממשי?",
+    "options": ["$f(x)=x^2+9$", "$f(x)=x^3-8$", "$f(x)=x^5$", "$f(x)=x-2$"],
+    "correct_index": 0,
+    "explanation": "$x^2+9=0$ נותן $x^2=-9$, שאין לו פתרון ממשי - זו דוגמה לפולינום ממעלה זוגית ללא שורש ממשי."
+  },
+  {
+    "id": "q-g10-u5-power-functions-5",
+    "topic_id": "g10-u5-power-functions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון $f(x)=(x-2)^2(x+1)$. איך מתנהג הגרף ליד $x=2$?",
+    "options": ["נוגע בציר $x$ וחוזר (לא חוצה)", "חוצה את ציר $x$", "יש שם אסימפטוטה", "הפונקציה לא מוגדרת שם"],
+    "correct_index": 0,
+    "explanation": "השורש $x=2$ הוא בריבוי זוגי ($2$), ולכן הגרף נוגע בציר ואינו חוצה אותו."
+  },
+  {
+    "id": "q-g10-u5-power-functions-6",
+    "topic_id": "g10-u5-power-functions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "באותה פונקציה $f(x)=(x-2)^2(x+1)$, איך מתנהג הגרף ליד $x=-1$?",
+    "options": ["חוצה את ציר $x$", "נוגע בציר $x$ וחוזר", "יש שם קיצון בהכרח", "הפונקציה לא מוגדרת שם"],
+    "correct_index": 0,
+    "explanation": "השורש $x=-1$ הוא בריבוי אי-זוגי ($1$), ולכן הגרף חוצה את הציר שם."
+  },
+  {
+    "id": "q-g10-u5-power-functions-7",
+    "topic_id": "g10-u5-power-functions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פרקו לגורמים: $x^2+3x-4$",
+    "options": ["$(x+4)(x-1)$", "$(x-4)(x+1)$", "$(x+2)(x+2)$", "$(x-2)(x+2)$"],
+    "correct_index": 0,
+    "explanation": "מחפשים שני מספרים שסכומם $3$ ומכפלתם $-4$: אלה $4$ ו-$-1$."
+  },
+  {
+    "id": "q-g10-u5-power-functions-8",
+    "topic_id": "g10-u5-power-functions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משפחת הפונקציות $f(x)=x^n$ מכלילה אילו שתי פונקציות מוכרות מחטיבת הביניים (עבור $n=1$ ו-$n=2$)?",
+    "options": ["הפונקציה הלינארית והפונקציה הריבועית", "הפונקציה המעריכית והלוגריתמית", "פונקציית השורש והערך המוחלט", "אף אחת מהנ\"ל"],
+    "correct_index": 0,
+    "explanation": "$x^1$ היא הפונקציה הלינארית $y=x$, ו-$x^2$ היא הפונקציה הריבועית."
+  },
+  {
+    "id": "q-g10-u5-power-functions-9",
+    "topic_id": "g10-u5-power-functions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתון פולינום עם שורש $x=3$ בריבוי $3$ (אי-זוגי). איך יתנהג הגרף שם?",
+    "options": ["יחצה את ציר $x$", "ייגע בציר $x$ ויחזור", "יהיה שם קיצון מוחלט בהכרח", "הפונקציה לא תהיה רציפה שם"],
+    "correct_index": 0,
+    "explanation": "שורש בריבוי אי-זוגי (גם אם גדול מ-$1$, כמו $3$) גורם לגרף לחצות את הציר."
+  },
+  {
+    "id": "q-g10-u5-power-functions-10",
+    "topic_id": "g10-u5-power-functions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם כל פולינום ניתן לפרק לגורמים לינאריים?",
+    "options": ["לא, לא כל פולינום ניתן לפרק כך", "כן, תמיד אפשר", "רק פולינומים ממעלה זוגית", "רק פולינומים ממעלה אי-זוגית"],
+    "correct_index": 0,
+    "explanation": "יש פולינומים שאינם ניתנים לפירוק לגורמים לינאריים (בעלי מקדמים פשוטים), ולכן צריך כלים אנליטיים נוספים כמו הנגזרת."
+  },
+  {
+    "id": "q-g10-u5-function-ops-1",
+    "topic_id": "g10-u5-function-ops",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הפונקציה $y=-f(x)$ מתקבלת מ-$y=f(x)$ על ידי שיקוף ביחס ל:",
+    "options": ["ציר $x$", "ציר $y$", "הישר $y=x$", "הראשית"],
+    "correct_index": 0,
+    "explanation": "הפיכת סימן ערכי הפונקציה מהפכת את הגרף מעל/מתחת לציר $x$."
+  },
+  {
+    "id": "q-g10-u5-function-ops-2",
+    "topic_id": "g10-u5-function-ops",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הפונקציה $y=f(-x)$ מתקבלת מ-$y=f(x)$ על ידי שיקוף ביחס ל:",
+    "options": ["ציר $y$", "ציר $x$", "הישר $y=x$", "הראשית"],
+    "correct_index": 0,
+    "explanation": "הפיכת סימן ה-$x$ משקפת את הגרף ביחס לציר $y$."
+  },
+  {
+    "id": "q-g10-u5-function-ops-3",
+    "topic_id": "g10-u5-function-ops",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{x^2}$ (לכל $x$ ממשי)?",
+    "options": ["$|x|$", "$x$", "$-x$", "$x^2$"],
+    "correct_index": 0,
+    "explanation": "השורש הריבועי תמיד אי-שלילי, ולכן $\\sqrt{x^2}=|x|$ ולא $x$ (שיכול להיות שלילי)."
+  },
+  {
+    "id": "q-g10-u5-function-ops-4",
+    "topic_id": "g10-u5-function-ops",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הגרפים של פונקציה $f$ והפונקציה ההפוכה שלה $f^{-1}$ סימטריים ביחס ל:",
+    "options": ["הישר $y=x$", "ציר $x$", "ציר $y$", "הראשית"],
+    "correct_index": 0,
+    "explanation": "החלפת התפקידים בין $x$ ל-$y$ (מעבר מ-$f$ ל-$f^{-1}$) שקולה לשיקוף ביחס לישר $y=x$."
+  },
+  {
+    "id": "q-g10-u5-function-ops-5",
+    "topic_id": "g10-u5-function-ops",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונות $f(x)=x+1$, $g(x)=x-3$. מהו תחום ההגדרה של $\\left(\\dfrac{f}{g}\\right)(x)$?",
+    "options": ["כל הממשיים פרט ל-$x=3$", "כל הממשיים פרט ל-$x=-1$", "כל הממשיים", "$x\\ge3$ בלבד"],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{f}{g}$ אינה מוגדרת היכן ש-$g(x)=0$, כלומר $x-3=0\\Rightarrow x=3$."
+  },
+  {
+    "id": "q-g10-u5-function-ops-6",
+    "topic_id": "g10-u5-function-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הפונקציה ההופכית לפונקציה $f(x)=x^3$?",
+    "options": ["$f^{-1}(x)=\\sqrt[3]{x}$", "$f^{-1}(x)=x^{1/2}$", "$f^{-1}(x)=\\dfrac{1}{x^3}$", "$f^{-1}(x)=-x^3$"],
+    "correct_index": 0,
+    "explanation": "פונקציית השורש השלישי היא ההופכית לפונקציה $x^3$."
+  },
+  {
+    "id": "q-g10-u5-function-ops-7",
+    "topic_id": "g10-u5-function-ops",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לאיזו מהפונקציות הבאות (בתחום כל הממשיים) אין פונקציה הפוכה?",
+    "options": ["$f(x)=x^2$", "$f(x)=x^3$", "$f(x)=2x+1$", "$f(x)=x$"],
+    "correct_index": 0,
+    "explanation": "$f(x)=x^2$ אינה חד-חד-ערכית בכל הממשיים (למשל $f(2)=f(-2)=4$), ולכן אין לה פונקציה הפוכה בתחום זה."
+  },
+  {
+    "id": "q-g10-u5-function-ops-8",
+    "topic_id": "g10-u5-function-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונות $f(x)=x^2$, $g(x)=x+1$. מהי $f(g(x))$?",
+    "options": ["$(x+1)^2$", "$x^2+1$", "$x^2+x$", "$x^2+1^2$"],
+    "correct_index": 0,
+    "explanation": "$f(g(x))=f(x+1)=(x+1)^2$."
+  },
+  {
+    "id": "q-g10-u5-function-ops-9",
+    "topic_id": "g10-u5-function-ops",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו תחום ההגדרה של $f(x)=\\dfrac{1}{x}$?",
+    "options": ["כל הממשיים פרט ל-$0$", "כל הממשיים", "$x>0$ בלבד", "$x\\ge0$"],
+    "correct_index": 0,
+    "explanation": "החלוקה ב-$x$ אינה מוגדרת כאשר $x=0$."
+  },
+  {
+    "id": "q-g10-u5-function-ops-10",
+    "topic_id": "g10-u5-function-ops",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה מתאר גרף ההרכבה $|f(x)|$ ביחס לגרף של $f$?",
+    "options": ["כל חלק שנמצא מתחת לציר $x$ משתקף מעליו", "הגרף כולו זז ימינה", "הגרף כולו מוכפל ב-$2$", "הגרף נשאר זהה תמיד"],
+    "correct_index": 0,
+    "explanation": "ערך מוחלט הופך כל ערך שלילי לחיובי, ולכן החלקים השליליים של הגרף (מתחת לציר $x$) משתקפים מעליו."
+  },
+  {
+    "id": "q-g10-u5-derivative-def-1",
+    "topic_id": "g10-u5-derivative-def",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "המשמעות הגאומטרית של $f'(x_0)$ היא:",
+    "options": ["שיפוע המשיק לגרף בנקודה $x_0$", "גובה הגרף בנקודה $x_0$", "אורך המשיק", "שטח מתחת לגרף"],
+    "correct_index": 0,
+    "explanation": "הנגזרת בנקודה שווה לשיפוע קו המשיק לגרף באותה נקודה."
+  },
+  {
+    "id": "q-g10-u5-derivative-def-2",
+    "topic_id": "g10-u5-derivative-def",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפי ההגדרה הפורמלית, $f'(x_0)$ שווה ל:",
+    "options": ["$\\displaystyle\\lim_{\\Delta x\\to0}\\dfrac{f(x_0+\\Delta x)-f(x_0)}{\\Delta x}$", "$\\displaystyle\\lim_{\\Delta x\\to0}\\dfrac{f(x_0)}{\\Delta x}$", "$f(x_0+\\Delta x)-f(x_0)$", "$\\dfrac{f(x_0)}{x_0}$"],
+    "correct_index": 0,
+    "explanation": "הנגזרת היא הגבול של מנת ההפרשים - קצב השינוי הממוצע - כאשר $\\Delta x$ שואף ל-$0$."
+  },
+  {
+    "id": "q-g10-u5-derivative-def-3",
+    "topic_id": "g10-u5-derivative-def",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם $s(t)$ מתארת את מיקום גוף בזמן $t$, מה מתארת $s'(t)$?",
+    "options": ["מהירות רגעית", "תאוצה", "הזמן הכולל", "המרחק הכולל שנעבר"],
+    "correct_index": 0,
+    "explanation": "הנגזרת של פונקציית המיקום לפי הזמן היא המהירות הרגעית."
+  },
+  {
+    "id": "q-g10-u5-derivative-def-4",
+    "topic_id": "g10-u5-derivative-def",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מדוע ככל שרוחב הקטע קטן יותר, ההערכה של קצב השינוי הרגעי טובה יותר?",
+    "options": ["כי החותך מתקרב יותר למשיק בנקודה", "כי הפונקציה משתנה פחות", "כי הנגזרת גדלה", "אין קשר בין השניים"],
+    "correct_index": 0,
+    "explanation": "ככל שהקטע קצר יותר, שיפוע החותך בין שתי נקודות קרובות מתקרב יותר לשיפוע המשיק - הנגזרת המדויקת."
+  },
+  {
+    "id": "q-g10-u5-derivative-def-5",
+    "topic_id": "g10-u5-derivative-def",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מי משני המדענים הבאים מזוהים עם התפתחות מושג הנגזרת?",
+    "options": ["ניוטון ולייבניץ", "אוקלידס ותאלס", "פיתגורס ואוילר", "גאוס ואוילר"],
+    "correct_index": 0,
+    "explanation": "ניוטון ולייבניץ פיתחו במקביל את חשבון הדיפרנציאלי, כל אחד מתוך הקשר משלו."
+  },
+  {
+    "id": "q-g10-u5-derivative-def-6",
+    "topic_id": "g10-u5-derivative-def",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם שיפוע המשיק לגרף הפונקציה בנקודה מסוימת חיובי, מה ניתן להסיק?",
+    "options": ["הפונקציה עולה באותה נקודה", "הפונקציה יורדת", "יש שם נקודת קיצון", "הפונקציה אינה רציפה"],
+    "correct_index": 0,
+    "explanation": "שיפוע משיק חיובי משמעו נגזרת חיובית, כלומר הפונקציה עולה שם."
+  },
+  {
+    "id": "q-g10-u5-derivative-def-7",
+    "topic_id": "g10-u5-derivative-def",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^2$. באמצעות ההגדרה הפורמלית (מנת הפרשים), חשבו את $f'(3)$.",
+    "options": ["$6$", "$9$", "$3$", "$12$"],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{f(3+\\Delta x)-f(3)}{\\Delta x}=\\dfrac{9+6\\Delta x+\\Delta x^2-9}{\\Delta x}=6+\\Delta x\\xrightarrow{\\Delta x\\to0}6$."
+  },
+  {
+    "id": "q-g10-u5-derivative-def-8",
+    "topic_id": "g10-u5-derivative-def",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה מייצג הביטוי \"מנת ההפרשים\" $\\dfrac{f(x_0+\\Delta x)-f(x_0)}{\\Delta x}$?",
+    "options": ["קצב שינוי ממוצע בקטע", "קצב שינוי רגעי מדויק", "שטח מתחת לגרף", "ערך הפונקציה בנקודה"],
+    "correct_index": 0,
+    "explanation": "מנת ההפרשים מייצגת קצב שינוי ממוצע על פני קטע; רק בגבול כשהקטע שואף לאפס מתקבל קצב השינוי הרגעי (הנגזרת)."
+  },
+  {
+    "id": "q-g10-u5-derivative-def-9",
+    "topic_id": "g10-u5-derivative-def",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ככל שמקרבים שתי נקודות על גרף הפונקציה זו לזו, למה שואף הישר החותך ביניהן (בנקודה גזירה)?",
+    "options": ["למשיק לגרף באותה נקודה", "לציר $x$", "לישר אופקי קבוע", "לגרף הנגזרת"],
+    "correct_index": 0,
+    "explanation": "המשיק מוגדר כגבול של החותכים בתהליך התקרבות הנקודות זו לזו."
+  },
+  {
+    "id": "q-g10-u5-derivative-def-10",
+    "topic_id": "g10-u5-derivative-def",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לאיזו מהפונקציות הבאות יש קצב שינוי אחיד (קבוע)?",
+    "options": ["$f(x)=3x+2$", "$f(x)=x^2$", "$f(x)=\\sqrt{x}$", "$f(x)=\\dfrac{1}{x}$"],
+    "correct_index": 0,
+    "explanation": "רק פונקציה לינארית כמו $3x+2$ בעלת קצב שינוי אחיד (שיפוע קבוע); בשאר הפונקציות קצב השינוי משתנה."
+  },
+  {
+    "id": "q-g10-u5-derivative-rules-1",
+    "topic_id": "g10-u5-derivative-rules",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתון $f'(x)=4x$. מהי הנגזרת של $3f(x)$?",
+    "options": ["$12x$", "$4x+3$", "$7x$", "$12x^2$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל הכפל בקבוע: $[3f(x)]'=3f'(x)=3\\times4x=12x$."
+  },
+  {
+    "id": "q-g10-u5-derivative-rules-2",
+    "topic_id": "g10-u5-derivative-rules",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתון $f'(x)=2x$, $g'(x)=3$. מהי $[f(x)+g(x)]'$?",
+    "options": ["$2x+3$", "$2x\\times3$", "$5x$", "$6x$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל הסכום: $[f+g]'=f'+g'=2x+3$."
+  },
+  {
+    "id": "q-g10-u5-derivative-rules-3",
+    "topic_id": "g10-u5-derivative-rules",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונות $f(x)=x$, $g(x)=x^2$. מהי הנגזרת של $f(x)g(x)$ לפי כלל המכפלה?",
+    "options": ["$3x^2$", "$2x$", "$x^2$", "$x^3$"],
+    "correct_index": 0,
+    "explanation": "$[fg]'=f'g+fg'=1\\times x^2+x\\times2x=x^2+2x^2=3x^2$."
+  },
+  {
+    "id": "q-g10-u5-derivative-rules-4",
+    "topic_id": "g10-u5-derivative-rules",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=(3x-1)^5$?",
+    "options": ["$15(3x-1)^4$", "$5(3x-1)^4$", "$15(3x-1)^5$", "$3(3x-1)^4$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל השרשרת: $5(3x-1)^4\\times(3x-1)'=5(3x-1)^4\\times3=15(3x-1)^4$."
+  },
+  {
+    "id": "q-g10-u5-derivative-rules-5",
+    "topic_id": "g10-u5-derivative-rules",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $y=3f(x)$ (מתיחה אנכית). מהי $y'$?",
+    "options": ["$3f'(x)$", "$3f'(3x)$", "$f'(3x)$", "$\\dfrac{1}{3}f'(x)$"],
+    "correct_index": 0,
+    "explanation": "כפל בקבוע אנכי משפיע רק על גובה הגרף, ולכן $y'=3f'(x)$ - הנגזרת מוערכת באותה נקודה $x$."
+  },
+  {
+    "id": "q-g10-u5-derivative-rules-6",
+    "topic_id": "g10-u5-derivative-rules",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $y=f(3x)$ (מתיחה אופקית). מהי $y'$?",
+    "options": ["$3f'(3x)$", "$f'(3x)$", "$3f'(x)$", "$f'(x)$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל השרשרת: $y'=f'(3x)\\times(3x)'=3f'(3x)$."
+  },
+  {
+    "id": "q-g10-u5-derivative-rules-7",
+    "topic_id": "g10-u5-derivative-rules",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בתחום שבו הפונקציה $f$ עולה, מה ניתן לומר על גרף הנגזרת $f'$ שם?",
+    "options": ["נמצא מעל ציר $x$ (חיובי)", "נמצא מתחת לציר $x$", "חותך את ציר $x$", "מקביל לציר $x$"],
+    "correct_index": 0,
+    "explanation": "פונקציה עולה גוררת נגזרת חיובית, כלומר גרף $f'$ מעל ציר $x$."
+  },
+  {
+    "id": "q-g10-u5-derivative-rules-8",
+    "topic_id": "g10-u5-derivative-rules",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בנקודת קיצון של $f$, מה ערך הנגזרת $f'$ שם?",
+    "options": ["$0$", "$1$", "אינו מוגדר תמיד", "תלוי בסוג הקיצון"],
+    "correct_index": 0,
+    "explanation": "בנקודת קיצון (אם הפונקציה גזירה שם) שיפוע המשיק אופקי, ולכן $f'=0$."
+  },
+  {
+    "id": "q-g10-u5-derivative-rules-9",
+    "topic_id": "g10-u5-derivative-rules",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מדוע ברמת $5$ יח\"ל יש להוכיח את כללי הגזירה ולא רק להשתמש בהם?",
+    "options": ["כדי להבין את הבסיס הלוגי של הכלים ולוודא שהם עקביים זה עם זה", "כי הכללים אינם נכונים תמיד", "כי אין להם שימוש מעשי", "זה לא נדרש בתוכנית"],
+    "correct_index": 0,
+    "explanation": "ברמת $5$ יח\"ל מודגש הבנת הבסיס הלוגי-מתמטי של הכלים, לא רק היכולת להשתמש בהם."
+  },
+  {
+    "id": "q-g10-u5-derivative-rules-10",
+    "topic_id": "g10-u5-derivative-rules",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^2(2x+1)$. מהי $f'(x)$?",
+    "options": ["$6x^2+2x$", "$4x^2+2x$", "$2x^2+2x$", "$4x+2$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל המכפלה: $2x(2x+1)+x^2\\times2=4x^2+2x+2x^2=6x^2+2x$."
+  },
+  {
+    "id": "q-g10-u5-poly-investigation-1",
+    "topic_id": "g10-u5-poly-investigation",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו תחום ההגדרה של פונקציה פולינומיאלית?",
+    "options": ["כל הממשיים", "$x\\ge0$", "$x\\ne0$", "תלוי בפולינום"],
+    "correct_index": 0,
+    "explanation": "לפולינום אין מכנה או שורש, ולכן הוא מוגדר לכל $x$ ממשי."
+  },
+  {
+    "id": "q-g10-u5-poly-investigation-2",
+    "topic_id": "g10-u5-poly-investigation",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^3-3x^2$. מהי נקודת המקסימום המקומי?",
+    "options": ["$x=0$", "$x=2$", "$x=1$", "$x=3$"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=3x^2-6x=3x(x-2)=0\\Rightarrow x=0,2$. בדיקת סימן: $f'$ עוברת מ-$+$ ל-$-$ ב-$x=0$, כלומר מקסימום מקומי."
+  },
+  {
+    "id": "q-g10-u5-poly-investigation-3",
+    "topic_id": "g10-u5-poly-investigation",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "באותה פונקציה $f(x)=x^3-3x^2$, מהי נקודת המינימום המקומי?",
+    "options": ["$x=2$", "$x=0$", "$x=-2$", "$x=3$"],
+    "correct_index": 0,
+    "explanation": "ב-$x=2$ הנגזרת עוברת מ-$-$ ל-$+$, כלומר מינימום מקומי."
+  },
+  {
+    "id": "q-g10-u5-poly-investigation-4",
+    "topic_id": "g10-u5-poly-investigation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מדוע בתחום סגור בודקים גם את קצוות התחום בחקירת קיצון?",
+    "options": ["כי הקיצון המוחלט עשוי להתקבל בקצה התחום", "כי הנגזרת אינה מוגדרת בתחום סגור", "זה לא נחוץ", "כי אין קיצון בתחום סגור"],
+    "correct_index": 0,
+    "explanation": "בתחום סגור ייתכן שהערך הגדול/קטן ביותר מתקבל בקצה התחום ולא בנקודה שבה $f'=0$."
+  },
+  {
+    "id": "q-g10-u5-poly-investigation-5",
+    "topic_id": "g10-u5-poly-investigation",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזו מהפונקציות הבאות היא פונקציה קדומה לנגזרת $f'(x)=6x$?",
+    "options": ["$3x^2+2$", "$6x^2$", "$3x^2+2x$", "$x^3$"],
+    "correct_index": 0,
+    "explanation": "הנגזרת של $3x^2+2$ היא $6x+0=6x$, כנדרש."
+  },
+  {
+    "id": "q-g10-u5-poly-investigation-6",
+    "topic_id": "g10-u5-poly-investigation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם $f(x)=x^2$ היא פונקציה קדומה לנגזרת מסוימת, איזו פונקציה נוספת היא גם פונקציה קדומה לאותה נגזרת?",
+    "options": ["$x^2+7$", "$2x^2$", "$x^2+x$", "$x^3$"],
+    "correct_index": 0,
+    "explanation": "הוספת קבוע לא משנה את הנגזרת (נגזרת קבוע היא $0$), ולכן $x^2+7$ גם היא פונקציה קדומה לאותה נגזרת."
+  },
+  {
+    "id": "q-g10-u5-poly-investigation-7",
+    "topic_id": "g10-u5-poly-investigation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^4-2x^2$. האם היא זוגית או אי-זוגית?",
+    "options": ["זוגית", "אי-זוגית", "גם וגם", "אף אחת"],
+    "correct_index": 0,
+    "explanation": "$f(-x)=x^4-2x^2=f(x)$, ולכן הפונקציה זוגית."
+  },
+  {
+    "id": "q-g10-u5-poly-investigation-8",
+    "topic_id": "g10-u5-poly-investigation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^2-9$. מהן נקודות החיתוך עם ציר $x$?",
+    "options": ["$x=3,\\ x=-3$", "$x=9,\\ x=-9$", "$x=0$ בלבד", "אין חיתוך"],
+    "correct_index": 0,
+    "explanation": "פותרים $x^2-9=0\\Rightarrow x^2=9\\Rightarrow x=\\pm3$."
+  },
+  {
+    "id": "q-g10-u5-poly-investigation-9",
+    "topic_id": "g10-u5-poly-investigation",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=2x^3-3x^2-12x+1$. מהן נקודות הקיצון החשודות?",
+    "options": ["$x=2,\\ x=-1$", "$x=3,\\ x=-4$", "$x=1,\\ x=-2$", "$x=0,\\ x=2$"],
+    "correct_index": 0,
+    "explanation": "$f'(x)=6x^2-6x-12=6(x^2-x-2)=6(x-2)(x+1)=0\\Rightarrow x=2,-1$."
+  },
+  {
+    "id": "q-g10-u5-poly-investigation-10",
+    "topic_id": "g10-u5-poly-investigation",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מה משמעות \"קיצון מקומי\" לעומת \"קיצון מוחלט\"?",
+    "options": ["קיצון מקומי - הגדול/קטן ביותר בסביבתו; קיצון מוחלט - בכל התחום", "אין הבדל", "קיצון מקומי גדול תמיד מקיצון מוחלט", "קיצון מוחלט קיים רק לישרים"],
+    "correct_index": 0,
+    "explanation": "קיצון מקומי משווה רק לנקודות קרובות; קיצון מוחלט הוא הערך הגדול/קטן ביותר בכל תחום ההגדרה."
+  },
+  {
+    "id": "q-g10-u5-rational-root-1",
+    "topic_id": "g10-u5-rational-root",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\dfrac{1}{x}$?",
+    "options": ["$-\\dfrac{1}{x^2}$", "$\\dfrac{1}{x^2}$", "$-\\dfrac{1}{x}$", "$\\dfrac{-1}{2x}$"],
+    "correct_index": 0,
+    "explanation": "זוהי נגזרת בסיסית שיש להוכיח מהגדרת הגבול: $\\left(\\dfrac{1}{x}\\right)'=-\\dfrac{1}{x^2}$."
+  },
+  {
+    "id": "q-g10-u5-rational-root-2",
+    "topic_id": "g10-u5-rational-root",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו תחום ההגדרה של $f(x)=\\dfrac{1}{x-3}$?",
+    "options": ["כל הממשיים פרט ל-$3$", "כל הממשיים", "$x>3$ בלבד", "$x\\ge3$"],
+    "correct_index": 0,
+    "explanation": "המכנה מתאפס ב-$x=3$, ולכן הפונקציה אינה מוגדרת שם."
+  },
+  {
+    "id": "q-g10-u5-rational-root-3",
+    "topic_id": "g10-u5-rational-root",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{(x-2)(x+1)}{x-2}$. מה קורה ב-$x=2$?",
+    "options": ["יש שם נקודת אי-רציפות סליקה (\"חור\" בגרף)", "יש שם אסימפטוטה אנכית", "הפונקציה מקסימלית שם", "הפונקציה חותכת את ציר $x$ שם"],
+    "correct_index": 0,
+    "explanation": "הגורם $(x-2)$ מצטמצם, ולכן זו נקודת אי-רציפות סליקה - \"חור\" בגרף, לא אסימפטוטה."
+  },
+  {
+    "id": "q-g10-u5-rational-root-4",
+    "topic_id": "g10-u5-rational-root",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי האסימפטוטה האנכית של $f(x)=\\dfrac{1}{x+5}$?",
+    "options": ["$x=-5$", "$x=5$", "$y=-5$", "אין אסימפטוטה אנכית"],
+    "correct_index": 0,
+    "explanation": "המכנה מתאפס ב-$x=-5$ (והמונה לא), ולכן שם אסימפטוטה אנכית."
+  },
+  {
+    "id": "q-g10-u5-rational-root-5",
+    "topic_id": "g10-u5-rational-root",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי האסימפטוטה האופקית של $f(x)=\\dfrac{1}{x}$ כאשר $x\\to\\pm\\infty$?",
+    "options": ["$y=0$", "$x=0$", "$y=1$", "אין אסימפטוטה אופקית"],
+    "correct_index": 0,
+    "explanation": "כאשר $x$ שואף לאינסוף, $\\dfrac{1}{x}$ שואף ל-$0$, ולכן $y=0$ אסימפטוטה אופקית."
+  },
+  {
+    "id": "q-g10-u5-rational-root-6",
+    "topic_id": "g10-u5-rational-root",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\dfrac{x}{x+1}$?",
+    "options": ["$\\dfrac{1}{(x+1)^2}$", "$\\dfrac{-1}{(x+1)^2}$", "$\\dfrac{1}{x+1}$", "$\\dfrac{2x+1}{(x+1)^2}$"],
+    "correct_index": 0,
+    "explanation": "לפי כלל המנה: $\\dfrac{1\\times(x+1)-x\\times1}{(x+1)^2}=\\dfrac{1}{(x+1)^2}$."
+  },
+  {
+    "id": "q-g10-u5-rational-root-7",
+    "topic_id": "g10-u5-rational-root",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פונקציית השורש הריבועי היא ההופכית לאיזו פונקציה (בתחום $x\\ge0$)?",
+    "options": ["$f(x)=x^2$", "$f(x)=x^3$", "$f(x)=2x$", "$f(x)=\\dfrac{1}{x}$"],
+    "correct_index": 0,
+    "explanation": "בתחום $x\\ge0$ הפונקציה הריבועית חד-חד-ערכית, ופונקציית השורש היא ההופכית לה."
+  },
+  {
+    "id": "q-g10-u5-rational-root-8",
+    "topic_id": "g10-u5-rational-root",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\sqrt{x-5}$?",
+    "options": ["$\\dfrac{1}{2\\sqrt{x-5}}$", "$\\dfrac{1}{\\sqrt{x-5}}$", "$2\\sqrt{x-5}$", "$\\dfrac{-1}{2\\sqrt{x-5}}$"],
+    "correct_index": 0,
+    "explanation": "לפי $\\left(\\sqrt{g(x)}\\right)'=\\dfrac{g'(x)}{2\\sqrt{g(x)}}$ עם $g(x)=x-5$: $\\dfrac{1}{2\\sqrt{x-5}}$."
+  },
+  {
+    "id": "q-g10-u5-rational-root-9",
+    "topic_id": "g10-u5-rational-root",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x\\sqrt{x-5}$. מהו תחום ההגדרה שלה?",
+    "options": ["$x\\ge5$", "$x>0$", "$x\\ge0$", "כל הממשיים"],
+    "correct_index": 0,
+    "explanation": "יש לדרוש $x-5\\ge0$, כלומר $x\\ge5$."
+  },
+  {
+    "id": "q-g10-u5-rational-root-10",
+    "topic_id": "g10-u5-rational-root",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הדרישה על מכנה של פונקציה רציונלית?",
+    "options": ["המכנה לא יכול להתאפס", "המכנה חייב להיות חיובי", "המכנה חייב להיות פולינום ממעלה ראשונה", "אין דרישה"],
+    "correct_index": 0,
+    "explanation": "חלוקה באפס אינה מוגדרת, ולכן תחום ההגדרה של פונקציה רציונלית מוציא את הנקודות בהן המכנה מתאפס."
+  },
+  {
+    "id": "q-g10-u5-extremum-problems-1",
+    "topic_id": "g10-u5-extremum-problems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "סכום שני מספרים הוא $30$. מה המכפלה המקסימלית האפשרית שלהם?",
+    "options": ["$225$", "$450$", "$900$", "$60$"],
+    "correct_index": 0,
+    "explanation": "המכפלה $x(30-x)$ מקסימלית ב-$x=15$ (קודקוד הפרבולה): $15\\times15=225$."
+  },
+  {
+    "id": "q-g10-u5-extremum-problems-2",
+    "topic_id": "g10-u5-extremum-problems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "היקף מלבן הוא $60$ ס\"מ. מהו השטח המקסימלי האפשרי?",
+    "options": ["$225$ סמ\"ר", "$900$ סמ\"ר", "$450$ סמ\"ר", "$60$ סמ\"ר"],
+    "correct_index": 0,
+    "explanation": "$x+y=30$, שטח $x(30-x)$ מקסימלי ב-$x=15$: $15\\times15=225$."
+  },
+  {
+    "id": "q-g10-u5-extremum-problems-3",
+    "topic_id": "g10-u5-extremum-problems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מכפלת שני מספרים חיוביים היא $64$. מהו הסכום המינימלי האפשרי שלהם?",
+    "options": ["$16$", "$64$", "$32$", "$8$"],
+    "correct_index": 0,
+    "explanation": "$S(x)=x+\\dfrac{64}{x}$. $S'(x)=1-\\dfrac{64}{x^2}=0\\Rightarrow x=8$, ואז $S=8+8=16$."
+  },
+  {
+    "id": "q-g10-u5-extremum-problems-4",
+    "topic_id": "g10-u5-extremum-problems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מפעל מוכר פריט ב-$35$ ₪ בעלות $15$ ₪, ומוכר $80$ יחידות ביום. כל הפחתה של $1$ ₪ במחיר מגדילה את המכירות ב-$8$ יחידות ביום. באיזו הפחתת מחיר ($x$) הרווח היומי מקסימלי?",
+    "options": ["$5$ ₪", "$10$ ₪", "$0$ ₪", "$20$ ₪"],
+    "correct_index": 0,
+    "explanation": "רווח$(x)=(20-x)(80+8x)=1600+80x-8x^2$. נגזרת: $80-16x=0\\Rightarrow x=5$."
+  },
+  {
+    "id": "q-g10-u5-extremum-problems-5",
+    "topic_id": "g10-u5-extremum-problems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בבעיית המפעל (סעיף קודם), מהו הרווח היומי המקסימלי?",
+    "options": ["$1800$ ₪", "$1600$ ₪", "$2000$ ₪", "$1400$ ₪"],
+    "correct_index": 0,
+    "explanation": "מציבים $x=5$: רווח $=1600+80\\times5-8\\times25=1600+400-200=1800$."
+  },
+  {
+    "id": "q-g10-u5-extremum-problems-6",
+    "topic_id": "g10-u5-extremum-problems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מדוע בבעיית קיצון בתחום סגור יש לבדוק גם את קצוות התחום?",
+    "options": ["כי ייתכן שהקיצון המוחלט מתקבל שם", "כי הנגזרת אינה מוגדרת בתחום סגור", "זה לא נחוץ", "כי אין קיצון בתחום סגור"],
+    "correct_index": 0,
+    "explanation": "בתחום סגור הקיצון המוחלט עלול להתקבל בקצה התחום ולא בנקודה שבה הנגזרת מתאפסת."
+  },
+  {
+    "id": "q-g10-u5-extremum-problems-7",
+    "topic_id": "g10-u5-extremum-problems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חקלאי בעל $80$ מ' גדר רוצה לגדר שטח מלבני הצמוד לקיר (הקיר משמש כצלע אחת, ללא צורך בגדר שם). מהו השטח המקסימלי שניתן לגדר?",
+    "options": ["$800$ מ\"ר", "$1600$ מ\"ר", "$400$ מ\"ר", "$3200$ מ\"ר"],
+    "correct_index": 0,
+    "explanation": "$2x+y=80\\Rightarrow y=80-2x$. שטח $=x(80-2x)$, מקסימלי ב-$x=20$: שטח $=20\\times40=800$."
+  },
+  {
+    "id": "q-g10-u5-extremum-problems-8",
+    "topic_id": "g10-u5-extremum-problems",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לפי הקשר הבסיסי, רווח מוגדר כ:",
+    "options": ["הכנסה פחות עלות", "הכנסה כפול עלות", "עלות פחות הכנסה", "הכנסה חלקי עלות"],
+    "correct_index": 0,
+    "explanation": "רווח הוא ההפרש בין ההכנסה הכוללת לעלות הכוללת."
+  },
+  {
+    "id": "q-g10-u5-extremum-problems-9",
+    "topic_id": "g10-u5-extremum-problems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מגיליון ריבועי שאורך צלעו $12$ ס\"מ בונים קופסה פתוחה על ידי חיתוך ריבוע בגודל $x$ מכל פינה וקיפול הדפנות כלפי מעלה. מהו תחום ההגדרה ההגיוני של $x$?",
+    "options": ["$0<x<6$", "$0<x<12$", "$x>0$", "$0\\le x\\le12$"],
+    "correct_index": 0,
+    "explanation": "אורך בסיס הקופסה הוא $12-2x$, שחייב להיות חיובי: $12-2x>0\\Rightarrow x<6$, וגם $x>0$."
+  },
+  {
+    "id": "q-g10-u5-extremum-problems-10",
+    "topic_id": "g10-u5-extremum-problems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מדוע יש להגדיר תחום הגדרה הגיוני למשתנה בבעיית קיצון יישומית?",
+    "options": ["כי לא כל ערך מתמטי אפשרי הגיוני במציאות (למשל אורך שלילי)", "כי הפונקציה אינה מוגדרת בלי זה", "זה לא נחוץ תמיד", "כדי לפשט את הנגזרת"],
+    "correct_index": 0,
+    "explanation": "גם אם הביטוי האלגברי מוגדר, לא כל ערך שלו הגיוני בהקשר המעשי (למשל, אורך או כמות לא יכולים להיות שליליים)."
+  },
+  {
+    "id": "q-g10-u5-loci-congruence4-1",
+    "topic_id": "g10-u5-loci-congruence4",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מעגל הוא אוסף הנקודות ש:",
+    "options": ["מרחקן ממרכז נתון קבוע", "מרחקן משתי נקודות שוות", "נמצאות על ישר נתון", "מרחקן משני שוקי זווית שווה"],
+    "correct_index": 0,
+    "explanation": "זו הגדרת המעגל כמקום גאומטרי: כל הנקודות המרוחקות מרחק קבוע (הרדיוס) ממרכז נתון."
+  },
+  {
+    "id": "q-g10-u5-loci-congruence4-2",
+    "topic_id": "g10-u5-loci-congruence4",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אנך אמצעי לקטע הוא אוסף הנקודות ש:",
+    "options": ["מרחקן משני קצות הקטע שווה", "מרחקן ממרכז קבוע", "נמצאות על הקטע", "מרחקן משוקי זווית שווה"],
+    "correct_index": 0,
+    "explanation": "זו הגדרת האנך האמצעי כמקום גאומטרי."
+  },
+  {
+    "id": "q-g10-u5-loci-congruence4-3",
+    "topic_id": "g10-u5-loci-congruence4",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מרכז המעגל החוסם משולש הוא נקודת המפגש של:",
+    "options": ["האנכים האמצעיים", "חוצי הזוויות", "התיכונים", "הגבהים"],
+    "correct_index": 0,
+    "explanation": "מפגש האנכים האמצעיים שווה מרחק לשלושת הקודקודים, ולכן הוא מרכז המעגל החוסם."
+  },
+  {
+    "id": "q-g10-u5-loci-congruence4-4",
+    "topic_id": "g10-u5-loci-congruence4",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מרכז המעגל החסום במשולש הוא נקודת המפגש של:",
+    "options": ["חוצי הזוויות", "האנכים האמצעיים", "התיכונים", "הגבהים"],
+    "correct_index": 0,
+    "explanation": "מפגש חוצי הזוויות שווה מרחק משלוש הצלעות, ולכן הוא מרכז המעגל החסום."
+  },
+  {
+    "id": "q-g10-u5-loci-congruence4-5",
+    "topic_id": "g10-u5-loci-congruence4",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בשני משולשים: שתי צלעות שוות ($5$ ו-$7$), והזווית השווה נמצאת מול הצלע $7$ (הגדולה מבין השתיים). מה ניתן להסיק?",
+    "options": ["המשולשים חופפים (משפט חפיפה רביעי)", "המשולשים בהכרח לא חופפים", "אי אפשר להסיק דבר", "המשולשים דומים אך לא חופפים"],
+    "correct_index": 0,
+    "explanation": "לפי משפט החפיפה הרביעי, כשהזווית השווה מול הצלע הגדולה מבין השתיים, המשולשים חופפים."
+  },
+  {
+    "id": "q-g10-u5-loci-congruence4-6",
+    "topic_id": "g10-u5-loci-congruence4",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בשני משולשים: שתי צלעות שוות ($5$ ו-$7$), אך הזווית השווה נמצאת מול הצלע $5$ (הקטנה מבין השתיים). מה ניתן להסיק?",
+    "options": ["אי אפשר להסיק שהמשולשים חופפים (יש דוגמה נגדית)", "המשולשים בהכרח חופפים", "המשולשים בהכרח לא חופפים", "המשולשים בהכרח דומים"],
+    "correct_index": 0,
+    "explanation": "כאשר הזווית השווה מול הצלע הקטנה, אין הבטחה לחפיפה - קיימת דוגמה נגדית (למשל במשולש שווה-שוקיים)."
+  },
+  {
+    "id": "q-g10-u5-loci-congruence4-7",
+    "topic_id": "g10-u5-loci-congruence4",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש שווה שוקיים, קטע מקודקוד הראש לנקודה על הבסיס שאינה אמצעו יוצר שני משולשים. האם הם בהכרח חופפים?",
+    "options": ["לא בהכרח - זו דוגמה נגדית למשפט חפיפה עם זווית מול הצלע הקטנה", "כן, תמיד חופפים", "רק אם המשולש שווה צלעות", "אי אפשר לדעת בלי חישוב זוויות"],
+    "correct_index": 0,
+    "explanation": "זוהי הדוגמה הנגדית הקלאסית: שני המשולשים שווים בשתי צלעות ובזווית מול הצלע הקטנה שביניהן, אך אינם חופפים."
+  },
+  {
+    "id": "q-g10-u5-loci-congruence4-8",
+    "topic_id": "g10-u5-loci-congruence4",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש שצלעותיו $6,8,10$: $6^2+8^2=10^2$. מה ניתן להסיק?",
+    "options": ["המשולש ישר-זווית (מול הצלע $10$)", "המשולש שווה-צלעות", "המשולש קהה-זווית", "אי אפשר להסיק דבר"],
+    "correct_index": 0,
+    "explanation": "לפי ההפוך למשפט פיתגורס, אם סכום ריבועי שתי צלעות שווה לריבוע השלישית, המשולש ישר-זווית מול הצלע השלישית."
+  },
+  {
+    "id": "q-g10-u5-loci-congruence4-9",
+    "topic_id": "g10-u5-loci-congruence4",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מרכז הכובד של משולש מחלק כל תיכון, מהקודקוד, ביחס של:",
+    "options": ["$2{:}1$", "$1{:}2$", "$1{:}1$", "$3{:}2$"],
+    "correct_index": 0,
+    "explanation": "מרכז הכובד (מפגש התיכונים) מחלק כל תיכון ביחס $2{:}1$, החלק הגדול צמוד לקודקוד."
+  },
+  {
+    "id": "q-g10-u5-loci-congruence4-10",
+    "topic_id": "g10-u5-loci-congruence4",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי להוכיח שקבוצת נקודות היא מקום גאומטרי מסוים, יש להוכיח:",
+    "options": ["שני כיוונים: כל נקודה במקום מקיימת את התכונה, וכל נקודה המקיימת את התכונה שייכת למקום", "רק כיוון אחד מספיק", "רק דוגמה אחת מספיקה", "אין צורך בהוכחה, זה מובן מאליו"],
+    "correct_index": 0,
+    "explanation": "הוכחת מקום גאומטרי דורשת תמיד הוכחת שני הכיוונים ההדדיים."
+  },
+  {
+    "id": "q-g10-u5-circle-theorems-1",
+    "topic_id": "g10-u5-circle-theorems",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "זווית היקפית הנשענת על קשת מסוימת שווה ל:",
+    "options": ["מחצית הזווית המרכזית הנשענת על אותה קשת", "הזווית המרכזית עצמה", "כפול הזווית המרכזית", "תמיד $90°$"],
+    "correct_index": 0,
+    "explanation": "זהו המשפט המרכזי: זווית היקפית שווה למחצית הזווית המרכזית הנשענת על אותה קשת."
+  },
+  {
+    "id": "q-g10-u5-circle-theorems-2",
+    "topic_id": "g10-u5-circle-theorems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זווית מרכזית במעגל שווה $80°$. מהי הזווית ההיקפית הנשענת על אותה קשת?",
+    "options": ["$40°$", "$80°$", "$160°$", "$20°$"],
+    "correct_index": 0,
+    "explanation": "הזווית ההיקפית שווה למחצית הזווית המרכזית: $\\dfrac{80°}{2}=40°$."
+  },
+  {
+    "id": "q-g10-u5-circle-theorems-3",
+    "topic_id": "g10-u5-circle-theorems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זווית היקפית הנשענת על קוטר המעגל שווה ל:",
+    "options": ["$90°$", "$180°$", "$45°$", "תלוי בגודל המעגל"],
+    "correct_index": 0,
+    "explanation": "קוטר נשען על זווית מרכזית של $180°$, ולכן הזווית ההיקפית עליו היא מחציתה - $90°$."
+  },
+  {
+    "id": "q-g10-u5-circle-theorems-4",
+    "topic_id": "g10-u5-circle-theorems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במרובע $ABCD$ החסום במעגל, זווית $A=70°$. מהי זווית $C$ (הנגדית לה)?",
+    "options": ["$110°$", "$70°$", "$180°$", "$290°$"],
+    "correct_index": 0,
+    "explanation": "במרובע חסום במעגל סכום זוויות נגדיות $=180°$: $180°-70°=110°$."
+  },
+  {
+    "id": "q-g10-u5-circle-theorems-5",
+    "topic_id": "g10-u5-circle-theorems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "המשיק למעגל בנקודת ההשקה הוא תמיד:",
+    "options": ["מאונך לרדיוס באותה נקודה", "מקביל לרדיוס", "עובר במרכז המעגל", "חותך את המעגל בשתי נקודות"],
+    "correct_index": 0,
+    "explanation": "משפט יסוד: המשיק למעגל מאונך לרדיוס בנקודת ההשקה."
+  },
+  {
+    "id": "q-g10-u5-circle-theorems-6",
+    "topic_id": "g10-u5-circle-theorems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני משיקים למעגל היוצאים מאותה נקודה חיצונית:",
+    "options": ["שווים באורכם", "מאונכים זה לזה תמיד", "מקבילים זה לזה", "חייבים להיות שונים באורכם"],
+    "correct_index": 0,
+    "explanation": "משפט יסוד: שני משיקים למעגל היוצאים מאותה נקודה שווים באורכם."
+  },
+  {
+    "id": "q-g10-u5-circle-theorems-7",
+    "topic_id": "g10-u5-circle-theorems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במעגל, לשתי קשתות שוות מתאימים:",
+    "options": ["מיתרים שווים וזוויות היקפיות שוות", "זוויות מרכזיות שונות", "רדיוסים שונים", "אין קשר ביניהם"],
+    "correct_index": 0,
+    "explanation": "קשתות שוות גוררות זוויות מרכזיות שוות, מיתרים שווים, וזוויות היקפיות שוות."
+  },
+  {
+    "id": "q-g10-u5-circle-theorems-8",
+    "topic_id": "g10-u5-circle-theorems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האנך שיורד ממרכז המעגל למיתר:",
+    "options": ["חוצה את המיתר, את הזווית המרכזית ואת הקשת המתאימה", "רק חוצה את המיתר, לא את הזווית", "אינו נוגע במיתר", "מאונך למשיק בלבד"],
+    "correct_index": 0,
+    "explanation": "האנך ממרכז המעגל למיתר חוצה בו-זמנית את המיתר, הזווית המרכזית והקשת המתאימה."
+  },
+  {
+    "id": "q-g10-u5-circle-theorems-9",
+    "topic_id": "g10-u5-circle-theorems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ככל שמיתר במעגל גדול יותר, מרחקו ממרכז המעגל:",
+    "options": ["קטן יותר", "גדול יותר", "נשאר קבוע", "אין קשר"],
+    "correct_index": 0,
+    "explanation": "יש יחס הפוך בין אורך המיתר למרחקו מהמרכז - מיתר גדול יותר קרוב יותר למרכז."
+  },
+  {
+    "id": "q-g10-u5-circle-theorems-10",
+    "topic_id": "g10-u5-circle-theorems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "הזווית הכלואה בין משיק למיתר היוצאים מנקודה משותפת שעל המעגל שווה ל:",
+    "options": ["הזווית ההיקפית הנשענת על הקשת שבין המשיק למיתר", "הזווית המרכזית הנשענת על אותה קשת", "$90°$ תמיד", "מחצית הקוטר"],
+    "correct_index": 0,
+    "explanation": "זהו משפט הזווית בין משיק למיתר: היא שווה לזווית ההיקפית הנשענת על הקשת הכלואה ביניהם."
+  },
+  {
+    "id": "q-g10-u5-circle-theorems-11",
+    "topic_id": "g10-u5-circle-theorems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מרובע שסכום כל זוג זוויות נגדיות בו הוא $180°$:",
+    "options": ["ניתן לחסום אותו במעגל", "הוא בהכרח ריבוע", "אי אפשר לחסום אותו במעגל", "הוא בהכרח מלבן"],
+    "correct_index": 0,
+    "explanation": "זהו המשפט ההפוך: מרובע עם סכום זוויות נגדיות $180°$ ניתן לחסום במעגל."
+  },
+  {
+    "id": "q-g10-u5-similarity-thales-1",
+    "topic_id": "g10-u5-similarity-thales",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משפט תאלס עוסק ב:",
+    "options": ["ישרים מקבילים החותכים שני חותכים ויוצרים קטעים פרופורציוניים", "זוויות במעגל", "חפיפת משולשים", "משיקים למעגל"],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של משפט תאלס - הבסיס להוכחת משפטי הדמיון."
+  },
+  {
+    "id": "q-g10-u5-similarity-thales-2",
+    "topic_id": "g10-u5-similarity-thales",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני משולשים דומים ביחס דמיון $4$. היקף הקטן הוא $7$. מהו היקף הגדול?",
+    "options": ["$28$", "$11$", "$3$", "$49$"],
+    "correct_index": 0,
+    "explanation": "יחס ההיקפים שווה ליחס הדמיון: $7\\times4=28$."
+  },
+  {
+    "id": "q-g10-u5-similarity-thales-3",
+    "topic_id": "g10-u5-similarity-thales",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני משולשים דומים ביחס דמיון $k$. מה יחס רדיוסי המעגלים החוסמים אותם?",
+    "options": ["$k$", "$k^2$", "$\\sqrt{k}$", "$2k$"],
+    "correct_index": 0,
+    "explanation": "רדיוס המעגל החוסם הוא קו מיוחד שיחסו במשולשים דומים שווה ליחס הדמיון $k$."
+  },
+  {
+    "id": "q-g10-u5-similarity-thales-4",
+    "topic_id": "g10-u5-similarity-thales",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שני משולשים דומים ביחס דמיון $5$. שטח הקטן הוא $6$. מהו שטח הגדול?",
+    "options": ["$150$", "$30$", "$36$", "$11$"],
+    "correct_index": 0,
+    "explanation": "יחס השטחים הוא ריבוע יחס הדמיון: $6\\times5^2=6\\times25=150$."
+  },
+  {
+    "id": "q-g10-u5-similarity-thales-5",
+    "topic_id": "g10-u5-similarity-thales",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שני מיתרים במעגל נחתכים בנקודה $P$. קטעי המיתר הראשון: $4$ ו-$6$. קטע אחד של המיתר השני הוא $3$. מהו הקטע השני?",
+    "options": ["$8$", "$6$", "$12$", "$2$"],
+    "correct_index": 0,
+    "explanation": "לפי משפט המיתרים הנחתכים: $4\\times6=3\\times x\\Rightarrow x=\\dfrac{24}{3}=8$."
+  },
+  {
+    "id": "q-g10-u5-similarity-thales-6",
+    "topic_id": "g10-u5-similarity-thales",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "ממקודה חיצונית למעגל יוצאים משיק וחותך. אורך החותך כולו $9$, והקטע החיצוני שלו $4$. מהו אורך המשיק?",
+    "options": ["$6$", "$36$", "$5$", "$13$"],
+    "correct_index": 0,
+    "explanation": "לפי משפט משיק וחותך: (משיק)$^2=4\\times9=36\\Rightarrow$ משיק $=6$."
+  },
+  {
+    "id": "q-g10-u5-similarity-thales-7",
+    "topic_id": "g10-u5-similarity-thales",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתון $\\dfrac{a}{b}=\\dfrac{c}{d}$. איזו מהטענות הבאות נכונה בהכרח?",
+    "options": ["$\\dfrac{a+b}{b}=\\dfrac{c+d}{d}$", "$a+c=b+d$", "$a-b=c-d$", "$ab=cd$"],
+    "correct_index": 0,
+    "explanation": "מיחס נתון $\\frac{a}{b}=\\frac{c}{d}$ ניתן להסיק אלגברית יחסים שקולים כמו $\\frac{a+b}{b}=\\frac{c+d}{d}$."
+  },
+  {
+    "id": "q-g10-u5-similarity-thales-8",
+    "topic_id": "g10-u5-similarity-thales",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "על איזה משפט מבוססים משפטי הדמיון של משולשים?",
+    "options": ["משפט תאלס", "משפט פיתגורס", "משפט חפיפה רביעי", "משפט הסינוסים"],
+    "correct_index": 0,
+    "explanation": "משפט תאלס והמשפט ההפוך לו הם הבסיס להוכחת משפטי הדמיון."
+  },
+  {
+    "id": "q-g10-u5-similarity-thales-9",
+    "topic_id": "g10-u5-similarity-thales",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$: $AB=8$, $AC=12$, $BC=15$. חוצה הזווית מ-$A$ פוגע ב-$BC$ בנקודה $D$. מהו אורך $BD$?",
+    "options": ["$6$", "$9$", "$7.5$", "$5$"],
+    "correct_index": 0,
+    "explanation": "לפי משפט חוצה הזווית: $\\dfrac{BD}{DC}=\\dfrac{AB}{AC}=\\dfrac{8}{12}=\\dfrac{2}{3}$, ולכן $BD=15\\times\\dfrac{2}{5}=6$."
+  },
+  {
+    "id": "q-g10-u5-similarity-thales-10",
+    "topic_id": "g10-u5-similarity-thales",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משני חותכים היוצאים מאותה נקודה חיצונית למעגל: לחותך הראשון אורך כולל $10$ וקטע חיצוני $4$. לחותך השני קטע חיצוני $2$. מהו האורך הכולל של החותך השני?",
+    "options": ["$20$", "$5$", "$8$", "$12$"],
+    "correct_index": 0,
+    "explanation": "לפי משפט שני החותכים: $10\\times4=x\\times2\\Rightarrow x=\\dfrac{40}{2}=20$."
+  },
+  {
+    "id": "q-g10-u5-trig-functions-1",
+    "topic_id": "g10-u5-trig-functions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "על מעגל היחידה, $\\sin x$ מוגדר כ:",
+    "options": ["שיעור ה-$y$ של הנקודה המתאימה", "שיעור ה-$x$", "אורך הרדיוס", "זווית הנקודה עם ציר $x$"],
+    "correct_index": 0,
+    "explanation": "$\\sin x$ מוגדר כשיעור ה-$y$ של הנקודה על מעגל היחידה המתאימה למספר $x$."
+  },
+  {
+    "id": "q-g10-u5-trig-functions-2",
+    "topic_id": "g10-u5-trig-functions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "על מעגל היחידה, $\\cos x$ מוגדר כ:",
+    "options": ["שיעור ה-$x$ של הנקודה המתאימה", "שיעור ה-$y$", "אורך הקשת", "זווית הנקודה"],
+    "correct_index": 0,
+    "explanation": "$\\cos x$ מוגדר כשיעור ה-$x$ של הנקודה על מעגל היחידה."
+  },
+  {
+    "id": "q-g10-u5-trig-functions-3",
+    "topic_id": "g10-u5-trig-functions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$\\sin(-x)$ שווה ל:",
+    "options": ["$-\\sin x$", "$\\sin x$", "$\\cos x$", "$-\\cos x$"],
+    "correct_index": 0,
+    "explanation": "פונקציית הסינוס אי-זוגית: $\\sin(-x)=-\\sin x$."
+  },
+  {
+    "id": "q-g10-u5-trig-functions-4",
+    "topic_id": "g10-u5-trig-functions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$\\cos(-x)$ שווה ל:",
+    "options": ["$\\cos x$", "$-\\cos x$", "$\\sin x$", "$-\\sin x$"],
+    "correct_index": 0,
+    "explanation": "פונקציית הקוסינוס זוגית: $\\cos(-x)=\\cos x$."
+  },
+  {
+    "id": "q-g10-u5-trig-functions-5",
+    "topic_id": "g10-u5-trig-functions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$\\sin^2x+\\cos^2x$ שווה תמיד ל:",
+    "options": ["$1$", "$0$", "$2$", "$x$"],
+    "correct_index": 0,
+    "explanation": "זוהי זהות היסוד הטריגונומטרית, הנובעת ממשפט פיתגורס על מעגל היחידה."
+  },
+  {
+    "id": "q-g10-u5-trig-functions-6",
+    "topic_id": "g10-u5-trig-functions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$\\tan x$ מוגדר כ:",
+    "options": ["$\\dfrac{\\sin x}{\\cos x}$", "$\\dfrac{\\cos x}{\\sin x}$", "$\\sin x\\cdot\\cos x$", "$\\sin x+\\cos x$"],
+    "correct_index": 0,
+    "explanation": "בעזרת דמיון משולשים ניתן להוכיח שהמשיק מקיים $\\tan x=\\dfrac{\\sin x}{\\cos x}$."
+  },
+  {
+    "id": "q-g10-u5-trig-functions-7",
+    "topic_id": "g10-u5-trig-functions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$\\sin\\left(\\dfrac{\\pi}{2}-x\\right)$ שווה ל:",
+    "options": ["$\\cos x$", "$\\sin x$", "$-\\cos x$", "$-\\sin x$"],
+    "correct_index": 0,
+    "explanation": "זו זהות הזוויות המשלימות: $\\sin\\left(\\frac{\\pi}{2}-x\\right)=\\cos x$."
+  },
+  {
+    "id": "q-g10-u5-trig-functions-8",
+    "topic_id": "g10-u5-trig-functions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "היכן $\\tan x$ אינה מוגדרת?",
+    "options": ["כאשר $\\cos x=0$", "כאשר $\\sin x=0$", "לעולם לא", "כאשר $x=0$"],
+    "correct_index": 0,
+    "explanation": "$\\tan x=\\dfrac{\\sin x}{\\cos x}$ אינה מוגדרת כאשר המכנה $\\cos x=0$."
+  },
+  {
+    "id": "q-g10-u5-trig-functions-9",
+    "topic_id": "g10-u5-trig-functions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם הנקודה $P$ על מעגל היחידה מתאימה למספר הממשי $x$, לאילו מספרים נוספים היא מתאימה?",
+    "options": ["$x+2\\pi k$ לכל $k$ שלם", "$x+\\pi$ בלבד", "$-x$ בלבד", "רק ל-$x$ עצמו"],
+    "correct_index": 0,
+    "explanation": "בגלל המחזוריות, לכל נקודה על מעגל היחידה מתאימים אינסוף מספרים - $x$ ותוספת של כל מספר שלם של הקפות."
+  },
+  {
+    "id": "q-g10-u5-trig-functions-10",
+    "topic_id": "g10-u5-trig-functions",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "למשוואה $\\sin x=2$:",
+    "options": ["אין פתרון (כי $-1\\le\\sin x\\le1$)", "יש פתרון יחיד", "יש אינסוף פתרונות", "הפתרון הוא $x=2$"],
+    "correct_index": 0,
+    "explanation": "תמונת פונקציית הסינוס מוכלת ב-$[-1,1]$, ולכן אין ערך של $x$ שעבורו $\\sin x=2$."
+  },
+  {
+    "id": "q-g10-u5-trig-plane-1",
+    "topic_id": "g10-u5-trig-plane",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש $a=6$, $b=8$, הזווית ביניהן $\\gamma=30°$. מהו שטח המשולש?",
+    "options": ["$12$", "$24$", "$48$", "$6$"],
+    "correct_index": 0,
+    "explanation": "$S=\\dfrac{1}{2}\\times6\\times8\\times\\sin30°=24\\times0.5=12$."
+  },
+  {
+    "id": "q-g10-u5-trig-plane-2",
+    "topic_id": "g10-u5-trig-plane",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש, $a=6$, זווית $A=30°$, זווית $B=90°$. לפי משפט הסינוסים, מהו $b$?",
+    "options": ["$12$", "$6$", "$3$", "$18$"],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}\\Rightarrow \\dfrac{6}{0.5}=\\dfrac{b}{1}\\Rightarrow b=12$."
+  },
+  {
+    "id": "q-g10-u5-trig-plane-3",
+    "topic_id": "g10-u5-trig-plane",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש $a=3$, $b=4$, הזווית ביניהן $60°$. מהו $c$ (לפי משפט הקוסינוסים)?",
+    "options": ["$\\sqrt{13}$", "$5$", "$7$", "$\\sqrt{25}$"],
+    "correct_index": 0,
+    "explanation": "$c^2=3^2+4^2-2\\times3\\times4\\times\\cos60°=25-24\\times0.5=25-12=13\\Rightarrow c=\\sqrt{13}$."
+  },
+  {
+    "id": "q-g10-u5-trig-plane-4",
+    "topic_id": "g10-u5-trig-plane",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש $a=10$, זווית $A=30°$. לפי משפט הסינוסים, מהו רדיוס המעגל החוסם $R$?",
+    "options": ["$10$", "$20$", "$5$", "$40$"],
+    "correct_index": 0,
+    "explanation": "$2R=\\dfrac{a}{\\sin A}=\\dfrac{10}{0.5}=20\\Rightarrow R=10$."
+  },
+  {
+    "id": "q-g10-u5-trig-plane-5",
+    "topic_id": "g10-u5-trig-plane",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נוסחת השטח $S=\\frac{1}{2}ab\\sin\\gamma$ דורשת הוכחה נפרדת עבור:",
+    "options": ["משולש חד-זווית ומשולש קהה-זווית", "רק משולש ישר-זווית", "רק משולש שווה-צלעות", "אינה דורשת הוכחה כלל"],
+    "correct_index": 0,
+    "explanation": "מבנה ההוכחה (הורדת גובה) שונה כאשר הזווית הכלואה חדה לעומת קהה, ולכן דורש הוכחה נפרדת לכל מקרה."
+  },
+  {
+    "id": "q-g10-u5-trig-plane-6",
+    "topic_id": "g10-u5-trig-plane",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משפט הקוסינוסים הוא הכללה של איזה משפט מוכר?",
+    "options": ["משפט פיתגורס", "משפט תאלס", "משפט הסינוסים", "משפט חפיפה רביעי"],
+    "correct_index": 0,
+    "explanation": "כאשר $\\gamma=90°$, $\\cos\\gamma=0$ ומשפט הקוסינוסים הופך בדיוק למשפט פיתגורס."
+  },
+  {
+    "id": "q-g10-u5-trig-plane-7",
+    "topic_id": "g10-u5-trig-plane",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "ביטוי המכיל $\\sin(2\\theta)$ (עבור $0°<\\theta<90°$) מקסימלי כאשר:",
+    "options": ["$\\theta=45°$", "$\\theta=90°$", "$\\theta=0°$", "$\\theta=180°$"],
+    "correct_index": 0,
+    "explanation": "$\\sin(2\\theta)$ מקסימלי ($=1$) כאשר $2\\theta=90°$, כלומר $\\theta=45°$ - ניתן להסיק זאת מתכונות הסינוס בלי נגזרת."
+  },
+  {
+    "id": "q-g10-u5-trig-plane-8",
+    "topic_id": "g10-u5-trig-plane",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בהוכחות גאומטריות מדויקות, כיצד יש לרשום את $\\sin45°$?",
+    "options": ["$\\dfrac{\\sqrt2}{2}$", "$0.707$", "$\\dfrac{1}{2}$", "$1$"],
+    "correct_index": 0,
+    "explanation": "בהוכחה מדויקת יש להשתמש בערך המדויק $\\frac{\\sqrt2}{2}$, לא בקירוב העשרוני."
+  },
+  {
+    "id": "q-g10-u5-trig-plane-9",
+    "topic_id": "g10-u5-trig-plane",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "טריגונומטריה יכולה לשמש בגאומטריה בעיקר כדי:",
+    "options": ["להוכיח שוויון קטעים, שטחים וזוויות בקלות רבה יותר", "להחליף לחלוטין את הגאומטריה הסינתטית", "רק לחישובים מספריים, לא להוכחות", "אין לה שימוש בהוכחות"],
+    "correct_index": 0,
+    "explanation": "זהויות וחישובים טריגונומטריים משמשים ככלי עזר להוכחת טענות גאומטריות, לצד הכלים הסינתטיים."
+  },
+  {
+    "id": "q-g10-u5-trig-plane-10",
+    "topic_id": "g10-u5-trig-plane",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש, $a=5$, $\\sin A=0.5$, $\\sin B=0.8$. מהו $b$?",
+    "options": ["$8$", "$10$", "$6.25$", "$4$"],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{a}{\\sin A}=\\dfrac{5}{0.5}=10$, ולכן $b=10\\times\\sin B=10\\times0.8=8$."
   }
 ];
 
