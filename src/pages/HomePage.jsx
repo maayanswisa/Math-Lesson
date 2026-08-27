@@ -100,6 +100,18 @@ export default function HomePage() {
           })}
         </div>
       </section>
+
+      <footer className="border-t border-black/5 pt-6 text-center text-sm text-[var(--color-slate)]">
+        האתר נבנה על ידי מעיין ·{' '}
+        <a
+          href="https://build-your-website-maayan.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-[var(--color-teal)] hover:underline"
+        >
+          בניית אתרים
+        </a>
+      </footer>
     </div>
   );
 }

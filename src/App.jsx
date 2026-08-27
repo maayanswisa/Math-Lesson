@@ -24,10 +24,15 @@ export default function App() {
             <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-4 py-4">
               <Link
                 to="/"
-                className="flex items-center gap-2 font-[family-name:var(--font-display)] text-xl text-[var(--color-ink)]"
+                className="flex items-center gap-2 font-[family-name:var(--font-display)] text-[var(--color-ink)]"
               >
-                <span aria-hidden="true">🧮</span>
-                Math Lesson
+                <span aria-hidden="true" className="text-xl">
+                  🧮
+                </span>
+                <span className="flex flex-col leading-tight">
+                  <span className="text-xl">Math Lesson</span>
+                  <span className="text-xs font-normal text-[var(--color-slate)]">תרגול מתמטיקה</span>
+                </span>
               </Link>
               <nav className="flex flex-wrap items-center gap-3 text-sm font-medium text-[var(--color-slate)]">
                 <Link to="/custom-test" className="hover:text-[var(--color-teal)]">
