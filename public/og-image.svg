@@ -1,0 +1,28 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d6e6e" />
+      <stop offset="40%" stop-color="#1f8fe0" />
+      <stop offset="75%" stop-color="#7c4dcc" />
+      <stop offset="100%" stop-color="#d1487f" />
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d6e6e" />
+      <stop offset="25%" stop-color="#1f8fe0" />
+      <stop offset="55%" stop-color="#7c4dcc" />
+      <stop offset="80%" stop-color="#d1487f" />
+      <stop offset="100%" stop-color="#e2a020" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#f7f4ef" />
+  <rect width="1200" height="14" fill="url(#barGrad)" />
+
+  <text x="600" y="300" text-anchor="middle" font-family="Georgia, 'Frank Ruhl Libre', serif" font-size="128" font-weight="700" fill="url(#textGrad)">Math Lesson</text>
+
+  <text x="600" y="400" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="46" font-weight="600" fill="#1a2b3c" direction="rtl">תרגול מתמטיקה א׳–י״ב</text>
+
+  <text x="600" y="470" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="30" fill="#4a5a68" direction="rtl">280 נושאים · 4,633 שאלות · הסברים, רמזים ומעקב התקדמות</text>
+
+  <text x="600" y="580" text-anchor="middle" font-size="72">🧮</text>
+</svg>
