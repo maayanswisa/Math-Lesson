@@ -20344,7 +20344,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$ סמ\"ר"
     ],
     "correct_index": 0,
-    "explanation": "שטח משולש $=\\frac{בסיס\\times גובה}{2}=\\frac{4\\times 2}{2}=4$."
+    "explanation": "שטח משולש $=\\frac{\\text{בסיס}\\times\\text{גובה}}{2}=\\frac{4\\times 2}{2}=4$."
   },
   {
     "id": "q-g5-triangle-area-gapfill-e2",
@@ -20674,7 +20674,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$ ס\"מ"
     ],
     "correct_index": 0,
-    "explanation": "היקף $=2\\times(אורך+רוחב)$: $18=2\\times(6+רוחב)$, ולכן רוחב $=3$."
+    "explanation": "היקף $=2\\times(\\text{אורך}+\\text{רוחב})$: $18=2\\times(6+\\text{רוחב})$, ולכן רוחב $=3$."
   },
   {
     "id": "q-g2-shapes-measure-gapfill-h2",

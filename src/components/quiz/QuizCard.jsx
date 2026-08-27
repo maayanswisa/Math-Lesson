@@ -107,6 +107,7 @@ function ExplanationModal({ explanation, keyFormulas, onClose }) {
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4"
       role="dialog"
       aria-modal="true"
+      aria-labelledby="explanation-modal-title"
       onClick={onClose}
     >
       <motion.div
@@ -125,7 +126,9 @@ function ExplanationModal({ explanation, keyFormulas, onClose }) {
         >
           ✕
         </button>
-        <h3 className="mb-4 pl-8 text-lg font-semibold text-[var(--color-ink)]">הסבר הנושא</h3>
+        <h3 id="explanation-modal-title" className="mb-4 pl-8 text-lg font-semibold text-[var(--color-ink)]">
+          הסבר הנושא
+        </h3>
         {explanation && <MathRenderer className="text-[var(--color-slate)]">{explanation}</MathRenderer>}
         {keyFormulas && keyFormulas.length > 0 && (
           <div className="mt-4 rounded-xl bg-[var(--color-paper)] p-4 ring-1 ring-black/5">
@@ -391,7 +394,7 @@ export default function QuizCard({
         <section className="rounded-2xl bg-white/90 p-8 text-center shadow-sm ring-1 ring-black/5">
           <p className="text-sm font-medium tracking-wide text-[var(--color-teal)]">סיכום המבחן</p>
           {timedOut && (
-            <p className="mt-3 text-lg font-semibold text-[var(--color-coral)]">הזמן הסתיים</p>
+            <p className="mt-3 text-lg font-semibold text-[var(--color-coral-dark)]">הזמן הסתיים</p>
           )}
           <h2 className="mt-2 font-[family-name:var(--font-display)] text-4xl text-[var(--color-ink)]">
             הציון שלך: {summary.score}
@@ -418,7 +421,7 @@ export default function QuizCard({
               <article key={q.id} className={`rounded-2xl bg-white/90 p-6 shadow-sm ring-1 ${wrong ? 'ring-[var(--color-coral)]/35' : 'ring-[var(--color-success)]/35'}`}>
                 <div className="mb-3 flex flex-wrap items-center gap-2">
                   <span className="text-sm font-medium text-[var(--color-slate)]">שאלה {i + 1}</span>
-                  <span className={`rounded-md px-2 py-0.5 text-xs font-semibold ${wrong ? 'bg-[var(--color-coral)]/10 text-[var(--color-coral)]' : 'bg-[var(--color-success)]/10 text-[var(--color-success)]'}`}>
+                  <span className={`rounded-md px-2 py-0.5 text-xs font-semibold ${wrong ? 'bg-[var(--color-coral)]/10 text-[var(--color-coral-dark)]' : 'bg-[var(--color-success)]/10 text-[var(--color-success)]'}`}>
                     {wrong ? 'טעות' : 'נכון'}
                   </span>
                 </div>
@@ -461,7 +464,7 @@ export default function QuizCard({
           </span>
           <div className="flex items-center gap-3">
             {mode === 'speed' && (
-              <span className={`rounded-md px-2 py-0.5 font-semibold ${secondsLeft <= 0 ? 'bg-[var(--color-coral)] text-white' : 'bg-[var(--color-coral)]/10 text-[var(--color-coral)]'}`}>
+              <span className={`rounded-md px-2 py-0.5 font-semibold ${secondsLeft <= 0 ? 'bg-[var(--color-coral)] text-white' : 'bg-[var(--color-coral)]/10 text-[var(--color-coral-dark)]'}`}>
                 {secondsLeft <= 0 ? 'הזמן הסתיים' : `${secondsLeft}s`}
               </span>
             )}
@@ -482,7 +485,7 @@ export default function QuizCard({
             <MathRenderer className="text-lg text-[var(--color-ink)] sm:text-xl">{current.question_text}</MathRenderer>
             {phase === 'feedback' ? (
               <div className="mt-6 space-y-4">
-                <p className={`text-lg font-semibold ${feedback?.isCorrect ? 'text-[var(--color-success)]' : 'text-[var(--color-coral)]'}`}>
+                <p className={`text-lg font-semibold ${feedback?.isCorrect ? 'text-[var(--color-success)]' : 'text-[var(--color-coral-dark)]'}`}>
                   {feedback?.isCorrect ? 'נכון!' : 'לא בדיוק'}
                   {feedback?.xpGained ? ` | +${feedback.xpGained} XP` : ''}
                 </p>

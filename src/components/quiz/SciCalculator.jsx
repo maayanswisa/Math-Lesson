@@ -289,7 +289,7 @@ export default function SciCalculator() {
           <button
             type="button"
             onClick={clearAll}
-            className="rounded-lg px-2.5 py-1 text-xs font-semibold text-[var(--color-coral)] ring-1 ring-[var(--color-coral)]/30 hover:bg-[var(--color-coral)]/10"
+            className="rounded-lg px-2.5 py-1 text-xs font-semibold text-[var(--color-coral-dark)] ring-1 ring-[var(--color-coral)]/30 hover:bg-[var(--color-coral)]/10"
           >
             C
           </button>

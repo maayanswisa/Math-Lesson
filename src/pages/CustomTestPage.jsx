@@ -187,7 +187,7 @@ export default function CustomTestPage() {
         </div>
       </section>
 
-      {error && <p className="text-sm text-[var(--color-coral)]">{error}</p>}
+      {error && <p className="text-sm text-[var(--color-coral-dark)]">{error}</p>}
 
       <button
         type="button"

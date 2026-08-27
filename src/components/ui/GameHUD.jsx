@@ -24,7 +24,7 @@ export default function GameHUD() {
 
       {streak > 0 && (
         <span
-          className="rounded-md bg-[var(--color-coral)]/10 px-2 py-1 text-xs font-medium text-[var(--color-coral)]"
+          className="rounded-md bg-[var(--color-coral)]/10 px-2 py-1 text-xs font-medium text-[var(--color-coral-dark)]"
           title="מספר התשובות הנכונות ברצף, בלי טעות באמצע"
         >
           {streak} תשובות נכונות ברצף 🔥

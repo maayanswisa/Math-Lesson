@@ -144,7 +144,7 @@ export default function QuizPage() {
                 key={b.id}
                 type="button"
                 onClick={() => setBand(b.id)}
-                className={`rounded-lg px-3 py-1.5 text-sm font-semibold ${
+                className={`flex min-h-11 items-center justify-center rounded-lg px-3 text-sm font-semibold ${
                   band === b.id
                     ? 'bg-[var(--color-teal)] text-white'
                     : 'bg-white text-[var(--color-ink)] ring-1 ring-black/10'

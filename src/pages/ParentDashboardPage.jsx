@@ -51,7 +51,7 @@ export default function ParentDashboardPage() {
             {weak.map((t) => (
               <li key={t.topicId} className="flex items-center justify-between rounded-xl bg-white/90 px-4 py-3 ring-1 ring-black/5">
                 <span className="text-sm font-medium text-[var(--color-ink)]">{t.title || t.topicId}</span>
-                <span className="text-sm text-[var(--color-coral)]">ממוצע {t.avg}</span>
+                <span className="text-sm text-[var(--color-coral-dark)]">ממוצע {t.avg}</span>
               </li>
             ))}
           </ul>
