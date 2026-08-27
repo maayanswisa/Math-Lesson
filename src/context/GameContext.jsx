@@ -33,7 +33,11 @@ export function GameProvider({ children }) {
   const [state, setState] = useState(() => ({ ...defaultState(), ...(loadState() || {}) }));
 
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch {
+      // storage unavailable (e.g. private browsing) — progress just won't persist
+    }
   }, [state]);
 
   const levelInfo = useMemo(() => nextLevelInfo(state.xp), [state.xp]);

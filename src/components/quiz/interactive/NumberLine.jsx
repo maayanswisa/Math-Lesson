@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 export default function NumberLine({ payload = {}, correctAnswer, onAnswerReady }) {
   const min = payload.min ?? -5;
@@ -16,11 +16,6 @@ export default function NumberLine({ payload = {}, correctAnswer, onAnswerReady 
       display: String(num),
     });
   }
-
-  useEffect(() => {
-    report(mid);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   const ticks = [];
   for (let t = min; t <= max + 1e-9; t += step >= 1 ? 1 : step) {

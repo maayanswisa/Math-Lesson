@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import QuizCard from '../components/quiz/QuizCard';
 import { getTopicById, GRADE_LABELS, GRADE9_TRACKS } from '../data/curriculum';
 import { getQuestionsForTopic } from '../data/questions';
@@ -12,7 +12,7 @@ const DIFFICULTY_BANDS = [
   { id: 'hard', label: 'קשה' },
 ];
 
-function loadQuestions(topicId, isCustom, band) {
+async function loadQuestions(topicId, isCustom, band) {
   if (isCustom) {
     try {
       const raw = sessionStorage.getItem('math-lesson-custom-quiz');
@@ -43,12 +43,23 @@ export default function QuizPage() {
 
   const topic = isCustom ? null : getTopicById(topicId);
 
-  const questions = useMemo(
-    () => loadQuestions(topicId, isCustom, band),
+  const [questions, setQuestions] = useState([]);
+  const [questionsLoading, setQuestionsLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    setQuestionsLoading(true);
+    loadQuestions(topicId, isCustom, band).then((qs) => {
+      if (!cancelled) {
+        setQuestions(qs);
+        setQuestionsLoading(false);
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
     // drawId forces a new random pick for topic quizzes; custom stays fixed.
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- intentional redraw
-    [topicId, isCustom, drawId, band],
-  );
+  }, [topicId, isCustom, band, drawId]);
 
   const handleRetry = useCallback(() => {
     if (!isCustom) setDrawId((n) => n + 1);
@@ -90,7 +101,7 @@ export default function QuizPage() {
     });
   }
 
-  if (isCustom && !questions.length) {
+  if (isCustom && !questionsLoading && !questions.length) {
     return (
       <div className="space-y-4" dir="rtl">
         <Link to="/custom-test" className="text-sm text-[var(--color-teal)] hover:underline">
@@ -120,7 +131,7 @@ export default function QuizPage() {
             {topic.cluster ? ` · ${topic.cluster}` : ''}
           </p>
         )}
-        {isCustom && grade != null && (
+        {isCustom && grade != null && !questionsLoading && (
           <p className="mt-1 text-sm text-[var(--color-slate)]">
             כיתה {GRADE_LABELS[grade]} · {questions.length} שאלות
           </p>
@@ -146,15 +157,21 @@ export default function QuizPage() {
         )}
       </div>
 
-      <QuizCard
-        key={`${topicId}-${band}-${drawId}`}
-        questions={questions}
-        topicExplanation={topic?.explanation ?? null}
-        topicKeyFormulas={topic?.keyFormulas ?? null}
-        grade={grade}
-        onComplete={handleComplete}
-        onRetry={isCustom ? undefined : handleRetry}
-      />
+      {questionsLoading ? (
+        <div className="rounded-2xl bg-white/80 p-8 text-center text-[var(--color-slate)] shadow-sm ring-1 ring-black/5">
+          טוען שאלות…
+        </div>
+      ) : (
+        <QuizCard
+          key={`${topicId}-${band}-${drawId}`}
+          questions={questions}
+          topicExplanation={topic?.explanation ?? null}
+          topicKeyFormulas={topic?.keyFormulas ?? null}
+          grade={grade}
+          onComplete={handleComplete}
+          onRetry={isCustom ? undefined : handleRetry}
+        />
+      )}
     </div>
   );
 }

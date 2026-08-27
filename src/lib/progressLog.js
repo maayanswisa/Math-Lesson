@@ -11,7 +11,11 @@ function loadProgress() {
 }
 
 function saveProgress(data) {
-  localStorage.setItem(PROGRESS_KEY, JSON.stringify(data));
+  try {
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(data));
+  } catch {
+    // storage unavailable (e.g. private browsing) — attempt just won't persist
+  }
 }
 
 export function logQuizAttempt({

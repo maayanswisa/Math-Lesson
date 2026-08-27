@@ -1,3 +1,4 @@
+import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { GRADE_LABELS, GRADE9_TRACKS, getTopics } from '../data/curriculum';
 import { getAllQuestionsForTopic, TOPIC_QUIZ_SIZE } from '../data/questions';
@@ -9,10 +10,25 @@ export default function TopicsPage() {
   const unitsNum = units != null ? Number(units) : null;
   const label = GRADE_LABELS[gradeNum] ?? grade;
 
-  const topics = getTopics(gradeNum, {
-    units: unitsNum,
-    track: track ?? null,
-  });
+  const topics = useMemo(
+    () => getTopics(gradeNum, { units: unitsNum, track: track ?? null }),
+    [gradeNum, unitsNum, track],
+  );
+
+  /** topicId -> pool size, filled in once the grade's question bank chunk loads. */
+  const [poolSizes, setPoolSizes] = useState({});
+
+  useEffect(() => {
+    let cancelled = false;
+    Promise.all(topics.map(async (t) => [t.id, (await getAllQuestionsForTopic(t.id)).length])).then(
+      (entries) => {
+        if (!cancelled) setPoolSizes(Object.fromEntries(entries));
+      },
+    );
+    return () => {
+      cancelled = true;
+    };
+  }, [topics]);
 
   const byCluster = topics.reduce((acc, t) => {
     const key = t.cluster || 'נושאים';
@@ -73,8 +89,8 @@ export default function TopicsPage() {
               </h2>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {list.map((t, i) => {
-                  const poolSize = getAllQuestionsForTopic(t.id).length;
-                  const quizSize = Math.min(TOPIC_QUIZ_SIZE, poolSize);
+                  const poolSize = poolSizes[t.id];
+                  const quizSize = poolSize == null ? null : Math.min(TOPIC_QUIZ_SIZE, poolSize);
                   const accent = accentFor(clusterIdx + i);
                   return (
                     <Link
@@ -89,7 +105,7 @@ export default function TopicsPage() {
                           className="shrink-0 rounded-full px-2.5 py-0.5 text-xs font-semibold"
                           style={{ backgroundColor: accent.bg, color: accent.text }}
                         >
-                          {quizSize} מתוך {poolSize}
+                          {poolSize == null ? '…' : `${quizSize} מתוך ${poolSize}`}
                         </span>
                       </div>
                       <p className="mt-2 text-sm leading-relaxed text-[var(--color-slate)]">

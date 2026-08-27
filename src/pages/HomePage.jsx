@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { accentFor } from '../lib/palette';
+import { allTopics } from '../data/curriculum';
+import { TOTAL_QUESTION_COUNT } from '../data/questions';
 
 const GRADES = [
   { n: 1, label: "א'", group: 'יסודי' },
@@ -16,7 +18,11 @@ const GRADES = [
   { n: 12, label: "י\"ב", group: 'תיכון' },
 ];
 
+const numberFormat = new Intl.NumberFormat('he-IL');
+
 export default function HomePage() {
+  const topicCount = allTopics().length;
+
   return (
     <div className="space-y-14" dir="rtl">
       <section className="max-w-2xl">
@@ -52,6 +58,20 @@ export default function HomePage() {
           >
             📈 ההתקדמות שלי
           </Link>
+        </div>
+        <div className="mt-8 flex flex-wrap gap-4">
+          <div className="rounded-2xl bg-white px-6 py-4 shadow-sm ring-1 ring-black/5">
+            <span className="block text-3xl font-extrabold text-[var(--color-teal-dark)]">
+              {numberFormat.format(topicCount)}
+            </span>
+            <span className="text-sm font-medium text-[var(--color-slate)]">נושאים</span>
+          </div>
+          <div className="rounded-2xl bg-white px-6 py-4 shadow-sm ring-1 ring-black/5">
+            <span className="block text-3xl font-extrabold text-[var(--color-violet)]">
+              {numberFormat.format(TOTAL_QUESTION_COUNT)}
+            </span>
+            <span className="text-sm font-medium text-[var(--color-slate)]">שאלות</span>
+          </div>
         </div>
       </section>
 

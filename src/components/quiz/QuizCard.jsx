@@ -203,7 +203,11 @@ export default function QuizCard({
   const hasTopicExplanation = Boolean(topicExplanation) || Boolean(topicKeyFormulas && topicKeyFormulas.length > 0);
 
   useEffect(() => {
-    localStorage.setItem(TOOL_ORDER_KEY, JSON.stringify(toolOrder));
+    try {
+      localStorage.setItem(TOOL_ORDER_KEY, JSON.stringify(toolOrder));
+    } catch {
+      // storage unavailable (e.g. private browsing) — order just won't persist
+    }
   }, [toolOrder]);
 
   const showCalculator = grade != null && Number(grade) >= 7;

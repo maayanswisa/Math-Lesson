@@ -18,6 +18,7 @@ export default function CustomTestPage() {
   const [count, setCount] = useState(10);
   const [band, setBand] = useState('medium');
   const [error, setError] = useState('');
+  const [creating, setCreating] = useState(false);
 
   const topics = useMemo(() => getAllTopicsForGrade(grade), [grade]);
 
@@ -33,17 +34,19 @@ export default function CustomTestPage() {
     setSelected([]);
   }
 
-  function create() {
+  async function create() {
     setError('');
     if (!selected.length) {
       setError('בחרו לפחות נושא אחד');
       return;
     }
-    const questions = buildCustomQuiz({
+    setCreating(true);
+    const questions = await buildCustomQuiz({
       topicIds: selected,
       count,
       difficultyBand: band,
     });
+    setCreating(false);
     if (!questions.length) {
       setError('לא נמצאו שאלות למסנן שנבחר. נסו רמת קושי אחרת.');
       return;
@@ -54,7 +57,12 @@ export default function CustomTestPage() {
       topicIds: selected,
       title: `מבחן מותאם — כיתה ${GRADE_LABELS[grade]}`,
     };
-    sessionStorage.setItem('math-lesson-custom-quiz', JSON.stringify(payload));
+    try {
+      sessionStorage.setItem('math-lesson-custom-quiz', JSON.stringify(payload));
+    } catch {
+      setError('לא ניתן לשמור את המבחן בדפדפן הזה. נסו לצאת ממצב גלישה פרטית ולנסות שוב.');
+      return;
+    }
     navigate('/quiz/custom');
   }
 
@@ -184,9 +192,10 @@ export default function CustomTestPage() {
       <button
         type="button"
         onClick={create}
-        className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]"
+        disabled={creating}
+        className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)] disabled:cursor-not-allowed disabled:opacity-60"
       >
-        צרו מבחן ({count} שאלות)
+        {creating ? 'יוצר מבחן…' : `צרו מבחן (${count} שאלות)`}
       </button>
     </div>
   );

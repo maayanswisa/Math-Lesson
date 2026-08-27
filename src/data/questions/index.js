@@ -1,20 +1,39 @@
-import { getElementaryQuestionsForTopic as getEl } from './elementaryQuestions.js';
-import { getMiddleSchoolQuestionsForTopic as getMs } from './middleSchoolQuestions.js';
-import { getQuestionsForTopic as getHs } from './highSchoolQuestions.js';
 import { getInteractiveQuestionsForTopic as getIx } from './interactiveQuestions.js';
+import { getTopicById, isElementary, isMiddleSchool } from '../curriculum/index.js';
 
 /** How many questions appear in a normal topic quiz. */
 export const TOPIC_QUIZ_SIZE = 5;
 
-/** Full bank for a topic (interactive + MCQ). */
-export function getAllQuestionsForTopic(topicId) {
+/**
+ * Total questions across every bank, as of the last time this was updated.
+ * Kept as a static number (rather than summing the live arrays) so the home
+ * page's stats display doesn't force-load every question bank — those are
+ * code-split per grade level below. After adding questions, update this by
+ * summing the array lengths in elementaryQuestions.js, middleSchoolQuestions.js,
+ * highSchoolQuestions.js, and interactiveQuestions.js.
+ */
+export const TOTAL_QUESTION_COUNT = 4633;
+
+/**
+ * Full bank for a topic (interactive + MCQ). The three big per-stage banks
+ * are dynamically imported so a visitor only downloads the question data for
+ * the grade level they're actually using.
+ */
+export async function getAllQuestionsForTopic(topicId) {
   const interactive = getIx(topicId);
-  const el = getEl(topicId);
-  if (el.length) return [...interactive, ...el];
-  const hs = getHs(topicId);
-  if (hs.length) return [...interactive, ...hs];
-  const ms = getMs(topicId);
-  return [...interactive, ...ms];
+  const topic = getTopicById(topicId);
+  if (!topic) return interactive;
+
+  if (isElementary(topic.grade)) {
+    const { getElementaryQuestionsForTopic } = await import('./elementaryQuestions.js');
+    return [...interactive, ...getElementaryQuestionsForTopic(topicId)];
+  }
+  if (isMiddleSchool(topic.grade)) {
+    const { getMiddleSchoolQuestionsForTopic } = await import('./middleSchoolQuestions.js');
+    return [...interactive, ...getMiddleSchoolQuestionsForTopic(topicId)];
+  }
+  const { getQuestionsForTopic: getHighSchoolQuestionsForTopic } = await import('./highSchoolQuestions.js');
+  return [...interactive, ...getHighSchoolQuestionsForTopic(topicId)];
 }
 
 function pickRandom(list, n) {
@@ -26,11 +45,17 @@ function pickRandom(list, n) {
   return arr.slice(0, Math.min(n, arr.length));
 }
 
+/** A question's difficulty, defaulting to 2 (medium) only when it's actually missing. */
+function difficultyOf(q) {
+  const d = Number(q.difficulty);
+  return Number.isFinite(d) ? d : 2;
+}
+
 /**
  * @param {'easy'|'medium'|'hard'} band
  */
 function matchesDifficulty(q, band) {
-  const d = Number(q.difficulty) || 2;
+  const d = difficultyOf(q);
   if (band === 'easy') return d <= 1;
   if (band === 'hard') return d >= 4;
   return d >= 2 && d <= 3;
@@ -38,7 +63,7 @@ function matchesDifficulty(q, band) {
 
 /** How far a question's difficulty sits from the requested band — lower is closer. */
 function bandDistance(q, band) {
-  const d = Number(q.difficulty) || 2;
+  const d = difficultyOf(q);
   if (band === 'easy') return d;
   if (band === 'hard') return -d;
   return Math.abs(d - 2.5);
@@ -69,19 +94,21 @@ function pickForBand(pool, band, count) {
  * @param {string} topicId
  * @param {'easy'|'medium'|'hard'|null} [difficultyBand]
  */
-export function getQuestionsForTopic(topicId, difficultyBand = null) {
-  return pickForBand(getAllQuestionsForTopic(topicId), difficultyBand, TOPIC_QUIZ_SIZE);
+export async function getQuestionsForTopic(topicId, difficultyBand = null) {
+  const pool = await getAllQuestionsForTopic(topicId);
+  return pickForBand(pool, difficultyBand, TOPIC_QUIZ_SIZE);
 }
 
 /**
  * Build a shuffled custom quiz from multiple topics.
  * @param {{ topicIds: string[], count: number, difficultyBand: 'easy'|'medium'|'hard' }} opts
  */
-export function buildCustomQuiz({ topicIds = [], count = 10, difficultyBand = 'medium' }) {
+export async function buildCustomQuiz({ topicIds = [], count = 10, difficultyBand = 'medium' }) {
+  const perTopic = await Promise.all(topicIds.map((tid) => getAllQuestionsForTopic(tid)));
   const pool = [];
   const seen = new Set();
-  for (const tid of topicIds) {
-    for (const q of getAllQuestionsForTopic(tid)) {
+  for (const qs of perTopic) {
+    for (const q of qs) {
       if (seen.has(q.id)) continue;
       seen.add(q.id);
       pool.push(q);
