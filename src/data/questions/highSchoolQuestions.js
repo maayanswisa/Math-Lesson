@@ -22550,6 +22550,1446 @@ export const QUESTIONS = [
     "options": ["$3$", "$2$", "$4$", "$1.5$"],
     "correct_index": 0,
     "explanation": "$\\int_1^a e^{-x}dx=e^{-1}-e^{-a}$. השוואה ל-$e^{-1}-e^{-3}$ נותנת $e^{-a}=e^{-3}\\Rightarrow a=3$."
+  },
+  {
+    "id": "q-g10-u3-space-gapfill-e1",
+    "topic_id": "g10-u3-space",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "היקף ריבוע עם צלע $4$ ס\"מ:",
+    "options": [
+      "$16$ ס\"מ",
+      "$8$ ס\"מ",
+      "$4$ ס\"מ",
+      "$12$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $4\\times 4=16$."
+  },
+  {
+    "id": "q-g10-u3-space-gapfill-e2",
+    "topic_id": "g10-u3-space",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שטח מלבן באורך $5$ וברוחב $3$:",
+    "options": [
+      "$15$",
+      "$8$",
+      "$16$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $5\\times 3=15$."
+  },
+  {
+    "id": "q-g10-u3-finance-gapfill-e1",
+    "topic_id": "g10-u3-finance",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $10\\%$ מ-$50$ ש\"ח?",
+    "options": [
+      "$5$ ש\"ח",
+      "$10$ ש\"ח",
+      "$40$ ש\"ח",
+      "$15$ ש\"ח"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $0.1\\times 50=5$."
+  },
+  {
+    "id": "q-g10-u3-finance-gapfill-e2",
+    "topic_id": "g10-u3-finance",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מוצר עלה $100$ ש\"ח וקיבל הנחה של $10\\%$. מהו המחיר הסופי?",
+    "options": [
+      "$90$ ש\"ח",
+      "$110$ ש\"ח",
+      "$10$ ש\"ח",
+      "$99$ ש\"ח"
+    ],
+    "correct_index": 0,
+    "explanation": "הנחה של $10\\%$ משאירה $90\\%$: $100\\times 0.9=90$."
+  },
+  {
+    "id": "q-g11-u3-space-gapfill-e1",
+    "topic_id": "g11-u3-space",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בקנה מידה $1:1000$, אורך $1$ ס\"מ בשרטוט מייצג במציאות:",
+    "options": [
+      "$10$ מ׳",
+      "$1000$ מ׳",
+      "$100$ מ׳",
+      "$1$ מ׳"
+    ],
+    "correct_index": 0,
+    "explanation": "$1\\times 1000=1000$ ס\"מ $=10$ מ׳."
+  },
+  {
+    "id": "q-g11-u3-space-gapfill-e2",
+    "topic_id": "g11-u3-space",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נפח קובייה עם צלע $2$:",
+    "options": [
+      "$8$",
+      "$6$",
+      "$4$",
+      "$16$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח קובייה $=$ צלע בשלישית: $2^{3}=8$."
+  },
+  {
+    "id": "q-g11-u3-finance-gapfill-e1",
+    "topic_id": "g11-u3-finance",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $10\\%$ מ-$1000$ ש\"ח?",
+    "options": [
+      "$100$ ש\"ח",
+      "$10$ ש\"ח",
+      "$1000$ ש\"ח",
+      "$110$ ש\"ח"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $0.1\\times 1000=100$."
+  },
+  {
+    "id": "q-g11-u3-finance-gapfill-e2",
+    "topic_id": "g11-u3-finance",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "השקעה של $500$ ש\"ח עם ריבית פשוטה של $10\\%$ לשנה. כמה ריבית מתקבלת אחרי שנה אחת?",
+    "options": [
+      "$50$ ש\"ח",
+      "$500$ ש\"ח",
+      "$5$ ש\"ח",
+      "$550$ ש\"ח"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $500\\times 0.1=50$."
+  },
+  {
+    "id": "q-g10-u4-precalculus-gapfill-e1",
+    "topic_id": "g10-u4-precalculus",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $f(x)=x+3$, מהו $f(0)$?",
+    "options": [
+      "$3$",
+      "$0$",
+      "$-3$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $x=0$: $f(0)=0+3=3$."
+  },
+  {
+    "id": "q-g10-u4-precalculus-gapfill-e2",
+    "topic_id": "g10-u4-precalculus",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם הפונקציה $f(x)=x^{2}$ זוגית או אי-זוגית?",
+    "options": [
+      "זוגית",
+      "אי-זוגית",
+      "גם וגם",
+      "אף אחת"
+    ],
+    "correct_index": 0,
+    "explanation": "$f(-x)=(-x)^{2}=x^{2}=f(x)$, ולכן הפונקציה זוגית."
+  },
+  {
+    "id": "q-g10-u4-poly-root-gapfill-e1",
+    "topic_id": "g10-u4-poly-root",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=x^{2}$?",
+    "options": [
+      "$2x$",
+      "$x$",
+      "$2$",
+      "$x^{2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל החזקה: $f'(x)=2x$."
+  },
+  {
+    "id": "q-g10-u4-poly-root-gapfill-e2",
+    "topic_id": "g10-u4-poly-root",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של פונקציית קבוע, למשל $f(x)=7$?",
+    "options": [
+      "$0$",
+      "$7$",
+      "$1$",
+      "$x$"
+    ],
+    "correct_index": 0,
+    "explanation": "הנגזרת של קבוע היא תמיד $0$."
+  },
+  {
+    "id": "q-g10-u4-analytic-geo-gapfill-e1",
+    "topic_id": "g10-u4-analytic-geo",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נקודת האמצע של הקטע בין $(0,0)$ ל-$(4,6)$?",
+    "options": [
+      "$(2,3)$",
+      "$(4,6)$",
+      "$(2,6)$",
+      "$(4,3)$"
+    ],
+    "correct_index": 0,
+    "explanation": "נקודת האמצע: $\\left(\\frac{0+4}{2},\\frac{0+6}{2}\\right)=(2,3)$."
+  },
+  {
+    "id": "q-g10-u4-analytic-geo-gapfill-e2",
+    "topic_id": "g10-u4-analytic-geo",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו המרחק בין $(0,0)$ ל-$(0,5)$?",
+    "options": [
+      "$5$",
+      "$0$",
+      "$25$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "שתי הנקודות על ציר $y$, המרחק ביניהן הוא $5$."
+  },
+  {
+    "id": "q-g10-u4-plane-geo-gapfill-e1",
+    "topic_id": "g10-u4-plane-geo",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה זוויות יש למשולש?",
+    "options": [
+      "$3$",
+      "$4$",
+      "$2$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "למשולש יש $3$ זוויות."
+  },
+  {
+    "id": "q-g10-u4-plane-geo-gapfill-e2",
+    "topic_id": "g10-u4-plane-geo",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במשולש שווה-צלעות, כל זווית שווה ל:",
+    "options": [
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$120^\\circ$"
+    ],
+    "correct_index": 0,
+    "explanation": "$180^\\circ:3=60^\\circ$."
+  },
+  {
+    "id": "q-g10-u4-trig-gapfill-e1",
+    "topic_id": "g10-u4-trig",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\sin 90^\\circ$?",
+    "options": [
+      "$1$",
+      "$0$",
+      "$\\frac{1}{2}$",
+      "$-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 90^\\circ=1$."
+  },
+  {
+    "id": "q-g10-u4-trig-gapfill-e2",
+    "topic_id": "g10-u4-trig",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\cos 0^\\circ$?",
+    "options": [
+      "$1$",
+      "$0$",
+      "$-1$",
+      "$\\frac{1}{2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "זהו ערך זווית מיוחדת: $\\cos 0^\\circ=1$."
+  },
+  {
+    "id": "q-g11-u4-rational-root-gapfill-e1",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו תחום ההגדרה של $f(x)=\\dfrac{1}{x}$?",
+    "options": [
+      "כל הממשיים פרט ל-$0$",
+      "כל הממשיים",
+      "רק מספרים חיוביים",
+      "רק $x=1$"
+    ],
+    "correct_index": 0,
+    "explanation": "המכנה לא יכול להתאפס: $x\\neq 0$."
+  },
+  {
+    "id": "q-g11-u4-rational-root-gapfill-e2",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=x$?",
+    "options": [
+      "$1$",
+      "$0$",
+      "$x$",
+      "$x^{2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל החזקה: $f'(x)=1\\cdot x^{0}=1$."
+  },
+  {
+    "id": "q-g11-u4-integral-gapfill-e1",
+    "topic_id": "g11-u4-integral",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\int 2x\\,dx$?",
+    "options": [
+      "$x^{2}+C$",
+      "$2x^{2}+C$",
+      "$x+C$",
+      "$2+C$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 2x\\,dx=x^{2}+C$."
+  },
+  {
+    "id": "q-g11-u4-integral-gapfill-e2",
+    "topic_id": "g11-u4-integral",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\displaystyle\\int_{0}^{1} 1\\,dx$?",
+    "options": [
+      "$1$",
+      "$0$",
+      "$2$",
+      "$x$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $[x]_{0}^{1}=1-0=1$."
+  },
+  {
+    "id": "q-g11-u4-analytic-circle-gapfill-e1",
+    "topic_id": "g11-u4-analytic-circle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי משוואת המעגל שמרכזו $(0,0)$ ורדיוסו $3$?",
+    "options": [
+      "$x^{2}+y^{2}=9$",
+      "$x^{2}+y^{2}=3$",
+      "$x+y=9$",
+      "$x^{2}+y^{2}=6$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי משוואת מעגל קנונית: $x^{2}+y^{2}=R^{2}=9$."
+  },
+  {
+    "id": "q-g11-u4-analytic-circle-gapfill-e2",
+    "topic_id": "g11-u4-analytic-circle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו רדיוס המעגל $x^{2}+y^{2}=16$?",
+    "options": [
+      "$4$",
+      "$16$",
+      "$8$",
+      "$2$"
+    ],
+    "correct_index": 0,
+    "explanation": "$R^{2}=16\\Rightarrow R=4$."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-gapfill-e1",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\cos 90^\\circ$?",
+    "options": [
+      "$0$",
+      "$1$",
+      "$-1$",
+      "$\\frac{1}{2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "זהו ערך זווית מיוחדת: $\\cos 90^\\circ=0$."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-gapfill-e2",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משפט הסינוסים קושר בין צלעות משולש לבין:",
+    "options": [
+      "הסינוסים של הזוויות שמולן",
+      "הקוסינוסים של הזוויות",
+      "ההיקף בלבד",
+      "השטח בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "משפט הסינוסים: $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$."
+  },
+  {
+    "id": "q-g12-u4-sequences-gapfill-e1",
+    "topic_id": "g12-u4-sequences",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בסדרה חשבונית $a_1=2$, הפרש $d=3$. מהו $a_2$?",
+    "options": [
+      "$5$",
+      "$6$",
+      "$2$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$a_2=a_1+d=2+3=5$."
+  },
+  {
+    "id": "q-g12-u4-sequences-gapfill-e2",
+    "topic_id": "g12-u4-sequences",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בסדרה הנדסית $a_1=2$, מנה $q=2$. מהו $a_2$?",
+    "options": [
+      "$4$",
+      "$2$",
+      "$6$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "$a_2=a_1\\cdot q=2\\times 2=4$."
+  },
+  {
+    "id": "q-g12-u4-vectors-gapfill-e1",
+    "topic_id": "g12-u4-vectors",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $\\vec{u}=(0,5)$, מהו $|\\vec{u}|$?",
+    "options": [
+      "$5$",
+      "$0$",
+      "$25$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "$|\\vec{u}|=\\sqrt{0^{2}+5^{2}}=5$."
+  },
+  {
+    "id": "q-g12-u4-vectors-gapfill-e2",
+    "topic_id": "g12-u4-vectors",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו סכום הווקטורים $(1,2)+(3,4)$?",
+    "options": [
+      "$(4,6)$",
+      "$(3,8)$",
+      "$(4,2)$",
+      "$(1,8)$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחברים רכיב-רכיב: $(1+3,2+4)=(4,6)$."
+  },
+  {
+    "id": "q-g12-u4-hypothesis-gapfill-e1",
+    "topic_id": "g12-u4-hypothesis",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בבדיקת השערות, $H_0$ נקראת:",
+    "options": [
+      "השערת האפס",
+      "השערת המחקר",
+      "השערה חלופית",
+      "השערת הביניים"
+    ],
+    "correct_index": 0,
+    "explanation": "$H_0$ היא השערת האפס — ההשערה שבודקים אם יש מספיק ראיות לדחות אותה."
+  },
+  {
+    "id": "q-g12-u4-hypothesis-gapfill-e2",
+    "topic_id": "g12-u4-hypothesis",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "ערך $p$ גדול (למשל $0.9$) מצביע בדרך כלל על:",
+    "options": [
+      "אין מספיק ראיות לדחיית $H_0$",
+      "דחייה חד-משמעית של $H_0$",
+      "טעות בחישוב",
+      "אין נתונים"
+    ],
+    "correct_index": 0,
+    "explanation": "ערך $p$ גדול אינו מספק ראיות מספיקות נגד השערת האפס."
+  },
+  {
+    "id": "q-g10-u5-functions-gapfill-e1",
+    "topic_id": "g10-u5-functions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $f(x)=2^{x}$, מהו $f(0)$?",
+    "options": [
+      "$1$",
+      "$0$",
+      "$2$",
+      "$-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "כל בסיס בחזקת $0$ שווה ל-$1$: $2^{0}=1$."
+  },
+  {
+    "id": "q-g10-u5-functions-gapfill-e2",
+    "topic_id": "g10-u5-functions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הגרף של $y=f(x)+2$ מתקבל מ-$y=f(x)$ על ידי:",
+    "options": [
+      "הזזה למעלה ב-$2$",
+      "הזזה למטה ב-$2$",
+      "הזזה ימינה ב-$2$",
+      "מתיחה פי $2$"
+    ],
+    "correct_index": 0,
+    "explanation": "הוספת קבוע לפונקציה מזיזה את הגרף אנכית כלפי מעלה."
+  },
+  {
+    "id": "q-g10-u5-diff-intro-gapfill-e1",
+    "topic_id": "g10-u5-diff-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=x^{2}$, מהי הנגזרת $f'(x)$?",
+    "options": [
+      "$2x$",
+      "$x$",
+      "$x^{2}$",
+      "$2$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל החזקה: $f'(x)=2x$."
+  },
+  {
+    "id": "q-g10-u5-diff-intro-gapfill-e2",
+    "topic_id": "g10-u5-diff-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לפרבולה $y=x^{2}+3$, מהו הקודקוד?",
+    "options": [
+      "$(0,3)$",
+      "$(3,0)$",
+      "$(0,0)$",
+      "$(1,3)$"
+    ],
+    "correct_index": 0,
+    "explanation": "אין הזזה אופקית, רק אנכית ב-$3$: הקודקוד ב-$(0,3)$."
+  },
+  {
+    "id": "q-g10-u5-analytic-gapfill-e1",
+    "topic_id": "g10-u5-analytic",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו שיפוע הישר $y=3x+1$?",
+    "options": [
+      "$3$",
+      "$1$",
+      "$-3$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "בצורה $y=mx+b$ השיפוע הוא $m=3$."
+  },
+  {
+    "id": "q-g10-u5-analytic-gapfill-e2",
+    "topic_id": "g10-u5-analytic",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי משוואת המעגל שמרכזו בראשית ורדיוסו $2$?",
+    "options": [
+      "$x^{2}+y^{2}=4$",
+      "$x^{2}+y^{2}=2$",
+      "$x+y=4$",
+      "$x^{2}-y^{2}=4$"
+    ],
+    "correct_index": 0,
+    "explanation": "$R^{2}=2^{2}=4$."
+  },
+  {
+    "id": "q-g10-u5-plane-geo-gapfill-e1",
+    "topic_id": "g10-u5-plane-geo",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במשולש שווה-שוקיים, שתי הזוויות שמול השוקיים השוות הן:",
+    "options": [
+      "שוות זו לזו",
+      "תמיד $90^\\circ$",
+      "שונות תמיד",
+      "סכומן $180^\\circ$"
+    ],
+    "correct_index": 0,
+    "explanation": "תכונת יסוד של משולש שווה-שוקיים: זוויות הבסיס שוות."
+  },
+  {
+    "id": "q-g10-u5-plane-geo-gapfill-e2",
+    "topic_id": "g10-u5-plane-geo",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משולש עם זוויות $90^\\circ$ ו-$45^\\circ$. מהי הזווית השלישית?",
+    "options": [
+      "$45^\\circ$",
+      "$90^\\circ$",
+      "$135^\\circ$",
+      "$60^\\circ$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $180-90-45=45$."
+  },
+  {
+    "id": "q-g10-u5-trig-gapfill-e1",
+    "topic_id": "g10-u5-trig",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $\\sin\\theta=\\frac{1}{2}$ ו-$\\theta$ חדה, מהי הזווית $\\theta$?",
+    "options": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "correct_index": 0,
+    "explanation": "זוהי זווית מיוחדת: $\\sin 30^\\circ=\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g10-u5-trig-gapfill-e2",
+    "topic_id": "g10-u5-trig",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\tan 0^\\circ$?",
+    "options": [
+      "$0$",
+      "$1$",
+      "$\\infty$",
+      "$-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\tan 0^\\circ=\\dfrac{\\sin 0^\\circ}{\\cos 0^\\circ}=\\dfrac{0}{1}=0$."
+  },
+  {
+    "id": "q-g11-u5-sequences-induction-gapfill-e1",
+    "topic_id": "g11-u5-sequences-induction",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בסדרה חשבונית $a_1=5$, הפרש $d=2$. מהו $a_3$?",
+    "options": [
+      "$9$",
+      "$7$",
+      "$11$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$a_3=a_1+2d=5+2\\times 2=9$."
+  },
+  {
+    "id": "q-g11-u5-sequences-induction-gapfill-e2",
+    "topic_id": "g11-u5-sequences-induction",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בהוכחה באינדוקציה מתמטית, השלב הראשון (בסיס האינדוקציה) בודק:",
+    "options": [
+      "את המקרה הראשון (למשל $n=1$)",
+      "את כל המקרים בבת אחת",
+      "רק את המקרה האחרון",
+      "אין צורך בשלב כזה"
+    ],
+    "correct_index": 0,
+    "explanation": "בסיס האינדוקציה מוודא שהטענה נכונה עבור הערך ההתחלתי."
+  },
+  {
+    "id": "q-g11-u5-differential-gapfill-e1",
+    "topic_id": "g11-u5-differential",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=x^{3}$?",
+    "options": [
+      "$3x^{2}$",
+      "$x^{2}$",
+      "$3x$",
+      "$x^{3}$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל החזקה: $f'(x)=3x^{2}$."
+  },
+  {
+    "id": "q-g11-u5-differential-gapfill-e2",
+    "topic_id": "g11-u5-differential",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $f'(x)=0$ בנקודה מסוימת, ייתכן ויש שם:",
+    "options": [
+      "נקודת קיצון",
+      "בהכרח נקודת פיתול",
+      "שיפוע חיובי",
+      "אסימפטוטה"
+    ],
+    "correct_index": 0,
+    "explanation": "שיפוע אפס הוא תנאי הכרחי (לא תמיד מספיק) לנקודת קיצון."
+  },
+  {
+    "id": "q-g11-u5-integral-gapfill-e1",
+    "topic_id": "g11-u5-integral",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\int 1\\,dx$?",
+    "options": [
+      "$x+C$",
+      "$1$",
+      "$0$",
+      "$x^{2}+C$"
+    ],
+    "correct_index": 0,
+    "explanation": "האינטגרל של $1$ הוא $x+C$."
+  },
+  {
+    "id": "q-g11-u5-integral-gapfill-e2",
+    "topic_id": "g11-u5-integral",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $F(x)$ פונקציה קדומה של $f(x)$, אז $F'(x)$ שווה ל:",
+    "options": [
+      "$f(x)$",
+      "$0$",
+      "$F(x)$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "זו הגדרת הפונקציה הקדומה: $F'(x)=f(x)$."
+  },
+  {
+    "id": "q-g11-u5-trig-advanced-gapfill-e1",
+    "topic_id": "g11-u5-trig-advanced",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי מחזוריות הפונקציה $\\sin x$?",
+    "options": [
+      "$360^\\circ$",
+      "$180^\\circ$",
+      "$90^\\circ$",
+      "$60^\\circ$"
+    ],
+    "correct_index": 0,
+    "explanation": "הפונקציה $\\sin x$ חוזרת על עצמה כל $360^\\circ$."
+  },
+  {
+    "id": "q-g11-u5-trig-advanced-gapfill-e2",
+    "topic_id": "g11-u5-trig-advanced",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $\\sin\\theta=0.6$, מהו $\\cos^{2}\\theta$?",
+    "options": [
+      "$0.64$",
+      "$0.36$",
+      "$0.4$",
+      "$1.36$"
+    ],
+    "correct_index": 0,
+    "explanation": "הזהות הפיתגורית: $\\sin^{2}\\theta+\\cos^{2}\\theta=1\\Rightarrow\\cos^{2}\\theta=1-0.36=0.64$."
+  },
+  {
+    "id": "q-g11-u5-trig-calc-gapfill-e1",
+    "topic_id": "g11-u5-trig-calc",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\sin x$?",
+    "options": [
+      "$\\cos x$",
+      "$-\\cos x$",
+      "$-\\sin x$",
+      "$\\tan x$"
+    ],
+    "correct_index": 0,
+    "explanation": "נגזרת בסיסית: $(\\sin x)'=\\cos x$."
+  },
+  {
+    "id": "q-g11-u5-trig-calc-gapfill-e2",
+    "topic_id": "g11-u5-trig-calc",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\cos x$?",
+    "options": [
+      "$-\\sin x$",
+      "$\\sin x$",
+      "$-\\cos x$",
+      "$\\tan x$"
+    ],
+    "correct_index": 0,
+    "explanation": "נגזרת בסיסית: $(\\cos x)'=-\\sin x$."
+  },
+  {
+    "id": "q-g11-u5-probability-gapfill-e1",
+    "topic_id": "g11-u5-probability",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מטילים קובייה הוגנת אחת. מה ההסתברות לקבל $4$?",
+    "options": [
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "יש $6$ תוצאות אפשריות שוות-סבירות, ורק אחת מהן היא $4$."
+  },
+  {
+    "id": "q-g11-u5-probability-gapfill-e2",
+    "topic_id": "g11-u5-probability",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מטבע הוגן מוטל פעם אחת. מה ההסתברות לקבל \"עץ\"?",
+    "options": [
+      "$\\frac{1}{2}$",
+      "$1$",
+      "$0$",
+      "$\\frac{1}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "יש שתי תוצאות שוות-סבירות (עץ/פלי), ולכן ההסתברות היא $\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g10-u3-science-integration-gapfill-e1",
+    "topic_id": "g10-u3-science-integration",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בכיתה $20$ תלמידים, $8$ מהם בנות. מה ההסתברות שתלמיד/ה שנבחר/ה אקראית הוא/היא בת?",
+    "options": [
+      "$0.4$",
+      "$0.8$",
+      "$0.2$",
+      "$0.6$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $8:20=0.4$."
+  },
+  {
+    "id": "q-g10-u3-science-integration-gapfill-e2",
+    "topic_id": "g10-u3-science-integration",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הממוצע של $10,20,30$ הוא:",
+    "options": [
+      "$20$",
+      "$15$",
+      "$30$",
+      "$60$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $(10+20+30):3=20$."
+  },
+  {
+    "id": "q-g10-u5-derivative-rules-gapfill-e1",
+    "topic_id": "g10-u5-derivative-rules",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לפי כלל הכפל בקבוע, אם $f'(x)=2x$, מהי הנגזרת של $5f(x)$?",
+    "options": [
+      "$10x$",
+      "$2x+5$",
+      "$7x$",
+      "$10x^{2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$[5f(x)]'=5f'(x)=5\\times 2x=10x$."
+  },
+  {
+    "id": "q-g10-u5-derivative-rules-gapfill-e2",
+    "topic_id": "g10-u5-derivative-rules",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)+g(x)$ לפי כלל הסכום?",
+    "options": [
+      "$f'(x)+g'(x)$",
+      "$f'(x)\\times g'(x)$",
+      "$f(x)+g(x)$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "כלל הסכום: נגזרת הסכום שווה לסכום הנגזרות."
+  },
+  {
+    "id": "q-g10-u5-trig-plane-gapfill-e1",
+    "topic_id": "g10-u5-trig-plane",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת השטח של משולש עם שתי צלעות $a,b$ והזווית $\\gamma$ ביניהן?",
+    "options": [
+      "$S=\\frac{1}{2}ab\\sin\\gamma$",
+      "$S=ab\\sin\\gamma$",
+      "$S=\\frac{1}{2}ab\\cos\\gamma$",
+      "$S=a+b$"
+    ],
+    "correct_index": 0,
+    "explanation": "נוסחת השטח הטריגונומטרית של משולש."
+  },
+  {
+    "id": "q-g10-u5-trig-plane-gapfill-e2",
+    "topic_id": "g10-u5-trig-plane",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במשולש $a=4$, $b=5$, $\\gamma=90^\\circ$. מה שטח המשולש?",
+    "options": [
+      "$10$",
+      "$20$",
+      "$9$",
+      "$4.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$S=\\frac{1}{2}\\times 4\\times 5\\times\\sin 90^\\circ=10\\times 1=10$."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-gapfill-e1",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי האסימפטוטה האנכית של $f(x)=\\dfrac{1}{x-3}$?",
+    "options": [
+      "$x=3$",
+      "$x=-3$",
+      "$y=3$",
+      "$x=0$"
+    ],
+    "correct_index": 0,
+    "explanation": "המכנה מתאפס ב-$x=3$, ולכן שם האסימפטוטה המאונכת."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-gapfill-e2",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $F(x)$ קדומה של $f(x)$, מהו $\\displaystyle\\int_{a}^{b} f(x)\\,dx$?",
+    "options": [
+      "$F(b)-F(a)$",
+      "$F(a)-F(b)$",
+      "$F(a)+F(b)$",
+      "$F(b)$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי המשפט היסודי של החדו\"א."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-gapfill-h1",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מקדם המתאם בין שני משתנים הוא $r=-0.9$. מה ניתן להסיק?",
+    "options": [
+      "קשר לינארי חזק והפוך (כשאחד עולה השני יורד)",
+      "קשר לינארי חזק וישר",
+      "אין קשר כלל",
+      "קשר לא לינארי בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "ערך שלילי קרוב ל-$-1$ מצביע על קשר לינארי הפוך וחזק."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-gapfill-h2",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בקבוצת נתונים, ממוצע $\\bar{x}=50$ וסטיית תקן $\\sigma=5$. מהו ציון התקן של הנתון $x=60$?",
+    "options": [
+      "$2$",
+      "$10$",
+      "$0.5$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$z=\\dfrac{x-\\bar{x}}{\\sigma}=\\dfrac{60-50}{5}=2$."
+  },
+  {
+    "id": "q-g10-u5-power-functions-gapfill-h1",
+    "topic_id": "g10-u5-power-functions",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x^{5}$. האם הפונקציה זוגית או אי-זוגית?",
+    "options": [
+      "אי-זוגית",
+      "זוגית",
+      "גם וגם",
+      "אף אחת"
+    ],
+    "correct_index": 0,
+    "explanation": "$f(-x)=(-x)^{5}=-x^{5}=-f(x)$, ולכן הפונקציה אי-זוגית."
+  },
+  {
+    "id": "q-g10-u5-power-functions-gapfill-h2",
+    "topic_id": "g10-u5-power-functions",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=(x-1)^{2}(x+2)$, מה קורה לגרף ליד $x=1$?",
+    "options": [
+      "נוגע בציר $x$ וחוזר (לא חוצה)",
+      "חוצה את ציר $x$",
+      "יש שם אסימפטוטה",
+      "הפונקציה לא מוגדרת שם"
+    ],
+    "correct_index": 0,
+    "explanation": "השורש $x=1$ הוא בריבוי זוגי ($2$), ולכן הגרף נוגע בציר וחוזר."
+  },
+  {
+    "id": "q-g10-u5-function-ops-gapfill-h1",
+    "topic_id": "g10-u5-function-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי הפונקציה ההופכית לפונקציה $f(x)=2x+4$?",
+    "options": [
+      "$f^{-1}(x)=\\dfrac{x-4}{2}$",
+      "$f^{-1}(x)=\\dfrac{x+4}{2}$",
+      "$f^{-1}(x)=2x-4$",
+      "$f^{-1}(x)=\\dfrac{x}{2}-4$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $y=2x+4$ ומבודדים $x$: $x=\\dfrac{y-4}{2}$."
+  },
+  {
+    "id": "q-g10-u5-function-ops-gapfill-h2",
+    "topic_id": "g10-u5-function-ops",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם $f(x)=x^{2}$ ו-$g(x)=x+1$, מהי $(f\\circ g)(2)$?",
+    "options": [
+      "$9$",
+      "$5$",
+      "$4$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$g(2)=3$, ואז $f(3)=9$."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-gapfill-h1",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{1}{x^{2}-9}$. עבור אילו ערכי $x$ הפונקציה אינה מוגדרת?",
+    "options": [
+      "$x=3,\\ x=-3$",
+      "$x=9,\\ x=-9$",
+      "$x=0$",
+      "הפונקציה מוגדרת תמיד"
+    ],
+    "correct_index": 0,
+    "explanation": "המכנה מתאפס כאשר $x^{2}-9=0\\Rightarrow x=\\pm 3$."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-gapfill-h2",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=\\dfrac{1}{x-5}$, מה קורה לערך הפונקציה כאשר $x$ שואף ל-$\\infty$?",
+    "options": [
+      "שואף ל-$0$",
+      "שואף ל-$\\infty$",
+      "שואף ל-$5$",
+      "שואף ל-$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "ככל שהמכנה גדל ללא גבול, השבר קטן ושואף ל-$0$."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-gapfill-h1",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש עם צלעות $6, 8, 10$. מה רדיוס המעגל החוסם (העובר דרך שלושת קודקודיו)?",
+    "options": [
+      "$5$",
+      "$10$",
+      "$6$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "זהו משולש ישר-זווית ($6^{2}+8^{2}=10^{2}$), והיתר הוא קוטר המעגל החוסם: רדיוס $=10:2=5$."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-gapfill-h2",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מרובע חסום במעגל. מה סכום שתי זוויות נגדיות בו?",
+    "options": [
+      "$180^\\circ$",
+      "$360^\\circ$",
+      "$90^\\circ$",
+      "$270^\\circ$"
+    ],
+    "correct_index": 0,
+    "explanation": "משפט: במרובע חסום במעגל, זוויות נגדיות משלימות ל-$180^\\circ$."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-gapfill-h1",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בקבוצת ציונים, ממוצע $\\bar{x}=70$ וסטיית תקן $\\sigma=8$. לתלמיד יש ציון תקן $z=-1.5$. מה ציונו בפועל?",
+    "options": [
+      "$58$",
+      "$82$",
+      "$71.5$",
+      "$68.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$x=\\bar{x}+z\\sigma=70+(-1.5)\\times 8=70-12=58$."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-gapfill-h2",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בהתפלגות נורמלית, כמה אחוזים בקירוב מהנתונים נמצאים בטווח של סטיית תקן אחת מהממוצע (בין $z=-1$ ל-$z=1$)?",
+    "options": [
+      "בערך $68\\%$",
+      "בערך $95\\%$",
+      "בערך $50\\%$",
+      "בערך $99\\%$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל $68$-$95$-$99.7$ בהתפלגות נורמלית."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-gapfill-h1",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בדיאגרמת פיזור, הנקודות קרובות מאוד לישר עולה. איזה ערך סביר ביותר עבור $r$?",
+    "options": [
+      "$0.95$",
+      "$-0.95$",
+      "$0.1$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "קשר לינארי חזק וישר מתאים למקדם מתאם קרוב ל-$1$."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-gapfill-h2",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "קו הרגרסיה של $y$ על $x$ הוא $y=2x+3$. מה התחזית עבור $x=5$?",
+    "options": [
+      "$13$",
+      "$10$",
+      "$8$",
+      "$16$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $x=5$: $y=2\\times 5+3=13$."
+  },
+  {
+    "id": "q-g11-u5-trig-identities-gapfill-h1",
+    "topic_id": "g11-u5-trig-identities",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "באמצעות זהות ההפרש, חשבו $\\cos(60°-30°)$.",
+    "options": [
+      "$\\dfrac{\\sqrt3}{2}$",
+      "$1$",
+      "$0.5$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\cos60°\\cos30°+\\sin60°\\sin30°=0.5\\times\\dfrac{\\sqrt3}{2}+\\dfrac{\\sqrt3}{2}\\times0.5=\\dfrac{\\sqrt3}{2}$ (וגם ישירות: $\\cos30°=\\dfrac{\\sqrt3}{2}$)."
+  },
+  {
+    "id": "q-g11-u5-trig-identities-gapfill-h2",
+    "topic_id": "g11-u5-trig-identities",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי זהות הזווית הכפולה לסינוס?",
+    "options": [
+      "$\\sin(2A)=2\\sin A\\cos A$",
+      "$\\sin(2A)=\\sin^{2}A-\\cos^{2}A$",
+      "$\\sin(2A)=2\\sin A$",
+      "$\\sin(2A)=\\cos(2A)$"
+    ],
+    "correct_index": 0,
+    "explanation": "זוהי זהות הזווית הכפולה הבסיסית לסינוס, הנגזרת מזהות הסכום."
+  },
+  {
+    "id": "q-g11-u5-trig-review-gapfill-h1",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\tan x$?",
+    "options": [
+      "$\\dfrac{1}{\\cos^{2}x}$",
+      "$-\\dfrac{1}{\\cos^{2}x}$",
+      "$\\sec x$",
+      "$\\cos x$"
+    ],
+    "correct_index": 0,
+    "explanation": "הנגזרת של $\\tan x$ היא $\\dfrac{1}{\\cos^{2}x}$."
+  },
+  {
+    "id": "q-g11-u5-trig-review-gapfill-h2",
+    "topic_id": "g11-u5-trig-review",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "באמצעות זהות הסכום, חשבו $\\cos(45°+45°)$.",
+    "options": [
+      "$0$",
+      "$1$",
+      "$\\dfrac{\\sqrt2}{2}$",
+      "$-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\cos90°=0$."
+  },
+  {
+    "id": "q-g10-u3-science-society-gapfill-e1",
+    "topic_id": "g10-u3-science-society",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בטבלה: $2,4,4,6$. מהו השכיח?",
+    "options": [
+      "$4$",
+      "$2$",
+      "$6$",
+      "$16$"
+    ],
+    "correct_index": 0,
+    "explanation": "$4$ מופיע פעמיים — יותר מכל ערך אחר."
+  },
+  {
+    "id": "q-g10-u3-science-society-gapfill-e2",
+    "topic_id": "g10-u3-science-society",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הממוצע של $1,2,3$ הוא:",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $(1+2+3):3=2$."
+  },
+  {
+    "id": "q-g10-u3-science-society-gapfill-h1",
+    "topic_id": "g10-u3-science-society",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בהטלת קובייה הוגנת פעמיים, מה ההסתברות לקבל $6$ בשתי ההטלות?",
+    "options": [
+      "$\\frac{1}{36}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{2}{6}$",
+      "$\\frac{1}{12}$"
+    ],
+    "correct_index": 0,
+    "explanation": "ההטלות בלתי תלויות: $\\frac{1}{6}\\times\\frac{1}{6}=\\frac{1}{36}$."
+  },
+  {
+    "id": "q-g10-u3-science-society-gapfill-h2",
+    "topic_id": "g10-u3-science-society",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בקבוצת נתונים $4,7,7,9,20$, מהו הממוצע?",
+    "options": [
+      "$9.4$",
+      "$7$",
+      "$9$",
+      "$47$"
+    ],
+    "correct_index": 0,
+    "explanation": "$4+7+7+9+20=47$, $47:5=9.4$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-gapfill-e1",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אוכלוסייה גדלה לפי $P(t)=100\\cdot 2^{t}$. מהי האוכלוסייה ב-$t=0$?",
+    "options": [
+      "$100$",
+      "$0$",
+      "$200$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$P(0)=100\\times 2^{0}=100\\times 1=100$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-gapfill-e2",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הממוצע של $5,10,15$ הוא:",
+    "options": [
+      "$10$",
+      "$15$",
+      "$5$",
+      "$30$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $(5+10+15):3=10$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-gapfill-h1",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמות חומר רדיואקטיבי דועכת לפי $N(t)=800\\cdot(0.5)^{t}$ ($t$ במחציות חיים). כמה חומר נשאר אחרי $3$ מחציות חיים?",
+    "options": [
+      "$100$",
+      "$400$",
+      "$200$",
+      "$50$"
+    ],
+    "correct_index": 0,
+    "explanation": "$N(3)=800\\times 0.5^{3}=800\\times 0.125=100$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-gapfill-h2",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בקבוצת נתונים, סטיית התקן היא מדד ל:",
+    "options": [
+      "מידת הפיזור סביב הממוצע",
+      "הערך המרכזי בלבד",
+      "הערך הגבוה ביותר",
+      "מספר הנתונים"
+    ],
+    "correct_index": 0,
+    "explanation": "סטיית תקן מודדת כמה הנתונים מפוזרים סביב הממוצע."
+  },
+  {
+    "id": "q-g10-u4-stats-gapfill-e1",
+    "topic_id": "g10-u4-stats",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הממוצע של $2,4,6$ הוא:",
+    "options": [
+      "$4$",
+      "$3$",
+      "$6$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $(2+4+6):3=4$."
+  },
+  {
+    "id": "q-g10-u4-stats-gapfill-e2",
+    "topic_id": "g10-u4-stats",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "החציון של $1,2,3$ הוא:",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "הערך האמצעי ברשימה הממוינת הוא $2$."
+  },
+  {
+    "id": "q-g10-u4-stats-gapfill-h1",
+    "topic_id": "g10-u4-stats",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בקבוצת נתונים $5,8,8,12,50$, מהו ההפרש בין הממוצע לחציון?",
+    "options": [
+      "$8.6$",
+      "$0$",
+      "$5$",
+      "$42$"
+    ],
+    "correct_index": 0,
+    "explanation": "ממוצע: $83:5=16.6$. חציון (הערך האמצעי): $8$. ההפרש: $16.6-8=8.6$."
+  },
+  {
+    "id": "q-g10-u4-stats-gapfill-h2",
+    "topic_id": "g10-u4-stats",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אילו משני מדדי המרכז — ממוצע או חציון — מושפע פחות מערכים קיצוניים (חריגים)?",
+    "options": [
+      "חציון",
+      "ממוצע",
+      "שניהם באותה מידה",
+      "אף אחד"
+    ],
+    "correct_index": 0,
+    "explanation": "החציון מתעלם ממרחק הערכים הקיצוניים, ולכן פחות רגיש אליהם מהממוצע."
+  },
+  {
+    "id": "q-g11-u4-plane-circle-gapfill-e1",
+    "topic_id": "g11-u4-plane-circle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו קוטר מעגל עם רדיוס $6$?",
+    "options": [
+      "$12$",
+      "$6$",
+      "$3$",
+      "$18$"
+    ],
+    "correct_index": 0,
+    "explanation": "קוטר $=2\\times$ רדיוס $=2\\times 6=12$."
+  },
+  {
+    "id": "q-g11-u4-plane-circle-gapfill-e2",
+    "topic_id": "g11-u4-plane-circle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "זווית מרכזית הנשענת על קשת של $60^\\circ$ שווה ל:",
+    "options": [
+      "$60^\\circ$",
+      "$30^\\circ$",
+      "$120^\\circ$",
+      "$90^\\circ$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית מרכזית שווה בגודלה לקשת שעליה היא נשענת."
+  },
+  {
+    "id": "q-g11-u4-plane-circle-gapfill-h1",
+    "topic_id": "g11-u4-plane-circle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "זווית היקפית הנשענת על קוטר המעגל (חוצה אותו) היא בגודל:",
+    "options": [
+      "$90^\\circ$",
+      "$180^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$"
+    ],
+    "correct_index": 0,
+    "explanation": "משפט: זווית היקפית הנשענת על קוטר היא תמיד ישרה ($90^\\circ$)."
+  },
+  {
+    "id": "q-g11-u4-plane-circle-gapfill-h2",
+    "topic_id": "g11-u4-plane-circle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שתי זוויות היקפיות הנשענות על אותה קשת. מה הקשר ביניהן?",
+    "options": [
+      "שוות זו לזו",
+      "סכומן $180^\\circ$",
+      "סכומן $90^\\circ$",
+      "אין קשר קבוע"
+    ],
+    "correct_index": 0,
+    "explanation": "משפט: זוויות היקפיות הנשענות על אותה קשת שוות זו לזו."
   }
 ];
 

@@ -12075,6 +12075,1056 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "options": ["$0.8$", "$0.2$", "$1.2$", "$0$"],
     "correct_index": 0,
     "explanation": "$1-0.2=0.8$."
+  },
+  {
+    "id": "q-g7-functions-intro-gapfill-e1",
+    "topic_id": "g7-functions-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בטבלה: $x=1\\Rightarrow y=2$, $x=2\\Rightarrow y=4$, $x=3\\Rightarrow y=6$. מהו הכלל?",
+    "options": [
+      "$y=2x$",
+      "$y=x+2$",
+      "$y=x^{2}$",
+      "$y=2x+1$"
+    ],
+    "correct_index": 0,
+    "explanation": "כל ערך של $y$ הוא כפול $2$ מ-$x$: $y=2x$."
+  },
+  {
+    "id": "q-g7-functions-intro-gapfill-e2",
+    "topic_id": "g7-functions-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי פונקציה?",
+    "options": [
+      "כלל שמשייך לכל $x$ ערך $y$ יחיד",
+      "כל טבלה של מספרים",
+      "רק גרף ישר",
+      "קבוצה של נקודות אקראיות"
+    ],
+    "correct_index": 0,
+    "explanation": "פונקציה היא כלל שמשייך לכל ערך של $x$ ערך יחיד של $y$."
+  },
+  {
+    "id": "q-g7-angles-triangles-gapfill-e1",
+    "topic_id": "g7-angles-triangles",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו סכום הזוויות במשולש?",
+    "options": [
+      "$180^\\circ$",
+      "$90^\\circ$",
+      "$360^\\circ$",
+      "$270^\\circ$"
+    ],
+    "correct_index": 0,
+    "explanation": "סכום הזוויות בכל משולש הוא תמיד $180^\\circ$."
+  },
+  {
+    "id": "q-g7-angles-triangles-gapfill-e2",
+    "topic_id": "g7-angles-triangles",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משולש עם שתי זוויות $60^\\circ$ ו-$60^\\circ$. הזווית השלישית:",
+    "options": [
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$120^\\circ$",
+      "$180^\\circ$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $180-60-60=60$."
+  },
+  {
+    "id": "q-g8-linear-fn-gapfill-e1",
+    "topic_id": "g8-linear-fn",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו השיפוע של $y=3x+1$?",
+    "options": [
+      "$3$",
+      "$1$",
+      "$-1$",
+      "$-3$"
+    ],
+    "correct_index": 0,
+    "explanation": "בצורה $y=mx+b$ השיפוע הוא $m=3$."
+  },
+  {
+    "id": "q-g8-linear-fn-gapfill-e2",
+    "topic_id": "g8-linear-fn",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הישר $y=x$ עובר דרך הנקודה:",
+    "options": [
+      "$(2,2)$",
+      "$(2,0)$",
+      "$(0,2)$",
+      "$(1,-1)$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $x=2$: $y=2$."
+  },
+  {
+    "id": "q-g8-equations-system-gapfill-e1",
+    "topic_id": "g8-equations-system",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נתון $\\begin{cases}x=2\\\\y=3\\end{cases}$. מהו $x+y$?",
+    "options": [
+      "$5$",
+      "$1$",
+      "$6$",
+      "$-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $2+3=5$."
+  },
+  {
+    "id": "q-g8-equations-system-gapfill-e2",
+    "topic_id": "g8-equations-system",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה פתרונות (זוגות $x,y$) יש למערכת $\\begin{cases}x=1\\\\y=1\\end{cases}$?",
+    "options": [
+      "פתרון יחיד",
+      "אין פתרון",
+      "אינסוף פתרונות",
+      "שני פתרונות"
+    ],
+    "correct_index": 0,
+    "explanation": "כל משתנה נקבע במפורש — יש פתרון יחיד: $x=1,y=1$."
+  },
+  {
+    "id": "q-g8-factoring-gapfill-e1",
+    "topic_id": "g8-factoring",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פרקו לגורמים: $2x+4$",
+    "options": [
+      "$2(x+2)$",
+      "$4(x+2)$",
+      "$2(x+4)$",
+      "$x(2+4)$"
+    ],
+    "correct_index": 0,
+    "explanation": "גורם משותף $2$: $2x+4=2(x+2)$."
+  },
+  {
+    "id": "q-g8-factoring-gapfill-e2",
+    "topic_id": "g8-factoring",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו הגורם המשותף הגדול ביותר של $10x$ ו-$15$?",
+    "options": [
+      "$5$",
+      "$10$",
+      "$15$",
+      "$2$"
+    ],
+    "correct_index": 0,
+    "explanation": "$10=5\\times 2$ ו-$15=5\\times 3$, לכן הגורם המשותף הגדול ביותר הוא $5$."
+  },
+  {
+    "id": "q-g8-percent-gapfill-e1",
+    "topic_id": "g8-percent",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $10\\%$ מתוך $200$?",
+    "options": [
+      "$20$",
+      "$10$",
+      "$200$",
+      "$100$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $0.1\\times 200=20$."
+  },
+  {
+    "id": "q-g8-percent-gapfill-e2",
+    "topic_id": "g8-percent",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $50\\%$ מתוך $60$?",
+    "options": [
+      "$30$",
+      "$50$",
+      "$60$",
+      "$25$"
+    ],
+    "correct_index": 0,
+    "explanation": "$50\\%$ הוא חצי: $60:2=30$."
+  },
+  {
+    "id": "q-g8-congruence-gapfill-e1",
+    "topic_id": "g8-congruence",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שני משולשים חופפים אם:",
+    "options": [
+      "כל הצלעות והזוויות המתאימות שוות",
+      "רק צלע אחת שווה",
+      "רק זווית אחת שווה",
+      "יש להם אותו שטח בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "חפיפה משמעה שכל האיברים המתאימים (צלעות וזוויות) שווים."
+  },
+  {
+    "id": "q-g8-congruence-gapfill-e2",
+    "topic_id": "g8-congruence",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם משולש $ABC$ חופף למשולש $DEF$, אז הצלע $AB$ שווה לצלע:",
+    "options": [
+      "$DE$",
+      "$EF$",
+      "$DF$",
+      "$BC$"
+    ],
+    "correct_index": 0,
+    "explanation": "בחפיפה, צלעות מתאימות (לפי סדר האותיות) שוות: $AB=DE$."
+  },
+  {
+    "id": "q-g8-similarity-gapfill-e1",
+    "topic_id": "g8-similarity",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בדמיון ביחס $1:3$, אם צלע במשולש הקטן היא $2$, הצלע המתאימה בגדול:",
+    "options": [
+      "$6$",
+      "$3$",
+      "$2$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $2\\times 3=6$."
+  },
+  {
+    "id": "q-g8-similarity-gapfill-e2",
+    "topic_id": "g8-similarity",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משולשים דומים הם משולשים בעלי:",
+    "options": [
+      "אותה צורה אך לא בהכרח אותו גודל",
+      "אותו גודל בדיוק",
+      "זוויות שונות",
+      "צלעות שוות"
+    ],
+    "correct_index": 0,
+    "explanation": "דמיון משמעו יחס קבוע בין הצלעות ואותן זוויות, אך לא בהכרח אותו גודל."
+  },
+  {
+    "id": "q-g8-pythagoras-gapfill-e1",
+    "topic_id": "g8-pythagoras",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית עם ניצבים $6$ ו-$8$, מהו היתר?",
+    "options": [
+      "$10$",
+      "$14$",
+      "$48$",
+      "$2$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי משפט פיתגורס: $\\sqrt{6^{2}+8^{2}}=\\sqrt{36+64}=\\sqrt{100}=10$."
+  },
+  {
+    "id": "q-g8-pythagoras-gapfill-e2",
+    "topic_id": "g8-pythagoras",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איך נקראת הצלע הארוכה ביותר במשולש ישר-זווית?",
+    "options": [
+      "היתר",
+      "ניצב",
+      "גובה",
+      "תיכון"
+    ],
+    "correct_index": 0,
+    "explanation": "הצלע שמול הזווית הישרה, הארוכה ביותר, נקראת היתר."
+  },
+  {
+    "id": "q-g9r-factor-expand-gapfill-e1",
+    "topic_id": "g9r-factor-expand",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פתחו: $3(x+2)$",
+    "options": [
+      "$3x+6$",
+      "$3x+2$",
+      "$x+6$",
+      "$3x+5$"
+    ],
+    "correct_index": 0,
+    "explanation": "חוק הפילוג: $3(x+2)=3x+6$."
+  },
+  {
+    "id": "q-g9r-factor-expand-gapfill-e2",
+    "topic_id": "g9r-factor-expand",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פתחו: $(x+1)(x+1)$",
+    "options": [
+      "$x^{2}+2x+1$",
+      "$x^{2}+1$",
+      "$x^{2}+2x+2$",
+      "$2x+2$"
+    ],
+    "correct_index": 0,
+    "explanation": "ריבוע דו-איבר: $(x+1)^{2}=x^{2}+2x+1$."
+  },
+  {
+    "id": "q-g9r-quad-eq-gapfill-e1",
+    "topic_id": "g9r-quad-eq",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פתרו: $x^{2}=9$ (הפתרון החיובי)",
+    "options": [
+      "$x=3$",
+      "$x=9$",
+      "$x=-3$",
+      "$x=81$"
+    ],
+    "correct_index": 0,
+    "explanation": "הפתרון החיובי הוא $x=\\sqrt{9}=3$."
+  },
+  {
+    "id": "q-g9r-quad-eq-gapfill-e2",
+    "topic_id": "g9r-quad-eq",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פתרו: $(x-1)(x-2)=0$",
+    "options": [
+      "$x=1$ או $x=2$",
+      "$x=-1$ או $x=-2$",
+      "$x=0$ בלבד",
+      "$x=1$ בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "מכפלה שווה אפס — לפחות גורם אחד מתאפס: $x=1$ או $x=2$."
+  },
+  {
+    "id": "q-g9r-quadratic-fn-gapfill-e1",
+    "topic_id": "g9r-quadratic-fn",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לפונקציה $y=x^{2}$, הקודקוד נמצא ב:",
+    "options": [
+      "$(0,0)$",
+      "$(1,0)$",
+      "$(0,1)$",
+      "$(1,1)$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפונקציה $y=x^{2}$ אין הזזה, ולכן הקודקוד בראשית הצירים."
+  },
+  {
+    "id": "q-g9r-quadratic-fn-gapfill-e2",
+    "topic_id": "g9r-quadratic-fn",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הפרבולה $y=x^{2}$ פונה:",
+    "options": [
+      "כלפי מעלה",
+      "כלפי מטה",
+      "ימינה",
+      "שמאלה"
+    ],
+    "correct_index": 0,
+    "explanation": "מקדם $x^{2}$ חיובי ($1$), ולכן הפרבולה פונה כלפי מעלה."
+  },
+  {
+    "id": "q-g9r-geometry-gapfill-e1",
+    "topic_id": "g9r-geometry",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה צלעות יש למרובע?",
+    "options": [
+      "$4$",
+      "$3$",
+      "$5$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "מרובע הוא צורה בעלת $4$ צלעות."
+  },
+  {
+    "id": "q-g9r-geometry-gapfill-e2",
+    "topic_id": "g9r-geometry",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במלבן, כל הזוויות הן:",
+    "options": [
+      "ישרות ($90^\\circ$)",
+      "שוות ל-$60^\\circ$",
+      "שונות זו מזו",
+      "קהות"
+    ],
+    "correct_index": 0,
+    "explanation": "תכונה של מלבן: כל ארבע הזוויות ישרות."
+  },
+  {
+    "id": "q-g9x-quadratic-gapfill-e1",
+    "topic_id": "g9x-quadratic",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי צורת הגרף של פונקציה ריבועית?",
+    "options": [
+      "פרבולה",
+      "קו ישר",
+      "מעגל",
+      "היפרבולה"
+    ],
+    "correct_index": 0,
+    "explanation": "הגרף של פונקציה ריבועית הוא תמיד פרבולה."
+  },
+  {
+    "id": "q-g9x-quadratic-gapfill-e2",
+    "topic_id": "g9x-quadratic",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לפונקציה $y=x^{2}+1$, מהו הערך כש $x=0$?",
+    "options": [
+      "$1$",
+      "$0$",
+      "$2$",
+      "$-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $x=0$: $y=0^{2}+1=1$."
+  },
+  {
+    "id": "q-g9x-geo-gapfill-e1",
+    "topic_id": "g9x-geo",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שטח ריבוע עם צלע $4$:",
+    "options": [
+      "$16$",
+      "$8$",
+      "$12$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $4\\times 4=16$."
+  },
+  {
+    "id": "q-g9x-geo-gapfill-e2",
+    "topic_id": "g9x-geo",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "היקף מלבן עם אורך $6$ ורוחב $2$:",
+    "options": [
+      "$16$",
+      "$12$",
+      "$8$",
+      "$14$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $2\\times(6+2)=16$."
+  },
+  {
+    "id": "q-g9x-percent-prob-gapfill-e1",
+    "topic_id": "g9x-percent-prob",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $25\\%$ מתוך $40$?",
+    "options": [
+      "$10$",
+      "$25$",
+      "$15$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $0.25\\times 40=10$."
+  },
+  {
+    "id": "q-g9x-percent-prob-gapfill-e2",
+    "topic_id": "g9x-percent-prob",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בכיס יש $4$ כדורים: $2$ אדומים ו-$2$ כחולים. מה ההסתברות להוציא כדור אדום?",
+    "options": [
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{4}$",
+      "$1$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "מספר הכדורים האדומים חלקי סך הכדורים: $\\frac{2}{4}=\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g7-square-roots-gapfill-e1",
+    "topic_id": "g7-square-roots",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{4}$?",
+    "options": [
+      "$2$",
+      "$4$",
+      "$8$",
+      "$16$"
+    ],
+    "correct_index": 0,
+    "explanation": "$2^{2}=4$, ולכן $\\sqrt{4}=2$."
+  },
+  {
+    "id": "q-g7-square-roots-gapfill-e2",
+    "topic_id": "g7-square-roots",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{100}$?",
+    "options": [
+      "$10$",
+      "$50$",
+      "$1000$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "$10^{2}=100$, ולכן $\\sqrt{100}=10$."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-gapfill-e1",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שני ישרים שלא נפגשים לעולם (באותו מישור) נקראים:",
+    "options": [
+      "מקבילים",
+      "ניצבים",
+      "חופפים",
+      "נחתכים"
+    ],
+    "correct_index": 0,
+    "explanation": "ישרים שאינם נפגשים לעולם נקראים מקבילים."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-gapfill-e2",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בתיבה, כמה פאות יש?",
+    "options": [
+      "$6$",
+      "$4$",
+      "$8$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "לתיבה יש $6$ פאות."
+  },
+  {
+    "id": "q-g8-ratio-proportion-scale-gapfill-e1",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "היחס בין $2$ ל-$4$ שווה ליחס בין:",
+    "options": [
+      "$1$ ל-$2$",
+      "$4$ ל-$2$",
+      "$3$ ל-$1$",
+      "$2$ ל-$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "מצמצמים: $2:4=1:2$."
+  },
+  {
+    "id": "q-g8-ratio-proportion-scale-gapfill-e2",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בקנה מידה $1:100$, אורך $2$ ס\"מ בשרטוט מייצג באמת:",
+    "options": [
+      "$200$ ס\"מ",
+      "$100$ ס\"מ",
+      "$2$ ס\"מ",
+      "$50$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $2\\times 100=200$ ס\"מ."
+  },
+  {
+    "id": "q-g8-irrational-numbers-gapfill-e1",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מספר רציונלי הוא מספר שאפשר לכתוב כ:",
+    "options": [
+      "מנה של שני מספרים שלמים",
+      "שורש כלשהו",
+      "מספר עשרוני אינסופי בלבד",
+      "רק מספר שלם"
+    ],
+    "correct_index": 0,
+    "explanation": "מספר רציונלי הוא כל מספר שניתן לכתוב כמנה של שני מספרים שלמים."
+  },
+  {
+    "id": "q-g8-irrational-numbers-gapfill-e2",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם $\\sqrt{4}$ הוא מספר רציונלי?",
+    "options": [
+      "כן, כי $\\sqrt{4}=2$",
+      "לא, כי יש שם שורש",
+      "אי אפשר לדעת",
+      "רק לפעמים"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{4}=2$ שהוא מספר שלם, ולכן רציונלי."
+  },
+  {
+    "id": "q-g7-signed-gapfill-h1",
+    "topic_id": "g7-signed",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $(-8)+(-3)-(-5)$?",
+    "options": [
+      "$-6$",
+      "$-16$",
+      "$0$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "קודם $(-8)+(-3)=-11$, ואז $-11-(-5)=-11+5=-6$."
+  },
+  {
+    "id": "q-g7-signed-gapfill-h2",
+    "topic_id": "g7-signed",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "טמפרטורה הייתה $-4$ מעלות, ירדה ב-$3$ מעלות, ואז עלתה ב-$9$ מעלות. מה הטמפרטורה עכשיו?",
+    "options": [
+      "$2$",
+      "$-7$",
+      "$8$",
+      "$-16$"
+    ],
+    "correct_index": 0,
+    "explanation": "קודם $-4-3=-7$, ואז $-7+9=2$."
+  },
+  {
+    "id": "q-g7-coordinates-gapfill-h1",
+    "topic_id": "g7-coordinates",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נקודה $A(2,3)$ הוזזה $4$ יחידות שמאלה ו-$5$ יחידות מטה. מהן הקואורדינטות החדשות?",
+    "options": [
+      "$(-2,-2)$",
+      "$(6,8)$",
+      "$(-2,8)$",
+      "$(6,-2)$"
+    ],
+    "correct_index": 0,
+    "explanation": "על ציר $x$: $2-4=-2$. על ציר $y$: $3-5=-2$."
+  },
+  {
+    "id": "q-g7-coordinates-gapfill-h2",
+    "topic_id": "g7-coordinates",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "באיזה רבע נמצאת הנקודה שהיא שיקוף של $(3,-4)$ ביחס לציר $y$?",
+    "options": [
+      "רבע 2",
+      "רבע 1",
+      "רבע 3",
+      "רבע 4"
+    ],
+    "correct_index": 0,
+    "explanation": "שיקוף ביחס לציר $y$ הופך את סימן $x$: $(3,-4)\\to(-3,-4)$. נקודה עם $x<0,y<0$ נמצאת ברבע השני."
+  },
+  {
+    "id": "q-g9x-equations-gapfill-h1",
+    "topic_id": "g9x-equations",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $3(x-2)=2x+1$",
+    "options": [
+      "$x=7$",
+      "$x=5$",
+      "$x=-7$",
+      "$x=1$"
+    ],
+    "correct_index": 0,
+    "explanation": "פותחים סוגריים: $3x-6=2x+1$, ולכן $x=7$."
+  },
+  {
+    "id": "q-g9x-equations-gapfill-h2",
+    "topic_id": "g9x-equations",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני מספרים: סכומם $20$ וההפרש ביניהם $4$. מהו המספר הגדול?",
+    "options": [
+      "$12$",
+      "$16$",
+      "$8$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "אם $x+y=20$ ו-$x-y=4$, אז חיבור המשוואות נותן $2x=24$, כלומר $x=12$."
+  },
+  {
+    "id": "q-g7-algebra-expr-gapfill-e1",
+    "topic_id": "g7-algebra-expr",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אם $a=2$, מהו $a+3$?",
+    "options": [
+      "$5$",
+      "$6$",
+      "$1$",
+      "$23$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $a=2$: $2+3=5$."
+  },
+  {
+    "id": "q-g7-algebra-expr-gapfill-e2",
+    "topic_id": "g7-algebra-expr",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו הביטוי האלגברי ל\"מספר כלשהו ועוד $5$\"?",
+    "options": [
+      "$x+5$",
+      "$5x$",
+      "$x-5$",
+      "$5-x$"
+    ],
+    "correct_index": 0,
+    "explanation": "\"מספר כלשהו\" מיוצג ב-$x$, ו\"ועוד $5$\" מוסיף $5$: $x+5$."
+  },
+  {
+    "id": "q-g7-algebra-expr-gapfill-h1",
+    "topic_id": "g7-algebra-expr",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם $x=3$, מהו $2x^{2}-x+1$?",
+    "options": [
+      "$16$",
+      "$10$",
+      "$14$",
+      "$18$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $x=3$: $2\\times 3^{2}-3+1=18-3+1=16$."
+  },
+  {
+    "id": "q-g7-algebra-expr-gapfill-h2",
+    "topic_id": "g7-algebra-expr",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פשטו את הביטוי: $3x+5-x+2$",
+    "options": [
+      "$2x+7$",
+      "$2x+5$",
+      "$4x+7$",
+      "$3x+7$"
+    ],
+    "correct_index": 0,
+    "explanation": "מאחדים איברים דומים: $3x-x=2x$, וגם $5+2=7$."
+  },
+  {
+    "id": "q-g7-equations-gapfill-e1",
+    "topic_id": "g7-equations",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פתרו: $x+2=5$",
+    "options": [
+      "$x=3$",
+      "$x=7$",
+      "$x=-3$",
+      "$x=2$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $x=5-2=3$."
+  },
+  {
+    "id": "q-g7-equations-gapfill-e2",
+    "topic_id": "g7-equations",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פתרו: $3x=9$",
+    "options": [
+      "$x=3$",
+      "$x=6$",
+      "$x=27$",
+      "$x=12$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $x=9\\div 3=3$."
+  },
+  {
+    "id": "q-g7-equations-gapfill-h1",
+    "topic_id": "g7-equations",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $2x+3=x+8$",
+    "options": [
+      "$x=5$",
+      "$x=11$",
+      "$x=-5$",
+      "$x=2$"
+    ],
+    "correct_index": 0,
+    "explanation": "מעבירים אגפים: $2x-x=8-3$, ולכן $x=5$."
+  },
+  {
+    "id": "q-g7-equations-gapfill-h2",
+    "topic_id": "g7-equations",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $\\frac{x}{2}+3=7$",
+    "options": [
+      "$x=8$",
+      "$x=20$",
+      "$x=4$",
+      "$x=14$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{x}{2}=4$, ולכן $x=8$."
+  },
+  {
+    "id": "q-g8-stats-prob-gapfill-e1",
+    "topic_id": "g8-stats-prob",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הממוצע של $3,3,3$ הוא:",
+    "options": [
+      "$3$",
+      "$9$",
+      "$1$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "כל המספרים שווים, לכן הממוצע הוא $3$."
+  },
+  {
+    "id": "q-g8-stats-prob-gapfill-e2",
+    "topic_id": "g8-stats-prob",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בכיס יש $5$ כדורים, כולם אדומים. מה ההסתברות להוציא כדור אדום?",
+    "options": [
+      "$1$",
+      "$0$",
+      "$0.5$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "כל הכדורים אדומים, לכן ההסתברות היא $1$ (ודאות)."
+  },
+  {
+    "id": "q-g8-stats-prob-gapfill-h1",
+    "topic_id": "g8-stats-prob",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חמישה ילדים בני $8,9,9,10,14$. מה החציון?",
+    "options": [
+      "$9$",
+      "$10$",
+      "$8.5$",
+      "$50$"
+    ],
+    "correct_index": 0,
+    "explanation": "הנתונים כבר ממוינים: $8,9,9,10,14$ — הערך האמצעי הוא $9$."
+  },
+  {
+    "id": "q-g8-stats-prob-gapfill-h2",
+    "topic_id": "g8-stats-prob",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בהטלת קובייה הוגנת ($1$ עד $6$), מה ההסתברות לקבל מספר זוגי?",
+    "options": [
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{2}{3}$"
+    ],
+    "correct_index": 0,
+    "explanation": "יש $3$ תוצאות זוגיות ($2,4,6$) מתוך $6$ אפשריות: $\\frac{3}{6}=\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g8-circle-gapfill-e1",
+    "topic_id": "g8-circle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו קוטר מעגל עם רדיוס $2$?",
+    "options": [
+      "$4$",
+      "$2$",
+      "$1$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "קוטר $=2\\times$ רדיוס $=2\\times 2=4$."
+  },
+  {
+    "id": "q-g8-circle-gapfill-e2",
+    "topic_id": "g8-circle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו רדיוס מעגל עם קוטר $12$?",
+    "options": [
+      "$6$",
+      "$12$",
+      "$24$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "רדיוס $=$ קוטר $:2=12:2=6$."
+  },
+  {
+    "id": "q-g8-circle-gapfill-h1",
+    "topic_id": "g8-circle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שטח עיגול הוא $9\\pi$. מה רדיוסו?",
+    "options": [
+      "$3$",
+      "$9$",
+      "$4.5$",
+      "$18$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\pi r^{2}=9\\pi\\Rightarrow r^{2}=9\\Rightarrow r=3$."
+  },
+  {
+    "id": "q-g8-circle-gapfill-h2",
+    "topic_id": "g8-circle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "היקף מעגל הוא $20\\pi$. מה קוטרו?",
+    "options": [
+      "$20$",
+      "$10$",
+      "$40$",
+      "$100$"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף $=\\pi d\\Rightarrow d=20$."
+  },
+  {
+    "id": "q-g9r-inequalities-gapfill-e1",
+    "topic_id": "g9r-inequalities",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פתרו: $x+1>3$",
+    "options": [
+      "$x>2$",
+      "$x>4$",
+      "$x<2$",
+      "$x>-2$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $x>3-1=2$."
+  },
+  {
+    "id": "q-g9r-inequalities-gapfill-e2",
+    "topic_id": "g9r-inequalities",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פתרו: $x-2<5$",
+    "options": [
+      "$x<7$",
+      "$x<3$",
+      "$x>7$",
+      "$x<-3$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $x<5+2=7$."
+  },
+  {
+    "id": "q-g9r-inequalities-gapfill-h1",
+    "topic_id": "g9r-inequalities",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $-2x>6$",
+    "options": [
+      "$x<-3$",
+      "$x>-3$",
+      "$x<3$",
+      "$x>3$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחלקים במספר שלילי ($-2$) — מהפכים את כיוון האי-שוויון: $x<-3$."
+  },
+  {
+    "id": "q-g9r-inequalities-gapfill-h2",
+    "topic_id": "g9r-inequalities",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $3x-1\\le 2x+4$",
+    "options": [
+      "$x\\le 5$",
+      "$x\\ge 5$",
+      "$x\\le 3$",
+      "$x\\le -5$"
+    ],
+    "correct_index": 0,
+    "explanation": "מעבירים אגפים: $3x-2x\\le 4+1$, ולכן $x\\le 5$."
+  },
+  {
+    "id": "q-g9x-linear-gapfill-e1",
+    "topic_id": "g9x-linear",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "ב-$y=x+1$, כש $x=1$ מהו $y$?",
+    "options": [
+      "$2$",
+      "$1$",
+      "$0$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $x=1$: $y=1+1=2$."
+  },
+  {
+    "id": "q-g9x-linear-gapfill-e2",
+    "topic_id": "g9x-linear",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו השיפוע של $y=4x$?",
+    "options": [
+      "$4$",
+      "$0$",
+      "$1$",
+      "$-4$"
+    ],
+    "correct_index": 0,
+    "explanation": "בצורה $y=mx$ השיפוע הוא $m=4$."
+  },
+  {
+    "id": "q-g9x-linear-gapfill-h1",
+    "topic_id": "g9x-linear",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "הישר $y=2x+3$ חותך את ציר $y$ בנקודה:",
+    "options": [
+      "$(0,3)$",
+      "$(3,0)$",
+      "$(0,2)$",
+      "$(2,0)$"
+    ],
+    "correct_index": 0,
+    "explanation": "חיתוך עם ציר $y$ מתקבל כש $x=0$: $y=2\\times 0+3=3$."
+  },
+  {
+    "id": "q-g9x-linear-gapfill-h2",
+    "topic_id": "g9x-linear",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו השיפוע של הישר העובר דרך $(0,1)$ ו-$(2,5)$?",
+    "options": [
+      "$2$",
+      "$4$",
+      "$1$",
+      "$0.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "שיפוע $=\\frac{5-1}{2-0}=\\frac{4}{2}=2$."
   }
 ];
 

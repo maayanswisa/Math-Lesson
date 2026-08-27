@@ -26,11 +26,6 @@ function pickRandom(list, n) {
   return arr.slice(0, Math.min(n, arr.length));
 }
 
-/** Topic quiz: 5 random questions from the full bank. */
-export function getQuestionsForTopic(topicId) {
-  return pickRandom(getAllQuestionsForTopic(topicId), TOPIC_QUIZ_SIZE);
-}
-
 /**
  * @param {'easy'|'medium'|'hard'} band
  */
@@ -39,6 +34,43 @@ function matchesDifficulty(q, band) {
   if (band === 'easy') return d <= 1;
   if (band === 'hard') return d >= 4;
   return d >= 2 && d <= 3;
+}
+
+/** How far a question's difficulty sits from the requested band — lower is closer. */
+function bandDistance(q, band) {
+  const d = Number(q.difficulty) || 2;
+  if (band === 'easy') return d;
+  if (band === 'hard') return -d;
+  return Math.abs(d - 2.5);
+}
+
+/**
+ * Pick `count` questions from `pool`, preferring ones matching `band`. Many
+ * topics don't have enough questions at a given band (e.g. no difficulty-1
+ * question at all) — instead of ignoring the band entirely in that case, fill
+ * the remaining slots with the closest difficulty available, so the result
+ * still skews toward what was asked for.
+ * @param {'easy'|'medium'|'hard'|null} band
+ */
+function pickForBand(pool, band, count) {
+  if (!band || band === 'all') return pickRandom(pool, count);
+  const matching = pickRandom(pool.filter((q) => matchesDifficulty(q, band)), count);
+  if (matching.length >= count) return matching;
+  const usedIds = new Set(matching.map((q) => q.id));
+  const rest = pickRandom(pool.filter((q) => !usedIds.has(q.id)), pool.length).sort(
+    (a, b) => bandDistance(a, band) - bandDistance(b, band),
+  );
+  return [...matching, ...rest.slice(0, count - matching.length)];
+}
+
+/**
+ * Topic quiz: 5 questions from the full bank, optionally weighted toward a
+ * difficulty band.
+ * @param {string} topicId
+ * @param {'easy'|'medium'|'hard'|null} [difficultyBand]
+ */
+export function getQuestionsForTopic(topicId, difficultyBand = null) {
+  return pickForBand(getAllQuestionsForTopic(topicId), difficultyBand, TOPIC_QUIZ_SIZE);
 }
 
 /**
@@ -56,12 +88,7 @@ export function buildCustomQuiz({ topicIds = [], count = 10, difficultyBand = 'm
     }
   }
 
-  let filtered = pool.filter((q) => matchesDifficulty(q, difficultyBand));
-  if (filtered.length < count) {
-    filtered = pool;
-  }
-
-  return pickRandom(filtered, count);
+  return pickForBand(pool, difficultyBand, count);
 }
 
 export { getHintsForQuestion } from '../../lib/hints.js';

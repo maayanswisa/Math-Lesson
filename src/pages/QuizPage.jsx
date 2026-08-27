@@ -5,7 +5,14 @@ import { getTopicById, GRADE_LABELS, GRADE9_TRACKS } from '../data/curriculum';
 import { getQuestionsForTopic } from '../data/questions';
 import { logQuizAttempt } from '../lib/progressLog';
 
-function loadQuestions(topicId, isCustom) {
+const DIFFICULTY_BANDS = [
+  { id: 'all', label: 'הכל' },
+  { id: 'easy', label: 'קל' },
+  { id: 'medium', label: 'בינוני' },
+  { id: 'hard', label: 'קשה' },
+];
+
+function loadQuestions(topicId, isCustom, band) {
   if (isCustom) {
     try {
       const raw = sessionStorage.getItem('math-lesson-custom-quiz');
@@ -14,7 +21,7 @@ function loadQuestions(topicId, isCustom) {
       return [];
     }
   }
-  return getQuestionsForTopic(topicId);
+  return getQuestionsForTopic(topicId, band);
 }
 
 export default function QuizPage() {
@@ -22,6 +29,7 @@ export default function QuizPage() {
   const isCustom = topicId === 'custom';
   /** Increments on "נסו שוב" to draw a fresh set of 5 from the topic bank. */
   const [drawId, setDrawId] = useState(0);
+  const [band, setBand] = useState('all');
 
   const customPayload = useMemo(() => {
     if (!isCustom) return null;
@@ -36,10 +44,10 @@ export default function QuizPage() {
   const topic = isCustom ? null : getTopicById(topicId);
 
   const questions = useMemo(
-    () => loadQuestions(topicId, isCustom),
+    () => loadQuestions(topicId, isCustom, band),
     // drawId forces a new random pick for topic quizzes; custom stays fixed.
     // eslint-disable-next-line react-hooks/exhaustive-deps -- intentional redraw
-    [topicId, isCustom, drawId],
+    [topicId, isCustom, drawId, band],
   );
 
   const handleRetry = useCallback(() => {
@@ -117,10 +125,29 @@ export default function QuizPage() {
             כיתה {GRADE_LABELS[grade]} · {questions.length} שאלות
           </p>
         )}
+        {!isCustom && (
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            <span className="text-sm text-[var(--color-slate)]">רמת קושי:</span>
+            {DIFFICULTY_BANDS.map((b) => (
+              <button
+                key={b.id}
+                type="button"
+                onClick={() => setBand(b.id)}
+                className={`rounded-lg px-3 py-1.5 text-sm font-semibold ${
+                  band === b.id
+                    ? 'bg-[var(--color-teal)] text-white'
+                    : 'bg-white text-[var(--color-ink)] ring-1 ring-black/10'
+                }`}
+              >
+                {b.label}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       <QuizCard
-        key={`${topicId}-${drawId}`}
+        key={`${topicId}-${band}-${drawId}`}
         questions={questions}
         topicExplanation={topic?.explanation ?? null}
         topicKeyFormulas={topic?.keyFormulas ?? null}

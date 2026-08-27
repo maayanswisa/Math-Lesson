@@ -19730,6 +19730,1386 @@ export const ELEMENTARY_QUESTIONS = [
     "options": ["$60$ סמ\"ק", "$16$ סמ\"ק", "$30$ סמ\"ק", "$600$ סמ\"ק"],
     "correct_index": 0,
     "explanation": "$6\\times10=60$."
+  },
+  {
+    "id": "q-g2-add-sub-100-gapfill-e1",
+    "topic_id": "g2-add-sub-100",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $10+20$?",
+    "options": [
+      "$30$",
+      "$40$",
+      "$20$",
+      "$25$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $10+20=30$."
+  },
+  {
+    "id": "q-g2-add-sub-100-gapfill-e2",
+    "topic_id": "g2-add-sub-100",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $50-20$?",
+    "options": [
+      "$30$",
+      "$20$",
+      "$40$",
+      "$35$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $50-20=30$."
+  },
+  {
+    "id": "q-g3-add-sub-large-gapfill-e1",
+    "topic_id": "g3-add-sub-large",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $2{,}000+3{,}000$?",
+    "options": [
+      "$5{,}000$",
+      "$6{,}000$",
+      "$4{,}000$",
+      "$5{,}500$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $2{,}000+3{,}000=5{,}000$."
+  },
+  {
+    "id": "q-g3-add-sub-large-gapfill-e2",
+    "topic_id": "g3-add-sub-large",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $5{,}000-1{,}000$?",
+    "options": [
+      "$4{,}000$",
+      "$3{,}000$",
+      "$6{,}000$",
+      "$4{,}500$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $5{,}000-1{,}000=4{,}000$."
+  },
+  {
+    "id": "q-g3-geometry-gapfill-e1",
+    "topic_id": "g3-geometry",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה צלעות יש למשולש?",
+    "options": [
+      "$3$",
+      "$4$",
+      "$5$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "למשולש יש $3$ צלעות."
+  },
+  {
+    "id": "q-g3-geometry-gapfill-e2",
+    "topic_id": "g3-geometry",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "קווים מאונכים נפגשים בזווית של:",
+    "options": [
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$180^\\circ$",
+      "$60^\\circ$"
+    ],
+    "correct_index": 0,
+    "explanation": "קווים מאונכים נפגשים בזווית ישרה, $90^\\circ$."
+  },
+  {
+    "id": "q-g3-area-gapfill-e1",
+    "topic_id": "g3-area",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שטח מלבן $2\\times 3$:",
+    "options": [
+      "$6$",
+      "$5$",
+      "$7$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח מלבן הוא אורך כפול רוחב: $2\\times 3=6$."
+  },
+  {
+    "id": "q-g3-area-gapfill-e2",
+    "topic_id": "g3-area",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה משבצות של $1\\times 1$ יש בריבוע $3\\times 3$?",
+    "options": [
+      "$9$",
+      "$6$",
+      "$12$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח הריבוע: $3\\times 3=9$ משבצות."
+  },
+  {
+    "id": "q-g4-large-numbers-gapfill-e1",
+    "topic_id": "g4-large-numbers",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: $1{,}200$ או $980$?",
+    "options": [
+      "$1{,}200$",
+      "$980$",
+      "שווים",
+      "$900$"
+    ],
+    "correct_index": 0,
+    "explanation": "$1{,}200>980$."
+  },
+  {
+    "id": "q-g4-large-numbers-gapfill-e2",
+    "topic_id": "g4-large-numbers",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה אפסים יש במספר $1{,}000$?",
+    "options": [
+      "$3$",
+      "$2$",
+      "$4$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "במספר $1{,}000$ יש שלושה אפסים."
+  },
+  {
+    "id": "q-g4-fractions-ops-gapfill-e1",
+    "topic_id": "g4-fractions-ops",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\frac{1}{5}+\\frac{2}{5}$?",
+    "options": [
+      "$\\frac{3}{5}$",
+      "$\\frac{3}{10}$",
+      "$\\frac{2}{5}$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $\\frac{1+2}{5}=\\frac{3}{5}$."
+  },
+  {
+    "id": "q-g4-fractions-ops-gapfill-e2",
+    "topic_id": "g4-fractions-ops",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\frac{3}{4}-\\frac{1}{4}$?",
+    "options": [
+      "$\\frac{2}{4}$",
+      "$\\frac{4}{4}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{2}{8}$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $\\frac{3-1}{4}=\\frac{2}{4}$."
+  },
+  {
+    "id": "q-g4-quadrilaterals-gapfill-e1",
+    "topic_id": "g4-quadrilaterals",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לריבוע יש כמה צלעות שוות?",
+    "options": [
+      "$4$",
+      "$3$",
+      "$2$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "לריבוע יש $4$ צלעות שוות."
+  },
+  {
+    "id": "q-g4-quadrilaterals-gapfill-e2",
+    "topic_id": "g4-quadrilaterals",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "היקף ריבוע עם צלע $3$:",
+    "options": [
+      "$12$",
+      "$9$",
+      "$6$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $4\\times 3=12$."
+  },
+  {
+    "id": "q-g5-fractions-add-sub-gapfill-e1",
+    "topic_id": "g5-fractions-add-sub",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\frac{1}{6}+\\frac{2}{6}$?",
+    "options": [
+      "$\\frac{3}{6}$",
+      "$\\frac{2}{6}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{3}{12}$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $\\frac{1+2}{6}=\\frac{3}{6}$."
+  },
+  {
+    "id": "q-g5-fractions-add-sub-gapfill-e2",
+    "topic_id": "g5-fractions-add-sub",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\frac{5}{7}-\\frac{2}{7}$?",
+    "options": [
+      "$\\frac{3}{7}$",
+      "$\\frac{7}{7}$",
+      "$\\frac{2}{7}$",
+      "$\\frac{3}{14}$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $\\frac{5-2}{7}=\\frac{3}{7}$."
+  },
+  {
+    "id": "q-g5-decimals-ops-gapfill-e1",
+    "topic_id": "g5-decimals-ops",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $0.2+0.3$?",
+    "options": [
+      "$0.5$",
+      "$0.05$",
+      "$0.6$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $0.2+0.3=0.5$."
+  },
+  {
+    "id": "q-g5-decimals-ops-gapfill-e2",
+    "topic_id": "g5-decimals-ops",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $0.9-0.4$?",
+    "options": [
+      "$0.5$",
+      "$0.4$",
+      "$1.3$",
+      "$0.05$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $0.9-0.4=0.5$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-gapfill-e1",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $20\\times 3$?",
+    "options": [
+      "$60$",
+      "$40$",
+      "$23$",
+      "$63$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $20\\times 3=60$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-gapfill-e2",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $100:10$?",
+    "options": [
+      "$10$",
+      "$1$",
+      "$100$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $100:10=10$."
+  },
+  {
+    "id": "q-g5-geometry-gapfill-e1",
+    "topic_id": "g5-geometry",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שטח מלבן $4\\times 2$:",
+    "options": [
+      "$8$",
+      "$6$",
+      "$10$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $4\\times 2=8$."
+  },
+  {
+    "id": "q-g5-geometry-gapfill-e2",
+    "topic_id": "g5-geometry",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "היקף ריבוע עם צלע $5$:",
+    "options": [
+      "$20$",
+      "$25$",
+      "$10$",
+      "$15$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $4\\times 5=20$."
+  },
+  {
+    "id": "q-g5-median-average-gapfill-e1",
+    "topic_id": "g5-median-average",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הממוצע של $4,6$:",
+    "options": [
+      "$5$",
+      "$10$",
+      "$4$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $(4+6):2=5$."
+  },
+  {
+    "id": "q-g5-median-average-gapfill-e2",
+    "topic_id": "g5-median-average",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הממוצע של $2,2,2$:",
+    "options": [
+      "$2$",
+      "$6$",
+      "$4$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "כל המספרים שווים, לכן הממוצע הוא $2$."
+  },
+  {
+    "id": "q-g6-ratio-percent-gapfill-e1",
+    "topic_id": "g6-ratio-percent",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $10\\%$ מ-$100$?",
+    "options": [
+      "$10$",
+      "$1$",
+      "$100$",
+      "$90$"
+    ],
+    "correct_index": 0,
+    "explanation": "$10\\%=\\frac{10}{100}$, ולכן $10\\%$ מ-$100$ הוא $10$."
+  },
+  {
+    "id": "q-g6-ratio-percent-gapfill-e2",
+    "topic_id": "g6-ratio-percent",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $50\\%$ מ-$20$?",
+    "options": [
+      "$10$",
+      "$5$",
+      "$15$",
+      "$25$"
+    ],
+    "correct_index": 0,
+    "explanation": "$50\\%$ הוא חצי: $20:2=10$."
+  },
+  {
+    "id": "q-g6-fractions-mul-div-gapfill-e1",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\frac{1}{2}\\times\\frac{1}{2}$?",
+    "options": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{2}{4}$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $\\frac{1\\times 1}{2\\times 2}=\\frac{1}{4}$."
+  },
+  {
+    "id": "q-g6-fractions-mul-div-gapfill-e2",
+    "topic_id": "g6-fractions-mul-div",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\frac{1}{3}\\times 3$?",
+    "options": [
+      "$1$",
+      "$3$",
+      "$\\frac{1}{9}$",
+      "$9$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $\\frac{1}{3}\\times 3=\\frac{3}{3}=1$."
+  },
+  {
+    "id": "q-g6-decimals-mul-div-gapfill-e1",
+    "topic_id": "g6-decimals-mul-div",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $2\\times 0.1$?",
+    "options": [
+      "$0.2$",
+      "$2.1$",
+      "$0.02$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $2\\times 0.1=0.2$."
+  },
+  {
+    "id": "q-g6-decimals-mul-div-gapfill-e2",
+    "topic_id": "g6-decimals-mul-div",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $1\\div 10$?",
+    "options": [
+      "$0.1$",
+      "$1$",
+      "$10$",
+      "$0.01$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $1\\div 10=0.1$."
+  },
+  {
+    "id": "q-g6-geometry-gapfill-e1",
+    "topic_id": "g6-geometry",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נפח תיבה $1\\times 1\\times 1$:",
+    "options": [
+      "$1$",
+      "$3$",
+      "$0$",
+      "$2$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $1\\times 1\\times 1=1$."
+  },
+  {
+    "id": "q-g6-geometry-gapfill-e2",
+    "topic_id": "g6-geometry",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "נפח תיבה $2\\times 2\\times 2$:",
+    "options": [
+      "$8$",
+      "$6$",
+      "$4$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $2\\times 2\\times 2=8$."
+  },
+  {
+    "id": "q-g5-numbers-million-gapfill-e1",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה ספרות יש במספר $1{,}000{,}000$?",
+    "options": [
+      "$7$",
+      "$6$",
+      "$8$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$1{,}000{,}000$ הוא מספר בן $7$ ספרות."
+  },
+  {
+    "id": "q-g5-numbers-million-gapfill-e2",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: $500{,}000$ או $50{,}000$?",
+    "options": [
+      "$500{,}000$",
+      "$50{,}000$",
+      "שווים",
+      "$5{,}000$"
+    ],
+    "correct_index": 0,
+    "explanation": "$500{,}000>50{,}000$."
+  },
+  {
+    "id": "q-g5-primes-gapfill-e1",
+    "topic_id": "g5-primes",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו המספר הראשוני הקטן ביותר?",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "$2$ הוא המספר הראשוני הקטן ביותר ($1$ אינו נחשב מספר ראשוני)."
+  },
+  {
+    "id": "q-g5-primes-gapfill-e2",
+    "topic_id": "g5-primes",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "$9$ הוא מספר:",
+    "options": [
+      "פריק",
+      "ראשוני",
+      "זוגי",
+      "שלילי"
+    ],
+    "correct_index": 0,
+    "explanation": "$9=3\\times 3$, ולכן הוא פריק."
+  },
+  {
+    "id": "q-g5-fractions-meaning-gapfill-e1",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "השבר $\\frac{1}{2}$ מתאר:",
+    "options": [
+      "חצי מהשלם",
+      "רבע מהשלם",
+      "שליש מהשלם",
+      "שלם אחד"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{2}$ הוא חצי מהשלם."
+  },
+  {
+    "id": "q-g5-fractions-meaning-gapfill-e2",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "עוגה חתוכה ל-$4$ חלקים שווים. כמה חלקים כאלה יש בעוגה שלמה?",
+    "options": [
+      "$4$",
+      "$2$",
+      "$3$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "עוגה שלמה מחולקת ל-$4$ חלקים שווים."
+  },
+  {
+    "id": "q-g5-decimals-intro-gapfill-e1",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כתבו את $\\frac{1}{10}$ כשבר עשרוני.",
+    "options": [
+      "$0.1$",
+      "$1.0$",
+      "$0.01$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "עשירית אחת נכתבת כ-$0.1$."
+  },
+  {
+    "id": "q-g5-decimals-intro-gapfill-e2",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה גדול יותר: $0.5$ או $0.2$?",
+    "options": [
+      "$0.5$",
+      "$0.2$",
+      "שווים",
+      "$0.02$"
+    ],
+    "correct_index": 0,
+    "explanation": "$0.5>0.2$."
+  },
+  {
+    "id": "q-g5-triangle-area-gapfill-e1",
+    "topic_id": "g5-triangle-area",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משולש שבסיסו $4$ ס\"מ וגובהו $2$ ס\"מ. מה שטחו?",
+    "options": [
+      "$4$ סמ\"ר",
+      "$8$ סמ\"ר",
+      "$6$ סמ\"ר",
+      "$2$ סמ\"ר"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח משולש $=\\frac{בסיס\\times גובה}{2}=\\frac{4\\times 2}{2}=4$."
+  },
+  {
+    "id": "q-g5-triangle-area-gapfill-e2",
+    "topic_id": "g5-triangle-area",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה הנוסחה לשטח משולש?",
+    "options": [
+      "בסיס כפול גובה חלקי 2",
+      "בסיס כפול גובה",
+      "היקף חלקי 2",
+      "אורך כפול רוחב"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח משולש שווה לבסיס כפול הגובה, חלקי $2$."
+  },
+  {
+    "id": "q-g5-parallelogram-area-gapfill-e1",
+    "topic_id": "g5-parallelogram-area",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מקבילית שבסיסה $5$ ס\"מ וגובהה $2$ ס\"מ. מה שטחה?",
+    "options": [
+      "$10$ סמ\"ר",
+      "$7$ סמ\"ר",
+      "$14$ סמ\"ר",
+      "$5$ סמ\"ר"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח מקבילית $=$ בסיס $\\times$ גובה $=5\\times 2=10$."
+  },
+  {
+    "id": "q-g5-parallelogram-area-gapfill-e2",
+    "topic_id": "g5-parallelogram-area",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה הנוסחה לשטח מקבילית?",
+    "options": [
+      "בסיס כפול גובה",
+      "בסיס כפול גובה חלקי 2",
+      "היקף חלקי 2",
+      "אלכסון כפול אלכסון"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח מקבילית שווה לבסיס כפול הגובה."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-gapfill-e1",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $2+3$?",
+    "options": [
+      "$5$",
+      "$6$",
+      "$1$",
+      "$23$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $2+3=5$."
+  },
+  {
+    "id": "q-g6-natural-numbers-ops-gapfill-e2",
+    "topic_id": "g6-natural-numbers-ops",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בתרגיל בלי סוגריים, מה מבצעים קודם: כפל או חיבור?",
+    "options": [
+      "כפל",
+      "חיבור",
+      "שניהם יחד",
+      "תלוי בסדר הכתיבה"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי סדר פעולות החשבון, מבצעים קודם כפל וחילוק, ורק אחר כך חיבור וחיסור."
+  },
+  {
+    "id": "q-g6-composite-shapes-gapfill-e1",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כדי לחשב שטח של צורה מורכבת, בדרך כלל:",
+    "options": [
+      "מפרקים אותה לצורות פשוטות יותר",
+      "מודדים רק צלע אחת",
+      "משתמשים רק בהיקף",
+      "מתעלמים מהחלקים הקטנים"
+    ],
+    "correct_index": 0,
+    "explanation": "צורה מורכבת מפורקת לצורות פשוטות (מלבנים, משולשים) שאפשר לחשב את שטחן בנפרד ולחבר."
+  },
+  {
+    "id": "q-g6-composite-shapes-gapfill-e2",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מלבן $4\\times 2$ ולידו מלבן $4\\times 1$ (ללא חפיפה). מה שטח הצורה כולה?",
+    "options": [
+      "$12$",
+      "$8$",
+      "$4$",
+      "$16$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח ראשון: $4\\times 2=8$. שטח שני: $4\\times 1=4$. סך הכול: $8+4=12$."
+  },
+  {
+    "id": "q-g6-circle-gapfill-e1",
+    "topic_id": "g6-circle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "רדיוס מעגל הוא $3$ ס\"מ. מה קוטרו?",
+    "options": [
+      "$6$",
+      "$3$",
+      "$9$",
+      "$1.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "קוטר $=2\\times$ רדיוס $=2\\times 3=6$."
+  },
+  {
+    "id": "q-g6-circle-gapfill-e2",
+    "topic_id": "g6-circle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "קוטר מעגל הוא $10$ ס\"מ. מה רדיוסו?",
+    "options": [
+      "$5$",
+      "$10$",
+      "$20$",
+      "$2.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "רדיוס $=$ קוטר $:2=10:2=5$."
+  },
+  {
+    "id": "q-g6-average-gapfill-e1",
+    "topic_id": "g6-average",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הממוצע של $2,4$:",
+    "options": [
+      "$3$",
+      "$6$",
+      "$2$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $(2+4):2=3$."
+  },
+  {
+    "id": "q-g6-average-gapfill-e2",
+    "topic_id": "g6-average",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הממוצע של $5,5,5$:",
+    "options": [
+      "$5$",
+      "$15$",
+      "$10$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "כל המספרים שווים, לכן הממוצע הוא $5$."
+  },
+  {
+    "id": "q-g1-count-20-gapfill-h1",
+    "topic_id": "g1-count-20",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "יש $12$ עפרונות. נתנו $5$ לחבר וקיבלו עוד $3$. כמה עפרונות יש עכשיו?",
+    "options": [
+      "$10$",
+      "$15$",
+      "$7$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "קודם $12-5=7$, ואז $7+3=10$."
+  },
+  {
+    "id": "q-g1-count-20-gapfill-h2",
+    "topic_id": "g1-count-20",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "סופרים בדילוגים של $2$: $4,6,8,10,\\ldots$ מה המספר הבא?",
+    "options": [
+      "$12$",
+      "$11$",
+      "$14$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "בדילוגים של $2$, אחרי $10$ בא $12$."
+  },
+  {
+    "id": "q-g1-numbers-100-gapfill-h1",
+    "topic_id": "g1-numbers-100",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "המספר $58$ מעוגל לעשרות הקרובות הוא:",
+    "options": [
+      "$60$",
+      "$50$",
+      "$58$",
+      "$55$"
+    ],
+    "correct_index": 0,
+    "explanation": "$58$ קרוב יותר ל-$60$ מאשר ל-$50$."
+  },
+  {
+    "id": "q-g1-numbers-100-gapfill-h2",
+    "topic_id": "g1-numbers-100",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מספר חסר ברצף: $23, 33, 43, \\square, 63$?",
+    "options": [
+      "$53$",
+      "$52$",
+      "$54$",
+      "$50$"
+    ],
+    "correct_index": 0,
+    "explanation": "הרצף מתקדם בדילוגים של $10$: אחרי $43$ בא $53$."
+  },
+  {
+    "id": "q-g1-add-sub-20-gapfill-h1",
+    "topic_id": "g1-add-sub-20",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "יש $9$ תפוחים. קנו עוד $7$ ואז אכלו $5$. כמה תפוחים נשארו?",
+    "options": [
+      "$11$",
+      "$16$",
+      "$14$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "קודם $9+7=16$, ואז $16-5=11$."
+  },
+  {
+    "id": "q-g1-add-sub-20-gapfill-h2",
+    "topic_id": "g1-add-sub-20",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מה המספר החסר: $8+\\square=15$?",
+    "options": [
+      "$7$",
+      "$6$",
+      "$9$",
+      "$23$"
+    ],
+    "correct_index": 0,
+    "explanation": "$15-8=7$."
+  },
+  {
+    "id": "q-g1-shapes-gapfill-h1",
+    "topic_id": "g1-shapes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לצורה יש $4$ צלעות שוות וכל הזוויות שלה ישרות. איזו צורה זו?",
+    "options": [
+      "ריבוע",
+      "מלבן",
+      "משולש",
+      "עיגול"
+    ],
+    "correct_index": 0,
+    "explanation": "רק בריבוע כל הצלעות שוות וגם כל הזוויות ישרות (במלבן הצלעות לא תמיד שוות)."
+  },
+  {
+    "id": "q-g1-shapes-gapfill-h2",
+    "topic_id": "g1-shapes",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה משולשים מתקבלים כשחותכים ריבוע לאורך אלכסון אחד?",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "חיתוך ריבוע לאורך אלכסון אחד נותן $2$ משולשים."
+  },
+  {
+    "id": "q-g2-numbers-1000-gapfill-h1",
+    "topic_id": "g2-numbers-1000",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מספר בן 3 ספרות: במקום המאות $4$, בעשרות $0$, ביחידות $7$. מהו המספר?",
+    "options": [
+      "$407$",
+      "$470$",
+      "$047$",
+      "$740$"
+    ],
+    "correct_index": 0,
+    "explanation": "מרכיבים את המספר לפי המקומות: מאות-עשרות-יחידות = $4,0,7$ — כלומר $407$."
+  },
+  {
+    "id": "q-g2-numbers-1000-gapfill-h2",
+    "topic_id": "g2-numbers-1000",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "עגלו את $685$ למאות הקרובות:",
+    "options": [
+      "$700$",
+      "$600$",
+      "$680$",
+      "$690$"
+    ],
+    "correct_index": 0,
+    "explanation": "ספרת העשרות היא $8$, ולכן מעגלים כלפי מעלה ל-$700$."
+  },
+  {
+    "id": "q-g2-shapes-measure-gapfill-h1",
+    "topic_id": "g2-shapes-measure",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מלבן שהיקפו $18$ ס\"מ ואורכו $6$ ס\"מ. מה רוחבו?",
+    "options": [
+      "$3$ ס\"מ",
+      "$12$ ס\"מ",
+      "$6$ ס\"מ",
+      "$9$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף $=2\\times(אורך+רוחב)$: $18=2\\times(6+רוחב)$, ולכן רוחב $=3$."
+  },
+  {
+    "id": "q-g2-shapes-measure-gapfill-h2",
+    "topic_id": "g2-shapes-measure",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני מלבנים: הראשון $4\\times 3$, השני $2\\times 5$. באיזה מהם השטח גדול יותר?",
+    "options": [
+      "הראשון",
+      "השני",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח ראשון: $4\\times 3=12$. שטח שני: $2\\times 5=10$. $12>10$."
+  },
+  {
+    "id": "q-g2-data-gapfill-h1",
+    "topic_id": "g2-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בטבלה: כיתה א׳=$4$, כיתה ב׳=$7$, כיתה ג׳=$5$. כמה יותר ילדים בכיתה ב׳ מאשר בכיתה א׳?",
+    "options": [
+      "$3$",
+      "$7$",
+      "$4$",
+      "$11$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $7-4=3$."
+  },
+  {
+    "id": "q-g2-data-gapfill-h2",
+    "topic_id": "g2-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עמודות: אדום=$6$, כחול=$2$, ירוק=$4$. מה סך כל הילדים?",
+    "options": [
+      "$12$",
+      "$6$",
+      "$8$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $6+2+4=12$."
+  },
+  {
+    "id": "q-g3-mul-div-100-gapfill-h1",
+    "topic_id": "g3-mul-div-100",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $12\\times 12$?",
+    "options": [
+      "$144$",
+      "$124$",
+      "$132$",
+      "$140$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $12\\times 12=144$."
+  },
+  {
+    "id": "q-g3-mul-div-100-gapfill-h2",
+    "topic_id": "g3-mul-div-100",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה קבוצות של $6$ יש ב-$54$?",
+    "options": [
+      "$9$",
+      "$8$",
+      "$10$",
+      "$7$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $54:6=9$."
+  },
+  {
+    "id": "q-g3-fractions-unit-gapfill-h1",
+    "topic_id": "g3-fractions-unit",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "סדרו מהקטן לגדול: $\\frac{1}{2},\\frac{1}{8},\\frac{1}{4}$.",
+    "options": [
+      "$\\frac{1}{8},\\frac{1}{4},\\frac{1}{2}$",
+      "$\\frac{1}{2},\\frac{1}{4},\\frac{1}{8}$",
+      "$\\frac{1}{4},\\frac{1}{8},\\frac{1}{2}$",
+      "$\\frac{1}{2},\\frac{1}{8},\\frac{1}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "ככל שהמכנה גדול יותר, שבר היחידה קטן יותר."
+  },
+  {
+    "id": "q-g3-fractions-unit-gapfill-h2",
+    "topic_id": "g3-fractions-unit",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה שבר יחידה שווה בדיוק לחצי מ-$\\frac{1}{3}$?",
+    "options": [
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{1}{9}$"
+    ],
+    "correct_index": 0,
+    "explanation": "חצי מ-$\\frac{1}{3}$ הוא $\\frac{1}{3}\\div 2=\\frac{1}{6}$."
+  },
+  {
+    "id": "q-g4-median-average-gapfill-h1",
+    "topic_id": "g4-median-average",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בגרף עמודות: ינואר=$3$, פברואר=$5$, מרץ=$4$, אפריל=$8$. מה החציון של הנתונים?",
+    "options": [
+      "$4.5$",
+      "$4$",
+      "$5$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "מסדרים: $3,4,5,8$. מספר זוגי של ערכים — החציון הוא ממוצע שני האמצעיים: $(4+5):2=4.5$."
+  },
+  {
+    "id": "q-g4-median-average-gapfill-h2",
+    "topic_id": "g4-median-average",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חמישה ילדים קיבלו ציונים: $80,90,70,100,60$. מה הממוצע?",
+    "options": [
+      "$80$",
+      "$90$",
+      "$70$",
+      "$85$"
+    ],
+    "correct_index": 0,
+    "explanation": "סכום הציונים: $80+90+70+100+60=400$. $400:5=80$."
+  },
+  {
+    "id": "q-g2-mul-div-intro-gapfill-e1",
+    "topic_id": "g2-mul-div-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $2\\times 3$?",
+    "options": [
+      "$6$",
+      "$5$",
+      "$8$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $2\\times 3=6$."
+  },
+  {
+    "id": "q-g2-mul-div-intro-gapfill-e2",
+    "topic_id": "g2-mul-div-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $10:2$?",
+    "options": [
+      "$5$",
+      "$2$",
+      "$10$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $10:2=5$."
+  },
+  {
+    "id": "q-g2-mul-div-intro-gapfill-h1",
+    "topic_id": "g2-mul-div-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בכיתה יש $24$ תלמידים בקבוצות שוות של $4$. אם מוסיפים עוד $8$ תלמידים ושומרים על קבוצות של $4$, כמה קבוצות יהיו בסך הכל?",
+    "options": [
+      "$8$",
+      "$6$",
+      "$7$",
+      "$9$"
+    ],
+    "correct_index": 0,
+    "explanation": "סך התלמידים אחרי התוספת: $24+8=32$. מספר הקבוצות: $32:4=8$."
+  },
+  {
+    "id": "q-g2-mul-div-intro-gapfill-h2",
+    "topic_id": "g2-mul-div-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהם שני המספרים שמכפלתם $20$ והפרשם $1$?",
+    "options": [
+      "$4$ ו־$5$",
+      "$2$ ו־$10$",
+      "$1$ ו־$20$",
+      "$5$ ו־$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$4\\times 5=20$ וגם $5-4=1$."
+  },
+  {
+    "id": "q-g2-fractions-half-gapfill-e1",
+    "topic_id": "g2-fractions-half",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "חצי מ-$4$ הוא:",
+    "options": [
+      "$2$",
+      "$4$",
+      "$1$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $4:2=2$."
+  },
+  {
+    "id": "q-g2-fractions-half-gapfill-e2",
+    "topic_id": "g2-fractions-half",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "רבע מ-$8$ הוא:",
+    "options": [
+      "$2$",
+      "$4$",
+      "$1$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $8:4=2$."
+  },
+  {
+    "id": "q-g2-fractions-half-gapfill-h1",
+    "topic_id": "g2-fractions-half",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פיצה נחתכה ל-$8$ חלקים שווים. איתי אכל רבע מהפיצה. כמה חלקים אכל איתי?",
+    "options": [
+      "$2$",
+      "$4$",
+      "$1$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "רבע מ-$8$ חלקים הוא $8:4=2$ חלקים."
+  },
+  {
+    "id": "q-g2-fractions-half-gapfill-h2",
+    "topic_id": "g2-fractions-half",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "יש $24$ סוכריות. נתנו חצי מהן לדני, ואז דני נתן רבע ממה שקיבל לחברו. כמה סוכריות נשארו לדני?",
+    "options": [
+      "$9$",
+      "$12$",
+      "$6$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "חצי מ-$24$ הוא $12$. רבע מ-$12$ הוא $3$. נשארו לדני $12-3=9$."
+  },
+  {
+    "id": "q-g3-numbers-10000-gapfill-e1",
+    "topic_id": "g3-numbers-10000",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: $500$ או $50$?",
+    "options": [
+      "$500$",
+      "$50$",
+      "שווים",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$500>50$."
+  },
+  {
+    "id": "q-g3-numbers-10000-gapfill-e2",
+    "topic_id": "g3-numbers-10000",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה ספרות יש במספר $10{,}000$?",
+    "options": [
+      "$5$",
+      "$4$",
+      "$6$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "במספר $10{,}000$ יש $5$ ספרות."
+  },
+  {
+    "id": "q-g3-numbers-10000-gapfill-h1",
+    "topic_id": "g3-numbers-10000",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "עגלו את $7{,}856$ למאות הקרובות, ולאחר מכן הוסיפו $200$.",
+    "options": [
+      "$8{,}100$",
+      "$7{,}900$",
+      "$8{,}000$",
+      "$7{,}856$"
+    ],
+    "correct_index": 0,
+    "explanation": "ספרת העשרות ב-$7{,}856$ היא $5$, ולכן מעגלים כלפי מעלה ל-$7{,}900$. ואז $7{,}900+200=8{,}100$."
+  },
+  {
+    "id": "q-g3-numbers-10000-gapfill-h2",
+    "topic_id": "g3-numbers-10000",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו המספר הגדול ביותר שאפשר להרכיב מהספרות $3,0,9,4$ (כל ספרה פעם אחת)?",
+    "options": [
+      "$9{,}430$",
+      "$9{,}403$",
+      "$4{,}390$",
+      "$3{,}094$"
+    ],
+    "correct_index": 0,
+    "explanation": "כדי לקבל את המספר הגדול ביותר, מסדרים את הספרות מהגדולה לקטנה: $9{,}430$."
+  },
+  {
+    "id": "q-g4-decimals-intro-gapfill-e1",
+    "topic_id": "g4-decimals-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה גדול יותר: $1.0$ או $0.9$?",
+    "options": [
+      "$1.0$",
+      "$0.9$",
+      "שווים",
+      "$0.09$"
+    ],
+    "correct_index": 0,
+    "explanation": "$1.0>0.9$."
+  },
+  {
+    "id": "q-g4-decimals-intro-gapfill-e2",
+    "topic_id": "g4-decimals-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כתבו את חצי כשבר עשרוני:",
+    "options": [
+      "$0.5$",
+      "$0.05$",
+      "$5$",
+      "$1.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "חצי שווה ל-$0.5$."
+  },
+  {
+    "id": "q-g4-decimals-intro-gapfill-h1",
+    "topic_id": "g4-decimals-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "סדרו מהקטן לגדול: $0.45, 0.5, 0.09, 0.6$.",
+    "options": [
+      "$0.09,0.45,0.5,0.6$",
+      "$0.6,0.5,0.45,0.09$",
+      "$0.45,0.09,0.5,0.6$",
+      "$0.09,0.5,0.45,0.6$"
+    ],
+    "correct_index": 0,
+    "explanation": "משווים ספרה-ספרה: $0.09$ הקטן ביותר, ואז $0.45$, $0.5$, $0.6$."
+  },
+  {
+    "id": "q-g4-decimals-intro-gapfill-h2",
+    "topic_id": "g4-decimals-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מספר עשרוני נמצא בדיוק באמצע בין $0.3$ ל-$0.5$?",
+    "options": [
+      "$0.4$",
+      "$0.35$",
+      "$0.45$",
+      "$0.2$"
+    ],
+    "correct_index": 0,
+    "explanation": "האמצע בין $0.3$ ל-$0.5$ הוא $(0.3+0.5):2=0.4$."
+  },
+  {
+    "id": "q-g1-count-20-gapfill-m1",
+    "topic_id": "g1-count-20",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה צריך להוסיף ל-$13$ כדי לקבל $20$?",
+    "options": [
+      "$7$",
+      "$6$",
+      "$8$",
+      "$33$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $20-13=7$."
+  },
+  {
+    "id": "q-g1-count-20-gapfill-m2",
+    "topic_id": "g1-count-20",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מי מהמספרים הבאים הכי גדול: $14, 9, 17$?",
+    "options": [
+      "$17$",
+      "$14$",
+      "$9$",
+      "שווים"
+    ],
+    "correct_index": 0,
+    "explanation": "$17$ הוא הגדול מבין השלושה."
+  },
+  {
+    "id": "q-g6-composite-shapes-gapfill-m1",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "צורה מורכבת ממלבן $5\\times 3$ ומלבן נוסף $2\\times 3$ (ללא חפיפה). מה השטח הכולל?",
+    "options": [
+      "$21$",
+      "$15$",
+      "$6$",
+      "$18$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח ראשון: $5\\times 3=15$. שטח שני: $2\\times 3=6$. סך הכול: $15+6=21$."
+  },
+  {
+    "id": "q-g6-composite-shapes-gapfill-m2",
+    "topic_id": "g6-composite-shapes",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדי לחשב היקף של צורה מורכבת, סופרים:",
+    "options": [
+      "את כל הקטעים שמקיפים את הצורה מבחוץ",
+      "רק שתי צלעות",
+      "רק את השטח",
+      "את מספר הפינות בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף הוא סכום אורכי כל הקטעים שמקיפים את הצורה מבחוץ."
   }
 ];
 
