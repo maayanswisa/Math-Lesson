@@ -171,7 +171,12 @@ export default function SciCalculator() {
   }
 
   function pressSuffix(token) {
-    if (!expr) return;
+    // After an error, `expr` still holds the invalid expression that failed
+    // (evaluate()'s catch only resets `display`/`fresh`, not `expr`). A
+    // suffix operator has no valid operand to apply to at that point, so
+    // treat it as a no-op instead of silently tainting the stale expr while
+    // the visible "Err" gets overwritten by the very next keystroke.
+    if (!expr || display === 'Err') return;
     setSolved(null);
     setExpr((e) => e + token);
     setDisplay((d) => (d === '0' || d === 'Err' ? d : d + token));
@@ -179,7 +184,7 @@ export default function SciCalculator() {
   }
 
   function toggleSign() {
-    if (!expr) return;
+    if (!expr || display === 'Err') return;
     setSolved(null);
     setExpr((e) => (e.startsWith(MINUS) ? e.slice(1) : MINUS + e));
     setDisplay((d) => (d === '0' ? d : d.startsWith(MINUS) ? d.slice(1) : MINUS + d));

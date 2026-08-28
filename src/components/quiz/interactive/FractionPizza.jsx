@@ -1,12 +1,15 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 export default function FractionPizza({ payload = {}, correctAnswer, onAnswerReady }) {
   const slices = payload.slices ?? 4;
+  const parsedAnswer = Number(correctAnswer);
   const targetFilled =
     payload.correctFilled ??
     (typeof correctAnswer === 'string' && correctAnswer.includes('/')
       ? Number(correctAnswer.split('/')[0])
-      : 1);
+      : Number.isFinite(parsedAnswer)
+        ? parsedAnswer
+        : 1);
 
   const [filled, setFilled] = useState(() => new Set());
   const size = 220;
@@ -29,17 +32,25 @@ export default function FractionPizza({ payload = {}, correctAnswer, onAnswerRea
     return out;
   }, [slices, cx, cy, r]);
 
+  function report(count) {
+    onAnswerReady?.({ value: count, isCorrect: count === targetFilled, display: `${count}/${slices}` });
+  }
+
+  // Report the starting "0 filled" state on mount too, the same way the
+  // slice count is reported after every click — otherwise a question whose
+  // correct answer is legitimately 0 slices could never be detected as
+  // correct (deselecting everything used to report `null`, "no answer yet").
+  useEffect(() => {
+    report(0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   function toggle(i) {
     setFilled((prev) => {
       const next = new Set(prev);
       if (next.has(i)) next.delete(i);
       else next.add(i);
-      const count = next.size;
-      onAnswerReady?.(
-        count > 0
-          ? { value: count, isCorrect: count === targetFilled, display: `${count}/${slices}` }
-          : null,
-      );
+      report(next.size);
       return next;
     });
   }

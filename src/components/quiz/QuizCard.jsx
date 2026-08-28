@@ -192,6 +192,7 @@ export default function QuizCard({
   const [interactiveAnswer, setInteractiveAnswer] = useState(null);
   const [answers, setAnswers] = useState([]);
   const answersRef = useRef([]);
+  const shakeTimeoutRef = useRef(null);
   const [phase, setPhase] = useState('quiz');
   const [feedback, setFeedback] = useState(null);
   const [shake, setShake] = useState(false);
@@ -222,6 +223,12 @@ export default function QuizCard({
     setHintsRevealed(0);
   }, [current?.id]);
 
+  useEffect(() => {
+    return () => {
+      if (shakeTimeoutRef.current) clearTimeout(shakeTimeoutRef.current);
+    };
+  }, []);
+
   function setAnswersBoth(next) {
     answersRef.current = next;
     setAnswers(next);
@@ -232,10 +239,10 @@ export default function QuizCard({
     finishedRef.current = true;
     if (reason === 'timeout') setTimedOut(true);
     const correctCount = finalAnswers.filter((a) => a.isCorrect).length;
-    const wrongCount = finalAnswers.length - correctCount;
+    const wrongCount = total - correctCount;
     const score = finalAnswers.length === 0 ? 0 : Math.round((correctCount / Math.max(total, 1)) * 100);
     const perfect = correctCount === total && total > 0 && reason !== 'timeout';
-    const { xpGained } = recordQuizComplete({ score, perfect });
+    const { xpGained } = recordQuizComplete({ perfect });
     setSessionXp((x) => x + xpGained);
     if (perfect || score >= 80) fireBigConfetti();
     if (shouldShowStudyMorePopup(wrongCount)) setShowPromo(true);
@@ -298,7 +305,8 @@ export default function QuizCard({
     } else {
       playWrong(muted);
       setShake(true);
-      setTimeout(() => setShake(false), 500);
+      if (shakeTimeoutRef.current) clearTimeout(shakeTimeoutRef.current);
+      shakeTimeoutRef.current = setTimeout(() => setShake(false), 500);
     }
 
     setFeedback({ isCorrect, explanation: current.explanation, xpGained });

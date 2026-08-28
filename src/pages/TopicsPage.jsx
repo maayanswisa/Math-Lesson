@@ -20,9 +20,13 @@ export default function TopicsPage() {
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all(topics.map(async (t) => [t.id, (await getAllQuestionsForTopic(t.id)).length])).then(
-      (entries) => {
-        if (!cancelled) setPoolSizes(Object.fromEntries(entries));
+    // allSettled (not all) so one topic's failed chunk load doesn't blank
+    // out every other topic's already-successful count.
+    Promise.allSettled(topics.map(async (t) => [t.id, (await getAllQuestionsForTopic(t.id)).length])).then(
+      (results) => {
+        if (cancelled) return;
+        const entries = results.filter((r) => r.status === 'fulfilled').map((r) => r.value);
+        setPoolSizes(Object.fromEntries(entries));
       },
     );
     return () => {

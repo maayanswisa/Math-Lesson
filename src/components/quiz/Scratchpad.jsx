@@ -302,6 +302,7 @@ export default function Scratchpad() {
 
   function pos(e) {
     const canvas = penCanvasRef.current;
+    if (!canvas) return null;
     const rect = canvas.getBoundingClientRect();
     return {
       x: e.clientX - rect.left,
@@ -404,6 +405,7 @@ export default function Scratchpad() {
     e.preventDefault();
     if (shapeLockedRef.current) return;
     const p = pos(e);
+    if (!p) return;
 
     if (toolRef.current !== 'eraser') {
       const pts = strokePointsRef.current;
@@ -452,100 +454,103 @@ export default function Scratchpad() {
     }
   }
 
-  if (!open) {
-    return (
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        className="h-full w-full rounded-xl bg-[var(--color-mist)]/70 px-3 py-2 text-sm text-[var(--color-slate)] ring-1 ring-black/5"
-      >
-        {'פתחו את לוח הטיוטה'}
-      </button>
-    );
-  }
-
+  // The panel below (and its <canvas> elements) stays mounted even while
+  // "closed" — unmounting it would wipe the canvases' bitmaps and destroy
+  // whatever the student had drawn. Minimizing only hides it with CSS.
   return (
-    <div
-      className="flex h-full min-h-[16rem] flex-col overflow-hidden rounded-xl bg-white ring-1 ring-black/10"
-      dir="rtl"
-    >
-      <div className="flex shrink-0 items-center justify-between border-b border-black/5 px-3 py-2">
-        <span className="text-sm font-semibold text-[var(--color-ink)]">{'טיוטה'}</span>
-        <div className="flex gap-2">
-          <button type="button" onClick={clear} className="text-xs text-[var(--color-slate)] hover:text-[var(--color-teal)]">
-            {'נקה הכל'}
-          </button>
-          <button type="button" onClick={() => setOpen(false)} className="text-xs text-[var(--color-slate)] hover:text-[var(--color-teal)]">
-            {'מזער'}
-          </button>
+    <>
+      {!open && (
+        <button
+          type="button"
+          onClick={() => setOpen(true)}
+          className="h-full w-full rounded-xl bg-[var(--color-mist)]/70 px-3 py-2 text-sm text-[var(--color-slate)] ring-1 ring-black/5"
+        >
+          {'פתחו את לוח הטיוטה'}
+        </button>
+      )}
+      <div
+        className="flex h-full min-h-[16rem] flex-col overflow-hidden rounded-xl bg-white ring-1 ring-black/10"
+        style={open ? undefined : { display: 'none' }}
+        dir="rtl"
+      >
+        <div className="flex shrink-0 items-center justify-between border-b border-black/5 px-3 py-2">
+          <span className="text-sm font-semibold text-[var(--color-ink)]">{'טיוטה'}</span>
+          <div className="flex gap-2">
+            <button type="button" onClick={clear} className="text-xs text-[var(--color-slate)] hover:text-[var(--color-teal)]">
+              {'נקה הכל'}
+            </button>
+            <button type="button" onClick={() => setOpen(false)} className="text-xs text-[var(--color-slate)] hover:text-[var(--color-teal)]">
+              {'מזער'}
+            </button>
+          </div>
         </div>
-      </div>
 
-      <div className="flex shrink-0 gap-1.5 border-b border-black/5 px-3 py-2">
-        {TOOLS.map((t) => (
-          <button
-            key={t.id}
-            type="button"
-            onClick={() => setTool(t.id)}
-            className={`flex-1 rounded-lg px-2 py-1.5 text-xs font-medium transition ${
-              tool === t.id
-                ? 'bg-[var(--color-teal)] text-white'
-                : 'bg-[var(--color-paper)] text-[var(--color-slate)] hover:bg-[var(--color-mist)]'
-            }`}
-          >
-            {t.label}
-          </button>
-        ))}
-      </div>
-
-      <div className="flex shrink-0 items-center gap-2 border-b border-black/5 px-3 py-2">
-        <span className="shrink-0 text-xs text-[var(--color-slate)]">{'עובי'}</span>
-        <input
-          type="range"
-          min={MIN_SIZE}
-          max={MAX_SIZE}
-          value={size}
-          onChange={(e) => setSize(Number(e.target.value))}
-          className="h-1.5 w-full flex-1 accent-[var(--color-teal)]"
-          aria-label="עובי החוד"
-        />
-        <span
-          className="shrink-0 rounded-full bg-[var(--color-ink)]"
-          style={{
-            width: Math.max(4, Math.min(18, size * 1.6)),
-            height: Math.max(4, Math.min(18, size * 1.6)),
-          }}
-        />
-      </div>
-
-      {tool !== 'eraser' && (
-        <div className="flex shrink-0 items-center gap-1.5 border-b border-black/5 px-3 py-2">
-          {COLORS.map((c) => (
+        <div className="flex shrink-0 gap-1.5 border-b border-black/5 px-3 py-2">
+          {TOOLS.map((t) => (
             <button
-              key={c.value}
+              key={t.id}
               type="button"
-              onClick={() => setColor(c.value)}
-              aria-label={c.name}
-              className={`h-5 w-5 shrink-0 rounded-full ring-2 transition ${
-                color === c.value ? 'ring-[var(--color-teal)]' : 'ring-transparent hover:ring-black/15'
+              onClick={() => setTool(t.id)}
+              className={`flex-1 rounded-lg px-2 py-1.5 text-xs font-medium transition ${
+                tool === t.id
+                  ? 'bg-[var(--color-teal)] text-white'
+                  : 'bg-[var(--color-paper)] text-[var(--color-slate)] hover:bg-[var(--color-mist)]'
               }`}
-              style={{ backgroundColor: c.value }}
-            />
+            >
+              {t.label}
+            </button>
           ))}
         </div>
-      )}
 
-      <div ref={wrapRef} className="relative min-h-[15rem] flex-1 bg-[#fbfcfd]">
-        <canvas ref={markerCanvasRef} className="absolute inset-0 block h-full w-full" />
-        <canvas
-          ref={penCanvasRef}
-          className="absolute inset-0 block h-full w-full touch-none cursor-crosshair"
-          onPointerDown={start}
-          onPointerMove={move}
-          onPointerUp={end}
-          onPointerCancel={end}
-        />
+        <div className="flex shrink-0 items-center gap-2 border-b border-black/5 px-3 py-2">
+          <span className="shrink-0 text-xs text-[var(--color-slate)]">{'עובי'}</span>
+          <input
+            type="range"
+            min={MIN_SIZE}
+            max={MAX_SIZE}
+            value={size}
+            onChange={(e) => setSize(Number(e.target.value))}
+            className="h-1.5 w-full flex-1 accent-[var(--color-teal)]"
+            aria-label="עובי החוד"
+          />
+          <span
+            className="shrink-0 rounded-full bg-[var(--color-ink)]"
+            style={{
+              width: Math.max(4, Math.min(18, size * 1.6)),
+              height: Math.max(4, Math.min(18, size * 1.6)),
+            }}
+          />
+        </div>
+
+        {tool !== 'eraser' && (
+          <div className="flex shrink-0 items-center gap-1.5 border-b border-black/5 px-3 py-2">
+            {COLORS.map((c) => (
+              <button
+                key={c.value}
+                type="button"
+                onClick={() => setColor(c.value)}
+                aria-label={c.name}
+                className={`h-5 w-5 shrink-0 rounded-full ring-2 transition ${
+                  color === c.value ? 'ring-[var(--color-teal)]' : 'ring-transparent hover:ring-black/15'
+                }`}
+                style={{ backgroundColor: c.value }}
+              />
+            ))}
+          </div>
+        )}
+
+        <div ref={wrapRef} className="relative min-h-[15rem] flex-1 bg-[#fbfcfd]">
+          <canvas ref={markerCanvasRef} className="absolute inset-0 block h-full w-full" />
+          <canvas
+            ref={penCanvasRef}
+            className="absolute inset-0 block h-full w-full touch-none cursor-crosshair"
+            onPointerDown={start}
+            onPointerMove={move}
+            onPointerUp={end}
+            onPointerCancel={end}
+          />
+        </div>
       </div>
-    </div>
+    </>
   );
 }

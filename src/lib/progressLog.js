@@ -4,7 +4,11 @@ function loadProgress() {
   try {
     const raw = localStorage.getItem(PROGRESS_KEY);
     if (!raw) return { attempts: [] };
-    return JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object' || !Array.isArray(parsed.attempts)) {
+      return { attempts: [] };
+    }
+    return parsed;
   } catch {
     return { attempts: [] };
   }
@@ -28,7 +32,6 @@ export function logQuizAttempt({
   custom = false,
 }) {
   const data = loadProgress();
-  data.attempts = data.attempts || [];
   data.attempts.unshift({
     id: `att-${Date.now()}`,
     topicId,

@@ -45,16 +45,26 @@ export default function QuizPage() {
 
   const [questions, setQuestions] = useState([]);
   const [questionsLoading, setQuestionsLoading] = useState(true);
+  const [loadError, setLoadError] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
     setQuestionsLoading(true);
-    loadQuestions(topicId, isCustom, band).then((qs) => {
-      if (!cancelled) {
-        setQuestions(qs);
-        setQuestionsLoading(false);
-      }
-    });
+    setLoadError(false);
+    loadQuestions(topicId, isCustom, band)
+      .then((qs) => {
+        if (!cancelled) {
+          setQuestions(qs);
+          setQuestionsLoading(false);
+        }
+      })
+      .catch(() => {
+        // e.g. a question-bank chunk failed to load (stale deploy, offline blip)
+        if (!cancelled) {
+          setLoadError(true);
+          setQuestionsLoading(false);
+        }
+      });
     return () => {
       cancelled = true;
     };
@@ -99,6 +109,26 @@ export default function QuizPage() {
       total: result.total,
       custom: isCustom,
     });
+  }
+
+  if (loadError) {
+    return (
+      <div className="space-y-4" dir="rtl">
+        <Link to={backHref} className="text-sm text-[var(--color-teal)] hover:underline">
+          ← {isCustom ? 'חזרה למחולל' : 'חזרה לנושאים'}
+        </Link>
+        <div className="space-y-4 rounded-2xl bg-white/80 p-8 text-center text-[var(--color-slate)] shadow-sm ring-1 ring-black/5">
+          <p>אירעה שגיאה בטעינת השאלות. נסו שוב.</p>
+          <button
+            type="button"
+            onClick={() => setDrawId((n) => n + 1)}
+            className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]"
+          >
+            נסו שוב
+          </button>
+        </div>
+      </div>
+    );
   }
 
   if (isCustom && !questionsLoading && !questions.length) {

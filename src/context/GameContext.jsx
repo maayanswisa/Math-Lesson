@@ -15,7 +15,16 @@ function loadState() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
-    return JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    if (
+      !parsed ||
+      typeof parsed.xp !== 'number' ||
+      typeof parsed.muted !== 'boolean' ||
+      typeof parsed.streak !== 'number'
+    ) {
+      return null;
+    }
+    return parsed;
   } catch {
     return null;
   }
@@ -47,26 +56,18 @@ export function GameProvider({ children }) {
     setState((s) => ({ ...s, muted: !s.muted }));
   }, []);
 
-  const recordAnswer = useCallback(
-    (isCorrect) => {
-      const nextStreak = isCorrect ? state.streak + 1 : 0;
-      let xpGained = 0;
-
+  const recordAnswer = useCallback((isCorrect) => {
+    let xpGained = 0;
+    setState((s) => {
+      const nextStreak = isCorrect ? s.streak + 1 : 0;
       if (isCorrect) {
         xpGained = XP_CORRECT;
         if (nextStreak > 0 && nextStreak % 3 === 0) xpGained += XP_STREAK_BONUS;
       }
-
-      setState((s) => ({
-        ...s,
-        xp: s.xp + xpGained,
-        streak: nextStreak,
-      }));
-
-      return { xpGained };
-    },
-    [state.streak],
-  );
+      return { ...s, xp: s.xp + xpGained, streak: nextStreak };
+    });
+    return { xpGained };
+  }, []);
 
   const recordQuizComplete = useCallback(
     ({ perfect }) => {

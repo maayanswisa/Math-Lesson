@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function NumberLine({ payload = {}, correctAnswer, onAnswerReady }) {
   const min = payload.min ?? -5;
   const max = payload.max ?? 5;
   const step = payload.step ?? 0.5;
-  const target = payload.target ?? Number(correctAnswer);
+  const parsedAnswer = Number(correctAnswer);
+  const target = payload.target ?? (Number.isFinite(parsedAnswer) ? parsedAnswer : min);
   const tolerance = payload.tolerance ?? step / 2 + 0.001;
   const mid = Math.round(((min + max) / 2) / step) * step;
   const [value, setValue] = useState(mid);
@@ -17,8 +18,18 @@ export default function NumberLine({ payload = {}, correctAnswer, onAnswerReady 
     });
   }
 
+  // Report the slider's initial (default) position on mount too — otherwise
+  // a question whose correct answer happens to equal the midpoint shows what
+  // looks like an already-correct answer, but the submit button stays
+  // disabled until the student actually moves the slider.
+  useEffect(() => {
+    report(mid);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const ticks = [];
-  for (let t = min; t <= max + 1e-9; t += step >= 1 ? 1 : step) {
+  const tickStep = step >= 1 ? 1 : step > 0 ? step : 1;
+  for (let t = min; t <= max + 1e-9; t += tickStep) {
     ticks.push(Math.round(t * 1000) / 1000);
   }
 

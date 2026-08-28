@@ -41,11 +41,18 @@ export default function CustomTestPage() {
       return;
     }
     setCreating(true);
-    const questions = await buildCustomQuiz({
-      topicIds: selected,
-      count,
-      difficultyBand: band,
-    });
+    let questions;
+    try {
+      questions = await buildCustomQuiz({
+        topicIds: selected,
+        count,
+        difficultyBand: band,
+      });
+    } catch {
+      setCreating(false);
+      setError('אירעה שגיאה ביצירת המבחן. נסו שוב.');
+      return;
+    }
     setCreating(false);
     if (!questions.length) {
       setError('לא נמצאו שאלות למסנן שנבחר. נסו רמת קושי אחרת.');

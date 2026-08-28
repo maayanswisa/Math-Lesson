@@ -28,7 +28,7 @@ export default function DragMatch({ payload = {}, onAnswerReady }) {
     setDragging(null);
   }
 
-  const unplaced = items.filter((it) => !placements[it.id]);
+  const unplaced = items.filter((it) => !(it.id in placements));
 
   return (
     <div className="space-y-4" dir="rtl">
