@@ -7,7 +7,7 @@
     <title>Math Lesson — תרגול מתמטיקה</title>
     <meta
       name="description"
-      content="תרגול מתמטיקה בעברית לכיתות א׳–י״ב: 280 נושאים ו-4,633 שאלות עם הסברים, רמזים ומעקב התקדמות. בחרו כיתה והתחילו לתרגל בחינם."
+      content="תרגול מתמטיקה בעברית לכיתות א׳–י״ב: 280 נושאים ו-4,355 שאלות עם הסברים, רמזים ומעקב התקדמות. בחרו כיתה והתחילו לתרגל בחינם."
     />
 
     <meta property="og:type" content="website" />
@@ -16,7 +16,7 @@
     <meta property="og:title" content="Math Lesson — תרגול מתמטיקה" />
     <meta
       property="og:description"
-      content="תרגול מתמטיקה בעברית לכיתות א׳–י״ב: 280 נושאים ו-4,633 שאלות עם הסברים, רמזים ומעקב התקדמות."
+      content="תרגול מתמטיקה בעברית לכיתות א׳–י״ב: 280 נושאים ו-4,355 שאלות עם הסברים, רמזים ומעקב התקדמות."
     />
     <meta property="og:image" content="https://math-lesson-math4u.vercel.app/og-image.png" />
     <meta property="og:image:width" content="1200" />
@@ -27,16 +27,35 @@
     <meta name="twitter:title" content="Math Lesson — תרגול מתמטיקה" />
     <meta
       name="twitter:description"
-      content="תרגול מתמטיקה בעברית לכיתות א׳–י״ב: 280 נושאים ו-4,633 שאלות עם הסברים, רמזים ומעקב התקדמות."
+      content="תרגול מתמטיקה בעברית לכיתות א׳–י״ב: 280 נושאים ו-4,355 שאלות עם הסברים, רמזים ומעקב התקדמות."
     />
     <meta name="twitter:image" content="https://math-lesson-math4u.vercel.app/og-image.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--
+      Load the font CSS without blocking first paint: fetch it as a "print"
+      stylesheet (not render-blocking), then flip it to "all" once it's
+      loaded. The font's own `display=swap` means text still renders
+      immediately with a fallback font in the meantime.
+    -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@600;700&display=swap"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@600;700&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@600;700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
   </head>
   <body>
     <div id="root"></div>
