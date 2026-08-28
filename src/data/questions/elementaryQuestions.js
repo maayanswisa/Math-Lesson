@@ -24753,6 +24753,277 @@ export const ELEMENTARY_QUESTIONS = [
     "correct_index": 0,
     "explanation": "ימים עם פחות מ-$3$ ספרים: $2$ ו-$1$ — סך הכול $2$ ימים."
   }
+,
+  {
+    "id": "q-g3-geometry-enrich2-1",
+    "topic_id": "g3-geometry",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "קווים מקבילים לעולם לא:",
+    "options": [
+      "נפגשים",
+      "נמצאים באותו מרחק זה מזה",
+      "ישרים",
+      "נמדדים"
+    ],
+    "correct_index": 0,
+    "explanation": "התכונה המרכזית של קווים מקבילים היא שהם לעולם לא נפגשים."
+  },
+  {
+    "id": "q-g3-geometry-enrich2-2",
+    "topic_id": "g3-geometry",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איך נקראת זווית הקטנה מ-$90°$?",
+    "options": [
+      "זווית חדה",
+      "זווית ישרה",
+      "זווית קהה",
+      "זווית שטוחה"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית הקטנה מ-$90°$ נקראת זווית חדה."
+  },
+  {
+    "id": "q-g3-geometry-enrich2-3",
+    "topic_id": "g3-geometry",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איך נקראת זווית הגדולה מ-$90°$ וקטנה מ-$180°$?",
+    "options": [
+      "זווית קהה",
+      "זווית חדה",
+      "זווית ישרה",
+      "זווית שטוחה"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית בין $90°$ ל-$180°$ נקראת זווית קהה."
+  },
+  {
+    "id": "q-g3-geometry-enrich2-4",
+    "topic_id": "g3-geometry",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "משולש שיש בו זווית אחת גדולה מ-$90°$ נקרא:",
+    "options": [
+      "משולש קהה-זווית",
+      "משולש חד-זוויות",
+      "משולש ישר-זווית",
+      "משולש שטוח"
+    ],
+    "correct_index": 0,
+    "explanation": "משולש עם זווית קהה אחת (גדולה מ-$90°$) נקרא קהה-זווית."
+  },
+  {
+    "id": "q-g3-geometry-enrich2-5",
+    "topic_id": "g3-geometry",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לריבוע יש $4$ זוויות. כל זווית בריבוע היא:",
+    "options": [
+      "זווית ישרה ($90°$)",
+      "זווית חדה",
+      "זווית קהה",
+      "זווית שטוחה"
+    ],
+    "correct_index": 0,
+    "explanation": "כל זוויות הריבוע הן זוויות ישרות, בדיוק כמו פינת דף."
+  },
+  {
+    "id": "q-g3-geometry-enrich2-6",
+    "topic_id": "g3-geometry",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "סדרו מהקטנה לגדולה: זווית ישרה, זווית חדה, זווית קהה",
+    "options": [
+      "חדה, ישרה, קהה",
+      "קהה, ישרה, חדה",
+      "ישרה, חדה, קהה",
+      "חדה, קהה, ישרה"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי הגודל: חדה $<90°$, ישרה $=90°$, קהה $>90°$."
+  },
+  {
+    "id": "q-g3-geometry-enrich2-7",
+    "topic_id": "g3-geometry",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש שיש בו זווית של $95°$ הוא משולש:",
+    "options": [
+      "קהה-זווית",
+      "חד-זוויות",
+      "ישר-זווית",
+      "שטוח"
+    ],
+    "correct_index": 0,
+    "explanation": "$95°$ גדולה מ-$90°$, ולכן זהו משולש קהה-זווית."
+  },
+  {
+    "id": "q-g3-geometry-enrich2-8",
+    "topic_id": "g3-geometry",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה זוג קווים לעולם לא נפגש ותמיד נמצא באותו מרחק קבוע זה מזה?",
+    "options": [
+      "קווים מקבילים",
+      "קווים מאונכים",
+      "קווים חופפים",
+      "קווים נחתכים"
+    ],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של קווים מקבילים."
+  },
+  {
+    "id": "q-g3-geometry-enrich2-9",
+    "topic_id": "g3-geometry",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במשולש שווה-צלעות (כל צלעותיו שוות), כל זוויותיו הן $60°$. אילו סוג משולש הוא לפי סיווג הזוויות?",
+    "options": [
+      "חד-זוויות (כי כל הזוויות קטנות מ-$90°$)",
+      "ישר-זווית",
+      "קהה-זווית",
+      "שטוח"
+    ],
+    "correct_index": 0,
+    "explanation": "$60°<90°$ בכל אחת משלוש הזוויות, ולכן משולש שווה-צלעות הוא תמיד חד-זוויות."
+  },
+  {
+    "id": "q-g3-fractions-unit-enrich2-1",
+    "topic_id": "g3-fractions-unit",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "\"אחד מתוך שלושה\" נכתב כשבר:",
+    "options": [
+      "$\\frac{1}{3}$",
+      "$\\frac{3}{1}$",
+      "$3$",
+      "$\\frac{1}{1}$"
+    ],
+    "correct_index": 0,
+    "explanation": "1 מתוך 3 נכתב כשבר $\\frac{1}{3}$."
+  },
+  {
+    "id": "q-g3-fractions-unit-enrich2-2",
+    "topic_id": "g3-fractions-unit",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "\"אחד מתוך שמונה\" נכתב כשבר:",
+    "options": [
+      "$\\frac{1}{8}$",
+      "$\\frac{8}{1}$",
+      "$8$",
+      "$\\frac{1}{1}$"
+    ],
+    "correct_index": 0,
+    "explanation": "1 מתוך 8 נכתב כשבר $\\frac{1}{8}$."
+  },
+  {
+    "id": "q-g3-fractions-unit-enrich2-3",
+    "topic_id": "g3-fractions-unit",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה שבר גדול יותר: $\\frac{1}{3}$ או $\\frac{1}{8}$?",
+    "options": [
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{8}$",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "ככל שהמכנה קטן יותר, שבר היחידה גדול יותר — ולכן $\\frac{1}{3}$ גדול מ-$\\frac{1}{8}$."
+  },
+  {
+    "id": "q-g3-fractions-unit-enrich2-4",
+    "topic_id": "g3-fractions-unit",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\frac{1}{4}$ מ-$12$?",
+    "options": [
+      "$3$",
+      "$4$",
+      "$6$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{4}$ מ-$12$ הוא $12\\div 4=3$."
+  },
+  {
+    "id": "q-g3-fractions-unit-enrich2-5",
+    "topic_id": "g3-fractions-unit",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\frac{1}{5}$ מ-$20$?",
+    "options": [
+      "$4$",
+      "$5$",
+      "$10$",
+      "$15$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{5}$ מ-$20$ הוא $20\\div 5=4$."
+  },
+  {
+    "id": "q-g3-fractions-unit-enrich2-6",
+    "topic_id": "g3-fractions-unit",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה שבר קטן יותר: $\\frac{1}{10}$ או $\\frac{1}{6}$?",
+    "options": [
+      "$\\frac{1}{10}$",
+      "$\\frac{1}{6}$",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "ככל שהמכנה גדול יותר, שבר היחידה קטן יותר — ולכן $\\frac{1}{10}$ קטן מ-$\\frac{1}{6}$."
+  },
+  {
+    "id": "q-g3-fractions-unit-enrich2-7",
+    "topic_id": "g3-fractions-unit",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "סדרו מהגדול לקטן: $\\frac{1}{2},\\frac{1}{10},\\frac{1}{5}$",
+    "options": [
+      "$\\frac{1}{2},\\frac{1}{5},\\frac{1}{10}$",
+      "$\\frac{1}{10},\\frac{1}{5},\\frac{1}{2}$",
+      "$\\frac{1}{5},\\frac{1}{2},\\frac{1}{10}$",
+      "$\\frac{1}{2},\\frac{1}{10},\\frac{1}{5}$"
+    ],
+    "correct_index": 0,
+    "explanation": "ככל שהמכנה קטן יותר, השבר גדול יותר: $\\frac{1}{2}$ הגדול ביותר, ואז $\\frac{1}{5}$, ואז $\\frac{1}{10}$."
+  },
+  {
+    "id": "q-g3-fractions-unit-enrich2-8",
+    "topic_id": "g3-fractions-unit",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה שבר יחידה שווה בדיוק לחצי מ-$\\frac{1}{4}$?",
+    "options": [
+      "$\\frac{1}{8}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{2}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "חצי מ-$\\frac{1}{4}$ הוא $\\frac{1}{4}\\div 2=\\frac{1}{8}$."
+  },
+  {
+    "id": "q-g3-fractions-unit-enrich2-9",
+    "topic_id": "g3-fractions-unit",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $\\frac{1}{2}$ מ-$\\frac{1}{5}$ (כשבר יחידה)?",
+    "options": [
+      "$\\frac{1}{10}$",
+      "$\\frac{1}{7}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{2}{5}$"
+    ],
+    "correct_index": 0,
+    "explanation": "חצי מ-$\\frac{1}{5}$ הוא $\\frac{1}{5}\\div 2=\\frac{1}{10}$."
+  }
 ]
 export function getElementaryQuestionsForTopic(topicId) {
   return ELEMENTARY_QUESTIONS.filter((q) => q.topic_id === topicId);

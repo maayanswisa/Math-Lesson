@@ -26088,6 +26088,457 @@ export const QUESTIONS = [
     "correct_index": 0,
     "explanation": "$\\int_{0}^{\\pi/2}\\cos x\\,dx=\\left[\\sin x\\right]_{0}^{\\pi/2}=\\sin(\\pi/2)-\\sin(0)=1-0=1$."
   }
+,
+  {
+    "id": "q-g11-u3-science-exp-enrich2-1",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אוכלוסייה גדלה לפי $P(t)=50\\cdot 3^{t}$. מהי האוכלוסייה ב-$t=0$?",
+    "options": [
+      "$50$",
+      "$0$",
+      "$150$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$P(0)=50\\times 3^{0}=50\\times 1=50$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-enrich2-2",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אוכלוסייה גדלה לפי $P(t)=20\\cdot 2^{t}$. כמה תהיה אחרי $4$ שעות?",
+    "options": [
+      "$320$",
+      "$160$",
+      "$80$",
+      "$40$"
+    ],
+    "correct_index": 0,
+    "explanation": "$P(4)=20\\times 2^{4}=20\\times 16=320$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-enrich2-3",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "חומר דועך לפי $N(t)=500\\cdot(0.5)^{t}$ ($t$ במחציות חיים). כמה יישאר אחרי מחצית חיים אחת?",
+    "options": [
+      "$250$",
+      "$500$",
+      "$125$",
+      "$50$"
+    ],
+    "correct_index": 0,
+    "explanation": "$N(1)=500\\times 0.5=250$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-enrich2-4",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חומר דועך לפי $N(t)=1000\\cdot(0.5)^{t}$. כמה יישאר אחרי $2$ מחציות חיים?",
+    "options": [
+      "$250$",
+      "$500$",
+      "$125$",
+      "$100$"
+    ],
+    "correct_index": 0,
+    "explanation": "$N(2)=1000\\times 0.5^{2}=1000\\times 0.25=250$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-enrich2-5",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בקבוצת נתונים שבה כל הערכים זהים, מהי סטיית התקן?",
+    "options": [
+      "$0$",
+      "אי אפשר לדעת",
+      "תמיד $1$",
+      "תלוי בערך עצמו"
+    ],
+    "correct_index": 0,
+    "explanation": "אם כל הערכים זהים לממוצע, אין סטייה כלל, ולכן סטיית התקן היא $0$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-enrich2-6",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קבוצת הנתונים: $10,14$. מהי סטיית התקן (של האוכלוסייה)?",
+    "options": [
+      "$2$",
+      "$4$",
+      "$8$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "הממוצע $12$. הסטיות: $-2,2$. הריבועים: $4,4$, ממוצעם $4$. סטיית התקן: $\\sqrt{4}=2$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-enrich2-7",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מאורעות בלתי תלויים $A,B$: $P(A)=0.3$, $P(B)=0.4$. מהי $P(A\\cap B)$?",
+    "options": [
+      "$0.12$",
+      "$0.7$",
+      "$0.1$",
+      "$1.2$"
+    ],
+    "correct_index": 0,
+    "explanation": "עבור מאורעות בלתי תלויים: $P(A\\cap B)=P(A)\\times P(B)=0.3\\times 0.4=0.12$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-enrich2-8",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מאורעות תלויים $A,B$: $P(A)=0.5$, $P(B/A)=0.6$. מהי $P(A\\cap B)$?",
+    "options": [
+      "$0.3$",
+      "$0.11$",
+      "$1.1$",
+      "$0.6$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל הכפל: $P(A\\cap B)=P(A)\\times P(B/A)=0.5\\times 0.6=0.3$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-enrich2-9",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שני מאורעות זרים: $P(A)=0.25$, $P(B)=0.35$. מהי $P(A\\cup B)$?",
+    "options": [
+      "$0.6$",
+      "$0.0875$",
+      "$0.1$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "למאורעות זרים: $P(A\\cup B)=P(A)+P(B)=0.25+0.35=0.6$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-enrich2-10",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בכיס $4$ כדורים אדומים ו-$6$ כחולים. מוציאים כדור בלי החזרה, ולאחר מכן מוציאים כדור נוסף. מהי ההסתברות ששני הכדורים אדומים?",
+    "options": [
+      "$\\frac{2}{15}$",
+      "$\\frac{4}{10}$",
+      "$\\frac{1}{5}$",
+      "$\\frac{2}{9}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$P=\\dfrac{4}{10}\\times\\dfrac{3}{9}=\\dfrac{12}{90}=\\dfrac{2}{15}$."
+  },
+  {
+    "id": "q-g11-u3-science-exp-enrich2-11",
+    "topic_id": "g11-u3-science-exp",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הממוצע של $8,12,16,20$ הוא:",
+    "options": [
+      "$14$",
+      "$12$",
+      "$16$",
+      "$15$"
+    ],
+    "correct_index": 0,
+    "explanation": "הממוצע: $(8+12+16+20)\\div 4=56\\div 4=14$."
+  },
+  {
+    "id": "q-g10-u3-science-integration-enrich2-1",
+    "topic_id": "g10-u3-science-integration",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בטבלת שכיחויות של מספר ספרים שקראו תלמידים בחודש: $0\\to3$, $1\\to5$, $2\\to10$, $3\\to7$, $4\\to5$ (סה\"כ $30$). מהו השכיח (המוד)?",
+    "options": [
+      "$2$",
+      "$3$",
+      "$10$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "השכיחות הגבוהה ביותר ($10$) מתאימה לערך $2$."
+  },
+  {
+    "id": "q-g10-u3-science-integration-enrich2-2",
+    "topic_id": "g10-u3-science-integration",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מאותה טבלה ($0\\to3$, $1\\to5$, $2\\to10$, $3\\to7$, $4\\to5$, סה\"כ $30$), מה ההסתברות שתלמיד אקראי קרא בדיוק $2$ ספרים?",
+    "options": [
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{5}$",
+      "$0.1$",
+      "$0.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{10}{30}=\\dfrac{1}{3}$."
+  },
+  {
+    "id": "q-g10-u3-science-integration-enrich2-3",
+    "topic_id": "g10-u3-science-integration",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מאותה טבלה, מה ההסתברות שתלמיד אקראי קרא יותר מ-$2$ ספרים?",
+    "options": [
+      "$0.4$",
+      "$0.25$",
+      "$0.6$",
+      "$0.33$"
+    ],
+    "correct_index": 0,
+    "explanation": "קראו יותר מ-$2$: $3$ או $4$ ספרים, $7+5=12$ תלמידים. $\\dfrac{12}{30}=0.4$."
+  },
+  {
+    "id": "q-g10-u3-science-integration-enrich2-4",
+    "topic_id": "g10-u3-science-integration",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מאותה טבלה, מה ההסתברות שתלמיד אקראי קרא פחות מ-$2$ ספרים (כלומר $0$ או $1$)?",
+    "options": [
+      "$\\approx 0.267$",
+      "$0.4$",
+      "$0.1$",
+      "$0.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "קראו פחות מ-$2$: $0$ או $1$ ספרים, $3+5=8$ תלמידים. $\\dfrac{8}{30}\\approx 0.267$."
+  },
+  {
+    "id": "q-g10-u3-science-integration-enrich2-5",
+    "topic_id": "g10-u3-science-integration",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מאותה טבלה ($0\\to3$, $1\\to5$, $2\\to10$, $3\\to7$, $4\\to5$, סה\"כ $30$), מהו הממוצע (בקירוב) של מספר הספרים שנקראו?",
+    "options": [
+      "$2.2$",
+      "$2$",
+      "$2.5$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "ממוצע משוקלל: $\\dfrac{0\\cdot3+1\\cdot5+2\\cdot10+3\\cdot7+4\\cdot5}{30}=\\dfrac{66}{30}=2.2$."
+  },
+  {
+    "id": "q-g10-u3-science-integration-enrich2-6",
+    "topic_id": "g10-u3-science-integration",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בסקר ספורט: כדורסל=$15$, כדורגל=$25$, שחייה=$10$ תלמידים. כמה תלמידים נסקרו בסך הכול?",
+    "options": [
+      "$50$",
+      "$40$",
+      "$35$",
+      "$25$"
+    ],
+    "correct_index": 0,
+    "explanation": "$15+25+10=50$."
+  },
+  {
+    "id": "q-g10-u3-science-integration-enrich2-7",
+    "topic_id": "g10-u3-science-integration",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מאותו סקר (כדורסל=$15$, כדורגל=$25$, שחייה=$10$, סה\"כ $50$), מה ההסתברות שתלמיד אקראי הכי אוהב כדורגל?",
+    "options": [
+      "$0.5$",
+      "$0.3$",
+      "$0.2$",
+      "$0.25$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{25}{50}=0.5$."
+  },
+  {
+    "id": "q-g10-u3-science-integration-enrich2-8",
+    "topic_id": "g10-u3-science-integration",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מאותו סקר, מה ההסתברות שתלמיד אקראי אינו אוהב כדורסל הכי הרבה?",
+    "options": [
+      "$0.7$",
+      "$0.3$",
+      "$0.5$",
+      "$0.15$"
+    ],
+    "correct_index": 0,
+    "explanation": "$1-\\dfrac{15}{50}=1-0.3=0.7$."
+  },
+  {
+    "id": "q-g10-u3-science-integration-enrich2-9",
+    "topic_id": "g10-u3-science-integration",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בטבלה: ציוני $5$ תלמידים הם $80,85,90,95,100$. מהו הממוצע?",
+    "options": [
+      "$90$",
+      "$85$",
+      "$95$",
+      "$88$"
+    ],
+    "correct_index": 0,
+    "explanation": "הממוצע: $(80+85+90+95+100)\\div 5=450\\div 5=90$."
+  },
+  {
+    "id": "q-g10-u3-science-integration-enrich2-10",
+    "topic_id": "g10-u3-science-integration",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מאותה קבוצת ציונים ($80,85,90,95,100$, ממוצע $90$), מה ההסתברות שציון שנבחר אקראית גבוה מהממוצע?",
+    "options": [
+      "$0.4$",
+      "$0.6$",
+      "$0.2$",
+      "$0.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "ציונים גבוהים מ-$90$: $95,100$ — $2$ מתוך $5$: $0.4$."
+  },
+  {
+    "id": "q-g10-u4-analytic-geo-enrich2-1",
+    "topic_id": "g10-u4-analytic-geo",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נקודת האמצע של הקטע בין $(2,4)$ ל-$(6,10)$?",
+    "options": [
+      "$(4,7)$",
+      "$(8,14)$",
+      "$(4,6)$",
+      "$(2,10)$"
+    ],
+    "correct_index": 0,
+    "explanation": "נקודת האמצע: $\\left(\\dfrac{2+6}{2},\\dfrac{4+10}{2}\\right)=(4,7)$."
+  },
+  {
+    "id": "q-g10-u4-analytic-geo-enrich2-2",
+    "topic_id": "g10-u4-analytic-geo",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו שיפוע הישר דרך הנקודות $(2,3)$ ו-$(5,9)$?",
+    "options": [
+      "$2$",
+      "$3$",
+      "$6$",
+      "$0.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "שיפוע: $m=\\dfrac{9-3}{5-2}=\\dfrac{6}{3}=2$."
+  },
+  {
+    "id": "q-g10-u4-analytic-geo-enrich2-3",
+    "topic_id": "g10-u4-analytic-geo",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ישר בעל שיפוע $m=3$ עובר בנקודה $(0,4)$. מהי משוואתו בצורה המפורשת?",
+    "options": [
+      "$y=3x+4$",
+      "$y=4x+3$",
+      "$y=3x-4$",
+      "$y=x+4$"
+    ],
+    "correct_index": 0,
+    "explanation": "בצורה $y=mx+b$: השיפוע $m=3$ וחיתוך ציר $y$ הוא $b=4$, כלומר $y=3x+4$."
+  },
+  {
+    "id": "q-g10-u4-analytic-geo-enrich2-4",
+    "topic_id": "g10-u4-analytic-geo",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ישר $y=2x+1$ מקביל לישר אחר. מהו שיפוע הישר המקביל?",
+    "options": [
+      "$2$",
+      "$-2$",
+      "$1$",
+      "$-0.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "ישרים מקבילים בעלי אותו שיפוע: $m=2$."
+  },
+  {
+    "id": "q-g10-u4-analytic-geo-enrich2-5",
+    "topic_id": "g10-u4-analytic-geo",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ישר בעל שיפוע $m=2$. מהו שיפוע הישר המאונך לו?",
+    "options": [
+      "$-\\dfrac{1}{2}$",
+      "$2$",
+      "$-2$",
+      "$\\dfrac{1}{2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "עבור ישרים מאונכים: $m_1\\cdot m_2=-1\\Rightarrow m_2=-\\dfrac{1}{2}$."
+  },
+  {
+    "id": "q-g10-u4-analytic-geo-enrich2-6",
+    "topic_id": "g10-u4-analytic-geo",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "היכן הישר $y=2x-6$ חותך את ציר ה-$x$?",
+    "options": [
+      "$(3,0)$",
+      "$(0,-6)$",
+      "$(-3,0)$",
+      "$(6,0)$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $y=0$: $0=2x-6\\Rightarrow x=3$, כלומר $(3,0)$."
+  },
+  {
+    "id": "q-g10-u4-analytic-geo-enrich2-7",
+    "topic_id": "g10-u4-analytic-geo",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "היכן הישר $y=2x-6$ חותך את ציר ה-$y$?",
+    "options": [
+      "$(0,-6)$",
+      "$(3,0)$",
+      "$(0,6)$",
+      "$(-6,0)$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $x=0$: $y=2\\times 0-6=-6$, כלומר $(0,-6)$."
+  },
+  {
+    "id": "q-g10-u4-analytic-geo-enrich2-8",
+    "topic_id": "g10-u4-analytic-geo",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי נקודת החיתוך של הישרים $y=x+1$ ו-$y=-x+5$?",
+    "options": [
+      "$(2,3)$",
+      "$(3,2)$",
+      "$(1,2)$",
+      "$(4,5)$"
+    ],
+    "correct_index": 0,
+    "explanation": "משווים: $x+1=-x+5\\Rightarrow 2x=4\\Rightarrow x=2,\\ y=3$, כלומר $(2,3)$."
+  },
+  {
+    "id": "q-g10-u4-analytic-geo-enrich2-9",
+    "topic_id": "g10-u4-analytic-geo",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני ישרים מאונכים; שיפוע הישר הראשון הוא $m_1=4$. מהו שיפוע הישר השני?",
+    "options": [
+      "$-\\dfrac{1}{4}$",
+      "$4$",
+      "$-4$",
+      "$\\dfrac{1}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$m_1\\cdot m_2=-1\\Rightarrow m_2=-\\dfrac{1}{4}$."
+  }
 ]
 export function getQuestionsForTopic(topicId) {
   return QUESTIONS.filter((q) => q.topic_id === topicId);
