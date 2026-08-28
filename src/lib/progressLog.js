@@ -1,25 +1,17 @@
+import { readJSON, writeJSON } from './storage.js';
+
 const PROGRESS_KEY = 'math-lesson-progress-v1';
 
 function loadProgress() {
-  try {
-    const raw = localStorage.getItem(PROGRESS_KEY);
-    if (!raw) return { attempts: [] };
-    const parsed = JSON.parse(raw);
-    if (!parsed || typeof parsed !== 'object' || !Array.isArray(parsed.attempts)) {
-      return { attempts: [] };
-    }
-    return parsed;
-  } catch {
+  const parsed = readJSON(PROGRESS_KEY, { attempts: [] });
+  if (!parsed || typeof parsed !== 'object' || !Array.isArray(parsed.attempts)) {
     return { attempts: [] };
   }
+  return parsed;
 }
 
 function saveProgress(data) {
-  try {
-    localStorage.setItem(PROGRESS_KEY, JSON.stringify(data));
-  } catch {
-    // storage unavailable (e.g. private browsing) — attempt just won't persist
-  }
+  writeJSON(PROGRESS_KEY, data);
 }
 
 export function logQuizAttempt({

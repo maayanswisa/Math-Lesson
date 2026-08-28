@@ -14,18 +14,15 @@ import { playCorrect, playWrong } from '../../lib/sounds';
 import { SPEED_RUN_SECONDS } from '../../lib/gameConfig';
 import { getHintsForQuestion } from '../../lib/hints';
 import { shouldShowStudyMorePopup } from '../../lib/promo';
+import { readJSON, writeJSON } from '../../lib/storage.js';
 
 const OPTION_LABELS = ['א', 'ב', 'ג', 'ד'];
 const TOOL_ORDER_KEY = 'math-lesson-tool-order-v1';
 
 function loadToolOrder() {
-  try {
-    const saved = JSON.parse(localStorage.getItem(TOOL_ORDER_KEY));
-    if (Array.isArray(saved) && saved.length === 2 && saved.includes('scratchpad') && saved.includes('calculator')) {
-      return saved;
-    }
-  } catch {
-    // ignore malformed storage
+  const saved = readJSON(TOOL_ORDER_KEY, null);
+  if (Array.isArray(saved) && saved.length === 2 && saved.includes('scratchpad') && saved.includes('calculator')) {
+    return saved;
   }
   return ['scratchpad', 'calculator'];
 }
@@ -101,6 +98,22 @@ function ExplanationButton({ onClick }) {
   );
 }
 
+function KeyFormulasList({ items, className = '' }) {
+  return (
+    <div className={`rounded-xl bg-[var(--color-paper)] p-4 ring-1 ring-black/5 ${className}`}>
+      <p className="mb-2 text-sm font-semibold text-[var(--color-teal)]">נוסחאות וטיפים לזכור</p>
+      <ul className="space-y-1.5 text-sm text-[var(--color-ink)]">
+        {items.map((item, idx) => (
+          <li key={idx} className="flex items-start gap-2">
+            <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-teal)]" />
+            <MathRenderer className="min-w-0 flex-1">{item}</MathRenderer>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 function ExplanationModal({ explanation, keyFormulas, onClose }) {
   return (
     <div
@@ -130,44 +143,25 @@ function ExplanationModal({ explanation, keyFormulas, onClose }) {
           הסבר הנושא
         </h3>
         {explanation && <MathRenderer className="text-[var(--color-slate)]">{explanation}</MathRenderer>}
-        {keyFormulas && keyFormulas.length > 0 && (
-          <div className="mt-4 rounded-xl bg-[var(--color-paper)] p-4 ring-1 ring-black/5">
-            <p className="mb-2 text-sm font-semibold text-[var(--color-teal)]">נוסחאות וטיפים לזכור</p>
-            <ul className="space-y-1.5 text-sm text-[var(--color-ink)]">
-              {keyFormulas.map((item, idx) => (
-                <li key={idx} className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-teal)]" />
-                  <MathRenderer className="min-w-0 flex-1">{item}</MathRenderer>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
+        {keyFormulas && keyFormulas.length > 0 && <KeyFormulasList items={keyFormulas} className="mt-4" />}
       </motion.div>
     </div>
   );
 }
 
+const INTERACTIVE_COMPONENTS = {
+  fractionPizza: FractionPizza,
+  numberLine: NumberLine,
+  dragMatch: DragMatch,
+};
+
 function QuestionBody({ question, mcqIndex, onMcqSelect, onInteractiveReady, locked }) {
   const type = question.type || 'mcq';
-  if (type === 'fractionPizza') {
+  const Interactive = INTERACTIVE_COMPONENTS[type];
+  if (Interactive) {
     return (
       <div className="mt-6">
-        <FractionPizza key={question.id} payload={question.payload} correctAnswer={question.correctAnswer} onAnswerReady={onInteractiveReady} />
-      </div>
-    );
-  }
-  if (type === 'numberLine') {
-    return (
-      <div className="mt-6">
-        <NumberLine key={question.id} payload={question.payload} correctAnswer={question.correctAnswer} onAnswerReady={onInteractiveReady} />
-      </div>
-    );
-  }
-  if (type === 'dragMatch') {
-    return (
-      <div className="mt-6">
-        <DragMatch key={question.id} payload={question.payload} onAnswerReady={onInteractiveReady} />
+        <Interactive key={question.id} payload={question.payload} correctAnswer={question.correctAnswer} onAnswerReady={onInteractiveReady} />
       </div>
     );
   }
@@ -207,11 +201,7 @@ export default function QuizCard({
   const hasTopicExplanation = Boolean(topicExplanation) || Boolean(topicKeyFormulas && topicKeyFormulas.length > 0);
 
   useEffect(() => {
-    try {
-      localStorage.setItem(TOOL_ORDER_KEY, JSON.stringify(toolOrder));
-    } catch {
-      // storage unavailable (e.g. private browsing) — order just won't persist
-    }
+    writeJSON(TOOL_ORDER_KEY, toolOrder);
   }, [toolOrder]);
 
   const showCalculator = grade != null && Number(grade) >= 7;
@@ -368,19 +358,7 @@ export default function QuizCard({
             {topicExplanation && (
               <MathRenderer className="text-[var(--color-slate)]">{topicExplanation}</MathRenderer>
             )}
-            {topicKeyFormulas && topicKeyFormulas.length > 0 && (
-              <div className="rounded-xl bg-[var(--color-paper)] p-4 ring-1 ring-black/5">
-                <p className="mb-2 text-sm font-semibold text-[var(--color-teal)]">נוסחאות וטיפים לזכור</p>
-                <ul className="space-y-1.5 text-sm text-[var(--color-ink)]">
-                  {topicKeyFormulas.map((item, idx) => (
-                    <li key={idx} className="flex items-start gap-2">
-                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-teal)]" />
-                      <MathRenderer className="min-w-0 flex-1">{item}</MathRenderer>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
+            {topicKeyFormulas && topicKeyFormulas.length > 0 && <KeyFormulasList items={topicKeyFormulas} />}
           </div>
         )}
         <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">

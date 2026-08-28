@@ -4,7 +4,7 @@ import {
   UNIT_OPTIONS,
   GRADE9_TRACKS,
   getTopics,
-  isElementary,
+  hasDirectTopics,
 } from '../data/curriculum';
 import { accentFor } from '../lib/palette';
 
@@ -14,7 +14,7 @@ export default function UnitsPage() {
   const label = GRADE_LABELS[gradeNum] ?? grade;
 
   // Grades 1-8: go straight to topics
-  if (isElementary(gradeNum) || gradeNum === 7 || gradeNum === 8) {
+  if (hasDirectTopics(gradeNum)) {
     return <Navigate to={`/grade/${gradeNum}/topics`} replace />;
   }
 

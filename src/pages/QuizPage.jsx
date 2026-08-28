@@ -4,6 +4,7 @@ import QuizCard from '../components/quiz/QuizCard';
 import { getTopicById, GRADE_LABELS, GRADE9_TRACKS } from '../data/curriculum';
 import { getQuestionsForTopic } from '../data/questions';
 import { logQuizAttempt } from '../lib/progressLog';
+import { readCustomQuiz } from '../lib/customQuiz.js';
 
 const DIFFICULTY_BANDS = [
   { id: 'all', label: 'הכל' },
@@ -14,12 +15,7 @@ const DIFFICULTY_BANDS = [
 
 async function loadQuestions(topicId, isCustom, band) {
   if (isCustom) {
-    try {
-      const raw = sessionStorage.getItem('math-lesson-custom-quiz');
-      return raw ? JSON.parse(raw)?.questions || [] : [];
-    } catch {
-      return [];
-    }
+    return readCustomQuiz()?.questions || [];
   }
   return getQuestionsForTopic(topicId, band);
 }
@@ -31,15 +27,7 @@ export default function QuizPage() {
   const [drawId, setDrawId] = useState(0);
   const [band, setBand] = useState('all');
 
-  const customPayload = useMemo(() => {
-    if (!isCustom) return null;
-    try {
-      const raw = sessionStorage.getItem('math-lesson-custom-quiz');
-      return raw ? JSON.parse(raw) : null;
-    } catch {
-      return null;
-    }
-  }, [isCustom]);
+  const customPayload = useMemo(() => (isCustom ? readCustomQuiz() : null), [isCustom]);
 
   const topic = isCustom ? null : getTopicById(topicId);
 

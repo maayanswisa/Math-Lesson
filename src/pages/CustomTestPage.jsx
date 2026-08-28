@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { GRADE_LABELS, getAllTopicsForGrade } from '../data/curriculum';
 import { buildCustomQuiz } from '../data/questions';
+import { writeCustomQuiz } from '../lib/customQuiz.js';
 
 const GRADES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 const COUNTS = [5, 10, 15];
@@ -65,7 +66,7 @@ export default function CustomTestPage() {
       title: `מבחן מותאם — כיתה ${GRADE_LABELS[grade]}`,
     };
     try {
-      sessionStorage.setItem('math-lesson-custom-quiz', JSON.stringify(payload));
+      writeCustomQuiz(payload);
     } catch {
       setError('לא ניתן לשמור את המבחן בדפדפן הזה. נסו לצאת ממצב גלישה פרטית ולנסות שוב.');
       return;

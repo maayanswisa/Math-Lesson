@@ -29,6 +29,12 @@ export function isElementary(grade) {
   return g >= 1 && g <= 6;
 }
 
+/** Grades that go straight from the home page to a topics list — no intermediate units/track picker (that's grade 9's tracks and grades 10-12's units). */
+export function hasDirectTopics(grade) {
+  const g = Number(grade);
+  return isElementary(g) || (isMiddleSchool(g) && g !== 9);
+}
+
 export function allTopics() {
   return [...ELEMENTARY_TOPICS, ...MIDDLE_SCHOOL_TOPICS, ...HIGH_SCHOOL_TOPICS];
 }

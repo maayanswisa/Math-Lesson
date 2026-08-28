@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { GRADE_LABELS, GRADE9_TRACKS, getTopics } from '../data/curriculum';
+import { GRADE_LABELS, GRADE9_TRACKS, getTopics, isElementary, hasDirectTopics } from '../data/curriculum';
 import { getAllQuestionsForTopic, TOPIC_QUIZ_SIZE } from '../data/questions';
 import { accentFor } from '../lib/palette';
 
@@ -41,12 +41,11 @@ export default function TopicsPage() {
     return acc;
   }, {});
 
-  const backHref =
-    gradeNum <= 8
-      ? '/'
-      : gradeNum === 9
-        ? '/grade/9'
-        : `/grade/${gradeNum}`;
+  const backHref = hasDirectTopics(gradeNum)
+    ? '/'
+    : gradeNum === 9
+      ? '/grade/9'
+      : `/grade/${gradeNum}`;
 
   const trackTitle =
     gradeNum === 9 && track
@@ -58,7 +57,7 @@ export default function TopicsPage() {
       ? `${unitsNum} יח״ל`
       : trackTitle
         ? trackTitle
-        : gradeNum <= 6
+        : isElementary(gradeNum)
           ? 'תוכנית היסודי'
           : 'תוכנית חטיבת הביניים';
 

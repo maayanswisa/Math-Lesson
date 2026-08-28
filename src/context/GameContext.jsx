@@ -6,28 +6,23 @@ import {
   levelFromXp,
   nextLevelInfo,
 } from '../lib/gameConfig';
+import { readJSON, writeJSON } from '../lib/storage.js';
 
 const STORAGE_KEY = 'math-lesson-game-v1';
 
 const GameContext = createContext(null);
 
 function loadState() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return null;
-    const parsed = JSON.parse(raw);
-    if (
-      !parsed ||
-      typeof parsed.xp !== 'number' ||
-      typeof parsed.muted !== 'boolean' ||
-      typeof parsed.streak !== 'number'
-    ) {
-      return null;
-    }
-    return parsed;
-  } catch {
+  const parsed = readJSON(STORAGE_KEY, null);
+  if (
+    !parsed ||
+    typeof parsed.xp !== 'number' ||
+    typeof parsed.muted !== 'boolean' ||
+    typeof parsed.streak !== 'number'
+  ) {
     return null;
   }
+  return parsed;
 }
 
 function defaultState() {
@@ -42,11 +37,7 @@ export function GameProvider({ children }) {
   const [state, setState] = useState(() => ({ ...defaultState(), ...(loadState() || {}) }));
 
   useEffect(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-    } catch {
-      // storage unavailable (e.g. private browsing) — progress just won't persist
-    }
+    writeJSON(STORAGE_KEY, state);
   }, [state]);
 
   const levelInfo = useMemo(() => nextLevelInfo(state.xp), [state.xp]);
