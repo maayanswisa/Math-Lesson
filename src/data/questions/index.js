@@ -12,7 +12,7 @@ export const TOPIC_QUIZ_SIZE = 5;
  * summing the array lengths in elementaryQuestions.js, middleSchoolQuestions.js,
  * highSchoolQuestions.js, and interactiveQuestions.js.
  */
-export const TOTAL_QUESTION_COUNT = 4251;
+export const TOTAL_QUESTION_COUNT = 4355;
 
 /**
  * Full bank for a topic (interactive + MCQ). The three big per-stage banks

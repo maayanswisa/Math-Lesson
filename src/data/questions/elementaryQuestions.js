@@ -24512,6 +24512,247 @@ export const ELEMENTARY_QUESTIONS = [
     "correct_index": 0,
     "explanation": "ימים עם יותר מ-$3$ מכירות: $5$ ו-$6$ — סך הכול $2$ ימים."
   }
+,
+  {
+    "id": "q-g1-count-20-enrich-1",
+    "topic_id": "g1-count-20",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו המספר שבא מיד אחרי $19$?",
+    "options": [
+      "$20$",
+      "$18$",
+      "$21$",
+      "$19$"
+    ],
+    "correct_index": 0,
+    "explanation": "המספר הבא אחרי $19$ בספירה הוא $20$."
+  },
+  {
+    "id": "q-g1-count-20-enrich-2",
+    "topic_id": "g1-count-20",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו המספר שבא מיד לפני $20$?",
+    "options": [
+      "$19$",
+      "$21$",
+      "$18$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "המספר שלפני $20$ בספירה הוא $19$."
+  },
+  {
+    "id": "q-g1-count-20-enrich-3",
+    "topic_id": "g1-count-20",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "השלימו את הרצף: $11,12,13,\\square,15$",
+    "options": [
+      "$14$",
+      "$16$",
+      "$13$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "הרצף עולה באחד בכל פעם, לכן החסר הוא $14$."
+  },
+  {
+    "id": "q-g1-count-20-enrich-4",
+    "topic_id": "g1-count-20",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: $20$ או $19$?",
+    "options": [
+      "$20$",
+      "$19$",
+      "שווים",
+      "$18$"
+    ],
+    "correct_index": 0,
+    "explanation": "$20$ נמצא רחוק יותר בספירה, ולכן גדול יותר."
+  },
+  {
+    "id": "q-g1-count-20-enrich-5",
+    "topic_id": "g1-count-20",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מספר נמצא בדיוק באמצע בין $4$ ל-$6$?",
+    "options": [
+      "$5$",
+      "$4$",
+      "$6$",
+      "$7$"
+    ],
+    "correct_index": 0,
+    "explanation": "בין $4$ ל-$6$ בספירה נמצא $5$."
+  },
+  {
+    "id": "q-g1-count-20-enrich-6",
+    "topic_id": "g1-count-20",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "סדרו מהגדול לקטן: $6,18,11$",
+    "options": [
+      "$18,11,6$",
+      "$6,11,18$",
+      "$11,18,6$",
+      "$18,6,11$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי סדר הספירה מהגדול לקטן: $18$, ואז $11$, ואז $6$."
+  },
+  {
+    "id": "q-g1-count-20-enrich-7",
+    "topic_id": "g1-count-20",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה מספרים יש בין $1$ ל-$5$ (לא כולל את שני הקצוות)?",
+    "options": [
+      "$3$",
+      "$4$",
+      "$5$",
+      "$2$"
+    ],
+    "correct_index": 0,
+    "explanation": "המספרים בין $1$ ל-$5$ הם $2,3,4$ — סך הכול $3$ מספרים."
+  },
+  {
+    "id": "q-g1-count-20-enrich-8",
+    "topic_id": "g1-count-20",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים $8$, $16$, $3$ הכי רחוק מ-$10$?",
+    "options": [
+      "$3$",
+      "$8$",
+      "$16$",
+      "כולם שווים"
+    ],
+    "correct_index": 0,
+    "explanation": "המרחק מ-$10$: ל-$8$ יש $2$, ל-$16$ יש $6$, ל-$3$ יש $7$ — $3$ הכי רחוק."
+  },
+  {
+    "id": "q-g2-data-enrich-1",
+    "topic_id": "g2-data",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בטבלה: כלבים=$4$, חתולים=$6$. איזו חיה יש פחות?",
+    "options": [
+      "כלבים",
+      "חתולים",
+      "שווה",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "$4<6$, ולכן יש פחות כלבים."
+  },
+  {
+    "id": "q-g2-data-enrich-2",
+    "topic_id": "g2-data",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עמודות: כדורים כחולים=$7$, אדומים=$7$. מה ניתן לומר?",
+    "options": [
+      "יש מספר שווה מכל צבע",
+      "יש יותר כחולים",
+      "יש יותר אדומים",
+      "אין נתונים מספיקים"
+    ],
+    "correct_index": 0,
+    "explanation": "$7=7$, ולכן הכמויות שוות."
+  },
+  {
+    "id": "q-g2-data-enrich-3",
+    "topic_id": "g2-data",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפיקטוגרם כל סמל ⭐ מייצג תלמיד אחד. אם מופיעים $6$ סמלים, כמה תלמידים מיוצגים?",
+    "options": [
+      "$6$",
+      "$3$",
+      "$12$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "כל סמל מייצג תלמיד אחד, ויש $6$ סמלים — לכן $6$ תלמידים."
+  },
+  {
+    "id": "q-g2-data-enrich-4",
+    "topic_id": "g2-data",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בטבלה: יום א׳=$5$ מבקרים, יום ב׳=$3$, יום ג׳=$8$. באיזה יום הגיעו הכי מעט מבקרים?",
+    "options": [
+      "יום ב׳",
+      "יום א׳",
+      "יום ג׳",
+      "שווה בכולם"
+    ],
+    "correct_index": 0,
+    "explanation": "$3$ הוא המספר הקטן ביותר בטבלה — יום ב׳."
+  },
+  {
+    "id": "q-g2-data-enrich-5",
+    "topic_id": "g2-data",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בטבלה: כיתה א׳=$9$ תלמידים, כיתה ב׳=$9$, כיתה ג׳=$11$. אילו שתי כיתות שוות בגודלן?",
+    "options": [
+      "כיתה א׳ וכיתה ב׳",
+      "כיתה א׳ וכיתה ג׳",
+      "כיתה ב׳ וכיתה ג׳",
+      "כל השלוש"
+    ],
+    "correct_index": 0,
+    "explanation": "כיתה א׳ וכיתה ב׳ מונות שתיהן $9$ תלמידים."
+  },
+  {
+    "id": "q-g2-data-enrich-6",
+    "topic_id": "g2-data",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עמודות: תפוחים=$4$, אגסים=$6$, בננות=$2$. כמה יותר אגסים יש מבננות?",
+    "options": [
+      "$4$",
+      "$2$",
+      "$6$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "ההפרש: $6-2=4$."
+  },
+  {
+    "id": "q-g2-data-enrich-7",
+    "topic_id": "g2-data",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בפיקטוגרם כל סמל 🐟 מייצג $3$ דגים. אם מופיעים $4$ סמלים, כמה דגים יש בסך הכול?",
+    "options": [
+      "$12$",
+      "$4$",
+      "$7$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "כל סמל מייצג $3$ דגים, ויש $4$ סמלים: $4\\times 3=12$."
+  },
+  {
+    "id": "q-g2-data-enrich-8",
+    "topic_id": "g2-data",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "דיאגרמת עמודות מציגה קריאת ספרים בחמישה ימים: $2,4,1,5,3$. בכמה ימים נקראו פחות מ-$3$ ספרים?",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "ימים עם פחות מ-$3$ ספרים: $2$ ו-$1$ — סך הכול $2$ ימים."
+  }
 ]
 export function getElementaryQuestionsForTopic(topicId) {
   return ELEMENTARY_QUESTIONS.filter((q) => q.topic_id === topicId);

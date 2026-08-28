@@ -14267,6 +14267,127 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "correct_index": 0,
     "explanation": "המספרים הראשוניים בין $1$ ל-$5$ הם $\\{2,3,5\\}$ — $3$ מתוך $5$: $\\frac{3}{5}$."
   }
+,
+  {
+    "id": "q-g9r-probability-enrich-1",
+    "topic_id": "g9r-probability",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מטילים קובייה הוגנת. מהי ההסתברות לקבל את המספר $6$?",
+    "options": [
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{2}$",
+      "$1$",
+      "$\\frac{1}{3}$"
+    ],
+    "correct_index": 0,
+    "explanation": "יש $6$ תוצאות שוות-סיכוי, ורק אחת מהן היא $6$."
+  },
+  {
+    "id": "q-g9r-probability-enrich-2",
+    "topic_id": "g9r-probability",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בכיס $5$ כדורים לבנים ו-$5$ כדורים שחורים. מהי ההסתברות להוציא כדור לבן?",
+    "options": [
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{5}$",
+      "$1$",
+      "$\\frac{1}{10}$"
+    ],
+    "correct_index": 0,
+    "explanation": "סך הכדורים: $5+5=10$. $P(\\text{לבן})=\\frac{5}{10}=\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g9r-probability-enrich-3",
+    "topic_id": "g9r-probability",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מטילים קובייה הוגנת. מהי ההסתברות לקבל מספר קטן מ-$3$?",
+    "options": [
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{2}{3}$"
+    ],
+    "correct_index": 0,
+    "explanation": "המאורע \"קטן מ-$3$\" הוא $\\{1,2\\}$ — $2$ מתוך $6$: $\\frac{2}{6}=\\frac{1}{3}$."
+  },
+  {
+    "id": "q-g9r-probability-enrich-4",
+    "topic_id": "g9r-probability",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מטבע הוגן מוטל פעם אחת. מה ההסתברות לקבל \"פלי\" (לא עץ)?",
+    "options": [
+      "$\\frac{1}{2}$",
+      "$1$",
+      "$0$",
+      "$\\frac{1}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "למטבע הוגן יש שתי תוצאות שוות-סיכוי, ולכן $P(\\text{פלי})=\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g9r-probability-enrich-5",
+    "topic_id": "g9r-probability",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בכיתה $30$ תלמידים, מהם $18$ בנים. מהי ההסתברות שתלמיד/ה שנבחר/ה באקראי הוא בן?",
+    "options": [
+      "$0.6$",
+      "$0.4$",
+      "$0.18$",
+      "$0.3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$P(\\text{בן})=\\frac{18}{30}=0.6$."
+  },
+  {
+    "id": "q-g9r-probability-enrich-6",
+    "topic_id": "g9r-probability",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קופסה עם $2$ כדורים אדומים, $3$ כחולים ו-$5$ ירוקים. מהי ההסתברות שלא יצא כדור אדום?",
+    "options": [
+      "$0.8$",
+      "$0.2$",
+      "$0.5$",
+      "$0.3$"
+    ],
+    "correct_index": 0,
+    "explanation": "סך הכדורים: $2+3+5=10$. $P(\\text{לא אדום})=1-\\frac{2}{10}=0.8$."
+  },
+  {
+    "id": "q-g9r-probability-enrich-7",
+    "topic_id": "g9r-probability",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מטילים שני מטבעות הוגנים. מהי ההסתברות ששניהם יראו \"עץ\"?",
+    "options": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{3}$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "מרחב המדגם: $\\{עץ עץ, עץ פלי, פלי עץ, פלי פלי\\}$ — $4$ תוצאות שוות-סיכוי, ורק אחת מתאימה: $\\frac{1}{4}$."
+  },
+  {
+    "id": "q-g9r-probability-enrich-8",
+    "topic_id": "g9r-probability",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מטילים קובייה הוגנת. מהי ההסתברות לקבל מספר זוגי או מספר גדול מ-$4$?",
+    "options": [
+      "$\\frac{2}{3}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{5}{6}$",
+      "$\\frac{1}{3}$"
+    ],
+    "correct_index": 0,
+    "explanation": "זוגיים: $\\{2,4,6\\}$, גדול מ-$4$: $\\{5,6\\}$. האיחוד: $\\{2,4,5,6\\}$ — $4$ מתוך $6$: $\\frac{2}{3}$."
+  }
 ]
 export function getMiddleSchoolQuestionsForTopic(topicId) {
   return MIDDLE_SCHOOL_QUESTIONS.filter((q) => q.topic_id === topicId);

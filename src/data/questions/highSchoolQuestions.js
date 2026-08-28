@@ -24887,6 +24887,1207 @@ export const QUESTIONS = [
     "correct_index": 0,
     "explanation": "לפי כלל השרשרת: $(\\sin(2x))'=\\cos(2x)\\times 2=2\\cos(2x)$."
   }
+,
+  {
+    "id": "q-g10-u3-space-enrich-1",
+    "topic_id": "g10-u3-space",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו היקף מלבן שאורכו $12$ ס\"מ ורוחבו $5$ ס\"מ?",
+    "options": [
+      "$34$ ס\"מ",
+      "$60$ ס\"מ",
+      "$17$ ס\"מ",
+      "$30$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף מלבן: $P=2(a+b)=2(12+5)=34$."
+  },
+  {
+    "id": "q-g10-u3-space-enrich-2",
+    "topic_id": "g10-u3-space",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו שטח ריבוע שצלעו $7$ ס\"מ?",
+    "options": [
+      "$49$ סמ\"ר",
+      "$28$ סמ\"ר",
+      "$14$ סמ\"ר",
+      "$21$ סמ\"ר"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח ריבוע: $S=a^{2}=7^{2}=49$."
+  },
+  {
+    "id": "q-g10-u3-space-enrich-3",
+    "topic_id": "g10-u3-space",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "משולש ישר-זווית עם ניצבים $6$ ו-$8$. מהו שטחו?",
+    "options": [
+      "$24$ סמ\"ר",
+      "$48$ סמ\"ר",
+      "$14$ סמ\"ר",
+      "$10$ סמ\"ר"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח משולש ישר-זווית: $S=\\dfrac{6\\times 8}{2}=24$."
+  },
+  {
+    "id": "q-g10-u3-space-enrich-4",
+    "topic_id": "g10-u3-space",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הולכים $3$ ק״מ דרומה ולאחר מכן $4$ ק״מ מערבה. מה המרחק הישיר מנקודת ההתחלה?",
+    "options": [
+      "$5$ ק״מ",
+      "$7$ ק״מ",
+      "$12$ ק״מ",
+      "$1$ ק״מ"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי משפט פיתגורס: $\\sqrt{3^{2}+4^{2}}=\\sqrt{9+16}=\\sqrt{25}=5$."
+  },
+  {
+    "id": "q-g10-u3-space-enrich-5",
+    "topic_id": "g10-u3-space",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "רוצים לגדר לגמרי חצר מלבנית בגודל $8\\times 6$ מ׳. כמה מטר גדר דרוש?",
+    "options": [
+      "$28$ מ׳",
+      "$48$ מ׳",
+      "$14$ מ׳",
+      "$24$ מ׳"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף: $P=2(8+6)=28$."
+  },
+  {
+    "id": "q-g10-u3-space-enrich-6",
+    "topic_id": "g10-u3-space",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "רוצים לרצף חדר בגודל $3\\times 8$ מ׳ במרצפות מלבניות בגודל $2\\times 1$ מ׳. כמה מרצפות דרושות?",
+    "options": [
+      "$12$",
+      "$24$",
+      "$6$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח החדר: $3\\times 8=24$ מ״ר. שטח מרצפה: $2\\times 1=2$ מ״ר. מספר המרצפות: $24\\div 2=12$."
+  },
+  {
+    "id": "q-g10-u3-space-enrich-7",
+    "topic_id": "g10-u3-space",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מעגל שהיקפו $62.8$ ס\"מ (לפי $\\pi\\approx 3.14$). מהו רדיוסו?",
+    "options": [
+      "$10$ ס\"מ",
+      "$20$ ס\"מ",
+      "$31.4$ ס\"מ",
+      "$5$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "מהנוסחה $C=2\\pi r$: $r=\\dfrac{62.8}{2\\times 3.14}=\\dfrac{62.8}{6.28}=10$."
+  },
+  {
+    "id": "q-g10-u3-space-enrich-8",
+    "topic_id": "g10-u3-space",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "גדר שאורכה $50$ מ׳ עוטפת שטח מלבני שרוחבו קטן ב-$5$ מ׳ מאורכו. מהו שטח המלבן?",
+    "options": [
+      "$150$ מ״ר",
+      "$125$ מ״ר",
+      "$175$ מ״ר",
+      "$100$ מ״ר"
+    ],
+    "correct_index": 0,
+    "explanation": "מהיקף $2(l+w)=50$ ו-$w=l-5$ מקבלים $2(2l-5)=50\\Rightarrow l=15,\\ w=10$. השטח: $15\\times 10=150$."
+  },
+  {
+    "id": "q-g11-u3-finance-enrich-1",
+    "topic_id": "g11-u3-finance",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אוכלוסייה מתחילה מ-$50$ פרטים ומכפילה את עצמה כל שנה. כמה תהיה האוכלוסייה אחרי $2$ שנים?",
+    "options": [
+      "$200$",
+      "$100$",
+      "$150$",
+      "$250$"
+    ],
+    "correct_index": 0,
+    "explanation": "גידול מעריכי: $50\\times 2^{2}=50\\times 4=200$."
+  },
+  {
+    "id": "q-g11-u3-finance-enrich-2",
+    "topic_id": "g11-u3-finance",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$3000$ ש״ח מושקעים בריבית דריבית של $10\\%$ לשנה. מה יהיה הסכום אחרי שנה אחת?",
+    "options": [
+      "$3300$ ש״ח",
+      "$3030$ ש״ח",
+      "$3100$ ש״ח",
+      "$3000$ ש״ח"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $3000\\times 1.1=3300$."
+  },
+  {
+    "id": "q-g11-u3-finance-enrich-3",
+    "topic_id": "g11-u3-finance",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "חומר דועך בקצב $10\\%$ בכל שנה (כלומר נשאר $90\\%$). כמות התחלתית $200$ גרם. כמה יישאר אחרי שנה אחת?",
+    "options": [
+      "$180$ גרם",
+      "$190$ גרם",
+      "$20$ גרם",
+      "$100$ גרם"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $200\\times 0.9=180$."
+  },
+  {
+    "id": "q-g11-u3-finance-enrich-4",
+    "topic_id": "g11-u3-finance",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $25\\%$ מ-$800$ ש\"ח?",
+    "options": [
+      "$200$ ש\"ח",
+      "$150$ ש\"ח",
+      "$250$ ש\"ח",
+      "$100$ ש\"ח"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $0.25\\times 800=200$."
+  },
+  {
+    "id": "q-g11-u3-finance-enrich-5",
+    "topic_id": "g11-u3-finance",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונה רשימת נתונים ממוינת: $1,3,6,8,10,12,15$. מהו הרבעון השלישי (Q3)?",
+    "options": [
+      "$12$",
+      "$10$",
+      "$15$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "המחצית העליונה (אחרי החציון) היא $10,12,15$, וחציונה — הרבעון השלישי — הוא $12$."
+  },
+  {
+    "id": "q-g11-u3-finance-enrich-6",
+    "topic_id": "g11-u3-finance",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קבוצת הנתונים $10,10,10$ — מהי סטיית התקן שלה?",
+    "options": [
+      "$0$",
+      "$10$",
+      "$1$",
+      "$100$"
+    ],
+    "correct_index": 0,
+    "explanation": "כל הערכים שווים לממוצע, ולכן אין סטייה כלל: סטיית התקן $=0$."
+  },
+  {
+    "id": "q-g11-u3-finance-enrich-7",
+    "topic_id": "g11-u3-finance",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "קבוצת הנתונים: $2,8$. מהי סטיית התקן (של האוכלוסייה)?",
+    "options": [
+      "$3$",
+      "$6$",
+      "$9$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "הממוצע $5$. הסטיות: $-3,3$. הריבועים: $9,9$, סכומם $18$, חלקי $2$ (שונות) $=9$. סטיית התקן: $\\sqrt{9}=3$."
+  },
+  {
+    "id": "q-g11-u3-finance-enrich-8",
+    "topic_id": "g11-u3-finance",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "השקעה של $500$ ש״ח בריבית דריבית של $20\\%$ לשנה. מה יהיה הסכום אחרי $2$ שנים?",
+    "options": [
+      "$720$ ש״ח",
+      "$700$ ש״ח",
+      "$600$ ש״ח",
+      "$620$ ש״ח"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $500\\times(1.2)^{2}=500\\times 1.44=720$."
+  },
+  {
+    "id": "q-g11-u3-space-enrich-1",
+    "topic_id": "g11-u3-space",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שני מצולעים דומים ביחס דמיון $1:2$. צלע במצולע הקטן היא $7$ ס\"מ. מהי הצלע המתאימה במצולע הגדול?",
+    "options": [
+      "$14$ ס\"מ",
+      "$9$ ס\"מ",
+      "$3.5$ ס\"מ",
+      "$21$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי יחס הדמיון: $7\\times 2=14$."
+  },
+  {
+    "id": "q-g11-u3-space-enrich-2",
+    "topic_id": "g11-u3-space",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במפה בקנה מידה $1:5000$, מרחק של $2$ ס״מ במפה מייצג במציאות:",
+    "options": [
+      "$100$ מ׳",
+      "$50$ מ׳",
+      "$10$ מ׳",
+      "$200$ מ׳"
+    ],
+    "correct_index": 0,
+    "explanation": "$2\\times 5000=10000$ ס״מ $=100$ מ׳."
+  },
+  {
+    "id": "q-g11-u3-space-enrich-3",
+    "topic_id": "g11-u3-space",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית, הזווית $A=45^\\circ$ והניצב שמול $A$ הוא $5$. מהו אורך הניצב הסמוך?",
+    "options": [
+      "$5$",
+      "$10$",
+      "$2.5$",
+      "$7.07$"
+    ],
+    "correct_index": 0,
+    "explanation": "בזווית $45^\\circ$ הניצבים שווים (משולש ישר-זווית שווה-שוקיים), ולכן הניצב הסמוך שווה גם הוא $5$."
+  },
+  {
+    "id": "q-g11-u3-space-enrich-4",
+    "topic_id": "g11-u3-space",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שני משולשים דומים ביחס דמיון $3:5$. היקף המשולש הקטן הוא $18$ ס\"מ. מהו היקף המשולש הגדול?",
+    "options": [
+      "$30$ ס\"מ",
+      "$25$ ס\"מ",
+      "$20$ ס\"מ",
+      "$50.4$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "ההיקף מתנהג כמו הצלעות ביחס הדמיון: $18\\times\\dfrac{5}{3}=30$."
+  },
+  {
+    "id": "q-g11-u3-space-enrich-5",
+    "topic_id": "g11-u3-space",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית, $\\cos\\theta=\\dfrac{5}{13}$. מהו $\\sin\\theta$?",
+    "options": [
+      "$\\dfrac{12}{13}$",
+      "$\\dfrac{5}{12}$",
+      "$\\dfrac{13}{12}$",
+      "$\\dfrac{5}{13}$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי משולש $5$-$12$-$13$: ניצב סמוך $=5$, יתר $=13$, ניצב מול $=12$. לכן $\\sin\\theta=\\dfrac{12}{13}$."
+  },
+  {
+    "id": "q-g11-u3-space-enrich-6",
+    "topic_id": "g11-u3-space",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית, הזווית $A=30^\\circ$ והניצב הסמוך ל-$A$ הוא $\\sqrt{3}$. מהו אורך היתר?",
+    "options": [
+      "$2$",
+      "$\\sqrt{3}$",
+      "$1$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\cos A=\\dfrac{\\text{ניצב סמוך}}{\\text{יתר}}\\Rightarrow \\text{יתר}=\\dfrac{\\sqrt{3}}{\\cos 30^\\circ}=\\dfrac{\\sqrt{3}}{\\sqrt{3}/2}=2$."
+  },
+  {
+    "id": "q-g11-u3-space-enrich-7",
+    "topic_id": "g11-u3-space",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני משולשים דומים ביחס דמיון $1:2$. שטח המשולש הגדול הוא $40$ סמ\"ר. מהו שטח המשולש הקטן?",
+    "options": [
+      "$10$ סמ\"ר",
+      "$20$ סמ\"ר",
+      "$80$ סמ\"ר",
+      "$160$ סמ\"ר"
+    ],
+    "correct_index": 0,
+    "explanation": "יחס השטחים שווה לריבוע יחס הדמיון: $(1/2)^{2}=1/4$. השטח הקטן: $40\\times\\dfrac{1}{4}=10$."
+  },
+  {
+    "id": "q-g11-u3-space-enrich-8",
+    "topic_id": "g11-u3-space",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "צלע במשולש קטן היא $6$ ס\"מ, ומתאימה לצלע $15$ ס\"מ במשולש דומה גדול. אם שטח המשולש הקטן הוא $12$ סמ\"ר, מהו שטח המשולש הגדול?",
+    "options": [
+      "$75$ סמ\"ר",
+      "$30$ סמ\"ר",
+      "$60$ סמ\"ר",
+      "$18.75$ סמ\"ר"
+    ],
+    "correct_index": 0,
+    "explanation": "יחס הדמיון $6:15=2:5$. יחס השטחים: $(5/2)^{2}=6.25$. השטח הגדול: $12\\times 6.25=75$."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-enrich-1",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בהתפלגות נורמלית, כמה אחוזים מהנתונים נמצאים (בקירוב) בטווח של $3$ סטיות תקן סביב הממוצע?",
+    "options": [
+      "$99.7\\%$",
+      "$95\\%$",
+      "$68\\%$",
+      "$100\\%$"
+    ],
+    "correct_index": 0,
+    "explanation": "הכלל האמפירי: כ-$99.7\\%$ מהנתונים נמצאים בטווח של $3$ סטיות תקן מהממוצע."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-enrich-2",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ממוצע נתונים $\\bar{x}=100$ וסטיית תקן $\\sigma=15$. מהו ציון התקן של $x=130$?",
+    "options": [
+      "$2$",
+      "$1.5$",
+      "$30$",
+      "$-2$"
+    ],
+    "correct_index": 0,
+    "explanation": "$z=\\dfrac{x-\\bar{x}}{\\sigma}=\\dfrac{130-100}{15}=2$."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-enrich-3",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ציון התקן של תלמיד הוא $z=0$. מה ניתן לומר על הציון שלו?",
+    "options": [
+      "הציון שווה בדיוק לממוצע",
+      "הציון גבוה מהממוצע",
+      "הציון נמוך מהממוצע",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "ציון תקן $0$ פירושו שהערך שווה לממוצע בדיוק."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-enrich-4",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מקדם המתאם בין שני משתנים הוא $r=-1$. מה ניתן לומר?",
+    "options": [
+      "קשר לינארי הפוך מושלם",
+      "קשר לינארי ישר מושלם",
+      "אין קשר כלל",
+      "קשר לא לינארי"
+    ],
+    "correct_index": 0,
+    "explanation": "$r=-1$ מציין התאמה לינארית מושלמת עם שיפוע שלילי — קשר הפוך מושלם."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-enrich-5",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קו הרגרסיה הוא $y=5x-3$. מהי התחזית עבור $x=2$?",
+    "options": [
+      "$7$",
+      "$10$",
+      "$4$",
+      "$13$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $x=2$: $y=5\\times 2-3=7$."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-enrich-6",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "ממוצע $\\bar{x}=60$, סטיית תקן $\\sigma=8$. עבור איזה ערך $x$ ציון התקן שווה $-1$?",
+    "options": [
+      "$52$",
+      "$68$",
+      "$8$",
+      "$-8$"
+    ],
+    "correct_index": 0,
+    "explanation": "$z=\\dfrac{x-\\bar{x}}{\\sigma}=-1\\Rightarrow x=60+(-1)\\times 8=52$."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-enrich-7",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מקדם המתאם בין שני משתנים הוא $r=0.85$. מה ניתן לומר על הקשר?",
+    "options": [
+      "קשר לינארי חיובי וחזק",
+      "קשר לינארי שלילי וחזק",
+      "אין קשר",
+      "קשר לא לינארי בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "ערך קרוב ל-$1$ מצביע על קשר לינארי חיובי וחזק."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-enrich-8",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "קו הרגרסיה $y=4x+1$. אם $x$ עולה ב-$3$ יחידות, בכמה עולה $y$ בממוצע?",
+    "options": [
+      "$12$",
+      "$4$",
+      "$3$",
+      "$13$"
+    ],
+    "correct_index": 0,
+    "explanation": "השיפוע $4$ פירושו עלייה של $4$ ב-$y$ על כל יחידת עלייה ב-$x$: $4\\times 3=12$."
+  },
+  {
+    "id": "q-g11-u4-rational-root-enrich-1",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו תחום ההגדרה של $f(x)=\\sqrt{2x+6}$?",
+    "options": [
+      "$x\\geq -3$",
+      "$x\\geq 3$",
+      "$x\\leq -3$",
+      "כל הממשיים"
+    ],
+    "correct_index": 0,
+    "explanation": "הביטוי מתחת לשורש חייב להיות אי-שלילי: $2x+6\\geq 0\\Rightarrow x\\geq -3$."
+  },
+  {
+    "id": "q-g11-u4-rational-root-enrich-2",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=\\dfrac{5}{x+1}$, מהי האסימפטוטה האנכית?",
+    "options": [
+      "$x=-1$",
+      "$x=1$",
+      "$y=0$",
+      "$x=5$"
+    ],
+    "correct_index": 0,
+    "explanation": "הפונקציה אינה מוגדרת ב-$x=-1$, וזו האסימפטוטה האנכית."
+  },
+  {
+    "id": "q-g11-u4-rational-root-enrich-3",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\dfrac{3}{x}$?",
+    "options": [
+      "$-\\dfrac{3}{x^{2}}$",
+      "$\\dfrac{3}{x^{2}}$",
+      "$-\\dfrac{1}{x^{2}}$",
+      "$\\dfrac{1}{3x}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$f(x)=3x^{-1}\\Rightarrow f'(x)=-3x^{-2}=-\\dfrac{3}{x^{2}}$."
+  },
+  {
+    "id": "q-g11-u4-rational-root-enrich-4",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=\\dfrac{2}{x+4}-1$, מהי האסימפטוטה האופקית?",
+    "options": [
+      "$y=-1$",
+      "$y=0$",
+      "$x=-4$",
+      "$y=2$"
+    ],
+    "correct_index": 0,
+    "explanation": "כש-$x\\to\\pm\\infty$, $\\dfrac{2}{x+4}\\to 0$ ולכן $f(x)\\to -1$."
+  },
+  {
+    "id": "q-g11-u4-rational-root-enrich-5",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\sqrt{x}+3$?",
+    "options": [
+      "$\\dfrac{1}{2\\sqrt{x}}$",
+      "$\\dfrac{1}{2\\sqrt{x}}+3$",
+      "$2\\sqrt{x}$",
+      "$\\dfrac{1}{\\sqrt{x}}$"
+    ],
+    "correct_index": 0,
+    "explanation": "נגזרת של קבוע היא $0$: $f'(x)=\\dfrac{1}{2\\sqrt{x}}+0=\\dfrac{1}{2\\sqrt{x}}$."
+  },
+  {
+    "id": "q-g11-u4-rational-root-enrich-6",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{9}{x}$ ($x>0$). עבור איזה ערך $x$ מתקיים $f'(x)=-1$?",
+    "options": [
+      "$3$",
+      "$9$",
+      "$-3$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$f'(x)=-\\dfrac{9}{x^{2}}=-1\\Rightarrow x^{2}=9\\Rightarrow x=3$ (כי $x>0$)."
+  },
+  {
+    "id": "q-g11-u4-rational-root-enrich-7",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=2\\sqrt{x}$, מהו שיפוע המשיק בנקודה $x=9$?",
+    "options": [
+      "$\\dfrac{1}{3}$",
+      "$3$",
+      "$6$",
+      "$\\dfrac{1}{6}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$f'(x)=\\dfrac{2}{2\\sqrt{x}}=\\dfrac{1}{\\sqrt{x}}$. בנקודה $x=9$: $f'(9)=\\dfrac{1}{3}$."
+  },
+  {
+    "id": "q-g11-u4-rational-root-enrich-8",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו תחום ההגדרה של $f(x)=\\dfrac{1}{x^{2}-4}$?",
+    "options": [
+      "כל הממשיים פרט ל-$x=2,-2$",
+      "כל הממשיים",
+      "$x>2$ בלבד",
+      "רק $x=2$"
+    ],
+    "correct_index": 0,
+    "explanation": "המכנה מתאפס כאשר $x^{2}=4$, כלומר $x=2$ או $x=-2$; שם הפונקציה אינה מוגדרת."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-enrich-1",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\sin 90^\\circ$?",
+    "options": [
+      "$1$",
+      "$0$",
+      "$-1$",
+      "$0.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 90^\\circ=1$."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-enrich-2",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "משולש עם $a=8$, $\\sin A=0.4$. לפי משפט הסינוסים, מהו $\\dfrac{a}{\\sin A}$?",
+    "options": [
+      "$20$",
+      "$3.2$",
+      "$8.4$",
+      "$2$"
+    ],
+    "correct_index": 0,
+    "explanation": "החישוב: $\\dfrac{8}{0.4}=20$."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-enrich-3",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מקבילית עם צלעות $6$ ו-$10$ וזווית ביניהן $90^\\circ$. מהו שטחה?",
+    "options": [
+      "$60$",
+      "$30$",
+      "$16$",
+      "$120$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח מקבילית: $S=ab\\sin\\theta=6\\times 10\\times\\sin 90^\\circ=60$."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-enrich-4",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש עם $a=9$, $b=12$ וזווית ביניהן $C=30^\\circ$. מהו שטחו?",
+    "options": [
+      "$27$",
+      "$54$",
+      "$108$",
+      "$13.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח: $S=\\dfrac{1}{2}\\times 9\\times 12\\times\\sin 30^\\circ=54\\times 0.5=27$."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-enrich-5",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$: $\\sin A=0.6$, $\\sin B=0.3$, $a=15$. לפי משפט הסינוסים, מהו $b$?",
+    "options": [
+      "$7.5$",
+      "$25$",
+      "$4.5$",
+      "$30$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי משפט הסינוסים: $\\dfrac{a}{\\sin A}=\\dfrac{15}{0.6}=25=\\dfrac{b}{0.3}\\Rightarrow b=25\\times 0.3=7.5$."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-enrich-6",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש חסום במעגל שרדיוסו $R=10$, זווית $B=30^\\circ$ מול צלע $b$. לפי משפט הסינוסים המורחב $b=2R\\sin B$, מהו $b$?",
+    "options": [
+      "$10$",
+      "$20$",
+      "$5$",
+      "$15$"
+    ],
+    "correct_index": 0,
+    "explanation": "$b=2\\times 10\\times\\sin 30^\\circ=20\\times 0.5=10$."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-enrich-7",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\sin 60^\\circ$?",
+    "options": [
+      "$\\dfrac{\\sqrt{3}}{2}$",
+      "$\\dfrac{1}{2}$",
+      "$1$",
+      "$\\dfrac{\\sqrt{2}}{2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "זהו ערך זווית מיוחדת: $\\sin 60^\\circ=\\dfrac{\\sqrt{3}}{2}$."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-enrich-8",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש עם $a=7$, $b=7$ וזווית ביניהן $C=90^\\circ$. מהו שטחו?",
+    "options": [
+      "$24.5$",
+      "$49$",
+      "$14$",
+      "$12.25$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח: $S=\\dfrac{1}{2}\\times 7\\times 7\\times\\sin 90^\\circ=24.5$."
+  },
+  {
+    "id": "q-g11-u5-differential-enrich-1",
+    "topic_id": "g11-u5-differential",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=x^{5}$?",
+    "options": [
+      "$5x^{4}$",
+      "$x^{4}$",
+      "$5x^{5}$",
+      "$4x^{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל החזקה: $f'(x)=5x^{4}$."
+  },
+  {
+    "id": "q-g11-u5-differential-enrich-2",
+    "topic_id": "g11-u5-differential",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\int 3x^{2}\\,dx$?",
+    "options": [
+      "$x^{3}+C$",
+      "$3x^{3}+C$",
+      "$6x+C$",
+      "$x^{3}$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל האינטגרציה: $\\int 3x^{2}\\,dx=x^{3}+C$."
+  },
+  {
+    "id": "q-g11-u5-differential-enrich-3",
+    "topic_id": "g11-u5-differential",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=2x^{3}-6x$, מהי הנגזרת השנייה?",
+    "options": [
+      "$12x$",
+      "$6x^{2}-6$",
+      "$12x-6$",
+      "$6x^{2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$f'(x)=6x^{2}-6$, ולכן $f''(x)=12x$."
+  },
+  {
+    "id": "q-g11-u5-differential-enrich-4",
+    "topic_id": "g11-u5-differential",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אם $f''(x)<0$ בתחום מסוים, הגרף באותו תחום הוא:",
+    "options": [
+      "קעור כלפי מטה",
+      "קעור כלפי מעלה",
+      "תמיד עולה",
+      "תמיד יורד"
+    ],
+    "correct_index": 0,
+    "explanation": "נגזרת שנייה שלילית מציינת קעירות כלפי מטה."
+  },
+  {
+    "id": "q-g11-u5-differential-enrich-5",
+    "topic_id": "g11-u5-differential",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $\\int (x+1)\\,dx$?",
+    "options": [
+      "$\\dfrac{x^{2}}{2}+x+C$",
+      "$x^{2}+x+C$",
+      "$\\dfrac{x^{2}}{2}+C$",
+      "$x+C$"
+    ],
+    "correct_index": 0,
+    "explanation": "מאינטגרלים לכל איבר בנפרד: $\\int x\\,dx+\\int 1\\,dx=\\dfrac{x^{2}}{2}+x+C$."
+  },
+  {
+    "id": "q-g11-u5-differential-enrich-6",
+    "topic_id": "g11-u5-differential",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $\\int_{1}^{3} 2x\\,dx$?",
+    "options": [
+      "$8$",
+      "$9$",
+      "$6$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\int_{1}^{3}2x\\,dx=\\left[x^{2}\\right]_{1}^{3}=9-1=8$."
+  },
+  {
+    "id": "q-g11-u5-differential-enrich-7",
+    "topic_id": "g11-u5-differential",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=\\sqrt{x}$ ($x>0$), מה ניתן לומר על קעירות הגרף?",
+    "options": [
+      "קעור כלפי מטה בכל התחום",
+      "קעור כלפי מעלה בכל התחום",
+      "הקעירות משתנה",
+      "אין קעירות"
+    ],
+    "correct_index": 0,
+    "explanation": "$f'(x)=\\dfrac{1}{2\\sqrt{x}}$ יורדת עבור $x>0$, ולכן $f''(x)<0$ תמיד — הגרף קעור כלפי מטה בכל התחום."
+  },
+  {
+    "id": "q-g11-u5-differential-enrich-8",
+    "topic_id": "g11-u5-differential",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת השנייה של $f(x)=5x^{2}+3x$?",
+    "options": [
+      "$10$",
+      "$10x+3$",
+      "$5$",
+      "$10x$"
+    ],
+    "correct_index": 0,
+    "explanation": "$f'(x)=10x+3$, ולכן $f''(x)=10$."
+  },
+  {
+    "id": "q-g11-u5-probability-enrich-1",
+    "topic_id": "g11-u5-probability",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מטילים קובייה הוגנת פעמיים. מהי ההסתברות שבשתי ההטלות יתקבל אותו מספר?",
+    "options": [
+      "$\\dfrac{1}{6}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{1}{2}$",
+      "$\\dfrac{1}{36}$"
+    ],
+    "correct_index": 0,
+    "explanation": "מתוך $36$ תוצאות שוות-סיכוי, $6$ מהן הן זוגות תואמות (כמו $1,1$ או $2,2$): $\\dfrac{6}{36}=\\dfrac{1}{6}$."
+  },
+  {
+    "id": "q-g11-u5-probability-enrich-2",
+    "topic_id": "g11-u5-probability",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מאורעות $A$ ו-$B$: $P(A)=0.5$, $P(B/A)=0.4$. מהי $P(A\\cap B)$?",
+    "options": [
+      "$0.2$",
+      "$0.9$",
+      "$0.1$",
+      "$0.8$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל הכפל: $P(A\\cap B)=P(A)\\times P(B/A)=0.5\\times 0.4=0.2$."
+  },
+  {
+    "id": "q-g11-u5-probability-enrich-3",
+    "topic_id": "g11-u5-probability",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מאורעות זרים $A,B$: $P(A)=0.15$, $P(A\\cup B)=0.55$. מהי $P(B)$?",
+    "options": [
+      "$0.4$",
+      "$0.7$",
+      "$0.15$",
+      "$0.55$"
+    ],
+    "correct_index": 0,
+    "explanation": "למאורעות זרים: $P(A\\cup B)=P(A)+P(B)\\Rightarrow 0.55=0.15+P(B)\\Rightarrow P(B)=0.4$."
+  },
+  {
+    "id": "q-g11-u5-probability-enrich-4",
+    "topic_id": "g11-u5-probability",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "נתון $P(A)=0.65$. מהי $P(\\text{המאורע המשלים ל-}A)$?",
+    "options": [
+      "$0.35$",
+      "$0.65$",
+      "$1$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "המאורע המשלים: $1-0.65=0.35$."
+  },
+  {
+    "id": "q-g11-u5-probability-enrich-5",
+    "topic_id": "g11-u5-probability",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בכיס $4$ כדורים אדומים ו-$6$ כחולים. מוציאים כדור, מחזירים אותו, ומוציאים כדור נוסף (עם החזרה). מהי ההסתברות ששני הכדורים אדומים?",
+    "options": [
+      "$0.16$",
+      "$0.3$",
+      "$0.4$",
+      "$0.24$"
+    ],
+    "correct_index": 0,
+    "explanation": "עם החזרה ההוצאות בלתי תלויות: $\\dfrac{4}{10}\\times\\dfrac{4}{10}=0.16$."
+  },
+  {
+    "id": "q-g11-u5-probability-enrich-6",
+    "topic_id": "g11-u5-probability",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מאורעות בלתי תלויים $A,B$ עם $P(A)=0.2$, $P(B)=0.9$. מהי $P(A\\cap B)$?",
+    "options": [
+      "$0.18$",
+      "$1.1$",
+      "$0.7$",
+      "$0.9$"
+    ],
+    "correct_index": 0,
+    "explanation": "עבור מאורעות בלתי תלויים: $P(A\\cap B)=P(A)\\times P(B)=0.2\\times 0.9=0.18$."
+  },
+  {
+    "id": "q-g11-u5-probability-enrich-7",
+    "topic_id": "g11-u5-probability",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מאורעות $A,B$ עם $P(A)=0.4$, $P(A\\cap B)=0.1$. מהי $P(B/A)$?",
+    "options": [
+      "$0.25$",
+      "$0.4$",
+      "$0.1$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "$P(B/A)=\\dfrac{P(A\\cap B)}{P(A)}=\\dfrac{0.1}{0.4}=0.25$."
+  },
+  {
+    "id": "q-g11-u5-probability-enrich-8",
+    "topic_id": "g11-u5-probability",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מטילים קובייה הוגנת אחת. מהי ההסתברות לקבל מספר השונה מ-$3$?",
+    "options": [
+      "$\\dfrac{5}{6}$",
+      "$\\dfrac{1}{6}$",
+      "$\\dfrac{1}{2}$",
+      "$\\dfrac{2}{3}$"
+    ],
+    "correct_index": 0,
+    "explanation": "המאורע המשלים ל-$\\{3\\}$ מכיל $5$ תוצאות מתוך $6$: $\\dfrac{5}{6}$."
+  },
+  {
+    "id": "q-g11-u5-trig-advanced-enrich-1",
+    "topic_id": "g11-u5-trig-advanced",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו הטווח (התמונה) של הפונקציה $f(x)=\\cos x$?",
+    "options": [
+      "$[-1,1]$",
+      "$[0,1]$",
+      "$(-\\infty,\\infty)$",
+      "$[-2,2]$"
+    ],
+    "correct_index": 0,
+    "explanation": "ערכי $\\cos x$ נעים תמיד בין $-1$ ל-$1$."
+  },
+  {
+    "id": "q-g11-u5-trig-advanced-enrich-2",
+    "topic_id": "g11-u5-trig-advanced",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=5\\cos x$, מהי האמפליטודה?",
+    "options": [
+      "$5$",
+      "$1$",
+      "$10$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "האמפליטודה היא המקדם שלפני $\\cos$: $5$."
+  },
+  {
+    "id": "q-g11-u5-trig-advanced-enrich-3",
+    "topic_id": "g11-u5-trig-advanced",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=\\cos(3x)$, מהי המחזוריות?",
+    "options": [
+      "$120^\\circ$",
+      "$360^\\circ$",
+      "$90^\\circ$",
+      "$1080^\\circ$"
+    ],
+    "correct_index": 0,
+    "explanation": "המחזוריות של $\\cos(Bx)$ היא $\\dfrac{360^\\circ}{B}=\\dfrac{360^\\circ}{3}=120^\\circ$."
+  },
+  {
+    "id": "q-g11-u5-trig-advanced-enrich-4",
+    "topic_id": "g11-u5-trig-advanced",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=\\sin x-2$, מהו הערך המינימלי?",
+    "options": [
+      "$-3$",
+      "$-1$",
+      "$-2$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "המינימום של $\\sin x$ הוא $-1$: $-1-2=-3$."
+  },
+  {
+    "id": "q-g11-u5-trig-advanced-enrich-5",
+    "topic_id": "g11-u5-trig-advanced",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפונקציה $f(x)=4\\sin x+1$, מהו הערך המקסימלי?",
+    "options": [
+      "$5$",
+      "$4$",
+      "$3$",
+      "$-3$"
+    ],
+    "correct_index": 0,
+    "explanation": "המקסימום של $\\sin x$ הוא $1$: $4\\times 1+1=5$."
+  },
+  {
+    "id": "q-g11-u5-trig-advanced-enrich-6",
+    "topic_id": "g11-u5-trig-advanced",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=x+1$ ו-$g(x)=\\sin x$. מהי $(f\\circ g)(x)$ (הרכבת הפונקציות)?",
+    "options": [
+      "$\\sin x+1$",
+      "$\\sin(x+1)$",
+      "$x+\\sin x$",
+      "$\\sin x-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(f\\circ g)(x)=f(g(x))=f(\\sin x)=\\sin x+1$."
+  },
+  {
+    "id": "q-g11-u5-trig-advanced-enrich-7",
+    "topic_id": "g11-u5-trig-advanced",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הזהות $1+\\tan^{2}\\theta$ שווה ל:",
+    "options": [
+      "$\\dfrac{1}{\\cos^{2}\\theta}$",
+      "$\\dfrac{1}{\\sin^{2}\\theta}$",
+      "$\\sin^{2}\\theta$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "זו זהות טריגונומטרית סטנדרטית: $1+\\tan^{2}\\theta=\\dfrac{1}{\\cos^{2}\\theta}$."
+  },
+  {
+    "id": "q-g11-u5-trig-advanced-enrich-8",
+    "topic_id": "g11-u5-trig-advanced",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם $\\cos\\theta=0.8$ ו-$\\sin\\theta>0$, מהו $\\sin\\theta$?",
+    "options": [
+      "$0.6$",
+      "$0.36$",
+      "$0.64$",
+      "$0.2$"
+    ],
+    "correct_index": 0,
+    "explanation": "הזהות הפיתגורית: $\\sin^{2}\\theta=1-\\cos^{2}\\theta=1-0.64=0.36\\Rightarrow \\sin\\theta=0.6$ (חיובי לפי הנתון)."
+  },
+  {
+    "id": "q-g11-u5-trig-calc-enrich-1",
+    "topic_id": "g11-u5-trig-calc",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=-\\cos x$?",
+    "options": [
+      "$\\sin x$",
+      "$-\\sin x$",
+      "$\\cos x$",
+      "$-\\cos x$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(-\\cos x)'=-(-\\sin x)=\\sin x$."
+  },
+  {
+    "id": "q-g11-u5-trig-calc-enrich-2",
+    "topic_id": "g11-u5-trig-calc",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=5\\cos x$?",
+    "options": [
+      "$-5\\sin x$",
+      "$5\\sin x$",
+      "$-5\\cos x$",
+      "$5\\cos x$"
+    ],
+    "correct_index": 0,
+    "explanation": "הקבוע יוצא לפני הנגזרת: $(5\\cos x)'=5\\times(-\\sin x)=-5\\sin x$."
+  },
+  {
+    "id": "q-g11-u5-trig-calc-enrich-3",
+    "topic_id": "g11-u5-trig-calc",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\sin x-\\cos x$?",
+    "options": [
+      "$\\cos x+\\sin x$",
+      "$\\cos x-\\sin x$",
+      "$-\\sin x-\\cos x$",
+      "$-\\cos x+\\sin x$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(\\sin x)'=\\cos x$ ו-$(-\\cos x)'=\\sin x$, ולכן הסכום: $\\cos x+\\sin x$."
+  },
+  {
+    "id": "q-g11-u5-trig-calc-enrich-4",
+    "topic_id": "g11-u5-trig-calc",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $\\int 4\\cos x\\,dx$?",
+    "options": [
+      "$4\\sin x+C$",
+      "$-4\\sin x+C$",
+      "$4\\cos x+C$",
+      "$-4\\cos x+C$"
+    ],
+    "correct_index": 0,
+    "explanation": "הקבוע יוצא לפני האינטגרל: $\\int 4\\cos x\\,dx=4\\sin x+C$."
+  },
+  {
+    "id": "q-g11-u5-trig-calc-enrich-5",
+    "topic_id": "g11-u5-trig-calc",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $\\int (\\sin x+\\cos x)\\,dx$?",
+    "options": [
+      "$-\\cos x+\\sin x+C$",
+      "$\\cos x-\\sin x+C$",
+      "$-\\cos x-\\sin x+C$",
+      "$\\cos x+\\sin x+C$"
+    ],
+    "correct_index": 0,
+    "explanation": "לכל איבר בנפרד: $\\int\\sin x\\,dx+\\int\\cos x\\,dx=-\\cos x+\\sin x+C$."
+  },
+  {
+    "id": "q-g11-u5-trig-calc-enrich-6",
+    "topic_id": "g11-u5-trig-calc",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\cos(3x)$ (כלל השרשרת)?",
+    "options": [
+      "$-3\\sin(3x)$",
+      "$3\\sin(3x)$",
+      "$-\\sin(3x)$",
+      "$3\\cos(3x)$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל השרשרת: $(\\cos(3x))'=-\\sin(3x)\\times 3=-3\\sin(3x)$."
+  },
+  {
+    "id": "q-g11-u5-trig-calc-enrich-7",
+    "topic_id": "g11-u5-trig-calc",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי הנגזרת של $f(x)=\\tan x+x$?",
+    "options": [
+      "$\\dfrac{1}{\\cos^{2}x}+1$",
+      "$\\dfrac{1}{\\cos^{2}x}$",
+      "$\\dfrac{1}{\\sin^{2}x}+1$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "נגזרת $\\tan x$ היא $\\dfrac{1}{\\cos^{2}x}$, ונגזרת $x$ היא $1$; הסכום: $\\dfrac{1}{\\cos^{2}x}+1$."
+  },
+  {
+    "id": "q-g11-u5-trig-calc-enrich-8",
+    "topic_id": "g11-u5-trig-calc",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $\\int_{0}^{\\pi/2}\\cos x\\,dx$?",
+    "options": [
+      "$1$",
+      "$0$",
+      "$\\pi/2$",
+      "$-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\int_{0}^{\\pi/2}\\cos x\\,dx=\\left[\\sin x\\right]_{0}^{\\pi/2}=\\sin(\\pi/2)-\\sin(0)=1-0=1$."
+  }
 ]
 export function getQuestionsForTopic(topicId) {
   return QUESTIONS.filter((q) => q.topic_id === topicId);
