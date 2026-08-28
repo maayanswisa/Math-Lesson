@@ -45,7 +45,7 @@ export const INTERACTIVE_QUESTIONS = [
   },
   {
     "id": "q-int-line-7",
-    "topic_id": "g1-numbers-100",
+    "topic_id": "g1-number-line",
     "difficulty": 1,
     "type": "numberLine",
     "question_text": "סמנו את המספר $7$ על ציר המספרים.",
@@ -106,7 +106,7 @@ export const INTERACTIVE_QUESTIONS = [
   },
   {
     "id": "q-int-drag-even",
-    "topic_id": "g2-numbers-1000",
+    "topic_id": "g2-even-odd",
     "difficulty": 1,
     "type": "dragMatch",
     "question_text": "מיינו: זוגיים ואי-זוגיים.",
@@ -163,8 +163,7 @@ export const INTERACTIVE_QUESTIONS = [
     "correctAnswer": "2/6",
     "explanation": "$\\frac{1}{3}=\\frac{2}{6}$ — שתי פרוסות מתוך שש."
   }
-];
-
+]
 export function getInteractiveQuestionsForTopic(topicId) {
   return INTERACTIVE_QUESTIONS.filter((q) => q.topic_id === topicId);
 }
