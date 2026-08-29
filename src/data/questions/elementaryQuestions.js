@@ -829,17 +829,17 @@ export const ELEMENTARY_QUESTIONS = [
   {
     "id": "q-q-g1-shapes-15",
     "topic_id": "g1-shapes",
-    "difficulty": 5,
+    "difficulty": 2,
     "type": "mcq",
-    "question_text": "סכום זוויות במשולש:",
+    "question_text": "לאיזו מהצורות הבאות יש הכי הרבה צלעות?",
     "options": [
-      "$100^\\circ$",
-      "$90^\\circ$",
-      "$180^\\circ$",
-      "$360^\\circ$"
+      "משולש",
+      "ריבוע",
+      "מחומש",
+      "מעגל"
     ],
     "correct_index": 2,
-    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
+    "explanation": "למחומש יש 5 צלעות — יותר מלמשולש (3), לריבוע (4), ולמעגל (0 צלעות)."
   },
   {
     "id": "q-q-g1-shapes-16",
@@ -1086,7 +1086,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure-cm",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף ריבוע 1מחי 1מ:",
+    "question_text": "היקף ריבוע שאורך צלעו 1 מטר:",
     "options": [
       "1",
       "2",
@@ -24382,15 +24382,15 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-count-20",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "איזה מהמספרים הכי קרוב ל-$10$: $7$, $13$, $19$?",
+    "question_text": "איזה מהמספרים הכי קרוב ל-$10$: $7$, $14$, $19$?",
     "options": [
-      "$13$",
+      "$14$",
       "$7$",
       "$19$",
       "$10$"
     ],
-    "correct_index": 0,
-    "explanation": "המרחק מ-$10$: ל-$7$ יש $3$, ל-$13$ יש $3$ גם... בודקים שוב: $|10-13|=3$, $|10-7|=3$ — שווים! נבחר לפי הקרוב יותר בפועל."
+    "correct_index": 1,
+    "explanation": "המרחק מ-$10$: ל-$7$ יש $3$, ל-$14$ יש $4$, ל-$19$ יש $9$. הכי קרוב הוא $7$."
   },
   {
     "id": "q-g1-count-20-restore-10",
