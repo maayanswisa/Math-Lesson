@@ -534,12 +534,14 @@ export default function QuizCard({
             <MathRenderer className="text-lg text-[var(--color-ink)] sm:text-xl">{current.question_text}</MathRenderer>
             {phase === 'feedback' ? (
               <div className="mt-6 space-y-4">
-                <p className={`text-lg font-semibold ${feedback?.isCorrect ? 'text-[var(--color-success)]' : 'text-[var(--color-coral-dark)]'}`}>
-                  {feedback?.isCorrect ? 'נכון!' : 'לא בדיוק'}
-                  {feedback?.xpGained ? ` | +${feedback.xpGained} XP` : ''}
-                </p>
                 {mode !== 'speed' && (
-                  <MathRenderer className="text-[var(--color-slate)]">{feedback?.explanation}</MathRenderer>
+                  <>
+                    <p className={`text-lg font-semibold ${feedback?.isCorrect ? 'text-[var(--color-success)]' : 'text-[var(--color-coral-dark)]'}`}>
+                      {feedback?.isCorrect ? 'נכון!' : 'לא בדיוק'}
+                      {feedback?.xpGained ? ` | +${feedback.xpGained} XP` : ''}
+                    </p>
+                    <MathRenderer className="text-[var(--color-slate)]">{feedback?.explanation}</MathRenderer>
+                  </>
                 )}
                 {mode !== 'speed' && (
                   <button type="button" onClick={goNext} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
@@ -572,7 +574,7 @@ export default function QuizCard({
         <>
           {/* מובייל: כלים בעמודה אחת, ברוחב מלא; אם יש מחשבון — אפשר לגרור ולסדר מחדש */}
           <div className="mt-4 flex flex-col lg:hidden">
-            {mode !== 'speed' && hasTopicExplanation && <ExplanationButton onClick={() => setShowExplanation(true)} />}
+            {hasTopicExplanation && <ExplanationButton onClick={() => setShowExplanation(true)} />}
             {showCalculator ? (
               <Reorder.Group axis="y" values={toolOrder} onReorder={setToolOrder} as="div" className="space-y-3">
                 {toolOrder.map((key) =>
@@ -594,7 +596,7 @@ export default function QuizCard({
 
           {/* מסך רחב: הכלים בסרגל צד קבוע, ליד השאלה */}
           <div className="hidden gap-3 lg:sticky lg:top-4 lg:flex lg:w-72 lg:shrink-0 lg:flex-col">
-            {mode !== 'speed' && hasTopicExplanation && <ExplanationButton onClick={() => setShowExplanation(true)} />}
+            {hasTopicExplanation && <ExplanationButton onClick={() => setShowExplanation(true)} />}
             <div className="lg:min-h-0 lg:flex-1">
               <Scratchpad />
             </div>
