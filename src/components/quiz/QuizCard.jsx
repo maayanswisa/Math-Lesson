@@ -199,6 +199,11 @@ export default function QuizCard({
   const [answers, setAnswers] = useState([]);
   const answersRef = useRef([]);
   const shakeTimeoutRef = useRef(null);
+  /** Scroll position captured right before submitting, so it can be restored once
+   * the next question renders — the feedback screen is genuinely shorter than the
+   * quiz screen, so the browser clamps scroll down while it's showing, and that
+   * clamp otherwise sticks even after the next (tall) question appears. */
+  const preSubmitScrollRef = useRef(null);
   const [phase, setPhase] = useState('quiz');
   const [feedback, setFeedback] = useState(null);
   const [shake, setShake] = useState(false);
@@ -224,6 +229,14 @@ export default function QuizCard({
   useEffect(() => {
     setHintsRevealed(0);
   }, [current?.id]);
+
+  // Restore the scroll position saved just before submitting, once the next
+  // (tall) question has rendered — see preSubmitScrollRef above.
+  useEffect(() => {
+    if (phase !== 'quiz' || preSubmitScrollRef.current == null) return;
+    window.scrollTo({ top: preSubmitScrollRef.current, behavior: 'instant' });
+    preSubmitScrollRef.current = null;
+  }, [phase, current?.id]);
 
   useEffect(() => {
     return () => {
@@ -313,6 +326,7 @@ export default function QuizCard({
   function submitAnswer() {
     if (mode === 'speed' && secondsLeft <= 0) return;
     if (!canSubmit() || !current) return;
+    preSubmitScrollRef.current = window.scrollY;
     const { isCorrect, selected } = evaluateCurrent();
 
     const { xpGained } = recordAnswer(isCorrect);
@@ -369,6 +383,7 @@ export default function QuizCard({
       return;
     }
     finishedRef.current = false;
+    preSubmitScrollRef.current = null;
     setActiveQuestions(questions);
     setCurrentIndex(0);
     setMcqIndex(null);
@@ -385,6 +400,7 @@ export default function QuizCard({
 
   function start(selectedMode) {
     finishedRef.current = false;
+    preSubmitScrollRef.current = null;
     setTimedOut(false);
     setMode(selectedMode);
     setStarted(true);
