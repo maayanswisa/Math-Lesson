@@ -24,7 +24,8 @@ export default function HomePage() {
   const topicCount = allTopics().length;
 
   return (
-    <div className="space-y-14" dir="rtl">
+    <div className="flex flex-1 flex-col" dir="rtl">
+      <div className="space-y-14">
       <section className="max-w-3xl">
         <p className="inline-block rounded-full bg-[var(--color-teal)]/10 px-3 py-1 text-sm font-semibold text-[var(--color-teal-dark)]">
           תרגול מתמטיקה א׳–י״ב 🎯
@@ -105,8 +106,9 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+      </div>
 
-      <footer className="mx-auto max-w-md border-t border-black/5 pt-3 text-center text-xs text-[var(--color-slate)]">
+      <footer className="mx-auto mt-auto w-full max-w-md border-t border-black/5 pt-3 text-center text-xs text-[var(--color-slate)]">
         האתר נבנה על ידי{' '}
         <a
           href="https://build-your-website-maayan.vercel.app/"

@@ -25,7 +25,7 @@ export default function App() {
   return (
     <GameProvider>
       <BrowserRouter>
-        <div className="min-h-screen">
+        <div className="flex min-h-screen flex-col">
           <header
             className="bg-white/60 backdrop-blur-sm"
             style={{
@@ -63,7 +63,7 @@ export default function App() {
             </div>
           </header>
 
-          <main className="mx-auto max-w-5xl px-4 py-10">
+          <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col px-4 py-10">
             <Suspense fallback={<PageLoading />}>
               <Routes>
                 <Route path="/" element={<HomePage />} />
