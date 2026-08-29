@@ -2517,8 +2517,8 @@ export const ELEMENTARY_QUESTIONS = [
       "$3{,}700$",
       "$4{,}000$"
     ],
-    "correct_index": 0,
-    "explanation": "$42<50$ לכן עגלים כלפי ל-$3{,}600$.",
+    "correct_index": 1,
+    "explanation": "ספרת היחידות היא $2$, קטנה מ-$5$, לכן מעגלים כלפי מטה ל-$3{,}640$.",
     "type": "mcq"
   },
   {
