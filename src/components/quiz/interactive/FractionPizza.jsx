@@ -12,6 +12,7 @@ export default function FractionPizza({ payload = {}, correctAnswer, onAnswerRea
         : 1);
 
   const [filled, setFilled] = useState(() => new Set());
+  const [touched, setTouched] = useState(false);
   const size = 220;
   const cx = size / 2;
   const cy = size / 2;
@@ -32,27 +33,26 @@ export default function FractionPizza({ payload = {}, correctAnswer, onAnswerRea
     return out;
   }, [slices, cx, cy, r]);
 
-  function report(count, touched) {
-    onAnswerReady?.({ value: count, isCorrect: count === targetFilled, display: `${count}/${slices}`, touched });
-  }
-
-  // Report the starting "0 filled" state on mount too, the same way the
-  // slice count is reported after every click — otherwise a question whose
-  // correct answer is legitimately 0 slices could never be detected as
-  // correct (deselecting everything used to report `null`, "no answer yet").
-  // Marked untouched so speed-run mode (which submits the moment an answer
-  // is ready) waits for a real tap instead of auto-submitting "0 filled".
+  // Reports on every filled-count change, including the starting "0 filled"
+  // state on mount — otherwise a question whose correct answer is
+  // legitimately 0 slices could never be detected as correct (deselecting
+  // everything used to report `null`, "no answer yet"). The mount report is
+  // untouched so speed-run mode (which submits the moment an answer is
+  // ready) waits for a real tap instead of auto-submitting "0 filled". Runs
+  // as an effect rather than inline in the click handler's state updater,
+  // since calling the parent's setState from inside a setState updater
+  // triggers React's "update during render" warning.
   useEffect(() => {
-    report(0, false);
+    onAnswerReady?.({ value: filled.size, isCorrect: filled.size === targetFilled, display: `${filled.size}/${slices}`, touched });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [filled]);
 
   function toggle(i) {
+    setTouched(true);
     setFilled((prev) => {
       const next = new Set(prev);
       if (next.has(i)) next.delete(i);
       else next.add(i);
-      report(next.size, true);
       return next;
     });
   }
