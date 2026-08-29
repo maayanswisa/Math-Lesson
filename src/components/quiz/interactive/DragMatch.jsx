@@ -61,9 +61,9 @@ export default function DragMatch({ payload = {}, onAnswerReady }) {
               onDrop={() => onDrop(bin.id)}
               className="min-h-28 rounded-2xl border-2 border-dashed border-[var(--color-teal)]/40 bg-white/80 p-3"
             >
-              <p className="mb-2 text-center text-sm font-semibold text-[var(--color-teal)]">
+              <div className="mb-2 text-center text-sm font-semibold text-[var(--color-teal)]">
                 <MathRenderer>{bin.label}</MathRenderer>
-              </p>
+              </div>
               <div className="flex flex-wrap justify-center gap-2">
                 {inBin.map((it) => (
                   <button
