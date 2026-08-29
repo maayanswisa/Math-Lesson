@@ -18801,7 +18801,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g4-mul-basics",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "לפי חוק הפילוג, $25\\times36=25\\times4\\times9=100\\times9=$",
+    "question_text": "לפי חוק הקיבוץ, $25\\times36=25\\times4\\times9=100\\times9=$",
     "options": [
       "$900$",
       "$800$",
