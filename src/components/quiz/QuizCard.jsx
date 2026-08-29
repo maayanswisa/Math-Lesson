@@ -538,7 +538,9 @@ export default function QuizCard({
                   {feedback?.isCorrect ? 'נכון!' : 'לא בדיוק'}
                   {feedback?.xpGained ? ` | +${feedback.xpGained} XP` : ''}
                 </p>
-                <MathRenderer className="text-[var(--color-slate)]">{feedback?.explanation}</MathRenderer>
+                {mode !== 'speed' && (
+                  <MathRenderer className="text-[var(--color-slate)]">{feedback?.explanation}</MathRenderer>
+                )}
                 {mode !== 'speed' && (
                   <button type="button" onClick={goNext} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
                     {currentIndex >= total - 1 ? 'לסיכום' : 'השאלה הבאה'}
