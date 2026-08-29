@@ -2,7 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import QuizCard from '../components/quiz/QuizCard';
 import { getTopicById, GRADE_LABELS, GRADE9_TRACKS } from '../data/curriculum';
-import { getQuestionsForTopic } from '../data/questions';
+import { buildCustomQuiz, getQuestionsForTopic, SPEED_RUN_POOL_SIZE, TOPIC_QUIZ_SIZE } from '../data/questions';
 import { logQuizAttempt } from '../lib/progressLog';
 import { readCustomQuiz } from '../lib/customQuiz.js';
 
@@ -13,11 +13,22 @@ const DIFFICULTY_BANDS = [
   { id: 'hard', label: 'קשה' },
 ];
 
+/**
+ * Loads both the normal-size question set and a much larger pool for
+ * speed-run mode, so a fast player never runs out of questions before the
+ * timer ends.
+ */
 async function loadQuestions(topicId, isCustom, band) {
   if (isCustom) {
-    return readCustomQuiz()?.questions || [];
+    const payload = readCustomQuiz();
+    const questions = payload?.questions || [];
+    const speedQuestions = payload?.topicIds?.length
+      ? await buildCustomQuiz({ topicIds: payload.topicIds, count: SPEED_RUN_POOL_SIZE })
+      : questions;
+    return { questions, speedQuestions };
   }
-  return getQuestionsForTopic(topicId, band);
+  const pool = await getQuestionsForTopic(topicId, band, SPEED_RUN_POOL_SIZE);
+  return { questions: pool.slice(0, TOPIC_QUIZ_SIZE), speedQuestions: pool };
 }
 
 export default function QuizPage() {
@@ -32,6 +43,7 @@ export default function QuizPage() {
   const topic = isCustom ? null : getTopicById(topicId);
 
   const [questions, setQuestions] = useState([]);
+  const [speedQuestions, setSpeedQuestions] = useState([]);
   const [questionsLoading, setQuestionsLoading] = useState(true);
   const [loadError, setLoadError] = useState(false);
 
@@ -40,9 +52,10 @@ export default function QuizPage() {
     setQuestionsLoading(true);
     setLoadError(false);
     loadQuestions(topicId, isCustom, band)
-      .then((qs) => {
+      .then(({ questions: qs, speedQuestions: sqs }) => {
         if (!cancelled) {
           setQuestions(qs);
+          setSpeedQuestions(sqs);
           setQuestionsLoading(false);
         }
       })
@@ -155,14 +168,14 @@ export default function QuizPage() {
           </p>
         )}
         {!isCustom && (
-          <div className="mt-4 flex flex-wrap items-center gap-2">
-            <span className="text-sm text-[var(--color-slate)]">רמת קושי:</span>
+          <div className="mt-3 flex flex-wrap items-center gap-1.5">
+            <span className="text-xs text-[var(--color-slate)]">רמת קושי:</span>
             {DIFFICULTY_BANDS.map((b) => (
               <button
                 key={b.id}
                 type="button"
                 onClick={() => setBand(b.id)}
-                className={`flex min-h-11 items-center justify-center rounded-lg px-3 text-sm font-semibold ${
+                className={`flex min-h-8 items-center justify-center rounded-md px-2.5 py-1 text-xs font-semibold ${
                   band === b.id
                     ? 'bg-[var(--color-teal)] text-white'
                     : 'bg-white text-[var(--color-ink)] ring-1 ring-black/10'
@@ -183,6 +196,7 @@ export default function QuizPage() {
         <QuizCard
           key={`${topicId}-${band}-${drawId}`}
           questions={questions}
+          speedQuestions={speedQuestions}
           topicExplanation={topic?.explanation ?? null}
           topicKeyFormulas={topic?.keyFormulas ?? null}
           grade={grade}

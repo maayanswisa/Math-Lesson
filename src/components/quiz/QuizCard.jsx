@@ -19,6 +19,15 @@ import { readJSON, writeJSON } from '../../lib/storage.js';
 const OPTION_LABELS = ['א', 'ב', 'ג', 'ד'];
 const TOOL_ORDER_KEY = 'math-lesson-tool-order-v1';
 
+function shuffleArray(list) {
+  const arr = [...list];
+  for (let i = arr.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
 function loadToolOrder() {
   const saved = readJSON(TOOL_ORDER_KEY, null);
   if (Array.isArray(saved) && saved.length === 2 && saved.includes('scratchpad') && saved.includes('calculator')) {
@@ -170,6 +179,8 @@ function QuestionBody({ question, mcqIndex, onMcqSelect, onInteractiveReady, loc
 
 export default function QuizCard({
   questions = [],
+  /** Much larger question pool for speed-run mode, so it never runs out before the timer ends. */
+  speedQuestions = [],
   topicExplanation = null,
   topicKeyFormulas = null,
   grade = null,
@@ -178,9 +189,10 @@ export default function QuizCard({
   onRetry,
 }) {
   const { muted, recordAnswer, recordQuizComplete } = useGame();
-  const total = questions.length;
   const [mode, setMode] = useState('normal');
   const [started, setStarted] = useState(false);
+  const [activeQuestions, setActiveQuestions] = useState(questions);
+  const total = activeQuestions.length;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [mcqIndex, setMcqIndex] = useState(null);
   const [interactiveAnswer, setInteractiveAnswer] = useState(null);
@@ -205,7 +217,7 @@ export default function QuizCard({
   }, [toolOrder]);
 
   const showCalculator = grade != null && Number(grade) >= 7;
-  const current = questions[currentIndex];
+  const current = activeQuestions[currentIndex];
   const hints = useMemo(() => getHintsForQuestion(current), [current]);
   const onInteractiveReady = useCallback((ans) => setInteractiveAnswer(ans), []);
 
@@ -228,16 +240,19 @@ export default function QuizCard({
     if (finishedRef.current) return;
     finishedRef.current = true;
     if (reason === 'timeout') setTimedOut(true);
+    // Use the number of questions actually answered, not the pool size — a
+    // speed run can loop through the pool multiple times before time is up.
+    const answeredCount = finalAnswers.length;
     const correctCount = finalAnswers.filter((a) => a.isCorrect).length;
-    const wrongCount = total - correctCount;
-    const score = finalAnswers.length === 0 ? 0 : Math.round((correctCount / Math.max(total, 1)) * 100);
-    const perfect = correctCount === total && total > 0 && reason !== 'timeout';
+    const wrongCount = answeredCount - correctCount;
+    const score = answeredCount === 0 ? 0 : Math.round((correctCount / answeredCount) * 100);
+    const perfect = correctCount === answeredCount && answeredCount > 0 && reason !== 'timeout';
     const { xpGained } = recordQuizComplete({ perfect });
     setSessionXp((x) => x + xpGained);
     if (perfect || score >= 80) fireBigConfetti();
     if (shouldShowStudyMorePopup(wrongCount)) setShowPromo(true);
     setPhase('summary');
-    onComplete?.({ score, correctCount, total, answers: finalAnswers, timedOut: reason === 'timeout' });
+    onComplete?.({ score, correctCount, total: answeredCount, answers: finalAnswers, timedOut: reason === 'timeout' });
   }
 
   useEffect(() => {
@@ -255,10 +270,11 @@ export default function QuizCard({
 
   const summary = useMemo(() => {
     if (phase !== 'summary') return null;
+    const answeredCount = answers.length;
     const correctCount = answers.filter((a) => a.isCorrect).length;
-    const score = total === 0 ? 0 : Math.round((correctCount / Math.max(total, 1)) * 100);
-    return { correctCount, score };
-  }, [phase, answers, total]);
+    const score = answeredCount === 0 ? 0 : Math.round((correctCount / answeredCount) * 100);
+    return { correctCount, score, answeredCount };
+  }, [phase, answers]);
 
   function canSubmit() {
     if (!current) return false;
@@ -283,6 +299,7 @@ export default function QuizCard({
 
     const entry = {
       questionId: current.id,
+      question: current,
       selectedIndex: typeof selected === 'number' ? selected : null,
       selectedValue: selected,
       isCorrect,
@@ -308,6 +325,14 @@ export default function QuizCard({
     setMcqIndex(null);
     setInteractiveAnswer(null);
     if (currentIndex >= total - 1) {
+      if (mode === 'speed') {
+        // Speed run only ends on timeout — loop back through a reshuffled
+        // pool instead of stopping once the pool is exhausted.
+        setActiveQuestions((qs) => shuffleArray(qs));
+        setCurrentIndex(0);
+        setPhase('quiz');
+        return;
+      }
       finishQuiz(answersRef.current);
       return;
     }
@@ -321,6 +346,7 @@ export default function QuizCard({
       return;
     }
     finishedRef.current = false;
+    setActiveQuestions(questions);
     setCurrentIndex(0);
     setMcqIndex(null);
     setInteractiveAnswer(null);
@@ -340,6 +366,12 @@ export default function QuizCard({
     setMode(selectedMode);
     setStarted(true);
     setSecondsLeft(SPEED_RUN_SECONDS);
+    setCurrentIndex(0);
+    setActiveQuestions(
+      selectedMode === 'speed' && speedQuestions.length > questions.length
+        ? shuffleArray(speedQuestions)
+        : questions,
+    );
   }
 
   if (!total) {
@@ -363,10 +395,10 @@ export default function QuizCard({
         )}
         <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
           <button type="button" onClick={() => start('normal')} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
-            משימה רגילה
+            התחל מבחן
           </button>
           <button type="button" onClick={() => start('speed')} className="rounded-xl bg-white px-6 py-3 text-sm font-semibold text-[var(--color-ink)] ring-1 ring-black/10 hover:ring-[var(--color-teal)]/40">
-            Speed Run — {SPEED_RUN_SECONDS} שניות
+            מבחן מהיר — כמה שיותר שאלות ב-{SPEED_RUN_SECONDS} שניות
           </button>
         </div>
       </div>
@@ -386,7 +418,7 @@ export default function QuizCard({
             הציון שלך: {summary.score}
           </h2>
           <p className="mt-3 text-[var(--color-slate)]">
-            עניתם נכון על {summary.correctCount} מתוך {total} שאלות
+            עניתם נכון על {summary.correctCount} מתוך {summary.answeredCount} שאלות
             {timedOut ? ' (עד שנגמר הזמן)' : ''}
           </p>
           <p className="mt-2 text-lg font-semibold text-[var(--color-teal)]">+{sessionXp} XP במשימה זו</p>
@@ -399,12 +431,12 @@ export default function QuizCard({
         </section>
         <section className="space-y-4">
           <h3 className="px-1 text-lg font-semibold text-[var(--color-ink)]">פירוט תשובות</h3>
-          {questions.map((q, i) => {
-            const userAnswer = answers[i];
-            if (!userAnswer) return null;
+          {answers.map((userAnswer, i) => {
+            const q = userAnswer.question;
+            if (!q) return null;
             const wrong = !userAnswer.isCorrect;
             return (
-              <article key={q.id} className={`rounded-2xl bg-white/90 p-6 shadow-sm ring-1 ${wrong ? 'ring-[var(--color-coral)]/35' : 'ring-[var(--color-success)]/35'}`}>
+              <article key={`${q.id}-${i}`} className={`rounded-2xl bg-white/90 p-6 shadow-sm ring-1 ${wrong ? 'ring-[var(--color-coral)]/35' : 'ring-[var(--color-success)]/35'}`}>
                 <div className="mb-3 flex flex-wrap items-center gap-2">
                   <span className="text-sm font-medium text-[var(--color-slate)]">שאלה {i + 1}</span>
                   <span className={`rounded-md px-2 py-0.5 text-xs font-semibold ${wrong ? 'bg-[var(--color-coral)]/10 text-[var(--color-coral-dark)]' : 'bg-[var(--color-success)]/10 text-[var(--color-success)]'}`}>
@@ -446,7 +478,9 @@ export default function QuizCard({
       <div className="min-w-0 lg:flex-1">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3 text-sm text-[var(--color-slate)]">
           <span>
-            {`שאלה ${Math.min(currentIndex + 1, total)} מתוך ${total}`}
+            {mode === 'speed'
+              ? `שאלה ${answers.length + 1}`
+              : `שאלה ${Math.min(currentIndex + 1, total)} מתוך ${total}`}
           </span>
           <div className="flex items-center gap-3">
             {mode === 'speed' && (
@@ -457,7 +491,14 @@ export default function QuizCard({
           </div>
         </div>
         <div className="mb-6 h-2.5 overflow-hidden rounded-full bg-[var(--color-mist)]">
-          <div className="h-full rounded-full bg-[var(--color-teal)] transition-all duration-500 ease-out" style={{ width: `${(answers.length / total) * 100}%` }} role="progressbar" aria-valuenow={answers.length} aria-valuemin={0} aria-valuemax={total} />
+          <div
+            className="h-full rounded-full bg-[var(--color-teal)] transition-all duration-500 ease-out"
+            style={{ width: `${mode === 'speed' ? (secondsLeft / SPEED_RUN_SECONDS) * 100 : (answers.length / total) * 100}%` }}
+            role="progressbar"
+            aria-valuenow={mode === 'speed' ? secondsLeft : answers.length}
+            aria-valuemin={0}
+            aria-valuemax={mode === 'speed' ? SPEED_RUN_SECONDS : total}
+          />
         </div>
         <AnimatePresence mode="wait">
           <motion.article

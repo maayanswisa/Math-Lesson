@@ -43,18 +43,18 @@ export default function HomePage() {
               Math Lesson
             </span>
           </h1>
-          <div className="flex flex-wrap gap-3">
-            <div className="rounded-2xl bg-white px-5 py-3 shadow-sm ring-1 ring-black/5">
-              <span className="block text-2xl font-extrabold text-[var(--color-teal-dark)]">
+          <div className="flex flex-wrap gap-2">
+            <div className="rounded-xl bg-white px-3 py-1.5 shadow-sm ring-1 ring-black/5">
+              <span className="block text-base font-extrabold text-[var(--color-teal-dark)]">
                 {numberFormat.format(topicCount)}
               </span>
-              <span className="text-xs font-medium text-[var(--color-slate)]">נושאים</span>
+              <span className="text-[10px] font-medium text-[var(--color-slate)]">נושאים</span>
             </div>
-            <div className="rounded-2xl bg-white px-5 py-3 shadow-sm ring-1 ring-black/5">
-              <span className="block text-2xl font-extrabold text-[var(--color-violet)]">
+            <div className="rounded-xl bg-white px-3 py-1.5 shadow-sm ring-1 ring-black/5">
+              <span className="block text-base font-extrabold text-[var(--color-violet)]">
                 {numberFormat.format(TOTAL_QUESTION_COUNT)}
               </span>
-              <span className="text-xs font-medium text-[var(--color-slate)]">שאלות</span>
+              <span className="text-[10px] font-medium text-[var(--color-slate)]">שאלות</span>
             </div>
           </div>
         </div>

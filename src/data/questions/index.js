@@ -4,6 +4,9 @@ import { getTopicById, isElementary, isMiddleSchool } from '../curriculum/index.
 /** How many questions appear in a normal topic quiz. */
 export const TOPIC_QUIZ_SIZE = 5;
 
+/** Effectively "all of them" — passed as the pick count so speed-run mode gets the whole topic bank instead of just TOPIC_QUIZ_SIZE. */
+export const SPEED_RUN_POOL_SIZE = 500;
+
 /**
  * Total questions across every bank, as of the last time this was updated.
  * Kept as a static number (rather than summing the live arrays) so the home
@@ -89,14 +92,16 @@ function pickForBand(pool, band, count) {
 }
 
 /**
- * Topic quiz: 5 questions from the full bank, optionally weighted toward a
- * difficulty band.
+ * Topic quiz: `count` questions from the full bank, optionally weighted
+ * toward a difficulty band. Defaults to the normal 5-question topic quiz;
+ * pass SPEED_RUN_POOL_SIZE to get the whole bank for speed-run mode.
  * @param {string} topicId
  * @param {'easy'|'medium'|'hard'|null} [difficultyBand]
+ * @param {number} [count]
  */
-export async function getQuestionsForTopic(topicId, difficultyBand = null) {
+export async function getQuestionsForTopic(topicId, difficultyBand = null, count = TOPIC_QUIZ_SIZE) {
   const pool = await getAllQuestionsForTopic(topicId);
-  return pickForBand(pool, difficultyBand, TOPIC_QUIZ_SIZE);
+  return pickForBand(pool, difficultyBand, count);
 }
 
 /**
