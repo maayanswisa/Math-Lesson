@@ -34,11 +34,12 @@ export default function GameHUD() {
       <button
         type="button"
         onClick={toggleMute}
-        className="rounded-lg bg-white/70 px-2 py-1 text-xs text-[var(--color-slate)] ring-1 ring-black/10 hover:ring-[var(--color-teal)]/40 sm:px-2.5"
+        className="rounded-lg bg-white/70 px-2 py-1 text-sm text-[var(--color-slate)] ring-1 ring-black/10 hover:ring-[var(--color-teal)]/40 sm:px-2.5"
         aria-pressed={muted}
+        aria-label={muted ? 'הפעלת צלילים' : 'השתקת צלילים'}
         title={muted ? 'הפעלת צלילים' : 'השתקת צלילים'}
       >
-        {muted ? 'מושתק' : 'צלילים'}
+        {muted ? '🔇' : '🔊'}
       </button>
     </div>
   );
