@@ -276,10 +276,10 @@ export default function QuizCard({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode, phase, mcqIndex, interactiveAnswer]);
 
-  // Speed run: briefly show correct/wrong, then move on automatically — no "next question" click.
+  // Speed run: play the sound cue, then move on immediately — no "next question" click, no visible feedback.
   useEffect(() => {
     if (mode !== 'speed' || phase !== 'feedback') return undefined;
-    const t = setTimeout(() => goNext(), 550);
+    const t = setTimeout(() => goNext(), 150);
     return () => clearTimeout(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode, phase, feedback]);
@@ -324,12 +324,14 @@ export default function QuizCard({
 
     if (isCorrect) {
       playCorrect(muted);
-      fireConfetti();
+      if (mode !== 'speed') fireConfetti();
     } else {
       playWrong(muted);
-      setShake(true);
-      if (shakeTimeoutRef.current) clearTimeout(shakeTimeoutRef.current);
-      shakeTimeoutRef.current = setTimeout(() => setShake(false), 500);
+      if (mode !== 'speed') {
+        setShake(true);
+        if (shakeTimeoutRef.current) clearTimeout(shakeTimeoutRef.current);
+        shakeTimeoutRef.current = setTimeout(() => setShake(false), 500);
+      }
     }
 
     setFeedback({ isCorrect, explanation: current.explanation, xpGained });
