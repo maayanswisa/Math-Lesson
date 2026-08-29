@@ -34,7 +34,7 @@ export default function App() {
                 'linear-gradient(90deg, var(--color-teal), var(--color-sky), var(--color-violet), var(--color-berry), var(--color-sunshine)) 1',
             }}
           >
-            <div className="mx-auto flex max-w-5xl flex-nowrap items-center gap-3 px-3 py-2 sm:gap-6 sm:px-4 sm:py-4">
+            <div className="mx-auto flex max-w-5xl flex-nowrap items-center justify-between gap-2 px-3 py-2 text-xs font-medium text-[var(--color-slate)] sm:gap-4 sm:px-4 sm:py-4 sm:text-sm">
               <Link
                 to="/"
                 className="flex shrink-0 items-center gap-1.5 font-[family-name:var(--font-display)] text-[var(--color-ink)] sm:gap-2"
@@ -49,7 +49,7 @@ export default function App() {
                   </span>
                 </span>
               </Link>
-              <nav className="flex flex-nowrap items-center gap-1 text-xs font-medium text-[var(--color-slate)] sm:gap-3 sm:text-sm">
+              <nav className="contents">
                 <Link to="/custom-test" className="shrink-0 whitespace-nowrap hover:text-[var(--color-teal)]">
                   <span className="sm:hidden">מבחן</span>
                   <span className="hidden sm:inline">מבחן מותאם</span>

@@ -5,14 +5,11 @@ export default function GameHUD() {
   const progressPct = Math.round((levelInfo.progress || 0) * 100);
 
   return (
-    <div className="flex flex-nowrap items-center gap-1.5 text-xs sm:gap-3 sm:text-sm" dir="rtl">
+    <>
       <div className="min-w-0 shrink-0 sm:min-w-[140px]" title={level.title}>
         <div className="flex items-center justify-between gap-2">
           <span className="hidden whitespace-nowrap font-semibold text-[var(--color-ink)] sm:inline">{level.title}</span>
-          <span className="whitespace-nowrap text-[var(--color-teal)]">
-            <span className="sm:hidden">{xp}</span>
-            <span className="hidden sm:inline">{xp} XP</span>
-          </span>
+          <span className="whitespace-nowrap text-[var(--color-teal)]">{xp} XP</span>
         </div>
         <div className="mt-1 h-2 overflow-hidden rounded-full bg-[var(--color-mist)]">
           <div
@@ -45,6 +42,6 @@ export default function GameHUD() {
       >
         {muted ? '🔇' : '🔊'}
       </button>
-    </div>
+    </>
   );
 }
