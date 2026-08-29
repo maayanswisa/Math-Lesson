@@ -6561,7 +6561,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-ratio-percent",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "20 מתוך 100 בא%:",
+    "question_text": "כמה זה $20$ מתוך $100$ באחוזים?",
     "options": [
       "$25\\%$",
       "$20\\%$",
@@ -6576,7 +6576,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-ratio-percent",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1/4 בא%:",
+    "question_text": "כמה זה $\\frac{1}{4}$ באחוזים?",
     "options": [
       "$10\\%$",
       "$4\\%$",

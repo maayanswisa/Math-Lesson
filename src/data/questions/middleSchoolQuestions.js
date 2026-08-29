@@ -1821,7 +1821,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות נגדיות על ישרים מקבילים:",
+    "question_text": "זוויות מתחלפות על ישרים מקבילים:",
     "options": [
       "שווות",
       "90",
@@ -1829,7 +1829,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "180"
     ],
     "correct_index": 0,
-    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות נגדיות-פנימיות (מתחלפות) שוות זו לזו."
+    "explanation": "כאשר חותך חוצה שני ישרים מקבילים, זוויות מתחלפות (הנמצאות משני צדי החותך, בין שני הישרים) שוות זו לזו."
   },
   {
     "id": "q-q-g7-angles-triangles-2",

@@ -456,7 +456,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-finance",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1/4 בא%:",
+    "question_text": "בטאו את $\\dfrac{1}{4}$ באחוזים:",
     "options": [
       "$40\\%$",
       "$10\\%$",
@@ -561,7 +561,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-finance",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "20 מתוך 100 בא%:",
+    "question_text": "בטאו את $20$ מתוך $100$ באחוזים:",
     "options": [
       "$25\\%$",
       "$20\\%$",
@@ -1874,14 +1874,14 @@ export const QUESTIONS = [
       "$4$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $\\pm 2$."
+    "explanation": "פותרים $x^2-4=0\\Rightarrow x^2=4\\Rightarrow x=\\pm\\sqrt{4}=\\pm2$."
   },
   {
     "id": "q-q-g10-u4-poly-root-2",
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "Possible rational root factor 6 over 2 includes:",
+    "question_text": "לפי משפט השורש הרציונלי, לפולינום $2x^3+x^2-x+6$ (מקדם מוביל $2$, איבר חופשי $6$), אילו מהבאים הם כל השורשים הרציונליים האפשריים?",
     "options": [
       "רק 6",
       "$\\pm1,2,3,6,\\frac12,\\frac32$",
@@ -1889,7 +1889,7 @@ export const QUESTIONS = [
       "רק 1"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $\\pm1,2,3,6,\\frac12,\\frac32$."
+    "explanation": "שורשים רציונליים אפשריים הם $\\pm\\frac{p}{q}$ כאשר $p$ מחלק את האיבר החופשי ($6$) ו-$q$ מחלק את המקדם המוביל ($2$): $p\\in\\{1,2,3,6\\},\\ q\\in\\{1,2\\}$, ולכן $\\pm1,2,3,6,\\frac12,\\frac32$."
   },
   {
     "id": "q-q-g10-u4-poly-root-3",
@@ -1911,7 +1911,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "($x-2$) שורש של p אם p(2)=",
+    "question_text": "$(x-2)$ הוא גורם של $p(x)$ אם ורק אם $p(2)=$",
     "options": [
       "$2$",
       "$-2$",
@@ -1919,7 +1919,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 3,
-    "explanation": "התשובה הנכונה היא $0$."
+    "explanation": "לפי משפט הגורם, $(x-2)$ הוא גורם (שורש) של $p(x)$ אם ורק אם $p(2)=0$."
   },
   {
     "id": "q-q-g10-u4-poly-root-5",
@@ -1956,7 +1956,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שורש x^2=4 (x>0):",
+    "question_text": "שורש $x^2=4$ ($x>0$):",
     "options": [
       "$2$",
       "$-3$",
@@ -1971,7 +1971,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שורש x^2=1 (x>0):",
+    "question_text": "שורש $x^2=1$ ($x>0$):",
     "options": [
       "$-3$",
       "$1$",
@@ -1986,7 +1986,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שורש x^2=25 (x>0):",
+    "question_text": "שורש $x^2=25$ ($x>0$):",
     "options": [
       "$0$",
       "$1$",
@@ -2001,7 +2001,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "($x^2+1$) שורשים ממשיים?",
+    "question_text": "כמה שורשים ממשיים יש לפולינום $x^2+1$?",
     "options": [
       "$0$",
       "$\\pm1$",
@@ -2009,7 +2009,7 @@ export const QUESTIONS = [
       "$\\pm i$ רק"
     ],
     "correct_index": 2,
-    "explanation": "התשובה הנכונה היא אין."
+    "explanation": "פותרים $x^2+1=0\\Rightarrow x^2=-1$. אין פתרון ממשי, כי ריבוע של מספר ממשי אינו יכול להיות שלילי, ולכן אין ל-$x^2+1$ שורשים ממשיים."
   },
   {
     "id": "q-q-g10-u4-poly-root-11",
@@ -2046,7 +2046,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שורש x^2=9 (x>0):",
+    "question_text": "שורש $x^2=9$ ($x>0$):",
     "options": [
       "$-4$",
       "$-1$",
@@ -2061,7 +2061,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שורש x^2=16 (x>0):",
+    "question_text": "שורש $x^2=16$ ($x>0$):",
     "options": [
       "$4$",
       "$0$",
@@ -2091,60 +2091,60 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $10x=80$. $x$?",
+    "question_text": "$p(x)=x^2+3x$. $p(2)=$?",
     "options": [
-      "$1$",
-      "$8$",
-      "$3$",
-      "$4$"
+      "$5$",
+      "$10$",
+      "$12$",
+      "$8$"
     ],
     "correct_index": 1,
-    "explanation": "מחלקים את שני האגפים ב-$10$: $x=80\\div 10=8$."
+    "explanation": "מציבים $x=2$: $p(2)=2^2+3\\times2=4+6=10$."
   },
   {
     "id": "q-q-g10-u4-poly-root-552",
     "topic_id": "g10-u4-poly-root",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $6x=42$. $x$?",
+    "question_text": "$p(x)=x^2-2x$. $p(3)=$?",
     "options": [
-      "$0$",
-      "$2$",
-      "$7$",
-      "$3$"
+      "$9$",
+      "$1$",
+      "$3$",
+      "$15$"
     ],
     "correct_index": 2,
-    "explanation": "מחלקים את שני האגפים ב-$6$: $x=42\\div 6=7$."
+    "explanation": "מציבים $x=3$: $p(3)=3^2-2\\times3=9-6=3$."
   },
   {
     "id": "q-q-g10-u4-poly-root-553",
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $4x+4=36$. $x$?",
+    "question_text": "$p(x)=x^3-x$. $p(2)=$?",
     "options": [
-      "$3$",
-      "$1$",
+      "$8$",
       "$4$",
-      "$8$"
+      "$10$",
+      "$6$"
     ],
     "correct_index": 3,
-    "explanation": "מעבירים את $4$ אגף: $4x=36-4=32$. מחלקים ב-$4$: $x=8$."
+    "explanation": "מציבים $x=2$: $p(2)=2^3-2=8-2=6$."
   },
   {
     "id": "q-q-g10-u4-poly-root-554",
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+11=99$. $x$?",
+    "question_text": "$p(x)=2x^2-3x+1$. $p(2)=$?",
     "options": [
-      "$81$",
-      "$84$",
-      "$88$",
-      "$83$"
+      "$5$",
+      "$3$",
+      "$9$",
+      "$1$"
     ],
-    "correct_index": 2,
-    "explanation": "מעבירים את $11$ אגף עם סימן הפוך: $x=99-11=88$."
+    "correct_index": 1,
+    "explanation": "מציבים $x=2$: $p(2)=2\\times2^2-3\\times2+1=8-6+1=3$."
   },
   {
     "id": "q-g10-u4-an-1",
@@ -2181,7 +2181,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-analytic-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "דיסתנס formula:",
+    "question_text": "נוסחת המרחק בין שתי נקודות:",
     "options": [
       "$xy$",
       "$|x-y|$",
@@ -2303,9 +2303,9 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "במשולש: 90, 30, ?:",
     "options": [
-      "$70$",
-      "$45$",
-      "$120$",
+      "$70^\\circ$",
+      "$45^\\circ$",
+      "$120^\\circ$",
       "$60^\\circ$"
     ],
     "correct_index": 3,
@@ -2378,10 +2378,10 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "במשולש שווה-צלעות כל זווית:",
     "options": [
-      "$45$",
-      "$90$",
+      "$45^\\circ$",
+      "$90^\\circ$",
       "$60^\\circ$",
-      "$120$"
+      "$120^\\circ$"
     ],
     "correct_index": 2,
     "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות זו לזו, וסכומן $180^\\circ$, לכן כל זווית היא $180\\div 3=60^\\circ$."
@@ -2393,9 +2393,9 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "זווית קהה:",
     "options": [
-      "$<90$",
-      "$=180$",
-      "$=90$",
+      "$<90^\\circ$",
+      "$=180^\\circ$",
+      "$=90^\\circ$",
       "$>90^\\circ$"
     ],
     "correct_index": 3,
@@ -2439,9 +2439,9 @@ export const QUESTIONS = [
     "question_text": "זווית חדה:",
     "options": [
       "$<90^\\circ$",
-      "=90",
-      "$>90$",
-      "=180"
+      "$=90^\\circ$",
+      "$>90^\\circ$",
+      "$=180^\\circ$"
     ],
     "correct_index": 0,
     "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
@@ -2496,7 +2496,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות נגדיות על ישרים מקבילים:",
+    "question_text": "זוויות מתאימות על ישרים מקבילים:",
     "options": [
       "180",
       "משלימות",
@@ -2504,7 +2504,7 @@ export const QUESTIONS = [
       "שווות"
     ],
     "correct_index": 3,
-    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות מתאימות (נגדיות-פנימיות) שוות זו לזו."
+    "explanation": "כאשר ישר (חותך) חותך שני ישרים מקבילים, זוויות מתאימות (הנמצאות באותו מיקום יחסי) שוות זו לזו."
   },
   {
     "id": "q-q-g10-u4-plane-geo-17",
@@ -2528,9 +2528,9 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "סכום זוויות סביב נקודה:",
     "options": [
-      "$180$",
-      "$90$",
-      "$270$",
+      "$180^\\circ$",
+      "$90^\\circ$",
+      "$270^\\circ$",
       "$360^\\circ$"
     ],
     "correct_index": 3,
@@ -2541,15 +2541,15 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+4=28$. $x$?",
+    "question_text": "זוויות במשולש: $55^{\\circ},65^{\\circ},?$",
     "options": [
-      "$20$",
-      "$17$",
-      "$24$",
-      "$19$"
+      "$50^\\circ$",
+      "$70^\\circ$",
+      "$60^\\circ$",
+      "$120^\\circ$"
     ],
     "correct_index": 2,
-    "explanation": "מעבירים את $4$ אגף עם סימן הפוך: $x=28-4=24$."
+    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-55-65=60^\\circ$."
   },
   {
     "id": "q-g10-u4-tr-1",
@@ -2633,10 +2633,10 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "במשולש 30-60-90, מול ה-60 אם יתר=2:",
     "options": [
-      "2",
+      "$2$",
       "$\\sqrt{3}$",
-      "3",
-      "1"
+      "$3$",
+      "$1$"
     ],
     "correct_index": 1,
     "explanation": "במשולש 30-60-90 היחס בין הצלעות הוא $1:\\sqrt{3}:2$. מול הזווית $60^\\circ$ הצלע היא $\\sqrt{3}$ כאשר היתר הוא $2$."
@@ -3396,75 +3396,75 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $6x+6=42$. $x$?",
+    "question_text": "$\\int x^4\\,dx=$",
     "options": [
-      "$-1$",
-      "$6$",
-      "$1$",
-      "$2$"
+      "$x^5+C$",
+      "$\\frac{x^5}{5}+C$",
+      "$4x^3+C$",
+      "$\\frac{x^4}{4}+C$"
     ],
     "correct_index": 1,
-    "explanation": "מעבירים את $6$ אגף: $6x=42-6=36$. מחלקים ב-$6$: $x=6$."
+    "explanation": "לפי כלל החזקה באינטגרציה: $\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C$, כלומר $\\int x^4\\,dx=\\frac{x^5}{5}+C$."
   },
   {
     "id": "q-q-g11-u4-integral-552",
     "topic_id": "g11-u4-integral",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $9x=54$. $x$?",
+    "question_text": "$\\int 4x\\,dx=$",
     "options": [
-      "$2$",
-      "$6$",
-      "$1$",
-      "$-1$"
+      "$4x^2+C$",
+      "$x^2+C$",
+      "$2x^2+C$",
+      "$4x+C$"
     ],
-    "correct_index": 1,
-    "explanation": "מחלקים את שני האגפים ב-$9$: $x=54\\div 9=6$."
+    "correct_index": 2,
+    "explanation": "לפי כלל החזקה באינטגרציה: $\\int cx\\,dx=\\frac{c}{2}x^{2}+C$, כלומר $\\int 4x\\,dx=2x^2+C$."
   },
   {
     "id": "q-q-g11-u4-integral-553",
     "topic_id": "g11-u4-integral",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $2x=8$. $x$?",
+    "question_text": "$\\int 2\\,dx=$",
     "options": [
-      "$0$",
-      "$-1$",
-      "$4$",
-      "$-3$"
+      "$x+C$",
+      "$2+C$",
+      "$x^2+C$",
+      "$2x+C$"
     ],
-    "correct_index": 2,
-    "explanation": "מחלקים את שני האגפים ב-$2$: $x=8\\div 2=4$."
+    "correct_index": 3,
+    "explanation": "אינטגרל של קבוע $c$ הוא $cx+C$, כלומר $\\int 2\\,dx=2x+C$."
   },
   {
     "id": "q-q-g11-u4-integral-554",
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $11x+11=99$. $x$?",
+    "question_text": "$\\int 6x^5\\,dx=$",
     "options": [
-      "$3$",
-      "$1$",
-      "$8$",
-      "$4$"
+      "$6x^6+C$",
+      "$x^5+C$",
+      "$30x^4+C$",
+      "$x^6+C$"
     ],
-    "correct_index": 2,
-    "explanation": "מעבירים את $11$ אגף: $11x=99-11=88$. מחלקים ב-$11$: $x=8$."
+    "correct_index": 3,
+    "explanation": "לפי כלל החזקה באינטגרציה: $\\int cx^n\\,dx=\\frac{c}{n+1}x^{n+1}+C$, כלומר $\\int 6x^5\\,dx=\\frac{6}{6}x^6+C=x^6+C$."
   },
   {
     "id": "q-q-g11-u4-integral-555",
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $3x+3=27$. $x$?",
+    "question_text": "$\\int 4x^3\\,dx=$",
     "options": [
-      "$4$",
-      "$3$",
-      "$1$",
-      "$8$"
+      "$4x^4+C$",
+      "$x^3+C$",
+      "$x^4+C$",
+      "$12x^2+C$"
     ],
-    "correct_index": 3,
-    "explanation": "מעבירים את $3$ אגף: $3x=27-3=24$. מחלקים ב-$3$: $x=8$."
+    "correct_index": 2,
+    "explanation": "לפי כלל החזקה באינטגרציה: $\\int cx^n\\,dx=\\frac{c}{n+1}x^{n+1}+C$, כלומר $\\int 4x^3\\,dx=\\frac{4}{4}x^4+C=x^4+C$."
   },
   {
     "id": "q-g11-u4-circ-1",
@@ -5384,7 +5384,7 @@ export const QUESTIONS = [
       "$6x^2$"
     ],
     "correct_index": 3,
-    "explanation": "התשובה הנכונה היא $6x^2$."
+    "explanation": "לפי כלל החזקה עם מקדם קבוע: $(cx^n)'=c\\cdot nx^{n-1}$, כלומר $(2x^3)'=2\\times3x^2=6x^2$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-4",
@@ -5489,7 +5489,7 @@ export const QUESTIONS = [
       "$-\\cos x$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $-\\sin x$."
+    "explanation": "זוהי נגזרת יסודית שיש לזכור (וניתן להוכיח מהגדרת הגבול): $(\\cos x)'=-\\sin x$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-11",
@@ -5534,7 +5534,7 @@ export const QUESTIONS = [
       "$-\\cos x$"
     ],
     "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $\\cos x$."
+    "explanation": "זוהי נגזרת יסודית שיש לזכור (וניתן להוכיח מהגדרת הגבול): $(\\sin x)'=\\cos x$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-14",
@@ -5556,75 +5556,75 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $7x+7=56$. $x$?",
+    "question_text": "$(3x^{4})'=$",
     "options": [
-      "$7$",
-      "$0$",
-      "$2$",
-      "$3$"
+      "$3x^3$",
+      "$12x^4$",
+      "$12x^3$",
+      "$4x^3$"
     ],
-    "correct_index": 0,
-    "explanation": "מעבירים את $7$ אגף: $7x=56-7=49$. מחלקים ב-$7$: $x=7$."
+    "correct_index": 2,
+    "explanation": "לפי כלל החזקה עם מקדם קבוע: $(cx^n)'=c\\cdot nx^{n-1}$, כלומר $(3x^{4})'=3\\times4x^{3}=12x^{3}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-552",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $6x+6=60$. $x$?",
+    "question_text": "$(4x^{2})'=$",
     "options": [
-      "$4$",
-      "$9$",
-      "$5$",
-      "$2$"
+      "$4x$",
+      "$8x$",
+      "$8x^2$",
+      "$2x$"
     ],
     "correct_index": 1,
-    "explanation": "מעבירים את $6$ אגף: $6x=60-6=54$. מחלקים ב-$6$: $x=9$."
+    "explanation": "לפי כלל החזקה עם מקדם קבוע: $(cx^n)'=c\\cdot nx^{n-1}$, כלומר $(4x^{2})'=4\\times2x=8x$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-553",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $7x+7=42$. $x$?",
+    "question_text": "$(5x^{3})'=$",
     "options": [
-      "$0$",
-      "$-2$",
-      "$5$",
-      "$1$"
+      "$5x^2$",
+      "$15x^3$",
+      "$3x^2$",
+      "$15x^2$"
     ],
-    "correct_index": 2,
-    "explanation": "מעבירים את $7$ אגף: $7x=42-7=35$. מחלקים ב-$7$: $x=5$."
+    "correct_index": 3,
+    "explanation": "לפי כלל החזקה עם מקדם קבוע: $(cx^n)'=c\\cdot nx^{n-1}$, כלומר $(5x^{3})'=5\\times3x^{2}=15x^{2}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-554",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $9x+9=45$. $x$?",
+    "question_text": "$(3x^{5})'=$",
     "options": [
-      "$4$",
-      "$0$",
-      "$-3$",
-      "$-1$"
+      "$15x^4$",
+      "$3x^4$",
+      "$15x^5$",
+      "$5x^4$"
     ],
     "correct_index": 0,
-    "explanation": "מעבירים את $9$ אגף: $9x=45-9=36$. מחלקים ב-$9$: $x=4$."
+    "explanation": "לפי כלל החזקה עם מקדם קבוע: $(cx^n)'=c\\cdot nx^{n-1}$, כלומר $(3x^{5})'=3\\times5x^{4}=15x^{4}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-555",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $10x+10=60$. $x$?",
+    "question_text": "$(2x^{2}+3x)'=$",
     "options": [
-      "$0$",
-      "$-2$",
-      "$5$",
-      "$1$"
+      "$4x$",
+      "$2x+3$",
+      "$4x+3$",
+      "$x^2+3$"
     ],
     "correct_index": 2,
-    "explanation": "מעבירים את $10$ אגף: $10x=60-10=50$. מחלקים ב-$10$: $x=5$."
+    "explanation": "גוזרים כל איבר בנפרד (כלל הסכום): $(2x^{2})'=4x$ ו-$(3x)'=3$, ולכן $(2x^{2}+3x)'=4x+3$."
   },
   {
     "id": "q-g10-u5-an-1",
@@ -5796,7 +5796,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "דיסתנס formula:",
+    "question_text": "נוסחת המרחק בין שתי נקודות:",
     "options": [
       "$\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$",
       "$|x-y|$",
@@ -5826,7 +5826,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מעגלת עיגול: $x^2+y^2=r^2$. מרכז:",
+    "question_text": "משוואת מעגל: $x^2+y^2=r^2$. מרכז:",
     "options": [
       "$(r,r)$",
       "$(0,0)$",
@@ -5961,7 +5961,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות נגדיות על ישרים מקבילים:",
+    "question_text": "זוויות מתאימות על ישרים מקבילים:",
     "options": [
       "180",
       "משלימות",
@@ -5969,7 +5969,7 @@ export const QUESTIONS = [
       "90"
     ],
     "correct_index": 2,
-    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות מתאימות (נגדיות-פנימיות) שוות זו לזו."
+    "explanation": "כאשר ישר (חותך) חותך שני ישרים מקבילים, זוויות מתאימות (הנמצאות באותו מיקום יחסי) שוות זו לזו."
   },
   {
     "id": "q-q-g10-u5-plane-geo-7",
@@ -6203,7 +6203,7 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "נגדי $3$, יתר $6$. $\\sin$?",
     "options": [
-      "$\\frac{3}{3}$",
+      "$\\frac{1}{3}$",
       "$2$",
       "$1$",
       "$\\frac{1}{2}$"
@@ -6234,7 +6234,7 @@ export const QUESTIONS = [
     "question_text": "נגדי $10$, יתר $20$. $\\sin$?",
     "options": [
       "$1$",
-      "$\\frac{10}{10}$",
+      "$\\frac{1}{4}$",
       "$\\frac{1}{2}$",
       "$2$"
     ],
@@ -6266,7 +6266,7 @@ export const QUESTIONS = [
       "$2$",
       "$1$",
       "$\\frac{1}{2}$",
-      "$\\frac{5}{5}$"
+      "$\\frac{1}{4}$"
     ],
     "correct_index": 2,
     "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{5}{10}=\\dfrac{1}{2}$."
@@ -6323,7 +6323,7 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "נגדי $4$, יתר $8$. $\\sin$?",
     "options": [
-      "$\\frac{4}{4}$",
+      "$\\frac{1}{4}$",
       "$2$",
       "$\\frac{1}{2}$",
       "$1$"
@@ -6338,7 +6338,7 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "נגדי $6$, יתר $12$. $\\sin$?",
     "options": [
-      "$\\frac{6}{6}$",
+      "$\\frac{1}{3}$",
       "$1$",
       "$2$",
       "$\\frac{1}{2}$"
@@ -6368,7 +6368,7 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "נגדי $8$, יתר $16$. $\\sin$?",
     "options": [
-      "$\\frac{8}{8}$",
+      "$\\frac{1}{4}$",
       "$2$",
       "$1$",
       "$\\frac{1}{2}$"
@@ -6458,10 +6458,10 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "במשולש 30-60-90, מול ה-60 אם יתר=2:",
     "options": [
-      "2",
+      "$2$",
       "$\\sqrt{3}$",
-      "3",
-      "1"
+      "$3$",
+      "$1$"
     ],
     "correct_index": 1,
     "explanation": "במשולש 30-60-90 היחס בין הצלעות הוא $1:\\sqrt{3}:2$. מול הזווית $60^\\circ$ הצלע היא $\\sqrt{3}$ כאשר היתר הוא $2$."
@@ -6711,30 +6711,30 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $6x+6=42$. $x$?",
+    "question_text": "סדרה חשבונית עם $a_1=4$ והפרש $d=3$. מהו $a_5$?",
     "options": [
-      "$2$",
-      "$6$",
-      "$1$",
-      "$-1$"
+      "$19$",
+      "$13$",
+      "$7$",
+      "$16$"
     ],
-    "correct_index": 1,
-    "explanation": "מעבירים את $6$ אגף: $6x=42-6=36$. מחלקים ב-$6$: $x=6$."
+    "correct_index": 3,
+    "explanation": "לפי נוסחת האיבר הכללי: $a_n=a_1+(n-1)d$, כלומר $a_5=4+4\\times3=16$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-552",
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $7x+7=63$. $x$?",
+    "question_text": "סדרה הנדסית עם $a_1=3$ ומנה $q=2$. מהו $a_5$?",
     "options": [
-      "$8$",
-      "$4$",
-      "$3$",
-      "$1$"
+      "$24$",
+      "$96$",
+      "$15$",
+      "$48$"
     ],
-    "correct_index": 0,
-    "explanation": "מעבירים את $7$ אגף: $7x=63-7=56$. מחלקים ב-$7$: $x=8$."
+    "correct_index": 3,
+    "explanation": "לפי נוסחת האיבר הכללי: $a_n=a_1\\cdot q^{n-1}$, כלומר $a_5=3\\times2^4=3\\times16=48$."
   },
   {
     "id": "q-g11-u5-diff-1",
@@ -6981,75 +6981,75 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $11x+11=44$. $x$?",
+    "question_text": "$\\int x^5\\,dx=$",
     "options": [
-      "$-1$",
-      "$3$",
-      "$-4$",
-      "$-2$"
+      "$x^6+C$",
+      "$\\frac{x^6}{6}+C$",
+      "$\\frac{x^5}{5}+C$",
+      "$5x^4+C$"
     ],
     "correct_index": 1,
-    "explanation": "מעבירים את $11$ אגף: $11x=44-11=33$. מחלקים ב-$11$: $x=3$."
+    "explanation": "לפי כלל החזקה באינטגרציה: $\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C$, כלומר $\\int x^5\\,dx=\\frac{x^6}{6}+C$."
   },
   {
     "id": "q-q-g11-u5-integral-552",
     "topic_id": "g11-u5-integral",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $6x=48$. $x$?",
+    "question_text": "$\\int 5x^4\\,dx=$",
     "options": [
-      "$8$",
-      "$3$",
-      "$4$",
-      "$1$"
+      "$5x^5+C$",
+      "$x^4+C$",
+      "$x^5+C$",
+      "$20x^3+C$"
     ],
-    "correct_index": 0,
-    "explanation": "מחלקים את שני האגפים ב-$6$: $x=48\\div 6=8$."
+    "correct_index": 2,
+    "explanation": "לפי כלל החזקה באינטגרציה: $\\int cx^n\\,dx=\\frac{c}{n+1}x^{n+1}+C$, כלומר $\\int 5x^4\\,dx=\\frac{5}{5}x^5+C=x^5+C$."
   },
   {
     "id": "q-q-g11-u5-integral-553",
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $11x+11=99$. $x$?",
+    "question_text": "$\\int (x^2+2x)\\,dx=$",
     "options": [
-      "$8$",
-      "$4$",
-      "$1$",
-      "$3$"
+      "$\\frac{x^3}{3}+2x^2+C$",
+      "$x^3+x^2+C$",
+      "$\\frac{x^3}{3}+x^2+C$",
+      "$2x+2+C$"
     ],
-    "correct_index": 0,
-    "explanation": "מעבירים את $11$ אגף: $11x=99-11=88$. מחלקים ב-$11$: $x=8$."
+    "correct_index": 2,
+    "explanation": "מאנטגרים כל איבר בנפרד: $\\int x^2\\,dx=\\frac{x^3}{3}$ ו-$\\int 2x\\,dx=x^2$, ולכן $\\int (x^2+2x)\\,dx=\\frac{x^3}{3}+x^2+C$."
   },
   {
     "id": "q-q-g11-u5-integral-554",
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $7x+7=49$. $x$?",
+    "question_text": "$\\int 8x^7\\,dx=$",
     "options": [
-      "$6$",
-      "$2$",
-      "$1$",
-      "$-1$"
+      "$8x^8+C$",
+      "$x^7+C$",
+      "$56x^6+C$",
+      "$x^8+C$"
     ],
-    "correct_index": 0,
-    "explanation": "מעבירים את $7$ אגף: $7x=49-7=42$. מחלקים ב-$7$: $x=6$."
+    "correct_index": 3,
+    "explanation": "לפי כלל החזקה באינטגרציה: $\\int cx^n\\,dx=\\frac{c}{n+1}x^{n+1}+C$, כלומר $\\int 8x^7\\,dx=\\frac{8}{8}x^8+C=x^8+C$."
   },
   {
     "id": "q-q-g11-u5-integral-555",
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+11=55$. $x$?",
+    "question_text": "$\\int (3x^2-1)\\,dx=$",
     "options": [
-      "$44$",
-      "$37$",
-      "$40$",
-      "$39$"
+      "$x^3-x^2+C$",
+      "$3x^3-x+C$",
+      "$6x-1+C$",
+      "$x^3-x+C$"
     ],
-    "correct_index": 0,
-    "explanation": "מעבירים את $11$ אגף עם סימן הפוך: $x=55-11=44$."
+    "correct_index": 3,
+    "explanation": "מאנטגרים כל איבר בנפרד: $\\int 3x^2\\,dx=x^3$ ו-$\\int 1\\,dx=x$, ולכן $\\int (3x^2-1)\\,dx=x^3-x+C$."
   },
   {
     "id": "q-g11-u5-trig-1",
@@ -14816,7 +14816,7 @@ export const QUESTIONS = [
       "$\\sqrt{13}$",
       "$5$",
       "$7$",
-      "$\\sqrt{25}$"
+      "$\\sqrt{16}$"
     ],
     "correct_index": 0,
     "explanation": "$c^2=3^2+4^2-2\\times3\\times4\\times\\cos60°=25-24\\times0.5=25-12=13\\Rightarrow c=\\sqrt{13}$."
@@ -14871,7 +14871,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig-plane",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "ביטוי המכיל $\\sin(2\\theta)$ (עבור $0°<\\theta<90°$) מקסימלי כאשר:",
+    "question_text": "$\\sin(2\\theta)$ (עבור $0°<\\theta<90°$) מקסימלי כאשר:",
     "options": [
       "$\\theta=45°$",
       "$\\theta=90°$",
