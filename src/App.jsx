@@ -34,20 +34,22 @@ export default function App() {
                 'linear-gradient(90deg, var(--color-teal), var(--color-sky), var(--color-violet), var(--color-berry), var(--color-sunshine)) 1',
             }}
           >
-            <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-4 py-4">
+            <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2 px-3 py-2 sm:gap-3 sm:px-4 sm:py-4">
               <Link
                 to="/"
-                className="flex items-center gap-2 font-[family-name:var(--font-display)] text-[var(--color-ink)]"
+                className="flex items-center gap-1.5 font-[family-name:var(--font-display)] text-[var(--color-ink)] sm:gap-2"
               >
-                <span aria-hidden="true" className="text-xl">
+                <span aria-hidden="true" className="text-base sm:text-xl">
                   🧮
                 </span>
                 <span className="flex flex-col leading-tight">
-                  <span className="text-xl">Math Lesson</span>
-                  <span className="text-xs font-normal text-[var(--color-slate)]">תרגול מתמטיקה</span>
+                  <span className="text-base sm:text-xl">Math Lesson</span>
+                  <span className="hidden text-xs font-normal text-[var(--color-slate)] sm:block">
+                    תרגול מתמטיקה
+                  </span>
                 </span>
               </Link>
-              <nav className="flex flex-wrap items-center gap-3 text-sm font-medium text-[var(--color-slate)]">
+              <nav className="flex flex-wrap items-center gap-2 text-xs font-medium text-[var(--color-slate)] sm:gap-3 sm:text-sm">
                 <Link to="/custom-test" className="hover:text-[var(--color-teal)]">
                   מבחן מותאם
                 </Link>

@@ -25,54 +25,42 @@ export default function HomePage() {
 
   return (
     <div className="space-y-14" dir="rtl">
-      <section className="max-w-2xl">
+      <section className="max-w-3xl">
         <p className="inline-block rounded-full bg-[var(--color-teal)]/10 px-3 py-1 text-sm font-semibold text-[var(--color-teal-dark)]">
           תרגול מתמטיקה א׳–י״ב 🎯
         </p>
-        <h1 className="mt-4 font-[family-name:var(--font-display)] text-4xl leading-tight text-[var(--color-ink)] sm:text-6xl">
-          <span
-            style={{
-              backgroundImage:
-                'linear-gradient(90deg, var(--color-teal) 0%, var(--color-sky) 40%, var(--color-violet) 75%, var(--color-berry) 100%)',
-              WebkitBackgroundClip: 'text',
-              backgroundClip: 'text',
-              color: 'transparent',
-            }}
-          >
-            Math Lesson
-          </span>
-        </h1>
+        <div className="mt-4 flex flex-wrap items-center gap-6">
+          <h1 className="font-[family-name:var(--font-display)] text-4xl leading-tight text-[var(--color-ink)] sm:text-6xl">
+            <span
+              style={{
+                backgroundImage:
+                  'linear-gradient(90deg, var(--color-teal) 0%, var(--color-sky) 40%, var(--color-violet) 75%, var(--color-berry) 100%)',
+                WebkitBackgroundClip: 'text',
+                backgroundClip: 'text',
+                color: 'transparent',
+              }}
+            >
+              Math Lesson
+            </span>
+          </h1>
+          <div className="flex flex-wrap gap-3">
+            <div className="rounded-2xl bg-white px-5 py-3 shadow-sm ring-1 ring-black/5">
+              <span className="block text-2xl font-extrabold text-[var(--color-teal-dark)]">
+                {numberFormat.format(topicCount)}
+              </span>
+              <span className="text-xs font-medium text-[var(--color-slate)]">נושאים</span>
+            </div>
+            <div className="rounded-2xl bg-white px-5 py-3 shadow-sm ring-1 ring-black/5">
+              <span className="block text-2xl font-extrabold text-[var(--color-violet)]">
+                {numberFormat.format(TOTAL_QUESTION_COUNT)}
+              </span>
+              <span className="text-xs font-medium text-[var(--color-slate)]">שאלות</span>
+            </div>
+          </div>
+        </div>
         <p className="mt-4 text-lg leading-relaxed text-[var(--color-slate)]">
           בחרו כיתה, ותנו לעצמכם רגע של הצלחה: שאלות בקצב שלכם, הסברים שמבהירים כל נושא, ותחושה נהדרת עם כל תשובה נכונה.
         </p>
-        <div className="mt-6 flex flex-wrap gap-3">
-          <Link
-            to="/custom-test"
-            className="rounded-2xl bg-[var(--color-teal)] px-6 py-3 text-sm font-bold text-white shadow-md shadow-[var(--color-teal)]/20 transition hover:-translate-y-0.5 hover:bg-[var(--color-teal-dark)] hover:shadow-lg"
-          >
-            ✨ מבחן מותאם אישית
-          </Link>
-          <Link
-            to="/parent"
-            className="rounded-2xl bg-white px-6 py-3 text-sm font-bold text-[var(--color-ink)] shadow-sm ring-2 ring-[var(--color-violet)]/30 transition hover:-translate-y-0.5 hover:ring-[var(--color-violet)]/60"
-          >
-            📈 ההתקדמות שלי
-          </Link>
-        </div>
-        <div className="mt-8 flex flex-wrap gap-4">
-          <div className="rounded-2xl bg-white px-6 py-4 shadow-sm ring-1 ring-black/5">
-            <span className="block text-3xl font-extrabold text-[var(--color-teal-dark)]">
-              {numberFormat.format(topicCount)}
-            </span>
-            <span className="text-sm font-medium text-[var(--color-slate)]">נושאים</span>
-          </div>
-          <div className="rounded-2xl bg-white px-6 py-4 shadow-sm ring-1 ring-black/5">
-            <span className="block text-3xl font-extrabold text-[var(--color-violet)]">
-              {numberFormat.format(TOTAL_QUESTION_COUNT)}
-            </span>
-            <span className="text-sm font-medium text-[var(--color-slate)]">שאלות</span>
-          </div>
-        </div>
       </section>
 
       <section>
@@ -101,15 +89,32 @@ export default function HomePage() {
         </div>
       </section>
 
-      <footer className="border-t border-black/5 pt-6 text-center text-sm text-[var(--color-slate)]">
-        האתר נבנה על ידי מעיין ·{' '}
+      <section className="max-w-2xl">
+        <div className="flex flex-wrap gap-3">
+          <Link
+            to="/custom-test"
+            className="rounded-2xl bg-[var(--color-teal)] px-6 py-3 text-sm font-bold text-white shadow-md shadow-[var(--color-teal)]/20 transition hover:-translate-y-0.5 hover:bg-[var(--color-teal-dark)] hover:shadow-lg"
+          >
+            ✨ מבחן מותאם אישית
+          </Link>
+          <Link
+            to="/parent"
+            className="rounded-2xl bg-white px-6 py-3 text-sm font-bold text-[var(--color-ink)] shadow-sm ring-2 ring-[var(--color-violet)]/30 transition hover:-translate-y-0.5 hover:ring-[var(--color-violet)]/60"
+          >
+            📈 ההתקדמות שלי
+          </Link>
+        </div>
+      </section>
+
+      <footer className="mx-auto max-w-md border-t border-black/5 pt-3 text-center text-xs text-[var(--color-slate)]">
+        האתר נבנה על ידי{' '}
         <a
           href="https://build-your-website-maayan.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="font-semibold text-[var(--color-teal)] hover:underline"
         >
-          בניית אתרים
+          מעיין · בניית אתרים
         </a>
       </footer>
     </div>
