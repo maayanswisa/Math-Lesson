@@ -1596,7 +1596,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-coordinates",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "אמצע (1,1) ו-(1,5). מרחק?",
+    "question_text": "מהו המרחק בין הנקודות (1,1) ו-(1,5)?",
     "options": [
       "$0$",
       "$4$",
@@ -1641,7 +1641,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-coordinates",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "אמצע אמצע (2,2),(6,6):",
+    "question_text": "אמצע הקטע בין (2,2) ו-(6,6):",
     "options": [
       "$(2,6)$",
       "$(8,8)$",
@@ -1776,7 +1776,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-coordinates",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "אמצע (2,4) ו-(6,4). מרחק?",
+    "question_text": "מהו המרחק בין הנקודות (2,4) ו-(6,4)?",
     "options": [
       "$0$",
       "$8$",
@@ -1829,7 +1829,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "180"
     ],
     "correct_index": 0,
-    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות מתאימות (נגדיות-פנימיות) שוות זו לזו."
+    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות נגדיות-פנימיות (מתחלפות) שוות זו לזו."
   },
   {
     "id": "q-q-g7-angles-triangles-2",
@@ -6719,7 +6719,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "משלימות"
     ],
     "correct_index": 0,
-    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות מתאימות (נגדיות-פנימיות) שוות זו לזו."
+    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות נגדיות-פנימיות (מתחלפות) שוות זו לזו."
   },
   {
     "id": "q-q-g9r-geometry-16",
@@ -7754,7 +7754,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "180"
     ],
     "correct_index": 1,
-    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות מתאימות (נגדיות-פנימיות) שוות זו לזו."
+    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות נגדיות-פנימיות (מתחלפות) שוות זו לזו."
   },
   {
     "id": "q-q-g9x-geo-3",
@@ -8485,7 +8485,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "options": [
       "$\\frac{3}{5}$",
       "$\\frac{9}{25}$",
-      "$\\frac{4.5}{12.5}$",
+      "$\\frac{5}{3}$",
       "$\\frac{3}{25}$"
     ],
     "correct_index": 0,
@@ -8691,7 +8691,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-perpendicular-parallel",
     "difficulty": 5,
     "type": "mcq",
-    "question_text": "הקטע $AB$ ניצב לישר $l$ בנקודה $A$ (כש-$B$ על הישר). קיימת נקודה נוספת $C$ על $l$, השונה מ-$B$. מה ניתן לומר על הקטע $AC$ בהשוואה ל-$AB$?",
+    "question_text": "הקטע $AB$ ניצב לישר $l$ בנקודה $B$ (כש-$B$ על הישר). קיימת נקודה נוספת $C$ על $l$, השונה מ-$B$. מה ניתן לומר על הקטע $AC$ בהשוואה ל-$AB$?",
     "options": [
       "$AC$ ארוך יותר מ-$AB$",
       "$AC$ קצר יותר מ-$AB$",
