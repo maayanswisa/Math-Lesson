@@ -34,7 +34,7 @@ export default function App() {
                 'linear-gradient(90deg, var(--color-teal), var(--color-sky), var(--color-violet), var(--color-berry), var(--color-sunshine)) 1',
             }}
           >
-            <div className="mx-auto flex max-w-5xl flex-nowrap items-center justify-between gap-1.5 px-3 py-2 sm:gap-3 sm:px-4 sm:py-4">
+            <div className="mx-auto flex max-w-5xl flex-nowrap items-center gap-3 px-3 py-2 sm:gap-6 sm:px-4 sm:py-4">
               <Link
                 to="/"
                 className="flex shrink-0 items-center gap-1.5 font-[family-name:var(--font-display)] text-[var(--color-ink)] sm:gap-2"
