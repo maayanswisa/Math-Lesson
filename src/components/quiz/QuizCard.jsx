@@ -268,6 +268,22 @@ export default function QuizCard({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [started, mode, phase, secondsLeft]);
 
+  // Speed run: answering a question submits it automatically — no "check answer" click.
+  useEffect(() => {
+    if (mode !== 'speed' || phase !== 'quiz') return;
+    if (!canSubmit()) return;
+    submitAnswer();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mode, phase, mcqIndex, interactiveAnswer]);
+
+  // Speed run: briefly show correct/wrong, then move on automatically — no "next question" click.
+  useEffect(() => {
+    if (mode !== 'speed' || phase !== 'feedback') return undefined;
+    const t = setTimeout(() => goNext(), 550);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mode, phase, feedback]);
+
   const summary = useMemo(() => {
     if (phase !== 'summary') return null;
     const answeredCount = answers.length;
@@ -523,9 +539,11 @@ export default function QuizCard({
                   {feedback?.xpGained ? ` | +${feedback.xpGained} XP` : ''}
                 </p>
                 <MathRenderer className="text-[var(--color-slate)]">{feedback?.explanation}</MathRenderer>
-                <button type="button" onClick={goNext} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
-                  {currentIndex >= total - 1 ? 'לסיכום' : 'השאלה הבאה'}
-                </button>
+                {mode !== 'speed' && (
+                  <button type="button" onClick={goNext} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
+                    {currentIndex >= total - 1 ? 'לסיכום' : 'השאלה הבאה'}
+                  </button>
+                )}
               </div>
             ) : (
               <>
@@ -535,11 +553,13 @@ export default function QuizCard({
                   revealed={hintsRevealed}
                   onReveal={() => setHintsRevealed((n) => Math.min(hints.length, n + 1))}
                 />
-                <div className="mt-8 flex justify-start">
-                  <button type="button" disabled={!canSubmit() || (mode === 'speed' && secondsLeft <= 0)} onClick={submitAnswer} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white transition enabled:hover:bg-[var(--color-teal-dark)] disabled:cursor-not-allowed disabled:opacity-40">
-                    בדקו תשובה
-                  </button>
-                </div>
+                {mode !== 'speed' && (
+                  <div className="mt-8 flex justify-start">
+                    <button type="button" disabled={!canSubmit()} onClick={submitAnswer} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white transition enabled:hover:bg-[var(--color-teal-dark)] disabled:cursor-not-allowed disabled:opacity-40">
+                      בדקו תשובה
+                    </button>
+                  </div>
+                )}
               </>
             )}
           </motion.article>
