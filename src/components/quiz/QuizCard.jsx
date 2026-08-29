@@ -383,9 +383,22 @@ export default function QuizCard({
   }
 
   if (!started) {
+    const hasExplanation = Boolean(topicExplanation) || Boolean(topicKeyFormulas && topicKeyFormulas.length > 0);
+    const startButtons = (
+      <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
+        <button type="button" onClick={() => start('normal')} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
+          התחל מבחן
+        </button>
+        <button type="button" onClick={() => start('speed')} className="flex flex-col items-center gap-0.5 rounded-xl bg-white px-6 py-3 text-[var(--color-ink)] ring-1 ring-black/10 hover:ring-[var(--color-teal)]/40">
+          <span className="text-sm font-semibold">מבחן מהיר</span>
+          <span className="text-xs font-normal text-[var(--color-slate)]">כמה שאלות תפתרו בדקה?</span>
+        </button>
+      </div>
+    );
     return (
       <div className="mx-auto max-w-lg space-y-5 rounded-2xl bg-white/90 p-8 text-center shadow-sm ring-1 ring-black/5" dir="rtl">
-        {(topicExplanation || (topicKeyFormulas && topicKeyFormulas.length > 0)) && (
+        {hasExplanation && startButtons}
+        {hasExplanation && (
           <div className="space-y-4 text-right">
             {topicExplanation && (
               <MathRenderer className="text-[var(--color-slate)]">{topicExplanation}</MathRenderer>
@@ -393,14 +406,7 @@ export default function QuizCard({
             {topicKeyFormulas && topicKeyFormulas.length > 0 && <KeyFormulasList items={topicKeyFormulas} />}
           </div>
         )}
-        <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
-          <button type="button" onClick={() => start('normal')} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
-            התחל מבחן
-          </button>
-          <button type="button" onClick={() => start('speed')} className="rounded-xl bg-white px-6 py-3 text-sm font-semibold text-[var(--color-ink)] ring-1 ring-black/10 hover:ring-[var(--color-teal)]/40">
-            מבחן מהיר — כמה שיותר שאלות ב-{SPEED_RUN_SECONDS} שניות
-          </button>
-        </div>
+        {startButtons}
       </div>
     );
   }
