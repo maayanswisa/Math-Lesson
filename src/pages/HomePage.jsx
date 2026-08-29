@@ -29,8 +29,8 @@ export default function HomePage() {
         <p className="inline-block rounded-full bg-[var(--color-teal)]/10 px-3 py-1 text-sm font-semibold text-[var(--color-teal-dark)]">
           תרגול מתמטיקה א׳–י״ב 🎯
         </p>
-        <div className="mt-4 flex flex-wrap items-center gap-6">
-          <h1 className="font-[family-name:var(--font-display)] text-4xl leading-tight text-[var(--color-ink)] sm:text-6xl">
+        <div className="mt-4 flex flex-nowrap items-center gap-2 sm:gap-6">
+          <h1 className="font-[family-name:var(--font-display)] text-xl leading-tight text-[var(--color-ink)] sm:text-4xl lg:text-6xl">
             <span
               style={{
                 backgroundImage:
@@ -43,18 +43,18 @@ export default function HomePage() {
               Math Lesson
             </span>
           </h1>
-          <div className="flex flex-wrap gap-2">
-            <div className="rounded-xl bg-white px-3 py-1.5 shadow-sm ring-1 ring-black/5">
-              <span className="block text-base font-extrabold text-[var(--color-teal-dark)]">
+          <div className="flex flex-nowrap gap-1.5 sm:gap-2">
+            <div className="rounded-lg bg-white px-2 py-1 shadow-sm ring-1 ring-black/5 sm:rounded-xl sm:px-3 sm:py-1.5">
+              <span className="block text-xs font-extrabold text-[var(--color-teal-dark)] sm:text-base">
                 {numberFormat.format(topicCount)}
               </span>
-              <span className="text-[10px] font-medium text-[var(--color-slate)]">נושאים</span>
+              <span className="text-[8px] font-medium text-[var(--color-slate)] sm:text-[10px]">נושאים</span>
             </div>
-            <div className="rounded-xl bg-white px-3 py-1.5 shadow-sm ring-1 ring-black/5">
-              <span className="block text-base font-extrabold text-[var(--color-violet)]">
+            <div className="rounded-lg bg-white px-2 py-1 shadow-sm ring-1 ring-black/5 sm:rounded-xl sm:px-3 sm:py-1.5">
+              <span className="block text-xs font-extrabold text-[var(--color-violet)] sm:text-base">
                 {numberFormat.format(TOTAL_QUESTION_COUNT)}
               </span>
-              <span className="text-[10px] font-medium text-[var(--color-slate)]">שאלות</span>
+              <span className="text-[8px] font-medium text-[var(--color-slate)] sm:text-[10px]">שאלות</span>
             </div>
           </div>
         </div>
