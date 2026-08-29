@@ -2079,7 +2079,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "זווית חדה:",
     "options": [
       "=90",
-      ">90",
+      "$>90$",
       "=180",
       "$<90^\\circ$"
     ],
@@ -6609,7 +6609,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "זווית חדה:",
     "options": [
       "=180",
-      ">90",
+      "$>90$",
       "$<90^\\circ$",
       "=90"
     ],
@@ -7930,7 +7930,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "options": [
       "$<90^\\circ$",
       "=90",
-      ">90",
+      "$>90$",
       "=180"
     ],
     "correct_index": 0,

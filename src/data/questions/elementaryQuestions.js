@@ -14243,13 +14243,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה סימן מציין \"גדול מ-\"?",
     "options": [
-      ">",
-      "<",
-      "=",
-      "+"
+      "$>$",
+      "$<$",
+      "$=$",
+      "$+$"
     ],
     "correct_index": 0,
-    "explanation": "הסימן > אומר \"גדול מ-\"."
+    "explanation": "הסימן $>$ אומר \"גדול מ-\"."
   },
   {
     "id": "q-g2-numext-2",
@@ -14258,13 +14258,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה סימן מציין \"קטן מ-\"?",
     "options": [
-      "<",
-      ">",
-      "=",
-      "-"
+      "$<$",
+      "$>$",
+      "$=$",
+      "$-$"
     ],
     "correct_index": 0,
-    "explanation": "הסימן < אומר \"קטן מ-\"."
+    "explanation": "הסימן $<$ אומר \"קטן מ-\"."
   },
   {
     "id": "q-g2-numext-3",
@@ -14273,13 +14273,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה סימן משלים נכון: 245 ___ 198?",
     "options": [
-      ">",
-      "<",
-      "=",
+      "$>$",
+      "$<$",
+      "$=$",
       "אף אחד"
     ],
     "correct_index": 0,
-    "explanation": "245 גדול מ-198, ולכן הסימן המתאים הוא >."
+    "explanation": "245 גדול מ-198, ולכן הסימן המתאים הוא $>$."
   },
   {
     "id": "q-g2-numext-4",
@@ -15008,9 +15008,9 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה סימן משלים נכון: 45+3 ___ 45-3?",
     "options": [
-      ">",
-      "<",
-      "=",
+      "$>$",
+      "$<$",
+      "$=$",
       "אף אחד"
     ],
     "correct_index": 0,

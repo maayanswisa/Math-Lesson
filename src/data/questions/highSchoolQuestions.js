@@ -2440,7 +2440,7 @@ export const QUESTIONS = [
     "options": [
       "$<90^\\circ$",
       "=90",
-      ">90",
+      "$>90$",
       "=180"
     ],
     "correct_index": 0,
@@ -4656,12 +4656,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<9,12>+<12,9>=",
+    "question_text": "$\\langle 9,12\\rangle$+$\\langle 12,9\\rangle$=",
     "options": [
       "0",
-      "<108,108>",
-      "<21,21>",
-      "<9,12>"
+      "$\\langle 108,108\\rangle$",
+      "$\\langle 21,21\\rangle$",
+      "$\\langle 9,12\\rangle$"
     ],
     "correct_index": 2,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 9+12,12+9\\rangle=\\langle 21,21\\rangle$."
@@ -4671,11 +4671,11 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<6,8>+<8,6>=",
+    "question_text": "$\\langle 6,8\\rangle$+$\\langle 8,6\\rangle$=",
     "options": [
-      "<48,48>",
-      "<6,8>",
-      "<14,14>",
+      "$\\langle 48,48\\rangle$",
+      "$\\langle 6,8\\rangle$",
+      "$\\langle 14,14\\rangle$",
       "0"
     ],
     "correct_index": 2,
@@ -4686,7 +4686,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<1,0>|=",
+    "question_text": "|$\\langle 1,0\\rangle$|=",
     "options": [
       "$-4$",
       "$1$",
@@ -4701,7 +4701,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<5,12>|=",
+    "question_text": "|$\\langle 5,12\\rangle$|=",
     "options": [
       "$13$",
       "$8$",
@@ -4716,12 +4716,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<0,5>+<5,0>=",
+    "question_text": "$\\langle 0,5\\rangle$+$\\langle 5,0\\rangle$=",
     "options": [
-      "<0,0>",
+      "$\\langle 0,0\\rangle$",
       "0",
-      "<0,5>",
-      "<5,5>"
+      "$\\langle 0,5\\rangle$",
+      "$\\langle 5,5\\rangle$"
     ],
     "correct_index": 3,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 0+5,5+0\\rangle=\\langle 5,5\\rangle$."
@@ -4731,7 +4731,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<8,15>|=",
+    "question_text": "|$\\langle 8,15\\rangle$|=",
     "options": [
       "$17$",
       "$10$",
@@ -4746,12 +4746,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<1,0>+<0,1>=",
+    "question_text": "$\\langle 1,0\\rangle$+$\\langle 0,1\\rangle$=",
     "options": [
       "0",
-      "<0,0>",
-      "<1,1>",
-      "<1,0>"
+      "$\\langle 0,0\\rangle$",
+      "$\\langle 1,1\\rangle$",
+      "$\\langle 1,0\\rangle$"
     ],
     "correct_index": 2,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 1+0,0+1\\rangle=\\langle 1,1\\rangle$."
@@ -4761,7 +4761,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "מכפלה סקלרית 2*<3,4>:",
+    "question_text": "מכפלה סקלרית 2*$\\langle 3,4\\rangle$:",
     "options": [
       "14",
       "$\\langle 3,8\\rangle$",
@@ -4776,7 +4776,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<3,4>|=",
+    "question_text": "|$\\langle 3,4\\rangle$|=",
     "options": [
       "$1$",
       "$5$",
@@ -4791,7 +4791,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<9,12>|=",
+    "question_text": "|$\\langle 9,12\\rangle$|=",
     "options": [
       "$10$",
       "$15$",
@@ -4806,12 +4806,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<2,2>+<2,2>=",
+    "question_text": "$\\langle 2,2\\rangle$+$\\langle 2,2\\rangle$=",
     "options": [
-      "<2,2>",
+      "$\\langle 2,2\\rangle$",
       "0",
-      "<4,4>",
-      "<4,2>"
+      "$\\langle 4,4\\rangle$",
+      "$\\langle 4,2\\rangle$"
     ],
     "correct_index": 2,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 2+2,2+2\\rangle=\\langle 4,4\\rangle$."
@@ -4821,12 +4821,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<3,4>+<4,3>=",
+    "question_text": "$\\langle 3,4\\rangle$+$\\langle 4,3\\rangle$=",
     "options": [
       "0",
-      "<7,7>",
-      "<3,4>",
-      "<12,12>"
+      "$\\langle 7,7\\rangle$",
+      "$\\langle 3,4\\rangle$",
+      "$\\langle 12,12\\rangle$"
     ],
     "correct_index": 1,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 3+4,4+3\\rangle=\\langle 7,7\\rangle$."
@@ -4836,7 +4836,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<0,5>|=",
+    "question_text": "|$\\langle 0,5\\rangle$|=",
     "options": [
       "$0$",
       "$5$",
@@ -4851,7 +4851,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<6,8>|=",
+    "question_text": "|$\\langle 6,8\\rangle$|=",
     "options": [
       "$5$",
       "$10$",
@@ -4881,12 +4881,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<5,12>+<12,5>=",
+    "question_text": "$\\langle 5,12\\rangle$+$\\langle 12,5\\rangle$=",
     "options": [
-      "<60,60>",
-      "<5,12>",
+      "$\\langle 60,60\\rangle$",
+      "$\\langle 5,12\\rangle$",
       "0",
-      "<17,17>"
+      "$\\langle 17,17\\rangle$"
     ],
     "correct_index": 3,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 5+12,12+5\\rangle=\\langle 17,17\\rangle$."
@@ -4896,12 +4896,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<8,15>+<15,8>=",
+    "question_text": "$\\langle 8,15\\rangle$+$\\langle 15,8\\rangle$=",
     "options": [
       "0",
-      "<120,120>",
-      "<23,23>",
-      "<8,15>"
+      "$\\langle 120,120\\rangle$",
+      "$\\langle 23,23\\rangle$",
+      "$\\langle 8,15\\rangle$"
     ],
     "correct_index": 2,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 8+15,15+8\\rangle=\\langle 23,23\\rangle$."
@@ -6116,7 +6116,7 @@ export const QUESTIONS = [
       "=90",
       "$<90^\\circ$",
       "=180",
-      ">90"
+      "$>90$"
     ],
     "correct_index": 1,
     "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
@@ -7341,12 +7341,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<0,5>+<5,0>=",
+    "question_text": "$\\langle 0,5\\rangle$+$\\langle 5,0\\rangle$=",
     "options": [
-      "<0,5>",
+      "$\\langle 0,5\\rangle$",
       "0",
-      "<5,5>",
-      "<0,0>"
+      "$\\langle 5,5\\rangle$",
+      "$\\langle 0,0\\rangle$"
     ],
     "correct_index": 2,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 0+5,5+0\\rangle=\\langle 5,5\\rangle$."
@@ -7356,12 +7356,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<2,2>+<2,2>=",
+    "question_text": "$\\langle 2,2\\rangle$+$\\langle 2,2\\rangle$=",
     "options": [
-      "<4,4>",
-      "<2,2>",
+      "$\\langle 4,4\\rangle$",
+      "$\\langle 2,2\\rangle$",
       "0",
-      "<4,2>"
+      "$\\langle 4,2\\rangle$"
     ],
     "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 2+2,2+2\\rangle=\\langle 4,4\\rangle$."
@@ -7371,7 +7371,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<1,0>|=",
+    "question_text": "|$\\langle 1,0\\rangle$|=",
     "options": [
       "$-3$",
       "$-6$",
@@ -7401,7 +7401,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<6,8>|=",
+    "question_text": "|$\\langle 6,8\\rangle$|=",
     "options": [
       "$5$",
       "$6$",
@@ -7416,11 +7416,11 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<3,4>+<4,3>=",
+    "question_text": "$\\langle 3,4\\rangle$+$\\langle 4,3\\rangle$=",
     "options": [
-      "<7,7>",
-      "<3,4>",
-      "<12,12>",
+      "$\\langle 7,7\\rangle$",
+      "$\\langle 3,4\\rangle$",
+      "$\\langle 12,12\\rangle$",
       "0"
     ],
     "correct_index": 0,
@@ -7431,12 +7431,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<9,12>+<12,9>=",
+    "question_text": "$\\langle 9,12\\rangle$+$\\langle 12,9\\rangle$=",
     "options": [
       "0",
-      "<108,108>",
-      "<9,12>",
-      "<21,21>"
+      "$\\langle 108,108\\rangle$",
+      "$\\langle 9,12\\rangle$",
+      "$\\langle 21,21\\rangle$"
     ],
     "correct_index": 3,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 9+12,12+9\\rangle=\\langle 21,21\\rangle$."
@@ -7446,7 +7446,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<0,5>|=",
+    "question_text": "|$\\langle 0,5\\rangle$|=",
     "options": [
       "$1$",
       "$0$",
@@ -7461,7 +7461,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "מכפלה סקלרית 2*<3,4>:",
+    "question_text": "מכפלה סקלרית 2*$\\langle 3,4\\rangle$:",
     "options": [
       "$\\langle 6,8\\rangle$",
       "14",
@@ -7476,12 +7476,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<6,8>+<8,6>=",
+    "question_text": "$\\langle 6,8\\rangle$+$\\langle 8,6\\rangle$=",
     "options": [
       "0",
-      "<48,48>",
-      "<14,14>",
-      "<6,8>"
+      "$\\langle 48,48\\rangle$",
+      "$\\langle 14,14\\rangle$",
+      "$\\langle 6,8\\rangle$"
     ],
     "correct_index": 2,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 6+8,8+6\\rangle=\\langle 14,14\\rangle$."
@@ -7491,7 +7491,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<5,12>|=",
+    "question_text": "|$\\langle 5,12\\rangle$|=",
     "options": [
       "$13$",
       "$8$",
@@ -7506,12 +7506,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<8,15>+<15,8>=",
+    "question_text": "$\\langle 8,15\\rangle$+$\\langle 15,8\\rangle$=",
     "options": [
-      "<120,120>",
-      "<23,23>",
+      "$\\langle 120,120\\rangle$",
+      "$\\langle 23,23\\rangle$",
       "0",
-      "<8,15>"
+      "$\\langle 8,15\\rangle$"
     ],
     "correct_index": 1,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 8+15,15+8\\rangle=\\langle 23,23\\rangle$."
@@ -7521,7 +7521,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<9,12>|=",
+    "question_text": "|$\\langle 9,12\\rangle$|=",
     "options": [
       "$11$",
       "$15$",
@@ -7536,12 +7536,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<1,0>+<0,1>=",
+    "question_text": "$\\langle 1,0\\rangle$+$\\langle 0,1\\rangle$=",
     "options": [
-      "<1,1>",
+      "$\\langle 1,1\\rangle$",
       "0",
-      "<1,0>",
-      "<0,0>"
+      "$\\langle 1,0\\rangle$",
+      "$\\langle 0,0\\rangle$"
     ],
     "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 1+0,0+1\\rangle=\\langle 1,1\\rangle$."
@@ -7551,7 +7551,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<3,4>|=",
+    "question_text": "|$\\langle 3,4\\rangle$|=",
     "options": [
       "$0$",
       "$-2$",
@@ -7566,7 +7566,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|<8,15>|=",
+    "question_text": "|$\\langle 8,15\\rangle$|=",
     "options": [
       "$10$",
       "$17$",
@@ -7581,12 +7581,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "<5,12>+<12,5>=",
+    "question_text": "$\\langle 5,12\\rangle$+$\\langle 12,5\\rangle$=",
     "options": [
-      "<17,17>",
+      "$\\langle 17,17\\rangle$",
       "0",
-      "<60,60>",
-      "<5,12>"
+      "$\\langle 60,60\\rangle$",
+      "$\\langle 5,12\\rangle$"
     ],
     "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 5+12,12+5\\rangle=\\langle 17,17\\rangle$."
