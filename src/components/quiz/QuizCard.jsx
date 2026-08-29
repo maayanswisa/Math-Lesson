@@ -389,9 +389,9 @@ export default function QuizCard({
         <button type="button" onClick={() => start('normal')} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
           התחל מבחן
         </button>
-        <button type="button" onClick={() => start('speed')} className="flex flex-col items-center gap-0.5 rounded-xl bg-white px-6 py-3 text-[var(--color-ink)] ring-1 ring-black/10 hover:ring-[var(--color-teal)]/40">
+        <button type="button" onClick={() => start('speed')} className="flex flex-col items-center gap-0.5 rounded-xl bg-[var(--color-teal)] px-6 py-3 text-white hover:bg-[var(--color-teal-dark)]">
           <span className="text-sm font-semibold">מבחן מהיר</span>
-          <span className="text-xs font-normal text-[var(--color-slate)]">כמה שאלות תפתרו בדקה?</span>
+          <span className="text-xs font-normal text-white/80">כמה שאלות תפתרו בדקה?</span>
         </button>
       </div>
     );
