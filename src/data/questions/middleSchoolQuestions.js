@@ -2594,7 +2594,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $2$."
+    "explanation": "השיפוע מחושב לפי הנוסחה $m=\\frac{y_2-y_1}{x_2-x_1}=\\frac{6-2}{3-1}=\\frac{4}{2}=2$."
   },
   {
     "id": "q-q-g8-linear-fn-13",
@@ -3426,7 +3426,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-percent",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1/4 בא%:",
+    "question_text": "כמה זה $\\frac{1}{4}$ באחוזים?",
     "options": [
       "$10\\%$",
       "$4\\%$",
@@ -3516,7 +3516,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-percent",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "20 מתוך 100 בא%:",
+    "question_text": "כמה זה $20$ מתוך $100$ באחוזים?",
     "options": [
       "$25\\%$",
       "$2\\%$",
@@ -3875,7 +3875,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "id": "q-g8-cong-1",
     "topic_id": "g8-congruence",
     "difficulty": 2,
-    "question_text": "אם שתי משולשים חופפים, אז:",
+    "question_text": "אם שני משולשים חופפים, אז:",
     "options": [
       "כל הצלעות והזוויות המתאימות שווות",
       "רק הזוויות שווות",
@@ -3906,30 +3906,30 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-congruence",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "קריטריון חופפות #3: איזה מספיק?",
+    "question_text": "איזה מהבאים אינו קריטריון תקין להוכחת חפיפה?",
     "options": [
       "SSS",
       "SAS",
       "ASA",
       "AAA"
     ],
-    "correct_index": 2,
-    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
+    "correct_index": 3,
+    "explanation": "AAA (זווית-זווית-זווית) אינו קריטריון חפיפה — התאמת זוויות בלבד מוכיחה דמיון ולא חפיפה. שאר האפשרויות (SSS/SAS/ASA) הן קריטריוני חפיפה תקינים."
   },
   {
     "id": "q-q-g8-congruence-3",
     "topic_id": "g8-congruence",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "קריטריון חופפות #7: איזה מספיק?",
+    "question_text": "איזה מהבאים אינו קריטריון תקין להוכחת חפיפה?",
     "options": [
       "AAA",
       "ASA",
       "SAS",
       "SSS"
     ],
-    "correct_index": 3,
-    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
+    "correct_index": 0,
+    "explanation": "AAA (זווית-זווית-זווית) אינו קריטריון חפיפה — התאמת זוויות בלבד מוכיחה דמיון ולא חפיפה. שאר האפשרויות (SSS/SAS/ASA) הן קריטריוני חפיפה תקינים."
   },
   {
     "id": "q-q-g8-congruence-4",
@@ -3951,30 +3951,30 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-congruence",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קריטריון חופפות #4: איזה מספיק?",
+    "question_text": "איזה מהבאים אינו קריטריון תקין להוכחת חפיפה?",
     "options": [
       "SAS",
       "SSS",
       "ASA",
       "AAA"
     ],
-    "correct_index": 1,
-    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
+    "correct_index": 3,
+    "explanation": "AAA (זווית-זווית-זווית) אינו קריטריון חפיפה — התאמת זוויות בלבד מוכיחה דמיון ולא חפיפה. שאר האפשרויות (SSS/SAS/ASA) הן קריטריוני חפיפה תקינים."
   },
   {
     "id": "q-q-g8-congruence-6",
     "topic_id": "g8-congruence",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "קריטריון חופפות #11: איזה מספיק?",
+    "question_text": "איזה מהבאים אינו קריטריון תקין להוכחת חפיפה?",
     "options": [
       "SSS",
       "AAA",
       "SAS",
       "ASA"
     ],
-    "correct_index": 2,
-    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
+    "correct_index": 1,
+    "explanation": "AAA (זווית-זווית-זווית) אינו קריטריון חפיפה — התאמת זוויות בלבד מוכיחה דמיון ולא חפיפה. שאר האפשרויות (SSS/SAS/ASA) הן קריטריוני חפיפה תקינים."
   },
   {
     "id": "q-q-g8-congruence-7",
@@ -3996,30 +3996,30 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-congruence",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קריטריון חופפות #12: איזה מספיק?",
+    "question_text": "איזה מהבאים אינו קריטריון תקין להוכחת חפיפה?",
     "options": [
       "AAA",
       "SSS",
       "ASA",
       "SAS"
     ],
-    "correct_index": 2,
-    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
+    "correct_index": 0,
+    "explanation": "AAA (זווית-זווית-זווית) אינו קריטריון חפיפה — התאמת זוויות בלבד מוכיחה דמיון ולא חפיפה. שאר האפשרויות (SSS/SAS/ASA) הן קריטריוני חפיפה תקינים."
   },
   {
     "id": "q-q-g8-congruence-9",
     "topic_id": "g8-congruence",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קריטריון חופפות #10: איזה מספיק?",
+    "question_text": "איזה מהבאים אינו קריטריון תקין להוכחת חפיפה?",
     "options": [
       "SAS",
       "ASA",
       "AAA",
       "SSS"
     ],
-    "correct_index": 3,
-    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
+    "correct_index": 2,
+    "explanation": "AAA (זווית-זווית-זווית) אינו קריטריון חפיפה — התאמת זוויות בלבד מוכיחה דמיון ולא חפיפה. שאר האפשרויות (SSS/SAS/ASA) הן קריטריוני חפיפה תקינים."
   },
   {
     "id": "q-q-g8-congruence-10",
@@ -4056,30 +4056,30 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-congruence",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "קריטריון חופפות #1: איזה מספיק?",
+    "question_text": "איזה מהבאים אינו קריטריון תקין להוכחת חפיפה?",
     "options": [
       "AAA",
       "SAS",
       "ASA",
       "SSS"
     ],
-    "correct_index": 3,
-    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
+    "correct_index": 0,
+    "explanation": "AAA (זווית-זווית-זווית) אינו קריטריון חפיפה — התאמת זוויות בלבד מוכיחה דמיון ולא חפיפה. שאר האפשרויות (SSS/SAS/ASA) הן קריטריוני חפיפה תקינים."
   },
   {
     "id": "q-q-g8-congruence-13",
     "topic_id": "g8-congruence",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קריטריון חופפות #8: איזה מספיק?",
+    "question_text": "איזה מהבאים אינו קריטריון תקין להוכחת חפיפה?",
     "options": [
       "ASA",
       "SAS",
       "SSS",
       "AAA"
     ],
-    "correct_index": 1,
-    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
+    "correct_index": 3,
+    "explanation": "AAA (זווית-זווית-זווית) אינו קריטריון חפיפה — התאמת זוויות בלבד מוכיחה דמיון ולא חפיפה. שאר האפשרויות (SSS/SAS/ASA) הן קריטריוני חפיפה תקינים."
   },
   {
     "id": "q-q-g8-congruence-14",
@@ -4103,58 +4103,58 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "משולשים חופפים:",
     "options": [
-      "שוווי צורה וגודל",
+      "שווי צורה וגודל",
       "רק שטח",
       "דומה",
       "רק זוויות"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא שוווי צורה וגודל."
+    "explanation": "משולשים חופפים הם משולשים שווי צורה וגודל — כל הצלעות והזוויות המתאימות ביניהם שוות."
   },
   {
     "id": "q-q-g8-congruence-16",
     "topic_id": "g8-congruence",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קריטריון חופפות #6: איזה מספיק?",
+    "question_text": "איזה מהבאים אינו קריטריון תקין להוכחת חפיפה?",
     "options": [
       "SSS",
       "AAA",
       "SAS",
       "ASA"
     ],
-    "correct_index": 3,
-    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
+    "correct_index": 1,
+    "explanation": "AAA (זווית-זווית-זווית) אינו קריטריון חפיפה — התאמת זוויות בלבד מוכיחה דמיון ולא חפיפה. שאר האפשרויות (SSS/SAS/ASA) הן קריטריוני חפיפה תקינים."
   },
   {
     "id": "q-q-g8-congruence-17",
     "topic_id": "g8-congruence",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קריטריון חופפות #2: איזה מספיק?",
+    "question_text": "איזה מהבאים אינו קריטריון תקין להוכחת חפיפה?",
     "options": [
       "AAA",
       "ASA",
       "SAS",
       "SSS"
     ],
-    "correct_index": 2,
-    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
+    "correct_index": 0,
+    "explanation": "AAA (זווית-זווית-זווית) אינו קריטריון חפיפה — התאמת זוויות בלבד מוכיחה דמיון ולא חפיפה. שאר האפשרויות (SSS/SAS/ASA) הן קריטריוני חפיפה תקינים."
   },
   {
     "id": "q-q-g8-congruence-18",
     "topic_id": "g8-congruence",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "קריטריון חופפות #5: איזה מספיק?",
+    "question_text": "איזה מהבאים אינו קריטריון תקין להוכחת חפיפה?",
     "options": [
       "SAS",
       "AAA",
       "ASA",
       "SSS"
     ],
-    "correct_index": 0,
-    "explanation": "כדי להוכיח חפפות בין משולשים בוחרים משפט חפפות מתאים לנתונים הידועים: צלע-זווית-צלע (SAS), זווית-צלע-זווית (ASA), צלע-צלע-צלע (SSS), או ניצב-יתר (HL) במשולש ישר-זווית."
+    "correct_index": 1,
+    "explanation": "AAA (זווית-זווית-זווית) אינו קריטריון חפיפה — התאמת זוויות בלבד מוכיחה דמיון ולא חפיפה. שאר האפשרויות (SSS/SAS/ASA) הן קריטריוני חפיפה תקינים."
   },
   {
     "id": "q-q-g8-congruence-19",
@@ -4191,7 +4191,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "k=3, צלע 5 בקטן -> בגדול:",
+    "question_text": "k=3, צלע 5 בקטן $\\to$ בגדול:",
     "options": [
       "$11$",
       "$10$",
@@ -4206,7 +4206,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "k=3, שטח קטן 10 -> גדול:",
+    "question_text": "k=3, שטח קטן 10 $\\to$ גדול:",
     "options": [
       "$83$",
       "$85$",
@@ -4221,7 +4221,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "k=4, שטח קטן 10 -> גדול:",
+    "question_text": "k=4, שטח קטן 10 $\\to$ גדול:",
     "options": [
       "$160$",
       "$155$",
@@ -4236,7 +4236,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "k=4, צלע 5 בקטן -> בגדול:",
+    "question_text": "k=4, צלע 5 בקטן $\\to$ בגדול:",
     "options": [
       "$16$",
       "$20$",
@@ -4251,7 +4251,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "k=2, שטח קטן 10 -> גדול:",
+    "question_text": "k=2, שטח קטן 10 $\\to$ גדול:",
     "options": [
       "$35$",
       "$40$",
@@ -4266,7 +4266,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "k=5, שטח קטן 10 -> גדול:",
+    "question_text": "k=5, שטח קטן 10 $\\to$ גדול:",
     "options": [
       "$250$",
       "$243$",
@@ -4311,7 +4311,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יחס דמיון 2:1. צלע 6 מתאימה ל:",
+    "question_text": "יחס דמיון 2:1 (גדול:קטן). צלע 6 במשולש הגדול מתאימה לצלע:",
     "options": [
       "$3$",
       "$4$",
@@ -4326,7 +4326,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "k=2, צלע 5 בקטן -> בגדול:",
+    "question_text": "k=2, צלע 5 בקטן $\\to$ בגדול:",
     "options": [
       "$6$",
       "$3$",
@@ -4356,7 +4356,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "k=5, צלע 5 בקטן -> בגדול:",
+    "question_text": "k=5, צלע 5 בקטן $\\to$ בגדול:",
     "options": [
       "$25$",
       "$20$",
@@ -4716,7 +4716,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=9 (\\pi):",
+    "question_text": "היקף עיגול r=9 ($\\pi$):",
     "options": [
       "$81\\pi$",
       "$18\\pi$",
@@ -4746,7 +4746,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=5 (\\pi):",
+    "question_text": "היקף עיגול r=5 ($\\pi$):",
     "options": [
       "$\\pi$",
       "$5\\pi$",
@@ -4761,7 +4761,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=8 (\\pi):",
+    "question_text": "היקף עיגול r=8 ($\\pi$):",
     "options": [
       "$16\\pi$",
       "$\\pi$",
@@ -4806,7 +4806,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=2 (\\pi):",
+    "question_text": "היקף עיגול r=2 ($\\pi$):",
     "options": [
       "$\\pi$",
       "$2\\pi$",
@@ -4866,7 +4866,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=1 (\\pi):",
+    "question_text": "היקף עיגול r=1 ($\\pi$):",
     "options": [
       "$3\\pi$",
       "$2\\pi$",
@@ -4956,7 +4956,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=10 (\\pi):",
+    "question_text": "היקף עיגול r=10 ($\\pi$):",
     "options": [
       "$20\\pi$",
       "$100\\pi$",
@@ -4971,7 +4971,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=6 (\\pi):",
+    "question_text": "היקף עיגול r=6 ($\\pi$):",
     "options": [
       "$12\\pi$",
       "$6\\pi$",

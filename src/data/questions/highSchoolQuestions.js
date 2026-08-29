@@ -1266,7 +1266,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "נפח גליל r=2 h=5 (\\pi):",
+    "question_text": "נפח גליל r=2 h=5 ($\\pi$):",
     "options": [
       "$10\\pi$",
       "$20\\pi$",
@@ -1356,7 +1356,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "נפח גליל r=3 h=4 (\\pi):",
+    "question_text": "נפח גליל r=3 h=4 ($\\pi$):",
     "options": [
       "$12\\pi$",
       "$36\\pi$",
@@ -1371,7 +1371,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "נפח גליל r=5 h=2 (\\pi):",
+    "question_text": "נפח גליל r=5 h=2 ($\\pi$):",
     "options": [
       "$10\\pi$",
       "$20\\pi$",
@@ -1386,7 +1386,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "נפח גליל r=4 h=3 (\\pi):",
+    "question_text": "נפח גליל r=4 h=3 ($\\pi$):",
     "options": [
       "$\\pi$",
       "$12\\pi$",
@@ -1446,7 +1446,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח גליל r=1 h=10 (\\pi):",
+    "question_text": "נפח גליל r=1 h=10 ($\\pi$):",
     "options": [
       "$\\pi$",
       "$10\\pi$",
@@ -3636,7 +3636,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=5 (\\pi):",
+    "question_text": "היקף עיגול r=5 ($\\pi$):",
     "options": [
       "$\\pi$",
       "$10\\pi$",
@@ -3666,7 +3666,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=6 (\\pi):",
+    "question_text": "היקף עיגול r=6 ($\\pi$):",
     "options": [
       "$36\\pi$",
       "$12\\pi$",
@@ -3741,7 +3741,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=9 (\\pi):",
+    "question_text": "היקף עיגול r=9 ($\\pi$):",
     "options": [
       "$18\\pi$",
       "$\\pi$",
@@ -3756,7 +3756,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=10 (\\pi):",
+    "question_text": "היקף עיגול r=10 ($\\pi$):",
     "options": [
       "$100\\pi$",
       "$\\pi$",
@@ -3831,7 +3831,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=8 (\\pi):",
+    "question_text": "היקף עיגול r=8 ($\\pi$):",
     "options": [
       "$\\pi$",
       "$16\\pi$",
@@ -3861,7 +3861,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=1 (\\pi):",
+    "question_text": "היקף עיגול r=1 ($\\pi$):",
     "options": [
       "$\\pi$",
       "$3\\pi$",
