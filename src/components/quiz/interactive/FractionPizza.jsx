@@ -32,16 +32,18 @@ export default function FractionPizza({ payload = {}, correctAnswer, onAnswerRea
     return out;
   }, [slices, cx, cy, r]);
 
-  function report(count) {
-    onAnswerReady?.({ value: count, isCorrect: count === targetFilled, display: `${count}/${slices}` });
+  function report(count, touched) {
+    onAnswerReady?.({ value: count, isCorrect: count === targetFilled, display: `${count}/${slices}`, touched });
   }
 
   // Report the starting "0 filled" state on mount too, the same way the
   // slice count is reported after every click — otherwise a question whose
   // correct answer is legitimately 0 slices could never be detected as
   // correct (deselecting everything used to report `null`, "no answer yet").
+  // Marked untouched so speed-run mode (which submits the moment an answer
+  // is ready) waits for a real tap instead of auto-submitting "0 filled".
   useEffect(() => {
-    report(0);
+    report(0, false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -50,7 +52,7 @@ export default function FractionPizza({ payload = {}, correctAnswer, onAnswerRea
       const next = new Set(prev);
       if (next.has(i)) next.delete(i);
       else next.add(i);
-      report(next.size);
+      report(next.size, true);
       return next;
     });
   }

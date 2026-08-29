@@ -269,9 +269,14 @@ export default function QuizCard({
   }, [started, mode, phase, secondsLeft]);
 
   // Speed run: answering a question submits it automatically — no "check answer" click.
+  // Interactive question types (number line, fraction pizza) report a default
+  // answer on mount so the manual submit button isn't stuck disabled; that
+  // default is marked touched:false so it doesn't get auto-submitted here
+  // before the student has actually interacted with it.
   useEffect(() => {
     if (mode !== 'speed' || phase !== 'quiz') return;
     if (!canSubmit()) return;
+    if ((current?.type || 'mcq') !== 'mcq' && interactiveAnswer?.touched === false) return;
     submitAnswer();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode, phase, mcqIndex, interactiveAnswer]);

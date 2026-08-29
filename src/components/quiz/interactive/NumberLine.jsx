@@ -10,20 +10,23 @@ export default function NumberLine({ payload = {}, correctAnswer, onAnswerReady 
   const mid = Math.round(((min + max) / 2) / step) * step;
   const [value, setValue] = useState(mid);
 
-  function report(num) {
+  function report(num, touched) {
     onAnswerReady?.({
       value: num,
       isCorrect: Math.abs(num - target) <= tolerance,
       display: String(num),
+      touched,
     });
   }
 
   // Report the slider's initial (default) position on mount too — otherwise
   // a question whose correct answer happens to equal the midpoint shows what
   // looks like an already-correct answer, but the submit button stays
-  // disabled until the student actually moves the slider.
+  // disabled until the student actually moves the slider. Marked untouched
+  // so speed-run mode (which submits the moment an answer is ready) waits
+  // for a real move instead of auto-submitting the default position.
   useEffect(() => {
-    report(mid);
+    report(mid, false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -51,7 +54,7 @@ export default function NumberLine({ payload = {}, correctAnswer, onAnswerReady 
           onChange={(e) => {
             const num = Number(e.target.value);
             setValue(num);
-            report(num);
+            report(num, true);
           }}
           className="w-full accent-[var(--color-teal)]"
           aria-label="ציר מספרים"
