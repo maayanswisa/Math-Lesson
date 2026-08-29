@@ -231,11 +231,25 @@ export default function QuizCard({
   }, [current?.id]);
 
   // Restore the scroll position saved just before submitting, once the next
-  // (tall) question has rendered — see preSubmitScrollRef above.
+  // (tall) question has rendered — see preSubmitScrollRef above. A single
+  // scrollTo isn't enough: this effect fires as soon as React commits the
+  // 'quiz' state, but the AnimatePresence exit/enter swap (mode="wait") can
+  // still be mid-animation, so the tall content isn't in the DOM yet and the
+  // browser clamps the scroll straight back down. Keep reasserting the
+  // target position every frame for a bit longer than the transition takes,
+  // so the last few reassertions land after the layout has actually settled.
   useEffect(() => {
-    if (phase !== 'quiz' || preSubmitScrollRef.current == null) return;
-    window.scrollTo({ top: preSubmitScrollRef.current, behavior: 'instant' });
+    if (phase !== 'quiz' || preSubmitScrollRef.current == null) return undefined;
+    const target = preSubmitScrollRef.current;
     preSubmitScrollRef.current = null;
+    let frame;
+    const start = performance.now();
+    function reassert(now) {
+      window.scrollTo(0, target);
+      if (now - start < 650) frame = requestAnimationFrame(reassert);
+    }
+    frame = requestAnimationFrame(reassert);
+    return () => cancelAnimationFrame(frame);
   }, [phase, current?.id]);
 
   useEffect(() => {
@@ -550,7 +564,7 @@ export default function QuizCard({
             clamping the scroll position back up — during the brief moment
             between the outgoing question unmounting and the incoming one
             mounting as AnimatePresence swaps them. */}
-        <div className="relative min-h-[420px]">
+        <div className="relative min-h-[680px] sm:min-h-[620px]">
         <AnimatePresence mode="wait">
           <motion.article
             key={`${current?.id}-${phase === 'feedback' ? 'fb' : 'q'}`}
