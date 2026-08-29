@@ -4409,7 +4409,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{5}$"
     ],
     "correct_index": 2,
-    "explanation": "מחשבים $\\frac{4}{5}-\\frac{3}{5}$. התוצאה: $0.20000000000000007$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{4}{5}-\\frac{3}{5}$. התוצאה: $0.2$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-2",
@@ -4424,7 +4424,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{5}{10}$"
     ],
     "correct_index": 2,
-    "explanation": "מחשבים $\\frac{8}{10}-\\frac{5}{10}$. התוצאה: $0.30000000000000004$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{8}{10}-\\frac{5}{10}$. התוצאה: $0.3$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-3",
@@ -4484,7 +4484,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$9$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{2}{10}+\\frac{7}{10}$. התוצאה: $0.8999999999999999$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{2}{10}+\\frac{7}{10}$. התוצאה: $0.9$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-7",
@@ -4529,7 +4529,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{2}$"
     ],
     "correct_index": 1,
-    "explanation": "מחשבים $\\frac{3}{10}-\\frac{2}{10}$. התוצאה: $0.09999999999999998$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{3}{10}-\\frac{2}{10}$. התוצאה: $0.1$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-10",
@@ -4544,7 +4544,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{2}{6}$"
     ],
     "correct_index": 2,
-    "explanation": "מחשבים $\\frac{3}{6}-\\frac{2}{6}$. התוצאה: $0.16666666666666669$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{3}{6}-\\frac{2}{6}$. התוצאה: $0.1667$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-11",
@@ -4604,7 +4604,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{17}{10}$"
     ],
     "correct_index": 3,
-    "explanation": "מחשבים $\\frac{8}{10}+\\frac{9}{10}$. התוצאה: $1.7000000000000002$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{8}{10}+\\frac{9}{10}$. התוצאה: $1.7$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-15",
@@ -4619,7 +4619,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 2,
-    "explanation": "מחשבים $\\frac{8}{10}-\\frac{7}{10}$. התוצאה: $0.10000000000000009$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{8}{10}-\\frac{7}{10}$. התוצאה: $0.1$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g4-fractions-ops-16",
@@ -5575,7 +5575,7 @@ export const ELEMENTARY_QUESTIONS = [
     "options": [
       "$\\frac{5}{5}$",
       "$\\frac{10}{20}$",
-      "$\\frac{1}{1}$",
+      "$\\frac{5}{15}$",
       "$10$"
     ],
     "correct_index": 0,
@@ -6714,8 +6714,8 @@ export const ELEMENTARY_QUESTIONS = [
     "options": [
       "$\\frac{1}{2}$",
       "$\\frac{5}{7}$",
-      "$\\frac{6}{12}$",
-      "$\\frac{2}{4}$"
+      "$\\frac{1}{4}$",
+      "$\\frac{5}{6}$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $\\frac{2\\cdot 3}{3\\cdot 4}=\\frac{6}{12}=\\frac{1}{2}$.",
@@ -6734,7 +6734,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{5}{6}$"
     ],
     "correct_index": 3,
-    "explanation": "מחשבים $\\frac{1}{2}\\div\\frac{3}{5}$. התוצאה: $0.8333333333333334$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{1}{2}\\div\\frac{3}{5}$. התוצאה: $0.8333$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-2",
@@ -6744,7 +6744,7 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $\\frac{4}{5}\\times\\frac{1}{2}$.",
     "options": [
       "$4$",
-      "$\\frac{4}{10}$",
+      "$\\frac{1}{5}$",
       "$\\frac{2}{5}$",
       "$\\frac{4}{5}$"
     ],
@@ -6779,7 +6779,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{3}$"
     ],
     "correct_index": 2,
-    "explanation": "מחשבים $\\frac{1}{3}\\times\\frac{3}{5}$. התוצאה: $0.19999999999999998$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{1}{3}\\times\\frac{3}{5}$. התוצאה: $0.2$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-5",
@@ -6794,7 +6794,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{6}{20}$"
     ],
     "correct_index": 1,
-    "explanation": "מחשבים $\\frac{2}{5}\\div\\frac{3}{4}$. התוצאה: $0.5333333333333333$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{2}{5}\\div\\frac{3}{4}$. התוצאה: $0.5333$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-6",
@@ -6809,7 +6809,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{2}{3}\\div\\frac{3}{4}$. התוצאה: $0.8888888888888888$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{2}{3}\\div\\frac{3}{4}$. התוצאה: $0.8889$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-7",
@@ -6839,7 +6839,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{2}{5}\\times\\frac{3}{4}$. התוצאה: $0.30000000000000004$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{2}{5}\\times\\frac{3}{4}$. התוצאה: $0.3$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-9",
@@ -6884,7 +6884,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{2}{7}\\div\\frac{1}{3}$. התוצאה: $0.8571428571428571$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{2}{7}\\div\\frac{1}{3}$. התוצאה: $0.8571$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-12",
@@ -6899,7 +6899,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{15}$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{1}{3}\\div\\frac{3}{5}$. התוצאה: $0.5555555555555556$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{1}{3}\\div\\frac{3}{5}$. התוצאה: $0.5556$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-13",
@@ -6914,7 +6914,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{3}{40}$"
     ],
     "correct_index": 1,
-    "explanation": "מחשבים $\\frac{3}{8}\\times\\frac{2}{5}$. התוצאה: $0.15000000000000002$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{3}{8}\\times\\frac{2}{5}$. התוצאה: $0.15$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-14",
@@ -6974,7 +6974,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{5}{24}$"
     ],
     "correct_index": 1,
-    "explanation": "מחשבים $\\frac{5}{6}\\div\\frac{1}{4}$. התוצאה: $3.3333333333333335$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{5}{6}\\div\\frac{1}{4}$. התוצאה: $3.3333$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-18",
@@ -6989,7 +6989,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{2}{7}\\times\\frac{1}{3}$. התוצאה: $0.09523809523809523$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{2}{7}\\times\\frac{1}{3}$. התוצאה: $0.0952$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-q-g6-fractions-mul-div-19",
@@ -7004,7 +7004,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{1}{2}\\times\\frac{1}{3}$. התוצאה: $0.16666666666666666$ (כפי שמופיע באפשרויות)."
+    "explanation": "מחשבים $\\frac{1}{2}\\times\\frac{1}{3}$. התוצאה: $0.1667$ (כפי שמופיע באפשרויות)."
   },
   {
     "id": "q-g6-dec-1",
@@ -7079,7 +7079,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-1.2$"
     ],
     "correct_index": 1,
-    "explanation": "החישוב: $2.3-1.1=1.1999999999999997$."
+    "explanation": "החישוב: $2.3-1.1=1.2$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-5",
@@ -7154,7 +7154,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$-4.8$"
     ],
     "correct_index": 2,
-    "explanation": "החישוב: $6.4-1.6=4.800000000000001$."
+    "explanation": "החישוב: $6.4-1.6=4.8$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-10",
@@ -7268,7 +7268,7 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $3.5\\times 1.25$.",
     "options": [
-      "$4.38$",
+      "$4.375$",
       "$5.38$",
       "$4.75$",
       "$2.8$"
@@ -8136,7 +8136,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-data-prob",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "אדומים 4, בנות 6. סה\"כ?",
+    "question_text": "בנים 4, בנות 6. סה\"כ?",
     "options": [
       "$4$",
       "$6$",
@@ -8781,7 +8781,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-fractions-meaning",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מחלקים $12$ עוגות שווה בשווה בין $5$ ילדים. איזה שבר מהעוגות מקבל כל ילד?",
+    "question_text": "מחלקים $12$ עוגות שווה בשווה בין $5$ ילדים. כמה עוגה (כשבר) מקבל כל ילד?",
     "options": [
       "$\\frac{12}{5}$",
       "$\\frac{5}{12}$",
@@ -10589,7 +10589,7 @@ export const ELEMENTARY_QUESTIONS = [
       "אי אפשר לדעת"
     ],
     "correct_index": 0,
-    "explanation": "$0.1=0.100$, וזה גדול מ-$0.099$ (במקום המאיות: $0>...$ למעשה במקום העשיריות $1>0$)."
+    "explanation": "$0.1=0.100$: משווים ספרת העשיריות מול $0.099$ — $1>0$, לכן $0.1>0.099$."
   },
   {
     "id": "q-g5-decimals-intro-hard-5",
