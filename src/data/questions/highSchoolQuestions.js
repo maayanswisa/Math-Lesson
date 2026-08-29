@@ -1019,7 +1019,7 @@ export const QUESTIONS = [
       "$6$"
     ],
     "correct_index": 2,
-    "explanation": "החישוב: at (4,0)=12."
+    "explanation": "מציבים בכל קודקוד: $(0,0)\\to0$, $(4,0)\\to12$, $(0,3)\\to6$. הערך המרבי הוא $12$."
   },
   {
     "id": "q-q-g12-u3-linear-programming-19",
@@ -1028,13 +1028,13 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "אילוץ: x>=0,y>=0 הם:",
     "options": [
-      "H1",
+      "שיפוע",
       "משפט",
       "אי-שליליות",
       "שטח"
     ],
     "correct_index": 2,
-    "explanation": "התשובה הנכונה היא אי-שליליות."
+    "explanation": "אילוצי $x\\ge0,\\ y\\ge0$ נקראים אילוצי אי-שליליות, מכיוון שהמשתנים בבעיית תכנון לינארי מייצגים בדרך כלל כמויות (כגון יחידות ייצור) שאינן יכולות להיות שליליות."
   },
   {
     "id": "q-g12-u3-an-1",
@@ -4199,14 +4199,14 @@ export const QUESTIONS = [
       "$42$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $48$."
+    "explanation": "היחס בין איברים עוקבים הוא $2$ (סדרה הנדסית), לכן האיבר הבא הוא $24\\times2=48$."
   },
   {
     "id": "q-q-g12-u4-sequences-3",
     "topic_id": "g12-u4-sequences",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1 וקפיצות +2. אחרי 1: הבא אחרי 4?",
+    "question_text": "סדרה מתחילה ב-$1$, ובכל שלב ('קפיצה') מוסיפים $2$. מהו האיבר המתקבל אחרי $4$ קפיצות?",
     "options": [
       "$5$",
       "$2$",
@@ -4221,7 +4221,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-sequences",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1 וקפיצות +4. אחרי 1: הבא אחרי 4?",
+    "question_text": "סדרה מתחילה ב-$1$, ובכל שלב ('קפיצה') מוסיפים $4$. מהו האיבר המתקבל אחרי $4$ קפיצות?",
     "options": [
       "$12$",
       "$10$",
@@ -4236,7 +4236,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-sequences",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1 וקפיצות +3. אחרי 1: הבא אחרי 4?",
+    "question_text": "סדרה מתחילה ב-$1$, ובכל שלב ('קפיצה') מוסיפים $3$. מהו האיבר המתקבל אחרי $4$ קפיצות?",
     "options": [
       "$6$",
       "$13$",
@@ -4251,15 +4251,15 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-sequences",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "סדרה חשבונית: הפרש:",
+    "question_text": "בסדרה חשבונית, ההפרש בין כל שני איברים עוקבים הוא תמיד:",
     "options": [
-      "רירוע",
+      "משתנה",
       "קבוע",
-      "0",
+      "$0$",
       "מכפלה"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא קבוע."
+    "explanation": "זו ההגדרה של סדרה חשבונית: ההפרש בין כל שני איברים עוקבים הוא קבוע (נקרא הפרש הסדרה, $d$)."
   },
   {
     "id": "q-q-g12-u4-sequences-8",
@@ -4274,7 +4274,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $14$."
+    "explanation": "$a_4=a_1+3d=5+3\\times3=14$."
   },
   {
     "id": "q-q-g12-u4-sequences-9",
@@ -4289,14 +4289,14 @@ export const QUESTIONS = [
       "$n!$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $\\frac{n(n+1)}{2}$."
+    "explanation": "נוסחת גאוס לסכום $n$ המספרים הטבעיים הראשונים: $S=\\frac{n(n+1)}{2}$."
   },
   {
     "id": "q-q-g12-u4-sequences-10",
     "topic_id": "g12-u4-sequences",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1 וקפיצות +6. אחרי 1: הבא אחרי 4?",
+    "question_text": "סדרה מתחילה ב-$1$, ובכל שלב ('קפיצה') מוסיפים $6$. מהו האיבר המתקבל אחרי $4$ קפיצות?",
     "options": [
       "$18$",
       "$20$",
@@ -4319,14 +4319,14 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $11$."
+    "explanation": "$a_5=2\\times5+1=11$."
   },
   {
     "id": "q-q-g12-u4-sequences-12",
     "topic_id": "g12-u4-sequences",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1 וקפיצות +5. אחרי 1: הבא אחרי 4?",
+    "question_text": "סדרה מתחילה ב-$1$, ובכל שלב ('קפיצה') מוסיפים $5$. מהו האיבר המתקבל אחרי $4$ קפיצות?",
     "options": [
       "$14$",
       "$21$",
@@ -4349,14 +4349,14 @@ export const QUESTIONS = [
       "$16$"
     ],
     "correct_index": 3,
-    "explanation": "התשובה הנכונה היא $16$."
+    "explanation": "$a_4=4^2=16$."
   },
   {
     "id": "q-q-g12-u4-sequences-14",
     "topic_id": "g12-u4-sequences",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1 וקפיצות +7. אחרי 1: הבא אחרי 4?",
+    "question_text": "סדרה מתחילה ב-$1$, ובכל שלב ('קפיצה') מוסיפים $7$. מהו האיבר המתקבל אחרי $4$ קפיצות?",
     "options": [
       "$24$",
       "$22$",
@@ -4379,7 +4379,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "התשובה הנכונה היא $10$."
+    "explanation": "הסדרה עולה ב-$2$ בכל פעם, לכן האיבר הבא אחרי $8$ הוא $10$."
   },
   {
     "id": "q-q-g12-u4-sequences-16",
@@ -4394,7 +4394,7 @@ export const QUESTIONS = [
       "$11$"
     ],
     "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $9$."
+    "explanation": "הסדרה עולה ב-$2$ בכל פעם, לכן האיבר הבא אחרי $7$ הוא $9$."
   },
   {
     "id": "q-g12-u4-gd-1",
@@ -4761,7 +4761,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "מכפלה סקלרית 2*$\\langle 3,4\\rangle$:",
+    "question_text": "כפל הווקטור $\\langle 3,4\\rangle$ בסקלר $2$ נותן:",
     "options": [
       "14",
       "$\\langle 3,8\\rangle$",
@@ -4934,7 +4934,7 @@ export const QUESTIONS = [
       "n=0"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא דוחים H0."
+    "explanation": "מכיוון ש-$p=0.01<\\alpha=0.05$, דוחים את $H_0$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-2",
@@ -4949,7 +4949,7 @@ export const QUESTIONS = [
       "כל התצפיות"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא הפרמטר בהסתברות גבוהה."
+    "explanation": "רווח סמך ברמת $95\\%$ פירושו שבשיטת הבנייה, הפרמטר האמיתי נמצא בתוך הרווח שנבנה בהסתברות $95\\%$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-3",
@@ -4964,14 +4964,14 @@ export const QUESTIONS = [
       "$\\mu/x$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $(x-\\mu)/\\sigma$."
+    "explanation": "ציון תקן (z-score) מודד כמה סטיות תקן ערך מסוים רחוק מהממוצע: $z=(x-\\mu)/\\sigma$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-4",
     "topic_id": "g12-u4-hypothesis",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מוצע בהתפלגות נורמלית:",
+    "question_text": "מרכז ההתפלגות הנורמלית (שבו חופפים הממוצע, החציון והשכיח) נקרא:",
     "options": [
       "שכיח",
       "אמצע",
@@ -4979,7 +4979,7 @@ export const QUESTIONS = [
       "0"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא אמצע."
+    "explanation": "בהתפלגות נורמלית הממוצע, החציון והשכיח חופפים כולם בנקודת האמצע של ההתפלגות (ציר הסימטריה)."
   },
   {
     "id": "q-q-g12-u4-hypothesis-5",
@@ -4994,7 +4994,7 @@ export const QUESTIONS = [
       "השערת אפס / אין הבדל"
     ],
     "correct_index": 3,
-    "explanation": "התשובה הנכונה היא השערת אפס / אין הבדל."
+    "explanation": "$H_0$ (השערת האפס) היא ההשערה הבסיסית שבודקים מולה, ובדרך כלל טוענת שאין הבדל/אין השפעה."
   },
   {
     "id": "q-q-g12-u4-hypothesis-6",
@@ -5009,7 +5009,7 @@ export const QUESTIONS = [
       "לא קשור"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא דוחים H0."
+    "explanation": "כאשר $p<\\alpha$, התוצאה מובהקת סטטיסטית מספיק כדי לדחות את $H_0$."
   },
   {
     "id": "q-q-g12-u4-hypothesis-7",
@@ -5024,7 +5024,7 @@ export const QUESTIONS = [
       "n=0"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא דחיית H0 נכונה."
+    "explanation": "שגיאה מסוג I מתרחשת כאשר דוחים את $H_0$ למרות שהיא נכונה (False Positive)."
   },
   {
     "id": "q-g10-u5-fn-1",
@@ -7131,30 +7131,30 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-analytic-hyperbola",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=49$. r=?",
+    "question_text": "עבור ההיפרבולה $\\dfrac{x^2}{16}-\\dfrac{y^2}{9}=1$, מהו $a$?",
     "options": [
-      "$0$",
+      "$3$",
+      "$5$",
       "$7$",
-      "$2$",
-      "$3$"
+      "$4$"
     ],
-    "correct_index": 1,
-    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{49}=7$."
+    "correct_index": 3,
+    "explanation": "$a^2=16\\Rightarrow a=4$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-2",
     "topic_id": "g12-u5-analytic-hyperbola",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=1$. r=?",
+    "question_text": "עבור ההיפרבולה $\\dfrac{x^2}{4}-\\dfrac{y^2}{5}=1$, מהו $c$?",
     "options": [
-      "$-6$",
-      "$-4$",
-      "$1$",
-      "$-3$"
+      "$4$",
+      "$9$",
+      "$3$",
+      "$2$"
     ],
     "correct_index": 2,
-    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{1}=1$."
+    "explanation": "$c^2=a^2+b^2=4+5=9\\Rightarrow c=3$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-3",
@@ -7176,75 +7176,75 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-analytic-hyperbola",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=36$. r=?",
+    "question_text": "מהן האסימפטוטות של $\\dfrac{x^2}{4}-\\dfrac{y^2}{9}=1$?",
     "options": [
-      "$2$",
-      "$6$",
-      "$-1$",
-      "$1$"
+      "$y=\\pm\\dfrac32x$",
+      "$y=\\pm\\dfrac23x$",
+      "$x=\\pm2$",
+      "$y=\\pm3$"
     ],
-    "correct_index": 1,
-    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{36}=6$."
+    "correct_index": 0,
+    "explanation": "האסימפטוטות של ההיפרבולה הקנונית הן $y=\\pm\\dfrac ba x$; כאן $a=2,\\ b=3$, כלומר $y=\\pm\\dfrac32x$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-5",
     "topic_id": "g12-u5-analytic-hyperbola",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרבולה $y=x^2$. קודקוד הפרבולה:",
+    "question_text": "עבור ההיפרבולה $\\dfrac{x^2}{49}-\\dfrac{y^2}{15}=1$, מהם קודקודי ההיפרבולה?",
     "options": [
-      "$(1,0)$",
-      "$(0,0)$",
-      "$(0,1)$",
-      "$(1,1)$"
+      "$(0,\\pm7)$",
+      "$(\\pm15,0)$",
+      "$(\\pm\\sqrt{15},0)$",
+      "$(\\pm7,0)$"
     ],
-    "correct_index": 1,
-    "explanation": "הפונקציה $y=x^2$ היא הפרבולה הבסיסית ביותר, קודקודה בראשית הצירים: $(0,0)$."
+    "correct_index": 3,
+    "explanation": "קודקודי ההיפרבולה נמצאים על ציר $x$ במרחק $a$ מהמרכז: $a^2=49\\Rightarrow a=7$, כלומר $(\\pm7,0)$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-6",
     "topic_id": "g12-u5-analytic-hyperbola",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=25$. r=?",
+    "question_text": "עבור היפרבולה עם $a^2=25,\\ b^2=144$, מהו $c$?",
     "options": [
-      "$1$",
-      "$0$",
-      "$-2$",
+      "$12$",
+      "$17$",
+      "$13$",
       "$5$"
     ],
-    "correct_index": 3,
-    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
+    "correct_index": 2,
+    "explanation": "$c^2=a^2+b^2=25+144=169\\Rightarrow c=13$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-8",
     "topic_id": "g12-u5-analytic-hyperbola",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=16$. r=?",
+    "question_text": "עבור היפרבולה עם $a^2=36,\\ b^2=64$, מהו $a$?",
     "options": [
-      "$0$",
-      "$-3$",
-      "$-1$",
-      "$4$"
+      "$6$",
+      "$8$",
+      "$10$",
+      "$14$"
     ],
-    "correct_index": 3,
-    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{16}=4$."
+    "correct_index": 0,
+    "explanation": "$a^2=36\\Rightarrow a=6$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-9",
     "topic_id": "g12-u5-analytic-hyperbola",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=4$. r=?",
+    "question_text": "עבור היפרבולה עם $a^2=1,\\ b^2=3$, מהו $c$?",
     "options": [
-      "$-5$",
-      "$2$",
-      "$-2$",
-      "$-3$"
+      "$1$",
+      "$3$",
+      "$4$",
+      "$2$"
     ],
-    "correct_index": 1,
-    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{4}=2$."
+    "correct_index": 3,
+    "explanation": "$c^2=a^2+b^2=1+3=4\\Rightarrow c=2$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-10",
@@ -7281,45 +7281,45 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-analytic-hyperbola",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=9$. r=?",
+    "question_text": "עבור היפרבולה עם $a^2=16,\\ b^2=20$, מהו $c$?",
     "options": [
-      "$-2$",
-      "$3$",
-      "$-4$",
-      "$-1$"
+      "$36$",
+      "$9$",
+      "$6$",
+      "$4$"
     ],
-    "correct_index": 1,
-    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{9}=3$."
+    "correct_index": 2,
+    "explanation": "$c^2=a^2+b^2=16+20=36\\Rightarrow c=6$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-14",
     "topic_id": "g12-u5-analytic-hyperbola",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מרחק (0,0)-(3,4):",
+    "question_text": "עבור ההיפרבולה $\\dfrac{x^2}{9}-\\dfrac{y^2}{16}=1$, מהם המוקדים?",
     "options": [
-      "$7$",
-      "$1$",
-      "$12$",
-      "$5$"
+      "$(\\pm5,0)$",
+      "$(0,\\pm5)$",
+      "$(\\pm3,0)$",
+      "$(\\pm4,0)$"
     ],
-    "correct_index": 3,
-    "explanation": "לפי נוסחת המרחק: $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}=\\sqrt{3^2+4^2}=5$."
+    "correct_index": 0,
+    "explanation": "$c^2=a^2+b^2=9+16=25\\Rightarrow c=5$, והמוקדים על ציר $x$: $(\\pm5,0)$."
   },
   {
     "id": "q-q-g12-u5-analytic-hyperbola-15",
     "topic_id": "g12-u5-analytic-hyperbola",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=25$. רדיוס:",
+    "question_text": "בהיפרבולה עם $a=6$, מהו ההפרש הקבוע (בערך מוחלט) בין מרחקי כל נקודה על העקומה לשני המוקדים?",
     "options": [
-      "$10$",
-      "$25$",
-      "$12$",
-      "$5$"
+      "$6$",
+      "$24$",
+      "$36$",
+      "$12$"
     ],
     "correct_index": 3,
-    "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
+    "explanation": "ההפרש הקבוע בהיפרבולה הוא $2a=2\\times6=12$."
   },
   {
     "id": "q-g12-u5-vec-1",
@@ -7341,127 +7341,127 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 0,5\\rangle$+$\\langle 5,0\\rangle$=",
+    "question_text": "$\\langle 0,5,1\\rangle$+$\\langle 5,0,2\\rangle$=",
     "options": [
-      "$\\langle 0,5\\rangle$",
-      "0",
-      "$\\langle 5,5\\rangle$",
-      "$\\langle 0,0\\rangle$"
+      "$\\langle 0,5,1\\rangle$",
+      "$\\langle 0,0,0\\rangle$",
+      "$\\langle 10,10,6\\rangle$",
+      "$\\langle 5,5,3\\rangle$"
     ],
-    "correct_index": 2,
-    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 0+5,5+0\\rangle=\\langle 5,5\\rangle$."
+    "correct_index": 3,
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 0+5,\\,5+0,\\,1+2\\rangle=\\langle 5,5,3\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-2",
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 2,2\\rangle$+$\\langle 2,2\\rangle$=",
+    "question_text": "$\\langle 2,2,1\\rangle$+$\\langle 2,2,3\\rangle$=",
     "options": [
-      "$\\langle 4,4\\rangle$",
-      "$\\langle 2,2\\rangle$",
-      "0",
-      "$\\langle 4,2\\rangle$"
+      "$\\langle 0,0,0\\rangle$",
+      "$\\langle 8,8,8\\rangle$",
+      "$\\langle 4,4,4\\rangle$",
+      "$\\langle 2,2,1\\rangle$"
     ],
-    "correct_index": 0,
-    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 2+2,2+2\\rangle=\\langle 4,4\\rangle$."
+    "correct_index": 2,
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 2+2,\\,2+2,\\,1+3\\rangle=\\langle 4,4,4\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-3",
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 1,0\\rangle$|=",
+    "question_text": "|$\\langle 1,2,2\\rangle$|=",
     "options": [
-      "$-3$",
-      "$-6$",
+      "$6$",
+      "$3$",
       "$1$",
-      "$-4$"
+      "$4$"
     ],
-    "correct_index": 2,
-    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{1^2+0^2}=1$."
+    "correct_index": 1,
+    "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{1^2+2^2+2^2}=3$."
   },
   {
     "id": "q-q-g12-u5-vectors-4",
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "וקטור אפס:",
+    "question_text": "וקטור האפס במרחב:",
     "options": [
       "$i$",
-      "$\\langle 0,0\\rangle$",
-      "$\\langle 1,1\\rangle$",
-      "$\\langle 1,0\\rangle$"
+      "$\\langle 0,0,0\\rangle$",
+      "$\\langle 1,1,1\\rangle$",
+      "$\\langle 1,0,0\\rangle$"
     ],
     "correct_index": 1,
-    "explanation": "וקטור האפס הוא הווקטור שכל רכיביו $0$: $\\langle 0,0\\rangle$."
+    "explanation": "וקטור האפס הוא הווקטור שכל רכיביו $0$: $\\langle 0,0,0\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-5",
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 6,8\\rangle$|=",
+    "question_text": "|$\\langle 2,6,9\\rangle$|=",
     "options": [
-      "$5$",
-      "$6$",
-      "$3$",
-      "$10$"
+      "$9$",
+      "$12$",
+      "$14$",
+      "$11$"
     ],
     "correct_index": 3,
-    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{6^2+8^2}=10$."
+    "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{2^2+6^2+9^2}=11$."
   },
   {
     "id": "q-q-g12-u5-vectors-6",
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 3,4\\rangle$+$\\langle 4,3\\rangle$=",
+    "question_text": "$\\langle 3,4,1\\rangle$+$\\langle 4,3,2\\rangle$=",
     "options": [
-      "$\\langle 7,7\\rangle$",
-      "$\\langle 3,4\\rangle$",
-      "$\\langle 12,12\\rangle$",
-      "0"
+      "$\\langle 0,0,0\\rangle$",
+      "$\\langle 14,14,6\\rangle$",
+      "$\\langle 7,7,3\\rangle$",
+      "$\\langle 3,4,1\\rangle$"
     ],
-    "correct_index": 0,
-    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 3+4,4+3\\rangle=\\langle 7,7\\rangle$."
+    "correct_index": 2,
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 3+4,\\,4+3,\\,1+2\\rangle=\\langle 7,7,3\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-7",
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 9,12\\rangle$+$\\langle 12,9\\rangle$=",
+    "question_text": "$\\langle 9,12,4\\rangle$+$\\langle 12,9,5\\rangle$=",
     "options": [
-      "0",
-      "$\\langle 108,108\\rangle$",
-      "$\\langle 9,12\\rangle$",
-      "$\\langle 21,21\\rangle$"
+      "$\\langle 42,42,18\\rangle$",
+      "$\\langle 21,21,9\\rangle$",
+      "$\\langle 9,12,4\\rangle$",
+      "$\\langle 0,0,0\\rangle$"
     ],
-    "correct_index": 3,
-    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 9+12,12+9\\rangle=\\langle 21,21\\rangle$."
+    "correct_index": 1,
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 9+12,\\,12+9,\\,4+5\\rangle=\\langle 21,21,9\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-8",
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 0,5\\rangle$|=",
+    "question_text": "|$\\langle 3,4,12\\rangle$|=",
     "options": [
-      "$1$",
-      "$0$",
-      "$5$",
-      "$-2$"
+      "$13$",
+      "$11$",
+      "$14$",
+      "$16$"
     ],
-    "correct_index": 2,
-    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{0^2+5^2}=5$."
+    "correct_index": 0,
+    "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{3^2+4^2+12^2}=13$."
   },
   {
     "id": "q-q-g12-u5-vectors-9",
     "topic_id": "g12-u5-vectors",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "מכפלה סקלרית 2*$\\langle 3,4\\rangle$:",
+    "question_text": "כפל הווקטור $\\langle 3,4\\rangle$ בסקלר $2$ נותן:",
     "options": [
       "$\\langle 6,8\\rangle$",
       "14",
@@ -7469,127 +7469,127 @@ export const QUESTIONS = [
       "$\\langle 3,8\\rangle$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $\\langle 6,8\\rangle$."
+    "explanation": "כופלים כל רכיב בסקלר: $2\\cdot\\langle 3,4\\rangle=\\langle 2\\cdot3,\\,2\\cdot4\\rangle=\\langle 6,8\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-10",
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 6,8\\rangle$+$\\langle 8,6\\rangle$=",
+    "question_text": "$\\langle 6,8,2\\rangle$+$\\langle 8,6,3\\rangle$=",
     "options": [
-      "0",
-      "$\\langle 48,48\\rangle$",
-      "$\\langle 14,14\\rangle$",
-      "$\\langle 6,8\\rangle$"
+      "$\\langle 14,14,5\\rangle$",
+      "$\\langle 6,8,2\\rangle$",
+      "$\\langle 0,0,0\\rangle$",
+      "$\\langle 28,28,10\\rangle$"
     ],
-    "correct_index": 2,
-    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 6+8,8+6\\rangle=\\langle 14,14\\rangle$."
+    "correct_index": 0,
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 6+8,\\,8+6,\\,2+3\\rangle=\\langle 14,14,5\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-11",
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 5,12\\rangle$|=",
+    "question_text": "|$\\langle 4,4,7\\rangle$|=",
     "options": [
-      "$13$",
-      "$8$",
-      "$9$",
-      "$6$"
+      "$7$",
+      "$10$",
+      "$12$",
+      "$9$"
     ],
-    "correct_index": 0,
-    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{5^2+12^2}=13$."
+    "correct_index": 3,
+    "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{4^2+4^2+7^2}=9$."
   },
   {
     "id": "q-q-g12-u5-vectors-12",
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 8,15\\rangle$+$\\langle 15,8\\rangle$=",
+    "question_text": "$\\langle 8,15,1\\rangle$+$\\langle 15,8,2\\rangle$=",
     "options": [
-      "$\\langle 120,120\\rangle$",
-      "$\\langle 23,23\\rangle$",
-      "0",
-      "$\\langle 8,15\\rangle$"
+      "$\\langle 0,0,0\\rangle$",
+      "$\\langle 46,46,6\\rangle$",
+      "$\\langle 23,23,3\\rangle$",
+      "$\\langle 8,15,1\\rangle$"
     ],
-    "correct_index": 1,
-    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 8+15,15+8\\rangle=\\langle 23,23\\rangle$."
+    "correct_index": 2,
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 8+15,\\,15+8,\\,1+2\\rangle=\\langle 23,23,3\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-13",
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 9,12\\rangle$|=",
+    "question_text": "|$\\langle 2,3,6\\rangle$|=",
     "options": [
-      "$11$",
-      "$15$",
       "$10$",
+      "$7$",
+      "$5$",
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{9^2+12^2}=15$."
+    "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{2^2+3^2+6^2}=7$."
   },
   {
     "id": "q-q-g12-u5-vectors-14",
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 1,0\\rangle$+$\\langle 0,1\\rangle$=",
+    "question_text": "$\\langle 1,0,0\\rangle$+$\\langle 0,1,1\\rangle$=",
     "options": [
-      "$\\langle 1,1\\rangle$",
-      "0",
-      "$\\langle 1,0\\rangle$",
-      "$\\langle 0,0\\rangle$"
+      "$\\langle 1,1,1\\rangle$",
+      "$\\langle 1,0,0\\rangle$",
+      "$\\langle 0,0,0\\rangle$",
+      "$\\langle 2,2,2\\rangle$"
     ],
     "correct_index": 0,
-    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 1+0,0+1\\rangle=\\langle 1,1\\rangle$."
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 1+0,\\,0+1,\\,0+1\\rangle=\\langle 1,1,1\\rangle$."
   },
   {
     "id": "q-q-g12-u5-vectors-15",
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 3,4\\rangle$|=",
+    "question_text": "|$\\langle 1,4,8\\rangle$|=",
     "options": [
-      "$0$",
-      "$-2$",
-      "$5$",
-      "$1$"
+      "$7$",
+      "$10$",
+      "$12$",
+      "$9$"
     ],
-    "correct_index": 2,
-    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{3^2+4^2}=5$."
+    "correct_index": 3,
+    "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{1^2+4^2+8^2}=9$."
   },
   {
     "id": "q-q-g12-u5-vectors-16",
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 8,15\\rangle$|=",
+    "question_text": "|$\\langle 4,13,16\\rangle$|=",
     "options": [
-      "$10$",
-      "$17$",
-      "$12$",
-      "$13$"
+      "$22$",
+      "$24$",
+      "$21$",
+      "$19$"
     ],
-    "correct_index": 1,
-    "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{8^2+15^2}=17$."
+    "correct_index": 2,
+    "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{4^2+13^2+16^2}=21$."
   },
   {
     "id": "q-q-g12-u5-vectors-17",
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 5,12\\rangle$+$\\langle 12,5\\rangle$=",
+    "question_text": "$\\langle 5,12,3\\rangle$+$\\langle 12,5,4\\rangle$=",
     "options": [
-      "$\\langle 17,17\\rangle$",
-      "0",
-      "$\\langle 60,60\\rangle$",
-      "$\\langle 5,12\\rangle$"
+      "$\\langle 34,34,14\\rangle$",
+      "$\\langle 17,17,7\\rangle$",
+      "$\\langle 5,12,3\\rangle$",
+      "$\\langle 0,0,0\\rangle$"
     ],
-    "correct_index": 0,
-    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 5+12,12+5\\rangle=\\langle 17,17\\rangle$."
+    "correct_index": 1,
+    "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 5+12,\\,12+5,\\,3+4\\rangle=\\langle 17,17,7\\rangle$."
   },
   {
     "id": "q-g12-u5-cpx-1",
@@ -7619,7 +7619,7 @@ export const QUESTIONS = [
       "$|z|$"
     ],
     "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $a-bi$."
+    "explanation": "צמוד של מספר מרוכב מתקבל על ידי החלפת סימן החלק המדומה: אם $z=a+bi$ אז $\\bar z=a-bi$."
   },
   {
     "id": "q-q-g12-u5-complex-2",
@@ -7664,7 +7664,7 @@ export const QUESTIONS = [
       "$1-2i$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $3-2i$."
+    "explanation": "מחברים חלק ממשי עם חלק ממשי, וחלק מדומה עם חלק מדומה: $(2+1)+(3+(-5))i=3-2i$."
   },
   {
     "id": "q-q-g12-u5-complex-5",
@@ -7724,7 +7724,7 @@ export const QUESTIONS = [
       "$17$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $13$."
+    "explanation": "$|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{5^2+(-12)^2}=\\sqrt{25+144}=\\sqrt{169}=13$."
   },
   {
     "id": "q-q-g12-u5-complex-9",
@@ -7754,7 +7754,7 @@ export const QUESTIONS = [
       "$i$"
     ],
     "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $-1$."
+    "explanation": "לפי הגדרת היחידה המדומה, $i^2=-1$."
   },
   {
     "id": "q-q-g12-u5-complex-11",
@@ -7769,7 +7769,7 @@ export const QUESTIONS = [
       "$-5$"
     ],
     "correct_index": 3,
-    "explanation": "התשובה הנכונה היא $-5$."
+    "explanation": "החלק המדומה של $a+bi$ הוא המקדם $b$; עבור $2-5i$ מתקיים $b=-5$, כלומר $\\text{Im}(2-5i)=-5$."
   },
   {
     "id": "q-q-g12-u5-complex-12",
@@ -7799,7 +7799,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $2$."
+    "explanation": "החלק הממשי של $a+bi$ הוא $a$; עבור $2-5i$ מתקיים $a=2$, כלומר $\\text{Re}(2-5i)=2$."
   },
   {
     "id": "q-q-g12-u5-complex-14",
@@ -22386,7 +22386,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נתונה $f(x)=x^n(5-\\ln x)$, מוגדרת עבור $x>0$. עבור אילו $x$ מתקיים $f(x)=0$ (מלבד אפשרי ב-$x=0$)?",
+    "question_text": "נתונה $f(x)=x^n(5-\\ln x)$, מוגדרת עבור $x>0$. עבור אילו $x$ מתקיים $f(x)=0$?",
     "options": [
       "$x=e^5$",
       "$x=5$",
@@ -22394,7 +22394,7 @@ export const QUESTIONS = [
       "$x=e^{-5}$"
     ],
     "correct_index": 0,
-    "explanation": "$f(x)=0$ כאשר $5-\\ln x=0$ (בהנחה $x^n\\neq0$), כלומר $\\ln x=5\\Rightarrow x=e^5$."
+    "explanation": "מאחר ש-$x^n>0$ עבור כל $x>0$, מתקיים $f(x)=0$ כאשר $5-\\ln x=0$, כלומר $\\ln x=5\\Rightarrow x=e^5$."
   },
   {
     "id": "q-g12-u5-bagrut-9",
