@@ -572,7 +572,7 @@ export default function QuizCard({
         <>
           {/* מובייל: כלים בעמודה אחת, ברוחב מלא; אם יש מחשבון — אפשר לגרור ולסדר מחדש */}
           <div className="mt-4 flex flex-col lg:hidden">
-            {hasTopicExplanation && <ExplanationButton onClick={() => setShowExplanation(true)} />}
+            {mode !== 'speed' && hasTopicExplanation && <ExplanationButton onClick={() => setShowExplanation(true)} />}
             {showCalculator ? (
               <Reorder.Group axis="y" values={toolOrder} onReorder={setToolOrder} as="div" className="space-y-3">
                 {toolOrder.map((key) =>
@@ -594,7 +594,7 @@ export default function QuizCard({
 
           {/* מסך רחב: הכלים בסרגל צד קבוע, ליד השאלה */}
           <div className="hidden gap-3 lg:sticky lg:top-4 lg:flex lg:w-72 lg:shrink-0 lg:flex-col">
-            {hasTopicExplanation && <ExplanationButton onClick={() => setShowExplanation(true)} />}
+            {mode !== 'speed' && hasTopicExplanation && <ExplanationButton onClick={() => setShowExplanation(true)} />}
             <div className="lg:min-h-0 lg:flex-1">
               <Scratchpad />
             </div>
