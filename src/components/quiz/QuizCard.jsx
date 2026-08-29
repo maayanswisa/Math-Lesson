@@ -385,11 +385,11 @@ export default function QuizCard({
   if (!started) {
     const hasExplanation = Boolean(topicExplanation) || Boolean(topicKeyFormulas && topicKeyFormulas.length > 0);
     const startButtons = (
-      <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
-        <button type="button" onClick={() => start('normal')} className="rounded-xl bg-[var(--color-teal)] px-6 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
+      <div className="mx-auto grid max-w-xs grid-cols-2 gap-3">
+        <button type="button" onClick={() => start('normal')} className="flex min-h-16 flex-col items-center justify-center rounded-xl bg-[var(--color-teal)] px-3 py-3 text-sm font-semibold text-white hover:bg-[var(--color-teal-dark)]">
           התחל מבחן
         </button>
-        <button type="button" onClick={() => start('speed')} className="flex flex-col items-center gap-0.5 rounded-xl bg-[var(--color-teal)] px-6 py-3 text-white hover:bg-[var(--color-teal-dark)]">
+        <button type="button" onClick={() => start('speed')} className="flex min-h-16 flex-col items-center justify-center gap-0.5 rounded-xl bg-[var(--color-teal)] px-3 py-3 text-white hover:bg-[var(--color-teal-dark)]">
           <span className="text-sm font-semibold">מבחן מהיר</span>
           <span className="text-xs font-normal text-white/80">כמה שאלות תפתרו בדקה?</span>
         </button>
