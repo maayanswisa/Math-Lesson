@@ -34,10 +34,10 @@ export default function App() {
                 'linear-gradient(90deg, var(--color-teal), var(--color-sky), var(--color-violet), var(--color-berry), var(--color-sunshine)) 1',
             }}
           >
-            <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2 px-3 py-2 sm:gap-3 sm:px-4 sm:py-4">
+            <div className="mx-auto flex max-w-5xl flex-nowrap items-center justify-between gap-1.5 px-3 py-2 sm:gap-3 sm:px-4 sm:py-4">
               <Link
                 to="/"
-                className="flex items-center gap-1.5 font-[family-name:var(--font-display)] text-[var(--color-ink)] sm:gap-2"
+                className="flex shrink-0 items-center gap-1.5 font-[family-name:var(--font-display)] text-[var(--color-ink)] sm:gap-2"
               >
                 <span aria-hidden="true" className="text-base sm:text-xl">
                   🧮
@@ -49,11 +49,11 @@ export default function App() {
                   </span>
                 </span>
               </Link>
-              <nav className="flex flex-wrap items-center gap-2 text-xs font-medium text-[var(--color-slate)] sm:gap-3 sm:text-sm">
-                <Link to="/custom-test" className="hover:text-[var(--color-teal)]">
+              <nav className="flex flex-nowrap items-center gap-1.5 text-xs font-medium text-[var(--color-slate)] sm:gap-3 sm:text-sm">
+                <Link to="/custom-test" className="hidden hover:text-[var(--color-teal)] sm:inline">
                   מבחן מותאם
                 </Link>
-                <Link to="/parent" className="hover:text-[var(--color-violet)]">
+                <Link to="/parent" className="hidden hover:text-[var(--color-violet)] sm:inline">
                   ההתקדמות שלי
                 </Link>
                 <GameHUD />
