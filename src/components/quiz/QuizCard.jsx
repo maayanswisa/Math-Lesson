@@ -28,6 +28,21 @@ function shuffleArray(list) {
   return arr;
 }
 
+/** MCQ answer options are stored with the correct one at a fixed index (usually
+ * the first), so they must be shuffled at render time — otherwise the position
+ * of the correct answer leaks the answer across a whole quiz/topic. */
+function shuffleOptions(question) {
+  if (!question || (question.type && question.type !== 'mcq') || !Array.isArray(question.options)) {
+    return question;
+  }
+  const order = shuffleArray(question.options.map((_, i) => i));
+  return {
+    ...question,
+    options: order.map((i) => question.options[i]),
+    correct_index: order.indexOf(question.correct_index),
+  };
+}
+
 function loadToolOrder() {
   const saved = readJSON(TOOL_ORDER_KEY, null);
   if (Array.isArray(saved) && saved.length === 2 && saved.includes('scratchpad') && saved.includes('calculator')) {
@@ -222,7 +237,10 @@ export default function QuizCard({
   }, [toolOrder]);
 
   const showCalculator = grade != null && Number(grade) >= 7;
-  const current = activeQuestions[currentIndex];
+  const current = useMemo(
+    () => shuffleOptions(activeQuestions[currentIndex]),
+    [activeQuestions, currentIndex],
+  );
   const hints = useMemo(() => getHintsForQuestion(current), [current]);
   const onInteractiveReady = useCallback((ans) => setInteractiveAnswer(ans), []);
 

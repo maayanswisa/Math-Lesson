@@ -3159,7 +3159,7 @@ export const QUESTIONS = [
     "options": [
       "$1-\\dfrac{1}{x^{2}}$",
       "$\\dfrac{2x}{x}$",
-      "$\\dfrac{x^{2}-1}{x^{2}}$",
+      "$1+\\dfrac{1}{x^{2}}$",
       "$2x$"
     ],
     "correct_index": 0,
@@ -3186,7 +3186,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 2x^{2}\\,dx$ (till C): מקדים",
+    "question_text": "$\\int 2x^{2}\\,dx=$",
     "options": [
       "$0$",
       "$x+C$",
@@ -3194,7 +3194,7 @@ export const QUESTIONS = [
       "$2x^{2}$"
     ],
     "correct_index": 2,
-    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 2x^{2}\\,dx=\\frac{2}{3}x^{3}+C$, כלומר המקדם הוא $0.6666666666666666$."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 2x^{2}\\,dx=\\frac{2}{3}x^{3}+C$."
   },
   {
     "id": "q-q-g11-u4-integral-2",
@@ -3224,7 +3224,7 @@ export const QUESTIONS = [
       "$2x+C$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $\\frac{x^3}{3}+C$."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C$, עם $n=2$: $\\int x^2\\,dx=\\frac{x^3}{3}+C$."
   },
   {
     "id": "q-q-g11-u4-integral-4",
@@ -3239,14 +3239,14 @@ export const QUESTIONS = [
       "$3x^3+C$"
     ],
     "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $x^3+C$."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 3x^2\\,dx=\\frac{3}{3}x^3+C=x^3+C$."
   },
   {
     "id": "q-q-g11-u4-integral-5",
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 5x^{5}\\,dx$ (till C): מקדים",
+    "question_text": "$\\int 5x^{5}\\,dx=$",
     "options": [
       "$\\frac{5}{6}x^{6}+C$",
       "$5x^{5}$",
@@ -3254,7 +3254,7 @@ export const QUESTIONS = [
       "$0$"
     ],
     "correct_index": 0,
-    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 5x^{5}\\,dx=\\frac{5}{6}x^{6}+C$, כלומר המקדם הוא $0.8333333333333334$."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 5x^{5}\\,dx=\\frac{5}{6}x^{6}+C$."
   },
   {
     "id": "q-q-g11-u4-integral-6",
@@ -3294,7 +3294,7 @@ export const QUESTIONS = [
     "question_text": "אינטגרל מוגדר מייצג:",
     "options": [
       "שיפוע",
-      "שטח מתחת לעקול",
+      "שטח מתחת לעקומה",
       "זווית",
       "נקודה"
     ],
@@ -3306,7 +3306,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 3x^{3}\\,dx$ (till C): מקדים",
+    "question_text": "$\\int 3x^{3}\\,dx=$",
     "options": [
       "$x+C$",
       "$0$",
@@ -3314,14 +3314,14 @@ export const QUESTIONS = [
       "$3x^{3}$"
     ],
     "correct_index": 2,
-    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 3x^{3}\\,dx=\\frac{3}{4}x^{4}+C$, כלומר המקדם הוא $0.75$."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 3x^{3}\\,dx=\\frac{3}{4}x^{4}+C$."
   },
   {
     "id": "q-q-g11-u4-integral-10",
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 1x^{1}\\,dx$ (till C): מקדים",
+    "question_text": "$\\int x\\,dx=$",
     "options": [
       "$1x^{1}$",
       "$x+C$",
@@ -3329,14 +3329,14 @@ export const QUESTIONS = [
       "$\\frac{1}{2}x^{2}+C$"
     ],
     "correct_index": 3,
-    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 1x^{1}\\,dx=\\frac{1}{2}x^{2}+C$, כלומר המקדם הוא $0.5$."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int x\\,dx=\\frac{1}{2}x^{2}+C$."
   },
   {
     "id": "q-q-g11-u4-integral-11",
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 4x^{4}\\,dx$ (till C): מקדים",
+    "question_text": "$\\int 4x^{4}\\,dx=$",
     "options": [
       "$4x^{4}$",
       "$x+C$",
@@ -3344,7 +3344,7 @@ export const QUESTIONS = [
       "$\\frac{4}{5}x^{5}+C$"
     ],
     "correct_index": 3,
-    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 4x^{4}\\,dx=\\frac{4}{5}x^{5}+C$, כלומר המקדם הוא $0.8$."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 4x^{4}\\,dx=\\frac{4}{5}x^{5}+C$."
   },
   {
     "id": "q-q-g11-u4-integral-12",
@@ -3359,14 +3359,14 @@ export const QUESTIONS = [
       "$2x+C$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $\\frac{x^2}{2}+C$."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int x^1\\,dx=\\frac{x^2}{2}+C$."
   },
   {
     "id": "q-q-g11-u4-integral-13",
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 6x^{6}\\,dx$ (till C): מקדים",
+    "question_text": "$\\int 6x^{6}\\,dx=$",
     "options": [
       "$6x^{6}$",
       "$x+C$",
@@ -3374,7 +3374,7 @@ export const QUESTIONS = [
       "$\\frac{6}{7}x^{7}+C$"
     ],
     "correct_index": 3,
-    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 6x^{6}\\,dx=\\frac{6}{7}x^{7}+C$, כלומר המקדם הוא $0.8571428571428571$."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 6x^{6}\\,dx=\\frac{6}{7}x^{7}+C$."
   },
   {
     "id": "q-q-g11-u4-integral-14",
@@ -3809,7 +3809,7 @@ export const QUESTIONS = [
       "מקבילים"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא שווים."
+    "explanation": "רדיוס הוא קטע המחבר את מרכז המעגל לכל נקודה על היקפו. לפי הגדרת המעגל, כל נקודות ההיקף נמצאות במרחק שווה מהמרכז, ולכן כל הרדיוסים במעגל שווים זה לזה באורכם."
   },
   {
     "id": "q-q-g11-u4-plane-circle-14",
@@ -6501,7 +6501,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1 וקפיצות +3. אחרי 1: הבא אחרי 4?",
+    "question_text": "סדרה מתחילה ב-$1$, וכל קפיצה מוסיפה $3$. מהו האיבר המתקבל לאחר $4$ קפיצות?",
     "options": [
       "$9$",
       "$6$",
@@ -6524,14 +6524,14 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $9$."
+    "explanation": "סדרה חשבונית עם $a_1=1$ ו-$d=2$: $a_5=a_1+4d=1+4\\times2=9$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-4",
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "geometrical r=2, a1=3. a4=",
+    "question_text": "נתונה סדרה הנדסית עם $a_1=3$ ומנה $q=2$. מהו $a_4$?",
     "options": [
       "$12$",
       "$24$",
@@ -6539,14 +6539,14 @@ export const QUESTIONS = [
       "$18$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $24$."
+    "explanation": "$a_4=a_1\\cdot q^3=3\\times2^3=3\\times8=24$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-5",
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1 וקפיצות +2. אחרי 1: הבא אחרי 4?",
+    "question_text": "סדרה מתחילה ב-$1$, וכל קפיצה מוסיפה $2$. מהו האיבר המתקבל לאחר $4$ קפיצות?",
     "options": [
       "$9$",
       "$5$",
@@ -6569,7 +6569,7 @@ export const QUESTIONS = [
       "$14$"
     ],
     "correct_index": 3,
-    "explanation": "התשובה הנכונה היא $14$."
+    "explanation": "$a_4=a_1+3d=5+3\\times3=14$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-7",
@@ -6584,14 +6584,14 @@ export const QUESTIONS = [
       "$8$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $16$."
+    "explanation": "$a_4=4^2=16$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-8",
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1 וקפיצות +7. אחרי 1: הבא אחרי 4?",
+    "question_text": "סדרה מתחילה ב-$1$, וכל קפיצה מוסיפה $7$. מהו האיבר המתקבל לאחר $4$ קפיצות?",
     "options": [
       "$22$",
       "$24$",
@@ -6606,7 +6606,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1 וקפיצות +4. אחרי 1: הבא אחרי 4?",
+    "question_text": "סדרה מתחילה ב-$1$, וכל קפיצה מוסיפה $4$. מהו האיבר המתקבל לאחר $4$ קפיצות?",
     "options": [
       "$17$",
       "$10$",
@@ -6629,7 +6629,7 @@ export const QUESTIONS = [
       "$36$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $48$."
+    "explanation": "סדרה הנדסית עם $a_1=3$ ו-$q=2$: $a_5=a_4\\times q=24\\times2=48$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-12",
@@ -6644,7 +6644,7 @@ export const QUESTIONS = [
       "$2n$"
     ],
     "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $\\frac{n(n+1)}{2}$."
+    "explanation": "לפי נוסחת סכום $n$ המספרים הטבעיים הראשונים (הניתנת להוכחה באינדוקציה): $S=\\frac{n(n+1)}{2}$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-13",
@@ -6659,14 +6659,14 @@ export const QUESTIONS = [
       "$12$"
     ],
     "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $11$."
+    "explanation": "$a_5=2\\times5+1=11$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-14",
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1 וקפיצות +5. אחרי 1: הבא אחרי 4?",
+    "question_text": "סדרה מתחילה ב-$1$, וכל קפיצה מוסיפה $5$. מהו האיבר המתקבל לאחר $4$ קפיצות?",
     "options": [
       "$16$",
       "$14$",
@@ -6681,7 +6681,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1 וקפיצות +6. אחרי 1: הבא אחרי 4?",
+    "question_text": "סדרה מתחילה ב-$1$, וכל קפיצה מוסיפה $6$. מהו האיבר המתקבל לאחר $4$ קפיצות?",
     "options": [
       "$25$",
       "$21$",
@@ -6704,7 +6704,7 @@ export const QUESTIONS = [
       "$10$"
     ],
     "correct_index": 3,
-    "explanation": "התשובה הנכונה היא $10$."
+    "explanation": "סדרה חשבונית עם $a_1=2$ ו-$d=2$: $a_5=a_1+4d=2+4\\times2=10$."
   },
   {
     "id": "q-q-g11-u5-sequences-induction-551",
@@ -6771,7 +6771,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 2x^{2}\\,dx$ (till C): מקדים",
+    "question_text": "$\\int 2x^{2}\\,dx=$",
     "options": [
       "$2x^{2}$",
       "$0$",
@@ -6779,14 +6779,14 @@ export const QUESTIONS = [
       "$\\frac{2}{3}x^{3}+C$"
     ],
     "correct_index": 3,
-    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 2x^{2}\\,dx=\\frac{2}{3}x^{3}+C$, כלומר המקדם הוא $0.6666666666666666$."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 2x^{2}\\,dx=\\frac{2}{3}x^{3}+C$."
   },
   {
     "id": "q-q-g11-u5-integral-2",
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 6x^{6}\\,dx$ (till C): מקדים",
+    "question_text": "$\\int 6x^{6}\\,dx=$",
     "options": [
       "$\\frac{6}{7}x^{7}+C$",
       "$6x^{6}$",
@@ -6794,7 +6794,7 @@ export const QUESTIONS = [
       "$x+C$"
     ],
     "correct_index": 0,
-    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 6x^{6}\\,dx=\\frac{6}{7}x^{7}+C$, כלומר המקדם הוא $0.8571428571428571$."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 6x^{6}\\,dx=\\frac{6}{7}x^{7}+C$."
   },
   {
     "id": "q-q-g11-u5-integral-3",
@@ -6816,7 +6816,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 3x^{3}\\,dx$ (till C): מקדים",
+    "question_text": "$\\int 3x^{3}\\,dx=$",
     "options": [
       "$x+C$",
       "$0$",
@@ -6831,7 +6831,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 1x^{1}\\,dx$ (till C): מקדים",
+    "question_text": "$\\int 1x^{1}\\,dx=$",
     "options": [
       "$1x^{1}$",
       "$x+C$",
@@ -6849,7 +6849,7 @@ export const QUESTIONS = [
     "question_text": "אינטגרל מוגדר מייצג:",
     "options": [
       "שיפוע",
-      "שטח מתחת לעקול",
+      "שטח מתחת לעקומה",
       "זווית",
       "נקודה"
     ],
@@ -6891,7 +6891,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 5x^{5}\\,dx$ (till C): מקדים",
+    "question_text": "$\\int 5x^{5}\\,dx=$",
     "options": [
       "$0$",
       "$x+C$",
@@ -6899,14 +6899,14 @@ export const QUESTIONS = [
       "$5x^{5}$"
     ],
     "correct_index": 2,
-    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 5x^{5}\\,dx=\\frac{5}{6}x^{6}+C$, כלומר המקדם הוא $0.8333333333333334$."
+    "explanation": "לפי כלל האינטגרל של חזקה: $\\int 5x^{5}\\,dx=\\frac{5}{6}x^{6}+C$."
   },
   {
     "id": "q-q-g11-u5-integral-10",
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 4x^{4}\\,dx$ (till C): מקדים",
+    "question_text": "$\\int 4x^{4}\\,dx=$",
     "options": [
       "$0$",
       "$4x^{4}$",
@@ -7078,7 +7078,7 @@ export const QUESTIONS = [
       "$\\tan x$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $\\cos x$.",
+    "explanation": "נגזרת בסיסית: $(\\sin x)'=\\cos x$.",
     "type": "mcq"
   },
   {
@@ -7101,7 +7101,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-probability",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מטבע: P(עץ)?",
+    "question_text": "מטבע הוגן מוטל פעם אחת. מה ההסתברות לקבל \"עץ\"?",
     "options": [
       "$1$",
       "$\\frac{1}{2}$",
@@ -10484,7 +10484,7 @@ export const QUESTIONS = [
       "אי אפשר להשוות בלי נתונים נוספים"
     ],
     "correct_index": 0,
-    "explanation": "מעריכי: $499{,}400\\times 1.024^4\\approx 548{,}910$. לינארי: $499{,}400+4\\times 12{,}000=547{,}400$. המעריכי גדול יותר."
+    "explanation": "מעריכי: $499{,}400\\times 1.024^4\\approx 549{,}096$. לינארי: $499{,}400+4\\times 12{,}000=547{,}400$. המעריכי גדול יותר."
   },
   {
     "id": "q-g11-u3-science-stddev-1",
@@ -11425,8 +11425,8 @@ export const QUESTIONS = [
     "options": [
       "$2{:}3$",
       "$3{:}2$",
-      "$6{:}9$",
-      "$1{:}1.5$"
+      "$4{:}9$",
+      "$8{:}9$"
     ],
     "correct_index": 0,
     "explanation": "$6{:}9=2{:}3$ (מצומצם)."
