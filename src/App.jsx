@@ -49,12 +49,14 @@ export default function App() {
                   </span>
                 </span>
               </Link>
-              <nav className="flex min-w-0 flex-1 flex-nowrap items-center gap-1.5 overflow-x-auto text-xs font-medium text-[var(--color-slate)] [scrollbar-width:none] sm:gap-3 sm:text-sm [&::-webkit-scrollbar]:hidden">
+              <nav className="flex flex-nowrap items-center gap-1 text-xs font-medium text-[var(--color-slate)] sm:gap-3 sm:text-sm">
                 <Link to="/custom-test" className="shrink-0 whitespace-nowrap hover:text-[var(--color-teal)]">
-                  מבחן מותאם
+                  <span className="sm:hidden">מבחן</span>
+                  <span className="hidden sm:inline">מבחן מותאם</span>
                 </Link>
                 <Link to="/parent" className="shrink-0 whitespace-nowrap hover:text-[var(--color-violet)]">
-                  ההתקדמות שלי
+                  <span className="sm:hidden">התקדמות</span>
+                  <span className="hidden sm:inline">ההתקדמות שלי</span>
                 </Link>
                 <GameHUD />
               </nav>
