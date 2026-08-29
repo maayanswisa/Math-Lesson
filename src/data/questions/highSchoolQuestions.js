@@ -786,7 +786,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-4)^2+4$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-4)^2+4$: x=",
     "options": [
       "$0$",
       "$-3$",
@@ -831,7 +831,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-3)^2+1$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-3)^2+1$: x=",
     "options": [
       "$-1$",
       "$-4$",
@@ -906,7 +906,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-4)^2+3$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-4)^2+3$: x=",
     "options": [
       "$-1$",
       "$-3$",
@@ -966,7 +966,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-2)^2+3$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-2)^2+3$: x=",
     "options": [
       "$2$",
       "$-5$",
@@ -1086,7 +1086,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרבולה $y=x^2$. קודקוד קצנה:",
+    "question_text": "פרבולה $y=x^2$. קודקוד הפרבולה:",
     "options": [
       "$(0,0)$",
       "$(1,1)$",
@@ -2166,7 +2166,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרבולה $y=x^2$. קודקוד קצנה:",
+    "question_text": "פרבולה $y=x^2$. קודקוד הפרבולה:",
     "options": [
       "$(0,0)$",
       "$(0,1)$",
@@ -5676,7 +5676,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרבולה $y=x^2$. קודקוד קצנה:",
+    "question_text": "פרבולה $y=x^2$. קודקוד הפרבולה:",
     "options": [
       "$(1,1)$",
       "$(1,0)$",
@@ -7191,7 +7191,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-analytic-hyperbola",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרבולה $y=x^2$. קודקוד קצנה:",
+    "question_text": "פרבולה $y=x^2$. קודקוד הפרבולה:",
     "options": [
       "$(1,0)$",
       "$(0,0)$",

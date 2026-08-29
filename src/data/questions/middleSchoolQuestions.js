@@ -4993,7 +4993,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2a^{5}$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $a^{5}$.",
+    "explanation": "לפי חוק כפל חזקות בעלות אותו בסיס מחברים מעריכים: $a^{3}\\cdot a^{2}=a^{3+2}=a^{5}$.",
     "type": "mcq"
   },
   {
@@ -5001,15 +5001,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-powers",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $(7+2)\\times 2$?",
+    "question_text": "מהו $(7+2)\\times 2^{2}$?",
     "options": [
-      "$13$",
-      "$14$",
+      "$36$",
       "$18$",
-      "$11$"
+      "$38$",
+      "$33$"
     ],
-    "correct_index": 2,
-    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $7+2=9$, ואז $9\\times 2=18$."
+    "correct_index": 0,
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים, ואז את החזקה: $7+2=9$, $2^{2}=4$, ואז $9\\times 4=36$."
   },
   {
     "id": "q-q-g9r-powers-2",
@@ -5031,30 +5031,30 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-powers",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $(3+4)\\times 2$?",
+    "question_text": "מהו $(3+4)\\times 2^{2}$?",
     "options": [
-      "$7$",
+      "$28$",
       "$14$",
-      "$10$",
-      "$9$"
+      "$30$",
+      "$25$"
     ],
-    "correct_index": 1,
-    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $3+4=7$, ואז $7\\times 2=14$."
+    "correct_index": 0,
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים, ואז את החזקה: $3+4=7$, $2^{2}=4$, ואז $7\\times 4=28$."
   },
   {
     "id": "q-q-g9r-powers-4",
     "topic_id": "g9r-powers",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $5+2\\times 3$?",
+    "question_text": "מהו $5+2^{2}\\times 3$?",
     "options": [
+      "$17$",
       "$11$",
-      "$4$",
-      "$7$",
-      "$6$"
+      "$19$",
+      "$14$"
     ],
     "correct_index": 0,
-    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $2\\times 3=6$, ואז $5+6=11$."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את החזקה ואז את הכפל: $2^{2}=4$, $4\\times 3=12$, ואז $5+12=17$."
   },
   {
     "id": "q-q-g9r-powers-5",
@@ -5091,15 +5091,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-powers",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $1+5\\times 2$?",
+    "question_text": "מהו $1+5\\times 2^{2}$?",
     "options": [
-      "$4$",
+      "$21$",
       "$11$",
-      "$6$",
-      "$7$"
+      "$23$",
+      "$18$"
     ],
-    "correct_index": 1,
-    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $5\\times 2=10$, ואז $1+10=11$."
+    "correct_index": 0,
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את החזקה ואז את הכפל: $2^{2}=4$, $5\\times 4=20$, ואז $1+20=21$."
   },
   {
     "id": "q-q-g9r-powers-8",
@@ -5129,22 +5129,22 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$64$"
     ],
     "correct_index": 2,
-    "explanation": "החישוב: 2^5=32."
+    "explanation": "החישוב: $2^3\\times 2^2=2^{3+2}=2^5=32$."
   },
   {
     "id": "q-q-g9r-powers-10",
     "topic_id": "g9r-powers",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $(5+2)\\times 3$?",
+    "question_text": "מהו $(5+2)\\times 3^{2}$?",
     "options": [
-      "$17$",
+      "$63$",
       "$21$",
-      "$16$",
-      "$14$"
+      "$65$",
+      "$60$"
     ],
-    "correct_index": 1,
-    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $5+2=7$, ואז $7\\times 3=21$."
+    "correct_index": 0,
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים, ואז את החזקה: $5+2=7$, $3^{2}=9$, ואז $7\\times 9=63$."
   },
   {
     "id": "q-q-g9r-powers-11",
@@ -5166,15 +5166,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-powers",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $(2+3)\\times 4$?",
+    "question_text": "מהו $(2+3)\\times 2^{2}$?",
     "options": [
-      "$15$",
-      "$13$",
       "$20$",
-      "$16$"
+      "$10$",
+      "$22$",
+      "$17$"
     ],
-    "correct_index": 2,
-    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $2+3=5$, ואז $5\\times 4=20$."
+    "correct_index": 0,
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים, ואז את החזקה: $2+3=5$, $2^{2}=4$, ואז $5\\times 4=20$."
   },
   {
     "id": "q-q-g9r-powers-13",
@@ -5196,15 +5196,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-powers",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $2+3\\times 4$?",
+    "question_text": "מהו $2+3^{2}\\times 4$?",
     "options": [
+      "$38$",
       "$14$",
-      "$9$",
-      "$7$",
-      "$10$"
+      "$40$",
+      "$35$"
     ],
     "correct_index": 0,
-    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $3\\times 4=12$, ואז $2+12=14$."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את החזקה ואז את הכפל: $3^{2}=9$, $9\\times 4=36$, ואז $2+36=38$."
   },
   {
     "id": "q-q-g9r-powers-15",
@@ -5271,15 +5271,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-powers",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $2+5\\times 3$?",
+    "question_text": "מהו $2+2^{2}\\times 3$?",
     "options": [
-      "$17$",
-      "$12$",
-      "$10$",
-      "$13$"
+      "$14$",
+      "$8$",
+      "$16$",
+      "$11$"
     ],
     "correct_index": 0,
-    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $5\\times 3=15$, ואז $2+15=17$."
+    "explanation": "לפי סדר פעולות חשבון מחשבים קודם את החזקה ואז את הכפל: $2^{2}=4$, $4\\times 3=12$, ואז $2+12=14$."
   },
   {
     "id": "q-g9r-fac-1",
@@ -5721,7 +5721,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-1)^2+4$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-1)^2+4$: x=",
     "options": [
       "$-6$",
       "$-3$",
@@ -5751,7 +5751,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-3)^2+3$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-3)^2+3$: x=",
     "options": [
       "$3$",
       "$-2$",
@@ -5796,7 +5796,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-2)^2+1$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-2)^2+1$: x=",
     "options": [
       "$2$",
       "$-2$",
@@ -5841,7 +5841,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-2)^2+5$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-2)^2+5$: x=",
     "options": [
       "$-3$",
       "$-5$",
@@ -5871,7 +5871,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-1)^2+1$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-1)^2+1$: x=",
     "options": [
       "$-6$",
       "$-3$",
@@ -5931,7 +5931,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-3)^2+3$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-3)^2+3$: x=",
     "options": [
       "$-2$",
       "$-1$",
@@ -5991,7 +5991,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-2)^2+5$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-2)^2+5$: x=",
     "options": [
       "$2$",
       "$-2$",
@@ -6006,7 +6006,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-4)^2+5$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-4)^2+5$: x=",
     "options": [
       "$-3$",
       "$4$",
@@ -6081,7 +6081,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-4)^2+3$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-4)^2+3$: x=",
     "options": [
       "$4$",
       "$-1$",
@@ -6111,7 +6111,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-5)^2+3$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-5)^2+3$: x=",
     "options": [
       "$-2$",
       "$0$",
@@ -6141,7 +6141,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-5)^2+4$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-5)^2+4$: x=",
     "options": [
       "$-2$",
       "$0$",
@@ -6156,7 +6156,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-5)^2+1$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-5)^2+1$: x=",
     "options": [
       "$-2$",
       "$5$",
@@ -6193,7 +6193,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>2$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $x>4$.",
+    "explanation": "מחלקים את שני האגפים ב-$2$ (מספר חיובי, כיוון אי-השוויון נשמר): $x>4$.",
     "type": "mcq"
   },
   {
@@ -6201,7 +6201,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $x+6>10$. דוגמה:",
+    "question_text": "פתרו: $x+6>10$",
     "options": [
       "$x>4$",
       "$x<4$",
@@ -6209,7 +6209,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>16$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $x>4$."
+    "explanation": "מחסירים $6$ משני האגפים: $x>10-6=4$."
   },
   {
     "id": "q-q-g9r-inequalities-2",
@@ -6261,7 +6261,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $x+4>10$. דוגמה:",
+    "question_text": "פתרו: $x+4>10$",
     "options": [
       "$x<6$",
       "$x>6$",
@@ -6269,7 +6269,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>14$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $x>6$."
+    "explanation": "מחסירים $4$ משני האגפים: $x>10-4=6$."
   },
   {
     "id": "q-q-g9r-inequalities-6",
@@ -6336,7 +6336,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $x+5>10$. דוגמה:",
+    "question_text": "פתרו: $x+5>10$",
     "options": [
       "$x=5$",
       "$x>5$",
@@ -6344,7 +6344,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>15$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $x>5$."
+    "explanation": "מחסירים $5$ משני האגפים: $x>10-5=5$."
   },
   {
     "id": "q-q-g9r-inequalities-11",
@@ -6366,7 +6366,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $x+8>10$. דוגמה:",
+    "question_text": "פתרו: $x+8>10$",
     "options": [
       "$x>18$",
       "$x>2$",
@@ -6374,7 +6374,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x=2$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $x>2$."
+    "explanation": "מחסירים $8$ משני האגפים: $x>10-8=2$."
   },
   {
     "id": "q-q-g9r-inequalities-13",
@@ -6396,7 +6396,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $x+9>10$. דוגמה:",
+    "question_text": "פתרו: $x+9>10$",
     "options": [
       "$x=1$",
       "$x<1$",
@@ -6404,7 +6404,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$x>19$"
     ],
     "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $x>1$."
+    "explanation": "מחסירים $9$ משני האגפים: $x>10-9=1$."
   },
   {
     "id": "q-q-g9r-inequalities-15",
@@ -6492,8 +6492,8 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "סכומן $90^\\circ$",
       "אינן שוות"
     ],
-    "correct_index": 0,
-    "explanation": "במקבילית זוויות נגדיות שוות וסכומן $180^\\circ$.",
+    "correct_index": 1,
+    "explanation": "במקבילית זוויות נגדיות שוות זו לזו תמיד (הסכום $180^\\circ$ נכון עבור זוויות סמוכות, לא זוויות נגדיות).",
     "type": "mcq"
   },
   {
@@ -6711,15 +6711,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות נגדיות על ישרים מקבילים:",
+    "question_text": "זוויות מתחלפות על ישרים מקבילים:",
     "options": [
       "שווות",
-      "180",
-      "90",
+      "$180$",
+      "$90$",
       "משלימות"
     ],
     "correct_index": 0,
-    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות נגדיות-פנימיות (מתחלפות) שוות זו לזו."
+    "explanation": "כאשר חותך חוצה שני ישרים מקבילים, זוויות מתחלפות (הנמצאות משני צדי החותך, בין שני הישרים) שוות זו לזו."
   },
   {
     "id": "q-q-g9r-geometry-16",
@@ -6778,7 +6778,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$2/3$"
     ],
     "correct_index": 0,
-    "explanation": "החישוב: $\\{2,4,6\\}/6=1/2$.",
+    "explanation": "החישוב: $\\frac{3}{6}=\\frac{1}{2}$ (המאורעות $\\{2,4,6\\}$ מתוך $6$ תוצאות).",
     "type": "mcq"
   },
   {
@@ -6786,7 +6786,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-probability",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שק 3 אדומים, 2 בנות. P(בת)?",
+    "question_text": "בשקית 3 בנים ו-2 בנות. בוחרים ילד/ה אחד/ת באקראי. מהי ההסתברות שהוא בת?",
     "options": [
       "$\\frac{2}{5}$",
       "$1$",
@@ -6794,14 +6794,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$\\frac{2}{3}$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $\\frac{2}{5}$."
+    "explanation": "בסך הכול $3+2=5$ ילדים, מתוכם $2$ בנות: $P(\\text{בת})=\\frac{2}{5}$."
   },
   {
     "id": "q-q-g9r-probability-18",
     "topic_id": "g9r-probability",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "אדומים 4, בנות 6. סה\"כ?",
+    "question_text": "בנים 4, בנות 6. סה\"כ?",
     "options": [
       "$2$",
       "$4$",
@@ -7146,7 +7146,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-2)^2+1$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-2)^2+1$: x=",
     "options": [
       "$-3$",
       "$2$",
@@ -7326,7 +7326,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד קצנה $y=(x-3)^2+4$: x=",
+    "question_text": "קודקוד הפרבולה $y=(x-3)^2+4$: x=",
     "options": [
       "$-2$",
       "$3$",
@@ -7746,15 +7746,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות נגדיות על ישרים מקבילים:",
+    "question_text": "זוויות מתחלפות על ישרים מקבילים:",
     "options": [
-      "90",
+      "$90$",
       "שווות",
       "משלימות",
-      "180"
+      "$180$"
     ],
     "correct_index": 1,
-    "explanation": "כאשר ישר חותך שני ישרים מקבילים, זוויות נגדיות-פנימיות (מתחלפות) שוות זו לזו."
+    "explanation": "כאשר חותך חוצה שני ישרים מקבילים, זוויות מתחלפות (הנמצאות משני צדי החותך, בין שני הישרים) שוות זו לזו."
   },
   {
     "id": "q-q-g9x-geo-3",
@@ -7883,9 +7883,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "במשולש: 90, 30, ?:",
     "options": [
-      "$120$",
-      "$70$",
-      "$45$",
+      "$120^\\circ$",
+      "$70^\\circ$",
+      "$45^\\circ$",
       "$60^\\circ$"
     ],
     "correct_index": 3,
@@ -7929,9 +7929,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "זווית חדה:",
     "options": [
       "$<90^\\circ$",
-      "=90",
-      "$>90$",
-      "=180"
+      "$=90^\\circ$",
+      "$>90^\\circ$",
+      "$=180^\\circ$"
     ],
     "correct_index": 0,
     "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
@@ -8144,14 +8144,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1:4$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $1:2$."
+    "explanation": "מצמצמים לפי המחלק המשותף $2$: $2:4=(2\\div 2):(4\\div 2)=1:2$."
   },
   {
     "id": "q-q-g9x-percent-prob-9",
     "topic_id": "g9x-percent-prob",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1/4 בא%:",
+    "question_text": "כמה זה $\\frac{1}{4}$ באחוזים?",
     "options": [
       "$10\\%$",
       "$40\\%$",
@@ -8166,7 +8166,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-percent-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יחס 1:10. כמה שקלים ל-3 שקל?",
+    "question_text": "היחס בין שני חלקים הוא $1:10$. אם החלק הקטן שווה $3$, כמה שווה החלק הגדול?",
     "options": [
       "$7$",
       "$30$",
@@ -8174,7 +8174,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$10$"
     ],
     "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $30$."
+    "explanation": "לפי היחס $1:10$: אם החלק הקטן הוא $3$, החלק הגדול הוא $3\\times 10=30$."
   },
   {
     "id": "q-q-g9x-percent-prob-11",
@@ -10120,7 +10120,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "options": [
       "יש בו זוג צלעות נגדיות השוות ומקבילות זו לזו",
       "יש בו אלכסון אחד הארוך מהשני",
-      "כל הזוויות שלו שוות ל-$90°$",
+      "יש בו זווית ישרה אחת בלבד",
       "יש בו שתי צלעות סמוכות שוות"
     ],
     "correct_index": 0,
@@ -14371,7 +14371,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$1$"
     ],
     "correct_index": 0,
-    "explanation": "מרחב המדגם: $\\{עץ עץ, עץ פלי, פלי עץ, פלי פלי\\}$ — $4$ תוצאות שוות-סיכוי, ורק אחת מתאימה: $\\frac{1}{4}$."
+    "explanation": "מרחב המדגם: $\\{(\\text{עץ},\\text{עץ}),\\ (\\text{עץ},\\text{פלי}),\\ (\\text{פלי},\\text{עץ}),\\ (\\text{פלי},\\text{פלי})\\}$ — $4$ תוצאות שוות-סיכוי, ורק אחת מתאימה: $\\frac{1}{4}$."
   },
   {
     "id": "q-g9r-probability-enrich-8",
