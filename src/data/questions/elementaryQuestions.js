@@ -2495,7 +2495,7 @@ export const ELEMENTARY_QUESTIONS = [
     "id": "q-g2-d-1",
     "topic_id": "g2-data",
     "difficulty": 1,
-    "question_text": "בטבלה: אדומים=$3$, בנות=$5$. כמה ילדים בסה\\\"כ?",
+    "question_text": "בטבלה: בנים=$3$, בנות=$5$. כמה ילדים בסה\\\"כ?",
     "options": [
       "$8$",
       "$5$",
@@ -15306,7 +15306,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-triangles",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "טרפז שווה-שוקיים אפשר לפרק לריבוע (או מקבילית) ולכמה משולשים?",
+    "question_text": "טרפז שווה-שוקיים אפשר לפרק למלבן (או מקבילית) ולכמה משולשים?",
     "options": [
       "2",
       "1",
@@ -15314,7 +15314,7 @@ export const ELEMENTARY_QUESTIONS = [
       "4"
     ],
     "correct_index": 0,
-    "explanation": "פירוק טרפז שווה-שוקיים נותן ריבוע/מקבילית ושני משולשים ישרי-זווית ושווי-שוקיים."
+    "explanation": "פירוק טרפז שווה-שוקיים נותן מלבן/מקבילית ושני משולשים ישרי-זווית."
   },
   {
     "id": "q-g2-tri-10",
