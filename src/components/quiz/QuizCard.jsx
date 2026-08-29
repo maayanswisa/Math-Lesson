@@ -529,6 +529,12 @@ export default function QuizCard({
             aria-valuemax={mode === 'speed' ? SPEED_RUN_SECONDS : total}
           />
         </div>
+        {/* min-height on this wrapper (which itself never unmounts) keeps the
+            page from momentarily collapsing — and the browser permanently
+            clamping the scroll position back up — during the brief moment
+            between the outgoing question unmounting and the incoming one
+            mounting as AnimatePresence swaps them. */}
+        <div className="relative min-h-[420px]">
         <AnimatePresence mode="wait">
           <motion.article
             key={`${current?.id}-${phase === 'feedback' ? 'fb' : 'q'}`}
@@ -575,6 +581,7 @@ export default function QuizCard({
             )}
           </motion.article>
         </AnimatePresence>
+        </div>
       </div>
 
       {(phase === 'quiz' || phase === 'feedback') && (
