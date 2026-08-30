@@ -14387,6 +14387,1881 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "זוגיים: $\\{2,4,6\\}$, גדול מ-$4$: $\\{5,6\\}$. האיחוד: $\\{2,4,5,6\\}$ — $4$ מתוך $6$: $\\frac{2}{3}$."
+  },
+  {
+    "id": "q-g7-order-powers-add1",
+    "topic_id": "g7-order-powers",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה שווה $2+3\\times4$?",
+    "options": [
+      "$14$",
+      "$20$",
+      "$24$",
+      "$9$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי סדר הפעולות מבצעים קודם את הכפל: $3\\times4=12$, ואז מחברים: $2+12=14$."
+  },
+  {
+    "id": "q-g7-order-powers-add2",
+    "topic_id": "g7-order-powers",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה שווה $(-3)^2$?",
+    "options": [
+      "$9$",
+      "$-9$",
+      "$6$",
+      "$-6$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(-3)^2=(-3)\\times(-3)=9$ — מעריך זוגי נותן תוצאה חיובית."
+  },
+  {
+    "id": "q-g7-order-powers-add3",
+    "topic_id": "g7-order-powers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה שווה $-3^2$?",
+    "options": [
+      "$-9$",
+      "$9$",
+      "$-6$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "כאן מעלים בריבוע רק את $3$, ואז שמים מינוס: $-3^2=-(3^2)=-9$."
+  },
+  {
+    "id": "q-g7-order-powers-add4",
+    "topic_id": "g7-order-powers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה שווה $2\\times(3+4)^2-5$?",
+    "options": [
+      "$93$",
+      "$95$",
+      "$17$",
+      "$44$"
+    ],
+    "correct_index": 0,
+    "explanation": "קודם הסוגריים: $3+4=7$. ואז החזקה: $7^2=49$. ואז הכפל: $2\\times49=98$. ולבסוף החיסור: $98-5=93$."
+  },
+  {
+    "id": "q-g7-order-powers-add5",
+    "topic_id": "g7-order-powers",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כמה שווה $(-2)^3\\times(-1)^4-(-5)$?",
+    "options": [
+      "$-3$",
+      "$-13$",
+      "$13$",
+      "$-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(-2)^3=-8$ ו-$(-1)^4=1$, לכן $(-8)\\times1=-8$. חיסור מספר שלילי שקול לחיבור הנגדי: $-8-(-5)=-8+5=-3$."
+  },
+  {
+    "id": "q-g7-square-roots-add1",
+    "topic_id": "g7-square-roots",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{25}$?",
+    "options": [
+      "$5$",
+      "$12.5$",
+      "$50$",
+      "$625$"
+    ],
+    "correct_index": 0,
+    "explanation": "$5\\times5=25$, ולכן $\\sqrt{25}=5$."
+  },
+  {
+    "id": "q-g7-square-roots-add2",
+    "topic_id": "g7-square-roots",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $\\sqrt{81}$?",
+    "options": [
+      "$9$",
+      "$40.5$",
+      "$18$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$9\\times9=81$, ולכן $\\sqrt{81}=9$."
+  },
+  {
+    "id": "q-g7-square-roots-add3",
+    "topic_id": "g7-square-roots",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שטחו של ריבוע הוא $49$ סמ״ר. מה אורך צלעו?",
+    "options": [
+      "$7$ ס\"מ",
+      "$24.5$ ס\"מ",
+      "$14$ ס\"מ",
+      "$49$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "אורך צלע הריבוע הוא $\\sqrt{49}=7$ ס\"מ."
+  },
+  {
+    "id": "q-g7-square-roots-add4",
+    "topic_id": "g7-square-roots",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם $\\sqrt{x}=6$, מהו $x$?",
+    "options": [
+      "$36$",
+      "$12$",
+      "$3$",
+      "$72$"
+    ],
+    "correct_index": 0,
+    "explanation": "כדי לבטל שורש מעלים בריבוע את שני האגפים: $x=6^2=36$."
+  },
+  {
+    "id": "q-g7-square-roots-add5",
+    "topic_id": "g7-square-roots",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שטחו של ריבוע גדול פי $4$ משטח ריבוע קטן. אם צלע הריבוע הקטן היא $5$ ס\"מ, מה אורך צלע הריבוע הגדול?",
+    "options": [
+      "$10$ ס\"מ",
+      "$20$ ס\"מ",
+      "$100$ ס\"מ",
+      "$25$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח הריבוע הקטן: $5^2=25$. שטח הריבוע הגדול: $25\\times4=100$. צלעו: $\\sqrt{100}=10$ ס\"מ."
+  },
+  {
+    "id": "q-g7-negative-numbers-intro-add1",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים הוא שלילי?",
+    "options": [
+      "$-3$",
+      "$0$",
+      "$3$",
+      "$|-3|$"
+    ],
+    "correct_index": 0,
+    "explanation": "מספר שלילי הוא מספר קטן מ-$0$, כמו $-3$."
+  },
+  {
+    "id": "q-g7-negative-numbers-intro-add2",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו הנגדי של $7$?",
+    "options": [
+      "$-7$",
+      "$7$",
+      "$\\frac{1}{7}$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "מספרים נגדיים נמצאים באותו מרחק מ-$0$ בכיוונים מנוגדים, לכן הנגדי של $7$ הוא $-7$."
+  },
+  {
+    "id": "q-g7-negative-numbers-intro-add3",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $|-9|$?",
+    "options": [
+      "$9$",
+      "$-9$",
+      "$0$",
+      "$18$"
+    ],
+    "correct_index": 0,
+    "explanation": "ערך מוחלט הוא המרחק מ-$0$, תמיד חיובי או אפס: $|-9|=9$."
+  },
+  {
+    "id": "q-g7-negative-numbers-intro-add4",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: $-3$ או $-8$?",
+    "options": [
+      "$-3$",
+      "$-8$",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "על ציר המספרים, ככל שמתרחקים שמאלה המספר קטן יותר, ולכן $-3>-8$."
+  },
+  {
+    "id": "q-g7-negative-numbers-intro-add5",
+    "topic_id": "g7-negative-numbers-intro",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שני מספרים נגדיים, וסכום הערכים המוחלטים שלהם הוא $16$. מהם המספרים?",
+    "options": [
+      "$8$ ו-$(-8)$",
+      "$16$ ו-$(-16)$",
+      "$4$ ו-$(-4)$",
+      "$8$ ו-$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "מספרים נגדיים $a$ ו-$-a$ בעלי אותו ערך מוחלט, לכן $|a|+|-a|=2|a|=16$, כלומר $|a|=8$. המספרים הם $8$ ו-$(-8)$."
+  },
+  {
+    "id": "q-g7-signed-add1",
+    "topic_id": "g7-signed",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה שווה $(+4)+(-4)$?",
+    "options": [
+      "$0$",
+      "$8$",
+      "$-8$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "מספרים נגדיים מסתכמים תמיד ל-$0$."
+  },
+  {
+    "id": "q-g7-signed-add2",
+    "topic_id": "g7-signed",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה שווה $(-2)-(-6)$?",
+    "options": [
+      "$4$",
+      "$-8$",
+      "$8$",
+      "$-4$"
+    ],
+    "correct_index": 0,
+    "explanation": "חיסור מספר שלילי שקול לחיבור הנגדי שלו: $(-2)-(-6)=-2+6=4$."
+  },
+  {
+    "id": "q-g7-signed-add3",
+    "topic_id": "g7-signed",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה שווה $(-9)+(-3)$?",
+    "options": [
+      "$-12$",
+      "$12$",
+      "$-6$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "כששני המספרים שליליים, מחברים את הערכים המוחלטים ושומרים על סימן מינוס: $-(9+3)=-12$."
+  },
+  {
+    "id": "q-g7-signed-add4",
+    "topic_id": "g7-signed",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה שווה $7-(-2)-5$?",
+    "options": [
+      "$4$",
+      "$0$",
+      "$14$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "$7-(-2)=7+2=9$, ואז $9-5=4$."
+  },
+  {
+    "id": "q-g7-signed-add5",
+    "topic_id": "g7-signed",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "הטמפרטורה הייתה $-3°$ בבוקר. עד הצהריים היא עלתה ב-$8$ מעלות, ולפנות ערב ירדה ב-$5$ מעלות. מהי הטמפרטורה לפנות ערב?",
+    "options": [
+      "$0°$",
+      "$10°$",
+      "$-10°$",
+      "$16°$"
+    ],
+    "correct_index": 0,
+    "explanation": "$-3+8-5=5-5=0$."
+  },
+  {
+    "id": "q-g7-signed-mul-div-add1",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה שווה $(-3)\\times4$?",
+    "options": [
+      "$-12$",
+      "$12$",
+      "$-7$",
+      "$7$"
+    ],
+    "correct_index": 0,
+    "explanation": "סימנים שונים נותנים תוצאה שלילית: $(-3)\\times4=-12$."
+  },
+  {
+    "id": "q-g7-signed-mul-div-add2",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה שווה $(-20):(-4)$?",
+    "options": [
+      "$5$",
+      "$-5$",
+      "$16$",
+      "$-16$"
+    ],
+    "correct_index": 0,
+    "explanation": "סימנים זהים נותנים תוצאה חיובית: $(-20):(-4)=5$."
+  },
+  {
+    "id": "q-g7-signed-mul-div-add3",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה שווה $(-6)\\times(-2)\\times(-1)$?",
+    "options": [
+      "$-12$",
+      "$12$",
+      "$9$",
+      "$-9$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(-6)\\times(-2)=12$, ואז $12\\times(-1)=-12$ (שלושה מינוסים — מספר אי-זוגי — נותנים תוצאה שלילית)."
+  },
+  {
+    "id": "q-g7-signed-mul-div-add4",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה שווה $\\dfrac{(-15)\\times2}{-5}$?",
+    "options": [
+      "$6$",
+      "$-6$",
+      "$3$",
+      "$-3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(-15)\\times2=-30$, ואז $\\dfrac{-30}{-5}=6$ (סימנים זהים בחילוק)."
+  },
+  {
+    "id": "q-g7-signed-mul-div-add5",
+    "topic_id": "g7-signed-mul-div",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבון בנק הראה חוב של $120$ ש\"ח, שנוצר מ-$4$ חיובים שווים. מה גובה כל חיוב?",
+    "options": [
+      "$-30$ ש\"ח",
+      "$30$ ש\"ח",
+      "$-480$ ש\"ח",
+      "$480$ ש\"ח"
+    ],
+    "correct_index": 0,
+    "explanation": "החוב הכולל הוא $-120$ ש\"ח. מחלקים ב-$4$ חיובים: $(-120):4=-30$ ש\"ח לכל חיוב."
+  },
+  {
+    "id": "q-g7-algebra-expr-add1",
+    "topic_id": "g7-algebra-expr",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה ביטוי אלגברי מתאר \"מספר הגדול ב-$3$ מ-$x$\"?",
+    "options": [
+      "$x+3$",
+      "$x-3$",
+      "$3x$",
+      "$\\frac{x}{3}$"
+    ],
+    "correct_index": 0,
+    "explanation": "\"גדול ב-$3$\" פירושו להוסיף $3$ למספר: $x+3$."
+  },
+  {
+    "id": "q-g7-algebra-expr-add2",
+    "topic_id": "g7-algebra-expr",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם $x=5$, כמה שווה $3x+2$?",
+    "options": [
+      "$17$",
+      "$15$",
+      "$21$",
+      "$13$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים: $3\\times5+2=15+2=17$."
+  },
+  {
+    "id": "q-g7-algebra-expr-add3",
+    "topic_id": "g7-algebra-expr",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מחיר של $n$ עטים במחיר $4$ ש\"ח לכל עט הוא:",
+    "options": [
+      "$4n$",
+      "$n+4$",
+      "$4-n$",
+      "$\\frac{n}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחיר לעט כפול מספר העטים: $4\\times n=4n$."
+  },
+  {
+    "id": "q-g7-algebra-expr-add4",
+    "topic_id": "g7-algebra-expr",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם $x=-2$, כמה שווה $x^2-3x+1$?",
+    "options": [
+      "$11$",
+      "$3$",
+      "$-1$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "$x^2=(-2)^2=4$, וגם $-3x=-3\\times(-2)=6$. סה\"כ: $4+6+1=11$."
+  },
+  {
+    "id": "q-g7-algebra-expr-add5",
+    "topic_id": "g7-algebra-expr",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "גיל דנה הוא $x$, וגיל אחיה מחושב לפי $2x-3$. אם $x=10$, מה גיל האח?",
+    "options": [
+      "$17$",
+      "$23$",
+      "$20$",
+      "$7$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $x=10$ בביטוי: $2\\times10-3=20-3=17$."
+  },
+  {
+    "id": "q-g7-combine-distribute-add1",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כנסו איברים דומים: $4x+3x$",
+    "options": [
+      "$7x$",
+      "$7x^2$",
+      "$12x$",
+      "$x$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחברים את המקדמים של איברים דומים: $4x+3x=7x$."
+  },
+  {
+    "id": "q-g7-combine-distribute-add2",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פתחו סוגריים: $5(x+2)$",
+    "options": [
+      "$5x+10$",
+      "$5x+2$",
+      "$x+10$",
+      "$5x+7$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי חוק הפילוג: $5\\times x+5\\times2=5x+10$."
+  },
+  {
+    "id": "q-g7-combine-distribute-add3",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פשטו: $3x+2-x+5$",
+    "options": [
+      "$2x+7$",
+      "$4x+7$",
+      "$2x+3$",
+      "$3x+7$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכנסים איברים דומים: $3x-x=2x$, ו-$2+5=7$. התוצאה: $2x+7$."
+  },
+  {
+    "id": "q-g7-combine-distribute-add4",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פשטו: $-(2x-5)+3x$",
+    "options": [
+      "$x+5$",
+      "$5x-5$",
+      "$-5x+5$",
+      "$x-5$"
+    ],
+    "correct_index": 0,
+    "explanation": "השמטת סוגריים עם מינוס הופכת את הסימנים: $-2x+5+3x=x+5$."
+  },
+  {
+    "id": "q-g7-combine-distribute-add5",
+    "topic_id": "g7-combine-distribute",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פשטו: $4(x-2)-3(x+1)$",
+    "options": [
+      "$x-11$",
+      "$7x-5$",
+      "$x-5$",
+      "$x+5$"
+    ],
+    "correct_index": 0,
+    "explanation": "פותחים סוגריים: $4x-8-3x-3$. מכנסים איברים דומים: $x-11$."
+  },
+  {
+    "id": "q-g7-algebra-identity-add1",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם $2(x+3)$ ו-$2x+6$ הם ביטויים זהים?",
+    "options": [
+      "כן",
+      "לא",
+      "רק אם $x=0$",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "פתיחת סוגריים: $2(x+3)=2x+6$ — אותו ביטוי בדיוק, לכן הם זהים לכל $x$."
+  },
+  {
+    "id": "q-g7-algebra-identity-add2",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם $3x+2$ ו-$3(x+2)$ זהים?",
+    "options": [
+      "לא",
+      "כן",
+      "רק עבור $x=0$",
+      "רק עבור $x=1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$3(x+2)=3x+6$, וזה שונה מ-$3x+2$ עבור כל $x$ — אינם זהים."
+  },
+  {
+    "id": "q-g7-algebra-identity-add3",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזו שיטה בדיקה אינה מספיקה כדי להוכיח ששני ביטויים אלגבריים זהים?",
+    "options": [
+      "הצבת ערך אחד בודד ובדיקת שוויון",
+      "פישוט שני הביטויים לאותה צורה בדיוק",
+      "הצבת מספר ערכים שונים ובדיקה שהתוצאות תמיד שוות",
+      "שימוש בחוק הפילוג ובכינוס איברים דומים לפישוט"
+    ],
+    "correct_index": 0,
+    "explanation": "הצבת ערך אחד בלבד יכולה להתאים במקרה גם לביטויים שאינם זהים — צריך שוויון לכל ערך, לרוב באמצעות פישוט."
+  },
+  {
+    "id": "q-g7-algebra-identity-add4",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מצאו את הערך היחיד של $x$ שעבורו $2x+3=3x+3$",
+    "options": [
+      "$0$",
+      "$3$",
+      "$-3$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחסרים $3$ משני האגפים: $2x=3x$, ולכן $x=0$ — שוויון מקרי בנקודה אחת, לא זהות."
+  },
+  {
+    "id": "q-g7-algebra-identity-add5",
+    "topic_id": "g7-algebra-identity",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "האם קיים ערך $x$ שעבורו $4(x+1)$ שווה ל-$4x+1$?",
+    "options": [
+      "לא, אין אף ערך של $x$ שעבורו הם שווים",
+      "כן, עבור $x=0$",
+      "כן, עבור כל $x$",
+      "כן, עבור $x=1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$4(x+1)=4x+4$. השוואה ל-$4x+1$ נותנת $4x+4=4x+1$, כלומר $4=1$ — שקר תמיד, אין אף פתרון."
+  },
+  {
+    "id": "q-g7-equations-add1",
+    "topic_id": "g7-equations",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם $x=3$ הוא פתרון של המשוואה $2x+1=7$?",
+    "options": [
+      "כן",
+      "לא",
+      "רק אם $x$ חיובי",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים: $2\\times3+1=7$ — שוויון נכון, לכן $x=3$ הוא פתרון."
+  },
+  {
+    "id": "q-g7-equations-add2",
+    "topic_id": "g7-equations",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פתרו: $x+5=12$",
+    "options": [
+      "$x=7$",
+      "$x=17$",
+      "$x=5$",
+      "$x=-7$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחסרים $5$ משני האגפים: $x=12-5=7$."
+  },
+  {
+    "id": "q-g7-equations-add3",
+    "topic_id": "g7-equations",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו: $3x-4=11$",
+    "options": [
+      "$x=5$",
+      "$x=3$",
+      "$x=7$",
+      "$x=15$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחברים $4$ לשני האגפים: $3x=15$. מחלקים ב-$3$: $x=5$."
+  },
+  {
+    "id": "q-g7-equations-add4",
+    "topic_id": "g7-equations",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $5x+3=2x+18$",
+    "options": [
+      "$x=5$",
+      "$x=6$",
+      "$x=7$",
+      "$x=3$"
+    ],
+    "correct_index": 0,
+    "explanation": "מעבירים איברי $x$ לאגף אחד ומספרים לאגף השני: $5x-2x=18-3$, כלומר $3x=15$, ולכן $x=5$."
+  },
+  {
+    "id": "q-g7-equations-add5",
+    "topic_id": "g7-equations",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פתרו: $3(x-2)+4=13$",
+    "options": [
+      "$x=5$",
+      "$x=3$",
+      "$x=7$",
+      "$x=9$"
+    ],
+    "correct_index": 0,
+    "explanation": "פותחים סוגריים: $3x-6+4=13$, כלומר $3x-2=13$. מחברים $2$: $3x=15$. מחלקים ב-$3$: $x=5$."
+  },
+  {
+    "id": "q-g7-equations-applications-add1",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "\"מספר גדול פי $3$ ממספר אחר\" — אם המספר האחר הוא $x$, איך מתארים את הראשון?",
+    "options": [
+      "$3x$",
+      "$x+3$",
+      "$\\frac{x}{3}$",
+      "$x-3$"
+    ],
+    "correct_index": 0,
+    "explanation": "\"פי $3$\" פירושו כפל ב-$3$: $3x$."
+  },
+  {
+    "id": "q-g7-equations-applications-add2",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "סכום שני מספרים הוא $20$, והשני גדול מהראשון ב-$4$. אם הראשון הוא $x$, מהי המשוואה המתאימה?",
+    "options": [
+      "$x+(x+4)=20$",
+      "$x+4=20$",
+      "$2x=20$",
+      "$x-4=20$"
+    ],
+    "correct_index": 0,
+    "explanation": "המספר השני הוא $x+4$, וסכום שניהם שווה ל-$20$."
+  },
+  {
+    "id": "q-g7-equations-applications-add3",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מספר ועוד $6$ שווים ל-$20$. מהו המספר?",
+    "options": [
+      "$14$",
+      "$26$",
+      "$6$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "המשוואה: $x+6=20$, ולכן $x=20-6=14$."
+  },
+  {
+    "id": "q-g7-equations-applications-add4",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לדנה יש פי $3$ כסף מיוסי. יחד יש להם $84$ ש\"ח. כמה כסף יש ליוסי?",
+    "options": [
+      "$21$",
+      "$63$",
+      "$28$",
+      "$84$"
+    ],
+    "correct_index": 0,
+    "explanation": "אם ליוסי יש $y$ ש\"ח, לדנה יש $3y$. המשוואה: $y+3y=84$, כלומר $4y=84$, ולכן $y=21$."
+  },
+  {
+    "id": "q-g7-equations-applications-add5",
+    "topic_id": "g7-equations-applications",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שני רוכבים יוצאים מאותה נקודה בו-זמנית לכיוונים מנוגדים. האחד נוסע במהירות $15$ קמ\"ש והשני במהירות $25$ קמ\"ש. אחרי כמה זמן המרחק ביניהם יהיה $100$ ק\"מ?",
+    "options": [
+      "$2.5$ שעות",
+      "$4$ שעות",
+      "$5$ שעות",
+      "$10$ שעות"
+    ],
+    "correct_index": 0,
+    "explanation": "מהירותם המשולבת (הם מתרחקים זה מזה) היא $15+25=40$ קמ\"ש. הזמן: $\\dfrac{100}{40}=2.5$ שעות."
+  },
+  {
+    "id": "q-g7-graphs-quadrant1-add1",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "באיזה רבע נמצאת הנקודה $(3,5)$?",
+    "options": [
+      "רבע I",
+      "רבע II",
+      "רבע III",
+      "רבע IV"
+    ],
+    "correct_index": 0,
+    "explanation": "שני הקואורדינטות חיוביות, לכן הנקודה ברבע הראשון."
+  },
+  {
+    "id": "q-g7-graphs-quadrant1-add2",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהן קואורדינטות הנקודה שנמצאת $4$ יחידות ימינה מהראשית ו-$2$ יחידות למעלה?",
+    "options": [
+      "$(4,2)$",
+      "$(2,4)$",
+      "$(-4,2)$",
+      "$(4,-2)$"
+    ],
+    "correct_index": 0,
+    "explanation": "ראשית מזיזים $4$ ימינה (ציר $x$) ואז $2$ למעלה (ציר $y$): $(4,2)$."
+  },
+  {
+    "id": "q-g7-graphs-quadrant1-add3",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בטבלה: כאשר $x=2$, $y=6$; וכאשר $x=4$, $y=12$. מהו הכלל המתאים?",
+    "options": [
+      "$y=3x$",
+      "$y=x+4$",
+      "$y=2x+2$",
+      "$y=x^2$"
+    ],
+    "correct_index": 0,
+    "explanation": "$3\\times2=6$ וגם $3\\times4=12$ — הכלל המתאים לשני הזוגות הוא $y=3x$."
+  },
+  {
+    "id": "q-g7-graphs-quadrant1-add4",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "הנקודה $(a,7)$ נמצאת על הגרף של $y=2x+1$. מהו $a$?",
+    "options": [
+      "$3$",
+      "$4$",
+      "$15$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $y=7$: $2a+1=7$, כלומר $2a=6$, ולכן $a=3$."
+  },
+  {
+    "id": "q-g7-graphs-quadrant1-add5",
+    "topic_id": "g7-graphs-quadrant1",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נקודה $(2,6)$ נמצאת על הגרף של $y=3x$. נקודה שנייה על אותו גרף נמצאת $4$ יחידות ימינה ממנה. מהן קואורדינטות הנקודה השנייה?",
+    "options": [
+      "$(6,18)$",
+      "$(6,6)$",
+      "$(2,10)$",
+      "$(6,10)$"
+    ],
+    "correct_index": 0,
+    "explanation": "$4$ יחידות ימינה: $x=2+4=6$. מציבים בכלל $y=3x$: $y=3\\times6=18$. הנקודה: $(6,18)$."
+  },
+  {
+    "id": "q-g7-functions-intro-add1",
+    "topic_id": "g7-functions-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי פונקציה?",
+    "options": [
+      "כלל שלכל קלט מתאים פלט יחיד",
+      "כלל שיכול לתת כמה פלטים לאותו קלט",
+      "כל טבלה של מספרים",
+      "כל גרף שמצויר במערכת צירים"
+    ],
+    "correct_index": 0,
+    "explanation": "פונקציה היא כמו מכונה — לכל $x$ שנכנס, יוצא בדיוק $y$ אחד."
+  },
+  {
+    "id": "q-g7-functions-intro-add2",
+    "topic_id": "g7-functions-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפונקציה $y=2x+1$, מה $y$ עבור $x=3$?",
+    "options": [
+      "$7$",
+      "$6$",
+      "$8$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים: $2\\times3+1=7$."
+  },
+  {
+    "id": "q-g7-functions-intro-add3",
+    "topic_id": "g7-functions-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בפונקציה $y=x^2$, מה $y$ עבור $x=-4$?",
+    "options": [
+      "$16$",
+      "$-16$",
+      "$8$",
+      "$-8$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(-4)^2=16$ — מעריך זוגי נותן תוצאה חיובית."
+  },
+  {
+    "id": "q-g7-functions-intro-add4",
+    "topic_id": "g7-functions-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בפונקציה $y=5x-2$, עבור אילו $x$ מתקבל $y=18$?",
+    "options": [
+      "$4$",
+      "$3$",
+      "$16$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "$5x-2=18$, כלומר $5x=20$, ולכן $x=4$."
+  },
+  {
+    "id": "q-g7-functions-intro-add5",
+    "topic_id": "g7-functions-intro",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "טבלה מציגה $x:1,2,3$ ו-$y:4,7,10$. איזו נוסחה מתאימה לכל הזוגות?",
+    "options": [
+      "$y=3x+1$",
+      "$y=4x$",
+      "$y=x+3$",
+      "$y=2x+2$"
+    ],
+    "correct_index": 0,
+    "explanation": "בכל שלב $y$ גדל ב-$3$, ועבור $x=1$ מתקבל $y=4$: $3\\times1+1=4$, $3\\times2+1=7$, $3\\times3+1=10$."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-add1",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שני ישרים הנחתכים בזווית $90°$ נקראים:",
+    "options": [
+      "ניצבים",
+      "מקבילים",
+      "חופפים",
+      "זהים"
+    ],
+    "correct_index": 0,
+    "explanation": "ישרים החותכים זה את זה בזווית ישרה נקראים ניצבים."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-add2",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני ישרים באותו מישור שלעולם אינם נפגשים נקראים:",
+    "options": [
+      "מקבילים",
+      "ניצבים",
+      "נחתכים",
+      "מצטלבים"
+    ],
+    "correct_index": 0,
+    "explanation": "זו ההגדרה של ישרים מקבילים."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-add3",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "המרחק של נקודה מישר הוא:",
+    "options": [
+      "אורך הקטע הניצב מהנקודה לישר",
+      "אורך כל קטע מהנקודה לישר",
+      "המרחק לנקודה הקרובה ביותר על הישר בכל כיוון",
+      "תמיד אפס"
+    ],
+    "correct_index": 0,
+    "explanation": "הקטע הניצב מהנקודה לישר הוא הקצר ביותר מבין כל הקטעים האפשריים, ולכן הוא המרחק."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-add4",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במלבן, האלכסונים:",
+    "options": [
+      "שווים באורכם",
+      "ניצבים זה לזה",
+      "שונים תמיד באורכם",
+      "מקבילים זה לזה"
+    ],
+    "correct_index": 0,
+    "explanation": "אחת מתכונות המלבן היא ששני האלכסונים שווים באורכם."
+  },
+  {
+    "id": "q-g7-perpendicular-parallel-add5",
+    "topic_id": "g7-perpendicular-parallel",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בתיבה, שתי פאות מקבילות הן מלבנים של $4\\times6$, והמרחק ביניהן (גובה התיבה) הוא $5$. מה נפח התיבה?",
+    "options": [
+      "$120$",
+      "$20$",
+      "$54$",
+      "$110$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח הבסיס: $4\\times6=24$. נפח: $24\\times5=120$."
+  },
+  {
+    "id": "q-g7-coordinates-add1",
+    "topic_id": "g7-coordinates",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהן קואורדינטות ראשית הצירים?",
+    "options": [
+      "$(0,0)$",
+      "$(1,1)$",
+      "$(0,1)$",
+      "$(1,0)$"
+    ],
+    "correct_index": 0,
+    "explanation": "ראשית הצירים היא נקודת המפגש של ציר $x$ וציר $y$, ותמיד $(0,0)$."
+  },
+  {
+    "id": "q-g7-coordinates-add2",
+    "topic_id": "g7-coordinates",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "באיזה רבע נמצאת הנקודה $(-3,-5)$?",
+    "options": [
+      "רבע III",
+      "רבע I",
+      "רבע II",
+      "רבע IV"
+    ],
+    "correct_index": 0,
+    "explanation": "שני הקואורדינטות שליליות, לכן הנקודה ברבע השלישי."
+  },
+  {
+    "id": "q-g7-coordinates-add3",
+    "topic_id": "g7-coordinates",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי הנקודה הסימטרית ל-$(4,2)$ ביחס לציר $y$?",
+    "options": [
+      "$(-4,2)$",
+      "$(4,-2)$",
+      "$(-4,-2)$",
+      "$(2,4)$"
+    ],
+    "correct_index": 0,
+    "explanation": "שיקוף ביחס לציר $y$ הופך את סימן ה-$x$ בלבד: $(4,2)\\to(-4,2)$."
+  },
+  {
+    "id": "q-g7-coordinates-add4",
+    "topic_id": "g7-coordinates",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי הנקודה הסימטרית ל-$(-3,5)$ ביחס לראשית הצירים?",
+    "options": [
+      "$(3,-5)$",
+      "$(-3,-5)$",
+      "$(3,5)$",
+      "$(5,-3)$"
+    ],
+    "correct_index": 0,
+    "explanation": "שיקוף ביחס לראשית הופך את סימני שתי הקואורדינטות: $(-3,5)\\to(3,-5)$."
+  },
+  {
+    "id": "q-g7-coordinates-add5",
+    "topic_id": "g7-coordinates",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נקודה $(x,y)$ נמצאת ברבע השני. מה ניתן לומר על $x$ ו-$y$?",
+    "options": [
+      "$x$ שלילי ו-$y$ חיובי",
+      "$x$ חיובי ו-$y$ שלילי",
+      "שניהם שליליים",
+      "שניהם חיוביים"
+    ],
+    "correct_index": 0,
+    "explanation": "ברבע השני $x<0$ וגם $y>0$."
+  },
+  {
+    "id": "q-g7-angles-basics-add1",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "זווית שגודלה $90°$ נקראת:",
+    "options": [
+      "ישרה",
+      "חדה",
+      "קהה",
+      "שטוחה"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית של בדיוק $90°$ נקראת זווית ישרה."
+  },
+  {
+    "id": "q-g7-angles-basics-add2",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זווית שגודלה $150°$ היא זווית:",
+    "options": [
+      "קהה",
+      "חדה",
+      "ישרה",
+      "שטוחה"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית קהה נמצאת בין $90°$ ל-$180°$."
+  },
+  {
+    "id": "q-g7-angles-basics-add3",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כלי המשמש למדידת זוויות נקרא:",
+    "options": [
+      "מד-זווית",
+      "סרגל",
+      "מחוגה",
+      "משולש שרטוט"
+    ],
+    "correct_index": 0,
+    "explanation": "מד-זווית הוא הכלי המקובל למדידת גודל זווית במעלות."
+  },
+  {
+    "id": "q-g7-angles-basics-add4",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אמדו (ללא מדידה מדויקת): זווית שנראית מעט קטנה מזווית ישרה קרובה ביותר לגודל:",
+    "options": [
+      "$80°$",
+      "$170°$",
+      "$45°$",
+      "$100°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית ישרה היא $90°$, ולכן זווית 'מעט קטנה ממנה' קרובה יותר ל-$80°$."
+  },
+  {
+    "id": "q-g7-angles-basics-add5",
+    "topic_id": "g7-angles-basics",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "זווית $\\alpha$ גדולה פי $2$ מזווית ישרה. מהו גודלה?",
+    "options": [
+      "$180°$",
+      "$45°$",
+      "$90°$",
+      "$270°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית ישרה היא $90°$, ולכן $\\alpha=2\\times90°=180°$ (זווית שטוחה)."
+  },
+  {
+    "id": "q-g7-angle-relationships-add1",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "חוצה זווית מחלק אותה ל:",
+    "options": [
+      "שתי זוויות שוות",
+      "שלוש זוויות שוות",
+      "שתי זוויות שונות",
+      "זווית אחת בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "חוצה זווית הוא קרן המחלקת את הזווית לשני חלקים שווים."
+  },
+  {
+    "id": "q-g7-angle-relationships-add2",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זווית של $70°$ ולידה זווית צמודה. מהי הזווית הצמודה?",
+    "options": [
+      "$110°$",
+      "$70°$",
+      "$20°$",
+      "$290°$"
+    ],
+    "correct_index": 0,
+    "explanation": "סכום זוויות צמודות הוא $180°$: $180°-70°=110°$."
+  },
+  {
+    "id": "q-g7-angle-relationships-add3",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שתי זוויות קודקודיות, אחת מהן $65°$. מהי השנייה?",
+    "options": [
+      "$65°$",
+      "$115°$",
+      "$25°$",
+      "$180°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זוויות קודקודיות תמיד שוות זו לזו."
+  },
+  {
+    "id": "q-g7-angle-relationships-add4",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חוצה זווית מחלק זווית של $76°$ לשני חלקים. מה גודל כל חלק?",
+    "options": [
+      "$38°$",
+      "$76°$",
+      "$19°$",
+      "$152°$"
+    ],
+    "correct_index": 0,
+    "explanation": "חוצה זווית מחלק לשני חלקים שווים: $76°:2=38°$."
+  },
+  {
+    "id": "q-g7-angle-relationships-add5",
+    "topic_id": "g7-angle-relationships",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שני ישרים נחתכים ויוצרים $4$ זוויות. אחת מהן $35°$. מהם גדלי שלוש הזוויות הנותרות?",
+    "options": [
+      "$35°,145°,145°$",
+      "$35°,35°,35°$",
+      "$145°,145°,145°$",
+      "$55°,55°,145°$"
+    ],
+    "correct_index": 0,
+    "explanation": "הזווית הקודקודית ל-$35°$ שווה גם היא $35°$. שתי הזוויות הצמודות משלימות ל-$180°$: $180°-35°=145°$ כל אחת."
+  },
+  {
+    "id": "q-g7-angles-triangles-add1",
+    "topic_id": "g7-angles-triangles",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "סכום הזוויות בכל משולש הוא:",
+    "options": [
+      "$180°$",
+      "$360°$",
+      "$90°$",
+      "$270°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זהו כלל קבוע שנכון לכל משולש, בלי קשר לצורתו."
+  },
+  {
+    "id": "q-g7-angles-triangles-add2",
+    "topic_id": "g7-angles-triangles",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש שווה-צלעות, גודל כל זווית הוא:",
+    "options": [
+      "$60°$",
+      "$90°$",
+      "$45°$",
+      "$120°$"
+    ],
+    "correct_index": 0,
+    "explanation": "כל שלוש הזוויות שוות וסכומן $180°$: $180°:3=60°$."
+  },
+  {
+    "id": "q-g7-angles-triangles-add3",
+    "topic_id": "g7-angles-triangles",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש, שתי זוויות הן $50°$ ו-$65°$. מהי הזווית השלישית?",
+    "options": [
+      "$65°$",
+      "$115°$",
+      "$50°$",
+      "$180°$"
+    ],
+    "correct_index": 0,
+    "explanation": "$180°-50°-65°=65°$."
+  },
+  {
+    "id": "q-g7-angles-triangles-add4",
+    "topic_id": "g7-angles-triangles",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית, אחת הזוויות החדות היא $35°$. מהי הזווית החדה השנייה?",
+    "options": [
+      "$55°$",
+      "$65°$",
+      "$45°$",
+      "$155°$"
+    ],
+    "correct_index": 0,
+    "explanation": "שתי הזוויות החדות משלימות ל-$90°$ (כי הזווית השלישית היא $90°$): $90°-35°=55°$."
+  },
+  {
+    "id": "q-g7-angles-triangles-add5",
+    "topic_id": "g7-angles-triangles",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במרובע נתונות שלוש זוויות: $80°,95°,110°$. מהי הזווית הרביעית?",
+    "options": [
+      "$75°$",
+      "$85°$",
+      "$65°$",
+      "$105°$"
+    ],
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במרובע הוא $360°$: $360°-80°-95°-110°=75°$."
+  },
+  {
+    "id": "q-g7-transformations-add1",
+    "topic_id": "g7-transformations",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "טרנספורמציה שמזיזה צורה במרחק וכיוון מסוימים בלי לסובב אותה נקראת:",
+    "options": [
+      "הזזה",
+      "שיקוף",
+      "סיבוב",
+      "הגדלה"
+    ],
+    "correct_index": 0,
+    "explanation": "הזזה מעבירה צורה למקום אחר, בלי לשנות את כיוונה."
+  },
+  {
+    "id": "q-g7-transformations-add2",
+    "topic_id": "g7-transformations",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "טרנספורמציה ה\"הופכת\" צורה כמו במראה נקראת:",
+    "options": [
+      "שיקוף",
+      "הזזה",
+      "סיבוב",
+      "הקטנה"
+    ],
+    "correct_index": 0,
+    "explanation": "שיקוף מבצע היפוך של הצורה ביחס לישר (ציר השיקוף)."
+  },
+  {
+    "id": "q-g7-transformations-add3",
+    "topic_id": "g7-transformations",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אחרי הזזה, שיקוף או סיבוב, הצורה החדשה:",
+    "options": [
+      "חופפת לצורה המקורית",
+      "גדולה מהמקורית",
+      "קטנה מהמקורית",
+      "שונה בצורתה מהמקורית"
+    ],
+    "correct_index": 0,
+    "explanation": "טרנספורמציות אלו משנות רק מיקום או כיוון, לא גודל או צורה."
+  },
+  {
+    "id": "q-g7-transformations-add4",
+    "topic_id": "g7-transformations",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש הוזז $3$ יחידות ימינה ו-$2$ יחידות למעלה. קודקוד שהיה ב-$(1,1)$ עבר ל:",
+    "options": [
+      "$(4,3)$",
+      "$(3,2)$",
+      "$(-2,-1)$",
+      "$(1,1)$"
+    ],
+    "correct_index": 0,
+    "explanation": "מוסיפים $3$ ל-$x$ ו-$2$ ל-$y$: $(1+3,1+2)=(4,3)$."
+  },
+  {
+    "id": "q-g7-transformations-add5",
+    "topic_id": "g7-transformations",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "צורה שוקפה ביחס לציר $x$. נקודה שהייתה ב-$(2,5)$ עברה ל:",
+    "options": [
+      "$(2,-5)$",
+      "$(-2,5)$",
+      "$(-2,-5)$",
+      "$(5,2)$"
+    ],
+    "correct_index": 0,
+    "explanation": "שיקוף ביחס לציר $x$ הופך את סימן ה-$y$ בלבד: $(2,5)\\to(2,-5)$."
+  },
+  {
+    "id": "q-g7-area-perimeter-add1",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת שטח מלבן?",
+    "options": [
+      "אורך$\\times$רוחב",
+      "$2\\times$(אורך$+$רוחב)",
+      "אורך$+$רוחב",
+      "אורך$\\div$רוחב"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח מלבן מחושב על ידי הכפלת האורך ברוחב."
+  },
+  {
+    "id": "q-g7-area-perimeter-add2",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מלבן שאורכו $7$ ורוחבו $3$. מה שטחו?",
+    "options": [
+      "$21$",
+      "$10$",
+      "$20$",
+      "$24$"
+    ],
+    "correct_index": 0,
+    "explanation": "$7\\times3=21$."
+  },
+  {
+    "id": "q-g7-area-perimeter-add3",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש שבסיסו $10$ וגובהו $6$. מה שטחו?",
+    "options": [
+      "$30$",
+      "$60$",
+      "$16$",
+      "$26$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח משולש: $\\dfrac{10\\times6}{2}=30$."
+  },
+  {
+    "id": "q-g7-area-perimeter-add4",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מקבילית שבסיסה $8$ וגובהה $5$, לעומת משולש עם אותו בסיס וגובה. פי כמה שטח המקבילית גדול משטח המשולש?",
+    "options": [
+      "פי $2$",
+      "פי $1$",
+      "פי $4$",
+      "שווים"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח המקבילית: $8\\times5=40$. שטח המשולש: $\\dfrac{8\\times5}{2}=20$. היחס: $40:20=2$."
+  },
+  {
+    "id": "q-g7-area-perimeter-add5",
+    "topic_id": "g7-area-perimeter",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "טרפז שבסיסיו $6$ ו-$10$ וגובהו $4$. מה שטחו?",
+    "options": [
+      "$32$",
+      "$64$",
+      "$40$",
+      "$16$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח טרפז: $\\dfrac{(6+10)}{2}\\times4=8\\times4=32$."
+  },
+  {
+    "id": "q-g7-solids-cube-box-add1",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה פאות יש לתיבה?",
+    "options": [
+      "$6$",
+      "$8$",
+      "$12$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "לתיבה יש $6$ פאות מלבניות."
+  },
+  {
+    "id": "q-g7-solids-cube-box-add2",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה קודקודים יש לקובייה?",
+    "options": [
+      "$8$",
+      "$6$",
+      "$12$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "לקובייה, כמו לכל תיבה, יש $8$ קודקודים."
+  },
+  {
+    "id": "q-g7-solids-cube-box-add3",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "קובייה שמקצועה $4$ ס\"מ. מה נפחה?",
+    "options": [
+      "$64$",
+      "$16$",
+      "$48$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח קובייה: $a^3=4^3=64$ סמ\"ק."
+  },
+  {
+    "id": "q-g7-solids-cube-box-add4",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תיבה שמידותיה $3\\times4\\times5$. מה נפחה?",
+    "options": [
+      "$60$",
+      "$12$",
+      "$47$",
+      "$35$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח תיבה: $3\\times4\\times5=60$ סמ\"ק."
+  },
+  {
+    "id": "q-g7-solids-cube-box-add5",
+    "topic_id": "g7-solids-cube-box",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "קובייה שמקצועה $5$ ס\"מ. מה שטח הפנים שלה?",
+    "options": [
+      "$150$",
+      "$25$",
+      "$100$",
+      "$125$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח פני קובייה: $6a^2=6\\times5^2=6\\times25=150$ סמ\"ר."
+  },
+  {
+    "id": "q-g7-pythagorean-add1",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משפט פיתגורס קובע קשר בין:",
+    "options": [
+      "הניצבים ליתר במשולש ישר-זווית",
+      "כל שלוש הצלעות בכל משולש",
+      "הזוויות במשולש כלשהו",
+      "הגבהים במשולש כלשהו"
+    ],
+    "correct_index": 0,
+    "explanation": "המשפט תקף רק במשולש ישר-זווית, ומקשר בין שני הניצבים ליתר."
+  },
+  {
+    "id": "q-g7-pythagorean-add2",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית, הניצבים הם $9$ ו-$12$. מהו היתר?",
+    "options": [
+      "$15$",
+      "$21$",
+      "$225$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{9^2+12^2}=\\sqrt{81+144}=\\sqrt{225}=15$."
+  },
+  {
+    "id": "q-g7-pythagorean-add3",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "היתר במשולש ישר-זווית הוא $17$, וניצב אחד הוא $8$. מהו הניצב השני?",
+    "options": [
+      "$15$",
+      "$9$",
+      "$25$",
+      "$153$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{17^2-8^2}=\\sqrt{289-64}=\\sqrt{225}=15$."
+  },
+  {
+    "id": "q-g7-pythagorean-add4",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו המרחק בין הנקודות $(2,3)$ ו-$(7,15)$?",
+    "options": [
+      "$13$",
+      "$17$",
+      "$7$",
+      "$169$"
+    ],
+    "correct_index": 0,
+    "explanation": "ההפרשים הם $5$ ו-$12$: $\\sqrt{5^2+12^2}=\\sqrt{25+144}=\\sqrt{169}=13$."
+  },
+  {
+    "id": "q-g7-pythagorean-add5",
+    "topic_id": "g7-pythagorean",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "סולם באורך $13$ מטר מוצב כנגד קיר, כשקצהו התחתון נמצא $5$ מטר מהקיר. לאיזה גובה מגיע קצהו העליון?",
+    "options": [
+      "$12$",
+      "$8$",
+      "$18$",
+      "$144$"
+    ],
+    "correct_index": 0,
+    "explanation": "הסולם הוא היתר, המרחק מהקיר הוא ניצב: $\\sqrt{13^2-5^2}=\\sqrt{169-25}=\\sqrt{144}=12$ מטר."
+  },
+  {
+    "id": "q-g7-prism-add1",
+    "topic_id": "g7-prism",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה בסיסים יש למנסרה משולשת?",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "למנסרה משולשת יש שני בסיסים — משולשים חופפים."
+  },
+  {
+    "id": "q-g7-prism-add2",
+    "topic_id": "g7-prism",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה פאות צדדיות (מלבניות) יש למנסרה משולשת?",
+    "options": [
+      "$3$",
+      "$2$",
+      "$5$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "בנוסף לשני הבסיסים, יש $3$ פאות צדדיות מלבניות."
+  },
+  {
+    "id": "q-g7-prism-add3",
+    "topic_id": "g7-prism",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נפח מנסרה מחושב לפי:",
+    "options": [
+      "שטח הבסיס $\\times$ גובה",
+      "היקף הבסיס $\\times$ גובה",
+      "שטח הבסיס $\\div$ גובה",
+      "שטח הבסיס $\\times2$"
+    ],
+    "correct_index": 0,
+    "explanation": "בכל גוף מנסרתי, הנפח שווה לשטח הבסיס כפול הגובה שבין הבסיסים."
+  },
+  {
+    "id": "q-g7-prism-add4",
+    "topic_id": "g7-prism",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מנסרה משולשת ששטח הבסיס שלה $12$ סמ\"ר וגובהה $10$ ס\"מ. מה נפחה?",
+    "options": [
+      "$120$",
+      "$22$",
+      "$60$",
+      "$132$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=$ שטח בסיס $\\times$ גובה $=12\\times10=120$ סמ\"ק."
+  },
+  {
+    "id": "q-g7-prism-add5",
+    "topic_id": "g7-prism",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במנסרה משולשת, שטח כל בסיס הוא $15$ סמ\"ר, ושטחי שלוש הפאות הצדדיות הם $20,24,28$ סמ\"ר. מה שטח הפנים הכולל?",
+    "options": [
+      "$102$",
+      "$87$",
+      "$72$",
+      "$174$"
+    ],
+    "correct_index": 0,
+    "explanation": "שני בסיסים: $2\\times15=30$. שלוש פאות צדדיות: $20+24+28=72$. סה\"כ: $30+72=102$ סמ\"ר."
+  },
+  {
+    "id": "q-g7-data-frequency-add1",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שכיחות של ערך היא:",
+    "options": [
+      "מספר הפעמים שהערך מופיע בנתונים",
+      "אחוז הערך מכלל הנתונים",
+      "הערך הגבוה ביותר בנתונים",
+      "הממוצע של הנתונים"
+    ],
+    "correct_index": 0,
+    "explanation": "שכיחות סופרת פעמים, לא יחס או ממוצע."
+  },
+  {
+    "id": "q-g7-data-frequency-add2",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזו דיאגרמה מתאימה במיוחד להצגת חלוקה יחסית של שלם?",
+    "options": [
+      "דיאגרמת עוגה",
+      "דיאגרמת עמודות",
+      "גרף קו",
+      "פיקטוגרם"
+    ],
+    "correct_index": 0,
+    "explanation": "דיאגרמת עוגה מציגה כיצד שלם מתחלק לחלקים יחסיים."
+  },
+  {
+    "id": "q-g7-data-frequency-add3",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בטבלת שכיחויות של צבעי חולצות בכיתה: אדום $4$, כחול $6$, ירוק $2$. כמה תלמידים סה\"כ נספרו?",
+    "options": [
+      "$12$",
+      "$6$",
+      "$2$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "$4+6+2=12$."
+  },
+  {
+    "id": "q-g7-data-frequency-add4",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפי הנתונים: אדום $4$, כחול $6$, ירוק $2$ — איזה צבע הכי שכיח?",
+    "options": [
+      "כחול",
+      "אדום",
+      "ירוק",
+      "כולם שווים"
+    ],
+    "correct_index": 0,
+    "explanation": "לכחול יש את השכיחות הגבוהה ביותר, $6$."
+  },
+  {
+    "id": "q-g7-data-frequency-add5",
+    "topic_id": "g7-data-frequency",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מדוע גרף עמודות שהציר האנכי שלו לא מתחיל מ-$0$ עלול להטעות?",
+    "options": [
+      "הוא עלול להגזים ויזואלית בהבדלים בין הקטגוריות",
+      "הוא תמיד שגוי מתמטית ולא ניתן לקרוא אותו",
+      "הוא מציג נתונים שגויים לחלוטין",
+      "אי אפשר לקרוא ממנו כלל שכיחויות"
+    ],
+    "correct_index": 0,
+    "explanation": "כשהציר לא מתחיל מ-$0$, הבדלים קטנים בין העמודות נראים גדולים בהרבה משהם באמת."
+  },
+  {
+    "id": "q-g7-relative-frequency-add1",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שכיחות יחסית מחושבת לפי:",
+    "options": [
+      "שכיחות הערך חלקי סך כל הנתונים",
+      "שכיחות הערך כפול $100$",
+      "סך כל הנתונים חלקי שכיחות הערך",
+      "ההפרש בין השכיחויות"
+    ],
+    "correct_index": 0,
+    "explanation": "שכיחות יחסית מבטאת איזה חלק מכלל הנתונים מהווה הערך."
+  },
+  {
+    "id": "q-g7-relative-frequency-add2",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מתוך $20$ תלמידים, ל-$5$ יש חתול. מה השכיחות היחסית של בעלי חתול?",
+    "options": [
+      "$0.25$ ($25\\%$)",
+      "$5$",
+      "$4$",
+      "$0.05$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{5}{20}=0.25=25\\%$."
+  },
+  {
+    "id": "q-g7-relative-frequency-add3",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בכיתה של $30$ תלמידים, שכיחות יחסית של תלמידים שמעדיפים מתמטיקה היא $0.4$. כמה תלמידים מעדיפים מתמטיקה?",
+    "options": [
+      "$12$",
+      "$4$",
+      "$40$",
+      "$7.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$0.4\\times30=12$."
+  },
+  {
+    "id": "q-g7-relative-frequency-add4",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בקבוצה של $50$ אנשים, $18$ מעשנים. מהי השכיחות היחסית שלהם, באחוזים?",
+    "options": [
+      "$36\\%$",
+      "$18\\%$",
+      "$50\\%$",
+      "$32\\%$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{18}{50}=0.36=36\\%$."
+  },
+  {
+    "id": "q-g7-relative-frequency-add5",
+    "topic_id": "g7-relative-frequency",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בסקר על צבע עיניים של כל תלמידי הכיתה (כל תלמיד נספר בדיוק פעם אחת), חושבו השכיחויות היחסיות של כל הצבעים שנצפו וסוכמו יחד. מה צריכה להיות התוצאה?",
+    "options": [
+      "$1$ ($100\\%$)",
+      "$0$",
+      "תלוי במספר התלמידים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "כל השכיחויות היחסיות יחד מהוות את כל הנתונים, ולכן סכומן תמיד $1$ (או $100\\%$)."
+  },
+  {
+    "id": "q-g7-probability-intro-add1",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הסתברות תמיד נמצאת בין:",
+    "options": [
+      "$0$ ל-$1$",
+      "$1$ ל-$100$",
+      "$-1$ ל-$1$",
+      "$0$ ל-$\\infty$"
+    ],
+    "correct_index": 0,
+    "explanation": "הסתברות של מאורע נעה בין $0$ (בלתי אפשרי) ל-$1$ (ודאי)."
+  },
+  {
+    "id": "q-g7-probability-intro-add2",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הטילו קובייה $50$ פעם וקיבלו את המספר $6$ בפעם $9$. מהי השכיחות היחסית שנצפתה של התוצאה $6$?",
+    "options": [
+      "$0.18$",
+      "$9$",
+      "$50$",
+      "$0.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{9}{50}=0.18$."
+  },
+  {
+    "id": "q-g7-probability-intro-add3",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ככל שמגדילים את מספר הניסויים החוזרים, השכיחות היחסית הנצפית:",
+    "options": [
+      "מתקרבת יותר להסתברות האמיתית",
+      "מתרחקת מההסתברות האמיתית",
+      "נשארת קבועה תמיד",
+      "הופכת לאפס"
+    ],
+    "correct_index": 0,
+    "explanation": "ככל שיש יותר ניסויים, האומדן שמתקבל מהשכיחות היחסית מדויק יותר."
+  },
+  {
+    "id": "q-g7-probability-intro-add4",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "הטילו מטבע $200$ פעם וקיבלו \"עץ\" $92$ פעמים. מהו האומדן הטוב ביותר להסתברות לקבל \"עץ\" במטבע הזה?",
+    "options": [
+      "$0.46$",
+      "$0.5$",
+      "$92$",
+      "$0.08$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{92}{200}=0.46$."
+  },
+  {
+    "id": "q-g7-probability-intro-add5",
+    "topic_id": "g7-probability-intro",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בהטלת קובייה $300$ פעם, המספר $4$ התקבל $52$ פעם. איזה משפט נכון?",
+    "options": [
+      "השכיחות היחסית שנצפתה ($\\approx0.173$) קרובה להסתברות התאורטית של קובייה הוגנת ($\\frac{1}{6}\\approx0.167$)",
+      "הקובייה בהכרח לא הוגנת",
+      "ההסתברות לקבל $4$ היא בדיוק $0.173$ תמיד",
+      "אי אפשר להסיק דבר מהניסוי"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\dfrac{52}{300}\\approx0.173$, קרוב מאוד ל-$\\dfrac{1}{6}\\approx0.167$ — תואם קובייה הוגנת."
   }
 ]
 export function getMiddleSchoolQuestionsForTopic(topicId) {
