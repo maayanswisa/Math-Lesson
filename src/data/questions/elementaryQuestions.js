@@ -25023,7 +25023,1658 @@ export const ELEMENTARY_QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "חצי מ-$\\frac{1}{5}$ הוא $\\frac{1}{5}\\div 2=\\frac{1}{10}$."
+  },
+  {
+    "id": "q-g5-fractions-reduce-expand-x2-1",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הרחיבו את השבר $\\frac{1}{2}$ למכנה $6$.",
+    "options": [
+      "$\\frac{3}{6}$",
+      "$\\frac{2}{6}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{4}{6}$"
+    ],
+    "correct_index": 0,
+    "explanation": "מרחיבים פי $3$ (כי $6\\div2=3$): $\\frac{1\\times3}{2\\times3}=\\frac{3}{6}$."
+  },
+  {
+    "id": "q-g5-fractions-reduce-expand-x2-2",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו המכנה המשותף הקטן ביותר של $\\frac{1}{6}$ ו-$\\frac{1}{8}$?",
+    "options": [
+      "$24$",
+      "$48$",
+      "$14$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "$6=2\\times3$, $8=2^3$; המכנה המשותף הקטן ביותר הוא $2^3\\times3=24$."
+  },
+  {
+    "id": "q-g5-fractions-reduce-expand-x2-3",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "צמצמו את השבר $\\frac{36}{48}$ לשבר הפשוט ביותר.",
+    "options": [
+      "$\\frac{3}{4}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{9}{12}$",
+      "$\\frac{6}{8}$"
+    ],
+    "correct_index": 0,
+    "explanation": "המחלק המשותף הגדול ביותר של $36$ ו-$48$ הוא $12$: $\\frac{36\\div12}{48\\div12}=\\frac{3}{4}$."
+  },
+  {
+    "id": "q-g5-fractions-reduce-expand-x2-4",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו המכנה המשותף הקטן ביותר של $\\frac{3}{10}$ ו-$\\frac{7}{15}$?",
+    "options": [
+      "$30$",
+      "$150$",
+      "$25$",
+      "$45$"
+    ],
+    "correct_index": 0,
+    "explanation": "$10=2\\times5$, $15=3\\times5$; המכנה המשותף הקטן ביותר הוא $2\\times3\\times5=30$."
+  },
+  {
+    "id": "q-g5-fractions-reduce-expand-x2-5",
+    "topic_id": "g5-fractions-reduce-expand",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "צמצמו לשבר הפשוט ביותר: $\\frac{84}{126}$.",
+    "options": [
+      "$\\frac{2}{3}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{42}{63}$",
+      "$\\frac{14}{21}$"
+    ],
+    "correct_index": 0,
+    "explanation": "המחלק המשותף הגדול ביותר של $84$ ו-$126$ הוא $42$: $\\frac{84\\div42}{126\\div42}=\\frac{2}{3}$."
+  },
+  {
+    "id": "q-g5-fractions-add-sub-x2-1",
+    "topic_id": "g5-fractions-add-sub",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה שווה $\\frac{2}{5}+\\frac{1}{5}$?",
+    "options": [
+      "$\\frac{3}{5}$",
+      "$\\frac{3}{10}$",
+      "$\\frac{1}{5}$",
+      "$\\frac{2}{5}$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכנים שווים: מחברים מונים: $2+1=3$, נשאר $\\frac{3}{5}$."
+  },
+  {
+    "id": "q-g5-fractions-add-sub-x2-2",
+    "topic_id": "g5-fractions-add-sub",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה שווה $\\frac{1}{2}+\\frac{1}{4}$?",
+    "options": [
+      "$\\frac{3}{4}$",
+      "$\\frac{2}{6}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{2}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$4$ כפולה של $2$: $\\frac{1}{2}=\\frac{2}{4}$, ואז $\\frac{2}{4}+\\frac{1}{4}=\\frac{3}{4}$."
+  },
+  {
+    "id": "q-g5-fractions-add-sub-x2-3",
+    "topic_id": "g5-fractions-add-sub",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה שווה $\\frac{5}{6}-\\frac{1}{6}$?",
+    "options": [
+      "$\\frac{4}{6}$",
+      "$\\frac{4}{12}$",
+      "$\\frac{6}{6}$",
+      "$\\frac{1}{6}$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכנים שווים: מחסרים מונים: $5-1=4$, נשאר $\\frac{4}{6}$."
+  },
+  {
+    "id": "q-g5-fractions-add-sub-x2-4",
+    "topic_id": "g5-fractions-add-sub",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה שווה $1\\frac{1}{3}+\\frac{1}{3}$?",
+    "options": [
+      "$1\\frac{2}{3}$",
+      "$2\\frac{1}{3}$",
+      "$1\\frac{1}{3}$",
+      "$\\frac{2}{3}$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחברים את השלם בנפרד ואת השברים בנפרד: $1+\\left(\\frac{1}{3}+\\frac{1}{3}\\right)=1\\frac{2}{3}$."
+  },
+  {
+    "id": "q-g5-fractions-add-sub-x2-5",
+    "topic_id": "g5-fractions-add-sub",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה שווה $\\frac{2}{3}+\\frac{1}{6}$?",
+    "options": [
+      "$\\frac{5}{6}$",
+      "$\\frac{3}{9}$",
+      "$\\frac{3}{6}$",
+      "$\\frac{1}{2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$6$ כפולה של $3$: $\\frac{2}{3}=\\frac{4}{6}$, ואז $\\frac{4}{6}+\\frac{1}{6}=\\frac{5}{6}$."
+  },
+  {
+    "id": "q-g5-fractions-add-sub-x2-6",
+    "topic_id": "g5-fractions-add-sub",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה שווה $2\\frac{1}{4}-\\frac{3}{4}$?",
+    "options": [
+      "$1\\frac{1}{2}$",
+      "$1\\frac{3}{4}$",
+      "$2\\frac{1}{2}$",
+      "$1\\frac{1}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$2\\frac{1}{4}=1\\frac{5}{4}$ (שואלים שלם), ואז $1\\frac{5}{4}-\\frac{3}{4}=1\\frac{2}{4}=1\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g5-fractions-add-sub-x2-7",
+    "topic_id": "g5-fractions-add-sub",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה שווה $\\frac{3}{4}+\\frac{5}{6}$?",
+    "options": [
+      "$1\\frac{7}{12}$",
+      "$1\\frac{1}{2}$",
+      "$\\frac{19}{10}$",
+      "$1\\frac{5}{12}$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכנה משותף $12$: $\\frac{3}{4}=\\frac{9}{12}$, $\\frac{5}{6}=\\frac{10}{12}$; $\\frac{9}{12}+\\frac{10}{12}=\\frac{19}{12}=1\\frac{7}{12}$."
+  },
+  {
+    "id": "q-g5-fractions-mul-whole-x2-1",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה שווה $3\\times\\frac{1}{4}$?",
+    "options": [
+      "$\\frac{3}{4}$",
+      "$\\frac{1}{12}$",
+      "$\\frac{4}{3}$",
+      "$\\frac{1}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$3\\times\\frac{1}{4}=\\frac{3\\times1}{4}=\\frac{3}{4}$."
+  },
+  {
+    "id": "q-g5-fractions-mul-whole-x2-2",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה שווה $5\\times1\\frac{2}{3}$?",
+    "options": [
+      "$8\\frac{1}{3}$",
+      "$7\\frac{2}{3}$",
+      "$8\\frac{2}{3}$",
+      "$\\frac{25}{5}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$1\\frac{2}{3}=\\frac{5}{3}$; $5\\times\\frac{5}{3}=\\frac{25}{3}=8\\frac{1}{3}$."
+  },
+  {
+    "id": "q-g5-fractions-mul-whole-x2-3",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כמה שווה $6\\times2\\frac{3}{4}$?",
+    "options": [
+      "$16\\frac{1}{2}$",
+      "$16\\frac{3}{4}$",
+      "$17\\frac{1}{2}$",
+      "$12\\frac{3}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$2\\frac{3}{4}=\\frac{11}{4}$; $6\\times\\frac{11}{4}=\\frac{66}{4}=16\\frac{2}{4}=16\\frac{1}{2}$."
+  },
+  {
+    "id": "q-g5-fractions-mul-whole-x2-4",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כמה שווה $4\\times3\\frac{5}{6}$?",
+    "options": [
+      "$15\\frac{1}{3}$",
+      "$15\\frac{2}{3}$",
+      "$14\\frac{1}{3}$",
+      "$\\frac{92}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$3\\frac{5}{6}=\\frac{23}{6}$; $4\\times\\frac{23}{6}=\\frac{92}{6}=15\\frac{2}{6}=15\\frac{1}{3}$."
+  },
+  {
+    "id": "q-g5-fractions-mul-whole-x2-5",
+    "topic_id": "g5-fractions-mul-whole",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "התוצאה של $8\\times\\frac{5}{6}$ קרובה יותר לאיזה מספר שלם?",
+    "options": [
+      "$7$",
+      "$6$",
+      "$8$",
+      "$40$"
+    ],
+    "correct_index": 0,
+    "explanation": "$8\\times\\frac{5}{6}=\\frac{40}{6}=6\\frac{4}{6}\\approx6.67$, קרוב יותר ל-$7$."
+  },
+  {
+    "id": "q-g5-decimals-ops-x2-1",
+    "topic_id": "g5-decimals-ops",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה שווה $2.3+1.4$?",
+    "options": [
+      "$3.7$",
+      "$3.6$",
+      "$3.8$",
+      "$2.7$"
+    ],
+    "correct_index": 0,
+    "explanation": "מיישרים נקודות עשרוניות: $2.3+1.4=3.7$."
+  },
+  {
+    "id": "q-g5-decimals-ops-x2-2",
+    "topic_id": "g5-decimals-ops",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: $0.6$ או $0.45$?",
+    "options": [
+      "$0.6$",
+      "$0.45$",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "$0.6=0.60$, ו-$60$ מאיות גדול מ-$45$ מאיות."
+  },
+  {
+    "id": "q-g5-mul-div-adv-x2-1",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה שווה $250+130$?",
+    "options": [
+      "$380$",
+      "$370$",
+      "$390$",
+      "$280$"
+    ],
+    "correct_index": 0,
+    "explanation": "$250+130=380$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-x2-2",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי התוצאה של $18\\times4$?",
+    "options": [
+      "$72$",
+      "$68$",
+      "$82$",
+      "$76$"
+    ],
+    "correct_index": 0,
+    "explanation": "$18\\times4=72$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-x2-3",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בחילוק $53\\div6$, מהי השארית?",
+    "options": [
+      "$5$",
+      "$3$",
+      "$8$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "$6\\times8=48$, ו-$53-48=5$; המנה $8$ והשארית $5$."
+  },
+  {
+    "id": "q-g5-mul-div-adv-x2-4",
+    "topic_id": "g5-mul-div-adv",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה שווה $(15+9)\\div3$?",
+    "options": [
+      "$8$",
+      "$24$",
+      "$12$",
+      "$18$"
+    ],
+    "correct_index": 0,
+    "explanation": "קודם הסוגריים: $15+9=24$, ואז $24\\div3=8$."
+  },
+  {
+    "id": "q-g5-geometry-x2-1",
+    "topic_id": "g5-geometry",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "היקף מלבן $5\\times3$:",
+    "options": [
+      "$16$",
+      "$15$",
+      "$8$",
+      "$30$"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף מלבן $=2\\times(5+3)=16$."
+  },
+  {
+    "id": "q-g5-geometry-x2-2",
+    "topic_id": "g5-geometry",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "שטח מלבן $6\\times2$:",
+    "options": [
+      "$12$",
+      "$16$",
+      "$8$",
+      "$36$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח מלבן $=6\\times2=12$."
+  },
+  {
+    "id": "q-g5-data-frequency-x2-1",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בטבלת שכיחויות נספרו: אדום-$4$, כחול-$7$, ירוק-$2$. מהי השכיחות של הצבע הכחול?",
+    "options": [
+      "$7$",
+      "$4$",
+      "$2$",
+      "$13$"
+    ],
+    "correct_index": 0,
+    "explanation": "השכיחות של כחול היא מספר הפעמים שהוא נספר: $7$."
+  },
+  {
+    "id": "q-g5-data-frequency-x2-2",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נספרו ציונים: $85$ מופיע $3$ פעמים, $90$ מופיע $5$ פעמים, $75$ מופיע $4$ פעמים. כמה תלמידים נספרו בסך הכול?",
+    "options": [
+      "$12$",
+      "$3$",
+      "$5$",
+      "$250$"
+    ],
+    "correct_index": 0,
+    "explanation": "סוכמים את כל השכיחויות: $3+5+4=12$."
+  },
+  {
+    "id": "q-g5-data-frequency-x2-3",
+    "topic_id": "g5-data-frequency",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בפיקטוגרם כל סמל מייצג $4$ תלמידים. בשורה מסוימת מופיעים $3$ סמלים שלמים וחצי סמל. כמה תלמידים מיוצגים בשורה?",
+    "options": [
+      "$14$",
+      "$12$",
+      "$16$",
+      "$7$"
+    ],
+    "correct_index": 0,
+    "explanation": "$3$ סמלים שלמים $=3\\times4=12$, וחצי סמל $=2$; ביחד $12+2=14$."
+  },
+  {
+    "id": "q-g5-median-average-x2-1",
+    "topic_id": "g5-median-average",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו הממוצע של $4$ ו-$6$?",
+    "options": [
+      "$5$",
+      "$4$",
+      "$6$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "ממוצע $=\\frac{4+6}{2}=5$."
+  },
+  {
+    "id": "q-g5-median-average-x2-2",
+    "topic_id": "g5-median-average",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו החציון של הרשימה $3,8,5$ (אחרי מיון)?",
+    "options": [
+      "$5$",
+      "$3$",
+      "$8$",
+      "$16$"
+    ],
+    "correct_index": 0,
+    "explanation": "אחרי מיון: $3,5,8$; הערך האמצעי הוא $5$."
+  },
+  {
+    "id": "q-g5-numbers-million-x2-1",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה אפסים יש במספר מיליון ($1{,}000{,}000$)?",
+    "options": [
+      "$6$",
+      "$5$",
+      "$7$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "מיליון נכתב $1{,}000{,}000$ — ספרה $1$ ואחריה $6$ אפסים."
+  },
+  {
+    "id": "q-g5-numbers-million-x2-2",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו המספר הגדול יותר: $3{,}450{,}900$ או $3{,}450{,}890$?",
+    "options": [
+      "$3{,}450{,}900$",
+      "$3{,}450{,}890$",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "שתי הספרות הראשונות זהות עד המאות; במקום המאות $9>8$, לכן $3{,}450{,}900$ גדול יותר."
+  },
+  {
+    "id": "q-g5-numbers-million-x2-3",
+    "topic_id": "g5-numbers-million",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו העוקב של $999{,}999$?",
+    "options": [
+      "$1{,}000{,}000$",
+      "$999{,}998$",
+      "$1{,}000{,}001$",
+      "$900{,}000$"
+    ],
+    "correct_index": 0,
+    "explanation": "העוקב הוא המספר הבא, גדול ב-$1$: $999{,}999+1=1{,}000{,}000$."
+  },
+  {
+    "id": "q-g5-primes-x2-1",
+    "topic_id": "g5-primes",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם $2$ הוא מספר ראשוני?",
+    "options": [
+      "כן",
+      "לא",
+      "רק אם הוא זוגי",
+      "רק אם הוא אי-זוגי"
+    ],
+    "correct_index": 0,
+    "explanation": "ל-$2$ יש בדיוק שני מחלקים: $1$ ו-$2$ עצמו, לכן הוא ראשוני (המספר הראשוני היחיד שהוא זוגי)."
+  },
+  {
+    "id": "q-g5-primes-x2-2",
+    "topic_id": "g5-primes",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פרקו את $60$ לגורמים ראשוניים.",
+    "options": [
+      "$2\\times2\\times3\\times5$",
+      "$2\\times3\\times10$",
+      "$2\\times2\\times15$",
+      "$4\\times3\\times5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$60=2\\times30=2\\times2\\times15=2\\times2\\times3\\times5$ — כל הגורמים ראשוניים."
+  },
+  {
+    "id": "q-g5-primes-x2-3",
+    "topic_id": "g5-primes",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כמה מספרים ראשוניים יש בין $20$ ל-$30$?",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "בין $20$ ל-$30$ הראשוניים הם $23$ ו-$29$ בלבד — סך הכול $2$."
+  },
+  {
+    "id": "q-g5-fractions-models-x2-1",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה שבר מיוצג כשמחלקים עיגול ל-$4$ חלקים שווים וצובעים חלק אחד?",
+    "options": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{4}{1}$",
+      "$\\frac{3}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "צבעו $1$ מתוך $4$ חלקים שווים — זה $\\frac{1}{4}$."
+  },
+  {
+    "id": "q-g5-fractions-models-x2-2",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "על ישר המספרים, השבר $\\frac{9}{4}$ נמצא בין אילו שני מספרים שלמים?",
+    "options": [
+      "$2$ ל-$3$",
+      "$1$ ל-$2$",
+      "$3$ ל-$4$",
+      "$0$ ל-$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{9}{4}=2\\frac{1}{4}$, כלומר נמצא בין $2$ ל-$3$."
+  },
+  {
+    "id": "q-g5-fractions-models-x2-3",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "איזה שבר מסומן בדיוק באמצע המרחק בין $1$ ל-$2$ על ישר המספרים?",
+    "options": [
+      "$\\frac{3}{2}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{4}{2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "האמצע בין $1$ ל-$2$ הוא $1\\frac{1}{2}=\\frac{3}{2}$."
+  },
+  {
+    "id": "q-g5-fractions-models-x2-4",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "על ישר המספרים מסומנת נקודה בדיוק בין $\\frac{6}{4}$ ל-$\\frac{10}{4}$. איזה שבר מתאים לנקודה הזו?",
+    "options": [
+      "$\\frac{8}{4}$",
+      "$\\frac{7}{4}$",
+      "$\\frac{9}{4}$",
+      "$2\\frac{1}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "המרחק בין $\\frac{6}{4}$ ל-$\\frac{10}{4}$ הוא $\\frac{4}{4}=1$, וחציו הוא $\\frac{2}{4}$; $\\frac{6}{4}+\\frac{2}{4}=\\frac{8}{4}=2$."
+  },
+  {
+    "id": "q-g5-fractions-models-x2-5",
+    "topic_id": "g5-fractions-models",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "איזה מהשברים הבאים נמצא בין $1$ ל-$2$ על ישר המספרים?",
+    "options": [
+      "$\\frac{7}{5}$",
+      "$\\frac{4}{5}$",
+      "$\\frac{11}{5}$",
+      "$\\frac{5}{5}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{7}{5}=1\\frac{2}{5}$, שנמצא בין $1$ ל-$2$; לעומת זאת $\\frac{4}{5}<1$ ו-$\\frac{11}{5}>2$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-x2-1",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה שווה $\\frac{3}{4}$ כתוצאת חילוק?",
+    "options": [
+      "$3\\div4$",
+      "$4\\div3$",
+      "$3\\times4$",
+      "$3+4$"
+    ],
+    "correct_index": 0,
+    "explanation": "שבר הוא תוצאת חילוק: $\\frac{3}{4}=3\\div4$."
+  },
+  {
+    "id": "q-g5-fractions-meaning-x2-2",
+    "topic_id": "g5-fractions-meaning",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לאיזה מספר שלם שווה השבר המדומה $\\frac{5}{5}$?",
+    "options": [
+      "$1$",
+      "$5$",
+      "$0$",
+      "$\\frac{1}{5}$"
+    ],
+    "correct_index": 0,
+    "explanation": "כאשר המונה שווה למכנה, השבר שווה ל-$1$ שלם: $\\frac{5}{5}=1$."
+  },
+  {
+    "id": "q-g5-fractions-compare-x2-1",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה שבר גדול יותר: $\\frac{3}{5}$ או $\\frac{1}{5}$?",
+    "options": [
+      "$\\frac{3}{5}$",
+      "$\\frac{1}{5}$",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "מכנים שווים, לכן משווים מונים בלבד: $3>1$."
+  },
+  {
+    "id": "q-g5-fractions-compare-x2-2",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "השוו בעזרת מכנה משותף: $\\frac{5}{6}$ לעומת $\\frac{7}{9}$.",
+    "options": [
+      "$\\frac{5}{6}>\\frac{7}{9}$",
+      "$\\frac{5}{6}<\\frac{7}{9}$",
+      "$\\frac{5}{6}=\\frac{7}{9}$",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "מכנה משותף $18$: $\\frac{5}{6}=\\frac{15}{18}$, $\\frac{7}{9}=\\frac{14}{18}$; $15>14$."
+  },
+  {
+    "id": "q-g5-fractions-compare-x2-3",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "איזה שבר גדול יותר: $\\frac{9}{10}$ או $\\frac{11}{12}$? (רמז: השלמה לשלם)",
+    "options": [
+      "$\\frac{11}{12}$",
+      "$\\frac{9}{10}$",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "ל-$\\frac{9}{10}$ חסר $\\frac{1}{10}$ להשלמה לשלם, ול-$\\frac{11}{12}$ חסר $\\frac{1}{12}$. מכיוון ש-$\\frac{1}{12}<\\frac{1}{10}$, מתקיים $\\frac{11}{12}>\\frac{9}{10}$."
+  },
+  {
+    "id": "q-g5-fractions-compare-x2-4",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "איזה שבר גדול יותר: $\\frac{4}{9}$ או $\\frac{4}{7}$?",
+    "options": [
+      "$\\frac{4}{7}$",
+      "$\\frac{4}{9}$",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "כשהמונים שווים, השבר עם המכנה הקטן יותר גדול יותר: $\\frac{4}{7}>\\frac{4}{9}$."
+  },
+  {
+    "id": "q-g5-fractions-compare-x2-5",
+    "topic_id": "g5-fractions-compare",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "איזה מהסידורים הבאים נכון, מהקטן לגדול?",
+    "options": [
+      "$\\frac{1}{5}<\\frac{2}{5}<\\frac{3}{5}$",
+      "$\\frac{3}{5}<\\frac{2}{5}<\\frac{1}{5}$",
+      "$\\frac{2}{5}<\\frac{1}{5}<\\frac{3}{5}$",
+      "$\\frac{1}{5}<\\frac{3}{5}<\\frac{2}{5}$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכנים שווים, לכן ממיינים לפי המונים: $1<2<3$."
+  },
+  {
+    "id": "q-g5-decimals-intro-x2-1",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה שווה $0.1\\times10$?",
+    "options": [
+      "$1$",
+      "$0.1$",
+      "$10$",
+      "$0.01$"
+    ],
+    "correct_index": 0,
+    "explanation": "כפל ב-$10$: הנקודה זזה ימינה מקום אחד: $0.1\\times10=1$."
+  },
+  {
+    "id": "q-g5-decimals-intro-x2-2",
+    "topic_id": "g5-decimals-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה עשיריות יש במספר $0.7$?",
+    "options": [
+      "$7$",
+      "$0.7$",
+      "$70$",
+      "$17$"
+    ],
+    "correct_index": 0,
+    "explanation": "הספרה הראשונה אחרי הנקודה היא ספרת העשיריות: $0.7$ הוא $7$ עשיריות."
+  },
+  {
+    "id": "q-g5-triangle-height-x2-1",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איך נקרא הקטע המאונך מקודקוד המשולש אל הצלע שמולו?",
+    "options": [
+      "גובה",
+      "תיכון",
+      "אנך אמצעי",
+      "היקף"
+    ],
+    "correct_index": 0,
+    "explanation": "הקטע המאונך מקודקוד אל הצלע שמולו (הבסיס), או להמשכה, נקרא גובה."
+  },
+  {
+    "id": "q-g5-triangle-height-x2-2",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במשולש קהה-זווית, חלק מהגבהים נופלים:",
+    "options": [
+      "מחוץ למשולש, על המשך הבסיס",
+      "תמיד בתוך המשולש",
+      "תמיד בדיוק על קודקוד",
+      "לא ניתן לצייר אותם כלל"
+    ],
+    "correct_index": 0,
+    "explanation": "בקהה-זווית יש זווית גדולה מ-$90°$, ולכן חלק מהגבהים נופלים מחוץ למשולש, על המשך הבסיס."
+  },
+  {
+    "id": "q-g5-triangle-height-x2-3",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית, כמה מבין $3$ הגבהים הם צלעות של המשולש עצמו?",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "בישר-זווית שני הניצבים משמשים כגבהים זה לזה — לכן $2$ מתוך $3$ הגבהים הם צלעות."
+  },
+  {
+    "id": "q-g5-triangle-height-x2-4",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כדי לחשב שטח משולש לפי בסיס וגובה, הגובה חייב להיות:",
+    "options": [
+      "מאונך לבסיס הנבחר",
+      "מקביל לבסיס הנבחר",
+      "אחת הצלעות האחרות",
+      "האלכסון הארוך ביותר"
+    ],
+    "correct_index": 0,
+    "explanation": "השטח מחושב רק כאשר הגובה מאונך (בזווית ישרה) לבסיס שבחרתם."
+  },
+  {
+    "id": "q-g5-triangle-height-x2-5",
+    "topic_id": "g5-triangle-height",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כדי לסרטט את הגובה מקודקוד $A$ במשולש $ABC$, לאיזו צלע צריך להיות הגובה מאונך?",
+    "options": [
+      "לצלע $BC$ (או להמשכה)",
+      "לצלע $AB$",
+      "לצלע $AC$",
+      "לאף אחת מהצלעות"
+    ],
+    "correct_index": 0,
+    "explanation": "הגובה מקודקוד $A$ תמיד מאונך לצלע שמולו — $BC$ — או להמשכה שלה."
+  },
+  {
+    "id": "q-g5-triangle-area-x2-1",
+    "topic_id": "g5-triangle-area",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "משולש שבסיסו $11$ ס\"מ וגובהו $4$ ס\"מ. מה שטחו?",
+    "options": [
+      "$22$ סמ\"ר",
+      "$30$ סמ\"ר",
+      "$15$ סמ\"ר",
+      "$44$ סמ\"ר"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח משולש $=\\frac{11\\times4}{2}=22$ סמ\"ר."
+  },
+  {
+    "id": "q-g5-triangle-area-x2-2",
+    "topic_id": "g5-triangle-area",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה היקף משולש שצלעותיו $6$, $8$ ו-$10$ ס\"מ?",
+    "options": [
+      "$24$ ס\"מ",
+      "$48$ ס\"מ",
+      "$14$ ס\"מ",
+      "$18$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף משולש $=6+8+10=24$ ס\"מ."
+  },
+  {
+    "id": "q-g5-parallelogram-height-x2-1",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "הגובה של מקבילית הוא:",
+    "options": [
+      "המרחק המאונך בין הבסיסים",
+      "הצלע המשופעת",
+      "האלכסון",
+      "היקף המקבילית"
+    ],
+    "correct_index": 0,
+    "explanation": "הגובה הוא תמיד המרחק המאונך בין שני הבסיסים המקבילים, לא הצלע המשופעת."
+  },
+  {
+    "id": "q-g5-parallelogram-height-x2-2",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה גבהים אפשריים שונים יש למקבילית?",
+    "options": [
+      "$2$",
+      "$1$",
+      "$4$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "למקבילית יש שני זוגות צלעות מקבילות, ולכן שני גבהים אפשריים — אחד לכל זוג."
+  },
+  {
+    "id": "q-g5-parallelogram-height-x2-3",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במקבילית המוצגת ב\"שיפוע\" (בלי צלע אופקית), הגובה הוא תמיד:",
+    "options": [
+      "המרחק המאונך בין הבסיסים, בכל כיוון שהמקבילית מוצגת",
+      "אחת הצלעות המשופעות",
+      "האלכסון הקצר",
+      "מקביל לבסיס"
+    ],
+    "correct_index": 0,
+    "explanation": "הגובה הוא המרחק המאונך בין שני הבסיסים המקבילים — גם אם המקבילית מצוירת בשיפוע."
+  },
+  {
+    "id": "q-g5-parallelogram-height-x2-4",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מקבילית שבסיסה $10$ ס\"מ וגובהה (לבסיס זה) $4$ ס\"מ. מה נכון לגבי הבסיס השני ($6$ ס\"מ) והגובה שמתאים לו?",
+    "options": [
+      "בסיס $\\times$ גובה $=40$ גם עבורו",
+      "הגובה שלו הוא גם $4$ ס\"מ",
+      "הגובה שלו תמיד קטן מ-$4$",
+      "אי אפשר לדעת כלום עליו"
+    ],
+    "correct_index": 0,
+    "explanation": "שני הבסיסים עם הגבהים המתאימים נותנים תמיד את אותו שטח: $10\\times4=6\\times\\text{גובה}=40$."
+  },
+  {
+    "id": "q-g5-parallelogram-height-x2-5",
+    "topic_id": "g5-parallelogram-height",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מתי צריך להאריך (\"להמשיך\") את הבסיס כדי לצייר את הגובה?",
+    "options": [
+      "כשהמקבילית משופעת מאוד והרגל המאונכת נופלת מחוץ לבסיס",
+      "בכל מקבילית, תמיד",
+      "זה לעולם לא קורה",
+      "רק כשיש זווית ישרה"
+    ],
+    "correct_index": 0,
+    "explanation": "במקביליות \"אלכסוניות\" מאוד, הגובה מקודקוד נופל מחוץ לבסיס, ולכן מציירים אותו אל המשך הבסיס."
+  },
+  {
+    "id": "q-g5-parallelogram-area-x2-1",
+    "topic_id": "g5-parallelogram-area",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מקבילית שבסיסה $7$ ס\"מ וגובהה $6$ ס\"מ. מה שטחה?",
+    "options": [
+      "$42$ סמ\"ר",
+      "$26$ סמ\"ר",
+      "$13$ סמ\"ר",
+      "$36$ סמ\"ר"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח מקבילית $=$ בסיס $\\times$ גובה $=7\\times6=42$ סמ\"ר."
+  },
+  {
+    "id": "q-g5-parallelogram-area-x2-2",
+    "topic_id": "g5-parallelogram-area",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שטח מקבילית הוא $45$ סמ\"ר, ובסיסה $9$ ס\"מ. מה גובהה?",
+    "options": [
+      "$5$ ס\"מ",
+      "$9$ ס\"מ",
+      "$36$ ס\"מ",
+      "$54$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "גובה $=$ שטח $\\div$ בסיס $=45\\div9=5$ ס\"מ."
+  },
+  {
+    "id": "q-g5-parallelogram-area-x2-3",
+    "topic_id": "g5-parallelogram-area",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "משולש נחתך ממקבילית והוזז לצד השני עד שנוצר מלבן. מה קורה לשטח בתהליך הזה?",
+    "options": [
+      "השטח נשאר זהה",
+      "השטח גדל",
+      "השטח קטן",
+      "אי אפשר לדעת בלי מספרים"
+    ],
+    "correct_index": 0,
+    "explanation": "מזיזים חלק מהצורה בלי להוסיף או להוריד ממנה, ולכן השטח הכולל נשאר בדיוק אותו הדבר."
+  },
+  {
+    "id": "q-g5-solids-x2-1",
+    "topic_id": "g5-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בקובייה, איך קוראים לקווים שבהם נפגשות שתי פאות?",
+    "options": [
+      "מקצועות",
+      "קודקודים",
+      "פאות",
+      "גבהים"
+    ],
+    "correct_index": 0,
+    "explanation": "הקו שבו נפגשות שתי פאות נקרא מקצוע."
+  },
+  {
+    "id": "q-g5-solids-x2-2",
+    "topic_id": "g5-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפירמידה עם בסיס מרובע, כמה פאות משולשות יש (לא כולל הבסיס)?",
+    "options": [
+      "$4$",
+      "$3$",
+      "$5$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "לכל צלע של הבסיס המרובע מתאימה פאה משולשת אחת שנפגשת בפסגה — סך הכול $4$."
+  },
+  {
+    "id": "q-g5-solids-x2-3",
+    "topic_id": "g5-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה קודקודים יש למנסרה משולשת (בסיס משולש)?",
+    "options": [
+      "$6$",
+      "$5$",
+      "$9$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "למנסרה משולשת יש שני בסיסים משולשים, ולכל אחד $3$ קודקודים: $3+3=6$."
+  },
+  {
+    "id": "q-g5-solids-x2-4",
+    "topic_id": "g5-solids",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לפירמידה עם בסיס משושה ($6$ צלעות), כמה מקצועות יש לה בסך הכול?",
+    "options": [
+      "$12$",
+      "$6$",
+      "$7$",
+      "$18$"
+    ],
+    "correct_index": 0,
+    "explanation": "$6$ מקצועות בבסיס המשושה, ועוד $6$ מקצועות צדדיים מהקודקודים לפסגה: ביחד $6+6=12$."
+  },
+  {
+    "id": "q-g5-solids-x2-5",
+    "topic_id": "g5-solids",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "למנסרה שהבסיס שלה הוא מחומש ($5$ צלעות), כמה פאות יש לה בסך הכול (כולל הבסיסים)?",
+    "options": [
+      "$7$",
+      "$5$",
+      "$10$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "מנסרה עם בסיס מחומש: $2$ בסיסים $+5$ פאות צדדיות מלבניות $=7$ פאות."
+  },
+  {
+    "id": "q-g5-percent-1",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה פירוש הסימן $\\%$?",
+    "options": [
+      "מתוך מאה",
+      "מתוך עשר",
+      "מתוך אלף",
+      "חצי"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\%$ (אחוז) פירושו \"מתוך מאה\": $x\\%=\\frac{x}{100}$."
+  },
+  {
+    "id": "q-g5-percent-2",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה שווה $50\\%$ מכל מספר?",
+    "options": [
+      "חצי מהמספר",
+      "רבע מהמספר",
+      "כל המספר",
+      "עשירית מהמספר"
+    ],
+    "correct_index": 0,
+    "explanation": "$50\\%=\\frac{1}{2}$, כלומר חצי מהמספר."
+  },
+  {
+    "id": "q-g5-percent-3",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לאיזה שבר שווה $25\\%$?",
+    "options": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{5}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$25\\%=\\frac{25}{100}=\\frac{1}{4}$."
+  },
+  {
+    "id": "q-g5-percent-4",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לאיזה שבר עשרוני שווה $10\\%$?",
+    "options": [
+      "$0.1$",
+      "$0.01$",
+      "$1$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "$10\\%=\\frac{10}{100}=0.1$."
+  },
+  {
+    "id": "q-g5-percent-5",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה שווה $1\\%$ מ-$300$?",
+    "options": [
+      "$3$",
+      "$30$",
+      "$300$",
+      "$0.3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$1\\%$ מ-$300$ הוא $300\\div100=3$."
+  },
+  {
+    "id": "q-g5-percent-6",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה שווה $10\\%$ מ-$450$?",
+    "options": [
+      "$45$",
+      "$4.5$",
+      "$450$",
+      "$40$"
+    ],
+    "correct_index": 0,
+    "explanation": "$10\\%$ מתקבל בהזזת הנקודה העשרונית מקום אחד שמאלה: $450\\to45$."
+  },
+  {
+    "id": "q-g5-percent-7",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $50\\%$ מ-$84$?",
+    "options": [
+      "$42$",
+      "$21$",
+      "$84$",
+      "$168$"
+    ],
+    "correct_index": 0,
+    "explanation": "$50\\%$ הוא חצי: $84\\div2=42$."
+  },
+  {
+    "id": "q-g5-percent-8",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה שבר עשרוני שווה ל-$60\\%$?",
+    "options": [
+      "$0.6$",
+      "$0.06$",
+      "$6.0$",
+      "$0.16$"
+    ],
+    "correct_index": 0,
+    "explanation": "$60\\%=\\frac{60}{100}=0.6$."
+  },
+  {
+    "id": "q-g5-percent-9",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה שווה $25\\%$ מ-$160$?",
+    "options": [
+      "$40$",
+      "$60$",
+      "$80$",
+      "$25$"
+    ],
+    "correct_index": 0,
+    "explanation": "$25\\%$ הוא רבע: $160\\div4=40$."
+  },
+  {
+    "id": "q-g5-percent-10",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה שווה $20\\%$ מ-$90$?",
+    "options": [
+      "$18$",
+      "$9$",
+      "$20$",
+      "$45$"
+    ],
+    "correct_index": 0,
+    "explanation": "$10\\%$ מ-$90$ הוא $9$; $20\\%$ הוא כפול: $9\\times2=18$."
+  },
+  {
+    "id": "q-g5-percent-11",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בכיתה בת $40$ תלמידים, $75\\%$ מהם הביאו שיעורי בית. כמה תלמידים זה?",
+    "options": [
+      "$30$",
+      "$10$",
+      "$35$",
+      "$75$"
+    ],
+    "correct_index": 0,
+    "explanation": "$75\\%=\\frac{3}{4}$; $\\frac{3}{4}$ מ-$40$ הוא $30$."
+  },
+  {
+    "id": "q-g5-percent-12",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איזה שבר פשוט (אחרי צמצום) שווה ל-$80\\%$?",
+    "options": [
+      "$\\frac{4}{5}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{5}{6}$",
+      "$\\frac{2}{5}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$80\\%=\\frac{80}{100}=\\frac{4}{5}$ (מחלקים מונה ומכנה ב-$20$)."
+  },
+  {
+    "id": "q-g5-percent-13",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בכיתה $25$ תלמידים, $40\\%$ מהם בנים. כמה בנות יש בכיתה?",
+    "options": [
+      "$15$",
+      "$10$",
+      "$40$",
+      "$25$"
+    ],
+    "correct_index": 0,
+    "explanation": "בנים: $40\\%$ מ-$25=10$; בנות: $25-10=15$."
+  },
+  {
+    "id": "q-g5-percent-14",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מחיר חולצה הוא $80$ ש\"ח. כמה שווים $15\\%$ ממחיר החולצה?",
+    "options": [
+      "$12$",
+      "$15$",
+      "$8$",
+      "$65$"
+    ],
+    "correct_index": 0,
+    "explanation": "$10\\%$ מ-$80$ הוא $8$, ו-$5\\%$ הוא חצי מזה — $4$; ביחד $8+4=12$."
+  },
+  {
+    "id": "q-g5-percent-15",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה שווה $150\\%$ מ-$40$?",
+    "options": [
+      "$60$",
+      "$40$",
+      "$50$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "$150\\%=100\\%+50\\%$; $100\\%$ מ-$40$ הוא $40$, ו-$50\\%$ מ-$40$ הוא $20$; ביחד $40+20=60$."
+  },
+  {
+    "id": "q-g5-percent-16",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בכד יש $200$ כדורים, $35\\%$ מהם אדומים. כמה כדורים אדומים יש?",
+    "options": [
+      "$70$",
+      "$35$",
+      "$65$",
+      "$135$"
+    ],
+    "correct_index": 0,
+    "explanation": "$10\\%$ מ-$200$ הוא $20$; $35\\%=3\\times20+5\\%$ מ-$200(=10)$, כלומר $60+10=70$."
+  },
+  {
+    "id": "q-g5-percent-17",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מחיר מוצר עלה מ-$80$ ש\"ח ל-$100$ ש\"ח. באיזה אחוז עלה המחיר?",
+    "options": [
+      "$25\\%$",
+      "$20\\%$",
+      "$80\\%$",
+      "$100\\%$"
+    ],
+    "correct_index": 0,
+    "explanation": "העלייה היא $100-80=20$ ש\"ח; באחוזים מהמחיר המקורי: $\\frac{20}{80}=25\\%$."
+  },
+  {
+    "id": "q-g5-percent-18",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בכיתה $30\\%$ מהתלמידים, שהם $9$ תלמידים, משחקים כדורסל. כמה תלמידים יש בכיתה בסך הכול?",
+    "options": [
+      "$30$",
+      "$27$",
+      "$39$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "אם $30\\%$ שווים ל-$9$, אז $10\\%$ שווים ל-$3$, ו-$100\\%$ (השלם) שווים ל-$30$."
+  },
+  {
+    "id": "q-g5-percent-19",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עוגה יש שלושה פלחים: $45\\%,30\\%$ והשלישי. מהו אחוז הפלח השלישי?",
+    "options": [
+      "$25\\%$",
+      "$75\\%$",
+      "$15\\%$",
+      "$35\\%$"
+    ],
+    "correct_index": 0,
+    "explanation": "סכום כל הפלחים הוא $100\\%$: $100-45-30=25\\%$."
+  },
+  {
+    "id": "q-g5-percent-20",
+    "topic_id": "g5-percent-intro",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לכמה אחוזים שווה $\\frac{3}{8}$?",
+    "options": [
+      "$37.5\\%$",
+      "$38\\%$",
+      "$3.8\\%$",
+      "$375\\%$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{3}{8}=0.375=37.5\\%$ (הופכים לשבר עשרוני ואז לאחוזים)."
+  },
+  {
+    "id": "q-g5-roman-1",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לאיזה מספר שווה הספרה הרומית $V$?",
+    "options": [
+      "$5$",
+      "$1$",
+      "$10$",
+      "$50$"
+    ],
+    "correct_index": 0,
+    "explanation": "$V$ מייצגת את המספר $5$."
+  },
+  {
+    "id": "q-g5-roman-2",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לאיזה מספר שווה הספרה הרומית $X$?",
+    "options": [
+      "$10$",
+      "$5$",
+      "$1$",
+      "$100$"
+    ],
+    "correct_index": 0,
+    "explanation": "$X$ מייצגת את המספר $10$."
+  },
+  {
+    "id": "q-g5-roman-3",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איך כותבים את המספר $3$ בספרות רומיות?",
+    "options": [
+      "$III$",
+      "$IV$",
+      "$II$",
+      "$VI$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחברים שלושה סמלי $I$: $I+I+I=3$."
+  },
+  {
+    "id": "q-g5-roman-4",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "לאיזה מספר שווה הצירוף הרומי $II$?",
+    "options": [
+      "$2$",
+      "$1$",
+      "$11$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "שני סמלי $I$ ברצף: $1+1=2$."
+  },
+  {
+    "id": "q-g5-roman-5",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איך כותבים את המספר $4$ בספרות רומיות?",
+    "options": [
+      "$IV$",
+      "$IIII$",
+      "$VI$",
+      "$IX$"
+    ],
+    "correct_index": 0,
+    "explanation": "כלל החיסור: סמל קטן ($I$) לפני סמל גדול ($V$) — $5-1=4$."
+  },
+  {
+    "id": "q-g5-roman-6",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לאיזה מספר שווה $VII$?",
+    "options": [
+      "$7$",
+      "$8$",
+      "$6$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "$V+I+I=5+1+1=7$."
+  },
+  {
+    "id": "q-g5-roman-7",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איך כותבים את המספר $9$ בספרות רומיות?",
+    "options": [
+      "$IX$",
+      "$VIIII$",
+      "$XI$",
+      "$VI$"
+    ],
+    "correct_index": 0,
+    "explanation": "כלל החיסור: $I$ לפני $X$ — $10-1=9$."
+  },
+  {
+    "id": "q-g5-roman-8",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לאיזה מספר שווה $XV$?",
+    "options": [
+      "$15$",
+      "$5$",
+      "$45$",
+      "$14$"
+    ],
+    "correct_index": 0,
+    "explanation": "$X+V=10+5=15$."
+  },
+  {
+    "id": "q-g5-roman-9",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לאיזה מספר שווה $XL$?",
+    "options": [
+      "$40$",
+      "$60$",
+      "$10$",
+      "$50$"
+    ],
+    "correct_index": 0,
+    "explanation": "כלל החיסור: $X$ לפני $L$ — $50-10=40$."
+  },
+  {
+    "id": "q-g5-roman-10",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איך כותבים את המספר $24$ בספרות רומיות?",
+    "options": [
+      "$XXIV$",
+      "$XXIIII$",
+      "$XIV$",
+      "$XXVI$"
+    ],
+    "correct_index": 0,
+    "explanation": "$20=XX$ ו-$4=IV$: ביחד $XXIV$."
+  },
+  {
+    "id": "q-g5-roman-11",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לאיזה מספר שווה $LXVI$?",
+    "options": [
+      "$66$",
+      "$61$",
+      "$56$",
+      "$116$"
+    ],
+    "correct_index": 0,
+    "explanation": "$L+X+V+I=50+10+5+1=66$."
+  },
+  {
+    "id": "q-g5-roman-12",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "איך כותבים את המספר $90$ בספרות רומיות?",
+    "options": [
+      "$XC$",
+      "$LXXXX$",
+      "$IC$",
+      "$XXC$"
+    ],
+    "correct_index": 0,
+    "explanation": "כלל החיסור: $X$ לפני $C$ — $100-10=90$."
+  },
+  {
+    "id": "q-g5-roman-13",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לאיזה מספר שווה $CDXLIV$?",
+    "options": [
+      "$444$",
+      "$454$",
+      "$446$",
+      "$414$"
+    ],
+    "correct_index": 0,
+    "explanation": "$CD(400)+XL(40)+IV(4)=444$."
+  },
+  {
+    "id": "q-g5-roman-14",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איך כותבים את המספר $149$ בספרות רומיות?",
+    "options": [
+      "$CXLIX$",
+      "$CLIX$",
+      "$CXLVIIII$",
+      "$CXXXXIX$"
+    ],
+    "correct_index": 0,
+    "explanation": "$100=C$, $40=XL$, $9=IX$: ביחד $CXLIX$."
+  },
+  {
+    "id": "q-g5-roman-15",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לאיזה מספר שווה $CMXC$?",
+    "options": [
+      "$990$",
+      "$1090$",
+      "$910$",
+      "$900$"
+    ],
+    "correct_index": 0,
+    "explanation": "$CM(900)+XC(90)=990$."
+  },
+  {
+    "id": "q-g5-roman-16",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איך כותבים את המספר $944$ בספרות רומיות?",
+    "options": [
+      "$CMXLIV$",
+      "$CMXLVI$",
+      "$CDXLIV$",
+      "$CMXXXXIV$"
+    ],
+    "correct_index": 0,
+    "explanation": "$900=CM$, $40=XL$, $4=IV$: ביחד $CMXLIV$."
+  },
+  {
+    "id": "q-g5-roman-17",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לאיזה מספר שווה $MCMXCIX$?",
+    "options": [
+      "$1999$",
+      "$1899$",
+      "$1989$",
+      "$2099$"
+    ],
+    "correct_index": 0,
+    "explanation": "$M(1000)+CM(900)+XC(90)+IX(9)=1999$."
+  },
+  {
+    "id": "q-g5-roman-18",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "איך כותבים את המספר $2024$ בספרות רומיות?",
+    "options": [
+      "$MMXXIV$",
+      "$MMXXVI$",
+      "$MMXIV$",
+      "$MXXIV$"
+    ],
+    "correct_index": 0,
+    "explanation": "$2000=MM$, $20=XX$, $4=IV$: ביחד $MMXXIV$."
+  },
+  {
+    "id": "q-g5-roman-19",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לאיזה מספר שווה $MMCDXLVIII$?",
+    "options": [
+      "$2448$",
+      "$2548$",
+      "$2438$",
+      "$2048$"
+    ],
+    "correct_index": 0,
+    "explanation": "$MM(2000)+CD(400)+XL(40)+VIII(8)=2448$."
+  },
+  {
+    "id": "q-g5-roman-20",
+    "topic_id": "g5-roman-numerals",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מה הבעיה בכתיבה $IIX$ עבור המספר $8$?",
+    "options": [
+      "אסור לחסר שני סמלים ברצף לפני סמל גדול — $8$ נכתב $VIII$",
+      "זו כתיבה תקינה לחלוטין",
+      "צריך לכתוב $IIX$ עבור $2$ ולא $8$",
+      "אין שום בעיה, זה רק לא נהוג"
+    ],
+    "correct_index": 0,
+    "explanation": "בשיטה הרומית אי אפשר לחסר שני סמלים ברצף לפני סמל גדול; $8$ נכתב $V+I+I+I=VIII$."
   }
+
 ]
 export function getElementaryQuestionsForTopic(topicId) {
   return ELEMENTARY_QUESTIONS.filter((q) => q.topic_id === topicId);
