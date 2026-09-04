@@ -26539,6 +26539,712 @@ export const QUESTIONS = [
     "correct_index": 0,
     "explanation": "$m_1\\cdot m_2=-1\\Rightarrow m_2=-\\dfrac{1}{4}$."
   }
+,
+  {
+    "id": "q-g11-u4-precalc-rational-hard1",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{1}{x^2-9}$. מהו תחום ההגדרה שלה?",
+    "options": [
+      "$x\\neq3$ וגם $x\\neq-3$",
+      "$x\\neq9$",
+      "$x\\neq0$",
+      "$x>3$ או $x<-3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$g(x)=x^2-9=0 \\Rightarrow x=\\pm3$; תחום ההגדרה הוא כל הממשיים פרט לנקודות אלו."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-hard2",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{1}{x^2+4}$. כמה אסימפטוטות מאונכות יש לה?",
+    "options": [
+      "אין אסימפטוטות מאונכות (המכנה תמיד חיובי)",
+      "אסימפטוטה אחת ב-$x=4$",
+      "שתי אסימפטוטות ב-$x=\\pm2$",
+      "אסימפטוטה ב-$x=-4$"
+    ],
+    "correct_index": 0,
+    "explanation": "$g(x)=x^2+4>0$ לכל $x$ (אין פתרון ל-$x^2+4=0$ בממשיים) — אין אפסים למכנה, ולכן אין אסימפטוטות מאונכות."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-hard3",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{1}{(x-2)^2}$. מהו תחום החיוביות של $f$?",
+    "options": [
+      "כל תחום ההגדרה ($x\\neq2$) — $f$ חיובית בכל מקום שהיא מוגדרת",
+      "$x>2$ בלבד",
+      "$x<2$ בלבד",
+      "אין תחום חיוביות"
+    ],
+    "correct_index": 0,
+    "explanation": "$g(x)=(x-2)^2\\geq0$ תמיד, וחיובי ממש לכל $x\\neq2$; לכן $f(x)=\\frac{1}{g(x)}>0$ בכל תחום ההגדרה."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-hard4",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{1}{x^2-4x+3}$. מהן נקודות אי-ההגדרה (אסימפטוטות מאונכות)?",
+    "options": [
+      "$x=1$ וגם $x=3$",
+      "$x=4$ בלבד",
+      "$x=-1$ וגם $x=-3$",
+      "$x=2$ בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "$x^2-4x+3=(x-1)(x-3)=0 \\Rightarrow x=1$ או $x=3$ — אלו נקודות אי-ההגדרה."
+  },
+  {
+    "id": "q-g11-u4-precalc-rational-hard5",
+    "topic_id": "g11-u4-precalc-rational",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{1}{g(x)}$ כאשר $g(x)=-(x-2)^2-1$ (כלומר $g(x)<0$ תמיד). מהו תחום החיוביות/שליליות של $f$?",
+    "options": [
+      "$f$ שלילית לכל $x$ (אין תחום חיוביות)",
+      "$f$ חיובית לכל $x$",
+      "$f$ חיובית עבור $x>2$ בלבד",
+      "$f$ מתאפסת ב-$x=2$"
+    ],
+    "correct_index": 0,
+    "explanation": "$g(x)=-(x-2)^2-1\\leq-1<0$ לכל $x$ — תמיד שלילי; מכיוון שסימן $f$ זהה לסימן $g$, גם $f$ שלילית לכל $x$."
+  },
+  {
+    "id": "q-g11-u4-rational-root-hard1",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{x}{x^2+1}$. מהי $f'(x)$?",
+    "options": [
+      "$\\dfrac{1-x^2}{(x^2+1)^2}$",
+      "$\\dfrac{1+x^2}{(x^2+1)^2}$",
+      "$\\dfrac{-2x}{(x^2+1)^2}$",
+      "$\\dfrac{2x}{x^2+1}$"
+    ],
+    "correct_index": 0,
+    "explanation": "כלל המנה: $f'(x)=\\dfrac{1\\cdot(x^2+1)-x\\cdot2x}{(x^2+1)^2}=\\dfrac{1-x^2}{(x^2+1)^2}$."
+  },
+  {
+    "id": "q-g11-u4-rational-root-hard2",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נתונה $h(x)=x\\sqrt{x}$ (עבור $x>0$). מהי $h'(x)$?",
+    "options": [
+      "$\\dfrac{3}{2}\\sqrt{x}$",
+      "$\\sqrt{x}$",
+      "$\\dfrac{1}{2\\sqrt{x}}$",
+      "$\\dfrac{3}{2\\sqrt{x}}$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל המכפלה: $h'(x)=1\\cdot\\sqrt{x}+x\\cdot\\dfrac{1}{2\\sqrt{x}}=\\sqrt{x}+\\dfrac{\\sqrt{x}}{2}=\\dfrac{3}{2}\\sqrt{x}$."
+  },
+  {
+    "id": "q-g11-u4-rational-root-hard3",
+    "topic_id": "g11-u4-rational-root",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{x^2}{x-1}$. מהי משוואת המשיק לגרף בנקודה $x=2$?",
+    "options": [
+      "$y=4$",
+      "$y=2x$",
+      "$y=4x-4$",
+      "$y=0$"
+    ],
+    "correct_index": 0,
+    "explanation": "$f(2)=\\dfrac{4}{1}=4$; $f'(x)=\\dfrac{2x(x-1)-x^2}{(x-1)^2}=\\dfrac{x^2-2x}{(x-1)^2}$, ו-$f'(2)=\\dfrac{4-4}{1}=0$; משוואת המשיק (שיפוע $0$ דרך $(2,4)$): $y=4$."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-hard1",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "תיבה סגורה בעלת בסיס ריבועי בצלע $x$ ונפח $64$ סמ\"ק. מהו $x$ שעבורו שטח הפנים מינימלי?",
+    "options": [
+      "$4$",
+      "$8$",
+      "$2$",
+      "$16$"
+    ],
+    "correct_index": 0,
+    "explanation": "$S(x)=2x^2+4xh$, $V=x^2h=64\\Rightarrow h=\\dfrac{64}{x^2}$; $S(x)=2x^2+\\dfrac{256}{x}$; $S'(x)=4x-\\dfrac{256}{x^2}=0\\Rightarrow x^3=64\\Rightarrow x=4$."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-hard2",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מלבן חסום מתחת לפרבולה $y=9-x^2$ (הבסיס על ציר $x$, סימטרי ביחס לציר $y$). עבור אילו $x>0$ שטח המלבן מקסימלי?",
+    "options": [
+      "$x=\\sqrt3$",
+      "$x=3$",
+      "$x=\\sqrt{6}$",
+      "$x=9$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח המלבן $A(x)=2x(9-x^2)=18x-2x^3$; $A'(x)=18-6x^2=0 \\Rightarrow x^2=3 \\Rightarrow x=\\sqrt3$ (עבור $x>0$)."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-hard3",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "תיבה פתוחה עם בסיס מלבני שאורכו כפול מרוחבו ($2y$ ו-$y$), וגובה $h$. נפח התיבה $72$. מהו הביטוי הנכון לשטח הפנים (ללא מכסה) כפונקציה של $y$ בלבד?",
+    "options": [
+      "$S(y)=2y^2+\\dfrac{216}{y}$",
+      "$S(y)=2y^2+\\dfrac{72}{y}$",
+      "$S(y)=4y^2+\\dfrac{216}{y}$",
+      "$S(y)=2y^2+216y$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח הבסיס $=2y\\times y=2y^2$; $h=\\dfrac{72}{2y^2}=\\dfrac{36}{y^2}$; שטח הדפנות $=2(2y\\cdot h)+2(y\\cdot h)=6yh=6y\\times\\dfrac{36}{y^2}=\\dfrac{216}{y}$; ביחד: $S(y)=2y^2+\\dfrac{216}{y}$."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-hard4",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "תיבה פתוחה עם בסיס ריבועי בצלע $x$ וגובה $h$, שנפחה $50$. בטאו את שטח הפנים (ללא מכסה) כפונקציה של $x$ בלבד.",
+    "options": [
+      "$S(x)=x^2+\\dfrac{200}{x}$",
+      "$S(x)=x^2+\\dfrac{50}{x}$",
+      "$S(x)=4x^2+\\dfrac{200}{x}$",
+      "$S(x)=x^2+200x$"
+    ],
+    "correct_index": 0,
+    "explanation": "$h=\\dfrac{50}{x^2}$; שטח (ללא מכסה) $=x^2+4xh=x^2+4x\\times\\dfrac{50}{x^2}=x^2+\\dfrac{200}{x}$."
+  },
+  {
+    "id": "q-g11-u4-extremum-3d-hard5",
+    "topic_id": "g11-u4-extremum-3d",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "עבור הפונקציה $S(x)=x^2+\\dfrac{200}{x}$ (משאלה קודמת), מהי $S'(x)$?",
+    "options": [
+      "$2x-\\dfrac{200}{x^2}$",
+      "$2x+\\dfrac{200}{x^2}$",
+      "$2x-200$",
+      "$\\dfrac{200}{x^2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$S'(x)=2x-\\dfrac{200}{x^2}$ (נגזרת של $x^2$ היא $2x$, ונגזרת של $200x^{-1}$ היא $-200x^{-2}$)."
+  },
+  {
+    "id": "q-g11-u4-integral-hard1",
+    "topic_id": "g11-u4-integral",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מצאו את השטח הכלוא בין הגרף $y=x^2$ לישר $y=4$ (בין נקודות החיתוך).",
+    "options": [
+      "$\\dfrac{32}{3}$",
+      "$16$",
+      "$\\dfrac{16}{3}$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "נקודות חיתוך: $x^2=4\\Rightarrow x=\\pm2$; שטח $=\\int_{-2}^{2}(4-x^2)\\,dx=\\left[4x-\\dfrac{x^3}{3}\\right]_{-2}^{2}=\\dfrac{16}{3}-\\left(-\\dfrac{16}{3}\\right)=\\dfrac{32}{3}$."
+  },
+  {
+    "id": "q-g11-u4-integral-hard2",
+    "topic_id": "g11-u4-integral",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "ידוע $F'(x)=3x^2-2x$ ו-$F(1)=5$. מהי $F(x)$?",
+    "options": [
+      "$x^3-x^2+5$",
+      "$x^3-x^2+C$",
+      "$3x^3-2x^2+5$",
+      "$x^3-x^2+4$"
+    ],
+    "correct_index": 0,
+    "explanation": "פונקציה קדומה כללית: $F(x)=x^3-x^2+C$; מציבים $F(1)=5$: $1-1+C=5 \\Rightarrow C=5$; $F(x)=x^3-x^2+5$."
+  },
+  {
+    "id": "q-g11-u4-integral-hard3",
+    "topic_id": "g11-u4-integral",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבו את השטח הכלוא בין הגרף $y=x^2-4$ לציר $x$, בתחום $[-2,2]$ (שימו לב: הפונקציה שלילית בקטע זה).",
+    "options": [
+      "$\\dfrac{32}{3}$",
+      "$-\\dfrac{32}{3}$",
+      "$\\dfrac{16}{3}$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "בקטע $[-2,2]$ הפונקציה שלילית ($x^2\\leq4$), ולכן השטח (חיובי) הוא $\\left|\\int_{-2}^{2}(x^2-4)\\,dx\\right|=\\int_{-2}^{2}(4-x^2)\\,dx=\\dfrac{32}{3}$."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-hard1",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נתונה $f(x)=\\dfrac{1}{x-5}$. מהי משוואת האסימפטוטה האנכית והאופקית שלה?",
+    "options": [
+      "$x=5$ ו-$y=0$",
+      "$x=0$ ו-$y=5$",
+      "$x=-5$ ו-$y=0$",
+      "$x=5$ ו-$y=1$"
+    ],
+    "correct_index": 0,
+    "explanation": "אסימפטוטה אנכית באפס המכנה: $x=5$; אסימפטוטה אופקית: כש-$x\\to\\pm\\infty$, $f(x)\\to0$, כלומר $y=0$."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-hard2",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מלבן שהיקפו $40$. עבור אילו מידות שטחו מקסימלי?",
+    "options": [
+      "$10\\times10$ (ריבוע)",
+      "$20\\times0$",
+      "$15\\times5$",
+      "$8\\times12$"
+    ],
+    "correct_index": 0,
+    "explanation": "$l+w=20$; שטח $A(l)=l(20-l)=20l-l^2$; $A'(l)=20-2l=0 \\Rightarrow l=10$; המלבן הופך לריבוע $10\\times10$."
+  },
+  {
+    "id": "q-g11-u4-analysis-review-hard3",
+    "topic_id": "g11-u4-analysis-review",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חשבו $\\displaystyle\\int_1^3(2x-1)\\,dx$.",
+    "options": [
+      "$6$",
+      "$4$",
+      "$8$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\int(2x-1)\\,dx=x^2-x$; $\\left[x^2-x\\right]_1^3=(9-3)-(1-1)=6-0=6$."
+  },
+  {
+    "id": "q-g11-u4-plane-circle-hard1",
+    "topic_id": "g11-u4-plane-circle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במעגל, זווית היקפית $ABC$ נשענת על קשת $AC$ ששיעורה $130°$. מהי הזווית $ABC$?",
+    "options": [
+      "$65°$",
+      "$130°$",
+      "$260°$",
+      "$50°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית היקפית שווה למחצית מידת הקשת: $130\\div2=65°$."
+  },
+  {
+    "id": "q-g11-u4-plane-circle-hard2",
+    "topic_id": "g11-u4-plane-circle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במעגל, שתי זוויות היקפיות שונות (מקודקודים שונים) נשענות על אותה קשת $AB$. זווית אחת היא $42°$. מהי הזווית השנייה?",
+    "options": [
+      "$42°$",
+      "$84°$",
+      "$21°$",
+      "$138°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זוויות היקפיות הנשענות על אותה קשת שוות זו לזו: גם הזווית השנייה היא $42°$."
+  },
+  {
+    "id": "q-g11-u4-plane-circle-hard3",
+    "topic_id": "g11-u4-plane-circle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "משולש $ABC$ חסום במעגל, ו-$AB$ הוא קוטר. אם $\\angle BAC=25°$, כמה שווה $\\angle ACB$?",
+    "options": [
+      "$90°$",
+      "$65°$",
+      "$25°$",
+      "$155°$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכיוון ש-$AB$ קוטר, הזווית הנשענת עליו ($\\angle ACB$, מול הקוטר) היא $90°$ — משפט תאלס."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-hard1",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מנקודה $P$ מחוץ למעגל יוצאים שני משיקים הנוגעים בנקודות $A$ ו-$B$. אם $\\angle APB=50°$, מהי $\\angle AOB$ ($O$ מרכז המעגל)?",
+    "options": [
+      "$130°$",
+      "$50°$",
+      "$100°$",
+      "$180°$"
+    ],
+    "correct_index": 0,
+    "explanation": "במרובע $OAPB$: $\\angle A=\\angle B=90°$ (משיק ניצב לרדיוס); סכום זוויות המרובע $360°$: $\\angle O=360-90-90-50=130°$."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-hard2",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מרובע $ABCD$ חסום במעגל. אם $\\angle A=75°$, מהי $\\angle C$?",
+    "options": [
+      "$105°$",
+      "$75°$",
+      "$180°$",
+      "$285°$"
+    ],
+    "correct_index": 0,
+    "explanation": "במרובע חסום במעגל, סכום כל זוג זוויות נגדיות הוא $180°$: $\\angle C=180-75=105°$."
+  },
+  {
+    "id": "q-g11-u4-circle-tangents-hard3",
+    "topic_id": "g11-u4-circle-tangents",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "משני משיקים מקבילים למעגל, נקודות ההשקה הן $A$ ו-$B$. אם רדיוס המעגל הוא $6$ ס\"מ, מה אורך הקטע $AB$?",
+    "options": [
+      "$12$ ס\"מ",
+      "$6$ ס\"מ",
+      "$3$ ס\"מ",
+      "$18$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "כאשר שני משיקים מקבילים, הקטע המחבר את נקודות ההשקה הוא קוטר: $2\\times6=12$ ס\"מ."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-hard1",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$, $a=10$, $\\angle A=30°$, ו-$\\angle B=45°$. מהו $b$ (לפי משפט הסינוסים)?",
+    "options": [
+      "$10\\sqrt2$",
+      "$10$",
+      "$5\\sqrt2$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי משפט הסינוסים: $\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A} \\Rightarrow b=\\dfrac{10\\times\\sin45°}{\\sin30°}=\\dfrac{10\\times\\frac{\\sqrt2}{2}}{\\frac12}=10\\sqrt2$."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-hard2",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$, $a=8$, $b=5$, וזווית $C=60°$ ביניהן. מה שטח המשולש?",
+    "options": [
+      "$10\\sqrt3$",
+      "$20\\sqrt3$",
+      "$40$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח $=\\frac{1}{2}\\times8\\times5\\times\\sin60°=20\\times\\frac{\\sqrt3}{2}=10\\sqrt3$."
+  },
+  {
+    "id": "q-g11-u4-trig-sine-hard3",
+    "topic_id": "g11-u4-trig-sine",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במעגל שרדיוסו $R=7$, משולש חסום עם זווית $A=30°$ מול צלע $a$. מהו אורך $a$?",
+    "options": [
+      "$7$",
+      "$14$",
+      "$3.5$",
+      "$21$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי משפט הסינוסים: $a=2R\\sin A=2\\times7\\times\\sin30°=14\\times0.5=7$."
+  },
+  {
+    "id": "q-g11-u4-analytic-circle-hard1",
+    "topic_id": "g11-u4-analytic-circle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מעגל שמשוואתו $(x-2)^2+(y+3)^2=25$. מהו מרכזו ומהו רדיוסו?",
+    "options": [
+      "מרכז $(2,-3)$, רדיוס $5$",
+      "מרכז $(-2,3)$, רדיוס $5$",
+      "מרכז $(2,-3)$, רדיוס $25$",
+      "מרכז $(2,3)$, רדיוס $5$"
+    ],
+    "correct_index": 0,
+    "explanation": "בהשוואה ל-$(x-a)^2+(y-b)^2=R^2$: מרכז $(2,-3)$, ו-$R^2=25 \\Rightarrow R=5$."
+  },
+  {
+    "id": "q-g11-u4-analytic-circle-hard2",
+    "topic_id": "g11-u4-analytic-circle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מעגל במרכז הראשית עם רדיוס $5$. מה משוואתו?",
+    "options": [
+      "$x^2+y^2=25$",
+      "$x^2+y^2=5$",
+      "$(x-5)^2+y^2=25$",
+      "$x^2+y^2=10$"
+    ],
+    "correct_index": 0,
+    "explanation": "מעגל במרכז הראשית עם רדיוס $5$: $x^2+y^2=5^2=25$."
+  },
+  {
+    "id": "q-g11-u4-analytic-circle-hard3",
+    "topic_id": "g11-u4-analytic-circle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מעגל $x^2+y^2=13$ והישר $y=x+1$. באיזה מצב הדדי הם נמצאים?",
+    "options": [
+      "חותך את המעגל בשתי נקודות",
+      "משיק למעגל (נקודה אחת)",
+      "אינו נפגש עם המעגל",
+      "עובר דרך מרכז המעגל"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים: $x^2+(x+1)^2=13 \\Rightarrow 2x^2+2x-12=0 \\Rightarrow x^2+x-6=0 \\Rightarrow (x+3)(x-2)=0$ — שני פתרונות, כלומר הישר חותך את המעגל בשתי נקודות."
+  },
+  {
+    "id": "q-g11-u4-analytic-circle-hard4",
+    "topic_id": "g11-u4-analytic-circle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי משוואת המעגל שמרכזו $(0,0)$ ורדיוסו $6$?",
+    "options": [
+      "$x^2+y^2=36$",
+      "$x^2+y^2=6$",
+      "$x^2+y^2=12$",
+      "$(x-6)^2+y^2=0$"
+    ],
+    "correct_index": 0,
+    "explanation": "מעגל במרכז הראשית עם רדיוס $6$: $x^2+y^2=6^2=36$."
+  },
+  {
+    "id": "q-g11-u4-analytic-circle-hard5",
+    "topic_id": "g11-u4-analytic-circle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו מרכז ורדיוס המעגל $(x+1)^2+(y-4)^2=9$?",
+    "options": [
+      "מרכז $(-1,4)$, רדיוס $3$",
+      "מרכז $(1,-4)$, רדיוס $3$",
+      "מרכז $(-1,4)$, רדיוס $9$",
+      "מרכז $(1,4)$, רדיוס $3$"
+    ],
+    "correct_index": 0,
+    "explanation": "בהשוואה לצורה הכללית: מרכז $(-1,4)$, ו-$R^2=9 \\Rightarrow R=3$."
+  },
+  {
+    "id": "q-g11-u4-analytic-circle-hard6",
+    "topic_id": "g11-u4-analytic-circle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מעגל שמרכזו $(3,0)$ משיק לציר $y$. מהו רדיוסו?",
+    "options": [
+      "$3$",
+      "$0$",
+      "$6$",
+      "$9$"
+    ],
+    "correct_index": 0,
+    "explanation": "מעגל משיק לציר $y$ כאשר $|a|=R$ (המרחק ממרכזו לציר שווה לרדיוס): $R=|3|=3$."
+  },
+  {
+    "id": "q-g11-u4-analytic-circle-hard7",
+    "topic_id": "g11-u4-analytic-circle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מעגל שמשוואתו $x^2+y^2-6x+4y-12=0$. מהו מרכזו? (רמז: השלימו לריבוע)",
+    "options": [
+      "$(3,-2)$",
+      "$(-3,2)$",
+      "$(6,-4)$",
+      "$(3,2)$"
+    ],
+    "correct_index": 0,
+    "explanation": "משלימים לריבוע: $(x-3)^2-9+(y+2)^2-4=12 \\Rightarrow (x-3)^2+(y+2)^2=25$; מרכז $(3,-2)$."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-hard1",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "משולש $ABC$ חסום במעגל שרדיוסו $R=8$. אם $\\angle C=90°$, מהו אורך הצלע $AB$ (היתר)?",
+    "options": [
+      "$16$",
+      "$8$",
+      "$4$",
+      "$32$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית היקפית ישרה נשענת תמיד על קוטר; לכן $AB$ הוא הקוטר: $AB=2R=16$."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-hard2",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מעגל שמשוואתו $x^2+y^2=10$, וישר $y=3x-10$. מהו המצב ההדדי ביניהם?",
+    "options": [
+      "משיק למעגל ($d=R$)",
+      "חותך בשתי נקודות ($d<R$)",
+      "אינו נפגש ($d>R$)",
+      "עובר דרך המרכז"
+    ],
+    "correct_index": 0,
+    "explanation": "מרחק המרכז $(0,0)$ מהישר $3x-y-10=0$: $d=\\dfrac{|3\\times0-0-10|}{\\sqrt{3^2+(-1)^2}}=\\dfrac{10}{\\sqrt{10}}=\\sqrt{10}$; רדיוס $R=\\sqrt{10}$; מכיוון ש-$d=R$, הישר משיק למעגל."
+  },
+  {
+    "id": "q-g11-u4-geometry-review-hard3",
+    "topic_id": "g11-u4-geometry-review",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במשולש $a=6$, $b=6$, וזווית $C=120°$ ביניהן. מה שטחו?",
+    "options": [
+      "$9\\sqrt3$",
+      "$18\\sqrt3$",
+      "$36$",
+      "$18$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח $=\\frac{1}{2}\\times6\\times6\\times\\sin120°=18\\times\\frac{\\sqrt3}{2}=9\\sqrt3$."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-hard1",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בהתפלגות נורמלית, ממוצע $\\bar{x}=70$ וסטיית תקן $\\sigma=5$. מהו ציון התקן של $x=82$?",
+    "options": [
+      "$2.4$",
+      "$12$",
+      "$0.4$",
+      "$16.4$"
+    ],
+    "correct_index": 0,
+    "explanation": "$z=\\dfrac{82-70}{5}=\\dfrac{12}{5}=2.4$."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-hard2",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בהתפלגות נורמלית, ממוצע $\\bar{x}=100$. ידוע שציון התקן של הערך $130$ הוא $z=1.5$. מהי סטיית התקן?",
+    "options": [
+      "$20$",
+      "$1.5$",
+      "$15$",
+      "$30$"
+    ],
+    "correct_index": 0,
+    "explanation": "$1.5=\\dfrac{130-100}{\\sigma}=\\dfrac{30}{\\sigma} \\Rightarrow \\sigma=\\dfrac{30}{1.5}=20$."
+  },
+  {
+    "id": "q-g11-u4-normal-dist-hard3",
+    "topic_id": "g11-u4-normal-dist",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "תלמיד א' קיבל $85$ במבחן שממוצעו $75$ וסטיית התקן שלו $10$; תלמיד ב' קיבל $90$ במבחן שממוצעו $80$ וסטיית התקן שלו $8$. מי הישיג הישג טוב יותר ביחס לקבוצתו?",
+    "options": [
+      "תלמיד ב' (ציון תקן גבוה יותר)",
+      "תלמיד א'",
+      "שניהם שווים",
+      "אי אפשר לדעת בלי עוד נתונים"
+    ],
+    "correct_index": 0,
+    "explanation": "$z_A=\\dfrac{85-75}{10}=1$; $z_B=\\dfrac{90-80}{8}=1.25$; מכיוון ש-$z_B>z_A$, תלמיד ב' הישיג יחסית טוב יותר ביחס לקבוצתו."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-hard1",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מקדם המתאם בין שני משתנים הוא $r=-0.85$. מה ניתן לומר על הקשר ביניהם?",
+    "options": [
+      "קשר לינארי שלילי חזק",
+      "קשר לינארי חיובי חזק",
+      "אין קשר לינארי כלל",
+      "קשר לינארי שלילי חלש"
+    ],
+    "correct_index": 0,
+    "explanation": "$r$ קרוב ל-$-1$ (שלילי וגדול בערכו המוחלט) — קשר לינארי שלילי חזק (כשמשתנה אחד עולה, השני נוטה לרדת)."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-hard2",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "קו הרגרסיה של $y$ על $x$ הוא $y=2x+3$. אם $\\bar{x}=4$, מהו $\\bar{y}$?",
+    "options": [
+      "$11$",
+      "$7$",
+      "$4$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "קו הרגרסיה עובר תמיד דרך נקודת הממוצעים: $\\bar{y}=2\\times4+3=11$."
+  },
+  {
+    "id": "q-g11-u4-correlation-regression-hard3",
+    "topic_id": "g11-u4-correlation-regression",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "ידוע ש-$S_x=4$, $S_y=9$, ומקדם המתאם $r=0.6$. מהו שיפוע קו הרגרסיה?",
+    "options": [
+      "$1.35$",
+      "$0.6$",
+      "$2.25$",
+      "$5.4$"
+    ],
+    "correct_index": 0,
+    "explanation": "$b=r\\times\\dfrac{S_y}{S_x}=0.6\\times\\dfrac{9}{4}=0.6\\times2.25=1.35$."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-hard1",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "ממוצע ציוני מבחן הוא $75$, סטיית תקן $8$. איזה ציון גולמי מתאים לציון תקן $z=-1.5$?",
+    "options": [
+      "$63$",
+      "$87$",
+      "$76.5$",
+      "$60$"
+    ],
+    "correct_index": 0,
+    "explanation": "$x=\\bar{x}+z\\times\\sigma=75+(-1.5)\\times8=75-12=63$."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-hard2",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מקדם המתאם בין שני משתנים הוא $r=0$. איזו מסקנה נכונה?",
+    "options": [
+      "אין קשר לינארי, אך יתכן קשר לא-לינארי חזק",
+      "אין שום קשר בין המשתנים, בכל צורה שהיא",
+      "המשתנים בלתי תלויים בהכרח",
+      "קיים קשר לינארי חלש אך קיים"
+    ],
+    "correct_index": 0,
+    "explanation": "$r=0$ שולל קשר לינארי בלבד; ייתכן בהחלט קשר לא-לינארי (כמו ריבועי) חזק בין המשתנים."
+  },
+  {
+    "id": "q-g11-u4-normal-regression-hard3",
+    "topic_id": "g11-u4-normal-regression",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בכיתה, ממוצע גובה התלמידים $165$ ס\"מ עם סטיית תקן $7$ ס\"מ. תלמיד שגובהו $172$ ס\"מ. איזה אחוז בקירוב מהתלמידים נמוכים ממנו, בהתפלגות נורמלית, אם $P(Z<1)\\approx84\\%$?",
+    "options": [
+      "כ-$84\\%$",
+      "כ-$50\\%$",
+      "כ-$16\\%$",
+      "כ-$100\\%$"
+    ],
+    "correct_index": 0,
+    "explanation": "$z=\\dfrac{172-165}{7}=1$; לפי הנתון $P(Z<1)\\approx84\\%$ — כ-$84\\%$ מהתלמידים נמוכים ממנו."
+  }
 ]
 export function getQuestionsForTopic(topicId) {
   return QUESTIONS.filter((q) => q.topic_id === topicId);
