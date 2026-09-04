@@ -27576,6 +27576,2257 @@ export const ELEMENTARY_QUESTIONS = [
     "correct_index": 0,
     "explanation": "ככל שיש למצולע המשוכלל יותר צלעות, הזווית הפנימית שלו גדלה מעבר ל-$120°$ — ואף כפולה שלמה שלה (החל משלוש צורות) לא נותנת בדיוק $360°$, מלבד המקרים המיוחדים של $60°,90°,120°$."
   }
+,
+  {
+    "id": "q-g6-signed-1",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר גדול יותר: $3$ או $-5$?",
+    "options": [
+      "$3$",
+      "$-5$",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "כל מספר חיובי גדול מכל מספר שלילי."
+  },
+  {
+    "id": "q-g6-signed-2",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה הנגדי של $7$?",
+    "options": [
+      "$-7$",
+      "$7$",
+      "$0$",
+      "$-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "הנגדי של מספר הוא אותו מרחק מ-$0$, בכיוון הפוך: הנגדי של $7$ הוא $-7$."
+  },
+  {
+    "id": "q-g6-signed-3",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "טמפרטורה של $-3°$ מתארת:",
+    "options": [
+      "$3$ מעלות מתחת לאפס",
+      "$3$ מעלות מעל האפס",
+      "בדיוק אפס מעלות",
+      "אי אפשר לדעת בלי הקשר"
+    ],
+    "correct_index": 0,
+    "explanation": "הסימן השלילי מתאר טמפרטורה מתחת לאפס."
+  },
+  {
+    "id": "q-g6-signed-4",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $|-8|$?",
+    "options": [
+      "$8$",
+      "$-8$",
+      "$0$",
+      "$16$"
+    ],
+    "correct_index": 0,
+    "explanation": "ערך מוחלט הוא המרחק מ-$0$, תמיד אי-שלילי: $|-8|=8$."
+  },
+  {
+    "id": "q-g6-signed-5",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה מספר קטן יותר: $-2$ או $-9$?",
+    "options": [
+      "$-9$",
+      "$-2$",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "על ציר המספרים $-9$ נמצא משמאל ל-$-2$, ולכן הוא קטן יותר."
+  },
+  {
+    "id": "q-g6-signed-6",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בבניין יש קומת חניון מתחת לקרקע, המסומנת $-1$. איזו קומה גבוהה יותר: $-1$ או $2$?",
+    "options": [
+      "$2$",
+      "$-1$",
+      "שוות",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "קומה $2$ מעל הקרקע גבוהה יותר מקומה $-1$ מתחת לקרקע."
+  },
+  {
+    "id": "q-g6-signed-7",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "סדרו מהקטן לגדול: $-4,\\ 2,\\ -1$.",
+    "options": [
+      "$-4<-1<2$",
+      "$2<-1<-4$",
+      "$-1<-4<2$",
+      "$-4<2<-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "על ציר המספרים, $-4$ הכי שמאלי, אחריו $-1$, ואז $2$."
+  },
+  {
+    "id": "q-g6-signed-8",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $|-6|+|-2|$?",
+    "options": [
+      "$8$",
+      "$4$",
+      "$-8$",
+      "$-4$"
+    ],
+    "correct_index": 0,
+    "explanation": "$|-6|=6$ ו-$|-2|=2$; $6+2=8$."
+  },
+  {
+    "id": "q-g6-signed-9",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו הנגדי של $|-9|$?",
+    "options": [
+      "$-9$",
+      "$9$",
+      "$0$",
+      "$-18$"
+    ],
+    "correct_index": 0,
+    "explanation": "$|-9|=9$, והנגדי של $9$ הוא $-9$."
+  },
+  {
+    "id": "q-g6-signed-10",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מהמספרים הבאים רחוק ביותר מ-$0$ על ציר המספרים: $-12,\\ 5,\\ -8$?",
+    "options": [
+      "$-12$",
+      "$5$",
+      "$-8$",
+      "כולם באותו מרחק"
+    ],
+    "correct_index": 0,
+    "explanation": "המרחק מ-$0$ הוא הערך המוחלט: $|-12|=12$, $|5|=5$, $|-8|=8$ — $12$ הגדול ביותר."
+  },
+  {
+    "id": "q-g6-signed-11",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בבנק, יתרה של $-350$ ש\"ח אומרת:",
+    "options": [
+      "חוב של $350$ ש\"ח",
+      "זכות של $350$ ש\"ח",
+      "אין בכלל כסף בחשבון",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "יתרה שלילית בבנק מתארת חוב."
+  },
+  {
+    "id": "q-g6-signed-12",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "איזה מספר נמצא בדיוק באמצע (מרחק שווה) בין $-6$ ל-$4$ על ציר המספרים?",
+    "options": [
+      "$-1$",
+      "$1$",
+      "$-2$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "האמצע בין $-6$ ל-$4$: $\\frac{-6+4}{2}=\\frac{-2}{2}=-1$."
+  },
+  {
+    "id": "q-g6-signed-13",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כמה מספרים שלמים יש בין $-4$ ל-$3$ (לא כולל את הקצוות)?",
+    "options": [
+      "$6$",
+      "$7$",
+      "$8$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "המספרים השלמים בין $-4$ ל-$3$ (לא כולל) הם $-3,-2,-1,0,1,2$ — סך הכול $6$."
+  },
+  {
+    "id": "q-g6-signed-14",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "טמפרטורה הייתה $-5°$ בבוקר ועלתה ל-$3°$ בצהריים. בכמה מעלות עלתה הטמפרטורה?",
+    "options": [
+      "$8°$",
+      "$2°$",
+      "$-2°$",
+      "$-8°$"
+    ],
+    "correct_index": 0,
+    "explanation": "המרחק בין $-5$ ל-$3$ על ציר המספרים הוא $3-(-5)=8$ מעלות."
+  },
+  {
+    "id": "q-g6-signed-15",
+    "topic_id": "g6-signed-numbers",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מי גדול יותר: $-15$ או $|-10|$?",
+    "options": [
+      "$|-10|$",
+      "$-15$",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "$|-10|=10$, וכל מספר חיובי גדול מכל מספר שלילי, כך ש-$10>-15$."
+  },
+  {
+    "id": "q-g6-numsys-1",
+    "topic_id": "g6-number-systems",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה ספרות שונות יש בשיטה העשרונית (בסיס $10$)?",
+    "options": [
+      "$10$",
+      "$9$",
+      "$5$",
+      "$2$"
+    ],
+    "correct_index": 0,
+    "explanation": "בבסיס $10$ יש $10$ ספרות שונות: $0$ עד $9$."
+  },
+  {
+    "id": "q-g6-numsys-2",
+    "topic_id": "g6-number-systems",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה ספרות שונות יש בשיטה הבינארית (בסיס $2$)?",
+    "options": [
+      "$2$",
+      "$10$",
+      "$1$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "בבסיס $2$ יש רק שתי ספרות: $0$ ו-$1$."
+  },
+  {
+    "id": "q-g6-numsys-3",
+    "topic_id": "g6-number-systems",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בבסיס $10$, איזה מקום שווה פי $10$ מהמקום שמימינו?",
+    "options": [
+      "כל מקום",
+      "רק העשרות",
+      "רק המאות",
+      "אף מקום"
+    ],
+    "correct_index": 0,
+    "explanation": "בשיטה העשרונית, כל מקום שווה פי $10$ מהמקום שמימינו — זו תכונת \"ערך-מקום\"."
+  },
+  {
+    "id": "q-g6-numsys-4",
+    "topic_id": "g6-number-systems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בבסיס $2$, איזה ערך שווה המקום השני מימין (אחרי היחידות)?",
+    "options": [
+      "$2$",
+      "$10$",
+      "$1$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "בבינארי המקומות הם $1,2,4,8...$ (חזקות של $2$); המקום השני הוא $2$."
+  },
+  {
+    "id": "q-g6-numsys-5",
+    "topic_id": "g6-number-systems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $10_2$ (בבסיס $2$) בעשרוני?",
+    "options": [
+      "$2$",
+      "$10$",
+      "$1$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "$10_2=1\\times2+0\\times1=2$."
+  },
+  {
+    "id": "q-g6-numsys-6",
+    "topic_id": "g6-number-systems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בבסיס $5$, אילו ספרות מותר להשתמש בהן?",
+    "options": [
+      "$0,1,2,3,4$",
+      "$0,1,2,3,4,5$",
+      "$1,2,3,4,5$",
+      "$0$ עד $9$"
+    ],
+    "correct_index": 0,
+    "explanation": "בבסיס $5$ יש $5$ ספרות אפשריות: $0$ עד $4$ (הספרה $5$ כבר לא קיימת — היא כבר \"מקום\" חדש)."
+  },
+  {
+    "id": "q-g6-numsys-7",
+    "topic_id": "g6-number-systems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $101_2$ בעשרוני?",
+    "options": [
+      "$5$",
+      "$101$",
+      "$4$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$101_2=1\\times4+0\\times2+1\\times1=5$."
+  },
+  {
+    "id": "q-g6-numsys-8",
+    "topic_id": "g6-number-systems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $23_5$ (בבסיס $5$) בעשרוני?",
+    "options": [
+      "$13$",
+      "$23$",
+      "$10$",
+      "$15$"
+    ],
+    "correct_index": 0,
+    "explanation": "$23_5=2\\times5+3\\times1=13$."
+  },
+  {
+    "id": "q-g6-numsys-9",
+    "topic_id": "g6-number-systems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו $1100_2$ בעשרוני?",
+    "options": [
+      "$12$",
+      "$1100$",
+      "$14$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "$1100_2=1\\times8+1\\times4+0\\times2+0\\times1=12$."
+  },
+  {
+    "id": "q-g6-numsys-10",
+    "topic_id": "g6-number-systems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $11_2$?",
+    "options": [
+      "$3$",
+      "$11$",
+      "$2$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "$11_2=1\\times2+1\\times1=3$."
+  },
+  {
+    "id": "q-g6-numsys-11",
+    "topic_id": "g6-number-systems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $32_5$ בעשרוני?",
+    "options": [
+      "$17$",
+      "$32$",
+      "$15$",
+      "$19$"
+    ],
+    "correct_index": 0,
+    "explanation": "$32_5=3\\times5+2\\times1=17$."
+  },
+  {
+    "id": "q-g6-numsys-12",
+    "topic_id": "g6-number-systems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהו $10000_2$ בעשרוני?",
+    "options": [
+      "$16$",
+      "$10000$",
+      "$8$",
+      "$32$"
+    ],
+    "correct_index": 0,
+    "explanation": "$10000_2=1\\times16=16$ (המקום החמישי מימין בבינארי שווה $16$)."
+  },
+  {
+    "id": "q-g6-numsys-13",
+    "topic_id": "g6-number-systems",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו המספר $19$ (עשרוני) בבסיס $2$?",
+    "options": [
+      "$10011$",
+      "$10001$",
+      "$11001$",
+      "$10111$"
+    ],
+    "correct_index": 0,
+    "explanation": "$19=16+2+1=1\\times16+0\\times8+0\\times4+1\\times2+1\\times1=10011_2$."
+  },
+  {
+    "id": "q-g6-numsys-14",
+    "topic_id": "g6-number-systems",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו המספר $12$ (עשרוני) בבסיס $5$?",
+    "options": [
+      "$22$",
+      "$12$",
+      "$21$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "$12\\div5=2$ שארית $2$; לכן $12=2\\times5+2$, כלומר $22_5$."
+  },
+  {
+    "id": "q-g6-numsys-15",
+    "topic_id": "g6-number-systems",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מדוע בבסיס $2$ אין ספרה \"$2$\"?",
+    "options": [
+      "כי ברגע שמגיעים ל-$2$ יחידות, עוברים למקום חדש (בדיוק כמו שבבסיס $10$ אין ספרה \"$10$\")",
+      "כי אף אחד לא צריך אותה",
+      "כי המחשב לא מבין אותה",
+      "כי זו טעות בשיטה"
+    ],
+    "correct_index": 0,
+    "explanation": "בכל בסיס $b$, ברגע שמגיעים לערך $b$ באותו מקום, \"עוברים\" למקום הבא — בדיוק כמו שבעשרוני $10$ יחידות הופכות ל-$1$ עשרת."
+  },
+  {
+    "id": "q-g6-numline-1",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כדי לסמן את $\\frac{1}{4}$ בדיוק על ציר המספרים בין $0$ ל-$1$, לכמה חלקים שווים מחלקים את הקטע?",
+    "options": [
+      "$4$",
+      "$1$",
+      "$2$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחלקים את הקטע למספר חלקים שווה למכנה השבר — $4$."
+  },
+  {
+    "id": "q-g6-numline-2",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה מספר נמצא יותר ימינה על ציר המספרים: $0.7$ או $0.4$?",
+    "options": [
+      "$0.7$",
+      "$0.4$",
+      "שניהם באותו מקום",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "$0.7>0.4$, ולכן הוא נמצא יותר ימינה על הציר."
+  },
+  {
+    "id": "q-g6-numline-3",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בין $0$ ל-$1$ על ציר המספרים, איפה בערך נמצא $0.5$?",
+    "options": [
+      "בדיוק באמצע",
+      "קרוב ל-$0$",
+      "קרוב ל-$1$",
+      "מחוץ לקטע"
+    ],
+    "correct_index": 0,
+    "explanation": "$0.5$ הוא בדיוק חצי הדרך בין $0$ ל-$1$."
+  },
+  {
+    "id": "q-g6-numline-4",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "איזה שבר גדול יותר: $\\frac{3}{4}$ או $0.7$?",
+    "options": [
+      "$\\frac{3}{4}$",
+      "$0.7$",
+      "שווים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{3}{4}=0.75$, וזה גדול מ-$0.7$."
+  },
+  {
+    "id": "q-g6-numline-5",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כדי לסמן $\\frac{5}{6}$ על הציר, לכמה חלקים שווים מחלקים את הקטע בין $0$ ל-$1$?",
+    "options": [
+      "$6$",
+      "$5$",
+      "$1$",
+      "$11$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחלקים ל-$6$ חלקים שווים (המכנה) ולוקחים $5$ מהם."
+  },
+  {
+    "id": "q-g6-numline-6",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו מספר רציונלי הנמצא בדיוק בין $0.4$ ל-$0.6$ על הציר?",
+    "options": [
+      "$0.5$",
+      "$0.45$",
+      "$0.55$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$0.5$ נמצא באמצע בדיוק בין $0.4$ ל-$0.6$."
+  },
+  {
+    "id": "q-g6-numline-7",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו מספר רציונלי הנמצא בין $0.2$ ל-$0.3$?",
+    "options": [
+      "$0.25$",
+      "$0.15$",
+      "$0.35$",
+      "$0.1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$0.25$ נמצא בדיוק בין $0.2$ ל-$0.3$ (וזו רק דוגמה אחת מתוך אינסוף אפשרויות)."
+  },
+  {
+    "id": "q-g6-numline-8",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כמה מספרים רציונליים יש בין $\\frac{1}{3}$ ל-$\\frac{1}{2}$?",
+    "options": [
+      "אינסוף",
+      "אף אחד",
+      "בדיוק אחד",
+      "בדיוק שניים"
+    ],
+    "correct_index": 0,
+    "explanation": "בין כל שני מספרים רציונליים שונים יש תמיד אינסוף מספרים רציונליים נוספים."
+  },
+  {
+    "id": "q-g6-numline-9",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם יש מספר טבעי בין $3$ ל-$4$ (לא כולל)?",
+    "options": [
+      "לא, אין אף מספר טבעי ביניהם",
+      "כן, יש בדיוק אחד",
+      "כן, יש אינסוף",
+      "רק $3.5$ נחשב טבעי"
+    ],
+    "correct_index": 0,
+    "explanation": "למספרים הטבעיים יש \"עוקב\" ברור — אחרי $3$ בא מיד $4$, בלי מספרים טבעיים ביניהם."
+  },
+  {
+    "id": "q-g6-numline-10",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מהי הדרך הקלה ביותר להשוות $\\frac{2}{5}$ ו-$0.42$?",
+    "options": [
+      "להפוך את $\\frac{2}{5}$ לשבר עשרוני ($0.4$) ולהשוות ל-$0.42$",
+      "להשוות רק את המונים",
+      "להשוות רק את המכנים",
+      "אי אפשר להשוות שברים לעשרוניים"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{2}{5}=0.4$, שקטן מ-$0.42$ — הפיכת שניהם לאותה צורה (עשרונית) מאפשרת השוואה ישירה."
+  },
+  {
+    "id": "q-g6-numline-11",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בין אילו שני מספרים עשרוניים \"עגולים\" (בעשיריות) נמצא $\\frac{7}{8}$?",
+    "options": [
+      "$0.8$ ל-$0.9$",
+      "$0.6$ ל-$0.7$",
+      "$0.9$ ל-$1$",
+      "$0$ ל-$0.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{7}{8}=0.875$, שנמצא בין $0.8$ ל-$0.9$."
+  },
+  {
+    "id": "q-g6-numline-12",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מצאו מספר רציונלי הנמצא בין $\\frac{1}{2}$ ל-$\\frac{2}{3}$.",
+    "options": [
+      "$0.6$",
+      "$0.5$",
+      "$0.7$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{2}=0.5$ ו-$\\frac{2}{3}\\approx0.667$; $0.6$ נמצא בדיוק ביניהם."
+  },
+  {
+    "id": "q-g6-numline-13",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מה ההבדל המהותי בין המספרים הטבעיים למספרים הרציונליים מבחינת \"צפיפות\"?",
+    "options": [
+      "לרציונליים אין עוקב ברור — תמיד יש עוד מספר ביניהם; לטבעיים כן יש עוקב",
+      "לטבעיים אין עוקב; לרציונליים כן",
+      "שניהם צפופים באותה מידה",
+      "אין הבדל כלל"
+    ],
+    "correct_index": 0,
+    "explanation": "במספרים טבעיים לכל מספר יש עוקב מוגדר (למשל אחרי $5$ בא $6$); ברציונליים, בין כל שני מספרים תמיד יש עוד מספר, ולכן אין \"עוקב\" מוגדר."
+  },
+  {
+    "id": "q-g6-numline-14",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מהו מספר רציונלי הנמצא בין $0.33$ ל-$0.34$?",
+    "options": [
+      "$0.335$",
+      "$0.32$",
+      "$0.35$",
+      "$0.3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$0.335$ נמצא בדיוק בין $0.33$ ל-$0.34$."
+  },
+  {
+    "id": "q-g6-numline-15",
+    "topic_id": "g6-number-line-density",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "תהליך שבו מוצאים שוב ושוב מספר בין שני מספרים נתונים (ואז בין התוצאה לאחד הקצוות, וכן הלאה) יכול להימשך:",
+    "options": [
+      "לנצח — אינסוף פעמים, בלי להגיע לסוף",
+      "רק $3$ פעמים לכל היותר",
+      "עד שמגיעים למספר $0$",
+      "רק פעם אחת"
+    ],
+    "correct_index": 0,
+    "explanation": "בגלל צפיפות המספרים הרציונליים, תהליך כזה יכול להימשך לנצח, בלי שיגיע אי-פעם לקצה."
+  },
+  {
+    "id": "q-g6-ratio-1",
+    "topic_id": "g6-ratio",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בכיתה $10$ בנות ו-$15$ בנים. מה היחס בין בנות לבנים?",
+    "options": [
+      "$10:15$",
+      "$15:10$",
+      "$10:25$",
+      "$25:10$"
+    ],
+    "correct_index": 0,
+    "explanation": "היחס בין בנות לבנים הוא $10:15$ (מספר הבנות למספר הבנים)."
+  },
+  {
+    "id": "q-g6-ratio-2",
+    "topic_id": "g6-ratio",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "צמצמו את היחס $6:9$.",
+    "options": [
+      "$2:3$",
+      "$3:2$",
+      "$6:9$",
+      "$1:3$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחלקים את שני האגפים ב-$3$: $6\\div3:9\\div3=2:3$."
+  },
+  {
+    "id": "q-g6-ratio-3",
+    "topic_id": "g6-ratio",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם היחס $4:6$ שווה ליחס $2:3$?",
+    "options": [
+      "כן",
+      "לא",
+      "רק אם המספרים שונים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "$4:6$ מצומצם הוא $2:3$ — אותו יחס בדיוק."
+  },
+  {
+    "id": "q-g6-ratio-4",
+    "topic_id": "g6-ratio",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "צמצמו את היחס $15:20$.",
+    "options": [
+      "$3:4$",
+      "$4:3$",
+      "$5:4$",
+      "$15:20$"
+    ],
+    "correct_index": 0,
+    "explanation": "המחלק המשותף הגדול ביותר הוא $5$: $15\\div5:20\\div5=3:4$."
+  },
+  {
+    "id": "q-g6-ratio-5",
+    "topic_id": "g6-ratio",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם $3:4=9:x$, מהו $x$?",
+    "options": [
+      "$12$",
+      "$9$",
+      "$3$",
+      "$16$"
+    ],
+    "correct_index": 0,
+    "explanation": "מ-$3$ ל-$9$ הכפילו פי $3$; לכן גם $4$ מוכפל פי $3$: $x=12$."
+  },
+  {
+    "id": "q-g6-ratio-6",
+    "topic_id": "g6-ratio",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אם $2:5=6:x$, מהו $x$?",
+    "options": [
+      "$15$",
+      "$10$",
+      "$6$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "מ-$2$ ל-$6$ הכפילו פי $3$; לכן $x=5\\times3=15$."
+  },
+  {
+    "id": "q-g6-ratio-7",
+    "topic_id": "g6-ratio",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מחלקים $30$ סוכריות בין שני ילדים ביחס $2:3$. כמה סוכריות מקבל כל ילד?",
+    "options": [
+      "$12$ ו-$18$",
+      "$15$ ו-$15$",
+      "$10$ ו-$20$",
+      "$6$ ו-$24$"
+    ],
+    "correct_index": 0,
+    "explanation": "$2+3=5$ חלקים; כל חלק $=30\\div5=6$; לכן $2\\times6=12$ ו-$3\\times6=18$."
+  },
+  {
+    "id": "q-g6-ratio-8",
+    "topic_id": "g6-ratio",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מחלקים $40$ ש\"ח בין שני ילדים ביחס $3:5$. כמה מקבל הילד עם החלק הגדול?",
+    "options": [
+      "$25$",
+      "$15$",
+      "$20$",
+      "$35$"
+    ],
+    "correct_index": 0,
+    "explanation": "$3+5=8$ חלקים; כל חלק $=40\\div8=5$; החלק הגדול $=5\\times5=25$."
+  },
+  {
+    "id": "q-g6-ratio-9",
+    "topic_id": "g6-ratio",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ביחס $5:7$, אם המספר הקטן הוא $20$, מהו המספר הגדול?",
+    "options": [
+      "$28$",
+      "$25$",
+      "$35$",
+      "$14$"
+    ],
+    "correct_index": 0,
+    "explanation": "מ-$5$ ל-$20$ הכפילו פי $4$; לכן המספר הגדול $=7\\times4=28$."
+  },
+  {
+    "id": "q-g6-ratio-10",
+    "topic_id": "g6-ratio",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מחלקים כמות בין שלושה ילדים ביחס $1:2:3$. אם הכמות הכוללת היא $60$, כמה מקבל הילד עם החלק הגדול ביותר?",
+    "options": [
+      "$30$",
+      "$20$",
+      "$10$",
+      "$40$"
+    ],
+    "correct_index": 0,
+    "explanation": "$1+2+3=6$ חלקים; כל חלק $=60\\div6=10$; החלק הגדול $=3\\times10=30$."
+  },
+  {
+    "id": "q-g6-ratio-11",
+    "topic_id": "g6-ratio",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "ביחס $4:9$, אם ההפרש בין שני המספרים הוא $25$, מהם שני המספרים?",
+    "options": [
+      "$20$ ו-$45$",
+      "$25$ ו-$50$",
+      "$16$ ו-$36$",
+      "$10$ ו-$35$"
+    ],
+    "correct_index": 0,
+    "explanation": "ההפרש ביחס הוא $9-4=5$ חלקים, שווה ל-$25$; כל חלק $=5$; המספרים הם $4\\times5=20$ ו-$9\\times5=45$."
+  },
+  {
+    "id": "q-g6-ratio-12",
+    "topic_id": "g6-ratio",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מתכון דורש קמח וסוכר ביחס $3:1$. אם משתמשים ב-$450$ גרם קמח, כמה גרם סוכר צריך?",
+    "options": [
+      "$150$ גרם",
+      "$450$ גרם",
+      "$300$ גרם",
+      "$50$ גרם"
+    ],
+    "correct_index": 0,
+    "explanation": "$450\\div3=150$ (ערך של \"חלק\" אחד); סוכר $=1\\times150=150$ גרם."
+  },
+  {
+    "id": "q-g6-ratio-13",
+    "topic_id": "g6-ratio",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שני מספרים ביחס $3:5$, וסכומם $96$. מהו המספר הקטן?",
+    "options": [
+      "$36$",
+      "$60$",
+      "$48$",
+      "$24$"
+    ],
+    "correct_index": 0,
+    "explanation": "$3+5=8$ חלקים; כל חלק $=96\\div8=12$; המספר הקטן $=3\\times12=36$."
+  },
+  {
+    "id": "q-g6-ratio-14",
+    "topic_id": "g6-ratio",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "ביחס $a:b=5:8$, אם $a=35$, מהו $b$?",
+    "options": [
+      "$56$",
+      "$45$",
+      "$63$",
+      "$40$"
+    ],
+    "correct_index": 0,
+    "explanation": "מ-$5$ ל-$35$ הכפילו פי $7$; לכן $b=8\\times7=56$."
+  },
+  {
+    "id": "q-g6-ratio-15",
+    "topic_id": "g6-ratio",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בכיתה היחס בין בנים לבנות הוא $4:5$, ויש בה $9$ תלמידות יותר מתלמידים. כמה תלמידים יש בכיתה בסך הכול?",
+    "options": [
+      "$81$",
+      "$45$",
+      "$36$",
+      "$72$"
+    ],
+    "correct_index": 0,
+    "explanation": "ההפרש ביחס הוא $5-4=1$ חלק, שווה ל-$9$ תלמידים; סך כל החלקים $4+5=9$; סך התלמידים $=9\\times9=81$."
+  },
+  {
+    "id": "q-g6-scale-1",
+    "topic_id": "g6-scale",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מה המשמעות של קנה מידה $1:100$?",
+    "options": [
+      "כל יחידה בשרטוט מייצגת $100$ יחידות במציאות",
+      "המפה גדולה פי $100$ מהמציאות",
+      "יש $100$ מפות",
+      "המרחק תמיד $100$ ק\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "קנה מידה $1:100$ אומר שכל יחידת אורך בשרטוט מייצגת $100$ יחידות במציאות."
+  },
+  {
+    "id": "q-g6-scale-2",
+    "topic_id": "g6-scale",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בקנה מידה $1:1{,}000$, כמה ס\"מ במציאות מייצג $1$ ס\"מ בשרטוט?",
+    "options": [
+      "$1{,}000$ ס\"מ",
+      "$100$ ס\"מ",
+      "$10$ ס\"מ",
+      "$1$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "בקנה מידה $1:1{,}000$, כל ס\"מ בשרטוט שווה ל-$1{,}000$ ס\"מ במציאות."
+  },
+  {
+    "id": "q-g6-scale-3",
+    "topic_id": "g6-scale",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם קנה מידה משפיע רק על אורכים, או גם על שטחים?",
+    "options": [
+      "משפיע גם על אורכים וגם על שטחים (אך באופן שונה)",
+      "משפיע רק על אורכים",
+      "משפיע רק על שטחים",
+      "לא משפיע על כלום"
+    ],
+    "correct_index": 0,
+    "explanation": "קנה מידה משפיע על אורכים בצורה ישירה, ועל שטחים באופן שונה (בריבוע היחס)."
+  },
+  {
+    "id": "q-g6-scale-4",
+    "topic_id": "g6-scale",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במפה בקנה מידה $1:50{,}000$, המרחק בין שתי ערים הוא $3$ ס\"מ. מה המרחק האמיתי (בס\"מ)?",
+    "options": [
+      "$150{,}000$ ס\"מ",
+      "$50{,}000$ ס\"מ",
+      "$15{,}000$ ס\"מ",
+      "$3$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "מרחק במציאות $=$ מרחק בשרטוט $\\times N$: $3\\times50{,}000=150{,}000$ ס\"מ."
+  },
+  {
+    "id": "q-g6-scale-5",
+    "topic_id": "g6-scale",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "המרחק האמיתי בין שתי נקודות הוא $2{,}000$ מטר. בקנה מידה $1:20{,}000$, מה המרחק במפה (בס\"מ)?",
+    "options": [
+      "$10$ ס\"מ",
+      "$20$ ס\"מ",
+      "$100$ ס\"מ",
+      "$1$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "$2{,}000$ מטר $=200{,}000$ ס\"מ; מרחק במפה $=200{,}000\\div20{,}000=10$ ס\"מ."
+  },
+  {
+    "id": "q-g6-scale-6",
+    "topic_id": "g6-scale",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בשרטוט בקנה מידה $1:10$, אורך המצויר של שולחן הוא $8$ ס\"מ. מה האורך האמיתי?",
+    "options": [
+      "$80$ ס\"מ",
+      "$18$ ס\"מ",
+      "$8$ ס\"מ",
+      "$800$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "אורך אמיתי $=8\\times10=80$ ס\"מ."
+  },
+  {
+    "id": "q-g6-scale-7",
+    "topic_id": "g6-scale",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במפה בקנה מידה $1:100{,}000$, המרחק בין שני יישובים הוא $5$ ס\"מ. כמה ק\"מ זה במציאות?",
+    "options": [
+      "$5$ ק\"מ",
+      "$50$ ק\"מ",
+      "$0.5$ ק\"מ",
+      "$500$ ק\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "$5\\times100{,}000=500{,}000$ ס\"מ $=5{,}000$ מטר $=5$ ק\"מ."
+  },
+  {
+    "id": "q-g6-scale-8",
+    "topic_id": "g6-scale",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "המרחק האמיתי בין שתי נקודות הוא $6$ ק\"מ. בקנה מידה $1:200{,}000$, מה המרחק במפה (בס\"מ)?",
+    "options": [
+      "$3$ ס\"מ",
+      "$30$ ס\"מ",
+      "$6$ ס\"מ",
+      "$0.3$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "$6$ ק\"מ $=600{,}000$ ס\"מ; מרחק במפה $=600{,}000\\div200{,}000=3$ ס\"מ."
+  },
+  {
+    "id": "q-g6-scale-9",
+    "topic_id": "g6-scale",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חדר שאורכו במציאות $5$ מטר משורטט בתוכנית בקנה מידה $1:100$. מה אורכו בתוכנית (בס\"מ)?",
+    "options": [
+      "$5$ ס\"מ",
+      "$50$ ס\"מ",
+      "$500$ ס\"מ",
+      "$1$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "$5$ מטר $=500$ ס\"מ; אורך התוכנית $=500\\div100=5$ ס\"מ."
+  },
+  {
+    "id": "q-g6-scale-10",
+    "topic_id": "g6-scale",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בקנה מידה $1:5$, שטח בשרטוט הוא $4$ סמ\"ר. מה השטח האמיתי?",
+    "options": [
+      "$100$ סמ\"ר",
+      "$20$ סמ\"ר",
+      "$4$ סמ\"ר",
+      "$25$ סמ\"ר"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח משתנה פי $N^2=5^2=25$: $4\\times25=100$ סמ\"ר."
+  },
+  {
+    "id": "q-g6-scale-11",
+    "topic_id": "g6-scale",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בקנה מידה $1:10$, מגרש בשרטוט תופס $6$ סמ\"ר. מה שטח המגרש האמיתי (בסמ\"ר)?",
+    "options": [
+      "$600$ סמ\"ר",
+      "$60$ סמ\"ר",
+      "$6$ סמ\"ר",
+      "$100$ סמ\"ר"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח משתנה פי $10^2=100$: $6\\times100=600$ סמ\"ר."
+  },
+  {
+    "id": "q-g6-scale-12",
+    "topic_id": "g6-scale",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "אם מציירים אורך בגודל כפול מהמציאות (קנה מידה $2:1$), פי כמה גדל השטח בשרטוט לעומת המציאות?",
+    "options": [
+      "פי $4$",
+      "פי $2$",
+      "פי $8$",
+      "לא משתנה"
+    ],
+    "correct_index": 0,
+    "explanation": "כשאורך גדל פי $2$, שטח גדל פי $2^2=4$."
+  },
+  {
+    "id": "q-g6-scale-13",
+    "topic_id": "g6-scale",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בשרטוט בקנה מידה $1:10{,}000$, שטח יער הוא $5$ סמ\"ר. מה שטח היער האמיתי, במ\"ר?",
+    "options": [
+      "$50{,}000$ מ\"ר",
+      "$5{,}000$ מ\"ר",
+      "$500{,}000$ מ\"ר",
+      "$500$ מ\"ר"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח משתנה פי $N^2=10{,}000^2=100{,}000{,}000$: $5\\times100{,}000{,}000=500{,}000{,}000$ סמ\"ר, שזה $500{,}000{,}000\\div10{,}000=50{,}000$ מ\"ר (כי $1$ מ\"ר $=10{,}000$ סמ\"ר)."
+  },
+  {
+    "id": "q-g6-scale-14",
+    "topic_id": "g6-scale",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שני שרטוטים של אותו חדר נעשו בקני מידה $1:50$ ו-$1:100$. איזה שרטוט גדול יותר?",
+    "options": [
+      "השרטוט בקנה מידה $1:50$",
+      "השרטוט בקנה מידה $1:100$",
+      "שניהם באותו גודל",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "ככל ש-$N$ קטן יותר, ההקטנה פחות דרסטית, והשרטוט גדול יותר: $1:50$ גדול מ-$1:100$."
+  },
+  {
+    "id": "q-g6-scale-15",
+    "topic_id": "g6-scale",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מרחק אמיתי של $3$ ק\"מ מיוצג במפה כ-$6$ ס\"מ. מה קנה המידה של המפה?",
+    "options": [
+      "$1:50{,}000$",
+      "$1:5{,}000$",
+      "$1:500{,}000$",
+      "$1:6{,}000$"
+    ],
+    "correct_index": 0,
+    "explanation": "$3$ ק\"מ $=300{,}000$ ס\"מ; קנה המידה הוא $6:300{,}000=1:50{,}000$."
+  },
+  {
+    "id": "q-g6-motion-1",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "רכב עבר $120$ ק\"מ ב-$2$ שעות. מה מהירותו הממוצעת?",
+    "options": [
+      "$60$ קמ\"ש",
+      "$120$ קמ\"ש",
+      "$240$ קמ\"ש",
+      "$2$ קמ\"ש"
+    ],
+    "correct_index": 0,
+    "explanation": "מהירות $=$ מרחק $\\div$ זמן $=120\\div2=60$ קמ\"ש."
+  },
+  {
+    "id": "q-g6-motion-2",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנוסחה למרחק, לפי מהירות וזמן?",
+    "options": [
+      "מרחק $=$ מהירות $\\times$ זמן",
+      "מרחק $=$ מהירות $\\div$ זמן",
+      "מרחק $=$ זמן $\\div$ מהירות",
+      "מרחק $=$ מהירות $-$ זמן"
+    ],
+    "correct_index": 0,
+    "explanation": "מרחק $=$ מהירות $\\times$ זמן."
+  },
+  {
+    "id": "q-g6-motion-3",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מכונה מייצרת $20$ צעצועים בשעה אחת. מה ההספק שלה?",
+    "options": [
+      "$20$ צעצועים לשעה",
+      "$1$ צעצוע לשעה",
+      "$20$ שעות לצעצוע",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "הספק הוא כמות עבודה ליחידת זמן: $20$ צעצועים לשעה."
+  },
+  {
+    "id": "q-g6-motion-4",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "הולך רגל צועד במהירות $5$ קמ\"ש במשך $3$ שעות. איזה מרחק עבר?",
+    "options": [
+      "$15$ ק\"מ",
+      "$8$ ק\"מ",
+      "$1.67$ ק\"מ",
+      "$5$ ק\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "מרחק $=$ מהירות $\\times$ זמן $=5\\times3=15$ ק\"מ."
+  },
+  {
+    "id": "q-g6-motion-5",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מכונית עברה $200$ ק\"מ במהירות $50$ קמ\"ש. כמה זמן נסעה?",
+    "options": [
+      "$4$ שעות",
+      "$150$ שעות",
+      "$250$ שעות",
+      "$10{,}000$ שעות"
+    ],
+    "correct_index": 0,
+    "explanation": "זמן $=$ מרחק $\\div$ מהירות $=200\\div50=4$ שעות."
+  },
+  {
+    "id": "q-g6-motion-6",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מכונה מייצרת $80$ בקבוקים ב-$4$ שעות. מה ההספק שלה (בקבוקים לשעה)?",
+    "options": [
+      "$20$",
+      "$84$",
+      "$320$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "הספק $=80\\div4=20$ בקבוקים לשעה."
+  },
+  {
+    "id": "q-g6-motion-7",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אופנוען נסע $2.5$ שעות במהירות $80$ קמ\"ש. איזה מרחק עבר?",
+    "options": [
+      "$200$ ק\"מ",
+      "$82.5$ ק\"מ",
+      "$160$ ק\"מ",
+      "$32$ ק\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "מרחק $=80\\times2.5=200$ ק\"מ."
+  },
+  {
+    "id": "q-g6-motion-8",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "רץ עבר $10$ ק\"מ ב-$50$ דקות. מה מהירותו בק\"מ לשעה?",
+    "options": [
+      "$12$ קמ\"ש",
+      "$5$ קמ\"ש",
+      "$500$ קמ\"ש",
+      "$0.2$ קמ\"ש"
+    ],
+    "correct_index": 0,
+    "explanation": "$50$ דקות $=\\frac{5}{6}$ שעה; מהירות $=10\\div\\frac{5}{6}=10\\times\\frac{6}{5}=12$ קמ\"ש."
+  },
+  {
+    "id": "q-g6-motion-9",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מפעל מייצר $450$ מוצרים ב-$3$ שעות. כמה זמן ייקח לייצר $900$ מוצרים באותו הספק?",
+    "options": [
+      "$6$ שעות",
+      "$3$ שעות",
+      "$1{,}350$ שעות",
+      "$150$ שעות"
+    ],
+    "correct_index": 0,
+    "explanation": "הספק $=450\\div3=150$ מוצרים לשעה; זמן ל-$900$ מוצרים $=900\\div150=6$ שעות."
+  },
+  {
+    "id": "q-g6-motion-10",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני רוכבים יוצאים זה לקראת זה משתי נקודות המרוחקות $90$ ק\"מ, במהירויות $20$ ו-$25$ קמ\"ש. כעבור כמה זמן ייפגשו?",
+    "options": [
+      "$2$ שעות",
+      "$3.6$ שעות",
+      "$4.5$ שעות",
+      "$1.8$ שעות"
+    ],
+    "correct_index": 0,
+    "explanation": "כשהם נעים זה לקראת זה, המרחק ביניהם מצטמצם במהירות המשולבת: $20+25=45$ קמ\"ש; זמן $=90\\div45=2$ שעות."
+  },
+  {
+    "id": "q-g6-motion-11",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מכונית A נוסעת $60$ קמ\"ש, ומכונית B יוצאת שעה אחריה ונוסעת $80$ קמ\"ש באותו כביש. כעבור כמה זמן (מיציאת B) תשיג B את A?",
+    "options": [
+      "$3$ שעות",
+      "$1$ שעה",
+      "$4$ שעות",
+      "$0.75$ שעה"
+    ],
+    "correct_index": 0,
+    "explanation": "כש-B יוצאת, ל-A כבר יש פער של $60$ ק\"מ; המהירות היחסית היא $80-60=20$ קמ\"ש; זמן ההשגה $=60\\div20=3$ שעות."
+  },
+  {
+    "id": "q-g6-motion-12",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שתי מכונות עובדות יחד: אחת מייצרת $30$ יחידות לשעה, והשנייה $20$ יחידות לשעה. כמה זמן ייקח לשתיהן יחד לייצר $200$ יחידות?",
+    "options": [
+      "$4$ שעות",
+      "$10$ שעות",
+      "$6.67$ שעות",
+      "$2$ שעות"
+    ],
+    "correct_index": 0,
+    "explanation": "הספק משולב $=30+20=50$ יחידות לשעה; זמן $=200\\div50=4$ שעות."
+  },
+  {
+    "id": "q-g6-motion-13",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שיט נוסע במעלה הנהר (נגד הזרם) במהירות $12$ קמ\"ש, ובמורד הנהר (עם הזרם) במהירות $18$ קמ\"ש. מה מהירות הזרם?",
+    "options": [
+      "$3$ קמ\"ש",
+      "$15$ קמ\"ש",
+      "$6$ קמ\"ש",
+      "$30$ קמ\"ש"
+    ],
+    "correct_index": 0,
+    "explanation": "מהירות הזרם $=\\frac{18-12}{2}=3$ קמ\"ש (ההפרש בין שתי המהירויות, מחולק ב-$2$)."
+  },
+  {
+    "id": "q-g6-motion-14",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "רכב נוסע $150$ ק\"מ במהירות $50$ קמ\"ש, ואז עוד $150$ ק\"מ במהירות $75$ קמ\"ש. מה המהירות הממוצעת לכל המסע?",
+    "options": [
+      "$60$ קמ\"ש",
+      "$62.5$ קמ\"ש",
+      "$65$ קמ\"ש",
+      "$50$ קמ\"ש"
+    ],
+    "correct_index": 0,
+    "explanation": "זמן ראשון $=150\\div50=3$ שעות; זמן שני $=150\\div75=2$ שעות; מהירות ממוצעת $=\\frac{300}{5}=60$ קמ\"ש (לא ממוצע פשוט של $50$ ו-$75$!)."
+  },
+  {
+    "id": "q-g6-motion-15",
+    "topic_id": "g6-motion-rate",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "צנרת A ממלאת בריכה ב-$4$ שעות לבד, וצנרת B ממלאת אותה ב-$6$ שעות לבד. כמה זמן ייקח למלא את הבריכה כששתי הצנרות פועלות יחד?",
+    "options": [
+      "$2.4$ שעות",
+      "$5$ שעות",
+      "$10$ שעות",
+      "$1.2$ שעות"
+    ],
+    "correct_index": 0,
+    "explanation": "קצב A $=\\frac{1}{4}$ בריכה לשעה, קצב B $=\\frac{1}{6}$; ביחד $=\\frac{1}{4}+\\frac{1}{6}=\\frac{5}{12}$ בריכה לשעה; זמן $=\\frac{12}{5}=2.4$ שעות."
+  },
+  {
+    "id": "q-g6-pyramid-1",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת נפח הפירמידה?",
+    "options": [
+      "$\\frac{1}{3}\\times$ שטח הבסיס $\\times$ גובה",
+      "שטח הבסיס $\\times$ גובה",
+      "$\\frac{1}{2}\\times$ שטח הבסיס $\\times$ גובה",
+      "היקף הבסיס $\\times$ גובה"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח פירמידה $=\\frac{1}{3}\\times$ שטח הבסיס $\\times$ גובה."
+  },
+  {
+    "id": "q-g6-pyramid-2",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה פירמידות זהות (אותו בסיס וגובה) ממלאות מנסרה אחת?",
+    "options": [
+      "$3$",
+      "$2$",
+      "$4$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "שלוש פירמידות זהות ממלאות בדיוק מנסרה אחת בעלת אותו בסיס וגובה."
+  },
+  {
+    "id": "q-g6-pyramid-3",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פירמידה ומנסרה בעלות אותו בסיס וגובה — נפח הפירמידה הוא:",
+    "options": [
+      "שליש מנפח המנסרה",
+      "חצי מנפח המנסרה",
+      "כפול מנפח המנסרה",
+      "שווה לנפח המנסרה"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח הפירמידה הוא תמיד שליש מנפח המנסרה המתאימה לה."
+  },
+  {
+    "id": "q-g6-pyramid-4",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פירמידה עם בסיס ששטחו $12$ סמ\"ר וגובה $9$ ס\"מ. מה נפחה?",
+    "options": [
+      "$36$",
+      "$108$",
+      "$54$",
+      "$27$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=\\frac{1}{3}\\times12\\times9=36$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-pyramid-5",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פירמידה עם בסיס ששטחו $15$ סמ\"ר וגובה $6$ ס\"מ. מה נפחה?",
+    "options": [
+      "$30$",
+      "$90$",
+      "$45$",
+      "$15$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=\\frac{1}{3}\\times15\\times6=30$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-pyramid-6",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פירמידה עם בסיס ריבועי שצלעו $4$ ס\"מ, וגובה $6$ ס\"מ. מה נפחה?",
+    "options": [
+      "$32$",
+      "$96$",
+      "$48$",
+      "$16$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח הבסיס $=4\\times4=16$; נפח $=\\frac{1}{3}\\times16\\times6=32$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-pyramid-7",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פירמידה עם בסיס מלבני $6\\times4$ ס\"מ וגובה $9$ ס\"מ. מה נפחה?",
+    "options": [
+      "$72$",
+      "$216$",
+      "$108$",
+      "$36$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח הבסיס $=6\\times4=24$; נפח $=\\frac{1}{3}\\times24\\times9=72$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-pyramid-8",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נפח פירמידה הוא $40$ סמ\"ק, וגובהה $10$ ס\"מ. מה שטח הבסיס שלה?",
+    "options": [
+      "$12$",
+      "$4$",
+      "$400$",
+      "$120$"
+    ],
+    "correct_index": 0,
+    "explanation": "$40=\\frac{1}{3}\\times\\text{בסיס}\\times10 \\Rightarrow \\text{בסיס}=\\frac{40\\times3}{10}=12$ סמ\"ר."
+  },
+  {
+    "id": "q-g6-pyramid-9",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פירמידה עם בסיס משולש ששטחו $18$ סמ\"ר, וגובה $5$ ס\"מ. מה נפחה?",
+    "options": [
+      "$30$",
+      "$90$",
+      "$45$",
+      "$15$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=\\frac{1}{3}\\times18\\times5=30$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-pyramid-10",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נפח פירמידה הוא $60$ סמ\"ק, ושטח בסיסה $20$ סמ\"ר. מה גובהה?",
+    "options": [
+      "$9$",
+      "$3$",
+      "$1{,}200$",
+      "$400$"
+    ],
+    "correct_index": 0,
+    "explanation": "$60=\\frac{1}{3}\\times20\\times h \\Rightarrow h=\\frac{60\\times3}{20}=9$ ס\"מ."
+  },
+  {
+    "id": "q-g6-pyramid-11",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פירמידה עם בסיס ריבועי שצלעו $5$ ס\"מ ונפחה $50$ סמ\"ק. מה גובהה?",
+    "options": [
+      "$6$",
+      "$2$",
+      "$150$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח הבסיס $=25$; $50=\\frac{1}{3}\\times25\\times h \\Rightarrow h=\\frac{50\\times3}{25}=6$ ס\"מ."
+  },
+  {
+    "id": "q-g6-pyramid-12",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מנסרה ופירמידה בעלות אותו בסיס וגובה. אם נפח המנסרה הוא $99$ סמ\"ק, מה נפח הפירמידה?",
+    "options": [
+      "$33$",
+      "$66$",
+      "$297$",
+      "$49.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח הפירמידה הוא תמיד שליש מנפח המנסרה: $99\\div3=33$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-pyramid-13",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פירמידה עם בסיס מלבני $8\\times5$ ס\"מ ונפחה $100$ סמ\"ק. מה גובהה?",
+    "options": [
+      "$7.5$",
+      "$2.5$",
+      "$0.75$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח הבסיס $=40$; $h=\\frac{100\\times3}{40}=7.5$ ס\"מ."
+  },
+  {
+    "id": "q-g6-pyramid-14",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שתי פירמידות עם אותו גובה. שטח הבסיס של הראשונה כפול משטח הבסיס של השנייה. מה היחס בין נפחיהן?",
+    "options": [
+      "$2:1$",
+      "$1:2$",
+      "$4:1$",
+      "$1:1$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכיוון שהגובה זהה והמקדם $\\frac{1}{3}$ זהה, יחס הנפחים שווה בדיוק ליחס שטחי הבסיסים: $2:1$."
+  },
+  {
+    "id": "q-g6-pyramid-15",
+    "topic_id": "g6-pyramid-volume",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פירמידה עם בסיס ריבועי, שנפחה $81$ סמ\"ק וגובהה $3$ ס\"מ. מה אורך צלע הבסיס?",
+    "options": [
+      "$9$",
+      "$27$",
+      "$81$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$81=\\frac{1}{3}\\times\\text{בסיס}\\times3 \\Rightarrow \\text{בסיס}=81$ סמ\"ר; צלע הריבוע $=\\sqrt{81}=9$ ס\"מ."
+  },
+  {
+    "id": "q-g6-cylinder-1",
+    "topic_id": "g6-cylinder",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה בסיסים עגולים יש לגליל?",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "לגליל יש שני בסיסים עגולים זהים ומקבילים."
+  },
+  {
+    "id": "q-g6-cylinder-2",
+    "topic_id": "g6-cylinder",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כשפורסים את המעטפת של גליל, איזו צורה מתקבלת?",
+    "options": [
+      "מלבן",
+      "עיגול",
+      "משולש",
+      "מחומש"
+    ],
+    "correct_index": 0,
+    "explanation": "המעטפת הפרושה של גליל היא מלבן."
+  },
+  {
+    "id": "q-g6-cylinder-3",
+    "topic_id": "g6-cylinder",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת נפח הגליל?",
+    "options": [
+      "$\\pi r^2\\times h$",
+      "$2\\pi r\\times h$",
+      "$\\pi r\\times h$",
+      "$\\pi r^2$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח גליל $=\\pi r^2\\times h$ (שטח הבסיס כפול הגובה)."
+  },
+  {
+    "id": "q-g6-cylinder-4",
+    "topic_id": "g6-cylinder",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "גליל שרדיוס בסיסו $2$ ס\"מ וגובהו $5$ ס\"מ ($\\pi\\approx3.14$). מה נפחו?",
+    "options": [
+      "$62.8$",
+      "$31.4$",
+      "$125.6$",
+      "$20$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=3.14\\times2^2\\times5=3.14\\times4\\times5=62.8$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-cylinder-5",
+    "topic_id": "g6-cylinder",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "גליל שרדיוסו $1$ ס\"מ וגובהו $10$ ס\"מ. מה נפחו ($\\pi\\approx3.14$)?",
+    "options": [
+      "$31.4$",
+      "$3.14$",
+      "$314$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=3.14\\times1^2\\times10=31.4$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-cylinder-6",
+    "topic_id": "g6-cylinder",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו היקף בסיס של גליל שרדיוסו $3$ ס\"מ ($\\pi\\approx3.14$)?",
+    "options": [
+      "$18.84$",
+      "$9.42$",
+      "$28.26$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף $=2\\pi r=2\\times3.14\\times3=18.84$ ס\"מ."
+  },
+  {
+    "id": "q-g6-cylinder-7",
+    "topic_id": "g6-cylinder",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "גליל שרדיוס בסיסו $4$ ס\"מ וגובהו $7$ ס\"מ. מה נפחו ($\\pi\\approx3.14$)?",
+    "options": [
+      "$351.68$",
+      "$175.84$",
+      "$87.92$",
+      "$28$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=3.14\\times4^2\\times7=3.14\\times16\\times7=351.68$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-cylinder-8",
+    "topic_id": "g6-cylinder",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה שטח הפנים של גליל שרדיוסו $2$ ס\"מ וגובהו $5$ ס\"מ ($\\pi\\approx3.14$)?",
+    "options": [
+      "$87.92$",
+      "$62.8$",
+      "$25.12$",
+      "$100$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח פנים $=2\\pi r^2+2\\pi rh=2\\times3.14\\times4+2\\times3.14\\times2\\times5=25.12+62.8=87.92$ סמ\"ר."
+  },
+  {
+    "id": "q-g6-cylinder-9",
+    "topic_id": "g6-cylinder",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נפח גליל הוא $157$ סמ\"ק, ורדיוס בסיסו $5$ ס\"מ ($\\pi\\approx3.14$). מה גובהו?",
+    "options": [
+      "$2$",
+      "$10$",
+      "$31.4$",
+      "$0.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$157=3.14\\times25\\times h=78.5\\times h \\Rightarrow h=157\\div78.5=2$ ס\"מ."
+  },
+  {
+    "id": "q-g6-cylinder-10",
+    "topic_id": "g6-cylinder",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "רדיוס בסיס גליל הוא $6$ ס\"מ וגובהו $10$ ס\"מ. מה שטח הפנים ($\\pi\\approx3.14$)?",
+    "options": [
+      "$602.88$",
+      "$376.8$",
+      "$226.08$",
+      "$500$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח פנים $=2\\times3.14\\times36+2\\times3.14\\times6\\times10=226.08+376.8=602.88$ סמ\"ר."
+  },
+  {
+    "id": "q-g6-cylinder-11",
+    "topic_id": "g6-cylinder",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "נפח גליל הוא $282.6$ סמ\"ק, וגובהו $10$ ס\"מ ($\\pi\\approx3.14$). מה רדיוס בסיסו?",
+    "options": [
+      "$3$",
+      "$9$",
+      "$28.26$",
+      "$1.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$282.6=31.4\\times r^2 \\Rightarrow r^2=9 \\Rightarrow r=3$ ס\"מ."
+  },
+  {
+    "id": "q-g6-cylinder-12",
+    "topic_id": "g6-cylinder",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני גלילים עם אותו רדיוס, אך גובה גליל $A$ כפול מגובה גליל $B$. מה היחס בין נפחיהם?",
+    "options": [
+      "$2:1$",
+      "$1:2$",
+      "$4:1$",
+      "$1:1$"
+    ],
+    "correct_index": 0,
+    "explanation": "כשהרדיוס זהה, הנפח פרופורציוני לגובה בלבד: אם הגובה כפול, גם הנפח כפול — $2:1$."
+  },
+  {
+    "id": "q-g6-cylinder-13",
+    "topic_id": "g6-cylinder",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "גליל שרדיוסו $5$ ס\"מ, ונפחו $785$ סמ\"ק ($\\pi\\approx3.14$). מה גובהו?",
+    "options": [
+      "$10$",
+      "$5$",
+      "$31.4$",
+      "$2$"
+    ],
+    "correct_index": 0,
+    "explanation": "$785=78.5\\times h \\Rightarrow h=785\\div78.5=10$ ס\"מ."
+  },
+  {
+    "id": "q-g6-cylinder-14",
+    "topic_id": "g6-cylinder",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שני גלילים: לגליל $A$ רדיוס כפול מזה של גליל $B$, אך אותו גובה. מה היחס בין נפחיהם?",
+    "options": [
+      "$4:1$",
+      "$2:1$",
+      "$8:1$",
+      "$1:1$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח פרופורציוני ל-$r^2$; אם הרדיוס כפול, הנפח גדל פי $2^2=4$."
+  },
+  {
+    "id": "q-g6-cylinder-15",
+    "topic_id": "g6-cylinder",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "גליל שגובהו שווה לקוטר בסיסו ($h=2r$), ורדיוסו $3$ ס\"מ. מה נפחו ($\\pi\\approx3.14$)?",
+    "options": [
+      "$169.56$",
+      "$84.78$",
+      "$56.52$",
+      "$339.12$"
+    ],
+    "correct_index": 0,
+    "explanation": "$h=2\\times3=6$ ס\"מ; נפח $=3.14\\times9\\times6=169.56$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-conesphere-1",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת נפח החרוט?",
+    "options": [
+      "$\\frac{1}{3}\\pi r^2h$",
+      "$\\pi r^2h$",
+      "$\\frac{4}{3}\\pi r^3$",
+      "$2\\pi rh$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח חרוט $=\\frac{1}{3}\\pi r^2h$."
+  },
+  {
+    "id": "q-g6-conesphere-2",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת נפח הכדור?",
+    "options": [
+      "$\\frac{4}{3}\\pi r^3$",
+      "$\\pi r^3$",
+      "$\\frac{1}{3}\\pi r^3$",
+      "$4\\pi r^2$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח כדור $=\\frac{4}{3}\\pi r^3$."
+  },
+  {
+    "id": "q-g6-conesphere-3",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "חרוט קשור לגליל בעל אותו בסיס וגובה. נפח החרוט הוא:",
+    "options": [
+      "שליש מנפח הגליל",
+      "חצי מנפח הגליל",
+      "כפול מנפח הגליל",
+      "שווה לנפח הגליל"
+    ],
+    "correct_index": 0,
+    "explanation": "בדיוק כמו פירמידה ומנסרה — נפח החרוט הוא שליש מנפח הגליל המתאים."
+  },
+  {
+    "id": "q-g6-conesphere-4",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "חרוט שרדיוס בסיסו $3$ ס\"מ וגובהו $4$ ס\"מ ($\\pi\\approx3.14$). מה נפחו?",
+    "options": [
+      "$37.68$",
+      "$113.04$",
+      "$28.26$",
+      "$12.56$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=\\frac{1}{3}\\times3.14\\times9\\times4=37.68$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-conesphere-5",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כדור שרדיוסו $3$ ס\"מ ($\\pi\\approx3.14$). מה נפחו?",
+    "options": [
+      "$113.04$",
+      "$28.26$",
+      "$84.78$",
+      "$339.12$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=\\frac{4}{3}\\times3.14\\times27=113.04$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-conesphere-6",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו $r^3$ עבור $r=2$?",
+    "options": [
+      "$8$",
+      "$6$",
+      "$4$",
+      "$9$"
+    ],
+    "correct_index": 0,
+    "explanation": "$r^3=r\\times r\\times r=2\\times2\\times2=8$."
+  },
+  {
+    "id": "q-g6-conesphere-7",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חרוט שרדיוס בסיסו $6$ ס\"מ וגובהו $5$ ס\"מ ($\\pi\\approx3.14$). מה נפחו?",
+    "options": [
+      "$188.4$",
+      "$565.2$",
+      "$94.2$",
+      "$56.52$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=\\frac{1}{3}\\times3.14\\times36\\times5=188.4$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-conesphere-8",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כדור שרדיוסו $6$ ס\"מ ($\\pi\\approx3.14$). מה נפחו?",
+    "options": [
+      "$904.32$",
+      "$452.16$",
+      "$113.04$",
+      "$1{,}356.48$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=\\frac{4}{3}\\times3.14\\times216=904.32$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-conesphere-9",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נפח חרוט הוא $75.36$ סמ\"ק, ורדיוסו $3$ ס\"מ ($\\pi\\approx3.14$). מה גובהו?",
+    "options": [
+      "$8$",
+      "$4$",
+      "$24$",
+      "$2.67$"
+    ],
+    "correct_index": 0,
+    "explanation": "$75.36=\\frac{1}{3}\\times3.14\\times9\\times h=9.42\\times h \\Rightarrow h=75.36\\div9.42=8$ ס\"מ."
+  },
+  {
+    "id": "q-g6-conesphere-10",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חרוט וגליל בעלי אותו בסיס וגובה. נפח הגליל הוא $150$ סמ\"ק. מה נפח החרוט?",
+    "options": [
+      "$50$",
+      "$100$",
+      "$450$",
+      "$75$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח החרוט הוא תמיד שליש מנפח הגליל המתאים: $150\\div3=50$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-conesphere-11",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כדור שקוטרו $10$ ס\"מ ($\\pi\\approx3.14$). מה נפחו (בקירוב)?",
+    "options": [
+      "$523.33$",
+      "$1{,}046.67$",
+      "$261.67$",
+      "$130.83$"
+    ],
+    "correct_index": 0,
+    "explanation": "קוטר $10$ ס\"מ אומר רדיוס $5$ ס\"מ; נפח $=\\frac{4}{3}\\times3.14\\times125=523.33$ סמ\"ק (בקירוב)."
+  },
+  {
+    "id": "q-g6-conesphere-12",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני כדורים: לכדור $A$ רדיוס כפול מזה של כדור $B$. מה היחס בין נפחיהם?",
+    "options": [
+      "$8:1$",
+      "$2:1$",
+      "$4:1$",
+      "$6:1$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח כדור פרופורציוני ל-$r^3$; אם הרדיוס כפול, הנפח גדל פי $2^3=8$."
+  },
+  {
+    "id": "q-g6-conesphere-13",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "נפח כדור הוא כ-$33.49$ סמ\"ק ($\\pi\\approx3.14$). מה בערך רדיוסו? (רמז: $r^3\\approx8$)",
+    "options": [
+      "$2$",
+      "$3$",
+      "$4$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "$r^3=\\frac{33.49\\times3}{4\\times3.14}\\approx8$, ולכן $r\\approx2$ ס\"מ (כי $2^3=8$)."
+  },
+  {
+    "id": "q-g6-conesphere-14",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חרוט שגובהו שווה לרדיוס בסיסו ($h=r$), ורדיוסו $6$ ס\"מ ($\\pi\\approx3.14$). מה נפחו?",
+    "options": [
+      "$226.08$",
+      "$678.24$",
+      "$113.04$",
+      "$75.36$"
+    ],
+    "correct_index": 0,
+    "explanation": "$h=r=6$ ס\"מ; נפח $=\\frac{1}{3}\\times3.14\\times36\\times6=226.08$ סמ\"ק."
+  },
+  {
+    "id": "q-g6-conesphere-15",
+    "topic_id": "g6-cone-sphere",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "משווים נפח כדור לנפח גליל שרדיוסו וגובהו שווים לרדיוס הכדור (כלומר $h=r$). איזה גוף גדול יותר בנפחו?",
+    "options": [
+      "הכדור גדול יותר",
+      "הגליל גדול יותר",
+      "הם שווים",
+      "תלוי ברדיוס"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח הכדור $=\\frac{4}{3}\\pi r^3$, ונפח הגליל (כש-$h=r$) הוא $\\pi r^3$; מכיוון ש-$\\frac{4}{3}>1$, הכדור גדול יותר."
+  },
+  {
+    "id": "q-g6-platonic-1",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה גופים משוכללים (אפלטוניים) קיימים בסך הכול?",
+    "options": [
+      "$5$",
+      "$4$",
+      "$6$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "יש בדיוק $5$ גופים משוכללים."
+  },
+  {
+    "id": "q-g6-platonic-2",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה פאות יש לטטרהדרון?",
+    "options": [
+      "$4$",
+      "$6$",
+      "$8$",
+      "$3$"
+    ],
+    "correct_index": 0,
+    "explanation": "לטטרהדרון יש $4$ פאות משולשות."
+  },
+  {
+    "id": "q-g6-platonic-3",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה פאות יש לקובייה?",
+    "options": [
+      "$6$",
+      "$4$",
+      "$8$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "לקובייה יש $6$ פאות מרובעות."
+  },
+  {
+    "id": "q-g6-platonic-4",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה פאות יש לאוקטהדרון?",
+    "options": [
+      "$8$",
+      "$6$",
+      "$4$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "לאוקטהדרון יש $8$ פאות משולשות."
+  },
+  {
+    "id": "q-g6-platonic-5",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מאילו מצולעים בנויות הפאות של דודקהדרון?",
+    "options": [
+      "מחומשים משוכללים",
+      "משולשים שווי-צלעות",
+      "ריבועים",
+      "משושים"
+    ],
+    "correct_index": 0,
+    "explanation": "פאות הדודקהדרון הן $12$ מחומשים משוכללים."
+  },
+  {
+    "id": "q-g6-platonic-6",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה פאות יש לאיקוסהדרון?",
+    "options": [
+      "$20$",
+      "$12$",
+      "$8$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "לאיקוסהדרון יש $20$ פאות משולשות."
+  },
+  {
+    "id": "q-g6-platonic-7",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה משותף לכל הפאות בגוף משוכלל?",
+    "options": [
+      "כולן מצולעים משוכללים זהים",
+      "כולן מרובעות",
+      "כולן משולשות",
+      "כולן בגדלים שונים"
+    ],
+    "correct_index": 0,
+    "explanation": "בגוף משוכלל כל הפאות הן מצולעים משוכללים זהים לגמרי."
+  },
+  {
+    "id": "q-g6-platonic-8",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לקובייה יש $8$ קודקודים ו-$12$ מקצועות. לפי נוסחת אוילר ($V-E+F=2$), כמה פאות יש לה?",
+    "options": [
+      "$6$",
+      "$8$",
+      "$4$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "$8-12+F=2 \\Rightarrow F=2-8+12=6$."
+  },
+  {
+    "id": "q-g6-platonic-9",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לטטרהדרון יש $4$ קודקודים ו-$4$ פאות. כמה מקצועות יש לו, לפי נוסחת אוילר?",
+    "options": [
+      "$6$",
+      "$4$",
+      "$8$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "$4-E+4=2 \\Rightarrow E=4+4-2=6$."
+  },
+  {
+    "id": "q-g6-platonic-10",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לאוקטהדרון יש $6$ קודקודים ו-$8$ פאות. כמה מקצועות יש לו, לפי נוסחת אוילר?",
+    "options": [
+      "$12$",
+      "$8$",
+      "$6$",
+      "$14$"
+    ],
+    "correct_index": 0,
+    "explanation": "$6-E+8=2 \\Rightarrow E=6+8-2=12$."
+  },
+  {
+    "id": "q-g6-platonic-11",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מדוע לא ניתן לבנות גוף משוכלל עם פאות משושות ($6$ צלעות)?",
+    "options": [
+      "כי הזווית הפנימית שלהן ($120°$) גדולה מדי — כבר $3$ פאות סביב קודקוד יוצרות משטח שטוח ($360°$), בלי אפשרות ל\"קפל\" תלת-ממדי",
+      "כי משושים אסורים בגאומטריה",
+      "כי אין להם זוויות שוות",
+      "אין שום סיבה — אפשר לבנות כזה"
+    ],
+    "correct_index": 0,
+    "explanation": "כדי ליצור קודקוד תלת-ממדי צריך שסכום הזוויות סביבו יהיה פחות מ-$360°$; ב-$3$ משושים ($120°$ כל אחד) הסכום הוא כבר בדיוק $360°$ — משטח שטוח, לא גוף."
+  },
+  {
+    "id": "q-g6-platonic-12",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כמה קודקודים יש לדודקהדרון (עם $12$ פאות מחומשות ו-$30$ מקצועות), לפי נוסחת אוילר?",
+    "options": [
+      "$20$",
+      "$12$",
+      "$30$",
+      "$14$"
+    ],
+    "correct_index": 0,
+    "explanation": "$V-30+12=2 \\Rightarrow V=2+30-12=20$."
+  },
+  {
+    "id": "q-g6-platonic-13",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "כמה קודקודים יש לאיקוסהדרון (עם $20$ פאות משולשות ו-$30$ מקצועות), לפי נוסחת אוילר?",
+    "options": [
+      "$12$",
+      "$20$",
+      "$30$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "$V-30+20=2 \\Rightarrow V=2+30-20=12$."
+  },
+  {
+    "id": "q-g6-platonic-14",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לקובייה יש $8$ קודקודים ו-$6$ פאות; לאוקטהדרון יש $6$ קודקודים ו-$8$ פאות. איך אפשר לתאר את הקשר בין שני הגופים האלה?",
+    "options": [
+      "הקודקודים והפאות \"מתחלפים\" ביניהם (הם גופים כפולים זה לזה)",
+      "הם אותו גוף בדיוק",
+      "אין שום קשר ביניהם",
+      "אחד מהם אינו גוף משוכלל"
+    ],
+    "correct_index": 0,
+    "explanation": "קובייה ואוקטהדרון הם \"גופים כפולים\" (דואליים) — מספר הקודקודים של האחד שווה למספר הפאות של השני, ולהפך."
+  },
+  {
+    "id": "q-g6-platonic-15",
+    "topic_id": "g6-platonic-solids",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מדוע יש בדיוק $5$ גופים משוכללים ולא יותר?",
+    "options": [
+      "כי רק שילובים מסוימים של מספר צלעות בפאה ומספר פאות בקודקוד נותנים סכום זוויות קטן מ-$360°$ סביב כל קודקוד",
+      "כי אף אחד לא גילה יותר מ-$5$",
+      "כי המספר $5$ הוא קסום במתמטיקה",
+      "יש למעשה אינסוף גופים משוכללים"
+    ],
+    "correct_index": 0,
+    "explanation": "כדי ליצור קודקוד תלת-ממדי, סכום הזוויות סביבו (לפחות $3$ פאות) חייב להיות קטן מ-$360°$ — ורק חמישה שילובים של מצולע משוכלל ומספר פאות בקודקוד מקיימים את התנאי הזה."
+  }
 ]
 export function getElementaryQuestionsForTopic(topicId) {
   return ELEMENTARY_QUESTIONS.filter((q) => q.topic_id === topicId);
