@@ -1536,6 +1536,60 @@ export const ELEMENTARY_TOPICS = [
     ]
   },
   {
+    "id": "g5-quadrilaterals",
+    "grade": 5,
+    "units": null,
+    "track": null,
+    "cluster": "גאומטריה ומדידות",
+    "title": "מרובעים — סוגים ותכונות",
+    "description": "משפחת המרובעים (מקבילית, מלבן, ריבוע, מעוין, דלתון, טרפז), ותכונות האלכסונים בכל אחד מהם",
+    "sortOrder": 22,
+    "explanation": "<span class='hl-teal'>מרובע</span> הוא כל צורה סגורה בעלת $4$ צלעות ישרות. בתוך משפחת המרובעים יש כמה \"תתי-משפחות\" מיוחדות, שכל אחת מקיימת תכונות נוספות:\n\n<div class='diagram-box'><svg viewBox='0 0 300 130' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='280' height='110' rx='8' fill='none' stroke='#1a2b3c' stroke-width='1.5'/><text x='150' y='24' text-anchor='middle' font-size='10' fill='#1a2b3c'>מרובעים</text><rect x='25' y='32' width='150' height='80' rx='6' fill='#0d6e6e' fill-opacity='0.12' stroke='#0d6e6e' stroke-width='1.5'/><text x='100' y='44' text-anchor='middle' font-size='9' fill='#0d6e6e'>מקביליות</text><rect x='35' y='52' width='60' height='52' fill='#c45c48' fill-opacity='0.15' stroke='#c45c48' stroke-width='1.3'/><text x='65' y='63' text-anchor='middle' font-size='8' fill='#c45c48'>מלבן</text><rect x='102' y='52' width='60' height='52' fill='#c45c48' fill-opacity='0.15' stroke='#c45c48' stroke-width='1.3'/><text x='132' y='63' text-anchor='middle' font-size='8' fill='#c45c48'>מעוין</text><rect x='63' y='68' width='34' height='34' fill='#1a2b3c' fill-opacity='0.15' stroke='#1a2b3c' stroke-width='1.2'/><text x='80' y='88' text-anchor='middle' font-size='7' fill='#1a2b3c'>ריבוע</text><g transform='translate(195,60)'><polygon points='20,0 40,20 20,40 0,20' fill='none' stroke='#0d6e6e' stroke-width='1.5'/><text x='20' y='58' text-anchor='middle' font-size='9' fill='#1a2b3c'>דלתון</text></g><g transform='translate(240,60)'><polygon points='5,0 25,0 32,30 0,30' fill='none' stroke='#0d6e6e' stroke-width='1.5'/><text x='16' y='45' text-anchor='middle' font-size='9' fill='#1a2b3c'>טרפז</text></g></svg></div>\n\n<span class='hl-teal'>מקבילית</span> — מרובע עם <span class='hl-teal'>שני זוגות צלעות מקבילות</span>. באלכסוני מקבילית, <span class='hl-coral'>כל אלכסון חוצה את השני</span> (שתי נקודות האמצע נפגשות בדיוק במרכז).\n\n<span class='hl-teal'>מלבן</span> — מקבילית עם $4$ <span class='hl-teal'>זוויות ישרות</span>. באלכסוני מלבן, בנוסף לחציה ההדדית, <span class='hl-coral'>שני האלכסונים שווים באורכם</span>.\n\n<span class='hl-teal'>מעוין</span> — מקבילית עם $4$ <span class='hl-teal'>צלעות שוות</span>. באלכסוני מעוין, בנוסף לחציה ההדדית, <span class='hl-coral'>שני האלכסונים מאונכים זה לזה</span>.\n\n<span class='hl-teal'>ריבוע</span> — גם מלבן וגם מעוין בו-זמנית ($4$ זוויות ישרות וגם $4$ צלעות שוות), ולכן האלכסונים שלו <span class='hl-coral'>חוצים זה את זה, שווים, ומאונכים</span> — כל התכונות ביחד.\n\n<span class='hl-teal'>דלתון</span> — מרובע עם <span class='hl-teal'>שני זוגות צלעות סמוכות שוות</span> (לא מול, אלא לצד). באלכסון דלתון: אלכסון אחד (ציר הסימטריה) <span class='hl-coral'>חוצה את השני בניצב</span>, אך אינו בהכרח נחצה בעצמו.\n\n<span class='hl-teal'>טרפז</span> — מרובע עם <span class='hl-teal'>בדיוק זוג אחד</span> של צלעות מקבילות (הנקראות \"בסיסים\"). לטרפז אין תכונת חציית אלכסונים כללית.\n\n<span class='hl-success'>טיפ לזכירה</span>: כל ריבוע הוא גם מלבן וגם מעוין, כל מלבן ומעוין הם גם מקביליות — אבל לא להפך: לא כל מקבילית היא מלבן או מעוין.",
+    "keyFormulas": [
+      "מקבילית: שני זוגות צלעות מקבילות; האלכסונים חוצים זה את זה",
+      "מלבן: מקבילית עם $4$ זוויות ישרות; האלכסונים גם שווים",
+      "מעוין: מקבילית עם $4$ צלעות שוות; האלכסונים גם מאונכים",
+      "ריבוע $=$ מלבן וגם מעוין: אלכסונים חוצים, שווים ומאונכים",
+      "דלתון: שני זוגות צלעות סמוכות שוות; אלכסון אחד חוצה את השני בניצב",
+      "טרפז: בדיוק זוג אחד של צלעות מקבילות (הבסיסים)"
+    ]
+  },
+  {
+    "id": "g5-trapezoid",
+    "grade": 5,
+    "units": null,
+    "track": null,
+    "cluster": "גאומטריה ומדידות",
+    "title": "טרפז — גובה ושטח",
+    "description": "בסיס גדול ובסיס קטן, גובה הטרפז, ונוסחת שטח הטרפז",
+    "sortOrder": 23,
+    "explanation": "בטרפז, שני הצלעות המקבילות נקראות <span class='hl-teal'>בסיסים</span> — בדרך כלל אחד ארוך יותר (\"הבסיס הגדול\") ואחד קצר יותר (\"הבסיס הקטן\"). שתי הצלעות האחרות נקראות <span class='hl-teal'>שוקיים</span>.\n\n<div class='diagram-box'><svg viewBox='0 0 220 110' xmlns='http://www.w3.org/2000/svg'><polygon points='30,90 190,90 150,20 70,20' fill='#0d6e6e' fill-opacity='0.12' stroke='#0d6e6e' stroke-width='2.5'/><line x1='70' y1='90' x2='70' y2='20' stroke='#c45c48' stroke-width='2' stroke-dasharray='4'/><text x='78' y='55' font-size='11' fill='#c45c48'>גובה</text><text x='110' y='104' text-anchor='middle' font-size='10' fill='#1a2b3c'>בסיס גדול</text><text x='110' y='14' text-anchor='middle' font-size='10' fill='#1a2b3c'>בסיס קטן</text></svg></div>\n\n<span class='hl-teal'>הגובה</span> של הטרפז הוא <span class='hl-coral'>המרחק המאונך</span> בין שני הבסיסים המקבילים — בדיוק כמו הגובה במקבילית.\n\n<span class='hl-teal'>שטח הטרפז</span> מחושב לפי הרעיון של \"בסיס ממוצע\": מחברים את שני הבסיסים, מחלקים ב-$2$ (מוצאים את הממוצע ביניהם), וכופלים בגובה:\n\n$\\text{שטח}=\\dfrac{(\\text{בסיס גדול}+\\text{בסיס קטן})\\times\\text{גובה}}{2}$\n\nלמשל, טרפז עם בסיסים $10$ ו-$6$ ס\"מ וגובה $4$ ס\"מ: $\\dfrac{(10+6)\\times4}{2}=\\dfrac{64}{2}=32$ סמ\"ר.\n\n<span class='hl-teal'>סוגי טרפזים מיוחדים</span>:\n- <span class='hl-teal'>טרפז ישר-זווית</span> — יש בו שתי זוויות ישרות (אחת השוקיים מאונכת לבסיסים, ומשמשת גם כגובה).\n- <span class='hl-teal'>טרפז שווה-שוקיים</span> — שתי השוקיים שוות באורכן, וגם זוויות הבסיס שוות זו לזו בכל צד.\n\n<span class='hl-coral'>קשר למקבילית</span> — מקבילית היא מקרה פרטי \"כמעט\" של טרפז, כאשר שני הבסיסים שווים באורך: אז $\\dfrac{(b+b)\\times h}{2}=\\dfrac{2b\\times h}{2}=b\\times h$ — בדיוק נוסחת שטח מקבילית.",
+    "keyFormulas": [
+      "שטח טרפז $=\\dfrac{(\\text{בסיס גדול}+\\text{בסיס קטן})\\times\\text{גובה}}{2}$",
+      "גובה טרפז $=$ מרחק מאונך בין שני הבסיסים המקבילים",
+      "טרפז ישר-זווית: שוק אחת מאונכת לבסיסים ומשמשת כגובה",
+      "טרפז שווה-שוקיים: שתי השוקיים שוות, וזוויות הבסיס שוות בכל צד"
+    ]
+  },
+  {
+    "id": "g5-tessellations",
+    "grade": 5,
+    "units": null,
+    "track": null,
+    "cluster": "גאומטריה ומדידות",
+    "title": "ריצופים ומצולעים משוכללים",
+    "description": "צורות חופפות, מצולעים משוכללים, וריצוף המישור ללא רווחים וללא חפיפות",
+    "sortOrder": 24,
+    "explanation": "<span class='hl-teal'>צורות חופפות</span> הן צורות בעלות <span class='hl-teal'>בדיוק אותו גודל ואותה צורה</span> — אם מניחים אחת על השנייה (גם תוך כדי סיבוב או היפוך), הן מתלכדות לגמרי.\n\n<span class='hl-teal'>מצולע משוכלל</span> הוא מצולע שבו <span class='hl-teal'>כל הצלעות שוות אורך</span> וגם <span class='hl-teal'>כל הזוויות שוות</span>. לדוגמה: משולש שווה-צלעות, ריבוע, מחומש משוכלל, משושה משוכלל.\n\n<div class='diagram-box'><svg viewBox='0 0 260 90' xmlns='http://www.w3.org/2000/svg'><polygon points='30,75 55,30 80,75' fill='none' stroke='#0d6e6e' stroke-width='2'/><rect x='105' y='35' width='40' height='40' fill='none' stroke='#0d6e6e' stroke-width='2'/><polygon points='210,20 232,35 224,60 196,60 188,35' fill='none' stroke='#0d6e6e' stroke-width='2'/><text x='55' y='88' text-anchor='middle' font-size='9' fill='#1a2b3c'>משולש</text><text x='125' y='88' text-anchor='middle' font-size='9' fill='#1a2b3c'>ריבוע</text><text x='210' y='75' text-anchor='middle' font-size='9' fill='#1a2b3c'>מחומש</text></svg></div>\n\n<span class='hl-teal'>ריצוף</span> הוא כיסוי מלא של המישור בצורות חופפות, <span class='hl-coral'>בלי רווחים ובלי חפיפות ביניהן</span>. סביב כל נקודת מפגש בריצוף, סכום הזוויות שנפגשות שם הוא תמיד $360°$ (סיבוב שלם).\n\n<span class='hl-teal'>אילו מצולעים משוכללים מרצפים לבד?</span> רק שלושה: <span class='hl-teal'>משולש שווה-צלעות</span> (זווית $60°$, ו-$6\\times60°=360°$), <span class='hl-teal'>ריבוע</span> (זווית $90°$, ו-$4\\times90°=360°$), ו<span class='hl-teal'>משושה משוכלל</span> (זווית $120°$, ו-$3\\times120°=360°$).\n\n<span class='hl-coral'>מחומש משוכלל אינו מרצף לבד</span> — הזווית שלו ($108°$) לא מתחלקת ב-$360°$ בשלמות ($3\\times108°=324°$, ו-$4\\times108°=432°$ — אף אחד מהם לא $360°$ בדיוק). אפשר עם זאת ליצור ריצופים מעניינים בעזרת <span class='hl-teal'>כמה סוגי צורות שונות</span> ביחד.",
+    "keyFormulas": [
+      "צורות חופפות: אותו גודל ואותה צורה בדיוק",
+      "מצולע משוכלל: כל הצלעות שוות וכל הזוויות שוות",
+      "ריצוף: כיסוי מישור בצורות חופפות, בלי רווחים ובלי חפיפות",
+      "סביב כל נקודת מפגש בריצוף, סכום הזוויות הוא $360°$",
+      "מרצפים לבד: משולש שווה-צלעות ($60°$), ריבוע ($90°$), משושה משוכלל ($120°$)"
+    ]
+  },
+  {
     "id": "g6-natural-numbers-ops",
     "grade": 6,
     "units": null,

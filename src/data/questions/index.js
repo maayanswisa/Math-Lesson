@@ -15,7 +15,7 @@ export const SPEED_RUN_POOL_SIZE = 500;
  * summing the array lengths in elementaryQuestions.js, middleSchoolQuestions.js,
  * highSchoolQuestions.js, and interactiveQuestions.js.
  */
-export const TOTAL_QUESTION_COUNT = 4513;
+export const TOTAL_QUESTION_COUNT = 4573;
 
 /**
  * Full bank for a topic (interactive + MCQ). The three big per-stage banks
