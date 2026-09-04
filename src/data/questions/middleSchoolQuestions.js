@@ -18364,6 +18364,1957 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "correct_index": 0,
     "explanation": "טווח גדול יותר מעיד על פיזור רב יותר בין הערך הקטן לגדול — קבוצה א' (טווח $10$) מפוזרת יותר מקבוצה ב' (טווח $2$)."
   }
+,
+  {
+    "id": "q-g9r-algfrac-1",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כפלו: $\\frac{2}{x}\\times\\frac{3}{y}$.",
+    "options": [
+      "$\\frac{6}{xy}$",
+      "$\\frac{5}{x+y}$",
+      "$\\frac{6}{x+y}$",
+      "$\\frac{2}{x}+\\frac{3}{y}$"
+    ],
+    "correct_index": 0,
+    "explanation": "כופלים מונה במונה ומכנה במכנה: $\\frac{2\\times3}{x\\times y}=\\frac{6}{xy}$."
+  },
+  {
+    "id": "q-g9r-algfrac-2",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "חלקו: $\\frac{1}{x}\\div\\frac{1}{y}$.",
+    "options": [
+      "$\\frac{y}{x}$",
+      "$\\frac{x}{y}$",
+      "$\\frac{1}{xy}$",
+      "$xy$"
+    ],
+    "correct_index": 0,
+    "explanation": "הופכים את השבר השני וכופלים: $\\frac{1}{x}\\times\\frac{y}{1}=\\frac{y}{x}$."
+  },
+  {
+    "id": "q-g9r-algfrac-3",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "באיזה ערך אסור להציב $x$ במשוואה $\\frac{3}{x}=5$?",
+    "options": [
+      "$x=0$",
+      "$x=3$",
+      "$x=5$",
+      "$x=1$"
+    ],
+    "correct_index": 0,
+    "explanation": "אסור לחלק באפס — $x=0$ פוסל את המכנה."
+  },
+  {
+    "id": "q-g9r-algfrac-4",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כפלו וצמצמו: $\\frac{x}{2}\\times\\frac{4}{x}$ (עבור $x\\neq0$).",
+    "options": [
+      "$2$",
+      "$4$",
+      "$\\frac{x^2}{8}$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{x\\times4}{2\\times x}=\\frac{4x}{2x}=2$."
+  },
+  {
+    "id": "q-g9r-algfrac-5",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "חלקו: $\\frac{6}{x}\\div\\frac{2}{x}$ (עבור $x\\neq0$).",
+    "options": [
+      "$3$",
+      "$6$",
+      "$\\frac{12}{x^2}$",
+      "$\\frac{3}{x}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{6}{x}\\times\\frac{x}{2}=\\frac{6x}{2x}=3$."
+  },
+  {
+    "id": "q-g9r-algfrac-6",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פתרו: $\\frac{4}{x}=2$.",
+    "options": [
+      "$x=2$",
+      "$x=8$",
+      "$x=0.5$",
+      "$x=-2$"
+    ],
+    "correct_index": 0,
+    "explanation": "כופלים ב-$x$: $4=2x \\Rightarrow x=2$."
+  },
+  {
+    "id": "q-g9r-algfrac-7",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "כפלו וצמצמו: $\\frac{x+1}{x}\\times\\frac{x}{2}$ (עבור $x\\neq0$).",
+    "options": [
+      "$\\frac{x+1}{2}$",
+      "$\\frac{x+1}{2x}$",
+      "$\\frac{2x+2}{x}$",
+      "$x+1$"
+    ],
+    "correct_index": 0,
+    "explanation": "מצמצמים $x$: $\\frac{(x+1)\\times x}{x\\times2}=\\frac{x+1}{2}$."
+  },
+  {
+    "id": "q-g9r-algfrac-8",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו: $\\frac{2}{x}+1=3$.",
+    "options": [
+      "$x=1$",
+      "$x=2$",
+      "$x=0.5$",
+      "$x=-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{2}{x}=3-1=2 \\Rightarrow x=\\frac{2}{2}=1$."
+  },
+  {
+    "id": "q-g9r-algfrac-9",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו: $\\frac{3}{x}=\\frac{1}{2}$.",
+    "options": [
+      "$x=6$",
+      "$x=1.5$",
+      "$x=3$",
+      "$x=\\frac{1}{6}$"
+    ],
+    "correct_index": 0,
+    "explanation": "כפל בהצלבה: $3\\times2=1\\times x \\Rightarrow x=6$."
+  },
+  {
+    "id": "q-g9r-algfrac-10",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $\\frac{5}{x}-\\frac{2}{x}=1$.",
+    "options": [
+      "$x=3$",
+      "$x=1$",
+      "$x=\\frac{1}{3}$",
+      "$x=7$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{5}{x}-\\frac{2}{x}=\\frac{3}{x}=1 \\Rightarrow x=3$."
+  },
+  {
+    "id": "q-g9r-algfrac-11",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חלקו וצמצמו: $\\frac{x^2}{y}\\div\\frac{x}{y}$ (עבור $x,y\\neq0$).",
+    "options": [
+      "$x$",
+      "$x^2$",
+      "$\\frac{x}{y^2}$",
+      "$y$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{x^2}{y}\\times\\frac{y}{x}=\\frac{x^2y}{xy}=x$."
+  },
+  {
+    "id": "q-g9r-algfrac-12",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $\\frac{1}{x}+\\frac{1}{2}=\\frac{3}{x}$.",
+    "options": [
+      "$x=4$",
+      "$x=2$",
+      "$x=6$",
+      "$x=\\frac{1}{4}$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכפילים במכנה המשותף $2x$: $2+x=6 \\Rightarrow x=4$."
+  },
+  {
+    "id": "q-g9r-algfrac-13",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פתרו: $\\frac{2}{x-1}=\\frac{4}{x+1}$.",
+    "options": [
+      "$x=3$",
+      "$x=1$",
+      "$x=-1$",
+      "$x=-3$"
+    ],
+    "correct_index": 0,
+    "explanation": "כפל בהצלבה: $2(x+1)=4(x-1) \\Rightarrow 2x+2=4x-4 \\Rightarrow 6=2x \\Rightarrow x=3$."
+  },
+  {
+    "id": "q-g9r-algfrac-14",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פתרו: $\\frac{3}{x}+\\frac{2}{x}=1$, ובדקו אם הפתרון תקף.",
+    "options": [
+      "$x=5$, תקף",
+      "$x=0$, פסול",
+      "$x=5$, פסול",
+      "$x=\\frac{1}{5}$, תקף"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{3}{x}+\\frac{2}{x}=\\frac{5}{x}=1 \\Rightarrow x=5$; בודקים: $x=5\\neq0$, הפתרון תקף."
+  },
+  {
+    "id": "q-g9r-algfrac-15",
+    "topic_id": "g9r-algebraic-fractions",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בפתרון המשוואה $\\frac{x}{x-2}=\\frac{2}{x-2}$ מתקבל $x=2$ (אחרי הכפלה במכנה המשותף). האם זהו פתרון תקף?",
+    "options": [
+      "לא, $x=2$ פוסל את המכנה — למשוואה אין פתרון",
+      "כן, $x=2$ הוא הפתרון",
+      "כן, אבל רק אם מעגלים",
+      "לא ניתן לדעת בלי מחשבון"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $x=2$ במכנה המקורי $x-2$: מתקבל $0$ — חלוקה באפס אסורה, ולכן $x=2$ פסול ולמשוואה הזו אין פתרון."
+  },
+  {
+    "id": "q-g9r-qff-1",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בפונקציה $y=(x-3)(x+2)$, מהם השורשים (נקודות האפס)?",
+    "options": [
+      "$x=3$ או $x=-2$",
+      "$x=-3$ או $x=2$",
+      "$x=3$ או $x=2$",
+      "$x=-3$ או $x=-2$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $y=0$: $x-3=0$ או $x+2=0$, כלומר $x=3$ או $x=-2$."
+  },
+  {
+    "id": "q-g9r-qff-2",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בפונקציה $y=2(x-1)(x-5)$, מהם השורשים?",
+    "options": [
+      "$x=1$ או $x=5$",
+      "$x=-1$ או $x=-5$",
+      "$x=2$ או $x=10$",
+      "$x=1$ בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $y=0$: $x=1$ או $x=5$ (המקדם $2$ לא משנה את השורשים)."
+  },
+  {
+    "id": "q-g9r-qff-3",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בפונקציה $y=(x+4)^2$, כמה שורשים יש לה?",
+    "options": [
+      "שורש כפול אחד: $x=-4$",
+      "שני שורשים שונים",
+      "אין שורשים",
+      "שלושה שורשים"
+    ],
+    "correct_index": 0,
+    "explanation": "$(x+4)^2=0 \\Rightarrow x=-4$ — שורש כפול (הפרבולה נוגעת בציר $x$ בנקודה אחת)."
+  },
+  {
+    "id": "q-g9r-qff-4",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפונקציה $y=(x-2)(x-8)$, מהו ציר הסימטריה?",
+    "options": [
+      "$x=5$",
+      "$x=10$",
+      "$x=3$",
+      "$x=6$"
+    ],
+    "correct_index": 0,
+    "explanation": "ציר הסימטריה באמצע בין השורשים: $x=\\frac{2+8}{2}=5$."
+  },
+  {
+    "id": "q-g9r-qff-5",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפונקציה $y=(x+1)(x-7)$, מהו ציר הסימטריה?",
+    "options": [
+      "$x=3$",
+      "$x=4$",
+      "$x=-3$",
+      "$x=6$"
+    ],
+    "correct_index": 0,
+    "explanation": "$x=\\frac{-1+7}{2}=3$."
+  },
+  {
+    "id": "q-g9r-qff-6",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כתבו בצורת המכפלה פונקציה עם שורשים $x=0$ ו-$x=6$ ומקדם $a=1$.",
+    "options": [
+      "$y=x(x-6)$",
+      "$y=(x+6)(x)$",
+      "$y=x(x+6)$",
+      "$y=(x-6)^2$"
+    ],
+    "correct_index": 0,
+    "explanation": "עבור שורש $x=0$ הגורם הוא $x$ עצמו; עבור שורש $x=6$ הגורם הוא $(x-6)$: $y=x(x-6)$."
+  },
+  {
+    "id": "q-g9r-qff-7",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתחו סוגריים והביאו לצורה סטנדרטית: $y=(x-2)(x+5)$.",
+    "options": [
+      "$y=x^2+3x-10$",
+      "$y=x^2-3x-10$",
+      "$y=x^2+3x+10$",
+      "$y=x^2-7x-10$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(x-2)(x+5)=x^2+5x-2x-10=x^2+3x-10$."
+  },
+  {
+    "id": "q-g9r-qff-8",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פונקציה ריבועית עם שורשים $x=-3,x=4$ עוברת דרך הנקודה $(0,-24)$. מהו $a$?",
+    "options": [
+      "$2$",
+      "$-2$",
+      "$12$",
+      "$24$"
+    ],
+    "correct_index": 0,
+    "explanation": "$y=a(x+3)(x-4)$; מציבים $(0,-24)$: $a\\times3\\times(-4)=-12a=-24 \\Rightarrow a=2$."
+  },
+  {
+    "id": "q-g9r-qff-9",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפונקציה $y=x^2-25$ יש שורשים ב-$x=5$ ו-$x=-5$. כתבו אותה בצורת המכפלה.",
+    "options": [
+      "$y=(x-5)(x+5)$",
+      "$y=(x-5)^2$",
+      "$y=(x+5)^2$",
+      "$y=x(x-25)$"
+    ],
+    "correct_index": 0,
+    "explanation": "$x^2-25=x^2-5^2=(x-5)(x+5)$ (נוסחת הכפל המקוצר), עם שורשים $5$ ו-$-5$."
+  },
+  {
+    "id": "q-g9r-qff-10",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פונקציה ריבועית עם שורש כפול ב-$x=3$ עוברת דרך $(0,18)$. מהי הפונקציה בצורת המכפלה?",
+    "options": [
+      "$y=2(x-3)^2$",
+      "$y=(x-3)^2$",
+      "$y=2(x+3)^2$",
+      "$y=18(x-3)^2$"
+    ],
+    "correct_index": 0,
+    "explanation": "$y=a(x-3)^2$; מציבים $(0,18)$: $9a=18 \\Rightarrow a=2$; $y=2(x-3)^2$."
+  },
+  {
+    "id": "q-g9r-qff-11",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפונקציה $y=x^2-2x-15$ יש שורשים ב-$x=5$ ו-$x=-3$. השוו בין ציר הסימטריה שמתקבל מאמצע השורשים, לבין זה שמתקבל מהנוסחה $-\\frac{b}{2a}$.",
+    "options": [
+      "שניהם נותנים $x=1$",
+      "שניהם נותנים $x=-1$",
+      "הראשון $1$, השני $-1$",
+      "אינם שווים"
+    ],
+    "correct_index": 0,
+    "explanation": "אמצע השורשים: $\\frac{5+(-3)}{2}=1$; ולפי הנוסחה: $-\\frac{-2}{2\\times1}=1$ — שתי השיטות מסכימות, כמובן."
+  },
+  {
+    "id": "q-g9r-qff-12",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פונקציה בצורה $y=a(x-m)(x-t)$ עם $a=-1$, $m=2$, $t=6$. מהו הערך המקסימלי (ערך $y$ בקודקוד)?",
+    "options": [
+      "$4$",
+      "$-4$",
+      "$0$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "ציר הסימטריה $x=\\frac{2+6}{2}=4$; $y=-(4-2)(4-6)=-(2)(-2)=4$ — זהו המקסימום כי $a<0$."
+  },
+  {
+    "id": "q-g9r-qff-13",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פונקציה ריבועית עם שורשים $x=1,x=5$ שערכה המקסימלי הוא $y=8$ (בקודקוד). מהו $a$?",
+    "options": [
+      "$-2$",
+      "$2$",
+      "$-8$",
+      "$8$"
+    ],
+    "correct_index": 0,
+    "explanation": "ציר הסימטריה $x=3$; $y=a(3-1)(3-5)=-4a$; מקסימום פירושו $a<0$, ו-$-4a=8 \\Rightarrow a=-2$."
+  },
+  {
+    "id": "q-g9r-qff-14",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לשתי פונקציות ריבועיות אותם שורשים ($x=2,x=7$), אך מקדמים $a$ שונים ($a=1$ ו-$a=3$). מה משותף לגרפים שלהן, ומה שונה?",
+    "options": [
+      "אותן נקודות חיתוך עם ציר $x$ ואותו ציר סימטריה, אך \"רוחב\"/תלילות שונים",
+      "הכול זהה לגמרי",
+      "אין שום דבר משותף",
+      "אותו קודקוד בדיוק"
+    ],
+    "correct_index": 0,
+    "explanation": "שני הגרפים חולקים את אותם שורשים (ולכן גם אותו ציר סימטריה), אבל $a$ שונה גורם לפרבולה השנייה ($a=3$) להיות \"צרה\" יותר."
+  },
+  {
+    "id": "q-g9r-qff-15",
+    "topic_id": "g9r-quadratic-factored-form",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פונקציה $y=(x-m)(x-t)$ עם $a=1$ ו-$m<t$. עבור אילו ערכי $x$ הפונקציה שלילית ($y<0$)?",
+    "options": [
+      "$m<x<t$",
+      "$x<m$ או $x>t$",
+      "לכל $x$",
+      "אף פעם"
+    ],
+    "correct_index": 0,
+    "explanation": "כש-$a=1>0$ הפרבולה פותחת למעלה — שלילית בדיוק בין השורשים: $m<x<t$."
+  },
+  {
+    "id": "q-g9r-triineq-1",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם משולש עם צלעות $3,4,5$ יכול להתקיים?",
+    "options": [
+      "כן",
+      "לא",
+      "רק אם הוא ישר-זווית",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "$3+4=7>5$ — מתקיים אי-שוויון המשולש לכל שלישיית הצלעות, אז המשולש קיים."
+  },
+  {
+    "id": "q-g9r-triineq-2",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם משולש עם צלעות $2,3,10$ יכול להתקיים?",
+    "options": [
+      "לא",
+      "כן",
+      "רק אם הוא קהה-זווית",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "$2+3=5<10$ — הצלע הארוכה גדולה מסכום השתיים האחרות, אז המשולש לא יכול להתקיים."
+  },
+  {
+    "id": "q-g9r-triineq-3",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "במשולש, מול הצלע הארוכה ביותר נמצאת:",
+    "options": [
+      "הזווית הגדולה ביותר",
+      "הזווית הקטנה ביותר",
+      "זווית ישרה בהכרח",
+      "אין קשר"
+    ],
+    "correct_index": 0,
+    "explanation": "מול צלע ארוכה יותר תמיד נמצאת זווית גדולה יותר."
+  },
+  {
+    "id": "q-g9r-triineq-4",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם משולש עם צלעות $5,5,10$ יכול להתקיים?",
+    "options": [
+      "לא — $5+5$ אינו גדול ($=$) מ-$10$",
+      "כן",
+      "רק אם הוא שווה-שוקיים",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "אי-שוויון המשולש דורש סכום ממש גדול יותר: $5+5=10$ אינו גדול מ-$10$, אלא שווה לו — משולש כזה לא יכול להתקיים."
+  },
+  {
+    "id": "q-g9r-triineq-5",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$, הזווית ב-$A$ היא הגדולה ביותר. איזו צלע היא הארוכה ביותר?",
+    "options": [
+      "$BC$ (הצלע שמול $A$)",
+      "$AB$",
+      "$AC$",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "מול הזווית הגדולה ביותר נמצאת הצלע הארוכה ביותר — הצלע שמול $A$ היא $BC$."
+  },
+  {
+    "id": "q-g9r-triineq-6",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "צלעות משולש הן $6$ ו-$9$. מהו הטווח האפשרי לצלע השלישית $c$?",
+    "options": [
+      "$3<c<15$",
+      "$0<c<15$",
+      "$6<c<9$",
+      "$3<c<9$"
+    ],
+    "correct_index": 0,
+    "explanation": "$|9-6|<c<9+6 \\Rightarrow 3<c<15$."
+  },
+  {
+    "id": "q-g9r-triineq-7",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש עם צלעות $x, 2x, 3x$ (כאשר $x>0$) — האם הוא יכול להתקיים?",
+    "options": [
+      "לא — $x+2x=3x$, שווה ולא גדול מהצלע השלישית",
+      "כן, לכל $x>0$",
+      "רק אם $x=1$",
+      "רק אם $x>10$"
+    ],
+    "correct_index": 0,
+    "explanation": "$x+2x=3x$ — סכום שתי הצלעות הקטנות שווה בדיוק לצלע השלישית, ולא גדול ממנה, אז המשולש לא יכול להתקיים."
+  },
+  {
+    "id": "q-g9r-triineq-8",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$: $AB=7$, $BC=4$, $AC=5$. סדרו את הזוויות מהגדולה לקטנה.",
+    "options": [
+      "$C>B>A$",
+      "$A>B>C$",
+      "$B>A>C$",
+      "$A>C>B$"
+    ],
+    "correct_index": 0,
+    "explanation": "מול הצלע הארוכה ביותר ($AB=7$) נמצאת $C$; מול $AC=5$ נמצאת $B$; מול $BC=4$ נמצאת $A$. הסדר: $C>B>A$."
+  },
+  {
+    "id": "q-g9r-triineq-9",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "צלעות משולש הן $8$ ו-$15$. מהו הטווח האפשרי לצלע השלישית?",
+    "options": [
+      "$7<c<23$",
+      "$0<c<23$",
+      "$8<c<15$",
+      "$7<c<15$"
+    ],
+    "correct_index": 0,
+    "explanation": "$|15-8|<c<15+8 \\Rightarrow 7<c<23$."
+  },
+  {
+    "id": "q-g9r-triineq-10",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש $ABC$ שווה-שוקיים ($AB=AC$), עם זווית ראש $A=40°$. איך יחסי הצלעות $AB,AC,BC$?",
+    "options": [
+      "$BC$ קצרה מ-$AB$ ומ-$AC$ (השווים)",
+      "$BC$ ארוכה מ-$AB$ ומ-$AC$",
+      "כל הצלעות שוות",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "זוויות הבסיס הן $70°$ כל אחת (גדולות מזווית הראש $40°$), ומול זווית קטנה יותר נמצאת צלע קצרה יותר — לכן $BC$ (מול זווית הראש) קצרה מהשוקיים."
+  },
+  {
+    "id": "q-g9r-triineq-11",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש עם צלעות $4,4,c$. עבור אילו ערכי $c$ הוא יכול להתקיים?",
+    "options": [
+      "$0<c<8$",
+      "$4<c<8$",
+      "$0<c<4$",
+      "$c=4$ בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "$|4-4|<c<4+4 \\Rightarrow 0<c<8$."
+  },
+  {
+    "id": "q-g9r-triineq-12",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$, $\\angle A=50°$, $\\angle B=60°$, $\\angle C=70°$. סדרו את הצלעות $AB,BC,AC$ מהקצרה לארוכה.",
+    "options": [
+      "$BC<AC<AB$",
+      "$AB<AC<BC$",
+      "$AC<BC<AB$",
+      "$AB<BC<AC$"
+    ],
+    "correct_index": 0,
+    "explanation": "מול $\\angle A=50°$ (הקטנה) נמצאת $BC$ (הקצרה); מול $\\angle C=70°$ (הגדולה) נמצאת $AB$ (הארוכה): $BC<AC<AB$."
+  },
+  {
+    "id": "q-g9r-triineq-13",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "צלעות משולש הן $x-1, x, x+1$ (עבור $x>1$). לאילו ערכי $x$ המשולש קיים?",
+    "options": [
+      "$x>2$",
+      "$x>1$",
+      "$x>0$",
+      "$x\\geq2$"
+    ],
+    "correct_index": 0,
+    "explanation": "הצלע הארוכה ($x+1$) חייבת להיות קטנה מסכום השתיים האחרות: $(x-1)+x>x+1 \\Rightarrow 2x-1>x+1 \\Rightarrow x>2$."
+  },
+  {
+    "id": "q-g9r-triineq-14",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "משולש שווה-שוקיים עם שוקיים באורך $5$. מהו הטווח האפשרי לאורך הבסיס $b$?",
+    "options": [
+      "$0<b<10$",
+      "$5<b<10$",
+      "$0<b<5$",
+      "$b=5$ בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "$|5-5|<b<5+5 \\Rightarrow 0<b<10$."
+  },
+  {
+    "id": "q-g9r-triineq-15",
+    "topic_id": "g9r-triangle-inequality",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$ ידוע $AB>AC$. איזו מהטענות הבאות נכונה בהכרח?",
+    "options": [
+      "$\\angle C>\\angle B$ (הזווית שמול $AB$ גדולה מהזווית שמול $AC$)",
+      "$\\angle B>\\angle C$",
+      "$\\angle A$ הגדולה ביותר",
+      "המשולש שווה-שוקיים"
+    ],
+    "correct_index": 0,
+    "explanation": "מול הצלע הארוכה יותר ($AB$) נמצאת הזווית הגדולה יותר; $AB$ שמול $\\angle C$, ו-$AC$ שמול $\\angle B$ — לכן $\\angle C>\\angle B$."
+  },
+  {
+    "id": "q-g9r-circhord-1",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו רדיוס מעגל שקוטרו $14$ ס\"מ?",
+    "options": [
+      "$7$",
+      "$14$",
+      "$28$",
+      "$3.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "רדיוס $=$ קוטר $\\div2=14\\div2=7$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-circhord-2",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "זווית מרכזית במעגל היא $80°$. מהי הקשת שהיא חוסמת (במעלות)?",
+    "options": [
+      "$80°$",
+      "$160°$",
+      "$40°$",
+      "$280°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית מרכזית שווה במספר מעלותיה לקשת שהיא חוסמת: $80°$."
+  },
+  {
+    "id": "q-g9r-circhord-3",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו סכום כל הזוויות המרכזיות סביב מרכז המעגל (מעגל שלם)?",
+    "options": [
+      "$360°$",
+      "$180°$",
+      "$90°$",
+      "תלוי ברדיוס"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף המעגל השלם הוא $360°$."
+  },
+  {
+    "id": "q-g9r-circhord-4",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "קשת במעגל היא $110°$. מהי הזווית המרכזית החוסמת אותה?",
+    "options": [
+      "$110°$",
+      "$55°$",
+      "$220°$",
+      "$250°$"
+    ],
+    "correct_index": 0,
+    "explanation": "הזווית המרכזית שווה במספר מעלותיה לקשת: $110°$."
+  },
+  {
+    "id": "q-g9r-circhord-5",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "אנך יוצא ממרכז מעגל אל מיתר באורך $16$ ס\"מ. לכמה חלקים שווים הוא מחלק את המיתר?",
+    "options": [
+      "שני חלקים של $8$ ס\"מ כל אחד",
+      "שני חלקים של $16$ ס\"מ כל אחד",
+      "שלושה חלקים שווים",
+      "הוא לא נוגע במיתר"
+    ],
+    "correct_index": 0,
+    "explanation": "האנך ממרכז המעגל למיתר חוצה אותו לשני חלקים שווים: $16\\div2=8$ ס\"מ כל אחד."
+  },
+  {
+    "id": "q-g9r-circhord-6",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני מיתרים במעגל שווים באורכם. מה ניתן לומר על מרחקם מהמרכז?",
+    "options": [
+      "שווה — הם מרוחקים באותו מרחק מהמרכז",
+      "המיתר הארוך יותר קרוב יותר",
+      "אין קשר בין אורך המיתר למרחק מהמרכז",
+      "המיתר הקצר יותר קרוב יותר"
+    ],
+    "correct_index": 0,
+    "explanation": "מיתרים שווים במעגל אחד מרוחקים תמיד באותו מרחק מהמרכז."
+  },
+  {
+    "id": "q-g9r-circhord-7",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מיתר במעגל שרדיוסו $10$ ס\"מ נמצא במרחק $6$ ס\"מ מהמרכז. מה אורך המיתר?",
+    "options": [
+      "$16$ ס\"מ",
+      "$8$ ס\"מ",
+      "$12$ ס\"מ",
+      "$14$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "חצי המיתר, הרדיוס והמרחק מהמרכז יוצרים משולש ישר-זווית: $\\sqrt{10^2-6^2}=\\sqrt{64}=8$; המיתר השלם $=2\\times8=16$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-circhord-8",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מעגל שרדיוסו $13$ ס\"מ, ומיתר בו שאורכו $24$ ס\"מ. מה מרחק המיתר מהמרכז?",
+    "options": [
+      "$5$ ס\"מ",
+      "$10$ ס\"מ",
+      "$12$ ס\"מ",
+      "$1$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "חצי המיתר $=12$; מרחק מהמרכז $=\\sqrt{13^2-12^2}=\\sqrt{25}=5$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-circhord-9",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שתי קשתות שוות במעגל. מה ניתן לומר על הזוויות המרכזיות שלהן ועל המיתרים התואמים?",
+    "options": [
+      "שתיהן שוות — גם הזוויות המרכזיות וגם המיתרים",
+      "הזוויות שוות אך המיתרים שונים",
+      "המיתרים שווים אך הזוויות שונות",
+      "אין קשר"
+    ],
+    "correct_index": 0,
+    "explanation": "קשתות שוות נשענות על זוויות מרכזיות שוות, ומתאימות למיתרים שווים."
+  },
+  {
+    "id": "q-g9r-circhord-10",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מעגל שרדיוסו $17$ ס\"מ, ומיתר במרחק $8$ ס\"מ מהמרכז. מה אורך המיתר?",
+    "options": [
+      "$30$ ס\"מ",
+      "$15$ ס\"מ",
+      "$25$ ס\"מ",
+      "$9$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{17^2-8^2}=\\sqrt{225}=15$; המיתר השלם $=2\\times15=30$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-circhord-11",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני מיתרים במעגל: האחד באורך $10$ במרחק $x$ מהמרכז, והשני באורך $16$ במרחק $y$. איזה מרחק גדול יותר, $x$ או $y$?",
+    "options": [
+      "$x>y$ (המיתר הקצר יותר רחוק יותר מהמרכז)",
+      "$x<y$",
+      "$x=y$",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "ככל שהמיתר ארוך יותר, הוא קרוב יותר למרכז — המיתר הקצר ($10$) רחוק יותר מהמיתר הארוך ($16$), כלומר $x>y$."
+  },
+  {
+    "id": "q-g9r-circhord-12",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "זווית מרכזית $AOB$ ($O$ מרכז המעגל) שווה ל-$70°$, ורדיוס המעגל $6$ ס\"מ. מה אורך הקשת $AB$ ($\\pi\\approx3.14$)?",
+    "options": [
+      "כ-$7.32$ ס\"מ",
+      "כ-$70$ ס\"מ",
+      "כ-$37.68$ ס\"מ",
+      "כ-$3.66$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף המעגל $=2\\pi r=2\\times3.14\\times6=37.68$ ס\"מ; הקשת היא $\\frac{70}{360}$ מההיקף: $37.68\\times\\frac{70}{360}\\approx7.32$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-circhord-13",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מעגל שרדיוסו $r$, ומיתר $AB$ שמרחקו מהמרכז הוא $d$. איזה ביטוי מתאר את אורך המיתר?",
+    "options": [
+      "$2\\sqrt{r^2-d^2}$",
+      "$\\sqrt{r^2-d^2}$",
+      "$2\\sqrt{r^2+d^2}$",
+      "$r^2-d^2$"
+    ],
+    "correct_index": 0,
+    "explanation": "חצי המיתר, הרדיוס והמרחק יוצרים משולש ישר-זווית: חצי המיתר $=\\sqrt{r^2-d^2}$; המיתר השלם $=2\\sqrt{r^2-d^2}$."
+  },
+  {
+    "id": "q-g9r-circhord-14",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שני מיתרים שווים במעגל שרדיוסו $10$, כל אחד באורך $12$. מה מרחקם מהמרכז?",
+    "options": [
+      "$8$",
+      "$6$",
+      "$4$",
+      "$\\sqrt{136}$"
+    ],
+    "correct_index": 0,
+    "explanation": "חצי המיתר $=6$; מרחק מהמרכז $=\\sqrt{10^2-6^2}=\\sqrt{64}=8$."
+  },
+  {
+    "id": "q-g9r-circhord-15",
+    "topic_id": "g9r-circle-chords",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מיתר $AB$ במעגל שרדיוסו $r$ הוא בעצם קוטר. באיזה מרחק הוא נמצא מהמרכז, ולפי הנוסחה $2\\sqrt{r^2-d^2}$ מה אורכו?",
+    "options": [
+      "מרחק $0$; אורך $2r$ (הקוטר)",
+      "מרחק $r$; אורך $r$",
+      "מרחק $0$; אורך $r$",
+      "מרחק $r$; אורך $2r$"
+    ],
+    "correct_index": 0,
+    "explanation": "קוטר עובר דרך המרכז עצמו, אז מרחקו מהמרכז הוא $0$; מהנוסחה: $2\\sqrt{r^2-0^2}=2r$ — בדיוק אורך הקוטר, כצפוי."
+  },
+  {
+    "id": "q-g9r-circtan-1",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "זווית מרכזית במעגל היא $80°$. מהי הזווית ההיקפית הנשענת על אותה קשת?",
+    "options": [
+      "$40°$",
+      "$80°$",
+      "$160°$",
+      "$20°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית היקפית $=$ מחצית הזווית המרכזית: $80\\div2=40°$."
+  },
+  {
+    "id": "q-g9r-circtan-2",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "זווית היקפית הנשענת על קוטר, שווה תמיד ל:",
+    "options": [
+      "$90°$",
+      "$180°$",
+      "$45°$",
+      "תלוי בגודל המעגל"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית היקפית הנשענת על קוטר היא תמיד $90°$."
+  },
+  {
+    "id": "q-g9r-circtan-3",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "המשיק למעגל ניצב תמיד ל:",
+    "options": [
+      "לרדיוס בנקודת ההשקה",
+      "לקוטר תמיד",
+      "לכל מיתר",
+      "לשום דבר במעגל"
+    ],
+    "correct_index": 0,
+    "explanation": "המשיק למעגל ניצב לרדיוס המחבר את המרכז לנקודת ההשקה."
+  },
+  {
+    "id": "q-g9r-circtan-4",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זווית היקפית במעגל היא $35°$. מהי הזווית המרכזית הנשענת על אותה קשת?",
+    "options": [
+      "$70°$",
+      "$35°$",
+      "$17.5°$",
+      "$105°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית מרכזית $=2\\times$ זווית היקפית $=2\\times35=70°$."
+  },
+  {
+    "id": "q-g9r-circtan-5",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שתי זוויות היקפיות נשענות על אותה קשת במעגל. מה הקשר ביניהן?",
+    "options": [
+      "הן שוות זו לזו",
+      "אחת כפולה מהשנייה",
+      "אין קשר",
+      "הן משלימות ל-$90°$"
+    ],
+    "correct_index": 0,
+    "explanation": "כל הזוויות ההיקפיות הנשענות על אותה קשת שוות זו לזו."
+  },
+  {
+    "id": "q-g9r-circtan-6",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני משיקים יוצאים מאותה נקודה חיצונית אל אותו מעגל. מה הקשר בין אורכיהם?",
+    "options": [
+      "הם שווים באורכם",
+      "אחד תמיד ארוך יותר",
+      "אין קשר",
+      "הם תמיד ניצבים זה לזה"
+    ],
+    "correct_index": 0,
+    "explanation": "שני משיקים מנקודה חיצונית אחת לאותו מעגל שווים תמיד באורכם."
+  },
+  {
+    "id": "q-g9r-circtan-7",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש חסום במעגל, כשאחת מצלעותיו היא קוטר המעגל. מהי הזווית שמול הקוטר?",
+    "options": [
+      "$90°$",
+      "$60°$",
+      "$45°$",
+      "תלוי בגודל המשולש"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית היקפית הנשענת על קוטר היא תמיד $90°$ — זהו משפט תאלס."
+  },
+  {
+    "id": "q-g9r-circtan-8",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "זווית מרכזית $AOB$ היא $100°$. מהי הזווית ההיקפית $ACB$ (הנשענת על אותה קשת $AB$, כאשר $C$ על המעגל)?",
+    "options": [
+      "$50°$",
+      "$100°$",
+      "$200°$",
+      "$25°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית היקפית $=\\frac{100}{2}=50°$."
+  },
+  {
+    "id": "q-g9r-circtan-9",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "רדיוס $OA$ מחובר לנקודת השקה $A$ של משיק. מהי הזווית בין $OA$ למשיק?",
+    "options": [
+      "$90°$",
+      "$0°$",
+      "$45°$",
+      "תלוי ברדיוס"
+    ],
+    "correct_index": 0,
+    "explanation": "המשיק ניצב תמיד לרדיוס בנקודת ההשקה — הזווית ביניהם $90°$."
+  },
+  {
+    "id": "q-g9r-circtan-10",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש $ABC$ חסום במעגל, ו-$AB$ הוא קוטר. אם $\\angle A=35°$, מהי $\\angle B$?",
+    "options": [
+      "$55°$",
+      "$35°$",
+      "$90°$",
+      "$65°$"
+    ],
+    "correct_index": 0,
+    "explanation": "$AB$ קוטר ⟸ $\\angle C=90°$ (משפט תאלס); $\\angle A+\\angle B=180-90=90 \\Rightarrow \\angle B=90-35=55°$."
+  },
+  {
+    "id": "q-g9r-circtan-11",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מנקודה $P$ מחוץ למעגל יוצאים שני משיקים הנוגעים במעגל ב-$A$ ו-$B$. אם $PA=7$ ס\"מ, מהו $PB$?",
+    "options": [
+      "$7$ ס\"מ",
+      "$14$ ס\"מ",
+      "$3.5$ ס\"מ",
+      "תלוי ברדיוס"
+    ],
+    "correct_index": 0,
+    "explanation": "שני משיקים מאותה נקודה חיצונית שווים באורכם: $PB=PA=7$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-circtan-12",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "זווית היקפית $\\angle ACB=42°$. מהי הזווית המרכזית $\\angle AOB$ הנשענת על אותה קשת?",
+    "options": [
+      "$84°$",
+      "$21°$",
+      "$42°$",
+      "$168°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית מרכזית $=2\\times42=84°$."
+  },
+  {
+    "id": "q-g9r-circtan-13",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "משולש $ABC$ חסום במעגל שרדיוסו $5$ ס\"מ, ו-$AB$ קוטר. אם $AC=6$ ס\"מ, מהו $BC$?",
+    "options": [
+      "$8$",
+      "$6$",
+      "$4$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "$AB=2\\times5=10$ (קוטר); $\\angle C=90°$ (תאלס); פיתגורס: $AC^2+BC^2=AB^2 \\Rightarrow 36+BC^2=100 \\Rightarrow BC=8$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-circtan-14",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מנקודה $P$ מחוץ למעגל, המרחק $PO$ (למרכז) הוא $13$ ס\"מ, ורדיוס המעגל $5$ ס\"מ. מה אורך המשיק מ-$P$ למעגל?",
+    "options": [
+      "$12$ ס\"מ",
+      "$18$ ס\"מ",
+      "$8$ ס\"מ",
+      "$144$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "המשיק ניצב לרדיוס בנקודת ההשקה, ויוצר משולש ישר-זווית עם $PO$ כיתר: $\\sqrt{13^2-5^2}=\\sqrt{144}=12$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-circtan-15",
+    "topic_id": "g9r-circle-inscribed-tangent",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "זווית היקפית $ADB$ וזווית היקפית $ACB$ נשענות שתיהן על קשת $AB$ ($D,C$ על המעגל, מאותו צד ביחס ל-$AB$). אם $\\angle ADB=55°$, מהי $\\angle ACB$?",
+    "options": [
+      "$55°$",
+      "$125°$",
+      "$110°$",
+      "$35°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זוויות היקפיות הנשענות על אותה קשת, מאותו צד, שוות זו לזו: $\\angle ACB=55°$."
+  },
+  {
+    "id": "q-g9r-solid1-1",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת נפח מנסרה ישרה (כל צורת בסיס)?",
+    "options": [
+      "שטח הבסיס $\\times$ גובה",
+      "היקף הבסיס $\\times$ גובה",
+      "$\\frac{1}{3}\\times$שטח הבסיס$\\times$גובה",
+      "שטח הבסיס $\\times$ היקף"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח כל מנסרה ישרה $=$ שטח הבסיס $\\times$ גובה המנסרה."
+  },
+  {
+    "id": "q-g9r-solid1-2",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה בסיסים משולשים יש למנסרה משולשת ישרה?",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "למנסרה משולשת יש שני בסיסים משולשים זהים ומקבילים."
+  },
+  {
+    "id": "q-g9r-solid1-3",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת נפח פירמידה?",
+    "options": [
+      "$\\frac{1}{3}\\times$שטח הבסיס$\\times$גובה",
+      "שטח הבסיס$\\times$גובה",
+      "$\\frac{1}{2}\\times$שטח הבסיס$\\times$גובה",
+      "היקף$\\times$גובה"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח פירמידה $=\\frac{1}{3}\\times$ שטח הבסיס $\\times$ גובה."
+  },
+  {
+    "id": "q-g9r-solid1-4",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מנסרה משולשת ישרה שבסיסה משולש ששטחו $12$ סמ\"ר, וגובה המנסרה $7$ ס\"מ. מה נפחה?",
+    "options": [
+      "$84$",
+      "$28$",
+      "$19$",
+      "$42$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=12\\times7=84$ סמ\"ק."
+  },
+  {
+    "id": "q-g9r-solid1-5",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "תיבה שאורכה $5$, רוחבה $4$, גובהה $3$. מה נפחה?",
+    "options": [
+      "$60$",
+      "$12$",
+      "$47$",
+      "$120$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח תיבה $=5\\times4\\times3=60$ סמ\"ק."
+  },
+  {
+    "id": "q-g9r-solid1-6",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פירמידה עם בסיס ששטחו $18$ סמ\"ר וגובה $6$ ס\"מ. מה נפחה?",
+    "options": [
+      "$36$",
+      "$108$",
+      "$54$",
+      "$18$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=\\frac{1}{3}\\times18\\times6=36$ סמ\"ק."
+  },
+  {
+    "id": "q-g9r-solid1-7",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "תיבה שאורכה $6$, רוחבה $8$. מה אורך אלכסון הבסיס שלה?",
+    "options": [
+      "$10$",
+      "$14$",
+      "$48$",
+      "$7$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{6^2+8^2}=\\sqrt{100}=10$."
+  },
+  {
+    "id": "q-g9r-solid1-8",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מנסרה משולשת ישרה שבסיסה משולש ישר-זווית עם ניצבים $3$ ו-$4$ ס\"מ, וגובה המנסרה $10$ ס\"מ. מה נפחה?",
+    "options": [
+      "$60$",
+      "$120$",
+      "$70$",
+      "$35$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח הבסיס (משולש ישר-זווית) $=\\frac{3\\times4}{2}=6$; נפח $=6\\times10=60$ סמ\"ק."
+  },
+  {
+    "id": "q-g9r-solid1-9",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פירמידה עם בסיס ריבועי שצלעו $5$ ס\"מ וגובה $9$ ס\"מ. מה נפחה?",
+    "options": [
+      "$75$",
+      "$225$",
+      "$45$",
+      "$25$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח הבסיס $=5\\times5=25$; נפח $=\\frac{1}{3}\\times25\\times9=75$ סמ\"ק."
+  },
+  {
+    "id": "q-g9r-solid1-10",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תיבה שנפחה $150$ סמ\"ק, אורכה $10$ ורוחבה $5$. מה גובהה?",
+    "options": [
+      "$3$",
+      "$15$",
+      "$30$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$150=10\\times5\\times h=50h \\Rightarrow h=3$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-solid1-11",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מנסרה משולשת ישרה עם שני בסיסים ששטח כל אחד $8$ סמ\"ר, היקף הבסיס $12$ ס\"מ, וגובה המנסרה $5$ ס\"מ. מה שטח הפנים הכולל?",
+    "options": [
+      "$76$",
+      "$60$",
+      "$96$",
+      "$40$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח פנים $=2\\times8+12\\times5=16+60=76$ סמ\"ר."
+  },
+  {
+    "id": "q-g9r-solid1-12",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פירמידה עם בסיס ריבועי שצלעו $6$ ס\"מ, כאשר גובה הפירמידה שווה לאורך צלע הבסיס. מה נפחה?",
+    "options": [
+      "$72$",
+      "$216$",
+      "$36$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח הבסיס $=36$, גובה $=6$; נפח $=\\frac{1}{3}\\times36\\times6=72$ סמ\"ק."
+  },
+  {
+    "id": "q-g9r-solid1-13",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פירמידה ריבועית ישרה שבה המרחק ממרכז הבסיס לקודקוד הבסיס הוא $4$ ס\"מ, והמקצוע הצדדי (מהפסגה לקודקוד) הוא $5$ ס\"מ. מה גובה הפירמידה?",
+    "options": [
+      "$3$",
+      "$4$",
+      "$5$",
+      "$9$"
+    ],
+    "correct_index": 0,
+    "explanation": "הגובה, המרחק ממרכז לקודקוד, והמקצוע הצדדי יוצרים משולש ישר-זווית: $h=\\sqrt{5^2-4^2}=\\sqrt{9}=3$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-solid1-14",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פירמידה ריבועית ישרה עם צלע בסיס $10$ ס\"מ וגובה $12$ ס\"מ. האפותם (מרכז הבסיס לאמצע צלע) הוא $5$ ס\"מ. מה אורך גובה הפאה המשולשת הצדדית?",
+    "options": [
+      "$13$",
+      "$17$",
+      "$7$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "הגובה, האפותם, וגובה הפאה יוצרים משולש ישר-זווית: $\\sqrt{12^2+5^2}=\\sqrt{169}=13$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-solid1-15",
+    "topic_id": "g9r-solid-prism-pyramid",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "תיבה שאלכסון פאה בין אורך לרוחב שלה הוא $d_1$, וגובהה $h$. איזה ביטוי מתאר את האלכסון המרחבי?",
+    "options": [
+      "$\\sqrt{d_1^2+h^2}$",
+      "$d_1+h$",
+      "$\\sqrt{d_1\\times h}$",
+      "$d_1^2+h^2$"
+    ],
+    "correct_index": 0,
+    "explanation": "אלכסון מרחבי $=\\sqrt{d_1^2+h^2}$ — פיתגורס פעם שנייה, עם אלכסון הפאה כניצב אחד וגובה התיבה כניצב השני."
+  },
+  {
+    "id": "q-g9r-solid2-1",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת נפח הגליל?",
+    "options": [
+      "$\\pi r^2h$",
+      "$2\\pi rh$",
+      "$\\pi rh$",
+      "$\\frac{1}{3}\\pi r^2h$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח גליל $=\\pi r^2h$."
+  },
+  {
+    "id": "q-g9r-solid2-2",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת נפח החרוט?",
+    "options": [
+      "$\\frac{1}{3}\\pi r^2h$",
+      "$\\pi r^2h$",
+      "$\\frac{4}{3}\\pi r^3$",
+      "$\\pi rl$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח חרוט $=\\frac{1}{3}\\pi r^2h$."
+  },
+  {
+    "id": "q-g9r-solid2-3",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו המקצוע (הגובה המשופע) של חרוט?",
+    "options": [
+      "המרחק מהפסגה אל שפת הבסיס",
+      "המרחק מהפסגה למרכז הבסיס",
+      "הרדיוס של הבסיס",
+      "היקף הבסיס"
+    ],
+    "correct_index": 0,
+    "explanation": "המקצוע הוא המרחק מהפסגה אל שפת (היקף) הבסיס, בשונה מהגובה שהולך למרכז."
+  },
+  {
+    "id": "q-g9r-solid2-4",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "גליל שרדיוסו $4$ ס\"מ וגובהו $9$ ס\"מ ($\\pi\\approx3.14$). מה נפחו?",
+    "options": [
+      "$452.16$",
+      "$150.72$",
+      "$113.04$",
+      "$226.08$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=3.14\\times4^2\\times9=3.14\\times16\\times9=452.16$ סמ\"ק."
+  },
+  {
+    "id": "q-g9r-solid2-5",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "חרוט שרדיוסו $3$ ס\"מ וגובהו $4$ ס\"מ. מה אורך המקצוע שלו?",
+    "options": [
+      "$5$",
+      "$7$",
+      "$25$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "$l=\\sqrt{3^2+4^2}=\\sqrt{25}=5$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-solid2-6",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "גליל שרדיוסו $2$ ס\"מ וגובהו $6$ ס\"מ ($\\pi\\approx3.14$). מה שטח הבסיס שלו?",
+    "options": [
+      "$12.56$",
+      "$25.12$",
+      "$6.28$",
+      "$37.68$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח בסיס $=\\pi r^2=3.14\\times4=12.56$ סמ\"ר."
+  },
+  {
+    "id": "q-g9r-solid2-7",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חרוט שרדיוסו $5$ ס\"מ וגובהו $12$ ס\"מ. מה אורך המקצוע שלו?",
+    "options": [
+      "$13$",
+      "$17$",
+      "$7$",
+      "$60$"
+    ],
+    "correct_index": 0,
+    "explanation": "$l=\\sqrt{5^2+12^2}=\\sqrt{169}=13$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-solid2-8",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "חרוט שרדיוסו $6$ ס\"מ וגובהו $8$ ס\"מ ($\\pi\\approx3.14$). מה נפחו?",
+    "options": [
+      "$301.44$",
+      "$904.32$",
+      "$150.72$",
+      "$100.48$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח $=\\frac{1}{3}\\times3.14\\times36\\times8=301.44$ סמ\"ק."
+  },
+  {
+    "id": "q-g9r-solid2-9",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "גליל שנפחו $471$ סמ\"ק, רדיוסו $5$ ס\"מ ($\\pi\\approx3.14$). מה גובהו?",
+    "options": [
+      "$6$",
+      "$3$",
+      "$18.84$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "$471=78.5\\times h \\Rightarrow h=471\\div78.5=6$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-solid2-10",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חרוט שרדיוסו $9$ ס\"מ ומקצועו $15$ ס\"מ. מה גובהו?",
+    "options": [
+      "$12$",
+      "$18$",
+      "$6$",
+      "$24$"
+    ],
+    "correct_index": 0,
+    "explanation": "$h=\\sqrt{15^2-9^2}=\\sqrt{144}=12$ ס\"מ."
+  },
+  {
+    "id": "q-g9r-solid2-11",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "חרוט שרדיוסו $6$ ס\"מ ומקצועו $10$ ס\"מ ($\\pi\\approx3.14$). מה שטח פני החרוט?",
+    "options": [
+      "$301.44$",
+      "$188.4$",
+      "$113.04$",
+      "$226.08$"
+    ],
+    "correct_index": 0,
+    "explanation": "שטח בסיס $=3.14\\times36=113.04$; מעטפת $=3.14\\times6\\times10=188.4$; סה\"כ $=113.04+188.4=301.44$ סמ\"ר."
+  },
+  {
+    "id": "q-g9r-solid2-12",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני גלילים בעלי אותו גובה, אך רדיוס גליל א' כפול מרדיוס גליל ב'. מה היחס בין נפחיהם?",
+    "options": [
+      "$4:1$",
+      "$2:1$",
+      "$8:1$",
+      "$1:1$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח גליל פרופורציוני ל-$r^2$; אם הרדיוס כפול, הנפח גדל פי $2^2=4$."
+  },
+  {
+    "id": "q-g9r-solid2-13",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חרוט וגליל בעלי אותו בסיס וגובה. מה היחס בין נפח החרוט לנפח הגליל?",
+    "options": [
+      "$1:3$",
+      "$1:2$",
+      "$3:1$",
+      "$2:3$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח החרוט הוא תמיד שליש מנפח הגליל בעל אותו בסיס וגובה: היחס $1:3$."
+  },
+  {
+    "id": "q-g9r-solid2-14",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "חרוט שרדיוסו $8$ ס\"מ, וגובהו $6$ ס\"מ ($\\pi\\approx3.14$). מה שטח פני החרוט (בסיס + מעטפת)?",
+    "options": [
+      "$452.16$",
+      "$351.68$",
+      "$200.96$",
+      "$251.2$"
+    ],
+    "correct_index": 0,
+    "explanation": "$l=\\sqrt{8^2+6^2}=10$; בסיס $=3.14\\times64=200.96$; מעטפת $=3.14\\times8\\times10=251.2$; סה\"כ $=452.16$ סמ\"ר."
+  },
+  {
+    "id": "q-g9r-solid2-15",
+    "topic_id": "g9r-solid-cylinder-cone",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "גליל וחרוט בעלי אותו רדיוס $r$ ואותו גובה $h$. אם נפח הגליל הוא $V$, מהו נפח החרוט לפי $V$?",
+    "options": [
+      "$\\frac{V}{3}$",
+      "$\\frac{V}{2}$",
+      "$3V$",
+      "$V$"
+    ],
+    "correct_index": 0,
+    "explanation": "נפח החרוט הוא תמיד שליש מנפח הגליל המקביל לו: $\\frac{V}{3}$."
+  },
+  {
+    "id": "q-g9r-probtree-1",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מטילים מטבע פעמיים. כמה תוצאות אפשריות יש בסך הכול?",
+    "options": [
+      "$4$",
+      "$2$",
+      "$8$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "בכל הטלה יש $2$ תוצאות; בשתי הטלות: $2\\times2=4$."
+  },
+  {
+    "id": "q-g9r-probtree-2",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עץ, כדי למצוא הסתברות של מסלול שלם (רצף תוצאות), מה עושים עם ההסתברויות שעל הענפים?",
+    "options": [
+      "מכפילים אותן",
+      "מחברים אותן",
+      "מחסירים אותן",
+      "מחלקים אותן"
+    ],
+    "correct_index": 0,
+    "explanation": "הסתברות של מסלול שלם מתקבלת מהכפלת ההסתברויות שעל הענפים לאורכו."
+  },
+  {
+    "id": "q-g9r-probtree-3",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בקופסה $3$ כדורים אדומים ו-$2$ כחולים. מגרילים כדור אחד. מה ההסתברות שהוא אדום?",
+    "options": [
+      "$\\frac{3}{5}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{3}{2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "הסתברות $=\\frac{3}{5}$ (אדומים מתוך הכול)."
+  },
+  {
+    "id": "q-g9r-probtree-4",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מטילים קובייה פעמיים. מה ההסתברות לקבל $6$ בשתי ההטלות?",
+    "options": [
+      "$\\frac{1}{36}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{2}{6}$",
+      "$\\frac{1}{12}$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכפילים את ההסתברויות: $\\frac{1}{6}\\times\\frac{1}{6}=\\frac{1}{36}$."
+  },
+  {
+    "id": "q-g9r-probtree-5",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בקופסה $4$ כדורים אדומים ו-$6$ כחולים. מגרילים כדור, מחזירים אותו, ומגרילים שוב. מה ההסתברות ששני הכדורים אדומים?",
+    "options": [
+      "$0.16$",
+      "$0.4$",
+      "$0.8$",
+      "$0.24$"
+    ],
+    "correct_index": 0,
+    "explanation": "בהחזרה ההסתברות נשארת זהה בכל שלב: $\\frac{4}{10}\\times\\frac{4}{10}=0.16$."
+  },
+  {
+    "id": "q-g9r-probtree-6",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מטילים מטבע ואז קובייה. מה ההסתברות לקבל 'עץ' ואז מספר זוגי?",
+    "options": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{12}$",
+      "$\\frac{1}{6}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$P(\\text{עץ})\\times P(\\text{זוגי})=\\frac{1}{2}\\times\\frac{1}{2}=\\frac{1}{4}$."
+  },
+  {
+    "id": "q-g9r-probtree-7",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בקופסה $5$ כדורים אדומים ו-$3$ כחולים. מגרילים כדור בלי החזרה, ואז עוד אחד. מה ההסתברות ששניהם אדומים?",
+    "options": [
+      "$\\frac{5}{14}$",
+      "$\\frac{25}{64}$",
+      "$\\frac{5}{8}$",
+      "$\\frac{4}{7}$"
+    ],
+    "correct_index": 0,
+    "explanation": "בלי החזרה: $\\frac{5}{8}\\times\\frac{4}{7}=\\frac{20}{56}=\\frac{5}{14}$."
+  },
+  {
+    "id": "q-g9r-probtree-8",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מה ההבדל בין הגרלה 'בהחזרה' ל'בלי החזרה' מבחינת ההסתברויות בשלב השני?",
+    "options": [
+      "בלי החזרה ההסתברויות משתנות; בהחזרה הן נשארות זהות",
+      "שניהם זהים תמיד",
+      "בהחזרה ההסתברויות משתנות; בלי החזרה נשארות זהות",
+      "אין הבדל בין השיטות"
+    ],
+    "correct_index": 0,
+    "explanation": "בלי החזרה, הכמות הכוללת והרכב הקבוצה משתנים אחרי השלב הראשון — לכן ההסתברויות משתנות."
+  },
+  {
+    "id": "q-g9r-probtree-9",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בדיאגרמת עץ עם שני שלבים, יש $3$ ענפים בשלב הראשון ו-$2$ ענפים מכל ענף בשלב השני. כמה מסלולים שלמים יש בסך הכול?",
+    "options": [
+      "$6$",
+      "$5$",
+      "$3$",
+      "$2$"
+    ],
+    "correct_index": 0,
+    "explanation": "כל אחד מ-$3$ הענפים הראשונים מתפצל ל-$2$ — סך הכול $3\\times2=6$ מסלולים."
+  },
+  {
+    "id": "q-g9r-probtree-10",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בקופסה $6$ כדורים לבנים ו-$4$ שחורים. מגרילים כדור בלי החזרה, ואז עוד אחד. מה ההסתברות שהראשון לבן והשני שחור?",
+    "options": [
+      "$\\frac{4}{15}$",
+      "$\\frac{6}{10}$",
+      "$\\frac{24}{100}$",
+      "$\\frac{2}{5}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{6}{10}\\times\\frac{4}{9}=\\frac{24}{90}=\\frac{4}{15}$."
+  },
+  {
+    "id": "q-g9r-probtree-11",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "באותה קופסה ($6$ לבנים, $4$ שחורים, בלי החזרה), מה ההסתברות ששני הכדורים באותו הצבע?",
+    "options": [
+      "$\\frac{7}{15}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{2}{15}$",
+      "$\\frac{8}{15}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$P(\\text{שניהם לבנים})=\\frac{6}{10}\\times\\frac{5}{9}=\\frac{1}{3}$; $P(\\text{שניהם שחורים})=\\frac{4}{10}\\times\\frac{3}{9}=\\frac{2}{15}$; מחברים: $\\frac{1}{3}+\\frac{2}{15}=\\frac{5}{15}+\\frac{2}{15}=\\frac{7}{15}$."
+  },
+  {
+    "id": "q-g9r-probtree-12",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "ידוע שבזריקת שתי קוביות הסכום הוא $8$. מה ההסתברות שאחת הקוביות הראתה $3$?",
+    "options": [
+      "$\\frac{2}{5}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{5}$",
+      "$\\frac{2}{6}$"
+    ],
+    "correct_index": 0,
+    "explanation": "דרכים לקבל סכום $8$: $(2,6),(3,5),(4,4),(5,3),(6,2)$ — סה\"כ $5$; מתוכן יש $3$ בשתיים: $(3,5),(5,3)$; ההסתברות המותנית $=\\frac{2}{5}$."
+  },
+  {
+    "id": "q-g9r-probtree-13",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בקופסה $3$ כדורים אדומים ו-$5$ כחולים. מגרילים $3$ כדורים בזה אחר זה בלי החזרה. מה ההסתברות ששלושתם אדומים?",
+    "options": [
+      "$\\frac{1}{56}$",
+      "$\\frac{3}{8}$",
+      "$\\frac{6}{8}$",
+      "$\\frac{1}{8}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{3}{8}\\times\\frac{2}{7}\\times\\frac{1}{6}=\\frac{6}{336}=\\frac{1}{56}$."
+  },
+  {
+    "id": "q-g9r-probtree-14",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בכיתה, $60\\%$ מהתלמידים אוהבים מתמטיקה, ומתוכם $70\\%$ גם אוהבים פיזיקה. מה ההסתברות שתלמיד אקראי אוהב גם מתמטיקה וגם פיזיקה?",
+    "options": [
+      "$0.42$",
+      "$0.7$",
+      "$1.3$",
+      "$0.6$"
+    ],
+    "correct_index": 0,
+    "explanation": "לפי כלל הכפל בעץ: $0.6\\times0.7=0.42$."
+  },
+  {
+    "id": "q-g9r-probtree-15",
+    "topic_id": "g9r-probability-tree",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "הגרלה בלי החזרה מתוך $10$ כדורים ($4$ אדומים, $6$ כחולים). מה ההסתברות שהכדור השני יהיה אדום, בהינתן שהכדור הראשון היה כחול?",
+    "options": [
+      "$\\frac{4}{9}$",
+      "$\\frac{4}{10}$",
+      "$\\frac{3}{9}$",
+      "$\\frac{6}{9}$"
+    ],
+    "correct_index": 0,
+    "explanation": "אחרי שהוצא כדור כחול, נותרו $9$ כדורים: $4$ אדומים ו-$5$ כחולים; ההסתברות המותנית $=\\frac{4}{9}$."
+  },
+  {
+    "id": "q-g9r-factgroup-1",
+    "topic_id": "g9r-factor-expand",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פרקו לפי קבוצות: $ax+ay+bx+by$.",
+    "options": [
+      "$(x+y)(a+b)$",
+      "$(x+a)(y+b)$",
+      "$xy+ab$",
+      "$(x-y)(a-b)$"
+    ],
+    "correct_index": 0,
+    "explanation": "מקבצים: $a(x+y)+b(x+y)=(x+y)(a+b)$."
+  },
+  {
+    "id": "q-g9r-factgroup-2",
+    "topic_id": "g9r-factor-expand",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פרקו לפי קבוצות: $x^2+3x+2x+6$.",
+    "options": [
+      "$(x+3)(x+2)$",
+      "$(x-3)(x+2)$",
+      "$(x+6)(x+1)$",
+      "$x(x+5)+6$"
+    ],
+    "correct_index": 0,
+    "explanation": "מקבצים: $x(x+3)+2(x+3)=(x+3)(x+2)$."
+  },
+  {
+    "id": "q-g9r-factgroup-3",
+    "topic_id": "g9r-factor-expand",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פרקו לפי קבוצות: $2x^2+6x+x+3$.",
+    "options": [
+      "$(x+3)(2x+1)$",
+      "$(2x+3)(x+1)$",
+      "$(x+1)(2x+3)$",
+      "$2x(x+3)+3$"
+    ],
+    "correct_index": 0,
+    "explanation": "מקבצים: $2x(x+3)+1(x+3)=(x+3)(2x+1)$."
+  },
+  {
+    "id": "q-g9r-factgroup-4",
+    "topic_id": "g9r-factor-expand",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פרקו לפי קבוצות: $ab-3a+2b-6$.",
+    "options": [
+      "$(b-3)(a+2)$",
+      "$(a-3)(b+2)$",
+      "$(b+3)(a-2)$",
+      "הביטוי אינו ניתן לפירוק"
+    ],
+    "correct_index": 0,
+    "explanation": "מקבצים: $a(b-3)+2(b-3)=(b-3)(a+2)$."
+  },
+  {
+    "id": "q-g9r-factgroup-5",
+    "topic_id": "g9r-factor-expand",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פרקו לגמרי (לפי קבוצות, ואז לפי הפרש ריבועים): $x^3+x^2-x-1$.",
+    "options": [
+      "$(x+1)^2(x-1)$",
+      "$(x+1)(x-1)$",
+      "$(x-1)^2(x+1)$",
+      "$(x+1)(x^2-1)$ (לא סופי)"
+    ],
+    "correct_index": 0,
+    "explanation": "מקבצים: $x^2(x+1)-1(x+1)=(x+1)(x^2-1)$; מפרקים עוד לפי הפרש ריבועים: $x^2-1=(x-1)(x+1)$; ביחד: $(x+1)^2(x-1)$."
+  },
+  {
+    "id": "q-g9r-quadgraph-1",
+    "topic_id": "g9r-quad-eq",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "ישר וגרף פרבולה נחתכים בשתי נקודות. מה אפשר לומר על הדיסקרימיננטה של המשוואה המאוחדת?",
+    "options": [
+      "$\\Delta>0$",
+      "$\\Delta=0$",
+      "$\\Delta<0$",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "שתי נקודות חיתוך פירושן שני פתרונות שונים למשוואה המאוחדת — כלומר $\\Delta>0$."
+  },
+  {
+    "id": "q-g9r-quadgraph-2",
+    "topic_id": "g9r-quad-eq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "ישר משיק לפרבולה (נוגע בה בנקודה אחת בלבד). מה ערך הדיסקרימיננטה?",
+    "options": [
+      "$\\Delta=0$",
+      "$\\Delta>0$",
+      "$\\Delta<0$",
+      "תלוי בשיפוע"
+    ],
+    "correct_index": 0,
+    "explanation": "משיק פירושו פתרון יחיד (כפול) — $\\Delta=0$."
+  },
+  {
+    "id": "q-g9r-quadgraph-3",
+    "topic_id": "g9r-quad-eq",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "נתונים ישר $y=2x+1$ ופרבולה $y=x^2$ שנחתכים. מהי משוואת ההצבה המתקבלת?",
+    "options": [
+      "$x^2-2x-1=0$",
+      "$x^2+2x+1=0$",
+      "$x^2-2x+1=0$",
+      "$2x^2-x-1=0$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים את הקווית בריבועית: $x^2=2x+1 \\Rightarrow x^2-2x-1=0$."
+  },
+  {
+    "id": "q-g9r-quadgraph-4",
+    "topic_id": "g9r-quad-eq",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו את מערכת המשוואות $y=x+3$ ו-$y=x^2+1$ ומצאו את נקודות החיתוך.",
+    "options": [
+      "$(2,5)$ ו-$(-1,2)$",
+      "$(2,5)$ בלבד",
+      "$(-1,2)$ ו-$(1,4)$",
+      "$(3,6)$ ו-$(0,1)$"
+    ],
+    "correct_index": 0,
+    "explanation": "$x^2+1=x+3 \\Rightarrow x^2-x-2=0 \\Rightarrow (x-2)(x+1)=0$; $x=2 \\Rightarrow y=5$; $x=-1 \\Rightarrow y=2$."
+  },
+  {
+    "id": "q-g9r-quadgraph-5",
+    "topic_id": "g9r-quad-eq",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "עבור אילו ערכי $k$ לישר האופקי $y=k$ יש בדיוק נקודת חיתוך אחת עם הפרבולה $y=x^2$?",
+    "options": [
+      "$k=0$ בלבד",
+      "כל $k>0$",
+      "כל $k$",
+      "$k<0$ בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "לפרבולה $y=x^2$ יש קודקוד (מינימום) ב-$(0,0)$; רק הישר $y=0$ (העובר דרך הקודקוד) נוגע בה בנקודה אחת בדיוק — לכל $k$ אחר יש $0$ או $2$ נקודות חיתוך."
+  }
 ]
 export function getMiddleSchoolQuestionsForTopic(topicId) {
   return MIDDLE_SCHOOL_QUESTIONS.filter((q) => q.topic_id === topicId);
