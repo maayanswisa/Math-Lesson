@@ -16263,6 +16263,2107 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "correct_index": 0,
     "explanation": "$\\dfrac{52}{300}\\approx0.173$, קרוב מאוד ל-$\\dfrac{1}{6}\\approx0.167$ — תואם קובייה הוגנת."
   }
+,
+  {
+    "id": "q-g8-eqline-1",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי משוואת ישר עם שיפוע $m=2$ שעובר דרך הנקודה $(0,3)$?",
+    "options": [
+      "$y=2x+3$",
+      "$y=3x+2$",
+      "$y=2x-3$",
+      "$y=-2x+3$"
+    ],
+    "correct_index": 0,
+    "explanation": "הנקודה $(0,3)$ היא נקודת החיתוך עם ציר $y$, כלומר $b=3$; עם שיפוע $m=2$: $y=2x+3$."
+  },
+  {
+    "id": "q-g8-eqline-2",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה ישר הוא אופקי (מקביל לציר $x$)?",
+    "options": [
+      "$y=5$",
+      "$x=5$",
+      "$y=5x$",
+      "$y=x+5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$y=k$ הוא תמיד ישר אופקי, מקביל לציר $x$."
+  },
+  {
+    "id": "q-g8-eqline-3",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "איזה ישר הוא אנכי (מקביל לציר $y$) ואינו פונקציה?",
+    "options": [
+      "$x=3$",
+      "$y=3$",
+      "$y=3x$",
+      "$y=x+3$"
+    ],
+    "correct_index": 0,
+    "explanation": "$x=k$ הוא ישר אנכי — לכל $x$ יש עליו אינסוף ערכי $y$, ולכן אינו פונקציה."
+  },
+  {
+    "id": "q-g8-eqline-4",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהי משוואת הישר עם שיפוע $m=3$ שעובר דרך הנקודה $(2,7)$?",
+    "options": [
+      "$y=3x+1$",
+      "$y=3x+7$",
+      "$y=3x-1$",
+      "$y=7x+3$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים ב-$y=mx+b$: $7=3\\times2+b \\Rightarrow b=1$; המשוואה: $y=3x+1$."
+  },
+  {
+    "id": "q-g8-eqline-5",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מהו השיפוע של הישר העובר דרך הנקודות $(1,2)$ ו-$(3,8)$?",
+    "options": [
+      "$3$",
+      "$2$",
+      "$6$",
+      "$1$"
+    ],
+    "correct_index": 0,
+    "explanation": "$m=\\frac{8-2}{3-1}=\\frac{6}{2}=3$."
+  },
+  {
+    "id": "q-g8-eqline-6",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "היכן חותך הישר $y=2x-6$ את ציר $x$?",
+    "options": [
+      "$(3,0)$",
+      "$(0,-6)$",
+      "$(-3,0)$",
+      "$(0,6)$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $y=0$: $0=2x-6 \\Rightarrow x=3$; נקודת החיתוך: $(3,0)$."
+  },
+  {
+    "id": "q-g8-eqline-7",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מצאו את משוואת הישר העובר דרך $(2,5)$ ו-$(4,11)$.",
+    "options": [
+      "$y=3x-1$",
+      "$y=3x+5$",
+      "$y=2x+1$",
+      "$y=6x-7$"
+    ],
+    "correct_index": 0,
+    "explanation": "$m=\\frac{11-5}{4-2}=3$; מציבים $(2,5)$: $5=3\\times2+b \\Rightarrow b=-1$; $y=3x-1$."
+  },
+  {
+    "id": "q-g8-eqline-8",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שני ישרים: $y=2x+3$ ו-$y=2x-5$. האם הם נחתכים?",
+    "options": [
+      "לא, הם מקבילים",
+      "כן, בנקודה אחת",
+      "כן, באינסוף נקודות",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "לשני הישרים אותו שיפוע ($2$) אך $b$ שונה — הם מקבילים ולא נחתכים לעולם."
+  },
+  {
+    "id": "q-g8-eqline-9",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהי נקודת החיתוך של הישרים $y=x+1$ ו-$y=-x+5$?",
+    "options": [
+      "$(2,3)$",
+      "$(3,2)$",
+      "$(1,5)$",
+      "$(0,1)$"
+    ],
+    "correct_index": 0,
+    "explanation": "משווים: $x+1=-x+5 \\Rightarrow 2x=4 \\Rightarrow x=2$, ואז $y=2+1=3$; הנקודה $(2,3)$."
+  },
+  {
+    "id": "q-g8-eqline-10",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מצאו את משוואת הישר העובר דרך $(-1,3)$ ו-$(2,-3)$.",
+    "options": [
+      "$y=-2x+1$",
+      "$y=2x+1$",
+      "$y=-2x-1$",
+      "$y=-3x+2$"
+    ],
+    "correct_index": 0,
+    "explanation": "$m=\\frac{-3-3}{2-(-1)}=\\frac{-6}{3}=-2$; מציבים $(-1,3)$: $3=-2\\times(-1)+b=2+b \\Rightarrow b=1$; $y=-2x+1$."
+  },
+  {
+    "id": "q-g8-eqline-11",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "היכן חותך הישר $y=-3x+9$ את שני הצירים?",
+    "options": [
+      "$(0,9)$ ו-$(3,0)$",
+      "$(0,3)$ ו-$(9,0)$",
+      "$(0,-9)$ ו-$(3,0)$",
+      "$(9,0)$ ו-$(0,-3)$"
+    ],
+    "correct_index": 0,
+    "explanation": "חיתוך עם $y$: $x=0 \\Rightarrow y=9$; חיתוך עם $x$: $y=0 \\Rightarrow 0=-3x+9 \\Rightarrow x=3$."
+  },
+  {
+    "id": "q-g8-eqline-12",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "שני ישרים: $y=4x-2$ ו-$y=4x-2$ (אותה משוואה, כתובה פעמיים). כמה נקודות חיתוך יש להם?",
+    "options": [
+      "אינסוף (אותו ישר)",
+      "אין בכלל",
+      "בדיוק אחת",
+      "בדיוק שתיים"
+    ],
+    "correct_index": 0,
+    "explanation": "מדובר באותו ישר בדיוק — כל נקודה עליו משותפת לשניהם, ולכן יש אינסוף \"נקודות חיתוך\"."
+  },
+  {
+    "id": "q-g8-eqline-13",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "ישר עובר דרך $(2,10)$ ומקביל לישר $y=3x-1$. מהי משוואתו?",
+    "options": [
+      "$y=3x+4$",
+      "$y=3x-1$",
+      "$y=-\\frac{1}{3}x+4$",
+      "$y=2x+6$"
+    ],
+    "correct_index": 0,
+    "explanation": "ישרים מקבילים בעלי אותו שיפוע: $m=3$. מציבים $(2,10)$: $10=3\\times2+b \\Rightarrow b=4$; $y=3x+4$."
+  },
+  {
+    "id": "q-g8-eqline-14",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לישר יש חיתוך עם ציר $x$ בנקודה $(4,0)$ וחיתוך עם ציר $y$ בנקודה $(0,-2)$. מהי משוואתו?",
+    "options": [
+      "$y=0.5x-2$",
+      "$y=2x-2$",
+      "$y=-0.5x-2$",
+      "$y=0.5x+2$"
+    ],
+    "correct_index": 0,
+    "explanation": "$b=-2$ (חיתוך עם $y$); שיפוע מ-$(0,-2)$ ל-$(4,0)$: $m=\\frac{0-(-2)}{4-0}=\\frac{2}{4}=0.5$; $y=0.5x-2$."
+  },
+  {
+    "id": "q-g8-eqline-15",
+    "topic_id": "g8-linear-eq-of-line",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שלושה ישרים: $y=2x+1$, $y=2x+1$, ו-$y=3x+1$. איזה זוג מהם נחתך באינסוף נקודות?",
+    "options": [
+      "$y=2x+1$ ו-$y=2x+1$ (הזוג הראשון)",
+      "$y=2x+1$ ו-$y=3x+1$",
+      "כל שלושתם יחד",
+      "אף זוג לא"
+    ],
+    "correct_index": 0,
+    "explanation": "שני הישרים הראשונים זהים לחלוטין (אותו $m$ ואותו $b$), ולכן יש להם אינסוף נקודות משותפות."
+  },
+  {
+    "id": "q-g8-ineq-1",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פתרו: $x+3<7$.",
+    "options": [
+      "$x<4$",
+      "$x<10$",
+      "$x<-4$",
+      "$x>4$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחסירים $3$ משני האגפים: $x<7-3=4$."
+  },
+  {
+    "id": "q-g8-ineq-2",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פתרו: $2x>10$.",
+    "options": [
+      "$x>5$",
+      "$x>20$",
+      "$x<5$",
+      "$x>12$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחלקים ב-$2$ (חיובי, אין שינוי כיוון): $x>5$."
+  },
+  {
+    "id": "q-g8-ineq-3",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי הנקודה שבה הגרף של $y=x-2$ חותך את ציר $x$?",
+    "options": [
+      "$x=2$",
+      "$x=-2$",
+      "$x=0$",
+      "$x=1$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $y=0$: $0=x-2 \\Rightarrow x=2$."
+  },
+  {
+    "id": "q-g8-ineq-4",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פתרו: $-2x<8$.",
+    "options": [
+      "$x>-4$",
+      "$x<-4$",
+      "$x<4$",
+      "$x>4$"
+    ],
+    "correct_index": 0,
+    "explanation": "מחלקים ב-$-2$ (שלילי!) — הופכים כיוון: $x>-4$."
+  },
+  {
+    "id": "q-g8-ineq-5",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פתרו: $-x\\geq-5$.",
+    "options": [
+      "$x\\leq5$",
+      "$x\\geq5$",
+      "$x\\leq-5$",
+      "$x\\geq-5$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכפילים ב-$-1$ (שלילי) — הופכים כיוון: $x\\leq5$."
+  },
+  {
+    "id": "q-g8-ineq-6",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לפונקציה $y=2x-4$, מהי נקודת החיתוך עם ציר $x$?",
+    "options": [
+      "$(2,0)$",
+      "$(0,-4)$",
+      "$(4,0)$",
+      "$(-2,0)$"
+    ],
+    "correct_index": 0,
+    "explanation": "מציבים $y=0$: $0=2x-4 \\Rightarrow x=2$."
+  },
+  {
+    "id": "q-g8-ineq-7",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו: $3x-5<10$.",
+    "options": [
+      "$x<5$",
+      "$x<\\frac{5}{3}$",
+      "$x>5$",
+      "$x<15$"
+    ],
+    "correct_index": 0,
+    "explanation": "$3x<15 \\Rightarrow x<5$."
+  },
+  {
+    "id": "q-g8-ineq-8",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפונקציה $y=x-3$ (שיפוע חיובי) יש חיתוך עם ציר $x$ ב-$x=3$. מהו תחום החיוביות שלה?",
+    "options": [
+      "$x>3$",
+      "$x<3$",
+      "$x>-3$",
+      "$x<-3$"
+    ],
+    "correct_index": 0,
+    "explanation": "שיפוע חיובי (הגרף עולה) — הפונקציה חיובית מימין לנקודת החיתוך: $x>3$."
+  },
+  {
+    "id": "q-g8-ineq-9",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "לפונקציה $y=-2x+6$ (שיפוע שלילי) יש חיתוך עם ציר $x$ ב-$x=3$. מהו תחום השליליות שלה?",
+    "options": [
+      "$x>3$",
+      "$x<3$",
+      "$x>-3$",
+      "$x<6$"
+    ],
+    "correct_index": 0,
+    "explanation": "שיפוע שלילי (הגרף יורד) — הפונקציה שלילית מימין לנקודת החיתוך: $x>3$."
+  },
+  {
+    "id": "q-g8-ineq-10",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $\\frac{x}{-3}\\leq2$.",
+    "options": [
+      "$x\\geq-6$",
+      "$x\\leq-6$",
+      "$x\\geq6$",
+      "$x\\leq6$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכפילים ב-$-3$ (שלילי) — הופכים כיוון: $x\\geq-6$."
+  },
+  {
+    "id": "q-g8-ineq-11",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "לפונקציה $y=3x-9$, מצאו את תחום החיוביות ותחום השליליות.",
+    "options": [
+      "חיובית עבור $x>3$, שלילית עבור $x<3$",
+      "חיובית עבור $x<3$, שלילית עבור $x>3$",
+      "חיובית תמיד",
+      "שלילית תמיד"
+    ],
+    "correct_index": 0,
+    "explanation": "נקודת החיתוך: $x=3$. שיפוע חיובי — חיובית מימין ($x>3$), שלילית משמאל ($x<3$)."
+  },
+  {
+    "id": "q-g8-ineq-12",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $5-2x>1$.",
+    "options": [
+      "$x<2$",
+      "$x>2$",
+      "$x<-2$",
+      "$x>-2$"
+    ],
+    "correct_index": 0,
+    "explanation": "$5-2x>1 \\Rightarrow -2x>-4 \\Rightarrow x<2$ (חילקנו ב-$-2$, הפכנו כיוון)."
+  },
+  {
+    "id": "q-g8-ineq-13",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פתרו: $2(x-3)\\geq3(x-1)-4$.",
+    "options": [
+      "$x\\leq1$",
+      "$x\\geq1$",
+      "$x\\leq-1$",
+      "$x\\geq-1$"
+    ],
+    "correct_index": 0,
+    "explanation": "פותחים סוגריים: $2x-6\\geq3x-7$; מעבירים אגפים: $-x\\geq-1$; מחלקים ב-$-1$ (הופכים כיוון): $x\\leq1$."
+  },
+  {
+    "id": "q-g8-ineq-14",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לפונקציה $y=-4x+8$, עבור אילו ערכי $x$ מתקיים $y\\leq0$?",
+    "options": [
+      "$x\\geq2$",
+      "$x\\leq2$",
+      "$x\\geq-2$",
+      "$x\\leq-2$"
+    ],
+    "correct_index": 0,
+    "explanation": "$-4x+8\\leq0 \\Rightarrow -4x\\leq-8 \\Rightarrow x\\geq2$ (חילקנו ב-$-4$, הפכנו כיוון)."
+  },
+  {
+    "id": "q-g8-ineq-15",
+    "topic_id": "g8-linear-inequalities",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פתרו: $\\frac{2x-1}{3}<x+1$.",
+    "options": [
+      "$x>-4$",
+      "$x<-4$",
+      "$x>4$",
+      "$x<4$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכפילים ב-$3$: $2x-1<3x+3$; מעבירים אגפים: $-x<4$; מחלקים ב-$-1$ (הופכים כיוון): $x>-4$."
+  },
+  {
+    "id": "q-g8-alg-1",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פתחו סוגריים: $(x+2)(x+3)$.",
+    "options": [
+      "$x^2+5x+6$",
+      "$x^2+6x+5$",
+      "$x^2+5$",
+      "$2x+5$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(x+2)(x+3)=x^2+3x+2x+6=x^2+5x+6$."
+  },
+  {
+    "id": "q-g8-alg-2",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "פתרו: $x(x+4)=0$.",
+    "options": [
+      "$x=0$ או $x=-4$",
+      "$x=0$ בלבד",
+      "$x=4$ בלבד",
+      "$x=0$ או $x=4$"
+    ],
+    "correct_index": 0,
+    "explanation": "מכפלה השווה $0$: $x=0$ או $x+4=0$ (כלומר $x=-4$)."
+  },
+  {
+    "id": "q-g8-alg-3",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "צמצמו: $\\frac{3x}{x}$ (עבור $x\\neq0$).",
+    "options": [
+      "$3$",
+      "$3x$",
+      "$x$",
+      "$0$"
+    ],
+    "correct_index": 0,
+    "explanation": "מצמצמים $x$ (המשותף למונה ולמכנה): $\\frac{3x}{x}=3$."
+  },
+  {
+    "id": "q-g8-alg-4",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פתחו סוגריים: $(x+5)(x-2)$.",
+    "options": [
+      "$x^2+3x-10$",
+      "$x^2-3x-10$",
+      "$x^2+3x+10$",
+      "$x^2-7x-10$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(x+5)(x-2)=x^2-2x+5x-10=x^2+3x-10$."
+  },
+  {
+    "id": "q-g8-alg-5",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "פתרו: $x^2-5x=0$.",
+    "options": [
+      "$x=0$ או $x=5$",
+      "$x=5$ בלבד",
+      "$x=0$ או $x=-5$",
+      "$x=0$ בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "מוציאים $x$ כגורם משותף: $x(x-5)=0 \\Rightarrow x=0$ או $x=5$."
+  },
+  {
+    "id": "q-g8-alg-6",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "צמצמו: $\\frac{5(x+1)}{x+1}$ (עבור $x\\neq-1$).",
+    "options": [
+      "$5$",
+      "$5x+1$",
+      "$x+1$",
+      "$5x$"
+    ],
+    "correct_index": 0,
+    "explanation": "מצמצמים את הגורם המשותף $(x+1)$: $\\frac{5(x+1)}{x+1}=5$."
+  },
+  {
+    "id": "q-g8-alg-7",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתחו סוגריים: $(2x+1)(x+4)$.",
+    "options": [
+      "$2x^2+9x+4$",
+      "$2x^2+5x+4$",
+      "$2x^2+9x-4$",
+      "$x^2+9x+4$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(2x+1)(x+4)=2x^2+8x+x+4=2x^2+9x+4$."
+  },
+  {
+    "id": "q-g8-alg-8",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "פתרו: $3x^2+12x=0$.",
+    "options": [
+      "$x=0$ או $x=-4$",
+      "$x=0$ או $x=4$",
+      "$x=-4$ בלבד",
+      "$x=0$ או $x=-12$"
+    ],
+    "correct_index": 0,
+    "explanation": "מוציאים $3x$ כגורם משותף: $3x(x+4)=0 \\Rightarrow x=0$ או $x=-4$."
+  },
+  {
+    "id": "q-g8-alg-9",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "צמצמו: $\\frac{3x+6}{x+2}$ (עבור $x\\neq-2$).",
+    "options": [
+      "$3$",
+      "$3x$",
+      "$x+2$",
+      "$3x+6$"
+    ],
+    "correct_index": 0,
+    "explanation": "מפרקים את המונה: $3x+6=3(x+2)$; מצמצמים: $\\frac{3(x+2)}{x+2}=3$."
+  },
+  {
+    "id": "q-g8-alg-10",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתחו סוגריים: $(x-3)(x-4)$.",
+    "options": [
+      "$x^2-7x+12$",
+      "$x^2+7x+12$",
+      "$x^2-7x-12$",
+      "$x^2-x+12$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(x-3)(x-4)=x^2-4x-3x+12=x^2-7x+12$."
+  },
+  {
+    "id": "q-g8-alg-11",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "פתרו: $2x^2-6x=0$.",
+    "options": [
+      "$x=0$ או $x=3$",
+      "$x=0$ או $x=6$",
+      "$x=3$ בלבד",
+      "$x=0$ או $x=-3$"
+    ],
+    "correct_index": 0,
+    "explanation": "מוציאים $2x$ כגורם משותף: $2x(x-3)=0 \\Rightarrow x=0$ או $x=3$."
+  },
+  {
+    "id": "q-g8-alg-12",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "צמצמו: $\\frac{x^2+2x}{x}$ (עבור $x\\neq0$).",
+    "options": [
+      "$x+2$",
+      "$x^2+2$",
+      "$2$",
+      "$x^2+2x$"
+    ],
+    "correct_index": 0,
+    "explanation": "מפרקים את המונה: $x^2+2x=x(x+2)$; מצמצמים $x$: $\\frac{x(x+2)}{x}=x+2$."
+  },
+  {
+    "id": "q-g8-alg-13",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פתחו וכנסו איברים דומים: $(x+2)(x+3)-x^2$.",
+    "options": [
+      "$5x+6$",
+      "$x^2+5x+6$",
+      "$5x$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(x+2)(x+3)=x^2+5x+6$; מחסירים $x^2$: $x^2+5x+6-x^2=5x+6$."
+  },
+  {
+    "id": "q-g8-alg-14",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "פתרו: $x^2=7x$.",
+    "options": [
+      "$x=0$ או $x=7$",
+      "$x=7$ בלבד",
+      "$x=0$ בלבד",
+      "$x=0$ או $x=-7$"
+    ],
+    "correct_index": 0,
+    "explanation": "מעבירים אגף: $x^2-7x=0 \\Rightarrow x(x-7)=0 \\Rightarrow x=0$ או $x=7$."
+  },
+  {
+    "id": "q-g8-alg-15",
+    "topic_id": "g8-algebra-technique",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "צמצמו: $\\frac{x^2-3x}{2x-6}$ (עבור $x\\neq3$).",
+    "options": [
+      "$\\frac{x}{2}$",
+      "$x-3$",
+      "$\\frac{x-3}{2}$",
+      "$2x$"
+    ],
+    "correct_index": 0,
+    "explanation": "מפרקים: מונה $=x(x-3)$, מכנה $=2(x-3)$; מצמצמים $(x-3)$: $\\frac{x(x-3)}{2(x-3)}=\\frac{x}{2}$."
+  },
+  {
+    "id": "q-g8-sysol-1",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מערכת המשוואות $y=2x+1$ ו-$y=3x+1$ — לישרים שיפועים שונים. כמה פתרונות יש למערכת?",
+    "options": [
+      "פתרון יחיד",
+      "אין פתרון",
+      "אינסוף פתרונות",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "שיפועים שונים ⇒ הישרים נחתכים בדיוק בנקודה אחת ⇒ פתרון יחיד."
+  },
+  {
+    "id": "q-g8-sysol-2",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מערכת המשוואות $y=x+2$ ו-$y=x+5$ — לישרים אותו שיפוע אך $b$ שונה. כמה פתרונות יש למערכת?",
+    "options": [
+      "אין פתרון",
+      "פתרון יחיד",
+      "אינסוף פתרונות",
+      "שני פתרונות"
+    ],
+    "correct_index": 0,
+    "explanation": "אותו שיפוע, $b$ שונה ⇒ ישרים מקבילים ⇒ אין פתרון."
+  },
+  {
+    "id": "q-g8-sysol-3",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מערכת המשוואות $y=4x-1$ ו-$y=4x-1$ (זהות). כמה פתרונות יש למערכת?",
+    "options": [
+      "אינסוף פתרונות",
+      "פתרון יחיד",
+      "אין פתרון",
+      "שני פתרונות"
+    ],
+    "correct_index": 0,
+    "explanation": "משוואות זהות מתארות אותו ישר בדיוק ⇒ אינסוף פתרונות."
+  },
+  {
+    "id": "q-g8-sysol-4",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "לישרים $y=5x+2$ ו-$y=-2x+9$ שיפועים שונים. כמה פתרונות יש למערכת המשוואות?",
+    "options": [
+      "פתרון יחיד",
+      "אין פתרון",
+      "אינסוף פתרונות",
+      "שני פתרונות"
+    ],
+    "correct_index": 0,
+    "explanation": "שיפועים שונים ⇒ פתרון יחיד."
+  },
+  {
+    "id": "q-g8-sysol-5",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפתרון מערכת משוואות הגעתם לפסוק $0=7$. מה זה אומר?",
+    "options": [
+      "אין פתרון למערכת",
+      "יש פתרון יחיד: $x=7$",
+      "יש אינסוף פתרונות",
+      "טעות בחישוב בהכרח"
+    ],
+    "correct_index": 0,
+    "explanation": "פסוק סותר כמו $0=7$ אומר שאין ערך שמקיים את שתי המשוואות בו-זמנית — אין פתרון."
+  },
+  {
+    "id": "q-g8-sysol-6",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בפתרון מערכת משוואות הגעתם לפסוק $4=4$. מה זה אומר?",
+    "options": [
+      "יש אינסוף פתרונות",
+      "אין פתרון למערכת",
+      "יש פתרון יחיד: $x=4$",
+      "טעות בחישוב בהכרח"
+    ],
+    "correct_index": 0,
+    "explanation": "פסוק אמת שתמיד נכון (כמו $4=4$) אומר ששתי המשוואות מתארות בעצם אותו ישר — אינסוף פתרונות."
+  },
+  {
+    "id": "q-g8-sysol-7",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו השיפוע וחיתוך $y$ של הישר $y=6-3x$ (בכתיבה מסודרת)?",
+    "options": [
+      "$m=-3,b=6$",
+      "$m=3,b=6$",
+      "$m=6,b=-3$",
+      "$m=-3,b=-6$"
+    ],
+    "correct_index": 0,
+    "explanation": "כותבים מחדש: $y=-3x+6$; לכן $m=-3$ ו-$b=6$."
+  },
+  {
+    "id": "q-g8-sysol-8",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם למערכת $y=2x+3$ ו-$y=2x+3$ (אותה משוואה, מנוסחת בשתי דרכים) יש פתרון יחיד?",
+    "options": [
+      "לא — יש אינסוף פתרונות (אותו ישר)",
+      "כן, פתרון יחיד",
+      "אין פתרון בכלל",
+      "אי אפשר לדעת"
+    ],
+    "correct_index": 0,
+    "explanation": "שתי המשוואות מתארות בדיוק אותו ישר — אינסוף פתרונות, לא פתרון יחיד."
+  },
+  {
+    "id": "q-g8-sysol-9",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מערכת: $y=\\frac{1}{2}x+4$ ו-$y=\\frac{1}{2}x-1$. מהו סוג המערכת?",
+    "options": [
+      "אין פתרון (ישרים מקבילים)",
+      "פתרון יחיד",
+      "אינסוף פתרונות",
+      "שני פתרונות"
+    ],
+    "correct_index": 0,
+    "explanation": "לשני הישרים אותו שיפוע ($\\frac{1}{2}$) אך $b$ שונה — הם מקבילים, אין פתרון."
+  },
+  {
+    "id": "q-g8-sysol-10",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "עבור אילו ערכים של $k$ למערכת $y=3x+2$ ו-$y=kx+5$ יהיה פתרון יחיד?",
+    "options": [
+      "לכל $k$ שאינו $3$",
+      "רק כאשר $k=3$",
+      "רק כאשר $k=5$",
+      "לעולם לא"
+    ],
+    "correct_index": 0,
+    "explanation": "פתרון יחיד מתקבל כאשר לשני הישרים שיפועים שונים, כלומר $k\\neq3$."
+  },
+  {
+    "id": "q-g8-sysol-11",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "עבור אילו ערכי $c$ למערכת $y=4x+c$ ו-$y=4x+7$ יהיו אינסוף פתרונות?",
+    "options": [
+      "$c=7$ (כל ערך אחר ייתן ישרים מקבילים)",
+      "$c$ יכול להיות כל מספר",
+      "$c=4$",
+      "אין ערך שמתאים"
+    ],
+    "correct_index": 0,
+    "explanation": "השיפועים כבר זהים ($4$); כדי שיהיה אותו ישר בדיוק (אינסוף פתרונות), צריך גם $c=7$."
+  },
+  {
+    "id": "q-g8-sysol-12",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מערכת המשוואות $2x+y=5$ ו-$4x+2y=10$ — האם המשוואה השנייה כפולה של הראשונה?",
+    "options": [
+      "כן — אותו ישר בדיוק, אינסוף פתרונות",
+      "לא, יש להן פתרון יחיד",
+      "לא, אין להן פתרון",
+      "אי אפשר לדעת בלי לפתור"
+    ],
+    "correct_index": 0,
+    "explanation": "מכפילים את המשוואה הראשונה ב-$2$: $2\\times(2x+y)=2\\times5 \\Rightarrow 4x+2y=10$ — בדיוק המשוואה השנייה; זהו אותו ישר, אינסוף פתרונות."
+  },
+  {
+    "id": "q-g8-sysol-13",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "עבור אילו ערכים של $k$ למערכת $y=kx+3$ ו-$y=5x-2$ לא יהיה פתרון (ישרים מקבילים)?",
+    "options": [
+      "$k=5$",
+      "$k=-2$",
+      "$k=3$",
+      "כל $k$"
+    ],
+    "correct_index": 0,
+    "explanation": "כדי שהישרים יהיו מקבילים (ולכן אין פתרון), צריך שיפועים שווים: $k=5$ (וכבר $b$ שונה: $3\\neq-2$)."
+  },
+  {
+    "id": "q-g8-sysol-14",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מערכת המשוואות $3x-y=6$ ו-$6x-2y=12$ — כמה פתרונות יש לה?",
+    "options": [
+      "אינסוף פתרונות",
+      "פתרון יחיד",
+      "אין פתרון",
+      "שני פתרונות"
+    ],
+    "correct_index": 0,
+    "explanation": "המשוואה השנייה היא בדיוק כפולה $2$ של הראשונה ($2\\times(3x-y)=2\\times6$) — אותו ישר, אינסוף פתרונות."
+  },
+  {
+    "id": "q-g8-sysol-15",
+    "topic_id": "g8-system-solutions",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מערכת המשוואות $x+y=4$ ו-$x+y=9$ — כמה פתרונות יש לה?",
+    "options": [
+      "אין פתרון",
+      "פתרון יחיד",
+      "אינסוף פתרונות",
+      "תלוי ב-$x$"
+    ],
+    "correct_index": 0,
+    "explanation": "שני הישרים בעלי אותו שיפוע (שניהם מהצורה $y=-x+c$) אך קבוע שונה ($4$ מול $9$) — מקבילים, אין פתרון."
+  },
+  {
+    "id": "q-g8-word-1",
+    "topic_id": "g8-word-problems",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "גילו של דני היום הוא $x$. מה יהיה גילו בעוד $5$ שנים?",
+    "options": [
+      "$x+5$",
+      "$x-5$",
+      "$5x$",
+      "$\\frac{x}{5}$"
+    ],
+    "correct_index": 0,
+    "explanation": "בעוד $5$ שנים יתווספו $5$ שנים לגיל הנוכחי: $x+5$."
+  },
+  {
+    "id": "q-g8-word-2",
+    "topic_id": "g8-word-problems",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "רכב נוסע במהירות $60$ קמ\"ש. איזה ביטוי מתאר את המרחק שעבר בזמן $t$ שעות?",
+    "options": [
+      "$60t$",
+      "$\\frac{60}{t}$",
+      "$t-60$",
+      "$60+t$"
+    ],
+    "correct_index": 0,
+    "explanation": "מרחק $=$ מהירות $\\times$ זמן $=60t$."
+  },
+  {
+    "id": "q-g8-word-3",
+    "topic_id": "g8-word-problems",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "רוחב מלבן הוא $x$, ואורכו גדול ב-$3$ מרוחבו. איזה ביטוי מתאר את האורך?",
+    "options": [
+      "$x+3$",
+      "$3x$",
+      "$x-3$",
+      "$\\frac{x}{3}$"
+    ],
+    "correct_index": 0,
+    "explanation": "\"גדול ב-$3$\" פירושו מוסיפים $3$: אורך $=x+3$."
+  },
+  {
+    "id": "q-g8-word-4",
+    "topic_id": "g8-word-problems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "גילו של יוסי היום הוא $x$. לפני $4$ שנים גילו היה $10$. מהי המשוואה המתארת זאת?",
+    "options": [
+      "$x-4=10$",
+      "$x+4=10$",
+      "$4-x=10$",
+      "$x=10-4$"
+    ],
+    "correct_index": 0,
+    "explanation": "\"לפני $4$ שנים\" פירושו מחסירים $4$ מהגיל הנוכחי: $x-4=10$."
+  },
+  {
+    "id": "q-g8-word-5",
+    "topic_id": "g8-word-problems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מכונית נוסעת $3$ שעות במהירות $x$ קמ\"ש ועוברת $240$ ק\"מ. מהי המשוואה?",
+    "options": [
+      "$3x=240$",
+      "$x+3=240$",
+      "$\\frac{x}{3}=240$",
+      "$240x=3$"
+    ],
+    "correct_index": 0,
+    "explanation": "מרחק $=$ מהירות $\\times$ זמן: $3x=240$."
+  },
+  {
+    "id": "q-g8-word-6",
+    "topic_id": "g8-word-problems",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "היקף מלבן שרוחבו $x$ ואורכו $x+2$ הוא $20$. מהי המשוואה?",
+    "options": [
+      "$4x+4=20$",
+      "$2x+2=20$",
+      "$x^2+2=20$",
+      "$2x=20$"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף מלבן $=2\\times((x+2)+x)=2\\times(2x+2)=4x+4$; המשוואה: $4x+4=20$."
+  },
+  {
+    "id": "q-g8-word-7",
+    "topic_id": "g8-word-problems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "גילו של אבי היום הוא $x$, וגיל אחיו הצעיר קטן ב-$6$ שנים. אם סכום גילאיהם הוא $32$, מה המשוואה?",
+    "options": [
+      "$x+(x-6)=32$",
+      "$x+(x+6)=32$",
+      "$2x=32-6$",
+      "$x-6=32$"
+    ],
+    "correct_index": 0,
+    "explanation": "גיל האח הצעיר: $x-6$; סכום הגילאים: $x+(x-6)=32$."
+  },
+  {
+    "id": "q-g8-word-8",
+    "topic_id": "g8-word-problems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "שני רוכבי אופניים יוצאים בו-זמנית זה לקראת זה משתי נקודות המרוחקות $50$ ק\"מ, במהירויות $x$ ו-$x+5$ קמ\"ש, ונפגשים כעבור שעה. מה המשוואה?",
+    "options": [
+      "$x+(x+5)=50$",
+      "$x\\times(x+5)=50$",
+      "$x-5=50$",
+      "$2x=50+5$"
+    ],
+    "correct_index": 0,
+    "explanation": "כשנעים זה לקראת זה, המהירויות מצטרפות: $x+(x+5)=50$ (כי הזמן הוא שעה אחת)."
+  },
+  {
+    "id": "q-g8-word-9",
+    "topic_id": "g8-word-problems",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "אורך מלבן גדול פי $3$ מרוחבו ($x$), ושטחו $75$ סמ\"ר. מה המשוואה?",
+    "options": [
+      "$3x^2=75$",
+      "$3x=75$",
+      "$4x=75$",
+      "$x^2=75$"
+    ],
+    "correct_index": 0,
+    "explanation": "אורך $=3x$; שטח $=$ אורך $\\times$ רוחב $=3x\\times x=3x^2$; המשוואה: $3x^2=75$."
+  },
+  {
+    "id": "q-g8-word-10",
+    "topic_id": "g8-word-problems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "גילו של רון היום הוא $x$. בעוד $10$ שנים יהיה גילו כפול מגילו לפני $5$ שנים. מה המשוואה?",
+    "options": [
+      "$x+10=2(x-5)$",
+      "$x-10=2(x+5)$",
+      "$2(x+10)=x-5$",
+      "$x+10=2x-5$"
+    ],
+    "correct_index": 0,
+    "explanation": "בעוד $10$ שנים: $x+10$; לפני $5$ שנים: $x-5$; \"כפול מ\": $x+10=2(x-5)$."
+  },
+  {
+    "id": "q-g8-word-11",
+    "topic_id": "g8-word-problems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "רכב א' יוצא ונוסע $x$ קמ\"ש. רכב ב' יוצא שעה מאוחר יותר מאותו מקום באותו כיוון, במהירות $80$ קמ\"ש, ומשיג את רכב א' כעבור $3$ שעות מרגע יציאתו. מה המשוואה?",
+    "options": [
+      "$4x=240$",
+      "$3x=240$",
+      "$x=80\\times4$",
+      "$4x=80\\times4$"
+    ],
+    "correct_index": 0,
+    "explanation": "רכב א' נוסע $4$ שעות (שעה נוספת לפני יציאת ב'), ורכב ב' נוסע $3$ שעות; במפגש המרחקים שווים: $4x=80\\times3=240$."
+  },
+  {
+    "id": "q-g8-word-12",
+    "topic_id": "g8-word-problems",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "רוחב מלבן הוא $x$, אורכו $2x-1$, והיקפו $34$. מה המשוואה?",
+    "options": [
+      "$6x-2=34$",
+      "$3x-1=34$",
+      "$6x+2=34$",
+      "$4x-2=34$"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף $=2\\times(x+(2x-1))=2\\times(3x-1)=6x-2$; המשוואה: $6x-2=34$."
+  },
+  {
+    "id": "q-g8-word-13",
+    "topic_id": "g8-word-problems",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "גיל אב הוא $50$, וגיל בנו $20$. בעוד כמה שנים יהיה גיל האב פי $2$ מגיל הבן?",
+    "options": [
+      "$10$ שנים",
+      "$5$ שנים",
+      "$15$ שנים",
+      "$20$ שנים"
+    ],
+    "correct_index": 0,
+    "explanation": "נגדיר $y=$ מספר השנים מהיום; המשוואה: $50+y=2(20+y) \\Rightarrow 50+y=40+2y \\Rightarrow y=10$."
+  },
+  {
+    "id": "q-g8-word-14",
+    "topic_id": "g8-word-problems",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "שתי מכוניות יוצאות באותו זמן משתי ערים המרוחקות $300$ ק\"מ, נעות זו לקראת זו, ונפגשות כעבור $2.5$ שעות. אם מהירות האחת גדולה ב-$20$ קמ\"ש מהשנייה, מהן שתי המהירויות?",
+    "options": [
+      "$50$ ו-$70$ קמ\"ש",
+      "$60$ ו-$80$ קמ\"ש",
+      "$40$ ו-$60$ קמ\"ש",
+      "$55$ ו-$75$ קמ\"ש"
+    ],
+    "correct_index": 0,
+    "explanation": "מהירות איטית $=x$, מהירה $=x+20$; $(2x+20)\\times2.5=300 \\Rightarrow 2x+20=120 \\Rightarrow x=50$; המהירויות: $50$ ו-$70$ קמ\"ש."
+  },
+  {
+    "id": "q-g8-word-15",
+    "topic_id": "g8-word-problems",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "רוחב מלבן $x$ ס\"מ, ואורכו גדול ב-$4$ ס\"מ מרוחבו. אם שטח המלבן הוא $77$ סמ\"ר, מהו רוחב המלבן?",
+    "options": [
+      "$7$ ס\"מ",
+      "$11$ ס\"מ",
+      "$4$ ס\"מ",
+      "$77$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "$x(x+4)=77 \\Rightarrow x^2+4x-77=0 \\Rightarrow (x+11)(x-7)=0$; מכיוון שרוחב חייב להיות חיובי: $x=7$ ס\"מ."
+  },
+  {
+    "id": "q-g8-median-1",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו תיכון במשולש?",
+    "options": [
+      "קטע מקודקוד לאמצע הצלע שמולו",
+      "קטע מקודקוד מאונך לצלע שמולו",
+      "קטע המחבר שני קודקודים",
+      "הצלע הארוכה ביותר"
+    ],
+    "correct_index": 0,
+    "explanation": "תיכון הוא קטע המחבר קודקוד לאמצע הצלע שמולו."
+  },
+  {
+    "id": "q-g8-median-2",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה תיכונים יש לכל משולש?",
+    "options": [
+      "$3$",
+      "$1$",
+      "$2$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "לכל משולש יש $3$ תיכונים — אחד מכל קודקוד."
+  },
+  {
+    "id": "q-g8-median-3",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו משולש שווה-שוקיים?",
+    "options": [
+      "משולש עם שתי צלעות שוות",
+      "משולש עם כל הצלעות שוות",
+      "משולש עם זווית ישרה",
+      "משולש בלי אף צלעות שוות"
+    ],
+    "correct_index": 0,
+    "explanation": "משולש שווה-שוקיים הוא משולש עם שתי צלעות שוות (השוקיים)."
+  },
+  {
+    "id": "q-g8-median-4",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש שווה-שוקיים, אילו זוויות שוות זו לזו?",
+    "options": [
+      "זוויות הבסיס",
+      "הזווית בראש בלבד",
+      "כל שלוש הזוויות",
+      "אף זווית"
+    ],
+    "correct_index": 0,
+    "explanation": "במשולש שווה-שוקיים, זוויות הבסיס (ליד הבסיס) שוות זו לזו."
+  },
+  {
+    "id": "q-g8-median-5",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש שווה-שוקיים, התיכון מקודקוד הראש לבסיס הוא גם:",
+    "options": [
+      "גובה וגם חוצה זווית",
+      "רק גובה",
+      "רק חוצה זווית",
+      "אף אחד מהם"
+    ],
+    "correct_index": 0,
+    "explanation": "במשולש שווה-שוקיים, התיכון מהראש לבסיס הוא גם גובה וגם חוצה את זווית הראש."
+  },
+  {
+    "id": "q-g8-median-6",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "משולש שווה-שוקיים שזוויות הבסיס שלו הן $70°$ כל אחת. מהי זווית הראש?",
+    "options": [
+      "$40°$",
+      "$70°$",
+      "$110°$",
+      "$50°$"
+    ],
+    "correct_index": 0,
+    "explanation": "סכום זוויות המשולש $180°$: $180-70-70=40°$."
+  },
+  {
+    "id": "q-g8-median-7",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש שווה-שוקיים שזווית הראש שלו היא $50°$. מהי כל זווית בסיס?",
+    "options": [
+      "$65°$",
+      "$130°$",
+      "$50°$",
+      "$90°$"
+    ],
+    "correct_index": 0,
+    "explanation": "סכום זוויות הבסיס $=180-50=130°$, וכל אחת שווה: $130\\div2=65°$."
+  },
+  {
+    "id": "q-g8-median-8",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "משולש $ABC$ שווה-שוקיים ($AB=AC$). התיכון מ-$A$ ל-$BC$ מחלק את $BC$ ל:",
+    "options": [
+      "שני חלקים שווים",
+      "שני חלקים לא שווים",
+      "שלושה חלקים",
+      "הוא לא נוגע ב-$BC$ כלל"
+    ],
+    "correct_index": 0,
+    "explanation": "בהגדרה, תיכון תמיד מחלק את הצלע שמולו לשני חלקים שווים."
+  },
+  {
+    "id": "q-g8-median-9",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש שווה-שוקיים עם בסיס $BC$, התיכון מקודקוד $A$ יוצר עם הבסיס זווית:",
+    "options": [
+      "$90°$",
+      "$60°$",
+      "תלוי בגודל המשולש",
+      "$45°$"
+    ],
+    "correct_index": 0,
+    "explanation": "במשולש שווה-שוקיים, התיכון מהראש הוא גם גובה, ולכן הוא מאונך לבסיס — יוצר איתו זווית $90°$."
+  },
+  {
+    "id": "q-g8-median-10",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "משולש שווה-שוקיים שהיקפו $50$ ס\"מ, כשכל שוק אורכה $18$ ס\"מ. מה אורך הבסיס?",
+    "options": [
+      "$14$ ס\"מ",
+      "$16$ ס\"מ",
+      "$32$ ס\"מ",
+      "$9$ ס\"מ"
+    ],
+    "correct_index": 0,
+    "explanation": "היקף $=$ שתי שוקיים $+$ בסיס: $2\\times18+\\text{בסיס}=50 \\Rightarrow \\text{בסיס}=50-36=14$ ס\"מ."
+  },
+  {
+    "id": "q-g8-median-11",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "כדי להוכיח שהתיכון לבסיס במשולש שווה-שוקיים הוא גם חוצה זווית, באיזה משפט חפיפה משתמשים (בין שני חצאי המשולש)?",
+    "options": [
+      "צ.צ.צ",
+      "ז.צ.ז",
+      "צ.ז.צ",
+      "ז.צ.י"
+    ],
+    "correct_index": 0,
+    "explanation": "בשני חצאי המשולש: השוקיים שוות, הבסיסים החצויים שווים (כי זה תיכון), והתיכון עצמו משותף — צ.צ.צ."
+  },
+  {
+    "id": "q-g8-median-12",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במשולש שווה-שוקיים, זווית הראש גדולה ב-$30°$ מזווית הבסיס. מהן שלוש הזוויות?",
+    "options": [
+      "$50°,50°,80°$",
+      "$40°,40°,100°$",
+      "$60°,60°,60°$",
+      "$45°,45°,90°$"
+    ],
+    "correct_index": 0,
+    "explanation": "אם זווית בסיס $=x$, זווית ראש $=x+30$; $2x+(x+30)=180 \\Rightarrow 3x=150 \\Rightarrow x=50$; הזוויות: $50°,50°,80°$."
+  },
+  {
+    "id": "q-g8-median-13",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במשולש שווה-שוקיים $ABC$ ($AB=AC=13$, $BC=10$), התיכון מ-$A$ ל-$BC$ הוא גם גובה. מהו אורך התיכון?",
+    "options": [
+      "$12$",
+      "$5$",
+      "$13$",
+      "$8.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "התיכון חוצה את הבסיס ל-$5$ ו-$5$, ומהווה ניצב במשולש ישר-זווית עם היתר $13$: $13^2=5^2+h^2 \\Rightarrow h^2=144 \\Rightarrow h=12$."
+  },
+  {
+    "id": "q-g8-median-14",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "משולש שווה-שוקיים עם שוקיים $17$ ובסיס $16$. מהו שטח המשולש?",
+    "options": [
+      "$120$",
+      "$136$",
+      "$68$",
+      "$240$"
+    ],
+    "correct_index": 0,
+    "explanation": "הגובה לבסיס: $17^2=8^2+h^2 \\Rightarrow h^2=225 \\Rightarrow h=15$; שטח $=\\frac{16\\times15}{2}=120$ סמ\"ר."
+  },
+  {
+    "id": "q-g8-median-15",
+    "topic_id": "g8-triangle-median-isosceles",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בכל משולש (לאו דווקא שווה-שוקיים), מתי התיכון מקודקוד מסוים הוא גם הגובה מאותו קודקוד?",
+    "options": [
+      "רק כאשר שתי הצלעות היוצאות מאותו קודקוד שוות",
+      "בכל משולש, תמיד",
+      "אף פעם",
+      "רק במשולש ישר-זווית"
+    ],
+    "correct_index": 0,
+    "explanation": "התיכון הוא גם גובה רק כאשר המשולש שווה-שוקיים ביחס לאותו קודקוד (שתי הצלעות היוצאות ממנו שוות) — זה לא נכון במשולש כללי."
+  },
+  {
+    "id": "q-g8-ext-1",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "בקודקוד של מצולע, מה הקשר בין הזווית הפנימית לזווית החיצונית?",
+    "options": [
+      "סכומן $180°$",
+      "סכומן $360°$",
+      "הן שוות",
+      "סכומן $90°$"
+    ],
+    "correct_index": 0,
+    "explanation": "בכל קודקוד, הזווית הפנימית והחיצונית משלימות זו את זו ל-$180°$ (יוצרות קו ישר)."
+  },
+  {
+    "id": "q-g8-ext-2",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "זווית פנימית במשולש היא $70°$. מהי הזווית החיצונית הסמוכה לה?",
+    "options": [
+      "$110°$",
+      "$70°$",
+      "$180°$",
+      "$290°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית חיצונית $=180-70=110°$."
+  },
+  {
+    "id": "q-g8-ext-3",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו סכום הזוויות החיצוניות של כל מצולע קמור (אחת בכל קודקוד)?",
+    "options": [
+      "$360°$",
+      "$180°$",
+      "תלוי במספר הצלעות",
+      "$90°$"
+    ],
+    "correct_index": 0,
+    "explanation": "סכום הזוויות החיצוניות בכל מצולע קמור הוא תמיד $360°$, בלי קשר למספר הצלעות."
+  },
+  {
+    "id": "q-g8-ext-4",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "במשולש, שתי הזוויות הפנימיות הרחוקות מזווית חיצונית מסוימת הן $40°$ ו-$60°$. מהי הזווית החיצונית?",
+    "options": [
+      "$100°$",
+      "$80°$",
+      "$180°$",
+      "$20°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית חיצונית $=$ סכום שתי הזוויות הפנימיות הרחוקות: $40+60=100°$."
+  },
+  {
+    "id": "q-g8-ext-5",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "זווית חיצונית במשולש היא $130°$, ואחת הזוויות הפנימיות הרחוקות היא $50°$. מהי הזווית הפנימית הרחוקה השנייה?",
+    "options": [
+      "$80°$",
+      "$130°$",
+      "$50°$",
+      "$180°$"
+    ],
+    "correct_index": 0,
+    "explanation": "$130=50+x \\Rightarrow x=80°$."
+  },
+  {
+    "id": "q-g8-ext-6",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כמה זוויות חיצוניות יש למשולש (אחת בכל קודקוד)?",
+    "options": [
+      "$3$",
+      "$6$",
+      "$1$",
+      "$2$"
+    ],
+    "correct_index": 0,
+    "explanation": "לכל מצולע יש זווית חיצונית אחת בכל קודקוד; במשולש יש $3$ קודקודים."
+  },
+  {
+    "id": "q-g8-ext-7",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "זווית פנימית של מצולע קמור היא $150°$. מהי הזווית החיצונית שלה?",
+    "options": [
+      "$30°$",
+      "$150°$",
+      "$210°$",
+      "$60°$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית חיצונית $=180-150=30°$."
+  },
+  {
+    "id": "q-g8-ext-8",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "במשולש, זווית חיצונית אחת היא $90°$, ואחת הזוויות הפנימיות הרחוקות ממנה כפולה מהשנייה. מהן שתי הזוויות הפנימיות הרחוקות?",
+    "options": [
+      "$30°$ ו-$60°$",
+      "$45°$ ו-$45°$",
+      "$20°$ ו-$70°$",
+      "$30°$ ו-$90°$"
+    ],
+    "correct_index": 0,
+    "explanation": "$x+2x=90 \\Rightarrow 3x=90 \\Rightarrow x=30$; הזוויות: $30°$ ו-$60°$."
+  },
+  {
+    "id": "q-g8-ext-9",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "מהו סכום כל הזוויות הפנימיות והחיצוניות (יחד) של משולש, כאשר סופרים זווית חיצונית אחת בכל קודקוד?",
+    "options": [
+      "$540°$",
+      "$360°$",
+      "$180°$",
+      "$720°$"
+    ],
+    "correct_index": 0,
+    "explanation": "סכום זוויות פנימיות $=180°$, וסכום זוויות חיצוניות $=360°$; ביחד: $180+360=540°$."
+  },
+  {
+    "id": "q-g8-ext-10",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מצולע קמור בעל $5$ צלעות (מחומש) שכל הזוויות החיצוניות שלו שוות. מה גודל כל זווית חיצונית?",
+    "options": [
+      "$72°$",
+      "$108°$",
+      "$60°$",
+      "$90°$"
+    ],
+    "correct_index": 0,
+    "explanation": "סכום הזוויות החיצוניות תמיד $360°$; אם כולן שוות, כל אחת: $360\\div5=72°$."
+  },
+  {
+    "id": "q-g8-ext-11",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מצולע קמור משוכלל שכל זווית חיצונית בו היא $45°$. כמה צלעות יש לו?",
+    "options": [
+      "$8$",
+      "$45$",
+      "$4$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "מספר הצלעות $=360\\div45=8$."
+  },
+  {
+    "id": "q-g8-ext-12",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "במשולש ישר-זווית, זווית אחת היא $90°$ והשנייה $35°$. מהי הזווית החיצונית הסמוכה לזווית השלישית?",
+    "options": [
+      "$125°$",
+      "$55°$",
+      "$145°$",
+      "$35°$"
+    ],
+    "correct_index": 0,
+    "explanation": "הזווית השלישית $=180-90-35=55°$; הזווית החיצונית הסמוכה לה $=180-55=125°$ (או: סכום שתי האחרות $90+35=125°$)."
+  },
+  {
+    "id": "q-g8-ext-13",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מצולע קמור שסכום זוויותיו הפנימיות הוא $1{,}080°$. כמה צלעות יש לו? (רמז: סכום זוויות פנימיות $=(n-2)\\times180°$)",
+    "options": [
+      "$8$",
+      "$6$",
+      "$10$",
+      "$7$"
+    ],
+    "correct_index": 0,
+    "explanation": "$(n-2)\\times180=1080 \\Rightarrow n-2=6 \\Rightarrow n=8$."
+  },
+  {
+    "id": "q-g8-ext-14",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "במשולש $ABC$, הזווית החיצונית בקודקוד $A$ גדולה פי $3$ מהזווית הפנימית באותו קודקוד. מהי הזווית הפנימית ב-$A$?",
+    "options": [
+      "$45°$",
+      "$135°$",
+      "$60°$",
+      "$30°$"
+    ],
+    "correct_index": 0,
+    "explanation": "פנימית $+$ חיצונית $=180°$, וחיצונית $=3\\times$ פנימית: $x+3x=180 \\Rightarrow x=45°$."
+  },
+  {
+    "id": "q-g8-ext-15",
+    "topic_id": "g8-exterior-angle",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מצולע קמור שבו כל זווית פנימית היא $144°$. כמה צלעות יש לו?",
+    "options": [
+      "$10$",
+      "$8$",
+      "$12$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "זווית חיצונית $=180-144=36°$; מספר צלעות $=360\\div36=10$."
+  },
+  {
+    "id": "q-g8-py3d-1",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "כמה מידות יש לתיבה?",
+    "options": [
+      "$3$",
+      "$2$",
+      "$4$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "לתיבה יש $3$ מידות: אורך, רוחב וגובה."
+  },
+  {
+    "id": "q-g8-py3d-2",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהי נוסחת אלכסון פאה (מלבנית) לפי שתי מידות $a$ ו-$b$?",
+    "options": [
+      "$\\sqrt{a^2+b^2}$",
+      "$a^2+b^2$",
+      "$a+b$",
+      "$\\sqrt{a+b}$"
+    ],
+    "correct_index": 0,
+    "explanation": "אלכסון פאה מחושב במשפט פיתגורס: $\\sqrt{a^2+b^2}$."
+  },
+  {
+    "id": "q-g8-py3d-3",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "אלכסון מרחבי (אלכסון הגוף) של תיבה מחבר:",
+    "options": [
+      "שני קודקודים נגדיים דרך תוך התיבה",
+      "שתי נקודות על אותה פאה",
+      "מרכזי שתי פאות נגדיות",
+      "שני קודקודים סמוכים"
+    ],
+    "correct_index": 0,
+    "explanation": "אלכסון מרחבי מחבר שני קודקודים נגדיים (הרחוקים ביותר זה מזה) דרך פנים התיבה."
+  },
+  {
+    "id": "q-g8-py3d-4",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "תיבה שאורכה $3$ ורוחבה $4$. מה אורך אלכסון הבסיס?",
+    "options": [
+      "$5$",
+      "$7$",
+      "$25$",
+      "$12$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{3^2+4^2}=\\sqrt{9+16}=\\sqrt{25}=5$."
+  },
+  {
+    "id": "q-g8-py3d-5",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "תיבה שאורכה $6$ ורוחבה $8$. מה אורך אלכסון הבסיס?",
+    "options": [
+      "$10$",
+      "$14$",
+      "$48$",
+      "$7$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{6^2+8^2}=\\sqrt{36+64}=\\sqrt{100}=10$."
+  },
+  {
+    "id": "q-g8-py3d-6",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בתיבה, אלכסון פאה אחת הוא $5$, וגובהה $12$. מה אורך האלכסון המרחבי?",
+    "options": [
+      "$13$",
+      "$17$",
+      "$60$",
+      "$7$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{5^2+12^2}=\\sqrt{25+144}=\\sqrt{169}=13$."
+  },
+  {
+    "id": "q-g8-py3d-7",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "תיבה שאורכה $3$, רוחבה $4$, וגובהה $12$. מה אורך האלכסון המרחבי?",
+    "options": [
+      "$13$",
+      "$19$",
+      "$169$",
+      "$5$"
+    ],
+    "correct_index": 0,
+    "explanation": "קודם אלכסון פאה: $\\sqrt{3^2+4^2}=5$; ואז אלכסון מרחבי: $\\sqrt{5^2+12^2}=\\sqrt{169}=13$."
+  },
+  {
+    "id": "q-g8-py3d-8",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "תיבה שאורכה $2$, רוחבה $3$, וגובהה $6$. מה אורך האלכסון המרחבי?",
+    "options": [
+      "$7$",
+      "$11$",
+      "$49$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{2^2+3^2+6^2}=\\sqrt{4+9+36}=\\sqrt{49}=7$."
+  },
+  {
+    "id": "q-g8-py3d-9",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "תיבה שכל מידותיה שוות ל-$a$ (קובייה). מה אורך האלכסון המרחבי, לפי $a$?",
+    "options": [
+      "$a\\sqrt{3}$",
+      "$3a$",
+      "$a^2\\sqrt{3}$",
+      "$a\\sqrt{2}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{a^2+a^2+a^2}=\\sqrt{3a^2}=a\\sqrt{3}$."
+  },
+  {
+    "id": "q-g8-py3d-10",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תיבה שאורכה $4$, רוחבה $3$, ואלכסונה המרחבי $\\sqrt{50}$. מה גובהה?",
+    "options": [
+      "$5$",
+      "$25$",
+      "$\\sqrt{25}$",
+      "$10$"
+    ],
+    "correct_index": 0,
+    "explanation": "אלכסון פאה $=\\sqrt{4^2+3^2}=5$; $50=5^2+h^2 \\Rightarrow h^2=25 \\Rightarrow h=5$."
+  },
+  {
+    "id": "q-g8-py3d-11",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "קובייה שאלכסונה המרחבי הוא $6\\sqrt{3}$. מה אורך צלעה?",
+    "options": [
+      "$6$",
+      "$3$",
+      "$18$",
+      "$2\\sqrt{3}$"
+    ],
+    "correct_index": 0,
+    "explanation": "מהנוסחה $a\\sqrt{3}=6\\sqrt{3}$, ולכן $a=6$."
+  },
+  {
+    "id": "q-g8-py3d-12",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "תיבה שאורכה $8$, רוחבה $6$, וגובהה $0$ (שטוחה כמעט לגמרי). מה \"האלכסון המרחבי\" שלה במקרה הקצה הזה?",
+    "options": [
+      "$10$",
+      "$14$",
+      "$0$",
+      "$48$"
+    ],
+    "correct_index": 0,
+    "explanation": "כשהגובה $0$, האלכסון המרחבי מתלכד עם אלכסון הבסיס: $\\sqrt{8^2+6^2+0^2}=\\sqrt{100}=10$."
+  },
+  {
+    "id": "q-g8-py3d-13",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "תיבה שנפחה $240$ סמ\"ק, אורכה $8$ ורוחבה $6$. מה אורך האלכסון המרחבי?",
+    "options": [
+      "$5\\sqrt{5}$",
+      "$11$",
+      "$\\sqrt{100}$",
+      "$15$"
+    ],
+    "correct_index": 0,
+    "explanation": "גובה: $240=8\\times6\\times h \\Rightarrow h=5$; אלכסון פאה $=\\sqrt{8^2+6^2}=10$; אלכסון מרחבי $=\\sqrt{10^2+5^2}=\\sqrt{125}=5\\sqrt{5}$."
+  },
+  {
+    "id": "q-g8-py3d-14",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "בקובייה, מהו היחס בין אורך האלכסון המרחבי לאורך הצלע?",
+    "options": [
+      "$\\sqrt{3}:1$",
+      "$3:1$",
+      "$\\sqrt{2}:1$",
+      "$2:1$"
+    ],
+    "correct_index": 0,
+    "explanation": "אלכסון מרחבי $=a\\sqrt{3}$, כך שהיחס לצלע $a$ הוא $\\sqrt{3}:1$."
+  },
+  {
+    "id": "q-g8-py3d-15",
+    "topic_id": "g8-pythagoras-3d",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "תיבה שמידותיה $l=9$, $w=12$, $h=8$. מה אורך האלכסון המרחבי?",
+    "options": [
+      "$17$",
+      "$21$",
+      "$289$",
+      "$15$"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\sqrt{9^2+12^2+8^2}=\\sqrt{81+144+64}=\\sqrt{289}=17$."
+  },
+  {
+    "id": "q-g8-ratio-inv-1",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "$y$ ו-$x$ נמצאים ביחס ישר. כאשר $x=2$, $y=10$. מה יהיה $y$ כאשר $x=5$?",
+    "options": [
+      "$25$",
+      "$13$",
+      "$10$",
+      "$4$"
+    ],
+    "correct_index": 0,
+    "explanation": "ביחס ישר $\\frac{y}{x}$ קבוע: $\\frac{10}{2}=5$; עבור $x=5$: $y=5\\times5=25$."
+  },
+  {
+    "id": "q-g8-ratio-inv-2",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "$8$ פועלים גומרים עבודה ב-$6$ ימים. כמה ימים ייקח ל-$4$ פועלים לגמור את אותה עבודה (יחס הפוך)?",
+    "options": [
+      "$12$",
+      "$3$",
+      "$24$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "ביחס הפוך המכפלה קבועה: $8\\times6=48$; עבור $4$ פועלים: $4\\times\\text{ימים}=48 \\Rightarrow \\text{ימים}=12$."
+  },
+  {
+    "id": "q-g8-ratio-inv-3",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "האם המחיר הכולל של תפוחים והכמות שקונים נמצאים ביחס ישר או הפוך?",
+    "options": [
+      "יחס ישר",
+      "יחס הפוך",
+      "אין קשר",
+      "תלוי בסוג התפוח"
+    ],
+    "correct_index": 0,
+    "explanation": "ככל שקונים יותר תפוחים, המחיר הכולל גדל באותו יחס — זהו יחס ישר."
+  },
+  {
+    "id": "q-g8-ratio-inv-4",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מכונית נוסעת בין שני מקומות. אם מכפילים את המהירות (במרחק קבוע), מה קורה לזמן הנסיעה, וזהו יחס ישר או הפוך?",
+    "options": [
+      "יחס הפוך — הזמן מתחצה",
+      "יחס ישר — הזמן מוכפל",
+      "אין קשר בין המהירות לזמן",
+      "תלוי במרחק"
+    ],
+    "correct_index": 0,
+    "explanation": "במרחק קבוע, מהירות וזמן ביחס הפוך: הכפלת המהירות מחצה את הזמן."
+  },
+  {
+    "id": "q-g8-ratio-inv-5",
+    "topic_id": "g8-ratio-proportion-scale",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "$y$ ו-$x$ נמצאים ביחס הפוך. כאשר $x=6$, $y=8$. מהו $y$ כאשר $x=4$?",
+    "options": [
+      "$12$",
+      "$16$",
+      "$5.33$",
+      "$32$"
+    ],
+    "correct_index": 0,
+    "explanation": "ביחס הפוך המכפלה קבועה: $6\\times8=48$; עבור $x=4$: $y=48\\div4=12$."
+  },
+  {
+    "id": "q-g8-irr-dec-1",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "האם $0.75$ הוא שבר עשרוני סופי או מחזורי?",
+    "options": [
+      "סופי",
+      "מחזורי",
+      "אף אחד",
+      "שניהם"
+    ],
+    "correct_index": 0,
+    "explanation": "$0.75$ נגמר אחרי שתי ספרות — שבר עשרוני סופי."
+  },
+  {
+    "id": "q-g8-irr-dec-2",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "כתבו את $\\frac{1}{3}$ כשבר עשרוני. איזה סוג ייצוג זה?",
+    "options": [
+      "$0.\\overline{3}$ — מחזורי",
+      "$0.3$ — סופי",
+      "$0.33$ — סופי",
+      "אי אפשר לכתוב"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{1}{3}=0.333...=0.\\overline{3}$ — שבר עשרוני מחזורי."
+  },
+  {
+    "id": "q-g8-irr-dec-3",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "האם $\\sqrt{2}$ יכול להיות שבר עשרוני סופי או מחזורי?",
+    "options": [
+      "לא — הייצוג שלו אינסופי ולא-מחזורי",
+      "כן, הוא סופי",
+      "כן, הוא מחזורי",
+      "תלוי בכמה ספרות מחשבים"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\sqrt2$ הוא אי-רציונלי, ולכן הייצוג העשרוני שלו אינסופי ולא-מחזורי — לעולם לא סופי או מחזורי."
+  },
+  {
+    "id": "q-g8-irr-dec-4",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "הפכו את $0.\\overline{6}$ לשבר.",
+    "options": [
+      "$\\frac{2}{3}$",
+      "$\\frac{3}{5}$",
+      "$\\frac{6}{10}$",
+      "$\\frac{1}{6}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$0.\\overline{6}=\\frac{6}{9}=\\frac{2}{3}$ (אחרי צמצום)."
+  },
+  {
+    "id": "q-g8-irr-dec-5",
+    "topic_id": "g8-irrational-numbers",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "הפכו את $0.\\overline{27}$ לשבר (אחרי צמצום).",
+    "options": [
+      "$\\frac{3}{11}$",
+      "$\\frac{2}{7}$",
+      "$\\frac{3}{10}$",
+      "$\\frac{27}{100}$"
+    ],
+    "correct_index": 0,
+    "explanation": "$0.\\overline{27}=\\frac{27}{99}=\\frac{3}{11}$ (מחלקים ב-$9$)."
+  },
+  {
+    "id": "q-g8-sim-poly-1",
+    "topic_id": "g8-similarity",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו התנאי לדמיון מצולעים (לא רק משולשים)?",
+    "options": [
+      "זוויות מתאימות שוות וגם צלעות מתאימות פרופורציוניות",
+      "רק זוויות מתאימות שוות",
+      "רק צלעות מתאימות פרופורציוניות",
+      "מספר צלעות שווה בלבד"
+    ],
+    "correct_index": 0,
+    "explanation": "בדמיון מצולעים צריך את שני התנאים ביחד — גם זוויות שוות וגם צלעות פרופורציוניות."
+  },
+  {
+    "id": "q-g8-sim-poly-2",
+    "topic_id": "g8-similarity",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "שני ריבועים — האם הם תמיד דומים זה לזה?",
+    "options": [
+      "כן, תמיד",
+      "רק אם הצלעות שוות",
+      "לא, אף פעם",
+      "תלוי בגודל"
+    ],
+    "correct_index": 0,
+    "explanation": "בכל ריבוע כל הזוויות $90°$ וכל הצלעות שוות זו לזו — לכן כל שני ריבועים דומים, בלי קשר לגודל."
+  },
+  {
+    "id": "q-g8-sim-poly-3",
+    "topic_id": "g8-similarity",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "מלבן א' עם צלעות $3,6$ ומלבן ב' עם צלעות $4,8$ — האם הם דומים?",
+    "options": [
+      "כן, דומים",
+      "לא, לא דומים",
+      "אי אפשר לדעת בלי הזוויות",
+      "רק אם הם ריבועים"
+    ],
+    "correct_index": 0,
+    "explanation": "היחס בין הצלעות המתאימות זהה: $\\frac{3}{4}=\\frac{6}{8}=0.75$, וכל הזוויות במלבן הן $90°$ — לכן הם דומים."
+  },
+  {
+    "id": "q-g8-sim-poly-4",
+    "topic_id": "g8-similarity",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "מלבן א' עם צלעות $2,5$ ומלבן ב' עם צלעות $4,8$ — האם הם דומים?",
+    "options": [
+      "לא, לא דומים",
+      "כן, דומים",
+      "אי אפשר לדעת",
+      "רק אם מסובבים אחד מהם"
+    ],
+    "correct_index": 0,
+    "explanation": "$\\frac{2}{4}=0.5$ אך $\\frac{5}{8}=0.625$ — היחסים שונים, ולכן המלבנים אינם דומים למרות ששניהם מלבנים."
+  },
+  {
+    "id": "q-g8-sim-poly-5",
+    "topic_id": "g8-similarity",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "מחומש משוכלל א' עם צלע $3$ ומחומש משוכלל ב' עם צלע $6$. האם הם דומים, ומהו יחס השטחים?",
+    "options": [
+      "כן דומים, יחס שטחים $4$",
+      "כן דומים, יחס שטחים $2$",
+      "לא דומים",
+      "כן דומים, יחס שטחים $8$"
+    ],
+    "correct_index": 0,
+    "explanation": "שני מחומשים משוכללים תמיד דומים (זוויות שוות אוטומטית); יחס הצלעות $=\\frac{6}{3}=2$, ולכן יחס השטחים $=2^2=4$."
+  },
+  {
+    "id": "q-g8-statrf-1",
+    "topic_id": "g8-stats-prob",
+    "difficulty": 1,
+    "type": "mcq",
+    "question_text": "מהו טווח הנתונים של הרשימה $4,9,2,7$?",
+    "options": [
+      "$7$",
+      "$9$",
+      "$2$",
+      "$5.5$"
+    ],
+    "correct_index": 0,
+    "explanation": "טווח $=$ גדול ביותר $-$ קטן ביותר $=9-2=7$."
+  },
+  {
+    "id": "q-g8-statrf-2",
+    "topic_id": "g8-stats-prob",
+    "difficulty": 2,
+    "type": "mcq",
+    "question_text": "בכיתה $30$ תלמידים, $6$ מהם קיבלו ציון $100$. מהי השכיחות היחסית של ציון $100$?",
+    "options": [
+      "$0.2$ (או $20\\%$)",
+      "$6$",
+      "$0.6$",
+      "$30$"
+    ],
+    "correct_index": 0,
+    "explanation": "שכיחות יחסית $=\\frac{6}{30}=0.2=20\\%$."
+  },
+  {
+    "id": "q-g8-statrf-3",
+    "topic_id": "g8-stats-prob",
+    "difficulty": 3,
+    "type": "mcq",
+    "question_text": "בהטלת קובייה $60$ פעמים, התקבל המספר $6$ בדיוק $12$ פעמים. מהי השכיחות היחסית של התוצאה $6$?",
+    "options": [
+      "$0.2$",
+      "$12$",
+      "$0.5$",
+      "$6$"
+    ],
+    "correct_index": 0,
+    "explanation": "שכיחות יחסית $=\\frac{12}{60}=0.2$."
+  },
+  {
+    "id": "q-g8-statrf-4",
+    "topic_id": "g8-stats-prob",
+    "difficulty": 4,
+    "type": "mcq",
+    "question_text": "בניסוי שהתבצע פעמים רבות מאוד, השכיחות היחסית של תוצאה מסוימת התייצבה סביב $0.3$. מהי ההערכה הסבירה ביותר להסתברות התיאורטית של אותה תוצאה?",
+    "options": [
+      "בקירוב $0.3$",
+      "בדיוק $1$",
+      "בדיוק $0$",
+      "אין קשר בין השכיחות היחסית להסתברות"
+    ],
+    "correct_index": 0,
+    "explanation": "בניסוי ממושך מאוד, השכיחות היחסית מתקרבת להסתברות התיאורטית — לכן ההערכה הסבירה היא כ-$0.3$."
+  },
+  {
+    "id": "q-g8-statrf-5",
+    "topic_id": "g8-stats-prob",
+    "difficulty": 5,
+    "type": "mcq",
+    "question_text": "לקבוצת נתונים א' טווח $10$, ולקבוצת נתונים ב' טווח $2$. מה ניתן להסיק על הפיזור שלהן?",
+    "options": [
+      "נתוני קבוצה א' מפוזרים יותר מנתוני קבוצה ב'",
+      "נתוני קבוצה ב' מפוזרים יותר",
+      "שתי הקבוצות מפוזרות באותה מידה",
+      "אי אפשר להסיק דבר מהטווח"
+    ],
+    "correct_index": 0,
+    "explanation": "טווח גדול יותר מעיד על פיזור רב יותר בין הערך הקטן לגדול — קבוצה א' (טווח $10$) מפוזרת יותר מקבוצה ב' (טווח $2$)."
+  }
 ]
 export function getMiddleSchoolQuestionsForTopic(topicId) {
   return MIDDLE_SCHOOL_QUESTIONS.filter((q) => q.topic_id === topicId);
