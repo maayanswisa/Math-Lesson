@@ -57,7 +57,7 @@ export default function MiniChallenge({ challenge, solved, xpReward, onAttempt, 
                   whileTap={{ scale: 0.95 }}
                   disabled={solved || isWrong}
                   onClick={() => submit(i)}
-                  className={`rounded-xl px-3 py-3 text-lg font-semibold ring-1 transition ${
+                  className={`overflow-hidden rounded-xl px-3 py-3 text-lg font-semibold ring-1 transition ${
                     isRight
                       ? 'bg-[var(--color-success)] text-white ring-[var(--color-success)]'
                       : isWrong
