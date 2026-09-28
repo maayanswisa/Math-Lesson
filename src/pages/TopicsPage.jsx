@@ -128,10 +128,10 @@ export default function TopicsPage() {
                         )}
                         <Link
                           to={`/quiz/${t.id}`}
-                          className="inline-flex items-center gap-1 text-sm font-bold transition after:absolute after:inset-0 group-hover:gap-2"
-                          style={{ color: accent.text }}
+                          className="inline-flex items-center rounded-full px-3 py-1 text-sm font-bold transition after:absolute after:inset-0 group-hover:brightness-95"
+                          style={{ color: accent.text, backgroundColor: accent.bg }}
                         >
-                          התחל מבחן →
+                          התחל מבחן
                         </Link>
                       </div>
                     </div>
