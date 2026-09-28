@@ -11,6 +11,7 @@ import { playCorrect, playWrong } from '../lib/sounds';
 import LessonComplete from '../components/lesson/LessonComplete';
 import LessonProgressBar from '../components/lesson/LessonProgressBar';
 import LessonSection from '../components/lesson/LessonSection';
+import MathRenderer from '../components/ui/MathRenderer';
 
 export default function LessonPage() {
   const { topicId } = useParams();
@@ -147,7 +148,9 @@ export default function LessonPage() {
             <h1 className="mt-3 font-[family-name:var(--font-display)] text-4xl text-[var(--color-ink)]">
               {lesson.emoji} {lesson.title}
             </h1>
-            <p className="mt-2 text-[var(--color-slate)]">{lesson.subtitle}</p>
+            <p className="mt-2 text-[var(--color-slate)]">
+              <MathRenderer inline>{lesson.subtitle}</MathRenderer>
+            </p>
             <p className="mt-1 text-xs text-[var(--color-slate)]">
               {sections.length} שלבים קצרים · כ-10 דקות · גללו למטה כדי להתחיל ↓
             </p>
