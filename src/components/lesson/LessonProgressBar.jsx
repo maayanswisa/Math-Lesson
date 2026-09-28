@@ -18,7 +18,8 @@ export default function LessonProgressBar({ sections, solved, unlockedCount, onJ
         <span className="whitespace-nowrap font-bold text-[var(--color-ink)]">
           {remaining === 0 ? '🏁 סיימתם!' : `✅ ${doneCount} מתוך ${sections.length}`}
         </span>
-        <div className="flex items-center gap-1 sm:gap-1.5" aria-label="שלבי המדריך">
+        {/* min-w-0 + wrap: במדריך ארוך הנקודות יורדות לשורה שנייה בטלפון במקום למתוח את הדף */}
+        <div className="flex min-w-0 flex-wrap items-center justify-center gap-1 sm:gap-1.5" aria-label="שלבי המדריך">
           {sections.map((s, i) => {
             const isSolved = Boolean(solved[s.id]);
             const locked = i >= unlockedCount;
