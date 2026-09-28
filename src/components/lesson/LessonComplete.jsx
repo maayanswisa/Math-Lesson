@@ -27,7 +27,7 @@ export default function LessonComplete({ total, firstTryCount, quizHref, onResta
         ))}
       </div>
       <h2 className="mt-4 font-[family-name:var(--font-display)] text-3xl text-[var(--color-ink)]">
-        כל הכבוד! סיימתם את המדריך 🎉
+        כל הכבוד! סיימתם את ההסבר 🎉
       </h2>
       <p className="mt-2 text-[var(--color-slate)]">
         פתרתם {firstTryCount} מתוך {total} אתגרים כבר בניסיון הראשון.
@@ -45,7 +45,7 @@ export default function LessonComplete({ total, firstTryCount, quizHref, onResta
           onClick={onRestart}
           className="rounded-xl bg-white px-6 py-3 text-sm font-bold text-[var(--color-slate)] ring-1 ring-black/10 hover:bg-[var(--color-mist)]"
         >
-          ↺ לעבור שוב על המדריך
+          ↺ לעבור שוב על ההסבר
         </button>
       </div>
     </motion.section>

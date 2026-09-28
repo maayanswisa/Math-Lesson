@@ -1,5 +1,5 @@
 -- ============================================================
--- Math Lesson — Supabase / PostgreSQL Schema
+-- מתמטיקל — Supabase / PostgreSQL Schema
 -- הרצה ב-SQL Editor של Supabase (פעם אחת)
 -- ============================================================
 

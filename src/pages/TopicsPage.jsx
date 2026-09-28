@@ -116,22 +116,23 @@ export default function TopicsPage() {
                       <p className="mt-2 text-sm leading-relaxed text-[var(--color-slate)]">
                         {t.description}
                       </p>
-                      <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2">
-                        <Link
-                          to={`/quiz/${t.id}`}
-                          className="inline-flex items-center gap-1 text-sm font-bold transition after:absolute after:inset-0 group-hover:gap-2"
-                          style={{ color: accent.text }}
-                        >
-                          התחל מבחן →
-                        </Link>
+                      {/* RTL: הפריט הראשון מימין — "הסבר מלא" בימין, "התחל מבחן" בשמאל */}
+                      <div className="mt-4 flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
                         {hasLesson(t.id) && (
                           <Link
                             to={`/learn/${t.id}`}
                             className="relative z-10 inline-flex items-center gap-1 rounded-full bg-[var(--color-sunshine)]/15 px-3 py-1 text-sm font-bold text-[var(--color-sunshine-dark)] hover:bg-[var(--color-sunshine)]/25"
                           >
-                            📖 מדריך מאפס
+                            📖 הסבר מלא
                           </Link>
                         )}
+                        <Link
+                          to={`/quiz/${t.id}`}
+                          className="inline-flex items-center rounded-full px-3 py-1 text-sm font-bold transition after:absolute after:inset-0 group-hover:brightness-95"
+                          style={{ color: accent.text, backgroundColor: accent.bg }}
+                        >
+                          התחל מבחן
+                        </Link>
                       </div>
                     </div>
                   );

@@ -41,7 +41,7 @@ export default function HomePage() {{
       <section className="max-w-2xl">
         <p className="text-sm font-medium text-[var(--color-teal)]">{eyebrow}</p>
         <h1 className="mt-3 font-[family-name:var(--font-display)] text-4xl leading-tight text-[var(--color-ink)] sm:text-5xl">
-          Math Lesson
+          מתמטיקל
         </h1>
         <p className="mt-4 text-lg leading-relaxed text-[var(--color-slate)]">
           {blurb}
