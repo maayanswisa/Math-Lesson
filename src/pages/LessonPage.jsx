@@ -18,7 +18,7 @@ export default function LessonPage() {
   const topic = getTopicById(topicId);
   const { muted, recordAnswer, recordQuizComplete } = useGame();
 
-  const [lesson, setLesson] = useState(undefined); // undefined = טוען, null = אין מדריך
+  const [lesson, setLesson] = useState(undefined); // undefined = טוען, null = אין הסבר לנושא
   const [progress, setProgress] = useState({ solved: {}, completed: false });
   const sectionRefs = useRef([]);
   const completeRef = useRef(null);
@@ -99,7 +99,7 @@ export default function LessonPage() {
   if (lesson === undefined) {
     return (
       <div className="rounded-2xl bg-white/80 p-8 text-center text-[var(--color-slate)] shadow-sm ring-1 ring-black/5">
-        טוען מדריך…
+        טוען הסבר…
       </div>
     );
   }
@@ -111,7 +111,7 @@ export default function LessonPage() {
           ← חזרה לנושאים
         </Link>
         <p className="rounded-2xl bg-white/80 p-8 text-[var(--color-slate)] ring-1 ring-black/5">
-          עדיין אין מדריך לנושא הזה.{' '}
+          עדיין אין הסבר מלא לנושא הזה.{' '}
           <Link to={`/quiz/${topicId}`} className="font-bold text-[var(--color-teal)] hover:underline">
             למבחן בנושא ←
           </Link>
@@ -142,7 +142,7 @@ export default function LessonPage() {
             className="mt-4 text-center"
           >
             <span className="inline-block rounded-full bg-[var(--color-teal)]/10 px-3 py-1 text-xs font-bold text-[var(--color-teal-dark)]">
-              📖 מדריך אינטראקטיבי · כיתה {GRADE_LABELS[lesson.grade]}
+              📖 הסבר מלא · כיתה {GRADE_LABELS[lesson.grade]}
               {lesson.units ? ` · ${lesson.units} יח״ל` : ''}
             </span>
             <h1 className="mt-3 font-[family-name:var(--font-display)] text-4xl text-[var(--color-ink)]">

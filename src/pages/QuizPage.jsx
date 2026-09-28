@@ -196,9 +196,9 @@ export default function QuizPage() {
         >
           <span className="text-[var(--color-ink)]">
             <span aria-hidden="true">📖 </span>
-            מרגישים שחסר בסיס? יש מדריך אינטראקטיבי שמסביר מאפס.
+            מרגישים שחסר בסיס? יש הסבר מלא ואינטראקטיבי לנושא, מההתחלה.
           </span>
-          <span className="shrink-0 font-bold text-[var(--color-sunshine-dark)]">למדריך ←</span>
+          <span className="shrink-0 font-bold text-[var(--color-sunshine-dark)]">להסבר המלא ←</span>
         </Link>
       )}
 
