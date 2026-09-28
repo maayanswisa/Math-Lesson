@@ -12,7 +12,7 @@ describe('lessons registry', () => {
     expect(await loadLesson('not-a-topic')).toBeNull();
   });
 
-  it.each([3, 5, 8])('every grade-%i topic has a lesson', (grade) => {
+  it.each([3, 5, 8, 9])('every grade-%i topic has a lesson', (grade) => {
     const missing = getAllTopicsForGrade(grade)
       .map((t) => t.id)
       .filter((id) => !hasLesson(id));
