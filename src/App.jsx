@@ -10,6 +10,7 @@ const HomePage = lazy(() => import('./pages/HomePage'));
 const UnitsPage = lazy(() => import('./pages/UnitsPage'));
 const TopicsPage = lazy(() => import('./pages/TopicsPage'));
 const QuizPage = lazy(() => import('./pages/QuizPage'));
+const LessonPage = lazy(() => import('./pages/LessonPage'));
 const CustomTestPage = lazy(() => import('./pages/CustomTestPage'));
 const ParentDashboardPage = lazy(() => import('./pages/ParentDashboardPage'));
 
@@ -74,6 +75,7 @@ export default function App() {
                 <Route path="/grade/:grade/track/:track" element={<TopicsPage />} />
                 <Route path="/grade/:grade/units/:units" element={<TopicsPage />} />
                 <Route path="/quiz/:topicId" element={<QuizPage />} />
+                <Route path="/learn/:topicId" element={<LessonPage />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </Suspense>

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { GRADE_LABELS, GRADE9_TRACKS, getTopics, isElementary, hasDirectTopics } from '../data/curriculum';
 import { getAllQuestionsForTopic, TOPIC_QUIZ_SIZE } from '../data/questions';
+import { hasLesson } from '../data/lessons';
 import { accentFor } from '../lib/palette';
 
 export default function TopicsPage() {
@@ -96,10 +97,11 @@ export default function TopicsPage() {
                   const quizSize = poolSize == null ? null : Math.min(TOPIC_QUIZ_SIZE, poolSize);
                   const accent = accentFor(clusterIdx + i);
                   return (
-                    <Link
+                    // The quiz link stretches over the whole card (after:inset-0),
+                    // so the optional guide link can sit on top without nesting <a>s.
+                    <div
                       key={t.id}
-                      to={`/quiz/${t.id}`}
-                      className="group block overflow-hidden rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/5 transition hover:-translate-y-1 hover:shadow-lg"
+                      className="group relative overflow-hidden rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/5 transition hover:-translate-y-1 hover:shadow-lg"
                       style={{ borderInlineStart: `5px solid ${accent.solid}` }}
                     >
                       <div className="flex items-start justify-between gap-2">
@@ -114,13 +116,24 @@ export default function TopicsPage() {
                       <p className="mt-2 text-sm leading-relaxed text-[var(--color-slate)]">
                         {t.description}
                       </p>
-                      <span
-                        className="mt-4 inline-flex items-center gap-1 text-sm font-bold transition group-hover:gap-2"
-                        style={{ color: accent.text }}
-                      >
-                        התחל מבחן →
-                      </span>
-                    </Link>
+                      <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2">
+                        <Link
+                          to={`/quiz/${t.id}`}
+                          className="inline-flex items-center gap-1 text-sm font-bold transition after:absolute after:inset-0 group-hover:gap-2"
+                          style={{ color: accent.text }}
+                        >
+                          התחל מבחן →
+                        </Link>
+                        {hasLesson(t.id) && (
+                          <Link
+                            to={`/learn/${t.id}`}
+                            className="relative z-10 inline-flex items-center gap-1 rounded-full bg-[var(--color-sunshine)]/15 px-3 py-1 text-sm font-bold text-[var(--color-sunshine-dark)] hover:bg-[var(--color-sunshine)]/25"
+                          >
+                            📖 מדריך מאפס
+                          </Link>
+                        )}
+                      </div>
+                    </div>
                   );
                 })}
               </div>
