@@ -15,10 +15,10 @@ export default function LessonProgressBar({ sections, solved, unlockedCount, onJ
   return (
     <div className="sticky top-0 z-20 -mx-4 bg-[var(--color-paper)]/85 px-4 pb-3 pt-3 backdrop-blur-md">
       <div className="flex items-center justify-between gap-3 text-sm">
-        <span className="font-bold text-[var(--color-ink)]">
+        <span className="whitespace-nowrap font-bold text-[var(--color-ink)]">
           {remaining === 0 ? '🏁 סיימתם!' : `✅ ${doneCount} מתוך ${sections.length}`}
         </span>
-        <div className="flex items-center gap-1.5" aria-label="שלבי המדריך">
+        <div className="flex items-center gap-1 sm:gap-1.5" aria-label="שלבי המדריך">
           {sections.map((s, i) => {
             const isSolved = Boolean(solved[s.id]);
             const locked = i >= unlockedCount;
@@ -29,7 +29,7 @@ export default function LessonProgressBar({ sections, solved, unlockedCount, onJ
                 disabled={locked}
                 onClick={() => onJump(i)}
                 title={locked ? 'נעול — פתרו את האתגר הקודם' : `שלב ${i + 1}`}
-                className={`flex h-8 w-8 items-center justify-center rounded-full text-sm transition ${
+                className={`flex h-7 w-7 items-center justify-center rounded-full text-xs transition sm:h-8 sm:w-8 sm:text-sm ${
                   isSolved
                     ? 'bg-[var(--color-success)] text-white shadow-sm'
                     : locked

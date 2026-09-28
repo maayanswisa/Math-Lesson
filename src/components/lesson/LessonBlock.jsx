@@ -1,5 +1,6 @@
 import MathRenderer from '../ui/MathRenderer';
 import BalanceScale from './BalanceScale';
+import BellCurve from './BellCurve';
 import ConceptCard from './ConceptCard';
 import GroupsVisual from './GroupsVisual';
 import StepByStep from './StepByStep';
@@ -17,6 +18,8 @@ export default function LessonBlock({ block }) {
       return (
         <BalanceScale caption={block.caption} solution={block.solution} left={block.left} right={block.right} />
       );
+    case 'bell':
+      return <BellCurve {...block} />;
     case 'groups':
       return <GroupsVisual k={block.k} xs={block.xs} units={block.units} />;
     default:

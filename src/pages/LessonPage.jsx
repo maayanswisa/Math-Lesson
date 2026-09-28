@@ -90,7 +90,10 @@ export default function LessonPage() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [progress.completed, updateProgress]);
 
-  const backHref = topic ? `/grade/${topic.grade}/topics` : '/';
+  let backHref = '/';
+  if (topic?.units != null) backHref = `/grade/${topic.grade}/units/${topic.units}`;
+  else if (topic?.track) backHref = `/grade/${topic.grade}/track/${topic.track}`;
+  else if (topic) backHref = `/grade/${topic.grade}/topics`;
 
   if (lesson === undefined) {
     return (
@@ -139,6 +142,7 @@ export default function LessonPage() {
           >
             <span className="inline-block rounded-full bg-[var(--color-teal)]/10 px-3 py-1 text-xs font-bold text-[var(--color-teal-dark)]">
               📖 מדריך אינטראקטיבי · כיתה {GRADE_LABELS[lesson.grade]}
+              {lesson.units ? ` · ${lesson.units} יח״ל` : ''}
             </span>
             <h1 className="mt-3 font-[family-name:var(--font-display)] text-4xl text-[var(--color-ink)]">
               {lesson.emoji} {lesson.title}

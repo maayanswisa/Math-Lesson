@@ -79,7 +79,11 @@ export default function MiniChallenge({ challenge, solved, xpReward, onAttempt, 
             }}
           >
             <label className="flex flex-1 items-center gap-2 rounded-xl bg-white px-3 ring-1 ring-black/15 focus-within:ring-2 focus-within:ring-[var(--color-teal)]" dir="ltr">
-              <span className="whitespace-nowrap font-bold italic text-[var(--color-slate)]">x =</span>
+              {(challenge.label ?? 'x =') && (
+                <span className="whitespace-nowrap font-bold italic text-[var(--color-slate)]">
+                  {challenge.label ?? 'x ='}
+                </span>
+              )}
               <input
                 type="text"
                 inputMode="decimal"
@@ -89,6 +93,9 @@ export default function MiniChallenge({ challenge, solved, xpReward, onAttempt, 
                 aria-label="התשובה שלכם"
                 className="w-full bg-transparent py-3 text-lg font-semibold outline-none"
               />
+              {challenge.suffix && (
+                <span className="whitespace-nowrap font-bold text-[var(--color-slate)]">{challenge.suffix}</span>
+              )}
             </label>
             <motion.button
               type="submit"

@@ -41,7 +41,7 @@ export default function StepByStep({ title, steps }) {
                   >
                     {i + 1}
                   </span>
-                  <MathRenderer inline className="text-lg">{`$${step.math}$`}</MathRenderer>
+                  <MathRenderer inline className="text-lg sm:whitespace-nowrap">{`$${step.math}$`}</MathRenderer>
                 </span>
                 {step.note && (
                   <MathRenderer inline className="text-sm text-[var(--color-slate)]">

@@ -6,6 +6,7 @@
  */
 const LOADERS = {
   'g8-equations-system': () => import('./g8-equations-brackets.js'),
+  'g11-u4-normal-dist': () => import('./g11-normal-distribution.js'),
 };
 
 export function hasLesson(topicId) {

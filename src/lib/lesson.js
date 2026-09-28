@@ -9,6 +9,7 @@ export function parseNumberAnswer(raw) {
     .replace(/\s+/g, '')
     .replace(/[−–]/g, '-')
     .replace(/^[a-zA-Z]=/, '')
+    .replace(/%$/, '')
     .replace(',', '.');
   if (!/^-?\d+(\.\d+)?$/.test(s)) return NaN;
   return Number(s);
@@ -17,7 +18,7 @@ export function parseNumberAnswer(raw) {
 export function isChallengeCorrect(challenge, response) {
   if (challenge.type === 'choice') return response === challenge.answer;
   const n = parseNumberAnswer(response);
-  return !Number.isNaN(n) && Math.abs(n - challenge.answer) < 1e-9;
+  return !Number.isNaN(n) && Math.abs(n - challenge.answer) <= (challenge.tolerance ?? 1e-9);
 }
 
 const keyFor = (lessonId) => `math-lesson-guide-${lessonId}`;
