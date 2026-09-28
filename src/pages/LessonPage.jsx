@@ -130,7 +130,7 @@ export default function LessonPage() {
 
   return (
     <MotionConfig reducedMotion="user">
-      <div className="mx-auto max-w-2xl space-y-10" dir="rtl">
+      <div className="mx-auto w-full max-w-2xl space-y-10" dir="rtl">
         <div>
           <Link to={backHref} className="text-sm text-[var(--color-teal)] hover:underline">
             ← חזרה לנושאים

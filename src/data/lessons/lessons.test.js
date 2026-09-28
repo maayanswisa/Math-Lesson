@@ -12,8 +12,8 @@ describe('lessons registry', () => {
     expect(await loadLesson('not-a-topic')).toBeNull();
   });
 
-  it('every grade-8 topic has a lesson', () => {
-    const missing = getAllTopicsForGrade(8)
+  it.each([5, 8])('every grade-%i topic has a lesson', (grade) => {
+    const missing = getAllTopicsForGrade(grade)
       .map((t) => t.id)
       .filter((id) => !hasLesson(id));
     expect(missing).toEqual([]);
@@ -66,6 +66,8 @@ describe('parseNumberAnswer / isChallengeCorrect', () => {
     expect(parseNumberAnswer(' x = 7 ')).toBe(7);
     expect(parseNumberAnswer('−3')).toBe(-3);
     expect(parseNumberAnswer('2,5')).toBe(2.5);
+    expect(parseNumberAnswer('1,000')).toBe(1000);
+    expect(parseNumberAnswer('2,437,158')).toBe(2437158);
     expect(parseNumberAnswer('abc')).toBeNaN();
     expect(parseNumberAnswer('')).toBeNaN();
   });

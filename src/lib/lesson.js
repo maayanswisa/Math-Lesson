@@ -2,15 +2,17 @@ import { readJSON, writeJSON } from './storage.js';
 
 /**
  * Parse a typed numeric answer leniently: "7", " 7 ", "x=7", "x = -7",
- * "−7" (Unicode minus), "3,5". Returns NaN when nothing numeric is left.
+ * "−7" (Unicode minus), "3,5" (decimal comma), "1,000,000" (thousands
+ * separators). Returns NaN when nothing numeric is left.
  */
 export function parseNumberAnswer(raw) {
-  const s = String(raw ?? '')
+  let s = String(raw ?? '')
     .replace(/\s+/g, '')
     .replace(/[−–]/g, '-')
     .replace(/^[a-zA-Z]=/, '')
-    .replace(/%$/, '')
-    .replace(',', '.');
+    .replace(/%$/, '');
+  // "1,000" / "2,437,158" are thousands separators; any other comma is a decimal comma
+  s = /^-?\d{1,3}(,\d{3})+(\.\d+)?$/.test(s) ? s.replace(/,/g, '') : s.replace(',', '.');
   if (!/^-?\d+(\.\d+)?$/.test(s)) return NaN;
   return Number(s);
 }

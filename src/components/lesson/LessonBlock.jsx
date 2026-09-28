@@ -2,28 +2,42 @@ import MathRenderer from '../ui/MathRenderer';
 import AreaModel from './AreaModel';
 import BalanceScale from './BalanceScale';
 import BellCurve from './BellCurve';
+import BoxVolume from './BoxVolume';
 import CirclePi from './CirclePi';
 import ConceptCard from './ConceptCard';
 import DiceSim from './DiceSim';
 import ExteriorAngle from './ExteriorAngle';
+import FractionBars from './FractionBars';
 import GroupsVisual from './GroupsVisual';
 import LineGraph from './LineGraph';
 import PercentBar from './PercentBar';
+import PlaceValue from './PlaceValue';
+import PrimeSieve from './PrimeSieve';
 import RightTriangle from './RightTriangle';
+import RomanConverter from './RomanConverter';
+import ShapeArea from './ShapeArea';
 import SimilarScale from './SimilarScale';
 import StepByStep from './StepByStep';
+import TessellationPoint from './TessellationPoint';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
 const VISUALS = {
   area: AreaModel,
   bell: BellCurve,
+  box: BoxVolume,
   circle: CirclePi,
   dice: DiceSim,
   exterior: ExteriorAngle,
+  fraction: FractionBars,
   line: LineGraph,
   percent: PercentBar,
+  place: PlaceValue,
+  primes: PrimeSieve,
   pythagoras: RightTriangle,
+  roman: RomanConverter,
+  shape: ShapeArea,
   similar: SimilarScale,
+  tessellation: TessellationPoint,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */
