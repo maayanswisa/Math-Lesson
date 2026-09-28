@@ -5,6 +5,7 @@ import { getTopicById, GRADE_LABELS, GRADE9_TRACKS } from '../data/curriculum';
 import { buildCustomQuiz, getQuestionsForTopic, SPEED_RUN_POOL_SIZE, TOPIC_QUIZ_SIZE } from '../data/questions';
 import { logQuizAttempt } from '../lib/progressLog';
 import { readCustomQuiz } from '../lib/customQuiz.js';
+import { hasLesson } from '../data/lessons';
 
 const DIFFICULTY_BANDS = [
   { id: 'all', label: 'הכל' },
@@ -187,6 +188,19 @@ export default function QuizPage() {
           </div>
         )}
       </div>
+
+      {!isCustom && hasLesson(topicId) && (
+        <Link
+          to={`/learn/${topicId}`}
+          className="flex items-center justify-between gap-3 rounded-2xl bg-[var(--color-sunshine)]/12 px-4 py-3 text-sm ring-1 ring-[var(--color-sunshine)]/40 hover:bg-[var(--color-sunshine)]/20"
+        >
+          <span className="text-[var(--color-ink)]">
+            <span aria-hidden="true">📖 </span>
+            מרגישים שחסר בסיס? יש מדריך אינטראקטיבי שמסביר מאפס.
+          </span>
+          <span className="shrink-0 font-bold text-[var(--color-sunshine-dark)]">למדריך ←</span>
+        </Link>
+      )}
 
       {questionsLoading ? (
         <div className="rounded-2xl bg-white/80 p-8 text-center text-[var(--color-slate)] shadow-sm ring-1 ring-black/5">
