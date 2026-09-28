@@ -44,7 +44,7 @@ export default function App() {
                   🧮
                 </span>
                 <span className="flex flex-col leading-tight">
-                  <span className="text-base sm:text-xl">Math Lesson</span>
+                  <span className="text-base sm:text-xl">מתמטיקל</span>
                   <span className="hidden text-xs font-normal text-[var(--color-slate)] sm:block">
                     תרגול מתמטיקה
                   </span>
