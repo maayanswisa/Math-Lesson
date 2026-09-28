@@ -1,31 +1,37 @@
 import { describe, it, expect } from 'vitest';
-import { hasLesson, loadLesson } from './index.js';
-import { getTopicById } from '../curriculum/index.js';
+import { hasLesson, loadLesson, LESSON_TOPIC_IDS } from './index.js';
+import { getTopicById, getAllTopicsForGrade } from '../curriculum/index.js';
 import { isChallengeCorrect, parseNumberAnswer } from '../../lib/lesson.js';
 import { normalCdf } from '../../lib/normal.js';
-
-const BLOCK_TYPES = new Set(['text', 'card', 'steps', 'balance', 'groups', 'bell']);
-const LESSON_TOPICS = ['g8-equations-system', 'g11-u4-normal-dist'];
+import { BLOCK_TYPES } from '../../components/lesson/LessonBlock.jsx';
 
 describe('lessons registry', () => {
-  it('finds the grade-8 equations lesson and nothing for unknown topics', async () => {
+  it('finds registered lessons and nothing for unknown topics', async () => {
     expect(hasLesson('g8-equations-system')).toBe(true);
     expect(hasLesson('not-a-topic')).toBe(false);
     expect(await loadLesson('not-a-topic')).toBeNull();
   });
 
-  it.each(LESSON_TOPICS)('%s is well-formed: real topic, unique sections, one valid challenge each', async (topicId) => {
-    expect(hasLesson(topicId)).toBe(true);
+  it('every grade-8 topic has a lesson', () => {
+    const missing = getAllTopicsForGrade(8)
+      .map((t) => t.id)
+      .filter((id) => !hasLesson(id));
+    expect(missing).toEqual([]);
+  });
+
+  it.each(LESSON_TOPIC_IDS)('%s is well-formed: real topic, unique sections, one valid challenge each', async (topicId) => {
     const lesson = await loadLesson(topicId);
     expect(lesson.topicId).toBe(topicId);
     expect(getTopicById(lesson.topicId)).not.toBeNull();
+    expect(lesson.title && lesson.subtitle && lesson.emoji).toBeTruthy();
 
     const ids = lesson.sections.map((s) => s.id);
     expect(new Set(ids).size).toBe(ids.length);
+    expect(lesson.sections.length).toBeGreaterThanOrEqual(3);
 
     for (const section of lesson.sections) {
       expect(section.blocks.length).toBeGreaterThan(0);
-      for (const block of section.blocks) expect(BLOCK_TYPES.has(block.type)).toBe(true);
+      for (const block of section.blocks) expect(BLOCK_TYPES).toContain(block.type);
 
       const ch = section.challenge;
       expect(ch.prompt && ch.hint && ch.explain).toBeTruthy();
@@ -35,13 +41,18 @@ describe('lessons registry', () => {
       } else {
         expect(ch.type).toBe('number');
         expect(Number.isFinite(ch.answer)).toBe(true);
+        // the stored answer must itself pass the checker (catches label/tolerance mistakes)
+        expect(isChallengeCorrect(ch, String(ch.answer))).toBe(true);
       }
     }
   });
 
   it('balance blocks start balanced at the stated solution', async () => {
-    const lessons = await Promise.all(LESSON_TOPICS.map(loadLesson));
-    const balances = lessons.flatMap((l) => l.sections).flatMap((s) => s.blocks).filter((b) => b.type === 'balance');
+    const lessons = await Promise.all(LESSON_TOPIC_IDS.map(loadLesson));
+    const balances = lessons
+      .flatMap((l) => l.sections)
+      .flatMap((s) => s.blocks)
+      .filter((b) => b.type === 'balance');
     for (const b of balances) {
       const w = (side) => side.x * b.solution + side.units;
       expect(w(b.left)).toBe(w(b.right));
