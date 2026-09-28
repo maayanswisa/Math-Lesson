@@ -1,30 +1,28 @@
 /**
- * מדריך אינטראקטיבי — פתרון משוואה עם סוגריים (כיתה ח׳).
+ * מדריך אינטראקטיבי — משוואות, מערכת משוואות וערך מוחלט (כיתה ח׳).
  *
  * כל מקטע (section) הוא יחידת מיקרו-למידה: כמה בלוקים קצרים, ובסופו
  * אתגר של שאלה אחת בדיוק. המקטע הבא נפתח רק אחרי שפותרים את האתגר.
  *
- * סוגי בלוקים: text | card | steps | balance | groups (ראו LessonBlock.jsx).
+ * סוגי בלוקים: ראו BLOCK_TYPES ב-LessonBlock.jsx.
  * סוגי אתגרים: choice (answer = אינדקס) | number (answer = מספר).
  *
- * מחרוזות כתובות ב-String.raw כדי ש-LaTeX (\frac, \cdot…) לא יצטרך
- * לוכסנים כפולים. במתמטיקה של steps אין $ — הרכיב עוטף אותה בעצמו.
+ * במתמטיקה של steps אין $ — הרכיב עוטף אותה בעצמו.
+ *
+ * ה-id נשאר g8-equations-brackets כדי לשמור את ההתקדמות של מי שכבר התחיל.
  */
-const m = String.raw;
+import { c, GREEN, m, RED, VIOLET } from './tex.js';
 
-// צבעי הדגשה בתוך הנוסחאות — אותם גוונים של פלטת האתר.
-const RED = '#c45c48';
-const GREEN = '#2d7a4f';
-const VIOLET = '#7c4dcc';
-const c = (color, tex) => m`\textcolor{${color}}{${tex}}`;
+// ציר מספרים: ה-0 באמצע, ושתי נקודות במרחק 3 ממנו
+const ABS_SVG = `<div class='diagram-box'><svg viewBox='0 0 300 70' width='300' xmlns='http://www.w3.org/2000/svg' style='direction:ltr'><line x1='10' y1='35' x2='290' y2='35' stroke='#1a2b3c' stroke-width='1.5'/>${[-4, -3, -2, -1, 0, 1, 2, 3, 4].map((n) => `<line x1='${150 + n * 32}' y1='30' x2='${150 + n * 32}' y2='40' stroke='#1a2b3c'/><text x='${150 + n * 32}' y='56' text-anchor='middle' font-size='12' fill='#1a2b3c'>${String(n).replace('-', '−')}</text>`).join('')}<line x1='54' y1='22' x2='150' y2='22' stroke='#7c4dcc' stroke-width='3'/><line x1='150' y1='22' x2='246' y2='22' stroke='#7c4dcc' stroke-width='3'/><text x='102' y='16' text-anchor='middle' font-size='12' font-weight='700' fill='#7c4dcc'>3</text><text x='198' y='16' text-anchor='middle' font-size='12' font-weight='700' fill='#7c4dcc'>3</text><circle cx='54' cy='35' r='6' fill='#c45c48'/><circle cx='246' cy='35' r='6' fill='#c45c48'/></svg></div>`;
 
 export default {
   id: 'g8-equations-brackets',
   topicId: 'g8-equations-system',
   grade: 8,
   emoji: '🧮',
-  title: 'פתרון משוואה עם סוגריים',
-  subtitle: 'מאפס — צעד אחרי צעד, עם אתגר קטן בסוף כל שלב',
+  title: 'משוואות, מערכות וערך מוחלט',
+  subtitle: 'מאפס: סוגריים, מכנים, שתי משוואות עם שני נעלמים, וערך מוחלט',
   sections: [
     {
       id: 'what',
@@ -217,8 +215,8 @@ $x$ הוא מספר שעוד לא מכירים — כמו קופסה סגורה.
     },
     {
       id: 'both-sides',
-      emoji: '🏆',
-      title: 'שלב הבוס: $x$ בשני הצדדים',
+      emoji: '⚔️',
+      title: '$x$ בשני הצדדים',
       blocks: [
         {
           type: 'text',
@@ -251,6 +249,161 @@ $x$ הוא מספר שעוד לא מכירים — כמו קופסה סגורה.
         answer: 7,
         hint: m`אחרי פתיחת סוגריים: $2x+10=4x-4$. הורידו $2x$ משני הצדדים.`,
         explain: m`$10=2x-4 \Rightarrow 14=2x \Rightarrow x=7$. בדיקה: $2\cdot12=24$ וגם $4\cdot6=24$ ✔️`,
+      },
+    },
+    {
+      id: 'denominators',
+      emoji: '➗',
+      title: 'משוואה עם מכנים',
+      blocks: [
+        {
+          type: 'text',
+          md: m`שברים במשוואה נראים מפחידים — אבל יש טריק: **כופלים את שני הצדדים במכנה המשותף**, והשברים פשוט נעלמים.`,
+        },
+        {
+          type: 'steps',
+          title: m`פותרים: $\dfrac{x}{3}+\dfrac{x}{2}=5$`,
+          steps: [
+            { math: m`3,\ 2\ \rightarrow\ ${c(VIOLET, '6')}`, note: 'המכנה המשותף הקטן ביותר: 6 (מתחלק גם ב-3 וגם ב-2).' },
+            { math: m`${c(VIOLET, '6')}\cdot\frac{x}{3}+${c(VIOLET, '6')}\cdot\frac{x}{2}=${c(VIOLET, '6')}\cdot5`, note: 'כופלים **כל** איבר ב-6.' },
+            { math: m`2x+3x=30`, note: 'השברים נעלמו!' },
+            { math: m`5x=30\ \Rightarrow\ ${c(GREEN, 'x=6')}`, note: m`בדיקה: $\frac63+\frac62=2+3=5$ ✔️` },
+          ],
+        },
+        {
+          type: 'card',
+          tone: 'warn',
+          title: 'שתי מלכודות',
+          md: m`1. כופלים **כל** איבר — גם את זה שאין לו מכנה (ה-$5$ הפך ל-$30$).
+2. אם במונה יש **סכום**, שמים אותו בסוגריים: $\frac{x+1}{3}\cdot6=2(x+1)$, לא $2x+1$.`,
+        },
+      ],
+      challenge: {
+        type: 'number',
+        prompt: m`$\dfrac{x}{4}+\dfrac{x}{2}=9$. כמה זה $x$?`,
+        answer: 12,
+        hint: m`המכנה המשותף הוא 4. כפלו כל איבר ב-4: $x+2x=36$.`,
+        explain: m`$x+2x=36\Rightarrow 3x=36\Rightarrow x=12$. בדיקה: $3+6=9$ ✔️`,
+      },
+    },
+    {
+      id: 'system-substitution',
+      emoji: '🔗',
+      title: 'מערכת משוואות: שיטת ההצבה',
+      blocks: [
+        {
+          type: 'text',
+          md: m`עכשיו יש **שני נעלמים**, $x$ ו-$y$, ו**שתי משוואות**. הפתרון הוא **זוג** מספרים שמתאים לשתיהן ביחד.
+
+כל משוואה היא ישר — והפתרון הוא **נקודת החיתוך** שלהם:`,
+        },
+        {
+          type: 'line',
+          caption: m`$y=x+1$ ו-$y=-x+5$ נפגשים בנקודה $(2,3)$ — זה הפתרון של המערכת.`,
+          lines: [
+            { m: 1, b: 1 },
+            { m: -1, b: 5 },
+          ],
+          showIntersection: true,
+        },
+        {
+          type: 'steps',
+          title: m`פותרים: $y=x+1$ וגם $2x+y=10$`,
+          steps: [
+            { math: m`y=${c(VIOLET, 'x+1')}`, note: m`במשוואה הראשונה $y$ כבר לבד.` },
+            { math: m`2x+(${c(VIOLET, 'x+1')})=10`, note: m`**מציבים** אותו במקום $y$ בשנייה — נשאר רק $x$!` },
+            { math: m`3x+1=10\ \Rightarrow\ x=3`, note: 'משוואה רגילה עם נעלם אחד.' },
+            { math: m`y=3+1=4`, note: m`מחזירים את $x$ כדי למצוא את $y$.` },
+            { math: c(GREEN, '(3,\\,4)'), note: m`בדיקה בשנייה: $2\cdot3+4=10$ ✔️` },
+          ],
+        },
+      ],
+      challenge: {
+        type: 'number',
+        prompt: m`$y=2x$ וגם $x+y=12$. כמה זה $x$?`,
+        answer: 4,
+        hint: m`הציבו $2x$ במקום $y$: $x+2x=12$.`,
+        explain: m`$3x=12\Rightarrow x=4$, ואז $y=8$.`,
+      },
+    },
+    {
+      id: 'system-elimination',
+      emoji: '➕',
+      title: 'מערכת משוואות: חיבור וחיסור',
+      blocks: [
+        {
+          type: 'text',
+          md: m`דרך שנייה: **מחברים (או מחסרים) את המשוואות** — כך שאחד הנעלמים נעלם.`,
+        },
+        {
+          type: 'steps',
+          title: m`פותרים: $x+y=10$ וגם $x-y=4$`,
+          steps: [
+            { math: m`(x+y)+(x-y)=10+4`, note: 'מחברים צד שמאל עם צד שמאל, וימין עם ימין.' },
+            { math: m`2x\ ${c(RED, '+\\,y-y')}=14`, note: m`$+y$ ו-$-y$ מבטלים זה את זה!` },
+            { math: m`x=7`, note: 'מחלקים ב-2.' },
+            { math: m`7+y=10\ \Rightarrow\ y=3`, note: 'מציבים באחת המשוואות.' },
+            { math: c(GREEN, '(7,\\,3)'), note: m`בדיקה: $7-3=4$ ✔️` },
+          ],
+        },
+        {
+          type: 'card',
+          tone: 'tip',
+          title: 'מתי לחבר ומתי לחסר?',
+          md: m`מקדמים **הפוכים** ($+y$ ו-$-y$) → **מחברים**.
+מקדמים **זהים** ($+y$ ו-$+y$) → **מחסרים**.`,
+        },
+      ],
+      challenge: {
+        type: 'number',
+        label: 'y =',
+        prompt: m`$x+y=9$ וגם $x-y=1$. כמה זה $y$?`,
+        answer: 4,
+        hint: m`חברו: $2x=10$, ולכן $x=5$. עכשיו הציבו.`,
+        explain: m`$x=5$, ואז $5+y=9\Rightarrow y=4$.`,
+      },
+    },
+    {
+      id: 'absolute-value',
+      emoji: '🏆',
+      title: 'שלב הבוס: ערך מוחלט',
+      blocks: [
+        {
+          type: 'text',
+          md: m`**ערך מוחלט** $|a|$ = **המרחק** של $a$ מ-$0$ על ציר המספרים. מרחק אף פעם לא שלילי:
+$|3|=3$ וגם $|-3|=3$.
+
+${ABS_SVG}`,
+        },
+        {
+          type: 'card',
+          tone: 'key',
+          title: 'משוואה עם ערך מוחלט — שני פתרונות',
+          md: m`$|x|=3$ שואל: אילו מספרים נמצאים **במרחק 3** מ-$0$? יש שניים: $x=3$ **או** $x=-3$.`,
+        },
+        {
+          type: 'steps',
+          title: m`פותרים: $|x-2|=5$`,
+          steps: [
+            { math: m`x-2=${c(VIOLET, '5')}\qquad x-2=${c(VIOLET, '-5')}`, note: 'מפצלים לשני מקרים: מה שבפנים שווה 5 או מינוס 5.' },
+            { math: m`${c(GREEN, 'x=7')}\qquad ${c(GREEN, 'x=-3')}`, note: 'פותרים כל אחד בנפרד.' },
+            { math: m`|7-2|=5\ ,\ \ |-3-2|=5\ \checkmark`, note: 'בדיקה: שני הפתרונות עובדים.' },
+          ],
+        },
+        {
+          type: 'card',
+          tone: 'warn',
+          title: 'מלכודת',
+          md: m`$|x|=-4$ — **אין פתרון!** מרחק לא יכול להיות שלילי.`,
+        },
+      ],
+      challenge: {
+        type: 'choice',
+        prompt: m`מהם הפתרונות של $|x+1|=4$?`,
+        options: [m`$x=3$ או $x=-5$`, m`$x=3$ בלבד`, m`$x=5$ או $x=-3$`, 'אין פתרון'],
+        answer: 0,
+        hint: m`$x+1=4$ או $x+1=-4$.`,
+        explain: m`$x+1=4\Rightarrow x=3$, ו-$x+1=-4\Rightarrow x=-5$.`,
       },
     },
   ],
