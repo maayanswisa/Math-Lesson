@@ -24,7 +24,9 @@ export default {
           title: 'שתי עובדות יסוד',
           md: m`$\sin^2\alpha+\cos^2\alpha=1$ (פיתגורס במעגל!)
 
-$\sin(-\alpha)=-\sin\alpha$ · $\cos(-\alpha)=\cos\alpha$`,
+$\sin(-\alpha)=-\sin\alpha$
+
+$\cos(-\alpha)=\cos\alpha$`,
         },
       ],
       challenge: {

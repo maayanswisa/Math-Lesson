@@ -51,6 +51,11 @@ import SequencePlot from './SequencePlot';
 import SineWave from './SineWave';
 import UnitCircle from './UnitCircle';
 import VennProb from './VennProb';
+import ExpLogGraph from './ExpLogGraph';
+import GrowthModel from './GrowthModel';
+import HypothesisTest from './HypothesisTest';
+import Space3D from './Space3D';
+import VectorPlane from './VectorPlane';
 import TessellationPoint from './TessellationPoint';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
@@ -104,6 +109,11 @@ const VISUALS = {
   sinewave: SineWave,
   venn: VennProb,
   binomial: BinomialBars,
+  explog: ExpLogGraph,
+  growth: GrowthModel,
+  vectors: VectorPlane,
+  space: Space3D,
+  hypothesis: HypothesisTest,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */

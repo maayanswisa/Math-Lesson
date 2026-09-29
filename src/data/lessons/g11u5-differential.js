@@ -18,7 +18,9 @@ export default {
           type: 'card',
           tone: 'key',
           title: 'תזכורת',
-          md: m`$f''>0$ ← $\cup$ · $f''<0$ ← $\cap$ · פיתול = הסימן של $f''$ מתחלף`,
+          md: m`$f''>0$ ← $\cup$
+
+$f''<0$ ← $\cap$ · פיתול = הסימן של $f''$ מתחלף`,
         },
       ],
       challenge: {
@@ -39,7 +41,9 @@ export default {
           type: 'card',
           tone: 'key',
           title: 'תזכורת',
-          md: m`תחום: $g(x)\ge0$ · $\sqrt{x^2}=|x|$ · אחרי העלאה בריבוע — בודקים פתרונות זרים`,
+          md: m`תחום: $g(x)\ge0$
+
+$\sqrt{x^2}=|x|$ · אחרי העלאה בריבוע — בודקים פתרונות זרים`,
         },
       ],
       challenge: {

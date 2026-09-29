@@ -18,7 +18,13 @@ export default {
           type: 'card',
           tone: 'key',
           title: 'מה תמיד נכון',
-          md: m`$0\le P(A)\le1$ · $P(U)=1$ · $P(\emptyset)=0$ · $P(\bar A)=1-P(A)$
+          md: m`$0\le P(A)\le1$
+
+$P(U)=1$
+
+$P(\emptyset)=0$
+
+$P(\bar A)=1-P(A)$
 
 **איחוד**: $P(A\cup B)=P(A)+P(B)-P(A\cap B)$ — מחסרים את החיתוך כי ספרנו אותו פעמיים.`,
         },

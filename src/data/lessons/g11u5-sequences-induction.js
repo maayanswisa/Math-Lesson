@@ -18,7 +18,9 @@ export default {
           type: 'card',
           tone: 'key',
           title: 'תזכורת',
-          md: m`$a_n=a_1+(n-1)d$ · $S_n=\frac{n(a_1+a_n)}{2}$`,
+          md: m`$a_n=a_1+(n-1)d$
+
+$S_n=\frac{n(a_1+a_n)}{2}$`,
         },
       ],
       challenge: {
@@ -39,7 +41,9 @@ export default {
           type: 'card',
           tone: 'key',
           title: 'תזכורת',
-          md: m`$a_n=a_1q^{n-1}$ · $S_n=\frac{a_1(q^n-1)}{q-1}$`,
+          md: m`$a_n=a_1q^{n-1}$
+
+$S_n=\frac{a_1(q^n-1)}{q-1}$`,
         },
       ],
       challenge: {

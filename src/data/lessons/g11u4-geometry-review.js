@@ -61,7 +61,9 @@ export default {
           type: 'card',
           tone: 'key',
           title: 'תזכורת',
-          md: m`$\frac{a}{\sin A}=2R$ · $S=\frac12ab\sin\gamma$`,
+          md: m`$\frac{a}{\sin A}=2R$
+
+$S=\frac12ab\sin\gamma$`,
         },
       ],
       challenge: {
