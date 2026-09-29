@@ -28,6 +28,13 @@ import QuadExplorer from './QuadExplorer';
 import TreeDiagram from './TreeDiagram';
 import TriangleSides from './TriangleSides';
 import StepByStep from './StepByStep';
+import CoinSim from './CoinSim';
+import CoordPlane from './CoordPlane';
+import CrossingLines from './CrossingLines';
+import FreqBars from './FreqBars';
+import FunctionMachine from './FunctionMachine';
+import SignedLine from './SignedLine';
+import TransformGrid from './TransformGrid';
 import TessellationPoint from './TessellationPoint';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
@@ -58,6 +65,13 @@ const VISUALS = {
   parallel: ParallelAngles,
   parabola: ParabolaGraph,
   circletheorems: CircleTheorems,
+  signed: SignedLine,
+  coords: CoordPlane,
+  transform: TransformGrid,
+  coins: CoinSim,
+  machine: FunctionMachine,
+  crossing: CrossingLines,
+  bars: FreqBars,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */
