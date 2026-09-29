@@ -56,6 +56,12 @@ import GrowthModel from './GrowthModel';
 import HypothesisTest from './HypothesisTest';
 import Space3D from './Space3D';
 import VectorPlane from './VectorPlane';
+import BaseTen from './BaseTen';
+import GridMap from './GridMap';
+import HundredChart from './HundredChart';
+import JumpLine from './JumpLine';
+import Ruler from './Ruler';
+import TenFrame from './TenFrame';
 import TessellationPoint from './TessellationPoint';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
@@ -114,6 +120,12 @@ const VISUALS = {
   vectors: VectorPlane,
   space: Space3D,
   hypothesis: HypothesisTest,
+  tenframe: TenFrame,
+  jumps: JumpLine,
+  hundred: HundredChart,
+  baseten: BaseTen,
+  ruler: Ruler,
+  gridmap: GridMap,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */
