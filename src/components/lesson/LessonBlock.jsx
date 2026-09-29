@@ -21,6 +21,12 @@ import RightTriangle from './RightTriangle';
 import RomanConverter from './RomanConverter';
 import ShapeArea from './ShapeArea';
 import SimilarScale from './SimilarScale';
+import CircleTheorems from './CircleTheorems';
+import ParabolaGraph from './ParabolaGraph';
+import ParallelAngles from './ParallelAngles';
+import QuadExplorer from './QuadExplorer';
+import TreeDiagram from './TreeDiagram';
+import TriangleSides from './TriangleSides';
 import StepByStep from './StepByStep';
 import TessellationPoint from './TessellationPoint';
 
@@ -46,6 +52,12 @@ const VISUALS = {
   shape: ShapeArea,
   similar: SimilarScale,
   tessellation: TessellationPoint,
+  triangle: TriangleSides,
+  tree: TreeDiagram,
+  quad: QuadExplorer,
+  parallel: ParallelAngles,
+  parabola: ParabolaGraph,
+  circletheorems: CircleTheorems,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */
