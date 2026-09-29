@@ -62,6 +62,10 @@ import HundredChart from './HundredChart';
 import JumpLine from './JumpLine';
 import Ruler from './Ruler';
 import TenFrame from './TenFrame';
+import DivGroups from './DivGroups';
+import PieChart from './PieChart';
+import PolygonDiagonals from './PolygonDiagonals';
+import RoundingLine from './RoundingLine';
 import TessellationPoint from './TessellationPoint';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
@@ -126,6 +130,10 @@ const VISUALS = {
   baseten: BaseTen,
   ruler: Ruler,
   gridmap: GridMap,
+  rounding: RoundingLine,
+  diagonals: PolygonDiagonals,
+  pie: PieChart,
+  divgroups: DivGroups,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */
