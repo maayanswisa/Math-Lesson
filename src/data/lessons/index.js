@@ -123,6 +123,18 @@ const LOADERS = {
   'g9r-probability-tree': () => import('./g9r-probability-tree.js'),
   // כיתה י״א
   'g11-u4-normal-dist': () => import('./g11-normal-distribution.js'),
+  'g11-u4-precalc-rational': () => import('./g11u4-precalc-rational.js'),
+  'g11-u4-rational-root': () => import('./g11u4-rational-root.js'),
+  'g11-u4-extremum-3d': () => import('./g11u4-extremum-3d.js'),
+  'g11-u4-integral': () => import('./g11u4-integral.js'),
+  'g11-u4-analysis-review': () => import('./g11u4-analysis-review.js'),
+  'g11-u4-plane-circle': () => import('./g11u4-plane-circle.js'),
+  'g11-u4-circle-tangents': () => import('./g11u4-circle-tangents.js'),
+  'g11-u4-trig-sine': () => import('./g11u4-trig-sine.js'),
+  'g11-u4-analytic-circle': () => import('./g11u4-analytic-circle.js'),
+  'g11-u4-geometry-review': () => import('./g11u4-geometry-review.js'),
+  'g11-u4-correlation-regression': () => import('./g11u4-correlation-regression.js'),
+  'g11-u4-normal-regression': () => import('./g11u4-normal-regression.js'),
 };
 
 export const LESSON_TOPIC_IDS = Object.keys(LOADERS);
