@@ -35,6 +35,14 @@ import FreqBars from './FreqBars';
 import FunctionMachine from './FunctionMachine';
 import SignedLine from './SignedLine';
 import TransformGrid from './TransformGrid';
+import AreaIntegral from './AreaIntegral';
+import BoxOptimizer from './BoxOptimizer';
+import CircleLine from './CircleLine';
+import CircleTangents from './CircleTangents';
+import ReciprocalGraph from './ReciprocalGraph';
+import ScatterCorr from './ScatterCorr';
+import SineLaw from './SineLaw';
+import TangentExplorer from './TangentExplorer';
 import TessellationPoint from './TessellationPoint';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
@@ -72,6 +80,14 @@ const VISUALS = {
   machine: FunctionMachine,
   crossing: CrossingLines,
   bars: FreqBars,
+  reciprocal: ReciprocalGraph,
+  tangent: TangentExplorer,
+  boxopt: BoxOptimizer,
+  integral: AreaIntegral,
+  tangents: CircleTangents,
+  sinelaw: SineLaw,
+  circleline: CircleLine,
+  scatter: ScatterCorr,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */

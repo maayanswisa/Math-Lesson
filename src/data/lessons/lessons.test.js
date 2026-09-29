@@ -19,6 +19,14 @@ describe('lessons registry', () => {
     expect(missing).toEqual([]);
   });
 
+  it('every grade-11 4-unit topic has a lesson', () => {
+    const missing = getAllTopicsForGrade(11)
+      .filter((t) => t.units === 4)
+      .map((t) => t.id)
+      .filter((id) => !hasLesson(id));
+    expect(missing).toEqual([]);
+  });
+
   it.each(LESSON_TOPIC_IDS)('%s is well-formed: real topic, unique sections, one valid challenge each', async (topicId) => {
     const lesson = await loadLesson(topicId);
     expect(lesson.topicId).toBe(topicId);
