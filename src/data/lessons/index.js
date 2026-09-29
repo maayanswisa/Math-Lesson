@@ -151,6 +151,19 @@ const LOADERS = {
   'g11-u5-trig-review': () => import('./g11u5-trig-review.js'),
   'g11-u5-probability': () => import('./g11u5-probability.js'),
   'g11-u5-probability-tree': () => import('./g11u5-probability-tree.js'),
+  // כיתה י״ב — 4 יח״ל
+  'g12-u4-exp-log-precalc': () => import('./g12u4-exp-log-precalc.js'),
+  'g12-u4-growth-decay': () => import('./g12u4-growth-decay.js'),
+  'g12-u4-exp-log': () => import('./g12u4-exp-log.js'),
+  'g12-u4-arithmetic-seq': () => import('./g12u4-arithmetic-seq.js'),
+  'g12-u4-geometric-seq': () => import('./g12u4-geometric-seq.js'),
+  'g12-u4-sequences': () => import('./g12u4-sequences.js'),
+  'g12-u4-lines-planes-solids': () => import('./g12u4-lines-planes-solids.js'),
+  'g12-u4-vectors-geo': () => import('./g12u4-vectors-geo.js'),
+  'g12-u4-vectors-algebraic': () => import('./g12u4-vectors-algebraic.js'),
+  'g12-u4-dot-product': () => import('./g12u4-dot-product.js'),
+  'g12-u4-vectors': () => import('./g12u4-vectors.js'),
+  'g12-u4-hypothesis': () => import('./g12u4-hypothesis.js'),
 };
 
 export const LESSON_TOPIC_IDS = Object.keys(LOADERS);

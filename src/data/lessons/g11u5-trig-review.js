@@ -18,7 +18,9 @@ export default {
           type: 'card',
           tone: 'key',
           title: 'תזכורת',
-          md: m`$\cos2A=1-2\sin^2A$ · $\sin2A=2\sin A\cos A$`,
+          md: m`$\cos2A=1-2\sin^2A$
+
+$\sin2A=2\sin A\cos A$`,
         },
       ],
       challenge: {
@@ -61,7 +63,11 @@ export default {
           type: 'card',
           tone: 'key',
           title: 'תזכורת',
-          md: m`$(\sin x)'=\cos x$ · $(\cos x)'=-\sin x$ · $(\tan x)'=\frac{1}{\cos^2x}$`,
+          md: m`$(\sin x)'=\cos x$
+
+$(\cos x)'=-\sin x$
+
+$(\tan x)'=\frac{1}{\cos^2x}$`,
         },
       ],
       challenge: {

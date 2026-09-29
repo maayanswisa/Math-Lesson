@@ -77,6 +77,48 @@ const PRESETS = {
     asym: [],
     derivTex: "f'(x)=\\cos x",
   },
+  // f = eˣ — הנגזרת שווה לפונקציה עצמה
+  exp: {
+    tex: 'f(x)=e^x',
+    f: Math.exp,
+    d: Math.exp,
+    d2: Math.exp,
+    min: -3,
+    max: 1.8,
+    view: { x0: -4, x1: 3, y0: -1, y1: 7 },
+    step: 1,
+    asym: [],
+    hAsym: [0],
+    flatTol: 0.01,
+    derivTex: "f'(x)=e^x",
+  },
+  // f = ln x — הנגזרת 1/x
+  ln: {
+    tex: 'f(x)=\\ln x',
+    f: (x) => (x > 0 ? Math.log(x) : NaN),
+    d: (x) => 1 / x,
+    d2: (x) => -1 / (x * x),
+    min: 0.2,
+    max: 6,
+    view: { x0: -1, x1: 7, y0: -3, y1: 4 },
+    step: 1,
+    asym: [0],
+    derivTex: "f'(x)=\\frac1x",
+  },
+  // f = x·e^(−x) — מקסימום ב-1, פיתול ב-2
+  xexp: {
+    tex: 'f(x)=xe^{-x}',
+    f: (x) => x * Math.exp(-x),
+    d: (x) => (1 - x) * Math.exp(-x),
+    d2: (x) => (x - 2) * Math.exp(-x),
+    min: -0.5,
+    max: 5,
+    view: { x0: -1, x1: 6, y0: -1, y1: 1 },
+    step: 1,
+    asym: [],
+    hAsym: [0],
+    flatTol: 0.01,
+  },
 };
 
 /**
@@ -92,7 +134,7 @@ export default function TangentExplorer({ caption, fn = 'rational', x: xInit, co
 
   const y = P.f(x);
   const m = P.d(x);
-  const flat = Math.abs(m) < 0.06;
+  const flat = Math.abs(m) < (P.flatTol ?? 0.06);
   const tangent = (t) => y + m * (t - x);
   const k2 = concavity && P.d2 ? P.d2(x) : null;
   const up = (t) => (P.d2(t) > 0 ? P.f(t) : NaN);

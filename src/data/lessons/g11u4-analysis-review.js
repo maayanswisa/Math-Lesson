@@ -39,7 +39,9 @@ export default {
           type: 'card',
           tone: 'key',
           title: 'תזכורת: שני כללים',
-          md: m`$\left(\frac pq\right)'=\frac{p'q-pq'}{q^2}$ · $\left(\sqrt{q}\right)'=\frac{q'}{2\sqrt q}$`,
+          md: m`$\left(\frac pq\right)'=\frac{p'q-pq'}{q^2}$
+
+$\left(\sqrt{q}\right)'=\frac{q'}{2\sqrt q}$`,
         },
       ],
       challenge: {

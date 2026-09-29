@@ -56,7 +56,11 @@ export default {
           type: 'card',
           tone: 'key',
           title: 'שלוש נגזרות',
-          md: m`$(\sin x)'=\cos x$ · $(\cos x)'=-\sin x$ · $(\tan x)'=\frac{1}{\cos^2x}$
+          md: m`$(\sin x)'=\cos x$
+
+$(\cos x)'=-\sin x$
+
+$(\tan x)'=\frac{1}{\cos^2x}$
 
 ועם פנימית לינארית: $\big(\sin(ax+b)\big)'=a\cos(ax+b)$`,
         },
@@ -100,7 +104,9 @@ export default {
           type: 'card',
           tone: 'key',
           title: 'הפוך מהנגזרות',
-          md: m`$\int\cos x\,dx=\sin x+C$ · $\int\sin x\,dx=-\cos x+C$`,
+          md: m`$\int\cos x\,dx=\sin x+C$
+
+$\int\sin x\,dx=-\cos x+C$`,
         },
         {
           type: 'steps',
