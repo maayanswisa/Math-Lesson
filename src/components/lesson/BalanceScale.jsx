@@ -68,10 +68,26 @@ export default function BalanceScale({ caption, solution, left: left0, right: ri
 
   const solved = left.x === 1 && left.units === 0 && right.x === 0 && diff === 0;
   const canRemoveBoth = left.units > 0 && right.units > 0 && diff === 0;
+  const canRemoveX = left.x > 0 && right.x > 0 && diff === 0;
+  // x-ים רק משמאל ומספרים רק מימין — אפשר לחלק את שני הצדדים ל-left.x קבוצות שוות
+  const canDivide = left.x > 1 && left.units === 0 && right.x === 0 && right.units % left.x === 0 && diff === 0;
 
   function removeBoth() {
     setLeft((s) => ({ ...s, units: s.units - 1 }));
     setRight((s) => ({ ...s, units: s.units - 1 }));
+    setMsg(null);
+  }
+
+  function removeXBoth() {
+    setLeft((s) => ({ ...s, x: s.x - 1 }));
+    setRight((s) => ({ ...s, x: s.x - 1 }));
+    setMsg(null);
+  }
+
+  function divideBoth() {
+    const k = left.x;
+    setLeft({ x: 1, units: 0 });
+    setRight((s) => ({ ...s, units: s.units / k }));
     setMsg(null);
   }
 
@@ -133,15 +149,37 @@ export default function BalanceScale({ caption, solution, left: left0, right: ri
       <div className="mt-4 flex flex-wrap justify-center gap-2">
         {diff === 0 && !solved ? (
           <>
-            <motion.button
-              type="button"
-              whileTap={{ scale: 0.95 }}
-              onClick={removeBoth}
-              disabled={!canRemoveBoth}
-              className="rounded-xl bg-[var(--color-teal)] px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-[var(--color-teal-dark)] disabled:opacity-40"
-            >
-              הורידו 1 משני הצדדים
-            </motion.button>
+            {canRemoveX && (
+              <motion.button
+                type="button"
+                whileTap={{ scale: 0.95 }}
+                onClick={removeXBoth}
+                className="rounded-xl bg-[var(--color-violet)] px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-[var(--color-violet-dark)]"
+              >
+                הורידו <i dir="ltr">x</i> משני הצדדים
+              </motion.button>
+            )}
+            {canDivide && (
+              <motion.button
+                type="button"
+                whileTap={{ scale: 0.95 }}
+                onClick={divideBoth}
+                className="rounded-xl bg-[var(--color-violet)] px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-[var(--color-violet-dark)]"
+              >
+                חלקו את שני הצדדים ב-{left.x}
+              </motion.button>
+            )}
+            {!canDivide && (
+              <motion.button
+                type="button"
+                whileTap={{ scale: 0.95 }}
+                onClick={removeBoth}
+                disabled={!canRemoveBoth}
+                className="rounded-xl bg-[var(--color-teal)] px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-[var(--color-teal-dark)] disabled:opacity-40"
+              >
+                הורידו 1 משני הצדדים
+              </motion.button>
+            )}
             {!solved && left.units > 0 && (
               <motion.button
                 type="button"
