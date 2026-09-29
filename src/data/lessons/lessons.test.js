@@ -19,9 +19,9 @@ describe('lessons registry', () => {
     expect(missing).toEqual([]);
   });
 
-  it('every grade-11 4-unit topic has a lesson', () => {
+  it.each([4, 5])('every grade-11 %i-unit topic has a lesson', (units) => {
     const missing = getAllTopicsForGrade(11)
-      .filter((t) => t.units === 4)
+      .filter((t) => t.units === units)
       .map((t) => t.id)
       .filter((id) => !hasLesson(id));
     expect(missing).toEqual([]);
