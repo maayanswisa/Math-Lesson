@@ -1,0 +1,71 @@
+import { m } from './tex.js';
+
+export default {
+  id: 'g10u4-plane-geo',
+  topicId: 'g10-u4-plane-geo',
+  grade: 10,
+  units: 4,
+  emoji: '🧭',
+  title: 'תרגול מסכם — גאומטריה',
+  subtitle: 'קווים מיוחדים, דמיון, טריגונומטריה ואנליטית',
+  sections: [
+    {
+      id: 'lines',
+      emoji: '🔺',
+      title: 'קווים מיוחדים',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`במשולש ישר-זווית, התיכון ליתר שווה לחצי היתר.` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`במשולש ישר-זווית הניצבים $6$ ו-$8$. מה אורך התיכון ליתר?`,
+        answer: 5,
+        hint: m`היתר $10$.`,
+        explain: m`$\frac{10}{2}=5$`,
+      },
+    },
+    {
+      id: 'similar',
+      emoji: '🔍',
+      title: 'דמיון',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`יחס שטחים $=k^2$.` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`יחס השטחים בין שני משולשים דומים הוא $\frac{9}{25}$. היקף הקטן $18$. מה היקף הגדול?`,
+        answer: 30,
+        hint: m`$k=\frac35$`,
+        explain: m`$18\cdot\frac53=30$`,
+      },
+    },
+    {
+      id: 'trig',
+      emoji: '📐',
+      title: 'טריגונומטריה',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$\tan\alpha$ = מול חלקי ליד.` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        suffix: 'מ׳',
+        tolerance: 0.1,
+        prompt: m`עומדים $20$ מטר מבניין ורואים את ראשו בזווית $40°$. מה גובה הבניין? ($\tan40°\approx0.839$)`,
+        answer: 16.78,
+        hint: m`$20\tan40°$`,
+        explain: m`$\approx16.8$ מטר.`,
+      },
+    },
+    {
+      id: 'boss',
+      emoji: '🏆',
+      title: 'שלב הבוס: אנליטית',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`מאונכים: $m_1m_2=-1$.` }],
+      challenge: {
+        type: 'choice',
+        prompt: m`$A(0,0)$, $B(4,2)$, $C(3,-4)$. האם הזווית $A$ ישרה?`,
+        options: [m`לא — $m_{AB}m_{AC}=-\frac23$`, 'כן', 'רק אם AB=AC', 'אי אפשר לדעת'],
+        answer: 0,
+        hint: m`$m_{AB}=\frac12$, $m_{AC}=-\frac43$`,
+        explain: m`$\frac12\cdot\left(-\frac43\right)=-\frac23\neq-1$`,
+      },
+    },
+  ],
+};

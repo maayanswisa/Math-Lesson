@@ -49,7 +49,7 @@ export function Axes({ s, step = 1, yStep = step, labelEvery = 2, xLabel = 'x', 
       ))}
       <line x1={s.sx(s.x0)} y1={s.sy(oy)} x2={s.sx(s.x1)} y2={s.sy(oy)} stroke="var(--color-ink)" strokeWidth="1.5" />
       <line x1={s.sx(ox)} y1={s.sy(s.y0)} x2={s.sx(ox)} y2={s.sy(s.y1)} stroke="var(--color-ink)" strokeWidth="1.5" />
-      {xs.filter(show).map((v) => (
+      {xs.filter((v) => show(v)).map((v) => (
         <text key={`lx${v}`} x={s.sx(v)} y={s.sy(oy) + 12} fontSize="9" textAnchor="middle" fill="var(--color-slate)">
           {v}
         </text>

@@ -94,7 +94,7 @@ export default function TriangleCenters({ caption, mode: m0 = 'median', modes = 
           ))}
         </div>
       )}
-      <svg viewBox="-20 -60 340 290" className="mx-auto w-full max-w-sm" style={{ direction: 'ltr' }}>
+      <svg viewBox="-20 -25 340 255" className="mx-auto w-full max-w-sm" style={{ direction: 'ltr' }}>
         {circle && <circle cx={circle.x} cy={circle.y} r={circle.r} fill="none" stroke={M.color} strokeWidth="1.5" strokeDasharray="5 4" />}
         <polygon points={`${A.x},${A.y} ${B.x},${B.y} ${C.x},${C.y}`} fill="rgba(13,110,110,0.06)" stroke="var(--color-ink)" strokeWidth="2" />
         {segs.map(([P1, P2], i) => (

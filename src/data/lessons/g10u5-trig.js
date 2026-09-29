@@ -1,0 +1,73 @@
+import { m } from './tex.js';
+
+export default {
+  id: 'g10u5-trig',
+  topicId: 'g10-u5-trig',
+  grade: 10,
+  units: 5,
+  emoji: '🧭',
+  title: 'תרגול מסכם — טריגונומטריה',
+  subtitle: 'מעגל היחידה, זהויות, סינוסים וקוסינוסים',
+  sections: [
+    {
+      id: 'identity',
+      emoji: '🔗',
+      title: 'זהות',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$\sin^2x+\cos^2x=1$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        tolerance: 0.001,
+        prompt: m`$\cos x=-0.6$ ו-$x$ ברביע השני. מה $\sin x$?`,
+        answer: 0.8,
+        hint: m`ברביע השני $\sin>0$.`,
+        explain: m`$\sqrt{1-0.36}=0.8$`,
+      },
+    },
+    {
+      id: 'tan',
+      emoji: '📐',
+      title: 'טנגנס',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$\tan x=\frac{\sin x}{\cos x}$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        tolerance: 0.001,
+        prompt: m`באותה זווית ($\sin x=0.8$, $\cos x=-0.6$) — מה $\tan x$?`,
+        answer: -4 / 3,
+        hint: m`$\frac{0.8}{-0.6}$`,
+        explain: m`$-\frac43$`,
+      },
+    },
+    {
+      id: 'sines',
+      emoji: '🔺',
+      title: 'סינוסים',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$\frac{a}{\sin\alpha}=\frac{b}{\sin\beta}$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        tolerance: 0.01,
+        prompt: m`$a=8$, $\alpha=45°$, $\beta=30°$. מה $b$? (בערך)`,
+        answer: 5.66,
+        hint: m`$b=\frac{8\cdot0.5}{\frac{\sqrt2}{2}}=4\sqrt2$`,
+        explain: m`$4\sqrt2\approx5.66$`,
+      },
+    },
+    {
+      id: 'boss',
+      emoji: '🏆',
+      title: 'שלב הבוס: קוסינוסים',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$\cos\gamma=\frac{a^2+b^2-c^2}{2ab}$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        suffix: '°',
+        prompt: m`במשולש הצלעות $3, 5, 7$. מה הזווית הגדולה?`,
+        answer: 120,
+        hint: m`$\cos\gamma=\frac{9+25-49}{30}$`,
+        explain: m`$\cos\gamma=-\frac12$ ← $120°$`,
+      },
+    },
+  ],
+};
