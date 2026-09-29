@@ -20,6 +20,7 @@ describe('lessons registry', () => {
   });
 
   it.each([
+    [10, 3],
     [11, 4],
     [11, 5],
     [12, 4],

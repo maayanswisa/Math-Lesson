@@ -31,14 +31,14 @@ export function fnPath(f, s, { from = s.x0, to = s.x1, step } = {}) {
   return d;
 }
 
-export function Axes({ s, step = 1, labelEvery = 2, xLabel = 'x', yLabel = 'y' }) {
+export function Axes({ s, step = 1, yStep = step, labelEvery = 2, xLabel = 'x', yLabel = 'y' }) {
   const xs = [];
   for (let v = Math.ceil(s.x0 / step) * step; v <= s.x1; v += step) xs.push(Number(v.toFixed(6)));
   const ys = [];
-  for (let v = Math.ceil(s.y0 / step) * step; v <= s.y1; v += step) ys.push(Number(v.toFixed(6)));
+  for (let v = Math.ceil(s.y0 / yStep) * yStep; v <= s.y1; v += yStep) ys.push(Number(v.toFixed(6)));
   const ox = Math.min(Math.max(0, s.x0), s.x1);
   const oy = Math.min(Math.max(0, s.y0), s.y1);
-  const show = (v) => v !== 0 && Math.abs(Math.round(v / step)) % labelEvery === 0;
+  const show = (v, st = step) => v !== 0 && Math.abs(Math.round(v / st)) % labelEvery === 0;
   return (
     <g>
       {xs.map((v) => (
@@ -54,7 +54,7 @@ export function Axes({ s, step = 1, labelEvery = 2, xLabel = 'x', yLabel = 'y' }
           {v}
         </text>
       ))}
-      {ys.filter(show).map((v) => (
+      {ys.filter((v) => show(v, yStep)).map((v) => (
         <text key={`ly${v}`} x={s.sx(ox) - 4} y={s.sy(v) + 3} fontSize="9" textAnchor="end" fill="var(--color-slate)">
           {v}
         </text>

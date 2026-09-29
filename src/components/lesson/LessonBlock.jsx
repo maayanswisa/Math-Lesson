@@ -70,6 +70,12 @@ import BinaryLamps from './BinaryLamps';
 import MotionRace from './MotionRace';
 import RatioBar from './RatioBar';
 import ZoomLine from './ZoomLine';
+import TrigRatios from './TrigRatios';
+import RectOptimizer from './RectOptimizer';
+import FunctionTransform from './FunctionTransform';
+import SecantTangent from './SecantTangent';
+import TriangleCenters from './TriangleCenters';
+import ThalesLines from './ThalesLines';
 import TessellationPoint from './TessellationPoint';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
@@ -142,6 +148,12 @@ const VISUALS = {
   ratio: RatioBar,
   race: MotionRace,
   zoomline: ZoomLine,
+  trigratio: TrigRatios,
+  rectopt: RectOptimizer,
+  transformfn: FunctionTransform,
+  secant: SecantTangent,
+  centers: TriangleCenters,
+  thales: ThalesLines,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */

@@ -1,0 +1,73 @@
+import { m } from './tex.js';
+
+export default {
+  id: 'g10u3-space',
+  topicId: 'g10-u3-space',
+  grade: 10,
+  units: 3,
+  emoji: '🧭',
+  title: 'תרגול מסכם — התמצאות במישור ובמרחב',
+  subtitle: 'היקפים, מסלולים, שטחים, ריצופים ואופטימיזציה',
+  sections: [
+    {
+      id: 'perimeter',
+      emoji: '📏',
+      title: 'היקף',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`מעגל: $2\pi r$. חצי מעגל: $\pi r$.` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        suffix: 'מ׳',
+        tolerance: 0.3,
+        prompt: m`חלון: מלבן ברוחב $2$ מטר וגובה $1.5$ מטר, ומעליו חצי עיגול בקוטר $2$ מטר. מה היקף המסגרת? (בערך)`,
+        answer: 8.14,
+        hint: m`$2+1.5+1.5+\pi$`,
+        explain: m`$5+3.14\approx8.14$ מטר.`,
+      },
+    },
+    {
+      id: 'speed',
+      emoji: '🏃',
+      title: 'מסלול ומהירות',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$s=v\cdot t$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        suffix: 'קמ"ש',
+        prompt: m`רץ השלים $10$ ק"מ ב-$50$ דקות. מה מהירותו הממוצעת?`,
+        answer: 12,
+        hint: m`$\frac{10}{5/6}$`,
+        explain: m`$12$ קמ"ש.`,
+      },
+    },
+    {
+      id: 'tiling',
+      emoji: '🔷',
+      title: 'ריצוף',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`מרצף לבד אם $360°$ מתחלק בזווית.` }],
+      challenge: {
+        type: 'choice',
+        prompt: 'איזה מצולע משוכלל מרצף לבד?',
+        options: ['משושה', 'מחומש', 'מתומן', 'משובע'],
+        answer: 0,
+        hint: m`$120°\cdot3=360°$`,
+        explain: m`רק משולש, ריבוע ומשושה.`,
+      },
+    },
+    {
+      id: 'boss',
+      emoji: '🏆',
+      title: 'שלב הבוס: אופטימיזציה',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`היקף קבוע ← ריבוע נותן שטח מקסימלי.` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        suffix: 'מ"ר',
+        prompt: m`גינה מלבנית עם $60$ מטר גדר. מה השטח הגדול ביותר?`,
+        answer: 225,
+        hint: m`ריבוע בצלע $15$.`,
+        explain: m`$15^2=225$ מ"ר.`,
+      },
+    },
+  ],
+};
