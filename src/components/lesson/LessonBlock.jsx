@@ -43,6 +43,14 @@ import ReciprocalGraph from './ReciprocalGraph';
 import ScatterCorr from './ScatterCorr';
 import SineLaw from './SineLaw';
 import TangentExplorer from './TangentExplorer';
+import BinomialBars from './BinomialBars';
+import DominoInduction from './DominoInduction';
+import Revolution from './Revolution';
+import RiemannSum from './RiemannSum';
+import SequencePlot from './SequencePlot';
+import SineWave from './SineWave';
+import UnitCircle from './UnitCircle';
+import VennProb from './VennProb';
 import TessellationPoint from './TessellationPoint';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
@@ -88,6 +96,14 @@ const VISUALS = {
   sinelaw: SineLaw,
   circleline: CircleLine,
   scatter: ScatterCorr,
+  sequence: SequencePlot,
+  domino: DominoInduction,
+  riemann: RiemannSum,
+  revolution: Revolution,
+  unitcircle: UnitCircle,
+  sinewave: SineWave,
+  venn: VennProb,
+  binomial: BinomialBars,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */

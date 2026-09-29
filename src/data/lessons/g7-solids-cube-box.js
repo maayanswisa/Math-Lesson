@@ -52,6 +52,7 @@ export default {
           tone: 'key',
           title: 'נפח תיבה',
           md: m`$$V=a\times b\times c$$
+
 אורך × רוחב × גובה, ביחידות מעוקבות (סמ"ק). בקובייה: $V=a^3$.`,
         },
       ],

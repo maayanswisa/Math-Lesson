@@ -23,6 +23,7 @@ export default {
           tone: 'key',
           title: 'משוואת מעגל',
           md: m`$$(x-a)^2+(y-b)^2=R^2$$
+
 מרכז בראשית: $x^2+y^2=R^2$`,
         },
         {

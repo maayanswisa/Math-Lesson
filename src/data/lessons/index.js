@@ -135,6 +135,22 @@ const LOADERS = {
   'g11-u4-geometry-review': () => import('./g11u4-geometry-review.js'),
   'g11-u4-correlation-regression': () => import('./g11u4-correlation-regression.js'),
   'g11-u4-normal-regression': () => import('./g11u4-normal-regression.js'),
+  // כיתה י״א — 5 יח״ל
+  'g11-u5-arithmetic-seq': () => import('./g11u5-arithmetic-seq.js'),
+  'g11-u5-geometric-seq': () => import('./g11u5-geometric-seq.js'),
+  'g11-u5-induction': () => import('./g11u5-induction.js'),
+  'g11-u5-sequences-induction': () => import('./g11u5-sequences-induction.js'),
+  'g11-u5-second-derivative': () => import('./g11u5-second-derivative.js'),
+  'g11-u5-root-functions-adv': () => import('./g11u5-root-functions-adv.js'),
+  'g11-u5-integral': () => import('./g11u5-integral.js'),
+  'g11-u5-integral-volumes': () => import('./g11u5-integral-volumes.js'),
+  'g11-u5-differential': () => import('./g11u5-differential.js'),
+  'g11-u5-trig-identities': () => import('./g11u5-trig-identities.js'),
+  'g11-u5-trig-advanced': () => import('./g11u5-trig-advanced.js'),
+  'g11-u5-trig-calc': () => import('./g11u5-trig-calc.js'),
+  'g11-u5-trig-review': () => import('./g11u5-trig-review.js'),
+  'g11-u5-probability': () => import('./g11u5-probability.js'),
+  'g11-u5-probability-tree': () => import('./g11u5-probability-tree.js'),
 };
 
 export const LESSON_TOPIC_IDS = Object.keys(LOADERS);

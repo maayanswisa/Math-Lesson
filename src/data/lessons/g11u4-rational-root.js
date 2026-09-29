@@ -19,6 +19,7 @@ export default {
           tone: 'key',
           title: 'נגזרת של מנה',
           md: m`$$\left(\frac{p}{q}\right)'=\frac{p'q-pq'}{q^2}$$
+
 "נגזרת העליון כפול התחתון, **פחות** העליון כפול נגזרת התחתון — חלקי התחתון בריבוע".`,
         },
         {
@@ -81,6 +82,7 @@ export default {
           tone: 'key',
           title: 'כלל השרשרת לשורש',
           md: m`$$\left(\sqrt{q(x)}\right)'=\frac{q'(x)}{2\sqrt{q(x)}}$$
+
 ובשורש-מכפלה משתמשים גם בכלל המכפלה: $(p\sqrt q)'=p'\sqrt q+p\cdot\frac{q'}{2\sqrt q}$`,
         },
         {
