@@ -66,6 +66,10 @@ import DivGroups from './DivGroups';
 import PieChart from './PieChart';
 import PolygonDiagonals from './PolygonDiagonals';
 import RoundingLine from './RoundingLine';
+import BinaryLamps from './BinaryLamps';
+import MotionRace from './MotionRace';
+import RatioBar from './RatioBar';
+import ZoomLine from './ZoomLine';
 import TessellationPoint from './TessellationPoint';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
@@ -134,6 +138,10 @@ const VISUALS = {
   diagonals: PolygonDiagonals,
   pie: PieChart,
   divgroups: DivGroups,
+  binary: BinaryLamps,
+  ratio: RatioBar,
+  race: MotionRace,
+  zoomline: ZoomLine,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */
