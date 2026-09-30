@@ -79,6 +79,8 @@ import ThalesLines from './ThalesLines';
 import DataSpread from './DataSpread';
 import LinearProgram from './LinearProgram';
 import CubeViews from './CubeViews';
+import ConicSections from './ConicSections';
+import ComplexPlane from './ComplexPlane';
 import TessellationPoint from './TessellationPoint';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
@@ -160,6 +162,8 @@ const VISUALS = {
   spread: DataSpread,
   lp: LinearProgram,
   cubeviews: CubeViews,
+  conics: ConicSections,
+  complex: ComplexPlane,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */

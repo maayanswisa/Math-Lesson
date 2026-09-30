@@ -316,6 +316,24 @@ const LOADERS = {
   'g12-u4-dot-product': () => import('./g12u4-dot-product.js'),
   'g12-u4-vectors': () => import('./g12u4-vectors.js'),
   'g12-u4-hypothesis': () => import('./g12u4-hypothesis.js'),
+  // כיתה י״ב — 5 יח״ל
+  'g12-u5-vectors-intro': () => import('./g12u5-vectors-intro.js'),
+  'g12-u5-vectors-linear-dependence': () => import('./g12u5-vectors-linear-dependence.js'),
+  'g12-u5-vectors-dot-product': () => import('./g12u5-vectors-dot-product.js'),
+  'g12-u5-vectors-algebraic': () => import('./g12u5-vectors-algebraic.js'),
+  'g12-u5-vectors': () => import('./g12u5-vectors.js'),
+  'g12-u5-analytic-points-lines': () => import('./g12u5-analytic-points-lines.js'),
+  'g12-u5-analytic-circle': () => import('./g12u5-analytic-circle.js'),
+  'g12-u5-analytic-parabola': () => import('./g12u5-analytic-parabola.js'),
+  'g12-u5-analytic-ellipse': () => import('./g12u5-analytic-ellipse.js'),
+  'g12-u5-analytic-hyperbola': () => import('./g12u5-analytic-hyperbola.js'),
+  'g12-u5-explog-precalc': () => import('./g12u5-explog-precalc.js'),
+  'g12-u5-explog-growth-decay': () => import('./g12u5-explog-growth-decay.js'),
+  'g12-u5-exp-log': () => import('./g12u5-exp-log.js'),
+  'g12-u5-explog-integral': () => import('./g12u5-explog-integral.js'),
+  'g12-u5-complex-basics': () => import('./g12u5-complex-basics.js'),
+  'g12-u5-complex-polar': () => import('./g12u5-complex-polar.js'),
+  'g12-u5-complex': () => import('./g12u5-complex.js'),
 };
 
 export const LESSON_TOPIC_IDS = Object.keys(LOADERS);

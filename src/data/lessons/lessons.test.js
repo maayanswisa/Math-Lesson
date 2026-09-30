@@ -28,6 +28,7 @@ describe('lessons registry', () => {
     [11, 5],
     [12, 3],
     [12, 4],
+    [12, 5],
   ])('every grade-%i %i-unit topic has a lesson', (grade, units) => {
     const missing = getAllTopicsForGrade(grade)
       .filter((t) => t.units === units)
