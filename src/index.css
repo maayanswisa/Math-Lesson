@@ -137,3 +137,16 @@ body {
     opacity: 1;
   }
 }
+
+/* הדפסה — רקע לבן, בלי צל ובלי אנימציות */
+@media print {
+  @page {
+    margin: 12mm;
+  }
+  body {
+    background: white;
+  }
+  .formula-sheet .katex {
+    font-size: 1.05em;
+  }
+}

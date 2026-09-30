@@ -4,6 +4,7 @@ import { GRADE_LABELS, GRADE9_TRACKS, getTopics, isElementary, hasDirectTopics }
 import { getAllQuestionsForTopic, TOPIC_QUIZ_SIZE } from '../data/questions';
 import { hasLesson } from '../data/lessons';
 import { accentFor } from '../lib/palette';
+import { formulasHref } from '../lib/formulaLinks';
 
 export default function TopicsPage() {
   const { grade, units, track } = useParams();
@@ -71,9 +72,15 @@ export default function TopicsPage() {
         <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl text-[var(--color-ink)]">
           כיתה {label} · {subtitle}
         </h1>
-        <p className="mt-2 text-[var(--color-slate)]">
-          בחרו נושא והתחילו מבחן תרגול
-        </p>
+        <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
+          <p className="text-[var(--color-slate)]">בחרו נושא והתחילו מבחן תרגול</p>
+          <Link
+            to={formulasHref(gradeNum, unitsNum, track)}
+            className="rounded-full bg-white px-4 py-1.5 text-sm font-bold text-[var(--color-ink)] shadow-sm ring-1 ring-black/10 transition hover:-translate-y-0.5"
+          >
+            📄 דף נוסחאות
+          </Link>
+        </div>
       </div>
 
       {topics.length === 0 ? (
