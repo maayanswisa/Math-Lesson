@@ -14,6 +14,7 @@ const LessonPage = lazy(() => import('./pages/LessonPage'));
 const CustomTestPage = lazy(() => import('./pages/CustomTestPage'));
 const ParentDashboardPage = lazy(() => import('./pages/ParentDashboardPage'));
 const SearchPage = lazy(() => import('./pages/SearchPage'));
+const FormulasPage = lazy(() => import('./pages/FormulasPage'));
 
 function PageLoading() {
   return (
@@ -29,7 +30,7 @@ export default function App() {
       <BrowserRouter>
         <div className="flex min-h-screen flex-col">
           <header
-            className="bg-white/60 backdrop-blur-sm"
+            className="bg-white/60 backdrop-blur-sm print:hidden"
             style={{
               borderBottom: '3px solid transparent',
               borderImage:
@@ -69,13 +70,16 @@ export default function App() {
             </div>
           </header>
 
-          <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col px-4 py-10">
+          <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col px-4 py-10 print:max-w-none print:p-0">
             <Suspense fallback={<PageLoading />}>
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/custom-test" element={<CustomTestPage />} />
                 <Route path="/parent" element={<ParentDashboardPage />} />
                 <Route path="/search" element={<SearchPage />} />
+                <Route path="/formulas/:grade" element={<FormulasPage />} />
+                <Route path="/formulas/:grade/units/:units" element={<FormulasPage />} />
+                <Route path="/formulas/:grade/track/:track" element={<FormulasPage />} />
                 <Route path="/grade/:grade" element={<UnitsPage />} />
                 <Route path="/grade/:grade/topics" element={<TopicsPage />} />
                 <Route path="/grade/:grade/track/:track" element={<TopicsPage />} />
