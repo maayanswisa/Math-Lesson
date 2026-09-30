@@ -3,18 +3,32 @@ import MathRenderer from '../ui/MathRenderer';
 import LessonSlider, { fmt } from './LessonSlider';
 import { Axes, fnPath, makeScale, usePlotClip } from './PlotAxes';
 
-// f(x) = 0.5x² + 1 על [0, b]; הקדומה F(x) = x³/6 + x
-const f = (x) => 0.5 * x * x + 1;
-const F = (x) => x ** 3 / 6 + x;
-const s = makeScale({ W: 300, H: 240, x0: -0.5, x1: 4.5, y0: -0.5, y1: 11 });
+// poly: f(x) = 0.5x² + 1, הקדומה x³/6 + x;  exp: f(x) = eˣ, הקדומה eˣ
+const FNS = {
+  poly: {
+    f: (x) => 0.5 * x * x + 1,
+    F: (x) => x ** 3 / 6 + x,
+    tex: 'f(x)=\\frac12x^2+1',
+    s: makeScale({ W: 300, H: 240, x0: -0.5, x1: 4.5, y0: -0.5, y1: 11 }),
+    bMax: 4,
+  },
+  exp: {
+    f: (x) => Math.exp(x),
+    F: (x) => Math.exp(x),
+    tex: 'f(x)=e^x',
+    s: makeScale({ W: 300, H: 240, x0: -0.3, x1: 2.7, y0: -0.5, y1: 11 }),
+    bMax: 2.5,
+  },
+};
 
 /**
  * קירוב ההצטברות במלבנים: מחלקים את [0, b] ל-n קטעים, ובכל קטע מלבן בגובה f בקצה השמאלי.
  * ככל ש-n גדל — הסכום מתקרב לאינטגרל F(b) − F(0).
  */
-export default function RiemannSum({ caption }) {
+export default function RiemannSum({ caption, fn = 'poly' }) {
+  const { f, F, tex, s, bMax } = FNS[fn];
   const [n, setN] = useState(4);
-  const [b, setB] = useState(3);
+  const [b, setB] = useState(Math.min(3, bMax));
   const { defs, clip } = usePlotClip(s);
 
   const h = b / n;
@@ -26,7 +40,7 @@ export default function RiemannSum({ caption }) {
     <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-black/5 sm:p-5">
       {caption && <MathRenderer className="mb-2 text-[var(--color-ink)]">{caption}</MathRenderer>}
       <div className="mb-1 text-center">
-        <MathRenderer inline>{'$f(x)=\\frac12x^2+1$'}</MathRenderer>
+        <MathRenderer inline>{`$${tex}$`}</MathRenderer>
       </div>
       <svg viewBox={`0 0 ${s.W} ${s.H}`} className="mx-auto w-full max-w-sm" style={{ direction: 'ltr' }}>
         {defs}
@@ -55,7 +69,7 @@ export default function RiemannSum({ caption }) {
           label={<span dir="ltr">x = b</span>}
           value={b}
           min={0.5}
-          max={4}
+          max={bMax}
           step={0.5}
           onChange={setB}
           color="var(--color-coral)"
