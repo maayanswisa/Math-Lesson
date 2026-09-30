@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { motion, MotionConfig } from 'framer-motion';
 import { accentFor } from '../lib/palette';
 import { allTopics, getTopicById } from '../data/curriculum';
@@ -69,6 +70,8 @@ function gradesWithLessons() {
 }
 
 export default function HomePage() {
+  const navigate = useNavigate();
+  const [query, setQuery] = useState('');
   const topicCount = allTopics().length;
   const lessonGrades = gradesWithLessons();
 
@@ -155,6 +158,30 @@ export default function HomePage() {
                 ✨ מבחן מותאם אישית
               </Link>
             </motion.div>
+
+            <form
+              role="search"
+              onSubmit={(e) => {
+                e.preventDefault();
+                navigate(query.trim() ? `/search?q=${encodeURIComponent(query.trim())}` : '/search');
+              }}
+              className="relative mx-auto mt-8 flex max-w-xl gap-2"
+            >
+              <input
+                type="search"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="חפשו נושא, למשל: שברים"
+                aria-label="חיפוש נושא"
+                className="min-w-0 flex-1 rounded-2xl bg-white px-4 py-3 text-base shadow-sm ring-2 ring-[var(--color-teal)]/20 outline-none focus:ring-[var(--color-teal)]/60"
+              />
+              <button
+                type="submit"
+                className="shrink-0 rounded-2xl bg-[var(--color-ink)] px-5 py-3 text-base font-bold text-white transition hover:-translate-y-0.5"
+              >
+                🔍 חיפוש
+              </button>
+            </form>
 
             <div className="relative mx-auto mt-10 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4">
               {stats.map((s, i) => (

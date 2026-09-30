@@ -13,6 +13,7 @@ const QuizPage = lazy(() => import('./pages/QuizPage'));
 const LessonPage = lazy(() => import('./pages/LessonPage'));
 const CustomTestPage = lazy(() => import('./pages/CustomTestPage'));
 const ParentDashboardPage = lazy(() => import('./pages/ParentDashboardPage'));
+const SearchPage = lazy(() => import('./pages/SearchPage'));
 
 function PageLoading() {
   return (
@@ -51,6 +52,10 @@ export default function App() {
                 </span>
               </Link>
               <nav className="contents">
+                <Link to="/search" className="shrink-0 whitespace-nowrap hover:text-[var(--color-teal)]" aria-label="חיפוש נושא">
+                  <span aria-hidden="true">🔍</span>
+                  <span className="hidden sm:inline"> חיפוש</span>
+                </Link>
                 <Link to="/custom-test" className="shrink-0 whitespace-nowrap hover:text-[var(--color-teal)]">
                   <span className="sm:hidden">מבחן</span>
                   <span className="hidden sm:inline">מבחן מותאם</span>
@@ -70,6 +75,7 @@ export default function App() {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/custom-test" element={<CustomTestPage />} />
                 <Route path="/parent" element={<ParentDashboardPage />} />
+                <Route path="/search" element={<SearchPage />} />
                 <Route path="/grade/:grade" element={<UnitsPage />} />
                 <Route path="/grade/:grade/topics" element={<TopicsPage />} />
                 <Route path="/grade/:grade/track/:track" element={<TopicsPage />} />
