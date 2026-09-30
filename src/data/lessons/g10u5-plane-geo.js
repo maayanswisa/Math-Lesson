@@ -1,0 +1,71 @@
+import { m } from './tex.js';
+
+export default {
+  id: 'g10u5-plane-geo',
+  topicId: 'g10-u5-plane-geo',
+  grade: 10,
+  units: 5,
+  emoji: '🧭',
+  title: 'תרגול מסכם — גאומטריה אוקלידית',
+  subtitle: 'מקומות גאומטריים, חפיפה, מעגל, תאלס ודמיון',
+  sections: [
+    {
+      id: 'loci',
+      emoji: '📍',
+      title: 'מקום גאומטרי',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: 'במשולש ישר-זווית, מרכז המעגל החוסם — באמצע היתר.' }],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`מה רדיוס המעגל החוסם משולש ישר-זווית עם ניצבים $5$ ו-$12$?`,
+        answer: 6.5,
+        tolerance: 0.001,
+        hint: m`היתר $13$.`,
+        explain: m`$\frac{13}{2}=6.5$`,
+      },
+    },
+    {
+      id: 'circle',
+      emoji: '⭕',
+      title: 'מעגל',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`זווית היקפית על קוטר $=90°$.` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        suffix: '°',
+        prompt: m`$AB$ קוטר, $C$ על המעגל, $\angle CAB=35°$. מה $\angle CBA$?`,
+        answer: 55,
+        hint: m`$\angle C=90°$`,
+        explain: m`$180-90-35=55°$`,
+      },
+    },
+    {
+      id: 'thales',
+      emoji: '📏',
+      title: 'תאלס',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$\frac{AD}{AB}=\frac{DE}{BC}$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`$DE\parallel BC$, $AD=2$, $AB=8$, $DE=3$. מה $BC$?`,
+        answer: 12,
+        hint: m`$k=4$`,
+        explain: m`$3\cdot4=12$`,
+      },
+    },
+    {
+      id: 'boss',
+      emoji: '🏆',
+      title: 'שלב הבוס: משיק וחותך',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: 'המשיק בריבוע = החותך השלם כפול החלק החיצוני.' }],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`מנקודה חיצונית: חלק חיצוני $4$, חותך שלם $16$. מה אורך המשיק?`,
+        answer: 8,
+        hint: m`$\sqrt{4\cdot16}$`,
+        explain: m`$8$`,
+      },
+    },
+  ],
+};

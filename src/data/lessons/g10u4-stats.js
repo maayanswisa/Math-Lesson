@@ -1,0 +1,71 @@
+import { m } from './tex.js';
+
+export default {
+  id: 'g10u4-stats',
+  topicId: 'g10-u4-stats',
+  grade: 10,
+  units: 4,
+  emoji: '🧭',
+  title: 'תרגול מסכם — סטטיסטיקה והסתברות',
+  subtitle: 'מדדים, פיזור והסתברויות',
+  sections: [
+    {
+      id: 'weighted',
+      emoji: '⚖️',
+      title: 'ממוצע משוקלל',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$\bar x=\frac{n_1\bar x_1+n_2\bar x_2}{n_1+n_2}$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`$20$ בנים עם ממוצע $75$ ו-$30$ בנות עם ממוצע $85$. מה הממוצע הכללי?`,
+        answer: 81,
+        hint: m`$\frac{1500+2550}{50}$`,
+        explain: m`$81$`,
+      },
+    },
+    {
+      id: 'spread',
+      emoji: '↔️',
+      title: 'פיזור',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`כפל ב-$c$ ← $\sigma\times|c|$.` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`סטיית התקן של משכורות היא $500$ ₪. כל המשכורות הוכפלו ב-$1.1$. מה סטיית התקן החדשה?`,
+        answer: 550,
+        hint: m`$500\cdot1.1$`,
+        explain: m`$550$ ₪.`,
+      },
+    },
+    {
+      id: 'union',
+      emoji: '⭕',
+      title: 'איחוד',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$P(A\cup B)=P(A)+P(B)-P(A\cap B)$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        tolerance: 0.001,
+        prompt: m`$70\%$ אוהבים פיצה, $50\%$ אוהבים פסטה, $30\%$ את שניהם. מה ההסתברות שאדם אקראי לא אוהב אף אחד?`,
+        answer: 0.1,
+        hint: m`$1-(0.7+0.5-0.3)$`,
+        explain: m`$1-0.9=0.1$`,
+      },
+    },
+    {
+      id: 'boss',
+      emoji: '🏆',
+      title: 'שלב הבוס: מותנית',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$P(A/B)=\frac{P(A\cap B)}{P(B)}$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        tolerance: 0.001,
+        prompt: m`בכיתה $60\%$ בנות. $30\%$ מכל התלמידים הן בנות שמשחקות כדורסל. בוחרים בת — מה ההסתברות שהיא משחקת כדורסל?`,
+        answer: 0.5,
+        hint: m`$\frac{0.3}{0.6}$`,
+        explain: m`$0.5$`,
+      },
+    },
+  ],
+};

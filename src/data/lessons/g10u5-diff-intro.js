@@ -1,0 +1,71 @@
+import { m } from './tex.js';
+
+export default {
+  id: 'g10u5-diff-intro',
+  topicId: 'g10-u5-diff-intro',
+  grade: 10,
+  units: 5,
+  emoji: '🧭',
+  title: 'תרגול מסכם — חשבון דיפרנציאלי',
+  subtitle: 'הגדרה, כללים, חקירה וקיצון',
+  sections: [
+    {
+      id: 'def',
+      emoji: '🔬',
+      title: 'הגדרה',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}$` }],
+      challenge: {
+        type: 'choice',
+        prompt: m`מה $\lim_{h\to0}\frac{3(x+h)-3x}{h}$?`,
+        options: [m`$3$`, m`$0$`, m`$3x$`, 'לא קיים'],
+        answer: 0,
+        hint: m`$\frac{3h}{h}$`,
+        explain: m`$3$ — הנגזרת של $3x$.`,
+      },
+    },
+    {
+      id: 'rules',
+      emoji: '📜',
+      title: 'כללים',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$\left(\frac fg\right)'=\frac{f'g-fg'}{g^2}$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`$f(x)=\frac{x^2}{x-1}$. כמה זה $f'(3)$?`,
+        answer: 0.75,
+        tolerance: 0.001,
+        hint: m`$\frac{2x(x-1)-x^2}{(x-1)^2}$`,
+        explain: m`$\frac{12-9}{4}=0.75$`,
+      },
+    },
+    {
+      id: 'investigate',
+      emoji: '🕵️',
+      title: 'חקירה',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$f'$ מ-$-$ ל-$+$ ← מינימום.` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`מה ה-$x$ של המינימום של $f(x)=x+\frac4x$ עבור $x>0$?`,
+        answer: 2,
+        hint: m`$1-\frac{4}{x^2}=0$`,
+        explain: m`$x=2$`,
+      },
+    },
+    {
+      id: 'boss',
+      emoji: '🏆',
+      title: 'שלב הבוס: קיצון',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: 'משתנה ← פונקציה ← תחום ← נגזרת.' }],
+      challenge: {
+        type: 'number',
+        label: '',
+        suffix: 'ס"מ',
+        prompt: m`מכל המלבנים עם שטח $64$ סמ"ר — מה ההיקף הקטן ביותר?`,
+        answer: 32,
+        hint: m`$P=2\left(x+\frac{64}{x}\right)$`,
+        explain: m`$x=8$ ← ריבוע, היקף $32$.`,
+      },
+    },
+  ],
+};
