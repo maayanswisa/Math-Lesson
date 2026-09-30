@@ -224,7 +224,6 @@ export default function HomePage() {
                 </motion.div>
               ))}
             </div>
-            <p className="text-center text-xs text-[var(--color-slate)]">📖 = יש בכיתה הסברים מלאים ואינטראקטיביים</p>
           </section>
 
           {/* איך זה עובד */}
