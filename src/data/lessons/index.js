@@ -254,6 +254,18 @@ const LOADERS = {
   'g10-u5-trig-functions': () => import('./g10u5-trig-functions.js'),
   'g10-u5-trig-plane': () => import('./g10u5-trig-plane.js'),
   'g10-u5-trig': () => import('./g10u5-trig.js'),
+  // כיתה י״א — 3 יח״ל
+  'g11-u3-science-growth': () => import('./g11u3-science-growth.js'),
+  'g11-u3-science-stddev': () => import('./g11u3-science-stddev.js'),
+  'g11-u3-science-prob': () => import('./g11u3-science-prob.js'),
+  'g11-u3-science-exp': () => import('./g11u3-science-exp.js'),
+  'g11-u3-finance-growth': () => import('./g11u3-finance-growth.js'),
+  'g11-u3-finance-stats': () => import('./g11u3-finance-stats.js'),
+  'g11-u3-finance': () => import('./g11u3-finance.js'),
+  'g11-u3-space-ratio': () => import('./g11u3-space-ratio.js'),
+  'g11-u3-space-similarity': () => import('./g11u3-space-similarity.js'),
+  'g11-u3-space-trig': () => import('./g11u3-space-trig.js'),
+  'g11-u3-space': () => import('./g11u3-space.js'),
   // כיתה י״א
   'g11-u4-normal-dist': () => import('./g11-normal-distribution.js'),
   'g11-u4-precalc-rational': () => import('./g11u4-precalc-rational.js'),
