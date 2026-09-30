@@ -77,6 +77,8 @@ import SecantTangent from './SecantTangent';
 import TriangleCenters from './TriangleCenters';
 import ThalesLines from './ThalesLines';
 import DataSpread from './DataSpread';
+import LinearProgram from './LinearProgram';
+import CubeViews from './CubeViews';
 import TessellationPoint from './TessellationPoint';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
@@ -156,6 +158,8 @@ const VISUALS = {
   centers: TriangleCenters,
   thales: ThalesLines,
   spread: DataSpread,
+  lp: LinearProgram,
+  cubeviews: CubeViews,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */

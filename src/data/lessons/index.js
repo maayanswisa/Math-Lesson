@@ -296,6 +296,13 @@ const LOADERS = {
   'g11-u5-trig-review': () => import('./g11u5-trig-review.js'),
   'g11-u5-probability': () => import('./g11u5-probability.js'),
   'g11-u5-probability-tree': () => import('./g11u5-probability-tree.js'),
+  // כיתה י״ב — 3 יח״ל
+  'g12-u3-normal': () => import('./g12u3-normal.js'),
+  'g12-u3-quadratic-model': () => import('./g12u3-quadratic-model.js'),
+  'g12-u3-linear-programming': () => import('./g12u3-linear-programming.js'),
+  'g12-u3-analytic-geo': () => import('./g12u3-analytic-geo.js'),
+  'g12-u3-solids': () => import('./g12u3-solids.js'),
+  'g12-u3-spatial-vision': () => import('./g12u3-spatial-vision.js'),
   // כיתה י״ב — 4 יח״ל
   'g12-u4-exp-log-precalc': () => import('./g12u4-exp-log-precalc.js'),
   'g12-u4-growth-decay': () => import('./g12u4-growth-decay.js'),

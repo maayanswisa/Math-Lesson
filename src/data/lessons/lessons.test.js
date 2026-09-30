@@ -26,6 +26,7 @@ describe('lessons registry', () => {
     [11, 3],
     [11, 4],
     [11, 5],
+    [12, 3],
     [12, 4],
   ])('every grade-%i %i-unit topic has a lesson', (grade, units) => {
     const missing = getAllTopicsForGrade(grade)
