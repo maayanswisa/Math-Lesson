@@ -1,0 +1,72 @@
+import { m } from './tex.js';
+
+export default {
+  id: 'g11u3-science-exp',
+  topicId: 'g11-u3-science-exp',
+  grade: 11,
+  units: 3,
+  emoji: '🧭',
+  title: 'תרגול מסכם — מדע וחברה',
+  subtitle: 'גדילה מעריכית, סטיית תקן והסתברות',
+  sections: [
+    {
+      id: 'growth',
+      emoji: '🦠',
+      title: 'גדילה',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$A_t=A_0\cdot q^t$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`אוכלוסייה של $8{,}000$ גדלה ב-$5\%$ בשנה. כמה יהיו אחרי $2$ שנים?`,
+        answer: 8820,
+        hint: m`$8000\cdot1.05^2$`,
+        explain: m`$8000\cdot1.1025=8820$`,
+      },
+    },
+    {
+      id: 'decay',
+      emoji: '📉',
+      title: 'דעיכה',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`דעיכה ב-$p\%$: $q=1-\frac{p}{100}$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        suffix: '%',
+        prompt: m`חומר רדיואקטיבי: מ-$80$ גרם נשארו $20$ גרם אחרי $2$ שנים. בכמה אחוזים הוא דועך בשנה?`,
+        answer: 50,
+        hint: m`$q^2=\frac{20}{80}=\frac14$`,
+        explain: m`$q=0.5$ ← דעיכה של $50\%$.`,
+      },
+    },
+    {
+      id: 'sd',
+      emoji: '↔️',
+      title: 'סטיית תקן',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$\sigma=\sqrt{\frac{\sum(x-\bar x)^2}{n}}$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`מה סטיית התקן של $1, 3, 5, 7$? (בערך)`,
+        answer: 2.236,
+        tolerance: 0.01,
+        hint: m`$\bar x=4$; $9+1+1+9=20$`,
+        explain: m`$\sqrt5\approx2.24$`,
+      },
+    },
+    {
+      id: 'boss',
+      emoji: '🏆',
+      title: 'שלב הבוס: לפחות אחד',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`לפחות אחד $=1-$ אף אחד.` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        tolerance: 0.001,
+        prompt: m`שלושה חיסונים בלתי תלויים, כל אחד מצליח בסיכוי $0.9$. מה הסיכוי שלפחות אחד מצליח?`,
+        answer: 0.999,
+        hint: m`$1-0.1^3$`,
+        explain: m`$0.999$`,
+      },
+    },
+  ],
+};

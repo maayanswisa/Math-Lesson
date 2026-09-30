@@ -76,6 +76,7 @@ import FunctionTransform from './FunctionTransform';
 import SecantTangent from './SecantTangent';
 import TriangleCenters from './TriangleCenters';
 import ThalesLines from './ThalesLines';
+import DataSpread from './DataSpread';
 import TessellationPoint from './TessellationPoint';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
@@ -154,6 +155,7 @@ const VISUALS = {
   secant: SecantTangent,
   centers: TriangleCenters,
   thales: ThalesLines,
+  spread: DataSpread,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */

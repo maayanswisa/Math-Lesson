@@ -1,0 +1,72 @@
+import { m } from './tex.js';
+
+export default {
+  id: 'g11u3-finance',
+  topicId: 'g11-u3-finance',
+  grade: 11,
+  units: 3,
+  emoji: '🧭',
+  title: 'תרגול מסכם — פיננסי-כלכלי',
+  subtitle: 'ריבית, פחת, רבעונים וסטיית תקן',
+  sections: [
+    {
+      id: 'interest',
+      emoji: '💰',
+      title: 'ריבית',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`$A_t=A_0\cdot q^t$, ריבית $p\%$: $q=1+\frac{p}{100}$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        suffix: '₪',
+        prompt: m`הלוואה של $10{,}000$ ₪ בריבית $6\%$ לשנה. כמה החוב אחרי $2$ שנים?`,
+        answer: 11236,
+        hint: m`$10000\cdot1.06^2$`,
+        explain: m`$11{,}236$ ₪.`,
+      },
+    },
+    {
+      id: 'depreciation',
+      emoji: '📉',
+      title: 'פחת',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`פחת $p\%$: $q=1-\frac{p}{100}$` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        suffix: '₪',
+        prompt: m`מחשב נקנה ב-$6{,}000$ ₪ ומאבד $30\%$ בשנה. מה ערכו אחרי $2$ שנים?`,
+        answer: 2940,
+        hint: m`$6000\cdot0.7^2$`,
+        explain: m`$6000\cdot0.49=2940$ ₪.`,
+      },
+    },
+    {
+      id: 'quartile',
+      emoji: '🧱',
+      title: 'רבעון',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`מיקום $Q_k=\frac{kn}{4}$; לא שלם ← מעגלים למעלה.` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`נתונים ממוינים: $2, 4, 5, 7, 8, 9, 11, 13, 14, 16$. מה $Q_1$?`,
+        answer: 5,
+        hint: m`מיקום $\frac{10}{4}=2.5$ ← המקום ה-$3$.`,
+        explain: m`$5$`,
+      },
+    },
+    {
+      id: 'boss',
+      emoji: '🏆',
+      title: 'שלב הבוס: אחוזים וסטיית תקן',
+      blocks: [{ type: 'card', tone: 'tip', title: 'תזכורת', md: m`כפל ב-$c$ ← $\sigma\times c$.` }],
+      challenge: {
+        type: 'number',
+        label: '',
+        suffix: '₪',
+        prompt: m`סטיית התקן של מחירים היא $40$ ₪. כל המחירים עלו ב-$25\%$. מה סטיית התקן החדשה?`,
+        answer: 50,
+        hint: m`$40\cdot1.25$`,
+        explain: m`$50$ ₪.`,
+      },
+    },
+  ],
+};
