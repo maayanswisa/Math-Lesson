@@ -8,6 +8,8 @@ import HintPanel from './HintPanel';
 import Scratchpad from './Scratchpad';
 import SciCalculator from './SciCalculator';
 import StudyMorePopup from './StudyMorePopup';
+import SolutionSteps, { StepList } from './SolutionSteps';
+import { solutionSteps } from '../../lib/solutionSteps';
 import { useGame } from '../../context/GameContext';
 import { fireBigConfetti, fireConfetti } from '../../lib/feedback';
 import { playCorrect, playWrong } from '../../lib/sounds';
@@ -385,7 +387,7 @@ export default function QuizCard({
       }
     }
 
-    setFeedback({ isCorrect, explanation: current.explanation, xpGained });
+    setFeedback({ isCorrect, explanation: current.explanation, xpGained, question: current, selectedIndex: typeof selected === 'number' ? selected : null });
     setPhase('feedback');
   }
 
@@ -540,7 +542,7 @@ export default function QuizCard({
                 ) : null}
                 <div className="mt-5 border-t border-black/5 pt-4">
                   <p className="mb-2 text-sm font-semibold text-[var(--color-teal)]">פתרון מפורט</p>
-                  <MathRenderer className="text-[var(--color-slate)]">{q.explanation}</MathRenderer>
+                  <StepList steps={solutionSteps(q)} />
                 </div>
               </article>
             );
@@ -601,7 +603,11 @@ export default function QuizCard({
                       {feedback?.isCorrect ? 'נכון!' : 'לא בדיוק'}
                       {feedback?.xpGained ? ` | +${feedback.xpGained} XP` : ''}
                     </p>
-                    <MathRenderer className="text-[var(--color-slate)]">{feedback?.explanation}</MathRenderer>
+                    {feedback?.isCorrect ? (
+                      <MathRenderer className="text-[var(--color-slate)]">{feedback?.explanation}</MathRenderer>
+                    ) : (
+                      <SolutionSteps key={feedback?.question?.id} question={feedback.question} selectedIndex={feedback.selectedIndex} />
+                    )}
                   </>
                 )}
                 {mode !== 'speed' && (
