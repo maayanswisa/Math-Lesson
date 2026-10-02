@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { GRADE_LABELS, GRADE9_TRACKS, getTopics, isElementary, hasDirectTopics } from '../data/curriculum';
-import { getAllQuestionsForTopic, TOPIC_QUIZ_SIZE } from '../data/questions';
+import { getAllQuestionsForTopic } from '../data/questions';
 import { hasLesson } from '../data/lessons';
 import { accentFor } from '../lib/palette';
 import { formulasHref } from '../lib/formulaLinks';
@@ -101,7 +101,6 @@ export default function TopicsPage() {
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {list.map((t, i) => {
                   const poolSize = poolSizes[t.id];
-                  const quizSize = poolSize == null ? null : Math.min(TOPIC_QUIZ_SIZE, poolSize);
                   const accent = accentFor(clusterIdx + i);
                   return (
                     // The quiz link stretches over the whole card (after:inset-0),
@@ -117,7 +116,7 @@ export default function TopicsPage() {
                           className="shrink-0 rounded-full px-2.5 py-0.5 text-xs font-semibold"
                           style={{ backgroundColor: accent.bg, color: accent.text }}
                         >
-                          {poolSize == null ? '…' : `${quizSize} מתוך ${poolSize}`}
+                          {poolSize == null ? '…' : `${poolSize} שאלות`}
                         </span>
                       </div>
                       <p className="mt-2 text-sm leading-relaxed text-[var(--color-slate)]">

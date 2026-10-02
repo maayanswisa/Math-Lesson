@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { GRADE_LABELS, getAllTopicsForGrade } from '../data/curriculum';
 import { buildCustomQuiz } from '../data/questions';
 import { writeCustomQuiz } from '../lib/customQuiz.js';
+import { seenMap } from '../lib/seenQuestions';
 
 const GRADES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 const COUNTS = [5, 10, 15];
@@ -48,6 +49,7 @@ export default function CustomTestPage() {
         topicIds: selected,
         count,
         difficultyBand: band,
+        seen: seenMap(),
       });
     } catch {
       setCreating(false);
