@@ -3186,14 +3186,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 2x^{2}\\,dx=$",
+    "question_text": "מהו $\\int 2x^{2}\\,dx$?",
     "options": [
-      "$0$",
-      "$x+C$",
       "$\\frac{2}{3}x^{3}+C$",
-      "$2x^{2}$"
+      "$2x^{3}+C$",
+      "$4x+C$",
+      "$x^{2}+C$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int 2x^{2}\\,dx=\\frac{2}{3}x^{3}+C$."
   },
   {
@@ -3246,12 +3246,12 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 5x^{5}\\,dx=$",
+    "question_text": "מהו $\\int 5x^{5}\\,dx$?",
     "options": [
       "$\\frac{5}{6}x^{6}+C$",
-      "$5x^{5}$",
-      "$x+C$",
-      "$0$"
+      "$5x^{6}+C$",
+      "$25x^{4}+C$",
+      "$x^{5}+C$"
     ],
     "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int 5x^{5}\\,dx=\\frac{5}{6}x^{6}+C$."
@@ -3306,14 +3306,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 3x^{3}\\,dx=$",
+    "question_text": "מהו $\\int 3x^{3}\\,dx$?",
     "options": [
-      "$x+C$",
-      "$0$",
       "$\\frac{3}{4}x^{4}+C$",
-      "$3x^{3}$"
+      "$3x^{4}+C$",
+      "$9x^{2}+C$",
+      "$x^{3}+C$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int 3x^{3}\\,dx=\\frac{3}{4}x^{4}+C$."
   },
   {
@@ -3321,14 +3321,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int x\\,dx=$",
+    "question_text": "מהו $\\int x\\,dx$?",
     "options": [
-      "$1x^{1}$",
+      "$\\frac{x^{2}}{2}+C$",
+      "$x^{2}+C$",
       "$x+C$",
-      "$0$",
-      "$\\frac{1}{2}x^{2}+C$"
+      "$1+C$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int x\\,dx=\\frac{1}{2}x^{2}+C$."
   },
   {
@@ -3336,14 +3336,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 4x^{4}\\,dx=$",
+    "question_text": "מהו $\\int 4x^{4}\\,dx$?",
     "options": [
-      "$4x^{4}$",
-      "$x+C$",
-      "$0$",
-      "$\\frac{4}{5}x^{5}+C$"
+      "$\\frac{4}{5}x^{5}+C$",
+      "$4x^{5}+C$",
+      "$16x^{3}+C$",
+      "$x^{4}+C$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int 4x^{4}\\,dx=\\frac{4}{5}x^{5}+C$."
   },
   {
@@ -3351,14 +3351,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-integral",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\int x\\,dx=$",
+    "question_text": "מהו $\\int x\\,dx$?",
     "options": [
+      "$\\frac{x^{2}}{2}+C$",
+      "$x^{2}+C$",
       "$x+C$",
-      "$\\frac{x^2}{2}+C$",
-      "$x^2+C$",
-      "$2x+C$"
+      "$1+C$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int x^1\\,dx=\\frac{x^2}{2}+C$."
   },
   {
@@ -3366,14 +3366,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 6x^{6}\\,dx=$",
+    "question_text": "מהו $\\int 6x^{6}\\,dx$?",
     "options": [
-      "$6x^{6}$",
-      "$x+C$",
-      "$0$",
-      "$\\frac{6}{7}x^{7}+C$"
+      "$\\frac{6}{7}x^{7}+C$",
+      "$6x^{7}+C$",
+      "$36x^{5}+C$",
+      "$x^{6}+C$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int 6x^{6}\\,dx=\\frac{6}{7}x^{7}+C$."
   },
   {
@@ -3486,14 +3486,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-analytic-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=9$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=9$?",
     "options": [
-      "$-2$",
-      "$-4$",
       "$3$",
-      "$-1$"
+      "$9$",
+      "$4$",
+      "$6$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{9}=3$."
   },
   {
@@ -3501,14 +3501,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-analytic-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=1$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=1$?",
     "options": [
-      "$-4$",
       "$1$",
-      "$-6$",
-      "$-3$"
+      "$0$",
+      "$2$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{1}=1$."
   },
   {
@@ -3516,14 +3516,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-analytic-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=49$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=49$?",
     "options": [
-      "$0$",
       "$7$",
-      "$3$",
-      "$2$"
+      "$49$",
+      "$24$",
+      "$14$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{49}=7$."
   },
   {
@@ -3531,14 +3531,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-analytic-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=25$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=25$?",
     "options": [
-      "$1$",
       "$5$",
-      "$0$",
-      "$-2$"
+      "$25$",
+      "$12$",
+      "$10$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
@@ -3546,14 +3546,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-analytic-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=25$. רדיוס:",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=25$?",
     "options": [
+      "$5$",
       "$25$",
       "$12$",
-      "$10$",
-      "$5$"
+      "$10$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
@@ -3561,12 +3561,12 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-analytic-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=4$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=4$?",
     "options": [
       "$2$",
-      "$-5$",
-      "$-2$",
-      "$-3$"
+      "$4$",
+      "$3$",
+      "$1$"
     ],
     "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{4}=2$."
@@ -3576,12 +3576,12 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-analytic-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=36$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=36$?",
     "options": [
       "$6$",
-      "$-1$",
-      "$2$",
-      "$1$"
+      "$36$",
+      "$18$",
+      "$12$"
     ],
     "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{36}=6$."
@@ -3591,14 +3591,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-analytic-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=16$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=16$?",
     "options": [
-      "$-3$",
-      "$0$",
-      "$-1$",
-      "$4$"
+      "$4$",
+      "$16$",
+      "$8$",
+      "$5$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{16}=4$."
   },
   {
@@ -3621,14 +3621,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רדיוס 9. קוטר?",
+    "question_text": "רדיוס מעגל הוא $9$. מהו הקוטר?",
     "options": [
-      "$11$",
       "$18$",
-      "$14$",
-      "$13$"
+      "$9$",
+      "$81$",
+      "$4$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 9=18$."
   },
   {
@@ -3636,14 +3636,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=5 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $5$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$\\pi$",
       "$10\\pi$",
       "$25\\pi$",
-      "$5\\pi$"
+      "$5\\pi$",
+      "$20\\pi$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 5\\times\\pi=10\\pi$."
   },
   {
@@ -3651,12 +3651,12 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח עיגול r=2:",
+    "question_text": "מהו שטח עיגול שרדיוסו $2$? (השאירו את התשובה עם $\\pi$)",
     "options": [
       "$4\\pi$",
+      "$4$",
       "$2\\pi$",
-      "$8\\pi$",
-      "$4$"
+      "$5\\pi$"
     ],
     "correct_index": 0,
     "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 2^2=4\\pi$."
@@ -3666,14 +3666,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=6 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $6$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$36\\pi$",
       "$12\\pi$",
-      "$\\pi$",
-      "$6\\pi$"
+      "$36\\pi$",
+      "$6\\pi$",
+      "$24\\pi$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 6\\times\\pi=12\\pi$."
   },
   {
@@ -3681,14 +3681,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח עיגול r=4:",
+    "question_text": "מהו שטח עיגול שרדיוסו $4$? (השאירו את התשובה עם $\\pi$)",
     "options": [
+      "$16\\pi$",
       "$8\\pi$",
-      "$2\\pi$",
       "$16$",
-      "$16\\pi$"
+      "$4\\pi$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 4^2=16\\pi$."
   },
   {
@@ -3696,14 +3696,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רדיוס 1. קוטר?",
+    "question_text": "רדיוס מעגל הוא $1$. מהו הקוטר?",
     "options": [
-      "$-3$",
-      "$-5$",
-      "$-2$",
-      "$2$"
+      "$2$",
+      "$1$",
+      "$3$",
+      "$4$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 1=2$."
   },
   {
@@ -3711,14 +3711,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח עיגול r=7:",
+    "question_text": "מהו שטח עיגול שרדיוסו $7$? (השאירו את התשובה עם $\\pi$)",
     "options": [
+      "$49\\pi$",
       "$14\\pi$",
       "$49$",
-      "$2\\pi$",
-      "$49\\pi$"
+      "$7\\pi$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 7^2=49\\pi$."
   },
   {
@@ -3726,14 +3726,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח עיגול r=6:",
+    "question_text": "מהו שטח עיגול שרדיוסו $6$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$36$",
-      "$12\\pi$",
       "$36\\pi$",
-      "$2\\pi$"
+      "$12\\pi$",
+      "$36$",
+      "$6\\pi$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 6^2=36\\pi$."
   },
   {
@@ -3741,12 +3741,12 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=9 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $9$? (השאירו את התשובה עם $\\pi$)",
     "options": [
       "$18\\pi$",
-      "$\\pi$",
+      "$81\\pi$",
       "$9\\pi$",
-      "$81\\pi$"
+      "$36\\pi$"
     ],
     "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 9\\times\\pi=18\\pi$."
@@ -3756,14 +3756,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=10 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $10$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$100\\pi$",
-      "$\\pi$",
       "$20\\pi$",
-      "$10\\pi$"
+      "$100\\pi$",
+      "$10\\pi$",
+      "$40\\pi$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 10\\times\\pi=20\\pi$."
   },
   {
@@ -3771,14 +3771,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח עיגול r=5:",
+    "question_text": "מהו שטח עיגול שרדיוסו $5$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$25$",
-      "$10\\pi$",
       "$25\\pi$",
-      "$2\\pi$"
+      "$10\\pi$",
+      "$25$",
+      "$5\\pi$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 5^2=25\\pi$."
   },
   {
@@ -3786,11 +3786,11 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח עיגול r=1:",
+    "question_text": "מהו שטח עיגול שרדיוסו $1$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$1\\pi$",
-      "$1$",
+      "$\\pi$",
       "$2\\pi$",
+      "$1$",
       "$4\\pi$"
     ],
     "correct_index": 0,
@@ -3801,12 +3801,12 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "כל הרדיוסים בעיגול:",
+    "question_text": "מה נכון לגבי כל הרדיוסים של אותו מעגל?",
     "options": [
-      "שווים",
-      "נגדים",
-      "שונים",
-      "מקבילים"
+      "הם שווים זה לזה",
+      "הם מקבילים זה לזה",
+      "הם מאונכים זה לזה",
+      "הם באורכים שונים"
     ],
     "correct_index": 0,
     "explanation": "רדיוס הוא קטע המחבר את מרכז המעגל לכל נקודה על היקפו. לפי הגדרת המעגל, כל נקודות ההיקף נמצאות במרחק שווה מהמרכז, ולכן כל הרדיוסים במעגל שווים זה לזה באורכם."
@@ -3816,14 +3816,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רדיוס 7. קוטר?",
+    "question_text": "רדיוס מעגל הוא $7$. מהו הקוטר?",
     "options": [
-      "$7$",
       "$14$",
-      "$9$",
-      "$10$"
+      "$7$",
+      "$49$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 7=14$."
   },
   {
@@ -3831,14 +3831,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=8 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $8$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$\\pi$",
       "$16\\pi$",
       "$64\\pi$",
-      "$8\\pi$"
+      "$8\\pi$",
+      "$32\\pi$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 8\\times\\pi=16\\pi$."
   },
   {
@@ -3846,14 +3846,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח עיגול r=9:",
+    "question_text": "מהו שטח עיגול שרדיוסו $9$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$81$",
-      "$18\\pi$",
       "$81\\pi$",
-      "$2\\pi$"
+      "$18\\pi$",
+      "$81$",
+      "$9\\pi$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 9^2=81\\pi$."
   },
   {
@@ -3861,14 +3861,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=1 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $1$? (השאירו את התשובה עם $\\pi$)",
     "options": [
+      "$2\\pi$",
       "$\\pi$",
-      "$3\\pi$",
       "$4\\pi$",
-      "$2\\pi$"
+      "$3\\pi$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 1\\times\\pi=2\\pi$."
   },
   {
@@ -3876,14 +3876,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח עיגול r=8:",
+    "question_text": "מהו שטח עיגול שרדיוסו $8$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$2\\pi$",
       "$64\\pi$",
       "$16\\pi$",
-      "$64$"
+      "$64$",
+      "$8\\pi$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 8^2=64\\pi$."
   },
   {
@@ -3891,12 +3891,12 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-plane-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רדיוס 8. קוטר?",
+    "question_text": "רדיוס מעגל הוא $8$. מהו הקוטר?",
     "options": [
       "$16$",
-      "$9$",
-      "$12$",
-      "$11$"
+      "$8$",
+      "$64$",
+      "$4$"
     ],
     "correct_index": 0,
     "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 8=16$."
@@ -6516,7 +6516,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1,3,5,7,... הבא:",
+    "question_text": "מהו האיבר הבא בסדרה $1,3,5,7,\\ldots$?",
     "options": [
       "$9$",
       "$10$",
@@ -6561,7 +6561,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "a1=5, d=3. a4=",
+    "question_text": "בסדרה חשבונית $a_1=5$ ו-$d=3$. מהו $a_4$?",
     "options": [
       "$11$",
       "$15$",
@@ -6576,7 +6576,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "a_n=n^2. a_4=",
+    "question_text": "נתון $a_n=n^2$. מהו $a_4$?",
     "options": [
       "$4$",
       "$16$",
@@ -6621,7 +6621,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "3,6,12,24,... הבא:",
+    "question_text": "מהו האיבר הבא בסדרה $3,6,12,24,\\ldots$?",
     "options": [
       "$42$",
       "$48$",
@@ -6636,7 +6636,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "S=1+2+...+n =",
+    "question_text": "מהו הסכום $1+2+\\dots+n$?",
     "options": [
       "$n!$",
       "$n^2$",
@@ -6651,7 +6651,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "a_n=2n+1. a_5=",
+    "question_text": "נתון $a_n=2n+1$. מהו $a_5$?",
     "options": [
       "$10$",
       "$9$",
@@ -6696,7 +6696,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-sequences-induction",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "2,4,6,8,... הבא:",
+    "question_text": "מהו האיבר הבא בסדרה $2,4,6,8,\\ldots$?",
     "options": [
       "$9$",
       "$7$",
@@ -6771,14 +6771,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 2x^{2}\\,dx=$",
+    "question_text": "מהו $\\int 2x^{2}\\,dx$?",
     "options": [
-      "$2x^{2}$",
-      "$0$",
-      "$x+C$",
-      "$\\frac{2}{3}x^{3}+C$"
+      "$\\frac{2}{3}x^{3}+C$",
+      "$2x^{3}+C$",
+      "$4x+C$",
+      "$x^{2}+C$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int 2x^{2}\\,dx=\\frac{2}{3}x^{3}+C$."
   },
   {
@@ -6786,12 +6786,12 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 6x^{6}\\,dx=$",
+    "question_text": "מהו $\\int 6x^{6}\\,dx$?",
     "options": [
       "$\\frac{6}{7}x^{7}+C$",
-      "$6x^{6}$",
-      "$0$",
-      "$x+C$"
+      "$6x^{7}+C$",
+      "$36x^{5}+C$",
+      "$x^{6}+C$"
     ],
     "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int 6x^{6}\\,dx=\\frac{6}{7}x^{7}+C$."
@@ -6816,14 +6816,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 3x^{3}\\,dx=$",
+    "question_text": "מהו $\\int 3x^{3}\\,dx$?",
     "options": [
-      "$x+C$",
-      "$0$",
       "$\\frac{3}{4}x^{4}+C$",
-      "$3x^{3}$"
+      "$3x^{4}+C$",
+      "$9x^{2}+C$",
+      "$x^{3}+C$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int 3x^{3}\\,dx=\\frac{3}{4}x^{4}+C$, כלומר המקדם הוא $0.75$."
   },
   {
@@ -6831,14 +6831,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 1x^{1}\\,dx=$",
+    "question_text": "מהו $\\int x\\,dx$?",
     "options": [
-      "$1x^{1}$",
+      "$\\frac{x^{2}}{2}+C$",
+      "$x^{2}+C$",
       "$x+C$",
-      "$\\frac{1}{2}x^{2}+C$",
-      "$0$"
+      "$1+C$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int 1x^{1}\\,dx=\\frac{1}{2}x^{2}+C$, כלומר המקדם הוא $0.5$."
   },
   {
@@ -6876,14 +6876,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-integral",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\int x\\,dx=$",
+    "question_text": "מהו $\\int x\\,dx$?",
     "options": [
+      "$\\frac{x^{2}}{2}+C$",
+      "$x^{2}+C$",
       "$x+C$",
-      "$\\frac{x^2}{2}+C$",
-      "$x^2+C$",
-      "$2x+C$"
+      "$1+C$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא $\\frac{x^2}{2}+C$."
   },
   {
@@ -6891,14 +6891,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 5x^{5}\\,dx=$",
+    "question_text": "מהו $\\int 5x^{5}\\,dx$?",
     "options": [
-      "$0$",
-      "$x+C$",
       "$\\frac{5}{6}x^{6}+C$",
-      "$5x^{5}$"
+      "$5x^{6}+C$",
+      "$25x^{4}+C$",
+      "$x^{5}+C$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int 5x^{5}\\,dx=\\frac{5}{6}x^{6}+C$."
   },
   {
@@ -6906,14 +6906,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-integral",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\int 4x^{4}\\,dx=$",
+    "question_text": "מהו $\\int 4x^{4}\\,dx$?",
     "options": [
-      "$0$",
-      "$4x^{4}$",
       "$\\frac{4}{5}x^{5}+C$",
-      "$x+C$"
+      "$4x^{5}+C$",
+      "$16x^{3}+C$",
+      "$x^{4}+C$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי כלל האינטגרל של חזקה: $\\int 4x^{4}\\,dx=\\frac{4}{5}x^{5}+C$, כלומר המקדם הוא $0.8$."
   },
   {
@@ -7101,14 +7101,14 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-probability",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מטבע הוגן מוטל פעם אחת. מה ההסתברות לקבל \"עץ\"?",
+    "question_text": "מטילים מטבע הוגן פעם אחת. מה ההסתברות לקבל \"עץ\"?",
     "options": [
-      "$1$",
       "$\\frac{1}{2}$",
-      "$\\frac{1}{3}$",
-      "$0$"
+      "$1$",
+      "$0$",
+      "$\\frac{1}{3}$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "להטלת מטבע הוגן יש שתי תוצאות שוות-סבירות (עץ או פלי), ולכן ההסתברות לעץ היא $\\frac{1}{2}$."
   },
   {
@@ -10326,7 +10326,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u3-science-growth",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "מאותה תרבית (גדלה פי $3$ ביום, התחלתי $70{,}000{,}000$), כמה חיידקים יהיו אחרי $2$ ימים?",
+    "question_text": "תרבית חיידקים גדלה פי $3$ ביום, ובהתחלה יש בה $70{,}000{,}000$ חיידקים. כמה חיידקים יהיו אחרי $2$ ימים?",
     "options": [
       "$630{,}000{,}000$",
       "$420{,}000{,}000$",
@@ -10566,7 +10566,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u3-science-stddev",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "באותו מצב (ציון התלמיד ה-$21$ הוא $60$, שווה לממוצע), האם סטיית התקן של $21$ התלמידים גדולה או קטנה מסטיית התקן של $20$ התלמידים המקוריים?",
+    "question_text": "ל-$20$ תלמידים ציון ממוצע $60$ וסטיית תקן $1.8$. מצטרף תלמיד נוסף שציונו $60$ (שווה לממוצע). האם סטיית התקן של $21$ התלמידים גדולה או קטנה מזו של $20$ התלמידים המקוריים?",
     "options": [
       "קטנה יותר",
       "גדולה יותר",
@@ -10701,7 +10701,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u3-science-prob",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "מאותם נתונים ($0.8,0.6,0.7$ בלתי תלויים), מהי ההסתברות שהתלמיד יצליח לפחות במקצוע אחד?",
+    "question_text": "סיכויי תלמיד להצליח: מתמטיקה $0.8$, אנגלית $0.6$, לשון $0.7$ (מאורעות בלתי תלויים). מה ההסתברות שיצליח לפחות במקצוע אחד?",
     "options": [
       "$0.976$",
       "$0.024$",
@@ -10731,7 +10731,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u3-science-prob",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "אותו כד ($5$ ירוקים, $3$ לבנים), אך הפעם ההוצאה נעשית עם החזרה. האם המאורעות תלויים או בלתי תלויים?",
+    "question_text": "בכד $5$ כדורים ירוקים ו-$3$ לבנים. מוציאים כדור, מחזירים אותו, ואז מוציאים כדור נוסף. האם המאורעות \"לבן בפעם הראשונה\" ו\"לבן בפעם השנייה\" תלויים או בלתי תלויים?",
     "options": [
       "בלתי תלויים",
       "תלויים",
@@ -10821,7 +10821,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u3-finance-growth",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "אותה השקעה ($10{,}000$ ש\"ח, מקדם $1.08$). כמה יהיה שוויה אחרי $2$ שנים?",
+    "question_text": "השקעה של $10{,}000$ ש\"ח גדלה פי $1.08$ בכל שנה. כמה יהיה שוויה אחרי $2$ שנים?",
     "options": [
       "$11{,}664$",
       "$11{,}600$",
@@ -11001,7 +11001,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u3-finance-stats",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מאותה רשימה, מהו החציון ($Q_2$)?",
+    "question_text": "רשימת שכר (ממוינת, $10$ עובדים): $4{,}000, 4{,}000, 4{,}500, 5{,}000, 5{,}000, 5{,}500, 6{,}000, 6{,}000, 6{,}500, 7{,}000$. מהו החציון ($Q_2$)?",
     "options": [
       "$5{,}250$",
       "$5{,}000$",
@@ -11016,7 +11016,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u3-finance-stats",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מאותה רשימה, מהו הרבעון השלישי ($Q_3$)?",
+    "question_text": "רשימת שכר (ממוינת, $10$ עובדים): $4{,}000, 4{,}000, 4{,}500, 5{,}000, 5{,}000, 5{,}500, 6{,}000, 6{,}000, 6{,}500, 7{,}000$. מהו הרבעון השלישי ($Q_3$)?",
     "options": [
       "$6{,}000$",
       "$6{,}500$",
@@ -11031,7 +11031,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u3-finance-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מאותה רשימה, מהו העשירון השמיני ($D_8$)?",
+    "question_text": "רשימת שכר (ממוינת, $10$ עובדים): $4{,}000, 4{,}000, 4{,}500, 5{,}000, 5{,}000, 5{,}500, 6{,}000, 6{,}000, 6{,}500, 7{,}000$. מהו העשירון השמיני ($D_8$)?",
     "options": [
       "$6{,}250$",
       "$6{,}000$",
@@ -11046,7 +11046,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u3-finance-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו ההבדל בין הרבעון השלישי לרבעון הראשון (הטווח הבין-רבעוני) ברשימה הנ\"ל?",
+    "question_text": "רשימת שכר (ממוינת, $10$ עובדים): $4{,}000, 4{,}000, 4{,}500, 5{,}000, 5{,}000, 5{,}500, 6{,}000, 6{,}000, 6{,}500, 7{,}000$. ידוע ש-$Q_1=4{,}500$. מהו הטווח הבין-רבעוני ($Q_3-Q_1$)?",
     "options": [
       "$1{,}500$",
       "$3{,}000$",
@@ -11054,7 +11054,7 @@ export const QUESTIONS = [
       "$1{,}000$"
     ],
     "correct_index": 0,
-    "explanation": "$Q_3-Q_1=6{,}000-4{,}500=1{,}500$."
+    "explanation": "מיקום $Q_3$: $\\dfrac{3\\times10}{4}=7.5$ — מעגלים ל-$8$: $Q_3=6{,}000$. $Q_3-Q_1=6{,}000-4{,}500=1{,}500$."
   },
   {
     "id": "q-g11-u3-finance-stats-7",
@@ -11361,7 +11361,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u3-space-similarity",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מאותו יחס דמיון ($3{:}2$, תליון:עגיל), פי כמה גדול שטח התליון משטח העגיל?",
+    "question_text": "תליון ועגיל הם משולשים דומים ביחס דמיון $3{:}2$ (תליון:עגיל). פי כמה גדול שטח התליון משטח העגיל?",
     "options": [
       "פי $2.25$",
       "פי $1.5$",
@@ -16776,7 +16776,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-root-functions-adv",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "באותה פונקציה $f(x)=\\dfrac{x}{\\sqrt{x^2+1}}$, מהי האסימפטוטה האופקית כאשר $x\\to-\\infty$?",
+    "question_text": "נתונה $f(x)=\\dfrac{x}{\\sqrt{x^2+1}}$. מהי האסימפטוטה האופקית כאשר $x\\to-\\infty$?",
     "options": [
       "$y=-1$",
       "$y=1$",
@@ -17196,7 +17196,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u5-trig-review",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "באותה פונקציה $f(x)=3\\sin(2x)+1$, מהי המשרעת?",
+    "question_text": "נתונה $f(x)=3\\sin(2x)+1$. מהי המשרעת?",
     "options": [
       "$3$",
       "$1$",
@@ -23699,7 +23699,7 @@ export const QUESTIONS = [
       "$-1$"
     ],
     "correct_index": 0,
-    "explanation": "$\\cos90°=0$."
+    "explanation": "$\\cos(45°+45°)=\\cos45°\\cos45°-\\sin45°\\sin45°=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt2}{2}-\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt2}{2}=\\frac12-\\frac12=0$."
   },
   {
     "id": "q-g10-u3-science-society-gapfill-e1",
@@ -26721,7 +26721,7 @@ export const QUESTIONS = [
     "topic_id": "g11-u4-extremum-3d",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "עבור הפונקציה $S(x)=x^2+\\dfrac{200}{x}$ (משאלה קודמת), מהי $S'(x)$?",
+    "question_text": "שטח הפנים של תיבה פתוחה נתון על ידי $S(x)=x^2+\\dfrac{200}{x}$. מהי $S'(x)$?",
     "options": [
       "$2x-\\dfrac{200}{x^2}$",
       "$2x+\\dfrac{200}{x^2}$",
