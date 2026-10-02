@@ -2421,14 +2421,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=4x+2$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=4x+2$. מהו $f(2)$?",
     "options": [
-      "$3$",
-      "$5$",
       "$10$",
-      "$6$"
+      "$8$",
+      "$6$",
+      "$14$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=4\\times 2+2=10$."
   },
   {
@@ -2436,14 +2436,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "חיתוך $y$ של $y=5x-3$:",
+    "question_text": "באיזו נקודה חותך הישר $y=5x-3$ את ציר ה-$y$? (מהו ערך ה-$y$?)",
     "options": [
-      "$-10$",
-      "$-7$",
       "$-3$",
-      "$-8$"
+      "$3$",
+      "$5$",
+      "$2$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=5\\times 0-3=-3$."
   },
   {
@@ -2451,14 +2451,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=3x+5$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=3x+5$. מהו $f(2)$?",
     "options": [
-      "$7$",
       "$11$",
-      "$4$",
-      "$6$"
+      "$6$",
+      "$8$",
+      "$14$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=3\\times 2+5=11$."
   },
   {
@@ -2466,14 +2466,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "חיתוך $y$ של $y=6x-1$:",
+    "question_text": "באיזו נקודה חותך הישר $y=6x-1$ את ציר ה-$y$? (מהו ערך ה-$y$?)",
     "options": [
-      "$-5$",
-      "$-6$",
-      "$-8$",
-      "$-1$"
+      "$-1$",
+      "$1$",
+      "$6$",
+      "$5$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=6\\times 0-1=-1$."
   },
   {
@@ -2481,14 +2481,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=5x-1$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=5x-1$. מהו $f(2)$?",
     "options": [
-      "$2$",
       "$9$",
+      "$10$",
       "$4$",
-      "$5$"
+      "$14$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=5\\times 2-1=9$."
   },
   {
@@ -2496,14 +2496,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=1x-3$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x-3$. מהו $f(2)$?",
     "options": [
-      "$-5$",
       "$-1$",
-      "$-6$",
-      "$-8$"
+      "$2$",
+      "$-2$",
+      "$0$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=1\\times 2-3=-1$."
   },
   {
@@ -2511,14 +2511,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=3x+1$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=3x+1$. מהו $f(2)$?",
     "options": [
-      "$2$",
-      "$0$",
-      "$3$",
-      "$7$"
+      "$7$",
+      "$6$",
+      "$4$",
+      "$10$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=3\\times 2+1=7$."
   },
   {
@@ -2526,14 +2526,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שיפוע $y=1x+1$:",
+    "question_text": "מהו השיפוע של הישר $y=x+1$?",
     "options": [
-      "$-4$",
-      "$-6$",
       "$1$",
-      "$-3$"
+      "$-1$",
+      "$2$",
+      "$0$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=1$."
   },
   {
@@ -2541,12 +2541,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=3x+0$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=3x$. מהו $f(2)$?",
     "options": [
       "$6$",
-      "$2$",
-      "$1$",
-      "$-1$"
+      "$3$",
+      "$9$",
+      "$7$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=3\\times 2+0=6$."
@@ -2556,12 +2556,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שיפוע $y=5x+1$:",
+    "question_text": "מהו השיפוע של הישר $y=5x+1$?",
     "options": [
       "$5$",
-      "$0$",
       "$1$",
-      "$-2$"
+      "$-5$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=5$."
@@ -2571,12 +2571,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "חיתוך $y$ של $y=3x-2$:",
+    "question_text": "באיזו נקודה חותך הישר $y=3x-2$ את ציר ה-$y$? (מהו ערך ה-$y$?)",
     "options": [
       "$-2$",
-      "$-7$",
-      "$-9$",
-      "$-6$"
+      "$2$",
+      "$3$",
+      "$1$"
     ],
     "correct_index": 0,
     "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=3\\times 0-2=-2$."
@@ -2586,7 +2586,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "ישר דרך (1,2) ו-(3,6). שיפוע?",
+    "question_text": "מהו השיפוע של הישר העובר דרך הנקודות $(1,2)$ ו-$(3,6)$?",
     "options": [
       "$2$",
       "$3$",
@@ -2601,12 +2601,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=1x+0$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x$. מהו $f(2)$?",
     "options": [
       "$2$",
-      "$-3$",
-      "$-2$",
-      "$-5$"
+      "$1$",
+      "$3$",
+      "$4$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=1\\times 2+0=2$."
@@ -2616,14 +2616,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=5x+0$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=5x$. מהו $f(2)$?",
     "options": [
-      "$6$",
+      "$10$",
       "$5$",
-      "$3$",
-      "$10$"
+      "$15$",
+      "$11$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=5\\times 2+0=10$."
   },
   {
@@ -2631,14 +2631,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=6x-4$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=6x-4$. מהו $f(2)$?",
     "options": [
-      "$4$",
-      "$3$",
       "$8$",
-      "$1$"
+      "$12$",
+      "$2$",
+      "$14$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=6\\times 2-4=8$."
   },
   {
@@ -2646,14 +2646,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=6x+5$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=6x+5$. מהו $f(2)$?",
     "options": [
+      "$17$",
       "$12$",
-      "$10$",
-      "$13$",
-      "$17$"
+      "$11$",
+      "$23$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=6\\times 2+5=17$."
   },
   {
@@ -2661,14 +2661,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "חיתוך $y$ של $y=2x+2$:",
+    "question_text": "באיזו נקודה חותך הישר $y=2x+2$ את ציר ה-$y$? (מהו ערך ה-$y$?)",
     "options": [
-      "$-5$",
       "$2$",
       "$-2$",
-      "$-3$"
+      "$4$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=2\\times 0+2=2$."
   },
   {
@@ -2676,12 +2676,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "חיתוך $y$ של $y=2x-1$:",
+    "question_text": "באיזו נקודה חותך הישר $y=2x-1$ את ציר ה-$y$? (מהו ערך ה-$y$?)",
     "options": [
       "$-1$",
-      "$-6$",
-      "$-5$",
-      "$-8$"
+      "$1$",
+      "$2$",
+      "$0$"
     ],
     "correct_index": 0,
     "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=2\\times 0-1=-1$."
@@ -2691,14 +2691,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-fn",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שיפוע $y=4x+3$:",
+    "question_text": "מהו השיפוע של הישר $y=4x+3$?",
     "options": [
-      "$-1$",
-      "$0$",
       "$4$",
-      "$-3$"
+      "$3$",
+      "$-4$",
+      "$5$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=4$."
   },
   {
@@ -2721,14 +2721,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=7$, $x-y=1$. $y$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=7$ ו-$x-y=1$. מהו $y$?",
     "options": [
-      "$-2$",
       "$3$",
-      "$-1$",
-      "$-4$"
+      "$4$",
+      "$7$",
+      "$-3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחסרים את המשוואה השנייה מהראשונה: $2y=7-1=6$, ולכן $y=3$."
   },
   {
@@ -2736,14 +2736,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=7$, $x-y=-3$. $y$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=7$ ו-$x-y=-3$. מהו $y$?",
     "options": [
-      "$-2$",
       "$5$",
-      "$0$",
-      "$1$"
+      "$2$",
+      "$7$",
+      "$-5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחסרים את המשוואה השנייה מהראשונה: $2y=7--3=10$, ולכן $y=5$."
   },
   {
@@ -2751,14 +2751,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$2x+y=9$, $x+y=7$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $2x+y=9$ ו-$x+y=7$. מהו $x$?",
     "options": [
-      "$-5$",
-      "$-3$",
-      "$-2$",
-      "$2$"
+      "$2$",
+      "$5$",
+      "$9$",
+      "$-2$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחסרים את המשוואה השנייה מהראשונה: $(2-1)x=9-7$, ולכן $x=2$."
   },
   {
@@ -2766,14 +2766,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=5$, $x-y=3$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=5$ ו-$x-y=3$. מהו $x$?",
     "options": [
-      "$-3$",
-      "$-1$",
-      "$0$",
-      "$4$"
+      "$4$",
+      "$1$",
+      "$5$",
+      "$-4$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחברים את שתי המשוואות: $2x=5+3=8$, ולכן $x=4$."
   },
   {
@@ -2781,12 +2781,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$2x+y=6$, $x+y=4$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $2x+y=6$ ו-$x+y=4$. מהו $x$?",
     "options": [
       "$2$",
-      "$-3$",
+      "$6$",
       "$-2$",
-      "$-5$"
+      "$3$"
     ],
     "correct_index": 0,
     "explanation": "מחסרים את המשוואה השנייה מהראשונה: $(2-1)x=6-4$, ולכן $x=2$."
@@ -2796,14 +2796,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=9$, $x-y=1$. $y$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=9$ ו-$x-y=1$. מהו $y$?",
     "options": [
-      "$-1$",
       "$4$",
-      "$0$",
-      "$-3$"
+      "$5$",
+      "$9$",
+      "$-4$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחסרים את המשוואה השנייה מהראשונה: $2y=9-1=8$, ולכן $y=4$."
   },
   {
@@ -2811,14 +2811,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$2x+y=13$, $x+y=8$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $2x+y=13$ ו-$x+y=8$. מהו $x$?",
     "options": [
-      "$1$",
-      "$-2$",
-      "$0$",
-      "$5$"
+      "$5$",
+      "$3$",
+      "$13$",
+      "$-5$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחסרים את המשוואה השנייה מהראשונה: $(2-1)x=13-8$, ולכן $x=5$."
   },
   {
@@ -2826,12 +2826,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$2x+y=6$, $x+y=5$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $2x+y=6$ ו-$x+y=5$. מהו $x$?",
     "options": [
       "$1$",
-      "$-6$",
-      "$-3$",
-      "$-4$"
+      "$4$",
+      "$6$",
+      "$-1$"
     ],
     "correct_index": 0,
     "explanation": "מחסרים את המשוואה השנייה מהראשונה: $(2-1)x=6-5$, ולכן $x=1$."
@@ -2841,12 +2841,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=10$, $x-y=0$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=10$ ו-$x-y=0$. מהו $x$?",
     "options": [
       "$5$",
-      "$1$",
-      "$0$",
-      "$-2$"
+      "$10$",
+      "$-5$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "מחברים את שתי המשוואות: $2x=10+0=10$, ולכן $x=5$."
@@ -2856,11 +2856,11 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=6$, $x-y=-2$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=6$ ו-$x-y=-2$. מהו $x$?",
     "options": [
       "$2$",
-      "$-3$",
-      "$-5$",
+      "$4$",
+      "$6$",
       "$-2$"
     ],
     "correct_index": 0,
@@ -2871,14 +2871,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=7$, $x-y=-3$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=7$ ו-$x-y=-3$. מהו $x$?",
     "options": [
-      "$-2$",
-      "$-3$",
-      "$-5$",
-      "$2$"
+      "$2$",
+      "$5$",
+      "$7$",
+      "$-2$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחברים את שתי המשוואות: $2x=7+-3=4$, ולכן $x=2$."
   },
   {
@@ -2886,14 +2886,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=4$, $x-y=0$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=4$ ו-$x-y=0$. מהו $x$?",
     "options": [
-      "$-5$",
-      "$-3$",
       "$2$",
-      "$-2$"
+      "$4$",
+      "$-2$",
+      "$3$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחברים את שתי המשוואות: $2x=4+0=4$, ולכן $x=2$."
   },
   {
@@ -2901,14 +2901,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$2x+y=12$, $x+y=7$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $2x+y=12$ ו-$x+y=7$. מהו $x$?",
     "options": [
-      "$-2$",
-      "$0$",
       "$5$",
-      "$1$"
+      "$2$",
+      "$12$",
+      "$-5$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחסרים את המשוואה השנייה מהראשונה: $(2-1)x=12-7$, ולכן $x=5$."
   },
   {
@@ -2916,12 +2916,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=6$, $x-y=-4$. $y$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=6$ ו-$x-y=-4$. מהו $y$?",
     "options": [
       "$5$",
-      "$-2$",
       "$1$",
-      "$0$"
+      "$6$",
+      "$-5$"
     ],
     "correct_index": 0,
     "explanation": "מחסרים את המשוואה השנייה מהראשונה: $2y=6--4=10$, ולכן $y=5$."
@@ -2931,12 +2931,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=10$, $x-y=0$. $y$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=10$ ו-$x-y=0$. מהו $y$?",
     "options": [
       "$5$",
-      "$0$",
-      "$-2$",
-      "$1$"
+      "$10$",
+      "$-5$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "מחסרים את המשוואה השנייה מהראשונה: $2y=10-0=10$, ולכן $y=5$."
@@ -2946,14 +2946,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=6$, $x-y=4$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=6$ ו-$x-y=4$. מהו $x$?",
     "options": [
+      "$5$",
       "$1$",
-      "$-2$",
-      "$0$",
-      "$5$"
+      "$6$",
+      "$-5$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחברים את שתי המשוואות: $2x=6+4=10$, ולכן $x=5$."
   },
   {
@@ -2961,14 +2961,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=5$, $x-y=1$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=5$ ו-$x-y=1$. מהו $x$?",
     "options": [
-      "$-1$",
       "$3$",
-      "$-4$",
-      "$-2$"
+      "$2$",
+      "$5$",
+      "$-3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחברים את שתי המשוואות: $2x=5+1=6$, ולכן $x=3$."
   },
   {
@@ -2976,14 +2976,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מערכת: $x+y=2$, $x-y=0$. $y$?",
+    "question_text": "פתרו את מערכת המשוואות: $x+y=2$ ו-$x-y=0$. מהו $y$?",
     "options": [
-      "$-6$",
       "$1$",
-      "$-3$",
-      "$-4$"
+      "$2$",
+      "$-1$",
+      "$0$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחסרים את המשוואה השנייה מהראשונה: $2y=2-0=2$, ולכן $y=1$."
   },
   {
@@ -2991,14 +2991,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-equations-system",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$2x+y=15$, $x+y=10$. $x$?",
+    "question_text": "פתרו את מערכת המשוואות: $2x+y=15$ ו-$x+y=10$. מהו $x$?",
     "options": [
-      "$0$",
-      "$1$",
-      "$-2$",
-      "$5$"
+      "$5$",
+      "$15$",
+      "$-5$",
+      "$6$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחסרים את המשוואה השנייה מהראשונה: $(2-1)x=15-10$, ולכן $x=5$."
   },
   {
@@ -3021,12 +3021,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתח: $(x+3)^2$",
+    "question_text": "פתחו את הסוגריים: $(x+3)^2$",
     "options": [
       "$x^2+6x+9$",
-      "$x^2-9$",
-      "$x^2+6x$",
-      "$x^2+9$"
+      "$x^2+9$",
+      "$x^2+3x+9$",
+      "$x^2+6x$"
     ],
     "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+3)^2=x^2+6x+9$."
@@ -3036,14 +3036,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתח: $5(x+2)$",
+    "question_text": "פתחו את הסוגריים: $5(x+2)$",
     "options": [
-      "$5x$",
       "$5x+10$",
       "$5x+2$",
-      "$x+10$"
+      "$x+10$",
+      "$5x$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $5(x+2)=5x+10$."
   },
   {
@@ -3051,12 +3051,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרק: $x^2-9$",
+    "question_text": "פרקו לגורמים: $x^2-9$",
     "options": [
       "$(x-3)(x+3)$",
       "$(x-3)^2$",
       "$(x+3)^2$",
-      "$x-9$"
+      "$(x-9)(x+1)$"
     ],
     "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-9=(x-3)(x+3)$."
@@ -3066,14 +3066,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פרק גורם: $16x+2$",
+    "question_text": "פרקו לגורמים (הוציאו גורם משותף): $16x+2$",
     "options": [
-      "$2x+8$",
+      "$2(8x+1)$",
       "$16(x+2)$",
-      "$x(2+8)$",
-      "$2(8x+1)$"
+      "$2x+8$",
+      "$x(16+2)$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מוציאים גורם משותף $2$ מכל איבר: $16x+2=2(8x+1)$."
   },
   {
@@ -3081,14 +3081,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתח: $(x+6)^2$",
+    "question_text": "פתחו את הסוגריים: $(x+6)^2$",
     "options": [
-      "$x^2+36$",
       "$x^2+12x+36$",
-      "$x^2-36$",
+      "$x^2+36$",
+      "$x^2+6x+36$",
       "$x^2+12x$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+6)^2=x^2+12x+36$."
   },
   {
@@ -3096,14 +3096,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתח: $(x+5)^2$",
+    "question_text": "פתחו את הסוגריים: $(x+5)^2$",
     "options": [
-      "$x^2+10x$",
       "$x^2+10x+25$",
-      "$x^2-25$",
-      "$x^2+25$"
+      "$x^2+25$",
+      "$x^2+5x+25$",
+      "$x^2+10x$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+5)^2=x^2+10x+25$."
   },
   {
@@ -3111,14 +3111,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתח: $(x+7)^2$",
+    "question_text": "פתחו את הסוגריים: $(x+7)^2$",
     "options": [
-      "$x^2-49$",
       "$x^2+14x+49$",
-      "$x^2+14x$",
-      "$x^2+49$"
+      "$x^2+49$",
+      "$x^2+7x+49$",
+      "$x^2+14x$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+7)^2=x^2+14x+49$."
   },
   {
@@ -3126,14 +3126,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתח: $4(x+6)$",
+    "question_text": "פתחו את הסוגריים: $4(x+6)$",
     "options": [
-      "$4x$",
       "$4x+24$",
+      "$4x+6$",
       "$x+24$",
-      "$4x+6$"
+      "$4x$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $4(x+6)=4x+24$."
   },
   {
@@ -3141,12 +3141,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתח: $3(x+7)$",
+    "question_text": "פתחו את הסוגריים: $3(x+7)$",
     "options": [
       "$3x+21$",
       "$3x+7$",
-      "$3x$",
-      "$x+21$"
+      "$x+21$",
+      "$3x$"
     ],
     "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $3(x+7)=3x+21$."
@@ -3156,14 +3156,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פרק גורם: $14x+2$",
+    "question_text": "פרקו לגורמים (הוציאו גורם משותף): $14x+2$",
     "options": [
-      "$2x+7$",
+      "$2(7x+1)$",
       "$14(x+2)$",
-      "$x(2+7)$",
-      "$2(7x+1)$"
+      "$2x+7$",
+      "$x(14+2)$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מוציאים גורם משותף $2$ מכל איבר: $14x+2=2(7x+1)$."
   },
   {
@@ -3171,14 +3171,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתח: $2(x+8)$",
+    "question_text": "פתחו את הסוגריים: $2(x+8)$",
     "options": [
+      "$2x+16$",
       "$2x+8$",
       "$x+16$",
-      "$2x$",
-      "$2x+16$"
+      "$2x$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $2(x+8)=2x+16$."
   },
   {
@@ -3186,12 +3186,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתח: $6(x+3)$",
+    "question_text": "פתחו את הסוגריים: $6(x+3)$",
     "options": [
       "$6x+18$",
-      "$6x$",
+      "$6x+3$",
       "$x+18$",
-      "$6x+3$"
+      "$6x$"
     ],
     "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $6(x+3)=6x+18$."
@@ -3201,12 +3201,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פרק גורם: $10x+5$",
+    "question_text": "פרקו לגורמים (הוציאו גורם משותף): $10x+5$",
     "options": [
       "$5(2x+1)$",
-      "$x(5+2)$",
       "$10(x+5)$",
-      "$5x+2$"
+      "$5x+2$",
+      "$x(10+5)$"
     ],
     "correct_index": 0,
     "explanation": "מוציאים גורם משותף $5$ מכל איבר: $10x+5=5(2x+1)$."
@@ -3216,14 +3216,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פרק גורם: $21x+3$",
+    "question_text": "פרקו לגורמים (הוציאו גורם משותף): $21x+3$",
     "options": [
-      "$x(3+7)$",
-      "$3x+7$",
+      "$3(7x+1)$",
       "$21(x+3)$",
-      "$3(7x+1)$"
+      "$3x+7$",
+      "$x(21+3)$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מוציאים גורם משותף $3$ מכל איבר: $21x+3=3(7x+1)$."
   },
   {
@@ -3231,14 +3231,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פרק גורם: $24x+4$",
+    "question_text": "פרקו לגורמים (הוציאו גורם משותף): $24x+4$",
     "options": [
-      "$4x+6$",
-      "$x(4+6)$",
+      "$4(6x+1)$",
       "$24(x+4)$",
-      "$4(6x+1)$"
+      "$4x+6$",
+      "$x(24+4)$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מוציאים גורם משותף $4$ מכל איבר: $24x+4=4(6x+1)$."
   },
   {
@@ -3246,14 +3246,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתח: $(x+4)^2$",
+    "question_text": "פתחו את הסוגריים: $(x+4)^2$",
     "options": [
-      "$x^2+8x$",
+      "$x^2+8x+16$",
       "$x^2+16$",
-      "$x^2-16$",
-      "$x^2+8x+16$"
+      "$x^2+4x+16$",
+      "$x^2+8x$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+4)^2=x^2+8x+16$."
   },
   {
@@ -3261,14 +3261,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתח: $(x+8)^2$",
+    "question_text": "פתחו את הסוגריים: $(x+8)^2$",
     "options": [
-      "$x^2+16x$",
-      "$x^2+64$",
       "$x^2+16x+64$",
-      "$x^2-64$"
+      "$x^2+64$",
+      "$x^2+8x+64$",
+      "$x^2+16x$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+8)^2=x^2+16x+64$."
   },
   {
@@ -3276,14 +3276,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתח: $(x+2)^2$",
+    "question_text": "פתחו את הסוגריים: $(x+2)^2$",
     "options": [
-      "$x^2+4$",
       "$x^2+4x+4$",
-      "$x^2-4$",
+      "$x^2+4$",
+      "$x^2+2x+4$",
       "$x^2+4x$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+2)^2=x^2+4x+4$."
   },
   {
@@ -3291,14 +3291,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-factoring",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרק: $x^2-16$",
+    "question_text": "פרקו לגורמים: $x^2-16$",
     "options": [
-      "$(x+4)^2$",
-      "$x-16$",
       "$(x-4)(x+4)$",
-      "$(x-4)^2$"
+      "$(x-4)^2$",
+      "$(x+4)^2$",
+      "$(x-16)(x+1)$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-16=(x-4)(x+4)$."
   },
   {
@@ -3323,12 +3323,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $40\\%$ מ-$50$?",
     "options": [
-      "$15$",
-      "$16$",
       "$20$",
-      "$13$"
+      "$200$",
+      "$40$",
+      "$30$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $40\\%=\\frac{40}{100}$. לכן $40\\%$ מ-$50$ הוא $\\frac{40}{100}\\times 50=20$."
   },
   {
@@ -3336,7 +3336,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-percent",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "מחיר 80, הנחה 25%. מחיר חדש?",
+    "question_text": "מוצר עולה $80$ ש\"ח, ויש עליו הנחה של $25\\%$. כמה ישלמו אחרי ההנחה?",
     "options": [
       "$60$",
       "$20$",
@@ -3353,12 +3353,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $30\\%$ מ-$90$?",
     "options": [
-      "$23$",
       "$27$",
-      "$20$",
-      "$22$"
+      "$270$",
+      "$30$",
+      "$63$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $30\\%=\\frac{30}{100}$. לכן $30\\%$ מ-$90$ הוא $\\frac{30}{100}\\times 90=27$."
   },
   {
@@ -3366,7 +3366,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-percent",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "ריבית 5% על 200:",
+    "question_text": "הפקידו $200$ ש\"ח בחיסכון עם ריבית של $5\\%$ לשנה. כמה ש\"ח ריבית יתקבלו אחרי שנה?",
     "options": [
       "$20$",
       "$5$",
@@ -3383,12 +3383,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $50\\%$ מ-$40$?",
     "options": [
-      "$25$",
-      "$30$",
-      "$10$",
-      "$20$"
+      "$20$",
+      "$200$",
+      "$50$",
+      "$25$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$40$ הוא $\\frac{50}{100}\\times 40=20$."
   },
   {
@@ -3399,9 +3399,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $15\\%$ מ-$80$?",
     "options": [
       "$12$",
-      "$5$",
-      "$8$",
-      "$7$"
+      "$120$",
+      "$15$",
+      "$68$"
     ],
     "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $15\\%=\\frac{15}{100}$. לכן $15\\%$ מ-$80$ הוא $\\frac{15}{100}\\times 80=12$."
@@ -3414,9 +3414,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $8\\%$ מ-$50$?",
     "options": [
       "$4$",
-      "$0$",
-      "$-1$",
-      "$-3$"
+      "$40$",
+      "$8$",
+      "$46$"
     ],
     "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $8\\%=\\frac{8}{100}$. לכן $8\\%$ מ-$50$ הוא $\\frac{8}{100}\\times 50=4$."
@@ -3426,7 +3426,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-percent",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "כמה זה $\\frac{1}{4}$ באחוזים?",
+    "question_text": "כמה אחוזים הם $\\frac{1}{4}$?",
     "options": [
       "$10\\%$",
       "$4\\%$",
@@ -3443,12 +3443,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $50\\%$ מ-$60$?",
     "options": [
-      "$25$",
-      "$23$",
       "$30$",
-      "$26$"
+      "$300$",
+      "$50$",
+      "$35$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$60$ הוא $\\frac{50}{100}\\times 60=30$."
   },
   {
@@ -3458,12 +3458,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $60\\%$ מ-$50$?",
     "options": [
-      "$23$",
-      "$26$",
-      "$25$",
-      "$30$"
+      "$30$",
+      "$300$",
+      "$60$",
+      "$20$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $60\\%=\\frac{60}{100}$. לכן $60\\%$ מ-$50$ הוא $\\frac{60}{100}\\times 50=30$."
   },
   {
@@ -3473,12 +3473,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $5\\%$ מ-$200$?",
     "options": [
-      "$3$",
       "$10$",
-      "$6$",
-      "$5$"
+      "$100$",
+      "$5$",
+      "$190$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $5\\%=\\frac{5}{100}$. לכן $5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
@@ -3488,12 +3488,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $75\\%$ מ-$80$?",
     "options": [
-      "$53$",
-      "$55$",
-      "$56$",
-      "$60$"
+      "$60$",
+      "$600$",
+      "$75$",
+      "$20$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $75\\%=\\frac{75}{100}$. לכן $75\\%$ מ-$80$ הוא $\\frac{75}{100}\\times 80=60$."
   },
   {
@@ -3503,12 +3503,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $25\\%$ מ-$40$?",
     "options": [
-      "$3$",
       "$10$",
-      "$5$",
-      "$6$"
+      "$100$",
+      "$25$",
+      "$30$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $25\\%=\\frac{25}{100}$. לכן $25\\%$ מ-$40$ הוא $\\frac{25}{100}\\times 40=10$."
   },
   {
@@ -3516,7 +3516,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-percent",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "כמה זה $20$ מתוך $100$ באחוזים?",
+    "question_text": "כמה אחוזים הם $20$ מתוך $100$?",
     "options": [
       "$25\\%$",
       "$2\\%$",
@@ -3534,9 +3534,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $10\\%$ מ-$80$?",
     "options": [
       "$8$",
-      "$4$",
-      "$1$",
-      "$3$"
+      "$80$",
+      "$10$",
+      "$72$"
     ],
     "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $10\\%=\\frac{10}{100}$. לכן $10\\%$ מ-$80$ הוא $\\frac{10}{100}\\times 80=8$."
@@ -3548,12 +3548,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $12\\%$ מ-$100$?",
     "options": [
-      "$8$",
-      "$7$",
-      "$5$",
-      "$12$"
+      "$12$",
+      "$120$",
+      "$88$",
+      "$13$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $12\\%=\\frac{12}{100}$. לכן $12\\%$ מ-$100$ הוא $\\frac{12}{100}\\times 100=12$."
   },
   {
@@ -3564,9 +3564,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $20\\%$ מ-$150$?",
     "options": [
       "$30$",
-      "$23$",
-      "$25$",
-      "$26$"
+      "$300$",
+      "$20$",
+      "$120$"
     ],
     "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $20\\%=\\frac{20}{100}$. לכן $20\\%$ מ-$150$ הוא $\\frac{20}{100}\\times 150=30$."
@@ -3591,52 +3591,52 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $3$, $9$, $11$, $15$, $24$?",
+    "question_text": "מהו החציון של המספרים $3, 9, 11, 15, 24$?",
     "options": [
-      "$6$",
       "$11$",
-      "$4$",
-      "$7$"
+      "$9$",
+      "$15$",
+      "$12$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 3, 9, 11, 15, 24. החציון הוא הערך האמצעי — $11$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $3, 9, 11, 15, 24$. יש 5 מספרים, והאמצעי הוא השלישי — $11$."
   },
   {
     "id": "q-q-g8-stats-prob-2",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $7$, $8$, $20$, $24$, $27$?",
+    "question_text": "מהו החציון של המספרים $7, 8, 20, 24, 27$?",
     "options": [
-      "$13$",
-      "$16$",
       "$20$",
-      "$15$"
+      "$8$",
+      "$24$",
+      "$17$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 7, 8, 20, 24, 27. החציון הוא הערך האמצעי — $20$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $7, 8, 20, 24, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $20$."
   },
   {
     "id": "q-q-g8-stats-prob-3",
     "topic_id": "g8-stats-prob",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $7$, $10$, $18$, $26$, $29$?",
+    "question_text": "מהו הממוצע של המספרים $7, 10, 18, 26, 29$?",
     "options": [
-      "$11$",
-      "$13$",
-      "$14$",
-      "$18$"
+      "$18$",
+      "$7$",
+      "$21$",
+      "$16$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום המספרים הוא $90$, ומחלקים במספר המספרים ($5$): $90\\div 5=18$."
+    "correct_index": 0,
+    "explanation": "סכום המספרים: $90$. מחלקים במספר המספרים ($5$): $90:5=18$."
   },
   {
     "id": "q-q-g8-stats-prob-4",
     "topic_id": "g8-stats-prob",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שכיח ב-3,7,7,2:",
+    "question_text": "מהו השכיח של המספרים $3, 7, 7, 2$?",
     "options": [
       "$19$",
       "$2$",
@@ -3651,225 +3651,225 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $4$, $8$, $11$, $15$, $22$?",
+    "question_text": "מהו החציון של המספרים $4, 8, 11, 15, 22$?",
     "options": [
-      "$6$",
       "$11$",
-      "$7$",
-      "$4$"
+      "$8$",
+      "$15$",
+      "$12$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 4, 8, 11, 15, 22. החציון הוא הערך האמצעי — $11$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $4, 8, 11, 15, 22$. יש 5 מספרים, והאמצעי הוא השלישי — $11$."
   },
   {
     "id": "q-q-g8-stats-prob-6",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $3$, $9$, $11$, $22$, $24$?",
+    "question_text": "מהו החציון של המספרים $3, 9, 11, 22, 24$?",
     "options": [
-      "$6$",
-      "$4$",
-      "$7$",
-      "$11$"
+      "$11$",
+      "$9$",
+      "$22$",
+      "$14$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 3, 9, 11, 22, 24. החציון הוא הערך האמצעי — $11$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $3, 9, 11, 22, 24$. יש 5 מספרים, והאמצעי הוא השלישי — $11$."
   },
   {
     "id": "q-q-g8-stats-prob-7",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $12$, $13$, $24$, $25$, $27$?",
+    "question_text": "מהו החציון של המספרים $12, 13, 24, 25, 27$?",
     "options": [
-      "$19$",
       "$24$",
-      "$17$",
+      "$13$",
+      "$25$",
       "$20$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 12, 13, 24, 25, 27. החציון הוא הערך האמצעי — $24$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $12, 13, 24, 25, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $24$."
   },
   {
     "id": "q-q-g8-stats-prob-8",
     "topic_id": "g8-stats-prob",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $7$, $9$, $11$, $13$, $20$?",
+    "question_text": "מהו הממוצע של המספרים $7, 9, 11, 13, 20$?",
     "options": [
-      "$5$",
-      "$7$",
-      "$8$",
-      "$12$"
+      "$12$",
+      "$11$",
+      "$15$",
+      "$10$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום המספרים הוא $60$, ומחלקים במספר המספרים ($5$): $60\\div 5=12$."
+    "correct_index": 0,
+    "explanation": "סכום המספרים: $60$. מחלקים במספר המספרים ($5$): $60:5=12$."
   },
   {
     "id": "q-q-g8-stats-prob-9",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $4$, $6$, $11$, $28$, $29$?",
+    "question_text": "מהו החציון של המספרים $4, 6, 11, 28, 29$?",
     "options": [
-      "$4$",
-      "$6$",
       "$11$",
-      "$7$"
+      "$6$",
+      "$28$",
+      "$16$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 4, 6, 11, 28, 29. החציון הוא הערך האמצעי — $11$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $4, 6, 11, 28, 29$. יש 5 מספרים, והאמצעי הוא השלישי — $11$."
   },
   {
     "id": "q-q-g8-stats-prob-10",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $8$, $10$, $16$, $27$, $29$?",
+    "question_text": "מהו החציון של המספרים $8, 10, 16, 27, 29$?",
     "options": [
       "$16$",
-      "$12$",
-      "$9$",
-      "$11$"
+      "$10$",
+      "$27$",
+      "$18$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 8, 10, 16, 27, 29. החציון הוא הערך האמצעי — $16$."
+    "explanation": "ממיינים: $8, 10, 16, 27, 29$. יש 5 מספרים, והאמצעי הוא השלישי — $16$."
   },
   {
     "id": "q-q-g8-stats-prob-11",
     "topic_id": "g8-stats-prob",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $11$, $18$, $23$, $24$, $29$?",
+    "question_text": "מהו הממוצע של המספרים $11, 18, 23, 24, 29$?",
     "options": [
-      "$14$",
       "$21$",
-      "$17$",
-      "$16$"
+      "$23$",
+      "$24$",
+      "$19$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום המספרים הוא $105$, ומחלקים במספר המספרים ($5$): $105\\div 5=21$."
+    "correct_index": 0,
+    "explanation": "סכום המספרים: $105$. מחלקים במספר המספרים ($5$): $105:5=21$."
   },
   {
     "id": "q-q-g8-stats-prob-12",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $6$, $21$, $24$, $25$?",
+    "question_text": "מהו החציון של המספרים $2, 6, 21, 24, 25$?",
     "options": [
-      "$16$",
-      "$17$",
-      "$14$",
-      "$21$"
+      "$21$",
+      "$6$",
+      "$24$",
+      "$16$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 2, 6, 21, 24, 25. החציון הוא הערך האמצעי — $21$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $2, 6, 21, 24, 25$. יש 5 מספרים, והאמצעי הוא השלישי — $21$."
   },
   {
     "id": "q-q-g8-stats-prob-13",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $7$, $9$, $11$, $13$, $20$?",
+    "question_text": "מהו החציון של המספרים $7, 9, 11, 13, 20$?",
     "options": [
-      "$6$",
       "$11$",
-      "$4$",
-      "$7$"
+      "$9$",
+      "$13$",
+      "$12$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 7, 9, 11, 13, 20. החציון הוא הערך האמצעי — $11$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $7, 9, 11, 13, 20$. יש 5 מספרים, והאמצעי הוא השלישי — $11$."
   },
   {
     "id": "q-q-g8-stats-prob-14",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $6$, $13$, $21$, $22$, $25$?",
+    "question_text": "מהו החציון של המספרים $6, 13, 21, 22, 25$?",
     "options": [
-      "$16$",
-      "$14$",
-      "$17$",
-      "$21$"
+      "$21$",
+      "$13$",
+      "$22$",
+      "$17$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 6, 13, 21, 22, 25. החציון הוא הערך האמצעי — $21$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $6, 13, 21, 22, 25$. יש 5 מספרים, והאמצעי הוא השלישי — $21$."
   },
   {
     "id": "q-q-g8-stats-prob-15",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $3$, $5$, $9$, $20$, $21$?",
+    "question_text": "מהו החציון של המספרים $3, 5, 9, 20, 21$?",
     "options": [
-      "$4$",
       "$9$",
-      "$2$",
-      "$5$"
+      "$5$",
+      "$20$",
+      "$12$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 3, 5, 9, 20, 21. החציון הוא הערך האמצעי — $9$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $3, 5, 9, 20, 21$. יש 5 מספרים, והאמצעי הוא השלישי — $9$."
   },
   {
     "id": "q-q-g8-stats-prob-16",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $7$, $13$, $16$, $22$, $29$?",
+    "question_text": "מהו החציון של המספרים $7, 13, 16, 22, 29$?",
     "options": [
-      "$12$",
-      "$9$",
       "$16$",
-      "$11$"
+      "$13$",
+      "$22$",
+      "$17$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 7, 13, 16, 22, 29. החציון הוא הערך האמצעי — $16$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $7, 13, 16, 22, 29$. יש 5 מספרים, והאמצעי הוא השלישי — $16$."
   },
   {
     "id": "q-q-g8-stats-prob-17",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $4$, $7$, $15$, $24$, $27$?",
+    "question_text": "מהו החציון של המספרים $4, 7, 15, 24, 27$?",
     "options": [
-      "$10$",
       "$15$",
-      "$8$",
-      "$11$"
+      "$7$",
+      "$24$",
+      "$4$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 4, 7, 15, 24, 27. החציון הוא הערך האמצעי — $15$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $4, 7, 15, 24, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $15$."
   },
   {
     "id": "q-q-g8-stats-prob-18",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $9$, $13$, $14$, $25$, $28$?",
+    "question_text": "מהו החציון של המספרים $9, 13, 14, 25, 28$?",
     "options": [
-      "$7$",
-      "$10$",
-      "$9$",
-      "$14$"
+      "$14$",
+      "$13$",
+      "$25$",
+      "$18$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 9, 13, 14, 25, 28. החציון הוא הערך האמצעי — $14$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $9, 13, 14, 25, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $14$."
   },
   {
     "id": "q-q-g8-stats-prob-19",
     "topic_id": "g8-stats-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $9$, $10$, $17$, $19$, $22$?",
+    "question_text": "מהו החציון של המספרים $9, 10, 17, 19, 22$?",
     "options": [
-      "$13$",
       "$17$",
       "$10$",
-      "$12$"
+      "$19$",
+      "$15$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 9, 10, 17, 19, 22. החציון הוא הערך האמצעי — $17$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $9, 10, 17, 19, 22$. יש 5 מספרים, והאמצעי הוא השלישי — $17$."
   },
   {
     "id": "q-g8-cong-1",
@@ -3891,15 +3891,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-congruence",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ASA:",
+    "question_text": "מה פירוש משפט החפיפה ז.צ.ז (ASA)?",
     "options": [
       "זווית-צלע-זווית",
-      "SAS",
-      "SSS",
-      "HL"
+      "צלע-זווית-צלע",
+      "צלע-צלע-צלע",
+      "יתר-ניצב"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא זווית-צלע-זווית."
+    "explanation": "A — Angle (זווית), S — Side (צלע). ASA: זווית, הצלע שביניהן, וזווית — **זווית-צלע-זווית**."
   },
   {
     "id": "q-q-g8-congruence-2",
@@ -3936,15 +3936,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-congruence",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "SSS פרושו:",
+    "question_text": "מה פירוש משפט החפיפה צ.צ.צ (SSS)?",
     "options": [
-      "3 זוויות",
-      "היקף",
-      "צלע-זווית-צלע",
-      "3 צלעות"
+      "שלוש צלעות שוות בהתאמה",
+      "שלוש זוויות שוות בהתאמה",
+      "היקפים שווים",
+      "שתי צלעות והזווית שביניהן"
     ],
-    "correct_index": 3,
-    "explanation": "התשובה הנכונה היא 3 צלעות."
+    "correct_index": 0,
+    "explanation": "S — Side (צלע). SSS — שלוש צלעות שוות בהתאמה."
   },
   {
     "id": "q-q-g8-congruence-5",
@@ -3981,15 +3981,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-congruence",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "אם כל הצלעות שווות בזוגות:",
+    "question_text": "בשני משולשים כל שלוש הצלעות שוות בהתאמה. מה ניתן להסיק?",
     "options": [
-      "שטח שונה",
-      "רק דומים",
-      "לא קשור",
-      "חופפים (SSS)"
+      "המשולשים חופפים (צ.צ.צ)",
+      "המשולשים רק דומים",
+      "לשטחים אין קשר",
+      "אי אפשר להסיק דבר"
     ],
-    "correct_index": 3,
-    "explanation": "התשובה הנכונה היא חופפים (SSS)."
+    "correct_index": 0,
+    "explanation": "שלוש צלעות שוות בהתאמה — משפט צ.צ.צ. לכן המשולשים חופפים."
   },
   {
     "id": "q-q-g8-congruence-8",
@@ -4026,30 +4026,30 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-congruence",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "בחופפות, זוויות מתאימות:",
+    "question_text": "במשולשים חופפים, מה נכון לגבי הזוויות המתאימות?",
     "options": [
-      "שווות",
-      "כפולות",
-      "משלימות",
-      "90"
+      "הן שוות",
+      "סכומן $180°$",
+      "אחת כפולה מהשנייה",
+      "כל אחת $90°$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא שווות."
+    "explanation": "משולשים חופפים — זהים לגמרי. לכן כל הזוויות המתאימות **שוות**."
   },
   {
     "id": "q-q-g8-congruence-11",
     "topic_id": "g8-congruence",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "AAA לחוד:",
+    "question_text": "האם שוויון שלוש הזוויות (AAA) מספיק כדי להוכיח שמשולשים חופפים?",
     "options": [
-      "תמיד חופף",
-      "SAS",
-      "לא מספיק (דמיון)",
-      "SSS"
+      "לא — הוא מוכיח רק דמיון",
+      "כן, תמיד",
+      "כן, אבל רק במשולש ישר-זווית",
+      "כן, אם הזוויות חדות"
     ],
-    "correct_index": 2,
-    "explanation": "התשובה הנכונה היא לא מספיק (דמיון)."
+    "correct_index": 0,
+    "explanation": "משולש קטן ומשולש גדול יכולים להיות עם אותן זוויות. לכן AAA מוכיח רק **דמיון**, לא חפיפה."
   },
   {
     "id": "q-q-g8-congruence-12",
@@ -4086,30 +4086,30 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-congruence",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "SAS:",
+    "question_text": "מה פירוש משפט החפיפה צ.ז.צ (SAS)?",
     "options": [
-      "SSA",
-      "צלע-זווית-צלע",
-      "AAA",
-      "SSS"
+      "צלע-זווית-צלע (הזווית שבין שתי הצלעות)",
+      "זווית-צלע-זווית",
+      "צלע-צלע-צלע",
+      "שלוש זוויות"
     ],
-    "correct_index": 1,
-    "explanation": "התשובה הנכונה היא צלע-זווית-צלע."
+    "correct_index": 0,
+    "explanation": "SAS — שתי צלעות והזווית **שביניהן**. צלע-זווית-צלע."
   },
   {
     "id": "q-q-g8-congruence-15",
     "topic_id": "g8-congruence",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משולשים חופפים:",
+    "question_text": "מה הם משולשים חופפים?",
     "options": [
-      "שווי צורה וגודל",
-      "רק שטח",
-      "דומה",
-      "רק זוויות"
+      "משולשים זהים בצורה ובגודל",
+      "משולשים בעלי אותו שטח בלבד",
+      "משולשים בעלי אותן זוויות בלבד",
+      "משולשים בעלי אותו היקף בלבד"
     ],
     "correct_index": 0,
-    "explanation": "משולשים חופפים הם משולשים שווי צורה וגודל — כל הצלעות והזוויות המתאימות ביניהם שוות."
+    "explanation": "חופפים — אפשר להניח אחד על השני והם מתכסים בדיוק. כל הצלעות וכל הזוויות המתאימות שוות."
   },
   {
     "id": "q-q-g8-congruence-16",
@@ -4161,15 +4161,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-congruence",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "HL עבור:",
+    "question_text": "לאילו משולשים מתאים משפט החפיפה יתר-ניצב (HL)?",
     "options": [
-      "כל משולש",
-      "עיגול",
-      "משולשים ישרי-זווית",
-      "ריבוע"
+      "רק למשולשים ישרי-זווית",
+      "לכל משולש",
+      "רק למשולשים שווי-צלעות",
+      "רק למשולשים קהי-זווית"
     ],
-    "correct_index": 2,
-    "explanation": "התשובה הנכונה היא משולשים ישרי-זווית."
+    "correct_index": 0,
+    "explanation": "יתר וניצב קיימים רק במשולש ישר-זווית. לכן HL מתאים רק למשולשים **ישרי-זווית**."
   },
   {
     "id": "q-g8-sim-1",
@@ -4191,14 +4191,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "k=3, צלע 5 בקטן $\\to$ בגדול:",
+    "question_text": "שני משולשים דומים ביחס דמיון $k=3$ (הגדול לעומת הקטן). צלע במשולש הקטן היא $5$. מה אורך הצלע המתאימה במשולש הגדול?",
     "options": [
-      "$11$",
-      "$10$",
       "$15$",
-      "$8$"
+      "$8$",
+      "$45$",
+      "$5$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ביחס דמיון $k=3$, כופלים את הצלע ביחס: $5\\times 3=15$."
   },
   {
@@ -4206,14 +4206,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "k=3, שטח קטן 10 $\\to$ גדול:",
+    "question_text": "שני משולשים דומים ביחס דמיון $k=3$ (הגדול לעומת הקטן). שטח המשולש הקטן $10$. מה שטח המשולש הגדול?",
     "options": [
-      "$83$",
-      "$85$",
       "$90$",
-      "$86$"
+      "$30$",
+      "$13$",
+      "$60$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ביחס דמיון $k$, יחס השטחים הוא $k^2$: $10\\times 3^2=90$."
   },
   {
@@ -4221,12 +4221,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "k=4, שטח קטן 10 $\\to$ גדול:",
+    "question_text": "שני משולשים דומים ביחס דמיון $k=4$ (הגדול לעומת הקטן). שטח המשולש הקטן $10$. מה שטח המשולש הגדול?",
     "options": [
       "$160$",
-      "$155$",
-      "$153$",
-      "$156$"
+      "$40$",
+      "$14$",
+      "$80$"
     ],
     "correct_index": 0,
     "explanation": "ביחס דמיון $k$, יחס השטחים הוא $k^2$: $10\\times 4^2=160$."
@@ -4236,14 +4236,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "k=4, צלע 5 בקטן $\\to$ בגדול:",
+    "question_text": "שני משולשים דומים ביחס דמיון $k=4$ (הגדול לעומת הקטן). צלע במשולש הקטן היא $5$. מה אורך הצלע המתאימה במשולש הגדול?",
     "options": [
-      "$16$",
       "$20$",
-      "$13$",
-      "$15$"
+      "$9$",
+      "$80$",
+      "$5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ביחס דמיון $k=4$, כופלים את הצלע ביחס: $5\\times 4=20$."
   },
   {
@@ -4251,14 +4251,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "k=2, שטח קטן 10 $\\to$ גדול:",
+    "question_text": "שני משולשים דומים ביחס דמיון $k=2$ (הגדול לעומת הקטן). שטח המשולש הקטן $10$. מה שטח המשולש הגדול?",
     "options": [
-      "$35$",
       "$40$",
-      "$36$",
-      "$33$"
+      "$20$",
+      "$12$",
+      "$41$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ביחס דמיון $k$, יחס השטחים הוא $k^2$: $10\\times 2^2=40$."
   },
   {
@@ -4266,12 +4266,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "k=5, שטח קטן 10 $\\to$ גדול:",
+    "question_text": "שני משולשים דומים ביחס דמיון $k=5$ (הגדול לעומת הקטן). שטח המשולש הקטן $10$. מה שטח המשולש הגדול?",
     "options": [
       "$250$",
-      "$243$",
-      "$246$",
-      "$245$"
+      "$50$",
+      "$15$",
+      "$100$"
     ],
     "correct_index": 0,
     "explanation": "ביחס דמיון $k$, יחס השטחים הוא $k^2$: $10\\times 5^2=250$."
@@ -4281,59 +4281,59 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יחס 3:1. שטחים ביחס:",
+    "question_text": "שני משולשים דומים ביחס דמיון $3:1$. מהו היחס בין השטחים שלהם?",
     "options": [
       "$9:1$",
-      "$1:3$",
+      "$3:1$",
       "$6:1$",
-      "$3:1$"
+      "$1:3$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $9:1$."
+    "explanation": "יחס השטחים הוא ריבוע יחס הדמיון. $3^2:1^2=9:1$"
   },
   {
     "id": "q-q-g8-similarity-8",
     "topic_id": "g8-similarity",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "AAA מספיק ל:",
+    "question_text": "שני משולשים ששלוש זוויותיהם שוות בהתאמה (ז.ז.ז). מה ניתן להסיק?",
     "options": [
-      "שוויון",
-      "חופפות",
-      "מעגל",
-      "דמיון"
+      "הם דומים",
+      "הם חופפים",
+      "יש להם אותו שטח",
+      "אי אפשר להסיק דבר"
     ],
-    "correct_index": 3,
-    "explanation": "התשובה הנכונה היא דמיון."
+    "correct_index": 0,
+    "explanation": "זוויות שוות — אותה צורה. אבל לא בהכרח אותו גודל — לכן **דומים** (לא בהכרח חופפים)."
   },
   {
     "id": "q-q-g8-similarity-9",
     "topic_id": "g8-similarity",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יחס דמיון 2:1 (גדול:קטן). צלע 6 במשולש הגדול מתאימה לצלע:",
+    "question_text": "שני משולשים דומים ביחס $2:1$ (הגדול לעומת הקטן). צלע במשולש הגדול היא $6$. מה אורך הצלע המתאימה במשולש הקטן?",
     "options": [
       "$3$",
-      "$4$",
       "$12$",
+      "$4$",
       "$2$"
     ],
     "correct_index": 0,
-    "explanation": "ביחס דמיון $2:1$, הצלע המתאימה היא $6\\times\\frac{1}{2}=3$."
+    "explanation": "במשולש הקטן כל צלע קטנה פי $2$. $6:2=3$"
   },
   {
     "id": "q-q-g8-similarity-10",
     "topic_id": "g8-similarity",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "k=2, צלע 5 בקטן $\\to$ בגדול:",
+    "question_text": "שני משולשים דומים ביחס דמיון $k=2$ (הגדול לעומת הקטן). צלע במשולש הקטן היא $5$. מה אורך הצלע המתאימה במשולש הגדול?",
     "options": [
-      "$6$",
-      "$3$",
-      "$5$",
-      "$10$"
+      "$10$",
+      "$7$",
+      "$20$",
+      "$5$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "ביחס דמיון $k=2$, כופלים את הצלע ביחס: $5\\times 2=10$."
   },
   {
@@ -4341,27 +4341,27 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "דמיון: זוויות:",
+    "question_text": "במשולשים דומים, מה נכון לגבי הזוויות המתאימות?",
     "options": [
-      "צלעות שווות",
-      "שווות",
-      "SSS",
-      "שטח שווה"
+      "הן שוות",
+      "הן ביחס הדמיון",
+      "סכומן $180°$",
+      "אין קשר ביניהן"
     ],
-    "correct_index": 1,
-    "explanation": "התשובה הנכונה היא שווות."
+    "correct_index": 0,
+    "explanation": "דמיון שומר על הצורה — הזוויות המתאימות **שוות**. רק הצלעות משתנות (ביחס $k$)."
   },
   {
     "id": "q-q-g8-similarity-12",
     "topic_id": "g8-similarity",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "k=5, צלע 5 בקטן $\\to$ בגדול:",
+    "question_text": "שני משולשים דומים ביחס דמיון $k=5$ (הגדול לעומת הקטן). צלע במשולש הקטן היא $5$. מה אורך הצלע המתאימה במשולש הגדול?",
     "options": [
       "$25$",
-      "$20$",
-      "$18$",
-      "$21$"
+      "$10$",
+      "$125$",
+      "$5$"
     ],
     "correct_index": 0,
     "explanation": "ביחס דמיון $k=5$, כופלים את הצלע ביחס: $5\\times 5=25$."
@@ -4371,15 +4371,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-similarity",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "צלעות 4,6,8 ו-6,9,12. דומים?",
+    "question_text": "האם משולש שצלעותיו $4, 6, 8$ דומה למשולש שצלעותיו $6, 9, 12$?",
     "options": [
-      "כן (k=1.5)",
-      "רק חופפים",
+      "כן, ביחס $1.5$",
+      "כן, ביחס $2$",
       "לא",
-      "k=2"
+      "הם חופפים"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא כן (k=1.5)."
+    "explanation": "$6:4=1.5$, $9:6=1.5$, $12:8=1.5$. כל הצלעות באותו יחס — דומים, $k=1.5$."
   },
   {
     "id": "q-g8-py-1",
@@ -4401,14 +4401,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משולש ישר: a=8,b=15. יתר?",
+    "question_text": "במשולש ישר-זווית הניצבים הם $8$ ו-$15$. מהו אורך היתר?",
     "options": [
-      "$13$",
       "$17$",
-      "$12$",
-      "$10$"
+      "$23$",
+      "$16$",
+      "$28$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי משפט פיתגורס: $c=\\sqrt{a^2+b^2}=\\sqrt{8^2+15^2}=17$."
   },
   {
@@ -4416,12 +4416,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "5^2+12^2=?",
+    "question_text": "כמה זה $5^2+12^2$?",
     "options": [
       "$169$",
-      "$164$",
-      "$162$",
-      "$165$"
+      "$289$",
+      "$34$",
+      "$168$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $5^{2}+12^{2}=25+144=169$."
@@ -4431,14 +4431,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יתר 13, ניצב 5. ניצב שני?",
+    "question_text": "במשולש ישר-זווית היתר $13$ ואחד הניצבים $5$. מהו הניצב השני?",
     "options": [
-      "$7$",
-      "$5$",
       "$12$",
-      "$8$"
+      "$8$",
+      "$18$",
+      "$5$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי משפט פיתגורס: $b=\\sqrt{c^2-a^2}=\\sqrt{13^2-5^2}=12$."
   },
   {
@@ -4446,14 +4446,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משולש ישר: a=9,b=12. יתר?",
+    "question_text": "במשולש ישר-זווית הניצבים הם $9$ ו-$12$. מהו אורך היתר?",
     "options": [
-      "$10$",
-      "$11$",
       "$15$",
-      "$8$"
+      "$21$",
+      "$13$",
+      "$22$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי משפט פיתגורס: $c=\\sqrt{a^2+b^2}=\\sqrt{9^2+12^2}=15$."
   },
   {
@@ -4461,29 +4461,29 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "משפט פיתגורס:",
+    "question_text": "מה אומר משפט פיתגורס (במשולש ישר-זווית עם ניצבים $a,b$ ויתר $c$)?",
     "options": [
+      "$a^2+b^2=c^2$",
       "$a+b=c$",
-      "$ab=c$",
-      "$a^2-b^2=c$",
-      "$a^2+b^2=c^2$"
+      "$a\\cdot b=c$",
+      "$a^2-b^2=c$"
     ],
-    "correct_index": 3,
-    "explanation": "התשובה הנכונה היא $a^2+b^2=c^2$."
+    "correct_index": 0,
+    "explanation": "סכום ריבועי הניצבים שווה לריבוע היתר. $a^2+b^2=c^2$"
   },
   {
     "id": "q-q-g8-pythagoras-6",
     "topic_id": "g8-pythagoras",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יתר 29, ניצב 20. ניצב שני?",
+    "question_text": "במשולש ישר-זווית היתר $29$ ואחד הניצבים $20$. מהו הניצב השני?",
     "options": [
-      "$16$",
-      "$14$",
       "$21$",
-      "$17$"
+      "$9$",
+      "$49$",
+      "$20$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי משפט פיתגורס: $b=\\sqrt{c^2-a^2}=\\sqrt{29^2-20^2}=21$."
   },
   {
@@ -4491,14 +4491,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "6^2+8^2=?",
+    "question_text": "כמה זה $6^2+8^2$?",
     "options": [
-      "$95$",
-      "$93$",
       "$100$",
-      "$96$"
+      "$196$",
+      "$28$",
+      "$99$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $6^{2}+8^{2}=36+64=100$."
   },
   {
@@ -4506,12 +4506,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משולש ישר: a=5,b=12. יתר?",
+    "question_text": "במשולש ישר-זווית הניצבים הם $5$ ו-$12$. מהו אורך היתר?",
     "options": [
       "$13$",
-      "$9$",
-      "$8$",
-      "$6$"
+      "$17$",
+      "$14$",
+      "$16$"
     ],
     "correct_index": 0,
     "explanation": "לפי משפט פיתגורס: $c=\\sqrt{a^2+b^2}=\\sqrt{5^2+12^2}=13$."
@@ -4521,14 +4521,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משולש ישר: a=3,b=4. יתר?",
+    "question_text": "במשולש ישר-זווית הניצבים הם $3$ ו-$4$. מהו אורך היתר?",
     "options": [
-      "$1$",
-      "$-2$",
       "$5$",
-      "$0$"
+      "$7$",
+      "$6$",
+      "$2$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי משפט פיתגורס: $c=\\sqrt{a^2+b^2}=\\sqrt{3^2+4^2}=5$."
   },
   {
@@ -4536,14 +4536,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "9^2+12^2=?",
+    "question_text": "כמה זה $9^2+12^2$?",
     "options": [
-      "$218$",
-      "$221$",
-      "$220$",
-      "$225$"
+      "$225$",
+      "$441$",
+      "$42$",
+      "$224$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "החישוב: $9^{2}+12^{2}=81+144=225$."
   },
   {
@@ -4551,14 +4551,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יתר 25, ניצב 7. ניצב שני?",
+    "question_text": "במשולש ישר-זווית היתר $25$ ואחד הניצבים $7$. מהו הניצב השני?",
     "options": [
-      "$17$",
-      "$19$",
       "$24$",
-      "$20$"
+      "$18$",
+      "$32$",
+      "$7$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי משפט פיתגורס: $b=\\sqrt{c^2-a^2}=\\sqrt{25^2-7^2}=24$."
   },
   {
@@ -4566,14 +4566,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יתר 5, ניצב 3. ניצב שני?",
+    "question_text": "במשולש ישר-זווית היתר $5$ ואחד הניצבים $3$. מהו הניצב השני?",
     "options": [
-      "$0$",
-      "$-3$",
-      "$-1$",
-      "$4$"
+      "$4$",
+      "$2$",
+      "$8$",
+      "$3$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי משפט פיתגורס: $b=\\sqrt{c^2-a^2}=\\sqrt{5^2-3^2}=4$."
   },
   {
@@ -4581,29 +4581,29 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "האם 2,3,4 משולש ישר?",
+    "question_text": "האם משולש שצלעותיו $2, 3, 4$ הוא משולש ישר-זווית?",
     "options": [
-      "רק אם c=5",
+      "לא",
       "כן",
-      "תמיד",
-      "לא"
+      "רק אם מסובבים אותו",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 3,
-    "explanation": "התשובה הנכונה היא לא."
+    "correct_index": 0,
+    "explanation": "בודקים: $2^2+3^2=4+9=13$. $4^2=16\\neq13$. לכן **לא** ישר-זווית."
   },
   {
     "id": "q-q-g8-pythagoras-14",
     "topic_id": "g8-pythagoras",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משולש ישר: a=7,b=24. יתר?",
+    "question_text": "במשולש ישר-זווית הניצבים הם $7$ ו-$24$. מהו אורך היתר?",
     "options": [
-      "$21$",
-      "$20$",
-      "$18$",
-      "$25$"
+      "$25$",
+      "$31$",
+      "$26$",
+      "$62$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי משפט פיתגורס: $c=\\sqrt{a^2+b^2}=\\sqrt{7^2+24^2}=25$."
   },
   {
@@ -4611,14 +4611,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משולש ישר: a=9,b=40. יתר?",
+    "question_text": "במשולש ישר-זווית הניצבים הם $9$ ו-$40$. מהו אורך היתר?",
     "options": [
-      "$34$",
-      "$36$",
       "$41$",
-      "$37$"
+      "$49$",
+      "$42$",
+      "$168$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי משפט פיתגורס: $c=\\sqrt{a^2+b^2}=\\sqrt{9^2+40^2}=41$."
   },
   {
@@ -4626,14 +4626,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יתר 15, ניצב 9. ניצב שני?",
+    "question_text": "במשולש ישר-זווית היתר $15$ ואחד הניצבים $9$. מהו הניצב השני?",
     "options": [
-      "$7$",
-      "$8$",
-      "$5$",
-      "$12$"
+      "$12$",
+      "$6$",
+      "$24$",
+      "$9$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי משפט פיתגורס: $b=\\sqrt{c^2-a^2}=\\sqrt{15^2-9^2}=12$."
   },
   {
@@ -4641,14 +4641,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יתר 41, ניצב 9. ניצב שני?",
+    "question_text": "במשולש ישר-זווית היתר $41$ ואחד הניצבים $9$. מהו הניצב השני?",
     "options": [
-      "$35$",
-      "$36$",
-      "$33$",
-      "$40$"
+      "$40$",
+      "$32$",
+      "$50$",
+      "$9$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי משפט פיתגורס: $b=\\sqrt{c^2-a^2}=\\sqrt{41^2-9^2}=40$."
   },
   {
@@ -4656,14 +4656,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "9^2+40^2=?",
+    "question_text": "כמה זה $9^2+40^2$?",
     "options": [
-      "$1677$",
-      "$1681$",
-      "$1674$",
-      "$1676$"
+      "$1{,}681$",
+      "$2{,}401$",
+      "$98$",
+      "$1{,}680$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "החישוב: $9^{2}+40^{2}=81+1600=1681$."
   },
   {
@@ -4671,14 +4671,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-pythagoras",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "7^2+24^2=?",
+    "question_text": "כמה זה $7^2+24^2$?",
     "options": [
-      "$620$",
-      "$618$",
-      "$621$",
-      "$625$"
+      "$625$",
+      "$961$",
+      "$62$",
+      "$624$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "החישוב: $7^{2}+24^{2}=49+576=625$."
   },
   {
@@ -4701,14 +4701,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח עיגול r=5:",
+    "question_text": "מהו שטח עיגול שרדיוסו $5$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$25$",
       "$25\\pi$",
       "$10\\pi$",
-      "$2\\pi$"
+      "$25$",
+      "$5\\pi$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 5^2=25\\pi$."
   },
   {
@@ -4716,14 +4716,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=9 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $9$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$81\\pi$",
       "$18\\pi$",
+      "$81\\pi$",
       "$9\\pi$",
-      "$\\pi$"
+      "$36\\pi$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 9\\times\\pi=18\\pi$."
   },
   {
@@ -4731,14 +4731,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רדיוס 2. קוטר?",
+    "question_text": "רדיוס מעגל הוא $2$. מהו הקוטר?",
     "options": [
-      "$-3$",
       "$4$",
-      "$-1$",
-      "$0$"
+      "$2$",
+      "$5$",
+      "$1$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 2=4$."
   },
   {
@@ -4746,14 +4746,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=5 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $5$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$\\pi$",
-      "$5\\pi$",
       "$10\\pi$",
-      "$25\\pi$"
+      "$25\\pi$",
+      "$5\\pi$",
+      "$20\\pi$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 5\\times\\pi=10\\pi$."
   },
   {
@@ -4761,12 +4761,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=8 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $8$? (השאירו את התשובה עם $\\pi$)",
     "options": [
       "$16\\pi$",
-      "$\\pi$",
       "$64\\pi$",
-      "$8\\pi$"
+      "$8\\pi$",
+      "$32\\pi$"
     ],
     "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 8\\times\\pi=16\\pi$."
@@ -4776,14 +4776,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רדיוס 7. קוטר?",
+    "question_text": "רדיוס מעגל הוא $7$. מהו הקוטר?",
     "options": [
-      "$10$",
       "$14$",
-      "$9$",
-      "$7$"
+      "$7$",
+      "$49$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 7=14$."
   },
   {
@@ -4791,14 +4791,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רדיוס 3. קוטר?",
+    "question_text": "רדיוס מעגל הוא $3$. מהו הקוטר?",
     "options": [
-      "$-1$",
-      "$1$",
-      "$2$",
-      "$6$"
+      "$6$",
+      "$3$",
+      "$9$",
+      "$1$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 3=6$."
   },
   {
@@ -4806,14 +4806,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=2 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $2$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$\\pi$",
-      "$2\\pi$",
       "$4\\pi$",
-      "$8\\pi$"
+      "$2\\pi$",
+      "$8\\pi$",
+      "$5\\pi$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 2\\times\\pi=4\\pi$."
   },
   {
@@ -4821,12 +4821,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח עיגול r=6:",
+    "question_text": "מהו שטח עיגול שרדיוסו $6$? (השאירו את התשובה עם $\\pi$)",
     "options": [
       "$36\\pi$",
-      "$36$",
       "$12\\pi$",
-      "$2\\pi$"
+      "$36$",
+      "$6\\pi$"
     ],
     "correct_index": 0,
     "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 6^2=36\\pi$."
@@ -4836,12 +4836,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח עיגול r=4:",
+    "question_text": "מהו שטח עיגול שרדיוסו $4$? (השאירו את התשובה עם $\\pi$)",
     "options": [
       "$16\\pi$",
-      "$16$",
       "$8\\pi$",
-      "$2\\pi$"
+      "$16$",
+      "$4\\pi$"
     ],
     "correct_index": 0,
     "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 4^2=16\\pi$."
@@ -4851,14 +4851,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רדיוס 5. קוטר?",
+    "question_text": "רדיוס מעגל הוא $5$. מהו הקוטר?",
     "options": [
-      "$5$",
       "$10$",
-      "$6$",
-      "$3$"
+      "$5$",
+      "$25$",
+      "$2$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 5=10$."
   },
   {
@@ -4866,14 +4866,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=1 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $1$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$3\\pi$",
       "$2\\pi$",
+      "$1\\pi$",
       "$4\\pi$",
-      "$\\pi$"
+      "$3\\pi$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 1\\times\\pi=2\\pi$."
   },
   {
@@ -4881,12 +4881,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רדיוס 1. קוטר?",
+    "question_text": "רדיוס מעגל הוא $1$. מהו הקוטר?",
     "options": [
       "$2$",
-      "$-2$",
-      "$-5$",
-      "$-3$"
+      "$1$",
+      "$3$",
+      "$4$"
     ],
     "correct_index": 0,
     "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 1=2$."
@@ -4896,14 +4896,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רדיוס 4. קוטר?",
+    "question_text": "רדיוס מעגל הוא $4$. מהו הקוטר?",
     "options": [
-      "$3$",
-      "$4$",
       "$8$",
-      "$1$"
+      "$4$",
+      "$16$",
+      "$2$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 4=8$."
   },
   {
@@ -4911,14 +4911,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רדיוס 6. קוטר?",
+    "question_text": "רדיוס מעגל הוא $6$. מהו הקוטר?",
     "options": [
-      "$7$",
       "$12$",
-      "$8$",
-      "$5$"
+      "$6$",
+      "$36$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 6=12$."
   },
   {
@@ -4926,14 +4926,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רדיוס 8. קוטר?",
+    "question_text": "רדיוס מעגל הוא $8$. מהו הקוטר?",
     "options": [
-      "$12$",
       "$16$",
-      "$9$",
-      "$11$"
+      "$8$",
+      "$64$",
+      "$4$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הקוטר הוא כפול מהרדיוס: $2\\times 8=16$."
   },
   {
@@ -4941,14 +4941,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח עיגול r=10:",
+    "question_text": "מהו שטח עיגול שרדיוסו $10$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$20\\pi$",
       "$100\\pi$",
+      "$20\\pi$",
       "$100$",
-      "$2\\pi$"
+      "$10\\pi$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח עיגול הוא $\\pi r^2=\\pi\\times 10^2=100\\pi$."
   },
   {
@@ -4956,12 +4956,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=10 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $10$? (השאירו את התשובה עם $\\pi$)",
     "options": [
       "$20\\pi$",
       "$100\\pi$",
       "$10\\pi$",
-      "$\\pi$"
+      "$40\\pi$"
     ],
     "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 10\\times\\pi=20\\pi$."
@@ -4971,12 +4971,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-circle",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף עיגול r=6 ($\\pi$):",
+    "question_text": "מהו היקף מעגל שרדיוסו $6$? (השאירו את התשובה עם $\\pi$)",
     "options": [
       "$12\\pi$",
+      "$36\\pi$",
       "$6\\pi$",
-      "$\\pi$",
-      "$36\\pi$"
+      "$24\\pi$"
     ],
     "correct_index": 0,
     "explanation": "היקף עיגול הוא $2\\pi r=2\\times 6\\times\\pi=12\\pi$."
@@ -16476,15 +16476,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g8-linear-eq-of-line",
     "difficulty": 5,
     "type": "mcq",
-    "question_text": "שלושה ישרים: $y=2x+1$, $y=2x+1$, ו-$y=3x+1$. איזה זוג מהם נחתך באינסוף נקודות?",
+    "question_text": "נתונים הישרים $y=2x+1$, $y=\\frac{4x+2}{2}$ ו-$y=3x+1$. אילו שניים מתלכדים (נחתכים באינסוף נקודות)?",
     "options": [
-      "$y=2x+1$ ו-$y=2x+1$ (הזוג הראשון)",
+      "$y=2x+1$ ו-$y=\\frac{4x+2}{2}$",
       "$y=2x+1$ ו-$y=3x+1$",
-      "כל שלושתם יחד",
-      "אף זוג לא"
+      "$y=\\frac{4x+2}{2}$ ו-$y=3x+1$",
+      "אף זוג"
     ],
     "correct_index": 0,
-    "explanation": "שני הישרים הראשונים זהים לחלוטין (אותו $m$ ואותו $b$), ולכן יש להם אינסוף נקודות משותפות."
+    "explanation": "$\\frac{4x+2}{2}=2x+1$ — זה אותו ישר בדיוק כמו $y=2x+1$, ולכן יש להם אינסוף נקודות משותפות."
   },
   {
     "id": "q-g8-ineq-1",
@@ -17980,7 +17980,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "options": [
       "$5$",
       "$25$",
-      "$\\sqrt{25}$",
+      "$\\sqrt{5}$",
       "$10$"
     ],
     "correct_index": 0,
