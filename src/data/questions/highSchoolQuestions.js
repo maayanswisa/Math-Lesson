@@ -36,37 +36,37 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-society",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $6$, $12$, $13$, $15$, $24$?",
+    "question_text": "מהו הממוצע של המספרים $6, 12, 13, 15, 24$?",
     "options": [
-      "$10$",
-      "$9$",
       "$14$",
-      "$7$"
+      "$13$",
+      "$17$",
+      "$12$"
     ],
-    "correct_index": 2,
-    "explanation": "סכום המספרים הוא $70$, ומחלקים במספר המספרים ($5$): $70\\div 5=14$."
+    "correct_index": 0,
+    "explanation": "סכום המספרים: $70$. מחלקים במספר המספרים ($5$): $70:5=14$."
   },
   {
     "id": "q-q-g10-u3-science-society-2",
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $8$, $17$, $23$, $28$?",
+    "question_text": "מהו החציון של המספרים $2, 8, 17, 23, 28$?",
     "options": [
-      "$13$",
-      "$12$",
       "$17$",
-      "$10$"
+      "$8$",
+      "$23$",
+      "$16$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 2, 8, 17, 23, 28. החציון הוא הערך האמצעי — $17$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $2, 8, 17, 23, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $17$."
   },
   {
     "id": "q-q-g10-u3-science-society-3",
     "topic_id": "g10-u3-science-society",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שכיח ב-3,7,7,2:",
+    "question_text": "מהו השכיח של המספרים $3, 7, 7, 2$?",
     "options": [
       "$2$",
       "$3$",
@@ -81,225 +81,225 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $6$, $11$, $13$, $17$, $19$?",
+    "question_text": "מהו החציון של המספרים $6, 11, 13, 17, 19$?",
     "options": [
       "$13$",
-      "$9$",
-      "$8$",
+      "$11$",
+      "$17$",
       "$6$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 6, 11, 13, 17, 19. החציון הוא הערך האמצעי — $13$."
+    "explanation": "ממיינים: $6, 11, 13, 17, 19$. יש 5 מספרים, והאמצעי הוא השלישי — $13$."
   },
   {
     "id": "q-q-g10-u3-science-society-5",
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $4$, $5$, $20$, $26$, $27$?",
+    "question_text": "מהו החציון של המספרים $4, 5, 20, 26, 27$?",
     "options": [
-      "$16$",
       "$20$",
-      "$13$",
-      "$15$"
+      "$5$",
+      "$26$",
+      "$16$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 4, 5, 20, 26, 27. החציון הוא הערך האמצעי — $20$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $4, 5, 20, 26, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $20$."
   },
   {
     "id": "q-q-g10-u3-science-society-6",
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $5$, $6$, $16$, $17$, $20$?",
+    "question_text": "מהו החציון של המספרים $5, 6, 16, 17, 20$?",
     "options": [
-      "$9$",
-      "$12$",
-      "$11$",
-      "$16$"
+      "$16$",
+      "$6$",
+      "$17$",
+      "$13$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 5, 6, 16, 17, 20. החציון הוא הערך האמצעי — $16$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $5, 6, 16, 17, 20$. יש 5 מספרים, והאמצעי הוא השלישי — $16$."
   },
   {
     "id": "q-q-g10-u3-science-society-7",
     "topic_id": "g10-u3-science-society",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $8$, $9$, $17$, $21$, $25$?",
+    "question_text": "מהו הממוצע של המספרים $8, 9, 17, 21, 25$?",
     "options": [
-      "$9$",
-      "$11$",
       "$16$",
-      "$12$"
+      "$17$",
+      "$20$",
+      "$14$"
     ],
-    "correct_index": 2,
-    "explanation": "סכום המספרים הוא $80$, ומחלקים במספר המספרים ($5$): $80\\div 5=16$."
+    "correct_index": 0,
+    "explanation": "סכום המספרים: $80$. מחלקים במספר המספרים ($5$): $80:5=16$."
   },
   {
     "id": "q-q-g10-u3-science-society-8",
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $6$, $11$, $17$, $24$, $29$?",
+    "question_text": "מהו החציון של המספרים $6, 11, 17, 24, 29$?",
     "options": [
-      "$13$",
       "$17$",
-      "$12$",
-      "$10$"
+      "$11$",
+      "$24$",
+      "$6$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 6, 11, 17, 24, 29. החציון הוא הערך האמצעי — $17$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $6, 11, 17, 24, 29$. יש 5 מספרים, והאמצעי הוא השלישי — $17$."
   },
   {
     "id": "q-q-g10-u3-science-society-9",
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $3$, $4$, $19$, $24$, $29$?",
+    "question_text": "מהו החציון של המספרים $3, 4, 19, 24, 29$?",
     "options": [
-      "$14$",
       "$19$",
-      "$12$",
-      "$15$"
+      "$4$",
+      "$24$",
+      "$16$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 3, 4, 19, 24, 29. החציון הוא הערך האמצעי — $19$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $3, 4, 19, 24, 29$. יש 5 מספרים, והאמצעי הוא השלישי — $19$."
   },
   {
     "id": "q-q-g10-u3-science-society-10",
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $12$, $14$, $18$, $26$?",
+    "question_text": "מהו החציון של המספרים $2, 12, 14, 18, 26$?",
     "options": [
-      "$9$",
-      "$10$",
-      "$7$",
-      "$14$"
+      "$14$",
+      "$12$",
+      "$18$",
+      "$2$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 2, 12, 14, 18, 26. החציון הוא הערך האמצעי — $14$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $2, 12, 14, 18, 26$. יש 5 מספרים, והאמצעי הוא השלישי — $14$."
   },
   {
     "id": "q-q-g10-u3-science-society-11",
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $7$, $15$, $20$, $25$?",
+    "question_text": "מהו החציון של המספרים $2, 7, 15, 20, 25$?",
     "options": [
-      "$10$",
       "$15$",
-      "$8$",
-      "$11$"
+      "$7$",
+      "$20$",
+      "$14$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 2, 7, 15, 20, 25. החציון הוא הערך האמצעי — $15$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $2, 7, 15, 20, 25$. יש 5 מספרים, והאמצעי הוא השלישי — $15$."
   },
   {
     "id": "q-q-g10-u3-science-society-12",
     "topic_id": "g10-u3-science-society",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $2$, $22$, $23$, $25$, $28$?",
+    "question_text": "מהו הממוצע של המספרים $2, 22, 23, 25, 28$?",
     "options": [
-      "$16$",
-      "$15$",
-      "$13$",
-      "$20$"
+      "$20$",
+      "$23$",
+      "$25$",
+      "$18$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום המספרים הוא $100$, ומחלקים במספר המספרים ($5$): $100\\div 5=20$."
+    "correct_index": 0,
+    "explanation": "סכום המספרים: $100$. מחלקים במספר המספרים ($5$): $100:5=20$."
   },
   {
     "id": "q-q-g10-u3-science-society-13",
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $5$, $6$, $23$, $26$, $28$?",
+    "question_text": "מהו החציון של המספרים $5, 6, 23, 26, 28$?",
     "options": [
-      "$19$",
-      "$16$",
-      "$18$",
-      "$23$"
+      "$23$",
+      "$6$",
+      "$26$",
+      "$18$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 5, 6, 23, 26, 28. החציון הוא הערך האמצעי — $23$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $5, 6, 23, 26, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $23$."
   },
   {
     "id": "q-q-g10-u3-science-society-14",
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $9$, $12$, $21$, $23$, $24$?",
+    "question_text": "מהו החציון של המספרים $9, 12, 21, 23, 24$?",
     "options": [
-      "$14$",
       "$21$",
-      "$16$",
-      "$17$"
+      "$12$",
+      "$23$",
+      "$18$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 9, 12, 21, 23, 24. החציון הוא הערך האמצעי — $21$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $9, 12, 21, 23, 24$. יש 5 מספרים, והאמצעי הוא השלישי — $21$."
   },
   {
     "id": "q-q-g10-u3-science-society-15",
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $3$, $5$, $7$, $13$, $27$?",
+    "question_text": "מהו החציון של המספרים $3, 5, 7, 13, 27$?",
     "options": [
-      "$3$",
       "$7$",
-      "$0$",
-      "$2$"
+      "$5$",
+      "$13$",
+      "$11$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 3, 5, 7, 13, 27. החציון הוא הערך האמצעי — $7$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $3, 5, 7, 13, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $7$."
   },
   {
     "id": "q-q-g10-u3-science-society-16",
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $3$, $6$, $10$, $13$, $15$?",
+    "question_text": "מהו החציון של המספרים $3, 6, 10, 13, 15$?",
     "options": [
-      "$6$",
-      "$5$",
       "$10$",
-      "$3$"
+      "$6$",
+      "$13$",
+      "$9$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 3, 6, 10, 13, 15. החציון הוא הערך האמצעי — $10$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $3, 6, 10, 13, 15$. יש 5 מספרים, והאמצעי הוא השלישי — $10$."
   },
   {
     "id": "q-q-g10-u3-science-society-17",
     "topic_id": "g10-u3-science-society",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $2$, $8$, $12$, $18$, $25$?",
+    "question_text": "מהו הממוצע של המספרים $2, 8, 12, 18, 25$?",
     "options": [
       "$13$",
-      "$6$",
-      "$8$",
-      "$9$"
+      "$12$",
+      "$16$",
+      "$11$"
     ],
     "correct_index": 0,
-    "explanation": "סכום המספרים הוא $65$, ומחלקים במספר המספרים ($5$): $65\\div 5=13$."
+    "explanation": "סכום המספרים: $65$. מחלקים במספר המספרים ($5$): $65:5=13$."
   },
   {
     "id": "q-q-g10-u3-science-society-18",
     "topic_id": "g10-u3-science-society",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $15$, $17$, $19$, $24$, $27$?",
+    "question_text": "מהו החציון של המספרים $15, 17, 19, 24, 27$?",
     "options": [
-      "$12$",
       "$19$",
-      "$14$",
-      "$15$"
+      "$17$",
+      "$24$",
+      "$20$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 15, 17, 19, 24, 27. החציון הוא הערך האמצעי — $19$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $15, 17, 19, 24, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $19$."
   },
   {
     "id": "q-g10-u3-space-1",
@@ -338,12 +338,12 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $50\\%$ מ-$60$?",
     "options": [
-      "$25$",
-      "$26$",
       "$30$",
-      "$23$"
+      "$300$",
+      "$50$",
+      "$35$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$60$ הוא $\\frac{50}{100}\\times 60=30$."
   },
   {
@@ -353,12 +353,12 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $12\\%$ מ-$100$?",
     "options": [
-      "$8$",
       "$12$",
-      "$5$",
-      "$7$"
+      "$120$",
+      "$88$",
+      "$13$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $12\\%=\\frac{12}{100}$. לכן $12\\%$ מ-$100$ הוא $\\frac{12}{100}\\times 100=12$."
   },
   {
@@ -368,12 +368,12 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $15\\%$ מ-$80$?",
     "options": [
-      "$5$",
       "$12$",
-      "$8$",
-      "$7$"
+      "$120$",
+      "$15$",
+      "$68$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $15\\%=\\frac{15}{100}$. לכן $15\\%$ מ-$80$ הוא $\\frac{15}{100}\\times 80=12$."
   },
   {
@@ -383,12 +383,12 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $20\\%$ מ-$150$?",
     "options": [
-      "$25$",
-      "$23$",
-      "$26$",
-      "$30$"
+      "$30$",
+      "$300$",
+      "$20$",
+      "$120$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $20\\%=\\frac{20}{100}$. לכן $20\\%$ מ-$150$ הוא $\\frac{20}{100}\\times 150=30$."
   },
   {
@@ -398,12 +398,12 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $10\\%$ מ-$80$?",
     "options": [
-      "$3$",
-      "$1$",
       "$8$",
-      "$4$"
+      "$80$",
+      "$10$",
+      "$72$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $10\\%=\\frac{10}{100}$. לכן $10\\%$ מ-$80$ הוא $\\frac{10}{100}\\times 80=8$."
   },
   {
@@ -413,12 +413,12 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $40\\%$ מ-$50$?",
     "options": [
-      "$15$",
       "$20$",
-      "$16$",
-      "$13$"
+      "$200$",
+      "$40$",
+      "$30$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $40\\%=\\frac{40}{100}$. לכן $40\\%$ מ-$50$ הוא $\\frac{40}{100}\\times 50=20$."
   },
   {
@@ -426,7 +426,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-finance",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "מחיר 80, הנחה 25%. מחיר חדש?",
+    "question_text": "מוצר עולה $80$ ש\"ח, ויש עליו הנחה של $25\\%$. כמה ישלמו אחרי ההנחה?",
     "options": [
       "$60$",
       "$55$",
@@ -443,12 +443,12 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $60\\%$ מ-$50$?",
     "options": [
-      "$23$",
-      "$25$",
       "$30$",
-      "$26$"
+      "$300$",
+      "$60$",
+      "$20$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $60\\%=\\frac{60}{100}$. לכן $60\\%$ מ-$50$ הוא $\\frac{60}{100}\\times 50=30$."
   },
   {
@@ -456,7 +456,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-finance",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "בטאו את $\\dfrac{1}{4}$ באחוזים:",
+    "question_text": "כמה אחוזים הם $\\frac{1}{4}$?",
     "options": [
       "$40\\%$",
       "$10\\%$",
@@ -473,12 +473,12 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $50\\%$ מ-$40$?",
     "options": [
-      "$30$",
-      "$25$",
       "$20$",
-      "$10$"
+      "$200$",
+      "$50$",
+      "$25$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$40$ הוא $\\frac{50}{100}\\times 40=20$."
   },
   {
@@ -488,12 +488,12 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $5\\%$ מ-$200$?",
     "options": [
+      "$10$",
+      "$100$",
       "$5$",
-      "$3$",
-      "$6$",
-      "$10$"
+      "$190$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $5\\%=\\frac{5}{100}$. לכן $5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
@@ -501,7 +501,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-finance",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "ריבית 5% על 200:",
+    "question_text": "הפקידו $200$ ש\"ח בחיסכון עם ריבית של $5\\%$ לשנה. כמה ש\"ח ריבית יתקבלו אחרי שנה?",
     "options": [
       "$10$",
       "$15$",
@@ -519,9 +519,9 @@ export const QUESTIONS = [
     "question_text": "מהו $30\\%$ מ-$90$?",
     "options": [
       "$27$",
-      "$23$",
-      "$22$",
-      "$20$"
+      "$270$",
+      "$30$",
+      "$63$"
     ],
     "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $30\\%=\\frac{30}{100}$. לכן $30\\%$ מ-$90$ הוא $\\frac{30}{100}\\times 90=27$."
@@ -534,9 +534,9 @@ export const QUESTIONS = [
     "question_text": "מהו $75\\%$ מ-$80$?",
     "options": [
       "$60$",
-      "$53$",
-      "$55$",
-      "$56$"
+      "$600$",
+      "$75$",
+      "$20$"
     ],
     "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $75\\%=\\frac{75}{100}$. לכן $75\\%$ מ-$80$ הוא $\\frac{75}{100}\\times 80=60$."
@@ -548,12 +548,12 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $8\\%$ מ-$50$?",
     "options": [
-      "$-3$",
-      "$-1$",
       "$4$",
-      "$0$"
+      "$40$",
+      "$8$",
+      "$46$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $8\\%=\\frac{8}{100}$. לכן $8\\%$ מ-$50$ הוא $\\frac{8}{100}\\times 50=4$."
   },
   {
@@ -561,7 +561,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-finance",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "בטאו את $20$ מתוך $100$ באחוזים:",
+    "question_text": "כמה אחוזים הם $20$ מתוך $100$?",
     "options": [
       "$25\\%$",
       "$20\\%$",
@@ -579,9 +579,9 @@ export const QUESTIONS = [
     "question_text": "מהו $25\\%$ מ-$40$?",
     "options": [
       "$10$",
-      "$5$",
-      "$3$",
-      "$6$"
+      "$100$",
+      "$25$",
+      "$30$"
     ],
     "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $25\\%=\\frac{25}{100}$. לכן $25\\%$ מ-$40$ הוא $\\frac{25}{100}\\times 40=10$."
@@ -591,14 +591,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-finance",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+7=42$. $x$?",
+    "question_text": "פתרו את המשוואה $x+7=42$. מהו $x$?",
     "options": [
-      "$30$",
       "$35$",
-      "$28$",
-      "$31$"
+      "$49$",
+      "$33$",
+      "$36$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מעבירים את $7$ אגף עם סימן הפוך: $x=42-7=35$."
   },
   {
@@ -606,14 +606,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-finance",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+11=55$. $x$?",
+    "question_text": "פתרו את המשוואה $x+11=55$. מהו $x$?",
     "options": [
-      "$39$",
       "$44$",
-      "$37$",
-      "$40$"
+      "$66$",
+      "$42$",
+      "$45$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מעבירים את $11$ אגף עם סימן הפוך: $x=55-11=44$."
   },
   {
@@ -1566,14 +1566,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(5)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(5)$?",
     "options": [
-      "$4$",
-      "$6$",
       "$11$",
-      "$7$"
+      "$10$",
+      "$3$",
+      "$13$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=5$: $f(5)=2\\times 5+1=11$."
   },
   {
@@ -1581,7 +1581,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$(f\\circ g)(x)=f(g(x))$. אם $g(x)=x+1$, $f(x)=2x$ אז $(f\\circ g)(3)$=",
+    "question_text": "נתון $g(x)=x+1$ ו-$f(x)=2x$. מהו $f(g(3))$?",
     "options": [
       "$4$",
       "$6$",
@@ -1596,29 +1596,29 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "תחום הגדרה $f(x)=1/(x-5)$ ללא:",
+    "question_text": "מהו תחום ההגדרה של הפונקציה $f(x)=\\frac{1}{x-5}$?",
     "options": [
-      "$x\\neq 0$",
-      "הכל",
+      "$x\\neq 5$",
+      "כל $x$",
       "$x>5$",
-      "$x\\neq 5$"
+      "$x\\neq 0$"
     ],
-    "correct_index": 3,
-    "explanation": "המכנה לא יכול להתאפס: $x-5\\neq 0$, כלומר $x\\neq 5$."
+    "correct_index": 0,
+    "explanation": "אסור שהמכנה יתאפס: $x-5\\neq0$, כלומר $x\\neq5$."
   },
   {
     "id": "q-q-g10-u4-precalculus-4",
     "topic_id": "g10-u4-precalculus",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=4^x$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=4^x$. מהו $f(2)$?",
     "options": [
-      "$9$",
-      "$12$",
-      "$11$",
-      "$16$"
+      "$16$",
+      "$8$",
+      "$6$",
+      "$18$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=4^{2}=16$."
   },
   {
@@ -1626,14 +1626,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(3)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(3)$?",
     "options": [
-      "$2$",
-      "$4$",
       "$9$",
-      "$5$"
+      "$6$",
+      "$5$",
+      "$10$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=3$: $f(3)=3^{2}=9$."
   },
   {
@@ -1641,12 +1641,12 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(5)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(5)$?",
     "options": [
       "$25$",
-      "$18$",
-      "$21$",
-      "$20$"
+      "$10$",
+      "$7$",
+      "$26$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=5$: $f(5)=5^{2}=25$."
@@ -1656,14 +1656,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(4)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(4)$?",
     "options": [
-      "$5$",
-      "$4$",
       "$9$",
-      "$2$"
+      "$8$",
+      "$3$",
+      "$11$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=4$: $f(4)=2\\times 4+1=9$."
   },
   {
@@ -1671,14 +1671,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(1)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(1)$?",
     "options": [
-      "$-6$",
-      "$-4$",
-      "$-3$",
-      "$1$"
+      "$1$",
+      "$2$",
+      "$3$",
+      "$0$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=1$: $f(1)=1^{2}=1$."
   },
   {
@@ -1686,14 +1686,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(2)$?",
     "options": [
-      "$-1$",
-      "$-3$",
-      "$0$",
-      "$4$"
+      "$4$",
+      "$5$",
+      "$3$",
+      "$6$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=2^{2}=4$."
   },
   {
@@ -1701,14 +1701,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "אם $f(x)=x+3$ אז $f(0)$=",
+    "question_text": "נתונה הפונקציה $f(x)=x+3$. מהו $f(0)$?",
     "options": [
-      "$-3$",
-      "$1$",
+      "$3$",
       "$0$",
-      "$3$"
+      "$4$",
+      "$2$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=0$: $f(0)=0+3=3$."
   },
   {
@@ -1716,14 +1716,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(2)$?",
     "options": [
-      "$0$",
-      "$-2$",
       "$5$",
-      "$1$"
+      "$4$",
+      "$3$",
+      "$7$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=2\\times 2+1=5$."
   },
   {
@@ -1731,14 +1731,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(1)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(1)$?",
     "options": [
-      "$-1$",
       "$3$",
-      "$-2$",
-      "$-4$"
+      "$2$",
+      "$5$",
+      "$4$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=1$: $f(1)=2\\times 1+1=3$."
   },
   {
@@ -1746,29 +1746,29 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "תחום הגדרה $f(x)=1/(x-4)$ ללא:",
+    "question_text": "מהו תחום ההגדרה של הפונקציה $f(x)=\\frac{1}{x-4}$?",
     "options": [
       "$x\\neq 4$",
-      "הכל",
+      "כל $x$",
       "$x>4$",
       "$x\\neq 0$"
     ],
     "correct_index": 0,
-    "explanation": "המכנה לא יכול להתאפס: $x-4\\neq 0$, כלומר $x\\neq 4$."
+    "explanation": "אסור שהמכנה יתאפס: $x-4\\neq0$, כלומר $x\\neq4$."
   },
   {
     "id": "q-q-g10-u4-precalculus-14",
     "topic_id": "g10-u4-precalculus",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=3^x$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=3^x$. מהו $f(2)$?",
     "options": [
-      "$2$",
+      "$9$",
+      "$6$",
       "$5$",
-      "$4$",
-      "$9$"
+      "$8$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=3^{2}=9$."
   },
   {
@@ -1776,27 +1776,27 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "תחום הגדרה $f(x)=1/(x-2)$ ללא:",
+    "question_text": "מהו תחום ההגדרה של הפונקציה $f(x)=\\frac{1}{x-2}$?",
     "options": [
-      "הכל",
       "$x\\neq 2$",
+      "כל $x$",
       "$x>2$",
       "$x\\neq 0$"
     ],
-    "correct_index": 1,
-    "explanation": "המכנה לא יכול להתאפס: $x-2\\neq 0$, כלומר $x\\neq 2$."
+    "correct_index": 0,
+    "explanation": "אסור שהמכנה יתאפס: $x-2\\neq0$, כלומר $x\\neq2$."
   },
   {
     "id": "q-q-g10-u4-precalculus-16",
     "topic_id": "g10-u4-precalculus",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2^x$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2^x$. מהו $f(2)$?",
     "options": [
       "$4$",
-      "$0$",
-      "$-1$",
-      "$-3$"
+      "$6$",
+      "$5$",
+      "$3$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=2^{2}=4$."
@@ -1806,14 +1806,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=1^x$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=1^x$. מהו $f(2)$?",
     "options": [
-      "$-4$",
       "$1$",
-      "$-3$",
-      "$-6$"
+      "$2$",
+      "$3$",
+      "$0$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=1^{2}=1$."
   },
   {
@@ -1821,27 +1821,27 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "תחום הגדרה $f(x)=1/(x-3)$ ללא:",
+    "question_text": "מהו תחום ההגדרה של הפונקציה $f(x)=\\frac{1}{x-3}$?",
     "options": [
-      "$x\\neq 0$",
       "$x\\neq 3$",
-      "הכל",
-      "$x>3$"
+      "כל $x$",
+      "$x>3$",
+      "$x\\neq 0$"
     ],
-    "correct_index": 1,
-    "explanation": "המכנה לא יכול להתאפס: $x-3\\neq 0$, כלומר $x\\neq 3$."
+    "correct_index": 0,
+    "explanation": "אסור שהמכנה יתאפס: $x-3\\neq0$, כלומר $x\\neq3$."
   },
   {
     "id": "q-q-g10-u4-precalculus-19",
     "topic_id": "g10-u4-precalculus",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(3)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(3)$?",
     "options": [
       "$7$",
-      "$0$",
-      "$2$",
-      "$3$"
+      "$6$",
+      "$3$",
+      "$9$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=3$: $f(3)=2\\times 3+1=7$."
@@ -1866,12 +1866,12 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שורש $x^2-4=0$:",
+    "question_text": "פתרו את המשוואה $x^2-4=0$. מהו הפתרון החיובי?",
     "options": [
-      "$\\pm 2$",
-      "$\\pm 4$",
-      "$0$",
-      "$4$"
+      "$2$",
+      "$4$",
+      "$3$",
+      "$1$"
     ],
     "correct_index": 0,
     "explanation": "פותרים $x^2-4=0\\Rightarrow x^2=4\\Rightarrow x=\\pm\\sqrt{4}=\\pm2$."
@@ -1883,12 +1883,12 @@ export const QUESTIONS = [
     "type": "mcq",
     "question_text": "לפי משפט השורש הרציונלי, לפולינום $2x^3+x^2-x+6$ (מקדם מוביל $2$, איבר חופשי $6$), אילו מהבאים הם כל השורשים הרציונליים האפשריים?",
     "options": [
-      "רק 6",
-      "$\\pm1,2,3,6,\\frac12,\\frac32$",
-      "0",
-      "רק 1"
+      "$\\pm1,\\pm2,\\pm3,\\pm6,\\pm\\frac12,\\pm\\frac32$",
+      "$\\pm1,\\pm2,\\pm3,\\pm6$ בלבד",
+      "$\\pm\\frac12,\\pm\\frac32$ בלבד",
+      "$\\pm1,\\pm2,\\pm\\frac13,\\pm\\frac23$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שורשים רציונליים אפשריים הם $\\pm\\frac{p}{q}$ כאשר $p$ מחלק את האיבר החופשי ($6$) ו-$q$ מחלק את המקדם המוביל ($2$): $p\\in\\{1,2,3,6\\},\\ q\\in\\{1,2\\}$, ולכן $\\pm1,2,3,6,\\frac12,\\frac32$."
   },
   {
@@ -1896,14 +1896,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "p(x)=x^2-25. p(0)=",
+    "question_text": "נתון $p(x)=x^2-25$. מהו $p(0)$?",
     "options": [
-      "$-32$",
-      "$-30$",
       "$-25$",
-      "$-29$"
+      "$25$",
+      "$-24$",
+      "$-26$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=0$: $p(0)=0^{2}-25=-25$."
   },
   {
@@ -1926,14 +1926,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "p(x)=x^2-4. p(0)=",
+    "question_text": "נתון $p(x)=x^2-4$. מהו $p(0)$?",
     "options": [
-      "$-9$",
-      "$-8$",
       "$-4$",
-      "$-11$"
+      "$4$",
+      "$-3$",
+      "$-5$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=0$: $p(0)=0^{2}-4=-4$."
   },
   {
@@ -1941,14 +1941,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "p(x)=x^2-9. p(0)=",
+    "question_text": "נתון $p(x)=x^2-9$. מהו $p(0)$?",
     "options": [
-      "$-14$",
-      "$-16$",
-      "$-13$",
-      "$-9$"
+      "$-9$",
+      "$9$",
+      "$-8$",
+      "$-10$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=0$: $p(0)=0^{2}-9=-9$."
   },
   {
@@ -1956,12 +1956,12 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שורש $x^2=4$ ($x>0$):",
+    "question_text": "פתרו את המשוואה $x^2=4$. מהו הפתרון החיובי?",
     "options": [
       "$2$",
-      "$-3$",
-      "$-5$",
-      "$-2$"
+      "$4$",
+      "$3$",
+      "$1$"
     ],
     "correct_index": 0,
     "explanation": "הפתרון החיובי הוא $x=4^{1/2}=2$."
@@ -1971,14 +1971,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שורש $x^2=1$ ($x>0$):",
+    "question_text": "פתרו את המשוואה $x^2=1$. מהו הפתרון החיובי?",
     "options": [
-      "$-3$",
       "$1$",
-      "$-6$",
-      "$-4$"
+      "$0$",
+      "$2$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי הוא $x=1^{1/2}=1$."
   },
   {
@@ -1986,14 +1986,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שורש $x^2=25$ ($x>0$):",
+    "question_text": "פתרו את המשוואה $x^2=25$. מהו הפתרון החיובי?",
     "options": [
-      "$0$",
-      "$1$",
-      "$-2$",
-      "$5$"
+      "$5$",
+      "$12$",
+      "$25$",
+      "$6$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי הוא $x=25^{1/2}=5$."
   },
   {
@@ -2004,24 +2004,24 @@ export const QUESTIONS = [
     "question_text": "כמה שורשים ממשיים יש לפולינום $x^2+1$?",
     "options": [
       "$0$",
-      "$\\pm1$",
-      "אין",
-      "$\\pm i$ רק"
+      "$1$",
+      "$2$",
+      "$4$"
     ],
-    "correct_index": 2,
-    "explanation": "פותרים $x^2+1=0\\Rightarrow x^2=-1$. אין פתרון ממשי, כי ריבוע של מספר ממשי אינו יכול להיות שלילי, ולכן אין ל-$x^2+1$ שורשים ממשיים."
+    "correct_index": 0,
+    "explanation": "פותרים $x^2+1=0\\Rightarrow x^2=-1$. ריבוע של מספר ממשי אינו יכול להיות שלילי, ולכן אין ל-$x^2+1$ שורשים ממשיים — $0$ שורשים."
   },
   {
     "id": "q-q-g10-u4-poly-root-11",
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "p(x)=x^2-16. p(0)=",
+    "question_text": "נתון $p(x)=x^2-16$. מהו $p(0)$?",
     "options": [
       "$-16$",
-      "$-21$",
-      "$-23$",
-      "$-20$"
+      "$16$",
+      "$-15$",
+      "$-17$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=0$: $p(0)=0^{2}-16=-16$."
@@ -2031,14 +2031,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "p(x)=x^2-1. p(0)=",
+    "question_text": "נתון $p(x)=x^2-1$. מהו $p(0)$?",
     "options": [
-      "$-6$",
-      "$-5$",
       "$-1$",
-      "$-8$"
+      "$1$",
+      "$0$",
+      "$-2$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=0$: $p(0)=0^{2}-1=-1$."
   },
   {
@@ -2046,14 +2046,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שורש $x^2=9$ ($x>0$):",
+    "question_text": "פתרו את המשוואה $x^2=9$. מהו הפתרון החיובי?",
     "options": [
-      "$-4$",
-      "$-1$",
-      "$-2$",
-      "$3$"
+      "$3$",
+      "$4$",
+      "$9$",
+      "$2$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי הוא $x=9^{1/2}=3$."
   },
   {
@@ -2061,12 +2061,12 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שורש $x^2=16$ ($x>0$):",
+    "question_text": "פתרו את המשוואה $x^2=16$. מהו הפתרון החיובי?",
     "options": [
       "$4$",
-      "$0$",
-      "$-1$",
-      "$-3$"
+      "$8$",
+      "$16$",
+      "$5$"
     ],
     "correct_index": 0,
     "explanation": "הפתרון החיובי הוא $x=16^{1/2}=4$."
@@ -2076,7 +2076,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-poly-root",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "סכום מקדמים $2x^3+x-1$:",
+    "question_text": "מהו סכום המקדמים של הפולינום $2x^3+x-1$?",
     "options": [
       "$1$",
       "$2$",
@@ -2158,7 +2158,7 @@ export const QUESTIONS = [
       "$\\sqrt{7}$"
     ],
     "correct_index": 0,
-    "explanation": "החישוב: $$d=\\sqrt{9+16}=5$$",
+    "explanation": "$d=\\sqrt{(3-0)^2+(4-0)^2}=\\sqrt{9+16}=5$.",
     "type": "mcq"
   },
   {
@@ -2166,7 +2166,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-precalculus",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרבולה $y=x^2$. קודקוד הפרבולה:",
+    "question_text": "מהו קודקוד הפרבולה $y=x^2$?",
     "options": [
       "$(0,0)$",
       "$(0,1)$",
@@ -2181,14 +2181,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-analytic-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "נוסחת המרחק בין שתי נקודות:",
+    "question_text": "מהי נוסחת המרחק בין הנקודות $(x_1,y_1)$ ו-$(x_2,y_2)$?",
     "options": [
-      "$xy$",
-      "$|x-y|$",
       "$\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$",
-      "$x+y$"
+      "$(x_2-x_1)+(y_2-y_1)$",
+      "$|x_2-x_1|\\cdot|y_2-y_1|$",
+      "$(x_2-x_1)^2+(y_2-y_1)^2$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "נוסחת המרחק בין שתי נקודות $(x_1,y_1)$ ו-$(x_2,y_2)$ היא $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$."
   },
   {
@@ -2196,7 +2196,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-analytic-geo",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "שיפוע ישר (1,2)-(4,8):",
+    "question_text": "מהו השיפוע של הישר העובר דרך הנקודות $(1,2)$ ו-$(4,8)$?",
     "options": [
       "$1$",
       "$3$",
@@ -2211,7 +2211,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-analytic-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מרחק (0,0)-(3,4):",
+    "question_text": "מהו המרחק בין הנקודות $(0,0)$ ו-$(3,4)$?",
     "options": [
       "$7$",
       "$5$",
@@ -2226,7 +2226,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-analytic-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "אמצע (0,0),(4,6):",
+    "question_text": "מהי נקודת האמצע של הקטע בין $(0,0)$ ל-$(4,6)$?",
     "options": [
       "$(4,6)$",
       "$(2,3)$",
@@ -2241,7 +2241,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-analytic-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משוואת ישר דרך (0,1),(0,5):",
+    "question_text": "מהי משוואת הישר העובר דרך $(0,1)$ ו-$(0,5)$?",
     "options": [
       "$x=0$",
       "$y=0$",
@@ -2271,285 +2271,285 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 25,65,?",
+    "question_text": "במשולש יש זוויות של $25^\\circ$ ו-$65^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
-      "$65^\\circ$",
       "$155^\\circ$",
-      "$25^\\circ$"
+      "$115^\\circ$",
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-25-65=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-25-65=90^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-2",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 30,70,?",
+    "question_text": "במשולש יש זוויות של $30^\\circ$ ו-$70^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$30^\\circ$",
-      "$100^\\circ$",
       "$80^\\circ$",
+      "$150^\\circ$",
+      "$110^\\circ$",
       "$90^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-30-70=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-30-70=80^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-3",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "במשולש: 90, 30, ?:",
+    "question_text": "במשולש יש זוויות של $90^\\circ$ ו-$30^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$70^\\circ$",
-      "$45^\\circ$",
-      "$120^\\circ$",
-      "$60^\\circ$"
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$150^\\circ$",
+      "$120^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-90-30=60^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-90-30=60^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-4",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 35,55,?",
+    "question_text": "במשולש יש זוויות של $35^\\circ$ ו-$55^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
-      "$55^\\circ$",
-      "$35^\\circ$",
-      "$145^\\circ$"
+      "$145^\\circ$",
+      "$125^\\circ$",
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-35-55=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-35-55=90^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-5",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "במשולש: 50, 60, ?:",
+    "question_text": "במשולש יש זוויות של $50^\\circ$ ו-$60^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$80^\\circ$",
       "$70^\\circ$",
-      "$90^\\circ$",
-      "$40^\\circ$"
+      "$130^\\circ$",
+      "$120^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-50-60=70^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-50-60=70^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-6",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 40,60,?",
+    "question_text": "במשולש יש זוויות של $40^\\circ$ ו-$60^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$40^\\circ$",
-      "$90^\\circ$",
       "$80^\\circ$",
-      "$100^\\circ$"
+      "$140^\\circ$",
+      "$120^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-40-60=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-40-60=80^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-7",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית ישרה:",
+    "question_text": "כמה מעלות יש בזווית ישרה?",
     "options": [
       "$90^\\circ$",
-      "$180^\\circ$",
       "$45^\\circ$",
+      "$180^\\circ$",
       "$60^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "זווית ישרה (זווית שיוצרת \"פינה\" מושלמת, כמו בפינת ריבוע) שווה $90^\\circ$."
+    "explanation": "זווית ישרה — \"פינה\" מושלמת, כמו בריבוע. היא שווה $90^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-8",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "במשולש שווה-צלעות כל זווית:",
+    "question_text": "כמה מעלות יש בכל זווית של משולש שווה-צלעות?",
     "options": [
-      "$45^\\circ$",
-      "$90^\\circ$",
       "$60^\\circ$",
+      "$90^\\circ$",
+      "$45^\\circ$",
       "$120^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות זו לזו, וסכומן $180^\\circ$, לכן כל זווית היא $180\\div 3=60^\\circ$."
+    "correct_index": 0,
+    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות. $180:3=60^\\circ$"
   },
   {
     "id": "q-q-g10-u4-plane-geo-9",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית קהה:",
+    "question_text": "מהי זווית קהה?",
     "options": [
-      "$<90^\\circ$",
-      "$=180^\\circ$",
-      "$=90^\\circ$",
-      "$>90^\\circ$"
+      "זווית בין $90^\\circ$ ל-$180^\\circ$",
+      "זווית של $180^\\circ$ בדיוק",
+      "זווית של $90^\\circ$ בדיוק",
+      "זווית קטנה מ-$90^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "זווית קהה היא זווית הגדולה מ-$90^\\circ$ (וקטנה מ-$180^\\circ$): $>90^\\circ$."
+    "correct_index": 0,
+    "explanation": "זווית קהה גדולה מ-$90^\\circ$. אבל קטנה מ-$180^\\circ$ (זו כבר זווית שטוחה)."
   },
   {
     "id": "q-q-g10-u4-plane-geo-10",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 50,50,?",
+    "question_text": "במשולש יש זוויות של $50^\\circ$ ו-$50^\\circ$. מהי הזווית השלישית?",
     "options": [
+      "$80^\\circ$",
+      "$130^\\circ$",
       "$90^\\circ$",
-      "$100^\\circ$",
-      "$50^\\circ$",
-      "$80^\\circ$"
+      "$100^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-50-50=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-50-50=80^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-11",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 15,75,?",
+    "question_text": "במשולש יש זוויות של $15^\\circ$ ו-$75^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$15^\\circ$",
       "$90^\\circ$",
-      "$75^\\circ$",
-      "$165^\\circ$"
+      "$165^\\circ$",
+      "$105^\\circ$",
+      "$100^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-15-75=90^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-15-75=90^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-12",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית חדה:",
+    "question_text": "מהי זווית חדה?",
     "options": [
-      "$<90^\\circ$",
-      "$=90^\\circ$",
-      "$>90^\\circ$",
-      "$=180^\\circ$"
+      "זווית קטנה מ-$90^\\circ$",
+      "זווית של $90^\\circ$ בדיוק",
+      "זווית בין $90^\\circ$ ל-$180^\\circ$",
+      "זווית של $180^\\circ$ בדיוק"
     ],
     "correct_index": 0,
-    "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
+    "explanation": "זווית חדה קטנה מ-$90^\\circ$ (וגדולה מ-$0^\\circ$)."
   },
   {
     "id": "q-q-g10-u4-plane-geo-13",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 45,45,?",
+    "question_text": "במשולש יש זוויות של $45^\\circ$ ו-$45^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
       "$135^\\circ$",
-      "$180^\\circ$",
-      "$45^\\circ$"
+      "$100^\\circ$",
+      "$110^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-45-45=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-45-45=90^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-14",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות סמוכות על ישר:",
+    "question_text": "מהו סכום שתי זוויות סמוכות (שיוצרות יחד קו ישר)?",
     "options": [
-      "$360^\\circ$",
-      "$0$",
+      "$180^\\circ$",
       "$90^\\circ$",
-      "$180^\\circ$"
+      "$360^\\circ$",
+      "$0^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "שתי זוויות סמוכות שיוצרות יחד קו ישר משלימות ל-$180^\\circ$."
+    "correct_index": 0,
+    "explanation": "זוויות סמוכות יוצרות יחד זווית שטוחה (קו ישר). לכן סכומן $180^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-15",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 20,80,?",
+    "question_text": "במשולש יש זוויות של $20^\\circ$ ו-$80^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$90^\\circ$",
+      "$80^\\circ$",
+      "$160^\\circ$",
       "$100^\\circ$",
-      "$20^\\circ$",
-      "$80^\\circ$"
+      "$90^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-20-80=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-20-80=80^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-16",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות מתאימות על ישרים מקבילים:",
+    "question_text": "מה נכון לגבי זוויות מתאימות על ישרים מקבילים?",
     "options": [
-      "180",
-      "משלימות",
-      "90",
-      "שווות"
+      "הן שוות",
+      "סכומן $180^\\circ$",
+      "כל אחת $90^\\circ$",
+      "אין קשר ביניהן"
     ],
-    "correct_index": 3,
-    "explanation": "כאשר ישר (חותך) חותך שני ישרים מקבילים, זוויות מתאימות (הנמצאות באותו מיקום יחסי) שוות זו לזו."
+    "correct_index": 0,
+    "explanation": "זוויות מתאימות נמצאות באותו מקום ביחס לחותך ולכל אחד מהמקבילים. בין ישרים מקבילים הן **שוות**."
   },
   {
     "id": "q-q-g10-u4-plane-geo-17",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "סכום זוויות משולש:",
+    "question_text": "מהו סכום הזוויות במשולש?",
     "options": [
-      "$100^\\circ$",
       "$180^\\circ$",
       "$90^\\circ$",
-      "$360^\\circ$"
+      "$360^\\circ$",
+      "$100^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
+    "correct_index": 0,
+    "explanation": "שלוש הזוויות של כל משולש יחד יוצרות קו ישר. לכן סכומן $180^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-18",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "סכום זוויות סביב נקודה:",
+    "question_text": "מהו סכום כל הזוויות סביב נקודה?",
     "options": [
+      "$360^\\circ$",
       "$180^\\circ$",
-      "$90^\\circ$",
       "$270^\\circ$",
-      "$360^\\circ$"
+      "$90^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום כל הזוויות מסביב לנקודה אחת הוא תמיד $360^\\circ$ (סיבוב שלם)."
+    "correct_index": 0,
+    "explanation": "סביב נקודה — סיבוב שלם. סיבוב שלם $=360^\\circ$."
   },
   {
     "id": "q-q-g10-u4-plane-geo-551",
     "topic_id": "g10-u4-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות במשולש: $55^{\\circ},65^{\\circ},?$",
+    "question_text": "במשולש יש זוויות של $55^\\circ$ ו-$65^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$50^\\circ$",
-      "$70^\\circ$",
       "$60^\\circ$",
-      "$120^\\circ$"
+      "$125^\\circ$",
+      "$115^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-55-65=60^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-55-65=60^\\circ$."
   },
   {
     "id": "q-g10-u4-tr-1",
@@ -2571,7 +2571,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\cos 0^\\circ$=",
+    "question_text": "מהו הערך של $\\cos 0^\\circ$?",
     "options": [
       "$1$",
       "$-1$",
@@ -2586,7 +2586,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\sin 30^\\circ$=",
+    "question_text": "מהו הערך של $\\sin 30^\\circ$?",
     "options": [
       "$\\frac{1}{2}$",
       "$1$",
@@ -2601,14 +2601,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נגדי $4$, יתר $8$. $\\sin$?",
+    "question_text": "במשולש ישר-זווית, הניצב שמול הזווית $\\alpha$ הוא $4$ והיתר $8$. מהו $\\sin\\alpha$?",
     "options": [
-      "$1$",
       "$\\frac{1}{2}$",
-      "$\\frac{4}{4}$",
-      "$2$"
+      "$2$",
+      "$\\frac{1}{3}$",
+      "$1$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{4}{8}=\\dfrac{1}{2}$."
   },
   {
@@ -2616,7 +2616,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\sin^2 x+\\cos^2 x$=",
+    "question_text": "לכל זווית $x$: $\\sin^2x+\\cos^2x=$",
     "options": [
       "$x$",
       "$1$",
@@ -2631,7 +2631,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "במשולש 30-60-90, מול ה-60 אם יתר=2:",
+    "question_text": "במשולש ישר-זווית עם זוויות $30^\\circ, 60^\\circ, 90^\\circ$ היתר הוא $2$. מה אורך הניצב שמול הזווית $60^\\circ$?",
     "options": [
       "$2$",
       "$\\sqrt{3}$",
@@ -2646,7 +2646,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\cos 60^\\circ$=",
+    "question_text": "מהו הערך של $\\cos 60^\\circ$?",
     "options": [
       "$1$",
       "$\\frac{\\sqrt{3}}{2}$",
@@ -2661,14 +2661,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נגדי $3$, יתר $6$. $\\sin$?",
+    "question_text": "במשולש ישר-זווית, הניצב שמול הזווית $\\alpha$ הוא $3$ והיתר $6$. מהו $\\sin\\alpha$?",
     "options": [
-      "$1$",
-      "$2$",
       "$\\frac{1}{2}$",
-      "$\\frac{3}{3}$"
+      "$2$",
+      "$\\frac{1}{3}$",
+      "$1$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{3}{6}=\\dfrac{1}{2}$."
   },
   {
@@ -2676,14 +2676,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "Law of sines: a/sin A =",
+    "question_text": "לפי משפט הסינוסים, $\\frac{a}{\\sin A}=$",
     "options": [
-      "$ab$",
-      "$b/\\sin B$",
-      "$a/\\sin B$",
-      "$A/B$"
+      "$\\frac{b}{\\sin B}$",
+      "$\\frac{a}{\\sin B}$",
+      "$a\\cdot b$",
+      "$\\frac{\\sin A}{a}$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי משפט הסינוסים, היחס שווה בין כל צלע לסינוס הזווית שמולה: $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$."
   },
   {
@@ -2691,14 +2691,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נגדי $8$, יתר $16$. $\\sin$?",
+    "question_text": "במשולש ישר-זווית, הניצב שמול הזווית $\\alpha$ הוא $8$ והיתר $16$. מהו $\\sin\\alpha$?",
     "options": [
-      "$\\frac{8}{8}$",
-      "$1$",
       "$\\frac{1}{2}$",
-      "$2$"
+      "$2$",
+      "$\\frac{1}{3}$",
+      "$1$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{8}{16}=\\dfrac{1}{2}$."
   },
   {
@@ -2706,7 +2706,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\tan 45^\\circ$=",
+    "question_text": "מהו הערך של $\\tan 45^\\circ$?",
     "options": [
       "$0$",
       "$\\sqrt{3}$",
@@ -2721,7 +2721,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\sin 0^\\circ$=",
+    "question_text": "מהו הערך של $\\sin 0^\\circ$?",
     "options": [
       "$0$",
       "$\\frac{1}{2}$",
@@ -2736,7 +2736,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$\\sin 180^\\circ$=",
+    "question_text": "מהו הערך של $\\sin 180^\\circ$?",
     "options": [
       "$-1$",
       "$\\frac{1}{2}$",
@@ -2751,14 +2751,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נגדי $6$, יתר $12$. $\\sin$?",
+    "question_text": "במשולש ישר-זווית, הניצב שמול הזווית $\\alpha$ הוא $6$ והיתר $12$. מהו $\\sin\\alpha$?",
     "options": [
-      "$2$",
       "$\\frac{1}{2}$",
-      "$1$",
-      "$\\frac{6}{6}$"
+      "$2$",
+      "$\\frac{1}{3}$",
+      "$1$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{6}{12}=\\dfrac{1}{2}$."
   },
   {
@@ -2766,14 +2766,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\tan x=\\sin x/\\cos x$",
+    "question_text": "האם הזהות $\\tan x=\\frac{\\sin x}{\\cos x}$ נכונה?",
     "options": [
-      "רק ל-45",
-      "נכון",
-      "רק ל-30",
-      "שגוי"
+      "נכונה, לכל $x$ שבו $\\cos x\\neq0$",
+      "נכונה רק ל-$x=45^\\circ$",
+      "נכונה רק ל-$x=30^\\circ$",
+      "שגויה"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "זוהי הזהות המגדירה את הטנגנס: $\\tan x=\\dfrac{\\sin x}{\\cos x}$ — נכון לכל $x$ שבו $\\cos x\\neq 0$."
   },
   {
@@ -2781,7 +2781,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\sin 90^\\circ$=",
+    "question_text": "מהו הערך של $\\sin 90^\\circ$?",
     "options": [
       "$0$",
       "$1$",
@@ -2796,14 +2796,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נגדי $5$, יתר $10$. $\\sin$?",
+    "question_text": "במשולש ישר-זווית, הניצב שמול הזווית $\\alpha$ הוא $5$ והיתר $10$. מהו $\\sin\\alpha$?",
     "options": [
-      "$\\frac{5}{5}$",
+      "$\\frac{1}{2}$",
       "$2$",
-      "$1$",
-      "$\\frac{1}{2}$"
+      "$\\frac{1}{3}$",
+      "$1$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{5}{10}=\\dfrac{1}{2}$."
   },
   {
@@ -2811,7 +2811,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "במשולש 30-60-90, מול ה-30 אם יתר=2:",
+    "question_text": "במשולש ישר-זווית עם זוויות $30^\\circ, 60^\\circ, 90^\\circ$ היתר הוא $2$. מה אורך הניצב שמול הזווית $30^\\circ$?",
     "options": [
       "$\\sqrt{3}$",
       "$3$",
@@ -2826,12 +2826,12 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "opposite/hypotenuse =",
+    "question_text": "במשולש ישר-זווית, היחס $\\frac{\\text{ניצב שמול הזווית}}{\\text{יתר}}$ נקרא:",
     "options": [
       "$\\sin$",
+      "$\\cos$",
       "$\\tan$",
-      "$\\cot$",
-      "$\\cos$"
+      "$\\cot$"
     ],
     "correct_index": 0,
     "explanation": "במשולש ישר-זווית, היחס ניצב-נגדי חלקי יתר מוגדר כ-$\\sin$ של הזווית."
@@ -2841,14 +2841,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "adjacent/hypotenuse =",
+    "question_text": "במשולש ישר-זווית, היחס $\\frac{\\text{ניצב שליד הזווית}}{\\text{יתר}}$ נקרא:",
     "options": [
-      "$\\sec$",
-      "$\\tan$",
       "$\\cos$",
-      "$\\sin$"
+      "$\\sin$",
+      "$\\tan$",
+      "$\\cot$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "במשולש ישר-זווית, היחס ניצב-סמוך חלקי יתר מוגדר כ-$\\cos$ של הזווית."
   },
   {
@@ -2871,285 +2871,285 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-stats",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $11$, $12$, $18$, $26$, $28$?",
+    "question_text": "מהו הממוצע של המספרים $11, 12, 18, 26, 28$?",
     "options": [
-      "$12$",
-      "$15$",
-      "$14$",
-      "$19$"
+      "$19$",
+      "$18$",
+      "$22$",
+      "$17$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום המספרים הוא $95$, ומחלקים במספר המספרים ($5$): $95\\div 5=19$."
+    "correct_index": 0,
+    "explanation": "סכום המספרים: $95$. מחלקים במספר המספרים ($5$): $95:5=19$."
   },
   {
     "id": "q-q-g10-u4-stats-2",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $4$, $5$, $7$, $18$, $20$?",
+    "question_text": "מהו החציון של המספרים $4, 5, 7, 18, 20$?",
     "options": [
       "$7$",
-      "$3$",
-      "$0$",
-      "$2$"
+      "$5$",
+      "$18$",
+      "$11$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 4, 5, 7, 18, 20. החציון הוא הערך האמצעי — $7$."
+    "explanation": "ממיינים: $4, 5, 7, 18, 20$. יש 5 מספרים, והאמצעי הוא השלישי — $7$."
   },
   {
     "id": "q-q-g10-u4-stats-3",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $3$, $4$, $14$, $22$, $27$?",
+    "question_text": "מהו החציון של המספרים $3, 4, 14, 22, 27$?",
     "options": [
-      "$7$",
-      "$9$",
-      "$10$",
-      "$14$"
+      "$14$",
+      "$4$",
+      "$22$",
+      "$3$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 3, 4, 14, 22, 27. החציון הוא הערך האמצעי — $14$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $3, 4, 14, 22, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $14$."
   },
   {
     "id": "q-q-g10-u4-stats-4",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $4$, $18$, $23$, $26$, $29$?",
+    "question_text": "מהו החציון של המספרים $4, 18, 23, 26, 29$?",
     "options": [
       "$23$",
-      "$16$",
       "$18$",
-      "$19$"
+      "$26$",
+      "$20$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 4, 18, 23, 26, 29. החציון הוא הערך האמצעי — $23$."
+    "explanation": "ממיינים: $4, 18, 23, 26, 29$. יש 5 מספרים, והאמצעי הוא השלישי — $23$."
   },
   {
     "id": "q-q-g10-u4-stats-5",
     "topic_id": "g10-u4-stats",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $4$, $11$, $13$, $20$, $22$?",
+    "question_text": "מהו הממוצע של המספרים $4, 11, 13, 20, 22$?",
     "options": [
-      "$9$",
-      "$7$",
-      "$10$",
-      "$14$"
+      "$14$",
+      "$13$",
+      "$17$",
+      "$12$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום המספרים הוא $70$, ומחלקים במספר המספרים ($5$): $70\\div 5=14$."
+    "correct_index": 0,
+    "explanation": "סכום המספרים: $70$. מחלקים במספר המספרים ($5$): $70:5=14$."
   },
   {
     "id": "q-q-g10-u4-stats-6",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $4$, $5$, $12$, $15$, $23$?",
+    "question_text": "מהו החציון של המספרים $4, 5, 12, 15, 23$?",
     "options": [
-      "$8$",
       "$12$",
       "$5$",
-      "$7$"
+      "$15$",
+      "$4$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 4, 5, 12, 15, 23. החציון הוא הערך האמצעי — $12$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $4, 5, 12, 15, 23$. יש 5 מספרים, והאמצעי הוא השלישי — $12$."
   },
   {
     "id": "q-q-g10-u4-stats-7",
     "topic_id": "g10-u4-stats",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $7$, $10$, $11$, $18$, $29$?",
+    "question_text": "מהו הממוצע של המספרים $7, 10, 11, 18, 29$?",
     "options": [
-      "$10$",
-      "$8$",
       "$15$",
-      "$11$"
+      "$11$",
+      "$18$",
+      "$13$"
     ],
-    "correct_index": 2,
-    "explanation": "סכום המספרים הוא $75$, ומחלקים במספר המספרים ($5$): $75\\div 5=15$."
+    "correct_index": 0,
+    "explanation": "סכום המספרים: $75$. מחלקים במספר המספרים ($5$): $75:5=15$."
   },
   {
     "id": "q-q-g10-u4-stats-8",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $4$, $7$, $8$, $13$, $28$?",
+    "question_text": "מהו החציון של המספרים $4, 7, 8, 13, 28$?",
     "options": [
       "$8$",
-      "$3$",
-      "$1$",
-      "$4$"
+      "$7$",
+      "$13$",
+      "$12$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 4, 7, 8, 13, 28. החציון הוא הערך האמצעי — $8$."
+    "explanation": "ממיינים: $4, 7, 8, 13, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $8$."
   },
   {
     "id": "q-q-g10-u4-stats-9",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $6$, $22$, $23$, $27$, $28$?",
+    "question_text": "מהו החציון של המספרים $6, 22, 23, 27, 28$?",
     "options": [
       "$23$",
-      "$18$",
-      "$19$",
-      "$16$"
+      "$22$",
+      "$27$",
+      "$21$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 6, 22, 23, 27, 28. החציון הוא הערך האמצעי — $23$."
+    "explanation": "ממיינים: $6, 22, 23, 27, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $23$."
   },
   {
     "id": "q-q-g10-u4-stats-10",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $5$, $10$, $21$, $28$?",
+    "question_text": "מהו החציון של המספרים $2, 5, 10, 21, 28$?",
     "options": [
       "$10$",
       "$5$",
-      "$3$",
-      "$6$"
+      "$21$",
+      "$13$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 2, 5, 10, 21, 28. החציון הוא הערך האמצעי — $10$."
+    "explanation": "ממיינים: $2, 5, 10, 21, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $10$."
   },
   {
     "id": "q-q-g10-u4-stats-11",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $4$, $10$, $25$, $27$?",
+    "question_text": "מהו החציון של המספרים $2, 4, 10, 25, 27$?",
     "options": [
-      "$5$",
-      "$3$",
-      "$6$",
-      "$10$"
+      "$10$",
+      "$4$",
+      "$25$",
+      "$14$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 2, 4, 10, 25, 27. החציון הוא הערך האמצעי — $10$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $2, 4, 10, 25, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $10$."
   },
   {
     "id": "q-q-g10-u4-stats-12",
     "topic_id": "g10-u4-stats",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $5$, $11$, $27$, $28$, $29$?",
+    "question_text": "מהו הממוצע של המספרים $5, 11, 27, 28, 29$?",
     "options": [
-      "$13$",
-      "$16$",
       "$20$",
-      "$15$"
+      "$27$",
+      "$25$",
+      "$18$"
     ],
-    "correct_index": 2,
-    "explanation": "סכום המספרים הוא $100$, ומחלקים במספר המספרים ($5$): $100\\div 5=20$."
+    "correct_index": 0,
+    "explanation": "סכום המספרים: $100$. מחלקים במספר המספרים ($5$): $100:5=20$."
   },
   {
     "id": "q-q-g10-u4-stats-13",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $10$, $11$, $17$, $20$, $22$?",
+    "question_text": "מהו החציון של המספרים $10, 11, 17, 20, 22$?",
     "options": [
-      "$10$",
-      "$12$",
-      "$13$",
-      "$17$"
+      "$17$",
+      "$11$",
+      "$20$",
+      "$16$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 10, 11, 17, 20, 22. החציון הוא הערך האמצעי — $17$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $10, 11, 17, 20, 22$. יש 5 מספרים, והאמצעי הוא השלישי — $17$."
   },
   {
     "id": "q-q-g10-u4-stats-14",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $11$, $13$, $15$, $27$?",
+    "question_text": "מהו החציון של המספרים $2, 11, 13, 15, 27$?",
     "options": [
-      "$8$",
       "$13$",
-      "$6$",
-      "$9$"
+      "$11$",
+      "$15$",
+      "$14$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 2, 11, 13, 15, 27. החציון הוא הערך האמצעי — $13$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $2, 11, 13, 15, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $13$."
   },
   {
     "id": "q-q-g10-u4-stats-15",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $16$, $18$, $21$, $22$, $23$?",
+    "question_text": "מהו החציון של המספרים $16, 18, 21, 22, 23$?",
     "options": [
-      "$17$",
-      "$16$",
       "$21$",
-      "$14$"
+      "$18$",
+      "$22$",
+      "$20$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 16, 18, 21, 22, 23. החציון הוא הערך האמצעי — $21$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $16, 18, 21, 22, 23$. יש 5 מספרים, והאמצעי הוא השלישי — $21$."
   },
   {
     "id": "q-q-g10-u4-stats-16",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $8$, $9$, $14$, $23$?",
+    "question_text": "מהו החציון של המספרים $2, 8, 9, 14, 23$?",
     "options": [
       "$9$",
-      "$2$",
-      "$4$",
-      "$5$"
+      "$8$",
+      "$14$",
+      "$11$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 2, 8, 9, 14, 23. החציון הוא הערך האמצעי — $9$."
+    "explanation": "ממיינים: $2, 8, 9, 14, 23$. יש 5 מספרים, והאמצעי הוא השלישי — $9$."
   },
   {
     "id": "q-q-g10-u4-stats-17",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $7$, $9$, $11$, $21$, $29$?",
+    "question_text": "מהו החציון של המספרים $7, 9, 11, 21, 29$?",
     "options": [
-      "$7$",
-      "$6$",
       "$11$",
-      "$4$"
+      "$9$",
+      "$21$",
+      "$15$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 7, 9, 11, 21, 29. החציון הוא הערך האמצעי — $11$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $7, 9, 11, 21, 29$. יש 5 מספרים, והאמצעי הוא השלישי — $11$."
   },
   {
     "id": "q-q-g10-u4-stats-18",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $5$, $11$, $27$, $28$, $29$?",
+    "question_text": "מהו החציון של המספרים $5, 11, 27, 28, 29$?",
     "options": [
-      "$22$",
-      "$20$",
       "$27$",
-      "$23$"
+      "$11$",
+      "$28$",
+      "$20$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 5, 11, 27, 28, 29. החציון הוא הערך האמצעי — $27$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $5, 11, 27, 28, 29$. יש 5 מספרים, והאמצעי הוא השלישי — $27$."
   },
   {
     "id": "q-q-g10-u4-stats-19",
     "topic_id": "g10-u4-stats",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $6$, $12$, $15$, $24$, $25$?",
+    "question_text": "מהו החציון של המספרים $6, 12, 15, 24, 25$?",
     "options": [
       "$15$",
-      "$11$",
-      "$8$",
-      "$10$"
+      "$12$",
+      "$24$",
+      "$16$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 6, 12, 15, 24, 25. החציון הוא הערך האמצעי — $15$."
+    "explanation": "ממיינים: $6, 12, 15, 24, 25$. יש 5 מספרים, והאמצעי הוא השלישי — $15$."
   },
   {
     "id": "q-g11-u4-rat-1",
@@ -5046,14 +5046,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(1)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(1)$?",
     "options": [
-      "$-2$",
-      "$-1$",
-      "$-4$",
-      "$3$"
+      "$3$",
+      "$2$",
+      "$5$",
+      "$4$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=1$: $f(1)=2\\times 1+1=3$."
   },
   {
@@ -5061,12 +5061,12 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=3^x$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=3^x$. מהו $f(2)$?",
     "options": [
       "$9$",
-      "$4$",
-      "$2$",
-      "$5$"
+      "$6$",
+      "$5$",
+      "$8$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=3^{2}=9$."
@@ -5076,12 +5076,12 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(4)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(4)$?",
     "options": [
       "$16$",
-      "$9$",
-      "$12$",
-      "$11$"
+      "$8$",
+      "$6$",
+      "$17$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=4$: $f(4)=4^{2}=16$."
@@ -5091,14 +5091,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "אם $f(x)=x+3$ אז $f(0)$=",
+    "question_text": "נתונה הפונקציה $f(x)=x+3$. מהו $f(0)$?",
     "options": [
-      "$-3$",
       "$3$",
-      "$1$",
-      "$0$"
+      "$0$",
+      "$4$",
+      "$2$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=0$: $f(0)=0+3=3$."
   },
   {
@@ -5106,14 +5106,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=5^x$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=5^x$. מהו $f(2)$?",
     "options": [
-      "$18$",
       "$25$",
-      "$20$",
-      "$21$"
+      "$10$",
+      "$7$",
+      "$32$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=5^{2}=25$."
   },
   {
@@ -5121,14 +5121,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=1^x$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=1^x$. מהו $f(2)$?",
     "options": [
-      "$-6$",
-      "$-3$",
-      "$-4$",
-      "$1$"
+      "$1$",
+      "$2$",
+      "$3$",
+      "$0$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=1^{2}=1$."
   },
   {
@@ -5136,14 +5136,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(5)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(5)$?",
     "options": [
-      "$4$",
-      "$7$",
-      "$6$",
-      "$11$"
+      "$11$",
+      "$10$",
+      "$3$",
+      "$13$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=5$: $f(5)=2\\times 5+1=11$."
   },
   {
@@ -5151,12 +5151,12 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(1)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(1)$?",
     "options": [
       "$1$",
-      "$-3$",
-      "$-4$",
-      "$-6$"
+      "$2$",
+      "$3$",
+      "$0$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=1$: $f(1)=1^{2}=1$."
@@ -5166,27 +5166,27 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "תחום הגדרה $f(x)=1/(x-5)$ ללא:",
+    "question_text": "מהו תחום ההגדרה של הפונקציה $f(x)=\\frac{1}{x-5}$?",
     "options": [
-      "הכל",
-      "$x\\neq 0$",
       "$x\\neq 5$",
-      "$x>5$"
+      "כל $x$",
+      "$x>5$",
+      "$x\\neq 0$"
     ],
-    "correct_index": 2,
-    "explanation": "המכנה לא יכול להתאפס: $x-5\\neq 0$, כלומר $x\\neq 5$."
+    "correct_index": 0,
+    "explanation": "אסור שהמכנה יתאפס: $x-5\\neq0$, כלומר $x\\neq5$."
   },
   {
     "id": "q-q-g10-u5-functions-10",
     "topic_id": "g10-u5-functions",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=4^x$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=4^x$. מהו $f(2)$?",
     "options": [
       "$16$",
-      "$9$",
-      "$12$",
-      "$11$"
+      "$8$",
+      "$6$",
+      "$18$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=4^{2}=16$."
@@ -5196,14 +5196,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2^x$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2^x$. מהו $f(2)$?",
     "options": [
-      "$-3$",
-      "$-1$",
-      "$0$",
-      "$4$"
+      "$4$",
+      "$6$",
+      "$5$",
+      "$3$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=2^{2}=4$."
   },
   {
@@ -5211,12 +5211,12 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(3)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(3)$?",
     "options": [
       "$7$",
+      "$6$",
       "$3$",
-      "$0$",
-      "$2$"
+      "$9$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=3$: $f(3)=2\\times 3+1=7$."
@@ -5226,7 +5226,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$(f\\circ g)(x)=f(g(x))$. אם $g(x)=x+1$, $f(x)=2x$ אז $(f\\circ g)(3)$=",
+    "question_text": "נתון $g(x)=x+1$ ו-$f(x)=2x$. מהו $f(g(3))$?",
     "options": [
       "$8$",
       "$6$",
@@ -5241,14 +5241,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(2)$?",
     "options": [
-      "$1$",
-      "$-2$",
-      "$0$",
-      "$5$"
+      "$5$",
+      "$4$",
+      "$3$",
+      "$7$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=2\\times 2+1=5$."
   },
   {
@@ -5256,14 +5256,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(3)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(3)$?",
     "options": [
-      "$4$",
-      "$2$",
       "$9$",
-      "$5$"
+      "$6$",
+      "$5$",
+      "$10$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=3$: $f(3)=3^{2}=9$."
   },
   {
@@ -5271,12 +5271,12 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(4)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(4)$?",
     "options": [
       "$9$",
-      "$5$",
-      "$2$",
-      "$4$"
+      "$8$",
+      "$3$",
+      "$11$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=4$: $f(4)=2\\times 4+1=9$."
@@ -5286,14 +5286,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(2)$?",
     "options": [
-      "$-1$",
-      "$-3$",
       "$4$",
-      "$0$"
+      "$5$",
+      "$3$",
+      "$6$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=2^{2}=4$."
   },
   {
@@ -5301,29 +5301,29 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "תחום הגדרה $f(x)=1/(x-3)$ ללא:",
+    "question_text": "מהו תחום ההגדרה של הפונקציה $f(x)=\\frac{1}{x-3}$?",
     "options": [
-      "הכל",
+      "$x\\neq 3$",
+      "כל $x$",
       "$x>3$",
-      "$x\\neq 0$",
-      "$x\\neq 3$"
+      "$x\\neq 0$"
     ],
-    "correct_index": 3,
-    "explanation": "המכנה לא יכול להתאפס: $x-3\\neq 0$, כלומר $x\\neq 3$."
+    "correct_index": 0,
+    "explanation": "אסור שהמכנה יתאפס: $x-3\\neq0$, כלומר $x\\neq3$."
   },
   {
     "id": "q-q-g10-u5-functions-19",
     "topic_id": "g10-u5-functions",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(5)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(5)$?",
     "options": [
-      "$20$",
-      "$21$",
       "$25$",
-      "$18$"
+      "$10$",
+      "$7$",
+      "$26$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=5$: $f(5)=5^{2}=25$."
   },
   {
@@ -5346,67 +5346,67 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(x^{7})'=$",
+    "question_text": "גזרו: $\\left(x^{7}\\right)'$",
     "options": [
       "$7x^{6}$",
       "$7x^{8}$",
-      "$0$",
-      "$x^{7}$"
+      "$x^{6}$",
+      "$7x^{7}$"
     ],
     "correct_index": 0,
-    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{7})'=7x^{6}$."
+    "explanation": "כלל החזקה: $(cx^n)'=c\\cdot n\\,x^{n-1}$. כאן $1\\cdot7\\,x^{6}=7x^{6}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-2",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(x^{5})'=$",
+    "question_text": "גזרו: $\\left(x^{5}\\right)'$",
     "options": [
-      "$0$",
       "$5x^{4}$",
-      "$x^{5}$",
-      "$5x^{6}$"
+      "$5x^{6}$",
+      "$x^{4}$",
+      "$5x^{5}$"
     ],
-    "correct_index": 1,
-    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{5})'=5x^{4}$."
+    "correct_index": 0,
+    "explanation": "כלל החזקה: $(cx^n)'=c\\cdot n\\,x^{n-1}$. כאן $1\\cdot5\\,x^{4}=5x^{4}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-3",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(2x^3)'=$",
+    "question_text": "גזרו: $\\left(2x^{3}\\right)'$",
     "options": [
-      "$5x^2$",
-      "$6x^3$",
-      "$2x^2$",
-      "$6x^2$"
+      "$6x^{2}$",
+      "$6x^{4}$",
+      "$2x^{2}$",
+      "$6x^{3}$"
     ],
-    "correct_index": 3,
-    "explanation": "לפי כלל החזקה עם מקדם קבוע: $(cx^n)'=c\\cdot nx^{n-1}$, כלומר $(2x^3)'=2\\times3x^2=6x^2$."
+    "correct_index": 0,
+    "explanation": "כלל החזקה: $(cx^n)'=c\\cdot n\\,x^{n-1}$. כאן $2\\cdot3\\,x^{2}=6x^{2}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-4",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(x^{6})'=$",
+    "question_text": "גזרו: $\\left(x^{6}\\right)'$",
     "options": [
+      "$6x^{5}$",
       "$6x^{7}$",
-      "$x^{6}$",
-      "$0$",
-      "$6x^{5}$"
+      "$x^{5}$",
+      "$6x^{6}$"
     ],
-    "correct_index": 3,
-    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{6})'=6x^{5}$."
+    "correct_index": 0,
+    "explanation": "כלל החזקה: $(cx^n)'=c\\cdot n\\,x^{n-1}$. כאן $1\\cdot6\\,x^{5}=6x^{5}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-5",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(e^x)'=$",
+    "question_text": "גזרו: $(e^x)'$",
     "options": [
       "$xe^{x-1}$",
       "$1$",
@@ -5421,7 +5421,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$(c)'=$",
+    "question_text": "גזרו: $(c)'$",
     "options": [
       "$c$",
       "$x$",
@@ -5436,7 +5436,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$(x)'=$",
+    "question_text": "גזרו: $(x)'$",
     "options": [
       "$x$",
       "$2x$",
@@ -5451,27 +5451,27 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(x^{2})'=$",
+    "question_text": "גזרו: $\\left(x^{2}\\right)'$",
     "options": [
-      "$2x^{1}$",
+      "$2x$",
       "$2x^{3}$",
-      "$0$",
-      "$x^{2}$"
+      "$x^{1}$",
+      "$2x^{2}$"
     ],
     "correct_index": 0,
-    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{2})'=2x^{1}$."
+    "explanation": "כלל החזקה: $(cx^n)'=c\\cdot n\\,x^{n-1}$. כאן $1\\cdot2\\,x^{1}=2x$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-9",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "משמעות הנגזרת:",
+    "question_text": "מה מייצגת הנגזרת של פונקציה בנקודה?",
     "options": [
-      "שיפוע/קצב השתנות",
-      "שטח",
-      "ממוצע",
-      "אורך"
+      "את שיפוע המשיק — קצב ההשתנות בנקודה",
+      "את השטח מתחת לגרף",
+      "את הערך הממוצע של הפונקציה",
+      "את אורך הגרף"
     ],
     "correct_index": 0,
     "explanation": "הנגזרת של פונקציה בנקודה מייצגת את קצב השינוי שלה — כלומר את שיפוע המשיק לגרף באותה נקודה."
@@ -5481,7 +5481,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$(\\cos x)'=$",
+    "question_text": "גזרו: $(\\cos x)'$",
     "options": [
       "$\\cos x$",
       "$-\\sin x$",
@@ -5496,37 +5496,37 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(x^{3})'=$",
+    "question_text": "גזרו: $\\left(x^{3}\\right)'$",
     "options": [
-      "$0$",
       "$3x^{2}$",
       "$3x^{4}$",
-      "$x^{3}$"
+      "$x^{2}$",
+      "$3x^{3}$"
     ],
-    "correct_index": 1,
-    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{3})'=3x^{2}$."
+    "correct_index": 0,
+    "explanation": "כלל החזקה: $(cx^n)'=c\\cdot n\\,x^{n-1}$. כאן $1\\cdot3\\,x^{2}=3x^{2}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-12",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(x^{4})'=$",
+    "question_text": "גזרו: $\\left(x^{4}\\right)'$",
     "options": [
       "$4x^{3}$",
-      "$x^{4}$",
-      "$0$",
-      "$4x^{5}$"
+      "$4x^{5}$",
+      "$x^{3}$",
+      "$4x^{4}$"
     ],
     "correct_index": 0,
-    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{4})'=4x^{3}$."
+    "explanation": "כלל החזקה: $(cx^n)'=c\\cdot n\\,x^{n-1}$. כאן $1\\cdot4\\,x^{3}=4x^{3}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-13",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$(\\sin x)'=$",
+    "question_text": "גזרו: $(\\sin x)'$",
     "options": [
       "$-\\sin x$",
       "$\\sin x$",
@@ -5541,75 +5541,75 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(x^{1})'=$",
+    "question_text": "גזרו: $\\left(x^{1}\\right)'$",
     "options": [
+      "$1$",
       "$1x^{2}$",
       "$0$",
-      "$1$",
-      "$x^{1}$"
+      "$1x^{1}$"
     ],
-    "correct_index": 2,
-    "explanation": "לפי כלל החזקה בגזירה: $(x^n)'=nx^{n-1}$, כלומר $(x^{1})'=1x^{0}$."
+    "correct_index": 0,
+    "explanation": "כלל החזקה: $(cx^n)'=c\\cdot n\\,x^{n-1}$. כאן $1\\cdot1\\,x^{0}=1$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-551",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(3x^{4})'=$",
+    "question_text": "גזרו: $\\left(3x^{4}\\right)'$",
     "options": [
-      "$3x^3$",
-      "$12x^4$",
-      "$12x^3$",
-      "$4x^3$"
+      "$12x^{3}$",
+      "$12x^{5}$",
+      "$3x^{3}$",
+      "$12x^{4}$"
     ],
-    "correct_index": 2,
-    "explanation": "לפי כלל החזקה עם מקדם קבוע: $(cx^n)'=c\\cdot nx^{n-1}$, כלומר $(3x^{4})'=3\\times4x^{3}=12x^{3}$."
+    "correct_index": 0,
+    "explanation": "כלל החזקה: $(cx^n)'=c\\cdot n\\,x^{n-1}$. כאן $3\\cdot4\\,x^{3}=12x^{3}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-552",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(4x^{2})'=$",
+    "question_text": "גזרו: $\\left(4x^{2}\\right)'$",
     "options": [
-      "$4x$",
       "$8x$",
-      "$8x^2$",
-      "$2x$"
+      "$8x^{3}$",
+      "$4x^{1}$",
+      "$8x^{2}$"
     ],
-    "correct_index": 1,
-    "explanation": "לפי כלל החזקה עם מקדם קבוע: $(cx^n)'=c\\cdot nx^{n-1}$, כלומר $(4x^{2})'=4\\times2x=8x$."
+    "correct_index": 0,
+    "explanation": "כלל החזקה: $(cx^n)'=c\\cdot n\\,x^{n-1}$. כאן $4\\cdot2\\,x^{1}=8x$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-553",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(5x^{3})'=$",
+    "question_text": "גזרו: $\\left(5x^{3}\\right)'$",
     "options": [
-      "$5x^2$",
-      "$15x^3$",
-      "$3x^2$",
-      "$15x^2$"
+      "$15x^{2}$",
+      "$15x^{4}$",
+      "$5x^{2}$",
+      "$15x^{3}$"
     ],
-    "correct_index": 3,
-    "explanation": "לפי כלל החזקה עם מקדם קבוע: $(cx^n)'=c\\cdot nx^{n-1}$, כלומר $(5x^{3})'=5\\times3x^{2}=15x^{2}$."
+    "correct_index": 0,
+    "explanation": "כלל החזקה: $(cx^n)'=c\\cdot n\\,x^{n-1}$. כאן $5\\cdot3\\,x^{2}=15x^{2}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-554",
     "topic_id": "g10-u5-diff-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(3x^{5})'=$",
+    "question_text": "גזרו: $\\left(3x^{5}\\right)'$",
     "options": [
-      "$15x^4$",
-      "$3x^4$",
-      "$15x^5$",
-      "$5x^4$"
+      "$15x^{4}$",
+      "$15x^{6}$",
+      "$3x^{4}$",
+      "$15x^{5}$"
     ],
     "correct_index": 0,
-    "explanation": "לפי כלל החזקה עם מקדם קבוע: $(cx^n)'=c\\cdot nx^{n-1}$, כלומר $(3x^{5})'=3\\times5x^{4}=15x^{4}$."
+    "explanation": "כלל החזקה: $(cx^n)'=c\\cdot n\\,x^{n-1}$. כאן $3\\cdot5\\,x^{4}=15x^{4}$."
   },
   {
     "id": "q-q-g10-u5-diff-intro-555",
@@ -5646,14 +5646,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=25$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=25$?",
     "options": [
-      "$0$",
-      "$-2$",
       "$5$",
-      "$1$"
+      "$25$",
+      "$12$",
+      "$10$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
@@ -5661,7 +5661,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מרחק (0,0)-(3,4):",
+    "question_text": "מהו המרחק בין הנקודות $(0,0)$ ו-$(3,4)$?",
     "options": [
       "$7$",
       "$1$",
@@ -5676,7 +5676,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-functions",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרבולה $y=x^2$. קודקוד הפרבולה:",
+    "question_text": "מהו קודקוד הפרבולה $y=x^2$?",
     "options": [
       "$(1,1)$",
       "$(1,0)$",
@@ -5691,14 +5691,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=1$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=1$?",
     "options": [
-      "$-3$",
-      "$-6$",
-      "$-4$",
-      "$1$"
+      "$1$",
+      "$0$",
+      "$2$",
+      "$3$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{1}=1$."
   },
   {
@@ -5706,14 +5706,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=9$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=9$?",
     "options": [
-      "$-2$",
       "$3$",
-      "$-1$",
-      "$-4$"
+      "$9$",
+      "$4$",
+      "$6$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{9}=3$."
   },
   {
@@ -5721,14 +5721,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=25$. רדיוס:",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=25$?",
     "options": [
-      "$10$",
-      "$12$",
+      "$5$",
       "$25$",
-      "$5$"
+      "$12$",
+      "$10$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
@@ -5736,7 +5736,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "אמצע (0,0),(4,6):",
+    "question_text": "מהי נקודת האמצע של הקטע בין $(0,0)$ ל-$(4,6)$?",
     "options": [
       "$(1,1)$",
       "$(4,6)$",
@@ -5751,14 +5751,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=36$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=36$?",
     "options": [
-      "$2$",
       "$6$",
-      "$1$",
-      "$-1$"
+      "$36$",
+      "$18$",
+      "$12$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{36}=6$."
   },
   {
@@ -5766,14 +5766,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=16$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=16$?",
     "options": [
-      "$-3$",
-      "$0$",
       "$4$",
-      "$-1$"
+      "$16$",
+      "$8$",
+      "$5$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{16}=4$."
   },
   {
@@ -5781,7 +5781,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "שיפוע ישר (1,2)-(4,8):",
+    "question_text": "מהו השיפוע של הישר העובר דרך הנקודות $(1,2)$ ו-$(4,8)$?",
     "options": [
       "$6$",
       "$1$",
@@ -5796,12 +5796,12 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "נוסחת המרחק בין שתי נקודות:",
+    "question_text": "מהי נוסחת המרחק בין הנקודות $(x_1,y_1)$ ו-$(x_2,y_2)$?",
     "options": [
       "$\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$",
-      "$|x-y|$",
-      "$xy$",
-      "$x+y$"
+      "$(x_2-x_1)+(y_2-y_1)$",
+      "$|x_2-x_1|\\cdot|y_2-y_1|$",
+      "$(x_2-x_1)^2+(y_2-y_1)^2$"
     ],
     "correct_index": 0,
     "explanation": "נוסחת המרחק בין שתי נקודות $(x_1,y_1)$ ו-$(x_2,y_2)$ היא $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$."
@@ -5811,14 +5811,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=49$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=49$?",
     "options": [
-      "$3$",
-      "$0$",
       "$7$",
-      "$2$"
+      "$49$",
+      "$24$",
+      "$14$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{49}=7$."
   },
   {
@@ -5826,7 +5826,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משוואת מעגל: $x^2+y^2=r^2$. מרכז:",
+    "question_text": "מהו מרכז המעגל $x^2+y^2=r^2$?",
     "options": [
       "$(r,r)$",
       "$(0,0)$",
@@ -5841,7 +5841,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משוואת ישר דרך (0,1),(0,5):",
+    "question_text": "מהי משוואת הישר העובר דרך $(0,1)$ ו-$(0,5)$?",
     "options": [
       "$y=1$",
       "$x=1$",
@@ -5856,14 +5856,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-analytic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=4$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=4$?",
     "options": [
-      "$-3$",
       "$2$",
-      "$-2$",
-      "$-5$"
+      "$4$",
+      "$3$",
+      "$1$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{4}=2$."
   },
   {
@@ -5886,282 +5886,282 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "במשולש שווה-צלעות כל זווית:",
+    "question_text": "כמה מעלות יש בכל זווית של משולש שווה-צלעות?",
     "options": [
       "$60^\\circ$",
-      "$90$",
-      "$120$",
-      "$45$"
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$120^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות זו לזו, וסכומן $180^\\circ$, לכן כל זווית היא $180\\div 3=60^\\circ$."
+    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות. $180:3=60^\\circ$"
   },
   {
     "id": "q-q-g10-u5-plane-geo-2",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 25,65,?",
+    "question_text": "במשולש יש זוויות של $25^\\circ$ ו-$65^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
-      "$65^\\circ$",
-      "$25^\\circ$",
-      "$155^\\circ$"
+      "$155^\\circ$",
+      "$115^\\circ$",
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-25-65=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-25-65=90^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-3",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 50,50,?",
+    "question_text": "במשולש יש זוויות של $50^\\circ$ ו-$50^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$50^\\circ$",
-      "$100^\\circ$",
+      "$80^\\circ$",
+      "$130^\\circ$",
       "$90^\\circ$",
-      "$80^\\circ$"
+      "$100^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-50-50=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-50-50=80^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-4",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות סמוכות על ישר:",
+    "question_text": "מהו סכום שתי זוויות סמוכות (שיוצרות יחד קו ישר)?",
     "options": [
-      "$0$",
       "$180^\\circ$",
+      "$90^\\circ$",
       "$360^\\circ$",
-      "$90^\\circ$"
+      "$0^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "שתי זוויות סמוכות שיוצרות יחד קו ישר משלימות ל-$180^\\circ$."
+    "correct_index": 0,
+    "explanation": "זוויות סמוכות יוצרות יחד זווית שטוחה (קו ישר). לכן סכומן $180^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-5",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 15,75,?",
+    "question_text": "במשולש יש זוויות של $15^\\circ$ ו-$75^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
-      "$15^\\circ$",
-      "$75^\\circ$",
-      "$165^\\circ$"
+      "$165^\\circ$",
+      "$105^\\circ$",
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-15-75=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-15-75=90^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-6",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות מתאימות על ישרים מקבילים:",
+    "question_text": "מה נכון לגבי זוויות מתאימות על ישרים מקבילים?",
     "options": [
-      "180",
-      "משלימות",
-      "שווות",
-      "90"
+      "הן שוות",
+      "סכומן $180^\\circ$",
+      "כל אחת $90^\\circ$",
+      "אין קשר ביניהן"
     ],
-    "correct_index": 2,
-    "explanation": "כאשר ישר (חותך) חותך שני ישרים מקבילים, זוויות מתאימות (הנמצאות באותו מיקום יחסי) שוות זו לזו."
+    "correct_index": 0,
+    "explanation": "זוויות מתאימות נמצאות באותו מקום ביחס לחותך ולכל אחד מהמקבילים. בין ישרים מקבילים הן **שוות**."
   },
   {
     "id": "q-q-g10-u5-plane-geo-7",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 40,60,?",
+    "question_text": "במשולש יש זוויות של $40^\\circ$ ו-$60^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$100^\\circ$",
-      "$90^\\circ$",
       "$80^\\circ$",
-      "$40^\\circ$"
+      "$140^\\circ$",
+      "$120^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-40-60=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-40-60=80^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-8",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 30,70,?",
+    "question_text": "במשולש יש זוויות של $30^\\circ$ ו-$70^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$80^\\circ$",
-      "$30^\\circ$",
-      "$100^\\circ$",
+      "$150^\\circ$",
+      "$110^\\circ$",
       "$90^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-30-70=80^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-30-70=80^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-9",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "סכום זוויות סביב נקודה:",
+    "question_text": "מהו סכום כל הזוויות סביב נקודה?",
     "options": [
-      "$90$",
-      "$180$",
-      "$270$",
-      "$360^\\circ$"
+      "$360^\\circ$",
+      "$180^\\circ$",
+      "$270^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום כל הזוויות מסביב לנקודה אחת הוא תמיד $360^\\circ$ (סיבוב שלם)."
+    "correct_index": 0,
+    "explanation": "סביב נקודה — סיבוב שלם. סיבוב שלם $=360^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-10",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 45,45,?",
+    "question_text": "במשולש יש זוויות של $45^\\circ$ ו-$45^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
       "$135^\\circ$",
-      "$180^\\circ$",
-      "$45^\\circ$"
+      "$100^\\circ$",
+      "$110^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-45-45=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-45-45=90^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-11",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית קהה:",
+    "question_text": "מהי זווית קהה?",
     "options": [
-      "$=180$",
-      "$<90$",
-      "$>90^\\circ$",
-      "$=90$"
+      "זווית בין $90^\\circ$ ל-$180^\\circ$",
+      "זווית של $180^\\circ$ בדיוק",
+      "זווית של $90^\\circ$ בדיוק",
+      "זווית קטנה מ-$90^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "זווית קהה היא זווית הגדולה מ-$90^\\circ$ (וקטנה מ-$180^\\circ$): $>90^\\circ$."
+    "correct_index": 0,
+    "explanation": "זווית קהה גדולה מ-$90^\\circ$. אבל קטנה מ-$180^\\circ$ (זו כבר זווית שטוחה)."
   },
   {
     "id": "q-q-g10-u5-plane-geo-12",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "במשולש: 50, 60, ?:",
+    "question_text": "במשולש יש זוויות של $50^\\circ$ ו-$60^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$40^\\circ$",
       "$70^\\circ$",
-      "$80^\\circ$",
+      "$130^\\circ$",
+      "$120^\\circ$",
       "$90^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-50-60=70^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-50-60=70^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-13",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית ישרה:",
+    "question_text": "כמה מעלות יש בזווית ישרה?",
     "options": [
-      "$45^\\circ$",
       "$90^\\circ$",
-      "$60^\\circ$",
-      "$180^\\circ$"
+      "$45^\\circ$",
+      "$180^\\circ$",
+      "$60^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "זווית ישרה (זווית שיוצרת \"פינה\" מושלמת, כמו בפינת ריבוע) שווה $90^\\circ$."
+    "correct_index": 0,
+    "explanation": "זווית ישרה — \"פינה\" מושלמת, כמו בריבוע. היא שווה $90^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-14",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 35,55,?",
+    "question_text": "במשולש יש זוויות של $35^\\circ$ ו-$55^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
-      "$55^\\circ$",
       "$145^\\circ$",
-      "$35^\\circ$"
+      "$125^\\circ$",
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-35-55=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-35-55=90^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-15",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "סכום זוויות משולש:",
+    "question_text": "מהו סכום הזוויות במשולש?",
     "options": [
       "$180^\\circ$",
+      "$90^\\circ$",
       "$360^\\circ$",
-      "$100^\\circ$",
-      "$90^\\circ$"
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
+    "explanation": "שלוש הזוויות של כל משולש יחד יוצרות קו ישר. לכן סכומן $180^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-16",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית חדה:",
+    "question_text": "מהי זווית חדה?",
     "options": [
-      "=90",
-      "$<90^\\circ$",
-      "=180",
-      "$>90$"
+      "זווית קטנה מ-$90^\\circ$",
+      "זווית של $90^\\circ$ בדיוק",
+      "זווית בין $90^\\circ$ ל-$180^\\circ$",
+      "זווית של $180^\\circ$ בדיוק"
     ],
-    "correct_index": 1,
-    "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
+    "correct_index": 0,
+    "explanation": "זווית חדה קטנה מ-$90^\\circ$ (וגדולה מ-$0^\\circ$)."
   },
   {
     "id": "q-q-g10-u5-plane-geo-17",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 20,80,?",
+    "question_text": "במשולש יש זוויות של $20^\\circ$ ו-$80^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$100^\\circ$",
-      "$20^\\circ$",
       "$80^\\circ$",
+      "$160^\\circ$",
+      "$100^\\circ$",
       "$90^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-20-80=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-20-80=80^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-18",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "במשולש: 90, 30, ?:",
+    "question_text": "במשולש יש זוויות של $90^\\circ$ ו-$30^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$60^\\circ$",
-      "$45$",
-      "$120$",
-      "$70$"
+      "$90^\\circ$",
+      "$150^\\circ$",
+      "$120^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-90-30=60^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-90-30=60^\\circ$."
   },
   {
     "id": "q-q-g10-u5-plane-geo-551",
     "topic_id": "g10-u5-plane-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+11=99$. $x$?",
+    "question_text": "פתרו את המשוואה $x+11=99$. מהו $x$?",
     "options": [
       "$88$",
-      "$81$",
-      "$83$",
-      "$84$"
+      "$110$",
+      "$86$",
+      "$89$"
     ],
     "correct_index": 0,
     "explanation": "מעבירים את $11$ אגף עם סימן הפוך: $x=99-11=88$."
@@ -6186,12 +6186,12 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\tan x=\\sin x/\\cos x$",
+    "question_text": "האם הזהות $\\tan x=\\frac{\\sin x}{\\cos x}$ נכונה?",
     "options": [
-      "נכון",
-      "רק ל-45",
-      "רק ל-30",
-      "שגוי"
+      "נכונה, לכל $x$ שבו $\\cos x\\neq0$",
+      "נכונה רק ל-$x=45^\\circ$",
+      "נכונה רק ל-$x=30^\\circ$",
+      "שגויה"
     ],
     "correct_index": 0,
     "explanation": "זוהי הזהות המגדירה את הטנגנס: $\\tan x=\\dfrac{\\sin x}{\\cos x}$ — נכון לכל $x$ שבו $\\cos x\\neq 0$."
@@ -6201,14 +6201,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נגדי $3$, יתר $6$. $\\sin$?",
+    "question_text": "במשולש ישר-זווית, הניצב שמול הזווית $\\alpha$ הוא $3$ והיתר $6$. מהו $\\sin\\alpha$?",
     "options": [
-      "$\\frac{1}{3}$",
+      "$\\frac{1}{2}$",
       "$2$",
-      "$1$",
-      "$\\frac{1}{2}$"
+      "$\\frac{1}{3}$",
+      "$1$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{3}{6}=\\dfrac{1}{2}$."
   },
   {
@@ -6216,14 +6216,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "Law of sines: a/sin A =",
+    "question_text": "לפי משפט הסינוסים, $\\frac{a}{\\sin A}=$",
     "options": [
-      "$A/B$",
-      "$ab$",
-      "$a/\\sin B$",
-      "$b/\\sin B$"
+      "$\\frac{b}{\\sin B}$",
+      "$\\frac{a}{\\sin B}$",
+      "$a\\cdot b$",
+      "$\\frac{\\sin A}{a}$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי משפט הסינוסים, היחס שווה בין כל צלע לסינוס הזווית שמולה: $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$."
   },
   {
@@ -6231,14 +6231,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נגדי $10$, יתר $20$. $\\sin$?",
+    "question_text": "במשולש ישר-זווית, הניצב שמול הזווית $\\alpha$ הוא $10$ והיתר $20$. מהו $\\sin\\alpha$?",
     "options": [
-      "$1$",
-      "$\\frac{1}{4}$",
       "$\\frac{1}{2}$",
-      "$2$"
+      "$2$",
+      "$\\frac{1}{3}$",
+      "$1$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{10}{20}=\\dfrac{1}{2}$."
   },
   {
@@ -6246,7 +6246,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\sin 90^\\circ$=",
+    "question_text": "מהו הערך של $\\sin 90^\\circ$?",
     "options": [
       "$-1$",
       "$\\frac{1}{2}$",
@@ -6261,14 +6261,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נגדי $5$, יתר $10$. $\\sin$?",
+    "question_text": "במשולש ישר-זווית, הניצב שמול הזווית $\\alpha$ הוא $5$ והיתר $10$. מהו $\\sin\\alpha$?",
     "options": [
-      "$2$",
-      "$1$",
       "$\\frac{1}{2}$",
-      "$\\frac{1}{4}$"
+      "$2$",
+      "$\\frac{1}{3}$",
+      "$1$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{5}{10}=\\dfrac{1}{2}$."
   },
   {
@@ -6276,7 +6276,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "במשולש 30-60-90, מול ה-30 אם יתר=2:",
+    "question_text": "במשולש ישר-זווית עם זוויות $30^\\circ, 60^\\circ, 90^\\circ$ היתר הוא $2$. מה אורך הניצב שמול הזווית $30^\\circ$?",
     "options": [
       "$\\sqrt{3}$",
       "$3$",
@@ -6291,14 +6291,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "adjacent/hypotenuse =",
+    "question_text": "במשולש ישר-זווית, היחס $\\frac{\\text{ניצב שליד הזווית}}{\\text{יתר}}$ נקרא:",
     "options": [
-      "$\\tan$",
       "$\\cos$",
-      "$\\sec$",
-      "$\\sin$"
+      "$\\sin$",
+      "$\\tan$",
+      "$\\cot$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "במשולש ישר-זווית, היחס ניצב-סמוך חלקי יתר מוגדר כ-$\\cos$ של הזווית."
   },
   {
@@ -6306,7 +6306,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\cos 0^\\circ$=",
+    "question_text": "מהו הערך של $\\cos 0^\\circ$?",
     "options": [
       "$\\frac{1}{2}$",
       "$-1$",
@@ -6321,14 +6321,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נגדי $4$, יתר $8$. $\\sin$?",
+    "question_text": "במשולש ישר-זווית, הניצב שמול הזווית $\\alpha$ הוא $4$ והיתר $8$. מהו $\\sin\\alpha$?",
     "options": [
-      "$\\frac{1}{4}$",
-      "$2$",
       "$\\frac{1}{2}$",
+      "$2$",
+      "$\\frac{1}{3}$",
       "$1$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{4}{8}=\\dfrac{1}{2}$."
   },
   {
@@ -6336,14 +6336,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נגדי $6$, יתר $12$. $\\sin$?",
+    "question_text": "במשולש ישר-זווית, הניצב שמול הזווית $\\alpha$ הוא $6$ והיתר $12$. מהו $\\sin\\alpha$?",
     "options": [
-      "$\\frac{1}{3}$",
-      "$1$",
+      "$\\frac{1}{2}$",
       "$2$",
-      "$\\frac{1}{2}$"
+      "$\\frac{1}{3}$",
+      "$1$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{6}{12}=\\dfrac{1}{2}$."
   },
   {
@@ -6351,7 +6351,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\sin 30^\\circ$=",
+    "question_text": "מהו הערך של $\\sin 30^\\circ$?",
     "options": [
       "$1$",
       "$\\frac{\\sqrt{3}}{2}$",
@@ -6366,14 +6366,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נגדי $8$, יתר $16$. $\\sin$?",
+    "question_text": "במשולש ישר-זווית, הניצב שמול הזווית $\\alpha$ הוא $8$ והיתר $16$. מהו $\\sin\\alpha$?",
     "options": [
-      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
       "$2$",
-      "$1$",
-      "$\\frac{1}{2}$"
+      "$\\frac{1}{3}$",
+      "$1$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "$\\sin$ הוא ניצב נגדי חלקי יתר: $\\dfrac{8}{16}=\\dfrac{1}{2}$."
   },
   {
@@ -6381,7 +6381,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\sin^2 x+\\cos^2 x$=",
+    "question_text": "לכל זווית $x$: $\\sin^2x+\\cos^2x=$",
     "options": [
       "$\\sin 2x$",
       "$x$",
@@ -6396,14 +6396,14 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "opposite/hypotenuse =",
+    "question_text": "במשולש ישר-זווית, היחס $\\frac{\\text{ניצב שמול הזווית}}{\\text{יתר}}$ נקרא:",
     "options": [
-      "$\\cot$",
-      "$\\tan$",
+      "$\\sin$",
       "$\\cos$",
-      "$\\sin$"
+      "$\\tan$",
+      "$\\cot$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "במשולש ישר-זווית, היחס ניצב-נגדי חלקי יתר מוגדר כ-$\\sin$ של הזווית."
   },
   {
@@ -6411,7 +6411,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\tan 45^\\circ$=",
+    "question_text": "מהו הערך של $\\tan 45^\\circ$?",
     "options": [
       "$1$",
       "$\\sqrt{3}$",
@@ -6426,7 +6426,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\sin 0^\\circ$=",
+    "question_text": "מהו הערך של $\\sin 0^\\circ$?",
     "options": [
       "$0$",
       "$\\frac{1}{2}$",
@@ -6441,7 +6441,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$\\sin 180^\\circ$=",
+    "question_text": "מהו הערך של $\\sin 180^\\circ$?",
     "options": [
       "$0$",
       "$1$",
@@ -6456,7 +6456,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-trig",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "במשולש 30-60-90, מול ה-60 אם יתר=2:",
+    "question_text": "במשולש ישר-זווית עם זוויות $30^\\circ, 60^\\circ, 90^\\circ$ היתר הוא $2$. מה אורך הניצב שמול הזווית $60^\\circ$?",
     "options": [
       "$2$",
       "$\\sqrt{3}$",
@@ -8976,7 +8976,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-freq",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "מאותה טבלה ($1\\to4$, $2\\to8$, $3\\to12$, $4\\to6$, $5\\to2$), כמה משפחות יש עם $3$ ילדים ומעלה?",
+    "question_text": "בטבלת שכיחויות של מספר ילדים במשפחה: $1\\to4$, $2\\to8$, $3\\to12$, $4\\to6$, $5\\to2$. כמה משפחות יש עם $3$ ילדים ומעלה?",
     "options": [
       "$20$",
       "$12$",
@@ -9126,7 +9126,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-stats",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מאותה רשימת $20$ הציונים (ממוינת), מהו החציון?",
+    "question_text": "$20$ ציונים ממוינים: $45,45,50,55,65,75,75,75,80,85,85,85,85,90,90,90,95,95,95,100$. מהו החציון?",
     "options": [
       "$85$",
       "$80$",
@@ -9351,7 +9351,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מאותה הטלה של שתי קוביות, מה ההסתברות שהסכום שונה מ-$7$?",
+    "question_text": "זורקים שתי קוביות הוגנות. מה ההסתברות שהסכום **שונה** מ-$7$?",
     "options": [
       "$\\dfrac{5}{6}$",
       "$\\dfrac{1}{6}$",
@@ -9381,7 +9381,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-prob",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "באותו משחק (שעון נועה: $2$ ערכים חיוביים, $2$ שליליים; שעון מיכל: $1$ חיובי, $2$ שליליים), נועה מנצחת אם המכפלה חיובית. מה ההסתברות שנועה תנצח?",
+    "question_text": "שני שעוני מספרים: בשעון של נועה $2$ ערכים חיוביים ו-$2$ שליליים; בשעון של מיכל $1$ חיובי ו-$2$ שליליים. מסובבים את שניהם. נועה מנצחת אם המכפלה חיובית. מה ההסתברות שנועה תנצח?",
     "options": [
       "$0.5$",
       "$0.25$",
@@ -9426,7 +9426,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-integration",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מאותה התפלגות ($1\\to2$, $2\\to6$, $3\\to12$, $4\\to8$, $5\\to4$), מהו השכיח של מספר הילדים במשפחה?",
+    "question_text": "בטבלת שכיחויות של מספר ילדים במשפחה: $1\\to2$, $2\\to6$, $3\\to12$, $4\\to8$, $5\\to4$ (סה\"כ $32$ משפחות). מהו השכיח של מספר הילדים במשפחה?",
     "options": [
       "$3$",
       "$4$",
@@ -9441,7 +9441,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-integration",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מאותה התפלגות, מה ההסתברות שבמשפחה אקראית מספר הילדים קטן מהשכיח (כלומר פחות מ-$3$)?",
+    "question_text": "בטבלת שכיחויות של מספר ילדים במשפחה: $1\\to2$, $2\\to6$, $3\\to12$, $4\\to8$, $5\\to4$ (סה\"כ $32$ משפחות). מה ההסתברות שבמשפחה אקראית מספר הילדים קטן מהשכיח?",
     "options": [
       "$0.25$",
       "$0.375$",
@@ -9471,7 +9471,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-integration",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "מאותו בית ספר (סה\"כ $325$ תלמידים, כיתה י\"ב $85$ תלמידים), מה ההסתברות שתלמיד אקראי אינו לומד בכיתה י\"ב (בקירוב)?",
+    "question_text": "בבית ספר $325$ תלמידים, מהם $85$ בכיתה י\"ב. מה ההסתברות שתלמיד אקראי אינו לומד בכיתה י\"ב (בקירוב)?",
     "options": [
       "$\\approx 0.74$",
       "$\\approx 0.26$",
@@ -9531,7 +9531,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-space-perimeter",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "טרמפולינה אחרת, היקפה $11.3$ מ'. מה רדיוסה (בקירוב)? ($\\pi\\approx 3.14$)",
+    "question_text": "היקפה של טרמפולינה עגולה הוא $11.3$ מ'. מה רדיוסה (בקירוב)? ($\\pi\\approx 3.14$)",
     "options": [
       "$\\approx 1.8$ מ'",
       "$\\approx 3.6$ מ'",
@@ -9756,7 +9756,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-space-routes",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "באותו מסלול (שתי צלעות ישרות של $250$ מ' וחלק נוסף), אם מגדילים כל אחת משתי הצלעות בנות $250$ מ' ב-$10\\%$ מאורכן (שאר הרכיבים אינם משתנים), בכמה יגדל אורך המסלול הכולל?",
+    "question_text": "מסלול ריצה כולל שתי צלעות ישרות של $250$ מ' כל אחת, ועוד חלקים נוספים. מגדילים כל אחת משתי הצלעות ב-$10\\%$ (השאר לא משתנה). בכמה יגדל אורך המסלול?",
     "options": [
       "$50$ מ'",
       "$25$ מ'",
@@ -10191,7 +10191,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-space-optimization",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מה השטח המקסימלי המתקבל בשאלה הקודמת (גדר $48$ מ')?",
+    "question_text": "גדר באורך $48$ מ' מקיפה גינה מלבנית. מהו השטח המקסימלי האפשרי של הגינה (במ\"ר)?",
     "options": [
       "$144$",
       "$140$",
@@ -12546,7 +12546,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-root-function",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "באותה פונקציה $f(x)=\\sqrt{4-x^2}$ (תחום $-2\\le x\\le2$), מהי נקודת המינימום המוחלט?",
+    "question_text": "נתונה $f(x)=\\sqrt{4-x^2}$ (תחום $-2\\le x\\le2$). מהי נקודת המינימום המוחלט?",
     "options": [
       "$x=\\pm2$ (עם $f=0$) - קיצון בקצה התחום",
       "$x=0$",
@@ -12621,7 +12621,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-extremum-problems",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "בבעיה הקודמת (סכום $20$, מכפלה מקסימלית), מהם שני המספרים?",
+    "question_text": "סכום שני מספרים הוא $20$, ומכפלתם מקסימלית. מהם שני המספרים?",
     "options": [
       "$10$ ו-$10$",
       "$5$ ו-$15$",
@@ -12681,7 +12681,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-extremum-problems",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "בבעיית המפעל (סעיף קודם), מהו הרווח היומי המקסימלי?",
+    "question_text": "מפעל מייצר פריט בעלות $20$ ₪ ומוכר אותו ב-$40$ ₪, ומוכר $100$ יחידות ביום. כל הפחתה של $1$ ₪ במחיר מגדילה את הכמות הנמכרת ב-$10$ יחידות ביום. מהו הרווח היומי המקסימלי?",
     "options": [
       "$2250$ ₪",
       "$2000$ ₪",
@@ -12689,7 +12689,7 @@ export const QUESTIONS = [
       "$1800$ ₪"
     ],
     "correct_index": 0,
-    "explanation": "מציבים $x=5$: רווח $=2000+100\\times5-10\\times25=2000+500-250=2250$."
+    "explanation": "רווח $(x)=(20-x)(100+10x)=2000+100x-10x^2$. נגזרת: $100-20x=0\\Rightarrow x=5$. מציבים $x=5$: רווח $=2000+500-250=2250$."
   },
   {
     "id": "q-g10-u4-extremum-problems-7",
@@ -13056,7 +13056,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u4-probability",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "באותה קופסה ($3$ אדומים, $4$ ירוקים), מוציאים כדור, מחזירים אותו, ומוציאים שוב באקראי. מה ההסתברות ששני הכדורים אדומים?",
+    "question_text": "בקופסה $3$ כדורים אדומים ו-$4$ ירוקים. מוציאים כדור, מחזירים אותו, ומוציאים שוב באקראי. מה ההסתברות ששני הכדורים אדומים?",
     "options": [
       "$\\dfrac{9}{49}$",
       "$\\dfrac{1}{7}$",
@@ -13191,7 +13191,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-power-functions",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "באותה פונקציה $f(x)=(x-2)^2(x+1)$, איך מתנהג הגרף ליד $x=-1$?",
+    "question_text": "נתון $f(x)=(x-2)^2(x+1)$. איך מתנהג הגרף ליד $x=-1$?",
     "options": [
       "חוצה את ציר $x$",
       "נוגע בציר $x$ וחוזר",
@@ -13746,7 +13746,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-poly-investigation",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "באותה פונקציה $f(x)=x^3-3x^2$, מהי נקודת המינימום המקומי?",
+    "question_text": "נתונה $f(x)=x^3-3x^2$. מהי נקודת המינימום המקומי?",
     "options": [
       "$x=2$",
       "$x=0$",
@@ -13754,7 +13754,7 @@ export const QUESTIONS = [
       "$x=3$"
     ],
     "correct_index": 0,
-    "explanation": "ב-$x=2$ הנגזרת עוברת מ-$-$ ל-$+$, כלומר מינימום מקומי."
+    "explanation": "$f'(x)=3x^2-6x=3x(x-2)=0\\Rightarrow x=0,2$. ב-$x=2$ הנגזרת עוברת מ-$-$ ל-$+$, כלומר מינימום מקומי."
   },
   {
     "id": "q-g10-u5-poly-investigation-4",
@@ -14076,7 +14076,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-extremum-problems",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "בבעיית המפעל (סעיף קודם), מהו הרווח היומי המקסימלי?",
+    "question_text": "מפעל מוכר פריט ב-$35$ ₪ בעלות $15$ ₪, ומוכר $80$ יחידות ביום. כל הפחתה של $1$ ₪ במחיר מגדילה את המכירות ב-$8$ יחידות ביום. מהו הרווח היומי המקסימלי?",
     "options": [
       "$1800$ ₪",
       "$1600$ ₪",
@@ -14084,7 +14084,7 @@ export const QUESTIONS = [
       "$1400$ ₪"
     ],
     "correct_index": 0,
-    "explanation": "מציבים $x=5$: רווח $=1600+80\\times5-8\\times25=1600+400-200=1800$."
+    "explanation": "רווח $(x)=(20-x)(80+8x)=1600+80x-8x^2$. נגזרת: $80-16x=0\\Rightarrow x=5$. מציבים $x=5$: רווח $=1600+400-200=1800$."
   },
   {
     "id": "q-g10-u5-extremum-problems-6",
@@ -14556,7 +14556,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u5-similarity-thales",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "ממקודה חיצונית למעגל יוצאים משיק וחותך. אורך החותך כולו $9$, והקטע החיצוני שלו $4$. מהו אורך המשיק?",
+    "question_text": "מנקודה חיצונית למעגל יוצאים משיק וחותך. אורך החותך כולו $9$, והקטע החיצוני שלו $4$. מהו אורך המשיק?",
     "options": [
       "$6$",
       "$36$",
@@ -14816,7 +14816,7 @@ export const QUESTIONS = [
       "$\\sqrt{13}$",
       "$5$",
       "$7$",
-      "$\\sqrt{16}$"
+      "$\\sqrt{37}$"
     ],
     "correct_index": 0,
     "explanation": "$c^2=3^2+4^2-2\\times3\\times4\\times\\cos60°=25-24\\times0.5=25-12=13\\Rightarrow c=\\sqrt{13}$."
@@ -22721,7 +22721,7 @@ export const QUESTIONS = [
       "$3$",
       "$4$",
       "$2$",
-      "$5$"
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "למשולש יש $3$ זוויות."
@@ -23125,8 +23125,8 @@ export const QUESTIONS = [
     "options": [
       "$0$",
       "$1$",
-      "$\\infty$",
-      "$-1$"
+      "$-1$",
+      "$\\frac{\\sqrt3}{3}$"
     ],
     "correct_index": 0,
     "explanation": "$\\tan 0^\\circ=\\dfrac{\\sin 0^\\circ}{\\cos 0^\\circ}=\\dfrac{0}{1}=0$."
@@ -26271,7 +26271,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-integration",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מאותה טבלה ($0\\to3$, $1\\to5$, $2\\to10$, $3\\to7$, $4\\to5$, סה\"כ $30$), מה ההסתברות שתלמיד אקראי קרא בדיוק $2$ ספרים?",
+    "question_text": "בטבלת שכיחויות של מספר ספרים שקראו תלמידים בחודש: $0\\to3$, $1\\to5$, $2\\to10$, $3\\to7$, $4\\to5$ (סה\"כ $30$). מה ההסתברות שתלמיד אקראי קרא בדיוק $2$ ספרים?",
     "options": [
       "$\\frac{1}{3}$",
       "$\\frac{1}{5}$",
@@ -26286,7 +26286,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-integration",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מאותה טבלה, מה ההסתברות שתלמיד אקראי קרא יותר מ-$2$ ספרים?",
+    "question_text": "בטבלת שכיחויות של מספר ספרים שקראו תלמידים בחודש: $0\\to3$, $1\\to5$, $2\\to10$, $3\\to7$, $4\\to5$ (סה\"כ $30$). מה ההסתברות שתלמיד אקראי קרא יותר מ-$2$ ספרים?",
     "options": [
       "$0.4$",
       "$0.25$",
@@ -26301,7 +26301,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-integration",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מאותה טבלה, מה ההסתברות שתלמיד אקראי קרא פחות מ-$2$ ספרים (כלומר $0$ או $1$)?",
+    "question_text": "בטבלת שכיחויות של מספר ספרים שקראו תלמידים בחודש: $0\\to3$, $1\\to5$, $2\\to10$, $3\\to7$, $4\\to5$ (סה\"כ $30$). מה ההסתברות שתלמיד אקראי קרא פחות מ-$2$ ספרים?",
     "options": [
       "$\\approx 0.267$",
       "$0.4$",
@@ -26316,7 +26316,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-integration",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "מאותה טבלה ($0\\to3$, $1\\to5$, $2\\to10$, $3\\to7$, $4\\to5$, סה\"כ $30$), מהו הממוצע (בקירוב) של מספר הספרים שנקראו?",
+    "question_text": "בטבלת שכיחויות של מספר ספרים שקראו תלמידים בחודש: $0\\to3$, $1\\to5$, $2\\to10$, $3\\to7$, $4\\to5$ (סה\"כ $30$). מהו ממוצע מספר הספרים שנקראו?",
     "options": [
       "$2.2$",
       "$2$",
@@ -26346,7 +26346,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-integration",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מאותו סקר (כדורסל=$15$, כדורגל=$25$, שחייה=$10$, סה\"כ $50$), מה ההסתברות שתלמיד אקראי הכי אוהב כדורגל?",
+    "question_text": "בסקר ספורט: כדורסל $15$, כדורגל $25$, שחייה $10$ (סה\"כ $50$ תלמידים). מה ההסתברות שתלמיד אקראי הכי אוהב כדורגל?",
     "options": [
       "$0.5$",
       "$0.3$",
@@ -26361,7 +26361,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-integration",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מאותו סקר, מה ההסתברות שתלמיד אקראי אינו אוהב כדורסל הכי הרבה?",
+    "question_text": "בסקר ספורט: כדורסל $15$, כדורגל $25$, שחייה $10$ (סה\"כ $50$ תלמידים). מה ההסתברות שתלמיד אקראי **אינו** אוהב כדורסל הכי הרבה?",
     "options": [
       "$0.7$",
       "$0.3$",
@@ -26391,7 +26391,7 @@ export const QUESTIONS = [
     "topic_id": "g10-u3-science-integration",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "מאותה קבוצת ציונים ($80,85,90,95,100$, ממוצע $90$), מה ההסתברות שציון שנבחר אקראית גבוה מהממוצע?",
+    "question_text": "ציוני $5$ תלמידים: $80,85,90,95,100$ (ממוצע $90$). מה ההסתברות שציון שנבחר אקראית גבוה מהממוצע?",
     "options": [
       "$0.4$",
       "$0.6$",
