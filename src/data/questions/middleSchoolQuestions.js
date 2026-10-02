@@ -5004,9 +5004,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $(7+2)\\times 2^{2}$?",
     "options": [
       "$36$",
-      "$18$",
+      "$15$",
       "$38$",
-      "$33$"
+      "$37$"
     ],
     "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים, ואז את החזקה: $7+2=9$, $2^{2}=4$, ואז $9\\times 4=36$."
@@ -5018,12 +5018,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $4^3$?",
     "options": [
-      "$59$",
       "$64$",
-      "$60$",
-      "$57$"
+      "$12$",
+      "$7$",
+      "$60$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "החישוב: $4^{3}=64$."
   },
   {
@@ -5034,9 +5034,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $(3+4)\\times 2^{2}$?",
     "options": [
       "$28$",
-      "$14$",
+      "$19$",
       "$30$",
-      "$25$"
+      "$29$"
     ],
     "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים, ואז את החזקה: $3+4=7$, $2^{2}=4$, ואז $7\\times 4=28$."
@@ -5049,9 +5049,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $5+2^{2}\\times 3$?",
     "options": [
       "$17$",
-      "$11$",
-      "$19$",
-      "$14$"
+      "$27$",
+      "$21$",
+      "$16$"
     ],
     "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את החזקה ואז את הכפל: $2^{2}=4$, $4\\times 3=12$, ואז $5+12=17$."
@@ -5064,9 +5064,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $9^2$?",
     "options": [
       "$81$",
-      "$77$",
-      "$74$",
-      "$76$"
+      "$18$",
+      "$11$",
+      "$72$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $9^{2}=81$."
@@ -5078,12 +5078,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $6^3$?",
     "options": [
-      "$209$",
-      "$212$",
       "$216$",
-      "$211$"
+      "$18$",
+      "$9$",
+      "$210$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $6^{3}=216$."
   },
   {
@@ -5094,9 +5094,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $1+5\\times 2^{2}$?",
     "options": [
       "$21$",
-      "$11$",
-      "$23$",
-      "$18$"
+      "$24$",
+      "$12$",
+      "$20$"
     ],
     "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את החזקה ואז את הכפל: $2^{2}=4$, $5\\times 4=20$, ואז $1+20=21$."
@@ -5108,12 +5108,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $7^2$?",
     "options": [
-      "$44$",
-      "$42$",
       "$49$",
-      "$45$"
+      "$14$",
+      "$9$",
+      "$42$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $7^{2}=49$."
   },
   {
@@ -5123,13 +5123,13 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $2^3\\times 2^2$?",
     "options": [
-      "$10$",
-      "$16$",
       "$32$",
-      "$64$"
+      "$64$",
+      "$12$",
+      "$16$"
     ],
-    "correct_index": 2,
-    "explanation": "החישוב: $2^3\\times 2^2=2^{3+2}=2^5=32$."
+    "correct_index": 0,
+    "explanation": "כפל חזקות עם אותו בסיס — מחברים מעריכים: $2^3\\times2^2=2^{5}=32$."
   },
   {
     "id": "q-q-g9r-powers-10",
@@ -5139,9 +5139,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $(5+2)\\times 3^{2}$?",
     "options": [
       "$63$",
-      "$21$",
-      "$65$",
-      "$60$"
+      "$23$",
+      "$42$",
+      "$66$"
     ],
     "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים, ואז את החזקה: $5+2=7$, $3^{2}=9$, ואז $7\\times 9=63$."
@@ -5154,9 +5154,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $8^2$?",
     "options": [
       "$64$",
-      "$60$",
-      "$57$",
-      "$59$"
+      "$16$",
+      "$10$",
+      "$56$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $8^{2}=64$."
@@ -5169,9 +5169,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $(2+3)\\times 2^{2}$?",
     "options": [
       "$20$",
-      "$10$",
+      "$14$",
       "$22$",
-      "$17$"
+      "$21$"
     ],
     "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים, ואז את החזקה: $2+3=5$, $2^{2}=4$, ואז $5\\times 4=20$."
@@ -5183,12 +5183,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $2^2$?",
     "options": [
-      "$0$",
-      "$-3$",
       "$4$",
-      "$-1$"
+      "$2$",
+      "$5$",
+      "$3$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $2^{2}=4$."
   },
   {
@@ -5199,9 +5199,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $2+3^{2}\\times 4$?",
     "options": [
       "$38$",
-      "$14$",
-      "$40$",
-      "$35$"
+      "$44$",
+      "$20$",
+      "$37$"
     ],
     "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את החזקה ואז את הכפל: $3^{2}=9$, $9\\times 4=36$, ואז $2+36=38$."
@@ -5214,9 +5214,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $8^3$?",
     "options": [
       "$512$",
-      "$507$",
-      "$505$",
-      "$508$"
+      "$24$",
+      "$11$",
+      "$504$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $8^{3}=512$."
@@ -5228,12 +5228,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $10^3$?",
     "options": [
-      "$100$",
+      "$1{,}000$",
       "$30$",
-      "$10000$",
-      "$1000$"
+      "$13$",
+      "$990$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "החישוב: $10^{3}=1000$."
   },
   {
@@ -5243,12 +5243,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(4+2)\\times 6$?",
     "options": [
-      "$32$",
-      "$29$",
-      "$31$",
-      "$36$"
+      "$36$",
+      "$16$",
+      "$42$",
+      "$37$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $4+2=6$, ואז $6\\times 6=36$."
   },
   {
@@ -5259,9 +5259,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $9^3$?",
     "options": [
       "$729$",
-      "$724$",
-      "$725$",
-      "$722$"
+      "$27$",
+      "$12$",
+      "$720$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $9^{3}=729$."
@@ -5274,9 +5274,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $2+2^{2}\\times 3$?",
     "options": [
       "$14$",
-      "$8$",
-      "$16$",
-      "$11$"
+      "$18$",
+      "$12$",
+      "$13$"
     ],
     "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את החזקה ואז את הכפל: $2^{2}=4$, $4\\times 3=12$, ואז $2+12=14$."
@@ -5301,14 +5301,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתח: $2(x+7)$",
+    "question_text": "פתחו את הסוגריים: $2(x+7)$",
     "options": [
-      "$2x$",
+      "$2x+14$",
       "$2x+7$",
       "$x+14$",
-      "$2x+14$"
+      "$2x$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $2(x+7)=2x+14$."
   },
   {
@@ -5316,11 +5316,11 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתח: $(x+5)^2$",
+    "question_text": "פתחו את הסוגריים: $(x+5)^2$",
     "options": [
       "$x^2+10x+25$",
-      "$x^2-25$",
       "$x^2+25$",
+      "$x^2+5x+25$",
       "$x^2+10x$"
     ],
     "correct_index": 0,
@@ -5331,14 +5331,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פרק גורם: $18x+6$",
+    "question_text": "פרקו לגורמים (הוציאו גורם משותף): $18x+6$",
     "options": [
-      "$6x+3$",
       "$6(3x+1)$",
       "$18(x+6)$",
-      "$x(6+3)$"
+      "$6x+3$",
+      "$x(18+6)$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מוציאים גורם משותף $6$ מכל איבר: $18x+6=6(3x+1)$."
   },
   {
@@ -5346,14 +5346,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרק: $x^2-9$",
+    "question_text": "פרקו לגורמים: $x^2-9$",
     "options": [
-      "$(x-3)^2$",
       "$(x-3)(x+3)$",
+      "$(x-3)^2$",
       "$(x+3)^2$",
-      "$x-9$"
+      "$(x-9)(x+1)$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-9=(x-3)(x+3)$."
   },
   {
@@ -5361,12 +5361,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתח: $(x+3)^2$",
+    "question_text": "פתחו את הסוגריים: $(x+3)^2$",
     "options": [
       "$x^2+6x+9$",
-      "$x^2+6x$",
-      "$x^2-9$",
-      "$x^2+9$"
+      "$x^2+9$",
+      "$x^2+3x+9$",
+      "$x^2+6x$"
     ],
     "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר $(x+a)^2=x^2+2ax+a^2$: $(x+3)^2=x^2+6x+9$."
@@ -5376,14 +5376,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרק: $x^2-4$",
+    "question_text": "פרקו לגורמים: $x^2-4$",
     "options": [
-      "$(x-2)^2$",
       "$(x-2)(x+2)$",
-      "$x-4$",
-      "$(x+2)^2$"
+      "$(x-2)^2$",
+      "$(x+2)^2$",
+      "$(x-4)(x+1)$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-4=(x-2)(x+2)$."
   },
   {
@@ -5391,11 +5391,11 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתח: $5(x+6)$",
+    "question_text": "פתחו את הסוגריים: $5(x+6)$",
     "options": [
       "$5x+30$",
-      "$x+30$",
       "$5x+6$",
+      "$x+30$",
       "$5x$"
     ],
     "correct_index": 0,
@@ -5406,11 +5406,11 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתח: $(x+6)^2$",
+    "question_text": "פתחו את הסוגריים: $(x+6)^2$",
     "options": [
       "$x^2+12x+36$",
-      "$x^2-36$",
       "$x^2+36$",
+      "$x^2+6x+36$",
       "$x^2+12x$"
     ],
     "correct_index": 0,
@@ -5421,14 +5421,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פרק גורם: $24x+4$",
+    "question_text": "פרקו לגורמים (הוציאו גורם משותף): $24x+4$",
     "options": [
+      "$4(6x+1)$",
       "$24(x+4)$",
       "$4x+6$",
-      "$x(4+6)$",
-      "$4(6x+1)$"
+      "$x(24+4)$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מוציאים גורם משותף $4$ מכל איבר: $24x+4=4(6x+1)$."
   },
   {
@@ -5436,14 +5436,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתח: $2(x+3)$",
+    "question_text": "פתחו את הסוגריים: $2(x+3)$",
     "options": [
-      "$2x$",
-      "$x+6$",
       "$2x+6$",
-      "$2x+3$"
+      "$2x+3$",
+      "$x+6$",
+      "$2x$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $2(x+3)=2x+6$."
   },
   {
@@ -5451,14 +5451,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרק: $x^2-49$",
+    "question_text": "פרקו לגורמים: $x^2-49$",
     "options": [
-      "$(x+7)^2$",
-      "$x-49$",
+      "$(x-7)(x+7)$",
       "$(x-7)^2$",
-      "$(x-7)(x+7)$"
+      "$(x+7)^2$",
+      "$(x-49)(x+1)$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-49=(x-7)(x+7)$."
   },
   {
@@ -5466,12 +5466,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרק: $x^2-25$",
+    "question_text": "פרקו לגורמים: $x^2-25$",
     "options": [
       "$(x-5)(x+5)$",
-      "$x-25$",
       "$(x-5)^2$",
-      "$(x+5)^2$"
+      "$(x+5)^2$",
+      "$(x-25)(x+1)$"
     ],
     "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-25=(x-5)(x+5)$."
@@ -5481,14 +5481,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרק: $x^2-16$",
+    "question_text": "פרקו לגורמים: $x^2-16$",
     "options": [
-      "$(x+4)^2$",
-      "$x-16$",
+      "$(x-4)(x+4)$",
       "$(x-4)^2$",
-      "$(x-4)(x+4)$"
+      "$(x+4)^2$",
+      "$(x-16)(x+1)$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי נוסחת הכפל המקוצר להפרש ריבועים $x^2-a^2=(x-a)(x+a)$: $x^2-16=(x-4)(x+4)$."
   },
   {
@@ -5496,14 +5496,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתח: $4(x+5)$",
+    "question_text": "פתחו את הסוגריים: $4(x+5)$",
     "options": [
-      "$x+20$",
       "$4x+20$",
-      "$4x$",
-      "$4x+5$"
+      "$4x+5$",
+      "$x+20$",
+      "$4x$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $4(x+5)=4x+20$."
   },
   {
@@ -5511,7 +5511,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתח: $2(x+8)$",
+    "question_text": "פתחו את הסוגריים: $2(x+8)$",
     "options": [
       "$2x+16$",
       "$2x+8$",
@@ -5526,14 +5526,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פרק גורם: $10x+5$",
+    "question_text": "פרקו לגורמים (הוציאו גורם משותף): $10x+5$",
     "options": [
+      "$5(2x+1)$",
       "$10(x+5)$",
       "$5x+2$",
-      "$5(2x+1)$",
-      "$x(5+2)$"
+      "$x(10+5)$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מוציאים גורם משותף $5$ מכל איבר: $10x+5=5(2x+1)$."
   },
   {
@@ -5541,12 +5541,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פרק גורם: $14x+2$",
+    "question_text": "פרקו לגורמים (הוציאו גורם משותף): $14x+2$",
     "options": [
       "$2(7x+1)$",
-      "$x(2+7)$",
       "$14(x+2)$",
-      "$2x+7$"
+      "$2x+7$",
+      "$x(14+2)$"
     ],
     "correct_index": 0,
     "explanation": "מוציאים גורם משותף $2$ מכל איבר: $14x+2=2(7x+1)$."
@@ -5556,12 +5556,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פרק גורם: $30x+5$",
+    "question_text": "פרקו לגורמים (הוציאו גורם משותף): $30x+5$",
     "options": [
       "$5(6x+1)$",
-      "$x(5+6)$",
       "$30(x+5)$",
-      "$5x+6$"
+      "$5x+6$",
+      "$x(30+5)$"
     ],
     "correct_index": 0,
     "explanation": "מוציאים גורם משותף $5$ מכל איבר: $30x+5=5(6x+1)$."
@@ -5571,14 +5571,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-factor-expand",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פרק גורם: $21x+3$",
+    "question_text": "פרקו לגורמים (הוציאו גורם משותף): $21x+3$",
     "options": [
-      "$3x+7$",
-      "$x(3+7)$",
+      "$3(7x+1)$",
       "$21(x+3)$",
-      "$3(7x+1)$"
+      "$3x+7$",
+      "$x(21+3)$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מוציאים גורם משותף $3$ מכל איבר: $21x+3=3(7x+1)$."
   },
   {
@@ -5601,12 +5601,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-1)(x-5)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-1)(x-5)=0$. מהו סכום שני הפתרונות?",
     "options": [
       "$6$",
-      "$-1$",
-      "$2$",
-      "$1$"
+      "$5$",
+      "$4$",
+      "$-6$"
     ],
     "correct_index": 0,
     "explanation": "השורשים הם $1$ ו-$5$ (מהפירוק לגורמים), וסכומם $1+5=6$."
@@ -5616,14 +5616,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-1)(x-5)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-1)(x-5)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$-2$",
-      "$0$",
-      "$1$",
-      "$5$"
+      "$5$",
+      "$6$",
+      "$4$",
+      "$-5$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "השורשים הם $1$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $1\\times 5=5$."
   },
   {
@@ -5631,14 +5631,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-1)(x-4)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-1)(x-4)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$0$",
       "$4$",
-      "$-1$",
-      "$-3$"
+      "$5$",
+      "$3$",
+      "$-4$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "השורשים הם $1$ ו-$4$ (מהפירוק לגורמים), ומכפלתם $1\\times 4=4$."
   },
   {
@@ -5646,11 +5646,11 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-1)(x-2)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-1)(x-2)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
       "$2$",
-      "$-3$",
-      "$-5$",
+      "$3$",
+      "$1$",
       "$-2$"
     ],
     "correct_index": 0,
@@ -5661,14 +5661,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-4)(x-1)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-4)(x-1)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$-3$",
-      "$-1$",
-      "$0$",
-      "$4$"
+      "$4$",
+      "$5$",
+      "$3$",
+      "$-4$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "השורשים הם $4$ ו-$1$ (מהפירוק לגורמים), ומכפלתם $4\\times 1=4$."
   },
   {
@@ -5676,14 +5676,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=25$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=25$. מהו הפתרון החיובי?",
     "options": [
-      "$1$",
-      "$-2$",
-      "$0$",
-      "$5$"
+      "$5$",
+      "$12$",
+      "$25$",
+      "$6$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=25$ הוא $x=\\sqrt{25}=5$."
   },
   {
@@ -5691,14 +5691,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=9$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=9$. מהו הפתרון החיובי?",
     "options": [
-      "$-1$",
       "$3$",
-      "$-2$",
-      "$-4$"
+      "$4$",
+      "$9$",
+      "$2$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=9$ הוא $x=\\sqrt{9}=3$."
   },
   {
@@ -5706,29 +5706,29 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-5)(x-5)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-5)(x-5)=0$. מהו הפתרון?",
     "options": [
-      "$18$",
-      "$21$",
+      "$5$",
+      "$10$",
       "$25$",
-      "$20$"
+      "$0$"
     ],
-    "correct_index": 2,
-    "explanation": "השורשים הם $5$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $5\\times 5=25$."
+    "correct_index": 0,
+    "explanation": "$(x-5)^2=0$ רק כאשר $x-5=0$, כלומר $x=5$ (פתרון יחיד)."
   },
   {
     "id": "q-q-g9r-quad-eq-9",
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-1)^2+4$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-1)^2+4$?",
     "options": [
-      "$-6$",
-      "$-3$",
-      "$-4$",
-      "$1$"
+      "$1$",
+      "$-1$",
+      "$4$",
+      "$5$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=1$."
   },
   {
@@ -5736,14 +5736,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=1$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=1$. מהו הפתרון החיובי?",
     "options": [
-      "$-4$",
       "$1$",
-      "$-6$",
-      "$-3$"
+      "$0$",
+      "$2$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=1$ הוא $x=\\sqrt{1}=1$."
   },
   {
@@ -5751,12 +5751,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-3)^2+3$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-3)^2+3$?",
     "options": [
       "$3$",
-      "$-2$",
-      "$-4$",
-      "$-1$"
+      "$-3$",
+      "$4$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=3$."
@@ -5766,14 +5766,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-2)(x-3)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-2)(x-3)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$-1$",
-      "$1$",
       "$6$",
-      "$2$"
+      "$5$",
+      "$1$",
+      "$-6$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "השורשים הם $2$ ו-$3$ (מהפירוק לגורמים), ומכפלתם $2\\times 3=6$."
   },
   {
@@ -5781,12 +5781,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-1)(x-3)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-1)(x-3)=0$. מהו סכום שני הפתרונות?",
     "options": [
       "$4$",
-      "$-3$",
-      "$-1$",
-      "$0$"
+      "$3$",
+      "$2$",
+      "$-4$"
     ],
     "correct_index": 0,
     "explanation": "השורשים הם $1$ ו-$3$ (מהפירוק לגורמים), וסכומם $1+3=4$."
@@ -5796,12 +5796,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-2)^2+1$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-2)^2+1$?",
     "options": [
       "$2$",
       "$-2$",
-      "$-5$",
-      "$-3$"
+      "$1$",
+      "$3$"
     ],
     "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=2$."
@@ -5811,12 +5811,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-5)(x-1)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-5)(x-1)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
       "$5$",
-      "$1$",
-      "$-2$",
-      "$0$"
+      "$6$",
+      "$4$",
+      "$-5$"
     ],
     "correct_index": 0,
     "explanation": "השורשים הם $5$ ו-$1$ (מהפירוק לגורמים), ומכפלתם $5\\times 1=5$."
@@ -5826,29 +5826,29 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-5)(x-5)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-5)(x-5)=0$. מהו הפתרון?",
     "options": [
-      "$6$",
+      "$5$",
       "$10$",
-      "$3$",
-      "$5$"
+      "$25$",
+      "$0$"
     ],
-    "correct_index": 1,
-    "explanation": "השורשים הם $5$ ו-$5$ (מהפירוק לגורמים), וסכומם $5+5=10$."
+    "correct_index": 0,
+    "explanation": "$(x-5)^2=0$ רק כאשר $x-5=0$, כלומר $x=5$ (פתרון יחיד)."
   },
   {
     "id": "q-q-g9r-quad-eq-17",
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-2)^2+5$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-2)^2+5$?",
     "options": [
-      "$-3$",
-      "$-5$",
+      "$2$",
       "$-2$",
-      "$2$"
+      "$5$",
+      "$7$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=2$."
   },
   {
@@ -5856,14 +5856,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quad-eq",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=16$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=16$. מהו הפתרון החיובי?",
     "options": [
-      "$-1$",
-      "$0$",
       "$4$",
-      "$-3$"
+      "$8$",
+      "$16$",
+      "$5$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=16$ הוא $x=\\sqrt{16}=4$."
   },
   {
@@ -5871,14 +5871,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-1)^2+1$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-1)^2+1$?",
     "options": [
-      "$-6$",
-      "$-3$",
       "$1$",
-      "$-4$"
+      "$-1$",
+      "$2$",
+      "$0$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=1$."
   },
   {
@@ -5901,14 +5901,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=1$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=1$. מהו הפתרון החיובי?",
     "options": [
-      "$-6$",
       "$1$",
-      "$-4$",
-      "$-3$"
+      "$0$",
+      "$2$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=1$ הוא $x=\\sqrt{1}=1$."
   },
   {
@@ -5916,14 +5916,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=9$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=9$. מהו הפתרון החיובי?",
     "options": [
-      "$-1$",
-      "$-2$",
-      "$-4$",
-      "$3$"
+      "$3$",
+      "$4$",
+      "$9$",
+      "$2$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=9$ הוא $x=\\sqrt{9}=3$."
   },
   {
@@ -5931,14 +5931,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-3)^2+3$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-3)^2+3$?",
     "options": [
-      "$-2$",
-      "$-1$",
       "$3$",
-      "$-4$"
+      "$-3$",
+      "$4$",
+      "$6$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=3$."
   },
   {
@@ -5946,29 +5946,29 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-3)(x-3)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-3)(x-3)=0$. מהו הפתרון?",
     "options": [
-      "$-1$",
-      "$1$",
-      "$2$",
-      "$6$"
+      "$3$",
+      "$6$",
+      "$9$",
+      "$0$"
     ],
-    "correct_index": 3,
-    "explanation": "השורשים הם $3$ ו-$3$ (מהפירוק לגורמים), וסכומם $3+3=6$."
+    "correct_index": 0,
+    "explanation": "$(x-3)^2=0$ רק כאשר $x-3=0$, כלומר $x=3$ (פתרון יחיד)."
   },
   {
     "id": "q-q-g9r-quadratic-fn-5",
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=4$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=4$. מהו הפתרון החיובי?",
     "options": [
-      "$-3$",
       "$2$",
-      "$-5$",
-      "$-2$"
+      "$4$",
+      "$3$",
+      "$1$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=4$ הוא $x=\\sqrt{4}=2$."
   },
   {
@@ -5976,14 +5976,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-4)(x-3)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-4)(x-3)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$7$",
-      "$5$",
       "$12$",
-      "$8$"
+      "$7$",
+      "$1$",
+      "$-12$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "השורשים הם $4$ ו-$3$ (מהפירוק לגורמים), ומכפלתם $4\\times 3=12$."
   },
   {
@@ -5991,12 +5991,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-2)^2+5$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-2)^2+5$?",
     "options": [
       "$2$",
       "$-2$",
-      "$-3$",
-      "$-5$"
+      "$5$",
+      "$7$"
     ],
     "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=2$."
@@ -6006,14 +6006,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-4)^2+5$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-4)^2+5$?",
     "options": [
-      "$-3$",
       "$4$",
-      "$0$",
-      "$-1$"
+      "$-4$",
+      "$5$",
+      "$9$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=4$."
   },
   {
@@ -6021,14 +6021,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-4)(x-5)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-4)(x-5)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$13$",
       "$20$",
-      "$16$",
-      "$15$"
+      "$9$",
+      "$1$",
+      "$-20$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "השורשים הם $4$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $4\\times 5=20$."
   },
   {
@@ -6036,57 +6036,57 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-5)(x-5)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-5)(x-5)=0$. מהו הפתרון?",
     "options": [
-      "$18$",
-      "$21$",
-      "$20$",
-      "$25$"
+      "$5$",
+      "$10$",
+      "$25$",
+      "$0$"
     ],
-    "correct_index": 3,
-    "explanation": "השורשים הם $5$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $5\\times 5=25$."
+    "correct_index": 0,
+    "explanation": "$(x-5)^2=0$ רק כאשר $x-5=0$, כלומר $x=5$ (פתרון יחיד)."
   },
   {
     "id": "q-q-g9r-quadratic-fn-11",
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-4)(x-4)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-4)(x-4)=0$. מהו הפתרון?",
     "options": [
-      "$1$",
       "$4$",
       "$8$",
-      "$3$"
+      "$16$",
+      "$0$"
     ],
-    "correct_index": 2,
-    "explanation": "השורשים הם $4$ ו-$4$ (מהפירוק לגורמים), וסכומם $4+4=8$."
+    "correct_index": 0,
+    "explanation": "$(x-4)^2=0$ רק כאשר $x-4=0$, כלומר $x=4$ (פתרון יחיד)."
   },
   {
     "id": "q-q-g9r-quadratic-fn-12",
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-1)(x-1)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-1)(x-1)=0$. מהו הפתרון?",
     "options": [
-      "$-2$",
+      "$1$",
       "$2$",
-      "$-5$",
-      "$-3$"
+      "$3$",
+      "$0$"
     ],
-    "correct_index": 1,
-    "explanation": "השורשים הם $1$ ו-$1$ (מהפירוק לגורמים), וסכומם $1+1=2$."
+    "correct_index": 0,
+    "explanation": "$(x-1)^2=0$ רק כאשר $x-1=0$, כלומר $x=1$ (פתרון יחיד)."
   },
   {
     "id": "q-q-g9r-quadratic-fn-13",
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-4)^2+3$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-4)^2+3$?",
     "options": [
       "$4$",
-      "$-1$",
-      "$0$",
-      "$-3$"
+      "$-4$",
+      "$3$",
+      "$7$"
     ],
     "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=4$."
@@ -6096,14 +6096,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-4)(x-5)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-4)(x-5)=0$. מהו סכום שני הפתרונות?",
     "options": [
-      "$4$",
       "$9$",
-      "$5$",
-      "$2$"
+      "$20$",
+      "$1$",
+      "$-9$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "השורשים הם $4$ ו-$5$ (מהפירוק לגורמים), וסכומם $4+5=9$."
   },
   {
@@ -6111,14 +6111,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-5)^2+3$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-5)^2+3$?",
     "options": [
-      "$-2$",
-      "$0$",
-      "$1$",
-      "$5$"
+      "$5$",
+      "$-5$",
+      "$3$",
+      "$8$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=5$."
   },
   {
@@ -6126,14 +6126,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-3)(x-5)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-3)(x-5)=0$. מהו סכום שני הפתרונות?",
     "options": [
-      "$4$",
-      "$1$",
       "$8$",
-      "$3$"
+      "$15$",
+      "$2$",
+      "$-8$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "השורשים הם $3$ ו-$5$ (מהפירוק לגורמים), וסכומם $3+5=8$."
   },
   {
@@ -6141,14 +6141,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-5)^2+4$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-5)^2+4$?",
     "options": [
-      "$-2$",
-      "$0$",
-      "$1$",
-      "$5$"
+      "$5$",
+      "$-5$",
+      "$4$",
+      "$9$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=5$."
   },
   {
@@ -6156,14 +6156,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-5)^2+1$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-5)^2+1$?",
     "options": [
-      "$-2$",
       "$5$",
-      "$0$",
-      "$1$"
+      "$-5$",
+      "$1$",
+      "$6$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=5$."
   },
   {
@@ -6171,14 +6171,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-quadratic-fn",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $x^2-9=0$. שרש חיובי?",
+    "question_text": "פתרו את המשוואה $x^2-9=0$. מהו הפתרון החיובי?",
     "options": [
-      "$-3$",
       "$3$",
-      "$0$",
-      "$9$"
+      "$4$",
+      "$9$",
+      "$2$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "$x^2=9$, ולכן השורש החיובי הוא $x=\\sqrt{9}=3$."
   },
   {
@@ -6201,7 +6201,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו: $x+6>10$",
+    "question_text": "פתרו את אי-השוויון $x+6>10$.",
     "options": [
       "$x>4$",
       "$x<4$",
@@ -6216,14 +6216,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $-x> 6$:",
+    "question_text": "פתרו את אי-השוויון $-x>6$.",
     "options": [
-      "$x<--6$",
       "$x<-6$",
+      "$x>-6$",
       "$x>6$",
-      "$x>-6$"
+      "$x<6$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-6$."
   },
   {
@@ -6231,14 +6231,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $8x\\leq 24$:",
+    "question_text": "פתרו את אי-השוויון $8x\\leq24$.",
     "options": [
-      "$x>3$",
-      "$x\\geq 3$",
       "$x\\leq 3$",
-      "$x<3$"
+      "$x\\geq 3$",
+      "$x<3$",
+      "$x>3$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$8$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
@@ -6246,14 +6246,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $6x\\leq 18$:",
+    "question_text": "פתרו את אי-השוויון $6x\\leq18$.",
     "options": [
-      "$x\\geq 3$",
-      "$x>3$",
       "$x\\leq 3$",
-      "$x<3$"
+      "$x\\geq 3$",
+      "$x<3$",
+      "$x>3$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$6$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
@@ -6261,14 +6261,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו: $x+4>10$",
+    "question_text": "פתרו את אי-השוויון $x+4>10$.",
     "options": [
-      "$x<6$",
       "$x>6$",
+      "$x<6$",
       "$x=6$",
       "$x>14$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחסירים $4$ משני האגפים: $x>10-4=6$."
   },
   {
@@ -6276,12 +6276,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $5x\\leq 15$:",
+    "question_text": "פתרו את אי-השוויון $5x\\leq15$.",
     "options": [
       "$x\\leq 3$",
-      "$x>3$",
       "$x\\geq 3$",
-      "$x<3$"
+      "$x<3$",
+      "$x>3$"
     ],
     "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$5$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
@@ -6291,14 +6291,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $7x\\leq 21$:",
+    "question_text": "פתרו את אי-השוויון $7x\\leq21$.",
     "options": [
-      "$x<3$",
-      "$x>3$",
+      "$x\\leq 3$",
       "$x\\geq 3$",
-      "$x\\leq 3$"
+      "$x<3$",
+      "$x>3$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$7$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
@@ -6306,14 +6306,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $-x> 7$:",
+    "question_text": "פתרו את אי-השוויון $-x>7$.",
     "options": [
-      "$x>-7$",
-      "$x<--7$",
       "$x<-7$",
-      "$x>7$"
+      "$x>-7$",
+      "$x>7$",
+      "$x<7$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-7$."
   },
   {
@@ -6321,14 +6321,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $-x> 3$:",
+    "question_text": "פתרו את אי-השוויון $-x>3$.",
     "options": [
-      "$x<--3$",
-      "$x>3$",
       "$x<-3$",
-      "$x>-3$"
+      "$x>-3$",
+      "$x>3$",
+      "$x<3$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-3$."
   },
   {
@@ -6336,14 +6336,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו: $x+5>10$",
+    "question_text": "פתרו את אי-השוויון $x+5>10$.",
     "options": [
-      "$x=5$",
       "$x>5$",
       "$x<5$",
+      "$x=5$",
       "$x>15$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחסירים $5$ משני האגפים: $x>10-5=5$."
   },
   {
@@ -6351,14 +6351,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $-x> 9$:",
+    "question_text": "פתרו את אי-השוויון $-x>9$.",
     "options": [
-      "$x>9$",
-      "$x>-9$",
       "$x<-9$",
-      "$x<--9$"
+      "$x>-9$",
+      "$x>9$",
+      "$x<9$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-9$."
   },
   {
@@ -6366,14 +6366,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו: $x+8>10$",
+    "question_text": "פתרו את אי-השוויון $x+8>10$.",
     "options": [
-      "$x>18$",
       "$x>2$",
       "$x<2$",
-      "$x=2$"
+      "$x=2$",
+      "$x>18$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחסירים $8$ משני האגפים: $x>10-8=2$."
   },
   {
@@ -6381,14 +6381,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $-x> 5$:",
+    "question_text": "פתרו את אי-השוויון $-x>5$.",
     "options": [
-      "$x>-5$",
       "$x<-5$",
-      "$x<--5$",
-      "$x>5$"
+      "$x>-5$",
+      "$x>5$",
+      "$x<5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-5$."
   },
   {
@@ -6396,14 +6396,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו: $x+9>10$",
+    "question_text": "פתרו את אי-השוויון $x+9>10$.",
     "options": [
-      "$x=1$",
-      "$x<1$",
       "$x>1$",
+      "$x<1$",
+      "$x=1$",
       "$x>19$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחסירים $9$ משני האגפים: $x>10-9=1$."
   },
   {
@@ -6411,14 +6411,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $-x> 2$:",
+    "question_text": "פתרו את אי-השוויון $-x>2$.",
     "options": [
+      "$x<-2$",
       "$x>-2$",
       "$x>2$",
-      "$x<-2$",
-      "$x<--2$"
+      "$x<2$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-2$."
   },
   {
@@ -6426,14 +6426,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $9x\\leq 27$:",
+    "question_text": "פתרו את אי-השוויון $9x\\leq27$.",
     "options": [
-      "$x<3$",
-      "$x>3$",
+      "$x\\leq 3$",
       "$x\\geq 3$",
-      "$x\\leq 3$"
+      "$x<3$",
+      "$x>3$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$9$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
@@ -6441,14 +6441,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $2x\\leq 6$:",
+    "question_text": "פתרו את אי-השוויון $2x\\leq6$.",
     "options": [
+      "$x\\leq 3$",
       "$x\\geq 3$",
       "$x<3$",
-      "$x>3$",
-      "$x\\leq 3$"
+      "$x>3$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$2$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
@@ -6456,14 +6456,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $3x\\leq 9$:",
+    "question_text": "פתרו את אי-השוויון $3x\\leq9$.",
     "options": [
-      "$x>3$",
+      "$x\\leq 3$",
       "$x\\geq 3$",
       "$x<3$",
-      "$x\\leq 3$"
+      "$x>3$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$3$ (מספר חיובי, כיוון אי-השוויון נשמר): $x\\leq 3$."
   },
   {
@@ -6471,14 +6471,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-inequalities",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $-x> 4$:",
+    "question_text": "פתרו את אי-השוויון $-x>4$.",
     "options": [
-      "$x<--4$",
       "$x<-4$",
       "$x>-4$",
-      "$x>4$"
+      "$x>4$",
+      "$x<4$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מכפילים את שני האגפים ב-$-1$ — ולכן הופכים את כיוון אי-השוויון: $x<-4$."
   },
   {
@@ -6501,270 +6501,270 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 30,70,?",
+    "question_text": "במשולש יש זוויות של $30^\\circ$ ו-$70^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$80^\\circ$",
-      "$30^\\circ$",
-      "$90^\\circ$",
-      "$100^\\circ$"
+      "$150^\\circ$",
+      "$110^\\circ$",
+      "$90^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-30-70=80^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-30-70=80^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-2",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "במשולש שווה-צלעות כל זווית:",
+    "question_text": "כמה מעלות יש בכל זווית של משולש שווה-צלעות?",
     "options": [
-      "$45$",
-      "$120$",
-      "$90$",
-      "$60^\\circ$"
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$120^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות זו לזו, וסכומן $180^\\circ$, לכן כל זווית היא $180\\div 3=60^\\circ$."
+    "correct_index": 0,
+    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות. $180:3=60^\\circ$"
   },
   {
     "id": "q-q-g9r-geometry-3",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 20,80,?",
+    "question_text": "במשולש יש זוויות של $20^\\circ$ ו-$80^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$90^\\circ$",
       "$80^\\circ$",
-      "$20^\\circ$",
-      "$100^\\circ$"
+      "$160^\\circ$",
+      "$100^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-20-80=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-20-80=80^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-4",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "במשולש: 90, 30, ?:",
+    "question_text": "במשולש יש זוויות של $90^\\circ$ ו-$30^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$60^\\circ$",
-      "$70$",
-      "$45$",
-      "$120$"
+      "$90^\\circ$",
+      "$150^\\circ$",
+      "$120^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-90-30=60^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-90-30=60^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-5",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 45,45,?",
+    "question_text": "במשולש יש זוויות של $45^\\circ$ ו-$45^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
       "$135^\\circ$",
-      "$45^\\circ$",
-      "$180^\\circ$"
+      "$100^\\circ$",
+      "$110^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-45-45=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-45-45=90^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-6",
     "topic_id": "g9r-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית ישרה:",
+    "question_text": "כמה מעלות יש בזווית ישרה?",
     "options": [
-      "$180^\\circ$",
-      "$60^\\circ$",
+      "$90^\\circ$",
       "$45^\\circ$",
-      "$90^\\circ$"
+      "$180^\\circ$",
+      "$60^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "זווית ישרה (זווית שיוצרת \"פינה\" מושלמת, כמו בפינת ריבוע) שווה $90^\\circ$."
+    "correct_index": 0,
+    "explanation": "זווית ישרה — \"פינה\" מושלמת, כמו בריבוע. היא שווה $90^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-7",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 50,50,?",
+    "question_text": "במשולש יש זוויות של $50^\\circ$ ו-$50^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$80^\\circ$",
-      "$50^\\circ$",
-      "$100^\\circ$",
-      "$90^\\circ$"
+      "$130^\\circ$",
+      "$90^\\circ$",
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-50-50=80^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-50-50=80^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-8",
     "topic_id": "g9r-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית חדה:",
+    "question_text": "מהי זווית חדה?",
     "options": [
-      "=180",
-      "$>90$",
-      "$<90^\\circ$",
-      "=90"
+      "זווית קטנה מ-$90^\\circ$",
+      "זווית של $90^\\circ$ בדיוק",
+      "זווית בין $90^\\circ$ ל-$180^\\circ$",
+      "זווית של $180^\\circ$ בדיוק"
     ],
-    "correct_index": 2,
-    "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
+    "correct_index": 0,
+    "explanation": "זווית חדה קטנה מ-$90^\\circ$ (וגדולה מ-$0^\\circ$)."
   },
   {
     "id": "q-q-g9r-geometry-9",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות סמוכות על ישר:",
+    "question_text": "מהו סכום שתי זוויות סמוכות (שיוצרות יחד קו ישר)?",
     "options": [
       "$180^\\circ$",
-      "$360^\\circ$",
       "$90^\\circ$",
-      "$0$"
+      "$360^\\circ$",
+      "$0^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "שתי זוויות סמוכות שיוצרות יחד קו ישר משלימות ל-$180^\\circ$."
+    "explanation": "זוויות סמוכות יוצרות יחד זווית שטוחה (קו ישר). לכן סכומן $180^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-10",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 15,75,?",
+    "question_text": "במשולש יש זוויות של $15^\\circ$ ו-$75^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
-      "$75^\\circ$",
       "$165^\\circ$",
-      "$15^\\circ$"
+      "$105^\\circ$",
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-15-75=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-15-75=90^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-11",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 40,60,?",
+    "question_text": "במשולש יש זוויות של $40^\\circ$ ו-$60^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$40^\\circ$",
-      "$100^\\circ$",
-      "$90^\\circ$",
-      "$80^\\circ$"
+      "$80^\\circ$",
+      "$140^\\circ$",
+      "$120^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-40-60=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-40-60=80^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-12",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 25,65,?",
+    "question_text": "במשולש יש זוויות של $25^\\circ$ ו-$65^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$25^\\circ$",
       "$90^\\circ$",
-      "$65^\\circ$",
-      "$155^\\circ$"
+      "$155^\\circ$",
+      "$115^\\circ$",
+      "$100^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-25-65=90^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-25-65=90^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-13",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "סכום זוויות סביב נקודה:",
+    "question_text": "מהו סכום כל הזוויות סביב נקודה?",
     "options": [
-      "$90$",
       "$360^\\circ$",
-      "$180$",
-      "$270$"
+      "$180^\\circ$",
+      "$270^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום כל הזוויות מסביב לנקודה אחת הוא תמיד $360^\\circ$ (סיבוב שלם)."
+    "correct_index": 0,
+    "explanation": "סביב נקודה — סיבוב שלם. סיבוב שלם $=360^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-14",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "במשולש: 50, 60, ?:",
+    "question_text": "במשולש יש זוויות של $50^\\circ$ ו-$60^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$90^\\circ$",
       "$70^\\circ$",
-      "$40^\\circ$",
-      "$80^\\circ$"
+      "$130^\\circ$",
+      "$120^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-50-60=70^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-50-60=70^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-15",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות מתחלפות על ישרים מקבילים:",
+    "question_text": "מה נכון לגבי זוויות מתחלפות בין שני ישרים מקבילים?",
     "options": [
-      "שווות",
-      "$180$",
-      "$90$",
-      "משלימות"
+      "הן שוות",
+      "סכומן $180^\\circ$",
+      "כל אחת $90^\\circ$",
+      "אין קשר ביניהן"
     ],
     "correct_index": 0,
-    "explanation": "כאשר חותך חוצה שני ישרים מקבילים, זוויות מתחלפות (הנמצאות משני צדי החותך, בין שני הישרים) שוות זו לזו."
+    "explanation": "כשישר חותך שני ישרים מקבילים, הזוויות המתחלפות (משני צדי החותך, בין המקבילים) — בצורת Z. זוויות מתחלפות בין מקבילים **שוות**."
   },
   {
     "id": "q-q-g9r-geometry-16",
     "topic_id": "g9r-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית קהה:",
+    "question_text": "מהי זווית קהה?",
     "options": [
-      "$=180$",
-      "$=90$",
-      "$<90$",
-      "$>90^\\circ$"
+      "זווית בין $90^\\circ$ ל-$180^\\circ$",
+      "זווית של $180^\\circ$ בדיוק",
+      "זווית של $90^\\circ$ בדיוק",
+      "זווית קטנה מ-$90^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "זווית קהה היא זווית הגדולה מ-$90^\\circ$ (וקטנה מ-$180^\\circ$): $>90^\\circ$."
+    "correct_index": 0,
+    "explanation": "זווית קהה גדולה מ-$90^\\circ$. אבל קטנה מ-$180^\\circ$ (זו כבר זווית שטוחה)."
   },
   {
     "id": "q-q-g9r-geometry-17",
     "topic_id": "g9r-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "סכום זוויות משולש:",
+    "question_text": "מהו סכום הזוויות במשולש?",
     "options": [
-      "$90^\\circ$",
       "$180^\\circ$",
+      "$90^\\circ$",
       "$360^\\circ$",
       "$100^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
+    "correct_index": 0,
+    "explanation": "שלוש הזוויות של כל משולש יחד יוצרות קו ישר. לכן סכומן $180^\\circ$."
   },
   {
     "id": "q-q-g9r-geometry-18",
     "topic_id": "g9r-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 35,55,?",
+    "question_text": "במשולש יש זוויות של $35^\\circ$ ו-$55^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$35^\\circ$",
       "$90^\\circ$",
-      "$55^\\circ$",
-      "$145^\\circ$"
+      "$145^\\circ$",
+      "$125^\\circ$",
+      "$100^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-35-55=90^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-35-55=90^\\circ$."
   },
   {
     "id": "q-g9r-prob-1",
@@ -6786,22 +6786,22 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-probability",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "בשקית 3 בנים ו-2 בנות. בוחרים ילד/ה אחד/ת באקראי. מהי ההסתברות שהוא בת?",
+    "question_text": "בקבוצה $3$ בנים ו-$2$ בנות. בוחרים ילד אחד באקראי. מה ההסתברות שנבחרה בת?",
     "options": [
       "$\\frac{2}{5}$",
-      "$1$",
       "$\\frac{3}{5}$",
-      "$\\frac{2}{3}$"
+      "$\\frac{2}{3}$",
+      "$\\frac{1}{2}$"
     ],
     "correct_index": 0,
-    "explanation": "בסך הכול $3+2=5$ ילדים, מתוכם $2$ בנות: $P(\\text{בת})=\\frac{2}{5}$."
+    "explanation": "בסך הכול $3+2=5$ ילדים. $2$ בנות: $P(\\text{בת})=\\frac{2}{5}$."
   },
   {
     "id": "q-q-g9r-probability-18",
     "topic_id": "g9r-probability",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "בנים 4, בנות 6. סה\"כ?",
+    "question_text": "בקבוצה יש $4$ בנים ו-$6$ בנות. כמה ילדים יש בקבוצה בסך הכול?",
     "options": [
       "$2$",
       "$4$",
@@ -6831,14 +6831,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=3x+1$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=3x+1$. מהו $f(2)$?",
     "options": [
-      "$0$",
-      "$2$",
-      "$3$",
-      "$7$"
+      "$7$",
+      "$6$",
+      "$4$",
+      "$10$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=3\\times 2+1=7$."
   },
   {
@@ -6846,12 +6846,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x-5$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x-5$. מהו $f(2)$?",
     "options": [
       "$-1$",
-      "$-6$",
-      "$-8$",
-      "$-5$"
+      "$4$",
+      "$-3$",
+      "$1$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=2\\times 2-5=-1$."
@@ -6861,14 +6861,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=4x-1$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=4x-1$. מהו $f(2)$?",
     "options": [
-      "$3$",
       "$7$",
-      "$0$",
-      "$2$"
+      "$8$",
+      "$3$",
+      "$11$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=4\\times 2-1=7$."
   },
   {
@@ -6876,14 +6876,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=6x+5$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=6x+5$. מהו $f(2)$?",
     "options": [
-      "$10$",
       "$17$",
-      "$13$",
-      "$12$"
+      "$12$",
+      "$11$",
+      "$23$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=6\\times 2+5=17$."
   },
   {
@@ -6891,14 +6891,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=7x-3$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=7x-3$. מהו $f(2)$?",
     "options": [
-      "$6$",
-      "$4$",
       "$11$",
-      "$7$"
+      "$14$",
+      "$4$",
+      "$18$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=7\\times 2-3=11$."
   },
   {
@@ -6906,12 +6906,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שיפוע $y=3x+5$:",
+    "question_text": "מהו השיפוע של הישר $y=3x+5$?",
     "options": [
       "$3$",
-      "$-4$",
-      "$-1$",
-      "$-2$"
+      "$5$",
+      "$-3$",
+      "$4$"
     ],
     "correct_index": 0,
     "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=3$."
@@ -6921,14 +6921,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+5$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+5$. מהו $f(2)$?",
     "options": [
+      "$9$",
       "$4$",
-      "$2$",
-      "$5$",
-      "$9$"
+      "$7$",
+      "$11$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=2\\times 2+5=9$."
   },
   {
@@ -6936,14 +6936,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "חיתוך $y$ של $y=2x-3$:",
+    "question_text": "באיזו נקודה חותך הישר $y=2x-3$ את ציר ה-$y$? (מהו ערך ה-$y$?)",
     "options": [
-      "$-10$",
-      "$-8$",
       "$-3$",
-      "$-7$"
+      "$3$",
+      "$2$",
+      "$-1$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=2\\times 0-3=-3$."
   },
   {
@@ -6951,14 +6951,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שיפוע $y=7x+5$:",
+    "question_text": "מהו השיפוע של הישר $y=7x+5$?",
     "options": [
-      "$2$",
-      "$3$",
       "$7$",
-      "$0$"
+      "$5$",
+      "$-7$",
+      "$8$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=7$."
   },
   {
@@ -6966,12 +6966,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=5x+5$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=5x+5$. מהו $f(2)$?",
     "options": [
       "$15$",
-      "$8$",
-      "$11$",
-      "$10$"
+      "$10$",
+      "$20$",
+      "$35$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=5\\times 2+5=15$."
@@ -6981,14 +6981,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "חיתוך $y$ של $y=4x-2$:",
+    "question_text": "באיזו נקודה חותך הישר $y=4x-2$ את ציר ה-$y$? (מהו ערך ה-$y$?)",
     "options": [
-      "$-7$",
-      "$-6$",
-      "$-9$",
-      "$-2$"
+      "$-2$",
+      "$2$",
+      "$4$",
+      "$-1$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=4\\times 0-2=-2$."
   },
   {
@@ -6996,12 +6996,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=7x+2$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=7x+2$. מהו $f(2)$?",
     "options": [
       "$16$",
-      "$12$",
+      "$14$",
       "$9$",
-      "$11$"
+      "$23$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=7\\times 2+2=16$."
@@ -7011,14 +7011,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "חיתוך $y$ של $y=4x+5$:",
+    "question_text": "באיזו נקודה חותך הישר $y=4x+5$ את ציר ה-$y$? (מהו ערך ה-$y$?)",
     "options": [
-      "$1$",
-      "$0$",
-      "$-2$",
-      "$5$"
+      "$5$",
+      "$-5$",
+      "$4$",
+      "$9$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=4\\times 0+5=5$."
   },
   {
@@ -7026,14 +7026,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "חיתוך $y$ של $y=1x+4$:",
+    "question_text": "באיזו נקודה חותך הישר $y=x+4$ את ציר ה-$y$? (מהו ערך ה-$y$?)",
     "options": [
-      "$-3$",
       "$4$",
-      "$-1$",
-      "$0$"
+      "$-4$",
+      "$1$",
+      "$5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=1\\times 0+4=4$."
   },
   {
@@ -7041,12 +7041,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "חיתוך $y$ של $y=6x-4$:",
+    "question_text": "באיזו נקודה חותך הישר $y=6x-4$ את ציר ה-$y$? (מהו ערך ה-$y$?)",
     "options": [
       "$-4$",
-      "$-11$",
-      "$-8$",
-      "$-9$"
+      "$4$",
+      "$6$",
+      "$2$"
     ],
     "correct_index": 0,
     "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=6\\times 0-4=-4$."
@@ -7056,14 +7056,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "חיתוך $y$ של $y=7x+5$:",
+    "question_text": "באיזו נקודה חותך הישר $y=7x+5$ את ציר ה-$y$? (מהו ערך ה-$y$?)",
     "options": [
-      "$1$",
-      "$-2$",
       "$5$",
-      "$0$"
+      "$-5$",
+      "$7$",
+      "$12$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=7\\times 0+5=5$."
   },
   {
@@ -7071,14 +7071,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "חיתוך $y$ של $y=3x-4$:",
+    "question_text": "באיזו נקודה חותך הישר $y=3x-4$ את ציר ה-$y$? (מהו ערך ה-$y$?)",
     "options": [
-      "$-8$",
-      "$-9$",
-      "$-11$",
-      "$-4$"
+      "$-4$",
+      "$4$",
+      "$3$",
+      "$-1$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "חיתוך עם ציר $y$ מתקבל כש-$x=0$: $y=3\\times 0-4=-4$."
   },
   {
@@ -7086,14 +7086,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שיפוע $y=1x+4$:",
+    "question_text": "מהו השיפוע של הישר $y=x+4$?",
     "options": [
-      "$-4$",
-      "$-3$",
       "$1$",
-      "$-6$"
+      "$4$",
+      "$-1$",
+      "$2$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=1$."
   },
   {
@@ -7101,14 +7101,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-linear",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שיפוע $y=2x-1$:",
+    "question_text": "מהו השיפוע של הישר $y=2x-1$?",
     "options": [
-      "$-2$",
-      "$-5$",
       "$2$",
-      "$-3$"
+      "$-1$",
+      "$-2$",
+      "$3$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "בצורת $y=mx+b$ השיפוע הוא המקדם של $x$: $m=2$."
   },
   {
@@ -7131,14 +7131,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=9$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=9$. מהו הפתרון החיובי?",
     "options": [
-      "$-2$",
       "$3$",
-      "$-4$",
-      "$-1$"
+      "$4$",
+      "$9$",
+      "$2$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=9$ הוא $x=\\sqrt{9}=3$."
   },
   {
@@ -7146,14 +7146,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-2)^2+1$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-2)^2+1$?",
     "options": [
-      "$-3$",
       "$2$",
-      "$-5$",
-      "$-2$"
+      "$-2$",
+      "$1$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=2$."
   },
   {
@@ -7161,29 +7161,29 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-3)(x-3)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-3)(x-3)=0$. מהו הפתרון?",
     "options": [
+      "$3$",
       "$6$",
-      "$-1$",
-      "$1$",
-      "$2$"
+      "$9$",
+      "$0$"
     ],
     "correct_index": 0,
-    "explanation": "השורשים הם $3$ ו-$3$ (מהפירוק לגורמים), וסכומם $3+3=6$."
+    "explanation": "$(x-3)^2=0$ רק כאשר $x-3=0$, כלומר $x=3$ (פתרון יחיד)."
   },
   {
     "id": "q-q-g9x-quadratic-4",
     "topic_id": "g9x-quadratic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=4$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=4$. מהו הפתרון החיובי?",
     "options": [
-      "$-5$",
       "$2$",
-      "$-2$",
-      "$-3$"
+      "$4$",
+      "$3$",
+      "$1$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=4$ הוא $x=\\sqrt{4}=2$."
   },
   {
@@ -7191,14 +7191,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-4)(x-2)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-4)(x-2)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$4$",
-      "$1$",
       "$8$",
-      "$3$"
+      "$6$",
+      "$2$",
+      "$-8$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "השורשים הם $4$ ו-$2$ (מהפירוק לגורמים), ומכפלתם $4\\times 2=8$."
   },
   {
@@ -7206,14 +7206,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-5)(x-3)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-5)(x-3)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$8$",
-      "$10$",
       "$15$",
-      "$11$"
+      "$8$",
+      "$2$",
+      "$-15$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "השורשים הם $5$ ו-$3$ (מהפירוק לגורמים), ומכפלתם $5\\times 3=15$."
   },
   {
@@ -7221,29 +7221,29 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-5)(x-5)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-5)(x-5)=0$. מהו הפתרון?",
     "options": [
-      "$6$",
-      "$3$",
+      "$5$",
       "$10$",
-      "$5$"
+      "$25$",
+      "$0$"
     ],
-    "correct_index": 2,
-    "explanation": "השורשים הם $5$ ו-$5$ (מהפירוק לגורמים), וסכומם $5+5=10$."
+    "correct_index": 0,
+    "explanation": "$(x-5)^2=0$ רק כאשר $x-5=0$, כלומר $x=5$ (פתרון יחיד)."
   },
   {
     "id": "q-q-g9x-quadratic-8",
     "topic_id": "g9x-quadratic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-4)(x-3)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-4)(x-3)=0$. מהו סכום שני הפתרונות?",
     "options": [
-      "$2$",
       "$7$",
-      "$3$",
-      "$0$"
+      "$12$",
+      "$1$",
+      "$-7$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "השורשים הם $4$ ו-$3$ (מהפירוק לגורמים), וסכומם $4+3=7$."
   },
   {
@@ -7251,14 +7251,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-1)(x-5)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-1)(x-5)=0$. מהו סכום שני הפתרונות?",
     "options": [
-      "$-1$",
-      "$1$",
       "$6$",
-      "$2$"
+      "$5$",
+      "$4$",
+      "$-6$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "השורשים הם $1$ ו-$5$ (מהפירוק לגורמים), וסכומם $1+5=6$."
   },
   {
@@ -7266,14 +7266,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=16$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=16$. מהו הפתרון החיובי?",
     "options": [
-      "$-1$",
       "$4$",
-      "$0$",
-      "$-3$"
+      "$8$",
+      "$16$",
+      "$5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=16$ הוא $x=\\sqrt{16}=4$."
   },
   {
@@ -7281,29 +7281,29 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-4)(x-4)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-4)(x-4)=0$. מהו הפתרון?",
     "options": [
-      "$1$",
       "$4$",
       "$8$",
-      "$3$"
+      "$16$",
+      "$0$"
     ],
-    "correct_index": 2,
-    "explanation": "השורשים הם $4$ ו-$4$ (מהפירוק לגורמים), וסכומם $4+4=8$."
+    "correct_index": 0,
+    "explanation": "$(x-4)^2=0$ רק כאשר $x-4=0$, כלומר $x=4$ (פתרון יחיד)."
   },
   {
     "id": "q-q-g9x-quadratic-12",
     "topic_id": "g9x-quadratic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-3)(x-1)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-3)(x-1)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$-2$",
       "$3$",
-      "$-4$",
-      "$-1$"
+      "$4$",
+      "$2$",
+      "$-3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "השורשים הם $3$ ו-$1$ (מהפירוק לגורמים), ומכפלתם $3\\times 1=3$."
   },
   {
@@ -7311,14 +7311,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-4)(x-5)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-4)(x-5)=0$. מהו סכום שני הפתרונות?",
     "options": [
-      "$2$",
       "$9$",
-      "$4$",
-      "$5$"
+      "$20$",
+      "$1$",
+      "$-9$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "השורשים הם $4$ ו-$5$ (מהפירוק לגורמים), וסכומם $4+5=9$."
   },
   {
@@ -7326,14 +7326,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-3)^2+4$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-3)^2+4$?",
     "options": [
-      "$-2$",
       "$3$",
-      "$-1$",
-      "$-4$"
+      "$-3$",
+      "$4$",
+      "$7$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=3$."
   },
   {
@@ -7341,14 +7341,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-3)(x-5)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-3)(x-5)=0$. מהו סכום שני הפתרונות?",
     "options": [
-      "$3$",
       "$8$",
-      "$4$",
-      "$1$"
+      "$15$",
+      "$2$",
+      "$-8$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "השורשים הם $3$ ו-$5$ (מהפירוק לגורמים), וסכומם $3+5=8$."
   },
   {
@@ -7356,14 +7356,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=1$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=1$. מהו הפתרון החיובי?",
     "options": [
-      "$-4$",
-      "$-3$",
       "$1$",
-      "$-6$"
+      "$0$",
+      "$2$",
+      "$3$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=1$ הוא $x=\\sqrt{1}=1$."
   },
   {
@@ -7371,27 +7371,27 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-5)(x-5)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-5)(x-5)=0$. מהו הפתרון?",
     "options": [
-      "$20$",
-      "$18$",
-      "$21$",
-      "$25$"
+      "$5$",
+      "$10$",
+      "$25$",
+      "$0$"
     ],
-    "correct_index": 3,
-    "explanation": "השורשים הם $5$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $5\\times 5=25$."
+    "correct_index": 0,
+    "explanation": "$(x-5)^2=0$ רק כאשר $x-5=0$, כלומר $x=5$ (פתרון יחיד)."
   },
   {
     "id": "q-q-g9x-quadratic-18",
     "topic_id": "g9x-quadratic",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=25$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=25$. מהו הפתרון החיובי?",
     "options": [
       "$5$",
-      "$1$",
-      "$0$",
-      "$-2$"
+      "$12$",
+      "$25$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=25$ הוא $x=\\sqrt{25}=5$."
@@ -7401,14 +7401,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-quadratic",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פתרו $(x-2)(x-1)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-2)(x-1)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$-2$",
-      "$-5$",
-      "$-3$",
-      "$2$"
+      "$2$",
+      "$3$",
+      "$1$",
+      "$-2$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "השורשים הם $2$ ו-$1$ (מהפירוק לגורמים), ומכפלתם $2\\times 1=2$."
   },
   {
@@ -7431,12 +7431,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $10x+10=60$. $x$?",
+    "question_text": "פתרו את המשוואה $10x+10=60$. מהו $x$?",
     "options": [
       "$5$",
-      "$0$",
-      "$1$",
-      "$-2$"
+      "$50$",
+      "$7$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "מעבירים את $10$ אגף: $10x=60-10=50$. מחלקים ב-$10$: $x=5$."
@@ -7446,12 +7446,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $3x=18$. $x$?",
+    "question_text": "פתרו את המשוואה $3x=18$. מהו $x$?",
     "options": [
       "$6$",
-      "$1$",
-      "$-1$",
-      "$2$"
+      "$18$",
+      "$4$",
+      "$7$"
     ],
     "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$3$: $x=18\\div 3=6$."
@@ -7461,12 +7461,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $10x=60$. $x$?",
+    "question_text": "פתרו את המשוואה $10x=60$. מהו $x$?",
     "options": [
       "$6$",
-      "$-1$",
-      "$1$",
-      "$2$"
+      "$60$",
+      "$4$",
+      "$7$"
     ],
     "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$10$: $x=60\\div 10=6$."
@@ -7476,14 +7476,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+10=20$. $x$?",
+    "question_text": "פתרו את המשוואה $x+10=20$. מהו $x$?",
     "options": [
-      "$3$",
-      "$6$",
-      "$5$",
-      "$10$"
+      "$10$",
+      "$30$",
+      "$8$",
+      "$11$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מעבירים את $10$ אגף עם סימן הפוך: $x=20-10=10$."
   },
   {
@@ -7491,14 +7491,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $2x=12$. $x$?",
+    "question_text": "פתרו את המשוואה $2x=12$. מהו $x$?",
     "options": [
-      "$-1$",
       "$6$",
-      "$2$",
-      "$1$"
+      "$12$",
+      "$4$",
+      "$7$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$2$: $x=12\\div 2=6$."
   },
   {
@@ -7506,12 +7506,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $11x=55$. $x$?",
+    "question_text": "פתרו את המשוואה $11x=55$. מהו $x$?",
     "options": [
       "$5$",
-      "$1$",
-      "$0$",
-      "$-2$"
+      "$55$",
+      "$3$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$11$: $x=55\\div 11=5$."
@@ -7521,14 +7521,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+5=15$. $x$?",
+    "question_text": "פתרו את המשוואה $x+5=15$. מהו $x$?",
     "options": [
-      "$3$",
-      "$5$",
       "$10$",
-      "$6$"
+      "$20$",
+      "$8$",
+      "$11$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מעבירים את $5$ אגף עם סימן הפוך: $x=15-5=10$."
   },
   {
@@ -7536,14 +7536,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $6x+6=36$. $x$?",
+    "question_text": "פתרו את המשוואה $6x+6=36$. מהו $x$?",
     "options": [
-      "$1$",
-      "$-2$",
-      "$0$",
-      "$5$"
+      "$5$",
+      "$30$",
+      "$7$",
+      "$6$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מעבירים את $6$ אגף: $6x=36-6=30$. מחלקים ב-$6$: $x=5$."
   },
   {
@@ -7551,12 +7551,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $6x=30$. $x$?",
+    "question_text": "פתרו את המשוואה $6x=30$. מהו $x$?",
     "options": [
       "$5$",
-      "$1$",
-      "$-2$",
-      "$0$"
+      "$30$",
+      "$3$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$6$: $x=30\\div 6=5$."
@@ -7566,12 +7566,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $5x+5=50$. $x$?",
+    "question_text": "פתרו את המשוואה $5x+5=50$. מהו $x$?",
     "options": [
       "$9$",
-      "$2$",
-      "$4$",
-      "$5$"
+      "$45$",
+      "$11$",
+      "$10$"
     ],
     "correct_index": 0,
     "explanation": "מעבירים את $5$ אגף: $5x=50-5=45$. מחלקים ב-$5$: $x=9$."
@@ -7581,14 +7581,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $10x+10=50$. $x$?",
+    "question_text": "פתרו את המשוואה $10x+10=50$. מהו $x$?",
     "options": [
-      "$-3$",
-      "$-1$",
       "$4$",
-      "$0$"
+      "$40$",
+      "$6$",
+      "$5$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מעבירים את $10$ אגף: $10x=50-10=40$. מחלקים ב-$10$: $x=4$."
   },
   {
@@ -7596,14 +7596,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $3x=9$. $x$?",
+    "question_text": "פתרו את המשוואה $3x=9$. מהו $x$?",
     "options": [
-      "$-2$",
       "$3$",
-      "$-4$",
-      "$-1$"
+      "$9$",
+      "$1$",
+      "$4$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$3$: $x=9\\div 3=3$."
   },
   {
@@ -7611,14 +7611,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $11x=88$. $x$?",
+    "question_text": "פתרו את המשוואה $11x=88$. מהו $x$?",
     "options": [
-      "$3$",
       "$8$",
-      "$1$",
-      "$4$"
+      "$88$",
+      "$6$",
+      "$9$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$11$: $x=88\\div 11=8$."
   },
   {
@@ -7626,14 +7626,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $9x=54$. $x$?",
+    "question_text": "פתרו את המשוואה $9x=54$. מהו $x$?",
     "options": [
-      "$2$",
-      "$1$",
       "$6$",
-      "$-1$"
+      "$54$",
+      "$4$",
+      "$7$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$9$: $x=54\\div 9=6$."
   },
   {
@@ -7641,14 +7641,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $8x=56$. $x$?",
+    "question_text": "פתרו את המשוואה $8x=56$. מהו $x$?",
     "options": [
-      "$0$",
       "$7$",
-      "$3$",
-      "$2$"
+      "$56$",
+      "$5$",
+      "$8$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$8$: $x=56\\div 8=7$."
   },
   {
@@ -7656,14 +7656,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+6=48$. $x$?",
+    "question_text": "פתרו את המשוואה $x+6=48$. מהו $x$?",
     "options": [
-      "$37$",
-      "$35$",
       "$42$",
-      "$38$"
+      "$54$",
+      "$40$",
+      "$43$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מעבירים את $6$ אגף עם סימן הפוך: $x=48-6=42$."
   },
   {
@@ -7671,14 +7671,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $11x=77$. $x$?",
+    "question_text": "פתרו את המשוואה $11x=77$. מהו $x$?",
     "options": [
-      "$2$",
-      "$0$",
-      "$3$",
-      "$7$"
+      "$7$",
+      "$77$",
+      "$5$",
+      "$8$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$11$: $x=77\\div 11=7$."
   },
   {
@@ -7686,14 +7686,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $9x+9=81$. $x$?",
+    "question_text": "פתרו את המשוואה $9x+9=81$. מהו $x$?",
     "options": [
-      "$1$",
-      "$3$",
       "$8$",
-      "$4$"
+      "$72$",
+      "$10$",
+      "$9$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מעבירים את $9$ אגף: $9x=81-9=72$. מחלקים ב-$9$: $x=8$."
   },
   {
@@ -7701,14 +7701,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $3x=6$. $x$?",
+    "question_text": "פתרו את המשוואה $3x=6$. מהו $x$?",
     "options": [
-      "$-2$",
-      "$-5$",
-      "$-3$",
-      "$2$"
+      "$2$",
+      "$6$",
+      "$0$",
+      "$3$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$3$: $x=6\\div 3=2$."
   },
   {
@@ -7731,284 +7731,284 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 50,50,?",
+    "question_text": "במשולש יש זוויות של $50^\\circ$ ו-$50^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$80^\\circ$",
+      "$130^\\circ$",
       "$90^\\circ$",
-      "$50^\\circ$",
       "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-50-50=80^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-50-50=80^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-2",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות מתחלפות על ישרים מקבילים:",
+    "question_text": "מה נכון לגבי זוויות מתחלפות בין שני ישרים מקבילים?",
     "options": [
-      "$90$",
-      "שווות",
-      "משלימות",
-      "$180$"
+      "הן שוות",
+      "סכומן $180^\\circ$",
+      "כל אחת $90^\\circ$",
+      "אין קשר ביניהן"
     ],
-    "correct_index": 1,
-    "explanation": "כאשר חותך חוצה שני ישרים מקבילים, זוויות מתחלפות (הנמצאות משני צדי החותך, בין שני הישרים) שוות זו לזו."
+    "correct_index": 0,
+    "explanation": "כשישר חותך שני ישרים מקבילים, הזוויות המתחלפות (משני צדי החותך, בין המקבילים) — בצורת Z. זוויות מתחלפות בין מקבילים **שוות**."
   },
   {
     "id": "q-q-g9x-geo-3",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "במשולש: 50, 60, ?:",
+    "question_text": "במשולש יש זוויות של $50^\\circ$ ו-$60^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$80^\\circ$",
-      "$40^\\circ$",
-      "$90^\\circ$",
-      "$70^\\circ$"
+      "$70^\\circ$",
+      "$130^\\circ$",
+      "$120^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-50-60=70^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-50-60=70^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-4",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 25,65,?",
+    "question_text": "במשולש יש זוויות של $25^\\circ$ ו-$65^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
-      "$25^\\circ$",
-      "$65^\\circ$",
-      "$155^\\circ$"
+      "$155^\\circ$",
+      "$115^\\circ$",
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-25-65=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-25-65=90^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-5",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 35,55,?",
+    "question_text": "במשולש יש זוויות של $35^\\circ$ ו-$55^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
-      "$35^\\circ$",
-      "$55^\\circ$",
-      "$145^\\circ$"
+      "$145^\\circ$",
+      "$125^\\circ$",
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-35-55=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-35-55=90^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-6",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "סכום זוויות סביב נקודה:",
+    "question_text": "מהו סכום כל הזוויות סביב נקודה?",
     "options": [
       "$360^\\circ$",
-      "$180$",
-      "$90$",
-      "$270$"
+      "$180^\\circ$",
+      "$270^\\circ$",
+      "$90^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום כל הזוויות מסביב לנקודה אחת הוא תמיד $360^\\circ$ (סיבוב שלם)."
+    "explanation": "סביב נקודה — סיבוב שלם. סיבוב שלם $=360^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-7",
     "topic_id": "g9x-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "סכום זוויות משולש:",
+    "question_text": "מהו סכום הזוויות במשולש?",
     "options": [
-      "$100^\\circ$",
       "$180^\\circ$",
+      "$90^\\circ$",
       "$360^\\circ$",
-      "$90^\\circ$"
+      "$100^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
+    "correct_index": 0,
+    "explanation": "שלוש הזוויות של כל משולש יחד יוצרות קו ישר. לכן סכומן $180^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-8",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות סמוכות על ישר:",
+    "question_text": "מהו סכום שתי זוויות סמוכות (שיוצרות יחד קו ישר)?",
     "options": [
-      "$0$",
+      "$180^\\circ$",
       "$90^\\circ$",
       "$360^\\circ$",
-      "$180^\\circ$"
+      "$0^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "שתי זוויות סמוכות שיוצרות יחד קו ישר משלימות ל-$180^\\circ$."
+    "correct_index": 0,
+    "explanation": "זוויות סמוכות יוצרות יחד זווית שטוחה (קו ישר). לכן סכומן $180^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-9",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 45,45,?",
+    "question_text": "במשולש יש זוויות של $45^\\circ$ ו-$45^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$45^\\circ$",
       "$90^\\circ$",
       "$135^\\circ$",
-      "$180^\\circ$"
+      "$100^\\circ$",
+      "$110^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-45-45=90^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-45-45=90^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-10",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 30,70,?",
+    "question_text": "במשולש יש זוויות של $30^\\circ$ ו-$70^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$90^\\circ$",
       "$80^\\circ$",
-      "$30^\\circ$",
-      "$100^\\circ$"
+      "$150^\\circ$",
+      "$110^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-30-70=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-30-70=80^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-11",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "במשולש: 90, 30, ?:",
+    "question_text": "במשולש יש זוויות של $90^\\circ$ ו-$30^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$120^\\circ$",
-      "$70^\\circ$",
-      "$45^\\circ$",
-      "$60^\\circ$"
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$150^\\circ$",
+      "$120^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-90-30=60^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-90-30=60^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-12",
     "topic_id": "g9x-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית ישרה:",
+    "question_text": "כמה מעלות יש בזווית ישרה?",
     "options": [
-      "$60^\\circ$",
-      "$45^\\circ$",
       "$90^\\circ$",
-      "$180^\\circ$"
+      "$45^\\circ$",
+      "$180^\\circ$",
+      "$60^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "זווית ישרה (זווית שיוצרת \"פינה\" מושלמת, כמו בפינת ריבוע) שווה $90^\\circ$."
+    "correct_index": 0,
+    "explanation": "זווית ישרה — \"פינה\" מושלמת, כמו בריבוע. היא שווה $90^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-13",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 40,60,?",
+    "question_text": "במשולש יש זוויות של $40^\\circ$ ו-$60^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$100^\\circ$",
-      "$40^\\circ$",
-      "$90^\\circ$",
-      "$80^\\circ$"
+      "$80^\\circ$",
+      "$140^\\circ$",
+      "$120^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-40-60=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-40-60=80^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-14",
     "topic_id": "g9x-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית חדה:",
+    "question_text": "מהי זווית חדה?",
     "options": [
-      "$<90^\\circ$",
-      "$=90^\\circ$",
-      "$>90^\\circ$",
-      "$=180^\\circ$"
+      "זווית קטנה מ-$90^\\circ$",
+      "זווית של $90^\\circ$ בדיוק",
+      "זווית בין $90^\\circ$ ל-$180^\\circ$",
+      "זווית של $180^\\circ$ בדיוק"
     ],
     "correct_index": 0,
-    "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
+    "explanation": "זווית חדה קטנה מ-$90^\\circ$ (וגדולה מ-$0^\\circ$)."
   },
   {
     "id": "q-q-g9x-geo-15",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "במשולש שווה-צלעות כל זווית:",
+    "question_text": "כמה מעלות יש בכל זווית של משולש שווה-צלעות?",
     "options": [
-      "$90$",
-      "$120$",
       "$60^\\circ$",
-      "$45$"
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$120^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות זו לזו, וסכומן $180^\\circ$, לכן כל זווית היא $180\\div 3=60^\\circ$."
+    "correct_index": 0,
+    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות. $180:3=60^\\circ$"
   },
   {
     "id": "q-q-g9x-geo-16",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 15,75,?",
+    "question_text": "במשולש יש זוויות של $15^\\circ$ ו-$75^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
-      "$75^\\circ$",
-      "$15^\\circ$",
-      "$165^\\circ$"
+      "$165^\\circ$",
+      "$105^\\circ$",
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-15-75=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-15-75=90^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-17",
     "topic_id": "g9x-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 20,80,?",
+    "question_text": "במשולש יש זוויות של $20^\\circ$ ו-$80^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$80^\\circ$",
-      "$20^\\circ$",
+      "$160^\\circ$",
       "$100^\\circ$",
       "$90^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-20-80=80^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-20-80=80^\\circ$."
   },
   {
     "id": "q-q-g9x-geo-18",
     "topic_id": "g9x-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית קהה:",
+    "question_text": "מהי זווית קהה?",
     "options": [
-      "$=90$",
-      "$>90^\\circ$",
-      "$=180$",
-      "$<90$"
+      "זווית בין $90^\\circ$ ל-$180^\\circ$",
+      "זווית של $180^\\circ$ בדיוק",
+      "זווית של $90^\\circ$ בדיוק",
+      "זווית קטנה מ-$90^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "זווית קהה היא זווית הגדולה מ-$90^\\circ$ (וקטנה מ-$180^\\circ$): $>90^\\circ$."
+    "correct_index": 0,
+    "explanation": "זווית קהה גדולה מ-$90^\\circ$. אבל קטנה מ-$180^\\circ$ (זו כבר זווית שטוחה)."
   },
   {
     "id": "q-q-g9x-geo-551",
     "topic_id": "g9x-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $10x+10=50$. $x$?",
+    "question_text": "פתרו את המשוואה $10x+10=50$. מהו $x$?",
     "options": [
-      "$0$",
       "$4$",
-      "$-1$",
-      "$-3$"
+      "$40$",
+      "$6$",
+      "$5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מעבירים את $10$ אגף: $10x=50-10=40$. מחלקים ב-$10$: $x=4$."
   },
   {
@@ -8034,9 +8034,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $8\\%$ מ-$50$?",
     "options": [
       "$4$",
-      "$-3$",
-      "$0$",
-      "$-1$"
+      "$40$",
+      "$8$",
+      "$46$"
     ],
     "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $8\\%=\\frac{8}{100}$. לכן $8\\%$ מ-$50$ הוא $\\frac{8}{100}\\times 50=4$."
@@ -8048,12 +8048,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $20\\%$ מ-$150$?",
     "options": [
-      "$23$",
-      "$25$",
-      "$26$",
-      "$30$"
+      "$30$",
+      "$300$",
+      "$20$",
+      "$120$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $20\\%=\\frac{20}{100}$. לכן $20\\%$ מ-$150$ הוא $\\frac{20}{100}\\times 150=30$."
   },
   {
@@ -8061,22 +8061,22 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-percent-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יחס $5:1$ כפול 3:",
+    "question_text": "כופלים את שני צדי היחס $5:1$ ב-$3$. איזה יחס מתקבל?",
     "options": [
-      "$8:1$",
-      "$5:3$",
       "$15:3$",
-      "$3:3$"
+      "$15:1$",
+      "$8:4$",
+      "$5:3$"
     ],
-    "correct_index": 2,
-    "explanation": "מכפילים את שני אגפי היחס באותו מספר: $5\\times 3:1\\times 3=15:3$."
+    "correct_index": 0,
+    "explanation": "$5\\times3=15$, $1\\times3=3$. $15:3$ — זה אותו יחס, רק בכתיבה אחרת."
   },
   {
     "id": "q-q-g9x-percent-prob-4",
     "topic_id": "g9x-percent-prob",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "ריבית 5% על 200:",
+    "question_text": "הפקידו $200$ ש\"ח בחיסכון עם ריבית של $5\\%$ לשנה. כמה ש\"ח ריבית יתקבלו אחרי שנה?",
     "options": [
       "$10$",
       "$20$",
@@ -8093,12 +8093,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $40\\%$ מ-$50$?",
     "options": [
-      "$13$",
-      "$16$",
-      "$15$",
-      "$20$"
+      "$20$",
+      "$200$",
+      "$40$",
+      "$30$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $40\\%=\\frac{40}{100}$. לכן $40\\%$ מ-$50$ הוא $\\frac{40}{100}\\times 50=20$."
   },
   {
@@ -8106,15 +8106,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-percent-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "ביחס 3:5, חלק 1 מתוך 8:",
+    "question_text": "מחלקים $8$ סוכריות בין שני ילדים ביחס $3:5$. כמה סוכריות מקבל הילד עם החלק הקטן?",
     "options": [
-      "$8$",
       "$3$",
       "$5$",
-      "$2$"
+      "$8$",
+      "$4$"
     ],
-    "correct_index": 1,
-    "explanation": "היחס $3:5$ מתוך סה\"כ $8$ חלקים: חלק 1 שווה $\\frac{3}{8}\\times 8=3$."
+    "correct_index": 0,
+    "explanation": "$3+5=8$ חלקים. חלק: $8:8=1$. הקטן: $3\\times1=3$."
   },
   {
     "id": "q-q-g9x-percent-prob-7",
@@ -8123,12 +8123,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $50\\%$ מ-$60$?",
     "options": [
-      "$26$",
-      "$25$",
       "$30$",
-      "$23$"
+      "$300$",
+      "$50$",
+      "$35$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$60$ הוא $\\frac{50}{100}\\times 60=30$."
   },
   {
@@ -8136,22 +8136,22 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-percent-prob",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "יחס 2:4 פשוט:",
+    "question_text": "צמצמו את היחס $2:4$.",
     "options": [
-      "$4:2$",
       "$1:2$",
-      "$2:8$",
-      "$1:4$"
+      "$2:1$",
+      "$1:4$",
+      "$2:8$"
     ],
-    "correct_index": 1,
-    "explanation": "מצמצמים לפי המחלק המשותף $2$: $2:4=(2\\div 2):(4\\div 2)=1:2$."
+    "correct_index": 0,
+    "explanation": "מחלקים את שני הצדדים ב-$2$. $1:2$"
   },
   {
     "id": "q-q-g9x-percent-prob-9",
     "topic_id": "g9x-percent-prob",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "כמה זה $\\frac{1}{4}$ באחוזים?",
+    "question_text": "כמה אחוזים הם $\\frac{1}{4}$?",
     "options": [
       "$10\\%$",
       "$40\\%$",
@@ -8183,12 +8183,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $25\\%$ מ-$40$?",
     "options": [
-      "$5$",
-      "$3$",
       "$10$",
-      "$6$"
+      "$100$",
+      "$25$",
+      "$30$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $25\\%=\\frac{25}{100}$. לכן $25\\%$ מ-$40$ הוא $\\frac{25}{100}\\times 40=10$."
   },
   {
@@ -8198,12 +8198,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $12\\%$ מ-$100$?",
     "options": [
-      "$7$",
       "$12$",
-      "$5$",
-      "$8$"
+      "$120$",
+      "$88$",
+      "$13$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $12\\%=\\frac{12}{100}$. לכן $12\\%$ מ-$100$ הוא $\\frac{12}{100}\\times 100=12$."
   },
   {
@@ -8211,30 +8211,30 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-percent-prob",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "גדל 20% ל-120. מקורי?",
+    "question_text": "מחיר עלה ב-$20\\%$ והגיע ל-$120$ ש\"ח. מה היה המחיר המקורי?",
     "options": [
       "$100$",
-      "$140$",
       "$96$",
+      "$140$",
       "$80$"
     ],
     "correct_index": 0,
-    "explanation": "אחרי גידול של $20\\%$ הערך הוא $120\\%$ מהמקורי: $120\\div 1.2=100$."
+    "explanation": "אחרי עלייה של $20\\%$ המחיר הוא $120\\%$ מהמקורי. $1.2\\times x=120$ $x=100$ ש\"ח. (שימו לב: $120$ פחות $20\\%$ מ-$120$ הוא $96$ — טעות נפוצה.)"
   },
   {
     "id": "q-q-g9x-percent-prob-14",
     "topic_id": "g9x-percent-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יחס $3:2$ כפול 6:",
+    "question_text": "כופלים את שני צדי היחס $3:2$ ב-$6$. איזה יחס מתקבל?",
     "options": [
-      "$6:6$",
-      "$3:12$",
-      "$9:2$",
-      "$18:12$"
+      "$18:12$",
+      "$18:2$",
+      "$9:8$",
+      "$3:12$"
     ],
-    "correct_index": 3,
-    "explanation": "מכפילים את שני אגפי היחס באותו מספר: $3\\times 6:2\\times 6=18:12$."
+    "correct_index": 0,
+    "explanation": "$3\\times6=18$, $2\\times6=12$. $18:12$ — זה אותו יחס, רק בכתיבה אחרת."
   },
   {
     "id": "q-q-g9x-percent-prob-15",
@@ -8243,12 +8243,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $5\\%$ מ-$200$?",
     "options": [
-      "$6$",
-      "$3$",
       "$10$",
-      "$5$"
+      "$100$",
+      "$5$",
+      "$190$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $5\\%=\\frac{5}{100}$. לכן $5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
@@ -8256,14 +8256,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-percent-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "P(עץ במטבע)?",
+    "question_text": "מטילים מטבע הוגן פעם אחת. מה ההסתברות לקבל \"עץ\"?",
     "options": [
-      "$\\frac{1}{3}$",
+      "$\\frac{1}{2}$",
       "$1$",
       "$0$",
-      "$\\frac{1}{2}$"
+      "$\\frac{1}{3}$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "להטלת מטבע הוגן יש שתי תוצאות שוות-סבירות, ולכן ההסתברות היא $\\frac{1}{2}$."
   },
   {
@@ -8273,12 +8273,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $30\\%$ מ-$90$?",
     "options": [
-      "$23$",
-      "$22$",
-      "$20$",
-      "$27$"
+      "$27$",
+      "$270$",
+      "$30$",
+      "$63$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $30\\%=\\frac{30}{100}$. לכן $30\\%$ מ-$90$ הוא $\\frac{30}{100}\\times 90=27$."
   },
   {
@@ -8286,15 +8286,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9x-percent-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יחס $2:3$ כפול 4:",
+    "question_text": "כופלים את שני צדי היחס $2:3$ ב-$4$. איזה יחס מתקבל?",
     "options": [
       "$8:12$",
-      "$6:3$",
-      "$4:4$",
+      "$8:3$",
+      "$6:7$",
       "$2:12$"
     ],
     "correct_index": 0,
-    "explanation": "מכפילים את שני אגפי היחס באותו מספר: $2\\times 4:3\\times 4=8:12$."
+    "explanation": "$2\\times4=8$, $3\\times4=12$. $8:12$ — זה אותו יחס, רק בכתיבה אחרת."
   },
   {
     "id": "q-q-g9x-percent-prob-19",
@@ -8303,12 +8303,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $60\\%$ מ-$50$?",
     "options": [
-      "$26$",
-      "$23$",
       "$30$",
-      "$25$"
+      "$300$",
+      "$60$",
+      "$20$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $60\\%=\\frac{60}{100}$. לכן $60\\%$ מ-$50$ הוא $\\frac{60}{100}\\times 50=30$."
   },
   {
@@ -20091,7 +20091,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g9r-probability-tree",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "באותה קופסה ($6$ לבנים, $4$ שחורים, בלי החזרה), מה ההסתברות ששני הכדורים באותו הצבע?",
+    "question_text": "בקופסה $6$ כדורים לבנים ו-$4$ שחורים. מוציאים שני כדורים בזה אחר זה, בלי החזרה. מה ההסתברות ששני הכדורים באותו הצבע?",
     "options": [
       "$\\frac{7}{15}$",
       "$\\frac{1}{3}$",
