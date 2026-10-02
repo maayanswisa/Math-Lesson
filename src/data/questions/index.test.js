@@ -53,6 +53,44 @@ describe('getQuestionsForTopic', () => {
   });
 });
 
+describe('rotation through the bank (seen questions)', () => {
+  it('never repeats a question until the whole topic bank has been shown', async () => {
+    const all = await getAllQuestionsForTopic(MIDDLE_TOPIC);
+    const seen = {};
+    let n = 0;
+    const shown = new Set();
+    // repeated 5-question quizzes, marking every question as answered
+    while (shown.size + TOPIC_QUIZ_SIZE <= all.length) {
+      const qs = await getQuestionsForTopic(MIDDLE_TOPIC, null, TOPIC_QUIZ_SIZE, seen);
+      for (const q of qs) {
+        expect(shown.has(q.id), `repeated ${q.id} after ${shown.size}`).toBe(false);
+        shown.add(q.id);
+        seen[q.id] = ++n;
+      }
+    }
+  });
+
+  it('once everything was seen, brings back the questions seen longest ago', async () => {
+    const all = await getAllQuestionsForTopic(MIDDLE_TOPIC);
+    const seen = Object.fromEntries(all.map((q, i) => [q.id, i + 1]));
+    const qs = await getQuestionsForTopic(MIDDLE_TOPIC, null, 3, seen);
+    expect(new Set(qs.map((q) => q.id))).toEqual(new Set(all.slice(0, 3).map((q) => q.id)));
+  });
+
+  it('keeps the difficulty band ahead of freshness', async () => {
+    const pool = await getAllQuestionsForTopic('g1-count-20');
+    const seen = Object.fromEntries(pool.filter((q) => q.difficulty <= 1).map((q, i) => [q.id, i + 1]));
+    const qs = await getQuestionsForTopic('g1-count-20', 'easy', TOPIC_QUIZ_SIZE, seen);
+    for (const q of qs) expect(q.difficulty).toBeLessThanOrEqual(1);
+  });
+
+  it('returns the whole bank when asked for more than it has', async () => {
+    const all = await getAllQuestionsForTopic(HIGH_TOPIC);
+    const qs = await getQuestionsForTopic(HIGH_TOPIC, null, 500, {});
+    expect(qs.length).toBe(all.length);
+  });
+});
+
 describe('buildCustomQuiz', () => {
   it('returns the requested count, deduplicated, from multiple topics', async () => {
     const qs = await buildCustomQuiz({

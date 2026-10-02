@@ -2,10 +2,19 @@ import { Link, useParams } from 'react-router-dom';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import QuizCard from '../components/quiz/QuizCard';
 import { getTopicById, GRADE_LABELS, GRADE9_TRACKS } from '../data/curriculum';
-import { buildCustomQuiz, getQuestionsForTopic, SPEED_RUN_POOL_SIZE, TOPIC_QUIZ_SIZE } from '../data/questions';
+import { buildCustomQuiz, getQuestionsForTopic, QUIZ_SIZE_OPTIONS, SPEED_RUN_POOL_SIZE, TOPIC_QUIZ_SIZE } from '../data/questions';
+import { seenMap } from '../lib/seenQuestions';
+import { readJSON, writeJSON } from '../lib/storage.js';
 import { logQuizAttempt } from '../lib/progressLog';
 import { readCustomQuiz } from '../lib/customQuiz.js';
 import { hasLesson } from '../data/lessons';
+
+const SIZE_KEY = 'math-lesson-quiz-size-v1';
+
+function loadSize() {
+  const v = readJSON(SIZE_KEY, TOPIC_QUIZ_SIZE);
+  return QUIZ_SIZE_OPTIONS.includes(v) ? v : TOPIC_QUIZ_SIZE;
+}
 
 const DIFFICULTY_BANDS = [
   { id: 'all', label: 'הכל' },
@@ -15,35 +24,42 @@ const DIFFICULTY_BANDS = [
 ];
 
 /**
- * Loads both the normal-size question set and a much larger pool for
- * speed-run mode, so a fast player never runs out of questions before the
- * timer ends.
+ * Loads the topic's whole bank, ordered for this student: the chosen
+ * difficulty first, and within it questions never answered before, then the
+ * ones answered longest ago. A quiz takes the first N; speed-run mode gets
+ * the whole pool so a fast player never runs out before the timer ends.
  */
 async function loadQuestions(topicId, isCustom, band) {
   if (isCustom) {
     const payload = readCustomQuiz();
     const questions = payload?.questions || [];
     const speedQuestions = payload?.topicIds?.length
-      ? await buildCustomQuiz({ topicIds: payload.topicIds, count: SPEED_RUN_POOL_SIZE })
+      ? await buildCustomQuiz({ topicIds: payload.topicIds, count: SPEED_RUN_POOL_SIZE, seen: seenMap() })
       : questions;
     return { questions, speedQuestions };
   }
-  const pool = await getQuestionsForTopic(topicId, band, SPEED_RUN_POOL_SIZE);
-  return { questions: pool.slice(0, TOPIC_QUIZ_SIZE), speedQuestions: pool };
+  const pool = await getQuestionsForTopic(topicId, band, SPEED_RUN_POOL_SIZE, seenMap());
+  return { questions: pool, speedQuestions: pool };
 }
 
 export default function QuizPage() {
   const { topicId } = useParams();
   const isCustom = topicId === 'custom';
-  /** Increments on "נסו שוב" to draw a fresh set of 5 from the topic bank. */
+  /** Increments on "נסו שוב" to draw a fresh set from the topic bank. */
   const [drawId, setDrawId] = useState(0);
   const [band, setBand] = useState('all');
+  /** How many questions in a topic quiz — 5/10/15 or 'all'; remembered on this device. */
+  const [size, setSize] = useState(loadSize);
+  const chooseSize = (v) => {
+    setSize(v);
+    writeJSON(SIZE_KEY, v);
+  };
 
   const customPayload = useMemo(() => (isCustom ? readCustomQuiz() : null), [isCustom]);
 
   const topic = isCustom ? null : getTopicById(topicId);
 
-  const [questions, setQuestions] = useState([]);
+  const [pool, setPool] = useState([]);
   const [speedQuestions, setSpeedQuestions] = useState([]);
   const [questionsLoading, setQuestionsLoading] = useState(true);
   const [loadError, setLoadError] = useState(false);
@@ -55,7 +71,7 @@ export default function QuizPage() {
     loadQuestions(topicId, isCustom, band)
       .then(({ questions: qs, speedQuestions: sqs }) => {
         if (!cancelled) {
-          setQuestions(qs);
+          setPool(qs);
           setSpeedQuestions(sqs);
           setQuestionsLoading(false);
         }
@@ -72,6 +88,11 @@ export default function QuizPage() {
     };
     // drawId forces a new random pick for topic quizzes; custom stays fixed.
   }, [topicId, isCustom, band, drawId]);
+
+  const poolSize = pool.length;
+  /** 'all', or a number that already covers the whole bank, both mean "every question". */
+  const takesAll = size === 'all' || size >= poolSize;
+  const questions = useMemo(() => (isCustom || takesAll ? pool : pool.slice(0, size)), [isCustom, takesAll, pool, size]);
 
   const handleRetry = useCallback(() => {
     if (!isCustom) setDrawId((n) => n + 1);
@@ -168,8 +189,29 @@ export default function QuizPage() {
             כיתה {GRADE_LABELS[grade]} · {questions.length} שאלות
           </p>
         )}
-        {!isCustom && (
+        {!isCustom && !questionsLoading && poolSize > 0 && (
           <div className="mt-3 flex flex-wrap items-center gap-1.5">
+            <span className="text-xs text-[var(--color-slate)]">מספר שאלות:</span>
+            {QUIZ_SIZE_OPTIONS.filter((n) => n === 'all' || n < poolSize).map((n) => {
+              const active = n === 'all' ? takesAll : !takesAll && size === n;
+              return (
+                <button
+                  key={n}
+                  type="button"
+                  onClick={() => chooseSize(n)}
+                  aria-pressed={active}
+                  className={`flex min-h-8 items-center justify-center rounded-md px-2.5 py-1 text-xs font-semibold ${
+                    active ? 'bg-[var(--color-teal)] text-white' : 'bg-white text-[var(--color-ink)] ring-1 ring-black/10'
+                  }`}
+                >
+                  {n === 'all' ? `הכל (${poolSize})` : n}
+                </button>
+              );
+            })}
+          </div>
+        )}
+        {!isCustom && (
+          <div className="mt-2 flex flex-wrap items-center gap-1.5">
             <span className="text-xs text-[var(--color-slate)]">רמת קושי:</span>
             {DIFFICULTY_BANDS.map((b) => (
               <button
@@ -208,7 +250,7 @@ export default function QuizPage() {
         </div>
       ) : (
         <QuizCard
-          key={`${topicId}-${band}-${drawId}`}
+          key={`${topicId}-${band}-${drawId}-${takesAll ? 'all' : size}`}
           questions={questions}
           speedQuestions={speedQuestions}
           topicExplanation={topic?.explanation ?? null}

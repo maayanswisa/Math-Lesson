@@ -10,6 +10,7 @@ import SciCalculator from './SciCalculator';
 import StudyMorePopup from './StudyMorePopup';
 import SolutionSteps, { StepList } from './SolutionSteps';
 import { solutionSteps } from '../../lib/solutionSteps';
+import { markSeen } from '../../lib/seenQuestions';
 import { useGame } from '../../context/GameContext';
 import { fireBigConfetti, fireConfetti } from '../../lib/feedback';
 import { playCorrect, playWrong } from '../../lib/sounds';
@@ -364,6 +365,7 @@ export default function QuizCard({
     const { isCorrect, selected } = evaluateCurrent();
 
     const { xpGained } = recordAnswer(isCorrect);
+    markSeen(current.id);
     setSessionXp((x) => x + xpGained);
 
     const entry = {

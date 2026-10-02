@@ -1,8 +1,11 @@
 import { getInteractiveQuestionsForTopic as getIx } from './interactiveQuestions.js';
 import { getTopicById, isElementary, isMiddleSchool } from '../curriculum/index.js';
 
-/** How many questions appear in a normal topic quiz. */
+/** How many questions appear in a normal topic quiz by default. */
 export const TOPIC_QUIZ_SIZE = 5;
+
+/** Quiz lengths a student can pick before a topic quiz; 'all' = the whole bank. */
+export const QUIZ_SIZE_OPTIONS = [5, 10, 15, 'all'];
 
 /** Effectively "all of them" — passed as the pick count so speed-run mode gets the whole topic bank instead of just TOPIC_QUIZ_SIZE. */
 export const SPEED_RUN_POOL_SIZE = 500;
@@ -78,17 +81,23 @@ function bandDistance(q, band) {
  * question at all) — instead of ignoring the band entirely in that case, fill
  * the remaining slots with the closest difficulty available, so the result
  * still skews toward what was asked for.
- * @param {'easy'|'medium'|'hard'|null} band
+ *
+ * `seen` (questionId → when it was last answered, higher = more recent)
+ * makes repeated quizzes rotate through the bank: within each tier, questions
+ * never answered come first, then the ones answered longest ago.
+ * @param {'easy'|'medium'|'hard'|'all'|null} band
+ * @param {Record<string, number>|null} [seen]
  */
-function pickForBand(pool, band, count) {
-  if (!band || band === 'all') return pickRandom(pool, count);
-  const matching = pickRandom(pool.filter((q) => matchesDifficulty(q, band)), count);
-  if (matching.length >= count) return matching;
-  const usedIds = new Set(matching.map((q) => q.id));
-  const rest = pickRandom(pool.filter((q) => !usedIds.has(q.id)), pool.length).sort(
-    (a, b) => bandDistance(a, band) - bandDistance(b, band),
-  );
-  return [...matching, ...rest.slice(0, count - matching.length)];
+function pickForBand(pool, band, count, seen = null) {
+  const banded = Boolean(band) && band !== 'all';
+  return pickRandom(pool, pool.length)
+    .map((q) => {
+      const match = !banded || matchesDifficulty(q, band);
+      return { q, miss: match ? 0 : 1, last: (seen && seen[q.id]) || 0, dist: match ? 0 : bandDistance(q, band) };
+    })
+    .sort((a, b) => a.miss - b.miss || a.last - b.last || a.dist - b.dist)
+    .slice(0, Math.min(count, pool.length))
+    .map((r) => r.q);
 }
 
 /**
@@ -98,29 +107,30 @@ function pickForBand(pool, band, count) {
  * @param {string} topicId
  * @param {'easy'|'medium'|'hard'|null} [difficultyBand]
  * @param {number} [count]
+ * @param {Record<string, number>|null} [seen] questionId → when last answered; unseen/oldest are preferred
  */
-export async function getQuestionsForTopic(topicId, difficultyBand = null, count = TOPIC_QUIZ_SIZE) {
+export async function getQuestionsForTopic(topicId, difficultyBand = null, count = TOPIC_QUIZ_SIZE, seen = null) {
   const pool = await getAllQuestionsForTopic(topicId);
-  return pickForBand(pool, difficultyBand, count);
+  return pickForBand(pool, difficultyBand, count, seen);
 }
 
 /**
  * Build a shuffled custom quiz from multiple topics.
- * @param {{ topicIds: string[], count: number, difficultyBand: 'easy'|'medium'|'hard' }} opts
+ * @param {{ topicIds: string[], count: number, difficultyBand: 'easy'|'medium'|'hard', seen?: Record<string, number> }} opts
  */
-export async function buildCustomQuiz({ topicIds = [], count = 10, difficultyBand = 'medium' }) {
+export async function buildCustomQuiz({ topicIds = [], count = 10, difficultyBand = 'medium', seen = null }) {
   const perTopic = await Promise.all(topicIds.map((tid) => getAllQuestionsForTopic(tid)));
   const pool = [];
-  const seen = new Set();
+  const ids = new Set();
   for (const qs of perTopic) {
     for (const q of qs) {
-      if (seen.has(q.id)) continue;
-      seen.add(q.id);
+      if (ids.has(q.id)) continue;
+      ids.add(q.id);
       pool.push(q);
     }
   }
 
-  return pickForBand(pool, difficultyBand, count);
+  return pickForBand(pool, difficultyBand, count, seen);
 }
 
 export { getHintsForQuestion } from '../../lib/hints.js';
