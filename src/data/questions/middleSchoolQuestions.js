@@ -13,7 +13,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$-13$"
     ],
     "correct_index": 0,
-    "explanation": "מחברים מספרים מכוונים: $(-5)+(+8)=-5++8=3$.",
+    "explanation": "$(-5)+(+8)=-5+8=3$.",
     "type": "mcq"
   },
   {
@@ -24,9 +24,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $(+6)+(-6)$?",
     "options": [
       "$0$",
-      "$-5$",
-      "$-7$",
-      "$-4$"
+      "$1$",
+      "$12$",
+      "$-1$"
     ],
     "correct_index": 0,
     "explanation": "מחברים מספרים מכוונים: $(+6)+(-6)=6-6=0$."
@@ -38,12 +38,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(-6)-(+5)$?",
     "options": [
-      "$-15$",
-      "$-16$",
-      "$-18$",
-      "$-11$"
+      "$-11$",
+      "$11$",
+      "$-1$",
+      "$-9$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "חיסור מספרים מכוונים: $(-6)-(+5)=-6-(5)=-11$."
   },
   {
@@ -54,9 +54,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $(+7)+(-5)$?",
     "options": [
       "$2$",
-      "$-5$",
-      "$-3$",
-      "$-2$"
+      "$-2$",
+      "$12$",
+      "$3$"
     ],
     "correct_index": 0,
     "explanation": "מחברים מספרים מכוונים: $(+7)+(-5)=7-5=2$."
@@ -68,12 +68,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(+9)-(-4)$?",
     "options": [
-      "$8$",
-      "$9$",
-      "$6$",
-      "$13$"
+      "$13$",
+      "$-13$",
+      "$5$",
+      "$15$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "חיסור מספר שלילי שווה לחיבור הנגדי שלו: $(+9)-(-4)=9+4=13$."
   },
   {
@@ -83,12 +83,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(+5)\\times(+5)$?",
     "options": [
-      "$21$",
-      "$18$",
       "$25$",
-      "$20$"
+      "$-25$",
+      "$10$",
+      "$26$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "כפל מספרים מכוונים: סימנים זהים נותנים תוצאה חיובית. $5\\times 5=25$."
   },
   {
@@ -98,12 +98,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(-2)\\times(+2)$?",
     "options": [
-      "$-11$",
-      "$-9$",
-      "$-8$",
-      "$-4$"
+      "$-4$",
+      "$4$",
+      "$0$",
+      "$-2$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "כפל מספרים מכוונים: סימנים שונים נותנים תוצאה שלילית. $-2\\times 2=-4$."
   },
   {
@@ -114,9 +114,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $(+6)+(-8)$?",
     "options": [
       "$-2$",
-      "$-9$",
-      "$-6$",
-      "$-7$"
+      "$2$",
+      "$14$",
+      "$-1$"
     ],
     "correct_index": 0,
     "explanation": "מחברים מספרים מכוונים: $(+6)+(-8)=6-8=-2$."
@@ -128,12 +128,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(-9)+(-8)$?",
     "options": [
-      "$-22$",
-      "$-24$",
-      "$-21$",
-      "$-17$"
+      "$-17$",
+      "$17$",
+      "$-1$",
+      "$-15$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחברים מספרים מכוונים: $(-9)+(-8)=-9-8=-17$."
   },
   {
@@ -143,12 +143,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(-6)\\times(+4)$?",
     "options": [
-      "$-29$",
-      "$-31$",
       "$-24$",
-      "$-28$"
+      "$24$",
+      "$-2$",
+      "$10$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "כפל מספרים מכוונים: סימנים שונים נותנים תוצאה שלילית. $-6\\times 4=-24$."
   },
   {
@@ -159,9 +159,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $(+8)-(-5)$?",
     "options": [
       "$13$",
-      "$8$",
-      "$9$",
-      "$6$"
+      "$-13$",
+      "$3$",
+      "$15$"
     ],
     "correct_index": 0,
     "explanation": "חיסור מספר שלילי שווה לחיבור הנגדי שלו: $(+8)-(-5)=8+5=13$."
@@ -173,12 +173,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(+2)\\times(+8)$?",
     "options": [
-      "$11$",
       "$16$",
-      "$9$",
-      "$12$"
+      "$-16$",
+      "$10$",
+      "$17$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "כפל מספרים מכוונים: סימנים זהים נותנים תוצאה חיובית. $2\\times 8=16$."
   },
   {
@@ -188,12 +188,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(+3)+(+7)$?",
     "options": [
-      "$3$",
       "$10$",
-      "$5$",
-      "$6$"
+      "$-10$",
+      "$-4$",
+      "$12$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחברים מספרים מכוונים: $(+3)+(+7)=3++7=10$."
   },
   {
@@ -203,12 +203,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(-1)-(-2)$?",
     "options": [
+      "$1$",
+      "$-1$",
       "$-3$",
-      "$-6$",
-      "$-4$",
-      "$1$"
+      "$3$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "חיסור מספרים מכוונים: $(-1)-(-2)=-1-(-2)=1$."
   },
   {
@@ -218,12 +218,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(+1)-(-5)$?",
     "options": [
-      "$1$",
       "$6$",
-      "$-1$",
-      "$2$"
+      "$-6$",
+      "$-4$",
+      "$8$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "חיסור מספר שלילי שווה לחיבור הנגדי שלו: $(+1)-(-5)=1+5=6$."
   },
   {
@@ -233,12 +233,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(+9)-(-1)$?",
     "options": [
-      "$5$",
       "$10$",
-      "$6$",
-      "$3$"
+      "$-10$",
+      "$8$",
+      "$12$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "חיסור מספר שלילי שווה לחיבור הנגדי שלו: $(+9)-(-1)=9+1=10$."
   },
   {
@@ -248,12 +248,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(-6)+(+2)$?",
     "options": [
-      "$-9$",
+      "$-4$",
+      "$4$",
       "$-8$",
-      "$-11$",
-      "$-4$"
+      "$8$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחברים מספרים מכוונים: $(-6)+(+2)=-6++2=-4$."
   },
   {
@@ -263,12 +263,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(+0)\\times(+6)$?",
     "options": [
-      "$-5$",
-      "$-4$",
-      "$-7$",
-      "$0$"
+      "$0$",
+      "$1$",
+      "$6$",
+      "$-1$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "כפל מספרים מכוונים: סימנים זהים נותנים תוצאה חיובית. $0\\times 6=0$."
   },
   {
@@ -279,9 +279,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $(+0)-(-9)$?",
     "options": [
       "$9$",
-      "$5$",
-      "$4$",
-      "$2$"
+      "$-9$",
+      "$11$",
+      "$10$"
     ],
     "correct_index": 0,
     "explanation": "חיסור מספר שלילי שווה לחיבור הנגדי שלו: $(+0)-(-9)=0+9=9$."
@@ -293,12 +293,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(+8)+(-8)$?",
     "options": [
-      "$-4$",
-      "$-5$",
-      "$-7$",
-      "$0$"
+      "$0$",
+      "$1$",
+      "$16$",
+      "$-1$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחברים מספרים מכוונים: $(+8)+(-8)=8-8=0$."
   },
   {
@@ -324,9 +324,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $7^2$?",
     "options": [
       "$49$",
-      "$45$",
-      "$42$",
-      "$44$"
+      "$14$",
+      "$9$",
+      "$42$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $7^{2}=49$."
@@ -339,9 +339,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $1+8\\times 3$?",
     "options": [
       "$25$",
-      "$21$",
-      "$20$",
-      "$18$"
+      "$27$",
+      "$28$",
+      "$24$"
     ],
     "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $8\\times 3=24$, ואז $1+24=25$."
@@ -353,12 +353,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $9^2$?",
     "options": [
-      "$76$",
       "$81$",
-      "$74$",
-      "$77$"
+      "$18$",
+      "$11$",
+      "$72$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "החישוב: $9^{2}=81$."
   },
   {
@@ -368,12 +368,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $3+4\\times 2$?",
     "options": [
-      "$6$",
-      "$7$",
       "$11$",
-      "$4$"
+      "$14$",
+      "$13$",
+      "$10$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $4\\times 2=8$, ואז $3+8=11$."
   },
   {
@@ -383,12 +383,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $2+5\\times 3$?",
     "options": [
-      "$10$",
-      "$12$",
-      "$13$",
-      "$17$"
+      "$17$",
+      "$21$",
+      "$20$",
+      "$16$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $5\\times 3=15$, ואז $2+15=17$."
   },
   {
@@ -398,12 +398,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(6+2)\\times 4$?",
     "options": [
-      "$25$",
-      "$27$",
       "$32$",
-      "$28$"
+      "$14$",
+      "$36$",
+      "$33$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $6+2=8$, ואז $8\\times 4=32$."
   },
   {
@@ -413,12 +413,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(7+2)\\times 2$?",
     "options": [
+      "$18$",
       "$11$",
-      "$13$",
-      "$14$",
-      "$18$"
+      "$20$",
+      "$19$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $7+2=9$, ואז $9\\times 2=18$."
   },
   {
@@ -429,9 +429,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $(2+5)\\times 3$?",
     "options": [
       "$21$",
-      "$14$",
-      "$16$",
-      "$17$"
+      "$17$",
+      "$24$",
+      "$22$"
     ],
     "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $2+5=7$, ואז $7\\times 3=21$."
@@ -443,12 +443,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(4+2)\\times 6$?",
     "options": [
-      "$29$",
       "$36$",
-      "$31$",
-      "$32$"
+      "$16$",
+      "$42$",
+      "$37$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $4+2=6$, ואז $6\\times 6=36$."
   },
   {
@@ -460,11 +460,11 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "options": [
       "$32$",
       "$64$",
-      "$16$",
-      "$10$"
+      "$12$",
+      "$16$"
     ],
     "correct_index": 0,
-    "explanation": "החישוב: 2^5=32."
+    "explanation": "כפל חזקות עם אותו בסיס — מחברים מעריכים: $2^3\\times2^2=2^{5}=32$."
   },
   {
     "id": "q-q-g7-order-powers-11",
@@ -473,12 +473,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $8^3$?",
     "options": [
-      "$508$",
-      "$507$",
       "$512$",
-      "$505$"
+      "$24$",
+      "$11$",
+      "$504$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $8^{3}=512$."
   },
   {
@@ -488,12 +488,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $7^3$?",
     "options": [
-      "$336$",
-      "$339$",
-      "$338$",
-      "$343$"
+      "$343$",
+      "$21$",
+      "$10$",
+      "$336$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "החישוב: $7^{3}=343$."
   },
   {
@@ -504,9 +504,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $2+4\\times 3$?",
     "options": [
       "$14$",
-      "$7$",
-      "$9$",
-      "$10$"
+      "$18$",
+      "$17$",
+      "$13$"
     ],
     "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $4\\times 3=12$, ואז $2+12=14$."
@@ -519,9 +519,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $2^3$?",
     "options": [
       "$8$",
-      "$3$",
-      "$1$",
-      "$4$"
+      "$6$",
+      "$5$",
+      "$9$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $2^{3}=8$."
@@ -533,12 +533,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(2+4)\\times 3$?",
     "options": [
-      "$14$",
       "$18$",
-      "$11$",
-      "$13$"
+      "$14$",
+      "$21$",
+      "$19$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $2+4=6$, ואז $6\\times 3=18$."
   },
   {
@@ -548,12 +548,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $4^2$?",
     "options": [
-      "$11$",
       "$16$",
-      "$9$",
+      "$8$",
+      "$6$",
       "$12$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "החישוב: $4^{2}=16$."
   },
   {
@@ -563,12 +563,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $(1+5)\\times 2$?",
     "options": [
-      "$7$",
-      "$5$",
-      "$8$",
-      "$12$"
+      "$12$",
+      "$11$",
+      "$14$",
+      "$13$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $1+5=6$, ואז $6\\times 2=12$."
   },
   {
@@ -578,12 +578,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $1+5\\times 2$?",
     "options": [
-      "$4$",
-      "$6$",
       "$11$",
-      "$7$"
+      "$12$",
+      "$13$",
+      "$10$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הכפל: $5\\times 2=10$, ואז $1+10=11$."
   },
   {
@@ -594,9 +594,9 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "question_text": "מהו $(4+3)\\times 2$?",
     "options": [
       "$14$",
-      "$7$",
-      "$9$",
-      "$10$"
+      "$10$",
+      "$16$",
+      "$15$"
     ],
     "correct_index": 0,
     "explanation": "לפי סדר פעולות חשבון מחשבים קודם את הסוגריים: $4+3=7$, ואז $7\\times 2=14$."
@@ -623,13 +623,13 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $5x+2x$?",
     "options": [
+      "$7x$",
       "$7x^2$",
       "$7$",
-      "$10x$",
-      "$7x$"
+      "$10x$"
     ],
-    "correct_index": 3,
-    "explanation": "כינוס איברים דומים: $5x+2x=7x$."
+    "correct_index": 0,
+    "explanation": "כינוס איברים דומים: $5x+2x=(5+2)x=7x$."
   },
   {
     "id": "q-q-g7-algebra-expr-2",
@@ -638,13 +638,13 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $3x+5x$?",
     "options": [
-      "$8x^2$",
       "$8x$",
-      "$15x$",
-      "$8$"
+      "$8x^2$",
+      "$8$",
+      "$15x$"
     ],
-    "correct_index": 1,
-    "explanation": "כינוס איברים דומים: $3x+5x=8x$."
+    "correct_index": 0,
+    "explanation": "כינוס איברים דומים: $3x+5x=(3+5)x=8x$."
   },
   {
     "id": "q-q-g7-algebra-expr-3",
@@ -653,27 +653,27 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $6x-4x$?",
     "options": [
-      "$10x$",
-      "$0$",
       "$2x$",
-      "$x$"
+      "$10x$",
+      "$2$",
+      "$24x$"
     ],
-    "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $2x$."
+    "correct_index": 0,
+    "explanation": "כינוס איברים דומים: $6x-4x=(6-4)x=2x$."
   },
   {
     "id": "q-q-g7-algebra-expr-4",
     "topic_id": "g7-algebra-expr",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $5(x+7)$?",
+    "question_text": "פתחו את הסוגריים: $5(x+7)$",
     "options": [
-      "$x+35$",
-      "$5x$",
+      "$5x+35$",
       "$5x+7$",
-      "$5x+35$"
+      "$x+35$",
+      "$5x$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $5(x+7)=5x+35$."
   },
   {
@@ -681,14 +681,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-algebra-expr",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $7(x+3)$?",
+    "question_text": "פתחו את הסוגריים: $7(x+3)$",
     "options": [
-      "$7x$",
-      "$7x+3$",
       "$7x+21$",
-      "$x+21$"
+      "$7x+3$",
+      "$x+21$",
+      "$7x$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $7(x+3)=7x+21$."
   },
   {
@@ -696,12 +696,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-algebra-expr",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $4(x+2)$?",
+    "question_text": "פתחו את הסוגריים: $4(x+2)$",
     "options": [
       "$4x+8$",
-      "$4x$",
+      "$4x+2$",
       "$x+8$",
-      "$4x+2$"
+      "$4x$"
     ],
     "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $4(x+2)=4x+8$."
@@ -711,14 +711,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-algebra-expr",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ערך $x=7$ ב-$5x+5$:",
+    "question_text": "מהו ערך הביטוי $5x+5$ כאשר $x=7$?",
     "options": [
-      "$36$",
-      "$33$",
       "$40$",
-      "$35$"
+      "$35$",
+      "$17$",
+      "$45$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=7$: $5\\times 7+5=40$."
   },
   {
@@ -726,14 +726,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-algebra-expr",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ערך $x=3$ ב-$7x+7$:",
+    "question_text": "מהו ערך הביטוי $7x+7$ כאשר $x=3$?",
     "options": [
+      "$28$",
       "$21$",
-      "$24$",
-      "$23$",
-      "$28$"
+      "$17$",
+      "$35$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=3$: $7\\times 3+7=28$."
   },
   {
@@ -741,12 +741,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-algebra-expr",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $4(x+4)$?",
+    "question_text": "פתחו את הסוגריים: $4(x+4)$",
     "options": [
       "$4x+16$",
-      "$4x$",
+      "$4x+4$",
       "$x+16$",
-      "$4x+4$"
+      "$4x$"
     ],
     "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $4(x+4)=4x+16$."
@@ -756,14 +756,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-algebra-expr",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ערך $x=2$ ב-$4x+4$:",
+    "question_text": "מהו ערך הביטוי $4x+4$ כאשר $x=2$?",
     "options": [
+      "$12$",
       "$8$",
-      "$5$",
-      "$7$",
-      "$12$"
+      "$10$",
+      "$16$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $4\\times 2+4=12$."
   },
   {
@@ -773,27 +773,27 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $4x+4x$?",
     "options": [
-      "$8$",
-      "$16x$",
+      "$8x$",
       "$8x^2$",
-      "$8x$"
+      "$8$",
+      "$16x$"
     ],
-    "correct_index": 3,
-    "explanation": "כינוס איברים דומים: $4x+4x=8x$."
+    "correct_index": 0,
+    "explanation": "כינוס איברים דומים: $4x+4x=(4+4)x=8x$."
   },
   {
     "id": "q-q-g7-algebra-expr-12",
     "topic_id": "g7-algebra-expr",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $2(x+8)$?",
+    "question_text": "פתחו את הסוגריים: $2(x+8)$",
     "options": [
-      "$x+16$",
-      "$2x+8$",
       "$2x+16$",
+      "$2x+8$",
+      "$x+16$",
       "$2x$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $2(x+8)=2x+16$."
   },
   {
@@ -801,11 +801,11 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-algebra-expr",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $5(x+2)$?",
+    "question_text": "פתחו את הסוגריים: $5(x+2)$",
     "options": [
       "$5x+10$",
-      "$x+10$",
       "$5x+2$",
+      "$x+10$",
       "$5x$"
     ],
     "correct_index": 0,
@@ -818,27 +818,27 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $4x+2x$?",
     "options": [
-      "$8x$",
-      "$6x^2$",
       "$6x$",
-      "$6$"
+      "$6x^2$",
+      "$6$",
+      "$8x$"
     ],
-    "correct_index": 2,
-    "explanation": "כינוס איברים דומים: $4x+2x=6x$."
+    "correct_index": 0,
+    "explanation": "כינוס איברים דומים: $4x+2x=(4+2)x=6x$."
   },
   {
     "id": "q-q-g7-algebra-expr-15",
     "topic_id": "g7-algebra-expr",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו $3(x+9)$?",
+    "question_text": "פתחו את הסוגריים: $3(x+9)$",
     "options": [
-      "$3x$",
-      "$x+27$",
+      "$3x+27$",
       "$3x+9$",
-      "$3x+27$"
+      "$x+27$",
+      "$3x$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "פותחים סוגריים לפי חוק הפילוג: $3(x+9)=3x+27$."
   },
   {
@@ -846,14 +846,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-algebra-expr",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ערך $x=8$ ב-$2x+2$:",
+    "question_text": "מהו ערך הביטוי $2x+2$ כאשר $x=8$?",
     "options": [
-      "$14$",
       "$18$",
-      "$11$",
-      "$13$"
+      "$16$",
+      "$12$",
+      "$20$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=8$: $2\\times 8+2=18$."
   },
   {
@@ -863,13 +863,13 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $2x+8x$?",
     "options": [
-      "$10$",
       "$10x$",
       "$10x^2$",
+      "$10$",
       "$16x$"
     ],
-    "correct_index": 1,
-    "explanation": "כינוס איברים דומים: $2x+8x=10x$."
+    "correct_index": 0,
+    "explanation": "כינוס איברים דומים: $2x+8x=(2+8)x=10x$."
   },
   {
     "id": "q-q-g7-algebra-expr-18",
@@ -878,13 +878,13 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $5x-3x$?",
     "options": [
-      "$0$",
-      "$x$",
       "$2x$",
-      "$8x$"
+      "$8x$",
+      "$2$",
+      "$15x$"
     ],
-    "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $2x$."
+    "correct_index": 0,
+    "explanation": "כינוס איברים דומים: $5x-3x=(5-3)x=2x$."
   },
   {
     "id": "q-q-g7-algebra-expr-19",
@@ -893,13 +893,13 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $7x+3x$?",
     "options": [
-      "$10$",
-      "$21x$",
       "$10x$",
-      "$10x^2$"
+      "$10x^2$",
+      "$10$",
+      "$21x$"
     ],
-    "correct_index": 2,
-    "explanation": "כינוס איברים דומים: $7x+3x=10x$."
+    "correct_index": 0,
+    "explanation": "כינוס איברים דומים: $7x+3x=(7+3)x=10x$."
   },
   {
     "id": "q-g7-eq-1",
@@ -921,14 +921,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $4x=12$. $x$?",
+    "question_text": "פתרו את המשוואה $4x=12$. מהו $x$?",
     "options": [
-      "$-1$",
-      "$-2$",
-      "$-4$",
-      "$3$"
+      "$3$",
+      "$12$",
+      "$1$",
+      "$4$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$4$: $x=12\\div 4=3$."
   },
   {
@@ -936,14 +936,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+2=18$. $x$?",
+    "question_text": "פתרו את המשוואה $x+2=18$. מהו $x$?",
     "options": [
-      "$12$",
       "$16$",
-      "$11$",
-      "$9$"
+      "$20$",
+      "$14$",
+      "$17$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מעבירים את $2$ אגף עם סימן הפוך: $x=18-2=16$."
   },
   {
@@ -951,14 +951,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $7x=35$. $x$?",
+    "question_text": "פתרו את המשוואה $7x=35$. מהו $x$?",
     "options": [
-      "$-2$",
       "$5$",
-      "$0$",
-      "$1$"
+      "$35$",
+      "$3$",
+      "$6$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$7$: $x=35\\div 7=5$."
   },
   {
@@ -966,14 +966,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $10x+10=70$. $x$?",
+    "question_text": "פתרו את המשוואה $10x+10=70$. מהו $x$?",
     "options": [
-      "$2$",
-      "$1$",
       "$6$",
-      "$-1$"
+      "$60$",
+      "$8$",
+      "$7$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מעבירים את $10$ אגף: $10x=70-10=60$. מחלקים ב-$10$: $x=6$."
   },
   {
@@ -981,14 +981,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $11x+11=88$. $x$?",
+    "question_text": "פתרו את המשוואה $11x+11=88$. מהו $x$?",
     "options": [
-      "$0$",
-      "$3$",
-      "$2$",
-      "$7$"
+      "$7$",
+      "$77$",
+      "$9$",
+      "$8$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מעבירים את $11$ אגף: $11x=88-11=77$. מחלקים ב-$11$: $x=7$."
   },
   {
@@ -996,12 +996,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $6x+6=24$. $x$?",
+    "question_text": "פתרו את המשוואה $6x+6=24$. מהו $x$?",
     "options": [
       "$3$",
-      "$-4$",
-      "$-2$",
-      "$-1$"
+      "$18$",
+      "$5$",
+      "$4$"
     ],
     "correct_index": 0,
     "explanation": "מעבירים את $6$ אגף: $6x=24-6=18$. מחלקים ב-$6$: $x=3$."
@@ -1011,14 +1011,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $4x+4=36$. $x$?",
+    "question_text": "פתרו את המשוואה $4x+4=36$. מהו $x$?",
     "options": [
-      "$1$",
       "$8$",
-      "$4$",
-      "$3$"
+      "$32$",
+      "$10$",
+      "$9$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מעבירים את $4$ אגף: $4x=36-4=32$. מחלקים ב-$4$: $x=8$."
   },
   {
@@ -1026,12 +1026,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $10x=90$. $x$?",
+    "question_text": "פתרו את המשוואה $10x=90$. מהו $x$?",
     "options": [
       "$9$",
-      "$2$",
-      "$4$",
-      "$5$"
+      "$90$",
+      "$7$",
+      "$10$"
     ],
     "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$10$: $x=90\\div 10=9$."
@@ -1041,12 +1041,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+9=27$. $x$?",
+    "question_text": "פתרו את המשוואה $x+9=27$. מהו $x$?",
     "options": [
       "$18$",
-      "$11$",
-      "$14$",
-      "$13$"
+      "$36$",
+      "$16$",
+      "$19$"
     ],
     "correct_index": 0,
     "explanation": "מעבירים את $9$ אגף עם סימן הפוך: $x=27-9=18$."
@@ -1056,14 +1056,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $2x=16$. $x$?",
+    "question_text": "פתרו את המשוואה $2x=16$. מהו $x$?",
     "options": [
-      "$4$",
-      "$3$",
-      "$1$",
-      "$8$"
+      "$8$",
+      "$16$",
+      "$6$",
+      "$9$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$2$: $x=16\\div 2=8$."
   },
   {
@@ -1071,12 +1071,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $11x=66$. $x$?",
+    "question_text": "פתרו את המשוואה $11x=66$. מהו $x$?",
     "options": [
       "$6$",
-      "$1$",
-      "$-1$",
-      "$2$"
+      "$66$",
+      "$4$",
+      "$7$"
     ],
     "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$11$: $x=66\\div 11=6$."
@@ -1086,14 +1086,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $8x=24$. $x$?",
+    "question_text": "פתרו את המשוואה $8x=24$. מהו $x$?",
     "options": [
-      "$-4$",
-      "$-1$",
       "$3$",
-      "$-2$"
+      "$24$",
+      "$1$",
+      "$4$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחלקים את שני האגפים ב-$8$: $x=24\\div 8=3$."
   },
   {
@@ -1101,12 +1101,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $5x+5=35$. $x$?",
+    "question_text": "פתרו את המשוואה $5x+5=35$. מהו $x$?",
     "options": [
       "$6$",
-      "$-1$",
-      "$2$",
-      "$1$"
+      "$30$",
+      "$8$",
+      "$7$"
     ],
     "correct_index": 0,
     "explanation": "מעבירים את $5$ אגף: $5x=35-5=30$. מחלקים ב-$5$: $x=6$."
@@ -1116,14 +1116,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+2=16$. $x$?",
+    "question_text": "פתרו את המשוואה $x+2=16$. מהו $x$?",
     "options": [
-      "$10$",
-      "$9$",
-      "$7$",
-      "$14$"
+      "$14$",
+      "$18$",
+      "$12$",
+      "$15$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מעבירים את $2$ אגף עם סימן הפוך: $x=16-2=14$."
   },
   {
@@ -1131,12 +1131,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $10x+10=60$. $x$?",
+    "question_text": "פתרו את המשוואה $10x+10=60$. מהו $x$?",
     "options": [
       "$5$",
-      "$-2$",
-      "$0$",
-      "$1$"
+      "$50$",
+      "$7$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "מעבירים את $10$ אגף: $10x=60-10=50$. מחלקים ב-$10$: $x=5$."
@@ -1146,14 +1146,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+8=64$. $x$?",
+    "question_text": "פתרו את המשוואה $x+8=64$. מהו $x$?",
     "options": [
-      "$51$",
-      "$49$",
       "$56$",
-      "$52$"
+      "$72$",
+      "$54$",
+      "$57$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מעבירים את $8$ אגף עם סימן הפוך: $x=64-8=56$."
   },
   {
@@ -1161,14 +1161,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+3=24$. $x$?",
+    "question_text": "פתרו את המשוואה $x+3=24$. מהו $x$?",
     "options": [
-      "$17$",
-      "$14$",
-      "$16$",
-      "$21$"
+      "$21$",
+      "$27$",
+      "$19$",
+      "$22$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מעבירים את $3$ אגף עם סימן הפוך: $x=24-3=21$."
   },
   {
@@ -1176,14 +1176,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $11x+11=110$. $x$?",
+    "question_text": "פתרו את המשוואה $11x+11=110$. מהו $x$?",
     "options": [
-      "$4$",
-      "$2$",
       "$9$",
-      "$5$"
+      "$99$",
+      "$11$",
+      "$10$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מעבירים את $11$ אגף: $11x=110-11=99$. מחלקים ב-$11$: $x=9$."
   },
   {
@@ -1191,12 +1191,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x+5=10$. $x$?",
+    "question_text": "פתרו את המשוואה $x+5=10$. מהו $x$?",
     "options": [
       "$5$",
-      "$1$",
-      "$0$",
-      "$-2$"
+      "$15$",
+      "$3$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "מעבירים את $5$ אגף עם סימן הפוך: $x=10-5=5$."
@@ -1221,14 +1221,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "אם $f(x)=x+3$ אז $f(0)$=",
+    "question_text": "נתונה הפונקציה $f(x)=x+3$. מהו $f(0)$?",
     "options": [
-      "$-3$",
-      "$1$",
       "$3$",
-      "$0$"
+      "$0$",
+      "$4$",
+      "$2$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=0$: $f(0)=0+3=3$."
   },
   {
@@ -1236,14 +1236,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(3)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(3)$?",
     "options": [
-      "$2$",
-      "$0$",
+      "$7$",
+      "$6$",
       "$3$",
-      "$7$"
+      "$9$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=3$: $f(3)=2\\times 3+1=7$."
   },
   {
@@ -1251,14 +1251,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(2)$?",
     "options": [
-      "$0$",
-      "$1$",
       "$5$",
-      "$-2$"
+      "$4$",
+      "$3$",
+      "$7$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=2\\times 2+1=5$."
   },
   {
@@ -1266,14 +1266,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(4)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(4)$?",
     "options": [
-      "$12$",
       "$16$",
-      "$11$",
-      "$9$"
+      "$8$",
+      "$6$",
+      "$17$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=4$: $f(4)=4^{2}=16$."
   },
   {
@@ -1281,29 +1281,29 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "תחום הגדרה $f(x)=1/(x-5)$ ללא:",
+    "question_text": "מהו תחום ההגדרה של הפונקציה $f(x)=\\frac{1}{x-5}$?",
     "options": [
-      "הכל",
+      "$x\\neq 5$",
+      "כל $x$",
       "$x>5$",
-      "$x\\neq 0$",
-      "$x\\neq 5$"
+      "$x\\neq 0$"
     ],
-    "correct_index": 3,
-    "explanation": "המכנה לא יכול להתאפס: $x-5\\neq 0$, כלומר $x\\neq 5$."
+    "correct_index": 0,
+    "explanation": "אסור שהמכנה יתאפס: $x-5\\neq0$, כלומר $x\\neq5$."
   },
   {
     "id": "q-q-g7-functions-intro-6",
     "topic_id": "g7-functions-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(5)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(5)$?",
     "options": [
-      "$7$",
       "$11$",
-      "$6$",
-      "$4$"
+      "$10$",
+      "$3$",
+      "$13$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=5$: $f(5)=2\\times 5+1=11$."
   },
   {
@@ -1311,14 +1311,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(3)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(3)$?",
     "options": [
-      "$2$",
-      "$4$",
       "$9$",
-      "$5$"
+      "$6$",
+      "$5$",
+      "$10$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים $x=3$: $f(3)=3^{2}=9$."
   },
   {
@@ -1326,14 +1326,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(5)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(5)$?",
     "options": [
-      "$20$",
-      "$18$",
-      "$21$",
-      "$25$"
+      "$25$",
+      "$10$",
+      "$7$",
+      "$26$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=5$: $f(5)=5^{2}=25$."
   },
   {
@@ -1341,12 +1341,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(4)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(4)$?",
     "options": [
       "$9$",
-      "$4$",
-      "$2$",
-      "$5$"
+      "$8$",
+      "$3$",
+      "$11$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=4$: $f(4)=2\\times 4+1=9$."
@@ -1356,29 +1356,29 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "תחום הגדרה $f(x)=1/(x-4)$ ללא:",
+    "question_text": "מהו תחום ההגדרה של הפונקציה $f(x)=\\frac{1}{x-4}$?",
     "options": [
-      "$x>4$",
       "$x\\neq 4$",
-      "הכל",
+      "כל $x$",
+      "$x>4$",
       "$x\\neq 0$"
     ],
-    "correct_index": 1,
-    "explanation": "המכנה לא יכול להתאפס: $x-4\\neq 0$, כלומר $x\\neq 4$."
+    "correct_index": 0,
+    "explanation": "אסור שהמכנה יתאפס: $x-4\\neq0$, כלומר $x\\neq4$."
   },
   {
     "id": "q-q-g7-functions-intro-11",
     "topic_id": "g7-functions-intro",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(2)$?",
     "options": [
-      "$-1$",
-      "$-3$",
-      "$0$",
-      "$4$"
+      "$4$",
+      "$5$",
+      "$3$",
+      "$6$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=2^{2}=4$."
   },
   {
@@ -1386,7 +1386,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$(f\\circ g)(x)=f(g(x))$. אם $g(x)=x+1$, $f(x)=2x$ אז $(f\\circ g)(3)$=",
+    "question_text": "נתון $g(x)=x+1$ ו-$f(x)=2x$. מהו $f(g(3))$?",
     "options": [
       "$6$",
       "$7$",
@@ -1401,29 +1401,29 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "תחום הגדרה $f(x)=1/(x-3)$ ללא:",
+    "question_text": "מהו תחום ההגדרה של הפונקציה $f(x)=\\frac{1}{x-3}$?",
     "options": [
-      "$x>3$",
-      "$x\\neq 0$",
       "$x\\neq 3$",
-      "הכל"
+      "כל $x$",
+      "$x>3$",
+      "$x\\neq 0$"
     ],
-    "correct_index": 2,
-    "explanation": "המכנה לא יכול להתאפס: $x-3\\neq 0$, כלומר $x\\neq 3$."
+    "correct_index": 0,
+    "explanation": "אסור שהמכנה יתאפס: $x-3\\neq0$, כלומר $x\\neq3$."
   },
   {
     "id": "q-q-g7-functions-intro-14",
     "topic_id": "g7-functions-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=3^x$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=3^x$. מהו $f(2)$?",
     "options": [
-      "$2$",
-      "$4$",
+      "$9$",
+      "$6$",
       "$5$",
-      "$9$"
+      "$8$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=3^{2}=9$."
   },
   {
@@ -1431,14 +1431,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2^x$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2^x$. מהו $f(2)$?",
     "options": [
-      "$0$",
       "$4$",
-      "$-3$",
-      "$-1$"
+      "$6$",
+      "$5$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=2^{2}=4$."
   },
   {
@@ -1446,12 +1446,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=4^x$. $f(2)$?",
+    "question_text": "נתונה הפונקציה $f(x)=4^x$. מהו $f(2)$?",
     "options": [
       "$16$",
-      "$12$",
-      "$11$",
-      "$9$"
+      "$8$",
+      "$6$",
+      "$18$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=2$: $f(2)=4^{2}=16$."
@@ -1461,12 +1461,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$f(x)=2x+1$. $f(1)$?",
+    "question_text": "נתונה הפונקציה $f(x)=2x+1$. מהו $f(1)$?",
     "options": [
       "$3$",
-      "$-1$",
-      "$-2$",
-      "$-4$"
+      "$2$",
+      "$5$",
+      "$4$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=1$: $f(1)=2\\times 1+1=3$."
@@ -1476,12 +1476,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$f(x)=x^2$. $f(1)$?",
+    "question_text": "נתונה הפונקציה $f(x)=x^2$. מהו $f(1)$?",
     "options": [
       "$1$",
-      "$-3$",
-      "$-6$",
-      "$-4$"
+      "$2$",
+      "$3$",
+      "$0$"
     ],
     "correct_index": 0,
     "explanation": "מציבים $x=1$: $f(1)=1^{2}=1$."
@@ -1491,29 +1491,29 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-functions-intro",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "תחום הגדרה $f(x)=1/(x-2)$ ללא:",
+    "question_text": "מהו תחום ההגדרה של הפונקציה $f(x)=\\frac{1}{x-2}$?",
     "options": [
-      "$x\\neq 0$",
       "$x\\neq 2$",
-      "הכל",
-      "$x>2$"
+      "כל $x$",
+      "$x>2$",
+      "$x\\neq 0$"
     ],
-    "correct_index": 1,
-    "explanation": "המכנה לא יכול להתאפס: $x-2\\neq 0$, כלומר $x\\neq 2$."
+    "correct_index": 0,
+    "explanation": "אסור שהמכנה יתאפס: $x-2\\neq0$, כלומר $x\\neq2$."
   },
   {
     "id": "q-g7-coord-1",
     "topic_id": "g7-coordinates",
     "difficulty": 1,
-    "question_text": "באיזה רבע נמצאת הנקודה $(3,-2)$?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(3,-2)$?",
     "options": [
-      "רבע 4",
-      "רבע 1",
-      "רבע 2",
-      "רבע 3"
+      "רביע IV",
+      "רביע I",
+      "רביע II",
+      "רביע III"
     ],
     "correct_index": 0,
-    "explanation": "$x>0$, $y<0$ — רבע רביעי.",
+    "explanation": "$x>0$, $y<0$ — רביע רביעי.",
     "type": "mcq"
   },
   {
@@ -1521,172 +1521,172 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(-1,-4) ברביע:",
+    "question_text": "באיזה רביע נמצאת הנקודה $(-1,-4)$?",
     "options": [
       "III",
+      "I",
       "II",
-      "IV",
-      "I"
+      "IV"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא III."
+    "explanation": "$x<0$ ו-$y<0$ — רביע III."
   },
   {
     "id": "q-q-g7-coordinates-2",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(-1,-3) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(-1,-3)$?",
     "options": [
-      "II",
-      "IV",
+      "III",
       "I",
-      "III"
+      "II",
+      "IV"
     ],
-    "correct_index": 3,
-    "explanation": "סימני הקואורדינטות $(-,-)$ קובעים את הרביע: זהו רביע III."
+    "correct_index": 0,
+    "explanation": "$x<0$ ו-$y<0$ — רביע III."
   },
   {
     "id": "q-q-g7-coordinates-3",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(1,-2) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(1,-2)$?",
     "options": [
+      "IV",
       "I",
-      "III",
       "II",
-      "IV"
+      "III"
     ],
-    "correct_index": 3,
-    "explanation": "סימני הקואורדינטות $(+,-)$ קובעים את הרביע: זהו רביע IV."
+    "correct_index": 0,
+    "explanation": "$x>0$ ו-$y<0$ — רביע IV."
   },
   {
     "id": "q-q-g7-coordinates-4",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(5,1) ברביע:",
+    "question_text": "באיזה רביע נמצאת הנקודה $(5,1)$?",
     "options": [
+      "I",
       "II",
       "III",
-      "I",
       "IV"
     ],
-    "correct_index": 2,
-    "explanation": "התשובה הנכונה היא I."
+    "correct_index": 0,
+    "explanation": "$x>0$ ו-$y>0$ — רביע I."
   },
   {
     "id": "q-q-g7-coordinates-5",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(2,3) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(2,3)$?",
     "options": [
-      "IV",
       "I",
       "II",
-      "III"
+      "III",
+      "IV"
     ],
-    "correct_index": 1,
-    "explanation": "סימני הקואורדינטות $(+,+)$ קובעים את הרביע: זהו רביע I."
+    "correct_index": 0,
+    "explanation": "$x>0$ ו-$y>0$ — רביע I."
   },
   {
     "id": "q-q-g7-coordinates-6",
     "topic_id": "g7-coordinates",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו המרחק בין הנקודות (1,1) ו-(1,5)?",
+    "question_text": "מהו המרחק בין הנקודות $(1,1)$ ו-$(1,5)$?",
     "options": [
-      "$0$",
       "$4$",
       "$5$",
-      "$1$"
+      "$8$",
+      "$0$"
     ],
-    "correct_index": 1,
-    "explanation": "המרחק בין שתי הנקודות: $\\sqrt{(1-1)^2+(5-1)^2}=4$."
+    "correct_index": 0,
+    "explanation": "לשתי הנקודות אותו שיעור $x$, אז המרחק הוא ההפרש בשיעור השני: $5-1=4$."
   },
   {
     "id": "q-q-g7-coordinates-7",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(3,-2) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(3,-2)$?",
     "options": [
       "IV",
       "I",
-      "III",
-      "II"
+      "II",
+      "III"
     ],
     "correct_index": 0,
-    "explanation": "סימני הקואורדינטות $(+,-)$ קובעים את הרביע: זהו רביע IV."
+    "explanation": "$x>0$ ו-$y<0$ — רביע IV."
   },
   {
     "id": "q-q-g7-coordinates-8",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(3,-3) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(3,-3)$?",
     "options": [
+      "IV",
       "I",
-      "III",
       "II",
-      "IV"
+      "III"
     ],
-    "correct_index": 3,
-    "explanation": "סימני הקואורדינטות $(+,-)$ קובעים את הרביע: זהו רביע IV."
+    "correct_index": 0,
+    "explanation": "$x>0$ ו-$y<0$ — רביע IV."
   },
   {
     "id": "q-q-g7-coordinates-9",
     "topic_id": "g7-coordinates",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "אמצע הקטע בין (2,2) ו-(6,6):",
+    "question_text": "מהי נקודת האמצע של הקטע בין $(2,2)$ ל-$(6,6)$?",
     "options": [
+      "$(4,4)$",
       "$(2,6)$",
       "$(8,8)$",
-      "$(4,4)$",
-      "$(0,0)$"
+      "$(3,3)$"
     ],
-    "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $(4,4)$."
+    "correct_index": 0,
+    "explanation": "אמצע — ממוצע השיעורים: $\\left(\\frac{2+6}{2},\\frac{2+6}{2}\\right)=(4,4)$."
   },
   {
     "id": "q-q-g7-coordinates-10",
     "topic_id": "g7-coordinates",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "נקודה (3,-2) ברביע:",
+    "question_text": "באיזה רביע נמצאת הנקודה $(3,-2)$?",
     "options": [
       "IV",
       "I",
-      "III",
-      "II"
+      "II",
+      "III"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא IV."
+    "explanation": "$x>0$ ו-$y<0$ — רביע IV."
   },
   {
     "id": "q-q-g7-coordinates-11",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(-2,2) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(-2,2)$?",
     "options": [
-      "III",
-      "IV",
       "II",
-      "I"
+      "I",
+      "III",
+      "IV"
     ],
-    "correct_index": 2,
-    "explanation": "סימני הקואורדינטות $(-,+)$ קובעים את הרביע: זהו רביע II."
+    "correct_index": 0,
+    "explanation": "$x<0$ ו-$y>0$ — רביע II."
   },
   {
     "id": "q-q-g7-coordinates-12",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(-1,-1) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(-1,-1)$?",
     "options": [
       "III",
       "I",
@@ -1694,112 +1694,112 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "IV"
     ],
     "correct_index": 0,
-    "explanation": "סימני הקואורדינטות $(-,-)$ קובעים את הרביע: זהו רביע III."
+    "explanation": "$x<0$ ו-$y<0$ — רביע III."
   },
   {
     "id": "q-q-g7-coordinates-13",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(2,1) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(2,1)$?",
     "options": [
-      "III",
       "I",
       "II",
+      "III",
       "IV"
     ],
-    "correct_index": 1,
-    "explanation": "סימני הקואורדינטות $(+,+)$ קובעים את הרביע: זהו רביע I."
+    "correct_index": 0,
+    "explanation": "$x>0$ ו-$y>0$ — רביע I."
   },
   {
     "id": "q-q-g7-coordinates-14",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(-3,2) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(-3,2)$?",
     "options": [
       "II",
-      "IV",
       "I",
-      "III"
+      "III",
+      "IV"
     ],
     "correct_index": 0,
-    "explanation": "סימני הקואורדינטות $(-,+)$ קובעים את הרביע: זהו רביע II."
+    "explanation": "$x<0$ ו-$y>0$ — רביע II."
   },
   {
     "id": "q-q-g7-coordinates-15",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(3,1) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(3,1)$?",
     "options": [
       "I",
+      "II",
       "III",
-      "IV",
-      "II"
+      "IV"
     ],
     "correct_index": 0,
-    "explanation": "סימני הקואורדינטות $(+,+)$ קובעים את הרביע: זהו רביע I."
+    "explanation": "$x>0$ ו-$y>0$ — רביע I."
   },
   {
     "id": "q-q-g7-coordinates-16",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(1,-3) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(1,-3)$?",
     "options": [
       "IV",
+      "I",
       "II",
-      "III",
-      "I"
+      "III"
     ],
     "correct_index": 0,
-    "explanation": "סימני הקואורדינטות $(+,-)$ קובעים את הרביע: זהו רביע IV."
+    "explanation": "$x>0$ ו-$y<0$ — רביע IV."
   },
   {
     "id": "q-q-g7-coordinates-17",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(2,-1) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(2,-1)$?",
     "options": [
       "IV",
-      "III",
+      "I",
       "II",
-      "I"
+      "III"
     ],
     "correct_index": 0,
-    "explanation": "סימני הקואורדינטות $(+,-)$ קובעים את הרביע: זהו רביע IV."
+    "explanation": "$x>0$ ו-$y<0$ — רביע IV."
   },
   {
     "id": "q-q-g7-coordinates-18",
     "topic_id": "g7-coordinates",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהו המרחק בין הנקודות (2,4) ו-(6,4)?",
+    "question_text": "מהו המרחק בין הנקודות $(2,4)$ ו-$(6,4)$?",
     "options": [
-      "$0$",
+      "$4$",
+      "$5$",
       "$8$",
-      "$2$",
-      "$4$"
+      "$0$"
     ],
-    "correct_index": 3,
-    "explanation": "המרחק בין שתי הנקודות: $\\sqrt{(6-2)^2+(4-4)^2}=4$."
+    "correct_index": 0,
+    "explanation": "לשתי הנקודות אותו שיעור $y$, אז המרחק הוא ההפרש בשיעור השני: $6-2=4$."
   },
   {
     "id": "q-q-g7-coordinates-19",
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "(3,3) רביע?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(3,3)$?",
     "options": [
+      "I",
       "II",
-      "IV",
       "III",
-      "I"
+      "IV"
     ],
-    "correct_index": 3,
-    "explanation": "סימני הקואורדינטות $(+,+)$ קובעים את הרביע: זהו רביע I."
+    "correct_index": 0,
+    "explanation": "$x>0$ ו-$y>0$ — רביע I."
   },
   {
     "id": "q-g7-ang-1",
@@ -1821,284 +1821,284 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות מתחלפות על ישרים מקבילים:",
+    "question_text": "מה נכון לגבי זוויות מתחלפות בין שני ישרים מקבילים?",
     "options": [
-      "שווות",
-      "90",
-      "משלימות",
-      "180"
+      "הן שוות",
+      "סכומן $180^\\circ$",
+      "כל אחת $90^\\circ$",
+      "אין קשר ביניהן"
     ],
     "correct_index": 0,
-    "explanation": "כאשר חותך חוצה שני ישרים מקבילים, זוויות מתחלפות (הנמצאות משני צדי החותך, בין שני הישרים) שוות זו לזו."
+    "explanation": "כשישר חותך שני ישרים מקבילים, הזוויות המתחלפות (משני צדי החותך, בין המקבילים) — בצורת Z. זוויות מתחלפות בין מקבילים **שוות**."
   },
   {
     "id": "q-q-g7-angles-triangles-2",
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 30,70,?",
+    "question_text": "במשולש יש זוויות של $30^\\circ$ ו-$70^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$90^\\circ$",
-      "$100^\\circ$",
-      "$30^\\circ$",
-      "$80^\\circ$"
+      "$80^\\circ$",
+      "$150^\\circ$",
+      "$110^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-30-70=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-30-70=80^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-3",
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 25,65,?",
+    "question_text": "במשולש יש זוויות של $25^\\circ$ ו-$65^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
-      "$65^\\circ$",
       "$155^\\circ$",
-      "$25^\\circ$"
+      "$115^\\circ$",
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-25-65=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-25-65=90^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-4",
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 50,50,?",
+    "question_text": "במשולש יש זוויות של $50^\\circ$ ו-$50^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$50^\\circ$",
       "$80^\\circ$",
+      "$130^\\circ$",
       "$90^\\circ$",
       "$100^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-50-50=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-50-50=80^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-5",
     "topic_id": "g7-angles-triangles",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית ישרה:",
+    "question_text": "כמה מעלות יש בזווית ישרה?",
     "options": [
-      "$45^\\circ$",
       "$90^\\circ$",
+      "$45^\\circ$",
       "$180^\\circ$",
       "$60^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "זווית ישרה (זווית שיוצרת \"פינה\" מושלמת, כמו בפינת ריבוע) שווה $90^\\circ$."
+    "correct_index": 0,
+    "explanation": "זווית ישרה — \"פינה\" מושלמת, כמו בריבוע. היא שווה $90^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-6",
     "topic_id": "g7-angles-triangles",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית קהה:",
+    "question_text": "מהי זווית קהה?",
     "options": [
-      "$=180$",
-      "$=90$",
-      "$>90^\\circ$",
-      "$<90$"
+      "זווית בין $90^\\circ$ ל-$180^\\circ$",
+      "זווית של $180^\\circ$ בדיוק",
+      "זווית של $90^\\circ$ בדיוק",
+      "זווית קטנה מ-$90^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "זווית קהה היא זווית הגדולה מ-$90^\\circ$ (וקטנה מ-$180^\\circ$): $>90^\\circ$."
+    "correct_index": 0,
+    "explanation": "זווית קהה גדולה מ-$90^\\circ$. אבל קטנה מ-$180^\\circ$ (זו כבר זווית שטוחה)."
   },
   {
     "id": "q-q-g7-angles-triangles-7",
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 15,75,?",
+    "question_text": "במשולש יש זוויות של $15^\\circ$ ו-$75^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$15^\\circ$",
       "$90^\\circ$",
-      "$75^\\circ$",
-      "$165^\\circ$"
+      "$165^\\circ$",
+      "$105^\\circ$",
+      "$100^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-15-75=90^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-15-75=90^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-8",
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "במשולש: 50, 60, ?:",
+    "question_text": "במשולש יש זוויות של $50^\\circ$ ו-$60^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$80^\\circ$",
       "$70^\\circ$",
-      "$40^\\circ$",
+      "$130^\\circ$",
+      "$120^\\circ$",
       "$90^\\circ$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-50-60=70^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-50-60=70^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-9",
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 45,45,?",
+    "question_text": "במשולש יש זוויות של $45^\\circ$ ו-$45^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
-      "$45^\\circ$",
       "$135^\\circ$",
-      "$180^\\circ$"
+      "$100^\\circ$",
+      "$110^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-45-45=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-45-45=90^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-10",
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "סכום זוויות סביב נקודה:",
+    "question_text": "מהו סכום כל הזוויות סביב נקודה?",
     "options": [
-      "$90$",
-      "$270$",
       "$360^\\circ$",
-      "$180$"
+      "$180^\\circ$",
+      "$270^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "סכום כל הזוויות מסביב לנקודה אחת הוא תמיד $360^\\circ$ (סיבוב שלם)."
+    "correct_index": 0,
+    "explanation": "סביב נקודה — סיבוב שלם. סיבוב שלם $=360^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-11",
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 40,60,?",
+    "question_text": "במשולש יש זוויות של $40^\\circ$ ו-$60^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$40^\\circ$",
-      "$90^\\circ$",
-      "$100^\\circ$",
-      "$80^\\circ$"
+      "$80^\\circ$",
+      "$140^\\circ$",
+      "$120^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-40-60=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-40-60=80^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-12",
     "topic_id": "g7-angles-triangles",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "במשולש: 90, 30, ?:",
+    "question_text": "במשולש יש זוויות של $90^\\circ$ ו-$30^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$45$",
-      "$120$",
-      "$70$",
-      "$60^\\circ$"
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$150^\\circ$",
+      "$120^\\circ$"
     ],
-    "correct_index": 3,
-    "explanation": "סכום זוויות משולש הוא $180^\\circ$: $180-90-30=60^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-90-30=60^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-13",
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 20,80,?",
+    "question_text": "במשולש יש זוויות של $20^\\circ$ ו-$80^\\circ$. מהי הזווית השלישית?",
     "options": [
-      "$20^\\circ$",
-      "$90^\\circ$",
       "$80^\\circ$",
-      "$100^\\circ$"
+      "$160^\\circ$",
+      "$100^\\circ$",
+      "$90^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-20-80=80^\\circ$."
+    "correct_index": 0,
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-20-80=80^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-14",
     "topic_id": "g7-angles-triangles",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "סכום זוויות משולש:",
+    "question_text": "מהו סכום הזוויות במשולש?",
     "options": [
-      "$90^\\circ$",
-      "$100^\\circ$",
       "$180^\\circ$",
-      "$360^\\circ$"
+      "$90^\\circ$",
+      "$360^\\circ$",
+      "$100^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
+    "correct_index": 0,
+    "explanation": "שלוש הזוויות של כל משולש יחד יוצרות קו ישר. לכן סכומן $180^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-15",
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות סמוכות על ישר:",
+    "question_text": "מהו סכום שתי זוויות סמוכות (שיוצרות יחד קו ישר)?",
     "options": [
+      "$180^\\circ$",
       "$90^\\circ$",
       "$360^\\circ$",
-      "$180^\\circ$",
-      "$0$"
+      "$0^\\circ$"
     ],
-    "correct_index": 2,
-    "explanation": "שתי זוויות סמוכות שיוצרות יחד קו ישר משלימות ל-$180^\\circ$."
+    "correct_index": 0,
+    "explanation": "זוויות סמוכות יוצרות יחד זווית שטוחה (קו ישר). לכן סכומן $180^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-16",
     "topic_id": "g7-angles-triangles",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "במשולש שווה-צלעות כל זווית:",
+    "question_text": "כמה מעלות יש בכל זווית של משולש שווה-צלעות?",
     "options": [
       "$60^\\circ$",
-      "$120$",
-      "$45$",
-      "$90$"
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$120^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות זו לזו, וסכומן $180^\\circ$, לכן כל זווית היא $180\\div 3=60^\\circ$."
+    "explanation": "במשולש שווה-צלעות שלוש הזוויות שוות. $180:3=60^\\circ$"
   },
   {
     "id": "q-q-g7-angles-triangles-17",
     "topic_id": "g7-angles-triangles",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "זוויות 35,55,?",
+    "question_text": "במשולש יש זוויות של $35^\\circ$ ו-$55^\\circ$. מהי הזווית השלישית?",
     "options": [
       "$90^\\circ$",
-      "$35^\\circ$",
-      "$55^\\circ$",
-      "$145^\\circ$"
+      "$145^\\circ$",
+      "$125^\\circ$",
+      "$100^\\circ$"
     ],
     "correct_index": 0,
-    "explanation": "סכום זוויות המשולש הוא $180^\\circ$, לכן הזווית השלישית היא $180-35-55=90^\\circ$."
+    "explanation": "סכום הזוויות במשולש $180^\\circ$: $180-35-55=90^\\circ$."
   },
   {
     "id": "q-q-g7-angles-triangles-18",
     "topic_id": "g7-angles-triangles",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "זווית חדה:",
+    "question_text": "מהי זווית חדה?",
     "options": [
-      "=90",
-      "$>90$",
-      "=180",
-      "$<90^\\circ$"
+      "זווית קטנה מ-$90^\\circ$",
+      "זווית של $90^\\circ$ בדיוק",
+      "זווית בין $90^\\circ$ ל-$180^\\circ$",
+      "זווית של $180^\\circ$ בדיוק"
     ],
-    "correct_index": 3,
-    "explanation": "זווית חדה היא זווית הקטנה מ-$90^\\circ$: $<90^\\circ$."
+    "correct_index": 0,
+    "explanation": "זווית חדה קטנה מ-$90^\\circ$ (וגדולה מ-$0^\\circ$)."
   },
   {
     "id": "q-q-g7-angles-triangles-551",
     "topic_id": "g7-equations",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $7x+7=56$. $x$?",
+    "question_text": "פתרו את המשוואה $7x+7=56$. מהו $x$?",
     "options": [
-      "$2$",
-      "$3$",
       "$7$",
-      "$0$"
+      "$49$",
+      "$9$",
+      "$8$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מעבירים את $7$ אגף: $7x=56-7=49$. מחלקים ב-$7$: $x=7$."
   },
   {
@@ -2121,12 +2121,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-solids-cube-box",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $2\\times 6\\times 6$:",
+    "question_text": "מה הנפח של תיבה שממדיה $2$, $6$ ו-$6$?",
     "options": [
       "$72$",
-      "$65$",
-      "$67$",
-      "$68$"
+      "$14$",
+      "$120$",
+      "$12$"
     ],
     "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 6\\times 6=72$."
@@ -2136,14 +2136,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-area-perimeter",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $7$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $7$?",
     "options": [
-      "$45$",
       "$49$",
-      "$42$",
-      "$44$"
+      "$28$",
+      "$14$",
+      "$56$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $7^2=49$."
   },
   {
@@ -2151,14 +2151,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-solids-cube-box",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $8\\times 7\\times 3$:",
+    "question_text": "מה הנפח של תיבה שממדיה $8$, $7$ ו-$3$?",
     "options": [
-      "$164$",
       "$168$",
-      "$161$",
-      "$163$"
+      "$18$",
+      "$202$",
+      "$56$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $8\\times 7\\times 3=168$."
   },
   {
@@ -2166,14 +2166,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-area-perimeter",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $11$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $11$?",
     "options": [
-      "$39$",
       "$44$",
-      "$40$",
-      "$37$"
+      "$121$",
+      "$22$",
+      "$55$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 11=44$."
   },
   {
@@ -2181,14 +2181,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-area-perimeter",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $2$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $2$?",
     "options": [
-      "$-1$",
       "$4$",
-      "$0$",
-      "$-3$"
+      "$8$",
+      "$6$",
+      "$5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $2^2=4$."
   },
   {
@@ -2196,14 +2196,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-solids-cube-box",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $6\\times 9\\times 2$:",
+    "question_text": "מה הנפח של תיבה שממדיה $6$, $9$ ו-$2$?",
     "options": [
-      "$101$",
       "$108$",
-      "$103$",
-      "$104$"
+      "$17$",
+      "$168$",
+      "$54$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $6\\times 9\\times 2=108$."
   },
   {
@@ -2211,14 +2211,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-area-perimeter",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $5\\times 6$:",
+    "question_text": "מה השטח של מלבן שאורכו $5$ ורוחבו $6$?",
     "options": [
-      "$23$",
-      "$25$",
       "$30$",
-      "$26$"
+      "$22$",
+      "$11$",
+      "$35$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $5\\times 6=30$."
   },
   {
@@ -2226,12 +2226,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-area-perimeter",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $3\\times 3$:",
+    "question_text": "מה ההיקף של מלבן שאורכו $3$ ורוחבו $3$?",
     "options": [
       "$12$",
-      "$7$",
-      "$8$",
-      "$5$"
+      "$9$",
+      "$6$",
+      "$14$"
     ],
     "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(3+3)=12$."
@@ -2241,14 +2241,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-area-perimeter",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $3\\times 8$:",
+    "question_text": "מה ההיקף של מלבן שאורכו $3$ ורוחבו $8$?",
     "options": [
-      "$18$",
-      "$17$",
       "$22$",
-      "$15$"
+      "$24$",
+      "$11$",
+      "$23$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(3+8)=22$."
   },
   {
@@ -2256,14 +2256,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-area-perimeter",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $3$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $3$?",
     "options": [
-      "$7$",
       "$12$",
-      "$5$",
-      "$8$"
+      "$9$",
+      "$6$",
+      "$15$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 3=12$."
   },
   {
@@ -2271,14 +2271,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-area-perimeter",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $6\\times 6$:",
+    "question_text": "מה ההיקף של מלבן שאורכו $6$ ורוחבו $6$?",
     "options": [
-      "$19$",
       "$24$",
-      "$20$",
-      "$17$"
+      "$36$",
+      "$12$",
+      "$26$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(6+6)=24$."
   },
   {
@@ -2286,14 +2286,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-solids-cube-box",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $9\\times 9\\times 6$:",
+    "question_text": "מה הנפח של תיבה שממדיה $9$, $9$ ו-$6$?",
     "options": [
-      "$479$",
-      "$481$",
       "$486$",
-      "$482$"
+      "$24$",
+      "$378$",
+      "$81$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $9\\times 9\\times 6=486$."
   },
   {
@@ -2301,14 +2301,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-area-perimeter",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $7\\times 2$:",
+    "question_text": "מה ההיקף של מלבן שאורכו $7$ ורוחבו $2$?",
     "options": [
-      "$14$",
       "$18$",
-      "$13$",
-      "$11$"
+      "$14$",
+      "$9$",
+      "$20$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(7+2)=18$."
   },
   {
@@ -2316,14 +2316,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-solids-cube-box",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $9\\times 8\\times 2$:",
+    "question_text": "מה הנפח של תיבה שממדיה $9$, $8$ ו-$2$?",
     "options": [
-      "$140$",
       "$144$",
-      "$137$",
-      "$139$"
+      "$19$",
+      "$212$",
+      "$72$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $9\\times 8\\times 2=144$."
   },
   {
@@ -2331,14 +2331,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-area-perimeter",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $2\\times 6$:",
+    "question_text": "מה ההיקף של מלבן שאורכו $2$ ורוחבו $6$?",
     "options": [
+      "$16$",
       "$12$",
-      "$11$",
-      "$9$",
-      "$16$"
+      "$8$",
+      "$18$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(2+6)=16$."
   },
   {
@@ -2346,14 +2346,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-area-perimeter",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $10$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $10$?",
     "options": [
-      "$33$",
-      "$36$",
       "$40$",
-      "$35$"
+      "$100$",
+      "$20$",
+      "$50$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 10=40$."
   },
   {
@@ -2361,14 +2361,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-solids-cube-box",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $2\\times 7\\times 5$:",
+    "question_text": "מה הנפח של תיבה שממדיה $2$, $7$ ו-$5$?",
     "options": [
-      "$65$",
-      "$63$",
-      "$66$",
-      "$70$"
+      "$70$",
+      "$14$",
+      "$118$",
+      "$71$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 7\\times 5=70$."
   },
   {
@@ -2376,12 +2376,12 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-area-perimeter",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $10\\times 5$:",
+    "question_text": "מה השטח של מלבן שאורכו $10$ ורוחבו $5$?",
     "options": [
       "$50$",
-      "$45$",
-      "$43$",
-      "$46$"
+      "$30$",
+      "$15$",
+      "$60$"
     ],
     "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $10\\times 5=50$."
@@ -2391,14 +2391,14 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-solids-cube-box",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $11\\times 6\\times 6$:",
+    "question_text": "מה הנפח של תיבה שממדיה $11$, $6$ ו-$6$?",
     "options": [
-      "$389$",
-      "$391$",
       "$396$",
-      "$392$"
+      "$23$",
+      "$336$",
+      "$66$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $11\\times 6\\times 6=396$."
   },
   {
@@ -8474,7 +8474,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "$27$ ס\"מ"
     ],
     "correct_index": 0,
-    "explanation": "מחפשים מספר שכפול פעמיים בעצמו נותן $27$: $3\\times 3\\times 3=27$, ולכן המקצוע הוא $3$."
+    "explanation": "מחפשים מספר שאם כופלים אותו בעצמו שלוש פעמים מקבלים $27$: $3\\times3\\times3=27$, ולכן המקצוע $3$ ס\"מ."
   },
   {
     "id": "q-g7-square-roots-12",
@@ -11406,7 +11406,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-angle-relationships",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "באותם שני ישרים, מה גודל הזווית הצמודה לזווית ה-$50°$?",
+    "question_text": "שני ישרים נחתכים, ואחת הזוויות שנוצרו היא $50°$. מה גודל הזווית הצמודה לה?",
     "options": [
       "$130°$",
       "$50°$",
@@ -13761,15 +13761,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-coordinates",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "באיזה רבע נמצאת הנקודה שהיא שיקוף של $(3,-4)$ ביחס לציר $y$?",
+    "question_text": "באיזה רביע נמצאת הנקודה שהיא שיקוף של $(3,-4)$ ביחס לציר $y$?",
     "options": [
-      "רבע 2",
-      "רבע 1",
-      "רבע 3",
-      "רבע 4"
+      "רביע III",
+      "רביע II",
+      "רביע I",
+      "רביע IV"
     ],
-    "correct_index": 2,
-    "explanation": "שיקוף ביחס לציר $y$ הופך את סימן $x$: $(3,-4)\\to(-3,-4)$. נקודה עם $x<0,y<0$ נמצאת ברבע השלישי."
+    "correct_index": 0,
+    "explanation": "שיקוף ביחס לציר $y$ הופך את סימן $x$: $(3,-4)\\to(-3,-4)$. נקודה עם $x<0,y<0$ נמצאת ברביע השלישי."
   },
   {
     "id": "q-g9x-equations-gapfill-h1",
@@ -15141,15 +15141,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-graphs-quadrant1",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "באיזה רבע נמצאת הנקודה $(3,5)$?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(3,5)$?",
     "options": [
-      "רבע I",
-      "רבע II",
-      "רבע III",
-      "רבע IV"
+      "רביע I",
+      "רביע II",
+      "רביע III",
+      "רביע IV"
     ],
     "correct_index": 0,
-    "explanation": "שני הקואורדינטות חיוביות, לכן הנקודה ברבע הראשון."
+    "explanation": "שני השיעורים חיוביים, לכן הנקודה ברביע הראשון."
   },
   {
     "id": "q-g7-graphs-quadrant1-add2",
@@ -15325,7 +15325,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "options": [
       "אורך הקטע הניצב מהנקודה לישר",
       "אורך כל קטע מהנקודה לישר",
-      "המרחק לנקודה הקרובה ביותר על הישר בכל כיוון",
+      "אורך הקטע מהנקודה לראשית הצירים",
       "תמיד אפס"
     ],
     "correct_index": 0,
@@ -15381,15 +15381,15 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-coordinates",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "באיזה רבע נמצאת הנקודה $(-3,-5)$?",
+    "question_text": "באיזה רביע נמצאת הנקודה $(-3,-5)$?",
     "options": [
-      "רבע III",
-      "רבע I",
-      "רבע II",
-      "רבע IV"
+      "רביע III",
+      "רביע I",
+      "רביע II",
+      "רביע IV"
     ],
     "correct_index": 0,
-    "explanation": "שני הקואורדינטות שליליות, לכן הנקודה ברבע השלישי."
+    "explanation": "שני הקואורדינטות שליליות, לכן הנקודה ברביע השלישי."
   },
   {
     "id": "q-g7-coordinates-add3",
@@ -15426,7 +15426,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "topic_id": "g7-coordinates",
     "difficulty": 5,
     "type": "mcq",
-    "question_text": "נקודה $(x,y)$ נמצאת ברבע השני. מה ניתן לומר על $x$ ו-$y$?",
+    "question_text": "נקודה $(x,y)$ נמצאת ברביע השני. מה ניתן לומר על $x$ ו-$y$?",
     "options": [
       "$x$ שלילי ו-$y$ חיובי",
       "$x$ חיובי ו-$y$ שלילי",
@@ -15434,7 +15434,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
       "שניהם חיוביים"
     ],
     "correct_index": 0,
-    "explanation": "ברבע השני $x<0$ וגם $y>0$."
+    "explanation": "ברביע השני $x<0$ וגם $y>0$."
   },
   {
     "id": "q-g7-angles-basics-add1",
