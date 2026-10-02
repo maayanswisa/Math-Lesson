@@ -8,7 +8,7 @@ import HintPanel from './HintPanel';
 import Scratchpad from './Scratchpad';
 import SciCalculator from './SciCalculator';
 import StudyMorePopup from './StudyMorePopup';
-import SolutionSteps, { StepList } from './SolutionSteps';
+import SolutionSteps, { SolutionToggle, StepList } from './SolutionSteps';
 import { solutionSteps } from '../../lib/solutionSteps';
 import { markSeen } from '../../lib/seenQuestions';
 import { useGame } from '../../context/GameContext';
@@ -606,7 +606,10 @@ export default function QuizCard({
                       {feedback?.xpGained ? ` | +${feedback.xpGained} XP` : ''}
                     </p>
                     {feedback?.isCorrect ? (
-                      <MathRenderer className="text-[var(--color-slate)]">{feedback?.explanation}</MathRenderer>
+                      <div className="space-y-3">
+                        <MathRenderer className="text-[var(--color-slate)]">{feedback?.explanation}</MathRenderer>
+                        <SolutionToggle key={feedback?.question?.id} question={feedback.question} />
+                      </div>
                     ) : (
                       <SolutionSteps key={feedback?.question?.id} question={feedback.question} selectedIndex={feedback.selectedIndex} />
                     )}
