@@ -1223,12 +1223,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $23$ כמה יחידות?",
     "options": [
-      "$-1$",
-      "$-2$",
       "$3$",
-      "$-4$"
+      "$2$",
+      "$4$",
+      "$23$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ספרת היחידות במספר $23$ היא $3$."
   },
   {
@@ -1238,12 +1238,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $24$ כמה יחידות?",
     "options": [
-      "$0$",
       "$4$",
-      "$-3$",
-      "$-1$"
+      "$2$",
+      "$5$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ספרת היחידות במספר $24$ היא $4$."
   },
   {
@@ -1253,12 +1253,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $15$ כמה יחידות?",
     "options": [
-      "$-2$",
       "$5$",
       "$1$",
-      "$0$"
+      "$6$",
+      "$4$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ספרת היחידות במספר $15$ היא $5$."
   },
   {
@@ -1268,12 +1268,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $27$ כמה יחידות?",
     "options": [
-      "$2$",
-      "$3$",
       "$7$",
-      "$0$"
+      "$2$",
+      "$8$",
+      "$6$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ספרת היחידות במספר $27$ היא $7$."
   },
   {
@@ -1283,12 +1283,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $75$ כמה יחידות?",
     "options": [
-      "$1$",
-      "$-2$",
-      "$0$",
-      "$5$"
+      "$5$",
+      "$7$",
+      "$6$",
+      "$4$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "ספרת היחידות במספר $75$ היא $5$."
   },
   {
@@ -1298,12 +1298,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $27$ או $30$?",
     "options": [
-      "$3$",
-      "שווים",
+      "$30$",
       "$27$",
-      "$30$"
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $30$ גדול מ-$27$."
   },
   {
@@ -1314,9 +1314,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "איזה גדול: $22$ או $28$?",
     "options": [
       "$28$",
-      "שווים",
       "$22$",
-      "$6$"
+      "שווים",
+      "אי אפשר לדעת"
     ],
     "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $28$ גדול מ-$22$."
@@ -1329,9 +1329,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "במספר $66$ כמה יחידות?",
     "options": [
       "$6$",
-      "$1$",
-      "$-1$",
-      "$2$"
+      "$7$",
+      "$5$",
+      "$66$"
     ],
     "correct_index": 0,
     "explanation": "ספרת היחידות במספר $66$ היא $6$."
@@ -1344,9 +1344,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "במספר $15$ כמה עשרות?",
     "options": [
       "$1$",
-      "$-4$",
-      "$-6$",
-      "$-3$"
+      "$5$",
+      "$2$",
+      "$0$"
     ],
     "correct_index": 0,
     "explanation": "ספרת העשרות במספר $15$ היא $1$."
@@ -1358,12 +1358,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $86$ כמה יחידות?",
     "options": [
-      "$-1$",
       "$6$",
-      "$1$",
-      "$2$"
+      "$8$",
+      "$7$",
+      "$5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ספרת היחידות במספר $86$ היא $6$."
   },
   {
@@ -1373,12 +1373,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $57$ כמה עשרות?",
     "options": [
-      "$1$",
-      "$-2$",
       "$5$",
-      "$0$"
+      "$7$",
+      "$6$",
+      "$4$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $57$ היא $5$."
   },
   {
@@ -1388,12 +1388,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $96$ כמה עשרות?",
     "options": [
-      "$4$",
-      "$2$",
       "$9$",
-      "$5$"
+      "$6$",
+      "$10$",
+      "$8$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $96$ היא $9$."
   },
   {
@@ -1403,12 +1403,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $23$ כמה עשרות?",
     "options": [
-      "$-3$",
       "$2$",
-      "$-5$",
-      "$-2$"
+      "$3$",
+      "$1$",
+      "$4$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $23$ היא $2$."
   },
   {
@@ -1418,12 +1418,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $15$ או $9$?",
     "options": [
+      "$15$",
       "$9$",
       "שווים",
-      "$6$",
-      "$15$"
+      "אי אפשר לדעת"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $15$ גדול מ-$9$."
   },
   {
@@ -1433,12 +1433,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $65$ כמה עשרות?",
     "options": [
-      "$2$",
       "$6$",
-      "$1$",
-      "$-1$"
+      "$5$",
+      "$7$",
+      "$8$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $65$ היא $6$."
   },
   {
@@ -1448,12 +1448,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $66$ או $69$?",
     "options": [
-      "$3$",
+      "$69$",
       "$66$",
       "שווים",
-      "$69$"
+      "אי אפשר לדעת"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $69$ גדול מ-$66$."
   },
   {
@@ -1463,12 +1463,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $22$ כמה עשרות?",
     "options": [
-      "$-5$",
-      "$-3$",
       "$2$",
-      "$-2$"
+      "$3$",
+      "$1$",
+      "$4$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $22$ היא $2$."
   },
   {
@@ -1478,12 +1478,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $55$ כמה עשרות?",
     "options": [
-      "$0$",
       "$5$",
-      "$-2$",
-      "$1$"
+      "$6$",
+      "$4$",
+      "$7$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $55$ היא $5$."
   },
   {
@@ -1493,12 +1493,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $49$ או $52$?",
     "options": [
-      "שווים",
+      "$52$",
       "$49$",
-      "$3$",
-      "$52$"
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $52$ גדול מ-$49$."
   },
   {
@@ -1551,12 +1551,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-add-sub-100",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $67$, נתנו $11$. כמה נשאר?",
+    "question_text": "לנועה יש $67$ מדבקות. היא נתנה לחברה $11$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
       "$56$",
-      "$51$",
-      "$49$",
-      "$52$"
+      "$78$",
+      "$57$",
+      "$55$"
     ],
     "correct_index": 0,
     "explanation": "מתחילים עם $67$ ומחסירים את מה שנתנו: $67-11=56$."
@@ -1611,14 +1611,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-add-sub-100",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $62$, נתנו $20$. כמה נשאר?",
+    "question_text": "לנועה יש $62$ מדבקות. היא נתנה לחברה $20$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$38$",
-      "$37$",
-      "$35$",
-      "$42$"
+      "$42$",
+      "$82$",
+      "$43$",
+      "$41$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מתחילים עם $62$ ומחסירים את מה שנתנו: $62-20=42$."
   },
   {
@@ -1641,12 +1641,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-add-sub-100",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $93$, נתנו $48$. כמה נשאר?",
+    "question_text": "לנועה יש $93$ מדבקות. היא נתנה לחברה $48$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
       "$45$",
-      "$38$",
-      "$40$",
-      "$41$"
+      "$141$",
+      "$46$",
+      "$44$"
     ],
     "correct_index": 0,
     "explanation": "מתחילים עם $93$ ומחסירים את מה שנתנו: $93-48=45$."
@@ -1656,14 +1656,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-add-sub-100",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $93$, נתנו $28$. כמה נשאר?",
+    "question_text": "לנועה יש $93$ מדבקות. היא נתנה לחברה $28$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$61$",
-      "$60$",
       "$65$",
-      "$58$"
+      "$121$",
+      "$66$",
+      "$64$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מתחילים עם $93$ ומחסירים את מה שנתנו: $93-28=65$."
   },
   {
@@ -1671,14 +1671,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-add-sub-100",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $35$, נתנו $24$. כמה נשאר?",
+    "question_text": "לנועה יש $35$ מדבקות. היא נתנה לחברה $24$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$6$",
-      "$4$",
-      "$7$",
-      "$11$"
+      "$11$",
+      "$59$",
+      "$12$",
+      "$10$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מתחילים עם $35$ ומחסירים את מה שנתנו: $35-24=11$."
   },
   {
@@ -1731,14 +1731,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-add-sub-100",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $99$, נתנו $31$. כמה נשאר?",
+    "question_text": "לנועה יש $99$ מדבקות. היא נתנה לחברה $31$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$63$",
-      "$64$",
-      "$61$",
-      "$68$"
+      "$68$",
+      "$130$",
+      "$69$",
+      "$67$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מתחילים עם $99$ ומחסירים את מה שנתנו: $99-31=68$."
   },
   {
@@ -1746,14 +1746,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-add-sub-100",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $31$, נתנו $24$. כמה נשאר?",
+    "question_text": "לנועה יש $31$ מדבקות. היא נתנה לחברה $24$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$3$",
-      "$0$",
       "$7$",
-      "$2$"
+      "$55$",
+      "$8$",
+      "$6$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מתחילים עם $31$ ומחסירים את מה שנתנו: $31-24=7$."
   },
   {
@@ -1761,14 +1761,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-add-sub-100",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $16$, נתנו $5$. כמה נשאר?",
+    "question_text": "לנועה יש $16$ מדבקות. היא נתנה לחברה $5$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$7$",
-      "$6$",
       "$11$",
-      "$4$"
+      "$21$",
+      "$12$",
+      "$10$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מתחילים עם $16$ ומחסירים את מה שנתנו: $16-5=11$."
   },
   {
@@ -1791,14 +1791,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-add-sub-100",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $61$, נתנו $19$. כמה נשאר?",
+    "question_text": "לנועה יש $61$ מדבקות. היא נתנה לחברה $19$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$37$",
-      "$35$",
-      "$38$",
-      "$42$"
+      "$42$",
+      "$80$",
+      "$43$",
+      "$41$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מתחילים עם $61$ ומחסירים את מה שנתנו: $61-19=42$."
   },
   {
@@ -1883,12 +1883,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $45\\div 9$?",
     "options": [
-      "$0$",
-      "$1$",
-      "$-2$",
-      "$5$"
+      "$5$",
+      "$6$",
+      "$4$",
+      "$9$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "החישוב: $45\\div 9=5$."
   },
   {
@@ -1898,12 +1898,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $25\\div 5$?",
     "options": [
-      "$1$",
-      "$-2$",
       "$5$",
-      "$0$"
+      "$6$",
+      "$4$",
+      "$7$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $25\\div 5=5$."
   },
   {
@@ -1958,12 +1958,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $72\\div 12$?",
     "options": [
-      "$-1$",
-      "$1$",
-      "$2$",
-      "$6$"
+      "$6$",
+      "$7$",
+      "$5$",
+      "$12$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "החישוב: $72\\div 12=6$."
   },
   {
@@ -2018,12 +2018,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $6\\div 2$?",
     "options": [
-      "$-1$",
       "$3$",
-      "$-2$",
-      "$-4$"
+      "$4$",
+      "$2$",
+      "$5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "החישוב: $6\\div 2=3$."
   },
   {
@@ -2093,12 +2093,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $15\\div 3$?",
     "options": [
-      "$-2$",
-      "$1$",
       "$5$",
-      "$0$"
+      "$6$",
+      "$4$",
+      "$3$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $15\\div 3=5$."
   },
   {
@@ -2121,14 +2121,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-fractions-half",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה שבר: 2/4?",
+    "question_text": "עוגה חולקה ל-$4$ חלקים שווים, ולקחנו שני חלקים. איזה שבר מתאר את מה שלקחנו?",
     "options": [
-      "$2$",
-      "$\\frac{1}{2}$",
       "$\\frac{2}{4}$",
-      "$\\frac{4}{2}$"
+      "$\\frac{4}{2}$",
+      "$2$",
+      "$\\frac{2}{6}$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "2 מתוך 4 נכתב כשבר $\\frac{2}{4}$."
   },
   {
@@ -2151,7 +2151,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-fractions-half",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה שבר: 1/2?",
+    "question_text": "עוגה חולקה ל-$2$ חלקים שווים, ולקחנו חלק אחד. איזה שבר מתאר את מה שלקחנו?",
     "options": [
       "$\\frac{2}{1}$",
       "$\\frac{1}{1}$",
@@ -2166,7 +2166,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-fractions-half",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה שבר: 3/4?",
+    "question_text": "עוגה חולקה ל-$4$ חלקים שווים, ולקחנו שלושה חלקים. איזה שבר מתאר את מה שלקחנו?",
     "options": [
       "$\\frac{3}{4}$",
       "$3$",
@@ -2181,7 +2181,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-fractions-half",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה שבר: 1/4?",
+    "question_text": "עוגה חולקה ל-$4$ חלקים שווים, ולקחנו חלק אחד. איזה שבר מתאר את מה שלקחנו?",
     "options": [
       "$\\frac{1}{1}$",
       "$\\frac{4}{1}$",
@@ -2211,7 +2211,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-shapes-measure",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "צורה שאינה מצולע:",
+    "question_text": "איזו מהצורות הבאות אינה מצולע?",
     "options": [
       "עיגול",
       "מלבן",
@@ -2226,7 +2226,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-shapes-measure",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "צורה עם 4 צלעות שווות:",
+    "question_text": "לצורה יש $4$ צלעות שוות ו-$4$ זוויות ישרות. איזו צורה זו?",
     "options": [
       "מחומש",
       "משולש",
@@ -2301,14 +2301,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-shapes-measure",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "במלבן, צלעות נגדיות:",
+    "question_text": "במלבן, הצלעות שנמצאות זו מול זו:",
     "options": [
-      "תנוכות",
-      "משתנות",
-      "שווות ומקבילות",
-      "לא קיימות"
+      "שוות ומקבילות",
+      "תמיד באורך שונה",
+      "נפגשות בקודקוד",
+      "עקומות"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא שווות ומקבילות."
   },
   {
@@ -2316,7 +2316,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-shapes-measure",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מצולע עם 5 צלעות:",
+    "question_text": "איך קוראים למצולע עם $5$ צלעות?",
     "options": [
       "משושה",
       "מחומש",
@@ -2331,12 +2331,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-shapes-measure",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה מצולע?",
+    "question_text": "איזו מהצורות הבאות היא מצולע?",
     "options": [
       "ריבוע",
-      "כדור",
-      "קו",
-      "עיגול"
+      "עיגול",
+      "חצי עיגול",
+      "קו עקום"
     ],
     "correct_index": 0,
     "explanation": "התשובה הנכונה היא ריבוע."
@@ -2361,7 +2361,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-shapes-measure",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ריבוע הוא סוג של:",
+    "question_text": "ריבוע הוא גם סוג של:",
     "options": [
       "עיגול",
       "מחומש",
@@ -2376,14 +2376,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-shapes-measure",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "סכום זוויות במשולש:",
+    "question_text": "כמה זוויות יש למשולש?",
     "options": [
-      "$100^\\circ$",
-      "$360^\\circ$",
-      "$180^\\circ$",
-      "$90^\\circ$"
+      "$3$",
+      "$4$",
+      "$2$",
+      "$6$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "סכום שלוש הזוויות בכל משולש הוא תמיד $180^\\circ$."
   },
   {
@@ -2391,7 +2391,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-shapes-measure",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משולש עם 3 צלעות שווות:",
+    "question_text": "איך קוראים למשולש שכל $3$ הצלעות שלו שוות?",
     "options": [
       "ישר-זווית",
       "שווה-צלעות",
@@ -2421,14 +2421,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-shapes-measure",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "למלבן יש:",
+    "question_text": "מה נכון לגבי מלבן?",
     "options": [
-      "3 צלעות",
-      "0 קודקודים",
-      "זוגות צלעות שווות",
-      "עיגול"
+      "יש לו שני זוגות של צלעות שוות",
+      "אין לו קודקודים",
+      "יש לו $3$ צלעות",
+      "הצלעות שלו עקומות"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא זוגות צלעות שווות."
   },
   {
@@ -2451,7 +2451,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-shapes-measure",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "לצורה עם 3 צלעות:",
+    "question_text": "איך קוראים לצורה עם $3$ צלעות?",
     "options": [
       "משולש",
       "ריבוע",
@@ -2481,14 +2481,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g2-shapes-measure",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "צורה עגולה ללא קודקודים:",
+    "question_text": "איזו צורה עגולה ואין לה קודקודים?",
     "options": [
-      "משולש",
       "עיגול",
+      "ריבוע",
       "מלבן",
-      "ריבוע"
+      "משולש"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא עיגול."
   },
   {
@@ -15434,7 +15434,7 @@ export const ELEMENTARY_QUESTIONS = [
       "30°"
     ],
     "correct_index": 0,
-    "explanation": "פנייה בזווית ישרה היא פנייה חדה של 90°."
+    "explanation": "פנייה בזווית ישרה היא פנייה של $90°$ — כמו פינה של דף."
   },
   {
     "id": "q-g2-ra-8",
