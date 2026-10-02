@@ -21,6 +21,27 @@ export const SPEED_RUN_POOL_SIZE = 500;
 export const TOTAL_QUESTION_COUNT = 5040;
 
 /**
+ * Per-grade hand-written hints and step-by-step solutions, keyed by question id:
+ * { [id]: { hints?: string[], steps?: string[] } }. Loaded with the grade's bank.
+ */
+const SOLUTION_FILES = import.meta.glob('./solutions/g*.js');
+
+async function loadSolutions(grade) {
+  const load = SOLUTION_FILES[`./solutions/g${grade}.js`];
+  if (!load) return {};
+  try {
+    return (await load()).default ?? {};
+  } catch {
+    // a missing solutions chunk must never break the quiz itself
+    return {};
+  }
+}
+
+function withSolutions(questions, solutions) {
+  return questions.map((q) => (solutions[q.id] ? { ...q, ...solutions[q.id] } : q));
+}
+
+/**
  * Full bank for a topic (interactive + MCQ). The three big per-stage banks
  * are dynamically imported so a visitor only downloads the question data for
  * the grade level they're actually using.
@@ -30,16 +51,17 @@ export async function getAllQuestionsForTopic(topicId) {
   const topic = getTopicById(topicId);
   if (!topic) return interactive;
 
+  const solutions = loadSolutions(topic.grade);
   if (isElementary(topic.grade)) {
     const { getElementaryQuestionsForTopic } = await import('./elementaryQuestions.js');
-    return [...interactive, ...getElementaryQuestionsForTopic(topicId)];
+    return withSolutions([...interactive, ...getElementaryQuestionsForTopic(topicId)], await solutions);
   }
   if (isMiddleSchool(topic.grade)) {
     const { getMiddleSchoolQuestionsForTopic } = await import('./middleSchoolQuestions.js');
-    return [...interactive, ...getMiddleSchoolQuestionsForTopic(topicId)];
+    return withSolutions([...interactive, ...getMiddleSchoolQuestionsForTopic(topicId)], await solutions);
   }
   const { getQuestionsForTopic: getHighSchoolQuestionsForTopic } = await import('./highSchoolQuestions.js');
-  return [...interactive, ...getHighSchoolQuestionsForTopic(topicId)];
+  return withSolutions([...interactive, ...getHighSchoolQuestionsForTopic(topicId)], await solutions);
 }
 
 function pickRandom(list, n) {

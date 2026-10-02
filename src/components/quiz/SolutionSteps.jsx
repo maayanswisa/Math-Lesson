@@ -24,7 +24,7 @@ export function StepList({ steps, className = '' }) {
  * אחרי תשובה שגויה: מה בחרת מול מה נכון, ואז "איך פותרים?" — שלב אחר שלב,
  * עם התשובה הנכונה בסוף וקישור להסבר המלא של הנושא.
  */
-export default function SolutionSteps({ question, selectedIndex }) {
+export default function SolutionSteps({ question, selectedIndex, showAnswers = true }) {
   const steps = solutionSteps(question);
   const correct = correctAnswerText(question);
   const chosen = typeof selectedIndex === 'number' && Array.isArray(question.options) ? question.options[selectedIndex] : null;
@@ -33,7 +33,7 @@ export default function SolutionSteps({ question, selectedIndex }) {
 
   return (
     <div className="space-y-4">
-      {correct != null && (
+      {showAnswers && correct != null && (
         <div className="grid gap-2 sm:grid-cols-2">
           {chosen != null && (
             <div className="rounded-xl bg-[var(--color-coral)]/8 px-4 py-2.5 ring-1 ring-[var(--color-coral)]/30">
@@ -113,4 +113,22 @@ export default function SolutionSteps({ question, selectedIndex }) {
       )}
     </div>
   );
+}
+
+/** אחרי תשובה נכונה: כפתור מקופל שפותח את הפתרון המלא (רק כשיש פתרון מפורט). */
+export function SolutionToggle({ question }) {
+  const [open, setOpen] = useState(false);
+  if (!Array.isArray(question?.steps) || question.steps.length === 0) return null;
+  if (!open) {
+    return (
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        className="rounded-lg bg-white px-3 py-1.5 text-xs font-bold text-[var(--color-teal)] ring-1 ring-[var(--color-teal)]/30 hover:bg-[var(--color-teal)]/5"
+      >
+        🧩 לראות את הפתרון המלא
+      </button>
+    );
+  }
+  return <SolutionSteps question={question} showAnswers={false} />;
 }

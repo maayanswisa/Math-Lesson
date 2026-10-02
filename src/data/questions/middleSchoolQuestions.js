@@ -14160,8 +14160,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "שיפוע $=\\frac{5-1}{2-0}=\\frac{4}{2}=2$."
-  }
-,
+  },
   {
     "id": "q-g9r-probability-restore-1",
     "topic_id": "g9r-probability",
@@ -14266,8 +14265,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "המספרים הראשוניים בין $1$ ל-$5$ הם $\\{2,3,5\\}$ — $3$ מתוך $5$: $\\frac{3}{5}$."
-  }
-,
+  },
   {
     "id": "q-g9r-probability-enrich-1",
     "topic_id": "g9r-probability",
@@ -16262,8 +16260,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "$\\dfrac{52}{300}\\approx0.173$, קרוב מאוד ל-$\\dfrac{1}{6}\\approx0.167$ — תואם קובייה הוגנת."
-  }
-,
+  },
   {
     "id": "q-g8-eqline-1",
     "topic_id": "g8-linear-eq-of-line",
@@ -18363,8 +18360,7 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "טווח גדול יותר מעיד על פיזור רב יותר בין הערך הקטן לגדול — קבוצה א' (טווח $10$) מפוזרת יותר מקבוצה ב' (טווח $2$)."
-  }
-,
+  },
   {
     "id": "q-g9r-algfrac-1",
     "topic_id": "g9r-algebraic-fractions",

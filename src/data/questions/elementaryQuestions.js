@@ -23,12 +23,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $86$ כמה עשרות?",
     "options": [
-      "$3$",
-      "$1$",
-      "$4$",
-      "$8$"
+      "$8$",
+      "$6$",
+      "$9$",
+      "$86$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $86$ היא $8$."
   },
   {
@@ -38,12 +38,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $31$ כמה עשרות?",
     "options": [
-      "$-2$",
-      "$-1$",
       "$3$",
-      "$-4$"
+      "$1$",
+      "$4$",
+      "$31$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $31$ היא $3$."
   },
   {
@@ -53,12 +53,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $62$ כמה עשרות?",
     "options": [
-      "$2$",
       "$6$",
-      "$-1$",
-      "$1$"
+      "$2$",
+      "$7$",
+      "$62$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $62$ היא $6$."
   },
   {
@@ -69,9 +69,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "במספר $66$ כמה יחידות?",
     "options": [
       "$6$",
-      "$2$",
-      "$1$",
-      "$-1$"
+      "$7$",
+      "$66$",
+      "$5$"
     ],
     "correct_index": 0,
     "explanation": "ספרת היחידות במספר $66$ היא $6$."
@@ -84,9 +84,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "במספר $99$ כמה יחידות?",
     "options": [
       "$9$",
-      "$4$",
-      "$5$",
-      "$2$"
+      "$10$",
+      "$99$",
+      "$8$"
     ],
     "correct_index": 0,
     "explanation": "ספרת היחידות במספר $99$ היא $9$."
@@ -98,12 +98,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $37$ כמה עשרות?",
     "options": [
-      "$-1$",
       "$3$",
-      "$-4$",
-      "$-2$"
+      "$7$",
+      "$4$",
+      "$37$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $37$ היא $3$."
   },
   {
@@ -113,12 +113,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $26$ או $23$?",
     "options": [
-      "$3$",
-      "שווים",
+      "$26$",
       "$23$",
-      "$26$"
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $26$ גדול מ-$23$."
   },
   {
@@ -128,12 +128,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $90$ או $93$?",
     "options": [
-      "שווים",
-      "$3$",
       "$93$",
-      "$90$"
+      "$90$",
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $93$ גדול מ-$90$."
   },
   {
@@ -143,12 +143,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $24$ כמה עשרות?",
     "options": [
-      "$-3$",
       "$2$",
-      "$-2$",
-      "$-5$"
+      "$4$",
+      "$3$",
+      "$24$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $24$ היא $2$."
   },
   {
@@ -158,12 +158,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $20$ כמה עשרות?",
     "options": [
-      "$-3$",
-      "$-2$",
       "$2$",
-      "$-5$"
+      "$0$",
+      "$3$",
+      "$20$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $20$ היא $2$."
   },
   {
@@ -174,9 +174,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "במספר $53$ כמה עשרות?",
     "options": [
       "$5$",
-      "$-2$",
-      "$1$",
-      "$0$"
+      "$3$",
+      "$6$",
+      "$53$"
     ],
     "correct_index": 0,
     "explanation": "ספרת העשרות במספר $53$ היא $5$."
@@ -188,12 +188,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $64$ כמה יחידות?",
     "options": [
-      "$-3$",
-      "$-1$",
       "$4$",
-      "$0$"
+      "$6$",
+      "$5$",
+      "$64$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ספרת היחידות במספר $64$ היא $4$."
   },
   {
@@ -203,12 +203,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $96$ כמה יחידות?",
     "options": [
-      "$-1$",
-      "$1$",
       "$6$",
-      "$2$"
+      "$9$",
+      "$7$",
+      "$96$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ספרת היחידות במספר $96$ היא $6$."
   },
   {
@@ -218,12 +218,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $68$ כמה עשרות?",
     "options": [
-      "$-1$",
-      "$2$",
-      "$1$",
-      "$6$"
+      "$6$",
+      "$8$",
+      "$7$",
+      "$68$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $68$ היא $6$."
   },
   {
@@ -233,12 +233,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $12$ או $6$?",
     "options": [
-      "$6$",
       "$12$",
-      "$21$",
-      "שווים"
+      "$6$",
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $12$ גדול מ-$6$."
   },
   {
@@ -248,12 +248,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $38$ כמה יחידות?",
     "options": [
-      "$1$",
-      "$4$",
       "$8$",
-      "$3$"
+      "$3$",
+      "$9$",
+      "$38$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ספרת היחידות במספר $38$ היא $8$."
   },
   {
@@ -264,9 +264,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "איזה גדול: $32$ או $35$?",
     "options": [
       "$35$",
-      "שווים",
       "$32$",
-      "$3$"
+      "שווים",
+      "אי אפשר לדעת"
     ],
     "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $35$ גדול מ-$32$."
@@ -278,12 +278,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $86$ או $92$?",
     "options": [
-      "שווים",
+      "$92$",
       "$86$",
-      "$6$",
-      "$92$"
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $92$ גדול מ-$86$."
   },
   {
@@ -293,12 +293,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $30$ כמה עשרות?",
     "options": [
-      "$-2$",
-      "$-1$",
-      "$-4$",
-      "$3$"
+      "$3$",
+      "$0$",
+      "$4$",
+      "$30$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "ספרת העשרות במספר $30$ היא $3$."
   },
   {
@@ -308,9 +308,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "מהו $15-6$?",
     "options": [
       "$9$",
-      "$8$",
+      "$21$",
       "$10$",
-      "$21$"
+      "$8$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $15-6=9$.",
@@ -324,9 +324,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $14-3$.",
     "options": [
       "$11$",
-      "$7$",
-      "$4$",
-      "$6$"
+      "$17$",
+      "$12$",
+      "$10$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $14-3=11$."
@@ -339,9 +339,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $13+6$.",
     "options": [
       "$19$",
-      "$15$",
-      "$14$",
-      "$12$"
+      "$7$",
+      "$20$",
+      "$18$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $13+6=19$."
@@ -353,12 +353,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $8-6$.",
     "options": [
-      "$-2$",
-      "$-5$",
-      "$-3$",
-      "$2$"
+      "$2$",
+      "$14$",
+      "$3$",
+      "$1$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "החישוב: $8-6=2$."
   },
   {
@@ -366,14 +366,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-add-sub-20",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $18$, נתנו $7$. כמה נשאר?",
+    "question_text": "לנועה יש $18$ מדבקות. היא נתנה לחברה $7$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$7$",
       "$11$",
-      "$4$",
-      "$6$"
+      "$25$",
+      "$12$",
+      "$10$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מתחילים עם $18$ ומחסירים את מה שנתנו: $18-7=11$."
   },
   {
@@ -383,12 +383,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $7-2$.",
     "options": [
-      "$0$",
-      "$-2$",
       "$5$",
-      "$1$"
+      "$9$",
+      "$6$",
+      "$4$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $7-2=5$."
   },
   {
@@ -399,9 +399,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $9-6$.",
     "options": [
       "$3$",
-      "$-1$",
-      "$-4$",
-      "$-2$"
+      "$15$",
+      "$4$",
+      "$2$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $9-6=3$."
@@ -413,12 +413,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $7+9$.",
     "options": [
-      "$11$",
-      "$9$",
-      "$12$",
-      "$16$"
+      "$16$",
+      "$17$",
+      "$15$",
+      "$26$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "החישוב: $7+9=16$."
   },
   {
@@ -426,14 +426,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-add-sub-20",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $19$, נתנו $2$. כמה נשאר?",
+    "question_text": "לנועה יש $19$ מדבקות. היא נתנה לחברה $2$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$13$",
       "$17$",
-      "$10$",
-      "$12$"
+      "$21$",
+      "$18$",
+      "$16$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מתחילים עם $19$ ומחסירים את מה שנתנו: $19-2=17$."
   },
   {
@@ -441,14 +441,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-add-sub-20",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $6$, נתנו $5$. כמה נשאר?",
+    "question_text": "לנועה יש $6$ מדבקות. היא נתנה לחברה $5$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$-3$",
-      "$-6$",
-      "$-4$",
-      "$1$"
+      "$1$",
+      "$11$",
+      "$2$",
+      "$0$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מתחילים עם $6$ ומחסירים את מה שנתנו: $6-5=1$."
   },
   {
@@ -456,14 +456,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-add-sub-20",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $12$, נתנו $2$. כמה נשאר?",
+    "question_text": "לנועה יש $12$ מדבקות. היא נתנה לחברה $2$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$5$",
       "$10$",
-      "$3$",
-      "$6$"
+      "$14$",
+      "$11$",
+      "$9$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מתחילים עם $12$ ומחסירים את מה שנתנו: $12-2=10$."
   },
   {
@@ -471,14 +471,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-add-sub-20",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $20$, נתנו $3$. כמה נשאר?",
+    "question_text": "לנועה יש $20$ מדבקות. היא נתנה לחברה $3$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$12$",
-      "$10$",
-      "$13$",
-      "$17$"
+      "$17$",
+      "$23$",
+      "$18$",
+      "$16$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מתחילים עם $20$ ומחסירים את מה שנתנו: $20-3=17$."
   },
   {
@@ -486,14 +486,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-add-sub-20",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $11$, נתנו $8$. כמה נשאר?",
+    "question_text": "לנועה יש $11$ מדבקות. היא נתנה לחברה $8$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$-1$",
-      "$-4$",
       "$3$",
-      "$-2$"
+      "$19$",
+      "$4$",
+      "$2$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מתחילים עם $11$ ומחסירים את מה שנתנו: $11-8=3$."
   },
   {
@@ -503,12 +503,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $11+6$.",
     "options": [
-      "$12$",
-      "$13$",
-      "$10$",
-      "$17$"
+      "$17$",
+      "$5$",
+      "$18$",
+      "$16$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "החישוב: $11+6=17$."
   },
   {
@@ -516,12 +516,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-add-sub-20",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $17$, נתנו $3$. כמה נשאר?",
+    "question_text": "לנועה יש $17$ מדבקות. היא נתנה לחברה $3$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
       "$14$",
-      "$7$",
-      "$10$",
-      "$9$"
+      "$20$",
+      "$15$",
+      "$13$"
     ],
     "correct_index": 0,
     "explanation": "מתחילים עם $17$ ומחסירים את מה שנתנו: $17-3=14$."
@@ -534,9 +534,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $15+4$.",
     "options": [
       "$19$",
-      "$12$",
-      "$15$",
-      "$14$"
+      "$11$",
+      "$20$",
+      "$18$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $15+4=19$."
@@ -549,9 +549,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $15-5$.",
     "options": [
       "$10$",
-      "$5$",
-      "$6$",
-      "$3$"
+      "$20$",
+      "$11$",
+      "$9$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $15-5=10$."
@@ -563,12 +563,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $18+1$.",
     "options": [
-      "$14$",
       "$19$",
-      "$12$",
-      "$15$"
+      "$17$",
+      "$20$",
+      "$18$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "החישוב: $18+1=19$."
   },
   {
@@ -576,12 +576,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-add-sub-20",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $20$, נתנו $2$. כמה נשאר?",
+    "question_text": "לנועה יש $20$ מדבקות. היא נתנה לחברה $2$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
       "$18$",
-      "$11$",
-      "$14$",
-      "$13$"
+      "$22$",
+      "$19$",
+      "$17$"
     ],
     "correct_index": 0,
     "explanation": "מתחילים עם $20$ ומחסירים את מה שנתנו: $20-2=18$."
@@ -593,12 +593,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $2+10$.",
     "options": [
-      "$5$",
-      "$8$",
       "$12$",
-      "$7$"
+      "$13$",
+      "$11$",
+      "$22$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $2+10=12$."
   },
   {
@@ -681,7 +681,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-shapes",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ריבוע הוא סוג של:",
+    "question_text": "ריבוע הוא גם סוג של:",
     "options": [
       "משולש",
       "עיגול",
@@ -696,14 +696,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-shapes",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "למלבן יש:",
+    "question_text": "מה נכון לגבי מלבן?",
     "options": [
-      "0 קודקודים",
-      "3 צלעות",
-      "עיגול",
-      "זוגות צלעות שווות"
+      "יש לו שני זוגות של צלעות שוות",
+      "אין לו קודקודים",
+      "יש לו $3$ צלעות",
+      "הצלעות שלו עקומות"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא זוגות צלעות שווות."
   },
   {
@@ -711,14 +711,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-shapes",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "במלבן, צלעות נגדיות:",
+    "question_text": "במלבן, הצלעות שנמצאות זו מול זו:",
     "options": [
-      "משתנות",
-      "לא קיימות",
-      "תנוכות",
-      "שווות ומקבילות"
+      "שוות ומקבילות",
+      "תמיד באורך שונה",
+      "נפגשות בקודקוד",
+      "עקומות"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא שווות ומקבילות."
   },
   {
@@ -756,7 +756,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-shapes",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "לצורה עם 3 צלעות:",
+    "question_text": "איך קוראים לצורה עם $3$ צלעות?",
     "options": [
       "ריבוע",
       "עיגול",
@@ -771,7 +771,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-shapes",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "צורה עם 4 צלעות שווות:",
+    "question_text": "לצורה יש $4$ צלעות שוות ו-$4$ זוויות ישרות. איזו צורה זו?",
     "options": [
       "עיגול",
       "משולש",
@@ -786,7 +786,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-shapes",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מצולע עם 5 צלעות:",
+    "question_text": "איך קוראים למצולע עם $5$ צלעות?",
     "options": [
       "ריבוע",
       "מחומש",
@@ -846,7 +846,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-shapes",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "צורה שאינה מצולע:",
+    "question_text": "איזו מהצורות הבאות אינה מצולע?",
     "options": [
       "משולש",
       "עיגול",
@@ -861,14 +861,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-shapes",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "צורה עגולה ללא קודקודים:",
+    "question_text": "איזו צורה עגולה ואין לה קודקודים?",
     "options": [
-      "ריבוע",
       "עיגול",
+      "ריבוע",
       "מלבן",
       "משולש"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא עיגול."
   },
   {
@@ -876,12 +876,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-shapes",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה מצולע?",
+    "question_text": "איזו מהצורות הבאות היא מצולע?",
     "options": [
       "ריבוע",
-      "כדור",
       "עיגול",
-      "קו"
+      "חצי עיגול",
+      "קו עקום"
     ],
     "correct_index": 0,
     "explanation": "התשובה הנכונה היא ריבוע."
@@ -891,7 +891,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-shapes",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משולש עם 3 צלעות שווות:",
+    "question_text": "איך קוראים למשולש שכל $3$ הצלעות שלו שוות?",
     "options": [
       "שווה-צלעות",
       "ישר-זווית",
@@ -905,7 +905,7 @@ export const ELEMENTARY_QUESTIONS = [
     "id": "q-g1-m-1",
     "topic_id": "g1-measure",
     "difficulty": 1,
-    "question_text": "איזה ארוך יותר: $3$ קוביות או $5$ קוביות?",
+    "question_text": "שני פסים בנויים מקוביות זהות: באחד $3$ קוביות ובשני $5$ קוביות. איזה פס ארוך יותר?",
     "options": [
       "$5$ קוביות",
       "$3$ קוביות",
@@ -921,14 +921,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "איזה גדול: 9 ס\"מ או 15 ס\"מ?",
+    "question_text": "מה ארוך יותר: $9$ ס\"מ או $15$ ס\"מ?",
     "options": [
+      "$15$ ס\"מ",
+      "$9$ ס\"מ",
       "שווים",
-      "12",
-      "15 ס\"מ",
-      "9 ס\"מ"
+      "אי אפשר לדעת"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא 15 ס\"מ."
   },
   {
@@ -936,7 +936,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure-cm",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "250 מ\"מ = ס\"מ?",
+    "question_text": "$250$ מ\"מ הם כמה ס\"מ?",
     "options": [
       "$2500$",
       "$25$",
@@ -951,12 +951,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מהפרש 5ס\"מ ל-20ס\"מ?",
+    "question_text": "מה ההפרש בין $20$ ס\"מ ל-$5$ ס\"מ?",
     "options": [
-      "15 ס\"מ",
-      "4",
-      "25",
-      "100"
+      "$15$ ס\"מ",
+      "$4$ ס\"מ",
+      "$25$ ס\"מ",
+      "$100$ ס\"מ"
     ],
     "correct_index": 0,
     "explanation": "התשובה הנכונה היא 15 ס\"מ."
@@ -966,7 +966,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure-cm",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1/2 מטר = ס\"מ?",
+    "question_text": "חצי מטר הוא כמה ס\"מ?",
     "options": [
       "$5$",
       "$50$",
@@ -981,12 +981,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "יחידת משקל:",
+    "question_text": "איזו מהן היא יחידה למדידת משקל?",
     "options": [
       "ק\"ג",
       "ס\"מ",
       "ליטר",
-      "מעלה"
+      "שעה"
     ],
     "correct_index": 0,
     "explanation": "התשובה הנכונה היא ק\"ג."
@@ -996,14 +996,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "סרגל מדיד:",
+    "question_text": "מה מודדים בעזרת סרגל?",
     "options": [
-      "מסה",
       "אורך",
-      "נפח",
-      "שטח"
+      "משקל",
+      "זמן",
+      "חום"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא אורך."
   },
   {
@@ -1011,14 +1011,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: 30 ס\"מ או 2 מטר?",
+    "question_text": "מה ארוך יותר: $30$ ס\"מ או $2$ מטר?",
     "options": [
+      "$2$ מטר",
+      "$30$ ס\"מ",
       "שווים",
-      "1 מטר",
-      "2 מטר",
-      "30 ס\"מ"
+      "אי אפשר לדעת"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא 2 מטר."
   },
   {
@@ -1026,7 +1026,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure-cm",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "40 ס\"מ = כמה מטר?",
+    "question_text": "$40$ ס\"מ הם כמה מטר?",
     "options": [
       "$40$",
       "$0.04$",
@@ -1041,7 +1041,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "התחלת מדידה:",
+    "question_text": "מאיזה מספר בסרגל מתחילים למדוד?",
     "options": [
       "$1$",
       "$-1$",
@@ -1056,14 +1056,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קו 7 ס\"מ + 3 ס\"מ:",
+    "question_text": "מחברים קו באורך $7$ ס\"מ וקו באורך $3$ ס\"מ. מה האורך ביחד?",
     "options": [
-      "21",
-      "10 ס\"מ",
-      "4",
-      "3"
+      "$10$ ס\"מ",
+      "$21$ ס\"מ",
+      "$4$ ס\"מ",
+      "$3$ ס\"מ"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחברים את אורכי הקטעים: $7+3=10$ ס\"מ."
   },
   {
@@ -1071,14 +1071,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "איזה גדול: 80ס\"מ או 1מ?",
+    "question_text": "מה ארוך יותר: $80$ ס\"מ או $1$ מטר?",
     "options": [
-      "80 ס\"מ",
-      "0.8",
-      "1 מ",
-      "שווים"
+      "$1$ מטר",
+      "$80$ ס\"מ",
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא 1 מ."
   },
   {
@@ -1086,14 +1086,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure-cm",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "היקף ריבוע שאורך צלעו 1 מטר:",
+    "question_text": "מה ההיקף של ריבוע שאורך כל צלע שלו $1$ מטר?",
     "options": [
-      "1",
-      "2",
-      "4 מ",
-      "100 ס\"מ"
+      "$4$ מטר",
+      "$1$ מטר",
+      "$2$ מטר",
+      "$3$ מטר"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "היקף ריבוע הוא $4$ כפול אורך הצלע: $4\\times 1=4$ מ'."
   },
   {
@@ -1101,14 +1101,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "הפרש 12 ס\"מ ו-8 ס\"מ:",
+    "question_text": "מה ההפרש בין $12$ ס\"מ ל-$8$ ס\"מ?",
     "options": [
-      "20",
-      "4 ס\"מ",
-      "96",
-      "2"
+      "$4$ ס\"מ",
+      "$20$ ס\"מ",
+      "$96$ ס\"מ",
+      "$2$ ס\"מ"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחסרים בין האורכים: $12-8=4$ ס\"מ."
   },
   {
@@ -1116,7 +1116,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure-cm",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "5 מטר = כמה ס\"מ?",
+    "question_text": "$5$ מטר הם כמה ס\"מ?",
     "options": [
       "$500$",
       "$5000$",
@@ -1131,7 +1131,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure-cm",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "1 ק\"מ = מטר?",
+    "question_text": "$1$ ק\"מ הוא כמה מטר?",
     "options": [
       "$1000$",
       "$100$",
@@ -1161,14 +1161,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "יחידת אורך:",
+    "question_text": "איזו מהן היא יחידה למדידת אורך?",
     "options": [
+      "מטר",
       "ליטר",
       "ק\"ג",
-      "מעלה",
-      "ס\"מ/מטר"
+      "שעה"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא ס\"מ/מטר."
   },
   {
@@ -1176,7 +1176,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure-cm",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "2 מ + 30 ס\"מ = ס\"מ?",
+    "question_text": "$2$ מטר ועוד $30$ ס\"מ — כמה ס\"מ זה בסך הכול?",
     "options": [
       "$50$",
       "$2300$",
@@ -1191,7 +1191,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g1-measure",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "כמה ס\"מ במטר?",
+    "question_text": "כמה ס\"מ יש במטר אחד?",
     "options": [
       "$50$",
       "$10$",
@@ -24255,8 +24255,7 @@ export const ELEMENTARY_QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "היקף הוא סכום אורכי כל הקטעים שמקיפים את הצורה מבחוץ."
-  }
-,
+  },
   {
     "id": "q-g1-count-20-restore-1",
     "topic_id": "g1-count-20",
@@ -24511,8 +24510,7 @@ export const ELEMENTARY_QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "ימים עם יותר מ-$3$ מכירות: $5$ ו-$6$ — סך הכול $2$ ימים."
-  }
-,
+  },
   {
     "id": "q-g1-count-20-enrich-1",
     "topic_id": "g1-count-20",
@@ -24752,8 +24750,7 @@ export const ELEMENTARY_QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "ימים עם פחות מ-$3$ ספרים: $2$ ו-$1$ — סך הכול $2$ ימים."
-  }
-,
+  },
   {
     "id": "q-g3-geometry-enrich2-1",
     "topic_id": "g3-geometry",
@@ -26673,9 +26670,7 @@ export const ELEMENTARY_QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "בשיטה הרומית אי אפשר לחסר שני סמלים ברצף לפני סמל גדול; $8$ נכתב $V+I+I+I=VIII$."
-  }
-
-,
+  },
   {
     "id": "q-g5-quad-1",
     "topic_id": "g5-quadrilaterals",
@@ -27575,8 +27570,7 @@ export const ELEMENTARY_QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "ככל שיש למצולע המשוכלל יותר צלעות, הזווית הפנימית שלו גדלה מעבר ל-$120°$ — ואף כפולה שלמה שלה (החל משלוש צורות) לא נותנת בדיוק $360°$, מלבד המקרים המיוחדים של $60°,90°,120°$."
-  }
-,
+  },
   {
     "id": "q-g6-signed-1",
     "topic_id": "g6-signed-numbers",

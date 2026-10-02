@@ -23940,8 +23940,7 @@ export const QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "משפט: זוויות היקפיות הנשענות על אותה קשת שוות זו לזו."
-  }
-,
+  },
   {
     "id": "q-g10-u3-space-restore-1",
     "topic_id": "g10-u3-space",
@@ -24886,8 +24885,7 @@ export const QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "לפי כלל השרשרת: $(\\sin(2x))'=\\cos(2x)\\times 2=2\\cos(2x)$."
-  }
-,
+  },
   {
     "id": "q-g10-u3-space-enrich-1",
     "topic_id": "g10-u3-space",
@@ -26087,8 +26085,7 @@ export const QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "$\\int_{0}^{\\pi/2}\\cos x\\,dx=\\left[\\sin x\\right]_{0}^{\\pi/2}=\\sin(\\pi/2)-\\sin(0)=1-0=1$."
-  }
-,
+  },
   {
     "id": "q-g11-u3-science-exp-enrich2-1",
     "topic_id": "g11-u3-science-exp",
@@ -26538,8 +26535,7 @@ export const QUESTIONS = [
     ],
     "correct_index": 0,
     "explanation": "$m_1\\cdot m_2=-1\\Rightarrow m_2=-\\dfrac{1}{4}$."
-  }
-,
+  },
   {
     "id": "q-g11-u4-precalc-rational-hard1",
     "topic_id": "g11-u4-precalc-rational",
