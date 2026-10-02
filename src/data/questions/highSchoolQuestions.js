@@ -696,27 +696,27 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $(x-4)(x-4)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-4)(x-4)=0$. מהו הפתרון?",
     "options": [
-      "$8$",
       "$4$",
-      "$1$",
-      "$3$"
+      "$8$",
+      "$16$",
+      "$0$"
     ],
     "correct_index": 0,
-    "explanation": "השורשים הם $4$ ו-$4$ (מהפירוק לגורמים), וסכומם $4+4=8$."
+    "explanation": "$(x-4)^2=0$ רק כאשר $x-4=0$, כלומר $x=4$ (פתרון יחיד)."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-2",
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $(x-4)(x-3)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-4)(x-3)=0$. מהו סכום שני הפתרונות?",
     "options": [
       "$7$",
-      "$3$",
-      "$2$",
-      "$0$"
+      "$12$",
+      "$1$",
+      "$-7$"
     ],
     "correct_index": 0,
     "explanation": "השורשים הם $4$ ו-$3$ (מהפירוק לגורמים), וסכומם $4+3=7$."
@@ -726,14 +726,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $(x-3)(x-4)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-3)(x-4)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$5$",
       "$12$",
       "$7$",
-      "$8$"
+      "$1$",
+      "$-12$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "השורשים הם $3$ ו-$4$ (מהפירוק לגורמים), ומכפלתם $3\\times 4=12$."
   },
   {
@@ -741,14 +741,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $(x-1)(x-5)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-1)(x-5)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$-2$",
-      "$0$",
       "$5$",
-      "$1$"
+      "$6$",
+      "$4$",
+      "$-5$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "השורשים הם $1$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $1\\times 5=5$."
   },
   {
@@ -756,14 +756,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=16$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=16$. מהו הפתרון החיובי?",
     "options": [
-      "$-3$",
       "$4$",
-      "$-1$",
-      "$0$"
+      "$8$",
+      "$16$",
+      "$5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=16$ הוא $x=\\sqrt{16}=4$."
   },
   {
@@ -771,14 +771,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $(x-2)(x-4)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-2)(x-4)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$3$",
       "$8$",
-      "$4$",
-      "$1$"
+      "$6$",
+      "$2$",
+      "$-8$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "השורשים הם $2$ ו-$4$ (מהפירוק לגורמים), ומכפלתם $2\\times 4=8$."
   },
   {
@@ -786,14 +786,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-4)^2+4$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-4)^2+4$?",
     "options": [
-      "$0$",
-      "$-3$",
-      "$-1$",
-      "$4$"
+      "$4$",
+      "$-4$",
+      "$5$",
+      "$8$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=4$."
   },
   {
@@ -801,14 +801,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $(x-2)(x-3)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-2)(x-3)=0$. מהו סכום שני הפתרונות?",
     "options": [
+      "$5$",
+      "$6$",
       "$1$",
-      "$0$",
-      "$-2$",
-      "$5$"
+      "$-5$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "השורשים הם $2$ ו-$3$ (מהפירוק לגורמים), וסכומם $2+3=5$."
   },
   {
@@ -816,12 +816,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=25$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=25$. מהו הפתרון החיובי?",
     "options": [
       "$5$",
-      "$0$",
-      "$-2$",
-      "$1$"
+      "$12$",
+      "$25$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=25$ הוא $x=\\sqrt{25}=5$."
@@ -831,14 +831,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-3)^2+1$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-3)^2+1$?",
     "options": [
-      "$-1$",
-      "$-4$",
       "$3$",
-      "$-2$"
+      "$-3$",
+      "$1$",
+      "$4$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=3$."
   },
   {
@@ -846,14 +846,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "פתרו $x^2=9$. $x$ (חיובי)?",
+    "question_text": "פתרו את המשוואה $x^2=9$. מהו הפתרון החיובי?",
     "options": [
-      "$-2$",
-      "$-1$",
-      "$-4$",
-      "$3$"
+      "$3$",
+      "$4$",
+      "$9$",
+      "$2$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "הפתרון החיובי של $x^2=9$ הוא $x=\\sqrt{9}=3$."
   },
   {
@@ -861,14 +861,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $(x-3)(x-1)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-3)(x-1)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$-4$",
       "$3$",
-      "$-1$",
-      "$-2$"
+      "$4$",
+      "$2$",
+      "$-3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "השורשים הם $3$ ו-$1$ (מהפירוק לגורמים), ומכפלתם $3\\times 1=3$."
   },
   {
@@ -876,12 +876,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $(x-3)(x-4)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-3)(x-4)=0$. מהו סכום שני הפתרונות?",
     "options": [
       "$7$",
-      "$0$",
-      "$3$",
-      "$2$"
+      "$12$",
+      "$1$",
+      "$-7$"
     ],
     "correct_index": 0,
     "explanation": "השורשים הם $3$ ו-$4$ (מהפירוק לגורמים), וסכומם $3+4=7$."
@@ -891,12 +891,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $(x-4)(x-2)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-4)(x-2)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
       "$8$",
-      "$4$",
-      "$3$",
-      "$1$"
+      "$6$",
+      "$2$",
+      "$-8$"
     ],
     "correct_index": 0,
     "explanation": "השורשים הם $4$ ו-$2$ (מהפירוק לגורמים), ומכפלתם $4\\times 2=8$."
@@ -906,14 +906,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-4)^2+3$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-4)^2+3$?",
     "options": [
-      "$-1$",
-      "$-3$",
       "$4$",
-      "$0$"
+      "$-4$",
+      "$3$",
+      "$7$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=4$."
   },
   {
@@ -921,14 +921,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $(x-1)(x-4)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-1)(x-4)=0$. מהו סכום שני הפתרונות?",
     "options": [
-      "$0$",
-      "$-2$",
       "$5$",
-      "$1$"
+      "$4$",
+      "$3$",
+      "$-5$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "השורשים הם $1$ ו-$4$ (מהפירוק לגורמים), וסכומם $1+4=5$."
   },
   {
@@ -936,14 +936,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $(x-3)(x-5)=0$. מכפלת שרשים?",
+    "question_text": "פתרו את המשוואה $(x-3)(x-5)=0$. מהי מכפלת שני הפתרונות?",
     "options": [
-      "$10$",
+      "$15$",
       "$8$",
-      "$11$",
-      "$15$"
+      "$2$",
+      "$-15$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "השורשים הם $3$ ו-$5$ (מהפירוק לגורמים), ומכפלתם $3\\times 5=15$."
   },
   {
@@ -951,27 +951,27 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "פתרו $(x-2)(x-2)=0$. סכום שרשים?",
+    "question_text": "פתרו את המשוואה $(x-2)(x-2)=0$. מהו הפתרון?",
     "options": [
-      "$-3$",
+      "$2$",
       "$4$",
-      "$-1$",
-      "$0$"
+      "$0$",
+      "$3$"
     ],
-    "correct_index": 1,
-    "explanation": "השורשים הם $2$ ו-$2$ (מהפירוק לגורמים), וסכומם $2+2=4$."
+    "correct_index": 0,
+    "explanation": "$(x-2)^2=0$ רק כאשר $x-2=0$, כלומר $x=2$ (פתרון יחיד)."
   },
   {
     "id": "q-q-g12-u3-quadratic-model-19",
     "topic_id": "g12-u3-quadratic-model",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "קודקוד הפרבולה $y=(x-2)^2+3$: x=",
+    "question_text": "מהו שיעור ה-$x$ של קודקוד הפרבולה $y=(x-2)^2+3$?",
     "options": [
       "$2$",
-      "$-5$",
       "$-2$",
-      "$-3$"
+      "$3$",
+      "$5$"
     ],
     "correct_index": 0,
     "explanation": "בצורת קודקוד $y=(x-p)^2+q$ הקודקוד הוא בנקודה $x=p=2$."
@@ -996,29 +996,29 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-linear-programming",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "תכנות לינארי: אילוץ בד\"כ:",
+    "question_text": "בתכנון לינארי, היכן מתקבל הערך האופטימלי של פונקציית המטרה?",
     "options": [
-      "קדקוד האזור האפשרי",
-      "מחוץ לתחום",
-      "אפס",
-      "מרכז"
+      "באחד מקודקודי תחום הפתרונות",
+      "מחוץ לתחום הפתרונות",
+      "תמיד בראשית הצירים",
+      "במרכז תחום הפתרונות"
     ],
     "correct_index": 0,
-    "explanation": "בתכנות לינארי הפתרון האופטימלי מתקבל בקודקוד של אזור הפתרונות האפשרי."
+    "explanation": "לפי המשפט היסודי של תכנון לינארי, הערך המרבי/המזערי של פונקציית מטרה לינארית מתקבל באחד מקודקודי תחום הפתרונות."
   },
   {
     "id": "q-q-g12-u3-linear-programming-10",
     "topic_id": "g12-u3-linear-programming",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "max 3x+2y על קודקודות (0,0),(4,0),(0,3). מקס?",
+    "question_text": "תחום הפתרונות הוא משולש שקודקודיו $(0,0),(4,0),(0,3)$. מהו הערך המרבי של $z=3x+2y$?",
     "options": [
-      "$0$",
-      "$9$",
       "$12$",
-      "$6$"
+      "$6$",
+      "$9$",
+      "$0$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מציבים בכל קודקוד: $(0,0)\\to0$, $(4,0)\\to12$, $(0,3)\\to6$. הערך המרבי הוא $12$."
   },
   {
@@ -1026,14 +1026,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-linear-programming",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "אילוץ: x>=0,y>=0 הם:",
+    "question_text": "האילוצים $x\\ge0,\\ y\\ge0$ נקראים אילוצי:",
     "options": [
-      "שיפוע",
-      "משפט",
       "אי-שליליות",
-      "שטח"
+      "שוויון",
+      "מטרה",
+      "שלמות"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אילוצי $x\\ge0,\\ y\\ge0$ נקראים אילוצי אי-שליליות, מכיוון שהמשתנים בבעיית תכנון לינארי מייצגים בדרך כלל כמויות (כגון יחידות ייצור) שאינן יכולות להיות שליליות."
   },
   {
@@ -1056,14 +1056,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=1$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=1$?",
     "options": [
-      "$-4$",
-      "$-6$",
       "$1$",
-      "$-3$"
+      "$0$",
+      "$2$",
+      "$3$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{1}=1$."
   },
   {
@@ -1071,7 +1071,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "אמצע (0,0),(4,6):",
+    "question_text": "מהי נקודת האמצע של הקטע בין $(0,0)$ ל-$(4,6)$?",
     "options": [
       "$(1,1)$",
       "$(0,0)$",
@@ -1086,7 +1086,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "פרבולה $y=x^2$. קודקוד הפרבולה:",
+    "question_text": "מהו קודקוד הפרבולה $y=x^2$?",
     "options": [
       "$(0,0)$",
       "$(1,1)$",
@@ -1101,14 +1101,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=16$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=16$?",
     "options": [
-      "$0$",
       "$4$",
-      "$-1$",
-      "$-3$"
+      "$16$",
+      "$8$",
+      "$5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{16}=4$."
   },
   {
@@ -1116,12 +1116,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=36$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=36$?",
     "options": [
       "$6$",
-      "$1$",
-      "$-1$",
-      "$2$"
+      "$36$",
+      "$18$",
+      "$12$"
     ],
     "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{36}=6$."
@@ -1131,7 +1131,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משוואת ישר דרך (0,1),(0,5):",
+    "question_text": "מהי משוואת הישר העובר דרך $(0,1)$ ו-$(0,5)$?",
     "options": [
       "$y=0$",
       "$x=0$",
@@ -1146,7 +1146,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "שיפוע ישר (1,2)-(4,8):",
+    "question_text": "מהו השיפוע של הישר העובר דרך הנקודות $(1,2)$ ו-$(4,8)$?",
     "options": [
       "$1$",
       "$2$",
@@ -1161,14 +1161,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=25$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=25$?",
     "options": [
-      "$1$",
       "$5$",
-      "$0$",
-      "$-2$"
+      "$25$",
+      "$12$",
+      "$10$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
   },
   {
@@ -1176,12 +1176,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=25$. רדיוס:",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=25$?",
     "options": [
       "$5$",
+      "$25$",
       "$12$",
-      "$10$",
-      "$25$"
+      "$10$"
     ],
     "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{25}=5$."
@@ -1191,14 +1191,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=4$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=4$?",
     "options": [
-      "$-2$",
       "$2$",
-      "$-3$",
-      "$-5$"
+      "$4$",
+      "$3$",
+      "$1$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{4}=2$."
   },
   {
@@ -1206,7 +1206,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מרחק (0,0)-(3,4):",
+    "question_text": "מהו המרחק בין הנקודות $(0,0)$ ו-$(3,4)$?",
     "options": [
       "$5$",
       "$12$",
@@ -1221,14 +1221,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=49$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=49$?",
     "options": [
-      "$0$",
       "$7$",
-      "$2$",
-      "$3$"
+      "$49$",
+      "$24$",
+      "$14$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{49}=7$."
   },
   {
@@ -1236,12 +1236,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-analytic-geo",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$x^2+y^2=9$. r=?",
+    "question_text": "מהו הרדיוס של המעגל $x^2+y^2=9$?",
     "options": [
       "$3$",
-      "$-1$",
-      "$-4$",
-      "$-2$"
+      "$9$",
+      "$4$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "במשוואת מעגל $x^2+y^2=r^2$: $r=\\sqrt{9}=3$."
@@ -1266,14 +1266,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "נפח גליל r=2 h=5 ($\\pi$):",
+    "question_text": "מהו נפחו של גליל שרדיוסו $2$ וגובהו $5$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$10\\pi$",
       "$20\\pi$",
-      "$\\pi$",
-      "$40\\pi$"
+      "$10\\pi$",
+      "$40\\pi$",
+      "$50\\pi$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 2^2\\times 5=20\\pi$."
   },
   {
@@ -1281,14 +1281,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נפח תיבה 3*5*2:",
+    "question_text": "מה הנפח של תיבה שממדיה $3$, $5$ ו-$2$?",
     "options": [
-      "$23$",
-      "$25$",
-      "$26$",
-      "$30$"
+      "$30$",
+      "$10$",
+      "$62$",
+      "$15$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 5\\times 2=30$."
   },
   {
@@ -1296,14 +1296,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נפח תיבה 5*5*5:",
+    "question_text": "מה הנפח של תיבה שממדיה $5$, $5$ ו-$5$?",
     "options": [
-      "$120$",
-      "$118$",
-      "$121$",
-      "$125$"
+      "$125$",
+      "$15$",
+      "$150$",
+      "$25$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $5\\times 5\\times 5=125$."
   },
   {
@@ -1311,14 +1311,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח פנים תיבה 3x5x2:",
+    "question_text": "מה שטח הפנים של תיבה שממדיה $3$, $5$ ו-$2$?",
     "options": [
-      "$57$",
       "$62$",
-      "$58$",
-      "$55$"
+      "$30$",
+      "$31$",
+      "$64$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(3\\cdot 5+5\\cdot 2+3\\cdot 2)=62$."
   },
   {
@@ -1326,12 +1326,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח פנים תיבה 3x3x3:",
+    "question_text": "מה שטח הפנים של תיבה שממדיה $3$, $3$ ו-$3$?",
     "options": [
       "$54$",
-      "$47$",
-      "$49$",
-      "$50$"
+      "$27$",
+      "$56$",
+      "$55$"
     ],
     "correct_index": 0,
     "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(3\\cdot 3+3\\cdot 3+3\\cdot 3)=54$."
@@ -1341,14 +1341,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נפח תיבה 2*2*8:",
+    "question_text": "מה הנפח של תיבה שממדיה $2$, $2$ ו-$8$?",
     "options": [
-      "$28$",
-      "$27$",
-      "$25$",
-      "$32$"
+      "$32$",
+      "$12$",
+      "$72$",
+      "$4$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 2\\times 8=32$."
   },
   {
@@ -1356,14 +1356,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "נפח גליל r=3 h=4 ($\\pi$):",
+    "question_text": "מהו נפחו של גליל שרדיוסו $3$ וגובהו $4$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$12\\pi$",
       "$36\\pi$",
-      "$\\pi$",
-      "$24\\pi$"
+      "$12\\pi$",
+      "$24\\pi$",
+      "$72\\pi$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 3^2\\times 4=36\\pi$."
   },
   {
@@ -1371,14 +1371,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "נפח גליל r=5 h=2 ($\\pi$):",
+    "question_text": "מהו נפחו של גליל שרדיוסו $5$ וגובהו $2$? (השאירו את התשובה עם $\\pi$)",
     "options": [
+      "$50\\pi$",
       "$10\\pi$",
       "$20\\pi$",
-      "$50\\pi$",
-      "$\\pi$"
+      "$100\\pi$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 5^2\\times 2=50\\pi$."
   },
   {
@@ -1386,14 +1386,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "נפח גליל r=4 h=3 ($\\pi$):",
+    "question_text": "מהו נפחו של גליל שרדיוסו $4$ וגובהו $3$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$\\pi$",
-      "$12\\pi$",
       "$48\\pi$",
-      "$24\\pi$"
+      "$12\\pi$",
+      "$24\\pi$",
+      "$96\\pi$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 4^2\\times 3=48\\pi$."
   },
   {
@@ -1401,14 +1401,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "שטח פנים תיבה 5x5x5:",
+    "question_text": "מה שטח הפנים של תיבה שממדיה $5$, $5$ ו-$5$?",
     "options": [
-      "$145$",
-      "$146$",
       "$150$",
-      "$143$"
+      "$125$",
+      "$75$",
+      "$152$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(5\\cdot 5+5\\cdot 5+5\\cdot 5)=150$."
   },
   {
@@ -1416,14 +1416,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "שטח פנים תיבה 2x2x8:",
+    "question_text": "מה שטח הפנים של תיבה שממדיה $2$, $2$ ו-$8$?",
     "options": [
-      "$68$",
-      "$65$",
-      "$67$",
-      "$72$"
+      "$72$",
+      "$32$",
+      "$36$",
+      "$74$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(2\\cdot 2+2\\cdot 8+2\\cdot 8)=72$."
   },
   {
@@ -1431,12 +1431,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "שטח פנים תיבה 2x4x5:",
+    "question_text": "מה שטח הפנים של תיבה שממדיה $2$, $4$ ו-$5$?",
     "options": [
       "$76$",
-      "$69$",
-      "$71$",
-      "$72$"
+      "$40$",
+      "$38$",
+      "$78$"
     ],
     "correct_index": 0,
     "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(2\\cdot 4+4\\cdot 5+2\\cdot 5)=76$."
@@ -1446,14 +1446,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח גליל r=1 h=10 ($\\pi$):",
+    "question_text": "מהו נפחו של גליל שרדיוסו $1$ וגובהו $10$? (השאירו את התשובה עם $\\pi$)",
     "options": [
-      "$\\pi$",
       "$10\\pi$",
       "$20\\pi$",
-      "$5\\pi$"
+      "$100\\pi$",
+      "$40\\pi$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "נפח גליל הוא $\\pi r^2 h=\\pi\\times 1^2\\times 10=10\\pi$."
   },
   {
@@ -1461,14 +1461,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "שטח פנים תיבה 1x5x6:",
+    "question_text": "מה שטח הפנים של תיבה שממדיה $1$, $5$ ו-$6$?",
     "options": [
-      "$77$",
-      "$78$",
-      "$75$",
-      "$82$"
+      "$82$",
+      "$30$",
+      "$41$",
+      "$84$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(1\\cdot 5+5\\cdot 6+1\\cdot 6)=82$."
   },
   {
@@ -1476,12 +1476,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נפח תיבה 2*4*5:",
+    "question_text": "מה הנפח של תיבה שממדיה $2$, $4$ ו-$5$?",
     "options": [
       "$40$",
-      "$36$",
-      "$33$",
-      "$35$"
+      "$11$",
+      "$76$",
+      "$8$"
     ],
     "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 4\\times 5=40$."
@@ -1491,14 +1491,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "שטח פנים תיבה 2x3x4:",
+    "question_text": "מה שטח הפנים של תיבה שממדיה $2$, $3$ ו-$4$?",
     "options": [
-      "$48$",
-      "$45$",
-      "$47$",
-      "$52$"
+      "$52$",
+      "$24$",
+      "$26$",
+      "$54$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח הפנים הוא $2(ab+bc+ac)=2(2\\cdot 3+3\\cdot 4+2\\cdot 4)=52$."
   },
   {
@@ -1506,12 +1506,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נפח תיבה 3*3*3:",
+    "question_text": "מה הנפח של תיבה שממדיה $3$, $3$ ו-$3$?",
     "options": [
       "$27$",
-      "$20$",
-      "$22$",
-      "$23$"
+      "$9$",
+      "$54$",
+      "$28$"
     ],
     "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 3\\times 3=27$."
@@ -1521,14 +1521,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נפח תיבה 1*5*6:",
+    "question_text": "מה הנפח של תיבה שממדיה $1$, $5$ ו-$6$?",
     "options": [
-      "$26$",
       "$30$",
-      "$25$",
-      "$23$"
+      "$12$",
+      "$82$",
+      "$5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $1\\times 5\\times 6=30$."
   },
   {
@@ -1536,14 +1536,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נפח תיבה 2*3*4:",
+    "question_text": "מה הנפח של תיבה שממדיה $2$, $3$ ו-$4$?",
     "options": [
-      "$20$",
-      "$17$",
       "$24$",
-      "$19$"
+      "$9$",
+      "$52$",
+      "$6$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $2\\times 3\\times 4=24$."
   },
   {
@@ -3951,14 +3951,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{2}$=",
+    "question_text": "מהו $\\log_{10}10^{2}$?",
     "options": [
-      "$-2$",
-      "$-5$",
       "$2$",
-      "$-3$"
+      "$3$",
+      "$20$",
+      "$1$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{2}=2$ (שכן $10^{2}$ עצמו הוא החזקה)."
   },
   {
@@ -3966,12 +3966,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{1}$=",
+    "question_text": "מהו $\\log_{10}10^{1}$?",
     "options": [
       "$1$",
-      "$-4$",
-      "$-3$",
-      "$-6$"
+      "$2$",
+      "$10$",
+      "$0$"
     ],
     "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{1}=1$ (שכן $10^{1}$ עצמו הוא החזקה)."
@@ -3981,14 +3981,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{5}$=",
+    "question_text": "מהו $\\log_{10}10^{5}$?",
     "options": [
-      "$0$",
-      "$-2$",
       "$5$",
-      "$1$"
+      "$6$",
+      "$50$",
+      "$4$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{5}=5$ (שכן $10^{5}$ עצמו הוא החזקה)."
   },
   {
@@ -3996,7 +3996,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(a^m)^n=$",
+    "question_text": "למה שווה $(a^m)^n$?",
     "options": [
       "$a^{m+n}$",
       "$a^{m/n}$",
@@ -4011,14 +4011,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\ln e$=",
+    "question_text": "מהו $\\ln e$?",
     "options": [
-      "10",
+      "$1$",
+      "$10$",
       "$e$",
-      "$0$",
-      "$1$"
+      "$0$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם הטבעי, $\\ln e=\\log_e e=1$."
   },
   {
@@ -4026,12 +4026,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{3}$=",
+    "question_text": "מהו $\\log_{10}10^{3}$?",
     "options": [
       "$3$",
-      "$-4$",
-      "$-1$",
-      "$-2$"
+      "$4$",
+      "$30$",
+      "$2$"
     ],
     "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{3}=3$ (שכן $10^{3}$ עצמו הוא החזקה)."
@@ -4041,7 +4041,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$e^{\\ln 5}$=",
+    "question_text": "מהו $e^{\\ln 5}$?",
     "options": [
       "$1$",
       "$5$",
@@ -4056,7 +4056,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$10^{-2}$=",
+    "question_text": "מהו $10^{-2}$?",
     "options": [
       "$-20$",
       "$0.01$",
@@ -4071,7 +4071,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\log_{10} 100$=",
+    "question_text": "מהו $\\log_{10} 100$?",
     "options": [
       "$10$",
       "$2$",
@@ -4086,7 +4086,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$\\log(ab)=$",
+    "question_text": "למה שווה $\\log(ab)$?",
     "options": [
       "$\\frac{\\log a}{\\log b}$",
       "$\\log a\\cdot\\log b$",
@@ -4101,7 +4101,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$2^{x}=8$. $x$=",
+    "question_text": "פתרו: $2^x=8$. מהו $x$?",
     "options": [
       "$8$",
       "$4$",
@@ -4116,14 +4116,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{4}$=",
+    "question_text": "מהו $\\log_{10}10^{4}$?",
     "options": [
-      "$0$",
-      "$-1$",
-      "$-3$",
-      "$4$"
+      "$4$",
+      "$5$",
+      "$40$",
+      "$3$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{4}=4$ (שכן $10^{4}$ עצמו הוא החזקה)."
   },
   {
@@ -4131,7 +4131,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "צמיחה $\\times 2$ כל שעה: אחר 3 שעות מכפיל:",
+    "question_text": "כמות גדלה פי $2$ בכל שעה. פי כמה היא תגדל אחרי $3$ שעות?",
     "options": [
       "$9$",
       "$8$",
@@ -4146,7 +4146,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$a^m a^n=$",
+    "question_text": "למה שווה $a^m a^n$?",
     "options": [
       "$a^{m-n}$",
       "$ma^n$",
@@ -4161,7 +4161,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-exp-log",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\log_2 8$=",
+    "question_text": "מהו $\\log_2 8$?",
     "options": [
       "$8$",
       "$3$",
@@ -4191,7 +4191,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-sequences",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "3,6,12,24,... הבא:",
+    "question_text": "מהו האיבר הבא בסדרה $3,6,12,24,\\ldots$?",
     "options": [
       "$48$",
       "$30$",
@@ -4266,7 +4266,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-sequences",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "a1=5, d=3. a4=",
+    "question_text": "בסדרה חשבונית $a_1=5$ ו-$d=3$. מהו $a_4$?",
     "options": [
       "$15$",
       "$14$",
@@ -4281,7 +4281,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-sequences",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "S=1+2+...+n =",
+    "question_text": "מהו הסכום $1+2+\\dots+n$?",
     "options": [
       "$n^2$",
       "$\\frac{n(n+1)}{2}$",
@@ -4311,7 +4311,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-sequences",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "a_n=2n+1. a_5=",
+    "question_text": "נתון $a_n=2n+1$. מהו $a_5$?",
     "options": [
       "$11$",
       "$12$",
@@ -4341,7 +4341,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-sequences",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "a_n=n^2. a_4=",
+    "question_text": "נתון $a_n=n^2$. מהו $a_4$?",
     "options": [
       "$12$",
       "$4$",
@@ -4371,7 +4371,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-sequences",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "2,4,6,8,... הבא:",
+    "question_text": "מהו האיבר הבא בסדרה $2,4,6,8,\\ldots$?",
     "options": [
       "$9$",
       "$7$",
@@ -4386,7 +4386,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-sequences",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "1,3,5,7,... הבא:",
+    "question_text": "מהו האיבר הבא בסדרה $1,3,5,7,\\ldots$?",
     "options": [
       "$8$",
       "$10$",
@@ -4416,7 +4416,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "צמיחה $\\times 2$ כל שעה: אחר 3 שעות מכפיל:",
+    "question_text": "כמות גדלה פי $2$ בכל שעה. פי כמה היא תגדל אחרי $3$ שעות?",
     "options": [
       "$6$",
       "$9$",
@@ -4431,7 +4431,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$2^{x}=8$. $x$=",
+    "question_text": "פתרו: $2^x=8$. מהו $x$?",
     "options": [
       "$2$",
       "$4$",
@@ -4446,7 +4446,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\log_{10} 100$=",
+    "question_text": "מהו $\\log_{10} 100$?",
     "options": [
       "$10$",
       "$100$",
@@ -4461,14 +4461,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{5}$=",
+    "question_text": "מהו $\\log_{10}10^{5}$?",
     "options": [
-      "$0$",
-      "$1$",
       "$5$",
-      "$-2$"
+      "$6$",
+      "$50$",
+      "$4$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{5}=5$ (שכן $10^{5}$ עצמו הוא החזקה)."
   },
   {
@@ -4476,12 +4476,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{2}$=",
+    "question_text": "מהו $\\log_{10}10^{2}$?",
     "options": [
       "$2$",
-      "$-5$",
-      "$-3$",
-      "$-2$"
+      "$3$",
+      "$20$",
+      "$1$"
     ],
     "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{2}=2$ (שכן $10^{2}$ עצמו הוא החזקה)."
@@ -4491,14 +4491,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{1}$=",
+    "question_text": "מהו $\\log_{10}10^{1}$?",
     "options": [
-      "$-6$",
       "$1$",
-      "$-4$",
-      "$-3$"
+      "$2$",
+      "$10$",
+      "$0$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{1}=1$ (שכן $10^{1}$ עצמו הוא החזקה)."
   },
   {
@@ -4506,7 +4506,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$10^{-2}$=",
+    "question_text": "מהו $10^{-2}$?",
     "options": [
       "$-20$",
       "$0.1$",
@@ -4521,7 +4521,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$e^{\\ln 5}$=",
+    "question_text": "מהו $e^{\\ln 5}$?",
     "options": [
       "$5$",
       "$1$",
@@ -4536,7 +4536,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$\\log(ab)=$",
+    "question_text": "למה שווה $\\log(ab)$?",
     "options": [
       "$\\log a\\cdot\\log b$",
       "$\\log a+\\log b$",
@@ -4551,14 +4551,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{3}$=",
+    "question_text": "מהו $\\log_{10}10^{3}$?",
     "options": [
-      "$-4$",
       "$3$",
-      "$-2$",
-      "$-1$"
+      "$4$",
+      "$30$",
+      "$2$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{3}=3$ (שכן $10^{3}$ עצמו הוא החזקה)."
   },
   {
@@ -4566,14 +4566,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{4}$=",
+    "question_text": "מהו $\\log_{10}10^{4}$?",
     "options": [
-      "$0$",
-      "$-1$",
       "$4$",
-      "$-3$"
+      "$5$",
+      "$40$",
+      "$3$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{4}=4$ (שכן $10^{4}$ עצמו הוא החזקה)."
   },
   {
@@ -4581,7 +4581,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(a^m)^n=$",
+    "question_text": "למה שווה $(a^m)^n$?",
     "options": [
       "$a^{mn}$",
       "$a^{m/n}$",
@@ -4596,7 +4596,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\log_2 8$=",
+    "question_text": "מהו $\\log_2 8$?",
     "options": [
       "$4$",
       "$8$",
@@ -4611,14 +4611,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\ln e$=",
+    "question_text": "מהו $\\ln e$?",
     "options": [
-      "$e$",
-      "10",
       "$1$",
+      "$e$",
+      "$10$",
       "$0$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם הטבעי, $\\ln e=\\log_e e=1$."
   },
   {
@@ -4626,7 +4626,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-growth-decay",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$a^m a^n=$",
+    "question_text": "למה שווה $a^m a^n$?",
     "options": [
       "$a^{mn}$",
       "$a^{m+n}$",
@@ -4656,14 +4656,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 9,12\\rangle$+$\\langle 12,9\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 9,12\\rangle+\\langle 12,9\\rangle$?",
     "options": [
-      "0",
-      "$\\langle 108,108\\rangle$",
       "$\\langle 21,21\\rangle$",
+      "$\\langle 108,108\\rangle$",
+      "$\\langle 42,42\\rangle$",
       "$\\langle 9,12\\rangle$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 9+12,12+9\\rangle=\\langle 21,21\\rangle$."
   },
   {
@@ -4671,14 +4671,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 6,8\\rangle$+$\\langle 8,6\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 6,8\\rangle+\\langle 8,6\\rangle$?",
     "options": [
-      "$\\langle 48,48\\rangle$",
-      "$\\langle 6,8\\rangle$",
       "$\\langle 14,14\\rangle$",
-      "0"
+      "$\\langle 48,48\\rangle$",
+      "$\\langle 28,28\\rangle$",
+      "$\\langle 6,8\\rangle$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 6+8,8+6\\rangle=\\langle 14,14\\rangle$."
   },
   {
@@ -4686,14 +4686,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 1,0\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 1,0\\rangle$?",
     "options": [
-      "$-4$",
       "$1$",
-      "$-3$",
-      "$-6$"
+      "$2$",
+      "$3$",
+      "$4$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{1^2+0^2}=1$."
   },
   {
@@ -4701,12 +4701,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 5,12\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 5,12\\rangle$?",
     "options": [
       "$13$",
-      "$8$",
-      "$6$",
-      "$9$"
+      "$17$",
+      "$169$",
+      "$14$"
     ],
     "correct_index": 0,
     "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{5^2+12^2}=13$."
@@ -4716,14 +4716,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 0,5\\rangle$+$\\langle 5,0\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 0,5\\rangle+\\langle 5,0\\rangle$?",
     "options": [
+      "$\\langle 5,5\\rangle$",
       "$\\langle 0,0\\rangle$",
-      "0",
-      "$\\langle 0,5\\rangle$",
-      "$\\langle 5,5\\rangle$"
+      "$\\langle 10,10\\rangle$",
+      "$\\langle 0,5\\rangle$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 0+5,5+0\\rangle=\\langle 5,5\\rangle$."
   },
   {
@@ -4731,12 +4731,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 8,15\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 8,15\\rangle$?",
     "options": [
       "$17$",
-      "$10$",
-      "$12$",
-      "$13$"
+      "$23$",
+      "$289$",
+      "$18$"
     ],
     "correct_index": 0,
     "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{8^2+15^2}=17$."
@@ -4746,14 +4746,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 1,0\\rangle$+$\\langle 0,1\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 1,0\\rangle+\\langle 0,1\\rangle$?",
     "options": [
-      "0",
-      "$\\langle 0,0\\rangle$",
       "$\\langle 1,1\\rangle$",
+      "$\\langle 0,0\\rangle$",
+      "$\\langle 2,2\\rangle$",
       "$\\langle 1,0\\rangle$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 1+0,0+1\\rangle=\\langle 1,1\\rangle$."
   },
   {
@@ -4761,14 +4761,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "כפל הווקטור $\\langle 3,4\\rangle$ בסקלר $2$ נותן:",
+    "question_text": "מהו הווקטור $2\\cdot\\langle 3,4\\rangle$?",
     "options": [
-      "14",
+      "$\\langle 6,8\\rangle$",
       "$\\langle 3,8\\rangle$",
       "$\\langle 5,6\\rangle$",
-      "$\\langle 6,8\\rangle$"
+      "$\\langle 6,4\\rangle$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "התשובה הנכונה היא $\\langle 6,8\\rangle$."
   },
   {
@@ -4776,14 +4776,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 3,4\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 3,4\\rangle$?",
     "options": [
-      "$1$",
       "$5$",
-      "$0$",
-      "$-2$"
+      "$7$",
+      "$25$",
+      "$6$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{3^2+4^2}=5$."
   },
   {
@@ -4791,14 +4791,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 9,12\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 9,12\\rangle$?",
     "options": [
-      "$10$",
       "$15$",
-      "$8$",
-      "$11$"
+      "$21$",
+      "$225$",
+      "$16$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{9^2+12^2}=15$."
   },
   {
@@ -4806,14 +4806,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 2,2\\rangle$+$\\langle 2,2\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 2,2\\rangle+\\langle 2,2\\rangle$?",
     "options": [
-      "$\\langle 2,2\\rangle$",
-      "0",
       "$\\langle 4,4\\rangle$",
-      "$\\langle 4,2\\rangle$"
+      "$\\langle 8,8\\rangle$",
+      "$\\langle 2,2\\rangle$",
+      "$\\langle 0,0\\rangle$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 2+2,2+2\\rangle=\\langle 4,4\\rangle$."
   },
   {
@@ -4821,14 +4821,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 3,4\\rangle$+$\\langle 4,3\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 3,4\\rangle+\\langle 4,3\\rangle$?",
     "options": [
-      "0",
       "$\\langle 7,7\\rangle$",
-      "$\\langle 3,4\\rangle$",
-      "$\\langle 12,12\\rangle$"
+      "$\\langle 12,12\\rangle$",
+      "$\\langle 14,14\\rangle$",
+      "$\\langle 3,4\\rangle$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 3+4,4+3\\rangle=\\langle 7,7\\rangle$."
   },
   {
@@ -4836,14 +4836,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 0,5\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 0,5\\rangle$?",
     "options": [
-      "$0$",
       "$5$",
-      "$1$",
-      "$-2$"
+      "$25$",
+      "$6$",
+      "$7$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{0^2+5^2}=5$."
   },
   {
@@ -4851,14 +4851,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 6,8\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 6,8\\rangle$?",
     "options": [
-      "$5$",
       "$10$",
-      "$3$",
-      "$6$"
+      "$14$",
+      "$100$",
+      "$11$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "גודל וקטור מחושב לפי $\\sqrt{a^2+b^2}=\\sqrt{6^2+8^2}=10$."
   },
   {
@@ -4866,14 +4866,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "וקטור אפס:",
+    "question_text": "מהו וקטור האפס במישור?",
     "options": [
-      "$i$",
       "$\\langle 0,0\\rangle$",
+      "$\\langle 0,1\\rangle$",
       "$\\langle 1,1\\rangle$",
       "$\\langle 1,0\\rangle$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "וקטור האפס הוא הווקטור שכל רכיביו $0$: $\\langle 0,0\\rangle$."
   },
   {
@@ -4881,14 +4881,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 5,12\\rangle$+$\\langle 12,5\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 5,12\\rangle+\\langle 12,5\\rangle$?",
     "options": [
+      "$\\langle 17,17\\rangle$",
       "$\\langle 60,60\\rangle$",
-      "$\\langle 5,12\\rangle$",
-      "0",
-      "$\\langle 17,17\\rangle$"
+      "$\\langle 34,34\\rangle$",
+      "$\\langle 5,12\\rangle$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 5+12,12+5\\rangle=\\langle 17,17\\rangle$."
   },
   {
@@ -4896,14 +4896,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 8,15\\rangle$+$\\langle 15,8\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 8,15\\rangle+\\langle 15,8\\rangle$?",
     "options": [
-      "0",
-      "$\\langle 120,120\\rangle$",
       "$\\langle 23,23\\rangle$",
+      "$\\langle 120,120\\rangle$",
+      "$\\langle 46,46\\rangle$",
       "$\\langle 8,15\\rangle$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 8+15,15+8\\rangle=\\langle 23,23\\rangle$."
   },
   {
@@ -4926,14 +4926,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-hypothesis",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "במבחן השערות: אם p=0.01 ו-alpha=0.05:",
+    "question_text": "במבחן השערות התקבל $p=0.01$, ורמת המובהקות היא $\\alpha=0.05$. מה ההחלטה?",
     "options": [
-      "מקבלים H0",
-      "דוחים H0",
+      "דוחים את $H_0$",
+      "לא דוחים את $H_0$",
       "לא ניתן להכריע",
-      "n=0"
+      "מגדילים את $\\alpha$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מכיוון ש-$p=0.01<\\alpha=0.05$, דוחים את $H_0$."
   },
   {
@@ -4941,12 +4941,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-hypothesis",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "רמת סמך 95% כוללת את:",
+    "question_text": "רווח סמך ברמת $95\\%$ הוא תחום ש:",
     "options": [
-      "הפרמטר בהסתברות גבוהה",
-      "p-value",
-      "H1",
-      "כל התצפיות"
+      "מכיל את הפרמטר באוכלוסייה ברמת ביטחון של $95\\%$",
+      "מכיל $95\\%$ מכל התצפיות",
+      "שווה לערך $p$",
+      "מוכיח את $H_1$"
     ],
     "correct_index": 0,
     "explanation": "רווח סמך ברמת $95\\%$ פירושו שבשיטת הבנייה, הפרמטר האמיתי נמצא בתוך הרווח שנבנה בהסתברות $95\\%$."
@@ -4956,14 +4956,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-hypothesis",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "z-score =",
+    "question_text": "מהי הנוסחה לציון תקן ($z$-score)?",
     "options": [
-      "$x\\sigma$",
-      "$(x-\\mu)/\\sigma$",
-      "$x+\\mu$",
-      "$\\mu/x$"
+      "$z=\\frac{x-\\mu}{\\sigma}$",
+      "$z=x\\cdot\\sigma$",
+      "$z=x+\\mu$",
+      "$z=\\frac{\\mu}{x}$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ציון תקן (z-score) מודד כמה סטיות תקן ערך מסוים רחוק מהממוצע: $z=(x-\\mu)/\\sigma$."
   },
   {
@@ -4971,29 +4971,29 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-hypothesis",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מרכז ההתפלגות הנורמלית (שבו חופפים הממוצע, החציון והשכיח) נקרא:",
+    "question_text": "בהתפלגות נורמלית, היכן נמצאים הממוצע, החציון והשכיח?",
     "options": [
-      "שכיח",
-      "אמצע",
-      "שונות",
-      "0"
+      "כולם באותה נקודה — במרכז הפעמון",
+      "הממוצע מימין לחציון",
+      "השכיח בקצה השמאלי",
+      "כל אחד במקום אחר"
     ],
-    "correct_index": 1,
-    "explanation": "בהתפלגות נורמלית הממוצע, החציון והשכיח חופפים כולם בנקודת האמצע של ההתפלגות (ציר הסימטריה)."
+    "correct_index": 0,
+    "explanation": "ההתפלגות הנורמלית סימטרית סביב מרכזה, ולכן הממוצע, החציון והשכיח מתלכדים — כולם בנקודת השיא של הפעמון."
   },
   {
     "id": "q-q-g12-u4-hypothesis-5",
     "topic_id": "g12-u4-hypothesis",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "H0 בדרך כלל:",
+    "question_text": "מהי בדרך כלל השערת האפס $H_0$?",
     "options": [
-      "השערת חלופית",
-      "p=1",
-      "ממוצע",
-      "השערת אפס / אין הבדל"
+      "ההשערה שאין הבדל או השפעה",
+      "ההשערה שיש הבדל או השפעה",
+      "ההשערה ש-$p=1$",
+      "ההשערה שהממוצע גדול מאפס"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "$H_0$ (השערת האפס) היא ההשערה הבסיסית שבודקים מולה, ובדרך כלל טוענת שאין הבדל/אין השפעה."
   },
   {
@@ -5001,14 +5001,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-hypothesis",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "p-value קטן מ-אלפא:",
+    "question_text": "מה עושים כאשר ערך $p$ קטן מרמת המובהקות $\\alpha$?",
     "options": [
-      "מקבלים H0",
-      "דוחים H0",
-      "p=1",
-      "לא קשור"
+      "דוחים את $H_0$",
+      "לא דוחים את $H_0$",
+      "מגדילים את המדגם עד ש-$p=1$",
+      "אין קשר בין $p$ ל-$\\alpha$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "כאשר $p<\\alpha$, התוצאה מובהקת סטטיסטית מספיק כדי לדחות את $H_0$."
   },
   {
@@ -5016,15 +5016,15 @@ export const QUESTIONS = [
     "topic_id": "g12-u4-hypothesis",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שגיאה מסוג I:",
+    "question_text": "מהי טעות מסוג I?",
     "options": [
-      "קבלת H0 שקר",
-      "דחיית H0 נכונה",
-      "p=0",
-      "n=0"
+      "דחיית $H_0$ כשהיא בעצם נכונה",
+      "אי-דחיית $H_0$ כשהיא בעצם שגויה",
+      "חישוב שגוי של הממוצע",
+      "בחירת מדגם קטן מדי"
     ],
-    "correct_index": 1,
-    "explanation": "שגיאה מסוג I מתרחשת כאשר דוחים את $H_0$ למרות שהיא נכונה (False Positive)."
+    "correct_index": 0,
+    "explanation": "טעות מסוג I: דוחים את $H_0$ למרות שהיא נכונה — התוצאה נראתה \"מובהקת\" רק בגלל מקריות. (טעות מסוג II: לא דוחים את $H_0$ כשהיא שגויה.)"
   },
   {
     "id": "q-g10-u5-fn-1",
@@ -7161,7 +7161,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-analytic-points-lines",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "משוואת ישר דרך (0,1),(0,5):",
+    "question_text": "מהי משוואת הישר העובר דרך $(0,1)$ ו-$(0,5)$?",
     "options": [
       "$x=1$",
       "$y=1$",
@@ -7251,7 +7251,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-analytic-points-lines",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "שיפוע ישר (1,2)-(4,8):",
+    "question_text": "מהו השיפוע של הישר העובר דרך הנקודות $(1,2)$ ו-$(4,8)$?",
     "options": [
       "$1$",
       "$3$",
@@ -7266,7 +7266,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-analytic-points-lines",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "אמצע (0,0),(4,6):",
+    "question_text": "מהי נקודת האמצע של הקטע בין $(0,0)$ ל-$(4,6)$?",
     "options": [
       "$(0,0)$",
       "$(4,6)$",
@@ -7341,14 +7341,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 0,5,1\\rangle$+$\\langle 5,0,2\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 0,5,1\\rangle+\\langle 5,0,2\\rangle$?",
     "options": [
-      "$\\langle 0,5,1\\rangle$",
-      "$\\langle 0,0,0\\rangle$",
+      "$\\langle 5,5,3\\rangle$",
+      "$\\langle 0,0,2\\rangle$",
       "$\\langle 10,10,6\\rangle$",
-      "$\\langle 5,5,3\\rangle$"
+      "$\\langle 0,5,1\\rangle$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 0+5,\\,5+0,\\,1+2\\rangle=\\langle 5,5,3\\rangle$."
   },
   {
@@ -7356,14 +7356,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 2,2,1\\rangle$+$\\langle 2,2,3\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 2,2,1\\rangle+\\langle 2,2,3\\rangle$?",
     "options": [
-      "$\\langle 0,0,0\\rangle$",
-      "$\\langle 8,8,8\\rangle$",
       "$\\langle 4,4,4\\rangle$",
+      "$\\langle 4,4,3\\rangle$",
+      "$\\langle 8,8,8\\rangle$",
       "$\\langle 2,2,1\\rangle$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 2+2,\\,2+2,\\,1+3\\rangle=\\langle 4,4,4\\rangle$."
   },
   {
@@ -7371,14 +7371,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 1,2,2\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 1,2,2\\rangle$?",
     "options": [
-      "$6$",
       "$3$",
-      "$1$",
+      "$5$",
+      "$9$",
       "$4$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{1^2+2^2+2^2}=3$."
   },
   {
@@ -7386,14 +7386,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "וקטור האפס במרחב:",
+    "question_text": "מהו וקטור האפס במרחב?",
     "options": [
-      "$i$",
       "$\\langle 0,0,0\\rangle$",
+      "$\\langle 0,0,1\\rangle$",
       "$\\langle 1,1,1\\rangle$",
       "$\\langle 1,0,0\\rangle$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "וקטור האפס הוא הווקטור שכל רכיביו $0$: $\\langle 0,0,0\\rangle$."
   },
   {
@@ -7401,14 +7401,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 2,6,9\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 2,6,9\\rangle$?",
     "options": [
-      "$9$",
-      "$12$",
-      "$14$",
-      "$11$"
+      "$11$",
+      "$17$",
+      "$121$",
+      "$12$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{2^2+6^2+9^2}=11$."
   },
   {
@@ -7416,14 +7416,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 3,4,1\\rangle$+$\\langle 4,3,2\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 3,4,1\\rangle+\\langle 4,3,2\\rangle$?",
     "options": [
-      "$\\langle 0,0,0\\rangle$",
-      "$\\langle 14,14,6\\rangle$",
       "$\\langle 7,7,3\\rangle$",
+      "$\\langle 12,12,2\\rangle$",
+      "$\\langle 14,14,6\\rangle$",
       "$\\langle 3,4,1\\rangle$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 3+4,\\,4+3,\\,1+2\\rangle=\\langle 7,7,3\\rangle$."
   },
   {
@@ -7431,14 +7431,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 9,12,4\\rangle$+$\\langle 12,9,5\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 9,12,4\\rangle+\\langle 12,9,5\\rangle$?",
     "options": [
-      "$\\langle 42,42,18\\rangle$",
       "$\\langle 21,21,9\\rangle$",
-      "$\\langle 9,12,4\\rangle$",
-      "$\\langle 0,0,0\\rangle$"
+      "$\\langle 108,108,20\\rangle$",
+      "$\\langle 42,42,18\\rangle$",
+      "$\\langle 9,12,4\\rangle$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 9+12,\\,12+9,\\,4+5\\rangle=\\langle 21,21,9\\rangle$."
   },
   {
@@ -7446,12 +7446,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 3,4,12\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 3,4,12\\rangle$?",
     "options": [
       "$13$",
-      "$11$",
-      "$14$",
-      "$16$"
+      "$19$",
+      "$169$",
+      "$14$"
     ],
     "correct_index": 0,
     "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{3^2+4^2+12^2}=13$."
@@ -7461,12 +7461,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "כפל הווקטור $\\langle 3,4\\rangle$ בסקלר $2$ נותן:",
+    "question_text": "מהו הווקטור $2\\cdot\\langle 3,4\\rangle$?",
     "options": [
       "$\\langle 6,8\\rangle$",
-      "14",
+      "$\\langle 3,8\\rangle$",
       "$\\langle 5,6\\rangle$",
-      "$\\langle 3,8\\rangle$"
+      "$\\langle 6,4\\rangle$"
     ],
     "correct_index": 0,
     "explanation": "כופלים כל רכיב בסקלר: $2\\cdot\\langle 3,4\\rangle=\\langle 2\\cdot3,\\,2\\cdot4\\rangle=\\langle 6,8\\rangle$."
@@ -7476,12 +7476,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 6,8,2\\rangle$+$\\langle 8,6,3\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 6,8,2\\rangle+\\langle 8,6,3\\rangle$?",
     "options": [
       "$\\langle 14,14,5\\rangle$",
-      "$\\langle 6,8,2\\rangle$",
-      "$\\langle 0,0,0\\rangle$",
-      "$\\langle 28,28,10\\rangle$"
+      "$\\langle 48,48,6\\rangle$",
+      "$\\langle 28,28,10\\rangle$",
+      "$\\langle 6,8,2\\rangle$"
     ],
     "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 6+8,\\,8+6,\\,2+3\\rangle=\\langle 14,14,5\\rangle$."
@@ -7491,14 +7491,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 4,4,7\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 4,4,7\\rangle$?",
     "options": [
-      "$7$",
-      "$10$",
-      "$12$",
-      "$9$"
+      "$9$",
+      "$15$",
+      "$81$",
+      "$10$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{4^2+4^2+7^2}=9$."
   },
   {
@@ -7506,14 +7506,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 8,15,1\\rangle$+$\\langle 15,8,2\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 8,15,1\\rangle+\\langle 15,8,2\\rangle$?",
     "options": [
-      "$\\langle 0,0,0\\rangle$",
-      "$\\langle 46,46,6\\rangle$",
       "$\\langle 23,23,3\\rangle$",
+      "$\\langle 120,120,2\\rangle$",
+      "$\\langle 46,46,6\\rangle$",
       "$\\langle 8,15,1\\rangle$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 8+15,\\,15+8,\\,1+2\\rangle=\\langle 23,23,3\\rangle$."
   },
   {
@@ -7521,14 +7521,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 2,3,6\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 2,3,6\\rangle$?",
     "options": [
-      "$10$",
       "$7$",
-      "$5$",
+      "$11$",
+      "$49$",
       "$8$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{2^2+3^2+6^2}=7$."
   },
   {
@@ -7536,12 +7536,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 1,0,0\\rangle$+$\\langle 0,1,1\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 1,0,0\\rangle+\\langle 0,1,1\\rangle$?",
     "options": [
       "$\\langle 1,1,1\\rangle$",
-      "$\\langle 1,0,0\\rangle$",
       "$\\langle 0,0,0\\rangle$",
-      "$\\langle 2,2,2\\rangle$"
+      "$\\langle 2,2,2\\rangle$",
+      "$\\langle 1,0,0\\rangle$"
     ],
     "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 1+0,\\,0+1,\\,0+1\\rangle=\\langle 1,1,1\\rangle$."
@@ -7551,14 +7551,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 1,4,8\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 1,4,8\\rangle$?",
     "options": [
-      "$7$",
-      "$10$",
-      "$12$",
-      "$9$"
+      "$9$",
+      "$13$",
+      "$81$",
+      "$10$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{1^2+4^2+8^2}=9$."
   },
   {
@@ -7566,14 +7566,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|$\\langle 4,13,16\\rangle$|=",
+    "question_text": "מהו האורך של הווקטור $\\langle 4,13,16\\rangle$?",
     "options": [
-      "$22$",
-      "$24$",
       "$21$",
-      "$19$"
+      "$33$",
+      "$441$",
+      "$22$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "גודל וקטור במרחב מחושב לפי $\\sqrt{a^2+b^2+c^2}=\\sqrt{4^2+13^2+16^2}=21$."
   },
   {
@@ -7581,14 +7581,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-vectors",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\langle 5,12,3\\rangle$+$\\langle 12,5,4\\rangle$=",
+    "question_text": "מהו הסכום $\\langle 5,12,3\\rangle+\\langle 12,5,4\\rangle$?",
     "options": [
-      "$\\langle 34,34,14\\rangle$",
       "$\\langle 17,17,7\\rangle$",
-      "$\\langle 5,12,3\\rangle$",
-      "$\\langle 0,0,0\\rangle$"
+      "$\\langle 60,60,12\\rangle$",
+      "$\\langle 34,34,14\\rangle$",
+      "$\\langle 5,12,3\\rangle$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מחברים וקטורים רכיב-רכיב: $\\langle 5+12,\\,12+5,\\,3+4\\rangle=\\langle 17,17,7\\rangle$."
   },
   {
@@ -7611,7 +7611,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "צמוד של a+bi:",
+    "question_text": "מהו הצמוד של המספר המרוכב $a+bi$?",
     "options": [
       "$b+ai$",
       "$-a+bi$",
@@ -7626,12 +7626,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|8+15i|=",
+    "question_text": "מהו הערך המוחלט $|8+15i|$?",
     "options": [
       "$17$",
-      "$10$",
-      "$13$",
-      "$12$"
+      "$23$",
+      "$289$",
+      "$7$"
     ],
     "correct_index": 0,
     "explanation": "גודל מספר מרוכב הוא $|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{8^2+15^2}=17$."
@@ -7641,14 +7641,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|4+3i|=",
+    "question_text": "מהו הערך המוחלט $|4+3i|$?",
     "options": [
-      "$0$",
       "$5$",
-      "$-2$",
+      "$7$",
+      "$25$",
       "$1$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "גודל מספר מרוכב הוא $|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{4^2+3^2}=5$."
   },
   {
@@ -7656,7 +7656,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "(2+3i)+(1-5i)=",
+    "question_text": "חשבו: $(2+3i)+(1-5i)$.",
     "options": [
       "$3-2i$",
       "$3+8i$",
@@ -7671,7 +7671,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "(2+3i)-(1-5i)=",
+    "question_text": "חשבו: $(2+3i)-(1-5i)$.",
     "options": [
       "$1-2i$",
       "$3-2i$",
@@ -7686,7 +7686,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "i^4=",
+    "question_text": "מהו $i^4$?",
     "options": [
       "$-1$",
       "$1$",
@@ -7701,14 +7701,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|9+12i|=",
+    "question_text": "מהו הערך המוחלט $|9+12i|$?",
     "options": [
-      "$11$",
       "$15$",
-      "$8$",
-      "$10$"
+      "$21$",
+      "$225$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "גודל מספר מרוכב הוא $|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{9^2+12^2}=15$."
   },
   {
@@ -7716,12 +7716,12 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "|5-12i|=",
+    "question_text": "מהו הערך המוחלט $|5-12i|$?",
     "options": [
       "$13$",
-      "$60$",
-      "$7$",
-      "$17$"
+      "$17$",
+      "$169$",
+      "$7$"
     ],
     "correct_index": 0,
     "explanation": "$|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{5^2+(-12)^2}=\\sqrt{25+144}=\\sqrt{169}=13$."
@@ -7731,14 +7731,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "|6+8i|=",
+    "question_text": "מהו הערך המוחלט $|6+8i|$?",
     "options": [
-      "$3$",
-      "$6$",
       "$10$",
-      "$5$"
+      "$14$",
+      "$100$",
+      "$2$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "גודל מספר מרוכב הוא $|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{6^2+8^2}=10$."
   },
   {
@@ -7746,7 +7746,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "i^2=",
+    "question_text": "מהו $i^2$?",
     "options": [
       "$1$",
       "$0$",
@@ -7761,7 +7761,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "Im(2-5i)=",
+    "question_text": "מהו החלק המדומה $\\text{Im}(2-5i)$?",
     "options": [
       "$5$",
       "$2$",
@@ -7776,7 +7776,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "|i|=",
+    "question_text": "מהו $|i|$?",
     "options": [
       "$0$",
       "$1$",
@@ -7791,7 +7791,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "Re(2-5i)=",
+    "question_text": "מהו החלק הממשי $\\text{Re}(2-5i)$?",
     "options": [
       "$-5$",
       "$2$",
@@ -7806,14 +7806,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-complex",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "|3+4i|=",
+    "question_text": "מהו הערך המוחלט $|3+4i|$?",
     "options": [
-      "$1$",
-      "$12$",
+      "$5$",
       "$7$",
-      "$5$"
+      "$25$",
+      "$1$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "גודל מספר מרוכב הוא $|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{3^2+4^2}=5$."
   },
   {
@@ -7836,7 +7836,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$(a^m)^n=$",
+    "question_text": "למה שווה $(a^m)^n$?",
     "options": [
       "$na^m$",
       "$a^{mn}$",
@@ -7851,7 +7851,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$2^{x}=8$. $x$=",
+    "question_text": "פתרו: $2^x=8$. מהו $x$?",
     "options": [
       "$2$",
       "$4$",
@@ -7866,7 +7866,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "$\\log(ab)=$",
+    "question_text": "למה שווה $\\log(ab)$?",
     "options": [
       "$\\log a+\\log b$",
       "$\\log(a+b)$",
@@ -7881,14 +7881,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\ln e$=",
+    "question_text": "מהו $\\ln e$?",
     "options": [
-      "10",
       "$1$",
+      "$10$",
       "$e$",
       "$0$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם הטבעי, $\\ln e=\\log_e e=1$."
   },
   {
@@ -7896,7 +7896,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\log_{10} 100$=",
+    "question_text": "מהו $\\log_{10} 100$?",
     "options": [
       "$2$",
       "$1$",
@@ -7911,14 +7911,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{1}$=",
+    "question_text": "מהו $\\log_{10}10^{1}$?",
     "options": [
-      "$-4$",
-      "$-3$",
       "$1$",
-      "$-6$"
+      "$2$",
+      "$10$",
+      "$0$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{1}=1$ (שכן $10^{1}$ עצמו הוא החזקה)."
   },
   {
@@ -7926,14 +7926,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{5}$=",
+    "question_text": "מהו $\\log_{10}10^{5}$?",
     "options": [
-      "$-2$",
-      "$1$",
-      "$0$",
-      "$5$"
+      "$5$",
+      "$6$",
+      "$50$",
+      "$4$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{5}=5$ (שכן $10^{5}$ עצמו הוא החזקה)."
   },
   {
@@ -7941,7 +7941,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$\\log_2 8$=",
+    "question_text": "מהו $\\log_2 8$?",
     "options": [
       "$4$",
       "$3$",
@@ -7956,7 +7956,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$e^{\\ln 5}$=",
+    "question_text": "מהו $e^{\\ln 5}$?",
     "options": [
       "$e$",
       "$0$",
@@ -7971,14 +7971,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{2}$=",
+    "question_text": "מהו $\\log_{10}10^{2}$?",
     "options": [
-      "$-5$",
-      "$-3$",
-      "$-2$",
-      "$2$"
+      "$2$",
+      "$3$",
+      "$20$",
+      "$1$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{2}=2$ (שכן $10^{2}$ עצמו הוא החזקה)."
   },
   {
@@ -7986,7 +7986,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$10^{-2}$=",
+    "question_text": "מהו $10^{-2}$?",
     "options": [
       "$0.1$",
       "$-20$",
@@ -8001,14 +8001,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{4}$=",
+    "question_text": "מהו $\\log_{10}10^{4}$?",
     "options": [
-      "$-3$",
       "$4$",
-      "$0$",
-      "$-1$"
+      "$5$",
+      "$40$",
+      "$3$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{4}=4$ (שכן $10^{4}$ עצמו הוא החזקה)."
   },
   {
@@ -8016,7 +8016,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "$a^m a^n=$",
+    "question_text": "למה שווה $a^m a^n$?",
     "options": [
       "$ma^n$",
       "$a^{m+n}$",
@@ -8031,7 +8031,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "צמיחה $\\times 2$ כל שעה: אחר 3 שעות מכפיל:",
+    "question_text": "כמות גדלה פי $2$ בכל שעה. פי כמה היא תגדל אחרי $3$ שעות?",
     "options": [
       "$6$",
       "$8$",
@@ -8046,14 +8046,14 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "$\\log_{10} 10^{3}$=",
+    "question_text": "מהו $\\log_{10}10^{3}$?",
     "options": [
-      "$-1$",
-      "$-4$",
-      "$-2$",
-      "$3$"
+      "$3$",
+      "$4$",
+      "$30$",
+      "$2$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "לפי הגדרת הלוגריתם, $\\log_{10}10^{3}=3$ (שכן $10^{3}$ עצמו הוא החזקה)."
   },
   {
@@ -18156,7 +18156,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u3-solids",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "עבור אותו חרוט ($r=3$, $\\ell=5$), מהו שטח המעטפת?",
+    "question_text": "חרוט שרדיוסו $3$ ואורך המקצוע (הקו היוצר) שלו $\\ell=5$. מהו שטח המעטפת?",
     "options": [
       "$15\\pi$",
       "$9\\pi$",
@@ -21006,7 +21006,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-analytic-ellipse",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "עבור אותה אליפסה, מהם שיעורי המוקדים?",
+    "question_text": "מהם שיעורי המוקדים של האליפסה $\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$?",
     "options": [
       "$(\\pm4,0)$",
       "$(0,\\pm4)$",
@@ -21014,7 +21014,7 @@ export const QUESTIONS = [
       "$(\\pm3,0)$"
     ],
     "correct_index": 0,
-    "explanation": "כיוון שהמוקדים על ציר $x$ ו-$c=4$, שיעוריהם $(\\pm4,0)$."
+    "explanation": "$c^2=a^2-b^2=25-9=16\\Rightarrow c=4$. כיוון ש-$a^2=25$ נמצא מתחת ל-$x^2$, המוקדים על ציר $x$: $(\\pm4,0)$."
   },
   {
     "id": "q-g12-u5-aell-7",
@@ -21141,7 +21141,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-analytic-hyperbola",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "עבור אותה היפרבולה, מהו $c$?",
+    "question_text": "עבור ההיפרבולה $\\dfrac{x^2}{9}-\\dfrac{y^2}{16}=1$, מהו $c$?",
     "options": [
       "$5$",
       "$25$",
@@ -22476,7 +22476,7 @@ export const QUESTIONS = [
     "topic_id": "g12-u5-exp-log",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "עבור $f(x)=\\dfrac{1}{e^x-2}+\\dfrac{3}{e^x-7}+a$, ידוע כי $y=3$ היא אסימפטוטה אופקית של הפונקציה. מהו $a$?",
+    "question_text": "עבור $f(x)=\\dfrac{1}{e^x-2}+\\dfrac{3}{e^x-7}+a$, ידוע כי $y=3$ היא האסימפטוטה האופקית של הפונקציה כאשר $x\\to\\infty$. מהו $a$?",
     "options": [
       "$3$",
       "$0$",
