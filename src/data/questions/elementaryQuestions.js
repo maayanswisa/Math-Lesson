@@ -5573,13 +5573,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{5}{10}+\\frac{5}{10}$.",
     "options": [
-      "$\\frac{5}{5}$",
-      "$\\frac{10}{20}$",
-      "$\\frac{5}{15}$",
-      "$10$"
+      "$1$",
+      "$\\frac{1}{2}$",
+      "$2$",
+      "$\\frac{11}{10}$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{5}{10}+\\frac{5}{10}$. התוצאה: $1$ (כפי שמופיע באפשרויות)."
+    "explanation": "המכנים שווים ($10$), לכן מחברים את המונים: $5+5=10$. $\\frac{5}{10}+\\frac{5}{10}=\\frac{10}{10}$ מצמצמים: $\\frac{10}{10}=1$."
   },
   {
     "id": "q-g5-dec-1",
@@ -5603,13 +5603,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $1.5+0.5$.",
     "options": [
-      "$2.1$",
-      "$0.75$",
       "$2$",
+      "$3$",
+      "$1.9$",
       "$1$"
     ],
-    "correct_index": 2,
-    "explanation": "החישוב: $1.5+0.5=2$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $1.5$ ו-$0.5$. מחברים כמו מספרים שלמים, והנקודה נשארת במקום: $1.5+0.5=2.0$. $=2$"
   },
   {
     "id": "q-q-g5-decimals-ops-2",
@@ -5618,13 +5618,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $1.5-0.5$.",
     "options": [
+      "$1$",
       "$2$",
-      "$-1$",
-      "$0.75$",
-      "$1$"
+      "$0.9$",
+      "$1.1$"
     ],
-    "correct_index": 3,
-    "explanation": "החישוב: $1.5-0.5=1$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $1.5$ ו-$0.5$. מחסרים כמו מספרים שלמים, והנקודה נשארת במקום: $1.5-0.5=1.0$. $=1$"
   },
   {
     "id": "q-q-g5-decimals-ops-3",
@@ -5633,27 +5633,27 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $4.0-0.5$.",
     "options": [
-      "$4.5$",
-      "$2$",
       "$3.5$",
-      "$-3.5$"
+      "$4.5$",
+      "$3.4$",
+      "$3.6$"
     ],
-    "correct_index": 2,
-    "explanation": "החישוב: $4.0-0.5=3.5$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $4.0$ ו-$0.5$. מחסרים כמו מספרים שלמים, והנקודה נשארת במקום: $4.0-0.5=3.5$."
   },
   {
     "id": "q-q-g5-decimals-ops-4",
     "topic_id": "g5-decimals-ops",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $0.25$ או $0.7$?",
+    "question_text": "איזה מספר גדול יותר: $0.25$ או $0.7$?",
     "options": [
-      "$1$",
-      "שווים",
       "$0.7$",
-      "$0.25$"
+      "$0.25$",
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $0.7$ גדול מ-$0.25$."
   },
   {
@@ -5663,25 +5663,25 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $3.5-1.25$.",
     "options": [
-      "$4.75$",
-      "$-2.25$",
-      "$4.38$",
-      "$2.25$"
+      "$2.25$",
+      "$3.25$",
+      "$2.15$",
+      "$4.75$"
     ],
-    "correct_index": 3,
-    "explanation": "החישוב: $3.5-1.25=2.25$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $3.50$ ו-$1.25$. מחסרים כמו מספרים שלמים, והנקודה נשארת במקום: $3.50-1.25=2.25$."
   },
   {
     "id": "q-q-g5-decimals-ops-8",
     "topic_id": "g5-decimals-ops",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $2.5$ או $5.25$?",
+    "question_text": "איזה מספר גדול יותר: $2.5$ או $5.25$?",
     "options": [
       "$5.25$",
       "$2.5$",
-      "שווים",
-      "$1$"
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
     "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $5.25$ גדול מ-$2.5$."
@@ -5691,14 +5691,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-decimals-ops",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $5.25$ או $0.3$?",
+    "question_text": "איזה מספר גדול יותר: $5.25$ או $0.3$?",
     "options": [
-      "$0.3$",
       "$5.25$",
-      "$1$",
-      "שווים"
+      "$0.3$",
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $5.25$ גדול מ-$0.3$."
   },
   {
@@ -5708,13 +5708,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $4.0+0.5$.",
     "options": [
-      "$4.6$",
-      "$2$",
-      "$3.5$",
-      "$4.5$"
+      "$4.5$",
+      "$5.5$",
+      "$4.4$",
+      "$3.5$"
     ],
-    "correct_index": 3,
-    "explanation": "החישוב: $4.0+0.5=4.5$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $4.0$ ו-$0.5$. מחברים כמו מספרים שלמים, והנקודה נשארת במקום: $4.0+0.5=4.5$."
   },
   {
     "id": "q-q-g5-decimals-ops-11",
@@ -5723,13 +5723,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $2.3+1.1$.",
     "options": [
-      "$2.53$",
       "$3.4$",
-      "$1.2$",
-      "$3.5$"
+      "$4.4$",
+      "$3.3$",
+      "$1.2$"
     ],
-    "correct_index": 1,
-    "explanation": "החישוב: $2.3+1.1=3.4$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $2.3$ ו-$1.1$. מחברים כמו מספרים שלמים, והנקודה נשארת במקום: $2.3+1.1=3.4$."
   },
   {
     "id": "q-q-g5-decimals-ops-12",
@@ -5738,27 +5738,27 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $1.2+0.4$.",
     "options": [
-      "$0.8$",
       "$1.6$",
-      "$0.48$",
-      "$1.7$"
+      "$2.6$",
+      "$1.5$",
+      "$0.8$"
     ],
-    "correct_index": 1,
-    "explanation": "החישוב: $1.2+0.4=1.6$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $1.2$ ו-$0.4$. מחברים כמו מספרים שלמים, והנקודה נשארת במקום: $1.2+0.4=1.6$."
   },
   {
     "id": "q-q-g5-decimals-ops-13",
     "topic_id": "g5-decimals-ops",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $0.2$ או $0.5$?",
+    "question_text": "איזה מספר גדול יותר: $0.2$ או $0.5$?",
     "options": [
-      "שווים",
-      "$1$",
+      "$0.5$",
       "$0.2$",
-      "$0.5$"
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $0.5$ גדול מ-$0.2$."
   },
   {
@@ -5766,14 +5766,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-decimals-ops",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $1.5$ או $4.2$?",
+    "question_text": "איזה מספר גדול יותר: $1.5$ או $4.2$?",
     "options": [
-      "שווים",
-      "$1$",
       "$4.2$",
-      "$1.5$"
+      "$1.5$",
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $4.2$ גדול מ-$1.5$."
   },
   {
@@ -5783,25 +5783,25 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $2.5-0.5$.",
     "options": [
-      "$-2$",
       "$2$",
       "$3$",
-      "$1.25$"
+      "$1.9$",
+      "$2.1$"
     ],
-    "correct_index": 1,
-    "explanation": "החישוב: $2.5-0.5=2$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $2.5$ ו-$0.5$. מחסרים כמו מספרים שלמים, והנקודה נשארת במקום: $2.5-0.5=2.0$. $=2$"
   },
   {
     "id": "q-q-g5-decimals-ops-17",
     "topic_id": "g5-decimals-ops",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $0.35$ או $1.2$?",
+    "question_text": "איזה מספר גדול יותר: $0.35$ או $1.2$?",
     "options": [
       "$1.2$",
       "$0.35$",
-      "שווים",
-      "$1$"
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
     "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $1.2$ גדול מ-$0.35$."
@@ -5826,7 +5826,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-decimals-ops",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "במספר $0.7$ ספרת העשיריות:",
+    "question_text": "מהי ספרת העשיריות במספר $0.7$?",
     "options": [
       "$7$",
       "$0$",
@@ -5856,14 +5856,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $11\\times 4\\times 3$:",
+    "question_text": "מה הנפח של תיבה שממדיה $11$, $4$ ו-$3$?",
     "options": [
-      "$125$",
-      "$128$",
       "$132$",
-      "$127$"
+      "$18$",
+      "$178$",
+      "$44$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $11\\times 4\\times 3=132$."
   },
   {
@@ -5871,12 +5871,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $7\\times 2$:",
+    "question_text": "מה ההיקף של מלבן שאורכו $7$ ורוחבו $2$?",
     "options": [
       "$18$",
       "$14$",
-      "$13$",
-      "$11$"
+      "$9$",
+      "$20$"
     ],
     "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(7+2)=18$."
@@ -5886,14 +5886,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $5\\times 9$:",
+    "question_text": "מה ההיקף של מלבן שאורכו $5$ ורוחבו $9$?",
     "options": [
-      "$24$",
-      "$23$",
-      "$21$",
-      "$28$"
+      "$28$",
+      "$45$",
+      "$14$",
+      "$30$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(5+9)=28$."
   },
   {
@@ -5901,12 +5901,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $2$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $2$?",
     "options": [
       "$4$",
-      "$0$",
-      "$-3$",
-      "$-1$"
+      "$8$",
+      "$6$",
+      "$5$"
     ],
     "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $2^2=4$."
@@ -5916,14 +5916,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $3\\times 7$:",
+    "question_text": "מה ההיקף של מלבן שאורכו $3$ ורוחבו $7$?",
     "options": [
-      "$16$",
-      "$13$",
-      "$15$",
-      "$20$"
+      "$20$",
+      "$21$",
+      "$10$",
+      "$22$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(3+7)=20$."
   },
   {
@@ -5931,14 +5931,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $7\\times 7\\times 4$:",
+    "question_text": "מה הנפח של תיבה שממדיה $7$, $7$ ו-$4$?",
     "options": [
-      "$189$",
-      "$191$",
       "$196$",
-      "$192$"
+      "$18$",
+      "$210$",
+      "$49$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $7\\times 7\\times 4=196$."
   },
   {
@@ -5946,14 +5946,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $8\\times 5$:",
+    "question_text": "מה ההיקף של מלבן שאורכו $8$ ורוחבו $5$?",
     "options": [
-      "$19$",
       "$26$",
-      "$21$",
-      "$22$"
+      "$40$",
+      "$13$",
+      "$28$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(8+5)=26$."
   },
   {
@@ -5961,14 +5961,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $2\\times 6$:",
+    "question_text": "מה השטח של מלבן שאורכו $2$ ורוחבו $6$?",
     "options": [
-      "$5$",
       "$12$",
+      "$16$",
       "$8$",
-      "$7$"
+      "$14$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $2\\times 6=12$."
   },
   {
@@ -5976,14 +5976,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $5$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $5$?",
     "options": [
-      "$18$",
-      "$21$",
+      "$25$",
       "$20$",
-      "$25$"
+      "$10$",
+      "$30$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $5^2=25$."
   },
   {
@@ -5991,14 +5991,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $7$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $7$?",
     "options": [
-      "$42$",
       "$49$",
-      "$45$",
-      "$44$"
+      "$28$",
+      "$14$",
+      "$56$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $7^2=49$."
   },
   {
@@ -6006,14 +6006,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $10$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $10$?",
     "options": [
-      "$36$",
-      "$33$",
       "$40$",
-      "$35$"
+      "$100$",
+      "$20$",
+      "$50$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 10=40$."
   },
   {
@@ -6021,14 +6021,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $7\\times 9\\times 6$:",
+    "question_text": "מה הנפח של תיבה שממדיה $7$, $9$ ו-$6$?",
     "options": [
-      "$374$",
       "$378$",
-      "$371$",
-      "$373$"
+      "$22$",
+      "$318$",
+      "$63$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $7\\times 9\\times 6=378$."
   },
   {
@@ -6036,14 +6036,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $9\\times 3\\times 5$:",
+    "question_text": "מה הנפח של תיבה שממדיה $9$, $3$ ו-$5$?",
     "options": [
-      "$130$",
       "$135$",
-      "$131$",
-      "$128$"
+      "$17$",
+      "$174$",
+      "$27$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $9\\times 3\\times 5=135$."
   },
   {
@@ -6051,12 +6051,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $8$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $8$?",
     "options": [
       "$64$",
-      "$57$",
-      "$60$",
-      "$59$"
+      "$32$",
+      "$16$",
+      "$72$"
     ],
     "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $8^2=64$."
@@ -6066,14 +6066,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $11$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $11$?",
     "options": [
-      "$40$",
-      "$39$",
       "$44$",
-      "$37$"
+      "$121$",
+      "$22$",
+      "$55$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 11=44$."
   },
   {
@@ -6081,12 +6081,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $3\\times 6\\times 6$:",
+    "question_text": "מה הנפח של תיבה שממדיה $3$, $6$ ו-$6$?",
     "options": [
       "$108$",
-      "$103$",
-      "$101$",
-      "$104$"
+      "$15$",
+      "$144$",
+      "$18$"
     ],
     "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 6\\times 6=108$."
@@ -6096,14 +6096,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $8$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $8$?",
     "options": [
-      "$27$",
-      "$28$",
       "$32$",
-      "$25$"
+      "$64$",
+      "$16$",
+      "$40$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 8=32$."
   },
   {
@@ -6111,14 +6111,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $7$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $7$?",
     "options": [
-      "$23$",
-      "$24$",
-      "$21$",
-      "$28$"
+      "$28$",
+      "$49$",
+      "$14$",
+      "$35$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 7=28$."
   },
   {
@@ -6126,14 +6126,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $5$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $5$?",
     "options": [
-      "$13$",
-      "$16$",
       "$20$",
-      "$15$"
+      "$25$",
+      "$10$",
+      "$21$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 5=20$."
   },
   {
@@ -6156,285 +6156,285 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $6$, $8$, $12$, $14$, $19$?",
+    "question_text": "מהו החציון של המספרים $6, 8, 12, 14, 19$?",
     "options": [
-      "$8$",
       "$12$",
-      "$7$",
-      "$5$"
+      "$8$",
+      "$14$",
+      "$6$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 6, 8, 12, 14, 19. החציון הוא הערך האמצעי — $12$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $6, 8, 12, 14, 19$. יש 5 מספרים, והאמצעי הוא השלישי — $12$."
   },
   {
     "id": "q-q-g5-data-2",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $7$, $20$, $21$, $27$?",
+    "question_text": "מהו החציון של המספרים $2, 7, 20, 21, 27$?",
     "options": [
       "$20$",
-      "$16$",
-      "$15$",
-      "$13$"
+      "$7$",
+      "$21$",
+      "$15$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 2, 7, 20, 21, 27. החציון הוא הערך האמצעי — $20$."
+    "explanation": "ממיינים: $2, 7, 20, 21, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $20$."
   },
   {
     "id": "q-q-g5-data-3",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $11$, $18$, $22$, $28$?",
+    "question_text": "מהו החציון של המספרים $2, 11, 18, 22, 28$?",
     "options": [
-      "$13$",
+      "$18$",
       "$11$",
-      "$14$",
-      "$18$"
+      "$22$",
+      "$16$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 2, 11, 18, 22, 28. החציון הוא הערך האמצעי — $18$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $2, 11, 18, 22, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $18$."
   },
   {
     "id": "q-q-g5-data-4",
     "topic_id": "g5-median-average",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $2$, $10$, $15$, $20$, $28$?",
+    "question_text": "מהו הממוצע של המספרים $2, 10, 15, 20, 28$?",
     "options": [
       "$15$",
-      "$11$",
-      "$8$",
-      "$10$"
+      "$2$",
+      "$18$",
+      "$13$"
     ],
     "correct_index": 0,
-    "explanation": "סכום המספרים הוא $75$, ומחלקים במספר המספרים ($5$): $75\\div 5=15$."
+    "explanation": "סכום המספרים: $75$. מחלקים במספר המספרים ($5$): $75:5=15$."
   },
   {
     "id": "q-q-g5-data-5",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $6$, $7$, $14$, $22$, $25$?",
+    "question_text": "מהו החציון של המספרים $6, 7, 14, 22, 25$?",
     "options": [
-      "$10$",
       "$14$",
       "$7$",
-      "$9$"
+      "$22$",
+      "$15$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 6, 7, 14, 22, 25. החציון הוא הערך האמצעי — $14$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $6, 7, 14, 22, 25$. יש 5 מספרים, והאמצעי הוא השלישי — $14$."
   },
   {
     "id": "q-q-g5-data-6",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $5$, $9$, $21$, $24$, $28$?",
+    "question_text": "מהו החציון של המספרים $5, 9, 21, 24, 28$?",
     "options": [
-      "$16$",
-      "$17$",
       "$21$",
-      "$14$"
+      "$9$",
+      "$24$",
+      "$17$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 5, 9, 21, 24, 28. החציון הוא הערך האמצעי — $21$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $5, 9, 21, 24, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $21$."
   },
   {
     "id": "q-q-g5-data-7",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $6$, $13$, $14$, $24$, $26$?",
+    "question_text": "מהו החציון של המספרים $6, 13, 14, 24, 26$?",
     "options": [
-      "$7$",
-      "$10$",
       "$14$",
-      "$9$"
+      "$13$",
+      "$24$",
+      "$17$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 6, 13, 14, 24, 26. החציון הוא הערך האמצעי — $14$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $6, 13, 14, 24, 26$. יש 5 מספרים, והאמצעי הוא השלישי — $14$."
   },
   {
     "id": "q-q-g5-data-8",
     "topic_id": "g5-median-average",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $5$, $22$, $26$, $28$, $29$?",
+    "question_text": "מהו הממוצע של המספרים $5, 22, 26, 28, 29$?",
     "options": [
-      "$15$",
       "$22$",
-      "$17$",
-      "$18$"
+      "$26$",
+      "$25$",
+      "$20$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום המספרים הוא $110$, ומחלקים במספר המספרים ($5$): $110\\div 5=22$."
+    "correct_index": 0,
+    "explanation": "סכום המספרים: $110$. מחלקים במספר המספרים ($5$): $110:5=22$."
   },
   {
     "id": "q-q-g5-data-9",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $5$, $11$, $16$, $21$, $28$?",
+    "question_text": "מהו החציון של המספרים $5, 11, 16, 21, 28$?",
     "options": [
-      "$9$",
-      "$12$",
       "$16$",
-      "$11$"
+      "$11$",
+      "$21$",
+      "$5$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 5, 11, 16, 21, 28. החציון הוא הערך האמצעי — $16$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $5, 11, 16, 21, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $16$."
   },
   {
     "id": "q-q-g5-data-10",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $3$, $6$, $23$, $25$?",
+    "question_text": "מהו החציון של המספרים $2, 3, 6, 23, 25$?",
     "options": [
       "$6$",
-      "$-1$",
-      "$2$",
-      "$1$"
+      "$3$",
+      "$23$",
+      "$12$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 2, 3, 6, 23, 25. החציון הוא הערך האמצעי — $6$."
+    "explanation": "ממיינים: $2, 3, 6, 23, 25$. יש 5 מספרים, והאמצעי הוא השלישי — $6$."
   },
   {
     "id": "q-q-g5-data-11",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $14$, $19$, $20$, $22$, $28$?",
+    "question_text": "מהו החציון של המספרים $14, 19, 20, 22, 28$?",
     "options": [
-      "$15$",
-      "$13$",
-      "$16$",
-      "$20$"
+      "$20$",
+      "$19$",
+      "$22$",
+      "$21$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 14, 19, 20, 22, 28. החציון הוא הערך האמצעי — $20$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $14, 19, 20, 22, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $20$."
   },
   {
     "id": "q-q-g5-data-12",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $6$, $10$, $14$, $15$, $19$?",
+    "question_text": "מהו החציון של המספרים $6, 10, 14, 15, 19$?",
     "options": [
-      "$9$",
-      "$10$",
       "$14$",
-      "$7$"
+      "$10$",
+      "$15$",
+      "$13$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 6, 10, 14, 15, 19. החציון הוא הערך האמצעי — $14$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $6, 10, 14, 15, 19$. יש 5 מספרים, והאמצעי הוא השלישי — $14$."
   },
   {
     "id": "q-q-g5-data-13",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $4$, $10$, $19$, $22$, $27$?",
+    "question_text": "מהו החציון של המספרים $4, 10, 19, 22, 27$?",
     "options": [
-      "$12$",
       "$19$",
-      "$15$",
-      "$14$"
+      "$10$",
+      "$22$",
+      "$16$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 4, 10, 19, 22, 27. החציון הוא הערך האמצעי — $19$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $4, 10, 19, 22, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $19$."
   },
   {
     "id": "q-q-g5-data-14",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $3$, $11$, $17$, $19$, $22$?",
+    "question_text": "מהו החציון של המספרים $3, 11, 17, 19, 22$?",
     "options": [
-      "$12$",
       "$17$",
-      "$13$",
-      "$10$"
+      "$11$",
+      "$19$",
+      "$14$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 3, 11, 17, 19, 22. החציון הוא הערך האמצעי — $17$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $3, 11, 17, 19, 22$. יש 5 מספרים, והאמצעי הוא השלישי — $17$."
   },
   {
     "id": "q-q-g5-data-15",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $10$, $14$, $27$, $28$?",
+    "question_text": "מהו החציון של המספרים $2, 10, 14, 27, 28$?",
     "options": [
       "$14$",
       "$10$",
-      "$7$",
-      "$9$"
+      "$27$",
+      "$16$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 2, 10, 14, 27, 28. החציון הוא הערך האמצעי — $14$."
+    "explanation": "ממיינים: $2, 10, 14, 27, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $14$."
   },
   {
     "id": "q-q-g5-data-16",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $10$, $18$, $27$, $28$?",
+    "question_text": "מהו החציון של המספרים $2, 10, 18, 27, 28$?",
     "options": [
-      "$13$",
-      "$14$",
       "$18$",
-      "$11$"
+      "$10$",
+      "$27$",
+      "$17$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 2, 10, 18, 27, 28. החציון הוא הערך האמצעי — $18$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $2, 10, 18, 27, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $18$."
   },
   {
     "id": "q-q-g5-data-17",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $9$, $23$, $25$, $26$?",
+    "question_text": "מהו החציון של המספרים $2, 9, 23, 25, 26$?",
     "options": [
-      "$16$",
-      "$19$",
       "$23$",
-      "$18$"
+      "$9$",
+      "$25$",
+      "$17$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 2, 9, 23, 25, 26. החציון הוא הערך האמצעי — $23$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $2, 9, 23, 25, 26$. יש 5 מספרים, והאמצעי הוא השלישי — $23$."
   },
   {
     "id": "q-q-g5-data-18",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $7$, $20$, $22$, $25$, $27$?",
+    "question_text": "מהו החציון של המספרים $7, 20, 22, 25, 27$?",
     "options": [
-      "$17$",
       "$22$",
-      "$18$",
-      "$15$"
+      "$20$",
+      "$25$",
+      "$23$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 7, 20, 22, 25, 27. החציון הוא הערך האמצעי — $22$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $7, 20, 22, 25, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $22$."
   },
   {
     "id": "q-q-g5-data-19",
     "topic_id": "g5-median-average",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $4$, $6$, $12$, $13$, $17$?",
+    "question_text": "מהו החציון של המספרים $4, 6, 12, 13, 17$?",
     "options": [
-      "$7$",
-      "$5$",
       "$12$",
-      "$8$"
+      "$6$",
+      "$13$",
+      "$10$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 4, 6, 12, 13, 17. החציון הוא הערך האמצעי — $12$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $4, 6, 12, 13, 17$. יש 5 מספרים, והאמצעי הוא השלישי — $12$."
   },
   {
     "id": "q-g6-rp-1",
@@ -10761,7 +10761,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-decimals-ops",
     "difficulty": 5,
     "type": "mcq",
-    "question_text": "בכרטיס אשראי נטען יש $50$ ש\"ח. קניתי מוצר ב-$18.65$ ש\"ח ומוצר נוסף ב-$9.8$ ש\"ח. כמה נשאר בכרטיס?",
+    "question_text": "בכרטיס נטען יש $50$ ש\"ח. קניתי מוצר ב-$18.65$ ש\"ח ומוצר נוסף ב-$9.8$ ש\"ח. כמה נשאר בכרטיס?",
     "options": [
       "$21.55$",
       "$22.55$",
@@ -21261,7 +21261,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-fractions-models",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "אילו משפטים נכונים לגבי ייצוג שברים?",
+    "question_text": "איזה משפט נכון לגבי ייצוג שברים?",
     "options": [
       "אפשר לייצג את אותו שבר במודל עוגה, מודל מלבני או רצועת שברים",
       "כל שבר אפשר לייצג רק במודל עוגה",
@@ -23226,12 +23226,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "שטח מלבן $4\\times 2$:",
+    "question_text": "מה השטח של מלבן באורך $4$ וברוחב $2$?",
     "options": [
       "$8$",
+      "$12$",
       "$6$",
-      "$10$",
-      "$4$"
+      "$9$"
     ],
     "correct_index": 0,
     "explanation": "החישוב: $4\\times 2=8$."
@@ -25371,12 +25371,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "היקף מלבן $5\\times3$:",
+    "question_text": "מה ההיקף של מלבן באורך $5$ וברוחב $3$?",
     "options": [
       "$16$",
       "$15$",
       "$8$",
-      "$30$"
+      "$18$"
     ],
     "correct_index": 0,
     "explanation": "היקף מלבן $=2\\times(5+3)=16$."
@@ -25386,12 +25386,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g5-geometry",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "שטח מלבן $6\\times2$:",
+    "question_text": "מה השטח של מלבן באורך $6$ וברוחב $2$?",
     "options": [
       "$12$",
       "$16$",
       "$8$",
-      "$36$"
+      "$18$"
     ],
     "correct_index": 0,
     "explanation": "שטח מלבן $=6\\times2=12$."
@@ -26309,7 +26309,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$135$"
     ],
     "correct_index": 0,
-    "explanation": "$10\\%$ מ-$200$ הוא $20$; $35\\%=3\\times20+5\\%$ מ-$200(=10)$, כלומר $60+10=70$."
+    "explanation": "$10\\%$ מ-$200$ הוא $20$, ולכן $30\\%$ הם $60$. $5\\%$ הם חצי מ-$10\\%$, כלומר $10$. ביחד: $60+10=70$."
   },
   {
     "id": "q-g5-percent-17",
