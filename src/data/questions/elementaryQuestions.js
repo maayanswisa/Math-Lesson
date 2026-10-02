@@ -2529,9 +2529,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "במספר $281$ כמה מאות?",
     "options": [
       "$2$",
-      "$-2$",
-      "$-3$",
-      "$-5$"
+      "$1$",
+      "$8$",
+      "$3$"
     ],
     "correct_index": 0,
     "explanation": "ספרת המאות במספר $281$ היא $2$."
@@ -2545,8 +2545,8 @@ export const ELEMENTARY_QUESTIONS = [
     "options": [
       "$5$",
       "$1$",
-      "$0$",
-      "$-2$"
+      "$3$",
+      "$6$"
     ],
     "correct_index": 0,
     "explanation": "ספרת המאות במספר $513$ היא $5$."
@@ -2558,12 +2558,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $507$ כמה מאות?",
     "options": [
-      "$1$",
+      "$5$",
       "$0$",
-      "$-2$",
-      "$5$"
+      "$7$",
+      "$6$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "ספרת המאות במספר $507$ היא $5$."
   },
   {
@@ -2573,12 +2573,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $936$ כמה מאות?",
     "options": [
-      "$5$",
-      "$4$",
       "$9$",
-      "$2$"
+      "$3$",
+      "$6$",
+      "$10$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ספרת המאות במספר $936$ היא $9$."
   },
   {
@@ -2588,12 +2588,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $761$ או $767$?",
     "options": [
-      "שווים",
       "$767$",
-      "$6$",
-      "$761$"
+      "$761$",
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $767$ גדול מ-$761$."
   },
   {
@@ -2603,12 +2603,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $352$ או $358$?",
     "options": [
-      "שווים",
-      "$6$",
+      "$358$",
       "$352$",
-      "$358$"
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $358$ גדול מ-$352$."
   },
   {
@@ -2618,12 +2618,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $318$ או $324$?",
     "options": [
-      "$318$",
       "$324$",
-      "$6$",
-      "שווים"
+      "$318$",
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $324$ גדול מ-$318$."
   },
   {
@@ -2633,12 +2633,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $367$ או $364$?",
     "options": [
+      "$367$",
       "$364$",
       "שווים",
-      "$367$",
-      "$3$"
+      "אי אפשר לדעת"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $367$ גדול מ-$364$."
   },
   {
@@ -2648,12 +2648,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $203$ כמה מאות?",
     "options": [
-      "$-3$",
       "$2$",
-      "$-5$",
-      "$-2$"
+      "$0$",
+      "$3$",
+      "$1$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ספרת המאות במספר $203$ היא $2$."
   },
   {
@@ -2663,12 +2663,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $447$ או $450$?",
     "options": [
-      "$447$",
       "$450$",
+      "$447$",
       "שווים",
-      "$3$"
+      "אי אפשר לדעת"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $450$ גדול מ-$447$."
   },
   {
@@ -2678,12 +2678,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $615$ כמה מאות?",
     "options": [
-      "$-1$",
+      "$6$",
       "$1$",
-      "$2$",
-      "$6$"
+      "$5$",
+      "$7$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "ספרת המאות במספר $615$ היא $6$."
   },
   {
@@ -2694,9 +2694,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "איזה גדול: $12$ או $9$?",
     "options": [
       "$12$",
-      "$3$",
       "$9$",
-      "שווים"
+      "שווים",
+      "אי אפשר לדעת"
     ],
     "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $12$ גדול מ-$9$."
@@ -2708,12 +2708,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $478$ כמה מאות?",
     "options": [
-      "$0$",
       "$4$",
-      "$-3$",
-      "$-1$"
+      "$7$",
+      "$8$",
+      "$5$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ספרת המאות במספר $478$ היא $4$."
   },
   {
@@ -2723,12 +2723,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $278$ או $281$?",
     "options": [
-      "שווים",
-      "$278$",
       "$281$",
-      "$3$"
+      "$278$",
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $281$ גדול מ-$278$."
   },
   {
@@ -2738,12 +2738,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $919$ כמה מאות?",
     "options": [
-      "$2$",
-      "$4$",
-      "$5$",
-      "$9$"
+      "$9$",
+      "$1$",
+      "$10$",
+      "$8$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "ספרת המאות במספר $919$ היא $9$."
   },
   {
@@ -2753,12 +2753,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $899$ או $896$?",
     "options": [
-      "$896$",
       "$899$",
+      "$896$",
       "שווים",
-      "$3$"
+      "אי אפשר לדעת"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $899$ גדול מ-$896$."
   },
   {
@@ -2768,12 +2768,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $617$ כמה מאות?",
     "options": [
-      "$2$",
-      "$-1$",
       "$6$",
-      "$1$"
+      "$1$",
+      "$7$",
+      "$5$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "ספרת המאות במספר $617$ היא $6$."
   },
   {
@@ -2783,12 +2783,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "איזה גדול: $936$ או $942$?",
     "options": [
-      "שווים",
       "$942$",
-      "$6$",
-      "$936$"
+      "$936$",
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $942$ גדול מ-$936$."
   },
   {
@@ -2798,12 +2798,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "במספר $52$ כמה יחידות?",
     "options": [
-      "$-2$",
       "$2$",
-      "$-5$",
-      "$-3$"
+      "$5$",
+      "$3$",
+      "$1$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "ספרת היחידות במספר $52$ היא $2$."
   },
   {
@@ -2871,14 +2871,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-add-sub-large",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $7207$, נתנו $114$. כמה נשאר?",
+    "question_text": "לנועה יש $7207$ מדבקות. היא נתנה לחברה $114$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$7089$",
-      "$7088$",
-      "$7093$",
-      "$7086$"
+      "$7{,}093$",
+      "$7{,}321$",
+      "$7{,}094$",
+      "$7{,}092$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מתחילים עם $7207$ ומחסירים את מה שנתנו: $7207-114=7093$."
   },
   {
@@ -2886,14 +2886,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-add-sub-large",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $4701$, נתנו $3905$. כמה נשאר?",
+    "question_text": "לנועה יש $4701$ מדבקות. היא נתנה לחברה $3905$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$791$",
-      "$792$",
-      "$789$",
-      "$796$"
+      "$796$",
+      "$8{,}606$",
+      "$797$",
+      "$795$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מתחילים עם $4701$ ומחסירים את מה שנתנו: $4701-3905=796$."
   },
   {
@@ -2916,14 +2916,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-add-sub-large",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $9751$, נתנו $1121$. כמה נשאר?",
+    "question_text": "לנועה יש $9751$ מדבקות. היא נתנה לחברה $1121$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$8625$",
-      "$8630$",
-      "$8626$",
-      "$8623$"
+      "$8{,}630$",
+      "$10{,}872$",
+      "$8{,}631$",
+      "$8{,}629$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מתחילים עם $9751$ ומחסירים את מה שנתנו: $9751-1121=8630$."
   },
   {
@@ -3006,14 +3006,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-add-sub-large",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $2561$, נתנו $1736$. כמה נשאר?",
+    "question_text": "לנועה יש $2561$ מדבקות. היא נתנה לחברה $1736$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$821$",
-      "$818$",
-      "$820$",
-      "$825$"
+      "$825$",
+      "$4{,}297$",
+      "$826$",
+      "$824$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "מתחילים עם $2561$ ומחסירים את מה שנתנו: $2561-1736=825$."
   },
   {
@@ -3036,14 +3036,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-add-sub-large",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $7599$, נתנו $3871$. כמה נשאר?",
+    "question_text": "לנועה יש $7599$ מדבקות. היא נתנה לחברה $3871$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$3724$",
-      "$3728$",
-      "$3723$",
-      "$3721$"
+      "$3{,}728$",
+      "$11{,}470$",
+      "$3{,}729$",
+      "$3{,}727$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "מתחילים עם $7599$ ומחסירים את מה שנתנו: $7599-3871=3728$."
   },
   {
@@ -3096,14 +3096,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-add-sub-large",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "יש $2166$, נתנו $932$. כמה נשאר?",
+    "question_text": "לנועה יש $2166$ מדבקות. היא נתנה לחברה $932$ מדבקות. כמה מדבקות נשארו לה?",
     "options": [
-      "$1229$",
-      "$1227$",
-      "$1234$",
-      "$1230$"
+      "$1{,}234$",
+      "$3{,}098$",
+      "$1{,}235$",
+      "$1{,}233$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "מתחילים עם $2166$ ומחסירים את מה שנתנו: $2166-932=1234$."
   },
   {
@@ -3203,12 +3203,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $10\\div 2$?",
     "options": [
-      "$0$",
-      "$-2$",
       "$5$",
-      "$1$"
+      "$6$",
+      "$4$",
+      "$2$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $10\\div 2=5$."
   },
   {
@@ -3263,12 +3263,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $36\\div 6$?",
     "options": [
-      "$1$",
-      "$-1$",
       "$6$",
-      "$2$"
+      "$7$",
+      "$5$",
+      "$8$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $36\\div 6=6$."
   },
   {
@@ -3278,12 +3278,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $24\\div 6$?",
     "options": [
-      "$-1$",
-      "$-3$",
-      "$0$",
-      "$4$"
+      "$4$",
+      "$5$",
+      "$3$",
+      "$6$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "החישוב: $24\\div 6=4$."
   },
   {
@@ -3308,12 +3308,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $35\\div 7$?",
     "options": [
-      "$0$",
       "$5$",
-      "$-2$",
-      "$1$"
+      "$6$",
+      "$4$",
+      "$7$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "החישוב: $35\\div 7=5$."
   },
   {
@@ -3323,12 +3323,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $54\\div 9$?",
     "options": [
-      "$1$",
-      "$-1$",
-      "$2$",
-      "$6$"
+      "$6$",
+      "$7$",
+      "$5$",
+      "$9$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "החישוב: $54\\div 9=6$."
   },
   {
@@ -3353,12 +3353,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $18\\div 6$?",
     "options": [
-      "$-4$",
-      "$-1$",
       "$3$",
-      "$-2$"
+      "$4$",
+      "$2$",
+      "$6$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $18\\div 6=3$."
   },
   {
@@ -3398,12 +3398,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $12\\div 3$?",
     "options": [
-      "$-1$",
-      "$-3$",
       "$4$",
-      "$0$"
+      "$5$",
+      "$3$",
+      "$6$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "החישוב: $12\\div 3=4$."
   },
   {
@@ -3415,7 +3415,7 @@ export const ELEMENTARY_QUESTIONS = [
       "$\\frac{1}{2}$",
       "$\\frac{1}{5}$",
       "שווים",
-      "$\\frac{1}{10}$"
+      "אי אפשר לדעת"
     ],
     "correct_index": 0,
     "explanation": "ככל שהמכנה קטן יותר — השבר גדול יותר.",
@@ -3426,7 +3426,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-fractions-unit",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה שבר: 1/6?",
+    "question_text": "פיצה חולקה ל-$6$ חלקים שווים, ולקחנו חלק אחד. איזה שבר מתאר את מה שלקחנו?",
     "options": [
       "$1$",
       "$\\frac{6}{1}$",
@@ -3441,14 +3441,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-fractions-unit",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "איזה גדול: $\\frac{1}{6}$ או $\\frac{1}{4}$?",
+    "question_text": "איזה שבר גדול יותר: $\\frac{1}{6}$ או $\\frac{1}{4}$?",
     "options": [
-      "$\\frac{1}{6}$",
-      "$1$",
       "$\\frac{1}{4}$",
-      "שווים"
+      "$\\frac{1}{6}$",
+      "שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "הופכים למכנה משותף או ממירים לעשרוני כדי להשוות: $\\frac{1}{4}$ גדול יותר."
   },
   {
@@ -3471,7 +3471,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-fractions-unit",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה שבר: 1/4?",
+    "question_text": "פיצה חולקה ל-$4$ חלקים שווים, ולקחנו חלק אחד. איזה שבר מתאר את מה שלקחנו?",
     "options": [
       "$\\frac{4}{1}$",
       "$\\frac{1}{1}$",
@@ -3486,7 +3486,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-fractions-unit",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה שבר: 1/2?",
+    "question_text": "פיצה חולקה ל-$2$ חלקים שווים, ולקחנו חלק אחד. איזה שבר מתאר את מה שלקחנו?",
     "options": [
       "$\\frac{1}{2}$",
       "$\\frac{1}{1}$",
@@ -3516,14 +3516,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $7\\times 8$:",
+    "question_text": "מה השטח של מלבן באורך $7$ וברוחב $8$?",
     "options": [
-      "$49$",
       "$56$",
-      "$52$",
-      "$51$"
+      "$30$",
+      "$15$",
+      "$63$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $7\\times 8=56$."
   },
   {
@@ -3531,14 +3531,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $6\\times 2$:",
+    "question_text": "מה השטח של מלבן באורך $6$ וברוחב $2$?",
     "options": [
-      "$5$",
       "$12$",
-      "$7$",
-      "$8$"
+      "$16$",
+      "$8$",
+      "$18$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $6\\times 2=12$."
   },
   {
@@ -3546,14 +3546,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $10\\times 9$:",
+    "question_text": "מה השטח של מלבן באורך $10$ וברוחב $9$?",
     "options": [
-      "$85$",
-      "$86$",
       "$90$",
-      "$83$"
+      "$38$",
+      "$19$",
+      "$100$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $10\\times 9=90$."
   },
   {
@@ -3561,14 +3561,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $2$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $2$?",
     "options": [
-      "$0$",
       "$4$",
-      "$-3$",
-      "$-1$"
+      "$8$",
+      "$6$",
+      "$2$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $2^2=4$."
   },
   {
@@ -3576,12 +3576,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $5$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $5$?",
     "options": [
       "$20$",
-      "$15$",
-      "$16$",
-      "$13$"
+      "$25$",
+      "$10$",
+      "$15$"
     ],
     "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 5=20$."
@@ -3591,12 +3591,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $9$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $9$?",
     "options": [
       "$36$",
-      "$29$",
-      "$32$",
-      "$31$"
+      "$81$",
+      "$18$",
+      "$27$"
     ],
     "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 9=36$."
@@ -3606,14 +3606,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $3\\times 6$:",
+    "question_text": "מה השטח של מלבן באורך $3$ וברוחב $6$?",
     "options": [
-      "$13$",
       "$18$",
-      "$11$",
-      "$14$"
+      "$9$",
+      "$21$",
+      "$12$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $3\\times 6=18$."
   },
   {
@@ -3621,14 +3621,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $7$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $7$?",
     "options": [
-      "$44$",
-      "$42$",
       "$49$",
-      "$45$"
+      "$28$",
+      "$14$",
+      "$56$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $7^2=49$."
   },
   {
@@ -3636,14 +3636,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $3$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $3$?",
     "options": [
-      "$4$",
       "$9$",
-      "$2$",
-      "$5$"
+      "$12$",
+      "$6$",
+      "$10$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $3^2=9$."
   },
   {
@@ -3651,14 +3651,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $2\\times 2$:",
+    "question_text": "מה ההיקף של מלבן באורך $2$ וברוחב $2$?",
     "options": [
-      "$1$",
       "$8$",
-      "$3$",
-      "$4$"
+      "$4$",
+      "$10$",
+      "$6$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(2+2)=8$."
   },
   {
@@ -3666,14 +3666,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $11$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $11$?",
     "options": [
-      "$114$",
-      "$117$",
-      "$116$",
-      "$121$"
+      "$121$",
+      "$44$",
+      "$22$",
+      "$132$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $11^2=121$."
   },
   {
@@ -3681,12 +3681,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $11\\times 5$:",
+    "question_text": "מה ההיקף של מלבן באורך $11$ וברוחב $5$?",
     "options": [
       "$32$",
-      "$27$",
-      "$25$",
-      "$28$"
+      "$55$",
+      "$16$",
+      "$34$"
     ],
     "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(11+5)=32$."
@@ -3696,14 +3696,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $7\\times 9$:",
+    "question_text": "מה השטח של מלבן באורך $7$ וברוחב $9$?",
     "options": [
-      "$56$",
-      "$59$",
-      "$58$",
-      "$63$"
+      "$63$",
+      "$32$",
+      "$16$",
+      "$70$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $7\\times 9=63$."
   },
   {
@@ -3711,14 +3711,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $7\\times 4$:",
+    "question_text": "מה השטח של מלבן באורך $7$ וברוחב $4$?",
     "options": [
-      "$23$",
-      "$24$",
       "$28$",
-      "$21$"
+      "$22$",
+      "$11$",
+      "$35$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $7\\times 4=28$."
   },
   {
@@ -3726,14 +3726,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $10\\times 5$:",
+    "question_text": "מה השטח של מלבן באורך $10$ וברוחב $5$?",
     "options": [
-      "$46$",
-      "$43$",
-      "$45$",
-      "$50$"
+      "$50$",
+      "$30$",
+      "$15$",
+      "$60$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $10\\times 5=50$."
   },
   {
@@ -3741,14 +3741,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $5\\times 7$:",
+    "question_text": "מה השטח של מלבן באורך $5$ וברוחב $7$?",
     "options": [
-      "$28$",
-      "$30$",
       "$35$",
-      "$31$"
+      "$24$",
+      "$12$",
+      "$40$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $5\\times 7=35$."
   },
   {
@@ -3756,14 +3756,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $9\\times 5$:",
+    "question_text": "מה השטח של מלבן באורך $9$ וברוחב $5$?",
     "options": [
-      "$40$",
-      "$41$",
-      "$38$",
-      "$45$"
+      "$45$",
+      "$28$",
+      "$14$",
+      "$54$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $9\\times 5=45$."
   },
   {
@@ -3771,14 +3771,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $3$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $3$?",
     "options": [
-      "$5$",
-      "$7$",
       "$12$",
-      "$8$"
+      "$9$",
+      "$6$",
+      "$14$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 3=12$."
   },
   {
@@ -3786,12 +3786,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $9$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $9$?",
     "options": [
       "$81$",
-      "$74$",
-      "$77$",
-      "$76$"
+      "$36$",
+      "$18$",
+      "$90$"
     ],
     "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $9^2=81$."
@@ -3800,12 +3800,12 @@ export const ELEMENTARY_QUESTIONS = [
     "id": "q-g3-ar-1",
     "topic_id": "g3-area",
     "difficulty": 2,
-    "question_text": "שטח מלבן $6\\times 4$:",
+    "question_text": "מה השטח של מלבן באורך $6$ וברוחב $4$?",
     "options": [
       "$24$",
       "$20$",
       "$10$",
-      "$18$"
+      "$30$"
     ],
     "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $6\\times 4=24$.",
@@ -3816,12 +3816,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $11\\times 4$:",
+    "question_text": "מה השטח של מלבן באורך $11$ וברוחב $4$?",
     "options": [
       "$44$",
-      "$37$",
-      "$40$",
-      "$39$"
+      "$30$",
+      "$15$",
+      "$55$"
     ],
     "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $11\\times 4=44$."
@@ -3831,14 +3831,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $3\\times 2$:",
+    "question_text": "מה השטח של מלבן באורך $3$ וברוחב $2$?",
     "options": [
-      "$2$",
       "$6$",
-      "$1$",
-      "$-1$"
+      "$10$",
+      "$5$",
+      "$9$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $3\\times 2=6$."
   },
   {
@@ -3846,12 +3846,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $4$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $4$?",
     "options": [
       "$16$",
-      "$11$",
+      "$8$",
       "$12$",
-      "$9$"
+      "$18$"
     ],
     "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 4=16$."
@@ -3861,12 +3861,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $5$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $5$?",
     "options": [
       "$25$",
       "$20$",
-      "$21$",
-      "$18$"
+      "$10$",
+      "$30$"
     ],
     "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $5^2=25$."
@@ -3876,12 +3876,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $11\\times 5$:",
+    "question_text": "מה השטח של מלבן באורך $11$ וברוחב $5$?",
     "options": [
       "$55$",
-      "$51$",
-      "$48$",
-      "$50$"
+      "$32$",
+      "$16$",
+      "$66$"
     ],
     "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $11\\times 5=55$."
@@ -3891,12 +3891,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $3\\times 3$:",
+    "question_text": "מה ההיקף של מלבן באורך $3$ וברוחב $3$?",
     "options": [
       "$12$",
-      "$5$",
-      "$8$",
-      "$7$"
+      "$9$",
+      "$6$",
+      "$14$"
     ],
     "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(3+3)=12$."
@@ -3906,12 +3906,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $6\\times 8$:",
+    "question_text": "מה ההיקף של מלבן באורך $6$ וברוחב $8$?",
     "options": [
       "$28$",
-      "$23$",
-      "$21$",
-      "$24$"
+      "$48$",
+      "$14$",
+      "$30$"
     ],
     "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(6+8)=28$."
@@ -3921,14 +3921,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $4\\times 4$:",
+    "question_text": "מה השטח של מלבן באורך $4$ וברוחב $4$?",
     "options": [
-      "$9$",
-      "$11$",
       "$16$",
+      "$8$",
+      "$20$",
       "$12$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $4\\times 4=16$."
   },
   {
@@ -3936,14 +3936,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $3\\times 8$:",
+    "question_text": "מה ההיקף של מלבן באורך $3$ וברוחב $8$?",
     "options": [
-      "$15$",
       "$22$",
-      "$18$",
-      "$17$"
+      "$24$",
+      "$11$",
+      "$20$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(3+8)=22$."
   },
   {
@@ -3951,14 +3951,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $7\\times 5$:",
+    "question_text": "מה השטח של מלבן באורך $7$ וברוחב $5$?",
     "options": [
-      "$28$",
       "$35$",
-      "$30$",
-      "$31$"
+      "$24$",
+      "$12$",
+      "$42$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $7\\times 5=35$."
   },
   {
@@ -3966,14 +3966,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $8$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $8$?",
     "options": [
-      "$28$",
       "$32$",
-      "$25$",
-      "$27$"
+      "$64$",
+      "$16$",
+      "$24$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 8=32$."
   },
   {
@@ -3981,14 +3981,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $7\\times 9$:",
+    "question_text": "מה השטח של מלבן באורך $7$ וברוחב $9$?",
     "options": [
-      "$56$",
-      "$59$",
       "$63$",
-      "$58$"
+      "$32$",
+      "$16$",
+      "$70$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $7\\times 9=63$."
   },
   {
@@ -3996,14 +3996,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $11\\times 6$:",
+    "question_text": "מה ההיקף של מלבן באורך $11$ וברוחב $6$?",
     "options": [
-      "$27$",
-      "$30$",
-      "$29$",
-      "$34$"
+      "$34$",
+      "$66$",
+      "$17$",
+      "$36$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(11+6)=34$."
   },
   {
@@ -4011,12 +4011,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $9\\times 3$:",
+    "question_text": "מה ההיקף של מלבן באורך $9$ וברוחב $3$?",
     "options": [
       "$24$",
-      "$19$",
-      "$17$",
-      "$20$"
+      "$27$",
+      "$12$",
+      "$26$"
     ],
     "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(9+3)=24$."
@@ -4026,14 +4026,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $10\\times 2$:",
+    "question_text": "מה השטח של מלבן באורך $10$ וברוחב $2$?",
     "options": [
-      "$15$",
-      "$13$",
       "$20$",
-      "$16$"
+      "$24$",
+      "$12$",
+      "$30$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $10\\times 2=20$."
   },
   {
@@ -4041,14 +4041,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $5\\times 6$:",
+    "question_text": "מה השטח של מלבן באורך $5$ וברוחב $6$?",
     "options": [
-      "$25$",
-      "$23$",
-      "$26$",
-      "$30$"
+      "$30$",
+      "$22$",
+      "$11$",
+      "$35$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $5\\times 6=30$."
   },
   {
@@ -4056,14 +4056,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $11\\times 9$:",
+    "question_text": "מה ההיקף של מלבן באורך $11$ וברוחב $9$?",
     "options": [
-      "$35$",
-      "$33$",
-      "$36$",
-      "$40$"
+      "$40$",
+      "$99$",
+      "$20$",
+      "$42$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(11+9)=40$."
   },
   {
@@ -4071,14 +4071,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $2\\times 8$:",
+    "question_text": "מה ההיקף של מלבן באורך $2$ וברוחב $8$?",
     "options": [
+      "$20$",
       "$16$",
-      "$15$",
-      "$13$",
-      "$20$"
+      "$10$",
+      "$22$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(2+8)=20$."
   },
   {
@@ -16855,7 +16855,7 @@ export const ELEMENTARY_QUESTIONS = [
     "options": [
       "$20+3$",
       "$10+10$",
-      "$100+(-77)$",
+      "$15+8$",
       "$1+22$"
     ],
     "correct_index": 0,
@@ -23016,12 +23016,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g3-area",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "שטח מלבן $2\\times 3$:",
+    "question_text": "מה השטח של מלבן באורך $2$ וברוחב $3$?",
     "options": [
       "$6$",
+      "$10$",
       "$5$",
-      "$7$",
-      "$4$"
+      "$8$"
     ],
     "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $2\\times 3=6$."
