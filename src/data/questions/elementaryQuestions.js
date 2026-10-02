@@ -6458,12 +6458,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $5\\%$ מ-$200$?",
     "options": [
-      "$6$",
-      "$3$",
+      "$10$",
+      "$100$",
       "$5$",
-      "$10$"
+      "$190$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $5\\%=\\frac{5}{100}$. לכן $5\\%$ מ-$200$ הוא $\\frac{5}{100}\\times 200=10$."
   },
   {
@@ -6471,7 +6471,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-ratio-percent",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "ריבית 5% על 200:",
+    "question_text": "הפקידו $200$ ש\"ח בחיסכון עם ריבית של $5\\%$ לשנה. כמה ש\"ח ריבית יתקבלו אחרי שנה?",
     "options": [
       "$15$",
       "$10$",
@@ -6488,12 +6488,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $40\\%$ מ-$50$?",
     "options": [
-      "$15$",
-      "$16$",
       "$20$",
-      "$13$"
+      "$200$",
+      "$40$",
+      "$30$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $40\\%=\\frac{40}{100}$. לכן $40\\%$ מ-$50$ הוא $\\frac{40}{100}\\times 50=20$."
   },
   {
@@ -6503,12 +6503,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $25\\%$ מ-$40$?",
     "options": [
-      "$6$",
-      "$3$",
       "$10$",
-      "$5$"
+      "$100$",
+      "$25$",
+      "$30$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $25\\%=\\frac{25}{100}$. לכן $25\\%$ מ-$40$ הוא $\\frac{25}{100}\\times 40=10$."
   },
   {
@@ -6516,7 +6516,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-ratio-percent",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "מחיר 80, הנחה 25%. מחיר חדש?",
+    "question_text": "מוצר עולה $80$ ש\"ח, ויש עליו הנחה של $25\\%$. כמה ישלמו אחרי ההנחה?",
     "options": [
       "$55$",
       "$20$",
@@ -6533,12 +6533,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $12\\%$ מ-$100$?",
     "options": [
-      "$8$",
-      "$5$",
-      "$7$",
-      "$12$"
+      "$12$",
+      "$120$",
+      "$88$",
+      "$13$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $12\\%=\\frac{12}{100}$. לכן $12\\%$ מ-$100$ הוא $\\frac{12}{100}\\times 100=12$."
   },
   {
@@ -6548,12 +6548,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $10\\%$ מ-$80$?",
     "options": [
-      "$1$",
-      "$4$",
-      "$3$",
-      "$8$"
+      "$8$",
+      "$80$",
+      "$10$",
+      "$72$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $10\\%=\\frac{10}{100}$. לכן $10\\%$ מ-$80$ הוא $\\frac{10}{100}\\times 80=8$."
   },
   {
@@ -6561,7 +6561,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-ratio-percent",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "כמה זה $20$ מתוך $100$ באחוזים?",
+    "question_text": "כמה אחוזים הם $20$ מתוך $100$?",
     "options": [
       "$25\\%$",
       "$20\\%$",
@@ -6576,7 +6576,7 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-ratio-percent",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "כמה זה $\\frac{1}{4}$ באחוזים?",
+    "question_text": "כמה אחוזים הם $\\frac{1}{4}$?",
     "options": [
       "$10\\%$",
       "$4\\%$",
@@ -6593,12 +6593,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $50\\%$ מ-$40$?",
     "options": [
-      "$10$",
-      "$30$",
-      "$25$",
-      "$20$"
+      "$20$",
+      "$200$",
+      "$50$",
+      "$25$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$40$ הוא $\\frac{50}{100}\\times 40=20$."
   },
   {
@@ -6608,12 +6608,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $30\\%$ מ-$90$?",
     "options": [
-      "$22$",
       "$27$",
-      "$20$",
-      "$23$"
+      "$270$",
+      "$30$",
+      "$63$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $30\\%=\\frac{30}{100}$. לכן $30\\%$ מ-$90$ הוא $\\frac{30}{100}\\times 90=27$."
   },
   {
@@ -6623,12 +6623,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $20\\%$ מ-$150$?",
     "options": [
-      "$23$",
-      "$26$",
       "$30$",
-      "$25$"
+      "$300$",
+      "$20$",
+      "$120$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $20\\%=\\frac{20}{100}$. לכן $20\\%$ מ-$150$ הוא $\\frac{20}{100}\\times 150=30$."
   },
   {
@@ -6638,12 +6638,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $8\\%$ מ-$50$?",
     "options": [
-      "$-1$",
       "$4$",
-      "$0$",
-      "$-3$"
+      "$40$",
+      "$8$",
+      "$46$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $8\\%=\\frac{8}{100}$. לכן $8\\%$ מ-$50$ הוא $\\frac{8}{100}\\times 50=4$."
   },
   {
@@ -6653,12 +6653,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $15\\%$ מ-$80$?",
     "options": [
-      "$7$",
-      "$8$",
       "$12$",
-      "$5$"
+      "$120$",
+      "$15$",
+      "$68$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $15\\%=\\frac{15}{100}$. לכן $15\\%$ מ-$80$ הוא $\\frac{15}{100}\\times 80=12$."
   },
   {
@@ -6669,9 +6669,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "מהו $60\\%$ מ-$50$?",
     "options": [
       "$30$",
-      "$23$",
-      "$26$",
-      "$25$"
+      "$300$",
+      "$60$",
+      "$20$"
     ],
     "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $60\\%=\\frac{60}{100}$. לכן $60\\%$ מ-$50$ הוא $\\frac{60}{100}\\times 50=30$."
@@ -6684,9 +6684,9 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "מהו $50\\%$ מ-$60$?",
     "options": [
       "$30$",
-      "$23$",
-      "$25$",
-      "$26$"
+      "$300$",
+      "$50$",
+      "$35$"
     ],
     "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $50\\%=\\frac{50}{100}$. לכן $50\\%$ מ-$60$ הוא $\\frac{50}{100}\\times 60=30$."
@@ -6698,12 +6698,12 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "מהו $75\\%$ מ-$80$?",
     "options": [
-      "$55$",
-      "$53$",
       "$60$",
-      "$56$"
+      "$600$",
+      "$75$",
+      "$20$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "אחוז הוא חלק מ-$100$: $75\\%=\\frac{75}{100}$. לכן $75\\%$ מ-$80$ הוא $\\frac{75}{100}\\times 80=60$."
   },
   {
@@ -6728,13 +6728,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{1}{2}\\div\\frac{3}{5}$.",
     "options": [
-      "$\\frac{1}{2}$",
+      "$\\frac{5}{6}$",
       "$\\frac{3}{10}$",
-      "$1$",
-      "$\\frac{5}{6}$"
+      "$\\frac{5}{3}$",
+      "$\\frac{31}{30}$"
     ],
-    "correct_index": 3,
-    "explanation": "מחשבים $\\frac{1}{2}\\div\\frac{3}{5}$. התוצאה: $0.8333$ (כפי שמופיע באפשרויות)."
+    "correct_index": 0,
+    "explanation": "הופכים את המחלק: $\\frac{1}{2}\\div\\frac{3}{5}=\\frac{1}{2}\\times\\frac{5}{3}$. מונה: $1\\times5=5$. מכנה: $2\\times3=6$. $=\\frac{5}{6}$"
   },
   {
     "id": "q-q-g6-fractions-mul-div-2",
@@ -6743,13 +6743,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{4}{5}\\times\\frac{1}{2}$.",
     "options": [
-      "$4$",
-      "$\\frac{1}{5}$",
       "$\\frac{2}{5}$",
-      "$\\frac{4}{5}$"
+      "$\\frac{8}{5}$",
+      "$\\frac{4}{5}$",
+      "$\\frac{3}{5}$"
     ],
-    "correct_index": 2,
-    "explanation": "מחשבים $\\frac{4}{5}\\times\\frac{1}{2}$. התוצאה: $0.4$ (כפי שמופיע באפשרויות)."
+    "correct_index": 0,
+    "explanation": "מונה: $4\\times1=4$. מכנה: $5\\times2=10$. $\\frac{4}{5}\\times\\frac{1}{2}=\\frac{4}{10}$ מצמצמים: מחלקים מונה ומכנה ב-$2$: $\\frac{4}{10}=\\frac{2}{5}$."
   },
   {
     "id": "q-q-g6-fractions-mul-div-3",
@@ -6758,13 +6758,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{1}{2}\\div\\frac{1}{3}$.",
     "options": [
-      "$\\frac{1}{2}$",
-      "$1$",
       "$\\frac{3}{2}$",
-      "$\\frac{1}{6}$"
+      "$\\frac{1}{6}$",
+      "$3$",
+      "$\\frac{11}{6}$"
     ],
-    "correct_index": 2,
-    "explanation": "מחשבים $\\frac{1}{2}\\div\\frac{1}{3}$. התוצאה: $1.5$ (כפי שמופיע באפשרויות)."
+    "correct_index": 0,
+    "explanation": "הופכים את המחלק: $\\frac{1}{2}\\div\\frac{1}{3}=\\frac{1}{2}\\times\\frac{3}{1}$. מונה: $1\\times3=3$. מכנה: $2\\times1=2$. $=\\frac{3}{2}$"
   },
   {
     "id": "q-q-g6-fractions-mul-div-4",
@@ -6773,13 +6773,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{1}{3}\\times\\frac{3}{5}$.",
     "options": [
-      "$3$",
-      "$\\frac{1}{15}$",
       "$\\frac{1}{5}$",
-      "$\\frac{3}{3}$"
+      "$\\frac{5}{9}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{1}{10}$"
     ],
-    "correct_index": 2,
-    "explanation": "מחשבים $\\frac{1}{3}\\times\\frac{3}{5}$. התוצאה: $0.2$ (כפי שמופיע באפשרויות)."
+    "correct_index": 0,
+    "explanation": "מונה: $1\\times3=3$. מכנה: $3\\times5=15$. $\\frac{1}{3}\\times\\frac{3}{5}=\\frac{3}{15}$ מצמצמים: מחלקים מונה ומכנה ב-$3$: $\\frac{3}{15}=\\frac{1}{5}$."
   },
   {
     "id": "q-q-g6-fractions-mul-div-5",
@@ -6788,13 +6788,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{2}{5}\\div\\frac{3}{4}$.",
     "options": [
-      "$\\frac{2}{5}$",
       "$\\frac{8}{15}$",
-      "$2$",
-      "$\\frac{6}{20}$"
+      "$\\frac{3}{10}$",
+      "$\\frac{16}{15}$",
+      "$\\frac{11}{15}$"
     ],
-    "correct_index": 1,
-    "explanation": "מחשבים $\\frac{2}{5}\\div\\frac{3}{4}$. התוצאה: $0.5333$ (כפי שמופיע באפשרויות)."
+    "correct_index": 0,
+    "explanation": "הופכים את המחלק: $\\frac{2}{5}\\div\\frac{3}{4}=\\frac{2}{5}\\times\\frac{4}{3}$. מונה: $2\\times4=8$. מכנה: $5\\times3=15$. $=\\frac{8}{15}$"
   },
   {
     "id": "q-q-g6-fractions-mul-div-6",
@@ -6804,12 +6804,12 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $\\frac{2}{3}\\div\\frac{3}{4}$.",
     "options": [
       "$\\frac{8}{9}$",
-      "$\\frac{6}{12}$",
-      "$\\frac{2}{3}$",
-      "$2$"
+      "$\\frac{1}{2}$",
+      "$\\frac{16}{9}$",
+      "$\\frac{41}{36}$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{2}{3}\\div\\frac{3}{4}$. התוצאה: $0.8889$ (כפי שמופיע באפשרויות)."
+    "explanation": "הופכים את המחלק: $\\frac{2}{3}\\div\\frac{3}{4}=\\frac{2}{3}\\times\\frac{4}{3}$. מונה: $2\\times4=8$. מכנה: $3\\times3=9$. $=\\frac{8}{9}$"
   },
   {
     "id": "q-q-g6-fractions-mul-div-7",
@@ -6819,12 +6819,12 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $\\frac{1}{4}\\times\\frac{2}{5}$.",
     "options": [
       "$\\frac{1}{10}$",
-      "$2$",
-      "$\\frac{2}{4}$",
-      "$\\frac{1}{20}$"
+      "$\\frac{5}{8}$",
+      "$\\frac{1}{5}$",
+      "$\\frac{3}{10}$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{1}{4}\\times\\frac{2}{5}$. התוצאה: $0.1$ (כפי שמופיע באפשרויות)."
+    "explanation": "מונה: $1\\times2=2$. מכנה: $4\\times5=20$. $\\frac{1}{4}\\times\\frac{2}{5}=\\frac{2}{20}$ מצמצמים: מחלקים מונה ומכנה ב-$2$: $\\frac{2}{20}=\\frac{1}{10}$."
   },
   {
     "id": "q-q-g6-fractions-mul-div-8",
@@ -6834,12 +6834,12 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $\\frac{2}{5}\\times\\frac{3}{4}$.",
     "options": [
       "$\\frac{3}{10}$",
-      "$\\frac{2}{20}$",
-      "$\\frac{6}{5}$",
-      "$6$"
+      "$\\frac{8}{15}$",
+      "$\\frac{3}{5}$",
+      "$\\frac{1}{2}$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{2}{5}\\times\\frac{3}{4}$. התוצאה: $0.3$ (כפי שמופיע באפשרויות)."
+    "explanation": "מונה: $2\\times3=6$. מכנה: $5\\times4=20$. $\\frac{2}{5}\\times\\frac{3}{4}=\\frac{6}{20}$ מצמצמים: מחלקים מונה ומכנה ב-$2$: $\\frac{6}{20}=\\frac{3}{10}$."
   },
   {
     "id": "q-q-g6-fractions-mul-div-9",
@@ -6848,13 +6848,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{1}{4}\\div\\frac{2}{5}$.",
     "options": [
-      "$\\frac{1}{4}$",
-      "$1$",
-      "$\\frac{2}{20}$",
-      "$\\frac{5}{8}$"
+      "$\\frac{5}{8}$",
+      "$\\frac{1}{10}$",
+      "$\\frac{5}{4}$",
+      "$\\frac{33}{40}$"
     ],
-    "correct_index": 3,
-    "explanation": "מחשבים $\\frac{1}{4}\\div\\frac{2}{5}$. התוצאה: $0.625$ (כפי שמופיע באפשרויות)."
+    "correct_index": 0,
+    "explanation": "הופכים את המחלק: $\\frac{1}{4}\\div\\frac{2}{5}=\\frac{1}{4}\\times\\frac{5}{2}$. מונה: $1\\times5=5$. מכנה: $4\\times2=8$. $=\\frac{5}{8}$"
   },
   {
     "id": "q-q-g6-fractions-mul-div-10",
@@ -6863,13 +6863,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{1}{2}\\times\\frac{3}{5}$.",
     "options": [
-      "$\\frac{3}{2}$",
-      "$3$",
-      "$\\frac{1}{10}$",
-      "$\\frac{3}{10}$"
+      "$\\frac{3}{10}$",
+      "$\\frac{5}{6}$",
+      "$\\frac{3}{5}$",
+      "$\\frac{1}{2}$"
     ],
-    "correct_index": 3,
-    "explanation": "מחשבים $\\frac{1}{2}\\times\\frac{3}{5}$. התוצאה: $0.3$ (כפי שמופיע באפשרויות)."
+    "correct_index": 0,
+    "explanation": "מונה: $1\\times3=3$. מכנה: $2\\times5=10$. $\\frac{1}{2}\\times\\frac{3}{5}=\\frac{3}{10}$"
   },
   {
     "id": "q-q-g6-fractions-mul-div-11",
@@ -6880,11 +6880,11 @@ export const ELEMENTARY_QUESTIONS = [
     "options": [
       "$\\frac{6}{7}$",
       "$\\frac{2}{21}$",
-      "$\\frac{2}{7}$",
-      "$2$"
+      "$\\frac{12}{7}$",
+      "$1$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{2}{7}\\div\\frac{1}{3}$. התוצאה: $0.8571$ (כפי שמופיע באפשרויות)."
+    "explanation": "הופכים את המחלק: $\\frac{2}{7}\\div\\frac{1}{3}=\\frac{2}{7}\\times\\frac{3}{1}$. מונה: $2\\times3=6$. מכנה: $7\\times1=7$. $=\\frac{6}{7}$"
   },
   {
     "id": "q-q-g6-fractions-mul-div-12",
@@ -6894,12 +6894,12 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $\\frac{1}{3}\\div\\frac{3}{5}$.",
     "options": [
       "$\\frac{5}{9}$",
-      "$1$",
-      "$\\frac{1}{3}$",
-      "$\\frac{3}{15}$"
+      "$\\frac{1}{5}$",
+      "$\\frac{10}{9}$",
+      "$\\frac{34}{45}$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{1}{3}\\div\\frac{3}{5}$. התוצאה: $0.5556$ (כפי שמופיע באפשרויות)."
+    "explanation": "הופכים את המחלק: $\\frac{1}{3}\\div\\frac{3}{5}=\\frac{1}{3}\\times\\frac{5}{3}$. מונה: $1\\times5=5$. מכנה: $3\\times3=9$. $=\\frac{5}{9}$"
   },
   {
     "id": "q-q-g6-fractions-mul-div-13",
@@ -6908,13 +6908,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{3}{8}\\times\\frac{2}{5}$.",
     "options": [
-      "$6$",
       "$\\frac{3}{20}$",
-      "$\\frac{6}{8}$",
-      "$\\frac{3}{40}$"
+      "$\\frac{15}{16}$",
+      "$\\frac{3}{10}$",
+      "$\\frac{11}{40}$"
     ],
-    "correct_index": 1,
-    "explanation": "מחשבים $\\frac{3}{8}\\times\\frac{2}{5}$. התוצאה: $0.15$ (כפי שמופיע באפשרויות)."
+    "correct_index": 0,
+    "explanation": "מונה: $3\\times2=6$. מכנה: $8\\times5=40$. $\\frac{3}{8}\\times\\frac{2}{5}=\\frac{6}{40}$ מצמצמים: מחלקים מונה ומכנה ב-$2$: $\\frac{6}{40}=\\frac{3}{20}$."
   },
   {
     "id": "q-q-g6-fractions-mul-div-14",
@@ -6923,13 +6923,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{2}{3}\\times\\frac{3}{4}$.",
     "options": [
-      "$\\frac{2}{12}$",
-      "$6$",
-      "$\\frac{6}{3}$",
-      "$\\frac{1}{2}$"
+      "$\\frac{1}{2}$",
+      "$\\frac{8}{9}$",
+      "$1$",
+      "$\\frac{3}{4}$"
     ],
-    "correct_index": 3,
-    "explanation": "מחשבים $\\frac{2}{3}\\times\\frac{3}{4}$. התוצאה: $0.5$ (כפי שמופיע באפשרויות)."
+    "correct_index": 0,
+    "explanation": "מונה: $2\\times3=6$. מכנה: $3\\times4=12$. $\\frac{2}{3}\\times\\frac{3}{4}=\\frac{6}{12}$ מצמצמים: מחלקים מונה ומכנה ב-$6$: $\\frac{6}{12}=\\frac{1}{2}$."
   },
   {
     "id": "q-q-g6-fractions-mul-div-15",
@@ -6938,13 +6938,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{1}{6}\\div\\frac{2}{3}$.",
     "options": [
-      "$\\frac{1}{6}$",
-      "$1$",
-      "$\\frac{2}{18}$",
-      "$\\frac{1}{4}$"
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{9}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{5}{12}$"
     ],
-    "correct_index": 3,
-    "explanation": "מחשבים $\\frac{1}{6}\\div\\frac{2}{3}$. התוצאה: $0.25$ (כפי שמופיע באפשרויות)."
+    "correct_index": 0,
+    "explanation": "הופכים את המחלק: $\\frac{1}{6}\\div\\frac{2}{3}=\\frac{1}{6}\\times\\frac{3}{2}$. מונה: $1\\times3=3$. מכנה: $6\\times2=12$. $=\\frac{3}{12}$ מצמצמים: מחלקים מונה ומכנה ב-$3$: $\\frac{3}{12}=\\frac{1}{4}$."
   },
   {
     "id": "q-q-g6-fractions-mul-div-16",
@@ -6953,13 +6953,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{3}{5}\\times\\frac{1}{2}$.",
     "options": [
-      "$\\frac{3}{5}$",
-      "$3$",
       "$\\frac{3}{10}$",
-      "$\\frac{1}{10}$"
+      "$\\frac{6}{5}$",
+      "$\\frac{3}{5}$",
+      "$\\frac{1}{2}$"
     ],
-    "correct_index": 2,
-    "explanation": "מחשבים $\\frac{3}{5}\\times\\frac{1}{2}$. התוצאה: $0.3$ (כפי שמופיע באפשרויות)."
+    "correct_index": 0,
+    "explanation": "מונה: $3\\times1=3$. מכנה: $5\\times2=10$. $\\frac{3}{5}\\times\\frac{1}{2}=\\frac{3}{10}$"
   },
   {
     "id": "q-q-g6-fractions-mul-div-17",
@@ -6968,13 +6968,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $\\frac{5}{6}\\div\\frac{1}{4}$.",
     "options": [
-      "$5$",
       "$\\frac{10}{3}$",
-      "$\\frac{5}{6}$",
-      "$\\frac{5}{24}$"
+      "$\\frac{5}{24}$",
+      "$\\frac{20}{3}$",
+      "$\\frac{7}{2}$"
     ],
-    "correct_index": 1,
-    "explanation": "מחשבים $\\frac{5}{6}\\div\\frac{1}{4}$. התוצאה: $3.3333$ (כפי שמופיע באפשרויות)."
+    "correct_index": 0,
+    "explanation": "הופכים את המחלק: $\\frac{5}{6}\\div\\frac{1}{4}=\\frac{5}{6}\\times\\frac{4}{1}$. מונה: $5\\times4=20$. מכנה: $6\\times1=6$. $=\\frac{20}{6}$ מצמצמים: מחלקים מונה ומכנה ב-$2$: $\\frac{20}{6}=\\frac{10}{3}$."
   },
   {
     "id": "q-q-g6-fractions-mul-div-18",
@@ -6984,12 +6984,12 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $\\frac{2}{7}\\times\\frac{1}{3}$.",
     "options": [
       "$\\frac{2}{21}$",
-      "$\\frac{2}{7}$",
-      "$\\frac{1}{21}$",
-      "$2$"
+      "$\\frac{6}{7}$",
+      "$\\frac{4}{21}$",
+      "$\\frac{5}{21}$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{2}{7}\\times\\frac{1}{3}$. התוצאה: $0.0952$ (כפי שמופיע באפשרויות)."
+    "explanation": "מונה: $2\\times1=2$. מכנה: $7\\times3=21$. $\\frac{2}{7}\\times\\frac{1}{3}=\\frac{2}{21}$"
   },
   {
     "id": "q-q-g6-fractions-mul-div-19",
@@ -6999,12 +6999,12 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $\\frac{1}{2}\\times\\frac{1}{3}$.",
     "options": [
       "$\\frac{1}{6}$",
+      "$\\frac{3}{2}$",
       "$\\frac{1}{3}$",
-      "$\\frac{1}{2}$",
-      "$1$"
+      "$\\frac{1}{2}$"
     ],
     "correct_index": 0,
-    "explanation": "מחשבים $\\frac{1}{2}\\times\\frac{1}{3}$. התוצאה: $0.1667$ (כפי שמופיע באפשרויות)."
+    "explanation": "מונה: $1\\times1=1$. מכנה: $2\\times3=6$. $\\frac{1}{2}\\times\\frac{1}{3}=\\frac{1}{6}$"
   },
   {
     "id": "q-g6-dec-1",
@@ -7026,14 +7026,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-decimals-mul-div",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $0.5$ או $1.5$?",
+    "question_text": "איזה מספר גדול יותר: $0.5$ או $1.5$?",
     "options": [
-      "$0.5$",
       "$1.5$",
-      "שווים",
-      "$1$"
+      "$0.5$",
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $1.5$ גדול מ-$0.5$."
   },
   {
@@ -7043,13 +7043,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $5.5\\times 2.5$.",
     "options": [
-      "$8$",
-      "$14.75$",
       "$13.75$",
-      "$2.2$"
+      "$10$",
+      "$14.75$",
+      "$8$"
     ],
-    "correct_index": 2,
-    "explanation": "החישוב: $5.5\\times 2.5=13.75$."
+    "correct_index": 0,
+    "explanation": "כופלים בלי הנקודות: $55\\times25=1{,}375$. סופרים ספרות אחרי הנקודה: $1+1=2$. שמים $2$ ספרות אחרי הנקודה: $13.75$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-3",
@@ -7058,13 +7058,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $4.0\\times 0.5$.",
     "options": [
-      "$4.5$",
-      "$8$",
+      "$2$",
+      "$0$",
       "$3$",
-      "$2$"
+      "$4.5$"
     ],
-    "correct_index": 3,
-    "explanation": "החישוב: $4.0\\times 0.5=2$."
+    "correct_index": 0,
+    "explanation": "כופלים בלי הנקודות: $40\\times5=200$. סופרים ספרות אחרי הנקודה: $1+1=2$. שמים $2$ ספרות אחרי הנקודה: $2$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-4",
@@ -7073,13 +7073,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $2.3-1.1$.",
     "options": [
-      "$3.4$",
       "$1.2$",
-      "$2.53$",
-      "$-1.2$"
+      "$2.2$",
+      "$1.1$",
+      "$3.4$"
     ],
-    "correct_index": 1,
-    "explanation": "החישוב: $2.3-1.1=1.2$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $2.3$ ו-$1.1$. מחסרים כמו מספרים שלמים, והנקודה נשארת במקום: $2.3-1.1=1.2$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-5",
@@ -7088,13 +7088,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $2.3+1.1$.",
     "options": [
-      "$2.53$",
-      "$3.5$",
       "$3.4$",
+      "$4.4$",
+      "$3.3$",
       "$1.2$"
     ],
-    "correct_index": 2,
-    "explanation": "החישוב: $2.3+1.1=3.4$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $2.3$ ו-$1.1$. מחברים כמו מספרים שלמים, והנקודה נשארת במקום: $2.3+1.1=3.4$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-6",
@@ -7103,25 +7103,25 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $1.5+0.5$.",
     "options": [
-      "$1$",
-      "$2.1$",
       "$2$",
-      "$0.75$"
+      "$3$",
+      "$1.9$",
+      "$1$"
     ],
-    "correct_index": 2,
-    "explanation": "החישוב: $1.5+0.5=2$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $1.5$ ו-$0.5$. מחברים כמו מספרים שלמים, והנקודה נשארת במקום: $1.5+0.5=2.0$. $=2$"
   },
   {
     "id": "q-q-g6-decimals-mul-div-7",
     "topic_id": "g6-decimals-mul-div",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $3.6$ או $0.2$?",
+    "question_text": "איזה מספר גדול יותר: $3.6$ או $0.2$?",
     "options": [
       "$3.6$",
-      "$1$",
       "$0.2$",
-      "שווים"
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
     "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $3.6$ גדול מ-$0.2$."
@@ -7133,13 +7133,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $2.5-0.5$.",
     "options": [
-      "$1.25$",
-      "$-2$",
       "$2$",
-      "$3$"
+      "$3$",
+      "$1.9$",
+      "$2.1$"
     ],
-    "correct_index": 2,
-    "explanation": "החישוב: $2.5-0.5=2$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $2.5$ ו-$0.5$. מחסרים כמו מספרים שלמים, והנקודה נשארת במקום: $2.5-0.5=2.0$. $=2$"
   },
   {
     "id": "q-q-g6-decimals-mul-div-9",
@@ -7148,13 +7148,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $6.4-1.6$.",
     "options": [
-      "$8$",
-      "$10.24$",
       "$4.8$",
-      "$-4.8$"
+      "$5.8$",
+      "$4.7$",
+      "$8$"
     ],
-    "correct_index": 2,
-    "explanation": "החישוב: $6.4-1.6=4.8$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $6.4$ ו-$1.6$. מחסרים כמו מספרים שלמים, והנקודה נשארת במקום: $6.4-1.6=4.8$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-10",
@@ -7163,27 +7163,27 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $3.5-1.25$.",
     "options": [
-      "$4.38$",
       "$2.25$",
-      "$-2.25$",
+      "$3.25$",
+      "$2.15$",
       "$4.75$"
     ],
-    "correct_index": 1,
-    "explanation": "החישוב: $3.5-1.25=2.25$."
+    "correct_index": 0,
+    "explanation": "מיישרים נקודה מתחת לנקודה, ומשלימים אפסים: $3.50$ ו-$1.25$. מחסרים כמו מספרים שלמים, והנקודה נשארת במקום: $3.50-1.25=2.25$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-11",
     "topic_id": "g6-decimals-mul-div",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $4.2$ או $0.25$?",
+    "question_text": "איזה מספר גדול יותר: $4.2$ או $0.25$?",
     "options": [
-      "$1$",
-      "שווים",
       "$4.2$",
-      "$0.25$"
+      "$0.25$",
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $4.2$ גדול מ-$0.25$."
   },
   {
@@ -7193,13 +7193,13 @@ export const ELEMENTARY_QUESTIONS = [
     "type": "mcq",
     "question_text": "חשבו: $2.3\\times 1.1$.",
     "options": [
-      "$2.09$",
-      "$3.4$",
       "$2.53$",
-      "$3.53$"
+      "$2$",
+      "$3.53$",
+      "$3.4$"
     ],
-    "correct_index": 2,
-    "explanation": "החישוב: $2.3\\times 1.1=2.53$."
+    "correct_index": 0,
+    "explanation": "כופלים בלי הנקודות: $23\\times11=253$. סופרים ספרות אחרי הנקודה: $1+1=2$. שמים $2$ ספרות אחרי הנקודה: $2.53$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-13",
@@ -7209,26 +7209,26 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $1.2\\times 0.4$.",
     "options": [
       "$0.48$",
-      "$3$",
+      "$0$",
       "$1.48$",
       "$1.6$"
     ],
     "correct_index": 0,
-    "explanation": "החישוב: $1.2\\times 0.4=0.48$."
+    "explanation": "כופלים בלי הנקודות: $12\\times4=48$. סופרים ספרות אחרי הנקודה: $1+1=2$. שמים $2$ ספרות אחרי הנקודה: $0.48$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-14",
     "topic_id": "g6-decimals-mul-div",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $0.35$ או $1.2$?",
+    "question_text": "איזה מספר גדול יותר: $0.35$ או $1.2$?",
     "options": [
-      "$1$",
       "$1.2$",
       "$0.35$",
-      "שווים"
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $1.2$ גדול מ-$0.35$."
   },
   {
@@ -7236,14 +7236,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-decimals-mul-div",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $0.25$ או $0.7$?",
+    "question_text": "איזה מספר גדול יותר: $0.25$ או $0.7$?",
     "options": [
-      "שווים",
-      "$1$",
       "$0.7$",
-      "$0.25$"
+      "$0.25$",
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $0.7$ גדול מ-$0.25$."
   },
   {
@@ -7251,14 +7251,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-decimals-mul-div",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $5.25$ או $0.3$?",
+    "question_text": "איזה מספר גדול יותר: $5.25$ או $0.3$?",
     "options": [
-      "$1$",
       "$5.25$",
       "$0.3$",
-      "שווים"
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $5.25$ גדול מ-$0.3$."
   },
   {
@@ -7269,24 +7269,24 @@ export const ELEMENTARY_QUESTIONS = [
     "question_text": "חשבו: $3.5\\times 1.25$.",
     "options": [
       "$4.375$",
-      "$5.38$",
-      "$4.75$",
-      "$2.8$"
+      "$3$",
+      "$5.375$",
+      "$4.75$"
     ],
     "correct_index": 0,
-    "explanation": "החישוב: $3.5\\times 1.25=4.375$."
+    "explanation": "כופלים בלי הנקודות: $35\\times125=4{,}375$. סופרים ספרות אחרי הנקודה: $1+2=3$. שמים $3$ ספרות אחרי הנקודה: $4.375$."
   },
   {
     "id": "q-q-g6-decimals-mul-div-18",
     "topic_id": "g6-decimals-mul-div",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $0.1$ או $0.35$?",
+    "question_text": "איזה מספר גדול יותר: $0.1$ או $0.35$?",
     "options": [
       "$0.35$",
-      "שווים",
       "$0.1$",
-      "$1$"
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
     "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $0.35$ גדול מ-$0.1$."
@@ -7296,14 +7296,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-decimals-mul-div",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: $0.05$ או $0.1$?",
+    "question_text": "איזה מספר גדול יותר: $0.05$ או $0.1$?",
     "options": [
+      "$0.1$",
       "$0.05$",
-      "שווים",
-      "$1$",
-      "$0.1$"
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "משווים ספרה-ספרה: $0.1$ גדול מ-$0.05$."
   },
   {
@@ -7326,147 +7326,147 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-number-sets",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "הקבוצה הרחבה:",
+    "question_text": "איזו קבוצה היא הרחבה ביותר (מכילה את שתי האחרות)?",
     "options": [
-      "R",
-      "Q",
-      "Z",
-      "N"
+      "הרציונליים",
+      "השלמים",
+      "הטבעיים",
+      "כולן באותו גודל"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא R."
+    "explanation": "כל טבעי הוא שלם, וכל שלם הוא רציונלי. לכן הרציונליים מכילים את שתי הקבוצות האחרות."
   },
   {
     "id": "q-q-g6-number-sets-2",
     "topic_id": "g6-number-sets",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "לא שלם:",
+    "question_text": "איזה מהמספרים הבאים אינו מספר שלם?",
     "options": [
-      "$10$",
       "$0.5$",
+      "$10$",
       "$0$",
       "$-3$"
     ],
-    "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $0.5$."
+    "correct_index": 0,
+    "explanation": "$10$, $0$ ו-$-3$ שלמים. $0.5$ — חצי, אינו שלם."
   },
   {
     "id": "q-q-g6-number-sets-3",
     "topic_id": "g6-number-sets",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "נכון:",
+    "question_text": "איזה מהמשפטים הבאים נכון?",
     "options": [
       "$-4+4=0$",
-      "$\\sqrt{2}\\in Q$",
-      "$\\pi=22/7$ exact",
-      "$2+2=5$"
+      "$-4+4=8$",
+      "$-4+4=-8$",
+      "$-4+4=4$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $-4+4=0$."
+    "explanation": "$-4$ ו-$4$ — מספרים נגדיים. סכום של מספרים נגדיים הוא $0$."
   },
   {
     "id": "q-q-g6-number-sets-4",
     "topic_id": "g6-number-sets",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "רציונלי:",
+    "question_text": "איזה מהמספרים הבאים הוא רציונלי אך **אינו** שלם?",
     "options": [
-      "$\\sqrt{3}$",
-      "$\\sqrt{2}$",
       "$\\frac{2}{3}$",
-      "$\\pi$"
+      "$5$",
+      "$-2$",
+      "$0$"
     ],
-    "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $\\frac{2}{3}$."
+    "correct_index": 0,
+    "explanation": "$5$, $-2$, $0$ — שלמים (וגם רציונליים). $\\frac{2}{3}$ — שבר, רציונלי, ואינו שלם."
   },
   {
     "id": "q-q-g6-number-sets-6",
     "topic_id": "g6-number-sets",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שייך ל-N?",
+    "question_text": "איזה מהמספרים הבאים שייך לקבוצת הטבעיים?",
     "options": [
+      "$5$",
       "$0$",
       "$-1$",
-      "$1/2$",
-      "$5$"
+      "$\\frac{1}{2}$"
     ],
-    "correct_index": 3,
-    "explanation": "התשובה הנכונה היא $5$."
+    "correct_index": 0,
+    "explanation": "טבעיים: $1, 2, 3, \\ldots$ $0$ אינו טבעי; $-1$ שלילי; $\\frac{1}{2}$ שבר. $5$ — טבעי."
   },
   {
     "id": "q-q-g6-number-sets-7",
     "topic_id": "g6-number-sets",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "כל שלם הוא גם:",
+    "question_text": "כל מספר שלם הוא גם:",
     "options": [
-      "רק חיובי",
-      "מרכב",
       "רציונלי",
-      "אירצ."
+      "טבעי",
+      "חיובי",
+      "זוגי"
     ],
-    "correct_index": 2,
-    "explanation": "התשובה הנכונה היא רציונלי."
+    "correct_index": 0,
+    "explanation": "כל שלם אפשר לכתוב כשבר עם מכנה $1$: $-5=\\frac{-5}{1}$. לכן כל שלם הוא רציונלי. לא כל שלם טבעי או חיובי (למשל $-5$)."
   },
   {
     "id": "q-q-g6-number-sets-8",
     "topic_id": "g6-number-sets",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "-7+7=",
+    "question_text": "כמה זה $-7+7$?",
     "options": [
+      "$0$",
       "$-14$",
-      "$-1$",
       "$14$",
-      "$0$"
+      "$-1$"
     ],
-    "correct_index": 3,
-    "explanation": "החישוב: $-7+7=0$."
+    "correct_index": 0,
+    "explanation": "$-7$ ו-$7$ הם מספרים נגדיים — באותו מרחק מ-$0$ משני הצדדים. סכום של מספרים נגדיים: $0$."
   },
   {
     "id": "q-q-g6-number-sets-9",
     "topic_id": "g6-number-sets",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "אירציונלי:",
+    "question_text": "איזה מהמספרים הבאים **אינו** מספר שלם?",
     "options": [
       "$\\frac{7}{2}$",
-      "$\\sqrt{2}$",
-      "$0.5$",
-      "$-4$"
+      "$-4$",
+      "$0$",
+      "$\\frac{8}{2}$"
     ],
-    "correct_index": 1,
-    "explanation": "התשובה הנכונה היא $\\sqrt{2}$."
+    "correct_index": 0,
+    "explanation": "$-4$ ו-$0$ שלמים; $\\frac{8}{2}=4$ — שלם. $\\frac{7}{2}=3.5$ — לא שלם."
   },
   {
     "id": "q-q-g6-number-sets-10",
     "topic_id": "g6-number-sets",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "22/7 הוא:",
+    "question_text": "האם $\\frac{22}{7}$ הוא מספר רציונלי?",
     "options": [
-      "מרכב",
-      "אירצ. בדיוק",
-      "שלם שלילי",
-      "רציונלי"
+      "כן — הוא כתוב כשבר של שני מספרים שלמים",
+      "לא — הוא לא מספר שלם",
+      "לא — כי הוא גדול מ-$1$",
+      "רק אם מצמצמים אותו"
     ],
-    "correct_index": 3,
-    "explanation": "התשובה הנכונה היא רציונלי."
+    "correct_index": 0,
+    "explanation": "רציונלי — מספר שאפשר לכתוב כשבר $\\frac{a}{b}$ של שלמים ($b\\neq0$). $\\frac{22}{7}$ כבר כתוב כך — לכן הוא רציונלי."
   },
   {
     "id": "q-q-g6-number-sets-11",
     "topic_id": "g6-number-sets",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "איזה גדול: -2 או -5?",
+    "question_text": "איזה מספר גדול יותר: $-2$ או $-5$?",
     "options": [
       "$-2$",
       "$-5$",
-      "שווים",
-      "$0$"
+      "הם שווים",
+      "אי אפשר לדעת"
     ],
     "correct_index": 0,
     "explanation": "התשובה הנכונה היא $-2$."
@@ -7476,120 +7476,120 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-number-sets",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "1 הוא:",
+    "question_text": "לאילו קבוצות שייך המספר $1$?",
     "options": [
-      "מרכב",
-      "לא",
-      "רק אירצ.",
-      "N,Z,Q"
+      "לטבעיים, לשלמים ולרציונליים",
+      "רק לטבעיים",
+      "רק לרציונליים",
+      "לאף קבוצה"
     ],
-    "correct_index": 3,
-    "explanation": "התשובה הנכונה היא N,Z,Q."
+    "correct_index": 0,
+    "explanation": "$1$ הוא מספר טבעי. כל טבעי הוא גם שלם. כל שלם הוא גם רציונלי: $1=\\frac{1}{1}$."
   },
   {
     "id": "q-q-g6-number-sets-13",
     "topic_id": "g6-number-sets",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "-6/3 =",
+    "question_text": "כמה זה $(-6):3$?",
     "options": [
-      "$3$",
-      "$2$",
       "$-2$",
-      "$-6$"
+      "$2$",
+      "$-3$",
+      "$-18$"
     ],
-    "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $-2$."
+    "correct_index": 0,
+    "explanation": "$6:3=2$ שלילי חלקי חיובי — התוצאה שלילית. $(-6):3=-2$"
   },
   {
     "id": "q-q-g6-number-sets-14",
     "topic_id": "g6-number-sets",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "-4/2 שייך ל:",
+    "question_text": "לאילו קבוצות שייך המספר $\\frac{-4}{2}$?",
     "options": [
-      "Z ו-Q",
-      "אף",
-      "רק אירצ.",
-      "רק N"
+      "לשלמים ולרציונליים",
+      "רק לטבעיים",
+      "לאף קבוצה",
+      "רק לרציונליים, לא לשלמים"
     ],
     "correct_index": 0,
-    "explanation": "$-4/2=-2$, וזהו גם מספר שלם ($\\mathbb{Z}$) וגם מספר רציונלי ($\\mathbb{Q}$)."
+    "explanation": "$\\frac{-4}{2}=-2$ $-2$ הוא מספר שלם (שלילי), ולכן גם רציונלי. הוא אינו טבעי — טבעיים הם חיוביים."
   },
   {
     "id": "q-q-g6-number-sets-15",
     "topic_id": "g6-number-sets",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "מספר שלם:",
+    "question_text": "איזה מהמספרים הבאים הוא מספר שלם?",
     "options": [
       "$-3$",
-      "$0.101001...$",
-      "$\\sqrt{2}$",
-      "$\\pi$"
+      "$0.5$",
+      "$\\frac{1}{3}$",
+      "$2.7$"
     ],
     "correct_index": 0,
-    "explanation": "מספר שלם הוא מספר ללא חלק עשרוני או שברי — כולל גם מספרים שליליים, למשל $-3$."
+    "explanation": "שלמים — בלי חלק שברי: $\\ldots,-2,-1,0,1,2,\\ldots$ $-3$ — שלם (שלילי). $0.5$, $\\frac{1}{3}$, $2.7$ — יש חלק שברי."
   },
   {
     "id": "q-q-g6-number-sets-16",
     "topic_id": "g6-number-sets",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "sqrt(9)=",
+    "question_text": "כמה זה $\\sqrt{9}$?",
     "options": [
-      "$\\sqrt{3}$",
-      "$-3$",
+      "$3$",
       "$9$",
-      "$3$"
+      "$4.5$",
+      "$81$"
     ],
-    "correct_index": 3,
-    "explanation": "$\\sqrt{9}=3$ (כי $3^2=9$)."
+    "correct_index": 0,
+    "explanation": "$\\sqrt{9}$ — המספר החיובי שכפול עצמו נותן $9$. $3\\times3=9$, לכן $\\sqrt{9}=3$."
   },
   {
     "id": "q-q-g6-number-sets-17",
     "topic_id": "g6-number-sets",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "0 שייך ל:",
+    "question_text": "לאיזו קבוצה שייך המספר $0$?",
     "options": [
-      "שלמים",
-      "לא שייך",
-      "רק טבעיים חיוביים",
-      "רק אירצ."
+      "לשלמים (ולכן גם לרציונליים)",
+      "רק לטבעיים",
+      "לאף קבוצה",
+      "רק לשברים"
     ],
     "correct_index": 0,
-    "explanation": "האפס הוא מספר שלם (אך לא מספר טבעי חיובי), ולכן שייך לקבוצת השלמים."
+    "explanation": "$0$ אינו טבעי (הטבעיים מתחילים ב-$1$). $0$ הוא מספר שלם. וכל שלם הוא גם רציונלי: $0=\\frac{0}{1}$."
   },
   {
     "id": "q-q-g6-number-sets-18",
     "topic_id": "g6-number-sets",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "טבעי חיובי:",
+    "question_text": "איזה מהמספרים הבאים הוא מספר טבעי?",
     "options": [
       "$7$",
       "$-2$",
-      "$-3/4$",
+      "$-\\frac{3}{4}$",
       "$0.5$"
     ],
     "correct_index": 0,
-    "explanation": "התשובה הנכונה היא $7$."
+    "explanation": "טבעיים: $1, 2, 3, \\ldots$ $-2$ ו-$-\\frac{3}{4}$ שליליים; $0.5$ אינו שלם. $7$ — טבעי."
   },
   {
     "id": "q-q-g6-number-sets-19",
     "topic_id": "g6-number-sets",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "Z =",
+    "question_text": "איזו רשימה מתארת את קבוצת המספרים השלמים?",
     "options": [
-      "$R$",
-      "$\\{0,1,2\\ldots\\}$",
-      "$\\{\\ldots,-1,0,1,\\ldots\\}$",
-      "$\\{1,2,3\\ldots\\}$"
+      "$\\ldots,-2,-1,0,1,2,\\ldots$",
+      "$1,2,3,\\ldots$",
+      "$0,1,2,3,\\ldots$",
+      "$\\frac{1}{2},\\frac{1}{3},\\frac{1}{4},\\ldots$"
     ],
-    "correct_index": 2,
-    "explanation": "התשובה הנכונה היא $\\{\\ldots,-1,0,1,\\ldots\\}$."
+    "correct_index": 0,
+    "explanation": "השלמים כוללים את הטבעיים, את $0$ ואת השליליים. לכן הם נמשכים לשני הכיוונים: $\\ldots,-2,-1,0,1,2,\\ldots$"
   },
   {
     "id": "q-g6-geo-1",
@@ -7611,14 +7611,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $11\\times 8$:",
+    "question_text": "מה השטח של מלבן שאורכו $11$ ורוחבו $8$?",
     "options": [
-      "$84$",
-      "$81$",
       "$88$",
-      "$83$"
+      "$38$",
+      "$19$",
+      "$99$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $11\\times 8=88$."
   },
   {
@@ -7626,12 +7626,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $5$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $5$?",
     "options": [
       "$20$",
-      "$13$",
-      "$16$",
-      "$15$"
+      "$25$",
+      "$10$",
+      "$21$"
     ],
     "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 5=20$."
@@ -7641,14 +7641,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $5$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $5$?",
     "options": [
-      "$18$",
+      "$25$",
       "$20$",
-      "$21$",
-      "$25$"
+      "$10$",
+      "$30$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $5^2=25$."
   },
   {
@@ -7656,12 +7656,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $4\\times 7\\times 6$:",
+    "question_text": "מה הנפח של תיבה שממדיה $4$, $7$ ו-$6$?",
     "options": [
       "$168$",
-      "$164$",
-      "$163$",
-      "$161$"
+      "$17$",
+      "$188$",
+      "$28$"
     ],
     "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $4\\times 7\\times 6=168$."
@@ -7671,14 +7671,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $11$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $11$?",
     "options": [
-      "$40$",
       "$44$",
-      "$39$",
-      "$37$"
+      "$121$",
+      "$22$",
+      "$55$"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 11=44$."
   },
   {
@@ -7686,14 +7686,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $10\\times 3$:",
+    "question_text": "מה ההיקף של מלבן שאורכו $10$ ורוחבו $3$?",
     "options": [
-      "$21$",
-      "$22$",
-      "$19$",
-      "$26$"
+      "$26$",
+      "$30$",
+      "$13$",
+      "$28$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(10+3)=26$."
   },
   {
@@ -7701,12 +7701,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $4\\times 8$:",
+    "question_text": "מה השטח של מלבן שאורכו $4$ ורוחבו $8$?",
     "options": [
       "$32$",
-      "$27$",
-      "$25$",
-      "$28$"
+      "$24$",
+      "$12$",
+      "$36$"
     ],
     "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $4\\times 8=32$."
@@ -7716,14 +7716,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $11$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $11$?",
     "options": [
-      "$114$",
-      "$117$",
-      "$116$",
-      "$121$"
+      "$121$",
+      "$44$",
+      "$22$",
+      "$132$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $11^2=121$."
   },
   {
@@ -7731,12 +7731,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $4\\times 9$:",
+    "question_text": "מה השטח של מלבן שאורכו $4$ ורוחבו $9$?",
     "options": [
       "$36$",
-      "$31$",
-      "$29$",
-      "$32$"
+      "$26$",
+      "$13$",
+      "$40$"
     ],
     "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $4\\times 9=36$."
@@ -7746,14 +7746,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $10\\times 9$:",
+    "question_text": "מה השטח של מלבן שאורכו $10$ ורוחבו $9$?",
     "options": [
-      "$83$",
-      "$86$",
       "$90$",
-      "$85$"
+      "$38$",
+      "$19$",
+      "$100$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $10\\times 9=90$."
   },
   {
@@ -7761,12 +7761,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $9$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $9$?",
     "options": [
       "$36$",
-      "$31$",
-      "$32$",
-      "$29$"
+      "$81$",
+      "$18$",
+      "$45$"
     ],
     "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 9=36$."
@@ -7776,12 +7776,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $10\\times 9\\times 5$:",
+    "question_text": "מה הנפח של תיבה שממדיה $10$, $9$ ו-$5$?",
     "options": [
       "$450$",
-      "$446$",
-      "$443$",
-      "$445$"
+      "$24$",
+      "$370$",
+      "$90$"
     ],
     "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $10\\times 9\\times 5=450$."
@@ -7791,14 +7791,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "שטח ריבוע צלע $7$:",
+    "question_text": "מה השטח של ריבוע שאורך צלעו $7$?",
     "options": [
-      "$44$",
-      "$42$",
       "$49$",
-      "$45$"
+      "$28$",
+      "$14$",
+      "$56$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח ריבוע הוא צלע בריבוע: $7^2=49$."
   },
   {
@@ -7806,12 +7806,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $11\\times 8\\times 3$:",
+    "question_text": "מה הנפח של תיבה שממדיה $11$, $8$ ו-$3$?",
     "options": [
       "$264$",
-      "$260$",
-      "$259$",
-      "$257$"
+      "$22$",
+      "$290$",
+      "$88$"
     ],
     "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $11\\times 8\\times 3=264$."
@@ -7821,14 +7821,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $9\\times 5\\times 5$:",
+    "question_text": "מה הנפח של תיבה שממדיה $9$, $5$ ו-$5$?",
     "options": [
-      "$220$",
-      "$221$",
-      "$218$",
-      "$225$"
+      "$225$",
+      "$19$",
+      "$230$",
+      "$45$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $9\\times 5\\times 5=225$."
   },
   {
@@ -7836,14 +7836,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שטח מלבן $5\\times 6$:",
+    "question_text": "מה השטח של מלבן שאורכו $5$ ורוחבו $6$?",
     "options": [
-      "$26$",
-      "$23$",
       "$30$",
-      "$25$"
+      "$22$",
+      "$11$",
+      "$35$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "שטח מלבן הוא אורך כפול רוחב: $5\\times 6=30$."
   },
   {
@@ -7851,12 +7851,12 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף ריבוע צלע $3$:",
+    "question_text": "מה ההיקף של ריבוע שאורך צלעו $3$?",
     "options": [
       "$12$",
-      "$8$",
-      "$7$",
-      "$5$"
+      "$9$",
+      "$6$",
+      "$15$"
     ],
     "correct_index": 0,
     "explanation": "היקף ריבוע הוא 4 כפול הצלע: $4\\times 3=12$."
@@ -7866,14 +7866,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "היקף מלבן $3\\times 8$:",
+    "question_text": "מה ההיקף של מלבן שאורכו $3$ ורוחבו $8$?",
     "options": [
-      "$15$",
-      "$17$",
-      "$18$",
-      "$22$"
+      "$22$",
+      "$24$",
+      "$11$",
+      "$23$"
     ],
-    "correct_index": 3,
+    "correct_index": 0,
     "explanation": "היקף מלבן הוא סכום כל הצלעות: $2\\times(3+8)=22$."
   },
   {
@@ -7881,14 +7881,14 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-geometry",
     "difficulty": 4,
     "type": "mcq",
-    "question_text": "נפח תיבה $3\\times 4\\times 4$:",
+    "question_text": "מה הנפח של תיבה שממדיה $3$, $4$ ו-$4$?",
     "options": [
-      "$43$",
-      "$44$",
       "$48$",
-      "$41$"
+      "$11$",
+      "$80$",
+      "$12$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "נפח תיבה הוא מכפלת שלושת הממדים: $3\\times 4\\times 4=48$."
   },
   {
@@ -7911,74 +7911,74 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $5$, $6$, $7$, $25$, $28$?",
+    "question_text": "מהו החציון של המספרים $5, 6, 7, 25, 28$?",
     "options": [
-      "$2$",
       "$7$",
-      "$0$",
-      "$3$"
+      "$6$",
+      "$25$",
+      "$14$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 5, 6, 7, 25, 28. החציון הוא הערך האמצעי — $7$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $5, 6, 7, 25, 28$. יש 5 מספרים, והאמצעי הוא השלישי — $7$."
   },
   {
     "id": "q-q-g6-data-prob-2",
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $6$, $10$, $11$, $17$, $24$?",
+    "question_text": "מהו החציון של המספרים $6, 10, 11, 17, 24$?",
     "options": [
-      "$7$",
       "$11$",
-      "$6$",
-      "$4$"
+      "$10$",
+      "$17$",
+      "$14$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 6, 10, 11, 17, 24. החציון הוא הערך האמצעי — $11$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $6, 10, 11, 17, 24$. יש 5 מספרים, והאמצעי הוא השלישי — $11$."
   },
   {
     "id": "q-q-g6-data-prob-3",
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $13$, $16$, $17$, $19$?",
+    "question_text": "מהו החציון של המספרים $2, 13, 16, 17, 19$?",
     "options": [
       "$16$",
-      "$12$",
-      "$9$",
-      "$11$"
+      "$13$",
+      "$17$",
+      "$18$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 2, 13, 16, 17, 19. החציון הוא הערך האמצעי — $16$."
+    "explanation": "ממיינים: $2, 13, 16, 17, 19$. יש 5 מספרים, והאמצעי הוא השלישי — $16$."
   },
   {
     "id": "q-q-g6-data-prob-4",
     "topic_id": "g6-average",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $4$, $10$, $15$, $22$, $24$?",
+    "question_text": "מהו הממוצע של המספרים $4, 10, 15, 22, 24$?",
     "options": [
-      "$11$",
       "$15$",
-      "$8$",
-      "$10$"
+      "$4$",
+      "$18$",
+      "$13$"
     ],
-    "correct_index": 1,
-    "explanation": "סכום המספרים הוא $75$, ומחלקים במספר המספרים ($5$): $75\\div 5=15$."
+    "correct_index": 0,
+    "explanation": "סכום המספרים: $75$. מחלקים במספר המספרים ($5$): $75:5=15$."
   },
   {
     "id": "q-q-g6-data-prob-5",
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "מטבע: P(עץ)?",
+    "question_text": "מטילים מטבע הוגן פעם אחת. מה ההסתברות לקבל \"עץ\"?",
     "options": [
+      "$\\frac{1}{2}$",
       "$1$",
       "$0$",
-      "$\\frac{1}{2}$",
       "$\\frac{1}{3}$"
     ],
-    "correct_index": 2,
+    "correct_index": 0,
     "explanation": "להטלת מטבע הוגן יש שתי תוצאות שוות-סבירות (עץ או פלי), ולכן ההסתברות לעץ היא $\\frac{1}{2}$."
   },
   {
@@ -7986,112 +7986,112 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $3$, $4$, $10$, $22$, $27$?",
+    "question_text": "מהו החציון של המספרים $3, 4, 10, 22, 27$?",
     "options": [
-      "$3$",
-      "$5$",
       "$10$",
-      "$6$"
+      "$4$",
+      "$22$",
+      "$13$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 3, 4, 10, 22, 27. החציון הוא הערך האמצעי — $10$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $3, 4, 10, 22, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $10$."
   },
   {
     "id": "q-q-g6-data-prob-7",
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $11$, $25$, $26$, $27$?",
+    "question_text": "מהו החציון של המספרים $2, 11, 25, 26, 27$?",
     "options": [
-      "$18$",
-      "$20$",
-      "$21$",
-      "$25$"
+      "$25$",
+      "$11$",
+      "$26$",
+      "$18$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 2, 11, 25, 26, 27. החציון הוא הערך האמצעי — $25$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $2, 11, 25, 26, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $25$."
   },
   {
     "id": "q-q-g6-data-prob-8",
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $5$, $10$, $13$, $17$, $29$?",
+    "question_text": "מהו החציון של המספרים $5, 10, 13, 17, 29$?",
     "options": [
-      "$9$",
-      "$6$",
       "$13$",
-      "$8$"
+      "$10$",
+      "$17$",
+      "$15$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 5, 10, 13, 17, 29. החציון הוא הערך האמצעי — $13$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $5, 10, 13, 17, 29$. יש 5 מספרים, והאמצעי הוא השלישי — $13$."
   },
   {
     "id": "q-q-g6-data-prob-9",
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $10$, $13$, $20$, $23$, $25$?",
+    "question_text": "מהו החציון של המספרים $10, 13, 20, 23, 25$?",
     "options": [
       "$20$",
       "$13$",
-      "$16$",
-      "$15$"
+      "$23$",
+      "$18$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 10, 13, 20, 23, 25. החציון הוא הערך האמצעי — $20$."
+    "explanation": "ממיינים: $10, 13, 20, 23, 25$. יש 5 מספרים, והאמצעי הוא השלישי — $20$."
   },
   {
     "id": "q-q-g6-data-prob-10",
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $3$, $6$, $18$, $22$?",
+    "question_text": "מהו החציון של המספרים $2, 3, 6, 18, 22$?",
     "options": [
-      "$-1$",
-      "$1$",
       "$6$",
-      "$2$"
+      "$3$",
+      "$18$",
+      "$10$"
     ],
-    "correct_index": 2,
-    "explanation": "ממיינים את המספרים: 2, 3, 6, 18, 22. החציון הוא הערך האמצעי — $6$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $2, 3, 6, 18, 22$. יש 5 מספרים, והאמצעי הוא השלישי — $6$."
   },
   {
     "id": "q-q-g6-data-prob-11",
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $5$, $11$, $16$, $25$, $26$?",
+    "question_text": "מהו החציון של המספרים $5, 11, 16, 25, 26$?",
     "options": [
-      "$9$",
-      "$12$",
+      "$16$",
       "$11$",
-      "$16$"
+      "$25$",
+      "$17$"
     ],
-    "correct_index": 3,
-    "explanation": "ממיינים את המספרים: 5, 11, 16, 25, 26. החציון הוא הערך האמצעי — $16$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $5, 11, 16, 25, 26$. יש 5 מספרים, והאמצעי הוא השלישי — $16$."
   },
   {
     "id": "q-q-g6-data-prob-12",
     "topic_id": "g6-average",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "ממוצע $5$, $12$, $19$, $25$, $29$?",
+    "question_text": "מהו הממוצע של המספרים $5, 12, 19, 25, 29$?",
     "options": [
       "$18$",
-      "$14$",
-      "$11$",
-      "$13$"
+      "$19$",
+      "$21$",
+      "$16$"
     ],
     "correct_index": 0,
-    "explanation": "סכום המספרים הוא $90$, ומחלקים במספר המספרים ($5$): $90\\div 5=18$."
+    "explanation": "סכום המספרים: $90$. מחלקים במספר המספרים ($5$): $90:5=18$."
   },
   {
     "id": "q-q-g6-data-prob-13",
     "topic_id": "g6-data-prob",
     "difficulty": 2,
     "type": "mcq",
-    "question_text": "שכיח ב-3,7,7,2:",
+    "question_text": "מהו השכיח של המספרים $3, 7, 7, 2$?",
     "options": [
       "$2$",
       "$19$",
@@ -8106,37 +8106,37 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $6$, $15$, $23$, $26$, $29$?",
+    "question_text": "מהו החציון של המספרים $6, 15, 23, 26, 29$?",
     "options": [
       "$23$",
-      "$18$",
-      "$16$",
-      "$19$"
+      "$15$",
+      "$26$",
+      "$20$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 6, 15, 23, 26, 29. החציון הוא הערך האמצעי — $23$."
+    "explanation": "ממיינים: $6, 15, 23, 26, 29$. יש 5 מספרים, והאמצעי הוא השלישי — $23$."
   },
   {
     "id": "q-q-g6-data-prob-15",
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $2$, $14$, $17$, $20$, $27$?",
+    "question_text": "מהו החציון של המספרים $2, 14, 17, 20, 27$?",
     "options": [
-      "$12$",
       "$17$",
-      "$10$",
-      "$13$"
+      "$14$",
+      "$20$",
+      "$16$"
     ],
-    "correct_index": 1,
-    "explanation": "ממיינים את המספרים: 2, 14, 17, 20, 27. החציון הוא הערך האמצעי — $17$."
+    "correct_index": 0,
+    "explanation": "ממיינים: $2, 14, 17, 20, 27$. יש 5 מספרים, והאמצעי הוא השלישי — $17$."
   },
   {
     "id": "q-q-g6-data-prob-16",
     "topic_id": "g6-data-prob",
     "difficulty": 1,
     "type": "mcq",
-    "question_text": "בנים 4, בנות 6. סה\"כ?",
+    "question_text": "בקבוצה יש $4$ בנים ו-$6$ בנות. כמה ילדים יש בקבוצה בסך הכול?",
     "options": [
       "$4$",
       "$6$",
@@ -8151,45 +8151,45 @@ export const ELEMENTARY_QUESTIONS = [
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $12$, $20$, $23$, $24$, $29$?",
+    "question_text": "מהו החציון של המספרים $12, 20, 23, 24, 29$?",
     "options": [
       "$23$",
-      "$16$",
-      "$18$",
-      "$19$"
+      "$20$",
+      "$24$",
+      "$22$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 12, 20, 23, 24, 29. החציון הוא הערך האמצעי — $23$."
+    "explanation": "ממיינים: $12, 20, 23, 24, 29$. יש 5 מספרים, והאמצעי הוא השלישי — $23$."
   },
   {
     "id": "q-q-g6-data-prob-18",
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $4$, $6$, $11$, $14$, $29$?",
+    "question_text": "מהו החציון של המספרים $4, 6, 11, 14, 29$?",
     "options": [
       "$11$",
-      "$4$",
       "$6$",
-      "$7$"
+      "$14$",
+      "$13$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 4, 6, 11, 14, 29. החציון הוא הערך האמצעי — $11$."
+    "explanation": "ממיינים: $4, 6, 11, 14, 29$. יש 5 מספרים, והאמצעי הוא השלישי — $11$."
   },
   {
     "id": "q-q-g6-data-prob-19",
     "topic_id": "g6-data-prob",
     "difficulty": 3,
     "type": "mcq",
-    "question_text": "חציון של $3$, $5$, $13$, $15$, $20$?",
+    "question_text": "מהו החציון של המספרים $3, 5, 13, 15, 20$?",
     "options": [
       "$13$",
-      "$6$",
-      "$9$",
-      "$8$"
+      "$5$",
+      "$15$",
+      "$11$"
     ],
     "correct_index": 0,
-    "explanation": "ממיינים את המספרים: 3, 5, 13, 15, 20. החציון הוא הערך האמצעי — $13$."
+    "explanation": "ממיינים: $3, 5, 13, 15, 20$. יש 5 מספרים, והאמצעי הוא השלישי — $13$."
   },
   {
     "id": "q-g5-numbers-million-1",
@@ -22754,7 +22754,7 @@ export const ELEMENTARY_QUESTIONS = [
       "לא עוקב ולא קודם"
     ],
     "correct_index": 0,
-    "explanation": "לכל מספר טבעי יש עוקב; ל-$0$ בלבד אין קודם."
+    "explanation": "לכל מספר טבעי יש עוקב (גדול ממנו ב-$1$). אבל ל-$1$, הטבעי הראשון, אין קודם טבעי."
   },
   {
     "id": "q-g6-nnox-5",
