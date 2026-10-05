@@ -74,11 +74,17 @@ export default function WorksheetPage() {
     };
   }, [topicId]);
 
-  const save = useCallback(
-    (next) => {
-      setState(next);
-      writeWorksheetState(ws.id, next);
-    },
+  /**
+   * עדכון פונקציונלי (prev → next): כמה שינויים מהירים ברצף (למשל בחירת
+   * סימן ואז הקלדה) לא דורסים זה את זה עם עותק ישן של המצב.
+   */
+  const update = useCallback(
+    (fn) =>
+      setState((prev) => {
+        const next = fn(prev);
+        writeWorksheetState(ws.id, next);
+        return next;
+      }),
     [ws],
   );
 
@@ -102,9 +108,11 @@ export default function WorksheetPage() {
   }
 
   function handleChange(key, value) {
-    const marks = { ...state.marks };
-    delete marks[key];
-    save({ ...state, values: { ...state.values, [key]: value }, marks });
+    update((prev) => {
+      const marks = { ...prev.marks };
+      delete marks[key];
+      return { ...prev, values: { ...prev.values, [key]: value }, marks };
+    });
     setConfirmSubmit(0);
   }
 
@@ -131,13 +139,13 @@ export default function WorksheetPage() {
     } else {
       playCorrect(muted);
     }
-    save({ ...state, marks: { ...state.marks, ...marks }, awarded });
+    update((prev) => ({ ...prev, marks: { ...prev.marks, ...marks }, awarded: { ...prev.awarded, ...awarded } }));
     return true;
   }
 
   function handleReset(partId, exIdx) {
     const prefix = `${partId}.${exIdx}.`;
-    save({ ...state, values: without(state.values, prefix), marks: without(state.marks, prefix) });
+    update((prev) => ({ ...prev, values: without(prev.values, prefix), marks: without(prev.marks, prefix) }));
   }
 
   function countEmptyQuizItems() {
@@ -186,21 +194,21 @@ export default function WorksheetPage() {
       playWrong(muted);
     }
 
-    save({
-      ...state,
-      marks,
-      quiz: { submitted: true, correct, total, rewarded: true, best: Math.max(score, state.quiz.best ?? 0) },
-    });
+    update((prev) => ({
+      ...prev,
+      marks: { ...prev.marks, ...marks },
+      quiz: { submitted: true, correct, total, rewarded: true, best: Math.max(score, prev.quiz.best ?? 0) },
+    }));
     requestAnimationFrame(() => topRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
   }
 
   function handleRetryQuiz() {
-    save({
-      ...state,
-      values: without(state.values, 'quiz.'),
-      marks: without(state.marks, 'quiz.'),
-      quiz: { ...state.quiz, submitted: false, correct: 0, total: 0 },
-    });
+    update((prev) => ({
+      ...prev,
+      values: without(prev.values, 'quiz.'),
+      marks: without(prev.marks, 'quiz.'),
+      quiz: { ...prev.quiz, submitted: false, correct: 0, total: 0 },
+    }));
     setRevealQuizAnswers(false);
   }
 

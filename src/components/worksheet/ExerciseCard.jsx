@@ -18,7 +18,7 @@ const GRID = {
 function gridClass(ex) {
   const cols = ex.cols ?? 2;
   if (cols === 3 && ex.items.some((item) => item.figure)) return 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3';
-  if (cols === 3 && ex.items.some((item) => item.q.includes('[[c:'))) {
+  if (cols === 3 && ex.items.some((item) => /\[\[[ci]:/.test(item.q))) {
     return 'grid-cols-1 min-[440px]:grid-cols-2 lg:grid-cols-3';
   }
   return GRID[cols];

@@ -71,6 +71,9 @@ describe('parseNumber', () => {
     expect(parseNumber('1,250,000')).toBe(1250000);
     expect(parseNumber('.5')).toBe(0.5);
     expect(parseNumber('−3')).toBe(-3);
+    expect(parseNumber('1/2')).toBe(0.5);
+    expect(parseNumber('−3/4')).toBe(-0.75);
+    expect(parseNumber('1/0')).toBeNaN();
     expect(parseNumber('abc')).toBeNaN();
     expect(parseNumber('')).toBeNaN();
   });
@@ -83,7 +86,7 @@ describe('blanks', () => {
     expect(parseBlank('f:3/4')).toMatchObject({ kind: 'fraction', exact: false, n: { value: 3 }, d: { value: 4 } });
     expect(parseBlank('fx:{9}/12')).toMatchObject({ exact: true, n: { value: 9, fixed: true }, d: { value: 12, fixed: false } });
     expect(parseBlank('m:2 3/4')).toMatchObject({ kind: 'mixed', w: { value: 2 }, n: { value: 3 }, d: { value: 4 } });
-    expect(parseBlank('c:>')).toEqual({ kind: 'compare', answer: '>' });
+    expect(parseBlank('c:>')).toEqual({ kind: 'compare', answer: '>', signs: ['<', '=', '>'] });
     expect(parseBlank('t:XIV')).toEqual({ kind: 'text', answers: ['XIV'] });
     expect(() => parseBlank('c:?')).toThrow();
     expect(() => parseBlank('zz:1')).toThrow();
@@ -109,6 +112,22 @@ describe('blanks', () => {
     expect(gradeBlank(mixed, { w: '1', n: '2', d: '8' })).toBe(true);
     expect(gradeBlank(mixed, { w: '2', n: '1', d: '4' })).toBe(false);
     expect(gradeBlank(parseBlank('mx:1 1/4'), { w: '1', n: '2', d: '8' })).toBe(false);
+  });
+
+  it('grades approximate numbers and inequality signs', () => {
+    const approx = parseBlank('n:31.4~0.1');
+    expect(gradeBlank(approx, '31.4')).toBe(true);
+    expect(gradeBlank(approx, '31.42')).toBe(true);
+    expect(gradeBlank(approx, '31.6')).toBe(false);
+    expect(blankAnswerMarkdown(approx)).toBe('$\\approx 31.4$');
+    expect(gradeBlank(parseBlank('-4'), '−4')).toBe(true);
+
+    const ineq = parseBlank('i:≥');
+    expect(ineq.signs).toEqual(['<', '≤', '>', '≥']);
+    expect(gradeBlank(ineq, '≥')).toBe(true);
+    expect(gradeBlank(ineq, '>')).toBe(false);
+    expect(blankAnswerMarkdown(ineq)).toBe('$\\ge$');
+    expect(() => parseBlank('i:=')).toThrow();
   });
 
   it('grades numbers, text and comparisons', () => {

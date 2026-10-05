@@ -7,6 +7,7 @@ import { readJSON, writeJSON } from './storage.js';
  * מסומנת בסוגריים כפולים [[...]]:
  *
  *   [[42]]  או [[n:42]]       מספר (אפשר כמה תשובות נכונות: [[n:2|3]])
+ *   [[n:31.4~0.1]]            מספר בקירוב: מתקבל כל ערך שרחוק עד 0.1 מהתשובה (π, שורשים)
  *   [[f:3/4]]                 שבר — מתקבל כל שבר שווה ערך (6/8 נכון)
  *   [[fx:3/4]]                שבר — בדיוק המונה והמכנה האלה (לצמצום/הרחבה)
  *   [[m:2 3/4]]               מספר מעורב — מתקבל כל ערך שווה
@@ -14,6 +15,7 @@ import { readJSON, writeJSON } from './storage.js';
  *   [[v:7/4]]                 תוצאה בשבר: משבצת שלם + שבר, ומתקבלת כל צורה שווה
  *                             (1 3/4, 7/4, 14/8). הצורה לא מסגירה אם התוצאה שלמה/גדולה מ-1.
  *   [[c:>]]                   סימן השוואה: < / = / >
+ *   [[i:≥]]                   סימן אי-שוויון: < / ≤ / > / ≥
  *   [[t:XIV]]                 טקסט קצר (בלי תלות ברווחים ובאותיות גדולות/קטנות)
  *
  * בשבר ובמספר מעורב, חלק שעטוף ב-{} הוא נתון ולא משבצת:
@@ -56,9 +58,11 @@ export function parseBlank(token) {
 
   switch (kind) {
     case 'n': {
-      const answers = body.split('|').map((s) => Number(s.trim()));
-      if (answers.some((a) => !Number.isFinite(a))) throw new Error(`Bad number blank "${token}"`);
-      return { kind: 'number', answers, width: Math.max(...body.split('|').map((s) => s.trim().length)) };
+      const alts = body.split('|').map((s) => s.trim().split('~'));
+      const answers = alts.map(([v]) => Number(v));
+      const tol = alts[0][1] != null ? Number(alts[0][1]) : 1e-9;
+      if (answers.some((a) => !Number.isFinite(a)) || !(tol > 0)) throw new Error(`Bad number blank "${token}"`);
+      return { kind: 'number', answers, tol, approx: tol > 1e-9, width: Math.max(...alts.map(([v]) => v.length)) };
     }
     case 'f':
     case 'fx': {
@@ -78,8 +82,11 @@ export function parseBlank(token) {
       return { kind: 'value', n, d };
     }
     case 'c':
-      if (!['<', '=', '>'].includes(body)) throw new Error(`Bad compare blank "${token}"`);
-      return { kind: 'compare', answer: body };
+    case 'i': {
+      const signs = kind === 'c' ? ['<', '=', '>'] : ['<', '≤', '>', '≥'];
+      if (!signs.includes(body)) throw new Error(`Bad sign blank "${token}"`);
+      return { kind: 'compare', answer: body, signs };
+    }
     case 't':
       return { kind: 'text', answers: body.split('|').map((s) => s.trim()) };
     default:
@@ -89,12 +96,15 @@ export function parseBlank(token) {
 
 /**
  * מספר כמו שתלמידים מקלידים: "7", " 7 ", "3.5", "3,5" (פסיק עשרוני),
- * "250,000" / "1,000,000" (פסיקי אלפים), "−3". NaN אם לא נשאר מספר.
+ * "250,000" / "1,000,000" (פסיקי אלפים), "−3", "1/2" או "-3/4" (שבר).
+ * NaN אם לא נשאר מספר.
  */
 export function parseNumber(raw) {
   let s = String(raw ?? '')
     .replace(/\s+/g, '')
     .replace(/[−–]/g, '-');
+  const frac = s.match(/^(-?\d+)\/(\d+)$/);
+  if (frac) return Number(frac[2]) === 0 ? NaN : Number(frac[1]) / Number(frac[2]);
   if (/^-?\d{1,3}(,\d{3})+(\.\d+)?$/.test(s)) s = s.replace(/,/g, '');
   else s = s.replace(',', '.');
   if (!/^-?(\d+(\.\d*)?|\.\d+)$/.test(s)) return NaN;
@@ -134,7 +144,7 @@ export function gradeBlank(blank, value) {
   switch (blank.kind) {
     case 'number': {
       const x = parseNumber(value);
-      return !Number.isNaN(x) && blank.answers.some((a) => Math.abs(a - x) < 1e-9);
+      return !Number.isNaN(x) && blank.answers.some((a) => Math.abs(a - x) <= blank.tol + 1e-12);
     }
     case 'text':
       return blank.answers.some((a) => normText(a) === normText(value));
@@ -177,11 +187,11 @@ export function gradeBlank(blank, value) {
 export function blankAnswerMarkdown(blank) {
   switch (blank.kind) {
     case 'number':
-      return blank.answers.map((a) => `$${formatNumberTex(a)}$`).join(' או ');
+      return blank.answers.map((a) => `$${blank.approx ? '\\approx ' : ''}${formatNumberTex(a)}$`).join(' או ');
     case 'text':
       return blank.answers.join(' או ');
     case 'compare':
-      return `$${blank.answer}$`;
+      return `$${{ '≤': '\\le', '≥': '\\ge' }[blank.answer] ?? blank.answer}$`;
     case 'fraction':
       return `$\\frac{${blank.n.value}}{${blank.d.value}}$`;
     case 'mixed':
