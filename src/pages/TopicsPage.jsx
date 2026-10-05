@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { GRADE_LABELS, GRADE9_TRACKS, getTopics, isElementary, hasDirectTopics } from '../data/curriculum';
 import { getAllQuestionsForTopic } from '../data/questions';
 import { hasLesson } from '../data/lessons';
+import { getWorksheetTopics, hasWorksheet } from '../data/worksheets';
 import { accentFor } from '../lib/palette';
 import { formulasHref } from '../lib/formulaLinks';
 
@@ -43,6 +44,8 @@ export default function TopicsPage() {
     return acc;
   }, {});
 
+  const worksheetCount = useMemo(() => getWorksheetTopics(gradeNum).length, [gradeNum]);
+
   const backHref = hasDirectTopics(gradeNum)
     ? '/'
     : gradeNum === 9
@@ -82,6 +85,24 @@ export default function TopicsPage() {
           </Link>
         </div>
       </div>
+
+      {worksheetCount > 0 && (
+        <Link
+          to={`/grade/${gradeNum}/worksheets`}
+          className="group flex flex-wrap items-center gap-x-4 gap-y-2 rounded-2xl bg-white p-5 shadow-sm ring-2 ring-[var(--color-sky)]/25 transition hover:-translate-y-0.5 hover:shadow-lg hover:ring-[var(--color-sky)]/50"
+        >
+          <span aria-hidden="true" className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[var(--color-sky)]/12 text-2xl">
+            📝
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block text-lg font-bold text-[var(--color-ink)]">דפי עבודה ומבדקים</span>
+            <span className="block text-sm text-[var(--color-slate)]">
+              {worksheetCount} נושאים · תזכורת, 2 עמודי תרגול, מבדק עם ציון ותשובות בסוף
+            </span>
+          </span>
+          <span className="hidden text-sm font-bold text-[var(--color-sky-dark)] transition group-hover:-translate-x-1 sm:inline">לדפי העבודה ←</span>
+        </Link>
+      )}
 
       {topics.length === 0 ? (
         <p className="rounded-2xl bg-white/80 p-8 text-[var(--color-slate)] ring-1 ring-black/5">
@@ -139,6 +160,14 @@ export default function TopicsPage() {
                         >
                           התחל מבחן
                         </Link>
+                        {hasWorksheet(t.id) && (
+                          <Link
+                            to={`/worksheet/${t.id}`}
+                            className="relative z-10 inline-flex items-center gap-1 rounded-full bg-[var(--color-sky)]/12 px-3 py-1 text-sm font-bold text-[var(--color-sky-dark)] hover:bg-[var(--color-sky)]/20"
+                          >
+                            📝 דף עבודה
+                          </Link>
+                        )}
                       </div>
                     </div>
                   );

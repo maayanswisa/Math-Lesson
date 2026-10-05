@@ -11,6 +11,8 @@ const UnitsPage = lazy(() => import('./pages/UnitsPage'));
 const TopicsPage = lazy(() => import('./pages/TopicsPage'));
 const QuizPage = lazy(() => import('./pages/QuizPage'));
 const LessonPage = lazy(() => import('./pages/LessonPage'));
+const WorksheetsPage = lazy(() => import('./pages/WorksheetsPage'));
+const WorksheetPage = lazy(() => import('./pages/WorksheetPage'));
 const CustomTestPage = lazy(() => import('./pages/CustomTestPage'));
 const ParentDashboardPage = lazy(() => import('./pages/ParentDashboardPage'));
 const SearchPage = lazy(() => import('./pages/SearchPage'));
@@ -86,6 +88,8 @@ export default function App() {
                 <Route path="/grade/:grade/units/:units" element={<TopicsPage />} />
                 <Route path="/quiz/:topicId" element={<QuizPage />} />
                 <Route path="/learn/:topicId" element={<LessonPage />} />
+                <Route path="/grade/:grade/worksheets" element={<WorksheetsPage />} />
+                <Route path="/worksheet/:topicId" element={<WorksheetPage />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </Suspense>
