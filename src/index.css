@@ -150,3 +150,34 @@ body {
     font-size: 1.05em;
   }
 }
+
+/* טבלאות (ערך המקום וכו') בתוך תזכורות ותרגילים */
+.math-content table {
+  border-collapse: collapse;
+  margin: 0.4em auto 0.8em;
+  /* מספרים נכתבים משמאל לימין — גם בטבלת ערך המקום */
+  direction: ltr;
+}
+
+.math-content th,
+.math-content td {
+  border: 1px solid rgba(26, 43, 60, 0.2);
+  padding: 0.25em 0.65em;
+  text-align: center;
+}
+
+.math-content th {
+  background: rgba(226, 160, 32, 0.15);
+  font-size: 0.85em;
+}
+
+/* שרטוטים בדפי העבודה */
+.ws-figure {
+  display: flex;
+  justify-content: center;
+}
+
+.ws-figure svg {
+  max-width: 100%;
+  height: auto;
+}
