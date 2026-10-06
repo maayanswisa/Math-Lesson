@@ -7,6 +7,22 @@
 import { getTopicById } from '../curriculum/index.js';
 
 const LOADERS = {
+  'g3-numbers-10000': () => import('./g3/numbers-10000.js'),
+  'g3-counting-10000': () => import('./g3/counting-10000.js'),
+  'g3-gematria': () => import('./g3/gematria.js'),
+  'g3-sequences': () => import('./g3/sequences.js'),
+  'g3-add-sub-large': () => import('./g3/add-sub-large.js'),
+  'g3-mul-div-100': () => import('./g3/mul-div-100.js'),
+  'g3-divisibility': () => import('./g3/divisibility.js'),
+  'g3-division-remainder': () => import('./g3/division-remainder.js'),
+  'g3-distributive-law': () => import('./g3/distributive-law.js'),
+  'g3-mul-div-10000': () => import('./g3/mul-div-10000.js'),
+  'g3-fractions-unit': () => import('./g3/fractions-unit.js'),
+  'g3-geometry': () => import('./g3/geometry.js'),
+  'g3-area': () => import('./g3/area.js'),
+  'g3-box-net': () => import('./g3/box-net.js'),
+  'g3-clock-minutes': () => import('./g3/clock-minutes.js'),
+  'g3-data': () => import('./g3/data.js'),
   'g5-numbers-million': () => import('./g5/numbers-million.js'),
   'g5-mul-div-adv': () => import('./g5/mul-div-adv.js'),
   'g5-primes': () => import('./g5/primes.js'),
