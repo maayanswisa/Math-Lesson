@@ -3,7 +3,7 @@ import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { MotionConfig, motion } from 'framer-motion';
 import { useGame } from '../context/GameContext';
 import { getTopicById, GRADE_LABELS } from '../data/curriculum';
-import { loadWorksheet } from '../data/worksheets';
+import { loadWorksheet, worksheetsHref } from '../data/worksheets';
 import { fireBigConfetti, fireConfetti } from '../lib/feedback';
 import { logQuizAttempt } from '../lib/progressLog';
 import { playCorrect, playWrong } from '../lib/sounds';
@@ -212,7 +212,7 @@ export default function WorksheetPage() {
     setRevealQuizAnswers(false);
   }
 
-  const backHref = topic ? `/grade/${topic.grade}/worksheets` : '/';
+  const backHref = topic ? worksheetsHref(topic) : '/';
 
   if (ws === undefined) {
     return (

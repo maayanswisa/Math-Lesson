@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { GRADE_LABELS, GRADE9_TRACKS, getTopics, isElementary, hasDirectTopics } from '../data/curriculum';
 import { getAllQuestionsForTopic } from '../data/questions';
 import { hasLesson } from '../data/lessons';
-import { getWorksheetTopics, hasWorksheet } from '../data/worksheets';
+import { getWorksheetTopics, hasWorksheet, worksheetsHref } from '../data/worksheets';
 import { accentFor } from '../lib/palette';
 import { formulasHref } from '../lib/formulaLinks';
 
@@ -44,7 +44,10 @@ export default function TopicsPage() {
     return acc;
   }, {});
 
-  const worksheetCount = useMemo(() => getWorksheetTopics(gradeNum).length, [gradeNum]);
+  const worksheetCount = useMemo(
+    () => getWorksheetTopics(gradeNum, { units: unitsNum, track: track ?? null }).length,
+    [gradeNum, unitsNum, track],
+  );
 
   const backHref = hasDirectTopics(gradeNum)
     ? '/'
@@ -88,7 +91,7 @@ export default function TopicsPage() {
 
       {worksheetCount > 0 && (
         <Link
-          to={`/grade/${gradeNum}/worksheets`}
+          to={worksheetsHref({ grade: gradeNum, units: unitsNum, track: track ?? null })}
           className="group flex flex-wrap items-center gap-x-4 gap-y-2 rounded-2xl bg-white p-5 shadow-sm ring-2 ring-[var(--color-sky)]/25 transition hover:-translate-y-0.5 hover:shadow-lg hover:ring-[var(--color-sky)]/50"
         >
           <span aria-hidden="true" className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[var(--color-sky)]/12 text-2xl">

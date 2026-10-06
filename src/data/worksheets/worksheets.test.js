@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { WORKSHEET_TOPIC_IDS, getWorksheetTopics, hasWorksheet, loadWorksheet } from './index.js';
+import { WORKSHEET_TOPIC_IDS, getWorksheetTopics, hasWorksheet, loadWorksheet, worksheetsHref } from './index.js';
 import { getTopicById } from '../curriculum/index.js';
 import {
   PARTS,
@@ -21,6 +21,16 @@ describe('worksheet registry', () => {
     for (const id of WORKSHEET_TOPIC_IDS) expect(getTopicById(id)).not.toBeNull();
     expect(hasWorksheet('not-a-topic')).toBe(false);
     expect(getWorksheetTopics(5).length).toBe(WORKSHEET_TOPIC_IDS.filter((id) => id.startsWith('g5-')).length);
+  });
+
+  it('filters high-school worksheets by units, and links to the matching list', () => {
+    const u4 = getWorksheetTopics(11, { units: 4 });
+    expect(u4.length).toBeGreaterThan(0);
+    expect(u4.every((t) => t.units === 4)).toBe(true);
+    expect(getWorksheetTopics(11, { units: 3 }).every((t) => t.units === 3)).toBe(true);
+    expect(worksheetsHref(u4[0])).toBe('/grade/11/units/4/worksheets');
+    expect(worksheetsHref(getTopicById('g5-primes'))).toBe('/grade/5/worksheets');
+    expect(worksheetsHref({ grade: 9, track: 'high' })).toBe('/grade/9/track/high/worksheets');
   });
 
   it.each(WORKSHEET_TOPIC_IDS)('%s is well-formed and its own answers grade as correct', async (topicId) => {
