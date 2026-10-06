@@ -89,6 +89,8 @@ export default function App() {
                 <Route path="/quiz/:topicId" element={<QuizPage />} />
                 <Route path="/learn/:topicId" element={<LessonPage />} />
                 <Route path="/grade/:grade/worksheets" element={<WorksheetsPage />} />
+                <Route path="/grade/:grade/units/:units/worksheets" element={<WorksheetsPage />} />
+                <Route path="/grade/:grade/track/:track/worksheets" element={<WorksheetsPage />} />
                 <Route path="/worksheet/:topicId" element={<WorksheetPage />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>

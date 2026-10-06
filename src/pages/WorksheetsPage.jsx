@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { GRADE_LABELS, hasDirectTopics } from '../data/curriculum';
+import { GRADE_LABELS, GRADE9_TRACKS, hasDirectTopics } from '../data/curriculum';
 import { getWorksheetTopics } from '../data/worksheets';
 import { readWorksheetSummaries } from '../lib/worksheet';
 import { accentFor } from '../lib/palette';
@@ -18,10 +18,14 @@ function Pill({ label, value, done }) {
 }
 
 export default function WorksheetsPage() {
-  const { grade } = useParams();
+  const { grade, units, track } = useParams();
   const gradeNum = Number(grade);
+  const unitsNum = units != null ? Number(units) : null;
   const label = GRADE_LABELS[gradeNum] ?? grade;
-  const topics = useMemo(() => getWorksheetTopics(gradeNum), [gradeNum]);
+  const topics = useMemo(
+    () => getWorksheetTopics(gradeNum, { units: unitsNum, track: track ?? null }),
+    [gradeNum, unitsNum, track],
+  );
   const summaries = useMemo(() => readWorksheetSummaries(), []);
 
   const byCluster = topics.reduce((acc, t) => {
@@ -30,7 +34,16 @@ export default function WorksheetsPage() {
     return acc;
   }, {});
 
-  const topicsHref = hasDirectTopics(gradeNum) ? `/grade/${gradeNum}/topics` : `/grade/${gradeNum}`;
+  const topicsHref =
+    unitsNum != null
+      ? `/grade/${gradeNum}/units/${unitsNum}`
+      : track
+        ? `/grade/${gradeNum}/track/${track}`
+        : hasDirectTopics(gradeNum)
+          ? `/grade/${gradeNum}/topics`
+          : `/grade/${gradeNum}`;
+  const trackTitle = track ? GRADE9_TRACKS.find((t) => t.id === track)?.title : null;
+  const subtitle = unitsNum != null ? ` · ${unitsNum} יח״ל` : trackTitle ? ` · ${trackTitle}` : '';
 
   return (
     <div className="space-y-8" dir="rtl">
@@ -39,7 +52,8 @@ export default function WorksheetsPage() {
           ← חזרה לנושאים
         </Link>
         <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl text-[var(--color-ink)]">
-          כיתה {label} · דפי עבודה ומבדקים
+          כיתה {label}
+          {subtitle} · דפי עבודה ומבדקים
         </h1>
         <p className="mt-2 text-[var(--color-slate)]">בכל נושא: חוברת קטנה שעובדים עליה ישר במסך, ובודקים לבד.</p>
         <div className="mt-3 flex flex-wrap gap-2 text-xs font-semibold">

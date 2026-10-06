@@ -51,6 +51,20 @@ const LOADERS = {
   'g8-pythagoras': () => import('./g8/pythagoras.js'),
   'g8-pythagoras-3d': () => import('./g8/pythagoras-3d.js'),
   'g8-circle': () => import('./g8/circle.js'),
+
+  'g11-u4-precalc-rational': () => import('./g11/precalc-rational.js'),
+  'g11-u4-rational-root': () => import('./g11/rational-root.js'),
+  'g11-u4-extremum-3d': () => import('./g11/extremum-3d.js'),
+  'g11-u4-integral': () => import('./g11/integral.js'),
+  'g11-u4-analysis-review': () => import('./g11/analysis-review.js'),
+  'g11-u4-plane-circle': () => import('./g11/plane-circle.js'),
+  'g11-u4-circle-tangents': () => import('./g11/circle-tangents.js'),
+  'g11-u4-trig-sine': () => import('./g11/trig-sine.js'),
+  'g11-u4-analytic-circle': () => import('./g11/analytic-circle.js'),
+  'g11-u4-geometry-review': () => import('./g11/geometry-review.js'),
+  'g11-u4-normal-dist': () => import('./g11/normal-dist.js'),
+  'g11-u4-correlation-regression': () => import('./g11/correlation-regression.js'),
+  'g11-u4-normal-regression': () => import('./g11/normal-regression.js'),
 };
 
 export const WORKSHEET_TOPIC_IDS = Object.keys(LOADERS);
@@ -59,11 +73,27 @@ export function hasWorksheet(topicId) {
   return Object.hasOwn(LOADERS, topicId);
 }
 
-/** נושאי הכיתה שיש להם דף עבודה, לפי סדר תוכנית הלימודים. */
-export function getWorksheetTopics(grade) {
+/**
+ * נושאי הכיתה שיש להם דף עבודה, לפי סדר תוכנית הלימודים.
+ * בתיכון — רק של אותן יחידות לימוד; בכיתה ט׳ — רק של אותו מסלול.
+ */
+export function getWorksheetTopics(grade, { units = null, track = null } = {}) {
   return WORKSHEET_TOPIC_IDS.map(getTopicById)
-    .filter((t) => t && t.grade === Number(grade))
+    .filter(
+      (t) =>
+        t &&
+        t.grade === Number(grade) &&
+        (units == null || t.units === Number(units)) &&
+        (track == null || t.track === track),
+    )
     .sort((a, b) => (a.sortOrder || 0) - (b.sortOrder || 0));
+}
+
+/** הנתיב לרשימת דפי העבודה של כיתה (ויחידות / מסלול). */
+export function worksheetsHref({ grade, units = null, track = null }) {
+  if (units != null) return `/grade/${grade}/units/${units}/worksheets`;
+  if (track != null) return `/grade/${grade}/track/${track}/worksheets`;
+  return `/grade/${grade}/worksheets`;
 }
 
 /** @returns {Promise<object|null>} */
