@@ -7,6 +7,27 @@
 import { getTopicById } from '../curriculum/index.js';
 
 const LOADERS = {
+  'g2-numbers-1000': () => import('./g2/numbers-1000.js'),
+  'g2-counting-1000': () => import('./g2/counting-1000.js'),
+  'g2-even-odd': () => import('./g2/even-odd.js'),
+  'g2-sequences': () => import('./g2/sequences.js'),
+  'g2-add-sub-100': () => import('./g2/add-sub-100.js'),
+  'g2-add-sub-properties': () => import('./g2/add-sub-properties.js'),
+  'g2-mul-div-intro': () => import('./g2/mul-div-intro.js'),
+  'g2-mul-div-properties': () => import('./g2/mul-div-properties.js'),
+  'g2-fractions-half': () => import('./g2/fractions-half.js'),
+  'g2-triangles': () => import('./g2/triangles.js'),
+  'g2-right-angle': () => import('./g2/right-angle.js'),
+  'g2-shapes-measure': () => import('./g2/shapes-measure.js'),
+  'g2-length-measure': () => import('./g2/length-measure.js'),
+  'g2-broken-lines': () => import('./g2/broken-lines.js'),
+  'g2-perimeter': () => import('./g2/perimeter.js'),
+  'g2-solids': () => import('./g2/solids.js'),
+  'g2-volume-compare': () => import('./g2/volume-compare.js'),
+  'g2-cube-building': () => import('./g2/cube-building.js'),
+  'g2-clock': () => import('./g2/clock.js'),
+  'g2-data': () => import('./g2/data.js'),
+
   'g3-numbers-10000': () => import('./g3/numbers-10000.js'),
   'g3-counting-10000': () => import('./g3/counting-10000.js'),
   'g3-gematria': () => import('./g3/gematria.js'),
