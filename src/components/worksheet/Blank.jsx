@@ -48,9 +48,8 @@ function Fraction({ blank, value = {}, onChange, mark, disabled }) {
   );
 }
 
-const SIGNS = ['<', '=', '>'];
-
-function Compare({ value, onChange, mark, disabled }) {
+/** בחירת סימן: < = > להשוואה, או < ≤ > ≥ לאי-שוויון. */
+function Compare({ signs, value, onChange, mark, disabled }) {
   const ring =
     mark === true
       ? 'ring-2 ring-[var(--color-success)]'
@@ -59,7 +58,7 @@ function Compare({ value, onChange, mark, disabled }) {
         : 'ring-1 ring-black/15';
   return (
     <span dir="ltr" role="radiogroup" aria-label="סימן השוואה" className={`mx-1 inline-flex overflow-hidden rounded-lg bg-white align-middle ${ring}`}>
-      {SIGNS.map((s) => {
+      {signs.map((s) => {
         const on = value === s;
         return (
           <button
@@ -122,7 +121,7 @@ export default function Blank({ blank, value, onChange, mark, disabled, showAnsw
         </span>
       );
     case 'compare':
-      return <Compare value={value} onChange={onChange} mark={mark} disabled={disabled} />;
+      return <Compare signs={blank.signs} value={value} onChange={onChange} mark={mark} disabled={disabled} />;
     case 'text':
       return (
         <Box

@@ -301,3 +301,89 @@ export function heightCandidates({ ax, feet }) {
   body += label(ax, y0 - hh - 6, 'A') + label(-3, y0 + 19, 'B', 'end') + label(bw + 3, y0 + 19, 'C', 'start');
   return svg(maxX - minX, y0 + 28, body, minX, 0);
 }
+
+/* ---------- אלגברה ---------- */
+
+/** מקדם לפני משתנה: 1 → "", -1 → "-", 1/2 → "\frac{1}{2}". */
+function coefTex(a) {
+  if (a === 1) return '';
+  if (a === -1) return '-';
+  if (!Number.isInteger(a)) {
+    const d = [2, 3, 4, 5, 6, 8, 10].find((k) => Number.isInteger(round(a * k)));
+    if (d) return `${a < 0 ? '-' : ''}\\frac{${Math.abs(round(a * d))}}{${d}}`;
+  }
+  return String(a);
+}
+
+/** ax + b ב-LaTeX בסימנים נקיים: lin(2, -3) → "2x - 3", lin(-1, 0) → "-x". */
+export function lin(a, b = 0, v = 'x') {
+  if (a === 0) return String(b);
+  const head = `${coefTex(a)}${v}`;
+  if (b === 0) return head;
+  return `${head} ${b < 0 ? '-' : '+'} ${Math.abs(b)}`;
+}
+
+/** סימן הפוך (כשכופלים/מחלקים במספר שלילי). */
+export const flipSign = (s) => ({ '<': '>', '>': '<', '≤': '≥', '≥': '≤' })[s];
+
+/** סימן אי-שוויון ב-LaTeX. */
+export const signTex = (s) => ({ '≤': '\\le', '≥': '\\ge' })[s] ?? s;
+
+/**
+ * מערכת צירים עם רשת. lines: [{ m, b }] או [{ x: k }] (ישר אנכי),
+ * points: [{ x, y, label }].
+ */
+export function coordPlane({ min = -6, max = 6, lines = [], points = [] }) {
+  const u = 19;
+  const pad = 16;
+  const size = (max - min) * u;
+  const X = (x) => round(pad + (x - min) * u, 2);
+  const Y = (y) => round(pad + (max - y) * u, 2);
+  const COLORS = [ACCENT, '#1f8fe0', '#7c4dcc'];
+  let body = `<defs><clipPath id="cp${min}${max}"><rect x="${pad}" y="${pad}" width="${size}" height="${size}"/></clipPath></defs>`;
+  for (let k = min; k <= max; k++) {
+    body += `<line x1="${X(k)}" y1="${pad}" x2="${X(k)}" y2="${pad + size}" stroke="#dde4ec" stroke-width="1"/>`;
+    body += `<line x1="${pad}" y1="${Y(k)}" x2="${pad + size}" y2="${Y(k)}" stroke="#dde4ec" stroke-width="1"/>`;
+  }
+  body += `<line x1="${pad}" y1="${Y(0)}" x2="${pad + size + 8}" y2="${Y(0)}" stroke="${INK}" stroke-width="1.6"/>`;
+  body += `<line x1="${X(0)}" y1="${pad + size}" x2="${X(0)}" y2="${pad - 8}" stroke="${INK}" stroke-width="1.6"/>`;
+  body += `<text x="${pad + size + 10}" y="${Y(0) + 4}" font-size="13" font-style="italic" fill="${INK}">x</text>`;
+  body += `<text x="${X(0) + 5}" y="${pad - 4}" font-size="13" font-style="italic" fill="${INK}">y</text>`;
+  for (let k = min; k <= max; k++) {
+    if (k === 0 || k % 2 !== 0) continue;
+    body += `<text x="${X(k)}" y="${Y(0) + 13}" font-size="10" fill="${INK}" text-anchor="middle">${k}</text>`;
+    body += `<text x="${X(0) - 4}" y="${Y(k) + 3.5}" font-size="10" fill="${INK}" text-anchor="end">${k}</text>`;
+  }
+  body += `<text x="${X(0) - 4}" y="${Y(0) + 12}" font-size="10" fill="${INK}" text-anchor="end">0</text>`;
+  lines.forEach((l, i) => {
+    const color = COLORS[i % COLORS.length];
+    const [x1, y1, x2, y2] = l.x != null ? [l.x, min, l.x, max] : [min, l.m * min + l.b, max, l.m * max + l.b];
+    body += `<line x1="${X(x1)}" y1="${Y(y1)}" x2="${X(x2)}" y2="${Y(y2)}" stroke="${color}" stroke-width="2.4" clip-path="url(#cp${min}${max})"/>`;
+  });
+  for (const p of points) {
+    body += `<circle cx="${X(p.x)}" cy="${Y(p.y)}" r="4" fill="${INK}"/>`;
+    if (p.label) body += label(X(p.x) + 7, Y(p.y) - 6, p.label, 'start');
+  }
+  return svg(size + 2 * pad + 14, size + 2 * pad, body);
+}
+
+/**
+ * פתרון ax + b (sign) cx + d. כשמחלקים במקדם שלילי — הסימן מתהפך.
+ * @returns {{ sign: string, value: number }}
+ */
+export function solveIneq(a, b, sign, c = 0, d = 0) {
+  const k = a - c;
+  if (k === 0) throw new Error('no x left in the inequality');
+  return { sign: k < 0 ? flipSign(sign) : sign, value: round((d - b) / k) };
+}
+
+/**
+ * פריט אי-שוויון: מציג ax + b (sign) cx + d ומבקש את הפתרון x (סימן) (מספר).
+ * lhs/rhs — תצוגה אחרת לאותו ביטוי (למשל עם סוגריים או שבר).
+ */
+export function ineqItem(a, b, sign, c = 0, d = 0, { lhs, rhs } = {}) {
+  const sol = solveIneq(a, b, sign, c, d);
+  const L = lhs ?? lin(a, b);
+  const R = rhs ?? (c === 0 ? String(d) : lin(c, d));
+  return { q: m`$${L} ${signTex(sign)} ${R} \quad\Rightarrow\quad x$ [[i:${sol.sign}]] [[${sol.value}]]` };
+}
