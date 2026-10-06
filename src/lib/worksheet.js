@@ -214,6 +214,50 @@ export function formatNumberTex(x) {
   return sign + grouped + (frac ? `.${frac}` : '');
 }
 
+const HEB = /[֐-׿]/;
+
+/**
+ * מחלק שורה לקבוצות: "תוויות" בעברית, ו"רצפים מתמטיים" (LaTeX ומשבצות) ביניהן.
+ *
+ * כל רצף מתמטי נפרש משמאל לימין כיחידה אחת, והקבוצות עצמן מסודרות מימין
+ * לשמאל. כך "קודקוד: ( □ , □ )" נשאר "( □ , □ )" ולא מתהפך, ו"100 : 7 = □
+ * שארית □" נקרא נכון. מתמטיקה שבאה לפני מילה עברית באותו קטע טקסט
+ * (למשל "$3$ שלמים") נשארת חלק מהתווית.
+ */
+export function groupTemplate(template) {
+  const out = [];
+  let math = null;
+  const pushMath = (part) => {
+    if (!math) {
+      math = { type: 'math', parts: [] };
+      out.push(math);
+    }
+    math.parts.push(part);
+  };
+  const pushLabel = (text) => {
+    math = null;
+    const last = out[out.length - 1];
+    if (last?.type === 'label') last.text += text;
+    else out.push({ type: 'label', text });
+  };
+
+  for (const seg of parseTemplate(template)) {
+    if (seg.type === 'blank') {
+      pushMath(seg);
+      continue;
+    }
+    const tokens = seg.text.split(/(\$[^$]*\$)/).filter(Boolean);
+    let lastHeb = -1;
+    tokens.forEach((t, i) => {
+      if (!t.startsWith('$') && HEB.test(t)) lastHeb = i;
+    });
+    if (lastHeb >= 0) pushLabel(tokens.slice(0, lastHeb + 1).join(''));
+    for (const t of tokens.slice(lastHeb + 1)) pushMath({ type: 'text', text: t });
+  }
+  // רצף שכולו רווחים/פיסוק בלי מתמטיקה ובלי משבצת — לא צריך קבוצה משלו
+  return out.filter((g) => g.type === 'label' || g.parts.some((p) => p.type === 'blank' || p.text.trim()));
+}
+
 /** כל המשבצות של פריט (בשאלה ובשורת התשובה), בסדר הופעתן. */
 export function itemBlanks(item) {
   return [...parseTemplate(item.q), ...parseTemplate(item.a ?? '')]

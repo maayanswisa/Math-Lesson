@@ -6,6 +6,7 @@ import {
   correctValues,
   gradeBlank,
   gradeExercise,
+  groupTemplate,
   itemBlanks,
   blankAnswerMarkdown,
   parseBlank,
@@ -122,6 +123,18 @@ describe('blanks', () => {
     expect(gradeBlank(mixed, { w: '1', n: '2', d: '8' })).toBe(true);
     expect(gradeBlank(mixed, { w: '2', n: '1', d: '4' })).toBe(false);
     expect(gradeBlank(parseBlank('mx:1 1/4'), { w: '1', n: '2', d: '8' })).toBe(false);
+  });
+
+  it('groups a row into Hebrew labels and left-to-right math runs', () => {
+    const shape = (tpl) =>
+      groupTemplate(tpl).map((g) => (g.type === 'label' ? `L:${g.text.trim()}` : `M:${g.parts.map((p) => (p.type === 'blank' ? '□' : p.text.trim())).filter(Boolean).join(' ')}`));
+    // תווית ואחריה קואורדינטות — הסוגריים נשארים ברצף מתמטי אחד
+    expect(shape('קודקוד: $($ [[1]] $,\\,$ [[2]] $)$')).toEqual(['L:קודקוד:', 'M:$($ □ $,\\,$ □ $)$']);
+    // מתמטיקה לפני מילה עברית נשארת חלק מהתווית
+    expect(shape('ב-$3$ שלמים יש [[12]] רבעים')).toEqual(['L:ב-$3$ שלמים יש', 'M:□', 'L:רבעים']);
+    expect(shape('$100 : 7 =$ [[14]] שארית [[2]]')).toEqual(['M:$100 : 7 =$ □', 'L:שארית', 'M:□']);
+    // שורה בלי עברית — רצף אחד
+    expect(shape('$x =$ [[3]]')).toEqual(['M:$x =$ □']);
   });
 
   it('grades approximate numbers and inequality signs', () => {
