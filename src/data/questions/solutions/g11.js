@@ -1,5 +1,7 @@
 /** כיתה 11 — רמזים ופתרון מלא צעד אחר צעד לכל שאלה (לפי מזהה שאלה). */
-export default {
+import { G11U4_CALCULUS_SOLUTIONS } from '../g11u4CalculusSolutions.js';
+
+const BASE = {
  "q-q-g11-u4-analytic-circle-1": {
   "hints": [
    "מעגל שמרכזו בראשית: $x^2+y^2=r^2$."
@@ -4937,3 +4939,5 @@ export default {
   ]
  }
 };
+
+export default { ...BASE, ...G11U4_CALCULUS_SOLUTIONS };
