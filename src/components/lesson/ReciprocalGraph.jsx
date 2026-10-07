@@ -13,11 +13,12 @@ function gTex(a, p, q) {
 }
 
 /**
- * קדם-אנליזה של f = 1/g, כאשר g(x) = a(x−p)² + q.
+ * קדם-אנליזה של f = 1/g, כאשר g(x) = a(x−p)² + q. base/recip — שמות הפונקציות בתוויות
+ * (ברירת מחדל g ו-f; בדף העזר משתמשים בסימון ההפוך של הספר: f ו-g).
  * רואים את g (מקווקו) ואת f יחד: אסימפטוטות מאונכות באפסי g,
  * אותו סימן, מונוטוניות הפוכה, ו-f→0 כש-g→∞.
  */
-export default function ReciprocalGraph({ caption, a: a0 = 1, p: p0 = 0, q: q0 = -4 }) {
+export default function ReciprocalGraph({ caption, a: a0 = 1, p: p0 = 0, q: q0 = -4, base = 'g', recip = 'f' }) {
   const [a, setA] = useState(a0);
   const [p, setP] = useState(p0);
   const [q, setQ] = useState(q0);
@@ -55,10 +56,10 @@ export default function ReciprocalGraph({ caption, a: a0 = 1, p: p0 = 0, q: q0 =
       </svg>
       <div className="mt-1 flex flex-wrap justify-center gap-x-4 gap-y-1 text-xs font-bold">
         <span className="text-[var(--color-violet)]" dir="ltr">
-          - - - g(x)
+          - - - {base}(x)
         </span>
         <span className="text-[var(--color-teal)]" dir="ltr">
-          ━ f(x) = 1/g(x)
+          ━ {recip}(x) = 1/{base}(x)
         </span>
         <span className="text-[var(--color-coral)]">- - - אסימפטוטה מאונכת</span>
         <span className="text-[var(--color-sunshine-dark)]">
@@ -73,15 +74,15 @@ export default function ReciprocalGraph({ caption, a: a0 = 1, p: p0 = 0, q: q0 =
       </div>
 
       <div className="mt-3 rounded-xl bg-[var(--color-mist)] p-2 text-center text-sm font-bold text-[var(--color-ink)]">
-        <MathRenderer inline>{`$g(x)=${gTex(a, p, q)}$`}</MathRenderer>
+        <MathRenderer inline>{`$${base}(x)=${gTex(a, p, q)}$`}</MathRenderer>
         <div className="mt-1 text-xs font-semibold text-[var(--color-slate)]">
           {roots.length === 0 ? (
             <>
-              ל-<i>g</i> אין אפסים ← ל-<i>f</i> אין אסימפטוטה מאונכת, והיא מוגדרת לכל <i>x</i>
+              ל-<i>{base}</i> אין אפסים ← ל-<i>{recip}</i> אין אסימפטוטה מאונכת, והיא מוגדרת לכל <i>x</i>
             </>
           ) : (
             <>
-              אפסי <i>g</i>: <span dir="ltr">{roots.map((r) => `x=${fmt(r)}`).join(', ')}</span> ← שם ל-<i>f</i> אסימפטוטות מאונכות
+              אפסי <i>{base}</i>: <span dir="ltr">{roots.map((r) => `x=${fmt(r)}`).join(', ')}</span> ← שם ל-<i>{recip}</i> אסימפטוטות מאונכות
             </>
           )}
         </div>

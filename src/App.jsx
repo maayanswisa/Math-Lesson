@@ -18,6 +18,7 @@ const ParentDashboardPage = lazy(() => import('./pages/ParentDashboardPage'));
 const SearchPage = lazy(() => import('./pages/SearchPage'));
 const FormulasPage = lazy(() => import('./pages/FormulasPage'));
 const CalculatorTipsPage = lazy(() => import('./pages/CalculatorTipsPage'));
+const CheatSheetPage = lazy(() => import('./pages/CheatSheetPage'));
 
 function PageLoading() {
   return (
@@ -85,6 +86,7 @@ export default function App() {
                 <Route path="/parent" element={<ParentDashboardPage />} />
                 <Route path="/search" element={<SearchPage />} />
                 <Route path="/calculator" element={<CalculatorTipsPage />} />
+                <Route path="/cheatsheet/:topicId" element={<CheatSheetPage />} />
                 <Route path="/formulas/:grade" element={<FormulasPage />} />
                 <Route path="/formulas/:grade/units/:units" element={<FormulasPage />} />
                 <Route path="/formulas/:grade/track/:track" element={<FormulasPage />} />

@@ -92,6 +92,20 @@ body {
   gap: 0.4em;
 }
 
+/* Tailwind מאפס את סימני הרשימה — מחזירים מספרים ונקודות בתוכן */
+.math-content ol {
+  list-style: decimal;
+}
+
+.math-content ul {
+  list-style: disc;
+}
+
+.math-content li::marker {
+  color: var(--color-slate);
+  font-weight: 700;
+}
+
 .math-content li {
   margin: 0;
 }
