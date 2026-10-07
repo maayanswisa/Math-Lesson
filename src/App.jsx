@@ -17,6 +17,7 @@ const CustomTestPage = lazy(() => import('./pages/CustomTestPage'));
 const ParentDashboardPage = lazy(() => import('./pages/ParentDashboardPage'));
 const SearchPage = lazy(() => import('./pages/SearchPage'));
 const FormulasPage = lazy(() => import('./pages/FormulasPage'));
+const CalculatorTipsPage = lazy(() => import('./pages/CalculatorTipsPage'));
 
 function PageLoading() {
   return (
@@ -59,6 +60,10 @@ export default function App() {
                   <span aria-hidden="true">🔍</span>
                   <span className="hidden sm:inline"> חיפוש</span>
                 </Link>
+                <Link to="/calculator" className="shrink-0 whitespace-nowrap hover:text-[var(--color-teal)]" aria-label="טיפים למחשבון">
+                  <span aria-hidden="true">🧮</span>
+                  <span className="hidden sm:inline"> טיפים למחשבון</span>
+                </Link>
                 <Link to="/custom-test" className="shrink-0 whitespace-nowrap hover:text-[var(--color-teal)]">
                   <span className="sm:hidden">מבחן</span>
                   <span className="hidden sm:inline">מבחן מותאם</span>
@@ -79,6 +84,7 @@ export default function App() {
                 <Route path="/custom-test" element={<CustomTestPage />} />
                 <Route path="/parent" element={<ParentDashboardPage />} />
                 <Route path="/search" element={<SearchPage />} />
+                <Route path="/calculator" element={<CalculatorTipsPage />} />
                 <Route path="/formulas/:grade" element={<FormulasPage />} />
                 <Route path="/formulas/:grade/units/:units" element={<FormulasPage />} />
                 <Route path="/formulas/:grade/track/:track" element={<FormulasPage />} />

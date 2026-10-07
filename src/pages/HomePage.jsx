@@ -157,6 +157,12 @@ export default function HomePage() {
               >
                 ✨ מבחן מותאם אישית
               </Link>
+              <Link
+                to="/calculator"
+                className="rounded-2xl bg-white px-7 py-3.5 text-base font-bold text-[var(--color-ink)] shadow-sm ring-2 ring-[var(--color-sunshine)]/40 transition hover:-translate-y-0.5 hover:ring-[var(--color-sunshine)]/70"
+              >
+                🧮 הסודות של המחשבון
+              </Link>
             </motion.div>
 
             <form
