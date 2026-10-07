@@ -4,6 +4,7 @@ import { GRADE_LABELS, GRADE9_TRACKS, getTopics, isElementary, hasDirectTopics }
 import { getAllQuestionsForTopic } from '../data/questions';
 import { hasLesson } from '../data/lessons';
 import { getWorksheetTopics, hasWorksheet, worksheetsHref } from '../data/worksheets';
+import { hasCheatSheet } from '../data/cheatsheets';
 import { accentFor } from '../lib/palette';
 import { formulasHref } from '../lib/formulaLinks';
 
@@ -169,6 +170,14 @@ export default function TopicsPage() {
                             className="relative z-10 inline-flex items-center gap-1 rounded-full bg-[var(--color-sky)]/12 px-3 py-1 text-sm font-bold text-[var(--color-sky-dark)] hover:bg-[var(--color-sky)]/20"
                           >
                             📝 דף עבודה
+                          </Link>
+                        )}
+                        {hasCheatSheet(t.id) && (
+                          <Link
+                            to={`/cheatsheet/${t.id}`}
+                            className="relative z-10 inline-flex items-center gap-1 rounded-full bg-[var(--color-violet)]/12 px-3 py-1 text-sm font-bold text-[var(--color-violet-dark)] hover:bg-[var(--color-violet)]/20"
+                          >
+                            📋 דף עזר
                           </Link>
                         )}
                       </div>
