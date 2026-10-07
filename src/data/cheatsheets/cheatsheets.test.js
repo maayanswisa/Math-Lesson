@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { BLOCK_TYPES } from '../../components/lesson/LessonBlock';
-import { getTopicById } from '../curriculum/index.js';
+import { getAllTopicsForGrade, getTopicById } from '../curriculum/index.js';
 import { CHEATSHEET_TOPIC_IDS, hasCheatSheet, loadCheatSheet } from './index.js';
 
 /** מספר זוגי של $ (לא מוסתרים) — כל נוסחה נסגרת. */
@@ -11,6 +11,14 @@ describe('cheat sheets', () => {
     expect(hasCheatSheet('g11-u4-precalc-rational')).toBe(true);
     expect(hasCheatSheet('not-a-topic')).toBe(false);
     expect(await loadCheatSheet('not-a-topic')).toBeNull();
+  });
+
+  it('every grade-11 4-unit topic has a cheat sheet', () => {
+    const missing = getAllTopicsForGrade(11)
+      .filter((t) => t.units === 4)
+      .map((t) => t.id)
+      .filter((id) => !hasCheatSheet(id));
+    expect(missing).toEqual([]);
   });
 
   it.each(CHEATSHEET_TOPIC_IDS)('%s is well formed', async (topicId) => {
