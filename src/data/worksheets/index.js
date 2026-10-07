@@ -156,6 +156,14 @@ const LOADERS = {
   'g11-u4-normal-dist': () => import('./g11/normal-dist.js'),
   'g11-u4-correlation-regression': () => import('./g11/correlation-regression.js'),
   'g11-u4-normal-regression': () => import('./g11/normal-regression.js'),
+  'g11-u4-rational-transform': () => import('./g11/rational-transform.js'),
+  'g11-u4-rational-params': () => import('./g11/rational-params.js'),
+  'g11-u4-derivative-graph': () => import('./g11/derivative-graph.js'),
+  'g11-u4-root-equations': () => import('./g11/root-equations.js'),
+  'g11-u4-extremum-applied': () => import('./g11/extremum-applied.js'),
+  'g11-u4-extremum-geometry': () => import('./g11/extremum-geometry.js'),
+  'g11-u4-integral-functions': () => import('./g11/integral-functions.js'),
+  'g11-u4-areas': () => import('./g11/areas.js'),
 };
 
 export const WORKSHEET_TOPIC_IDS = Object.keys(LOADERS);

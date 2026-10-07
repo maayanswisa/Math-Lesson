@@ -1,6 +1,7 @@
 /** שאלות חט"ע */
+import { G11U4_CALCULUS } from './g11u4Calculus.js';
 
-export const QUESTIONS = [
+const BASE_QUESTIONS = [
   {
     "id": "q-g10-u3-sci-1",
     "topic_id": "g10-u3-science-society",
@@ -27242,6 +27243,8 @@ export const QUESTIONS = [
     "explanation": "$z=\\dfrac{172-165}{7}=1$; לפי הנתון $P(Z<1)\\approx84\\%$ — כ-$84\\%$ מהתלמידים נמוכים ממנו."
   }
 ]
+export const QUESTIONS = [...BASE_QUESTIONS, ...G11U4_CALCULUS];
+
 export function getQuestionsForTopic(topicId) {
   return QUESTIONS.filter((q) => q.topic_id === topicId);
 }
