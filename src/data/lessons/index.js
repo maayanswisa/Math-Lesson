@@ -288,6 +288,9 @@ const LOADERS = {
   'g11-u4-extremum-geometry': () => import('./g11u4-extremum-geometry.js'),
   'g11-u4-integral-functions': () => import('./g11u4-integral-functions.js'),
   'g11-u4-areas': () => import('./g11u4-areas.js'),
+  'g11-u4-function-investigation': () => import('./g11u4-function-investigation.js'),
+  'g11-u4-absolute-extrema': () => import('./g11u4-absolute-extrema.js'),
+  'g11-u4-extremum-space': () => import('./g11u4-extremum-space.js'),
   // כיתה י״א — 5 יח״ל
   'g11-u5-arithmetic-seq': () => import('./g11u5-arithmetic-seq.js'),
   'g11-u5-geometric-seq': () => import('./g11u5-geometric-seq.js'),

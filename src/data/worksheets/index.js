@@ -164,6 +164,9 @@ const LOADERS = {
   'g11-u4-extremum-geometry': () => import('./g11/extremum-geometry.js'),
   'g11-u4-integral-functions': () => import('./g11/integral-functions.js'),
   'g11-u4-areas': () => import('./g11/areas.js'),
+  'g11-u4-function-investigation': () => import('./g11/function-investigation.js'),
+  'g11-u4-absolute-extrema': () => import('./g11/absolute-extrema.js'),
+  'g11-u4-extremum-space': () => import('./g11/extremum-space.js'),
 };
 
 export const WORKSHEET_TOPIC_IDS = Object.keys(LOADERS);
