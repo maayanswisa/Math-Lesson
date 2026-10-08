@@ -46,6 +46,7 @@ const LOADERS = {
   'g3-data': () => import('./g3/data.js'),
   'g5-numbers-million': () => import('./g5/numbers-million.js'),
   'g5-mul-div-adv': () => import('./g5/mul-div-adv.js'),
+  'g5-word-problems': () => import('./g5/word-problems.js'),
   'g5-primes': () => import('./g5/primes.js'),
   'g5-fractions-models': () => import('./g5/fractions-models.js'),
   'g5-fractions-meaning': () => import('./g5/fractions-meaning.js'),
