@@ -15,6 +15,7 @@ describe('cheat sheets', () => {
 
   it.each([
     [8, null],
+    [9, null],
     [11, 4],
   ])('every grade-%i topic (units: %s) has a cheat sheet', (grade, units) => {
     const missing = getAllTopicsForGrade(grade)
