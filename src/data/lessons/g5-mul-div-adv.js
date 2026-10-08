@@ -6,7 +6,7 @@ export default {
   grade: 5,
   emoji: '➗',
   title: 'ארבע פעולות החשבון',
-  subtitle: 'סדר פעולות, בדיקה בפעולה ההפוכה, חילוק עם שארית ואומדן',
+  subtitle: 'סדר פעולות, בדיקה בפעולה ההפוכה, חילוק עם שארית, אומדן וחזקות',
   sections: [
     {
       id: 'order',
@@ -108,6 +108,47 @@ export default {
         answer: 1,
         hint: m`כמה פעמים 4 נכנס ב-29? $4\times7=28$.`,
         explain: m`$29\div4=7$ שארית $1$, כי $7\times4+1=29$.`,
+      },
+    },
+    {
+      id: 'powers',
+      emoji: '🚀',
+      title: 'חזקות',
+      blocks: [
+        {
+          type: 'text',
+          md: m`**חזקה** = כפל חוזר של אותו מספר. במקום $2\times2\times2$ כותבים $2^3$.`,
+        },
+        {
+          type: 'steps',
+          title: m`$${c(VIOLET, '2')}^{${c(RED, '3')}}$`,
+          steps: [
+            { math: m`${c(VIOLET, '2')}\times${c(VIOLET, '2')}\times${c(VIOLET, '2')}`, note: 'הבסיס (2) נכפל בעצמו — כמה פעמים שאומר המעריך (3).' },
+            { math: m`=${c(GREEN, '8')}`, note: '2 × 2 = 4, ו-4 × 2 = 8.' },
+          ],
+        },
+        {
+          type: 'card',
+          tone: 'key',
+          title: 'חזקות שכדאי להכיר',
+          md: m`- $5^2$ — "חמש **בריבוע**": $5\times5=25$
+- $4^3$ — "ארבע **בחזקת שלוש**": $4\times4\times4=64$
+- $10^3=1{,}000$ — אחד ו**שלושה** אפסים`,
+        },
+        {
+          type: 'card',
+          tone: 'warn',
+          title: 'מלכודת',
+          md: m`$2^3$ הוא **לא** $2\times3$! $\;2^3=8$, אבל $2\times3=6$. ובסדר הפעולות — חזקה מחשבים **לפני** כפל וחיבור: $3+2^2=3+4=7$.`,
+        },
+      ],
+      challenge: {
+        type: 'number',
+        label: '',
+        prompt: m`כמה זה $3^4$?`,
+        answer: 81,
+        hint: m`$3\times3\times3\times3$`,
+        explain: m`$3\times3=9$, $9\times3=27$, $27\times3=81$.`,
       },
     },
   ],

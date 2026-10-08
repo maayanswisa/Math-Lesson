@@ -1,6 +1,8 @@
 /** שאלות יסודי */
 
-export const ELEMENTARY_QUESTIONS = [
+import { G5_ADDITIONS } from './g5Additions.js';
+
+const BASE_QUESTIONS = [
   {
     "id": "q-g1-n100-1",
     "topic_id": "g1-numbers-100",
@@ -29822,6 +29824,8 @@ export const ELEMENTARY_QUESTIONS = [
     "explanation": "כדי ליצור קודקוד תלת-ממדי, סכום הזוויות סביבו (לפחות $3$ פאות) חייב להיות קטן מ-$360°$ — ורק חמישה שילובים של מצולע משוכלל ומספר פאות בקודקוד מקיימים את התנאי הזה."
   }
 ]
+export const ELEMENTARY_QUESTIONS = [...BASE_QUESTIONS, ...G5_ADDITIONS];
+
 export function getElementaryQuestionsForTopic(topicId) {
   return ELEMENTARY_QUESTIONS.filter((q) => q.topic_id === topicId);
 }

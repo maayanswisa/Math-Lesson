@@ -1,5 +1,7 @@
 /** כיתה 5 — רמזים ופתרון מלא צעד אחר צעד לכל שאלה (לפי מזהה שאלה). */
-export default {
+import { G5_ADDITIONS_SOLUTIONS } from '../g5AdditionsSolutions.js';
+
+const BASE = {
  "q-q-g5-fractions-adv-17": {
   "hints": [
    "כשהמכנים שווים — מחברים או מחסרים רק את המונים.",
@@ -5038,3 +5040,5 @@ export default {
   ]
  }
 };
+
+export default { ...BASE, ...G5_ADDITIONS_SOLUTIONS };

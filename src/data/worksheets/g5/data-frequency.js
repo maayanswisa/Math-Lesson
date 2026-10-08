@@ -13,7 +13,8 @@ function mode(data) {
   return modes[0];
 }
 
-const list = (data) => m`$${data.join(',\\;\\;')}$`;
+/** כל מספר — נוסחה נפרדת, כדי שרשימה ארוכה תישבר לשורות בטלפון. */
+const list = (data) => data.map((x) => m`$${x}$`).join(',  ');
 
 /** פיקטוגרם: כל שורה — תווית ומספר סמלים (אפשר חצאים). */
 function pictogram(rows) {
@@ -56,6 +57,26 @@ const PICKED = [
 ];
 
 const QUIZ_DATA = [7, 9, 8, 9, 10, 9, 7, 8, 9, 6];
+
+/** שכיחות יחסית באחוזים — חייבת לצאת שלמה. */
+function pct(part, total) {
+  const p = (part * 100) / total;
+  if (!Number.isInteger(p)) throw new Error(`${part}/${total} is not a whole percent`);
+  return p;
+}
+
+const TRIP = { ים: 10, הרים: 5, מדבר: 3, עיר: 2 };
+const TRIP_TOTAL = Object.values(TRIP).reduce((a, b) => a + b, 0);
+const tripTable = `<table style="direction:rtl"><tr>${Object.keys(TRIP).map((k) => `<th>${k}</th>`).join('')}</tr><tr>${Object.values(TRIP)
+  .map((v) => `<td>${v}</td>`)
+  .join('')}</tr></table>`;
+
+/** באיזו קבוצה השכיחות היחסית גבוהה יותר? */
+function whichGroup(q, [a, n], [b, k]) {
+  const x = a / n;
+  const y = b / k;
+  return { q, options: ["ה'1", "ה'2", 'שוות'], answer: x === y ? 2 : x > y ? 0 : 1 };
+}
 const QUIZ_CHART = { 'כחול': 8, 'אדום': 5, 'ירוק': 10, 'צהוב': 3 };
 
 export default {
@@ -83,6 +104,12 @@ export default {
 העמודה הגבוהה ביותר — הכמות הגדולה ביותר.`,
     },
     {
+      title: 'שכיחות יחסית',
+      md: m`איזה **חלק** מכל הנתונים: השכיחות **חלקי** מספר כל הנתונים — כשבר או כאחוז.
+
+$8$ מתוך $20$: $\;\frac{8}{20} = \frac{2}{5} = 40\%$. סכום כל השכיחויות היחסיות: $100\%$.`,
+    },
+    {
       title: 'פיקטוגרמה',
       md: m`כל סמל מייצג **כמות קבועה** (כתוב במקרא). חצי סמל = חצי מהכמות.
 
@@ -91,7 +118,7 @@ export default {
   ],
   pages: [
     {
-      title: 'טבלת שכיחויות ושכיח',
+      title: 'טבלת שכיחויות, שכיח ושכיחות יחסית',
       exercises: [
         {
           title: m`אלה מידות הנעליים של $${SHOES.length}$ ילדים בכיתה. השלימו את טבלת השכיחויות.`,
@@ -101,6 +128,7 @@ export default {
             ...[34, 35, 36, 37].map((v) => ({ q: m`מידה $${v}$: [[${count(SHOES, v)}]] ילדים` })),
             { q: m`בסך הכול: [[${SHOES.length}]] ילדים` },
             { q: m`השכיח (המידה הנפוצה ביותר): [[${mode(SHOES)}]]` },
+            { q: m`השכיחות היחסית של המידה השכיחה: [[f:${count(SHOES, mode(SHOES))}/${SHOES.length}]]` },
           ],
         },
         {
@@ -126,7 +154,7 @@ export default {
       ],
     },
     {
-      title: 'דיאגרמת עמודות ופיקטוגרמה',
+      title: 'דיאגרמות, פיקטוגרמה ושכיחות יחסית',
       exercises: [
         {
           title: 'הדיאגרמה מראה כמה ספרים קרא כל ילד בחופשה.',
@@ -148,6 +176,24 @@ export default {
             { q: 'כמה תפוחים נקטפו בשלושת הימים יחד?', a: m`[[${PICKED.reduce((s, r) => s + r.symbols * APPLE, 0)}]] תפוחים` },
           ],
         },
+        {
+          title: m`שאלנו $${TRIP_TOTAL}$ ילדים לאן הם רוצים לצאת לטיול. השלימו את השכיחות היחסית — כשבר וכאחוז.`,
+          figure: tripTable,
+          cols: 1,
+          items: [
+            ...Object.entries(TRIP).map(([k, v]) => ({ q: m`${k}: [[f:${v}/${TRIP_TOTAL}]] $=$ [[${pct(v, TRIP_TOTAL)}]] $\%$` })),
+            { q: m`סכום כל השכיחויות היחסיות: [[${Object.values(TRIP).reduce((s, v) => s + pct(v, TRIP_TOTAL), 0)}]] $\%$` },
+          ],
+        },
+        {
+          title: 'מהשכיחות היחסית לשכיחות, והשוואה בין קבוצות.',
+          cols: 1,
+          items: [
+            { q: m`בכיתה $40$ תלמידים, ו-$25\%$ מהם הולכים ברגל לבית הספר. כמה תלמידים הולכים ברגל?`, a: m`[[${(40 * 25) / 100}]] תלמידים` },
+            { q: m`$6$ תלמידים קיבלו $100$ במבחן, והשכיחות היחסית של הציון $100$ היא $\frac{1}{5}$. כמה תלמידים בכיתה?`, a: m`[[${6 * 5}]] תלמידים` },
+            whichGroup(m`בכיתה ה'1 מנגנים $6$ מתוך $24$ תלמידים, ובכיתה ה'2 — $8$ מתוך $40$. באיזו כיתה השכיחות היחסית של המנגנים גבוהה יותר?`, [6, 24], [8, 40]),
+          ],
+        },
       ],
     },
   ],
@@ -161,6 +207,7 @@ export default {
           { q: m`כמה תלמידים קיבלו $9$? [[${count(QUIZ_DATA, 9)}]]` },
           { q: m`כמה תלמידים קיבלו $7$? [[${count(QUIZ_DATA, 7)}]]` },
           { q: m`השכיח: [[${mode(QUIZ_DATA)}]]` },
+          { q: m`השכיחות היחסית של הציון $9$: [[${pct(count(QUIZ_DATA, 9), QUIZ_DATA.length)}]] $\%$` },
         ],
       },
       {

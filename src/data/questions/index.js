@@ -18,7 +18,7 @@ export const SPEED_RUN_POOL_SIZE = 500;
  * summing the array lengths in elementaryQuestions.js, middleSchoolQuestions.js,
  * highSchoolQuestions.js, and interactiveQuestions.js.
  */
-export const TOTAL_QUESTION_COUNT = 5150;
+export const TOTAL_QUESTION_COUNT = 5321;
 
 /**
  * Per-grade hand-written hints and step-by-step solutions, keyed by question id:
