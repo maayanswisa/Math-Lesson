@@ -13,9 +13,12 @@ describe('cheat sheets', () => {
     expect(await loadCheatSheet('not-a-topic')).toBeNull();
   });
 
-  it('every grade-11 4-unit topic has a cheat sheet', () => {
-    const missing = getAllTopicsForGrade(11)
-      .filter((t) => t.units === 4)
+  it.each([
+    [8, null],
+    [11, 4],
+  ])('every grade-%i topic (units: %s) has a cheat sheet', (grade, units) => {
+    const missing = getAllTopicsForGrade(grade)
+      .filter((t) => units == null || t.units === units)
       .map((t) => t.id)
       .filter((id) => !hasCheatSheet(id));
     expect(missing).toEqual([]);

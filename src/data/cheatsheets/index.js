@@ -3,6 +3,29 @@
  * התוכן נטען רק כשנכנסים לדף.
  */
 const LOADERS = {
+  // כיתה ח' — אלגברה
+  'g8-linear-fn': () => import('./g8-linear-fn.js'),
+  'g8-linear-eq-of-line': () => import('./g8-linear-eq-of-line.js'),
+  'g8-linear-inequalities': () => import('./g8-linear-inequalities.js'),
+  'g8-word-problems': () => import('./g8-word-problems.js'),
+  'g8-equations-system': () => import('./g8-equations-system.js'),
+  'g8-system-solutions': () => import('./g8-system-solutions.js'),
+  'g8-algebra-technique': () => import('./g8-algebra-technique.js'),
+  'g8-factoring': () => import('./g8-factoring.js'),
+  // כיתה ח' — תחום מספרי
+  'g8-ratio-proportion-scale': () => import('./g8-ratio-proportion-scale.js'),
+  'g8-percent': () => import('./g8-percent.js'),
+  'g8-stats-prob': () => import('./g8-stats-prob.js'),
+  'g8-irrational-numbers': () => import('./g8-irrational-numbers.js'),
+  // כיתה ח' — גאומטריה
+  'g8-congruence': () => import('./g8-congruence.js'),
+  'g8-triangle-median-isosceles': () => import('./g8-triangle-median-isosceles.js'),
+  'g8-exterior-angle': () => import('./g8-exterior-angle.js'),
+  'g8-similarity': () => import('./g8-similarity.js'),
+  'g8-pythagoras': () => import('./g8-pythagoras.js'),
+  'g8-pythagoras-3d': () => import('./g8-pythagoras-3d.js'),
+  'g8-circle': () => import('./g8-circle.js'),
+
   // י"א 4 יח"ל — חשבון דיפרנציאלי ואינטגרלי
   'g11-u4-precalc-rational': () => import('./g11-u4-precalc-rational.js'),
   'g11-u4-rational-transform': () => import('./g11-u4-rational-transform.js'),
