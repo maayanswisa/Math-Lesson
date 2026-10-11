@@ -1,10 +1,26 @@
 import { describe, expect, it } from 'vitest';
 import { BLOCK_TYPES } from '../../components/lesson/LessonBlock';
+import { findRtlIssues } from '../../lib/rtlMath.js';
 import { getAllTopicsForGrade, getTopicById } from '../curriculum/index.js';
 import { CHEATSHEET_TOPIC_IDS, hasCheatSheet, loadCheatSheet } from './index.js';
 
 /** מספר זוגי של $ (לא מוסתרים) — כל נוסחה נסגרת. */
 const balanced = (s) => (s.match(/(?<!\\)\$/g) || []).length % 2 === 0;
+
+/** כל הטקסטים שמוצגים בדף (שורות Markdown בלי סימן הרשימה, תאי טבלה, הערות לשלבים). */
+function sheetTexts(sheet) {
+  const texts = [sheet.title];
+  for (const section of sheet.sections) {
+    texts.push(section.title);
+    for (const block of section.blocks) {
+      if (block.title) texts.push(block.title);
+      if (block.md) texts.push(...block.md.split('\n').map((l) => l.replace(/^\s*(?:[-*]|\d+\.)\s+/, '')));
+      for (const step of block.steps ?? []) texts.push(`$${step.math}$`, step.note ?? '');
+      if (block.type === 'table') texts.push(...block.head, ...block.rows.flat());
+    }
+  }
+  return texts;
+}
 
 describe('cheat sheets', () => {
   it('finds registered sheets and nothing for unknown topics', async () => {
@@ -43,5 +59,11 @@ describe('cheat sheets', () => {
         }
       }
     }
+  });
+
+  it.each(CHEATSHEET_TOPIC_IDS)('%s reads correctly right-to-left', async (topicId) => {
+    const texts = sheetTexts(await loadCheatSheet(topicId));
+    const bad = texts.map((t) => [t, findRtlIssues(t)]).filter(([, issues]) => issues.length);
+    expect(bad).toEqual([]);
   });
 });
