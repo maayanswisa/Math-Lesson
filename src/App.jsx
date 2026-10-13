@@ -19,6 +19,7 @@ const SearchPage = lazy(() => import('./pages/SearchPage'));
 const FormulasPage = lazy(() => import('./pages/FormulasPage'));
 const CalculatorTipsPage = lazy(() => import('./pages/CalculatorTipsPage'));
 const CheatSheetPage = lazy(() => import('./pages/CheatSheetPage'));
+const FunctionExplorerPage = lazy(() => import('./pages/FunctionExplorerPage'));
 
 function PageLoading() {
   return (
@@ -61,6 +62,10 @@ export default function App() {
                   <span aria-hidden="true">🔍</span>
                   <span className="hidden sm:inline"> חיפוש</span>
                 </Link>
+                <Link to="/functions" className="shrink-0 whitespace-nowrap hover:text-[var(--color-teal)]" aria-label="סייר הפונקציות">
+                  <span aria-hidden="true">📈</span>
+                  <span className="hidden sm:inline"> פונקציות</span>
+                </Link>
                 <Link to="/calculator" className="shrink-0 whitespace-nowrap hover:text-[var(--color-teal)]" aria-label="טיפים למחשבון">
                   <span aria-hidden="true">🧮</span>
                   <span className="hidden sm:inline"> טיפים למחשבון</span>
@@ -86,6 +91,7 @@ export default function App() {
                 <Route path="/parent" element={<ParentDashboardPage />} />
                 <Route path="/search" element={<SearchPage />} />
                 <Route path="/calculator" element={<CalculatorTipsPage />} />
+                <Route path="/functions" element={<FunctionExplorerPage />} />
                 <Route path="/cheatsheet/:topicId" element={<CheatSheetPage />} />
                 <Route path="/formulas/:grade" element={<FormulasPage />} />
                 <Route path="/formulas/:grade/units/:units" element={<FormulasPage />} />
