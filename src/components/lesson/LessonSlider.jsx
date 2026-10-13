@@ -12,6 +12,7 @@ export default function LessonSlider({
   suffix = '',
   width = 'w-10',
   display,
+  ariaLabel,
 }) {
   return (
     <label className="flex items-center gap-2 text-sm font-semibold">
@@ -26,6 +27,8 @@ export default function LessonSlider({
         step={step}
         value={value}
         onChange={(e) => onChange(Number(e.target.value))}
+        aria-label={ariaLabel}
+        aria-valuetext={`${display ?? fmt(value)}${suffix}`}
         className="w-full"
         style={{ accentColor: color }}
       />
