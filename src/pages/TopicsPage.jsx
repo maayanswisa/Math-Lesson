@@ -7,6 +7,7 @@ import { getWorksheetTopics, hasWorksheet, worksheetsHref } from '../data/worksh
 import { hasCheatSheet } from '../data/cheatsheets';
 import { accentFor } from '../lib/palette';
 import { formulasHref } from '../lib/formulaLinks';
+import PrintSheetsBanner from '../components/ui/PrintSheetsBanner';
 
 export default function TopicsPage() {
   const { grade, units, track } = useParams();
@@ -107,6 +108,8 @@ export default function TopicsPage() {
           <span className="hidden text-sm font-bold text-[var(--color-sky-dark)] transition group-hover:-translate-x-1 sm:inline">לדפי העבודה ←</span>
         </Link>
       )}
+
+      <PrintSheetsBanner grade={gradeNum} />
 
       {topics.length === 0 ? (
         <p className="rounded-2xl bg-white/80 p-8 text-[var(--color-slate)] ring-1 ring-black/5">

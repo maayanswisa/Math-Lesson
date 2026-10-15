@@ -7,6 +7,7 @@ import {
   hasDirectTopics,
 } from '../data/curriculum';
 import { accentFor } from '../lib/palette';
+import PrintSheetsBanner from '../components/ui/PrintSheetsBanner';
 
 export default function UnitsPage() {
   const { grade } = useParams();
@@ -51,6 +52,7 @@ export default function UnitsPage() {
             );
           })}
         </div>
+        <PrintSheetsBanner grade={gradeNum} />
       </div>
     );
   }
