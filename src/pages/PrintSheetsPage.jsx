@@ -31,14 +31,19 @@ function FileButtons({ href, download, accent }) {
 }
 
 export default function PrintSheetsPage() {
-  const { grade } = useParams();
+  const { grade, units } = useParams();
   const gradeNum = Number(grade);
-  const label = GRADE_LABELS[gradeNum] ?? grade;
-  const sheets = getPrintSheets(gradeNum);
+  const unitsNum = units != null ? Number(units) : null;
+  const label = (GRADE_LABELS[gradeNum] ?? grade) + (unitsNum ? ` · ${unitsNum} יח״ל` : '');
+  const sheets = getPrintSheets(gradeNum, unitsNum);
 
   if (sheets.length === 0) return <Navigate to={`/grade/${gradeNum}`} replace />;
 
-  const backHref = hasDirectTopics(gradeNum) ? `/grade/${gradeNum}/topics` : `/grade/${gradeNum}`;
+  const backHref = unitsNum
+    ? `/grade/${gradeNum}/units/${unitsNum}`
+    : hasDirectTopics(gradeNum)
+      ? `/grade/${gradeNum}/topics`
+      : `/grade/${gradeNum}`;
   const booklets = [
     {
       kind: 'student',
@@ -91,7 +96,7 @@ export default function PrintSheetsPage() {
                   <p className="text-sm text-[var(--color-slate)]">{b.text}</p>
                 </div>
               </div>
-              <FileButtons href={bookletFile(gradeNum, b.kind)} download={fileName(`${b.title} - כיתה ${label}`)} accent={accent} />
+              <FileButtons href={bookletFile(gradeNum, b.kind, unitsNum)} download={fileName(`${b.title} - כיתה ${label}`)} accent={accent} />
             </div>
           );
         })}
@@ -118,7 +123,7 @@ export default function PrintSheetsPage() {
                 </div>
                 <h3 className="mt-2 text-lg font-semibold text-[var(--color-ink)]">{s.title}</h3>
                 <p className="mt-1.5 flex-1 text-sm leading-relaxed text-[var(--color-slate)]">{s.topics.join(' · ')}</p>
-                <FileButtons href={sheetFile(gradeNum, s.no)} download={fileName(`דף ${s.no} - ${s.title}`)} accent={accent} />
+                <FileButtons href={sheetFile(gradeNum, s.no, unitsNum)} download={fileName(`דף ${s.no} - ${s.title}`)} accent={accent} />
               </li>
             );
           })}
