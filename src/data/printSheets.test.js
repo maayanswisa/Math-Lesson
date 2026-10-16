@@ -5,8 +5,8 @@ import { PRINT_SHEET_GRADES, bookletFile, getPrintSheets, hasPrintSheets, printS
 const publicPath = (href) => new URL(`../../public${href}`, import.meta.url);
 
 describe('printable sheets', () => {
-  it('lists numbered sheets for grades 5, 7, 8 and 9', () => {
-    expect(PRINT_SHEET_GRADES).toEqual([5, 7, 8, 9]);
+  it('lists numbered sheets for grades 3 to 9', () => {
+    expect(PRINT_SHEET_GRADES).toEqual([3, 4, 5, 6, 7, 8, 9]);
     for (const g of PRINT_SHEET_GRADES) {
       const sheets = getPrintSheets(g);
       expect(sheets.map((s) => s.no)).toEqual(sheets.map((_, i) => i + 1));
@@ -15,8 +15,8 @@ describe('printable sheets', () => {
         expect(s.tag).toBeTruthy();
       }
     }
-    expect(hasPrintSheets(6)).toBe(false);
-    expect(getPrintSheets(6)).toEqual([]);
+    expect(hasPrintSheets(2)).toBe(false);
+    expect(getPrintSheets(2)).toEqual([]);
     expect(printSheetsHref(9)).toBe('/grade/9/print-sheets');
   });
 
