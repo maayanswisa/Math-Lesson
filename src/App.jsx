@@ -108,6 +108,7 @@ export default function App() {
                 <Route path="/grade/:grade/track/:track/worksheets" element={<WorksheetsPage />} />
                 <Route path="/worksheet/:topicId" element={<WorksheetPage />} />
                 <Route path="/grade/:grade/print-sheets" element={<PrintSheetsPage />} />
+                <Route path="/grade/:grade/units/:units/print-sheets" element={<PrintSheetsPage />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </Suspense>

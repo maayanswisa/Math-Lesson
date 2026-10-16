@@ -109,7 +109,7 @@ export default function TopicsPage() {
         </Link>
       )}
 
-      <PrintSheetsBanner grade={gradeNum} />
+      <PrintSheetsBanner grade={gradeNum} units={unitsNum} />
 
       {topics.length === 0 ? (
         <p className="rounded-2xl bg-white/80 p-8 text-[var(--color-slate)] ring-1 ring-black/5">
