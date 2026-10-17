@@ -1,5 +1,6 @@
 /** כיתה 11 — רמזים ופתרון מלא צעד אחר צעד לכל שאלה (לפי מזהה שאלה). */
 import { G11U4_CALCULUS_SOLUTIONS } from '../g11u4CalculusSolutions.js';
+import { G11U4_GEOMETRY_SOLUTIONS } from '../g11u4GeometrySolutions.js';
 
 const BASE = {
  "q-q-g11-u4-analytic-circle-1": {
@@ -4940,4 +4941,4 @@ const BASE = {
  }
 };
 
-export default { ...BASE, ...G11U4_CALCULUS_SOLUTIONS };
+export default { ...BASE, ...G11U4_CALCULUS_SOLUTIONS, ...G11U4_GEOMETRY_SOLUTIONS };

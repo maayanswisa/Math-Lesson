@@ -20,7 +20,7 @@ describe('printable sheets', () => {
     expect(getPrintSheets(2)).toEqual([]);
     expect(hasPrintSheets(11)).toBe(false);
     expect(hasPrintSheets(11, 5)).toBe(false);
-    expect(getPrintSheets(11, 4).length).toBe(20);
+    expect(getPrintSheets(11, 4).length).toBe(22);
     expect(printSheetsHref(9)).toBe('/grade/9/print-sheets');
     expect(printSheetsHref(11, 4)).toBe('/grade/11/units/4/print-sheets');
   });
