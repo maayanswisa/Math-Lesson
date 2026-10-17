@@ -95,6 +95,37 @@ export default {
       },
     },
     {
+      id: 'params',
+      emoji: '🔤',
+      title: 'פרמטרים ומרובעים',
+      blocks: [
+        {
+          type: 'steps',
+          title: m`$AB=k$, $\angle A=45°$, $\angle C=30°$. מה $BC$?`,
+          steps: [
+            { math: m`\frac{BC}{\sin45°}=\frac{k}{\sin30°}`, note: 'BC מול A, ו-AB מול C.' },
+            { math: m`BC=\frac{k\cdot\frac{\sqrt2}{2}}{\frac12}=${c(GREEN, 'k\\sqrt2')}`, note: 'מבודדים את BC — והפרמטר נשאר בתשובה.' },
+          ],
+        },
+        {
+          type: 'card',
+          tone: 'tip',
+          title: 'במרובע — מחלקים למשולשים',
+          md: m`מעבירים **אלכסון**, ומקבלים שני משולשים. מוצאים את האלכסון במשולש אחד, ומשתמשים בו בתור **צלע משותפת** במשולש השני.
+
+דוגמה: $AD=5$, $\angle ABD=30°$, $\angle BAD=100°$, ולכן $BD=\frac{5\sin100°}{\sin30°}\approx9.85$. אם במשולש $BCD$ נתון $\angle DBC=40°$ ו-$\angle BCD=70°$, אז $CD=\frac{9.85\sin40°}{\sin70°}\approx6.74$.`,
+        },
+      ],
+      challenge: {
+        type: 'choice',
+        prompt: m`במשולש $\angle A=30°$, $\angle B=90°$, ו-$BC=a$. מהו $AC$?`,
+        options: [m`$2a$`, m`$\frac a2$`, m`$a\sqrt3$`, m`$\frac{a}{\sqrt3}$`],
+        answer: 0,
+        hint: m`$AC$ מול $\angle B$, ו-$BC$ מול $\angle A$.`,
+        explain: m`$\frac{AC}{\sin90°}=\frac{a}{\sin30°}\Rightarrow AC=\frac{a}{0.5}=2a$.`,
+      },
+    },
+    {
       id: 'boss',
       emoji: '🏆',
       title: 'שלב הבוס: מקבילית',
