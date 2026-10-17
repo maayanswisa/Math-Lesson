@@ -1,6 +1,15 @@
 import { Link, Navigate, useParams } from 'react-router-dom';
 import { GRADE_LABELS, hasDirectTopics } from '../data/curriculum';
-import { bookletFile, getPrintSheets, sheetFile } from '../data/printSheets';
+import {
+  bookletFile,
+  getPrintSheets,
+  getTopicSeries,
+  sheetFile,
+  topicBookletFile,
+  topicSeriesForGrade,
+  topicSeriesHref,
+  topicSheetFile,
+} from '../data/printSheets';
 import { accentFor } from '../lib/palette';
 
 /** שם קובץ להורדה — בלי תווים שאסורים בשמות קבצים */
@@ -30,20 +39,57 @@ function FileButtons({ href, download, accent }) {
   );
 }
 
-export default function PrintSheetsPage() {
-  const { grade, units } = useParams();
+/**
+ * מה העמוד מציג: דפי הכיתה (ורמת היחידות) — /grade/:grade/print-sheets — או סדרה לפי נושא — /print-sheets/:series.
+ * מחזיר null כשאין דפים (ואז מפנים חזרה).
+ */
+function useSheetsView() {
+  const { grade, units, series } = useParams();
+  if (series) {
+    const s = getTopicSeries(series);
+    if (!s) return null;
+    return {
+      heading: `${s.emoji} ${s.title} · דפי תרגילים להדפסה`,
+      intro: `${s.intro} ${s.sheets.length} דפי עבודה; כל דף: שני עמודי תרגול ועמוד תשובות.`,
+      backHref: '/',
+      backLabel: '← לדף הבית',
+      sheets: s.sheets,
+      sheetHref: (no) => topicSheetFile(s.key, no),
+      bookletHref: (kind) => topicBookletFile(s.key, kind),
+      downloadSuffix: s.title,
+      related: [],
+    };
+  }
   const gradeNum = Number(grade);
   const unitsNum = units != null ? Number(units) : null;
   const label = (GRADE_LABELS[gradeNum] ?? grade) + (unitsNum ? ` · ${unitsNum} יח״ל` : '');
   const sheets = getPrintSheets(gradeNum, unitsNum);
+  if (sheets.length === 0) return null;
+  return {
+    heading: `כיתה ${label} · דפי תרגילים להדפסה`,
+    intro: `${sheets.length} דפי עבודה לפי תכנית הלימודים של משרד החינוך. כל דף: שני עמודי תרגול ועמוד תשובות.`,
+    backHref: unitsNum
+      ? `/grade/${gradeNum}/units/${unitsNum}`
+      : hasDirectTopics(gradeNum)
+        ? `/grade/${gradeNum}/topics`
+        : `/grade/${gradeNum}`,
+    backLabel: '← חזרה לנושאים',
+    sheets,
+    sheetHref: (no) => sheetFile(gradeNum, no, unitsNum),
+    bookletHref: (kind) => bookletFile(gradeNum, kind, unitsNum),
+    downloadSuffix: `כיתה ${label}`,
+    // סדרות לפי נושא שמתאימות לכיתה — מוצגות ליד דפי הכיתה
+    related: unitsNum ? [] : topicSeriesForGrade(gradeNum),
+  };
+}
 
-  if (sheets.length === 0) return <Navigate to={`/grade/${gradeNum}`} replace />;
+export default function PrintSheetsPage() {
+  const { grade } = useParams();
+  const view = useSheetsView();
 
-  const backHref = unitsNum
-    ? `/grade/${gradeNum}/units/${unitsNum}`
-    : hasDirectTopics(gradeNum)
-      ? `/grade/${gradeNum}/topics`
-      : `/grade/${gradeNum}`;
+  if (!view) return <Navigate to={grade ? `/grade/${Number(grade)}` : '/'} replace />;
+
+  const { sheets } = view;
   const booklets = [
     {
       kind: 'student',
@@ -62,15 +108,11 @@ export default function PrintSheetsPage() {
   return (
     <div className="space-y-8" dir="rtl">
       <div>
-        <Link to={backHref} className="text-sm text-[var(--color-teal)] hover:underline">
-          ← חזרה לנושאים
+        <Link to={view.backHref} className="text-sm text-[var(--color-teal)] hover:underline">
+          {view.backLabel}
         </Link>
-        <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl text-[var(--color-ink)]">
-          כיתה {label} · דפי תרגילים להדפסה
-        </h1>
-        <p className="mt-2 text-[var(--color-slate)]">
-          {sheets.length} דפי עבודה לפי תכנית הלימודים של משרד החינוך. כל דף: שני עמודי תרגול ועמוד תשובות.
-        </p>
+        <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl text-[var(--color-ink)]">{view.heading}</h1>
+        <p className="mt-2 text-[var(--color-slate)]">{view.intro}</p>
         <div className="mt-3 flex flex-wrap gap-2 text-xs font-semibold">
           <span className="rounded-full bg-white px-3 py-1 text-[var(--color-sky-dark)] ring-1 ring-[var(--color-sky)]/30">🖨️ מוכן להדפסה, A4</span>
           <span className="rounded-full bg-[#fff8e1] px-3 py-1 text-[var(--color-sunshine-dark)] ring-1 ring-[var(--color-sunshine)]/40">⭐ שלוש רמות קושי</span>
@@ -96,11 +138,39 @@ export default function PrintSheetsPage() {
                   <p className="text-sm text-[var(--color-slate)]">{b.text}</p>
                 </div>
               </div>
-              <FileButtons href={bookletFile(gradeNum, b.kind, unitsNum)} download={fileName(`${b.title} - כיתה ${label}`)} accent={accent} />
+              <FileButtons href={view.bookletHref(b.kind)} download={fileName(`${b.title} - ${view.downloadSuffix}`)} accent={accent} />
             </div>
           );
         })}
       </section>
+
+      {view.related.length > 0 && (
+        <section className="space-y-3">
+          <h2 className="inline-block rounded-full bg-[var(--color-mist)] px-4 py-1.5 text-sm font-bold text-[var(--color-ink)]">
+            עוד דפים לפי נושא
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {view.related.map((s) => (
+              <Link
+                key={s.key}
+                to={topicSeriesHref(s.key)}
+                className="group flex items-center gap-4 rounded-2xl bg-white p-5 shadow-sm ring-2 ring-[var(--color-violet)]/25 transition hover:-translate-y-0.5 hover:shadow-lg hover:ring-[var(--color-violet)]/50"
+              >
+                <span aria-hidden="true" className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[var(--color-violet)]/12 text-2xl">
+                  {s.emoji}
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span className="block text-lg font-bold text-[var(--color-ink)]">{s.title}</span>
+                  <span className="block text-sm text-[var(--color-slate)]">
+                    {s.sheets.length} דפים, מכיתה {GRADE_LABELS[s.grades[0]]} עד כיתה {GRADE_LABELS[s.grades[s.grades.length - 1]]} · חוברת לתלמיד וחוברת תשובות
+                  </span>
+                </span>
+                <span className="hidden text-sm font-bold text-[var(--color-violet-dark)] transition group-hover:-translate-x-1 sm:inline">לסדרה ←</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="space-y-4">
         <h2 className="inline-block rounded-full bg-[var(--color-mist)] px-4 py-1.5 text-sm font-bold text-[var(--color-ink)]">
@@ -123,7 +193,7 @@ export default function PrintSheetsPage() {
                 </div>
                 <h3 className="mt-2 text-lg font-semibold text-[var(--color-ink)]">{s.title}</h3>
                 <p className="mt-1.5 flex-1 text-sm leading-relaxed text-[var(--color-slate)]">{s.topics.join(' · ')}</p>
-                <FileButtons href={sheetFile(gradeNum, s.no, unitsNum)} download={fileName(`דף ${s.no} - ${s.title}`)} accent={accent} />
+                <FileButtons href={view.sheetHref(s.no)} download={fileName(`דף ${s.no} - ${s.title}`)} accent={accent} />
               </li>
             );
           })}
