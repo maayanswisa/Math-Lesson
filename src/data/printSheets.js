@@ -175,3 +175,56 @@ export function sheetFile(grade, no, units = null) {
 export function bookletFile(grade, kind, units = null) {
   return `/print-sheets/${folder(grade, units)}/${kind}.pdf`;
 }
+
+/**
+ * סדרות לפי נושא — דפי עבודה שמלווים נושא אחד לאורך כמה כיתות, באותו מבנה (שני עמודי תרגול ועמוד תשובות).
+ * הקבצים נמצאים ב-public/print-sheets/<מזהה>/ (NN.pdf, student.pdf, answers.pdf), והעמוד הוא /print-sheets/<מזהה>.
+ * תגית של דף — הכיתה שהוא מתאים לה.
+ */
+const TOPIC_SERIES = {
+  addition: {
+    title: 'חיבור: מהבסיס ועד רמה מתקדמת',
+    short: 'סדרת חיבור',
+    emoji: '➕',
+    grades: [1, 2, 3, 4],
+    intro: 'סדרה אחת שמלווה את החיבור מכיתה א\' ועד כיתה ד\': מחיבור עד 5 בעזרת תמונות, דרך השלמה לעשר וחיבור במאונך, ועד אתגרים ובעיות בכמה שלבים.',
+    sheets: [
+      { no: 1, title: 'חיבור עד 5', tag: "כיתה א'", topics: ['כמה יש בסך הכול?', 'קופצים על ישר המספרים', 'מספרים חברים', 'מה המספר החסר?'] },
+      { no: 2, title: 'חיבור עד 10', tag: "כיתה א'", topics: ['מסגרת עשר', 'סופרים מהמספר הגדול', 'השלימו את הסימן', 'לוח החיבור'] },
+      { no: 3, title: 'החברים של 10', tag: "כיתה א'", topics: ['כמה חסר ל-10?', 'חברו בקו', 'שלושה מחוברים', 'החברים של 100'] },
+      { no: 4, title: 'כפולים וכמעט כפולים', tag: "כיתה א'", topics: ['כפולים', 'כמעט כפולים: ועוד אחד, פחות אחד', 'טבלת הכפולים', 'כפולים גדולים'] },
+      { no: 5, title: 'חיבור עד 20: משלימים לעשר', tag: "כיתה א'", topics: ['שתי מסגרות עשר', 'קופצים לעשר, ואז ממשיכים', 'משלימים לעשר בכתב', 'לוח החיבור'] },
+      { no: 6, title: 'עשרות ויחידות: חיבור עד 100', tag: "כיתה ב'", topics: ['קוביות בסיס עשר', 'עשרות שלמות', 'קופצים בעשרות', 'עשרות לעשרות, יחידות ליחידות'] },
+      { no: 7, title: 'חיבור עד 100 עם מעבר עשרת', tag: "כיתה ב'", topics: ['משלימים לעשרת', 'מפרקים את המחובר השני', 'מעגלים ומתקנים', 'מה המספר החסר?'] },
+      { no: 8, title: 'חיבור במאונך עד 100', tag: "כיתה ב'", topics: ['בלי העברה', 'עם העברה', 'שלושה מחוברים', 'מצאו את הספרה החסרה'] },
+      { no: 9, title: 'חיבור עד 1,000', tag: "כיתה ב'", topics: ['חשבו בעל-פה', 'מאות, עשרות ויחידות', 'חשבו במאונך', 'אומדן'] },
+      { no: 10, title: 'חיבור עד 10,000 ובמספרים גדולים', tag: "כיתה ג'", topics: ['חשבו בעל-פה', 'חשבו במאונך', 'השלימו ל-10,000', 'מספרים גדולים'] },
+      { no: 11, title: 'חוקי החיבור וחישוב בדרך נוחה', tag: "כיתה ג'", topics: ['חוק החילוף וחוק הקיבוץ', 'חשבו בדרך נוחה', 'ריבועי קסם', 'פירמידות חיבור'] },
+      { no: 12, title: 'אתגרי חיבור', tag: "כיתה ד'", topics: ['ספרות חסרות', 'חידות מספרים', 'בעיות בכמה שלבים', 'פירמידה וריבוע קסם'] },
+    ],
+  },
+};
+
+/** סדרה לפי נושא לפי המזהה שלה ({ key, title, short, emoji, grades, intro, sheets }), או null. */
+export function getTopicSeries(key) {
+  return Object.hasOwn(TOPIC_SERIES, key) ? { key, ...TOPIC_SERIES[key] } : null;
+}
+
+export const TOPIC_SERIES_KEYS = Object.keys(TOPIC_SERIES);
+
+/** הסדרות לפי נושא שמתאימות לכיתה (בחטיבה העליונה אין). */
+export function topicSeriesForGrade(grade) {
+  return TOPIC_SERIES_KEYS.map(getTopicSeries).filter((s) => s.grades.includes(Number(grade)));
+}
+
+export function topicSeriesHref(key) {
+  return `/print-sheets/${key}`;
+}
+
+export function topicSheetFile(key, no) {
+  return `/print-sheets/${key}/${pad(no)}.pdf`;
+}
+
+export function topicBookletFile(key, kind) {
+  return `/print-sheets/${key}/${kind}.pdf`;
+}

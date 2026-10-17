@@ -1,6 +1,20 @@
 import fs from 'node:fs';
 import { describe, it, expect } from 'vitest';
-import { PRINT_SHEET_GRADES, PRINT_SHEET_SERIES, bookletFile, getPrintSheets, hasPrintSheets, printSheetsHref, sheetFile } from './printSheets.js';
+import {
+  PRINT_SHEET_GRADES,
+  PRINT_SHEET_SERIES,
+  TOPIC_SERIES_KEYS,
+  bookletFile,
+  getPrintSheets,
+  getTopicSeries,
+  hasPrintSheets,
+  printSheetsHref,
+  sheetFile,
+  topicBookletFile,
+  topicSeriesForGrade,
+  topicSeriesHref,
+  topicSheetFile,
+} from './printSheets.js';
 
 const publicPath = (href) => new URL(`../../public${href}`, import.meta.url);
 
@@ -32,5 +46,27 @@ describe('printable sheets', () => {
     }
     expect(sheetFile(7, 3)).toBe('/print-sheets/g7/03.pdf');
     expect(sheetFile(11, 3, 4)).toBe('/print-sheets/g11-4u/03.pdf');
+  });
+
+  it('lists topic series (sheets that span grades) with numbered sheets and their PDFs', () => {
+    expect(TOPIC_SERIES_KEYS).toContain('addition');
+    for (const key of TOPIC_SERIES_KEYS) {
+      const s = getTopicSeries(key);
+      expect(s.title && s.short && s.emoji && s.intro).toBeTruthy();
+      expect(s.sheets.map((x) => x.no)).toEqual(s.sheets.map((_, i) => i + 1));
+      for (const sheet of s.sheets) expect(sheet.title && sheet.tag && sheet.topics.length).toBeTruthy();
+      for (const href of [...s.sheets.map((x) => topicSheetFile(key, x.no)), topicBookletFile(key, 'student'), topicBookletFile(key, 'answers')]) {
+        expect(fs.existsSync(publicPath(href)), href).toBe(true);
+      }
+    }
+    expect(getTopicSeries('addition').sheets.length).toBe(12);
+    expect(getTopicSeries('nope')).toBeNull();
+    expect(getTopicSeries('constructor')).toBeNull();
+    expect(topicSeriesHref('addition')).toBe('/print-sheets/addition');
+    expect(topicSheetFile('addition', 3)).toBe('/print-sheets/addition/03.pdf');
+    // the addition series shows up for grades 1-4 only
+    expect(topicSeriesForGrade(1).map((s) => s.key)).toEqual(['addition']);
+    expect(topicSeriesForGrade(4).map((s) => s.key)).toEqual(['addition']);
+    expect(topicSeriesForGrade(5)).toEqual([]);
   });
 });
