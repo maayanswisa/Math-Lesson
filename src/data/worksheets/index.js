@@ -169,6 +169,13 @@ const LOADERS = {
   'g11-u4-function-investigation': () => import('./g11/function-investigation.js'),
   'g11-u4-absolute-extrema': () => import('./g11/absolute-extrema.js'),
   'g11-u4-extremum-space': () => import('./g11/extremum-space.js'),
+  // כיתה י״ב — 3 יח״ל
+  'g12-u3-normal': () => import('./g12/normal.js'),
+  'g12-u3-quadratic-model': () => import('./g12/quadratic-model.js'),
+  'g12-u3-linear-programming': () => import('./g12/linear-programming.js'),
+  'g12-u3-analytic-geo': () => import('./g12/analytic-geo.js'),
+  'g12-u3-solids': () => import('./g12/solids.js'),
+  'g12-u3-spatial-vision': () => import('./g12/spatial-vision.js'),
 };
 
 export const WORKSHEET_TOPIC_IDS = Object.keys(LOADERS);

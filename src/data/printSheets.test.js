@@ -19,8 +19,9 @@ import {
 const publicPath = (href) => new URL(`../../public${href}`, import.meta.url);
 
 describe('printable sheets', () => {
-  it('lists numbered sheets for grades 3 to 9 and for grade 11 (4 units)', () => {
-    expect(PRINT_SHEET_GRADES).toEqual([3, 4, 5, 6, 7, 8, 9, 11]);
+  it('lists numbered sheets for grades 3 to 9, grade 11 (4 units) and grade 12 (3 units)', () => {
+    expect(PRINT_SHEET_GRADES).toEqual([3, 4, 5, 6, 7, 8, 9, 11, 12]);
+    expect(PRINT_SHEET_SERIES).toContainEqual({ grade: 12, units: 3 });
     expect(PRINT_SHEET_SERIES).toContainEqual({ grade: 11, units: 4 });
     for (const { grade, units } of PRINT_SHEET_SERIES) {
       const sheets = getPrintSheets(grade, units);
@@ -37,6 +38,7 @@ describe('printable sheets', () => {
     expect(getPrintSheets(11, 4).length).toBe(22);
     expect(printSheetsHref(9)).toBe('/grade/9/print-sheets');
     expect(printSheetsHref(11, 4)).toBe('/grade/11/units/4/print-sheets');
+    expect(getPrintSheets(12, 3).length).toBe(6);
   });
 
   it('has a PDF in public/ for every sheet and both booklets', () => {
