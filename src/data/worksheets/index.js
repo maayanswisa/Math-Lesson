@@ -169,6 +169,18 @@ const LOADERS = {
   'g11-u4-function-investigation': () => import('./g11/function-investigation.js'),
   'g11-u4-absolute-extrema': () => import('./g11/absolute-extrema.js'),
   'g11-u4-extremum-space': () => import('./g11/extremum-space.js'),
+  // כיתה י״א — 3 יח״ל
+  'g11-u3-science-growth': () => import('./g11u3/science-growth.js'),
+  'g11-u3-science-stddev': () => import('./g11u3/science-stddev.js'),
+  'g11-u3-science-prob': () => import('./g11u3/science-prob.js'),
+  'g11-u3-science-exp': () => import('./g11u3/science-exp.js'),
+  'g11-u3-finance-growth': () => import('./g11u3/finance-growth.js'),
+  'g11-u3-finance-stats': () => import('./g11u3/finance-stats.js'),
+  'g11-u3-finance': () => import('./g11u3/finance.js'),
+  'g11-u3-space-ratio': () => import('./g11u3/space-ratio.js'),
+  'g11-u3-space-similarity': () => import('./g11u3/space-similarity.js'),
+  'g11-u3-space-trig': () => import('./g11u3/space-trig.js'),
+  'g11-u3-space': () => import('./g11u3/space.js'),
   // כיתה י״ב — 3 יח״ל
   'g12-u3-normal': () => import('./g12/normal.js'),
   'g12-u3-quadratic-model': () => import('./g12/quadratic-model.js'),
