@@ -82,6 +82,10 @@ import CubeViews from './CubeViews';
 import ConicSections from './ConicSections';
 import ComplexPlane from './ComplexPlane';
 import TessellationPoint from './TessellationPoint';
+import SolidParts from './SolidParts';
+import CylinderNet from './CylinderNet';
+import ConeSection from './ConeSection';
+import CylinderScale from './CylinderScale';
 
 /** בלוקים אינטראקטיביים שמקבלים את שדות הבלוק כמו שהם (props). */
 const VISUALS = {
@@ -164,6 +168,10 @@ const VISUALS = {
   cubeviews: CubeViews,
   conics: ConicSections,
   complex: ComplexPlane,
+  solidparts: SolidParts,
+  cylinder: CylinderNet,
+  cone: ConeSection,
+  cylscale: CylinderScale,
 };
 
 /** סוגי הבלוקים המוכרים — משמש גם את בדיקות התוכן. */

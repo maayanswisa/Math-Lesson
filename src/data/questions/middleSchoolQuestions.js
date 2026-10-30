@@ -1,6 +1,8 @@
 /** שאלות חט"ב */
 
-export const MIDDLE_SCHOOL_QUESTIONS = [
+import { G8_CYLINDER_CONE } from './g8CylinderCone.js';
+
+const BASE_QUESTIONS = [
   {
     "id": "q-g7-signed-1",
     "topic_id": "g7-signed",
@@ -20312,6 +20314,8 @@ export const MIDDLE_SCHOOL_QUESTIONS = [
     "explanation": "לפרבולה $y=x^2$ יש קודקוד (מינימום) ב-$(0,0)$; רק הישר $y=0$ (העובר דרך הקודקוד) נוגע בה בנקודה אחת בדיוק — לכל $k$ אחר יש $0$ או $2$ נקודות חיתוך."
   }
 ]
+export const MIDDLE_SCHOOL_QUESTIONS = [...BASE_QUESTIONS, ...G8_CYLINDER_CONE];
+
 export function getMiddleSchoolQuestionsForTopic(topicId) {
   return MIDDLE_SCHOOL_QUESTIONS.filter((q) => q.topic_id === topicId);
 }
