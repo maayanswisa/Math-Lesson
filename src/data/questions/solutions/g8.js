@@ -1,5 +1,7 @@
 /** כיתה 8 — רמזים ופתרון מלא צעד אחר צעד לכל שאלה (לפי מזהה שאלה). */
-export default {
+import { G8_CYLINDER_CONE_SOLUTIONS } from '../g8CylinderConeSolutions.js';
+
+const BASE = {
  "q-q-g8-linear-fn-1": {
   "hints": [
    "$f(2)$ — מציבים $x=2$ בכל מקום שבו מופיע $x$."
@@ -3653,3 +3655,5 @@ export default {
   ]
  }
 };
+
+export default { ...BASE, ...G8_CYLINDER_CONE_SOLUTIONS };

@@ -597,6 +597,26 @@ export const MIDDLE_SCHOOL_TOPICS = [
     ]
   },
   {
+    "id": "g8-cylinder-cone",
+    "grade": 8,
+    "units": null,
+    "track": null,
+    "cluster": "גאומטריה",
+    "title": "גליל וחרוט",
+    "description": "בסיסים, קודקוד, גובה ומעטפת; פריסת גליל, חתך צירי בחרוט, נפח ושטח פנים, ושינוי ממדים",
+    "sortOrder": 20,
+    "explanation": "<span class='hl-teal'>גליל</span> הוא גוף עם <span class='hl-teal'>שני בסיסים</span> — עיגולים שווים ומקבילים — ו<span class='hl-teal'>מעטפת</span> שמקיפה אותם. <span class='hl-teal'>חרוט</span> הוא גוף עם <span class='hl-teal'>בסיס</span> עגול אחד ו<span class='hl-teal'>קודקוד</span>. בשניהם <span class='hl-teal'>הגובה</span> מאונך לבסיס.\n\n<div class='diagram-box'>\n<svg viewBox='0 0 300 132' xmlns='http://www.w3.org/2000/svg' style='direction:ltr'>\n<circle cx='70' cy='18' r='16' fill='rgba(31,143,224,0.15)' stroke='#1f8fe0' stroke-width='2'/>\n<rect x='20' y='34' width='100' height='52' fill='rgba(13,110,110,0.12)' stroke='#0d6e6e' stroke-width='2'/>\n<circle cx='70' cy='102' r='16' fill='rgba(31,143,224,0.15)' stroke='#1f8fe0' stroke-width='2'/>\n<text x='70' y='64' text-anchor='middle' font-size='12' font-weight='700' fill='#c45c48'>2πr</text>\n<text x='126' y='64' font-size='12' font-weight='700' fill='#0d6e6e'>h</text>\n<ellipse cx='225' cy='108' rx='52' ry='15' fill='none' stroke='#0d6e6e' stroke-width='2'/>\n<polygon points='225,16 173,108 277,108' fill='rgba(196,92,72,0.25)' stroke='#c45c48' stroke-width='2'/>\n<line x1='225' y1='16' x2='225' y2='108' stroke='#7c4dcc' stroke-width='1.8' stroke-dasharray='4 3'/>\n<text x='230' y='70' font-size='12' font-weight='700' fill='#7c4dcc'>h</text>\n<text x='225' y='128' text-anchor='middle' font-size='12' font-weight='700' fill='#c45c48'>2r</text>\n</svg>\n</div>\n\n<span class='hl-teal'>פריסת גליל</span> היא שני עיגולים ומלבן: צלע אחת של המלבן היא הגובה $h$, והשנייה היא היקף הבסיס $2\\pi r$. מכאן שטח המעטפת $2\\pi rh$, ושטח הפנים — שני בסיסים ועוד המעטפת.\n\n<span class='hl-teal'>חתך צירי</span> של חרוט עובר דרך הקודקוד ומרכז הבסיס. הוא <span class='hl-coral'>משולש שווה-שוקיים</span> שבסיסו קוטר הבסיס $2r$ וגובהו גובה החרוט $h$, ולכן שטחו $r\\cdot h$. <span class='hl-coral'>נפח החרוט הוא שליש</span> מנפח הגליל שיש לו אותו בסיס ואותו גובה.\n\nכשמכפילים את כל הממדים של גליל פי $k$, שטח הפנים גדל פי $k^2$ והנפח פי $k^3$. בשינוי חיבורי אין \"פי\" קבוע — מחשבים לפני ואחרי.",
+    "keyFormulas": [
+      "נפח גליל $=$ $\\pi r^2\\cdot h$",
+      "שטח המעטפת של גליל $=$ $2\\pi r\\cdot h$ (היקף הבסיס $\\times$ הגובה)",
+      "שטח הפנים של גליל $=$ $2\\pi r^2+2\\pi rh$",
+      "נפח חרוט $=$ $\\dfrac{\\pi r^2\\cdot h}{3}$ (שליש מהגליל עם אותו בסיס וגובה)",
+      "שטח החתך הצירי של חרוט $=$ $r\\cdot h$ (משולש: בסיס $2r$, גובה $h$)",
+      "$1$ ליטר $=$ $1{,}000$ סמ\"ק",
+      "$r$ ו-$h$ פי $k$ ⇐ שטח הפנים פי $k^2$, הנפח פי $k^3$"
+    ]
+  },
+  {
     "id": "g8-linear-eq-of-line",
     "grade": 8,
     "units": null,

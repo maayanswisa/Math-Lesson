@@ -115,6 +115,7 @@ const LOADERS = {
   'g8-pythagoras': () => import('./g8/pythagoras.js'),
   'g8-pythagoras-3d': () => import('./g8/pythagoras-3d.js'),
   'g8-circle': () => import('./g8/circle.js'),
+  'g8-cylinder-cone': () => import('./g8/cylinder-cone.js'),
 
   'g9r-powers': () => import('./g9/powers.js'),
   'g9r-factor-expand': () => import('./g9/factor-expand.js'),
