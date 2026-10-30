@@ -19,6 +19,16 @@ const MODES = [
   { id: 'third', label: 'שליש מגליל' },
 ];
 
+/** תיבת תוצאה: השם בשורה אחת, והנוסחה בשורה משלה — בלי שבירה באמצע. */
+const Readout = ({ label, tex }) => (
+  <div className="rounded-xl p-2" style={{ backgroundColor: 'var(--color-mist)' }}>
+    <div className="font-bold">{label}</div>
+    <div className="whitespace-nowrap">
+      <MathRenderer inline>{`$${tex}$`}</MathRenderer>
+    </div>
+  </div>
+);
+
 /**
  * חרוט עם סליידרים לרדיוס ולגובה, בשני מצבים:
  * "חתך צירי" — המשולש שווה-השוקיים שבתוך החרוט, ולצידו אותו משולש פרוש עם המידות;
@@ -179,25 +189,13 @@ export default function ConeSection({ caption, r: r0 = 3, h: h0 = 6, mode: m0 = 
       <div className="mt-3 grid gap-1.5 text-sm sm:grid-cols-2">
         {mode === 'section' ? (
           <>
-            <div className="rounded-xl p-2" style={{ backgroundColor: 'var(--color-mist)' }}>
-              <span className="font-bold">שטח החתך הצירי: </span>
-              <MathRenderer inline>{`$\\frac{2r\\cdot h}{2}=r\\cdot h=${r * h}$`}</MathRenderer>
-            </div>
-            <div className="rounded-xl p-2" style={{ backgroundColor: 'var(--color-mist)' }}>
-              <span className="font-bold">נפח החרוט: </span>
-              <MathRenderer inline>{`$\\frac{\\pi r^2\\cdot h}{3}=${piTex(r * r * h, 3)}\\approx${approx((r * r * h) / 3)}$`}</MathRenderer>
-            </div>
+            <Readout label="שטח החתך הצירי" tex={`\\frac{2r\\cdot h}{2}=r\\cdot h=${r * h}`} />
+            <Readout label="נפח החרוט" tex={`\\frac{\\pi r^2\\cdot h}{3}=${piTex(r * r * h, 3)}\\approx${approx((r * r * h) / 3)}`} />
           </>
         ) : (
           <>
-            <div className="rounded-xl p-2" style={{ backgroundColor: 'var(--color-mist)' }}>
-              <span className="font-bold">נפח הגליל: </span>
-              <MathRenderer inline>{`$\\pi r^2\\cdot h=${piTex(r * r * h)}$`}</MathRenderer>
-            </div>
-            <div className="rounded-xl p-2" style={{ backgroundColor: 'var(--color-mist)' }}>
-              <span className="font-bold">נפח החרוט: </span>
-              <MathRenderer inline>{`$\\frac{\\pi r^2\\cdot h}{3}=${piTex(r * r * h, 3)}$`}</MathRenderer>
-            </div>
+            <Readout label="נפח הגליל" tex={`\\pi r^2\\cdot h=${piTex(r * r * h)}`} />
+            <Readout label="נפח החרוט" tex={`\\frac{\\pi r^2\\cdot h}{3}=${piTex(r * r * h, 3)}`} />
           </>
         )}
       </div>

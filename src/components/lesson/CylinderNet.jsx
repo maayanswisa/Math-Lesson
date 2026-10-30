@@ -92,8 +92,8 @@ export default function CylinderNet({ caption, r: r0 = 3, h: h0 = 5, open = 0 })
     ['היקף הבסיס', '2\\pi r', 2 * r, 'ס״מ'],
     ['שטח בסיס אחד', '\\pi r^2', r * r, 'סמ״ר'],
     ['שטח המעטפת', '2\\pi r\\cdot h', lateral, 'סמ״ר'],
-    ['שטח הפנים', '2\\pi r^2+2\\pi rh', total, 'סמ״ר'],
     ['נפח', '\\pi r^2\\cdot h', r * r * h, 'סמ״ק'],
+    ['שטח הפנים', '2\\pi r^2+2\\pi rh', total, 'סמ״ר'],
   ];
 
   return (
@@ -180,8 +180,10 @@ export default function CylinderNet({ caption, r: r0 = 3, h: h0 = 5, open = 0 })
             className={`rounded-xl p-2 text-sm ${i === readouts.length - 1 ? 'sm:col-span-2' : ''}`}
             style={{ backgroundColor: 'var(--color-mist)' }}
           >
-            <span className="font-bold text-[var(--color-ink)]">{name}: </span>
-            <MathRenderer inline>{`$${tex}=${piTex(coef)}\\approx${approx(coef)}$`}</MathRenderer> <span className="text-[var(--color-slate)]">{unit}</span>
+            <div className="font-bold text-[var(--color-ink)]">{name}</div>
+            <div className="whitespace-nowrap">
+              <MathRenderer inline>{`$${tex}=${piTex(coef)}\\approx${approx(coef)}$`}</MathRenderer> <span className="text-[var(--color-slate)]">{unit}</span>
+            </div>
           </div>
         ))}
       </div>
